@@ -1,7 +1,7 @@
 {
-  "etapa_atual": 9,
+  "etapa_atual": 10,
+  "pendencias": ["SPIVA: percentual 90,8% (10 anos, SPIVA Latin America Year-End 2025) corroborado por duas fontes jornalísticas independentes, não lido no documento primário (bloqueio HTTP 403 na S&P DJI) — marcado [VERIFICAR] visível em post.md"],
   "loops_consumidos": 0,
   "aprovacoes": [],
-  "pendencias": [],
   "commit_inicial": "c849656"
 }
