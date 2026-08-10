@@ -37,6 +37,17 @@ que olha as três juntas.
 6. **Frontmatter do `post.md`** — título, subtítulo, data, tags, status — está preenchido e
    coerente com o briefing (`01-briefing.md`)?
 
+7. **Manchete** (opcional — ver `references/tecnicas-narrativas.md`, "fórmula de manchete"):
+   o título testa a fórmula conceito+quebra-de-intuição+prática? Não é bloqueante — é
+   técnica a testar, não regra do guia de voz. Se aplicar bem, ótimo; se o título temático
+   atual já funciona, não force.
+
+8. **Achado enterrado — alarme, não correção.** Se o insight mais forte do post ainda
+   estiver no meio de um parágrafo neste ponto do pipeline, esta skill não reestrutura (não
+   é seu escopo, ver acima). Sinalize explicitamente no resumo da etapa 10 que a etapa 5
+   (crítica estrutural) deixou passar isso — é informação para o gate humano decidir se vale
+   reabrir a etapa 2, não uma correção silenciosa aqui.
+
 ## Saída
 
 Aplica as correções diretamente nos três entregáveis (`post.md`, `ilustracoes.md`,
