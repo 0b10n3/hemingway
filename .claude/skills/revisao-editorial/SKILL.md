@@ -22,9 +22,10 @@ que olha as três juntas.
 2. **Checklist de aderência à voz** (§9 de `estilo/estilo-autoral.md`, via skill
    `voz-syntaxis`) — os dez itens, um a um.
 
-3. **Zero `[VERIFICAR]` sem review humano.** Se `07-verificacao.md` deixou algum item aberto,
-   ele deve aparecer no `post.md` como `[VERIFICAR: ...]` visível — nunca silenciosamente
-   resolvido a favor de uma suposição.
+3. **Zero `[VERIFICAR]` ou `[FAIXA]` sem review humano.** Se `07-verificacao.md` deixou algum
+   item aberto (`[VERIFICAR: ...]`) ou marcou um número como intervalo mal representado como
+   ponto único (`[FAIXA: ...]`), ambos devem aparecer no `post.md` visíveis — nunca
+   silenciosamente resolvidos a favor de uma suposição ou do valor único original.
 
 4. **Placeholders consistentes entre os três entregáveis.** Todo `ilu-NN`/`graf-NN` citado em
    `post.md` tem bloco correspondente em `ilustracoes.md`/`graficos.md`, e vice-versa —

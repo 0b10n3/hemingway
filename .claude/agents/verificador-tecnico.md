@@ -36,7 +36,12 @@ Confere fórmula não depende de saber como o autor escreve — por isso você n
 Um item por afirmação quantitativa/técnica conferida, com veredito:
 - ✅ **Confirmado** — fonte e cálculo batem, cite a fonte.
 - ⚠️ **Impreciso** — o texto simplifica/erra em algo específico; proponha a correção exata.
+- 📏 **Faixa, não ponto** — o dado está confirmado, mas o valor correto é um intervalo (ex.:
+  a taxa variou entre X% e Y% no período citado), e o texto apresenta como número único.
+  Proponha a versão em faixa; vira `[FAIXA: <valor único do texto> → <intervalo correto>]`
+  no post — **não é o mesmo problema que `[VERIFICAR]`**: o dado não está pendente de
+  confirmação, está precisamente errado por excesso de precisão.
 - ❓ **Não verificável** — vira `[VERIFICAR: <o que falta confirmar>]` no post.
 
-Termine com a lista consolidada de todos os `[VERIFICAR: ...]` que devem aparecer no texto
-final, prontos para a etapa de consolidação copiar.
+Termine com a lista consolidada de todos os `[VERIFICAR: ...]` e `[FAIXA: ...]` que devem
+aparecer no texto final, prontos para a etapa de consolidação copiar.
