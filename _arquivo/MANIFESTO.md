@@ -45,6 +45,12 @@ em domínio público nos EUA (publicado antes de 1930); Gladwell recuperado de s
 Wayback Machine porque o site atual não mantém mais as páginas de arquivo com o texto
 integral (links de spam injetados no HTML arquivado foram removidos antes de salvar).
 
+## Transcrições de áudio
+
+| Arquivo | Conteúdo | Data | Origem |
+|---|---|---|---|
+| `transcricoes/2026-08-10_O_Mundo_Invertido_dos_Investimentos.md` | Ideia de post: equívoco de investidores iniciantes que começam por produtos de maior risco (day trade, derivativos) em vez de seguir uma progressão natural (crédito bancário/Tesouro → ETFs de renda fixa → fundos → ações → derivativos). Analogia central: mundo invertido de Stranger Things + preparação para corrida (5km → maratona → ultramaratona) | 2026-08-08 (gravação, conforme título interno `POST_MUNDO_INVERTIDO_20260808`) | Autoral (nota de voz do autor, ditada para orientar o post) |
+
 ## Documentos de contexto
 
 | Arquivo | Conteúdo | Uso |
