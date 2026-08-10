@@ -34,8 +34,16 @@ abaixo.
 | `amostras/admiradas/michael-lewis/Faking It Share full article.md` | Michael Lewis | "Faking It" | The New York Times Magazine | 2001-07-15 |
 | `amostras/admiradas/michael-lewis/Future Nerd Getting small.md` | Michael Lewis | "Future Nerd — Getting small, very, very small, with Xerox's Ralph Merkle" | Slate | 1998-05-28 |
 | `amostras/admiradas/michael-lewis/The Trading Desk Share.md` | Michael Lewis | "The Trading Desk" | The New York Times Magazine | 2003-03-30 |
-| `amostras/admiradas/ernest-hemingway/` | Ernest Hemingway | a preencher pela pesquisa da Fase 2 | a preencher | a preencher |
-| `amostras/admiradas/malcolm-gladwell/` | Malcolm Gladwell | a preencher pela pesquisa da Fase 2 | a preencher | a preencher |
+| `amostras/admiradas/ernest-hemingway/soldiers-home.md` | Ernest Hemingway | "Soldier's Home" (*In Our Time*, Boni & Liveright) | 1925 — domínio público nos EUA | Wikisource |
+| `amostras/admiradas/ernest-hemingway/the-battler.md` | Ernest Hemingway | "The Battler" (*In Our Time*, Boni & Liveright) | 1925 — domínio público nos EUA | Wikisource |
+| `amostras/admiradas/ernest-hemingway/big-two-hearted-river.md` | Ernest Hemingway | "Big Two-Hearted River" (Partes I e II, *In Our Time*, Boni & Liveright) | 1925 — domínio público nos EUA | Wikisource |
+| `amostras/admiradas/malcolm-gladwell/the-ketchup-conundrum.md` | Malcolm Gladwell | "The Ketchup Conundrum" | 2004-09-06, The New Yorker | gladwell.com via Wayback Machine (snapshot 2017; página original hoje devolve 404) |
+| `amostras/admiradas/malcolm-gladwell/something-borrowed.md` | Malcolm Gladwell | "Something Borrowed" | 2004-11-22, The New Yorker | gladwell.com via Wayback Machine (snapshot 2017; página original hoje devolve 404) |
+
+Recuperados por pesquisa dirigida em 2026-08-09. Hemingway priorizado por estar genuinamente
+em domínio público nos EUA (publicado antes de 1930); Gladwell recuperado de snapshots do
+Wayback Machine porque o site atual não mantém mais as páginas de arquivo com o texto
+integral (links de spam injetados no HTML arquivado foram removidos antes de salvar).
 
 ## Documentos de contexto
 
