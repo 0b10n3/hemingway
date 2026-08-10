@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+.claude/settings.local.json
+posts/*/figuras/*.tmp.*
+
+# Amostras admiradas: texto integral de terceiros protegido por copyright
+# (NYT, Slate, New Yorker etc.). REPO_PRIVADO = não -> nunca commitar o
+# texto-fonte. A extração (estilo/extracoes/admiradas/*.json) e a citação
+# (_arquivo/MANIFESTO.md) são commitadas normalmente; o corpo do artigo, não.
+# Decisão do usuário em 2026-08-09, Fase 0.
+_arquivo/amostras/admiradas/**/*.md
+_arquivo/amostras/admiradas/**/*.txt
+_arquivo/amostras/admiradas/**/*.html
+!_arquivo/amostras/admiradas/**/.gitkeep
