@@ -1,0 +1,305 @@
+{
+  "arquivo": "_arquivo/amostras/proprias/dissertacao/disser3.0.pdf",
+  "genero": "dissertacao",
+  "palavras": 18943,
+  "eixos": {
+    "lexico": [
+      {
+        "traco": "Campo semântico de teoria da probabilidade/medida em registro técnico-formal, sem popularização: 'medida de Radon', 'filtração', 'tempo de parada', 'martingal', 'processo cadlag', 'função característica', 'distribuição infinitamente divisível'.",
+        "frequencia": "sempre",
+        "ocorrencias": 40,
+        "evidencias": ["Uma medida de Radon em (Ω,F) é uma medida μ tal que para todo conjunto compacto B∈F", "chamada filtração natural (ou histórico)"],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Todo termo técnico é introduzido por Definição numerada antes de ser usado livremente no texto — nunca pressupõe vocabulário sem defini-lo primeiro.",
+        "frequencia": "sempre",
+        "ocorrencias": 25,
+        "evidencias": ["Definição 1.1.1 (Espaço de Probabilidade). Um espaço de probabilidade é uma tripla (Ω,F,P)"],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Estrangeirismos técnicos mantidos sem tradução, marcados em itálico (cadlag, drift).",
+        "frequencia": "frequente",
+        "ocorrencias": 10,
+        "evidencias": ["As funções pertencentes ao conjunto D são chamadas funções cadlag", "O parâmetro σ é conhecido como parâmetro de drift"],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Conectivos lógico-dedutivos como palavras-assinatura recorrentes: 'Segue que', 'Portanto', 'Assim', 'De fato', 'Observamos que'.",
+        "frequencia": "sempre",
+        "ocorrencias": 80,
+        "evidencias": ["Segue que a solução da equação funcional é do tipo", "Portanto conclui-se a demonstração"],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Primeira pessoa do plural de modéstia acadêmica ('nós', 'nosso', 'apresentamos'); evita primeira pessoa do singular e coloquialismo.",
+        "frequencia": "sempre",
+        "ocorrencias": 20,
+        "evidencias": ["Neste trabalho procuramos apresentar uma introdução ao estudo dos processos de Lévy", "Nosso objetivo agora será encontrar uma mudança na escala do tempo"],
+        "contraexemplo": ""
+      }
+    ],
+    "sintaxe": [
+      {
+        "traco": "Enunciados de definições/teoremas em período único, longo, com subordinação condicional em cascata ('Sejam... tal que... Então...').",
+        "frequencia": "sempre",
+        "ocorrencias": 30,
+        "evidencias": ["Sejam (Ω,F,P) um espaço de probabilidade equipado com uma filtração (Ft)t≥0. Um processo cadlag (Xt)t≥0 é dito ser uma martingal se"],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Fora dos enunciados formais, frases curtas e diretas de coordenação simples no texto expositivo (introdução, transições).",
+        "frequencia": "frequente",
+        "ocorrencias": 15,
+        "evidencias": ["Mercados financeiros são objetos de estudo dos matemáticos a muito tempo."],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Frase curtíssima como marcador de fechamento/ênfase lógica dentro de uma prova ('O que é um absurdo.', 'O que é impossível.').",
+        "frequencia": "ocasional",
+        "ocorrencias": 6,
+        "evidencias": ["O que é uma contradição. Concluímos assim a demonstração do item 2 da proposição.", "O que é impossível."],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Estrutura hipotético-dedutiva explícita 'Se... então' articulando quase todo raciocínio de prova.",
+        "frequencia": "sempre",
+        "ocorrencias": 25,
+        "evidencias": ["Se A conter uma quantidade infinita de pontos, então existe uma sequência"],
+        "contraexemplo": ""
+      }
+    ],
+    "pontuacao": [
+      {
+        "traco": "Dois-pontos ou verbo terminado em ':' para introduzir fórmula em display ou lista de condições.",
+        "frequencia": "sempre",
+        "ocorrencias": 40,
+        "evidencias": ["Chegamos assim a", "então diremos que T é um tempo de parada. Mais precisamente:"],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Listas numeradas (1., 2., 3.) para condições de definições/hipóteses, quase nunca listas com marcadores de prosa corrida.",
+        "frequencia": "frequente",
+        "ocorrencias": 20,
+        "evidencias": ["1. (Tn)n≥1 são tempos de parada. 2. Yn é FTn- mensurável."],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Marcador visual de fim de prova (quadrado □) ao final de toda Demonstração — convenção tipográfica fixa.",
+        "frequencia": "sempre",
+        "ocorrencias": 30,
+        "evidencias": ["Concluímos assim a demonstração do teorema. □"],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Citação bibliográfica entre parênteses no padrão (AUTOR, ano) inserida na prosa corrida.",
+        "frequencia": "frequente",
+        "ocorrencias": 15,
+        "evidencias": ["veja (PROTTER, 2004) Capítulo 1 Teorema 39", "seguindo o apresentado por (TANKOV, 2003)"],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Ausência quase total de travessão; parênteses reservados a citações/observações técnicas breves, não a digressões longas.",
+        "frequencia": "evita",
+        "ocorrencias": 0,
+        "evidencias": ["(comumente chamados na literatura matemática do século passado de processos aditivos)"],
+        "contraexemplo": ""
+      }
+    ],
+    "arquitetura": [
+      {
+        "traco": "Introdução abre com dado histórico/contextual (não com tese nem pergunta retórica): cita autor, data e obra fundacional antes de situar o problema.",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": ["Historicamente um dos primeiros trabalhos nesta direção foi a tese doutoral de Louis Jean-Baptiste Alphonse Bachelier"],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Estrutura rígida e repetida Definição/Proposição/Teorema/Demonstração/Corolário/Exemplo, numerados por capítulo.seção.item.",
+        "frequencia": "sempre",
+        "ocorrencias": 50,
+        "evidencias": ["Teorema 3.4.1 (Lévy-Itô). Sejam (Xt)t≥0 um processo de Lévy em Rd e ν sua medida de Lévy associada. Então"],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Cada capítulo abre com parágrafo de orientação metadiscursivo que anuncia o que será feito.",
+        "frequencia": "sempre",
+        "ocorrencias": 3,
+        "evidencias": ["Neste capítulo faremos uma breve revisão dos termos e teoremas essenciais ao decorrer deste trabalho."],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Exemplo sempre posto depois da definição, nunca antes, para ilustrá-la.",
+        "frequencia": "sempre",
+        "ocorrencias": 6,
+        "evidencias": ["Exemplo 1.5.1. Consideremos as seguintes funções :", "Exemplo 3.1.2. Uma variável aleatória X é dita uma variável aleatória normal..."],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Termina sem seção de 'Conclusão'/'Considerações Finais' dedicada: a última seção (3.5) encerra com um corolário técnico e o texto salta direto para Referências.",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": ["e sua função característica pode ser representada como: [...] onde b = γ − ∫|x|≤1 xν(dx)."],
+        "contraexemplo": ""
+      }
+    ],
+    "figuras": [
+      {
+        "traco": "Metáfora/analogia de domínio cotidiano: ausente. A única figura de linguagem é a caracterização técnica ('superposição') dos processos de Lévy como combinação de Browniano + Poisson, que é afirmação matemática precisa, não recurso literário.",
+        "frequencia": "evita",
+        "ocorrencias": 1,
+        "evidencias": ["os processos de Lévy são uma superposição de um movimento Browniano e uma quantidade, possivelmente infinita, de processos de Poisson"],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Nenhuma metáfora de natureza, corpo, viagem ou vida cotidiana encontrada nos trechos amostrados.",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": [],
+        "contraexemplo": ""
+      }
+    ],
+    "postura": [
+      {
+        "traco": "Distância impessoal do leitor; 'nós' retórico guia a dedução ('Observamos que', 'Calculemos') sem dirigir-se ao leitor em segunda pessoa.",
+        "frequencia": "sempre",
+        "ocorrencias": 30,
+        "evidencias": ["Calculemos agora a norma da função característica de Xt"],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Autoridade construída por remissão explícita a referências consagradas e a teoremas/capítulos específicos de outros autores, em vez de argumentação própria isolada.",
+        "frequencia": "frequente",
+        "ocorrencias": 8,
+        "evidencias": ["Uma demonstração é dada em (SATO, 1999) Corolário 11.6", "Uma demonstração para este resultado pode ser encontrada no Capítulo 4 de (KALLENBERG, 2002)"],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Admite explicitamente escopo/limitação do próprio texto (o que será revisado mas não é central), sem se estender em ressalvas.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": ["resultados sobre martingais, que não nos serão de grande auxílio no estudo dos processos de Lévy a ser realizado no Capítulo 3"],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Humor: praticamente ausente no corpo; único traço é a epígrafe de cultura pop isolada no paratexto, sem retomada.",
+        "frequencia": "nunca",
+        "ocorrencias": 1,
+        "evidencias": ["Muito a aprender você ainda tem. (Yoda)"],
+        "contraexemplo": "Trecho isolado na folha de epígrafe; nenhum humor equivalente aparece no corpo técnico."
+      },
+      {
+        "traco": "Sem debate ou crítica a trabalhos anteriores; texto expositivo-pedagógico que segue uma única referência-guia declarada.",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": ["Neste trabalho procuramos apresentar uma introdução ao estudo dos processos de Lévy seguindo o apresentado por (TANKOV, 2003)"]
+      }
+    ],
+    "leitor": [
+      {
+        "traco": "Pressupõe conhecimento prévio alto (probabilidade e teoria da medida em nível de graduação avançada/pós), mas ainda assim revisa esse conteúdo em capítulo próprio.",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": ["Supomos que o leitor esteja acostumado, em nível introdutório, com as Teoria da Probabilidade e Teoria da Medida."],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Todo conceito novo é introduzido via Definição formal antes de ser operado — nunca pressuposto tacitamente.",
+        "frequencia": "sempre",
+        "ocorrencias": 25,
+        "evidencias": ["Definição 1.4.5 (Tempo de Parada). Uma variável aleatória T ≥ 0 é um tempo de parada para (Ft) se"],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Ausência de pergunta retórica dirigida ao leitor e de imperativo de segunda pessoa; verbos de convite aparecem em modo coletivo indicativo ('observamos', 'consideremos'), não como apelo direto.",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": ["Consideremos as seguintes funções :"],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Nenhuma chamada para ação prática; texto puramente expositivo-demonstrativo.",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": [],
+        "contraexemplo": ""
+      }
+    ],
+    "tecnico": [
+      {
+        "traco": "Notação matemática densa e consistente, com fórmulas centrais sempre em display e numeradas por capítulo (ex.: (1.1), (3.44)).",
+        "frequencia": "sempre",
+        "ocorrencias": 60,
+        "evidencias": ["Φ_X(z) = E[exp⟨iz,X⟩], para todo z ∈ R^d. (1.1)"],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Convenção fixa de prova: cabeçalho 'Demonstração.' seguido do argumento, terminando em símbolo de fim de prova (quadrado).",
+        "frequencia": "sempre",
+        "ocorrencias": 30,
+        "evidencias": ["Demonstração. Escrevemos g(t) = P[X > t]... Concluímos que X tem distribuição exponencial. □"],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Ambientes destacados e numerados (Definição, Teorema, Proposição, Lema, Corolário, Exemplo) com nome em negrito e enunciado em itálico.",
+        "frequencia": "sempre",
+        "ocorrencias": 40,
+        "evidencias": ["Teorema 1.2.1 (Perca de Memória). Seja X uma variável aleatória não nula tal que..."],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Uso de figuras/gráficos pontuais para ilustrar (cotação real de ação, trajetória de processo, exemplo de métrica) — nunca tabelas de dados nos trechos lidos.",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": ["Figura 1: Cotações das ações do Google (GOOGL) na NASDAQ no dia 29/08/2014", "Figura 6: Trajetória típica de um processo de Poisson composto."],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Citações de teorema/resultado de outro autor remetem a capítulo e número exatos, não apenas ao nome do livro.",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": ["consequência do teorema de Feller-Lévy, Teorema 4.15 de ??", "veja (WILLIAMS, 1991) Capítulo 12"],
+        "contraexemplo": ""
+      }
+    ],
+    "formatacao": [
+      {
+        "traco": "Hierarquia formal Capítulo > Seção > Subseção numerada em todo o corpo (ex.: '1.5 A Topologia de Skorohod', '3.4 A Decomposição de Lévy-Itô').",
+        "frequencia": "sempre",
+        "ocorrencias": 20,
+        "evidencias": ["1 Preliminares", "3.4 A Decomposição de Lévy-Itô"],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Negrito reservado ao rótulo de ambientes formais e a palavras-chave do resumo; itálico para o corpo do enunciado e para estrangeirismos técnicos.",
+        "frequencia": "sempre",
+        "ocorrencias": 30,
+        "evidencias": ["Palavras-chaves: Processos Estocásticos. Processos de Lévy. Teorema de Lévy-Itô.", "As funções pertencentes ao conjunto D são chamadas funções cadlag"],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Parágrafos curtos a médios (poucas linhas) intercalados com blocos de fórmula em display, nunca longos blocos de prosa corrida.",
+        "frequencia": "sempre",
+        "ocorrencias": 40,
+        "evidencias": ["Neste contexto temos a seguinte definição:", "Podemos observar ainda que:"],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Elementos pré-textuais no padrão ABNT/abnTeX2: folha de rosto, ficha catalográfica, agradecimentos, epígrafe, resumo e abstract com palavras-chave em negrito, sumário.",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": ["Resumo", "Agradecimentos", "Palavras-chaves: Processos Estocásticos. Processos de Lévy. Teorema de Lévy-Itô."]
+      }
+    ]
+  },
+  "antipadroes_observados": [
+    "Nunca usa primeira pessoa do singular; sempre 'nós'/plural de modéstia.",
+    "Nunca introduz um termo técnico sem definição formal prévia numerada.",
+    "Nunca recorre a metáfora de domínio cotidiano (natureza, corpo, viagem) para explicar um conceito matemático.",
+    "Nunca fecha um capítulo ou o texto inteiro com uma seção de síntese/considerações finais explícita — a obra termina abruptamente num corolário técnico, seguido pelas Referências.",
+    "Nunca usa pergunta retórica ou imperativo de segunda pessoa dirigido ao leitor.",
+    "Nunca deixa uma prova sem o marcador visual de encerramento (quadrado/QED)."
+  ],
+  "incerteza": "O documento foi lido via renderização de página (visão), não extração bruta de texto, então símbolos gregos, operadores e subscritos aparecem legíveis e sem corrupção visível de glifos nos trechos amostrados — mas isso não garante que uma extração de texto puro (não visual) do mesmo PDF não produza corrupção de fórmulas; um teste com pdftotext confirmou apenas a contagem de palavras (18943), não a integridade das fórmulas (o script estilo/scripts/metricas.py, que usa pdftotext, contou 10.735 palavras para o mesmo arquivo — a diferença reflete o que pdftotext consegue linearizar de fórmulas/símbolos versus o que a leitura visual reconhece). Notei múltiplas referências cruzadas quebradas no próprio PDF publicado (ex.: 'Teorema 4.15 de ??', 'A figura ?? mostra', 'fórmula exponencial (???)'), que parecem ser falhas de compilação LaTeX preservadas na versão final, não artefato da minha leitura — registrado aqui, não contaminando os eixos de estilo. Por ser dissertação de 76 páginas majoritariamente de provas técnicas, não li o capítulo 2 (Processos de Poisson, seções 2.1-2.4) integralmente, apenas seu fechamento (seção 2.5) — os traços de lexico/sintaxe/tecnico ali são inferidos por amostragem representativa do restante do texto e podem não capturar variações locais nessas seções não lidas."
+}
