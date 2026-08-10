@@ -28,6 +28,9 @@ Um bloco por `ilu-NN`:
 
 ## `graficos.md`
 
+Antes de escrever qualquer spec, leia `references/checklist-graficos.md` — anotação,
+revelação progressiva e contraste genuíno vs. forçado.
+
 Um bloco por `graf-NN`:
 
 - **Pergunta que o gráfico responde**, em uma frase. Se não couber numa frase, o gráfico está
@@ -43,6 +46,8 @@ Um bloco por `graf-NN`:
   preâmbulo — teste com `python3` antes de considerar a etapa concluída.
 - **Escolha de tipo de gráfico justificada** em uma linha, e o que foi descartado.
 - **Alt-text e legenda.**
+- **Anotação**: todo ponto de interesse tem `add_annotation` apontando para ele (ver
+  `references/checklist-graficos.md`).
 
 ## Regra de placeholder no `post.md`
 
