@@ -1,0 +1,201 @@
+{
+  "arquivo": "_arquivo/amostras/admiradas/malcolm-gladwell/something-borrowed.md",
+  "genero": "admirada:malcolm-gladwell",
+  "palavras": 3550,
+  "eixos": {
+    "lexico": [
+      {
+        "traco": "Introduz termos técnicos (jurídicos, musicais, neurológicos) apenas quando surge um caso concreto que os exige, e imediatamente os parafraseia em linguagem cotidiana, sem glossário formal",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": ["what is called multiphonics, where the flutist \"overblows\" into the instrument", "copyrighted works fall into two categories—the recorded performance and the composition"],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Registro conversacional mesmo em passagens analíticas; evita jargão acadêmico de teoria literária ao discutir plágio",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": ["Words belong to the person who wrote them. There are few simpler ethical notions than this one"],
+        "contraexemplo": ""
+      }
+    ],
+    "sintaxe": [
+      {
+        "traco": "Alterna frases longas de encadeamento factual (várias orações coordenadas por vírgula) com frases curtas de impacto que fecham um parágrafo ou uma ideia",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": ["That's it! Nineteen words.", "Something about that didn't seem right.", "That's my phrase, of course. I wrote it."],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Usa listas paratáticas de frases quase idênticas em estrutura para construir acúmulo de evidência (efeito de checklist) antes de uma conclusão",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": ["Lewis and Pincus did a study of brain injuries among fifteen death-row inmates. Gottmundsdottir and Nabkus did a study of brain injuries among fifteen death-row inmates."],
+        "contraexemplo": ""
+      }
+    ],
+    "pontuacao": [
+      {
+        "traco": "Usa travessão para inserir uma reformulação ou uma virada irônica no meio da frase argumentativa",
+        "frequencia": "frequente",
+        "ocorrencias": 8,
+        "evidencias": ["that a writer's words have a virgin birth and an eternal life", "note that specification, limited—\"Times to Authors"],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Encerra parágrafos argumentativos com uma pergunta retórica curta, sem responder de imediato, deixando a tensão para o parágrafo seguinte",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": ["But how would I have been better off if Lavery had disguised the source of her inspiration?", "Are boilerplate descriptions of physiological functions in the same league?"],
+        "contraexemplo": ""
+      }
+    ],
+    "arquitetura": [
+      {
+        "traco": "Abre com uma cena anedótica e concreta (personagem nomeada, diálogo relatado) e só introduz a tese abstrata numa seção numerada separada, várias páginas depois",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": ["One day this spring, a psychiatrist named Dorothy Lewis got a call from her friend Betty"],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Estrutura o texto em seções numeradas (1 a 5), cada uma trocando de caso de referência (o processo de Lewis, o caso Beastie Boys/Newton, o caso Lloyd Webber/Repp, a entrevista com Lavery) para sustentar o argumento por acúmulo comparativo, não por dedução linear",
+        "frequencia": "sempre",
+        "ocorrencias": 5,
+        "evidencias": ["2.", "3.", "4.", "5."],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Faz a ponte entre caso jornalístico e argumento conceitual inserindo o próprio autor como personagem do caso (ele também foi 'plagiado'), o que permite passar da anedota de terceiros para a reflexão abstrata sem ruptura de voz",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": ["It was written by me.", "I'd worked on \"Damaged\" through the fall of 1996."],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Fecha não com uma tese resumida, mas devolvendo a cena humana (Lavery chorando à mesa da cozinha), deixando a conclusão conceitual implícita nas seções anteriores",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": ["She began to cry. \"I'm still composting what happened. It will be for a purpose"],
+        "contraexemplo": ""
+      }
+    ],
+    "figuras": [
+      {
+        "traco": "Usa analogias de propriedade física (mesa de piquenique, cura de câncer patenteada) para tornar tangível a diferença entre ideia e objeto na discussão de propriedade intelectual",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": ["I am taking a thing, the picnic table, and after I take it, you don't have it", "suppose that you invented a cure for breast cancer in your basement lab"],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Recorre a metáfora do ciclo de vida/reciclagem (jornal que embrulha peixe) para argumentar que ideias mudam de função ao longo do tempo",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": ["the newspaper arrives at our door, it becomes part of the archive of human knowledge, then it wraps fish"],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Explica o conceito abstrato de originalidade através de demonstração auditiva concreta (tocar as mesmas notas de duas músicas ao piano) em vez de definição verbal",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": ["he walked over to the piano in the corner of his office and played those three notes: C, D-flat, C"],
+        "contraexemplo": ""
+      }
+    ],
+    "postura": [
+      {
+        "traco": "Mantém-se como personagem-testemunha dentro do próprio caso (é o autor plagiado), mas recusa a posição de vítima esperada, revelando ambivalência em vez de indignação",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": ["The truth was that, although I said I'd been robbed, I didn't feel that way.", "On some level, I considered Lavery's borrowing to be a compliment."],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Constrói simpatia pela pessoa acusada (Lavery) por meio de detalhe físico e emocional direto (roupa, choro, silêncio) sem declarar explicitamente que a defende",
+        "frequencia": "frequente",
+        "ocorrencias": 2,
+        "evidencias": ["She sat down heavily at my kitchen table.", "She was heartbroken. But, more than that, she was confused"],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Constrói a posição contra-intuitiva não afirmando-a diretamente, mas acumulando perguntas retóricas e casos-precedente até que a conclusão pareça inevitável para o leitor",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": ["So is it true that words belong to the person who wrote them, just as other kinds of property belong to their owners? Actually, no."],
+        "contraexemplo": ""
+      }
+    ],
+    "leitor": [
+      {
+        "traco": "Começa validando a intuição comum do leitor ('plágio é roubo, ponto final') antes de miná-la caso a caso, adiando a reviravolta conceitual até a seção 3",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": ["Words belong to the person who wrote them. There are few simpler ethical notions than this one"],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Usa precedentes de outro domínio (música) para primeiro desestabilizar a intuição do leitor num terreno neutro, antes de reaplicar a lição ao caso do teatro/plágio literário",
+        "frequencia": "frequente",
+        "ocorrencias": 2,
+        "evidencias": ["Under copyright law, what matters is not that you copied someone else's work. What matters is what you copied, and how much you copied."],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Formula reversões da tese comum como aforismo curto e memorável, colocado no fim de um parágrafo de acúmulo de evidência",
+        "frequencia": "frequente",
+        "ocorrencias": 2,
+        "evidencias": ["Old words in the service of a new idea aren't the problem. What inhibits creativity is new words in the service of an old idea."],
+        "contraexemplo": ""
+      }
+    ],
+    "tecnico": [
+      {
+        "traco": "Emprega casos jurídicos reais com nomes, datas e resultado da disputa (Newton v. Beastie Boys, Repp v. Lloyd Webber) como evidência argumentativa, não como mera ilustração decorativa",
+        "frequencia": "sempre",
+        "ocorrencias": 2,
+        "evidencias": ["Newton sued, and he lost—and the reason he lost serves as a useful introduction", "Ray Repp, a composer of Catholic folk music"]
+      },
+      {
+        "traco": "Cita um especialista (Lawrence Ferrara) demonstrando ao vivo (tocando piano) em vez de resumir sua opinião indiretamente, deixando a demonstração falar pela evidência",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": ["Ferrara started playing it. It was immediately familiar. \"It's the first phrase of 'Phantom Song.'\""]
+      },
+      {
+        "traco": "Usa um segundo precedente histórico/paralelo (Doris Kearns Goodwin, Laurence Tribe, Kathy Acker) apenas para mostrar a inconsistência das regras de plágio, não para reforçar unilateralmente uma tese",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": ["when, two years ago, Doris Kearns Goodwin was found to have lifted passages from several other historians", "when Kathy Acker incorporated parts of a Harold Robbins sex scene verbatim"]
+      }
+    ],
+    "formatacao": [
+      {
+        "traco": "Cita trechos de entrevista em discurso direto longo, preservando hesitações e repetições da fonte, em vez de resumir indiretamente",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": ["\"I felt robbed and violated in some peculiar way. It was as if someone had stolen—I don't believe in the soul"]
+      },
+      {
+        "traco": "Insere blocos de citação de fonte secundária (livro de Lessig, carta do próprio autor) destacados como bloco de texto separado, não amalgamados à prosa corrida",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": ["I am happy to be the source of inspiration for other writers, and had you asked for my permission"]
+      },
+      {
+        "traco": "Transita de caso para argumento sem frase de transição explícita — a mudança de seção numerada já sinaliza a virada de registro (narrativa para análise)",
+        "frequencia": "sempre",
+        "ocorrencias": 4,
+        "evidencias": ["2.", "3.", "4."]
+      }
+    ]
+  },
+  "antipadroes_observados": [
+    "Nunca declara a tese central em frase-tópico logo no início; a tese só é articulada explicitamente na seção 3-4, após o acúmulo de casos.",
+    "Nunca usa nota de rodapé ou aparato acadêmico formal para citar fontes — tudo é integrado à narrativa em prosa ou em citação direta.",
+    "Nunca resolve a ambivalência do narrador com um veredito explícito de certo/errado sobre a acusada; a peça termina em cena aberta, sem julgamento final enunciado.",
+    "Nunca introduz um conceito jurídico/técnico sem antes ancorá-lo a um episódio concreto e nomeado (não há definição abstrata isolada)."
+  ],
+  "incerteza": "O arquivo é um único ensaio jornalístico de revista; não permite concluir padrões de abertura/fechamento em outros formatos (ex. livros de Gladwell), nem generalizar sobre uso de humor, nem sobre tratamento de fontes hostis/não cooperativas, pois todas as fontes citadas aqui cooperaram com o autor."
+}

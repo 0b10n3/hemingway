@@ -1,0 +1,259 @@
+{
+  "arquivo": "_arquivo/amostras/admiradas/malcolm-gladwell/the-ketchup-conundrum.md",
+  "genero": "admirada:malcolm-gladwell",
+  "palavras": 5425,
+  "eixos": {
+    "lexico": [
+      {
+        "traco": "Introduz um termo técnico e o define de imediato em linguagem cotidiana, sem deixar jargão pairando sem gloss",
+        "frequencia": "sempre",
+        "ocorrencias": 4,
+        "evidencias": [
+          "Umami is the proteiny, full-bodied taste of chicken soup, or cured meat, or fish stock",
+          "\"amplitude,\" the word sensory experts use to describe flavors that are well blended and balanced"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Mistura registro erudito (citações de expert, vocabulário técnico) com registro coloquial vindo das falas dos entrevistados",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Holy shit! Everything is easy until you get to the Byzantine Empire",
+          "pik! pik! pik! sounds"
+        ],
+        "contraexemplo": null
+      }
+    ],
+    "sintaxe": [
+      {
+        "traco": "Acumula uma frase longa, cheia de cláusulas paratáticas separadas por vírgula, e resolve com uma frase curtíssima que vira a ideia",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "Grey Poupon was magic.",
+          "If only it were that easy.",
+          "Moskowitz shrugged. \"I guess ketchup is ketchup.\""
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Usa uma pergunta retórica curta como dobradiça entre um bloco expositivo denso e o próximo movimento",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Why has ketchup stayed the same?",
+          "Isn't the ketchup business today exactly where mustard was thirty years ago?"
+        ],
+        "contraexemplo": null
+      }
+    ],
+    "pontuacao": [
+      {
+        "traco": "Dois-pontos para abrir uma lista/definição logo após anunciar um conceito técnico",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": [
+          "There are five known fundamental tastes in the human palate: salty, sweet, sour, bitter, and umami."
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Travessão para inserir aposto irônico ou dado revelador no meio da frase",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "it was made in Hartford, Connecticut, from Canadian mustard seed and white wine",
+          "he was the one who changed the flavor of ketchup in a way that made it universal"
+        ],
+        "contraexemplo": null
+      }
+    ],
+    "arquitetura": [
+      {
+        "traco": "Abre com duas frases curtas, uma observação trivial (mostarda) seguida da pergunta que esconde a tese real (ketchup)",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Mustard now comes in dozens of varieties. Why has ketchup stayed the same?"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Estrutura em seções numeradas (1-5), cada uma introduzindo um novo personagem/estudo de caso que retoma e testa a tese da seção anterior",
+        "frequencia": "sempre",
+        "ocorrencias": 5,
+        "evidencias": [
+          "The story of World's Best Ketchup cannot properly be told without a man from White Plains, New York, named Howard Moskowitz.",
+          "There is an exception, then, to the Moskowitz rule."
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Fecha não com síntese do narrador, mas com uma citação de espera/anticlímax do especialista central que devolve o enigma sem resolvê-lo totalmente",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Moskowitz shrugged. \"I guess ketchup is ketchup.\""
+        ],
+        "contraexemplo": null
+      }
+    ],
+    "figuras": [
+      {
+        "traco": "Analogia extensa emprestada da fala do próprio especialista (não cunhada pelo narrador), de domínio técnico distante (engenharia aeronáutica) para explicar modelagem de dados sensoriais",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "You know how they have a computer model for building an aircraft... This is a model for building spaghetti sauce"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Analogia musical (pianista) citada de uma fonte para explicar um conceito sensorial técnico ('amplitude'), não retomada no fechamento do texto",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "the difference between my son and a great pianist playing 'Ode to Joy' on the piano"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Metáfora filosófica (platonismo) usada brevemente pelo próprio narrador para nomear um paradigma da indústria, depois abandonada, não retomada ao final",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Howard Moskowitz stood up to the Platonists and said there are no universals."
+        ],
+        "contraexemplo": null
+      }
+    ],
+    "postura": [
+      {
+        "traco": "Narrador aparece em primeira pessoa como observador/guia curioso presente na cena, mas nunca como protagonista da história",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "when I met not long ago",
+          "Smith dipped one of my French fries into the homemade sauce"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Revela a credencial da fonte especialista aos poucos, misturando dado excêntrico/humano antes do título acadêmico formal",
+        "frequencia": "frequente",
+        "ocorrencias": 2,
+        "evidencias": [
+          "He keeps a parrot. At Harvard, he wrote his doctoral dissertation on psychophysics"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Trata a fonte especialista com reverência afetuosa, sem crítica direta; ironia leve recai sobre o empreendedor comercial (Wigon), não sobre os cientistas",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "he wasn't going home with money in his pocket",
+          "\"My wife is killing me.\""
+        ],
+        "contraexemplo": null
+      }
+    ],
+    "leitor": [
+      {
+        "traco": "Sustenta o suspense em torno de um objeto banal (ketchup) tratando-o como enigma científico genuíno até o penúltimo parágrafo",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": [
+          "But what was Jim Wigon to do?"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Não pressupõe conhecimento prévio de nenhum termo técnico; convida o leitor a reagir junto com o repórter/degustadores",
+        "frequencia": "sempre",
+        "ocorrencias": 2,
+        "evidencias": [
+          "How many things in the supermarket run the sensory spectrum like this?"
+        ],
+        "contraexemplo": null
+      }
+    ],
+    "tecnico": [
+      {
+        "traco": "Introduz o conceito estatístico via anedota narrativa (dados 'confusos', personagem tendo um insight num diner) antes de nomear a ideia formalmente",
+        "frequencia": "sempre",
+        "ocorrencias": 2,
+        "evidencias": [
+          "But the data were a mess—there wasn't a pattern—and one day, sitting in a diner, Moskowitz realized why"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Substitui explicação estatística formal (clustering/segmentação) por números concretos de pontuação comparados lado a lado, deixando o padrão falar por si",
+        "frequencia": "frequente",
+        "ocorrencias": 2,
+        "evidencias": [
+          "a score of 78 from the people in Segment 1... They scored it 67 and 57, respectively"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Evita fórmulas, p-valores ou vocabulário estatístico formal; quando usa número, é sempre um número de resultado (pontuação, porcentagem de vendas), nunca um parâmetro técnico do método",
+        "frequencia": "sempre",
+        "ocorrencias": 3,
+        "evidencias": [
+          "sales of Grey Poupon leaped forty to fifty per cent",
+          "a 71 is something you'll die for"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Ancora um conceito abstrato (preferência sensorial não-universal) num exemplo fisiológico simples e verificável (bebê preferindo sopa com MSG)",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Give a baby soup, and then soup with MSG... and the baby will go back for the MSG soup every time"
+        ],
+        "contraexemplo": null
+      }
+    ],
+    "formatacao": [
+      {
+        "traco": "Cabeçalhos numéricos nus (1. 2. 3...) marcam corte duro entre estudos de caso/fontes, sem título descritivo",
+        "frequencia": "sempre",
+        "ocorrencias": 5,
+        "evidencias": [
+          "1.", "2.", "5."
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Fecha o parágrafo com a citação direta do especialista como remate/punchline, em vez de resumir com voz própria do narrador",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "\"We felt that World's Best seemed to be more like a sauce.\" She was trying to be helpful.",
+          "\"Because you've been eating bad ketchup all\""
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Atribui a citação nomeando cargo/instituição da fonte no mesmo fôlego da frase, sem parágrafo separado de apresentação",
+        "frequencia": "sempre",
+        "ocorrencias": 4,
+        "evidencias": [
+          "Gary Beauchamp, who heads the Monell Chemical Senses Center, in Philadelphia, says"
+        ],
+        "contraexemplo": null
+      }
+    ]
+  },
+  "antipadroes_observados": [
+    "Nunca deixa um termo técnico (umami, amplitude, psicofísica, segmentação sensorial) sem tradução imediata em linguagem leiga.",
+    "Nunca usa aparato acadêmico formal (notas de rodapé, citação de artigo com formatação de referência) dentro do corpo do texto.",
+    "Nunca resume o achado de um especialista com autoridade narrativa própria sem antes ancorá-lo numa citação direta ou numa cena concreta.",
+    "Nunca introduz um número estatístico bruto (p-valor, fórmula, desvio-padrão) — os números que aparecem são sempre resultados legíveis por leigo (pontuação de 1 a 100, percentual de vendas)."
+  ],
+  "incerteza": "O arquivo não permite observar como Gladwell lida com uma fonte que discorda dele ou com evidência contrária mais forte (não há contraponto cético relevante no texto); também não é possível avaliar hábitos de nota/citação bibliográfica formal, já que o texto é uma reportagem de revista sem aparato acadêmico."
+}

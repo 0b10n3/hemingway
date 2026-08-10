@@ -1,0 +1,193 @@
+{
+  "arquivo": "_arquivo/amostras/admiradas/ernest-hemingway/the-battler.md",
+  "genero": "admirada:ernest-hemingway",
+  "palavras": 3174,
+  "eixos": {
+    "lexico": [
+      {
+        "traco": "Repete a mesma frase inteira, verbatim, em vez de variar a formulação, para marcar impasse ou tensão que não avança",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": ["Ad did not answer. He was looking at Nick.", "Ad did not answer. He was looking at Nick."],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Repete a mesma palavra-chave em réplicas consecutivas de diálogo em vez de buscar sinônimo, deixando a repetição carregar o sentido",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": ["You're a tough one, aren't you?", "All you kids are tough.", "You got to be tough"],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Vocabulário concreto e monossilábico para ação e ferimento físico, sem termo técnico ou elevado",
+        "frequencia": "sempre",
+        "ocorrencias": 6,
+        "evidencias": ["The pants were torn and the skin was barked", "He washed them carefully in the cold water"],
+        "contraexemplo": null
+      }
+    ],
+    "sintaxe": [
+      {
+        "traco": "Frases curtas, declarativas, sujeito-verbo-objeto, sem subordinação, abrindo e fechando unidades de ação",
+        "frequencia": "sempre",
+        "ocorrencias": 20,
+        "evidencias": ["Nick stood up. He was all right.", "He squatted down and bathed his knee."],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Parataxe: orações simples encadeadas por 'and' no lugar de conectivo causal ou hierarquia sintática explícita",
+        "frequencia": "frequente",
+        "ocorrencias": 8,
+        "evidencias": ["He wiped his hands on his trousers and stood up, then climbed the embankment to the rails."],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Quando a frase se alonga, acumula orações coordenadas e particípios para sustentar uma ação contínua, não para elaborar reflexão abstrata",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": ["turned the ham and broke eggs into the skillet, tipping it from side to side to baste the eggs"],
+        "contraexemplo": null
+      }
+    ],
+    "pontuacao": [
+      {
+        "traco": "Verbo de elocução reduzido quase sempre a 'said', evitando variação retórica no marcador de fala",
+        "frequencia": "sempre",
+        "ocorrencias": 30,
+        "evidencias": ["\"No,\" Nick said.", "\"I saw the bastard,\" the man said."],
+        "contraexemplo": "\"That's right,\" Ad said happily."
+      },
+      {
+        "traco": "Réplicas de diálogo muito curtas, às vezes de uma só palavra, sem elaboração",
+        "frequencia": "frequente",
+        "ocorrencias": 15,
+        "evidencias": ["\"Yes.\"", "\"I'll get him.\"", "\"No,\" Nick answered."],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Vírgula interna rara; ponto final corta o ritmo entre unidades de ação em vez de vírgula ligando cláusulas",
+        "frequencia": "frequente",
+        "ocorrencias": 10,
+        "evidencias": ["He fell forward and Bugs dropped the cloth-wrapped blackjack on the grass."],
+        "contraexemplo": null
+      }
+    ],
+    "arquitetura": [
+      {
+        "traco": "Abre a cena in medias res, com ação física já em curso, sem preâmbulo explicativo ou contextualização prévia",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": ["Nick stood up. He was all right. He looked up the track at the lights of the caboose"],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Estrutura o tempo por marcadores concretos de deslocamento (nome de lugar, distância em milhas) em vez de indicação abstrata de duração",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": ["Now he must be nearly to Mancelona. Three or four miles of swamp."],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Introduz o personagem ameaçador por acúmulo gradual de detalhe físico observado pelo protagonista, adiando o rótulo explícito ('crazy') para depois do diálogo já iniciado",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": ["In the firelight Nick saw that his face was misshapen. His nose was sunken, his eyes were slits"],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Delega a exposição de contexto/histórico a um segundo personagem via diálogo, em vez de o narrador explicar diretamente",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": ["He took too many beatings, for one thing,\" the negro sipped the coffee."],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Fecha a cena com um gesto físico mínimo e não comentado, sem síntese ou moral explicada",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": ["He found he had a ham sandwich in his hand and put it in his pocket."],
+        "contraexemplo": null
+      }
+    ],
+    "figuras": [
+      {
+        "traco": "Evita metáfora elaborada; quando usa comparação, é simile curta e sensorial, não ornamental",
+        "frequencia": "evita",
+        "ocorrencias": 2,
+        "evidencias": ["It was like putty in color. Dead looking in the firelight.", "The smooth roadbed like a causeway went on ahead"],
+        "contraexemplo": null
+      }
+    ],
+    "postura": [
+      {
+        "traco": "Narrador em terceira pessoa limitada, restrito à percepção sensorial imediata do protagonista, sem acesso ao interior de outros personagens",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": ["Nick did not perceive all this at once, he only saw the man's face was queerly formed"],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Narra o momento de violência com verbo seco e factual, sem adjetivo intensificador nem comentário moral do narrador",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": ["he set himself and tapped him across the base of the skull. He fell forward"],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Mostra emoção do protagonista predominantemente por ação ou pensamento telegráfico curto, raramente por rótulo emocional direto",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": ["Nick stepped back.", "It made him a little sick."],
+        "contraexemplo": "Nick was embarrassed."
+      },
+      {
+        "traco": "Deixa motivação e natureza exata de uma relação (aqui, Ad e Bugs) apenas parcialmente explicadas, sem fechamento interpretativo",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": ["I have to sort of keep him away from people."],
+        "contraexemplo": null
+      }
+    ],
+    "leitor": [
+      {
+        "traco": "Constrói ameaça por acúmulo de detalhes concretos antes de qualquer rótulo explícito, forçando o leitor a inferir o perigo antes de ser informado",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": ["Don't you like my pan?", "I'm crazy."],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Resolve o pico de tensão física em uma única frase rápida, elidindo a preparação do golpe — o leitor entende o que houve só depois do fato",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": ["he set himself and tapped him across the base of the skull. He fell forward"],
+        "contraexemplo": null
+      }
+    ],
+    "tecnico": [],
+    "formatacao": [
+      {
+        "traco": "Parágrafos curtos, de uma a três frases, intercalados com diálogo",
+        "frequencia": "sempre",
+        "ocorrencias": 15,
+        "evidencias": ["He felt of his knee. The pants were torn and the skin was barked."],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Cada fala de diálogo ocupa parágrafo próprio, sem bloco de exposição longo interrompendo a troca",
+        "frequencia": "sempre",
+        "ocorrencias": 20,
+        "evidencias": ["\"Hello!\" Nick said.", "The man looked up.", "\"Where did you get the shiner?\" he said."],
+        "contraexemplo": null
+      }
+    ]
+  },
+  "antipadroes_observados": [
+    "Nunca usa advérbio de intensidade para marcar emoção (nada como 'muito' ou 'extremamente')",
+    "Nunca faz o narrador comentar ou explicar o subtexto de uma cena — o sentido fica só na ação e na fala",
+    "Nunca interrompe uma cena de ação física com cláusula subordinada longa ou digressão",
+    "Nunca usa metáfora ornamental ou floreio descritivo abstrato",
+    "Nunca resolve ambiguidade de motivação ou caráter com explicação direta do narrador"
+  ],
+  "incerteza": "É ficção narrativa em terceira pessoa com diálogo extenso; o arquivo não permite concluir nada sobre movimentos próprios de prosa expositiva/argumentativa (uso de dados, transições entre ideias abstratas, estrutura de tese/evidência, uso de headers/listas, tom direto ao leitor em segunda pessoa, ou uso de metáfora para explicar conceito). Também não há base para avaliar registro fora do universo rural/pugilístico dos anos 1920 nem para inferir convenções técnicas (citação, formatação de dados) por não se aplicarem ao gênero."
+}

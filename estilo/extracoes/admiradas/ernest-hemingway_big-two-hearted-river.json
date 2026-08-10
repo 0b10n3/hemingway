@@ -1,0 +1,194 @@
+{
+  "arquivo": "_arquivo/amostras/admiradas/ernest-hemingway/big-two-hearted-river.md",
+  "genero": "admirada:ernest-hemingway",
+  "palavras": 8642,
+  "eixos": {
+    "lexico": [
+      {
+        "traco": "Vocabulário técnico de ofício (pesca/acampamento) usado com precisão, sem explicar termos ao leitor leigo",
+        "frequencia": "frequente",
+        "ocorrencias": 12,
+        "evidencias": ["the wide band of the tump-line", "the aluminum leader box", "threaded the slim hook under his chin", "the snell of the hook"],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Adjetivos concretos, sensoriais, monossilábicos ou dissilábicos; evita adjetivos abstratos/avaliativos",
+        "frequencia": "sempre",
+        "ocorrencias": 30,
+        "evidencias": ["The water was ice cold", "big trout", "The stone was chipped and split"],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Registro coloquial simples; vocabulário cotidiano, sem diction literária elevada",
+        "frequencia": "sempre",
+        "ocorrencias": 0,
+        "evidencias": ["He was hungrier", "It was a good feeling", "It was a nice little camp"],
+        "contraexemplo": null
+      }
+    ],
+    "sintaxe": [
+      {
+        "traco": "Sequência de ações físicas descrita por verbos coordenados por 'and', em ordem estritamente cronológica",
+        "frequencia": "sempre",
+        "ocorrencias": 20,
+        "evidencias": ["He turned him up, all his legs walking in the air, and looked at his jointed belly", "He built a little fire and put on the coffee pot"],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Frases curtas, declarativas, sujeito-verbo-objeto, intercaladas entre blocos de ação mais longos",
+        "frequencia": "frequente",
+        "ocorrencias": 15,
+        "evidencias": ["It was all back of him.", "That was done.", "Now it was done."],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Evita subordinação complexa em cadeia; quando a frase é longa, é por acúmulo de orações coordenadas, não por encaixamento",
+        "frequencia": "frequente",
+        "ocorrencias": 8,
+        "evidencias": ["He adjusted the pack harness around the bundle, pulling straps tight, slung the pack on his back, got his arms through the shoulder straps"],
+        "contraexemplo": null
+      }
+    ],
+    "pontuacao": [
+      {
+        "traco": "Vírgula liga ações/cláusulas coordenadas dentro de uma mesma frase-processo; ponto final fecha unidades curtas de sentido para dar ritmo de pausa física",
+        "frequencia": "sempre",
+        "ocorrencias": 25,
+        "evidencias": ["He was there, in the good place.", "Now things were done. There had been this to do. Now it was done."],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Uso pontual de ponto e vírgula para justapor observações curtas relacionadas sem conectivo",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": ["without bark, gray to the touch; slowly the feeling of disappointment left him", "very thin and springy"],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Repetição quase idêntica de estrutura de frase curta para marcar estase/consumação de uma tarefa concluída",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": ["Then it got larger and larger and larger and then smaller and smaller"],
+        "contraexemplo": null
+      }
+    ],
+    "arquitetura": [
+      {
+        "traco": "Abre a cena in medias res, com um deslocamento físico já em andamento (trem partindo), sem preâmbulo explicativo",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": ["The train went on up the track out of sight, around one of the hills of burnt timber."],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Estrutura o texto inteiro como sequência de tarefas manuais completas (armar acampamento, cozinhar, montar equipamento, pescar), cada uma exaurida em detalhe antes de passar à próxima",
+        "frequencia": "sempre",
+        "ocorrencias": 6,
+        "evidencias": ["He took the ax out of the pack and chopped out two projecting roots", "Nick took his fly rod out of the leather rod-case, jointed it"],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Fecha em adiamento/deferimento, não em resolução — a tarefa mais difícil (o pântano) é postergada para outro dia",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": ["There were plenty of days coming when he could fish the swamp."],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Capítulos-interlúdio de violência (não relacionados ao enredo principal) justapostos sem transição ou comentário explicativo ao capítulo de processo",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": ["Maera lay still, his head on his arms, his face in the sand.", "They hanged Sam Cardinella at six o'clock in the morning"],
+        "contraexemplo": null
+      }
+    ],
+    "figuras": [
+      {
+        "traco": "Metáfora explícita rara; quando aparece, é curta, concreta, de comparação sensorial imediata (símile), não ornamental",
+        "frequencia": "ocasional",
+        "ocorrencias": 5,
+        "evidencias": ["It spread like lava", "as though it were starting to rain", "He looked as broad as a salmon"],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Paisagem funciona como espelho do estado interno sem ser nomeada como tal — o pântano associado a mal-estar não explicado",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": ["In the swamp fishing was a tragic adventure. Nick did not want it.", "Nick did not want to go in there now."],
+        "contraexemplo": null
+      }
+    ],
+    "postura": [
+      {
+        "traco": "Narrador em terceira pessoa limitada, relata sensação e pensamento pontual sem analisar ou explicar causas",
+        "frequencia": "sempre",
+        "ocorrencias": 10,
+        "evidencias": ["Nick's heart tightened as the trout moved. He felt all the old feeling.", "He felt, vaguely, a little sick"],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Omite sistematicamente a nomeação do trauma; menciona sua existência de forma telegráfica e sem elaborar",
+        "frequencia": "sempre",
+        "ocorrencias": 2,
+        "evidencias": ["He felt he had left everything behind, the need for thinking, the need to write, other needs."],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Foco quase obsessivo em processo e procedimento físico como forma de evitar/desviar do tema evitado",
+        "frequencia": "sempre",
+        "ocorrencias": 15,
+        "evidencias": ["He did not need to get his map out. He knew where he was", "Nick did not want to rush his sensations any."],
+        "contraexemplo": null
+      }
+    ],
+    "leitor": [
+      {
+        "traco": "Deixa ao leitor conectar os capítulos-interlúdio de violência ao estado emocional do protagonista, sem qualquer ponte explícita no texto",
+        "frequencia": "sempre",
+        "ocorrencias": 2,
+        "evidencias": ["Maera lay still, his head on his arms, his face in the sand.", "They hanged Sam Cardinella at six o'clock in the morning"],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Não explica por que certas tarefas/lugares são evitados; a causa fica implícita no padrão de comportamento, não na afirmação",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": ["Nick did not want to go in there now.", "he felt a reaction against deep wading"],
+        "contraexemplo": null
+      }
+    ],
+    "tecnico": [
+      {
+        "traco": "Descreve processo técnico/manual passo a passo em ordem cronológica estrita, com verbos de ação concretos, sem pular etapas — convenção transferível para prosa expositiva de procedimento",
+        "frequencia": "sempre",
+        "ocorrencias": 8,
+        "evidencias": ["He put on the reel and threaded the line through the guides.", "He fastened a hook on the end of the leader."]
+      }
+    ],
+    "formatacao": [
+      {
+        "traco": "Parágrafos longos e densos concentrando um bloco inteiro de ação/processo sem quebra",
+        "frequencia": "frequente",
+        "ocorrencias": 15,
+        "evidencias": ["With the ax he slit off a bright slab of pine... until the rope loops were buried and the canvas was drum tight."],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Diálogo quase ausente; quando ocorre, é fala isolada e curta (frequentemente do próprio protagonista falando sozinho), não troca conversacional",
+        "frequencia": "evita",
+        "ocorrencias": 4,
+        "evidencias": ["\"Go on, hopper,\" Nick said", "\"Chrise,\" Nick said, \"Geezus Chrise,\" he said happily."],
+        "contraexemplo": "\"How about a chair, Will?\" asked one of the guards. \"Better get one,\" said a man in a derby hat. (troca de duas falas, no capítulo-interlúdio, não na trama principal de Nick)"
+      }
+    ]
+  },
+  "antipadroes_observados": [
+    "Nunca explica ou nomeia analiticamente o estado psicológico do personagem (não diz o que o traumatizou nem por quê)",
+    "Nunca usa vocabulário abstrato ou dicção literária elevada — mantém-se em registro concreto e cotidiano",
+    "Nunca resolve ou comenta explicitamente a justaposição entre os capítulos-interlúdio violentos e a narrativa de pesca",
+    "Nunca emprega monólogo interior estendido com autoanálise; o pensamento aparece como frase curta, direta ou indireta livre",
+    "Nunca resume ou pula etapas de uma tarefa manual — cada etapa do processo é mostrada por completo",
+    "Nunca sustenta longas trocas de diálogo dentro da trama de Nick; fala é rara e isolada"
+  ],
+  "incerteza": "O arquivo é ficção narrativa em terceira pessoa; não permite avaliar convenções de registro jornalístico/expositivo argumentativo (não há tese, dado ou citação de fonte), nem padrões de diálogo sustentado entre múltiplos personagens na trama principal (há apenas falas isoladas de Nick sozinho; a única troca de diálogo real ocorre no capítulo-interlúdio, fora da linha de Nick). Também não há uso de metáfora complexa ou densa o suficiente para avaliar registros figurativos elaborados — as poucas comparações presentes são todas simples e concretas."
+}
