@@ -20,6 +20,15 @@ parágrafo que você mesmo vai recomendar cortar é esforço jogado fora.
 - A voz declarada no briefing (`01-briefing.md` — ensaística ou explicativa, ver §4 de
   `estilo/estilo-autoral.md`) está sendo seguida na estrutura do argumento, ou o texto
   mistura os dois tons dentro do mesmo post?
+- O rascunho tem os três pilares (dado, narrativa, visual — ver
+  `.claude/skills/revisao-editorial/references/tecnicas-narrativas.md`), ou é só narrativa
+  sem evidência, ou dado sem sentido?
+- O texto abre explicando como um número foi calculado, em vez de dizer o que ele significa?
+  (Isto não se aplica a abrir definindo o produto na voz explicativa — só a
+  metodologia/cálculo antes do achado.)
+- O insight mais forte do post está enterrado no meio de um parágrafo, em vez de estar
+  identificável no gancho ou no título? Se sim, é achado de severidade alta — force retorno
+  à etapa 2 para reposicionar, não sugira só mover uma frase.
 
 ## Formato de saída
 
