@@ -12,6 +12,13 @@ editorial.
   por nenhuma etapa, por nenhum subagente. Leia de `_arquivo/`; escreva em `posts/`,
   `estilo/` ou `pesquisa/`. Se uma transcrição precisa de limpeza, a versão limpa nasce em
   `posts/<slug>/processo/00-transcricao.md`; a crua permanece intocada.
+  **Exceção única e explícita:** `_arquivo/MANIFESTO.md` pode receber *acréscimo* de linhas
+  (preencher um "a preencher" com a proveniência de um item já catalogado, ou catalogar item
+  novo) porque seu propósito é documentar o que existe em `_arquivo/`, e isso cresce junto
+  com a pasta. Mesmo assim: nunca reescreva uma linha já preenchida sobre um item existente —
+  só complete lacunas ou adicione linhas novas. Todo outro arquivo de `_arquivo/` é
+  intocável sem exceção. (Esta exceção foi adicionada em 2026-08-10 depois que o teste de
+  imutabilidade da Fase 4 pegou uma violação real — ver `RELATORIO.md`.)
 - **Evidência ou silêncio.** Nenhuma afirmação sobre a voz do autor entra no guia sem pelo
   menos duas ocorrências reais, em dois textos distintos, citadas com arquivo e trecho curto.
 - **Amostras alheias são fonte de procedimento, não de frase.** Dos autores admirados
