@@ -1,0 +1,95 @@
+---
+name: post-substack
+description: Pipeline completo de transcrição de áudio a post publicável no Syntaxis, com verificação técnica, visuais e commit por etapa. Use quando o autor pedir para transformar uma transcrição em post, retomar um post em andamento, ou continuar o trabalho de um slug existente em posts/.
+disable-model-invocation: true
+argument-hint: [caminho-da-transcrição-em-_arquivo/ | slug-existente-em-posts/]
+allowed-tools: Read Write Edit Glob Grep Bash(python3 *) Bash(git add *) Bash(git commit *) Bash(git status *) Bash(git diff *) Bash(git log *) Bash(git checkout -b *) Bash(git branch *)
+---
+
+Orquestrador do sistema. Roda na sessão principal (não em subagente) porque a etapa 10 é um
+gate humano — um subagente em background não consegue perguntar nada.
+
+## Invocação
+
+- `/post-substack _arquivo/transcricoes/2026-08-10_titulo.txt` — começa um post novo.
+- `/post-substack <slug>` — retoma um post existente a partir de `posts/<slug>/estado.json`,
+  na última etapa concluída.
+
+## Primeiro ato: branch e estado
+
+Se é post novo: `git checkout -b post/<slug>` a partir de `main` (slug = data + título
+resumido em kebab-case). Crie `posts/<slug>/estado.json`:
+
+```json
+{
+  "etapa_atual": 0,
+  "loops_consumidos": 0,
+  "aprovacoes": [],
+  "pendencias": [],
+  "commit_inicial": "<sha curto de main no momento da criação>"
+}
+```
+
+Se é retomada: `git checkout post/<slug>` e leia `estado.json` para saber onde continuar.
+**Nunca refaça uma etapa já marcada concluída sem que o gate humano (etapa 10) tenha pedido
+isso explicitamente** — é assim que o pipeline sobrevive a `/clear` e à retomada no dia
+seguinte.
+
+## As onze etapas
+
+Ordem fixa: primeiro o que muda estrutura (5), depois o que muda frase (6), por último o que
+muda letra (7) — inverter significa revisar gramática de parágrafo que a etapa 5 ainda vai
+cortar (ver `pesquisa/frente-c-editoracao.md`).
+
+| # | Etapa | Executor | Saída em `posts/<slug>/processo/` |
+|---|---|---|---|
+| 0 | Ingestão | principal | `00-transcricao.md` — cópia limpa (hesitação removida, palavras do autor preservadas). A crua fica intocada em `_arquivo/` |
+| 1 | Briefing | principal + `voz-syntaxis` + `marca-syntaxis` | `01-briefing.md` — tese em uma frase; analogias usadas no áudio (preservar, são do autor); encaixe no funil (`_arquivo/MARKETING_REVIEW.md` §5); qual voz (§4 do guia — ensaística ou explicativa) |
+| 2 | Estrutura | principal | `02-estrutura.md` — subtítulos; o que cada seção prova; onde entra `ilu-NN`/`graf-NN` e por quê; o que fica de fora |
+| 3 | Pesquisa | agente `pesquisador-editorial` | `03-pesquisa.md` com fontes — tratamento do tema, dados, contrapontos |
+| 4 | Draft | principal, com `voz-syntaxis` | `04-draft-v1.md` |
+| 5 | Crítica estrutural | agente `critico-editorial` | `05-critica.md` — diagnóstico com severidade por item, não reescreve |
+| 6 | Linha e norma | agente `revisor-gramatical` | `06-revisao.md` — diff comentado, não toca estrutura |
+| 7 | Verificação técnica | agente `verificador-tecnico` | `07-verificacao.md` — veredito por item, fórmulas recalculadas |
+| 8 | Visuais | skill `prompts-visuais` | rascunho consolidado nos entregáveis 2 e 3 |
+| 9 | Consolidação | skill `revisao-editorial` | aplica 5+6+7, emite os três entregáveis finais |
+| 10 | **Gate humano** | principal | apresenta o post, o que mudou, pendências `[VERIFICAR]`; **para e espera** |
+
+Cada etapa: grava seu arquivo em `processo/`, atualiza `estado.json.etapa_atual`, **commita**
+(`feat(<slug>): <nome da etapa>`). Etapas com subagente: push depois do commit (trabalho caro,
+não vale perder).
+
+**Se a etapa 5 devolver severidade alta** (tese frágil, seção que não prova o que promete),
+volte à etapa 2 antes de seguir, e avise o autor — não maqueie problema estrutural na etapa 6.
+
+## Etapa 10 — gate humano
+
+Use `AskUserQuestion` com três saídas: **aprovar e publicar**, **ajustar**, **abortar**.
+
+- Aprovar → invoque a skill `publicar`.
+- Ajustar → pergunte o que mudar, reentre no **ponto mais raso que resolve o pedido**:
+  - reentrada na etapa 4 ou anterior → **consome um loop** (o texto está sendo refeito);
+  - reentrada nas etapas 5-9 → **não consome** (é acabamento, é para isso que o gate serve).
+  Registre a reentrada em `estado.json` (`ponto_retorno`, `motivo`, incrementa
+  `loops_consumidos` só se aplicável).
+- Esgotado `MAX_LOOPS_REVISAO` (3 por padrão): entregue o estado atual com um resumo honesto
+  do que não convergiu e o que o autor precisaria decidir para destravar. **Nunca aprove por
+  conta própria.**
+- Abortar → deixa a branch `post/<slug>` como está (não deleta — histórico de versões
+  descartadas alimenta o modo `atualizar` da forja de voz), avisa o autor onde ela ficou.
+
+## Os três entregáveis (etapa 9, na raiz de `posts/<slug>/`)
+
+**`post.md`** — texto revisado, frontmatter (título, subtítulo, data, tags, status),
+placeholders `![Ilustração: ...](ilu-NN)` / `![Gráfico: ...](graf-NN)` com alt-text
+descritivo. **`ilustracoes.md`** e **`graficos.md`** — ver skill `prompts-visuais` para o
+formato exato de cada um.
+
+## Regras que valem para toda etapa
+
+- `_arquivo/` nunca é editado (ver `CLAUDE.md`).
+- Número, fonte, fórmula ou citação sem verificação vira `[VERIFICAR: ...]` — nunca invente.
+- Cada subagente devolve só um laudo (arquivo em `processo/`) — o transcript sujo dele não
+  entra no contexto principal.
+- Nada de sobrescrita silenciosa: retomar um slug existente sempre mostra o que já foi feito
+  antes de prosseguir.

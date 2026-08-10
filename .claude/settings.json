@@ -1,0 +1,33 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git status *)",
+      "Bash(git diff *)",
+      "Bash(git log *)",
+      "Bash(git branch *)",
+      "Bash(git checkout -b *)",
+      "Bash(git tag *)",
+      "Bash(git push origin *)",
+      "Bash(git lfs *)",
+      "Bash(python3 *)",
+      "Bash(pdftotext *)",
+      "Read",
+      "Write",
+      "Edit",
+      "Glob",
+      "Grep"
+    ],
+    "deny": [
+      "Bash(git push * --force*)",
+      "Bash(git push * -f*)",
+      "Bash(git reset --hard*)",
+      "Bash(git rebase*)",
+      "Bash(git clean -f*)",
+      "Bash(git filter-branch*)",
+      "Bash(git push origin --delete*)",
+      "Bash(git branch -D*)"
+    ]
+  }
+}
