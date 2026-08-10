@@ -1,0 +1,6 @@
+rung,distancia_label,produto,risco_ordinal
+1,5 a 10 km,"Crédito bancário e Tesouro (CDB, LCI, LCA, Tesouro Selic)",1
+2,10 km,ETFs de renda fixa,2
+3,21 km (meia maratona),"Fundos, de forma geral",3
+4,21 a 42 km,Ações,4
+5,Maratona / ultramaratona,"Derivativos, day trade, operações de alta frequência",5
