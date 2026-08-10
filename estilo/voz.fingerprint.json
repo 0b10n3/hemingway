@@ -1,0 +1,124 @@
+{
+  "versao": "1.0.0",
+  "atualizado_em": "2026-08-10",
+  "commit_base": "3db8d17",
+  "confianca_global": "media",
+  "corpus_ref": "estilo/corpus-manifest.json",
+  "regras": [
+    {
+      "id": 1,
+      "traco": "jargão técnico sempre glosado ou definido na primeira ocorrência",
+      "cross_genero": true,
+      "confianca": "alta",
+      "evidencia_arquivos": ["syntaxis_objetivos_classes", "disser3.0", "syntaxis_tesouro_selic"]
+    },
+    {
+      "id": 2,
+      "traco": "exemplo sempre depois do conceito, nunca antes",
+      "cross_genero": true,
+      "confianca": "alta",
+      "evidencia_arquivos": ["disser3.0", "syntaxis_objetivos_classes", "syntaxis_tesouro_selic"]
+    },
+    {
+      "id": 3,
+      "traco": "dois-pontos como articulador de definição",
+      "cross_genero": true,
+      "confianca": "alta",
+      "evidencia_arquivos": ["syntaxis_a_ciencia_da_separacao", "disser3.0", "syntaxis_o_simples_funciona"]
+    },
+    {
+      "id": 4,
+      "traco": "nunca negrito/itálico de ênfase; aspas simples no lugar",
+      "cross_genero": false,
+      "confianca": "alta",
+      "evidencia_arquivos": ["syntaxis_a_ciencia_da_separacao", "syntaxis_objetivos_classes", "syntaxis_o_simples_funciona", "syntaxis_eu_preciso_de_um_assessor_de_investimentos", "syntaxis_titulos_do_tesouro_nacional"]
+    },
+    {
+      "id": 5,
+      "traco": "subtítulos H2 densos, um por movimento do argumento",
+      "cross_genero": true,
+      "confianca": "alta",
+      "evidencia_arquivos": ["todos os 6 posts substack", "disser3.0 (Capítulo.Seção)"]
+    },
+    {
+      "id": 6,
+      "traco": "autoridade construída citando estudo acadêmico nomeado (autor, ano)",
+      "cross_genero": false,
+      "confianca": "media",
+      "subgenero": "ensaistico",
+      "evidencia_arquivos": ["syntaxis_a_ciencia_da_separacao", "syntaxis_objetivos_classes", "syntaxis_o_simples_funciona"]
+    },
+    {
+      "id": 7,
+      "traco": "aposto/parêntese explicativo com travessão duplo logo após termo técnico",
+      "cross_genero": false,
+      "confianca": "alta",
+      "reforcado_por_admirado": "michael-lewis",
+      "evidencia_arquivos": ["syntaxis_objetivos_classes", "syntaxis_a_ciencia_da_separacao"]
+    },
+    {
+      "id": 8,
+      "traco": "cita instituição/regulador pelo nome (CVM, Banco Central, B3, Copom) para produto regulado",
+      "cross_genero": false,
+      "confianca": "media",
+      "evidencia_arquivos": ["syntaxis_eu_preciso_de_um_assessor_de_investimentos", "syntaxis_tesouro_selic", "syntaxis_a_ciencia_da_separacao"]
+    },
+    {
+      "id": 9,
+      "traco": "placeholder visual tratado como parte do argumento, não decoração",
+      "cross_genero": true,
+      "confianca": "media",
+      "nota": "parcialmente artefato de conversão dos arquivos fornecidos"
+    }
+  ],
+  "subgeneros_substack": {
+    "ensaistico": {
+      "arquivos": ["syntaxis_a_ciencia_da_separacao", "syntaxis_objetivos_classes", "syntaxis_o_simples_funciona", "syntaxis_eu_preciso_de_um_assessor_de_investimentos"],
+      "tracos": ["abre com anedota/pergunta", "primeira pessoa presente", "humor e ironia", "metáfora frequente", "pergunta retórica argumentativa", "CTA + gancho no fecho", "admite incerteza pontualmente"]
+    },
+    "explicativo": {
+      "arquivos": ["syntaxis_tesouro_selic", "syntaxis_titulos_do_tesouro_nacional"],
+      "tracos": ["abre com epígrafe ou definição direta", "terceira pessoa impessoal", "sem humor/ironia", "sem metáfora retomada", "nunca admite incerteza", "sem CTA final"]
+    }
+  },
+  "genero_academico_nao_aplicavel_substack": {
+    "arquivo": "disser3.0",
+    "tracos": ["primeira pessoa de modéstia, nunca singular", "zero metáfora", "Definição/Teorema/Demonstração rígido", "termina em resultado técnico, nunca síntese reflexiva"]
+  },
+  "movimentos_aspiracionais": [
+    { "id": 1, "autor": "michael-lewis", "movimento": "abre com cena datada e concreta antes da tese", "status": "reforça regra existente" },
+    { "id": 2, "autor": "michael-lewis", "movimento": "travessão duplo para aside irônico", "status": "já presente, reforço direto (regra 7)" },
+    { "id": 3, "autor": "michael-lewis", "movimento": "admite limite do próprio entendimento técnico, transfere validação à fonte", "status": "aspiracional, não testado" },
+    { "id": 4, "autor": "ernest-hemingway", "movimento": "omite explicação do porquê, deixa justaposição carregar sentido", "status": "tensão com regra 1, ver secao_tensoes" },
+    { "id": 5, "autor": "ernest-hemingway", "movimento": "repete palavra-chave em vez de variar por sinônimo", "status": "já presente em grau leve" },
+    { "id": 6, "autor": "malcolm-gladwell", "movimento": "define termo técnico/estatístico no instante em que aparece", "status": "coincide com regra 1 — regra forte" },
+    { "id": 7, "autor": "malcolm-gladwell", "movimento": "estrutura argumento como acúmulo de casos numerados", "status": "aspiracional, não testado" },
+    { "id": 8, "autor": "malcolm-gladwell", "movimento": "valida intuição do leitor, mina caso a caso, declara tese invertida como aforismo", "status": "aspiracional, parcialmente presente em syntaxis_o_simples_funciona" }
+  ],
+  "tensoes_conhecidas": [
+    "regra 1 (nunca deixar jargão sem explicar) vs movimento aspiracional 4 (Hemingway: omitir)",
+    "voz ensaística busca humor; voz acadêmica e explicativa evitam humor — não é tensão, é fronteira de subgênero",
+    "metáfora raramente retomada no fechamento vs Gladwell/Lewis que sustentam uma imagem no texto inteiro"
+  ],
+  "antipadroes_confirmados": [
+    "negrito/itálico de ênfase",
+    "tabela ou gráfico nativo (usa sempre placeholder de imagem)"
+  ],
+  "em_observacao": [
+    "reticências para continuidade/exemplos abertos",
+    "analogia autobiográfica ligada à formação em matemática",
+    "ironia dirigida à indústria financeira como antagonista coletivo"
+  ],
+  "checklist_auditoria": [
+    "termo técnico com gloss/definição na 1a ocorrência",
+    "exemplo depois do conceito",
+    "zero negrito/itálico de ênfase",
+    "subtítulo H2 por seção",
+    "afirmação de peso sustentada por autor+ano nomeado",
+    "voz consistente (ensaística XOR explicativa) no mesmo post",
+    "se ensaística: CTA final + pergunta retórica genuína",
+    "se explicativa: livre de humor, 1a pessoa singular, admissão de incerteza",
+    "livre de tiques de IA (pesquisa/frente-d-antipadroes-ia-ptbr.md)",
+    "instituição/norma citada corretamente"
+  ]
+}

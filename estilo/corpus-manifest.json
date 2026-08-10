@@ -1,0 +1,139 @@
+{
+  "gerado_em": "2026-08-10",
+  "commit_base": "3db8d17",
+  "metodologia": "hash SHA-256 do arquivo original em _arquivo/; palavras conta regex [A-Za-z + acentuados] via estilo/scripts/metricas.py (pdftotext para PDF); dissertacao tem contagem dupla porque leitura visual (subagente) e extração de texto puro (pdftotext) divergem — ver nota.",
+  "proprias": [
+    {
+      "arquivo": "_arquivo/amostras/proprias/substack/syntaxis_a_ciência_da_separação.md",
+      "sha256": "d5d10f2d1678af4d538e6169842651c73928255742b71c5bcfe4196ed88f1158",
+      "genero": "substack",
+      "subgenero": "ensaístico",
+      "palavras": 1557,
+      "extracao": "estilo/extracoes/proprias/syntaxis_a_ciencia_da_separacao.json"
+    },
+    {
+      "arquivo": "_arquivo/amostras/proprias/substack/syntaxis_eu_preciso_de_um_assessor_de_investimentos.md",
+      "sha256": "584e1ba3f5393cca463bb14bfa8ab4e1c91545cf33bf5ce65ff62002df9f5084",
+      "genero": "substack",
+      "subgenero": "ensaístico",
+      "palavras": 1136,
+      "extracao": "estilo/extracoes/proprias/syntaxis_eu_preciso_de_um_assessor_de_investimentos.json"
+    },
+    {
+      "arquivo": "_arquivo/amostras/proprias/substack/syntaxis_objetivos_classes.md",
+      "sha256": "2ccc638c071efc5d038110ac1116517430e0b769ac407e97183c68eb8388dd62",
+      "genero": "substack",
+      "subgenero": "ensaístico",
+      "palavras": 1367,
+      "extracao": "estilo/extracoes/proprias/syntaxis_objetivos_classes.json"
+    },
+    {
+      "arquivo": "_arquivo/amostras/proprias/substack/syntaxis_o_simples_funciona.md",
+      "sha256": "5733c796e793456a4d328eb698d7bb202e19ed8bd82e1b27fcc7d8563bf77b51",
+      "genero": "substack",
+      "subgenero": "ensaístico",
+      "palavras": 744,
+      "extracao": "estilo/extracoes/proprias/syntaxis_o_simples_funciona.json"
+    },
+    {
+      "arquivo": "_arquivo/amostras/proprias/substack/syntaxis_tesouro_selic.md",
+      "sha256": "dfdff19128ade8690ab929bcd523c1018051fecda65f7baf43055dffbb713e74",
+      "genero": "substack",
+      "subgenero": "explicativo",
+      "palavras": 1007,
+      "extracao": "estilo/extracoes/proprias/syntaxis_tesouro_selic.json"
+    },
+    {
+      "arquivo": "_arquivo/amostras/proprias/substack/syntaxis_títulos_do_tesouro_nacional.md",
+      "sha256": "607568ce4f786ebca49df42e6d4fcf69d3c671632dd9fc8604512c7e39a468eb",
+      "genero": "substack",
+      "subgenero": "explicativo",
+      "palavras": 931,
+      "extracao": "estilo/extracoes/proprias/syntaxis_titulos_do_tesouro_nacional.json"
+    },
+    {
+      "arquivo": "_arquivo/amostras/proprias/dissertacao/disser3.0.pdf",
+      "sha256": "111af109518e9b33503ad66309018a68c7a47efe954e332e20587705ff8425c0",
+      "genero": "dissertacao",
+      "subgenero": "acadêmico",
+      "palavras": 18943,
+      "palavras_pdftotext": 10735,
+      "nota_palavras": "extração via pdftotext (usada em metricas.json) perde parte das fórmulas/símbolos LaTeX; leitura visual do subagente capturou mais texto. Usar 18943 como referência de escopo lido, 10735 como o que a camada quantitativa efetivamente mediu.",
+      "extracao": "estilo/extracoes/proprias/disser3.0.json"
+    }
+  ],
+  "admiradas": [
+    {
+      "arquivo": "_arquivo/amostras/admiradas/michael-lewis/Faking It Share full article.md",
+      "sha256": null,
+      "nota_hash": "arquivo gitignored por copyright (ver MANIFESTO.md); hash não versionado para não amarrar o manifesto a um binário fora do git.",
+      "autor": "Michael Lewis",
+      "titulo": "Faking It",
+      "palavras": 780,
+      "extracao": "estilo/extracoes/admiradas/michael-lewis_faking-it.json"
+    },
+    {
+      "arquivo": "_arquivo/amostras/admiradas/michael-lewis/Future Nerd Getting small.md",
+      "sha256": null,
+      "autor": "Michael Lewis",
+      "titulo": "Future Nerd",
+      "palavras": 1284,
+      "extracao": "estilo/extracoes/admiradas/michael-lewis_future-nerd.json"
+    },
+    {
+      "arquivo": "_arquivo/amostras/admiradas/michael-lewis/The Trading Desk Share.md",
+      "sha256": null,
+      "autor": "Michael Lewis",
+      "titulo": "The Trading Desk",
+      "palavras": 830,
+      "extracao": "estilo/extracoes/admiradas/michael-lewis_trading-desk.json"
+    },
+    {
+      "arquivo": "_arquivo/amostras/admiradas/ernest-hemingway/soldiers-home.md",
+      "sha256": null,
+      "autor": "Ernest Hemingway",
+      "titulo": "Soldier's Home",
+      "palavras": 2923,
+      "extracao": "estilo/extracoes/admiradas/ernest-hemingway_soldiers-home.json"
+    },
+    {
+      "arquivo": "_arquivo/amostras/admiradas/ernest-hemingway/the-battler.md",
+      "sha256": null,
+      "autor": "Ernest Hemingway",
+      "titulo": "The Battler",
+      "palavras": 3174,
+      "extracao": "estilo/extracoes/admiradas/ernest-hemingway_the-battler.json"
+    },
+    {
+      "arquivo": "_arquivo/amostras/admiradas/ernest-hemingway/big-two-hearted-river.md",
+      "sha256": null,
+      "autor": "Ernest Hemingway",
+      "titulo": "Big Two-Hearted River",
+      "palavras": 8642,
+      "extracao": "estilo/extracoes/admiradas/ernest-hemingway_big-two-hearted-river.json"
+    },
+    {
+      "arquivo": "_arquivo/amostras/admiradas/malcolm-gladwell/the-ketchup-conundrum.md",
+      "sha256": null,
+      "autor": "Malcolm Gladwell",
+      "titulo": "The Ketchup Conundrum",
+      "palavras": 5425,
+      "extracao": "estilo/extracoes/admiradas/malcolm-gladwell_ketchup-conundrum.json"
+    },
+    {
+      "arquivo": "_arquivo/amostras/admiradas/malcolm-gladwell/something-borrowed.md",
+      "sha256": null,
+      "autor": "Malcolm Gladwell",
+      "titulo": "Something Borrowed",
+      "palavras": 3550,
+      "extracao": "estilo/extracoes/admiradas/malcolm-gladwell_something-borrowed.json"
+    }
+  ],
+  "totais": {
+    "proprias_textos": 7,
+    "proprias_palavras_substack": 6742,
+    "proprias_palavras_dissertacao": 18943,
+    "admiradas_textos": 8,
+    "admiradas_autores": 3
+  }
+}
