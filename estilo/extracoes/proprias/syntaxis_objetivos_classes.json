@@ -1,0 +1,381 @@
+{
+  "arquivo": "_arquivo/amostras/proprias/substack/syntaxis_objetivos_classes.md",
+  "genero": "substack",
+  "palavras": 950,
+  "eixos": {
+    "lexico": [
+      {
+        "traco": "termos técnicos de finanças/matemática sempre explicados ou glosados ao serem introduzidos (GBI, classes de equivalência, homogeneidade)",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "O Goal Based Investing, ou investimento baseado em objetivos, é uma abordagem que organiza a alocação",
+          "definem uma classe de ativos como um agrupamento que precisa ser 'internamente homogêneo' (semelhantes entre si)"
+        ],
+        "contraexemplo": "IPCA, ETF e NTNB são citados sem glosa, pressupondo familiaridade do leitor"
+      },
+      {
+        "traco": "anglicismos técnicos mantidos em inglês, às vezes com tradução ao lado",
+        "frequencia": "ocasional",
+        "ocorrencias": 5,
+        "evidencias": [
+          "Goal Based Investing GBI", "buckets' ou 'contas mentais' independentes", "Risk as probability of failing to reach the threshold"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "expressões coloquiais/idiomáticas intercaladas ao registro técnico (título de seção, referência pop)",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Cada um no Seu Quadrado",
+          "comprar uma lancha Focker 300 no futuro"
+        ],
+        "contraexemplo": null
+      }
+    ],
+    "sintaxe": [
+      {
+        "traco": "alternância marcada entre frases muito curtas (parágrafo de uma linha) e frases longas com múltiplas subordinadas",
+        "frequencia": "frequente",
+        "ocorrencias": 8,
+        "evidencias": [
+          "Por um bom motivo.",
+          "O conteúdo pediu para ser dividido em duas partes!",
+          "O GBI troca a busca por um portfólio globalmente ótimo por subportfólios alinhados e coerentes às metas do investidor."
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "uso de aposto/parênteses explicativos logo após o termo técnico",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "comumente estimada como um desvio padrão anualizado sobre janelas de curto prazo -, o GBI divide o patrimônio",
+          "índices como o IPCA para nos ajudar a compreender e mensurar a perda do poder aquisitivo"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "parágrafo-frase única como recurso de ênfase/ritmo, especialmente na abertura",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Por um bom motivo.",
+          "As aulas sobre instrumentos de renda fixa são imperdíveis!"
+        ],
+        "contraexemplo": null
+      }
+    ],
+    "pontuacao": [
+      {
+        "traco": "travessão duplo para inserir aposto/comentário dentro da frase",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "que você pode assistir de graça no MIT OpenCourseWare -, apresentou um curso de Teoria Financeira",
+          "comumente estimada como um desvio padrão anualizado sobre janelas de curto prazo -, o GBI divide"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "aspas simples para marcar termo técnico/glosa ou citação de conceito",
+        "frequencia": "frequente",
+        "ocorrencias": 7,
+        "evidencias": [
+          "'internamente homogêneo' (semelhantes entre si) e 'externamente heterogêneo'",
+          "'Risk as probability of failing to reach the threshold'"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "dois-pontos para introduzir lista em bullets",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "muitas das classificações de instrumentos financeiros vão ser baseadas em:",
+          "o GBI divide o patrimônio em 'buckets' ou 'contas mentais' independentes. Por exemplo:"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "reticências para sugestão de continuidade/exemplos abertos",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Ativos alternativos… Por que elas são relevantes?",
+          "(renda fixa, renda variável…)"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "ponto de exclamação para marcar entusiasmo/conclusão de mini-seção",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": [
+          "As aulas sobre instrumentos de renda fixa são imperdíveis!",
+          "Os títulos de renda fixa com rendimentos atrelados ao IPCA resolvem o problema de Pedro!"
+        ],
+        "contraexemplo": null
+      }
+    ],
+    "arquitetura": [
+      {
+        "traco": "abertura com nota pessoal/metatextual sobre o próprio texto antes de entrar no tema",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "O texto desta semana sai com um pouco de atraso.",
+          "O conteúdo pediu para ser dividido em duas partes!"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "abertura de seção temática com pergunta retórica em sequência",
+        "frequencia": "frequente",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Afinal, o que é renda fixa? Qual a diferença para renda variável? E os fundos de investimento?"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "conceito sustentado por citação de autor/estudo com nome e ano, seguido de exemplo narrativo com persona fictícia",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Kinlaw, Kritzman e Turkington 2021 definem uma classe de ativos como um agrupamento",
+          "Pedro é um engenheiro, casado e com 3 filhos. Com seus 42 anos, ele possui cerca de R$ 1,5 milhão"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "subtítulos (##) demarcam blocos temáticos claros e progressivos",
+        "frequencia": "sempre",
+        "ocorrencias": 4,
+        "evidencias": [
+          "## Instrumentos Financeiros", "## Objetivos, primeiro!", "## Cada um no Seu Quadrado", "## Conclusão"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "fechamento com conclusão sintética seguida de CTA de compartilhamento e perguntas em aberto para o próximo texto",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Obrigado por ler o Syntaxis! Compartilhar este post ajuda a ampliar o alcance de ideias que merecem circular.",
+          "Mas quais seriam os pressupostos a serem observados ao criarmos classes de ativos? Existe alguma classificação definitiva?"
+        ],
+        "contraexemplo": null
+      }
+    ],
+    "figuras": [
+      {
+        "traco": "analogia doméstica/pessoal para ilustrar diferença de tolerância a risco entre metas (aposentadoria vs. bem de consumo supérfluo)",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "não está disposto a correr o mesmo risco com o dinheiro da sua aposentadoria... do que com o dinheiro guardado para comprar uma lancha Focker 300"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "anedota autobiográfica como ponte para o conceito abstrato (matemática/classificação)",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Me lembro de passar alguns dias quentes no laboratório de informática do Centro de Ciências Exatas CCE... lendo na internet sobre os trabalhos de George David Birkhoff"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "figura não é retomada explicitamente ao final do texto",
+        "frequencia": "evita",
+        "ocorrencias": 0,
+        "evidencias": [
+          "Continuaremos na busca por essas respostas em nossos próximos textos."
+        ],
+        "contraexemplo": null
+      }
+    ],
+    "postura": [
+      {
+        "traco": "primeira pessoa do plural inclusiva para conduzir o leitor junto ('vamos')",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "vamos conversar sobre o que faz com que a classificação de ativos seja importante",
+          "Vamos nos aprofundar em breve na abordagem realizada por ele"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "primeira pessoa do singular para opinião/memória pessoal ('meu ponto favorito', 'me lembro')",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Um dos meus pontos favoritos do curso é a forma como Lo constrói a definição",
+          "Me lembro de passar alguns dias quentes no laboratório"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "autoridade construída por citação de nomes/estudos acadêmicos específicos com ano",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "Andrew Lo, renomado professor do MIT",
+          "O trabalho de Das, Markowitz, Scheid e Statman 2010 - Portfolio Optimization with Mental Accounts"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "tom próximo/conversacional com o leitor tratado por 'você'",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "preciso apresentar o mínimo que você precisa saber sobre o Goal Based Investing",
+          "Você provavelmente não está disposto a correr o mesmo risco"
+        ],
+        "contraexemplo": null
+      }
+    ],
+    "leitor": [
+      {
+        "traco": "pressupõe algum vocabulário financeiro básico mas explica siglas e conceitos-chave na primeira menção",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "O Goal Based Investing, ou investimento baseado em objetivos, é uma abordagem que organiza",
+          "É comum utilizar índices como o IPCA para nos ajudar a compreender"
+        ],
+        "contraexemplo": "IPCA, ETF e NTNB usados sem explicação, pressupondo bagagem do leitor"
+      },
+      {
+        "traco": "pergunta retórica usada para abrir seção ou provocar reflexão",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "Afinal, o que é renda fixa? Qual a diferença para renda variável?",
+          "Qual classe de instrumentos seria interessante para este objetivo de Pedro?"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "indicação de leitura adicional/aprofundamento para o leitor curioso",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Para os mais curiosos, basta pesquisar por exemplo sobre 'classes de equivalência'",
+          "é uma excelente referência se você desejar entender os aspectos teóricos dessa discussão"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "chamada para ação explícita de compartilhamento ao final",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Compartilhar este post ajuda a ampliar o alcance de ideias que merecem circular. Vamos levar esse conhecimento mais longe?"
+        ],
+        "contraexemplo": null
+      }
+    ],
+    "tecnico": [
+      {
+        "traco": "citação de autores/estudos acadêmicos com ano e título da obra, sem formatação de nota de rodapé",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "Kinlaw, Kritzman e Turkington 2021 definem uma classe de ativos como um agrupamento",
+          "Em seu livro Aesthetic Measure ('Medida Estética'), publicado em 1933"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "referência a índice/instrumento financeiro real com nomenclatura de mercado (sem tabela ou gráfico)",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Títulos como o Tesouro IPCA NTNB oferecem exatamente um rendimento que é composto pelo valor do IPCA",
+          "um CDB do Banco Master"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "nenhuma fórmula matemática exibida (inline ou em display), apenas menção verbal a 'fórmula'",
+        "frequencia": "evita",
+        "ocorrencias": 0,
+        "evidencias": [
+          "ele propôs uma fórmula matemática para medir o valor estético de objetos"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "nenhuma tabela ou gráfico presente no arquivo, apenas placeholders de imagem sem legenda",
+        "frequencia": "evita",
+        "ocorrencias": 4,
+        "evidencias": [
+          "<!-- image -->"
+        ],
+        "contraexemplo": null
+      }
+    ],
+    "formatacao": [
+      {
+        "traco": "subtítulos em markdown (##) demarcando seções temáticas",
+        "frequencia": "sempre",
+        "ocorrencias": 4,
+        "evidencias": [
+          "## Instrumentos Financeiros", "## Objetivos, primeiro!"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "listas em bullet-point (-) para enumerar critérios/exemplos",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Previsibilidade dos fluxos (renda fixa, renda variável…);",
+          "uma meta de curto prazo com alta probabilidade de sucesso (baixa volatilidade);"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "ausência total de negrito ou itálico no corpo do texto",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": [
+          "nenhuma marcação **negrito** ou *itálico* encontrada no arquivo"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "placeholders de imagem inseridos entre parágrafos sem legenda associada",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "<!-- image -->"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "aspas simples usadas como recurso tipográfico de destaque, no lugar de itálico/negrito",
+        "frequencia": "frequente",
+        "ocorrencias": 7,
+        "evidencias": [
+          "'buckets' ou 'contas mentais' independentes",
+          "'internamente homogêneo' (semelhantes entre si)"
+        ],
+        "contraexemplo": null
+      }
+    ]
+  },
+  "antipadroes_observados": [
+    "Nunca usa negrito ou itálico para ênfase — todo destaque tipográfico é feito via aspas simples.",
+    "Nunca exibe fórmula matemática em display ou inline, mesmo ao mencionar explicitamente a existência de uma.",
+    "Nunca usa tabela ou gráfico de dados; imagens aparecem apenas como placeholders sem conteúdo analisável.",
+    "Nunca fecha uma seção sem alguma forma de gancho (pergunta, promessa de continuação) para o texto seguinte."
+  ],
+  "incerteza": "O arquivo contém múltiplos placeholders '<!-- image -->' sem descrição, então não é possível avaliar como o autor de fato usa imagens/gráficos (função, legenda, posicionamento). Também não há fórmulas matemáticas renderizadas no texto para avaliar notação técnica real, apenas menção verbal a uma fórmula. Por ser apenas a 'primeira parte' de um texto dividido em duas, o arco de fechamento e o eventual retorno às figuras/analogias abertas podem se completar apenas na segunda parte, não observável aqui."
+}

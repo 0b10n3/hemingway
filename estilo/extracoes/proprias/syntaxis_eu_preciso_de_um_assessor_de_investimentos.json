@@ -1,0 +1,251 @@
+{
+  "arquivo": "_arquivo/amostras/proprias/substack/syntaxis_eu_preciso_de_um_assessor_de_investimentos.md",
+  "genero": "substack",
+  "palavras": 1159,
+  "eixos": {
+    "lexico": [
+      {
+        "traco": "vocabulário técnico do mercado financeiro usado sem glossário separado (COE, suitability, Tesouro Direto, renda fixa/variável)",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": ["a troca de um título do Tesouro por um COE", "preencheu a famosa 'suitability'", "diferença entre renda fixa e renda variável"],
+        "contraexemplo": "COE é parcialmente explicado por extenso em 'Certificado de Operação Estruturada', embora o trecho esteja fragmentado no arquivo"
+      },
+      {
+        "traco": "anglicismo mantido em inglês, às vezes entre aspas, sem tradução",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": ["preencheu a famosa 'suitability'", "questionários de suitability é extremamente genérica", "alocações é feita de forma Top-Down"],
+        "contraexemplo": null
+      },
+      {
+        "traco": "referência coloquial/pop pontual dentro de texto majoritariamente formal",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": ["comprar sua tão sonhada BMW", "cursos de gurus em busca do próximo Santo Graal"],
+        "contraexemplo": null
+      },
+      {
+        "traco": "segunda pessoa direta ('você') como modo padrão de interpelar o leitor",
+        "frequencia": "frequente",
+        "ocorrencias": 10,
+        "evidencias": ["Você precisa começar a se questionar", "você foi honesto?", "Pergunto: você é mais arrojado ou conservador"],
+        "contraexemplo": null
+      }
+    ],
+    "sintaxe": [
+      {
+        "traco": "perguntas retóricas curtas intercaladas na argumentação",
+        "frequencia": "frequente",
+        "ocorrencias": 8,
+        "evidencias": ["Elas precisam de um assessor?", "O que seria a tal gestão de riscos?", "você foi honesto?"],
+        "contraexemplo": null
+      },
+      {
+        "traco": "frases longas com subordinação em definições e explicações",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": ["Um assessor financeiro é um profissional que orienta investidores na escolha de produtos financeiros adequados ao seu perfil, metas e tolerância ao risco."],
+        "contraexemplo": null
+      },
+      {
+        "traco": "trechos com sintaxe interrompida/fora de ordem nas seções 'Complexidade' e 'Gestão de Risco', possivelmente artefato de extração e não escolha estilística",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": ["Certificado de Operação Estruturada)? Num primeiro momento, ele pode gerar uma ótima remuneração ao assessor e à corretora.", "BMW? maioria dos questionários de suitability é extremamente genérica; como"],
+        "contraexemplo": "nas seções 'Personalização', 'Economia de Tempo' e 'Conclusão' a sintaxe é linear e coerente"
+      }
+    ],
+    "pontuacao": [
+      {
+        "traco": "dois-pontos usados para introduzir definição ou enumeração",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": ["me apresentou os seguintes pontos:", "deve estar familiarizado com os termos: conservador, moderado, arrojado"],
+        "contraexemplo": null
+      },
+      {
+        "traco": "lista com marcadores para enumerar pontos citados de fonte externa (resposta do ChatGPT)",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": ["Complexidade do Mercado : O mercado financeiro é vasto e confuso para iniciantes.", "Gestão de Risco : Investir envolve riscos"],
+        "contraexemplo": null
+      },
+      {
+        "traco": "ponto de interrogação em sequência para sustentar cadeia de perguntas retóricas",
+        "frequencia": "frequente",
+        "ocorrencias": 9,
+        "evidencias": ["Elas precisam de um assessor?", "qual seria a utilidade de um COE", "Será que você realmente precisa de opções complexas, como operações com swaps?"],
+        "contraexemplo": null
+      },
+      {
+        "traco": "travessão para atribuir citação de epígrafe",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": ["\"O segredo do sucesso financeiro é o controle de suas emoções.\" -Daniel Kahneman"],
+        "contraexemplo": null
+      }
+    ],
+    "arquitetura": [
+      {
+        "traco": "abertura com epígrafe de autoridade seguida de observação cotidiana e pergunta",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": ["\"O segredo do sucesso financeiro é o controle de suas emoções.\" -Daniel Kahneman", "É comum ouvir conhecidos comentando sobre recomendações de portfólio"],
+        "contraexemplo": null
+      },
+      {
+        "traco": "usa resposta de IA (ChatGPT) como esqueleto organizador do argumento, depois refuta cada ponto um a um",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": ["Perguntei ao ChatGPT, na versão 4, quais seriam as principais razões", "Agora, vamos analisar cada um desses pontos"],
+        "contraexemplo": null
+      },
+      {
+        "traco": "subtítulos curtos (uma a três palavras) espelhando cada item da lista inicial",
+        "frequencia": "sempre",
+        "ocorrencias": 7,
+        "evidencias": ["## Complexidade", "## Gestão de Risco", "## Acompanhamento", "## Personalização", "## Economia de Tempo", "## Conclusão"],
+        "contraexemplo": null
+      },
+      {
+        "traco": "fecha com síntese conciliadora que reconhece valor parcial da tese contrária antes de reafirmar o ceticismo",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": ["Enquanto a assessoria pode oferecer suporte valioso em um mercado complexo e em constante mudança, também é fundamental que os investidores se questionem"],
+        "contraexemplo": null
+      }
+    ],
+    "figuras": [
+      {
+        "traco": "metáfora de busca mítica (Santo Graal) para criticar cursos e gurus de investimento",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": ["assistir a cursos de gurus em busca do próximo Santo Graal"],
+        "contraexemplo": null
+      },
+      {
+        "traco": "ausência de analogias/metáforas estendidas; texto majoritariamente literal e explicativo",
+        "frequencia": "evita",
+        "ocorrencias": 0,
+        "evidencias": [],
+        "contraexemplo": "única figura do texto ('Santo Graal') não é retomada nem desenvolvida"
+      }
+    ],
+    "postura": [
+      {
+        "traco": "primeira pessoa marcada, autor narra seu próprio processo de escrita e curiosidade",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": ["Sempre que escuto esses relatos, me pergunto se essas pessoas realmente precisam", "Decidi iniciar este post de uma maneira menos convencional"],
+        "contraexemplo": null
+      },
+      {
+        "traco": "postura cética em relação à indústria de assessoria, com ressalva explícita de neutralidade/generalidade",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": ["Não leve essas opiniões para o lado pessoal", "sem referência a nenhum assessor específico", "essas recomendações, por mais bem-intencionadas que sejam, são qualquer coisa menos personalizadas"],
+        "contraexemplo": null
+      },
+      {
+        "traco": "admite exceções e incerteza explicitamente, evitando generalização absoluta",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": ["se você se enquadra em um segmento de alta renda, a situação pode ser bem diferente", "este é um aspecto onde um assessor ou consultor financeiro pode ser extremamente útil"],
+        "contraexemplo": null
+      },
+      {
+        "traco": "ironia leve ao questionar práticas do mercado",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": ["você foi honesto?", "aquela oportunidade outlier de um COE"],
+        "contraexemplo": null
+      }
+    ],
+    "leitor": [
+      {
+        "traco": "pressupõe conhecimento prévio básico do mercado financeiro sem glossário completo",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": ["a troca de um título do Tesouro por um COE", "preencheu a famosa 'suitability'"],
+        "contraexemplo": "o texto define 'investidor iniciante' e o papel do assessor de forma relativamente detalhada em um parágrafo"
+      },
+      {
+        "traco": "perguntas retóricas dirigidas diretamente ao leitor para provocar autorreflexão",
+        "frequencia": "frequente",
+        "ocorrencias": 9,
+        "evidencias": ["Será que você realmente precisa de opções complexas, como operações com swaps?", "você é mais arrojado ou conservador quando o objetivo é construir o patrimônio"],
+        "contraexemplo": null
+      },
+      {
+        "traco": "ausência de imperativo ou call-to-action explícito (assinar, comentar, compartilhar); fecha com convite reflexivo genérico",
+        "frequencia": "evita",
+        "ocorrencias": 0,
+        "evidencias": ["O importante é que cada investidor busque um caminho que realmente faça sentido para sua situação financeira e seus objetivos de vida."],
+        "contraexemplo": null
+      }
+    ],
+    "tecnico": [
+      {
+        "traco": "cita órgão regulador nomeando-o por extenso e sigla",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": ["regulamentado pela Comissão de Valores Mobiliários CVM"],
+        "contraexemplo": null
+      },
+      {
+        "traco": "ausência de fórmulas, notação matemática, tabelas ou gráficos",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": [],
+        "contraexemplo": null
+      },
+      {
+        "traco": "termos técnicos definidos em prosa corrida, não em glossário destacado",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": ["Um assessor financeiro é um profissional que orienta investidores na escolha de produtos financeiros adequados ao seu perfil, metas e tolerância ao risco."],
+        "contraexemplo": null
+      }
+    ],
+    "formatacao": [
+      {
+        "traco": "subtítulos H2 (##) estruturando cada seção do argumento",
+        "frequencia": "sempre",
+        "ocorrencias": 7,
+        "evidencias": ["## O Que Pode Fazer um Assessor de Investimentos?", "## Complexidade", "## Conclusão"],
+        "contraexemplo": null
+      },
+      {
+        "traco": "lista com marcadores no formato 'Termo : explicação' para citar pontos de fonte externa",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": ["-  Complexidade do Mercado : O mercado financeiro é vasto e confuso para iniciantes."],
+        "contraexemplo": null
+      },
+      {
+        "traco": "epígrafe entre aspas com atribuição por travessão logo na abertura",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": ["\"O segredo do sucesso financeiro é o controle de suas emoções.\" -Daniel Kahneman"],
+        "contraexemplo": null
+      },
+      {
+        "traco": "ausência de negrito, código ou citação em bloco (blockquote) no corpo do texto",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": [],
+        "contraexemplo": null
+      }
+    ]
+  },
+  "antipadroes_observados": [
+    "Não usa fórmulas matemáticas nem notação técnica formal.",
+    "Não usa tabelas nem gráficos.",
+    "Não usa negrito, itálico de ênfase ou blocos de código no corpo do texto.",
+    "Não faz chamada explícita para ação (assinar, comentar, compartilhar).",
+    "Não cita dados numéricos, estatísticas ou estudos formais além da epígrafe de Kahneman.",
+    "Não usa gírias pesadas ou linguagem chula, mesmo nos momentos mais informais."
+  ],
+  "incerteza": "O arquivo apresenta sinais de corrupção/entrelaçamento de texto nas seções 'Complexidade' e 'Gestão de Risco' (por volta das linhas 35-47), com frases fora de ordem — padrão típico de extração de PDF/newsletter em duas colunas convertida para markdown. Isso torna pouco confiável avaliar a sintaxe exata do autor nesses trechos específicos (marcado como possível artefato, não estilo). Por ser um único arquivo, não é possível avaliar consistência de comprimento de bloco, tratamento de comentários/discordância de leitores, nem uso técnico (tabelas, gráficos, fórmulas) em outros contextos do autor, já que este arquivo não contém nenhum desses elementos."
+}

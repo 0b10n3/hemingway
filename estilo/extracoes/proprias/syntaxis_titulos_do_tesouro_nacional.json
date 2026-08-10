@@ -1,0 +1,450 @@
+{
+  "arquivo": "_arquivo/amostras/proprias/substack/syntaxis_títulos_do_tesouro_nacional.md",
+  "genero": "substack",
+  "palavras": 953,
+  "eixos": {
+    "lexico": [
+      {
+        "traco": "campo semântico financeiro/econômico institucional (títulos públicos, política monetária, dívida)",
+        "frequencia": "sempre",
+        "ocorrencias": 15,
+        "evidencias": [
+          "captar recursos, oferecendo-os a investidores em troca de uma remuneração futura",
+          "controlar a oferta de dinheiro em circulação na economia",
+          "gestão da dívida pública"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "termos técnicos por vezes glosados em aposto imediato, por vezes deixados sem explicação",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": [
+          "atrelada à taxa Selic, a taxa básica de juros da economia",
+          "É o título mais indicado para quem busca liquidez diária e segurança",
+          "sem o risco de perdas em resgates antecipados"
+        ],
+        "contraexemplo": "'liquidez diária' e 'resgates antecipados' aparecem sem glosa explicativa, ao contrário da Selic que é explicada"
+      },
+      {
+        "traco": "registro formal, sem coloquialismos ou gírias",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": [
+          "garantindo a sustentabilidade fiscal",
+          "acumulando recursos para financiar estudos futuros"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "ausência de anglicismos",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": [],
+        "contraexemplo": null
+      },
+      {
+        "traco": "nomes próprios de produtos como termos fixos repetidos (Tesouro Selic, Tesouro IPCA, Tesouro Prefixado, Tesouro Educa+, Tesouro Renda+)",
+        "frequencia": "sempre",
+        "ocorrencias": 10,
+        "evidencias": [
+          "Tesouro Selic, Tesouro IPCA e Tesouro Prefixado",
+          "O Tesouro Educa+ foi criado para ajudar as famílias"
+        ],
+        "contraexemplo": null
+      }
+    ],
+    "sintaxe": [
+      {
+        "traco": "frases longas, com múltiplas subordinadas e coordenadas encadeadas, sobretudo no parágrafo introdutório",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "O processo envolve a emissão de diferentes tipos de títulos, como o Tesouro Selic, Tesouro IPCA e Tesouro Prefixado, que podem ter rentabilidade prefixada ou atrelada a indicadores",
+          "Quando o governo precisa financiar suas despesas - sejam elas em infraestrutura, educação ou saúde - ele pode emitir esses títulos"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "oração principal geralmente antecipada, seguida de explicações e exemplos",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "O Tesouro Prefixado possui uma taxa de juros fixa, permitindo que o investidor saiba exatamente quanto receberá no vencimento",
+          "O Tesouro Renda+ é uma opção para quem está pensando em aposentadoria e busca complementar sua renda"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "travessão duplo para inserir aposto/exemplo dentro da frase",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "sejam elas em infraestrutura, educação ou saúde - ele pode emitir esses títulos"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "frase curta como recurso de ênfase",
+        "frequencia": "evita",
+        "ocorrencias": 0,
+        "evidencias": [],
+        "contraexemplo": "não há nenhuma frase de poucas palavras isolada para efeito de ênfase; até as sentenças de fechamento de seção são de porte médio a longo"
+      },
+      {
+        "traco": "sentenças de porte médio nas seções por título (definição + consequência) predominam sobre as longas do texto introdutório",
+        "frequencia": "frequente",
+        "ocorrencias": 8,
+        "evidencias": [
+          "O Tesouro Selic é um título pós-fixado cuja rentabilidade está atrelada à taxa Selic, a taxa básica de juros da economia."
+        ],
+        "contraexemplo": null
+      }
+    ],
+    "pontuacao": [
+      {
+        "traco": "vírgula como principal articulador de orações, em cadeias longas",
+        "frequencia": "sempre",
+        "ocorrencias": 20,
+        "evidencias": [
+          "oferecendo-os a investidores em troca de uma remuneração futura",
+          "arrecadando dinheiro para cobrir esses gastos"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "dois-pontos como articulador",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": [],
+        "contraexemplo": null
+      },
+      {
+        "traco": "parênteses para inserir exemplos ou glosas",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "(medida pelo IPCA.",
+          "(ensino médio, universidade, intercâmbios)"
+        ],
+        "contraexemplo": "o parêntese em '(medida pelo IPCA.' não é fechado corretamente — possível falha de extração ou erro do original"
+      },
+      {
+        "traco": "travessão simples/duplo para aposto explicativo",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "- sejam elas em infraestrutura, educação ou saúde -"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "aspas simples para epígrafe citada e aspas duplas para termo figurado",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "'O que você faz hoje pode melhorar todos os seus amanhãs.' -Ralph Marston",
+          "Eles atuam como um \"termômetro\" para o mercado financeiro"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "listas em prosa corrida (sem marcadores/bullets)",
+        "frequencia": "sempre",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Tesouro Selic, Tesouro IPCA e Tesouro Prefixado",
+          "infraestrutura, educação ou saúde"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "quebra de parágrafo: um parágrafo único e extenso na introdução; parágrafos curtos (2 por seção) nas subseções",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "É o título mais indicado para quem busca liquidez diária e segurança...",
+          "Esse título protege o investidor contra a inflação..."
+        ],
+        "contraexemplo": null
+      }
+    ],
+    "arquitetura": [
+      {
+        "traco": "abertura por epígrafe motivacional (citação de autor externo) antes de entrar no tema técnico",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "'O que você faz hoje pode melhorar todos os seus amanhãs.' -Ralph Marston"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "subtítulo logo abaixo do título principal funcionando como promessa de utilidade",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "O que você precisa saber"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "sustentação por definição de conceito geral seguida de detalhamento item a item, cada item com subtítulo dedicado",
+        "frequencia": "sempre",
+        "ocorrencias": 5,
+        "evidencias": [
+          "## Tesouro Selic",
+          "## Tesouro IPCA",
+          "## Tesouro Educa+"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "estrutura interna repetida por subseção: definição técnica no primeiro parágrafo, indicação de público/uso no segundo",
+        "frequencia": "sempre",
+        "ocorrencias": 5,
+        "evidencias": [
+          "O Tesouro IPCA é um título híbrido, que oferece uma rentabilidade composta...",
+          "Esse título protege o investidor contra a inflação... É indicado para objetivos de longo prazo"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "fechamento por seção 'Conclusão' que resume os pontos e anuncia continuidade em textos futuros",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Abordaremos cada um destes títulos em detalhes nos próximos textos"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "subtítulos densos e funcionais, um por conceito, sem subtítulos decorativos ou irônicos",
+        "frequencia": "sempre",
+        "ocorrencias": 7,
+        "evidencias": [
+          "## Tesouro Prefixado",
+          "## Tesouro Renda+",
+          "## Conclusão"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "exemplo concreto citado logo após a afirmação conceitual (relação conceito → exemplo)",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Por exemplo, quando o Banco Central vende títulos, ele reduz a quantidade de dinheiro disponível no mercado"
+        ],
+        "contraexemplo": null
+      }
+    ],
+    "figuras": [
+      {
+        "traco": "metáfora pontual do domínio de instrumentos de medição, sem extensão nem retomada",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Eles atuam como um \"termômetro\" para o mercado financeiro"
+        ],
+        "contraexemplo": "a figura não é retomada em nenhum outro ponto do texto, inclusive na conclusão"
+      }
+    ],
+    "postura": [
+      {
+        "traco": "terceira pessoa impessoal; ausência de primeira pessoa do singular",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Os títulos do Tesouro Nacional são instrumentos que o governo brasileiro utiliza"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "primeira pessoa do plural pontual ao anunciar conteúdo futuro (voz editorial coletiva)",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Abordaremos cada um destes títulos em detalhes nos próximos textos"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "tom de autoridade explicativa, afirmações categóricas sem hedging",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "proporcionando sempre um retorno positivo, mesmo que a taxa caia",
+          "permitindo que o investidor saiba exatamente quanto receberá no vencimento"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "admissão de incerteza",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": [],
+        "contraexemplo": "não há ressalvas, condicionais ou expressões de dúvida em nenhum ponto do texto"
+      },
+      {
+        "traco": "humor",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": [],
+        "contraexemplo": null
+      },
+      {
+        "traco": "tratamento de discordância/contraponto",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": [],
+        "contraexemplo": "o texto não apresenta objeções, riscos ou pontos de vista concorrentes sobre os títulos"
+      },
+      {
+        "traco": "endereçamento direto ocasional ao leitor via 'você', quebrando a impessoalidade do corpo do texto",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "O que você precisa saber"
+        ],
+        "contraexemplo": null
+      }
+    ],
+    "leitor": [
+      {
+        "traco": "pressupõe conhecimento prévio mínimo; conceitos-chave (Selic) recebem glosa curta em aposto",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "atrelada à taxa Selic, a taxa básica de juros da economia"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "pergunta retórica",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": [],
+        "contraexemplo": null
+      },
+      {
+        "traco": "modo imperativo dirigido ao leitor",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": [],
+        "contraexemplo": null
+      },
+      {
+        "traco": "chamada para ação explícita",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": [],
+        "contraexemplo": "a conclusão anuncia próximos textos, mas não convida a nenhuma ação concreta do leitor (investir, se inscrever etc.)"
+      },
+      {
+        "traco": "perfil do investidor descrito em terceira pessoa para orientar identificação do leitor com o produto",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "É indicado para objetivos de longo prazo, como aposentadoria ou compra de imóvel",
+          "ideal para quem busca uma aposentadoria segura"
+        ],
+        "contraexemplo": null
+      }
+    ],
+    "tecnico": [
+      {
+        "traco": "ausência de notação matemática ou fórmulas",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": [],
+        "contraexemplo": null
+      },
+      {
+        "traco": "ausência de tabelas e gráficos",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": [],
+        "contraexemplo": null
+      },
+      {
+        "traco": "citação de instituições (Tesouro Nacional, Banco Central) sem citar norma, lei ou regulação específica",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "quando o Banco Central vende títulos, ele reduz a quantidade de dinheiro disponível no mercado",
+          "Os títulos do Tesouro também oferecem aos investidores uma opção segura de investimento"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "referência a índice/indicador (IPCA, Selic) sem citar valor numérico ou data, portanto sem risco de dado desatualizado explícito",
+        "frequencia": "sempre",
+        "ocorrencias": 6,
+        "evidencias": [
+          "rentabilidade indexada ao IPCA, garantindo proteção contra a inflação"
+        ],
+        "contraexemplo": null
+      }
+    ],
+    "formatacao": [
+      {
+        "traco": "títulos em nível de cabeçalho '##' para seção principal e subtítulos de cada título público",
+        "frequencia": "sempre",
+        "ocorrencias": 7,
+        "evidencias": [
+          "## Títulos do Tesouro Nacional",
+          "## Tesouro Selic"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "ausência de negrito, itálico ou código no corpo do texto extraído",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": [],
+        "contraexemplo": null
+      },
+      {
+        "traco": "epígrafe citada com atribuição de autor, sem uso de sintaxe de blockquote markdown ('>')",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "'O que você faz hoje pode melhorar todos os seus amanhãs.' -Ralph Marston"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "placeholders de imagem sem legenda, indicando conversão de PDF/documento visual para markdown",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "<!-- image -->",
+          "<!-- image -->"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "blocos de parágrafo curtos (1-3 frases) em cada subseção, exceto o parágrafo introdutório extenso",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "A proposta é que o valor investido cresça ao longo dos anos..."
+        ],
+        "contraexemplo": "o parágrafo introdutório foge ao padrão, concentrando toda a explicação conceitual em um único bloco extenso"
+      }
+    ]
+  },
+  "antipadroes_observados": [
+    "Nunca usa primeira pessoa do singular ('eu').",
+    "Nunca usa dois-pontos como articulador de frase.",
+    "Nunca formula pergunta retórica.",
+    "Nunca usa modo imperativo dirigido ao leitor.",
+    "Nunca admite incerteza, dúvida ou ressalva sobre as afirmações feitas.",
+    "Nunca apresenta contraponto, risco ou objeção aos produtos descritos.",
+    "Nunca usa humor ou ironia.",
+    "Nunca usa listas com marcadores/bullets — tudo em prosa corrida.",
+    "Nunca insere fórmula, tabela ou gráfico."
+  ],
+  "incerteza": "O arquivo é curto (953 palavras) e de gênero informativo/institucional, o que limita conclusões sobre variação de registro em textos mais longos, uso de humor, tratamento de contra-argumentos e retomada de figuras de linguagem ao longo de um texto extenso — nenhum desses traços aparece o suficiente para generalizar. Há um parêntese não fechado ('(medida pelo IPCA.') que pode ser erro de extração do documento original (provavelmente PDF) ou erro de digitação da fonte; não é possível determinar a causa. Os marcadores '<!-- image -->' sem legenda sugerem perda de conteúdo visual na conversão, mas não afetam o texto em si. Ausência de marcação de negrito/itálico pode refletir tanto a ausência real no original quanto perda de formatação na extração — não é possível confirmar qual."
+}

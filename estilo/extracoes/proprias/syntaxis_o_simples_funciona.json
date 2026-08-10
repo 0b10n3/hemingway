@@ -1,0 +1,328 @@
+{
+  "arquivo": "_arquivo/amostras/proprias/substack/syntaxis_o_simples_funciona.md",
+  "genero": "substack",
+  "palavras": 777,
+  "eixos": {
+    "lexico": [
+      {
+        "traco": "Termos técnicos financeiros/acadêmicos usados em sequência, contextualizados por oposição em vez de definidos formalmente",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": ["Sem cálculo estocástico. Sem descontar fluxos de caixa futuros.", "otimização de média-variância de Harry Markowitz"],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Anglicismos e termos estrangeiros mantidos em itálico/aspas, às vezes com tradução ao lado",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": ["'Rocket Science' financeira", "Naive Set Theory , de Paul R. Halmos", "'Naive' costuma virar 'ingênuo'"],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Palavra-tema repetida como fio condutor semântico ('ingênuo/ingênua')",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": ["não achei nada ingênuo", "existe uma estratégia de alocação 'ingenua' em finanças", "a estratégia 'ingênua' do 1/N empatava ou ganhava"],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Registro coloquial-irônico misturado ao vocabulário técnico",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": ["fetiche por complexidade", "besta indomável que só pode ser controlada por equações"],
+        "contraexemplo": ""
+      }
+    ],
+    "sintaxe": [
+      {
+        "traco": "Frases nominais/fragmentos muito curtos usados em sequência como ênfase retórica",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": ["É sexy.", "E, acima de tudo, é caro.", "Fim.", "São 250 anos."],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Períodos longos com subordinação ao explicar mecanismo técnico",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": ["O modelo complexo de Markowitz exigia estimativas sobre o futuro - retornos, volatilidade, correlações - que são impossíveis de prever com precisão."],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Perguntas retóricas em sequência dentro do mesmo parágrafo",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": ["Mas e se a 'Rocket Science' for apenas uma cortina de fumaça? E se a estratégia de investimento mais eficaz for tão estúpida que um aluno da quarta série poderia executá-la no intervalo do recreio?"],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Encadeamento de orações curtas justapostas sem conectivo, tipo lista em prosa",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": ["Você tem 1.000 reais? Tem 10 ações disponíveis? Você coloca 100 reais em cada uma. Fim."],
+        "contraexemplo": ""
+      }
+    ],
+    "pontuacao": [
+      {
+        "traco": "Travessão para inserir comentário ou aposto irônico",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": ["E aí está o ponto curioso - e um pouco irônico: existe uma estratégia"],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Dois-pontos para introduzir pergunta ou explicação articuladora",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": ["A pergunta óbvia é: isso funciona?", "O resultado? Na prática, a estratégia 'ingênua' do 1/N empatava"],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Aspas simples para marcar expressão irônica ou jargão citado",
+        "frequencia": "frequente",
+        "ocorrencias": 8,
+        "evidencias": ["'Rocket Science'", "'ingênuo'", "'portfólio ótimo'"],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Parágrafos curtos, de uma a três frases",
+        "frequencia": "sempre",
+        "ocorrencias": 12,
+        "evidencias": ["É 'Rocket Science' financeira. É sexy.", "E, acima de tudo, é caro."],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Ausência de listas com marcadores; tudo em prosa corrida",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": ["Você tem 1.000 reais? Tem 10 ações disponíveis? Você coloca 100 reais em cada uma. Fim."],
+        "contraexemplo": ""
+      }
+    ],
+    "arquitetura": [
+      {
+        "traco": "Abertura por tese/afirmação provocativa sobre o campo, não por dado ou cena",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": ["O mercado financeiro tem um fetiche por complexidade."],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Subtítulos H2 dividindo o texto em seções temáticas curtas",
+        "frequencia": "sempre",
+        "ocorrencias": 4,
+        "evidencias": ["## O Benchmark da Ingenuidade", "## Quando o Nobel Falha", "## Conclusão"],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Anedota pessoal/autobiográfica usada para abrir uma seção intermediária",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": ["Quando eu estava na graduação em Matemática na UFES ... um professor me recomendou uma leitura."],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Sustentação do argumento por citação de estudo acadêmico nomeado, com autores, ano e veículo de publicação",
+        "frequencia": "frequente",
+        "ocorrencias": 1,
+        "evidencias": ["Victor DeMiguel, Lorenzo Garlappi e Raman Uppal. Em 2007", "publicado na Review of Financial Studies"],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Fecho com pergunta reflexiva/aforismo e gancho explícito para o próximo texto da série",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": ["às vezes, o cara 'ingênuo' é o único na sala que não está sendo enganado.", "Na próxima vez, vamos falar sobre a estratégia Ivy 5 de Meb Faber"],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Bloco de encerramento com agradecimento e CTA de compartilhamento típico de newsletter",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": ["Obrigado por ler o SYNTAXIS! Compartilhar este post ajuda a ampliar o alcance de ideias que merecem circular."],
+        "contraexemplo": ""
+      }
+    ],
+    "figuras": [
+      {
+        "traco": "Metáfora automotiva estendida para desmontar a reputação de um modelo consagrado",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": ["foi como abrir o capô de uma Ferrari e descobrir que ela era movida por um motor de uno"],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Metáfora bélica para descrever o confronto entre pesquisadores e teoria consagrada",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": ["decidiram comprar uma briga com uma lenda viva"],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Metáfora animal para o mercado como força incontrolável",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": ["o mercado fosse uma besta indomável que só pode ser controlada por equações que você não entende"],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Hipérbole cômica com referência a longevidade animal/fantástica para ironizar uma condição improvável",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": ["A menos que você seja um vampiro ou uma tartaruga de Galápagos, a complexidade não vale o seu tempo."],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Figuras não são retomadas explicitamente no fechamento do texto",
+        "frequencia": "evita",
+        "ocorrencias": 0,
+        "evidencias": ["às vezes, o cara 'ingênuo' é o único na sala que não está sendo enganado."],
+        "contraexemplo": ""
+      }
+    ],
+    "postura": [
+      {
+        "traco": "Primeira pessoa com confissão pessoal ligada à experiência acadêmica do autor",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": ["Na época, confesso: não achei nada ingênuo ."],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Tom irônico/humorístico como recurso constante de crítica à indústria",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": ["É 'Rocket Science' financeira. É sexy.", "E, acima de tudo, é caro."],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Autoridade construída por citação de estudo acadêmico e nome de laureado com Nobel, não por credencial própria",
+        "frequencia": "frequente",
+        "ocorrencias": 2,
+        "evidencias": ["Ele ganhou um Prêmio Nobel de Economia por dizer ao mundo como otimizar portfólios"],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Crítica à indústria financeira feita de forma coletiva/genérica, sem nomear adversário direto",
+        "frequencia": "frequente",
+        "ocorrencias": 2,
+        "evidencias": ["A indústria financeira age como se o mercado fosse uma besta indomável"],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Afirma conclusões do estudo com segurança, sem hedging explícito de incerteza",
+        "frequencia": "frequente",
+        "ocorrencias": 1,
+        "evidencias": ["Na prática, a estratégia 'ingênua' do 1/N empatava ou ganhava do modelo do Prêmio Nobel."],
+        "contraexemplo": ""
+      }
+    ],
+    "leitor": [
+      {
+        "traco": "Endereçamento direto em segunda pessoa ('você') ao longo do texto",
+        "frequencia": "frequente",
+        "ocorrencias": 7,
+        "evidencias": ["Você tem 1.000 reais? Tem 10 ações disponíveis?", "O seu portifólio atual tem performance melhor"],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Pergunta retórica dirigida ao leitor para provocar reflexão, inclusive no fecho de seção",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": ["Por que ninguém te vende o 1/N? Por que seu gerente de banco não sugere dividir seu dinheiro igualmente e ir para a praia?"],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Tradução/gloss de termo técnico estrangeiro para leitor não especialista",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": ["'Naive' costuma virar 'ingênuo'. O título ficaria seria algo como 'Teoria Ingênua de Conjuntos'."],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "CTA explícito de compartilhamento ao final, padrão de newsletter",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": ["Compartilhar este post ajuda a ampliar o alcance de ideias que merecem circular. Vamos levar esse conhecimento mais longe?"],
+        "contraexemplo": ""
+      }
+    ],
+    "tecnico": [
+      {
+        "traco": "Menciona existência de fórmula mas não a apresenta em notação visível no texto (provável imagem removida)",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": ["A fórmula é:"],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Dado numérico usado como prova de escala/tempo, sem tabela ou gráfico",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": ["você precisaria de uma amostra de dados de cerca de 3.000 meses. São 250 anos."],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Citação de publicação acadêmica nomeada como fonte, sem norma ou regulação",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": ["publicado na Review of Financial Studies"],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Ausência de tabelas ou gráficos no corpo do texto",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": ["<!-- image -->"],
+        "contraexemplo": ""
+      }
+    ],
+    "formatacao": [
+      {
+        "traco": "Itálico para título de obra e termo estrangeiro",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": ["Naive Set Theory , de Paul R. Halmos", "set theory"],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Aspas simples como destaque tipográfico recorrente em vez de negrito",
+        "frequencia": "frequente",
+        "ocorrencias": 8,
+        "evidencias": ["'Rocket Science'", "'ingênuo'"],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Subtítulos H2 curtos e temáticos dividindo o artigo em blocos",
+        "frequencia": "sempre",
+        "ocorrencias": 4,
+        "evidencias": ["## O Benchmark da Ingenuidade", "## Quando o Nobel Falha", "## Conclusão", "## Continua …"],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Ausência de negrito, código ou citação em bloco no texto",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": ["A pergunta óbvia é: isso funciona?"],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Marcadores de imagem removida intercalados no texto (formato de importação, não estilo autoral)",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": ["<!-- image -->"],
+        "contraexemplo": ""
+      }
+    ]
+  },
+  "antipadroes_observados": [
+    "Nunca usa listas com marcadores/bullet points, mesmo ao enumerar passos (ex.: alocação 1/N é narrada em prosa, não em lista)",
+    "Nunca usa negrito para destaque, apenas aspas simples e itálico",
+    "Nunca usa citação em bloco (blockquote)",
+    "Nunca apresenta notação matemática ou fórmula visível no corpo do texto, mesmo ao anunciá-la",
+    "Nunca usa emojis",
+    "Nunca cita norma ou regulação oficial (apenas estudo acadêmico)"
+  ],
+  "incerteza": "O texto anuncia 'A fórmula é:' mas nenhuma fórmula aparece no corpo — provavelmente estava em uma imagem, e o arquivo só preserva marcadores '<!-- image -->' no lugar de três ilustrações, então não é possível avaliar como o autor apresenta fórmulas/gráficos/tabelas neste gênero. Há também trechos com possível corrupção de extração: '(sem escada)' e o espaçamento irregular em '( set theory )' e 'UFES Universidade Federal do Espírito Santo)' sugerem erros de OCR/conversão, não intenção estilística. Por ser uma amostra única e curta (777 palavras), classificações de frequência (sempre/frequente/ocasional) refletem apenas este texto e podem não generalizar para o corpus completo do autor."
+}

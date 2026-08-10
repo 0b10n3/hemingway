@@ -1,0 +1,272 @@
+{
+  "arquivo": "_arquivo/amostras/proprias/substack/syntaxis_tesouro_selic.md",
+  "genero": "substack",
+  "palavras": 1060,
+  "eixos": {
+    "lexico": [
+      {
+        "traco": "vocabulário técnico-financeiro (mercado de renda fixa) usado com frequência e quase sempre glosado entre parênteses na primeira ocorrência",
+        "frequencia": "frequente",
+        "ocorrencias": 8,
+        "evidencias": ["LFT Letra Financeira do Tesouro), título pós-fixado também atrelado à Selic", "CBLC Companhia Brasileira de Liquidação e Custódia)", "Comitê de Política Monetária Copom) do Banco Central"],
+        "contraexemplo": "termos como 'marcação a mercado' e 'IOF' aparecem sem glosa, pressupondo alguma familiaridade"
+      },
+      {
+        "traco": "registro formal, sem gírias nem coloquialismos",
+        "frequencia": "sempre",
+        "ocorrencias": 0,
+        "evidencias": ["O Tesouro Selic é um título público pós-fixado oferecido pelo programa do Tesouro Direto, em parceria com a B3."],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "ausência de anglicismos ou estrangeirismos",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": ["nenhuma ocorrência de termo em língua estrangeira no texto"],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "repetição lexical de palavras-chave como eixo temático (segurança, liquidez, rentabilidade)",
+        "frequencia": "sempre",
+        "ocorrencias": 15,
+        "evidencias": ["ideal para quem busca liquidez, segurança e rentabilidade acompanhando a taxa Selic", "oferecendo uma reserva sempre disponível e com uma rentabilidade ajustada aos juros de mercado"],
+        "contraexemplo": ""
+      }
+    ],
+    "sintaxe": [
+      {
+        "traco": "frases longas e compostas, com subordinação explicativa encadeada por vírgulas",
+        "frequencia": "frequente",
+        "ocorrencias": 10,
+        "evidencias": ["Diferente dos títulos prefixados, o Tesouro Selic está atrelado à taxa Selic, que é a taxa básica de juros da economia brasileira.", "Como resultado, a rentabilidade do Tesouro Selic varia conforme as mudanças na Selic, tornando-o uma opção segura para investidores que desejam liquidez e estabilidade de retorno."],
+        "contraexemplo": "algumas frases curtas de transição existem, ex.: 'Ou seja, é a Selic Over que, ajustada diariamente, compõe a rentabilidade do Tesouro Selic.'"
+      },
+      {
+        "traco": "oração principal geralmente na abertura da frase, seguida de explicação/qualificação",
+        "frequencia": "frequente",
+        "ocorrencias": 8,
+        "evidencias": ["A remuneração do Tesouro Selic é composta pela Selic Over aplicada diariamente sobre o valor investido, acumulando rentabilidade ao longo do tempo."],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "frase curta como ênfase é praticamente ausente; o texto não usa frases de uma oração isolada para destaque retórico",
+        "frequencia": "evita",
+        "ocorrencias": 0,
+        "evidencias": ["nenhuma frase de efeito isolada de uma linha encontrada no corpo do texto"],
+        "contraexemplo": ""
+      }
+    ],
+    "pontuacao": [
+      {
+        "traco": "dois-pontos usados como articulador para introduzir definição ou lista (estilo glossário)",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": ["Taxas : A maioria das corretoras isenta o investidor de taxas de custódia adicionais", "Tributação : O Imposto de Renda segue uma tabela regressiva sobre os ganhos de capital:"],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "listas com marcadores para vantagens/riscos e faixas de tributação, intercaladas com prosa corrida",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": ["Liquidez Diária : O investidor pode resgatar o Tesouro Selic a qualquer dia útil sem perda de capital", "22,5% para investimentos até 180 dias;"],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "parênteses para inserir siglas e explicações; no arquivo aparecem com abertura ausente, possível artefato de conversão",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": ["Comitê de Política Monetária Copom) do Banco Central", "LFT Letra Financeira do Tesouro), título pós-fixado"],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "parágrafos de tamanho médio (3 a 5 frases), um bloco por ideia",
+        "frequencia": "sempre",
+        "ocorrencias": 9,
+        "evidencias": ["parágrafo sobre Selic Meta/Selic Over com 4 frases", "parágrafo de comparação Tesouro Selic vs LFT com 3-4 frases"],
+        "contraexemplo": ""
+      }
+    ],
+    "arquitetura": [
+      {
+        "traco": "abertura por epígrafe (citação de autoridade) seguida de referência ao post anterior como ponte de continuidade",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": ["\"A segurança financeira não é apenas um objetivo, é uma jornada.\" - Dave Ramsey", "No post anterior, discutimos o Tesouro Prefixado"],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "estrutura sustentada por alta densidade de subtítulos temáticos, no formato pergunta-resposta ou tópico nominal (estilo explicativo/FAQ)",
+        "frequencia": "sempre",
+        "ocorrencias": 7,
+        "evidencias": ["## O que é o Tesouro Selic?", "## Para quem o Tesouro Selic é indicado?", "## Custos e Tributação"],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "exemplo numérico hipotético colocado logo após a explicação do conceito, funcionando como prova de cálculo",
+        "frequencia": "frequente",
+        "ocorrencias": 2,
+        "evidencias": ["Suponha que você invista R$ 1.000,00 no Tesouro Selic e a taxa Selic esteja em 13% ao ano.", "Imagine que você deseje construir uma reserva de emergência de R$ 5.000,00 para imprevistos."],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "fechamento por seção de conclusão que recapitula vantagens e generaliza a recomendação para perfis de investidor",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": ["Seja para investidores iniciantes ou experientes, ele permite um planejamento financeiro seguro e alinhado com a política econômica nacional."],
+        "contraexemplo": ""
+      }
+    ],
+    "figuras": [
+      {
+        "traco": "quase nenhuma metáfora ou analogia autoral; a única figura do texto é uma citação de terceiro na epígrafe, não retomada depois",
+        "frequencia": "evita",
+        "ocorrencias": 1,
+        "evidencias": ["\"A segurança financeira não é apenas um objetivo, é uma jornada.\" - Dave Ramsey"],
+        "contraexemplo": "o corpo do texto após a epígrafe é inteiramente literal/técnico, sem retomar a metáfora da 'jornada'"
+      }
+    ],
+    "postura": [
+      {
+        "traco": "voz predominantemente impessoal em terceira pessoa para descrever o produto financeiro",
+        "frequencia": "sempre",
+        "ocorrencias": 12,
+        "evidencias": ["O Tesouro Selic é um título público pós-fixado oferecido pelo programa do Tesouro Direto", "A remuneração do Tesouro Selic é composta pela Selic Over aplicada diariamente"],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "primeira pessoa do plural pontual para marcar continuidade editorial com o leitor ('discutimos', 'vamos explorar')",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": ["No post anterior, discutimos o Tesouro Prefixado", "Hoje, vamos explorar um título público de remuneração pós-fixada"],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "segunda pessoa ('você') usada em exemplos hipotéticos para aproximar o leitor do cálculo",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": ["Suponha que você invista R$ 1.000,00 no Tesouro Selic", "Imagine que você deseje construir uma reserva de emergência"],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "tom de autoridade afirmativa, sem hedges ou expressões de dúvida pessoal; incerteza é tratada como fato de mercado, não como opinião do autor",
+        "frequencia": "sempre",
+        "ocorrencias": 0,
+        "evidencias": ["Em cenários de redução da Selic, a rentabilidade também será menor.", "a variação tende a ser mínima em comparação a outros títulos"],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "sem humor, sem ironia, sem tratamento de discordância ou contraponto polêmico — riscos são apresentados de forma didática e neutra",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": ["seção 'Riscos' descreve oscilações e marcação a mercado em tom neutro, sem alarme nem informalidade"],
+        "contraexemplo": ""
+      }
+    ],
+    "leitor": [
+      {
+        "traco": "pressupõe leitor com conhecimento prévio básico de investimentos (já leu post anterior sobre Tesouro Prefixado), mas sem exigir bagagem técnica avançada",
+        "frequencia": "frequente",
+        "ocorrencias": 1,
+        "evidencias": ["No post anterior, discutimos o Tesouro Prefixado , um título com rentabilidade definida no momento da compra"],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "termos desconhecidos são introduzidos com explicação parentética imediata, não pressupostos",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": ["LFT Letra Financeira do Tesouro), título pós-fixado também atrelado à Selic"],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "uso de imperativo/convite hipotético ('imagine', 'suponha') em vez de pergunta retórica direta",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": ["Imagine que você deseje construir uma reserva de emergência de R$ 5.000,00"],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "pergunta retórica usada apenas como título de seção, não no corpo do texto",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": ["## O que é o Tesouro Selic?", "## Para quem o Tesouro Selic é indicado?"],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "ausência de chamada para ação explícita ao final (sem convite a assinar, comentar ou compartilhar)",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": ["conclusão termina descrevendo o produto ('ele permite um planejamento financeiro seguro...') sem CTA"],
+        "contraexemplo": ""
+      }
+    ],
+    "tecnico": [
+      {
+        "traco": "dados numéricos apresentados inline em prosa (percentuais e valores em reais), nunca em fórmula matemática formal ou notação display",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": ["Com uma taxa de custódia de 0,20% ao ano, a rentabilidade líquida anual será de cerca de 12,8%.", "chegando a um valor de R$ 5.640,00 (sem considerar o IR"],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "faixas de tributação apresentadas como lista, não como tabela",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": ["22,5% para investimentos até 180 dias;", "15% para investimentos acima de 720 dias."],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "citação de instituições/entidades regulatórias como fonte de autoridade (B3, Copom, Banco Central, CBLC)",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": ["oferecido pelo programa do Tesouro Direto, em parceria com a B3", "definida pelo Comitê de Política Monetária Copom) do Banco Central"],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "taxa Selic usada como exemplo (13% ao ano) é um valor pontual que tende a desatualizar com o tempo",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": ["a taxa Selic esteja em 13% ao ano", "Com uma taxa Selic Over de 13% ao ano, o Tesouro Selic é uma escolha sólida"],
+        "contraexemplo": ""
+      }
+    ],
+    "formatacao": [
+      {
+        "traco": "uso sistemático de subtítulos de nível 2 (##) para dividir o texto em seções temáticas",
+        "frequencia": "sempre",
+        "ocorrencias": 7,
+        "evidencias": ["## Vantagens e Riscos do Tesouro Selic", "## Construindo uma Reserva de Emergência", "## Conclusão"],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "bloco de citação de abertura com atribuição em formato de item de lista ('- Dave Ramsey')",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": ["\"A segurança financeira não é apenas um objetivo, é uma jornada.\"\n\n- Dave Ramsey"],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "listas com marcadores (-) para elencar vantagens, riscos e faixas de IR",
+        "frequencia": "frequente",
+        "ocorrencias": 2,
+        "evidencias": ["- Liquidez Diária : O investidor pode resgatar o Tesouro Selic a qualquer dia útil sem perda de capital", "- 17,5% para investimentos entre 361 e 720 dias;"],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "marcadores de imagem (<!-- image -->) presentes no arquivo, sugerindo elementos visuais originais não recuperados na extração",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": ["<!-- image -->", "<!-- image -->"],
+        "contraexemplo": ""
+      }
+    ]
+  },
+  "antipadroes_observados": [
+    "nunca usa primeira pessoa do singular ('eu')",
+    "nunca emprega humor, ironia ou informalidade coloquial",
+    "nunca inclui chamada para ação (assinatura, comentário, compartilhamento) ao final",
+    "nunca apresenta fórmula matemática em notação formal (display ou LaTeX) — todos os cálculos são narrados em prosa",
+    "nunca usa tabela; onde haveria tabela (faixas de IR), usa lista com marcadores",
+    "nunca retoma ou desenvolve a metáfora da epígrafe no corpo do texto"
+  ],
+  "incerteza": "O arquivo parece ser resultado de uma conversão (PDF/HTML para markdown) com artefatos: parênteses sem abertura ('Copom)', 'Copom) do Banco Central'), espaços antes de pontuação que sugerem itálico/negrito removido (ex. 'Tesouro Prefixado , um título'), e marcadores '<!-- image -->' sem conteúdo recuperado. Isso impede concluir com segurança sobre o uso original de negrito/itálico para termos técnicos (eixo formatacao) e sobre a pontuação exata de parênteses (eixo pontuacao) — o que está documentado é o padrão como aparece no arquivo, não necessariamente a formatação original do autor. Também não é possível avaliar variação de estilo entre posts da série, pois só uma amostra foi lida."
+}

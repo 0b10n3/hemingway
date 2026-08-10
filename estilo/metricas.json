@@ -1,0 +1,400 @@
+{
+  "gerado_por": "estilo/scripts/metricas.py",
+  "metodologia": "Heurísticas de regex sobre stdlib Python, sem NLP real. Ancoragem quantitativa para a extração qualitativa (subagente extrator-de-estilo), não medição linguística definitiva.",
+  "arquivos_pulados": [],
+  "por_arquivo": {
+    "_arquivo/amostras/proprias/dissertacao/disser3.0.pdf": {
+      "palavras": 10735,
+      "frases": {
+        "total": 837,
+        "mediana": 10,
+        "p10": 2.0,
+        "p90": 28.0,
+        "desvio_padrao": 11.1
+      },
+      "paragrafos": {
+        "total": 545,
+        "media_palavras": 19.7
+      },
+      "lexico": {
+        "type_token_ratio": 0.1401,
+        "hapax_legomena": 748,
+        "hapax_por_mil": 69.68
+      },
+      "pontuacao_por_mil_palavras": {
+        ".": 187.8,
+        ",": 94.27,
+        ";": 4.47,
+        ":": 16.77,
+        "—": 0.19,
+        "-": 14.35,
+        "(": 96.6,
+        ")": 97.81,
+        "\"": 0.37,
+        "!": 3.63,
+        "?": 0.65,
+        "…": 0.0
+      },
+      "conectivos_por_mil": 9.41,
+      "marcadores_contra_argumento_por_mil": 2.05,
+      "primeira_pessoa": {
+        "singular_por_mil": 0.56,
+        "plural_por_mil": 4.66
+      },
+      "perguntas_por_mil": 0.65,
+      "numeros_por_mil": 176.9,
+      "siglas_por_mil": 6.05,
+      "indicios_formula_por_mil": 108.06,
+      "voz_passiva_aproximada_por_mil": 4.47,
+      "bloco_medio_antes_de_subtitulo": {
+        "n_blocos": 0,
+        "media_palavras": null
+      },
+      "genero": "dissertacao"
+    },
+    "_arquivo/amostras/proprias/substack/syntaxis_a_ciência_da_separação.md": {
+      "palavras": 1553,
+      "frases": {
+        "total": 68,
+        "mediana": 21.5,
+        "p10": 9.0,
+        "p90": 40.3,
+        "desvio_padrao": 11.85
+      },
+      "paragrafos": {
+        "total": 32,
+        "media_palavras": 48.5
+      },
+      "lexico": {
+        "type_token_ratio": 0.4231,
+        "hapax_legomena": 478,
+        "hapax_por_mil": 307.79
+      },
+      "pontuacao_por_mil_palavras": {
+        ".": 43.14,
+        ",": 47.65,
+        ";": 1.93,
+        ":": 9.01,
+        "—": 0.0,
+        "-": 10.3,
+        "(": 7.73,
+        ")": 9.01,
+        "\"": 0.0,
+        "!": 1.29,
+        "?": 1.29,
+        "…": 0.0
+      },
+      "conectivos_por_mil": 3.86,
+      "marcadores_contra_argumento_por_mil": 3.86,
+      "primeira_pessoa": {
+        "singular_por_mil": 1.93,
+        "plural_por_mil": 5.8
+      },
+      "perguntas_por_mil": 1.29,
+      "numeros_por_mil": 1.93,
+      "siglas_por_mil": 10.95,
+      "indicios_formula_por_mil": 0.0,
+      "voz_passiva_aproximada_por_mil": 2.58,
+      "bloco_medio_antes_de_subtitulo": {
+        "n_blocos": 5,
+        "media_palavras": 306.2
+      },
+      "genero": "substack"
+    },
+    "_arquivo/amostras/proprias/substack/syntaxis_eu_preciso_de_um_assessor_de_investimentos.md": {
+      "palavras": 1134,
+      "frases": {
+        "total": 44,
+        "mediana": 23.0,
+        "p10": 9.3,
+        "p90": 48.4,
+        "desvio_padrao": 16.04
+      },
+      "paragrafos": {
+        "total": 30,
+        "media_palavras": 37.8
+      },
+      "lexico": {
+        "type_token_ratio": 0.4286,
+        "hapax_legomena": 332,
+        "hapax_por_mil": 292.77
+      },
+      "pontuacao_por_mil_palavras": {
+        ".": 37.92,
+        ",": 60.85,
+        ";": 0.88,
+        ":": 9.7,
+        "—": 0.0,
+        "-": 8.82,
+        "(": 0.88,
+        ")": 0.88,
+        "\"": 1.76,
+        "!": 0.0,
+        "?": 14.11,
+        "…": 0.0
+      },
+      "conectivos_por_mil": 2.65,
+      "marcadores_contra_argumento_por_mil": 2.65,
+      "primeira_pessoa": {
+        "singular_por_mil": 2.65,
+        "plural_por_mil": 0.88
+      },
+      "perguntas_por_mil": 14.11,
+      "numeros_por_mil": 0.88,
+      "siglas_por_mil": 4.41,
+      "indicios_formula_por_mil": 0.0,
+      "voz_passiva_aproximada_por_mil": 2.65,
+      "bloco_medio_antes_de_subtitulo": {
+        "n_blocos": 8,
+        "media_palavras": 138.6
+      },
+      "genero": "substack"
+    },
+    "_arquivo/amostras/proprias/substack/syntaxis_o_simples_funciona.md": {
+      "palavras": 741,
+      "frases": {
+        "total": 54,
+        "mediana": 12.0,
+        "p10": 3.0,
+        "p90": 27.7,
+        "desvio_padrao": 10.16
+      },
+      "paragrafos": {
+        "total": 28,
+        "media_palavras": 26.5
+      },
+      "lexico": {
+        "type_token_ratio": 0.5236,
+        "hapax_legomena": 300,
+        "hapax_por_mil": 404.86
+      },
+      "pontuacao_por_mil_palavras": {
+        ".": 62.08,
+        ",": 37.79,
+        ";": 0.0,
+        ":": 9.45,
+        "—": 0.0,
+        "-": 8.1,
+        "(": 2.7,
+        ")": 4.05,
+        "\"": 0.0,
+        "!": 1.35,
+        "?": 16.19,
+        "…": 1.35
+      },
+      "conectivos_por_mil": 0.0,
+      "marcadores_contra_argumento_por_mil": 5.4,
+      "primeira_pessoa": {
+        "singular_por_mil": 2.7,
+        "plural_por_mil": 1.35
+      },
+      "perguntas_por_mil": 16.19,
+      "numeros_por_mil": 17.54,
+      "siglas_por_mil": 4.05,
+      "indicios_formula_por_mil": 0.0,
+      "voz_passiva_aproximada_por_mil": 4.05,
+      "bloco_medio_antes_de_subtitulo": {
+        "n_blocos": 5,
+        "media_palavras": 145.6
+      },
+      "genero": "substack"
+    },
+    "_arquivo/amostras/proprias/substack/syntaxis_objetivos_classes.md": {
+      "palavras": 1363,
+      "frases": {
+        "total": 71,
+        "mediana": 17,
+        "p10": 5.0,
+        "p90": 37.0,
+        "desvio_padrao": 11.33
+      },
+      "paragrafos": {
+        "total": 37,
+        "media_palavras": 36.8
+      },
+      "lexico": {
+        "type_token_ratio": 0.4439,
+        "hapax_legomena": 435,
+        "hapax_por_mil": 319.15
+      },
+      "pontuacao_por_mil_palavras": {
+        ".": 42.55,
+        ",": 46.22,
+        ";": 4.4,
+        ":": 3.67,
+        "—": 0.0,
+        "-": 13.94,
+        "(": 6.6,
+        ")": 6.6,
+        "\"": 0.0,
+        "!": 3.67,
+        "?": 8.8,
+        "…": 2.2
+      },
+      "conectivos_por_mil": 2.2,
+      "marcadores_contra_argumento_por_mil": 2.93,
+      "primeira_pessoa": {
+        "singular_por_mil": 3.67,
+        "plural_por_mil": 5.87
+      },
+      "perguntas_por_mil": 8.8,
+      "numeros_por_mil": 6.6,
+      "siglas_por_mil": 13.94,
+      "indicios_formula_por_mil": 0.0,
+      "voz_passiva_aproximada_por_mil": 0.0,
+      "bloco_medio_antes_de_subtitulo": {
+        "n_blocos": 5,
+        "media_palavras": 270
+      },
+      "genero": "substack"
+    },
+    "_arquivo/amostras/proprias/substack/syntaxis_tesouro_selic.md": {
+      "palavras": 1005,
+      "frases": {
+        "total": 35,
+        "mediana": 23,
+        "p10": 15.0,
+        "p90": 43.0,
+        "desvio_padrao": 18.76
+      },
+      "paragrafos": {
+        "total": 30,
+        "media_palavras": 33.5
+      },
+      "lexico": {
+        "type_token_ratio": 0.3532,
+        "hapax_legomena": 225,
+        "hapax_por_mil": 223.88
+      },
+      "pontuacao_por_mil_palavras": {
+        ".": 46.77,
+        ",": 69.65,
+        ";": 2.99,
+        ":": 9.95,
+        "—": 0.0,
+        "-": 14.93,
+        "(": 1.99,
+        ")": 2.99,
+        "\"": 1.99,
+        "!": 0.0,
+        "?": 2.99,
+        "…": 0.0
+      },
+      "conectivos_por_mil": 6.97,
+      "marcadores_contra_argumento_por_mil": 3.98,
+      "primeira_pessoa": {
+        "singular_por_mil": 0.0,
+        "plural_por_mil": 0.0
+      },
+      "perguntas_por_mil": 2.99,
+      "numeros_por_mil": 25.87,
+      "siglas_por_mil": 4.98,
+      "indicios_formula_por_mil": 1.99,
+      "voz_passiva_aproximada_por_mil": 4.98,
+      "bloco_medio_antes_de_subtitulo": {
+        "n_blocos": 9,
+        "media_palavras": 107.3
+      },
+      "genero": "substack"
+    },
+    "_arquivo/amostras/proprias/substack/syntaxis_títulos_do_tesouro_nacional.md": {
+      "palavras": 929,
+      "frases": {
+        "total": 30,
+        "mediana": 26.0,
+        "p10": 16.9,
+        "p90": 52.5,
+        "desvio_padrao": 14.99
+      },
+      "paragrafos": {
+        "total": 22,
+        "media_palavras": 42.2
+      },
+      "lexico": {
+        "type_token_ratio": 0.3961,
+        "hapax_legomena": 238,
+        "hapax_por_mil": 256.19
+      },
+      "pontuacao_por_mil_palavras": {
+        ".": 39.83,
+        ",": 67.81,
+        ";": 0.0,
+        ":": 0.0,
+        "—": 0.0,
+        "-": 6.46,
+        "(": 2.15,
+        ")": 1.08,
+        "\"": 2.15,
+        "!": 0.0,
+        "?": 0.0,
+        "…": 0.0
+      },
+      "conectivos_por_mil": 3.23,
+      "marcadores_contra_argumento_por_mil": 0.0,
+      "primeira_pessoa": {
+        "singular_por_mil": 0.0,
+        "plural_por_mil": 1.08
+      },
+      "perguntas_por_mil": 0.0,
+      "numeros_por_mil": 0.0,
+      "siglas_por_mil": 7.53,
+      "indicios_formula_por_mil": 0.0,
+      "voz_passiva_aproximada_por_mil": 4.31,
+      "bloco_medio_antes_de_subtitulo": {
+        "n_blocos": 7,
+        "media_palavras": 130.6
+      },
+      "genero": "substack"
+    }
+  },
+  "agregado_geral": {
+    "textos": 7,
+    "palavras_total": 17460,
+    "frase_mediana_media_ponderada": 14.1,
+    "frase_desvio_padrao_media_ponderada": 12.11,
+    "paragrafo_media_palavras_media_ponderada": 27.05,
+    "type_token_ratio_media": 0.25,
+    "conectivos_por_mil_media": 7.05,
+    "marcadores_contra_argumento_por_mil_media": 2.46,
+    "primeira_pessoa_singular_por_mil_media": 1.09,
+    "primeira_pessoa_plural_por_mil_media": 4.01,
+    "perguntas_por_mil_media": 2.98,
+    "numeros_por_mil_media": 111.74,
+    "siglas_por_mil_media": 6.93,
+    "voz_passiva_aproximada_por_mil_media": 3.84
+  },
+  "agregado_por_genero": {
+    "dissertacao": {
+      "textos": 1,
+      "palavras_total": 10735,
+      "frase_mediana_media_ponderada": 10.0,
+      "frase_desvio_padrao_media_ponderada": 11.1,
+      "paragrafo_media_palavras_media_ponderada": 19.7,
+      "type_token_ratio_media": 0.14,
+      "conectivos_por_mil_media": 9.41,
+      "marcadores_contra_argumento_por_mil_media": 2.05,
+      "primeira_pessoa_singular_por_mil_media": 0.56,
+      "primeira_pessoa_plural_por_mil_media": 4.66,
+      "perguntas_por_mil_media": 0.65,
+      "numeros_por_mil_media": 176.9,
+      "siglas_por_mil_media": 6.05,
+      "voz_passiva_aproximada_por_mil_media": 4.47
+    },
+    "substack": {
+      "textos": 6,
+      "palavras_total": 6725,
+      "frase_mediana_media_ponderada": 20.64,
+      "frase_desvio_padrao_media_ponderada": 13.73,
+      "paragrafo_media_palavras_media_ponderada": 38.79,
+      "type_token_ratio_media": 0.43,
+      "conectivos_por_mil_media": 3.27,
+      "marcadores_contra_argumento_por_mil_media": 3.12,
+      "primeira_pessoa_singular_por_mil_media": 1.93,
+      "primeira_pessoa_plural_por_mil_media": 2.98,
+      "perguntas_por_mil_media": 6.69,
+      "numeros_por_mil_media": 7.73,
+      "siglas_por_mil_media": 8.33,
+      "voz_passiva_aproximada_por_mil_media": 2.83
+    }
+  }
+}
