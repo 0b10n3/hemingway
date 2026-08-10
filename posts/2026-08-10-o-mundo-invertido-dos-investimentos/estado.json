@@ -3,5 +3,12 @@
   "pendencias": ["SPIVA: percentual 90,8% (10 anos, SPIVA Latin America Year-End 2025) corroborado por duas fontes jornalísticas independentes, não lido no documento primário (bloqueio HTTP 403 na S&P DJI) — marcado [VERIFICAR] visível em post.md"],
   "loops_consumidos": 0,
   "aprovacoes": [],
+  "reentradas": [
+    {
+      "ponto_retorno": "etapa 9 (acabamento, aplicado direto em post.md)",
+      "motivo": "autor pediu troca do subtítulo 'Quem são os quenianos do mercado financeiro' por 'Quem são os corredores de elite no mercado financeiro' no gate humano",
+      "consumiu_loop": false
+    }
+  ],
   "commit_inicial": "c849656"
 }

@@ -87,7 +87,7 @@ evento ETF Day RJ].
 
 ![Gráfico: régua única de distância de corrida (5km a ultramaratona) mapeada à progressão de risco de produto (crédito bancário/Tesouro → ETF de renda fixa → fundos → ações → derivativos/day trade), com marcação visual do ponto onde a maioria dos iniciantes efetivamente entra.](graf-01)
 
-## Quem são os quenianos do mercado financeiro
+## Quem são os corredores de elite no mercado financeiro
 
 Essa é a pergunta que quase sempre fica sem resposta quando alguém faz esse tipo de
 comparação: que os corredores que vão te ultrapassar na primeira curva, com pace de dar
