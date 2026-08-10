@@ -1,0 +1,207 @@
+{
+  "arquivo": "_arquivo/amostras/admiradas/ernest-hemingway/soldiers-home.md",
+  "genero": "admirada:ernest-hemingway",
+  "palavras": 2923,
+  "eixos": {
+    "lexico": [
+      {
+        "traco": "quase ausência de adjetivos avaliativos/qualitativos; quando aparece adjetivo, é descritivo neutro (cor, tamanho, material), não julgador",
+        "frequencia": "evita",
+        "ocorrencias": 1,
+        "evidencias": ["The German girls are not beautiful.", "all of them wearing exactly the same height and style collar"],
+        "contraexemplo": null
+      },
+      {
+        "traco": "repetição deliberada da mesma palavra-chave em frases consecutivas em vez de variação sinonímica (fuga da 'elegant variation')",
+        "frequencia": "frequente",
+        "ocorrencias": 1,
+        "evidencias": ["He liked to look at them from the front porch...He liked to watch them walking...He liked the round Dutch collars...He liked their silk stockings"],
+        "contraexemplo": null
+      },
+      {
+        "traco": "registro simples, vocabulário concreto e cotidiano (objetos, comida, roupa) em vez de abstrato",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": ["a plate with two fried eggs and some crisp bacon on it and a plate of buckwheat cakes"],
+        "contraexemplo": null
+      },
+      {
+        "traco": "uso de negação simples e repetida ('did not want') como recurso lexical para construir estado de recusa/apatia sem nomear o sentimento",
+        "frequencia": "frequente",
+        "ocorrencias": 1,
+        "evidencias": ["He did not want any consequences. He did not want any consequences ever again."],
+        "contraexemplo": null
+      }
+    ],
+    "sintaxe": [
+      {
+        "traco": "frases curtas, declarativas, sujeito-verbo-objeto, muitas vezes coordenadas por 'and' em vez de subordinadas",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": ["He loved to play pool.", "He sat on the front porch."],
+        "contraexemplo": null
+      },
+      {
+        "traco": "uma frase mais longa e cumulativa (várias orações ligadas por 'and'/vírgula) usada ocasionalmente para acelerar o ritmo ou empilhar fatos, contrastando com o padrão curto",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": ["He came back much too late... Now the reaction had set in. People seemed to think it was rather ridiculous for Krebs to be getting back so late"],
+        "contraexemplo": null
+      },
+      {
+        "traco": "quase nenhuma subordinação complexa (poucas orações relativas encaixadas, raras condicionais elaboradas); a sintaxe evita conectivos causais explícitos ('porque', 'portanto')",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": ["A distaste for everything that had happened to him in the war set in because of the lies he had told."],
+        "contraexemplo": "A distaste for everything that had happened to him in the war set in because of the lies he had told."
+      },
+      {
+        "traco": "ritmo construído por repetição de estrutura sintática idêntica em sequência de frases curtas (paralelismo anafórico)",
+        "frequencia": "frequente",
+        "ocorrencias": 1,
+        "evidencias": ["He did not want to get into the intrigue and the politics. He did not want to have to do any courting."],
+        "contraexemplo": null
+      }
+    ],
+    "pontuacao": [
+      {
+        "traco": "diálogo em aspas duplas, cada fala do personagem em parágrafo/linha própria, sem verbos de elocução elaborados (predomina 'said')",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": ["\"Yeah?\" said Krebs, who was not fully awake.", "\"I'll bet you made him,\" Krebs said."],
+        "contraexemplo": null
+      },
+      {
+        "traco": "vírgula usada para encadear cláusulas coordenadas curtas em vez de ponto-e-vírgula ou travessão",
+        "frequencia": "frequente",
+        "ocorrencias": 1,
+        "evidencias": ["He liked to look at them, though.", "the day was hot and muggy and cheerful and quiet"],
+        "contraexemplo": null
+      },
+      {
+        "traco": "ponto final marca o fim de pensamento completo — frases raramente se estendem via ponto e vírgula",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": ["It wasn't worth it.", "In this way he lost everything."],
+        "contraexemplo": null
+      }
+    ],
+    "arquitetura": [
+      {
+        "traco": "abre com um fato biográfico/factual seco, sem preâmbulo emocional, situando o personagem antes de qualquer cena dramatizada",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": ["Krebs went to the war from a Methodist college in Kansas."],
+        "contraexemplo": null
+      },
+      {
+        "traco": "tempo tratado linearmente (passado da guerra resumido em sumário, depois presente narrativo em cena), sem flashback dramatizado — a guerra é só relatada, nunca reencenada em cena",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": ["He enlisted in the Marines in 1917 and did not return to the United States until...1919."],
+        "contraexemplo": null
+      },
+      {
+        "traco": "alterna blocos de sumário narrativo (várias semanas resumidas em um parágrafo) com uma cena dramatizada única e prolongada (o café da manhã) — proporção desigual entre tempo narrado e tempo de cena",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": ["During this time, it was late summer, he was sleeping late in bed, getting up to walk down town to the library"],
+        "contraexemplo": null
+      },
+      {
+        "traco": "fecha com uma decisão de ação concreta e banal, não com reflexão explícita ou clímax emocional nomeado",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": ["He would go over to the schoolyard and watch Helen play indoor baseball."],
+        "contraexemplo": null
+      }
+    ],
+    "figuras": [
+      {
+        "traco": "ausência quase total de metáfora ou símile explícita; a comparação, quando ocorre, é factual/visual, não ornamental (iceberg theory: o significado fica implícito, não figurado)",
+        "frequencia": "evita",
+        "ocorrencias": 0,
+        "evidencias": [],
+        "contraexemplo": null
+      },
+      {
+        "traco": "objeto concreto usado como símbolo funcional sem ser anunciado como tal (o carro da família como emblema de autoridade paterna, nunca explicado)",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": ["Before Krebs went away to the war he had never been allowed to drive the family motor car."],
+        "contraexemplo": null
+      }
+    ],
+    "postura": [
+      {
+        "traco": "narrador em terceira pessoa colado à percepção do personagem (quase-onisciente limitado), relatando pensamentos como fatos diretos, sem filtro de 'ele pensou que'",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": ["Now he would have liked a girl if she had come to him and not wanted to talk."],
+        "contraexemplo": null
+      },
+      {
+        "traco": "emoção do personagem nunca é nomeada analiticamente — é inferida por ação física, recusa ou repetição verbal ('felt sick and vaguely nauseated' é a exceção rara, mínima)",
+        "frequencia": "evita",
+        "ocorrencias": 1,
+        "evidencias": ["Krebs felt sick and vaguely nauseated.", "Krebs felt embarrassed and resentful as always."],
+        "contraexemplo": "Krebs felt sick and vaguely nauseated."
+      },
+      {
+        "traco": "narrador não julga nem comenta o comportamento do personagem ou de outros (sem adjetivo moral sobre a mãe, o pai, a mentira)",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": ["His lies were quite unimportant lies and consisted in attributing to himself things other men had seen"],
+        "contraexemplo": null
+      }
+    ],
+    "leitor": [
+      {
+        "traco": "causa e motivação ficam implícitas na justaposição de fatos, sem conectivo explicativo — o leitor deduz o motivo pela ordem das frases, não por explicação",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": ["The next night back at Mestre he did not tell the girl he went upstairs with at the Villa Rossa about Jesus."],
+        "contraexemplo": null
+      },
+      {
+        "traco": "diálogo carregando o peso dramático da cena sem indicação de subtexto — o leitor precisa inferir o colapso emocional a partir de falas curtas e ações mínimas ('She started crying')",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": ["\"I don't love anybody,\" Krebs said.", "Her eyes were shiny. She started crying."],
+        "contraexemplo": null
+      },
+      {
+        "traco": "o desfecho da mudança interna do personagem não é explicado — o leitor deve inferir a resignação/derrota a partir da ação final trivial",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": ["Well, that was all over now, anyway."],
+        "contraexemplo": null
+      }
+    ],
+    "tecnico": [],
+    "formatacao": [
+      {
+        "traco": "parágrafos de sumário narrativo são densos e longos (vários fatos empilhados), enquanto parágrafos de cena dialogada são curtos, muitas vezes de uma única fala",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": ["\"Yeah?\" said Krebs, who was not fully awake. \"Take the car out? Yeah?\""],
+        "contraexemplo": null
+      },
+      {
+        "traco": "cada troca de fala em diálogo recebe parágrafo próprio, sem agrupar múltiplas falas na mesma linha",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": ["\"I hadn't thought about it,\" Krebs said.\n\n\"God has some work for everyone to do,\" his mother said."],
+        "contraexemplo": null
+      }
+    ]
+  },
+  "antipadroes_observados": [
+    "Nunca explica diretamente por que o personagem sente algo — a causa emocional é sempre deixada para inferência via ação, repetição ou diálogo.",
+    "Nunca usa metáfora ornamental ou símile decorativa para embelezar a descrição.",
+    "Nunca empilha mais de um adjetivo avaliativo por substantivo; evita advérbios de intensidade subjetiva.",
+    "Nunca dramatiza em cena os eventos da guerra — eles só existem como sumário relatado, nunca reencenados.",
+    "Nunca comenta ou julga moralmente as ações dos personagens através da voz narrativa."
+  ],
+  "incerteza": "O arquivo é um único conto curto; não permite concluir sobre variação de técnica entre gêneros distintos (ex.: descrição de paisagem extensa, cena de ação física/violência, uso de segunda pessoa) nem sobre convenções técnicas de não-ficção (citação, dados, hyperlinks), já que o eixo 'tecnico' não se aplica a ficção literária."
+}

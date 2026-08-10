@@ -1,0 +1,173 @@
+{
+  "arquivo": "_arquivo/amostras/admiradas/michael-lewis/The Trading Desk Share.md",
+  "genero": "admirada:michael-lewis",
+  "palavras": 830,
+  "eixos": {
+    "lexico": [
+      {
+        "traco": "Usa jargão esportivo/técnico sem glossário explícito, deixando o contexto narrativo (situação de jogo, consequência do lance) carregar o significado para o leitor leigo",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": ["top of the seventh with two runners on and a three-run lead", "gave up a bloop single to Milton Bradley", "Good pitch, bad count."],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Introduz cargos/função de fonte via aposto curto logo após o nome, em vez de parágrafo explicativo separado",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": ["Oakland A's' general manager, Billy Beane", "Paul DePodesta, Oakland's assistant general manager", "Rick Peterson, the pitching coach"],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Humor seco e contido, por understatement, não por piada explícita",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": ["no one could blame him for that", "just plain bad luck, that"],
+        "contraexemplo": null
+      }
+    ],
+    "sintaxe": [
+      {
+        "traco": "Alterna períodos longos e cumulativos (várias orações coordenadas por 'and'/'but') com frases curtas de impacto logo em seguida, marcando virada de sentido",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": ["Good pitch, bad count.", "The game was effectively over.", "Magnante let in five runs and got nobody out."],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Constrói sentenças longas por acúmulo de orações coordenadas simples em vez de subordinação complexa, imitando o ritmo de uma sequência de lances",
+        "frequencia": "frequente",
+        "ocorrencias": 2,
+        "evidencias": ["He then gave up a bloop single to Milton Bradley, and the inherited runners scored -- just plain bad luck, that."],
+        "contraexemplo": null
+      }
+    ],
+    "pontuacao": [
+      {
+        "traco": "Usa travessão duplo para inserir comentário avaliativo do narrador dentro da própria frase narrativa, sem interromper o fluxo factual",
+        "frequencia": "frequente",
+        "ocorrencias": 2,
+        "evidencias": ["-- no one could blame him for that", "-- just plain bad luck, that"],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Usa dois-pontos para introduzir uma lista de nomes próprios que funciona como prova acumulada de uma tese, antes de enunciar a tese",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": ["Jermaine Dye, Johnny Damon, Ray Durham, Mark Ellis, Cory Lidle, Chad Bradford: in just the past few years"],
+        "contraexemplo": null
+      }
+    ],
+    "arquitetura": [
+      {
+        "traco": "Abre com cena concreta e datada (jogo específico, situação de placar) antes de qualquer explicação de contexto ou tese",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": ["It was late July of last year... Mike Magnante had picked a bad time to pitch poorly."],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Narra o lance decisivo em sequência quase play-by-play, prolongando a tensão pitch a pitch antes de revelar o resultado",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": ["He then gave up a bloop single...But then he threw three straight balls...waited for Mags to throw his fifth pitch."],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Depois da cena, expande para o escritório do personagem central (zoom-out espacial e temporal) para introduzir a lógica/tese por trás do episódio",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": ["The next day, when Billy Beane sits upright in his office, a few yards from Oakland's Coliseum"],
+        "contraexemplo": null
+      }
+    ],
+    "figuras": [
+      {
+        "traco": "Usa metáfora de domínio jurídico/burocrático para descrever movimento físico no campo, criando contraste cômico entre a gravidade da imagem e o contexto esportivo",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": ["the first and third basemen were closing in on the mound like bailiffs"],
+        "contraexemplo": null
+      }
+    ],
+    "postura": [
+      {
+        "traco": "Narrador em terceira pessoa, ausente da cena como personagem; não há marca de primeira pessoa neste trecho",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": ["Billy Beane doesn't even need to watch the game."],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Acessa o ponto de vista da fonte por discurso indireto livre, sem citação direta, para expor julgamento interno do personagem",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": ["Which was just more conventional baseball nonsense, in Beane's view"],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Constrói empatia pelo personagem secundário (o jogador descartável) via detalhe físico e circunstancial, sem comentário sentimental explícito",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": ["He was pear-shaped and slack-jawed and looked less like a professional baseball player"],
+        "contraexemplo": null
+      }
+    ],
+    "leitor": [
+      {
+        "traco": "Pressupõe familiaridade básica com termos de beisebol (contagem de bola/strike, posições) sem defini-los, confiando no contexto narrativo",
+        "frequencia": "frequente",
+        "ocorrencias": 2,
+        "evidencias": ["threw three straight balls to Lee Stevens. Stevens dutifully took a strike"],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Introduz personagem novo citando diretamente uma frase-tese da própria fonte, que funciona como resumo antecipado do argumento do texto",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": ["for guys to be available to us, there usually has to be something wrong with them"],
+        "contraexemplo": null
+      }
+    ],
+    "tecnico": [
+      {
+        "traco": "Populariza a lógica de avaliação de jogadores (por que um jogador \"ruim\" ainda está disponível) por meio de estudo de caso narrativo, não de explicação direta do conceito",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": ["it wasn't hard to see what was wrong with Mags, to discern the defect that made him available"],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Explica a estratégia de negociação do personagem central em uma frase objetiva, logo após mostrar o material bruto (os quadros brancos) que sustenta a decisão",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": ["The trick is to persuade other teams to buy his guys for more than they are worth"],
+        "contraexemplo": null
+      }
+    ],
+    "formatacao": [
+      {
+        "traco": "Parágrafos organizados por unidade de cena/beat narrativo, não por tópico abstrato",
+        "frequencia": "sempre",
+        "ocorrencias": 5,
+        "evidencias": ["Magnante went into his stretch and looked for the signal.", "The next day, when Billy Beane sits upright in his office"],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Insere citação direta e curta de fonte, atribuída após a fala, dentro do fluxo do parágrafo narrativo, sem isolá-la como bloco de citação",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": ["''The guy has got braces on both legs,'' said Rick Peterson, the pitching coach."],
+        "contraexemplo": null
+      }
+    ]
+  },
+  "antipadroes_observados": [
+    "Não abre com dado estatístico, definição ou pergunta retórica — abre sempre com cena narrativa datada.",
+    "Não usa primeira pessoa como narrador-personagem neste trecho.",
+    "Não explica jargão esportivo com aposto ou glossário — deixa o contexto da cena fazer o trabalho.",
+    "Não usa listas, subtítulos ou marcadores; texto é corrido em parágrafos de prosa.",
+    "Não insere opinião do narrador de forma explícita e destacada — quando há avaliação, vem embutida em discurso indireto livre ou no próprio verbo de ação."
+  ],
+  "incerteza": "O arquivo é apenas o trecho de abertura de uma reportagem maior da NYT Magazine (o cabeçalho 'Share full article' indica corte de preview/paywall). Não é possível concluir nada sobre o fechamento do texto, o arco completo do argumento, o uso de primeira pessoa em outras partes da matéria, nem sobre eventual retomada de metáforas ou aforismo final, pois esse material não está presente na amostra."
+}

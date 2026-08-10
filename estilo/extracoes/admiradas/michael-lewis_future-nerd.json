@@ -1,0 +1,165 @@
+{
+  "arquivo": "_arquivo/amostras/admiradas/michael-lewis/Future Nerd Getting small.md",
+  "genero": "admirada:michael-lewis",
+  "palavras": 1284,
+  "eixos": {
+    "lexico": [
+      {
+        "traco": "Registro conversacional-analítico: explica jargão técnico sem tom de aula, intercalando avaliação leiga e leve ironia em vez de definição seca",
+        "frequencia": "frequente",
+        "ocorrencias": 2,
+        "evidencias": [
+          "You would never guess it from its name, but molecular nanotechnology is the science of building machines atom by atom",
+          "The nerd world has its own version of Freud's narcissism of small differences"
+        ]
+      },
+      {
+        "traco": "Insere comentário próprio entre parênteses como piscadela de humor, sem quebrar o registro geral",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": ["(Why, I have no idea.)", "(ditto)"]
+      }
+    ],
+    "sintaxe": [
+      {
+        "traco": "Alterna frases muito curtas em sequência (sujeito-verbo simples) para marcar virada de ideia, depois de parágrafos com subordinação mais densa",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Merkle is different. He has stacked all his chips on 00. He is a future nerd."
+        ]
+      },
+      {
+        "traco": "Usa frases longas com múltiplas subordinadas para empilhar contexto histórico/institucional antes de chegar ao ponto",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": [
+          "By the mid-1970s, Xerox had thought far enough into the future to fear (wrongly, as it turned out) that the computer would displace the photocopier"
+        ]
+      }
+    ],
+    "pontuacao": [
+      {
+        "traco": "Usa parênteses para inserir ressalva, correção factual ou ironia sem interromper o fluxo da frase principal",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": ["(wrongly, as it turned out)", "(See his elaborate Web site for a description.)"]
+      },
+      {
+        "traco": "Emprega lista numerada dentro da prosa corrida para expor uma cadeia de raciocínio/evidência informal",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": ["1) The people who accidentally gave you the personal computer think he has great ideas; and 2) People with Nobel Prizes..."]
+      }
+    ],
+    "arquitetura": [
+      {
+        "traco": "Abre com contexto histórico-institucional amplo (a origem e o medo existencial da empresa) antes de apresentar a fonte que leva ao personagem central",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": ["Xerox continues to fund PARC, and PARC continues to generate all sorts of interesting inventions."]
+      },
+      {
+        "traco": "Introduz o personagem-título por meio do olhar/voz de uma fonte intermediária, não diretamente",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": ["Which brings us to Ralph Merkle. I first heard about Merkle from John Seely Brown."]
+      },
+      {
+        "traco": "No meio do texto, abandona o perfil individual para generalizar sobre uma categoria (o 'nerd comum') e só depois volta a situar o sujeito dentro dessa categoria",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": ["Because he has a hand in technological change, the ordinary nerd is widely perceived to be a visionary."]
+      },
+      {
+        "traco": "Fecha com reflexão moral/social generalizante, não com retorno à cena de abertura nem com uma frase de efeito isolada sobre o personagem",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": ["The market actually does not support a lot of people like Ralph Merkle. Probably we are all a little saner for it."]
+      }
+    ],
+    "figuras": [
+      {
+        "traco": "Recorre a analogia do domínio financeiro/apostas para explicar perfil psicológico de risco, e sustenta a mesma imagem por vários parágrafos",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": ["he views his mind as a roulette table, with the odds moving against him", "He has stacked all his chips on 00."]
+      },
+      {
+        "traco": "Compara autoridade científica de uma figura histórica a uma autoridade do mundo financeiro para transferir credibilidade sem precisar explicar a física",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": ["Feynman played the same clarifying role in science as Warren Buffett does in finance"]
+      }
+    ],
+    "postura": [
+      {
+        "traco": "Narrador em primeira pessoa se declara incapaz de avaliar o conteúdo técnico e transfere o julgamento para credenciais de terceiros, em vez de fingir domínio",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": ["There's no point in my trying to evaluate nanotechnology or, for that matter, anything Merkle said."]
+      },
+      {
+        "traco": "Mantém distância irônica do entusiasmo da fonte, citando a hipérbole dela sem endossá-la explicitamente",
+        "frequencia": "frequente",
+        "ocorrencias": 2,
+        "evidencias": ["Merkle is 'an artist' who 'sees the future.' Merkle himself sounds actually proud when he says..."]
+      },
+      {
+        "traco": "Trata o personagem como espécime de estudo comportamental ('nerd study'), com curiosidade quase antropológica, não como herói nem vilão",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": ["Merkle himself is an interesting nerd study."]
+      }
+    ],
+    "leitor": [
+      {
+        "traco": "Pressupõe familiaridade geral do leitor com a lenda de origem do PC/Macintosh e não a explica, mas apresenta do zero o conceito técnico central do texto",
+        "frequencia": "frequente",
+        "ocorrencias": 1,
+        "evidencias": ["In a story told so often that it cannot possibly be entirely true, Steven Jobs visited PARC one day in 1979"]
+      },
+      {
+        "traco": "Introduz cada novo personagem/contexto em cadeia causal explícita (empresa leva a divisão, divisão leva a diretor, diretor leva a cientista)",
+        "frequencia": "frequente",
+        "ocorrencias": 1,
+        "evidencias": ["Which brings us to Ralph Merkle. I first heard about Merkle from John Seely Brown."]
+      }
+    ],
+    "tecnico": [
+      {
+        "traco": "Populariza o conceito técnico com uma imagem concreta e cotidiana, mas admite abertamente não entender o mecanismo por trás dela em vez de simplificar de forma falsa",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": ["A molecular computer the size of a sugar cube, for instance, would be more powerful than all the computing power on Earth today. (Why, I have no idea.)"]
+      },
+      {
+        "traco": "Delega a validação de uma afirmação técnica complexa à citação direta da fonte, em vez de parafraseá-la ou explicá-la tecnicamente",
+        "frequencia": "frequente",
+        "ocorrencias": 2,
+        "evidencias": ["'The principles of physics, as far as I can see,' he said, 'do not speak against the possibility of maneuvering things atom by atom.'"]
+      }
+    ],
+    "formatacao": [
+      {
+        "traco": "Parágrafos organizados por unidade de argumento/ideia, não por cena ou por bloco temporal",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": ["The point is that the man who is actually thinking about the Road Ahead and the man who makes money pretending..."]
+      },
+      {
+        "traco": "Cita a fonte diretamente e em trechos curtos, entrelaçados na própria sintaxe da frase, em vez de blocos de citação isolados",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": ["'Basically,' says Merkle, 'people will have a lot more free time.'"]
+      }
+    ]
+  },
+  "antipadroes_observados": [
+    "Nunca descreve uma cena de observação direta do personagem em ação (nenhum momento 'eu estava lá vendo Merkle fazer X')",
+    "Nunca explica o mecanismo técnico por trás das afirmações científicas — populariza pela credibilidade da fonte, não pela mecânica",
+    "Não fecha retomando a cena ou imagem de abertura; o fechamento é uma generalização moral distinta da abertura institucional",
+    "Não usa diálogo dramatizado entre múltiplas vozes; toda fala é citação atribuída em discurso indireto ou direto pontual, nunca uma troca"
+  ],
+  "incerteza": "Texto curto (perfil único, ~1.280 palavras) não permite avaliar como o autor sustenta uma cena narrativa longa, como triangula múltiplas fontes em tensão entre si, nem como uma metáfora se desenvolveria ao longo de uma peça mais extensa; também não há amostra suficiente de diálogo dramatizado ou de estrutura de abertura alternativa (dado/pergunta) para generalizar além do padrão 'contexto institucional -> fonte -> personagem' aqui observado."
+}

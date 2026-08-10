@@ -1,0 +1,136 @@
+{
+  "arquivo": "_arquivo/amostras/admiradas/michael-lewis/Faking It Share full article.md",
+  "genero": "admirada:michael-lewis",
+  "palavras": 780,
+  "eixos": {
+    "lexico": [
+      {
+        "traco": "Registro ensaístico-jornalístico, mistura referência intelectual (sociologia) com fala coloquial ocasional, sem jargão técnico pesado nesta amostra",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": ["a school of thought in sociology known as role theory", "grown-ups", "The Internet was rock 'n' roll all over again"],
+        "contraexemplo": null
+      }
+    ],
+    "sintaxe": [
+      {
+        "traco": "Alterna períodos longos e analíticos com frases curtas de impacto logo após, criando ponto de virada retórico",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": ["But they weren't.", "The Internet was telling us what we wanted to become.", "The instant text message, for instance."],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Usa estrutura paralela anafórica (repetição de 'If...') para encadear hipóteses sucessivas antes de uma conclusão",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": ["If they were using the Internet to experiment with their identities...If the Internet was giving the world a shove"],
+        "contraexemplo": null
+      }
+    ],
+    "pontuacao": [
+      {
+        "traco": "Usa travessão duplo para inserir uma ressalva ou fonte de autoridade no meio da frase, sem interromper o fluxo argumentativo",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": ["-- that was what serious people who had either lost a lot of money", "-- or so the people at Nokia believe --", "-- and you couldn't understand those unless you went there in person"],
+        "contraexemplo": null
+      }
+    ],
+    "arquitetura": [
+      {
+        "traco": "Abre com um evento histórico datado (queda das ações de internet em março de 2000) como gatilho, antes de anunciar a tese central",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": ["When Internet stocks began their free fall in March 2000, the Internet was finally put in its proper place."],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Autocita reportagem anterior própria como prova de campo antes de expandir a tese para um novo caso",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": ["I have already written here about Jonathan Lebed, the 15-year-old boy"],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Constrói o arco do geral (tese sociológica) para o específico (empresa, depois um único uso concreto: a mensagem de texto), terminando em dado estatístico",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": ["Five and a half million Finns sent one another more than a billion instant messages in the year 2000."],
+        "contraexemplo": null
+      }
+    ],
+    "figuras": [
+      {
+        "traco": "Recorre a analogia musical/geracional (rock 'n' roll dos anos 1950-60) para explicar o caráter disruptivo e etário do fenômeno em análise",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": ["the Internet was rock 'n' roll all over again"],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Usa metáfora de fechadura/chave (autoridade como algo trancado que pode ser arrombado) para descrever erosão de normas sociais",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": ["Many forms of authority were secured by locks waiting to be picked."],
+        "contraexemplo": null
+      }
+    ],
+    "postura": [
+      {
+        "traco": "Narrador em primeira pessoa se posiciona como repórter que já investigou o tema antes e admite ter sido antecedido em percepção por outro ator (a empresa Nokia), sinalizando humildade epistêmica",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": ["A Finnish company, Nokia, figured this out before I did.", "I have already written here about Jonathan Lebed"],
+        "contraexemplo": null
+      }
+    ],
+    "leitor": [
+      {
+        "traco": "Define conceito sociológico técnico em uma frase curta e direta, sem nota de rodapé ou digressão acadêmica, antes de seguir adiante",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": ["The role theorists argue that we have no ''self'' as such. Our selves are merely the masks we wear"],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Introduz um novo ator/empresa (Nokia) situando-o primeiro pela posição de mercado, só depois explicando o mecanismo interno relevante à tese",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": ["Nokia has come to dominate the mobile-phone business to the point where pretty much everyone now agrees"],
+        "contraexemplo": null
+      }
+    ],
+    "tecnico": [
+      {
+        "traco": "Populariza um conceito abstrato de economia/negócios (modelo de desenvolvimento econômico centrado em crianças) construindo primeiro a anedota concreta (mensagens de texto de adolescentes finlandeses) e só depois nomeando o conceito abstrato",
+        "frequencia": "frequente",
+        "ocorrencias": 1,
+        "evidencias": ["Finland has become the first nation on earth to acknowledge formally the childcentric model of economic development"],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Ancora afirmação sociológica abstrata em número concreto e verificável para dar peso empírico ao argumento",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": ["Five and a half million Finns sent one another more than a billion instant messages"],
+        "contraexemplo": null
+      }
+    ],
+    "formatacao": [
+      {
+        "traco": "Parágrafos longos e densos, sem quebras internas, sem uso de diálogo ou aspas de entrevista nesta amostra; dado estatístico incorporado à prosa corrida, não destacado",
+        "frequencia": "sempre",
+        "ocorrencias": 7,
+        "evidencias": ["Five and a half million Finns sent one another more than a billion instant messages in the year 2000."],
+        "contraexemplo": null
+      }
+    ]
+  },
+  "antipadroes_observados": [
+    "Não usa listas, tópicos ou subtítulos — a argumentação é sempre em prosa corrida",
+    "Não usa citação direta entre aspas de uma fonte nomeada nesta amostra",
+    "Não introduz jargão técnico sem imediatamente traduzi-lo em linguagem cotidiana"
+  ],
+  "incerteza": "O arquivo parece ser um trecho parcial/paywall do artigo (termina abruptamente após a seção sobre a Finlândia, sem fechamento aparente), o que impede avaliar: o fechamento do arco (retorno à abertura, twist ou aforismo final), uso de diálogo/citação direta de fontes entrevistadas, variação de formatação ao longo de um texto completo, e o desenvolvimento pleno da tese sobre Jonathan Lebed mencionada de passagem."
+}
