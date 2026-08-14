@@ -1,5 +1,9 @@
 {
-  "etapa_atual": 9,
+  "etapa_atual": 10,
+  "pendencias_consolidacao": [
+    "status do frontmatter fixado como \"rascunho\" — confirmar valor esperado com o autor (não havia post publicado anterior no branch main para conferir convenção)",
+    "FAIXA de ASF (90%-100%, Circular BC 3.869/2017) resolvida como prosa de faixa, não como marcador [FAIXA: ...] visível — é a forma correta de mostrar um intervalo, não um valor único mascarado; sinalizado para o autor confirmar que a leitura em prosa é suficiente"
+  ],
   "loops_consumidos": 0,
   "aprovacoes": [],
   "pendencias": [],
