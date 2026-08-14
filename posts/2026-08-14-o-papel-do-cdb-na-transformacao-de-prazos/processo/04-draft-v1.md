@@ -2,13 +2,13 @@
 
 *Notas de um Professor — primeira nota da série.*
 
-## O dinheiro que você não pode usar, e o banco também não
+## O dinheiro que o banco não pode usar livremente
 
-Todo mês, uma parte do dinheiro parado numa conta corrente comum permanece, teoricamente,
-disponível o tempo todo: o titular pode sacar a qualquer momento, e o banco não pode
-livremente aplicar esse saldo em outra operação. Não por acordo comercial, mas por regra do
-Banco Central: hoje, o compulsório sobre recursos à vista — a parcela que o banco é obrigado
-a reter numa conta no próprio Banco Central, sem poder emprestar — é de 21%, contra 20% para
+O dinheiro parado numa conta corrente comum permanece disponível o tempo todo para o titular:
+ele pode sacar a qualquer momento. Mas o banco não tem a mesma liberdade sobre esse saldo —
+não pode aplicá-lo livremente em outra operação. Não por acordo comercial, mas por regra do
+Banco Central: o compulsório sobre recursos à vista — a parcela que o banco é obrigado a
+reter numa conta no próprio Banco Central, sem poder emprestar — é de 21%, contra 20% para
 recursos captados a prazo, como o CDB (Certificado de Depósito Bancário). A diferença parece
 pequena. Ela não é: é o primeiro sinal de que o CDB não é só um produto de investimento com
 nome estranho, é um contrato que libera uma fração maior do dinheiro do investidor para o
@@ -40,24 +40,27 @@ recuperado.
 ## O outro lado do balcão: o CDB como passivo do banco
 
 Para o investidor, o CDB é ativo: instrumento de acumulação de capital e gestão de liquidez.
-Para o banco que o emite, é o oposto — é passivo, é dívida. E é aí que mora a função real do
-produto no sistema financeiro.
+Para o banco que o emite, é o oposto — é passivo, é dívida. O próprio Banco Central usa, para
+descrever o que acontece com esse passivo dentro do banco, um termo técnico direto:
+transformação de maturidade. No Relatório de Estabilidade Financeira de abril de 2018, o
+Bacen explica que parte da regulação bancária existe justamente para "mitigar excessos no
+processo de transformação de maturidade realizado pelas instituições" — o processo pelo qual
+um banco pega dinheiro captado a prazos curtos (como um CDB de liquidez diária) e o transforma
+em crédito concedido a prazos longos (um financiamento imobiliário, por exemplo). É esse
+processo, nomeado pelo próprio regulador, que dá ao CDB seu papel: não é só onde o investidor
+guarda dinheiro, é o mecanismo pelo qual o sistema bancário converte poupança de curto prazo em
+crédito de longo prazo.
 
-A área responsável por administrar esse passivo dentro do banco chama-se ALM (Asset and
-Liability Management, ou Gestão de Ativos e Passivos): sua missão é captar recursos — via
-CDB, entre outros instrumentos — para financiar operações de crédito, que são os ativos do
-banco. O ALM gerencia o risco de taxa de juros e o risco de liquidez, garantindo que o banco
-capte a um custo menor do que empresta (a diferença é o spread bancário) e que os prazos de
-captação e de crédito estejam equilibrados o suficiente para nunca faltar dinheiro em caixa.
-
-O Banco Central usa, para descrever esse mecanismo, um termo técnico direto: transformação de
-maturidade. No Relatório de Estabilidade Financeira de abril de 2018, o Bacen explica que
-parte da regulação bancária existe justamente para "mitigar excessos no processo de
-transformação de maturidade realizado pelas instituições" — ou seja, no processo pelo qual um
-banco pega dinheiro captado a prazos curtos (como um CDB de liquidez diária) e o transforma em
-crédito concedido a prazos longos (um financiamento imobiliário, por exemplo). É esse processo
-que dá ao CDB seu papel: não é só onde o investidor guarda dinheiro, é o mecanismo pelo qual
-o sistema bancário converte poupança de curto prazo em crédito de longo prazo.
+A área responsável por administrar essa transformação dentro do banco chama-se ALM (Asset and
+Liability Management, ou Gestão de Ativos e Passivos): sua missão é captar recursos — via CDB,
+entre outros instrumentos — para financiar operações de crédito, que são os ativos do banco. O
+ALM gerencia o risco de taxa de juros e o risco de liquidez, garantindo que o banco capte a um
+custo menor do que empresta e que os prazos de captação e de crédito estejam equilibrados o
+suficiente para nunca faltar dinheiro em caixa. A diferença entre o que o banco paga para
+captar e o que cobra para emprestar é o spread bancário — e é justamente esse spread que
+determina quanto o banco pode pagar de remuneração num CDB sem deixar de lucrar na ponta do
+crédito: o rendimento que o investidor recebe não é um número arbitrário, é o preço que o
+banco está disposto a pagar pela transformação de prazo que o CDB permite.
 
 ![Ilustração: fluxo do dinheiro do depositante ao tomador de crédito — depósito em CDB entra como passivo do banco e sai como ativo de crédito, com a área de ALM administrando o descasamento de prazos no meio](ilu-01)
 
@@ -76,7 +79,10 @@ registradas na própria B3. Um CDB pós-fixado usa essa taxa como indexador do s
 diário — é comum, embora não universal, que o CDB pós-fixado seja atrelado a um percentual do
 CDI (90%, 100%, 110%, por exemplo). É essa ligação — CDB remunerado com base na taxa DI, que
 por sua vez reflete o custo do dinheiro entre bancos — que costuma gerar a confusão entre os
-dois termos.
+dois termos. E é também essa ligação que fecha a lógica de remuneração descrita na seção
+anterior: ao usar a taxa DI como referência, o banco ancora o que paga no CDB ao custo real do
+dinheiro no mercado interbancário, preservando o spread que sustenta a operação de crédito do
+outro lado do seu balanço.
 
 ![Gráfico: crescimento de capital de um CDB pós-fixado em diferentes percentuais do CDI (90%, 100%, 110%) ao longo de um horizonte de investimento](graf-01)
 
@@ -126,9 +132,8 @@ inflação (IPCA mais um spread prefixado) garante ganho real: protege o poder d
 capital, independentemente do cenário macroeconômico.
 
 Em qualquer um dos três casos, o que o investidor está negociando com o banco é o mesmo: abrir
-mão de disponibilidade imediata em troca de remuneração — a mesma transformação de prazo que,
-do outro lado do balcão, permite ao banco financiar o crédito de longo prazo. O CDB não é um
-produto entre outros na prateleira da renda fixa. É a peça pela qual o sistema bancário
-converte poupança de curto prazo em crédito de longo prazo — e essa função, não a
-rentabilidade que ele paga, é o que explica por que existe, como é remunerado e por que é tão
-de perto regulado.
+mão de disponibilidade imediata em troca de remuneração — a mesma transformação de prazo que
+permite ao banco financiar crédito de longo prazo com dinheiro captado a prazos mais curtos. É
+essa função — não a rentabilidade que o CDB paga, que é apenas o preço dessa função — que
+explica por que o produto existe, por que sua remuneração é ancorada ao custo do dinheiro
+entre bancos, e por que o Bacen regula de tão perto a forma como ele é emitido.
