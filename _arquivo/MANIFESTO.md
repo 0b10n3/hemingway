@@ -50,6 +50,7 @@ integral (links de spam injetados no HTML arquivado foram removidos antes de sal
 | Arquivo | Conteúdo | Data | Origem |
 |---|---|---|---|
 | `transcricoes/2026-08-10_O_Mundo_Invertido_dos_Investimentos.md` | Ideia de post: equívoco de investidores iniciantes que começam por produtos de maior risco (day trade, derivativos) em vez de seguir uma progressão natural (crédito bancário/Tesouro → ETFs de renda fixa → fundos → ações → derivativos). Analogia central: mundo invertido de Stranger Things + preparação para corrida (5km → maratona → ultramaratona) | 2026-08-08 (gravação, conforme título interno `POST_MUNDO_INVERTIDO_20260808`) | Autoral (nota de voz do autor, ditada para orientar o post) |
+| `transcricoes/2026-0817_O_Mundo_Invertido_das_Carreiras_em_Financas.md` | Ideia de post: primeiro texto da nova linha editorial "Spoiler" (carreira). Analogia central: mesma ideia do "mundo invertido" do post anterior, agora aplicada à carreira — profissionais que começam pela ponta mais complexa (ex.: precificação de opções, mesa de risco/VaR) sem ter primeiro o domínio de conceitos básicos (dinâmica de juros, dívida pública, mercado de crédito). Exemplo concreto: formação do próprio autor (mestrado em precificação de opções antes de dominar produtos mais simples). Gancho comercial: divulgação do curso gratuito ao vivo no YouTube (setembro) sobre valor do dinheiro no tempo | 2026-08-17 (conforme nome do arquivo) | Autoral (nota de voz do autor, ditada para orientar o post) |
 
 ## Documentos de contexto
 
