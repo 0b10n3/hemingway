@@ -1,7 +1,14 @@
 {
-  "etapa_atual": 5,
+  "etapa_atual": 2,
   "loops_consumidos": 0,
   "aprovacoes": [],
   "pendencias": [],
+  "reentradas": [
+    {
+      "ponto_retorno": "etapa 2 (estrutura)",
+      "motivo": "crítica estrutural (etapa 5) devolveu 3 achados de severidade alta: título contradiz a proposta editorial da seção 2, insight mais forte enterrado (sem formulação única no gancho/título), virada da seção 4 (estagiário de mesa de VaR) não sustentada por dado nem narrativa",
+      "consumiu_loop": false
+    }
+  ],
   "commit_inicial": "a474ae4"
 }
