@@ -1,0 +1,5 @@
+trilha,ordem,nivel_y,rotulo,rotulo_completo
+referencia,1,1,Base,"Valor do dinheiro no tempo, dinâmica de juros, dívida pública, mercado de crédito"
+referencia,2,2,Topo,"Precificação de derivativos, VaR"
+autor,1,2,Topo,"Precificação de opções — mestrado"
+autor,2,1,Base,"Valor do dinheiro no tempo, juros, dívida pública, crédito — preenchido anos depois"
