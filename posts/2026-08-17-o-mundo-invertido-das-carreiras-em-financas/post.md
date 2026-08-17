@@ -37,7 +37,7 @@ Isso não é impressão minha, e não estou inventando uma régua conveniente pa
 O currículo do CFA (Chartered Financial Analyst, a certificação mais reconhecida do mercado de investimentos) segue a mesma lógica: valor do dinheiro no tempo entra logo no primeiro módulo, antes de renda fixa, porque cada ferramenta dali vai ser reaproveitada depois. E tem uma prova ainda mais direta, que eu queria muito ter visto antes de começar minha dissertação: o pré-requisito listado pela GFMI (Global Financial Markets Institute), provedora de treinamento profissional em risco, para o curso dela sobre VaR (Value at Risk, a métrica que estima quanto uma carteira pode perder num cenário ruim) não pede matemática avançada — pede só "entender conceitos financeiros simples, como valor presente". Quem monta esses currículos já sabe, antes de qualquer aluno sentar na cadeira, uma coisa que eu só aprendi na marra: o
 gargalo raramente é a matemática. É o alicerce.
 
-![Ilustração: duas trilhas verticais de luz verde lado a lado. À esquerda, uma linha contínua, subindo sem interrupção da base ao topo. À direita, a mesma luz brilha forte só na parte de cima, some no meio, e só reaparece mais fraca perto da base — como um circuito que acendeu a ponta antes de fechar o resto do fio.](ilu-02)
+![Ilustração: uma árvore em corte transversal. A copa, cheia e brilhando em verde, está completa. As raízes, embaixo, são curtas e finas, sem alcançar a faixa de solo firme — a árvore parece pairar, ainda não ancorada, porque a raiz não terminou de crescer.](ilu-02)
 
 ## Não é só quem veio da academia
 

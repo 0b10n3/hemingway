@@ -28,6 +28,11 @@
       "ponto_retorno": "etapa 8 (visuais, refeito)",
       "motivo": "autor pediu para substituir graf-01 (gráfico Plotly) por outra ilustração gerada via Nano Banana Pro. Removidos graficos/graf-01.py, graficos/dados/graf-01.csv, figuras/graf-01.png e .svg; graficos.md reescrito para documentar que o post não tem gráfico. Novo ilu-02 ('Duas trilhas de luz': uma trilha contínua vs. uma interrompida, mesmo conceito das duas ordens, em formato de imagem) adicionado a ilustracoes.md e ao placeholder em post.md, na seção 'A segunda lacuna: dinheiro no tempo', no lugar onde graf-01 estava",
       "consumiu_loop": false
+    },
+    {
+      "ponto_retorno": "etapa 8 (visuais, refeito)",
+      "motivo": "autor pediu novo conceito para ilu-02, seguindo melhores práticas de ilustração editorial: 'Duas trilhas de luz' ainda era, no fundo, um diagrama de duas linhas abstratas — trocado por 'A copa antes da raiz', objeto único (árvore em corte transversal, copa cheia e iluminada em cima, raiz curta e incompleta embaixo, sem alcançar a faixa de solo firme). Metáfora raiz=alicerce/copa=conhecimento avançado liga direto à palavra que fecha o parágrafo ilustrado ('É o alicerce'), sem duplicar o dispositivo de espelho/portal já usado em ilu-01. ilustracoes.md e placeholder/alt-text em post.md atualizados",
+      "consumiu_loop": false
     }
   ],
   "commit_inicial": "a474ae4"
