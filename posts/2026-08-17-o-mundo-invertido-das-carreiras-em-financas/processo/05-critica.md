@@ -97,3 +97,48 @@ três seções**
 Três itens de severidade alta (título contraditório, insight mais forte enterrado, virada da
 seção 4 não sustentada) — o texto volta à etapa 2 (estrutura) antes de seguir para revisão de
 linha, conforme a regra do pipeline.
+
+## Reverificação pós-revisão
+
+Depois da revisão de `02-estrutura.md` e `04-draft-v1.md` (commits `e98d299` e `f5a796f`),
+segunda passada do `critico-editorial` focada nos três achados de severidade alta.
+
+**1. Título/subtítulo — resolvido.** Frontmatter traz "O Mundo Invertido das Carreiras" (sem
+"(em Investimentos)") e subtítulo "Não foi a complexidade do modelo que me atrasou. Foi ter
+aprendido as coisas fora de ordem" — carrega a tese ordem-vs-complexidade e está alinhado com
+a seção 2.
+
+**2. Insight enterrado — resolvido, com ressalva baixa.** A formulação-âncora ("O problema
+nunca foi a complexidade do modelo. Foi eu ter aprendido as coisas fora de ordem.") está
+plantada no fim da seção 1, antes de qualquer desenvolvimento, e ecoada no subtítulo. Os dois
+ecos secundários (fim das seções 3 e 5) permanecem como reforço, não teses concorrentes.
+Ressalva baixa, não bloqueante: os ecos usam "alicerce" e "ficar" em vez de repetir
+literalmente "ordem" (o plano em `02-estrutura.md` previa repetição da palavra-chave) — divergência
+pequena entre plano e execução, não compromete a tese, já clara pelo gancho/subtítulo.
+
+**3. Seção 4 (estagiário VaR) — resolvido.** Abandonou a asserção de fato genérico; admite o
+limite do argumento em primeira pessoa e converte o clímax em pergunta dirigida ao leitor.
+Ainda funciona como clímax — o ganho vem do reconhecimento direto em segunda pessoa, coerente
+com o registro ensaístico do resto do arco. É um clímax mais quieto do que uma "revelação de
+fato" seria, mas isso é consequência deliberada e correta da ausência de dado, não defeito
+novo.
+
+**Achados de severidade média do laudo original — passada rápida.**
+- Parágrafo de citações da seção 3 (Hull/CFA/GFMI): melhorado (âncoras em primeira pessoa em
+  dois dos três pontos), não totalmente resolvido — a transição para o CFA ainda soa mais
+  explicativa que ensaística. Rebaixado de média para baixa; não bloqueante para a etapa 6.
+- Placeholder `ilu-01`: resolvido — presente no fim da seção 1, com descrição que ancora a
+  metáfora da base invertida.
+- Itens 6 e 7 (baixa, original): resolvidos — "e não foi só comigo" foi removido da seção 2.
+
+**Achado novo, observação não bloqueante.** Seção 1 usa "produto" no sentido de instrumento
+financeiro (o contrato de opções), enquanto a seção 2 usa "produto" no sentido de produto de
+investimento (régua de risco do post anterior) a poucos parágrafos de distância. Resolvível
+pelo contexto; vale atenção na etapa 6 (revisão de linha) se houver oportunidade de
+desambiguar sem reestruturar. Severidade: baixa.
+
+## Veredito da reverificação
+
+Os três achados de severidade alta foram resolvidos no draft revisado, sem introduzir problema
+novo de severidade alta ou média. Restam apenas observações de severidade baixa. **Texto
+liberado para a etapa 6 (revisão de linha e norma).**
