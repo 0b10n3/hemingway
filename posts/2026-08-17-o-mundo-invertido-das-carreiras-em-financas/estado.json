@@ -23,6 +23,11 @@
       "ponto_retorno": "etapa 8 (visuais, refeito)",
       "motivo": "autor pediu novas ideias de ilustração: ambos os visuais (ilu-01 e graf-01) estavam carregados demais, e a ilustração devia explorar mais a ideia de 'mundo invertido'. graf-01 simplificado (removidos rótulos de texto completo e legenda; só marcadores numerados, setas e eixos Base/Topo — descrição completa migrou para hovertext), figuras regeneradas. ilu-01 trocada de conceito: de 'equação flutuando sobre blocos tombados' (dois elementos) para 'escada espelhada cortada por linha de portal brilhante' (um objeto, um eixo de simetria, referência direta ao Upside Down de Stranger Things) — prompt novo em ilustracoes.md, caption/alt-text atualizados em post.md",
       "consumiu_loop": false
+    },
+    {
+      "ponto_retorno": "etapa 8 (visuais, refeito)",
+      "motivo": "autor pediu para substituir graf-01 (gráfico Plotly) por outra ilustração gerada via Nano Banana Pro. Removidos graficos/graf-01.py, graficos/dados/graf-01.csv, figuras/graf-01.png e .svg; graficos.md reescrito para documentar que o post não tem gráfico. Novo ilu-02 ('Duas trilhas de luz': uma trilha contínua vs. uma interrompida, mesmo conceito das duas ordens, em formato de imagem) adicionado a ilustracoes.md e ao placeholder em post.md, na seção 'A segunda lacuna: dinheiro no tempo', no lugar onde graf-01 estava",
+      "consumiu_loop": false
     }
   ],
   "commit_inicial": "a474ae4"

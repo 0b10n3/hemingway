@@ -72,3 +72,82 @@ cartoon style, 3D render look, motion blur, realistic architecture, railing, orn
 que brilha em verde. Acima da linha, os degraus sobem em ordem. Abaixo, a mesma escada
 aparece espelhada, de cabeça para baixo, se desfazendo em partículas conforme se afasta da
 linha — o Upside Down da carreira."
+
+## ilu-02 — Duas trilhas de luz
+
+**Revisão (pedido do autor no gate):** substitui `graf-01`, que era um gráfico Plotly (duas
+trilhas com marcadores numerados e setas). O autor pediu para trocar por outra ilustração
+gerada via Nano Banana, em vez de um gráfico de dados — decisão registrada em `graficos.md`
+(agora sem gráfico neste post) e em `estado.json`. `ilu-01` já usa o dispositivo do portal/
+espelho; esta imagem usa um dispositivo diferente (trilha de luz, contínua vs. interrompida)
+para não repetir a mesma composição duas vezes no mesmo post.
+
+**Onde entra:** na seção "A segunda lacuna: dinheiro no tempo", no lugar onde `graf-01`
+estava — logo após o parágrafo que cita Hull, CFA e GFMI, fechando com "o gargalo raramente é
+a matemática. É o alicerce."
+
+**Ideia que carrega:** duas trilhas verticais de luz lado a lado sobre fundo escuro. À
+esquerda, a trilha de referência: uma linha contínua e ininterrupta, subindo da base ao topo,
+sem falha. À direita, a trilha que o autor de fato seguiu: brilha forte só na metade
+superior, tem uma lacuna escura no meio, sem luz nenhuma, e só retoma um brilho mais fraco,
+tardio, na base — como um circuito que acendeu a ponta antes de fechar o resto do fio. Duas
+linhas, um vocabulário visual só (trilha de luz, completa vs. interrompida), nenhum texto,
+nenhum marcador numerado.
+
+### Prompt para GERADOR_IMAGEM (Google Nano Banana Pro)
+
+```
+Editorial illustration, dark minimalist composition, horizontal emphasis, two vertical
+light trails side by side against a near-black background, generous negative space between
+and around them.
+
+Left trail: a single continuous vertical line of soft volt-green glowing light (#1FE07A,
+subtle bloom), running unbroken from the bottom edge of the frame to the top — steady,
+even brightness along its entire length, like a completed circuit or an unbroken beam.
+
+Right trail: the same kind of vertical light line, but visibly discontinuous. The upper
+third glows at full brightness, identical to the left trail. Then there is a clear dark gap
+with no light at all for a stretch in the middle. Below the gap, near the bottom of the
+frame, a shorter segment of the same green light resumes, but noticeably dimmer and fainter
+than the top segment, as if it switched back on later and weaker.
+
+Both trails sit on a near-black obsidian background (#0A0F0D), fading to graphite (#0D1512)
+at the edges. The glowing green light is the only saturated color in the entire image — no
+other object, texture, or element carries color. No text, no numbers, no arrows, no icons,
+no human figures, no architecture, nothing else in the frame besides the two light trails
+and the dark background.
+
+Style: modern minimalist editorial illustration, clean vector-like linework, soft glow/bloom
+effect only on the light trails themselves, no photorealism, no painterly brushstrokes, no
+3D render look, no grain texture this time — keep it very clean and spare.
+
+Composition: two vertical trails positioned symmetrically left and right of center, equal
+spacing, suitable as a standalone horizontal editorial illustration.
+
+Mood: one steady, unbroken light; one that started strong, went dark, and only came back
+weaker, later.
+```
+
+Nota de contexto (pt-BR): mesma regra do "elemento iluminado" do sistema "O Sinal no Escuro",
+mas aqui o contraste não é entre iluminado e não-iluminado — é entre duas versões do mesmo
+brilho: uma contínua (a ordem de referência) e uma interrompida, com o final mais fraco que o
+começo (a ordem que o autor seguiu). A cor é a mesma `volt-500` (#1FE07A) nas duas trilhas —
+o que muda é a continuidade, não o tom, porque o argumento do post não é que uma trilha seja
+"errada" e a outra "certa" em essência, é que uma tem lacuna e a outra não.
+
+### Negative prompt
+
+```
+text, typography, numbers, arrows, icons, logos, brand names, watermark, signature,
+photorealistic faces, human figures, warm color palette, orange or red tones, red or warning
+colors, multiple different colors, cluttered background, busy composition, comic book style,
+cartoon style, 3D render look, motion blur, realistic architecture, grain texture, bar chart,
+line chart, data visualization elements, axis, legend
+```
+
+### Alt-text final (para `post.md`)
+
+"Ilustração escura e minimalista: duas trilhas verticais de luz verde lado a lado. À
+esquerda, uma linha contínua, subindo sem interrupção da base ao topo. À direita, a mesma luz
+brilha forte só na parte de cima, some no meio, e só reaparece mais fraca perto da base —
+como um circuito que acendeu a ponta antes de fechar o resto do fio."
