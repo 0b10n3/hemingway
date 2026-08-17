@@ -1,9 +1,6 @@
 {
-  "etapa_atual": 7,
-  "pendencias": [
-    "[VERIFICAR: nome completo da sigla GFMI, para etapa 7]",
-    "[VERIFICAR: expansão de CFA — Chartered Financial Analyst —, para etapa 7]"
-  ],
+  "etapa_atual": 8,
+  "pendencias": [],
   "loops_consumidos": 0,
   "aprovacoes": [],
   "reentradas": [
