@@ -8,6 +8,16 @@
       "ponto_retorno": "etapa 2 (estrutura)",
       "motivo": "crítica estrutural (etapa 5) devolveu 3 achados de severidade alta: título contradiz a proposta editorial da seção 2, insight mais forte enterrado (sem formulação única no gancho/título), virada da seção 4 (estagiário de mesa de VaR) não sustentada por dado nem narrativa",
       "consumiu_loop": false
+    },
+    {
+      "ponto_retorno": "etapa 9 (acabamento, aplicado direto em post.md)",
+      "motivo": "autor editou post.md diretamente no gate humano: reformatação de parágrafos, título da seção 2 encurtado ('Bem-vindo à Spoiler'), título da seção 7 renomeado ('Um Convite para Você'), pequenos ajustes de frase. Dois pontos corrigidos pelo pipeline por parecerem erro de digitação, não escolha do autor: frase quebrada 'Renda Fixa um assunto bem mais resolvido' restaurada para 'É um assunto bem mais resolvido', e palavras fundidas 'semantes' separadas para 'sem antes'",
+      "consumiu_loop": false
+    },
+    {
+      "ponto_retorno": "etapa 9 (acabamento, aplicado direto em post.md)",
+      "motivo": "autor pediu, em texto livre no gate: reduzir uso de travessão no corpo do texto, e desenvolver/conectar melhor o parágrafo sobre pesquisa acadêmica em derivativos vs. renda fixa (seção 'Bem-vindo à Spoiler'). Travessões no corpo reduzidos de ~16 para 2 ocorrências (mantidas só onde formam aside genuíno ou contraste forte — a maioria virou dois-pontos, vírgula ou ponto final). Parágrafo sobre pesquisa acadêmica reescrito: agora explica o mecanismo (pesquisa nova busca problema novo, e a fronteira de pesquisa em matemática financeira está nos produtos complexos, não na renda fixa/juros/dívida pública) em vez de só afirmar o padrão",
+      "consumiu_loop": false
     }
   ],
   "commit_inicial": "a474ae4"
