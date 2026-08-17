@@ -2,7 +2,7 @@
   "etapa_atual": 10,
   "pendencias": [],
   "loops_consumidos": 0,
-  "aprovacoes": [],
+  "aprovacoes": ["2026-08-17: aprovado para publicação no gate humano, após ajustes de texto e troca dos dois conceitos visuais (ilu-01 e ilu-02) pedidos pelo autor"],
   "reentradas": [
     {
       "ponto_retorno": "etapa 2 (estrutura)",
