@@ -16,7 +16,7 @@ O que eu não sabia era explicar, em termos simples, o que aquele contrato fazia
 
 O problema nunca foi a complexidade do modelo. Foi eu ter aprendido as coisas fora de ordem.
 
-![Ilustração: uma equação de precificação de opções, nítida e brilhando em verde, flutuando sobre uma pequena base de blocos simples de cabeça para baixo — a base, que deveria sustentar a fórmula, está instável e sem nenhum brilho.](ilu-01)
+![Ilustração: uma escada simples, cortada ao meio por uma linha horizontal que brilha em verde. Acima da linha, os degraus sobem em ordem. Abaixo, a mesma escada aparece espelhada, de cabeça para baixo, se desfazendo em partículas conforme se afasta da linha — o Upside Down da carreira.](ilu-01)
 
 ## Bem-vindo à Spoiler
 

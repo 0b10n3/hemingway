@@ -1,11 +1,12 @@
 """
 graf-01 — Duas trilhas: a ordem de referência e a ordem que eu segui.
+Versão enxuta: só os marcadores numerados e a seta de direção por trilha —
+descrição completa vive só no hover, não poluindo o gráfico estático.
 Autocontido: lê o CSV ao lado (dados/graf-01.csv) e os tokens de marca/tokens.json,
 exporta para ../figuras/graf-01.svg e .png. Rodar com: python3 graf-01.py
 """
 import csv
 import json
-import textwrap
 from pathlib import Path
 
 import plotly.graph_objects as go
@@ -33,13 +34,10 @@ for r in rows:
 for t in trilhas:
     trilhas[t].sort(key=lambda r: int(r["ordem"]))
 
-X_REFERENCIA, X_AUTOR = 0, 3
-X_LABELS = ["Ordem de referência<br>(currículo CFA, livro do Hull, pré-requisito de VaR)",
-            "A ordem que eu segui"]
+X_REFERENCIA, X_AUTOR = 0, 2
+X_LABELS = ["Ordem de referência", "A ordem que eu segui"]
 
 fig = go.Figure()
-
-wrap = lambda s: "<br>".join(textwrap.wrap(s, width=34))
 
 for trilha, x_pos, color, nome in (
     ("referencia", X_REFERENCIA, COLOR_REFERENCIA, "Ordem de referência"),
@@ -52,29 +50,16 @@ for trilha, x_pos, color, nome in (
             x=[x_pos] * len(pontos),
             y=ys,
             mode="markers+text",
-            marker=dict(size=22, color=color, line=dict(color=tokens["neutrals"]["obsidian"]["hex"], width=2)),
+            marker=dict(size=26, color=color, line=dict(color=tokens["neutrals"]["obsidian"]["hex"], width=2)),
             text=[p["ordem"] for p in pontos],
             textposition="middle center",
-            textfont=dict(color=tokens["neutrals"]["obsidian"]["hex"], size=13, family="JetBrains Mono, monospace"),
+            textfont=dict(color=tokens["neutrals"]["obsidian"]["hex"], size=14, family="JetBrains Mono, monospace"),
             name=nome,
             hovertext=[p["rotulo_completo"] for p in pontos],
             hoverinfo="text",
-            showlegend=True,
+            showlegend=False,
         )
     )
-    # rótulo textual ao lado de cada nó
-    for p in pontos:
-        offset = 0.45 if x_pos == X_REFERENCIA else -0.45
-        anchor = "left" if x_pos == X_REFERENCIA else "right"
-        fig.add_annotation(
-            x=x_pos + offset,
-            y=int(p["nivel_y"]),
-            text=wrap(p["rotulo_completo"]),
-            showarrow=False,
-            align=anchor,
-            xanchor=anchor,
-            font=dict(color=tokens["text"]["high"]["hex"], size=13, family="Inter, sans-serif"),
-        )
     # seta de direção conectando o primeiro ao segundo ponto da trilha (ordem 1 -> 2)
     p_ini, p_fim = pontos[0], pontos[1]
     fig.add_annotation(
@@ -86,7 +71,7 @@ for trilha, x_pos, color, nome in (
         showarrow=True,
         arrowhead=3,
         arrowsize=1.4,
-        arrowwidth=3,
+        arrowwidth=4,
         arrowcolor=color,
         text="",
     )
@@ -95,38 +80,36 @@ fig.update_layout(
     title=dict(
         text="A ordem de referência — e a ordem que eu segui",
         font=dict(family="Space Grotesk, sans-serif", size=20, color=tokens["text"]["high"]["hex"]),
-        x=0.02,
-        xanchor="left",
-        y=0.97,
+        x=0.5,
+        xanchor="center",
+        y=0.95,
     ),
     paper_bgcolor=tokens["neutrals"]["obsidian"]["hex"],
     plot_bgcolor=tokens["neutrals"]["obsidian"]["hex"],
     font=dict(family="Inter, sans-serif", color=tokens["text"]["medium"]["hex"]),
-    margin=dict(l=40, r=40, t=150, b=90),
+    margin=dict(l=60, r=60, t=110, b=70),
     xaxis=dict(
         tickmode="array",
         tickvals=[X_REFERENCIA, X_AUTOR],
         ticktext=X_LABELS,
-        range=[-2.0, 5.0],
+        tickfont=dict(size=15, color=tokens["text"]["high"]["hex"]),
+        range=[-1.0, 3.0],
         showgrid=False,
         zeroline=False,
-        color=tokens["dataviz"]["axis_text"],
     ),
     yaxis=dict(
         tickmode="array",
         tickvals=[1, 2],
         ticktext=["Base", "Topo"],
+        tickfont=dict(size=15),
         range=[0.5, 2.5],
         gridcolor=tokens["dataviz"]["grid_line"],
         color=tokens["dataviz"]["axis_text"],
         zeroline=False,
     ),
-    legend=dict(
-        orientation="h", yanchor="bottom", y=1.10, xanchor="left", x=0.02,
-        font=dict(color=tokens["text"]["medium"]["hex"]),
-    ),
-    width=1500,
-    height=850,
+    showlegend=False,
+    width=1100,
+    height=750,
 )
 
 OUT_DIR.mkdir(parents=True, exist_ok=True)

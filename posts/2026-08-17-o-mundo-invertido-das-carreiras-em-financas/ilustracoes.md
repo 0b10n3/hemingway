@@ -1,61 +1,74 @@
 # Ilustrações — O Mundo Invertido das Carreiras
 
-## ilu-01 — A base invertida
+## ilu-01 — A escada espelhada
+
+**Revisão (pedido do autor no gate):** o conceito original ("A base invertida" — equação
+flutuando sobre blocos tombados) tinha dois elementos competindo (fórmula + blocos) e pouca
+ligação visual direta com a moldura "mundo invertido" que dá nome à linha editorial e ao post.
+Este conceito novo substitui o anterior: um objeto só, um eixo de simetria só, e a referência
+ao Upside Down de *Stranger Things* — mundo espelhado, hostil, do lado de baixo — no centro
+literal da composição, não como metáfora indireta.
 
 **Onde entra:** no fim da seção 1 ("A conta batia. O produto, não."), logo após a frase-âncora
 "O problema nunca foi a complexidade do modelo. Foi eu ter aprendido as coisas fora de ordem."
 — a imagem ancora visualmente o gancho antes da seção 2 nomear o fenômeno
 (`processo/02-estrutura.md`, seção 1: "carrega a informação do gancho, não é decoração").
 
-**Ideia que carrega:** o domínio técnico do autor (a equação de precificação, nítida e
-completa) sustentado por uma base que deveria vir antes dela — juros, dívida pública, crédito
-— só que essa base está de cabeça para baixo, incapaz de sustentar o que está em cima. É a
-cena do briefing e da estrutura traduzida em imagem: matemática perfeita, alicerce ausente.
+**Ideia que carrega:** uma única escada, cortada ao meio por uma linha horizontal fina que
+brilha — o portal entre os dois mundos, a referência direta ao Upside Down. Acima da linha:
+poucos degraus simples, subindo em ordem, para dentro do escuro — o mundo normal, a ordem de
+referência. Abaixo da linha, espelhados: os mesmos degraus, de cabeça para baixo, mas se
+desfazendo em partículas conforme se afastam do portal — o Upside Down, a ordem que o autor
+seguiu, decompondo-se. Uma imagem, um eixo de simetria, uma única cor saturada: a linha do
+portal.
 
 ### Prompt para GERADOR_IMAGEM (Google Nano Banana Pro)
 
 ```
-Editorial illustration, dark minimalist composition, vertical emphasis. Centered in the
-upper half of the frame: a clean, precise mathematical equation (option pricing formula,
-stylized, not literally legible as real notation) rendered as thin glowing lines — the
-single illuminated element in the whole composition, a soft volt-green glow (#1FE07A, with
-subtle bloom) against the dark background, floating in space.
-Directly beneath it, meant to be its foundation but visibly failing at that job: a small
-stack of simple geometric blocks (three or four blocks, plain cubes or slabs, unlabeled) —
-rendered in cold dark neutral tones (graphite #0D1512, carbon #111A16, line #1E2C27) —
-flipped upside down, tilted, some blocks appear to be sliding or about to topple, clearly
-unable to bear the weight of the glowing equation above them. No text or labels anywhere in
-the composition.
-Overall palette: near-black obsidian background (#0A0F0D), fading to graphite at the edges.
-The volt green glow on the equation is the only saturated color in the frame — the block
-structure below stays entirely in the dark green-gray neutral family, deliberately
-un-illuminated, to visually read as "the part that isn't holding up."
-Style: modern minimalist editorial illustration, flat geometric shapes with subtle grain
-texture, restrained linework, high contrast, no photorealism, no painterly brushstrokes.
-Composition: vertical or square aspect ratio, generous negative space around the central
-image, suitable as a standalone editorial header.
-Mood: quiet imbalance — something precise resting on something that shouldn't hold it.
+Editorial illustration, dark minimalist composition, strong vertical symmetry, square or
+portrait aspect ratio. A single simple staircase (four or five plain geometric steps, no
+railing, no ornament) occupies the vertical center of the frame, bisected exactly in half by
+one thin horizontal line that spans the full width of the composition.
+Above the line: the staircase steps rendered clean and solid, in cold dark neutral tones
+(graphite, carbon, deep line-gray), ascending in orderly fashion upward into soft darkness —
+crisp edges, stable, nothing floating or broken.
+Below the line, as a mirror reflection of the steps above: the same staircase, upside down,
+but visibly coming apart the farther it gets from the line — edges dissolving into a faint
+drifting particulate texture (like fine ash or dust motes suspended in the air), as if that
+half of the structure is disintegrating instead of standing.
+The single illuminated element in the whole image: the thin horizontal threshold line itself,
+glowing with a soft volt-green light (#1FE07A, subtle bloom, no other object in the frame
+shares this color). A few of the drifting ash motes just above and below the line may carry
+a faint trace of the same green glow, fading to nothing within a short distance of the line.
+Overall palette: near-black obsidian background (#0A0F0D) fading to graphite (#0D1512) at the
+edges. No text, no numbers, no human figures, no readable symbols anywhere in the frame.
+Style: modern minimalist editorial illustration, flat geometric shapes, restrained linework,
+subtle grain texture, high contrast, no photorealism, no painterly brushstrokes, no 3D render
+look.
+Composition: perfectly symmetric top-to-bottom around the glowing line, generous negative
+space left and right, suitable as a standalone vertical editorial header.
+Mood: a quiet, exact mirror — one half standing, one half quietly falling apart.
 ```
 
-Nota de contexto (pt-BR): a regra do "elemento iluminado" do sistema "O Sinal no Escuro" é
-aplicada aqui na equação — o único ponto de cor saturada é o verde `volt-500` (#1FE07A) na
-fórmula, enquanto a base de blocos invertida fica inteiramente nos tons escuros/neutros da
-paleta (`marca/tokens.json`: obsidian, graphite, carbon, line), deliberadamente
-"não-iluminada" para reforçar que é ali que falta sustentação. Isso transforma o próprio
-argumento do post (domínio técnico sem alicerce) no centro visual da imagem, sem precisar de
-texto na peça.
+Nota de contexto (pt-BR): a regra do "elemento iluminado" do sistema "O Sinal no Escuro" fica
+concentrada num único ponto desta vez — a linha do portal, não um objeto inteiro — o que
+reduz a composição a um elemento saturado só, em vez dos dois competindo na versão anterior
+(fórmula + blocos). A simetria espelhada é o próprio argumento do post: o "mundo normal" em
+cima, ordenado, e o Upside Down embaixo, a mesma estrutura de cabeça para baixo e se
+desfazendo — sem precisar de nenhum texto na peça.
 
 ### Negative prompt
 
 ```
-text, typography, legible formulas, logos, brand names, watermark, signature,
-photorealistic faces, portrait detail, warm color palette, orange or red tones,
-multiple glowing elements, cluttered background, comic book style, cartoon style,
-3D render look, motion blur, human figures, realistic architecture
+text, typography, legible formulas, numbers, logos, brand names, watermark, signature,
+photorealistic faces, portrait detail, human figures, warm color palette, orange or red
+tones, multiple glowing elements, cluttered background, busy composition, comic book style,
+cartoon style, 3D render look, motion blur, realistic architecture, railing, ornament
 ```
 
 ### Alt-text final (para `post.md`)
 
-"Ilustração escura e minimalista: uma equação de precificação de opções, nítida e brilhando
-em verde, flutuando sobre uma pequena base de blocos simples de cabeça para baixo — a base,
-que deveria sustentar a fórmula, está instável e sem nenhum brilho."
+"Ilustração escura e minimalista: uma escada simples, cortada ao meio por uma linha horizontal
+que brilha em verde. Acima da linha, os degraus sobem em ordem. Abaixo, a mesma escada
+aparece espelhada, de cabeça para baixo, se desfazendo em partículas conforme se afasta da
+linha — o Upside Down da carreira."

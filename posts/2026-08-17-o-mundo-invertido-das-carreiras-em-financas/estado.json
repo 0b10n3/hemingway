@@ -18,6 +18,11 @@
       "ponto_retorno": "etapa 9 (acabamento, aplicado direto em post.md)",
       "motivo": "autor pediu, em texto livre no gate: reduzir uso de travessão no corpo do texto, e desenvolver/conectar melhor o parágrafo sobre pesquisa acadêmica em derivativos vs. renda fixa (seção 'Bem-vindo à Spoiler'). Travessões no corpo reduzidos de ~16 para 2 ocorrências (mantidas só onde formam aside genuíno ou contraste forte — a maioria virou dois-pontos, vírgula ou ponto final). Parágrafo sobre pesquisa acadêmica reescrito: agora explica o mecanismo (pesquisa nova busca problema novo, e a fronteira de pesquisa em matemática financeira está nos produtos complexos, não na renda fixa/juros/dívida pública) em vez de só afirmar o padrão",
       "consumiu_loop": false
+    },
+    {
+      "ponto_retorno": "etapa 8 (visuais, refeito)",
+      "motivo": "autor pediu novas ideias de ilustração: ambos os visuais (ilu-01 e graf-01) estavam carregados demais, e a ilustração devia explorar mais a ideia de 'mundo invertido'. graf-01 simplificado (removidos rótulos de texto completo e legenda; só marcadores numerados, setas e eixos Base/Topo — descrição completa migrou para hovertext), figuras regeneradas. ilu-01 trocada de conceito: de 'equação flutuando sobre blocos tombados' (dois elementos) para 'escada espelhada cortada por linha de portal brilhante' (um objeto, um eixo de simetria, referência direta ao Upside Down de Stranger Things) — prompt novo em ilustracoes.md, caption/alt-text atualizados em post.md",
+      "consumiu_loop": false
     }
   ],
   "commit_inicial": "a474ae4"
