@@ -1,0 +1,19 @@
+{
+  "etapa_atual": 10,
+  "loops_consumidos": 0,
+  "aprovacoes": [
+    "2026-08-25: aprovado para publicação no gate humano, após ajuste de visuais (duas opções de capa 16:9 adicionadas a ilustracoes.md). Pendência sobre nome de série editorial nova (vs. 'Notas de um Professor') deixada em aberto pelo autor — não bloqueia publicação, post não reivindica série nenhuma no corpo"
+  ],
+  "pendencias": [
+    "BLOQUEIO publicação: a skill publicar tem disable-model-invocation: true e recusa ser chamada pelo orquestrador — precisa que o autor rode /publicar diretamente",
+    "decisão em aberto (não bloqueante): nome de série editorial nova (vs. 'Notas de um Professor'), dado o gancho para um próximo post sobre CRI"
+  ],
+  "reentradas": [
+    {
+      "ponto_retorno": "etapa 8 (visuais, ilustracoes.md)",
+      "motivo": "autor pediu, no gate humano, duas opções de imagem de capa (16:9, não são ilu-NN de corpo) para o post — adicionadas 'Capa A' ('O endereço do risco', fio de luz de um glifo de imóvel até um volume que sugere instituição financeira) e 'Capa B' ('Dividir para não correr risco', certificado abstrato dividido em faixas, uma única faixa acesa) em ilustracoes.md, com prompt completo, negative prompt e alt-text para cada uma",
+      "consumiu_loop": false
+    }
+  ],
+  "commit_inicial": "bc9a56e"
+}
