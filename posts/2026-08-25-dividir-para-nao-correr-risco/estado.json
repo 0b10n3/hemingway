@@ -5,5 +5,12 @@
   "pendencias": [
     "confirmar com o autor, no gate humano, se este texto abre série nova (nome a definir) distinta de 'Notas de um Professor', dado o gancho para um próximo post sobre CRI"
   ],
+  "reentradas": [
+    {
+      "ponto_retorno": "etapa 8 (visuais, ilustracoes.md)",
+      "motivo": "autor pediu, no gate humano, duas opções de imagem de capa (16:9, não são ilu-NN de corpo) para o post — adicionadas 'Capa A' ('O endereço do risco', fio de luz de um glifo de imóvel até um volume que sugere instituição financeira) e 'Capa B' ('Dividir para não correr risco', certificado abstrato dividido em faixas, uma única faixa acesa) em ilustracoes.md, com prompt completo, negative prompt e alt-text para cada uma",
+      "consumiu_loop": false
+    }
+  ],
   "commit_inicial": "bc9a56e"
 }
