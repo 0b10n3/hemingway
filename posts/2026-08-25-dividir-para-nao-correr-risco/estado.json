@@ -3,7 +3,8 @@
   "loops_consumidos": 0,
   "aprovacoes": [],
   "pendencias": [
-    "confirmar com o autor, no gate humano, se este texto abre série nova (nome a definir) distinta de 'Notas de um Professor', dado o gancho para um próximo post sobre CRI"
+    "confirmar com o autor, no gate humano, se este texto abre série nova (nome a definir) distinta de 'Notas de um Professor', dado o gancho para um próximo post sobre CRI",
+    "BLOQUEIO etapa 8 (visuais): a skill prompts-visuais tem disable-model-invocation: true e recusa ser chamada pelo orquestrador, mesmo dentro do pipeline — precisa que o autor rode /prompts-visuais diretamente para gerar o prompt de graf-01 antes da etapa 9 (consolidação)"
   ],
   "commit_inicial": "bc9a56e"
 }
