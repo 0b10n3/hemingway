@@ -1,9 +1,12 @@
 {
-  "etapa_atual": 9,
+  "etapa_atual": 10,
   "loops_consumidos": 0,
-  "aprovacoes": [],
+  "aprovacoes": [
+    "2026-08-25: aprovado para publicação no gate humano, após ajuste de visuais (duas opções de capa 16:9 adicionadas a ilustracoes.md). Pendência sobre nome de série editorial nova (vs. 'Notas de um Professor') deixada em aberto pelo autor — não bloqueia publicação, post não reivindica série nenhuma no corpo"
+  ],
   "pendencias": [
-    "confirmar com o autor, no gate humano, se este texto abre série nova (nome a definir) distinta de 'Notas de um Professor', dado o gancho para um próximo post sobre CRI"
+    "BLOQUEIO publicação: a skill publicar tem disable-model-invocation: true e recusa ser chamada pelo orquestrador — precisa que o autor rode /publicar diretamente",
+    "decisão em aberto (não bloqueante): nome de série editorial nova (vs. 'Notas de um Professor'), dado o gancho para um próximo post sobre CRI"
   ],
   "reentradas": [
     {
