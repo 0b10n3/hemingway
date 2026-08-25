@@ -1,7 +1,9 @@
 {
-  "etapa_atual": 0,
+  "etapa_atual": 1,
   "loops_consumidos": 0,
   "aprovacoes": [],
-  "pendencias": [],
+  "pendencias": [
+    "confirmar com o autor, no gate humano, se este texto abre série nova (nome a definir) distinta de 'Notas de um Professor', dado o gancho para um próximo post sobre CRI"
+  ],
   "commit_inicial": "bc9a56e"
 }
