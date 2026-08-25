@@ -1,11 +1,9 @@
 {
-  "etapa_atual": 6,
+  "etapa_atual": 7,
   "loops_consumidos": 0,
   "aprovacoes": [],
   "pendencias": [
-    "confirmar com o autor, no gate humano, se este texto abre série nova (nome a definir) distinta de 'Notas de um Professor', dado o gancho para um próximo post sobre CRI",
-    "verificação técnica (etapa 7) deve reconciliar a série de estoque de LCI: jan/2024 R$ 373 bi + abr/2024 R$ 362 bi vs. fim de 2024 R$ 350 bi (fonte B3) parecem inconsistentes entre si — checar direto na fonte B3 original (ver 03-pesquisa.md §4 e 05-critica.md achado 6). Bloqueante: se não reconciliar, o parágrafo da seção 4 precisa ser reescrito, não só corrigido em número.",
-    "verificação técnica (etapa 7) deve confirmar a faixa de equivalência LCI 90% CDI -> CDB: draft já usa 106%-116% [VERIFICAR] a partir do cálculo de gross-up (105,9%-116,1%) — confirmar contra alíquota vigente antes de publicar (ver 03-pesquisa.md §5)"
+    "confirmar com o autor, no gate humano, se este texto abre série nova (nome a definir) distinta de 'Notas de um Professor', dado o gancho para um próximo post sobre CRI"
   ],
   "commit_inicial": "bc9a56e"
 }
