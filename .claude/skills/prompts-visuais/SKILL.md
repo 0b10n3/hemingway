@@ -15,6 +15,12 @@ visuais: `capa.md` sempre, os demais quando o post tiver a peça correspondente.
 (ver nota de 31/08/2026 em `marca-syntaxis/SKILL.md`: posts publicados antes dessa data usam o
 sistema anterior e não são referência para trabalho novo).
 
+**Gerador ativo hoje:** Nano Banana Pro (Gemini) — ver
+`references/geradores/nano-banana-pro.md`. Trocar de gerador é trocar esta linha e apontar
+para o adaptador correspondente (`references/geradores/<gerador>.md`); nenhuma outra
+referência deste sistema muda. Todo prompt final em `ilustracoes.md`/`capa.md` declara no
+cabeçalho para qual gerador foi escrito.
+
 ## `capa.md`
 
 Sempre presente — todo post tem exatamente uma capa. Nasce da **tese em uma frase e do gancho
