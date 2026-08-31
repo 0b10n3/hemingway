@@ -178,3 +178,76 @@ Fase 2, que só existiam em `.claude/skills/*/SKILL.md` até aqui. Backlog dos i
 das Fases 1-2 em `pesquisa/auditoria-2026/03-backlog.md`. Smoke test dos skills de referência
 (`voz-syntaxis`, `marca-syntaxis`) nesta sessão nova — ver resultado no próprio backlog ou na
 sessão em questão.
+
+## Acréscimo — revisão do processo texto→visuais (`chore/revisao-visuais`, ainda em 2026-08-31)
+
+Segunda auditoria, mais estreita que a `auditoria-2026`: revisão dedicada ao processo que
+transforma texto em capa/ilustrações/gráficos, motivada por um relatório de pesquisa externo
+("Design Editorial, Semiótica Visual e Automação de Ilustrações via IA") trazido pelo autor.
+Processo documentado em `pesquisa/frente-e-visuais/00` a `03`; cada fase é um ou mais commits
+(`git log --grep visuais` na branch `chore/revisao-visuais`).
+
+**Ressalva sobre a fonte:** o relatório trazido tem uma seção (§6) que descreve este mesmo
+sistema hemingway em detalhe — nomes de skill batendo exatamente — mas cita como fonte um
+repositório GitHub que não existe verificavelmente (`0b10n3/hemingway`). Tratado como possível
+alucinação e descartado como evidência; as propostas usaram só as seções do relatório com
+fontes externas plausíveis (Lakoff/Johnson sobre metáfora conceitual, Tufte, benchmarks de
+modelo). O relatório também errou uma conta (tabela do LinkedIn: citava 1200×644 como 1.91:1,
+que na verdade é ≈1,86:1 — a dimensão correta é 1200×627).
+
+### Fase A — Diagnóstico (`01-diagnostico.md`)
+
+Cinco testes (literalismo, plataforma, marca, Tufte, arquitetura) contra os três posts
+publicados e contra o sistema que a `auditoria-2026` já tinha entregue nesta mesma sessão de
+trabalho — a maior parte do que uma "revisão do processo visual" pediria já existia
+(`capa.md`, briefing de etapa 8a, dois estilos por linha editorial). O achado real foi a
+defasagem entre esse sistema (válido a partir de 31/08) e os posts publicados antes dele, mais
+dois achados fora do escopo do prompt original: código Python de `graf-01` em dois posts
+importa `marca/tokens.json`, removido do repositório (quebra de reprodutibilidade real, não
+hipotética); e o campo `linha_editorial`, que `post-substack/SKILL.md` chama de obrigatório,
+está ausente nos três `post.md` publicados.
+
+### Fase B — Proposta (`02-proposta.md`)
+
+Nove itens de diff propostos para os cinco pontos do prompt original (cadeia de três passos,
+capa como entregável de primeira classe com variantes, gate de Tufte, roteamento por gerador,
+integração de pipeline), mais um backlog de três itens fora de escopo. Aprovados em bloco pelo
+autor ("Pode seguir"), com uma exceção explícita: o patch de `rangemode="tozero"` em
+`2026-08-14/graf-01` ficou de fora desta rodada por depender primeiro de destravar o
+`marca/tokens.json` morto — foi para o backlog em vez de ser aplicado às pressas.
+
+### Fase C — Implementação (oito commits, um por item aprovado)
+
+1. `briefing-ilustracao.md` ganha Passo 7 (composição de cena), entre o conceito escolhido
+   (Passo 6) e a redação do prompt — fecha a cadeia de dois passos para três.
+2. `[VERIFICAR]` de dimensão da capa Substack resolvido para 1456×816 (convergência de fontes
+   secundárias; página oficial de suporte seguiu bloqueando fetch automático nesta sessão
+   também — continua marcado `[VERIFICAR]`, não confirmação primária).
+3. `capa.md` ganha campo opcional de variantes derivadas para LinkedIn (1200×627 feature,
+   1080×1350 feed).
+4. `checklist-graficos.md` ganha seção "Gate de Tufte" (baseline zero, Lie Factor, chartjunk,
+   small multiples) — critério que faltava e que o achado de `2026-08-14/graf-01` expôs.
+5. `revisao-editorial/SKILL.md` ganha item 11 (checagem mecânica do gate de Tufte na etapa 9).
+6. `references/geradores/` criado: `nano-banana-pro.md` (extração literal do que já existia em
+   `estilos-ilustracao.md`), `flux-1-1-pro.md` e `midjourney-v6-1.md` (esboços a partir do
+   relatório, marcados não-validados).
+7. `prompts-visuais/SKILL.md` declara o gerador ativo no topo, apontando para o adaptador.
+8. `revisao-editorial/SKILL.md` item 9 passa a checar se todo prompt declara o gerador.
+
+Piloto (`03-piloto-2026-08-14-...md`): rodou a cadeia nova sobre `ilu-01` do post do CDB, sem
+alterar nenhum entregável publicado. Confirmou que o Passo 7 não muda o conceito quando o
+Passo 6 já foi bem feito — só nomeia uma parte do raciocínio que já estava implícita — e que o
+prompt novo passa em todos os critérios da Fase A onde o publicado reprovava (teste da troca,
+teste do substantivo, estilo por linha editorial, gerador declarado).
+
+**O que fica `[VERIFICAR]` ou depende de teste real, sem esconder:** nenhum prompt desta
+revisão (nem o novo nem o antigo) foi rodado de fato no Nano Banana Pro — a comparação é
+texto-contra-critério, não imagem-contra-critério. Dimensão da capa Substack e variantes de
+LinkedIn continuam sem confirmação primária. Os dois adaptadores novos (FLUX, Midjourney) são
+inteiramente não-validados. O achado do `marca/tokens.json` morto e o campo `linha_editorial`
+ausente ficaram no backlog, fora do escopo desta revisão.
+
+`CLAUDE.md` e `README.md` não precisaram de diff nesta rodada — nenhuma mudança criou ou
+removeu um entregável de primeiro nível (a lista de entregáveis do README já incluía `capa.md`
+desde a Fase 3 da `auditoria-2026`); as mudanças desta revisão são internas às skills
+(`prompts-visuais`, `revisao-editorial`) e já estão documentadas em `pesquisa/frente-e-visuais/`.
