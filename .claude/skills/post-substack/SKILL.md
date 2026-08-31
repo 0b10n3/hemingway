@@ -51,8 +51,8 @@ cortar (ver `pesquisa/frente-c-editoracao.md`).
 | 5 | Crítica estrutural | agente `critico-editorial` | `05-critica.md` — diagnóstico com severidade por item, não reescreve |
 | 6 | Linha e norma | agente `revisor-gramatical` | `06-revisao.md` — diff comentado, não toca estrutura |
 | 7 | Verificação técnica | agente `verificador-tecnico` | `07-verificacao.md` — veredito por item, fórmulas recalculadas |
-| 8 | Visuais | skill `prompts-visuais` | `08-briefing-visual.md` (conceito de cada `ilu-NN`, com os descartes) + rascunho consolidado nos entregáveis 2 e 3 |
-| 9 | Consolidação | skill `revisao-editorial` | aplica 5+6+7, emite os três entregáveis finais |
+| 8 | Visuais | skill `prompts-visuais` | `08-briefing-visual.md` (conceito de cada `ilu-NN`, com os descartes) + rascunho consolidado em `capa.md`, `ilustracoes.md`, `graficos.md`, `diagramas.md` e, condicional, `infograficos.md` |
+| 9 | Consolidação | skill `revisao-editorial` | aplica 5+6+7, emite os entregáveis finais (ver "Os entregáveis" abaixo) |
 | 10 | **Gate humano** | principal | apresenta o post, o que mudou, pendências `[VERIFICAR]`; **para e espera** |
 
 Cada etapa: grava seu arquivo em `processo/`, atualiza `estado.json.etapa_atual`, **commita**
@@ -118,12 +118,20 @@ Use `AskUserQuestion` com três saídas: **aprovar e publicar**, **ajustar**, **
 - Abortar → deixa a branch `post/<slug>` como está (não deleta — histórico de versões
   descartadas alimenta o modo `atualizar` da forja de voz), avisa o autor onde ela ficou.
 
-## Os três entregáveis (etapa 9, na raiz de `posts/<slug>/`)
+Antes do `AskUserQuestion`, apresente também o **inventário visual do post**: status da capa
+(gerada/pendente) e a lista de `ilu-NN`/`graf-NN`/`diag-NN`/`info-NN` com tipo e status — o
+autor decide com o inventário completo à vista, não só com o texto.
+
+## Os entregáveis (etapa 9, na raiz de `posts/<slug>/`)
 
 **`post.md`** — texto revisado, frontmatter (título, subtítulo, data, `linha_editorial`, tags,
-status), placeholders `![Ilustração: ...](ilu-NN)` / `![Gráfico: ...](graf-NN)` com alt-text
-descritivo. **`ilustracoes.md`** e **`graficos.md`** — ver skill `prompts-visuais` para o
-formato exato de cada um.
+status), placeholders `![Ilustração: ...](ilu-NN)` / `![Gráfico: ...](graf-NN)` /
+`![Diagrama: ...](diag-NN)` / `![Infográfico: ...](info-NN)` com alt-text descritivo.
+**`capa.md`** — sempre presente, uma capa por post, especificada a partir de
+`01-briefing.md`, não do corpo. **`ilustracoes.md`**, **`graficos.md`** e **`diagramas.md`** —
+presentes quando o post tiver a peça correspondente. **`infograficos.md`** — só quando o
+critério de gatilho do infográfico se aplicar (padrão: não existe). Ver skill
+`prompts-visuais` para o formato exato de cada um.
 
 ## Regras que valem para toda etapa
 
