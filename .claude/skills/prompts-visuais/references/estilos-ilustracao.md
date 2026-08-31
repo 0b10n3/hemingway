@@ -158,45 +158,12 @@ milimetrado. Este estilo não importa uma estética — formaliza a que já est�
 
 ## Como escrever o prompt
 
-Fonte: [guia oficial de prompting do Nano Banana](https://cloud.google.com/blog/products/ai-machine-learning/ultimate-prompting-guide-for-nano-banana)
-(Google Cloud). Três achados que mudam o formato antigo:
-
-1. **Prompt é cena narrada, não lista de palavra-chave.** O guia é explícito: *"A simple list
-   of keywords won't cut it; you need to describe the scene narratively."*
-2. **Enquadramento positivo.** Descreva o que deve existir, não o que não deve. "Fundo
-   deepForest chapado" funciona; "sem gradiente" não.
-3. **Negative prompt não é suportado** pelo Nano Banana Pro — o guia não oferece o recurso e
-   recomenda enquadramento positivo no lugar. Por isso o bloco `### Negative prompt` saiu do
-   formato de `ilustracoes.md`: escrever um era teatro, o gerador nunca leu.
-
-### Estrutura
-
-Template do guia oficial, adaptado:
-
-```
-[Sujeito] + [Ação/estado] + [Contexto] + [Composição] + [Estilo e materialidade] + [Paleta com hex] + [Proporção]
-```
-
-### Checklist antes de fechar um prompt
-
-- [ ] O conceito veio de `briefing-ilustracao.md` (etapa 8a), com os três conceitos
-      divergentes gerados e os quatro testes de rejeição aplicados? **Estilo é a última
-      decisão — se você chegou aqui sem briefing, volte.**
-- [ ] O estilo bate com a linha editorial declarada no post?
-- [ ] Todo hex citado existe na tabela de hex autorizados?
-- [ ] A palavra "glow", "glowing", "luminous", "bloom" ou "gradient" **não** aparece?
-- [ ] Lime aparece em exatamente um elemento (ou em nenhum, se não há virada/foco)?
-- [ ] O prompt descreve cena narrada, sem cauda de palavras-chave soltas?
-- [ ] Toda restrição está em forma positiva?
-- [ ] Nenhum texto, número ou rótulo é pedido dentro da imagem?
-- [ ] A proporção é uma das suportadas (1:1, 3:2, 2:3, 3:4, 4:3, 4:5, 5:4, 9:16, 16:9, 21:9)
-      e a resolução é 1K, 2K ou 4K?
-
-### Proporção padrão
-
-- Ilustração inline de post: **3:2**, 2K.
-- Peça de abertura vertical: **4:5**, 2K.
-- Faixa larga: **16:9**, 2K.
+A sintaxe específica do gerador — formato de prompt, checklist de fechamento, proporções
+suportadas — mora em `references/geradores/<gerador-ativo>.md`, não aqui: esta seção do
+arquivo é vocabulário e regra **agnósticos** de marca/composição (o que vale qualquer que
+seja o gerador); a sintaxe de chamada é camada condicional, separada desde 31/08/2026 (ver
+`pesquisa/frente-e-visuais/02-proposta.md`, item B.4). Gerador ativo hoje: **Nano Banana Pro**
+— ver `references/geradores/nano-banana-pro.md`.
 
 ---
 

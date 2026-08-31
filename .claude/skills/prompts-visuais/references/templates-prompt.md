@@ -32,7 +32,8 @@ centrada e simétrica] + [proporção]
 
 ## Lembrete de formato (não repetido de `estilos-ilustracao.md`, só citado)
 
-Cena narrada, nunca lista de palavras-chave soltas; restrições em enquadramento positivo,
-nunca negative prompt; todo hex citado por nome de token; nenhum "glow"/"glowing"/"luminous"/
-"bloom"/"gradient". Checklist completo antes de fechar um prompt: `estilos-ilustracao.md`,
-seção "Checklist antes de fechar um prompt".
+Todo hex citado por nome de token; nenhum "glow"/"glowing"/"luminous"/"bloom"/"gradient" —
+regras agnósticas de marca, valem para qualquer gerador. A sintaxe específica do gerador ativo
+(cena narrada vs. lista de palavras-chave, se há ou não negative prompt, checklist de
+fechamento) mora em `references/geradores/<gerador-ativo>.md` — hoje,
+`references/geradores/nano-banana-pro.md`.
