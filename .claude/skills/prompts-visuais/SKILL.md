@@ -38,9 +38,10 @@ Especificação completa dos dois estilos, hex autorizados e checklist de prompt
 
 **Nunca vá do texto direto ao prompt.** Rode primeiro o método de
 **`references/briefing-ilustracao.md`** e grave o resultado em
-`processo/08-briefing-visual.md`: colheita de material concreto do post → a frase que a peça
-carrega → no mínimo três conceitos divergentes (justaposição / fusão / substituição) → quatro
-testes de rejeição → escolha com os descartes anotados.
+`processo/08-briefing-visual.md`: colheita de material em três camadas (a metáfora do autor
+primeiro) → a frase que a peça carrega → as três operações geradoras (extensão / cruzamento
+/ torção) → critérios positivos de beleza → testes de rejeição, incluindo o teste da
+fatalidade → escolha com os descartes anotados.
 
 Esse passo existe porque a primeira rodada do sistema de estilos produziu peças tecnicamente
 corretas e editorialmente mudas: escada espelhada e cápsula-câmara-cápsula, conceitos

@@ -83,7 +83,9 @@ pergunta.
 
 Use `AskUserQuestion` com três saídas: **aprovar e publicar**, **ajustar**, **abortar**.
 
-- Aprovar → invoque a skill `publicar`.
+- Aprovar → informe o autor que a publicação requer `/publicar` manual (a skill tem
+  `disable-model-invocation: true` de propósito — merge, tag e push são ação de alto risco
+  demais para disparo automático).
 - Ajustar → pergunte o que mudar, reentre no **ponto mais raso que resolve o pedido**:
   - reentrada na etapa 4 ou anterior → **consome um loop** (o texto está sendo refeito);
   - reentrada nas etapas 5-9 → **não consome** (é acabamento, é para isso que o gate serve).
