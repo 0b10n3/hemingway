@@ -197,13 +197,30 @@ de uma seção ao que a etapa 10 já lê antes do `AskUserQuestion`.
 
 ---
 
-**Aguardando sua aprovação antes de implementar.** Pontos que pedem decisão sua especificamente:
+## Avaliação adicional de Graphviz (pedida pelo autor)
 
-1. Dimensão de capa: seguir com 16:9/2400×1350 + regra de zona segura central, até eu
-   confirmar o número oficial (vou tentar de novo, ou você pode colar o texto da página se o
-   fetch continuar bloqueado)?
-2. Ferramenta de diagrama: Plotly (zero dependência nova, layout manual) — de acordo, ou prefere
-   que eu avalie Graphviz a sério (instala `dot`, ganha layout automático, mas é dependência
-   nova a documentar no `README.md`)?
-3. Os quatro diffs de integração (placeholders, etapa 2, etapa 8, etapa 9, etapa 10) — aprovo
-   tudo, ou quer ir item a item como na Fase 1?
+Chequei o custo real, não só supus. `apt-cache show graphviz`: **174 KB** de tamanho instalado,
+pacote único e maduro (`libcgraph8`, `libgvc7` — bibliotecas do próprio Graphviz, nada externo
+pesado). Não é dependência pesada — a comparação com o Chromium/Puppeteer do Mermaid CLI, que
+motivou a rejeição na primeira passada, não se aplica aqui. Corrijo: **Graphviz é leve.**
+Confirmei também que não está instalado nesta máquina agora e que não tenho `sudo` para
+instalar (o autor precisaria rodar `apt install graphviz` uma vez, e isso viraria linha nova em
+`README.md` — prerequisito real, mas pequeno).
+
+Mesmo corrigindo o peso, mantenho a recomendação por **`Plotly`**, agora pelo motivo certo, não
+pelo peso: os diagramas deste pipeline (§2.3) precisam seguir a fidelidade visual de
+`DESIGN.md` — cantos retos, hairline de construção, tipografia da marca, paleta exata — e isso
+já está resolvido e testado no padrão `graf-NN` (`graf-01` lê `tokens.json` em runtime e
+exporta com a tipografia certa). O renderizador padrão do Graphviz (layout DOT, formas
+ovais/retangulares genéricas, fontes do sistema) exigiria trabalho extra para não parecer
+"diagrama gerado" — o problema oposto ao que motivou a colagem/esquema não ser genérico em
+primeiro lugar. Fica como alternativa real, não descartada por peso: se um diagrama futuro
+precisar de layout automático de grafo com muitos nós (>8-10 — nenhum dos exemplos citados
+neste pipeline chega perto disso), reabra esta decisão.
+
+## Decisões do autor (29/08 → confirmadas)
+
+1. **Capa:** 16:9, ≥2400×1350px — confirmado, sem mudança à recomendação.
+2. **Diagrama:** Graphviz avaliado a sério (acima) — decisão final continua **Plotly**, pela
+   fidelidade de marca já comprovada em `graf-NN`, não por peso de dependência.
+3. **Diffs de integração:** aprovados todos; aplicados em commits separados, um por diff.
