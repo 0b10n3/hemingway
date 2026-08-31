@@ -44,7 +44,7 @@ cortar (ver `pesquisa/frente-c-editoracao.md`).
 | # | Etapa | Executor | Saída em `posts/<slug>/processo/` |
 |---|---|---|---|
 | 0 | Ingestão | principal | `00-transcricao.md` — cópia limpa (hesitação removida, palavras do autor preservadas). A crua fica intocada em `_arquivo/` |
-| 1 | Briefing | principal + `voz-syntaxis` + `marca-syntaxis` | `01-briefing.md` — tese em uma frase; gancho escolhido (cena, dado ou pergunta que abre o texto — não é a mesma coisa que a tese); analogias usadas no áudio (preservar, são do autor); encaixe no funil (`_arquivo/MARKETING_REVIEW.md` §5); qual voz (§4 do guia — ensaística ou explicativa) |
+| 1 | Briefing | principal + `voz-syntaxis` + `marca-syntaxis` | `01-briefing.md` — tese em uma frase; gancho escolhido (cena, dado ou pergunta que abre o texto — não é a mesma coisa que a tese); analogias usadas no áudio (preservar, são do autor); encaixe no funil (`_arquivo/MARKETING_REVIEW.md` §5); qual voz (§4 do guia — ensaística ou explicativa); **qual linha editorial** (ver abaixo) |
 | 2 | Estrutura | principal | `02-estrutura.md` — subtítulos; o que cada seção prova; em qual ato do arco cada seção entra (setup/conflito/resolução, ou a versão completa — ver `.claude/skills/revisao-editorial/references/tecnicas-narrativas.md`); confirmação de que dado, narrativa e visual (os três pilares) estão cada um representados em pelo menos uma seção; onde entra `ilu-NN`/`graf-NN` e por quê; o que fica de fora |
 | 3 | Pesquisa | agente `pesquisador-editorial` | `03-pesquisa.md` com fontes — tratamento do tema, dados, contrapontos |
 | 4 | Draft | principal, com `voz-syntaxis` | `04-draft-v1.md` |
@@ -61,6 +61,23 @@ não vale perder).
 
 **Se a etapa 5 devolver severidade alta** (tese frágil, seção que não prova o que promete),
 volte à etapa 2 antes de seguir, e avise o autor — não maqueie problema estrutural na etapa 6.
+
+## Etapa 1 — linha editorial é campo obrigatório
+
+A Substack tem duas linhas (`PROJECT_DESCRIPTION.md` §Linhas Editoriais):
+
+- **Spoiler** — carreira, relato de jornada pessoal, "spoiler" do que o leitor vai viver.
+- **Notas de um Professor** — conceito, produto ou mecanismo explicado com rigor técnico.
+
+O briefing declara a linha em uma seção própria (`## Linha editorial`), e ela é **decisão
+separada da voz**: já houve post em voz ensaística que não era Spoiler
+(`2026-08-25-dividir-para-nao-correr-risco`). Quando o texto não couber claramente em nenhuma
+das duas, **registre a ambiguidade e leve ao gate humano (etapa 10)** — não decida sozinho.
+
+A linha escolhida vai para o frontmatter de `post.md` como `linha_editorial:` na etapa 9, e é
+o que determina o **estilo artístico das ilustrações** na etapa 8
+(`prompts-visuais/references/estilos-ilustracao.md`). Sem esse campo, a etapa 8 para e
+pergunta.
 
 ## Etapa 10 — gate humano
 
@@ -80,8 +97,8 @@ Use `AskUserQuestion` com três saídas: **aprovar e publicar**, **ajustar**, **
 
 ## Os três entregáveis (etapa 9, na raiz de `posts/<slug>/`)
 
-**`post.md`** — texto revisado, frontmatter (título, subtítulo, data, tags, status),
-placeholders `![Ilustração: ...](ilu-NN)` / `![Gráfico: ...](graf-NN)` com alt-text
+**`post.md`** — texto revisado, frontmatter (título, subtítulo, data, `linha_editorial`, tags,
+status), placeholders `![Ilustração: ...](ilu-NN)` / `![Gráfico: ...](graf-NN)` com alt-text
 descritivo. **`ilustracoes.md`** e **`graficos.md`** — ver skill `prompts-visuais` para o
 formato exato de cada um.
 

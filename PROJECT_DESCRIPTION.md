@@ -34,3 +34,25 @@ Relatos de uma jornada profissional do mercado financeiro. Cuidado! Contém spoi
 A ideia central dessa linha editorial é apresentar como enxergo a carreira no mercado financeiro a partir da minha vivência, apresentando *spoilers* que ajudem outras pessoas a contruirem um jornada a prova de armadilhas no mercado financeiro.
 
 Uma ideia pessoal que eu acabo refletindo nos textos e conteúdos é: *não é por que eu sofri que você também precisa sofrer.*
+
+**Estilo de ilustração:** colagem editorial — ver
+`.claude/skills/prompts-visuais/references/estilos-ilustracao.md`.
+
+### Notas de um Professor
+
+Textos de "um professor que já foi aluno e não se esqueceu". O combinado é sempre explicar da
+maneira mais prática e simples possível, mas sem abrir mão do rigor técnico e da precisão
+necessários para que o leitor entenda de verdade os conceitos — sem musiquinha, sem decoreba,
+sem anedota substituindo a fórmula. Explicar do jeito que eu gostaria que alguém tivesse me
+explicado quando eu fui aluno.
+
+A série trata de conceitos de finanças, matemática financeira, modelagem financeira e também
+de produtos e instrumentos financeiros. Todo texto contextualiza o produto pelos dois lados do
+balcão — quem adquire e quem emite — e, quando cabe, o papel do distribuidor.
+
+_(Definição registrada a partir da fala do autor na abertura de
+`_arquivo/transcricoes/2026-08-14_O Papel do CDB na Transformação de Prazos.md`, que é o post
+de estreia da série.)_
+
+**Estilo de ilustração:** desenho técnico esquemático — ver
+`.claude/skills/prompts-visuais/references/estilos-ilustracao.md`.

@@ -15,19 +15,52 @@ publicados antes dessa data usam o sistema anterior e não são referência para
 
 ## `ilustracoes.md`
 
-Um bloco por `ilu-NN`:
+### Antes de escrever qualquer prompt: identifique a linha editorial
+
+O estilo artístico da ilustração é **determinado pela linha editorial do post**, não pela voz
+do texto e não pelo gosto de quem gera o prompt:
+
+- **Spoiler** (carreira, relato pessoal) → colagem editorial
+- **Notas de um Professor** (conceito, produto, mecanismo) → desenho técnico esquemático
+
+Onde ler a linha, nesta ordem: o campo `linha_editorial` no frontmatter de `post.md`; a seção
+"Linha editorial" de `processo/01-briefing.md`; a tag correspondente em `tags`.
+
+**Se a linha não estiver declarada em nenhum desses lugares, ou se as fontes discordarem,
+pare e pergunte ao autor.** Não deduza a partir da voz — voz e linha editorial não coincidem
+sempre, e o repositório já tem um caso real de post ambíguo (ver
+`references/estilos-ilustracao.md`, última seção).
+
+Especificação completa dos dois estilos, hex autorizados e checklist de prompt:
+**`references/estilos-ilustracao.md`** — leia antes de escrever o primeiro prompt.
+
+### Formato de cada bloco `ilu-NN`
 
 - Onde entra no texto e que ideia carrega (referencie o parágrafo/seção de `post.md`).
-- Prompt completo para `GERADOR_IMAGEM` (Google Nano Banana Pro), com a identidade de marca
-  embutida: paleta de `../../../../../brand/tokens/skill_test.tokens.json` (cite os hex relevantes por
-  nome do token, ex. "fundo Deep Forest #0F3D27"), tipografia se aplicável, a regra do "sinal
-  no escuro" (contraste entre fundo escuro — Deep Forest ou Ink — e um elemento em `Lime`,
-  o único acento de ação/conquista do sistema), proporção e resolução.
+- **Linha editorial e estilo aplicado**, em uma linha — deixa auditável, na própria peça, por
+  que ela ficou com essa cara.
+- Prompt completo para `GERADOR_IMAGEM` (Google Nano Banana Pro): cena narrada seguindo
+  `[Sujeito] + [Ação/estado] + [Contexto] + [Composição] + [Estilo e materialidade] +
+  [Paleta com hex] + [Proporção]`, com os hex citados por nome do token (ex. "flat deepForest
+  background #0F3D27"), proporção e resolução explícitas.
   Escreva o prompt em inglês se o gerador responde melhor assim, mas sempre com uma nota de
   contexto em português logo abaixo — quem relê esse arquivo depois é o autor, não o gerador.
-- *Negative prompt*.
+- **Restrições em enquadramento positivo** — o que a peça deve ter, não o que deve evitar.
+  O Nano Banana Pro **não suporta negative prompt** (ver `references/estilos-ilustracao.md`,
+  "Como escrever o prompt"): o guia oficial recomenda enquadramento positivo no lugar. Por isso
+  esta seção substituiu o antigo bloco `### Negative prompt` — escrever um era teatro, o
+  gerador nunca leu.
 - Alt-text final — vai para o `post.md` como texto alternativo do placeholder e sustenta o
   post caso a imagem não carregue, então precisa ser descritivo por si só, não decorativo.
+
+### Revogado em 31/08/2026
+
+A regra do **"elemento iluminado"** (contraste por glow verde sobre fundo escuro), que
+governava as ilustrações dos posts de agosto/2026, **não vale mais**: `brand/DESIGN.md` §4.5
+lista "gradientes, glassmorphism, blobs desfocados, **glows**" como anti-padrão verificável.
+Contraste agora se faz por cor chapada, densidade e escala. As `ilustracoes.md` já publicadas
+não foram reescritas (mesma regra de `_arquivo/`: registro do que foi feito não se maquia) —
+mas não são referência para peça nova.
 
 ## `graficos.md`
 
