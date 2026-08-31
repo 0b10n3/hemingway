@@ -45,7 +45,7 @@ cortar (ver `pesquisa/frente-c-editoracao.md`).
 |---|---|---|---|
 | 0 | Ingestão | principal | `00-transcricao.md` — cópia limpa (hesitação removida, palavras do autor preservadas). A crua fica intocada em `_arquivo/` |
 | 1 | Briefing | principal + `voz-syntaxis` + `marca-syntaxis` | `01-briefing.md` — tese em uma frase; gancho escolhido (cena, dado ou pergunta que abre o texto — não é a mesma coisa que a tese); analogias usadas no áudio (preservar, são do autor); encaixe no funil (`_arquivo/MARKETING_REVIEW.md` §5); qual voz (§4 do guia — ensaística ou explicativa); **qual linha editorial** (ver abaixo) |
-| 2 | Estrutura | principal | `02-estrutura.md` — subtítulos; o que cada seção prova; em qual ato do arco cada seção entra (setup/conflito/resolução, ou a versão completa — ver `.claude/skills/revisao-editorial/references/tecnicas-narrativas.md`); confirmação de que dado, narrativa e visual (os três pilares) estão cada um representados em pelo menos uma seção; onde entra `ilu-NN`/`graf-NN` e por quê; o que fica de fora |
+| 2 | Estrutura | principal | `02-estrutura.md` — subtítulos; o que cada seção prova; em qual ato do arco cada seção entra (setup/conflito/resolução, ou a versão completa — ver `.claude/skills/revisao-editorial/references/tecnicas-narrativas.md`); confirmação de que dado, narrativa e visual (os três pilares) estão cada um representados em pelo menos uma seção; onde entra `ilu-NN`/`graf-NN`/`diag-NN`/`info-NN` e por quê, pelo critério da seção "Etapa 2" abaixo; o que fica de fora |
 | 3 | Pesquisa | agente `pesquisador-editorial` | `03-pesquisa.md` com fontes — tratamento do tema, dados, contrapontos |
 | 4 | Draft | principal, com `voz-syntaxis` | `04-draft-v1.md` |
 | 5 | Crítica estrutural | agente `critico-editorial` | `05-critica.md` — diagnóstico com severidade por item, não reescreve |
@@ -78,6 +78,27 @@ A linha escolhida vai para o frontmatter de `post.md` como `linha_editorial:` na
 o que determina o **estilo artístico das ilustrações** na etapa 8
 (`prompts-visuais/references/estilos-ilustracao.md`). Sem esse campo, a etapa 8 para e
 pergunta.
+
+## Etapa 2 — ilustração, gráfico, diagrama ou infográfico: critério, não gosto
+
+Para cada ponto que a etapa 2 decidir que precisa de visual, decida o tipo por este critério,
+nesta ordem — e registre em `02-estrutura.md` por que os outros três perderam:
+
+1. Há série numérica real a comparar/mostrar trajetória? → **`graf-NN`**.
+2. Não há série, mas há relação estrutural entre entidades, fluxo, processo ou linha do tempo
+   sem métrica central? → **`diag-NN`**. Sinal de que devia ser isto e não `ilu-NN`: se o
+   conceito se resolve em formas geométricas comparadas — duas linhas, dois blocos — sem um
+   objeto concreto do texto por trás, é diagrama fantasiado de ilustração. Já aconteceu:
+   `posts/2026-08-17-o-mundo-invertido-das-carreiras-em-financas/ilustracoes.md`, revisão de
+   `ilu-02`.
+3. Nenhuma das duas, mas o texto tem metáfora/analogia/imagem própria do autor que carrega
+   argumento? → **`ilu-NN`**, via `prompts-visuais/references/briefing-ilustracao.md`.
+4. Só considere **`info-NN`** se nenhuma peça isolada acima carregar a síntese sozinha — ver
+   critério de gatilho em `prompts-visuais/SKILL.md`. Padrão: não tem infográfico.
+
+Toda ideia visual do post tem, além disso, uma **capa** obrigatória (`capa.md`) — não é uma
+opção da lista acima, é item separado e sempre presente, especificado na etapa 8 a partir da
+tese e do gancho de `01-briefing.md` (não do corpo do texto).
 
 ## Etapa 10 — gate humano
 
