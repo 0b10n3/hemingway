@@ -53,7 +53,9 @@ que olha as três juntas.
 9. **Inventário visual completo.** Todo post tem `capa.md`. Todo `ilu-NN`/`graf-NN`/`diag-NN`/
    `info-NN` referenciado em `post.md` tem bloco no arquivo certo (ver item 4). `infograficos.md`
    só existe se o critério de gatilho de `prompts-visuais/SKILL.md` de fato se aplicou — se
-   existir sem justificativa registrada, sinalize.
+   existir sem justificativa registrada, sinalize. Todo prompt de imagem em `capa.md`/
+   `ilustracoes.md` declara no cabeçalho para qual gerador foi escrito (ver
+   `prompts-visuais/SKILL.md`, "Gerador ativo hoje") — se faltar, sinalize.
 
 10. **Paleta fora dos tokens — checagem mecânica.** `Grep` por `#[0-9A-Fa-f]{6}` em `capa.md`,
     `ilustracoes.md` e `infograficos.md` (arquivos baseados em prompt — `graficos.md` e
