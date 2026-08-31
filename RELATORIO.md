@@ -285,7 +285,11 @@ publicados, não 3** (5.936 + 1.414 palavras do post de 08-10, contadas por `wc 
 
 **Reprodutibilidade de gráficos:** rodado de fato (não só relido) — confirma o achado já
 registrado na Fase A da `frente-e-visuais` acima (`marca/tokens.json` removido, dois posts
-ainda o importam). Achado adicional: o item 10 de `revisao-editorial/SKILL.md` isentava
+ainda o importam). **Escopo revisado depois do merge retroativo do post de 08-10:** o
+`graf-01.py` desse post também importa `marca/tokens.json` e quebra do mesmo jeito (testado
+de fato, `FileNotFoundError` reproduzido após o merge) — são **3 dos 4 posts reais afetados**,
+não 2 de 3 como a contagem de antes do merge sugeria. Achado adicional: o item 10 de
+`revisao-editorial/SKILL.md` isentava
 `graficos.md`/`diagramas.md` da checagem de paleta por assumir execução bem-sucedida em
 runtime, sem que nenhuma etapa do pipeline testasse isso mecanicamente — corrigido nesta
 rodada com uma frase explícita de que a garantia depende do autor rodar o código antes do
