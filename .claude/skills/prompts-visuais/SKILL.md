@@ -15,6 +15,12 @@ visuais: `capa.md` sempre, os demais quando o post tiver a peça correspondente.
 (ver nota de 31/08/2026 em `marca-syntaxis/SKILL.md`: posts publicados antes dessa data usam o
 sistema anterior e não são referência para trabalho novo).
 
+**Gerador ativo hoje:** Nano Banana Pro (Gemini) — ver
+`references/geradores/nano-banana-pro.md`. Trocar de gerador é trocar esta linha e apontar
+para o adaptador correspondente (`references/geradores/<gerador>.md`); nenhuma outra
+referência deste sistema muda. Todo prompt final em `ilustracoes.md`/`capa.md` declara no
+cabeçalho para qual gerador foi escrito.
+
 ## `capa.md`
 
 Sempre presente — todo post tem exatamente uma capa. Nasce da **tese em uma frase e do gancho
@@ -24,10 +30,14 @@ comunica a tese, não uma evidência de apoio.
 - **Estilo:** mesma tabela de `references/estilos-ilustracao.md` usada por `ilu-NN` — colagem
   para Spoiler, desenho técnico esquemático para Notas de um Professor. Mesma paleta fechada,
   mesmas regras compartilhadas.
-- **Proporção:** 16:9, resolução mínima 2400×1350px.
-  `[VERIFICAR: dimensão oficial exata recomendada pela Substack para a imagem de destaque/
-  thumbnail — fontes secundárias divergem entre 1200×630 e 1456×1048; página oficial
-  bloqueou fetch automático nesta auditoria]`.
+- **Proporção:** 16:9. Gerar em 2400×1350px (margem confortável acima do alvo de publicação)
+  e exportar em 1456×816px para a capa do artigo — dimensão convergente em múltiplas fontes
+  secundárias (a Substack gera separadamente um thumbnail 1200×630 por recorte automático
+  para e-mail/redes, não é ativo que este sistema precise produzir).
+  `[VERIFICAR: página oficial de suporte da Substack bloqueou fetch automático em duas
+  tentativas (auditoria-2026 e a revisão de pesquisa/frente-e-visuais/) — número acima é
+  convergência de fontes secundárias, não confirmação primária; revisitar se a Substack
+  disponibilizar acesso]`.
 - **Zona segura.** O elemento de foco da composição (o ponto que carrega o argumento) deve
   ocupar o terço central do quadro, nunca a periferia — a Substack recorta a mesma imagem em
   nove formatos diferentes, e composições com respiro nas bordas arriscam ter o foco cortado.
@@ -38,6 +48,16 @@ comunica a tese, não uma evidência de apoio.
 - **Promoção a `ilu-01`:** se o autor decidir reusar a capa também no corpo do post, ela ganha
   placeholder próprio em `ilustracoes.md` — nunca é referenciada por caminho cruzado entre os
   dois arquivos.
+- **Variantes derivadas (opcional, só quando o post for divulgado no LinkedIn):** campo
+  "Variantes" ao final do bloco de `capa.md` — não vira arquivo à parte, é a mesma decisão de
+  capa reenquadrada, e `capa.md` já é a fonte única da capa.
+  - **LinkedIn feature image** — 1200×627px, 1.91:1.
+  - **LinkedIn feed** — 1080×1350px, 4:5, retrato.
+  - Mesma metáfora da capa principal, reenquadrada — nunca um conceito novo. A composição
+    original já deve prever essa margem de recorte (zona segura mais generosa no eixo que
+    muda de proporção entre as variantes).
+  - Gerado só quando o post for de fato programado para divulgação no LinkedIn — não é
+    obrigatório por padrão.
 
 ## `ilustracoes.md`
 
@@ -69,7 +89,8 @@ tabela de hex nem as regras, só acelera a escrita e reduz prompt vago.
 `processo/08-briefing-visual.md`: colheita de material em três camadas (a metáfora do autor
 primeiro) → a frase que a peça carrega → as três operações geradoras (extensão / cruzamento
 / torção) → critérios positivos de beleza → testes de rejeição, incluindo o teste da
-fatalidade → escolha com os descartes anotados.
+fatalidade → escolha com os descartes anotados → composição de cena (Passo 7 — objetos,
+disposição espacial, foco, sem sintaxe de gerador ainda).
 
 Esse passo existe porque a primeira rodada do sistema de estilos produziu peças tecnicamente
 corretas e editorialmente mudas: escada espelhada e cápsula-câmara-cápsula, conceitos

@@ -53,7 +53,9 @@ que olha as três juntas.
 9. **Inventário visual completo.** Todo post tem `capa.md`. Todo `ilu-NN`/`graf-NN`/`diag-NN`/
    `info-NN` referenciado em `post.md` tem bloco no arquivo certo (ver item 4). `infograficos.md`
    só existe se o critério de gatilho de `prompts-visuais/SKILL.md` de fato se aplicou — se
-   existir sem justificativa registrada, sinalize.
+   existir sem justificativa registrada, sinalize. Todo prompt de imagem em `capa.md`/
+   `ilustracoes.md` declara no cabeçalho para qual gerador foi escrito (ver
+   `prompts-visuais/SKILL.md`, "Gerador ativo hoje") — se faltar, sinalize.
 
 10. **Paleta fora dos tokens — checagem mecânica.** `Grep` por `#[0-9A-Fa-f]{6}` em `capa.md`,
     `ilustracoes.md` e `infograficos.md` (arquivos baseados em prompt — `graficos.md` e
@@ -61,6 +63,14 @@ que olha as três juntas.
     precisa desta checagem). Compare cada hex encontrado contra os valores `$value` de
     `../../brand/tokens/skill_test.tokens.json` (leia o arquivo). Hex fora da lista vira
     pendência para o gate humano — não corrija sozinho qual token o autor quis dizer.
+
+11. **Gate de Tufte — checagem mecânica.** Para cada bloco de código em `graficos.md`/
+    `diagramas.md`: `rangemode="tozero"` presente (ou exceção justificada por escrito no
+    spec)? Nenhuma menção a `3d`, sombra (`shadow` fora de `shadow.syntaxis*`), textura ou
+    moldura no código? Se o spec já traz "Lie Factor" declarado, confira a conta; se a peça
+    tem ênfase visual e não declara, sinalize para o gate humano — não calcule por conta
+    própria sem o dado bruto. Critério completo em
+    `.claude/skills/prompts-visuais/references/checklist-graficos.md`, seção "Gate de Tufte".
 
 ## Saída
 

@@ -155,6 +155,17 @@ estrutura de metáfora visual usada (justaposição / fusão / substituição �
 
 ---
 
+## Passo 7 — Composição de cena
+
+Ainda sem sintaxe de gerador. Transforme o conceito do Passo 6 em cena: que objetos existem
+na composição, onde cada um fica (centro, periferia, eixo), o que está em primeiro plano e o
+que é fundo, onde entra o único ponto de acento (lime, se houver) e por que ali, e qual frase
+resume "o que esta composição prova" — a mesma frase do Passo 2, agora traduzida em
+disposição espacial. Só depois deste passo o prompt do gerador é redigido (ver
+`templates-prompt.md` e `references/geradores/`).
+
+---
+
 ## Referência de cultura pop: evocar a estrutura, nunca reproduzir a propriedade
 
 O `CLAUDE.md` deste repositório já tem a regra certa, escrita para texto: *"Amostras alheias
