@@ -123,3 +123,58 @@ Abra uma sessão nova do Claude Code nesta pasta (`cd hemingway && claude`) e ro
 - Ao atingir ~8 posts de Substack / ~10.000 palavras próprias, reavalie `confianca_global`
   no frontmatter do guia — pode subir de `media` para `alta` se as regras atuais se
   confirmarem sem contradição.
+
+## Acréscimo — auditoria de 2026-08-31 (`chore/auditoria-2026`)
+
+Primeira auditoria do sistema desde o bootstrap acima, motivada por três posts publicados
+desde então e pela virada de marca de 31/08 (`marca/tokens.json` aposentado em favor de
+`../../brand/DESIGN.md` v2.0). Processo documentado em
+`pesquisa/auditoria-2026/00-contexto.md` a `03-backlog.md`; cada fase é um ou mais commits
+próprios (`git log --grep auditoria`).
+
+### Fase 0 — Entendimento (`00-contexto.md`)
+
+Confirmou o inventário (7 skills, 5 agentes, fonte única de cada coisa) sem deriva em
+relação a este relatório. Levantou 4 achados reais a partir de evidência em
+`posts/2026-08-25-.../` — nenhum hipotético.
+
+### Fase 1 — Auditoria de skills e subagentes (`01-auditoria-skills.md`)
+
+Veredito: **nenhuma skill/agente para substituir ou aposentar** — a separação de
+responsabilidades entre `critico-editorial`/`revisor-gramatical`/`verificador-tecnico` se
+confirmou limpa na prática. Dois ajustes aprovados e aplicados (commit `ea4ca90`):
+
+1. `post-substack` instruía invocar a skill `publicar` diretamente na etapa 10, mas
+   `publicar` tem `disable-model-invocation: true` de propósito (merge+tag+push é a ação de
+   maior risco do repo) — texto corrigido para instruir `/publicar` manual.
+2. `prompts-visuais/SKILL.md` resumia inline o método v1 de briefing de ilustração
+   (superado); resumo removido em favor de apontar só para
+   `references/briefing-ilustracao.md`, eliminando a categoria de bug (duas fontes do mesmo
+   método), não só a instância.
+
+Ponto registrado e **não decidido**: paralelizar as etapas 6 (linha/norma) e 7 (verificação
+técnica), que hoje leem o mesmo `04-draft-v1.md` sem se citar. Não há evidência de retrabalho
+que justifique o risco de edição concorrente no mesmo arquivo — ver `03-backlog.md`.
+
+### Fase 2 — Evolução do processo visual (`02-processo-visual.md`)
+
+A partir de dois precedentes reais (capa ad hoc pedida no gate humano de 08-25; um diagrama
+disfarçado de ilustração pego manualmente em 08-17), formalizou quatro categorias de visual
+com critério escrito (não gosto) na etapa 2: `graf-NN` (série numérica), `diag-NN` (relação
+estrutural sem métrica), `ilu-NN` (metáfora do autor), `info-NN` (só quando nenhuma peça
+isolada carrega a síntese — condicional, padrão é não ter). `capa.md` virou entregável novo,
+obrigatório, separado de `ilustracoes.md` (evita a ambiguidade que exigiu aviso manual em
+08-25). Diagramas usam Plotly (mesmo padrão de `graf-NN`), não Mermaid (dependência pesada
+de Chromium) nem Graphviz (leve, mas layout genérico exigiria trabalho extra para bater a
+fidelidade de marca já resolvida no padrão Plotly). Dimensão oficial de capa da Substack
+ficou `[VERIFICAR]` — página de suporte bloqueou fetch automático (403); convenção adotada
+enquanto isso (16:9, ≥2400×1350px) cobre com folga as fontes secundárias levantadas. Quatro
+diffs aprovados e aplicados, um commit cada: `20c9ba2`, `3253fc6`, `beeeb38`, `e02640f`.
+
+### Fase 3 — Consolidação
+
+Sincronizou `CLAUDE.md` e `README.md` (este relatório incluído) com os entregáveis novos da
+Fase 2, que só existiam em `.claude/skills/*/SKILL.md` até aqui. Backlog dos itens abertos
+das Fases 1-2 em `pesquisa/auditoria-2026/03-backlog.md`. Smoke test dos skills de referência
+(`voz-syntaxis`, `marca-syntaxis`) nesta sessão nova — ver resultado no próprio backlog ou na
+sessão em questão.

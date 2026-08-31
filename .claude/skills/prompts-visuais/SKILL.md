@@ -1,17 +1,43 @@
 ---
 name: prompts-visuais
-description: Gera os prompts de imagem (ilustracoes.md) e as specs de gráfico com código Plotly executável (graficos.md) para um post, a partir da estrutura definida na etapa 2 do pipeline. Use na etapa 8 do post-substack, ou isoladamente quando pedirem para "gerar os visuais" de um texto que já tem os placeholders ilu-NN/graf-NN marcados.
+description: Gera a capa obrigatória (capa.md), os prompts de imagem (ilustracoes.md), as specs de gráfico e diagrama com código Plotly executável (graficos.md, diagramas.md) e, condicional, o infográfico (infograficos.md) de um post, a partir da estrutura definida na etapa 2 do pipeline. Use na etapa 8 do post-substack, ou isoladamente quando pedirem para "gerar os visuais" de um texto que já tem os placeholders ilu-NN/graf-NN/diag-NN/info-NN marcados.
 disable-model-invocation: true
 argument-hint: [caminho-do-slug-em-posts/]
 allowed-tools: Read Write Edit Glob Grep Bash(python3 *)
 ---
 
-Lê `posts/<slug>/processo/02-estrutura.md` (onde cada `ilu-NN`/`graf-NN` foi decidido e por
-quê) e `posts/<slug>/04-draft-v1.md` ou o draft mais recente em `processo/`, e produz os dois
-entregáveis visuais. Usa `marca-syntaxis` para paleta/tipografia — leia
-`../../../../../brand/DESIGN.md` e `../../../../../brand/tokens/skill_test.tokens.json` antes de escrever
-qualquer prompt ou código (ver nota de 31/08/2026 em `marca-syntaxis/SKILL.md`: posts
-publicados antes dessa data usam o sistema anterior e não são referência para trabalho novo).
+Lê `posts/<slug>/processo/02-estrutura.md` (onde cada `ilu-NN`/`graf-NN`/`diag-NN`/`info-NN`
+foi decidido e por quê, pelo critério da "Etapa 2" em `post-substack/SKILL.md`) e
+`posts/<slug>/04-draft-v1.md` ou o draft mais recente em `processo/`, e produz os entregáveis
+visuais: `capa.md` sempre, os demais quando o post tiver a peça correspondente. Usa
+`marca-syntaxis` para paleta/tipografia — leia `../../../../../brand/DESIGN.md` e
+`../../../../../brand/tokens/skill_test.tokens.json` antes de escrever qualquer prompt ou código
+(ver nota de 31/08/2026 em `marca-syntaxis/SKILL.md`: posts publicados antes dessa data usam o
+sistema anterior e não são referência para trabalho novo).
+
+## `capa.md`
+
+Sempre presente — todo post tem exatamente uma capa. Nasce da **tese em uma frase e do gancho
+escolhido em `processo/01-briefing.md`**, nunca de um detalhe do corpo do texto: a capa
+comunica a tese, não uma evidência de apoio.
+
+- **Estilo:** mesma tabela de `references/estilos-ilustracao.md` usada por `ilu-NN` — colagem
+  para Spoiler, desenho técnico esquemático para Notas de um Professor. Mesma paleta fechada,
+  mesmas regras compartilhadas.
+- **Proporção:** 16:9, resolução mínima 2400×1350px.
+  `[VERIFICAR: dimensão oficial exata recomendada pela Substack para a imagem de destaque/
+  thumbnail — fontes secundárias divergem entre 1200×630 e 1456×1048; página oficial
+  bloqueou fetch automático nesta auditoria]`.
+- **Zona segura.** O elemento de foco da composição (o ponto que carrega o argumento) deve
+  ocupar o terço central do quadro, nunca a periferia — a Substack recorta a mesma imagem em
+  nove formatos diferentes, e composições com respiro nas bordas arriscam ter o foco cortado.
+- **Formato do bloco:** mesmo formato de `ilu-NN` abaixo (conceito e estrutura de metáfora,
+  linha editorial e estilo aplicado, prompt completo, restrições em enquadramento positivo,
+  alt-text), com um campo a mais — **Zona segura** — descrevendo em uma frase onde o elemento
+  de foco fica posicionado no quadro.
+- **Promoção a `ilu-01`:** se o autor decidir reusar a capa também no corpo do post, ela ganha
+  placeholder próprio em `ilustracoes.md` — nunca é referenciada por caminho cruzado entre os
+  dois arquivos.
 
 ## `ilustracoes.md`
 
@@ -33,14 +59,17 @@ sempre, e o repositório já tem um caso real de post ambíguo (ver
 
 Especificação completa dos dois estilos, hex autorizados e checklist de prompt:
 **`references/estilos-ilustracao.md`** — leia antes de escrever o primeiro prompt.
+**`references/templates-prompt.md`** dá o esqueleto preenchível de cada estilo — não repete a
+tabela de hex nem as regras, só acelera a escrita e reduz prompt vago.
 
 ### Etapa 8a — briefing antes do prompt (obrigatório)
 
 **Nunca vá do texto direto ao prompt.** Rode primeiro o método de
 **`references/briefing-ilustracao.md`** e grave o resultado em
-`processo/08-briefing-visual.md`: colheita de material concreto do post → a frase que a peça
-carrega → no mínimo três conceitos divergentes (justaposição / fusão / substituição) → quatro
-testes de rejeição → escolha com os descartes anotados.
+`processo/08-briefing-visual.md`: colheita de material em três camadas (a metáfora do autor
+primeiro) → a frase que a peça carrega → as três operações geradoras (extensão / cruzamento
+/ torção) → critérios positivos de beleza → testes de rejeição, incluindo o teste da
+fatalidade → escolha com os descartes anotados.
 
 Esse passo existe porque a primeira rodada do sistema de estilos produziu peças tecnicamente
 corretas e editorialmente mudas: escada espelhada e cápsula-câmara-cápsula, conceitos
@@ -102,14 +131,49 @@ Um bloco por `graf-NN`:
 - **Anotação**: todo ponto de interesse tem `add_annotation` apontando para ele (ver
   `references/checklist-graficos.md`).
 
+## `diagramas.md`
+
+Presente quando `02-estrutura.md` decidiu por `diag-NN` (relação estrutural, fluxo, processo
+ou linha do tempo sem métrica central — ver critério da "Etapa 2" em `post-substack/SKILL.md`).
+**Ferramenta: Plotly**, estendendo o mesmo padrão de `graf-NN` — nós e setas via `add_shape`/
+`add_annotation`, não uma biblioteca de diagrama dedicada. Decisão registrada e justificada em
+`pesquisa/auditoria-2026/02-processo-visual.md`: já testado neste ambiente (`plotly`/`kaleido`
+instalados), mesma fidelidade a `DESIGN.md` já obtida em `graf-NN`, sem dependência de sistema
+nova. Se um diagrama futuro precisar de layout automático com muitos nós (>8-10), reabra a
+decisão — nenhum caso previsto hoje chega perto disso.
+
+Um bloco por `diag-NN`, mesmo formato de `graf-NN`: pergunta que o diagrama responde em uma
+frase; fonte dos dados só se houver número real embutido (senão, omitir a seção); código
+Plotly executável, autocontido, lendo `../../../../../brand/tokens/skill_test.tokens.json` em
+runtime, exportando `posts/<slug>/figuras/diag-NN.svg` e `.png`; escolha de layout justificada
+em uma linha; alt-text.
+
+## `infograficos.md` (condicional — padrão é não ter)
+
+Só existe quando **nenhum** `graf-NN`/`diag-NN`/`ilu-NN` isolado carrega a síntese sozinho —
+quando o ponto só existe na leitura conjunta de duas ou mais peças, e separá-las forçaria o
+leitor a montar a relação de cabeça. Não é gatilho: "ficaria bonito consolidado", "tenho fatos
+soltos" ou variar o formato. Antes de propor um `info-NN`, confirme que nenhuma peça separada
+resolveria — esse é o teste, não gosto de quem está montando o post.
+
+Um bloco por `info-NN`: hierarquia de leitura explícita (o que o olho vê primeiro/segundo/
+terceiro — obrigatório, não implícito no layout); dado com fonte, como `graf-NN`; tokens
+usados; código/prompt de geração (Plotly para a parte de dado real; formato de `ilu-NN` para
+elemento de apoio ilustrativo, se houver); alt-text.
+
 ## Regra de placeholder no `post.md`
 
-Cada imagem/gráfico vira, no texto:
+Cada imagem/gráfico/diagrama/infográfico vira, no texto:
 
 ```markdown
 ![Ilustração: <legenda descritiva curta>](ilu-01)
 ![Gráfico: <legenda descritiva curta>](graf-01)
+![Diagrama: <legenda descritiva curta>](diag-01)
+![Infográfico: <legenda descritiva curta>](info-01)
 ```
+
+A capa não tem placeholder inline — vai direto ao campo de capa/imagem de destaque do
+Substack, nunca referenciada dentro do corpo de `post.md`.
 
 A legenda no alt-text não é opcional — é o que sustenta o post se a imagem falhar ao
 carregar, então tem que carregar a ideia sozinha.
