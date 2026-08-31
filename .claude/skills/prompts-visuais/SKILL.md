@@ -42,6 +42,16 @@ comunica a tese, não uma evidência de apoio.
 - **Promoção a `ilu-01`:** se o autor decidir reusar a capa também no corpo do post, ela ganha
   placeholder próprio em `ilustracoes.md` — nunca é referenciada por caminho cruzado entre os
   dois arquivos.
+- **Variantes derivadas (opcional, só quando o post for divulgado no LinkedIn):** campo
+  "Variantes" ao final do bloco de `capa.md` — não vira arquivo à parte, é a mesma decisão de
+  capa reenquadrada, e `capa.md` já é a fonte única da capa.
+  - **LinkedIn feature image** — 1200×627px, 1.91:1.
+  - **LinkedIn feed** — 1080×1350px, 4:5, retrato.
+  - Mesma metáfora da capa principal, reenquadrada — nunca um conceito novo. A composição
+    original já deve prever essa margem de recorte (zona segura mais generosa no eixo que
+    muda de proporção entre as variantes).
+  - Gerado só quando o post for de fato programado para divulgação no LinkedIn — não é
+    obrigatório por padrão.
 
 ## `ilustracoes.md`
 
