@@ -44,7 +44,9 @@ editorial.
 _arquivo/          originais imutáveis: áudios, transcrições, amostras, MANIFESTO.md
 estilo/            guia de voz e seus derivados (estilo-autoral.md é a fonte única)
 pesquisa/          resumos das frentes de pesquisa (Claude Code, estilometria, editoração, antipadrões IA)
-posts/<slug>/      post.md, ilustracoes.md, graficos.md (entregáveis) + processo/ (rascunho de etapas)
+posts/<slug>/      post.md, capa.md, ilustracoes.md, graficos.md, diagramas.md,
+                   infograficos.md (entregáveis — capa.md sempre presente, os demais
+                   condicionais à peça existir) + processo/ (rascunho de etapas)
 .claude/skills/    skills de referência e de tarefa
 .claude/agents/    subagentes de trabalho isolado (leitura pesada, pesquisa, crítica, verificação)
 ```
@@ -79,8 +81,9 @@ Ordem: ingestão → briefing → estrutura → pesquisa → draft → crítica 
 linha/norma → verificação técnica → visuais → consolidação → **gate humano**. Detalhes
 completos em `.claude/skills/post-substack/SKILL.md`.
 
-Os três entregáveis (`post.md`, `ilustracoes.md`, `graficos.md`) ficam na raiz de
-`posts/<slug>/`, separados de `processo/`.
+Os entregáveis (`post.md`, `capa.md`, `ilustracoes.md`/`graficos.md`/`diagramas.md` quando a
+peça existir, `infograficos.md` só no caso condicional — ver `.claude/skills/prompts-visuais/SKILL.md`)
+ficam na raiz de `posts/<slug>/`, separados de `processo/`.
 
 ## Git
 
