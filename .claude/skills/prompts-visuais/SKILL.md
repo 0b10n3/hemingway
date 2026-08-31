@@ -24,10 +24,14 @@ comunica a tese, não uma evidência de apoio.
 - **Estilo:** mesma tabela de `references/estilos-ilustracao.md` usada por `ilu-NN` — colagem
   para Spoiler, desenho técnico esquemático para Notas de um Professor. Mesma paleta fechada,
   mesmas regras compartilhadas.
-- **Proporção:** 16:9, resolução mínima 2400×1350px.
-  `[VERIFICAR: dimensão oficial exata recomendada pela Substack para a imagem de destaque/
-  thumbnail — fontes secundárias divergem entre 1200×630 e 1456×1048; página oficial
-  bloqueou fetch automático nesta auditoria]`.
+- **Proporção:** 16:9. Gerar em 2400×1350px (margem confortável acima do alvo de publicação)
+  e exportar em 1456×816px para a capa do artigo — dimensão convergente em múltiplas fontes
+  secundárias (a Substack gera separadamente um thumbnail 1200×630 por recorte automático
+  para e-mail/redes, não é ativo que este sistema precise produzir).
+  `[VERIFICAR: página oficial de suporte da Substack bloqueou fetch automático em duas
+  tentativas (auditoria-2026 e a revisão de pesquisa/frente-e-visuais/) — número acima é
+  convergência de fontes secundárias, não confirmação primária; revisitar se a Substack
+  disponibilizar acesso]`.
 - **Zona segura.** O elemento de foco da composição (o ponto que carrega o argumento) deve
   ocupar o terço central do quadro, nunca a periferia — a Substack recorta a mesma imagem em
   nove formatos diferentes, e composições com respiro nas bordas arriscam ter o foco cortado.
