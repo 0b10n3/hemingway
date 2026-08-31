@@ -187,12 +187,15 @@ transforma texto em capa/ilustrações/gráficos, motivada por um relatório de 
 Processo documentado em `pesquisa/frente-e-visuais/00` a `03`; cada fase é um ou mais commits
 (`git log --grep visuais` na branch `chore/revisao-visuais`).
 
-**Ressalva sobre a fonte:** o relatório trazido tem uma seção (§6) que descreve este mesmo
-sistema hemingway em detalhe — nomes de skill batendo exatamente — mas cita como fonte um
-repositório GitHub que não existe verificavelmente (`0b10n3/hemingway`). Tratado como possível
-alucinação e descartado como evidência; as propostas usaram só as seções do relatório com
-fontes externas plausíveis (Lakoff/Johnson sobre metáfora conceitual, Tufte, benchmarks de
-modelo). O relatório também errou uma conta (tabela do LinkedIn: citava 1200×644 como 1.91:1,
+**Correção (registrada depois do merge, mesma sessão):** a §6 do relatório trazido descreve
+este mesmo sistema hemingway em detalhe — nomes de skill batendo exatamente — citando como
+fonte `0b10n3/hemingway` (referência 70). O texto original desta seção chamava isso de citação
+fabricada, sem checar `git remote -v` antes — `0b10n3/hemingway` é o remote real deste
+repositório (`git@github.com:0b10n3/hemingway.git`). Citação válida, não alucinação; o erro foi
+meu, afirmar "não existe verificavelmente" sem verificar. Não muda o tratamento dos números
+específicos do relatório (continuam terciários, sujeitos a confirmação), mas §6 não deveria ter
+sido descartada como evidência da forma como foi. O relatório também errou uma conta (tabela do
+LinkedIn: citava 1200×644 como 1.91:1,
 que na verdade é ≈1,86:1 — a dimensão correta é 1200×627).
 
 ### Fase A — Diagnóstico (`01-diagnostico.md`)

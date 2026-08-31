@@ -127,9 +127,10 @@ arquivo próprio) em vez de expandir para uma etapa mais pesada.
    neste piloto — este post não tem gráfico ativo (só `ilu-01`). O achado real de
    `2026-08-14/graf-01` sem `rangemode="tozero"` continua sem correção, no backlog (depende de
    primeiro resolver o `marca/tokens.json` morto).
-6. **A ressalva sobre a §6 do relatório** (citação fabricada) não foi investigada além do que
-   já está em `02-proposta.md` — não tentei confirmar ou refutar a hipótese de alucinação com
-   mais profundidade, só sinalizei o risco.
+6. ~~A ressalva sobre a §6 do relatório (citação fabricada) não foi investigada além do que já
+   está em `02-proposta.md`~~ — **corrigido depois do merge:** `0b10n3/hemingway` é o remote
+   real deste repositório (`git remote -v`), não uma citação fabricada. Ver correção em
+   `02-proposta.md` e `RELATORIO.md`.
 
 ## Lembrete operacional
 

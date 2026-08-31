@@ -5,19 +5,19 @@ item antes da Fase C — conforme pedido no prompt original desta revisão.
 
 ## Duas ressalvas sobre o relatório, antes de qualquer proposta
 
-1. **§6 do relatório é suspeito e não deve ser citado como evidência.** A seção "Análise
-   Estrutural Aplicada: O Sistema 'Projeto Hemingway'" descreve, em detalhe, skills chamadas
-   `marca-syntaxis`, `prompts-visuais`, `briefing-ilustracao.md`, `checklist-graficos.md`,
-   `estilos-ilustracao.md` e agentes `critico-editorial`/`verificador-tecnico`/
-   `revisor-gramatical` — nomes que batem exatamente com este repositório — mas cita como fonte
-   um repositório público `0b10n3/hemingway` no GitHub (referência 70) que não corresponde a
-   nada verificável e não pode ser este projeto (que é local, privado, e não tem esse nome).
-   Isto tem cheiro de alucinação — o gerador do relatório aparentemente "reconheceu" o padrão
-   genérico de nomenclatura de Claude Skills e preencheu com uma citação fabricada, ou teve
-   acesso indireto a este projeto e disfarçou isso de fonte pública. De qualquer forma, viola a
-   própria regra deste repositório ("não invente... citação sem fonte verificável"). **Nenhuma
-   proposta abaixo usa §6 como base** — as propostas de B.1 e B.4 vêm de §3, §4 e §5, que citam
-   fontes externas plausíveis (Lakoff/Johnson, Tufte, benchmarks de modelo) e não essa seção.
+1. **Correção (registrada depois do merge desta Fase B — ver `RELATORIO.md`):** a versão
+   original deste item chamava a §6 do relatório ("Análise Estrutural Aplicada: O Sistema
+   'Projeto Hemingway'") de citação fabricada, por citar como fonte um repositório GitHub
+   `0b10n3/hemingway` (referência 70) que eu não tinha verificado. **Isso estava errado.**
+   `git remote -v` confirma que `0b10n3/hemingway` é o remote real deste próprio
+   repositório (`git@github.com:0b10n3/hemingway.git`) — a citação é válida, não fabricada.
+   Eu afirmei "não corresponde a nada verificável" sem checar o remote antes de escrever;
+   é exatamente o tipo de afirmação sem lastro que o `CLAUDE.md` deste repositório proíbe, e
+   caí nela ao tentar aplicá-la ao relatório. §6 pode ser lida como um case study real deste
+   projeto (presumindo que o repositório é público ou foi acessado de outra forma pelo
+   processo que gerou o relatório) — o que não muda o tratamento dado aos números específicos
+   dela ou de qualquer outra seção: continuam sujeitos à mesma régua de "confirme antes de
+   fixar" do prompt original, não porque a fonte é suspeita, mas porque é sempre terciária.
 2. **A conta do relatório para o LinkedIn não fecha.** §2 (resumo executivo) recomenda
    "1080 x 1350 px vertical (4:5)" para o feed — correto, 1080/1350 = 0,8 = 4:5 exato. Mas a
    tabela de §2 lista "LinkedIn - Capa de Artigo: 1200 x 644, proporção 1.91:1" — 1200/644 ≈
