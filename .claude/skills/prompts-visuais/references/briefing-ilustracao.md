@@ -1,132 +1,207 @@
 # Briefing de ilustração — do texto ao conceito
 
 Método obrigatório da etapa 8, **antes** de escrever qualquer prompt. `estilos-ilustracao.md`
-decide *como a peça parece*; este arquivo decide *o que a peça mostra*. São problemas
-diferentes e o segundo é o que estava faltando.
+decide *como a peça parece*; este arquivo decide *o que a peça mostra e por que ela vale ser
+olhada*.
 
-Criado em 31/08/2026 depois que as duas primeiras imagens geradas pelo sistema de estilos
-saíram tecnicamente corretas e editorialmente vazias.
+Reescrito em 31/08/2026, segunda versão. A primeira corrigia o genérico e produzia o literal —
+ver "Como este método chegou aqui", no fim.
 
 ---
 
-## O defeito que este método corrige
+## O princípio
 
-As duas peças de teste ficaram no estilo certo e não diziam nada sobre o texto:
+**A metáfora do autor é a semente. Seu trabalho é levá-la adiante, não substituí-la.**
 
-| Peça | O que foi desenhado | Por que falhou |
+Quando o texto já traz uma analogia, uma referência de cultura pop ou uma imagem própria, ela
+é o material mais valioso que existe: já está na cabeça de quem acabou de ler, carrega carga
+emocional que nenhuma metáfora importada tem, e é a voz do autor. Trocar isso por uma metáfora
+sua é jogar fora o melhor material da peça.
+
+O erro simétrico é desenhar a metáfora ao pé da letra. Se o texto diz "mundo invertido", a
+peça fraca desenha um mundo invertido. A peça forte pergunta: **onde essa metáfora vai que o
+texto não levou?**
+
+---
+
+## Passo 1 — Colher o material, em três camadas
+
+Não é uma lista plana. As camadas têm valor diferente e a ordem importa:
+
+### Camada 1 — a imaginação do autor (prioridade máxima)
+
+Analogias, metáforas, referências de cultura pop, imagens que ele construiu, o título que ele
+escolheu. Cite literal, entre aspas.
+
+> *O Mundo Invertido das Carreiras*: **o *Upside Down* de *Stranger Things*** — nomeado no
+> texto, no título do post e no da linha editorial. "A versão espelhada e hostil de um mundo
+> normal, onde tudo o que deveria vir por último vem primeiro." Mais: "entrar pela porta
+> errada", "a régua de produtos", "o alicerce", e o fecho "Menos *Upside Down*, mais alicerce."
+
+**Se a Camada 1 existe e a peça não a usa, o briefing precisa justificar por escrito por quê.**
+Não é proibido divergir — é proibido divergir por distração.
+
+### Camada 2 — objetos concretos do texto
+
+O que dá para desenhar e está lá: quadro, livro, balcão, porta, cadeira, sumário, contrato.
+
+### Camada 3 — números, documentos, instituições
+
+21% contra 20%; capítulos 4–6 contra 10; Bacen, CVM, FGC, Lei nº 4.728/1965.
+
+Camada 3 raramente vira a imagem sozinha — vira a **precisão** dentro dela.
+
+---
+
+## Passo 2 — A frase que a peça carrega
+
+Uma frase. Não é o tema do post: é a afirmação do ponto onde a `ilu-NN` está ancorada.
+
+E respeite a hierarquia: **a primeira ilustração carrega a tese do post**, não uma evidência de
+apoio. Se a peça de abertura ilustra um detalhe do terceiro parágrafo, ela está no lugar
+errado ou o conceito está.
+
+---
+
+## Passo 3 — O motor: três operações sobre a semente
+
+Aqui é onde a peça deixa de ser correta e passa a ser boa. Rode as três sobre o material da
+Camada 1. Cada uma gera pelo menos um conceito.
+
+### Operação A — Extensão: leve a metáfora além de onde o texto parou
+
+Toda metáfora rica tem mais estrutura do que o texto usou. Liste o que a referência tem e o
+texto **não** mencionou, e procure ali.
+
+> O *Upside Down* não é só "espelhado e hostil". Ele tem uma **fenda de passagem**, tem o
+> mesmo lugar tornado estranho, e tem uma regra própria: você **chega** lá, não constrói.
+> O texto usou só o espelho. A extensão é a passagem: se você entrou pelo lugar errado, o que
+> falta não está à sua frente — está **atrás de você**. E o post termina exatamente aí: "dá
+> para voltar e preencher o alicerce depois".
+
+### Operação B — Cruzamento: aplique a metáfora do autor a um objeto da Camada 2
+
+O choque entre a imagem emprestada e o objeto concreto do texto é de onde vem a surpresa.
+
+> *Upside Down* × **porta** ("entrar pela porta errada") → uma porta que fica no alto de uma
+> escada que ainda não foi construída.
+> *Upside Down* × **livro** → um volume cujas primeiras páginas nunca foram abertas.
+> *Upside Down* × **quadro** → uma demonstração completa em volta de um vazio.
+
+### Operação C — Torção: inverta o clichê da própria metáfora
+
+Como todo mundo desenharia essa referência? Faça o contrário disso.
+
+> O clichê do *Upside Down* é escuridão, decomposição, ameaça. A torção: o post **não** é
+> sobre catástrofe — é sobre ordem trocada, e termina em conserto. Então a versão forte não é
+> a escada se desfazendo em partículas (foi o erro da primeira rodada: virou fatalidade). É a
+> escada **ainda não construída**, com os degraus presentes como contorno — porque o currículo
+> existe, está impresso no sumário do Hull e no primeiro módulo do CFA. Não falta o caminho.
+> Falta ter andado nele.
+
+**Sobre clichê, em geral:** conceito forte não precisa de objeto original. Precisa do objeto
+familiar certo, torcido no ponto exato. Livro aberto é clichê; livro com as primeiras páginas
+ainda seladas é o argumento.
+
+---
+
+## Passo 4 — Critérios de beleza (positivos)
+
+Passar nos testes de rejeição faz uma peça correta. Estes fazem uma peça que alguém olha.
+Um conceito que não atende a maioria deles é competente e esquecível.
+
+- **Um ponto de tensão só, e ele é o argumento.** O olho tem que pousar exatamente onde a
+  afirmação está. Se pousa na decoração, a composição está trabalhando contra o texto.
+- **Entrada, peso e saída.** O olho precisa saber onde começa e onde termina. Composição não é
+  arranjo bonito, é roteiro de leitura.
+- **Estranhamento de objeto comum.** Um objeto reconhecível fazendo algo que não deveria vale
+  mais que um símbolo inventado. É o que faz a imagem parecer inteligente sem parecer
+  charada.
+- **O vazio carrega peso.** Na maioria destas peças, o que falta é o assunto — currículo não
+  construído, página não aberta, prazo abandonado. Deixe a ausência ocupar espaço de verdade,
+  em vez de preencher a moldura.
+- **Uma ideia, uma família de objetos.** Duas metáforas na mesma peça anulam as duas.
+- **Ritmo entre as peças do mesmo post.** Se `ilu-01` é a imagem alta — a que usa a referência
+  do autor —, `ilu-02` é a quieta, factual. Duas peças no mesmo volume competem.
+
+---
+
+## Passo 5 — Testes de rejeição
+
+Filtros, aplicados **depois** de gerar. Reprovou em um, morreu — anote por quê.
+
+- **Teste da troca.** A imagem funcionaria num artigo sobre outro assunto? Se um post sobre
+  demissão em massa ou queda de engajamento pudesse usar a mesma peça, o conceito é genérico.
+- **Teste do substantivo.** Contém pelo menos um objeto concreto vindo da Camada 1 ou 2?
+- **Teste do alt-text cego.** Leia o alt-text sem o post ao lado: ele afirma algo que o post
+  afirma, ou só descreve formas?
+- **Teste da legenda.** Precisa de legenda para ser entendida? Então quem explica é o texto.
+- **Teste da fatalidade.** A peça diz algo que o texto não diz? Cuidado especial com tom:
+  desenhar ruína onde o texto fala de conserto é erro de conteúdo, não de estilo.
+
+---
+
+## Passo 6 — Escolha e defesa
+
+Registre o conceito escolhido, a operação que o gerou (extensão / cruzamento / torção), a
+estrutura de metáfora visual usada (justaposição / fusão / substituição — Forceville; Phillips
+& McQuarrie) e **por que os outros perderam**.
+
+| Estrutura | Como funciona | Verbaliza como |
 |---|---|---|
-| `ilu-01` de *O Mundo Invertido das Carreiras* | Uma escada espelhada | Escada = "ordem/progresso" é metáfora universal. A mesma imagem serve para crise, demissão, queda de audiência. Nada nela é do texto |
-| `ilu-01` de *O Papel do CDB* | Cápsula → câmara → cápsula mais longa | A cota curta/longa funcionou, mas a câmara é uma caixa vazia. Serve para amplificador de sinal, compressor, tubulação. Nada nela é banco |
-
-Diagnóstico: os dois conceitos importaram um objeto genérico de fora do texto. E os dois
-textos estavam **cheios** de objeto concreto próprio, jogado fora:
-
-- *Mundo Invertido* entrega o livro do **John Hull com juros nos capítulos 4–6 e opções só no
-  capítulo 10** (a ordem do sumário é o argumento inteiro), o **quadro** onde ele provava o
-  modelo, o **primeiro módulo do CFA**, a **linha de pré-requisito da GFMI**, e cita
-  *Stranger Things* pelo nome.
-- *CDB* entrega **21% contra 20% de compulsório**, o **"outro lado do balcão"** como título de
-  seção, "**transformação de maturidade**" nomeada pelo Bacen, e o destino do dinheiro sendo
-  um **financiamento imobiliário**.
-
-Nenhuma dessas coisas apareceu nas imagens. O método abaixo existe para que isso não se
-repita.
+| **Justaposição** | Fonte e alvo lado a lado | "A é como B" |
+| **Fusão** | Fundidos num objeto só | "A com B" |
+| **Substituição** | Só um aparece; o outro é ausência apontada | "A é B" |
 
 ---
 
-## Etapa 8a — o briefing, em cinco passos
+## Referência de cultura pop: evocar a estrutura, nunca reproduzir a propriedade
 
-Rode uma vez por `ilu-NN`. Grave em `posts/<slug>/processo/08-briefing-visual.md`.
+O `CLAUDE.md` deste repositório já tem a regra certa, escrita para texto: *"Amostras alheias
+são fonte de procedimento, não de frase. Dos autores admirados extraímos movimentos, nunca
+vocabulário ou trechos a copiar."*
 
-### 1. Colheita de material concreto
+Vale igual para imagem. De *Stranger Things* se extrai a **lógica** do Upside Down — inversão,
+passagem, o mesmo lugar tornado estranho, o que ficou para trás. Não se extrai o Demogorgon, a
+tipografia da abertura, Hawkins, uma criança de bicicleta, nem qualquer elemento que identifique
+a obra. O leitor deve reconhecer o **movimento**, não a franquia.
 
-Varra o `post.md` e liste **só o que está no texto**:
-
-- **Objetos nomeados** — livro, quadro, balcão, cadeira, formulário, sumário, contrato.
-- **Instituições e documentos** — Bacen, CVM, FGC, Lei nº 4.728/1965, Relatório de
-  Estabilidade Financeira, currículo do CFA, ementa da GFMI.
-- **Números que carregam argumento** — 21% e 20%, capítulos 4–6 e 10, R$ 250 mil, 4 anos.
-- **Referências culturais que o autor usou** — *Upside Down* de *Stranger Things*.
-- **Verbos de ação** — transformar, reter, emprestar, abrir mão, derivar, provar.
-- **Frases-âncora** — a que o parágrafo fecha, literal, entre aspas.
-
-Regra dura: **nada entra nessa lista que não esteja no texto.** Se você precisa importar um
-objeto de fora para o conceito funcionar, o conceito ainda não está pronto.
-
-### 2. A frase que a imagem carrega
-
-Uma frase, e não é o tema do post. É a afirmação específica do ponto onde a `ilu-NN` está
-ancorada. Cite o parágrafo literal ao lado.
-
-Errado: "a imagem é sobre aprender fora de ordem."
-Certo: "a ordem correta está impressa no sumário de um livro que ele já tinha na estante —
-juros no capítulo 4, opções no capítulo 10."
-
-### 3. Divergência — no mínimo três conceitos
-
-Nunca vá do texto direto a um conceito só. A literatura de ilustração editorial é unânime
-nisso: o processo é gerar várias miniaturas e escolher, não acertar de primeira. Use as três
-**estruturas formais de metáfora visual** (Forceville; Phillips & McQuarrie) para forçar
-divergência real em vez de três variações da mesma ideia:
-
-| Estrutura | Como funciona | Verbaliza como | Complexidade |
-|---|---|---|---|
-| **Justaposição** | Fonte e alvo lado a lado, comparáveis | "A é como B" | Menor |
-| **Fusão / híbrido** | Fonte e alvo fundidos num objeto só | "A com B" | Média |
-| **Substituição** | Só um elemento aparece; o outro é ausência apontada | "A é B" | Maior |
-
-Gere **um conceito por estrutura**, no mínimo. Substituição costuma render a imagem mais
-forte, mas é a que mais escorrega para o genérico quando a fonte não vem do texto — foi
-exatamente o que aconteceu nas duas peças reprovadas.
-
-**Sobre clichê:** conceito forte não precisa de objeto original. A prática corrente da área é
-o contrário — pegar o objeto familiar *certo* e torcê-lo no ponto exato. Um livro aberto é
-clichê; um livro aberto **lido na ordem errada, com o capítulo 10 antes do 4**, é o argumento
-do post. A originalidade está na torção, não no objeto.
-
-### 4. Testes de rejeição
-
-Cada conceito passa pelos quatro. Reprovou em um, morreu — anote por quê, não conserte na
-marra.
-
-- **Teste da troca.** Essa imagem funcionaria num artigo sobre outro assunto? Se um post sobre
-  demissão em massa, sobre queda de engajamento ou sobre qualquer "coisa que dá errado"
-  pudesse usar a mesma peça sem ajuste, o conceito é genérico. **Este é o teste que as duas
-  peças reprovadas falharam.**
-- **Teste do substantivo.** A imagem contém pelo menos um objeto concreto vindo da lista do
-  passo 1? Forma geométrica abstrata não conta.
-- **Teste do alt-text cego.** Escreva o alt-text e leia sem o post ao lado. Ele afirma algo que
-  o post afirma, ou só descreve formas ("uma escada cortada ao meio por uma linha")? Descrição
-  de forma é sintoma de conceito vazio.
-- **Teste da legenda.** A imagem precisa de legenda para ser entendida? Então quem está
-  explicando é o texto, não ela.
-
-### 5. Escolha e defesa
-
-Registre o conceito escolhido, a estrutura de metáfora usada, e **por que os outros perderam**.
-O descarte anotado é o que impede a próxima peça de repetir a ideia fraca.
+Isso não é só jurídico: reproduzir a propriedade transformaria a peça em fan art de outra
+marca, dentro de um sistema visual que a Syntaxis levou dois anos para construir.
 
 ---
 
 ## Erros recorrentes
 
-- **Ilustrar o tema em vez da frase.** O post é sobre CDB; a imagem não é "sobre CDB", é sobre
-  a afirmação daquele parágrafo específico.
-- **Metáfora de dicionário.** Escada, ponte, quebra-cabeça, ampulheta, iceberg, labirinto,
-  engrenagem solta, alvo com flecha. Se o objeto podia ter vindo de um banco de imagens, veio.
-- **Diagrama disfarçado de ilustração.** Se a peça tem eixo, série e comparação de valor, é
-  gráfico — vai para `graf-NN` com dado real, não para `ilu-NN`.
-- **Número desenhado sem ser desenhável.** 21% contra 20% é ótimo material; virar dois
-  retângulos com rótulo é gráfico ruim. A imagem mostra a *consequência* da diferença, não a
-  diferença.
-- **Duas ideias na mesma peça.** Uma peça, uma afirmação. Se há duas, são duas `ilu-NN` ou
-  uma foi cortada na etapa 2.
+- **Trocar a metáfora do autor pela sua.** O pior dos erros e o mais fácil de cometer, porque
+  a metáfora nova parece mais inteligente para quem a teve.
+- **Desenhar a metáfora ao pé da letra.** "Mundo invertido" virando um mundo de ponta-cabeça.
+  Ilustra a palavra, não a ideia.
+- **Ilustrar o tema em vez da frase.** O post é sobre CDB; a peça é sobre a afirmação daquele
+  parágrafo.
+- **Metáfora de dicionário.** Escada solta, ponte, quebra-cabeça, ampulheta, iceberg, labirinto,
+  engrenagem, alvo com flecha. Se podia ter vindo de banco de imagens, veio.
+- **Diagrama disfarçado de ilustração.** Eixo, série e comparação de valor são `graf-NN` com
+  dado real.
+- **Tom errado.** Ver teste da fatalidade.
+- **Duas ideias na mesma peça.**
 
 ---
 
-## O briefing pronto alimenta o prompt
+## Como este método chegou aqui
 
-Só depois dos cinco passos vá para `estilos-ilustracao.md` e escreva o prompt. A ordem
-importa: **estilo é a última decisão, não a primeira.** O conceito define o que a peça mostra;
-o estilo define com que material ela mostra. Inverter isso é como escolher a fonte antes de
-saber o que o texto diz — foi assim que as duas primeiras peças saíram bonitas e mudas.
+**Primeira rodada** aplicou só o sistema de estilos. Saíram uma escada espelhada e um conjunto
+cápsula-câmara-cápsula: estilo certo, conteúdo nenhum. Reprovavam no teste da troca.
+
+**Segunda rodada** acrescentou colheita de material concreto e testes de rejeição. Corrigiu o
+genérico e criou um problema novo: os conceitos ficaram **literais**. Um quadro com um buraco
+com forma de contrato é rastreável, específico, passa em todos os testes — e é sem graça. Pior:
+aquela rodada tinha o *Upside Down* nomeado no título do post e **não usou**, porque o método
+tratava "referência cultural do autor" como um marcador entre seis numa lista plana, e nada
+obrigava a usá-lo.
+
+Diagnóstico: o método era só filtro. Filtro rejeita o ruim, não produz o bom.
+
+**Esta versão** acrescenta o que faltava: hierarquia de material com a imaginação do autor no
+topo, um motor generativo de três operações, e critérios positivos de beleza. Os testes de
+rejeição continuam — mas agora entram depois da geração, que é o lugar deles.
