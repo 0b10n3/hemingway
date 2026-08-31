@@ -51,7 +51,7 @@ cortar (ver `pesquisa/frente-c-editoracao.md`).
 | 5 | Crítica estrutural | agente `critico-editorial` | `05-critica.md` — diagnóstico com severidade por item, não reescreve |
 | 6 | Linha e norma | agente `revisor-gramatical` | `06-revisao.md` — diff comentado, não toca estrutura |
 | 7 | Verificação técnica | agente `verificador-tecnico` | `07-verificacao.md` — veredito por item, fórmulas recalculadas |
-| 8 | Visuais | skill `prompts-visuais` | rascunho consolidado nos entregáveis 2 e 3 |
+| 8 | Visuais | skill `prompts-visuais` | `08-briefing-visual.md` (conceito de cada `ilu-NN`, com os descartes) + rascunho consolidado nos entregáveis 2 e 3 |
 | 9 | Consolidação | skill `revisao-editorial` | aplica 5+6+7, emite os três entregáveis finais |
 | 10 | **Gate humano** | principal | apresenta o post, o que mudou, pendências `[VERIFICAR]`; **para e espera** |
 

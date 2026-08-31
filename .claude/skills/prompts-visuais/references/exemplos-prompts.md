@@ -1,237 +1,330 @@
-# Exemplos de prompt por estilo — regeração de posts publicados
+# Exemplos de prompt — briefing + estilo aplicados a posts publicados
 
-Prompts de teste gerados em 31/08/2026 para validar o sistema de estilos de
-`estilos-ilustracao.md` antes de ele rodar em post novo.
+Prompts de validação gerados em 31/08/2026, **segunda rodada**. Regeram peças de posts já
+publicados para o autor comparar antes de o sistema rodar em post novo.
 
-**São regerações, não substituições.** Os `ilustracoes.md` dos posts publicados continuam
-como estão — estes prompts existem para o autor comparar lado a lado o mesmo conceito no
-sistema antigo (glow verde sobre fundo escuro) e no novo (estilo por linha editorial, sem
-glow). O **conceito de cada peça foi mantido igual de propósito**: o que muda no teste é só o
-estilo, senão o A/B não isola nada.
+## O que mudou da primeira rodada para esta
 
-Servem também como referência de calibragem — quando um prompt novo sair torto, compare com
-estes.
+A primeira rodada aplicou só `estilos-ilustracao.md`. As imagens saíram no estilo certo e sem
+conteúdo: uma escada espelhada e um conjunto cápsula-câmara-cápsula, conceitos importados de
+fora do texto. Reprovaram no **teste da troca** — serviriam para qualquer artigo sobre
+"coisa que dá errado" ou "transformação".
 
----
+Esta rodada roda `briefing-ilustracao.md` (etapa 8a) antes do estilo: colheita do material
+concreto do post, três conceitos divergentes por estrutura de metáfora, quatro testes de
+rejeição, escolha com descarte anotado. **O estilo não mudou** — o que mudou é o que a peça
+mostra. É esse o A/B desta rodada.
 
-# Estilo B — Notas de um Professor (desenho técnico esquemático)
-
-## Teste 1 — `2026-08-14-o-papel-do-cdb-na-transformacao-de-prazos`, `ilu-01`
-
-**Conceito original (mantido):** o mesmo CDB que é *ativo* para o investidor é *passivo* para
-o banco; entre uma coisa e outra existe o ALM, que transforma prazo curto de captação em prazo
-longo de crédito.
-
-**Por que este conceito ganha no estilo esquemático:** "transformação de prazos" é, literalmente,
-uma mudança de **dimensão**. Desenho técnico tem uma convenção pronta para isso — a linha de
-cota. O argumento central do post vira uma cota curta entrando e uma cota longa saindo, sem
-uma palavra escrita na peça. A versão anterior precisava de um "fio de luz" para sugerir o
-mesmo, porque o vocabulário de glow não tem como desenhar prazo.
-
-### Prompt (Nano Banana Pro)
-
-```
-A flat orthographic technical schematic of a maturity-transformation mechanism, drawn as a
-front-elevation cutaway on an engineering plate, no perspective and no depth.
-
-Left third: a short horizontal capsule form representing an incoming short-term deposit,
-drawn in flat grove green #78C9A4 with a constant-weight outline. Directly beneath it, a
-dimension line spanning only its short width, terminating in two small straight tick marks —
-a narrow measurement.
-
-Center: a tall rectangular chamber with perfectly square corners, drawn in the same flat
-grove green outline over the plate, its interior divided by one vertical hairline into a
-slightly recessed left compartment and a slightly wider right compartment. At the exact
-center of that dividing hairline sits a single small square node filled solid in lime
-#CDF163 — the only saturated fill anywhere on the plate — marking where the transformation
-happens.
-
-Right third: a long horizontal capsule form representing outgoing long-term credit, same flat
-grove green outline, clearly several times wider than the one on the left. Beneath it, a
-second dimension line spanning its full long width, with the same straight tick terminations,
-so the two measurements read as a direct comparison.
-
-A single thin connector line runs left to right through the whole assembly at mid-height,
-passing through the lime node, changing thickness slightly as it exits the chamber.
-
-Construction detail: pale mist #E2E8F0 hairlines at one-third the weight of the main outlines
-mark the horizontal center axis across the full width and the vertical center of the chamber,
-extending slightly past the forms as construction lines do on a real drafting plate. Two thin
-leader lines with small dot terminations point inward at the chamber and at the lime node,
-ending in empty space with no labels attached.
-
-Background: completely flat deepForest #0F3D27, edge to edge, uniform. A sparse dot grid in
-mist #E2E8F0 at very low density occupies only the outer margins, well clear of the mechanism.
-
-Style: precision drafting plate rendered as flat vector art — constant line weight, sharp
-square corners, absolutely even fills, orthographic projection. The whole assembly sits
-centered with generous empty plate around it. No lettering, no numerals, no annotation text
-anywhere in the image.
-
-Aspect ratio 16:9, 2K resolution.
-```
-
-**Nota de contexto (pt-BR):** a cota curta à esquerda e a cota longa à direita são o argumento
-inteiro do post — captação curta vira crédito longo — desenhadas na convenção de prancha
-técnica, sem texto. O lime aparece uma vez só, no nó central: é o ALM, o ponto que o parágrafo
-está explicando. Todo o resto do mecanismo fica em grove estrutural, e as linhas de construção
-em mist ficam um degrau abaixo em contraste, organizando sem competir.
-
-### Restrições em enquadramento positivo
-
-Fundo chapado de cor única; contorno de espessura constante; cantos retos; projeção
-ortogonal; preenchimento saturado presente em exatamente um elemento; superfícies restantes em
-verde estrutural; imagem inteiramente livre de letras e algarismos.
-
-### Alt-text
-
-> Esquema técnico sobre fundo verde-escuro: à esquerda, uma forma curta representa o depósito
-> de curto prazo, com uma linha de cota estreita marcando seu prazo. Ao centro, uma câmara
-> dividida ao meio — passivo de um lado, ativo do outro — com um nó verde-limão exatamente na
-> divisória, marcando a área de ALM. À direita, uma forma bem mais longa representa o crédito
-> concedido, com uma linha de cota várias vezes mais larga. A comparação entre as duas cotas é
-> a transformação de prazos.
+Servem também como calibragem: quando um briefing novo sair fraco, compare com estes.
 
 ---
 
 # Estilo A — Spoiler (colagem editorial)
 
-## Teste 2 — `2026-08-17-o-mundo-invertido-das-carreiras-em-financas`, `ilu-01`
+Post: `2026-08-17-o-mundo-invertido-das-carreiras-em-financas`
 
-**Conceito original (mantido):** uma escada cortada ao meio por um limiar; acima, degraus em
-ordem; abaixo, os mesmos degraus espelhados e se desfazendo — o Upside Down da carreira.
+## Material concreto colhido do post
 
-**O que muda na tradução para colagem:** o limiar deixa de ser uma linha que brilha (glow é
-anti-padrão agora) e passa a ser o que a colagem já tem de graça — **a emenda entre duas folhas
-de papel**. O material faz o trabalho que a luz fazia. E a metade que "se desfaz" deixa de ser
-partícula difusa e vira o que colagem faz melhor: papel rasgado e retícula de meio-tom
-grosseira, deslocada do registro.
-
-### Prompt (Nano Banana Pro)
-
-```
-A cut-paper collage of a single staircase, photographed flat, built from four layers of
-opaque colored paper on a chalk-white paper ground #F7F7F5.
-
-Upper half: five plain rectangular steps ascending left to right, each one a separate piece
-of scissor-cut forest green paper #1B6A45 with clean straight edges, laid slightly overlapping
-so each step's cut edge is visible against the one behind it. Each piece casts a hard-edged
-solid drop shadow in deep forest #0A3320, offset a few millimeters down and right, with
-completely sharp shadow edges as flat paper produces.
-
-Across the exact middle of the composition: a horizontal band where two sheets of paper meet
-edge to edge — a visible seam, one sheet chalk white and the sheet below it mint #E6F4EE,
-their straight cut edges butted together with a hairline of shadow between them. This seam is
-the threshold, made of nothing but the join between two materials.
-
-Lower half, mirroring the steps above: the same five steps inverted, but cut from mint paper
-#E6F4EE overprinted with a coarse visible halftone dot pattern in grove green #2D9E67, the
-dots large enough to read clearly as printed screen. The halftone layer is deliberately
-misregistered, shifted three or four millimeters off from the paper shapes it should fill, so
-green dots spill past the edges on one side and leave bare paper on the other. The two lowest
-inverted steps have torn paper edges instead of cut ones, their white fibrous tear showing,
-and they sit slightly rotated out of alignment with the rest.
-
-One single element in lime #CDF163: the topmost step of the upper staircase, cut from lime
-paper, the one step that is in the right place.
-
-Composition: the staircase runs on a dominant diagonal from lower left to upper right,
-positioned off-center with generous empty chalk paper on the left. Flat overhead view,
-completely even lighting across the whole sheet, no vignette.
-
-Style: physical paper collage, visible paper fiber texture and cut edges, flat opaque spot
-colors, hard-edged offset shadows, coarse halftone screen. No lettering, no numerals, no
-handwriting anywhere in the image.
-
-Aspect ratio 4:5, 2K resolution.
-```
-
-**Nota de contexto (pt-BR):** a emenda entre duas folhas substitui a linha que brilhava — em
-colagem, o limiar é material, não luz. O desalinho de registro do meio-tom e as duas bordas
-rasgadas na parte de baixo fazem o "se desfazendo" do conceito original sem partícula difusa
-(que cairia em blob, anti-padrão §4.5). O lime aparece uma vez, no degrau do topo: é a virada
-— o único degrau que está no lugar certo.
-
-### Restrições em enquadramento positivo
-
-Cor de papel opaca e chapada; borda de corte reta como padrão e rasgo apenas nos dois
-fragmentos de baixo; sombra sólida de borda dura; retícula de meio-tom com ponto visível;
-quatro cores de papel no total; lime em um único elemento; composição em diagonal fora do
-centro; imagem inteiramente livre de letras e algarismos.
-
-### Alt-text
-
-> Colagem de papel recortado sobre fundo branco: na metade de cima, cinco degraus em papel
-> verde-escuro sobem em ordem, cada um com sombra sólida — o degrau do topo é verde-limão, o
-> único no lugar certo. No meio, a emenda entre duas folhas de papel marca o limiar. Na metade
-> de baixo, os mesmos cinco degraus aparecem espelhados de cabeça para baixo, impressos em
-> retícula verde fora de registro, e os dois últimos têm a borda rasgada e estão tortos.
+**Objetos:** o quadro onde ele provava o modelo ("se você me pedisse para provar o resultado
+no quadro, eu provava"); o livro de John Hull; o sumário; a cadeira onde o estagiário senta;
+a "porta errada"; a "régua de produtos". **Números:** capítulos 4 a 6 (juros) contra capítulo
+10 (opções); primeiro módulo do CFA. **Documentos:** pré-requisito da GFMI, que pede só
+"entender conceitos financeiros simples, como valor presente". **Referência cultural do
+autor:** o *Upside Down* de *Stranger Things*. **Verbos:** derivar, provar, explicar,
+preencher. **Frases-âncora:** "A conta batia. O produto, não." / "O gargalo raramente é a
+matemática. É o alicerce."
 
 ---
 
-## Teste 3 — `2026-08-17-o-mundo-invertido-das-carreiras-em-financas`, `ilu-02`
+## `ilu-01` — o quadro
 
-**Conceito original (mantido):** uma árvore em corte — copa completa em cima, raiz curta que
-não alcança o solo firme embaixo. Domínio avançado apoiado num alicerce que não terminou de
-crescer.
+**Onde entra:** fim da seção 1, após "O problema nunca foi a complexidade do modelo. Foi eu
+ter aprendido as coisas fora de ordem."
 
-**Peça deliberadamente sem lime.** A regra de `estilos-ilustracao.md` é que lime marca virada
-ou conquista real, e esta peça é sobre incompletude: não há virada nenhuma nela. Deixar o lime
-de fora aqui é o teste de que a regra tem dente — no sistema antigo, a copa brilhava em verde
-saturado justamente porque a regra do "elemento iluminado" obrigava um destaque por peça,
-mesmo quando o argumento não pedia.
+**Frase que a peça carrega:** ele provava o modelo inteiro no quadro e não sabia dizer o que o
+contrato fazia — a demonstração estava completa em volta de um vazio.
+
+### Divergência
+
+| # | Estrutura | Conceito | Veredito |
+|---|---|---|---|
+| A | Justaposição | Dois quadros lado a lado: um com a derivação completa, outro com um buraco | Descartado — a comparação exige que o leitor infira a relação entre os dois painéis; e dois objetos iguais lado a lado é o dispositivo que já morreu na primeira versão do post ("duas trilhas de luz") |
+| B | **Fusão** | **Um quadro só, derivação impecável de ponta a ponta, e no meio dela um recorte vazado com a silhueta de um contrato — a prova envolve o buraco** | **Escolhido** |
+| C | Substituição | Só o giz gasto até o toco, sem quadro | Descartado — reprova no teste do substantivo: giz sozinho é objeto de "esforço", não do argumento. E o post não fala de esforço, fala de ordem |
+
+**Testes do conceito B:** troca — um artigo sobre outro assunto não tem uma demonstração
+matemática completa cercando um vazio com forma de contrato; passa. Substantivo — o quadro
+vem do texto, literal. Alt-text cego — afirma a tese do post, não descreve formas. Legenda —
+dispensa.
+
+**A torção:** quadro cheio de fórmula é clichê de "matemática difícil". A torção é que aqui a
+fórmula está **certa e completa** — o que falta não é a conta, é o objeto que ela descreve.
+Inverte o clichê em vez de repeti-lo.
 
 ### Prompt (Nano Banana Pro)
 
 ```
-A cut-paper collage of a single tree in cross-section, showing canopy above and root system
-below, arranged on a deep forest green paper ground #0F3D27.
+A cut-paper collage of a single school blackboard, photographed flat against a chalk-white
+paper ground #F7F7F5.
 
-Upper two-thirds: a full rounded canopy assembled from seven or eight separate scissor-cut
-pieces of grove green paper #2D9E67, overlapping in visible layers so every cut edge reads
-against the piece behind it. Two of the canopy pieces are overprinted with a coarse visible
-halftone dot pattern in forest green #1B6A45, the dots large enough to read as printed screen,
-shifted slightly off register from the paper shapes beneath them. Each canopy piece carries a
-hard-edged solid drop shadow in deep forest #0A3320 with completely sharp edges.
+The blackboard is one large rectangle of deep forest green paper #0F3D27 with clean
+scissor-cut edges, occupying most of the frame, carrying a hard-edged solid drop shadow in
+#0A3320 offset a few millimeters down and right, with completely sharp shadow edges as flat
+paper produces.
 
-A narrow straight trunk in slate gray paper #4A5568 runs down from the canopy, cut as one
-clean strip.
+Across the whole surface of the board: a dense, orderly, continuous handwritten mathematical
+derivation in white chalk — many lines of equations flowing left to right and top to bottom,
+line after line, evenly spaced and confidently written, filling the board edge to edge like a
+proof that was completed without hesitation. The chalk strokes have real chalk texture, dusty
+and slightly broken, with faint eraser smudges between some lines.
 
-Lower third, beneath an implied ground line: three thin short root strips in the same slate
-gray paper, each one narrower than the trunk, reaching downward but visibly stopping short.
-All three have torn bottom edges with white paper fiber showing at the tear.
+At the visual center of the board, interrupting the derivation: a rectangular hole cut clean
+through the board, its edges torn rather than cut, showing the white paper fiber of the tear
+and revealing the chalk-white ground behind it. The hole has the plain silhouette of a
+document or contract — a simple upright rectangle with one corner folded. The chalk equations
+run right up to the edges of the hole on all sides and continue past it, as if the derivation
+were written around something that was never there.
 
-Near the very bottom edge of the composition: one horizontal band of mist gray paper #E2E8F0
-spanning the full width, with a clean straight cut top edge, representing bedrock. A clear
-empty gap of bare deep forest ground separates the torn root tips from that band — the roots
-plainly do not reach it.
+One single element in lime #CDF163: a small chalk-drawn arrow at the right edge of the board,
+pointing at the hole, drawn in lime chalk instead of white.
 
-Composition: the tree sits slightly right of center on a vertical axis, with generous empty
-ground on the left. Flat overhead view, completely even lighting across the sheet, no vignette.
+Composition: the board sits on a slight diagonal, off-center toward the upper right, with
+generous empty chalk-white paper along the lower left. Flat overhead view, completely even
+lighting across the whole sheet, no vignette.
 
-Style: physical paper collage, visible paper fiber texture and cut edges, flat opaque spot
-colors in a restrained four-color palette, hard-edged offset shadows, coarse halftone screen.
-No lettering, no numerals, no handwriting anywhere in the image.
+Style: physical paper collage combined with real chalk mark-making, visible paper fiber, cut
+edges on the board and a torn edge on the hole, flat opaque spot colors, hard-edged offset
+shadow. The equations are handwriting, dense and continuous.
 
 Aspect ratio 4:5, 2K resolution.
 ```
 
-**Nota de contexto (pt-BR):** copa em camadas fartas e recortadas com tesoura; raiz em três
-tiras finas com a borda **rasgada**, porque é ali que o argumento está — o que não terminou de
-crescer. O vão de papel nu entre a raiz e a faixa de solo firme é o assunto da peça, e por isso
-recebe o maior espaço vazio da composição. Sem lime, deliberadamente: nada aqui é conquista.
+**Nota de contexto (pt-BR):** a derivação precisa parecer **completa e segura** — é esse o
+ponto: a conta batia. O buraco é a única borda rasgada da peça, e é onde o argumento está.
+O lime aparece uma vez, na seta de giz que aponta para o vazio — a virada é perceber a falta,
+não a conta.
+
+**Se a equação sair ilegível ou com símbolo inventado, está correto** — não se trata de uma
+fórmula real e não deve ser lida; o que precisa ler é a densidade e a ordem da escrita.
 
 ### Restrições em enquadramento positivo
 
-Cor de papel opaca e chapada; copa com borda de corte reta e raiz com borda rasgada; sombra
-sólida de borda dura; retícula de meio-tom em duas peças da copa; quatro cores de papel no
-total; vão vazio visível entre a ponta da raiz e a faixa de solo; imagem inteiramente livre de
-letras e algarismos.
+Equação em escrita à mão contínua e densa, cobrindo a superfície inteira; buraco com borda
+rasgada e fibra visível; borda do quadro cortada reta; sombra sólida de borda dura; três cores
+de papel no total; lime em um único elemento; composição em diagonal fora do centro; imagem
+livre de palavras legíveis, título e rótulo.
 
 ### Alt-text
 
-> Colagem de papel recortado sobre fundo verde-escuro: em cima, uma copa de árvore farta,
-> montada em várias camadas de papel verde recortado com tesoura, duas delas impressas em
-> retícula. Um tronco fino cinza desce até três raízes curtas, mais estreitas que o tronco,
-> todas com a borda de baixo rasgada. Elas param bem antes de uma faixa cinza-clara no rodapé
-> que representa o solo firme — entre a ponta das raízes e essa faixa sobra um vão vazio.
+> Colagem: um quadro-negro de papel verde-escuro, coberto de ponta a ponta por uma derivação
+> matemática em giz branco, escrita de forma contínua e segura. No centro do quadro, um buraco
+> de bordas rasgadas com o formato de um contrato — as equações passam ao redor dele e seguem
+> em frente, como se a demonstração tivesse sido escrita em volta de algo que nunca esteve
+> ali. Uma seta de giz verde-limão aponta para o buraco.
+
+---
+
+## `ilu-02` — o livro lido de trás para frente
+
+**Onde entra:** fim da seção "A segunda lacuna: dinheiro no tempo", após "o gargalo raramente
+é a matemática. É o alicerce." — o parágrafo que cita Hull (capítulos 4–6 antes do 10), o
+primeiro módulo do CFA e o pré-requisito da GFMI.
+
+**Frase que a peça carrega:** a ordem correta estava impressa no livro que ele já tinha —
+juros primeiro, opções depois. Ele leu ao contrário.
+
+### Divergência
+
+| # | Estrutura | Conceito | Veredito |
+|---|---|---|---|
+| A | Justaposição | O sumário do livro ao lado da trajetória real dele, como duas colunas | Descartado — exige numeral e nome de capítulo legíveis, e a regra da marca mantém a peça sem texto. Vira tabela, não ilustração |
+| B | Fusão | Uma árvore cujo tronco é feito de páginas | Descartado — é a peça antiga (copa e raiz) com fantasia nova. Árvore/alicerce é metáfora de dicionário e já tinha sido a escolha fraca da primeira rodada |
+| C | **Substituição** | **O miolo do livro visto de perfil: as primeiras páginas ainda seladas, sem terem sido abertas; as últimas gastas e dobradas. O leitor está ausente — o estado do papel conta a história inteira** | **Escolhido** |
+
+**Testes do conceito C:** troca — páginas iniciais seladas e finais gastas é a assinatura
+exata de "li fora de ordem"; nenhum outro assunto reivindica isso. Substantivo — o livro vem
+do texto (Hull, citado com capítulo). Alt-text cego — afirma o argumento sem o post ao lado.
+Legenda — dispensa.
+
+**Por que este conceito é forte no estilo colagem:** o assunto é papel e o material é papel.
+A borda não cortada das primeiras páginas e a dobra das últimas não são representações de
+desgaste — são desgaste real do próprio material da peça. Livro aberto é clichê; livro com as
+primeiras páginas ainda **fechadas** é o argumento.
+
+### Prompt (Nano Banana Pro)
+
+```
+A cut-paper collage showing a single thick book seen from its fore-edge, lying flat, so the
+viewer looks straight at the stacked edges of all its pages. Photographed flat against a deep
+forest green paper ground #0F3D27.
+
+The page block is built from many thin horizontal strips of chalk-white paper #F7F7F5 stacked
+one on top of another, each strip a separate visible layer, so the block reads as hundreds of
+page edges seen from the side.
+
+The lower third of the stack — the first pages — is different from the rest: those strips are
+still joined at their outer edge, sealed shut in pairs with an unbroken folded edge, never
+slit open. They lie perfectly flat, pristine, tightly aligned, their edges clean and
+untouched.
+
+The upper two thirds — the later pages — are visibly used: strips fanned slightly apart at
+irregular intervals, several with soft torn edges showing white paper fiber, three or four
+folded over at the corner into dog-ears, the whole upper section looser and thumbed.
+
+Standing upright out of the used upper section, planted deep in the back of the book: one
+narrow ribbon bookmark in grove green paper #2D9E67, rising clear of the block. Nothing marks
+the sealed lower section at all.
+
+Along the left side of the page block, a coarse visible halftone dot pattern in grove green
+#2D9E67 printed over the white strips, its registration shifted three millimeters off from
+the paper edges it should align with, dots spilling past on one side.
+
+One single element in lime #CDF163: the very lowest strip of the sealed section, cut from
+lime paper — the first page, still closed.
+
+Composition: the book block runs on a strong diagonal from lower left to upper right, placed
+off-center with generous empty deep forest ground in the upper left. Flat overhead view,
+completely even lighting, no vignette.
+
+Style: physical paper collage, visible paper fiber and cut edges, flat opaque spot colors,
+hard-edged offset shadows in #0A3320, coarse halftone screen. No lettering, no numerals, no
+page numbers anywhere in the image.
+
+Aspect ratio 4:5, 2K resolution.
+```
+
+**Nota de contexto (pt-BR):** a distinção entre as duas seções do miolo é o argumento inteiro
+e precisa ser inequívoca — embaixo, páginas **ainda seladas, nunca abertas**; em cima, páginas
+gastas, dobradas e com marcador enfiado fundo. O lime marca a primeira página, a que ficou
+fechada: é a virada do post ("dá para voltar e preencher o alicerce depois"). O marcador verde
+no fim, sem nenhuma marca no começo, é o que fecha a leitura sem precisar de número de
+capítulo.
+
+### Restrições em enquadramento positivo
+
+Miolo visto de perfil, com cada página como tira de papel separada; terço inferior com bordas
+dobradas e seladas, perfeitamente alinhado; dois terços superiores com bordas rasgadas, orelhas
+dobradas e espaçamento irregular; marcador plantado na parte de cima; retícula de meio-tom fora
+de registro na lateral; lime em uma única tira; imagem livre de letras, algarismos e numeração
+de página.
+
+### Alt-text
+
+> Colagem: um livro grosso visto de lado, com as páginas empilhadas à mostra. O terço de
+> baixo — as primeiras páginas — está com as bordas ainda dobradas e seladas, nunca abertas,
+> perfeitamente alinhado; a primeira de todas é verde-limão. Os dois terços de cima estão
+> gastos: páginas rasgadas, cantos dobrados e um marcador verde enfiado bem no fim do livro.
+> Nada marca o começo.
+
+---
+
+# Estilo B — Notas de um Professor (desenho técnico esquemático)
+
+Post: `2026-08-14-o-papel-do-cdb-na-transformacao-de-prazos`
+
+## Material concreto colhido do post
+
+**Objetos:** o balcão — "O outro lado do balcão" é título de seção; a conta corrente; o
+financiamento imobiliário, dado no texto como destino do dinheiro. **Instituições e
+documentos:** Bacen, CVM, FGC, Lei nº 4.728/1965, Relatório de Estabilidade Financeira de
+abril de 2018. **Números:** compulsório de 21% sobre recursos à vista contra 20% a prazo; FGC
+até R$ 250 mil, teto de R$ 1 milhão a cada 4 anos. **Termo do regulador:** "transformação de
+maturidade", nomeada pelo próprio Bacen. **Verbos:** captar, reter, transformar, emprestar,
+abrir mão da disponibilidade.
+
+---
+
+## `ilu-01` — os dois lados do balcão
+
+**Onde entra:** fim da seção "O outro lado do balcão: o CDB como passivo do banco", após o
+parágrafo que nomeia a transformação de maturidade.
+
+**Frase que a peça carrega:** muitos depósitos curtos, do lado do investidor, viram um
+financiamento longo do outro lado do balcão — é o mesmo dinheiro, e o balcão é a linha que
+separa os dois papéis.
+
+### Divergência
+
+| # | Estrutura | Conceito | Veredito |
+|---|---|---|---|
+| A | Justaposição | Uma pilha de retângulos curtos ao lado de um retângulo longo, com cotas | Descartado — reprova no teste do substantivo: são formas puras, nenhum objeto do texto. É a peça da primeira rodada com outro arranjo |
+| B | **Fusão** | **O balcão como linha-base do desenho: acima dele, muitos depósitos curtos; abaixo, os mesmos volumes recompostos numa viga longa que sustenta a elevação de uma casa. Um objeto só, atravessando a linha** | **Escolhido** |
+| C | Substituição | Só a casa, com a fundação feita de depósitos empilhados como tijolos | Forte, mas descartado por posição: perde o balcão, que é justamente o título e o assunto da seção onde a peça está ancorada. Fica como alternativa se o autor quiser a peça em outro ponto do texto |
+
+**Testes do conceito B:** troca — depósitos curtos virando financiamento imobiliário através
+de um balcão não serve para outro assunto; passa com folga. Substantivo — balcão e casa, os
+dois do texto. Alt-text cego — descreve o mecanismo que o Bacen chama de transformação de
+maturidade. Legenda — dispensa.
+
+**Por que funciona no estilo esquemático:** desenho técnico tem uma convenção pronta para
+"linha que separa dois domínios" — a linha de terreno da elevação arquitetônica. O balcão do
+texto e a linha de terreno do desenho são a mesma linha. E a diferença de prazo continua sendo
+cota, que foi o único elemento que funcionou na primeira rodada — mantido de propósito.
+
+### Prompt (Nano Banana Pro)
+
+```
+A flat orthographic technical elevation drawing on an engineering plate, no perspective and
+no depth, background completely flat deepForest #0F3D27 edge to edge.
+
+One continuous horizontal datum line in pale mist #E2E8F0 runs the full width of the plate at
+mid-height, dividing the drawing into an upper and a lower half. This line is the counter.
+
+Above the line: eleven small identical upright rectangles standing in a row along the line,
+each one narrow and short, drawn in flat grove green #78C9A4 with constant-weight outlines and
+perfectly square corners, evenly spaced with equal gaps. Beneath the row, a single dimension
+line spans the width of just one of those rectangles, terminating in two small straight tick
+marks — a very narrow measurement, showing how short one unit is.
+
+Below the line, directly beneath the row: one long horizontal beam spanning nearly the full
+width of the plate, drawn in the same flat grove green outline, its length clearly equal to
+the eleven rectangles above placed end to end. A second dimension line runs beneath the beam
+across its entire length, with the same straight tick terminations, so the two measurements
+read as a direct comparison of one short unit against one long span.
+
+Resting on that beam, in the lower portion of the plate: the front elevation of a simple house
+— a plain rectangle with a triangular pitched roof, two square window openings and one door
+opening, drawn in the same constant-weight grove green outline, orthographic and flat, sitting
+squarely on the beam as a building sits on its foundation.
+
+Construction detail: mist #E2E8F0 hairlines at one-third the weight of the main outlines mark
+the vertical center axis of the plate and extend the datum line slightly past the drawing on
+both sides, as construction lines do on a real drafting plate. One thin leader line with a
+small dot termination points at the junction where the row above meets the beam below,
+ending in empty space with no label attached.
+
+One single element in lime #CDF163: the short dimension line above, drawn solid in lime
+instead of mist — the measurement of what the depositor gave up.
+
+A sparse dot grid in mist #E2E8F0 at very low density occupies only the outer margins, well
+clear of the drawing.
+
+Style: precision drafting plate rendered as flat vector art — constant line weight, sharp
+square corners, absolutely even fills, strict orthographic projection, everything aligned to
+the datum. No lettering, no numerals, no annotation text anywhere in the image.
+
+Aspect ratio 16:9, 2K resolution.
+```
+
+**Nota de contexto (pt-BR):** o balcão virou a linha de terreno do desenho — a mesma linha que
+o texto usa como título de seção. Acima, os muitos depósitos curtos; abaixo, o mesmo
+comprimento recomposto numa viga só, sustentando a casa que o texto nomeia (financiamento
+imobiliário). A equivalência entre as onze unidades de cima e a viga de baixo é o argumento:
+não é dinheiro novo, é o mesmo dinheiro com outro prazo. O lime marca a cota curta — o que o
+investidor abriu mão.
+
+### Restrições em enquadramento positivo
+
+Projeção ortogonal estrita; contorno de espessura constante; cantos retos; linha de terreno
+única atravessando a largura inteira; unidades de cima idênticas e igualmente espaçadas; viga
+de baixo com comprimento equivalente à soma delas; casa em elevação frontal simples apoiada na
+viga; duas cotas comparáveis; lime em um único elemento; imagem livre de letras e algarismos.
+
+### Alt-text
+
+> Desenho técnico sobre fundo verde-escuro: uma linha horizontal atravessa a prancha ao meio —
+> é o balcão. Acima dela, onze retângulos curtos e idênticos, enfileirados, representam os
+> depósitos de curto prazo; uma cota verde-limão mede a largura de um só deles. Abaixo da
+> linha, o mesmo comprimento total aparece recomposto numa única viga longa, medida por uma
+> segunda cota, e sobre essa viga se apoia a elevação de uma casa. O mesmo dinheiro, com outro
+> prazo, do outro lado do balcão.

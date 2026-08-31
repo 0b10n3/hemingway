@@ -179,6 +179,9 @@ Template do guia oficial, adaptado:
 
 ### Checklist antes de fechar um prompt
 
+- [ ] O conceito veio de `briefing-ilustracao.md` (etapa 8a), com os três conceitos
+      divergentes gerados e os quatro testes de rejeição aplicados? **Estilo é a última
+      decisão — se você chegou aqui sem briefing, volte.**
 - [ ] O estilo bate com a linha editorial declarada no post?
 - [ ] Todo hex citado existe na tabela de hex autorizados?
 - [ ] A palavra "glow", "glowing", "luminous", "bloom" ou "gradient" **não** aparece?

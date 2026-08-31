@@ -34,9 +34,25 @@ sempre, e o repositório já tem um caso real de post ambíguo (ver
 Especificação completa dos dois estilos, hex autorizados e checklist de prompt:
 **`references/estilos-ilustracao.md`** — leia antes de escrever o primeiro prompt.
 
+### Etapa 8a — briefing antes do prompt (obrigatório)
+
+**Nunca vá do texto direto ao prompt.** Rode primeiro o método de
+**`references/briefing-ilustracao.md`** e grave o resultado em
+`processo/08-briefing-visual.md`: colheita de material concreto do post → a frase que a peça
+carrega → no mínimo três conceitos divergentes (justaposição / fusão / substituição) → quatro
+testes de rejeição → escolha com os descartes anotados.
+
+Esse passo existe porque a primeira rodada do sistema de estilos produziu peças tecnicamente
+corretas e editorialmente mudas: escada espelhada e cápsula-câmara-cápsula, conceitos
+importados de fora do texto enquanto os posts ofereciam o sumário do Hull, o compulsório de
+21% contra 20% e o "outro lado do balcão" sem ninguém pegar. **Estilo é a última decisão, não
+a primeira.**
+
 ### Formato de cada bloco `ilu-NN`
 
 - Onde entra no texto e que ideia carrega (referencie o parágrafo/seção de `post.md`).
+- **Conceito e estrutura de metáfora** — o conceito escolhido em `08-briefing-visual.md`, a
+  estrutura usada (justaposição / fusão / substituição) e o material do texto que ele usa.
 - **Linha editorial e estilo aplicado**, em uma linha — deixa auditável, na própria peça, por
   que ela ficou com essa cara.
 - Prompt completo para `GERADOR_IMAGEM` (Google Nano Banana Pro): cena narrada seguindo
