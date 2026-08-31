@@ -69,7 +69,8 @@ tabela de hex nem as regras, só acelera a escrita e reduz prompt vago.
 `processo/08-briefing-visual.md`: colheita de material em três camadas (a metáfora do autor
 primeiro) → a frase que a peça carrega → as três operações geradoras (extensão / cruzamento
 / torção) → critérios positivos de beleza → testes de rejeição, incluindo o teste da
-fatalidade → escolha com os descartes anotados.
+fatalidade → escolha com os descartes anotados → composição de cena (Passo 7 — objetos,
+disposição espacial, foco, sem sintaxe de gerador ainda).
 
 Esse passo existe porque a primeira rodada do sistema de estilos produziu peças tecnicamente
 corretas e editorialmente mudas: escada espelhada e cápsula-câmara-cápsula, conceitos
