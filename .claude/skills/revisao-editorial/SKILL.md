@@ -63,6 +63,10 @@ que olha as três juntas.
     precisa desta checagem). Compare cada hex encontrado contra os valores `$value` de
     `../../brand/tokens/skill_test.tokens.json` (leia o arquivo). Hex fora da lista vira
     pendência para o gate humano — não corrija sozinho qual token o autor quis dizer.
+    **A isenção de `graficos.md`/`diagramas.md` pressupõe que o código roda com sucesso — esta
+    etapa não executa o bloco Python, só lê o texto.** Quem confirma que o import de fato
+    resolve é o autor, ao rodar o código antes de aprovar a figura no gate humano; se o
+    caminho do token estiver quebrado, o erro aparece ali, não aqui.
 
 11. **Gate de Tufte — checagem mecânica.** Para cada bloco de código em `graficos.md`/
     `diagramas.md`: `rangemode="tozero"` presente (ou exceção justificada por escrito no

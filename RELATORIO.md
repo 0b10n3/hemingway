@@ -254,3 +254,77 @@ ausente ficaram no backlog, fora do escopo desta revisão.
 removeu um entregável de primeiro nível (a lista de entregáveis do README já incluía `capa.md`
 desde a Fase 3 da `auditoria-2026`); as mudanças desta revisão são internas às skills
 (`prompts-visuais`, `revisao-editorial`) e já estão documentadas em `pesquisa/frente-e-visuais/`.
+
+## Acréscimo — auditoria de sistema, escopo amplo (`chore/auditoria-sistema`, 2026-08-31)
+
+Terceira rodada de auditoria, motivada pelos mesmos três posts publicados servindo agora de
+material real para os cinco testes que este relatório registrava como bloqueados no bootstrap
+("Resultado dos 9 testes de validação" acima). Escopo amplo (7 skills, 5 agentes, pipeline
+ponta a ponta, higiene de git, repo público) — não redesenha o processo de visuais, que tinha
+acabado de passar por revisão dedicada (`frente-e-visuais`, acima). Processo documentado em
+`pesquisa/auditoria-sistema/00-diagnostico.md` e `01-proposta.md`.
+
+**Disparo por frase natural, gênero e sobreposição de agentes:** todos confirmados corretos
+contra os 3 posts reais, sem achado. **`confianca_global`:** reavaliado e mantido em `media`
+— contagem real do corpus é 3 posts / 5.936 palavras publicadas em git (5.936 = 1.836 + 1.229
++ 2.871), contra o gatilho de "~8 posts / ~10.000 palavras" já citado acima nesta seção —
+faltam ~4-5 posts e ~4.000-4.900 palavras, não é o momento de reavaliar.
+
+**Achado real, fora da lista de testes bloqueados:** o post `2026-08-10-o-mundo-invertido-dos-investimentos`
+tinha passado pelas 11 etapas e sido aprovado no gate humano, mas foi publicado na Substack
+fora do fluxo `/publicar` — nunca mergeado em `main`, nunca tageado. Registrado retroativamente
+nesta rodada: merge `--no-ff` da branch `post/2026-08-10-...` em `main` e tag
+`publicado/2026-08-10-o-mundo-invertido-dos-investimentos`, sem alterar nenhum conteúdo já
+escrito — só faz o git refletir o que já era público. Havia também um `git stash` órfão
+associado (re-render de `graf-01.svg` com IDs internos aleatórios, sem mudança de conteúdo) —
+descartado após revisão confirmar que não tinha valor. Consequência: **existem 4 posts reais
+publicados, não 3** (5.936 + 1.414 palavras do post de 08-10, contadas por `wc -w` em
+`post.md` = 7.350 no total — corpus maior do que a contagem usada acima para
+`confianca_global` sugere; a contagem oficial de "posts de Substack" para efeito do gatilho de
+`forja-de-voz` deveria considerar os 4).
+
+**Reprodutibilidade de gráficos:** rodado de fato (não só relido) — confirma o achado já
+registrado na Fase A da `frente-e-visuais` acima (`marca/tokens.json` removido, dois posts
+ainda o importam). **Escopo revisado depois do merge retroativo do post de 08-10:** o
+`graf-01.py` desse post também importa `marca/tokens.json` e quebra do mesmo jeito (testado
+de fato, `FileNotFoundError` reproduzido após o merge) — são **3 dos 4 posts reais afetados**,
+não 2 de 3 como a contagem de antes do merge sugeria. Achado adicional: o item 10 de
+`revisao-editorial/SKILL.md` isentava
+`graficos.md`/`diagramas.md` da checagem de paleta por assumir execução bem-sucedida em
+runtime, sem que nenhuma etapa do pipeline testasse isso mecanicamente — corrigido nesta
+rodada com uma frase explícita de que a garantia depende do autor rodar o código antes do
+gate humano, não de checagem automática desta etapa.
+
+**Higiene de git:** duas figuras (`ilu-01.jpg`/`.png`) do post de 2026-08-14 estavam untracked
+desde a publicação — commitadas nesta rodada, mantendo os dois formatos (decisão do autor,
+diferente da prática de `08-17` de versionar um único formato). Branches `post/<slug>`
+confirmadas preservadas para os 4 posts (nenhuma apagada). `.gitignore` testado por execução
+real (`git check-ignore`), cobertura confirmada.
+
+**Repo público:** confirmado via `gh repo view` (`0b10n3/hemingway`, público) — decisão
+consciente já registrada acima (`REPO_PRIVADO = não`). E-mail do autor
+(`silvasmath@gmail.com`) já exposto em todo commit do histórico; confirmado com o autor que o
+endereço é intencional, sem mudança de `git config`. Nome completo do autor e do orientador de
+mestrado em `_arquivo/MANIFESTO.md`, já público — confirmado com o autor que a exposição é
+aceitável, coerente com a decisão de repo público. Nenhum CPF/RG real encontrado nos posts
+(só menções genéricas à regra do FGC). `main` local estava 13 commits à frente de
+`origin/main` (só sistema/processo) — dado `push`ado logo após a Fase A, a pedido do autor.
+
+**O que fica `[VERIFICAR]` ou depende de trabalho futuro, sem esconder:**
+- O post de 2026-08-10 carrega desde a aprovação um `[VERIFICAR]` sobre o percentual do SPIVA
+  (bloqueio de acesso HTTP à fonte primária, corroborado por duas fontes jornalísticas
+  independentes) — o registro retroativo em git não resolve isso, só documenta o que já foi
+  aprovado assim no gate humano na época.
+- A correção do item 10 de `revisao-editorial` é documental, não mecânica — o pipeline ainda
+  não executa o código de `graficos.md`/`diagramas.md` como parte de nenhuma etapa
+  automatizada. Automatizar essa execução seria mudança de comportamento do pipeline, fora do
+  escopo desta rodada (que não redesenha o processo de visuais).
+- `marca/tokens.json` continua morto nos dois posts publicados antes de 31/08 — política já
+  fixada (`CLAUDE.md`: "a correção vale só daqui pra frente") não foi reaberta aqui.
+- Teste de ponta a ponta com transcrição genuinamente nova continua bloqueado por falta de
+  matéria-prima — as 4 transcrições existentes já foram todas processadas.
+
+`CLAUDE.md` e `README.md` não precisaram de diff nesta rodada pelo mesmo critério já aplicado
+na revisão anterior (nenhuma mudança criou ou removeu entregável de primeiro nível) — a
+mudança em `revisao-editorial/SKILL.md` é mecanismo interno de skill, já documentada em
+`pesquisa/auditoria-sistema/`.
