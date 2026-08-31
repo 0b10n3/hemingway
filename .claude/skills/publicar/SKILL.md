@@ -27,7 +27,11 @@ atalho para pular o gate humano.
 
 4. **Tag:** `git tag publicado/AAAA-MM-DD-<slug>`.
 
-5. **Push:** `git push origin main --follow-tags`.
+5. **Push:** `git push origin main publicado/AAAA-MM-DD-<slug>`. **Não use só
+   `--follow-tags`** — a tag é leve (`git tag` sem `-a`), e `--follow-tags` só envia tags
+   *anotadas*; sem nomear a tag explicitamente no push, ela fica só local (achado real: as
+   tags de 3 dos 4 posts publicados até 2026-08-31 nunca chegaram ao remoto até essa auditoria
+   corrigir manualmente).
 
 6. **Reporta a URL do commit** no repositório remoto (`REPO` do `CLAUDE.md`/config) para o
    autor colar diretamente na Substack.

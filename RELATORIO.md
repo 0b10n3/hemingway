@@ -310,6 +310,16 @@ aceitável, coerente com a decisão de repo público. Nenhum CPF/RG real encontr
 (só menções genéricas à regra do FGC). `main` local estava 13 commits à frente de
 `origin/main` (só sistema/processo) — dado `push`ado logo após a Fase A, a pedido do autor.
 
+**Achado real, descoberto só ao testar o push de fato (não a leitura da skill):** as tags
+`publicado/*` são leves (`git tag` sem `-a`); `git push origin main --follow-tags`
+(`publicar/SKILL.md` passo 5) só envia tags *anotadas* — nunca enviou a tag do post sendo
+publicado. Só a tag de `2026-08-17` estava no remoto antes desta auditoria; as de `08-10`,
+`08-14` e `08-25` existiam só localmente. Corrigido nesta rodada: as 3 tags faltantes foram
+empurradas manualmente (`git push origin <tag>`, sem forçar nem reescrever nada — só
+publicando uma referência que já existia local e apontava para conteúdo já público via
+`main`), e o passo 5 de `publicar/SKILL.md` passou a nomear a tag explicitamente no push, para
+que isso não se repita no próximo post.
+
 **O que fica `[VERIFICAR]` ou depende de trabalho futuro, sem esconder:**
 - O post de 2026-08-10 carrega desde a aprovação um `[VERIFICAR]` sobre o percentual do SPIVA
   (bloqueio de acesso HTTP à fonte primária, corroborado por duas fontes jornalísticas
