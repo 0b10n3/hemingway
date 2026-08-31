@@ -43,19 +43,31 @@ editorial.
 ```
 _arquivo/          originais imutáveis: áudios, transcrições, amostras, MANIFESTO.md
 estilo/            guia de voz e seus derivados (estilo-autoral.md é a fonte única)
-marca/             tokens.json — design tokens "O Sinal no Escuro" (fonte única de cor/tipografia)
 pesquisa/          resumos das frentes de pesquisa (Claude Code, estilometria, editoração, antipadrões IA)
 posts/<slug>/      post.md, ilustracoes.md, graficos.md (entregáveis) + processo/ (rascunho de etapas)
 .claude/skills/    skills de referência e de tarefa
 .claude/agents/    subagentes de trabalho isolado (leitura pesada, pesquisa, crítica, verificação)
 ```
 
+**Nota de 31/08/2026:** este repo não mantém mais cópia própria de design tokens. A pasta
+`marca/` (que tinha `tokens.json` do sistema "O Sinal no Escuro" v2.1) foi removida —
+`../../brand/DESIGN.md` v2.0 é o sucessor declarado desse sistema e passa a ser a fonte
+única de identidade visual para todo o ecossistema Syntaxis, não só para este repo. Nenhum
+gráfico ou ilustração já publicado foi regenerado — a correção vale só daqui para frente
+(ver `.claude/skills/marca-syntaxis/SKILL.md`).
+
 ## Fonte única de cada coisa
 
 - **Voz autoral:** `estilo/estilo-autoral.md` (legível) + `estilo/voz.fingerprint.json`
   (verificável por máquina). Toda skill que escreve texto aponta para cá — nunca duplica regra.
-- **Marca/design tokens:** `marca/tokens.json`. Todo código Plotly em `graficos.md` importa
-  daqui em vez de repetir cor literal.
+  **Distinção importante:** isto é a voz autoral pessoal de quem escreve o Substack, não a
+  voz de marca/produto da Syntaxis — ver `../../brand/DESIGN.md` §3, que trata de tom em
+  copy/curso/produto, não da prosa ensaística de um autor específico. Os dois documentos
+  coexistem porque descrevem coisas diferentes; nenhum substitui o outro.
+- **Marca/design tokens:** `../../brand/DESIGN.md` (regras) +
+  `../../brand/tokens/skill_test.tokens.json` (valores exatos, formato DTCG) — referenciados
+  por caminho relativo, nunca copiados para dentro deste repo. Todo código Plotly em
+  `graficos.md` novo lê esses arquivos em vez de repetir cor literal.
 - **Público e estratégia comercial:** `_arquivo/MARKETING_REVIEW.md`.
 - **Antipadrões de texto gerado por IA em pt-BR:** `pesquisa/frente-d-antipadroes-ia-ptbr.md`.
 

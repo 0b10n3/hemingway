@@ -182,8 +182,6 @@ estilo/             o guia de voz e seus derivados
   ├─ corpus-manifest.json  hash de cada amostra usada
   └─ scripts/metricas.py   camada quantitativa (roda com `python3`)
 
-marca/tokens.json  design tokens (cores, tipografia) — fonte única para prompts e gráficos
-
 pesquisa/           material de apoio (estilometria, editoração, antipadrões de IA em pt-BR)
 
 posts/<slug>/       um post publicado ou em andamento

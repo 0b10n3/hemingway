@@ -9,7 +9,9 @@ allowed-tools: Read Write Edit Glob Grep Bash(python3 *)
 Lê `posts/<slug>/processo/02-estrutura.md` (onde cada `ilu-NN`/`graf-NN` foi decidido e por
 quê) e `posts/<slug>/04-draft-v1.md` ou o draft mais recente em `processo/`, e produz os dois
 entregáveis visuais. Usa `marca-syntaxis` para paleta/tipografia — leia
-`marca/tokens.json` antes de escrever qualquer prompt ou código.
+`../../../../../brand/DESIGN.md` e `../../../../../brand/tokens/skill_test.tokens.json` antes de escrever
+qualquer prompt ou código (ver nota de 31/08/2026 em `marca-syntaxis/SKILL.md`: posts
+publicados antes dessa data usam o sistema anterior e não são referência para trabalho novo).
 
 ## `ilustracoes.md`
 
@@ -17,9 +19,10 @@ Um bloco por `ilu-NN`:
 
 - Onde entra no texto e que ideia carrega (referencie o parágrafo/seção de `post.md`).
 - Prompt completo para `GERADOR_IMAGEM` (Google Nano Banana Pro), com a identidade de marca
-  embutida: paleta de `marca/tokens.json` (cite os hex/oklch relevantes por nome do token,
-  ex. "fundo obsidian #0A0F0D"), tipografia se aplicável, a regra do elemento iluminado
-  (contraste entre fundo escuro e um elemento na cor `volt`), proporção e resolução.
+  embutida: paleta de `../../../../../brand/tokens/skill_test.tokens.json` (cite os hex relevantes por
+  nome do token, ex. "fundo Deep Forest #0F3D27"), tipografia se aplicável, a regra do "sinal
+  no escuro" (contraste entre fundo escuro — Deep Forest ou Ink — e um elemento em `Lime`,
+  o único acento de ação/conquista do sistema), proporção e resolução.
   Escreva o prompt em inglês se o gerador responde melhor assim, mas sempre com uma nota de
   contexto em português logo abaixo — quem relê esse arquivo depois é o autor, não o gerador.
 - *Negative prompt*.
@@ -40,10 +43,11 @@ Um bloco por `graf-NN`:
 - **Dados** salvos em `posts/<slug>/graficos/dados/graf-NN.csv`, versionados junto — um
   gráfico cujo dado não está no repositório não é reproduzível seis meses depois.
 - **Código Plotly executável**, em bloco ` ```python `, autocontido: lê o CSV ao lado por
-  caminho relativo, aplica os tokens de `marca/tokens.json` (leia o JSON em runtime ou copie
-  os hex exatos com comentário apontando a origem — nunca hardcode cor fora do tokens.json),
-  exporta para `posts/<slug>/figuras/graf-NN.svg` e `.png`. Cada bloco roda sozinho, sem
-  preâmbulo — teste com `python3` antes de considerar a etapa concluída.
+  caminho relativo, aplica os tokens de `../../../../../brand/tokens/skill_test.tokens.json` (leia o
+  JSON em runtime ou copie os valores `$value` exatos com comentário apontando a origem —
+  nunca hardcode cor fora do tokens.json), exporta para `posts/<slug>/figuras/graf-NN.svg` e
+  `.png`. Cada bloco roda sozinho, sem preâmbulo — teste com `python3` antes de considerar a
+  etapa concluída.
 - **Escolha de tipo de gráfico justificada** em uma linha, e o que foi descartado.
 - **Alt-text e legenda.**
 - **Anotação**: todo ponto de interesse tem `add_annotation` apontando para ele (ver
