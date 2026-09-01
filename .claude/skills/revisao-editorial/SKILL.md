@@ -68,6 +68,15 @@ que olha as três juntas.
     resolve é o autor, ao rodar o código antes de aprovar a figura no gate humano; se o
     caminho do token estiver quebrado, o erro aparece ali, não aqui.
 
+    **Checagem do pixel, não só do prompt, para `ilu-NN`/capa já geradas.** O grep acima
+    audita o texto do prompt — confirma que ele só cita hex autorizado, não que a imagem que o
+    gerador devolveu de fato saiu com essa cor (geradores de imagem podem não aderir 100% ao
+    prompt). Para toda peça que já tiver PNG salvo em `posts/<slug>/figuras/` (não peças ainda
+    em estágio de prompt), rode a checagem mecânica de
+    `.claude/skills/prompts-visuais/references/checagem-paleta.md` contra o token de marca.
+    Cor fora da tolerância vira pendência para o gate humano, no mesmo padrão do grep de texto
+    — não corrija a imagem sozinho.
+
 11. **Gate de Tufte — checagem mecânica.** Para cada bloco de código em `graficos.md`/
     `diagramas.md`: `rangemode="tozero"` presente (ou exceção justificada por escrito no
     spec)? Nenhuma menção a `3d`, sombra (`shadow` fora de `shadow.syntaxis*`), textura ou
