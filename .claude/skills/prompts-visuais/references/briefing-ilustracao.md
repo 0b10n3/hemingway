@@ -41,6 +41,29 @@ escolheu. Cite literal, entre aspas.
 **Se a Camada 1 existe e a peça não a usa, o briefing precisa justificar por escrito por quê.**
 Não é proibido divergir — é proibido divergir por distração.
 
+### Sugestão de visual pronta: um caso especial da Camada 1
+
+Às vezes o rascunho não traz só metáfora de texto — traz uma ideia de imagem já pronta,
+marcada explicitamente (`[CAPA: ...]` ou equivalente) ou solta no corpo, classificada como
+"sugestão de visual" no inventário de marcadores da etapa 0
+(`.claude/skills/post-substack/SKILL.md`, "Etapa 0"). Isso não é a mesma coisa que uma
+analogia de texto — é uma proposta de composição inteira, e merece um contrato próprio: o
+Passo 6 (Escolha e defesa) é obrigado a fechar com uma seção **"Proveniência"** relatando qual
+das três saídas foi aplicada:
+
+1. **Aproveitar a estrutura** — extrai a lógica da sugestão e descarta a referência literal
+   quando ela violar regra de marca ou propriedade intelectual (ver "Referência de cultura
+   pop" abaixo). Caso real: o post `2026-09-01-quando-os-modelos-se-rebelam` recebeu a
+   sugestão "uma rebelia de máquinas humanoides como nos filmes de Terminator" para a capa —
+   a referência foi descartada (propriedade de terceiros, incompatível com colagem editorial),
+   mas a estrutura ("uma ferramenta que se volta contra quem a construiu") foi levada adiante e
+   invertida (Operação de Torção) para "uma ferramenta que nunca decide nada, e é essa
+   obediência cega que produz o desastre".
+2. **Aproveitar literalmente** — a sugestão já cabe nas regras de estilo e marca sem ajuste;
+   registre por que não havia conflito a resolver.
+3. **Descartar** — com motivo por escrito (contradiz a linha editorial, força um clichê,
+   reprova em algum teste de rejeição do Passo 5). Nunca descarte em silêncio.
+
 ### Camada 2 — objetos concretos do texto
 
 O que dá para desenhar e está lá: quadro, livro, balcão, porta, cadeira, sumário, contrato.
@@ -67,6 +90,13 @@ errado ou o conceito está.
 
 Aqui é onde a peça deixa de ser correta e passa a ser boa. Rode as três sobre o material da
 Camada 1. Cada uma gera pelo menos um conceito.
+
+**Quando a Camada 1 é uma sugestão de visual pronta** (ver seção acima), as três operações não
+bastam sozinhas: rode-as sobre a sugestão **e**, à parte, gere pelo menos um conceito
+independente que não parta dela — usando só Camada 2/3 como semente. O Passo 6 compara os dois
+lados e registra qual venceu e por quê. Isso não é desconfiança da ideia do autor: é a mesma
+disciplina que a etapa 5 já aplica ao draft de texto — testar contra alternativa antes de
+aceitar de primeira. Sem sugestão pronta, nada muda: o método já é gerativo por padrão.
 
 ### Operação A — Extensão: leve a metáfora além de onde o texto parou
 
@@ -145,7 +175,9 @@ Filtros, aplicados **depois** de gerar. Reprovou em um, morreu — anote por qu�
 
 Registre o conceito escolhido, a operação que o gerou (extensão / cruzamento / torção), a
 estrutura de metáfora visual usada (justaposição / fusão / substituição — Forceville; Phillips
-& McQuarrie) e **por que os outros perderam**.
+& McQuarrie) e **por que os outros perderam**. Se a Camada 1 era uma sugestão de visual pronta,
+esta é a seção que também leva a **"Proveniência"** (ver acima) e a comparação contra o
+conceito independente gerado no Passo 3.
 
 | Estrutura | Como funciona | Verbaliza como |
 |---|---|---|
