@@ -43,11 +43,11 @@ cortar (ver `pesquisa/frente-c-editoracao.md`).
 
 | # | Etapa | Executor | Saída em `posts/<slug>/processo/` |
 |---|---|---|---|
-| 0 | Ingestão | principal | `00-transcricao.md` — cópia limpa (hesitação removida, palavras do autor preservadas). A crua fica intocada em `_arquivo/` |
-| 1 | Briefing | principal + `voz-syntaxis` + `marca-syntaxis` | `01-briefing.md` — tese em uma frase; gancho escolhido (cena, dado ou pergunta que abre o texto — não é a mesma coisa que a tese); analogias usadas no áudio (preservar, são do autor); encaixe no funil (`_arquivo/MARKETING_REVIEW.md` §5); qual voz (§4 do guia — ensaística ou explicativa); **qual linha editorial** (ver abaixo) |
+| 0 | Ingestão | principal | `00-transcricao.md` — cópia limpa (hesitação removida, palavras do autor preservadas) **e** inventário de marcadores do rascunho, se houver (ver "Etapa 0" abaixo). A crua fica intocada em `_arquivo/` |
+| 1 | Briefing | principal + `voz-syntaxis` + `marca-syntaxis` | `01-briefing.md` — tese em uma frase; gancho escolhido (cena, dado ou pergunta que abre o texto — não é a mesma coisa que a tese); analogias usadas no áudio (preservar, são do autor); encaixe no funil (`_arquivo/MARKETING_REVIEW.md` §5); qual voz (§4 do guia — ensaística ou explicativa); **qual linha editorial** (ver abaixo); resolução de todo marcador **estrutural** e **nota de conteúdo** do inventário da etapa 0 (ver "Etapa 0" abaixo) |
 | 2 | Estrutura | principal | `02-estrutura.md` — subtítulos; o que cada seção prova; em qual ato do arco cada seção entra (setup/conflito/resolução, ou a versão completa — ver `.claude/skills/revisao-editorial/references/tecnicas-narrativas.md`); confirmação de que dado, narrativa e visual (os três pilares) estão cada um representados em pelo menos uma seção; onde entra `ilu-NN`/`graf-NN`/`diag-NN`/`info-NN` e por quê, pelo critério da seção "Etapa 2" abaixo; o que fica de fora |
 | 3 | Pesquisa | agente `pesquisador-editorial` | `03-pesquisa.md` com fontes — tratamento do tema, dados, contrapontos |
-| 4 | Draft | principal, com `voz-syntaxis` | `04-draft-v1.md` |
+| 4 | Draft | principal, com `voz-syntaxis` | `04-draft-v1.md` — toda **instrução de escrita** do inventário da etapa 0 aparece atendida, com nota lateral de como (ver "Etapa 0" abaixo) |
 | 5 | Crítica estrutural | agente `critico-editorial` | `05-critica.md` — diagnóstico com severidade por item, não reescreve |
 | 6 | Linha e norma | agente `revisor-gramatical` | `06-revisao.md` — diff comentado, não toca estrutura |
 | 7 | Verificação técnica | agente `verificador-tecnico` | `07-verificacao.md` — veredito por item, fórmulas recalculadas |
@@ -62,6 +62,36 @@ não vale perder).
 **Se a etapa 5 devolver severidade alta** (tese frágil, seção que não prova o que promete),
 volte à etapa 2 antes de seguir, e avise o autor — não maqueie problema estrutural na etapa 6.
 
+## Etapa 0 — o arquivo de origem é rascunho, não transcrição
+
+O arquivo em `_arquivo/transcricoes/` nem sempre é fala de áudio limpa de hesitação — pode ser
+um rascunho escrito pelo autor, com instruções para o próprio processo embutidas no texto
+(caso real: `2026-09-01-quando-os-modelos-se-rebelam`, que já chegou com
+`[LINHA EDITORIAL: Spoiler]`, `[CAPA: ...]` e notas como `[escrever um parágrafo sobre X]`).
+Colchetes, ou qualquer outra marca visivelmente fora da prosa corrida, não são fala a limpar —
+são ordem de serviço para o pipeline. A etapa 0 é a única que lê o arquivo cru inteiro, então é
+dela a responsabilidade de não deixar nenhuma se perder.
+
+Além da cópia limpa de sempre, `00-transcricao.md` ganha uma seção final **"Marcadores
+extraídos do rascunho"** (vazia se o arquivo não tiver nenhum): cada marcador citado verbatim,
+classificado por um destes quatro padrões observados no corpus real — não é taxonomia fechada
+nem sintaxe obrigatória para o autor, é reconhecimento rápido do que já apareceu:
+
+- **Estrutural** — decide algo do pipeline (`[LINHA EDITORIAL: ...]`). Resolvido na etapa 1.
+- **Sugestão de visual** — ideia de capa ou ilustração, marcada (`[CAPA: ...]`) ou solta no
+  corpo do texto sem marcador formal. Resolvida na etapa 8
+  (`prompts-visuais/references/briefing-ilustracao.md`).
+- **Instrução de escrita** — pede um trecho novo ou revisão de um existente
+  (`[escrever um parágrafo sobre X]`, `[tentar reescrever o parágrafo acima]`). Resolvida na
+  etapa 4.
+- **Nota de conteúdo** — dado, fonte ou ressalva que o autor quer garantir que apareça, sem
+  ditar a frase. Resolvida na etapa 1 ou 7, conforme o caso.
+
+Cada marcador tem um campo "resolução", vazio nesta etapa e preenchido pela etapa que o
+resolve. Nenhum marcador desaparece silenciosamente entre etapas: se a etapa responsável não
+achar solução, ele vira tensão registrada como pergunta nomeada (ver Etapa 1 abaixo) — nunca é
+descartado sem registro escrito de por quê.
+
 ## Etapa 1 — linha editorial é campo obrigatório
 
 A Substack tem duas linhas (`PROJECT_DESCRIPTION.md` §Linhas Editoriais):
@@ -73,6 +103,17 @@ O briefing declara a linha em uma seção própria (`## Linha editorial`), e ela
 separada da voz**: já houve post em voz ensaística que não era Spoiler
 (`2026-08-25-dividir-para-nao-correr-risco`). Quando o texto não couber claramente em nenhuma
 das duas, **registre a ambiguidade e leve ao gate humano (etapa 10)** — não decida sozinho.
+
+**"Levar ao gate humano" significa uma pergunta nomeada, não uma frase dissolvida numa lista.**
+Todo marcador **estrutural** ou **nota de conteúdo** do inventário da etapa 0 (ver acima) que
+não tiver resolução clara nesta etapa vira, aqui, uma tensão registrada com essa mesma
+exigência: um rótulo curto e uma pergunta do tipo "A ou B?" que a etapa 10 apresenta ao autor
+separada de qualquer `[VERIFICAR]` técnico — nunca misturada na mesma lista de pendências. Foi
+exatamente isso que faltou no post `2026-09-01-quando-os-modelos-se-rebelam`: a tensão entre a
+linha "Spoiler" que o autor já havia declarado no rascunho e o assunto do texto (mais próximo,
+pelo critério literal, de "Notas de um Professor") foi registrada em prosa no briefing e
+acabou aprovada por inércia — carregada como item de uma lista de pendências genéricas até a
+etapa 10, sem nunca virar, de fato, uma pergunta que alguém respondesse.
 
 A linha escolhida vai para o frontmatter de `post.md` como `linha_editorial:` na etapa 9, e é
 o que determina o **estilo artístico das ilustrações** na etapa 8
@@ -121,6 +162,11 @@ Use `AskUserQuestion` com três saídas: **aprovar e publicar**, **ajustar**, **
 Antes do `AskUserQuestion`, apresente também o **inventário visual do post**: status da capa
 (gerada/pendente) e a lista de `ilu-NN`/`graf-NN`/`diag-NN`/`info-NN` com tipo e status — o
 autor decide com o inventário completo à vista, não só com o texto.
+
+**Toda tensão estrutural registrada na etapa 1** (ver "Etapa 1" acima) aparece aqui como
+pergunta própria, com rótulo (ex.: "Tensão — linha editorial") — nunca dissolvida dentro da
+lista de `[VERIFICAR]` técnicos ou do inventário visual. Se houver mais de uma tensão, cada
+uma vira uma pergunta separada; não resuma várias em uma só.
 
 ## Os entregáveis (etapa 9, na raiz de `posts/<slug>/`)
 
