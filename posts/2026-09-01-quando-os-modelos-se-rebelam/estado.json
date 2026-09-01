@@ -1,0 +1,14 @@
+{
+  "etapa_atual": 10,
+  "loops_consumidos": 0,
+  "aprovacoes": [
+    "2026-08-31: aprovado para publicação no gate humano. Pendências mantidas em aberto: [VERIFICAR] da citação de Kempthorne (abertura) e [VERIFICAR] do volume ~US$35bi do target forward 2008, ambos visíveis em post.md; tensão sobre linha editorial (Spoiler vs. Notas de um Professor) registrada mas não resolvida — autor optou por manter Spoiler. Capa e ilu-01 seguem como prompt, não geradas (sem acesso ao Nano Banana Pro nesta sessão) — publicação real depende de gerar essas duas peças antes de rodar /publicar."
+  ],
+  "pendencias": [
+    "linha editorial 'Spoiler' declarada pelo autor no arquivo de origem, mas o assunto (modelagem financeira, sem narrativa de carreira) se encaixaria melhor, pelo critério literal, em 'Notas de um Professor' — decisão do autor mantida, tensão registrada em 01-briefing.md para confirmação no gate humano (etapa 10)",
+    "[VERIFICAR] visível em post.md: citação de Kempthorne na abertura não confirmada contra fonte primária — a aula de 2013 citada é, segundo o MIT OCW, ministrada por Choongbum Lee, não por Kempthorne; ver 07-verificacao.md para o que já foi checado e a recomendação de reescrever sem citação literal atribuída, se o autor preferir",
+    "[VERIFICAR] visível em post.md: volume total de ~US$35bi em operações 'target forward' no Brasil em 2008 segue sem fonte primária/regulatória — só consenso de imprensa/acadêmico",
+    "publicação requer /publicar manual (disable-model-invocation: true de propósito) — merge, tag e push não são disparados automaticamente pelo pipeline"
+  ],
+  "commit_inicial": "2240590"
+}
