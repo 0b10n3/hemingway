@@ -1,7 +1,10 @@
 {
-  "etapa_atual": 0,
+  "etapa_atual": 1,
   "loops_consumidos": 0,
   "aprovacoes": [],
-  "pendencias": [],
+  "pendencias": [
+    "linha editorial 'Spoiler' declarada pelo autor no arquivo de origem, mas o assunto (modelagem financeira, sem narrativa de carreira) se encaixaria melhor, pelo critério literal, em 'Notas de um Professor' — decisão do autor mantida, tensão registrada em 01-briefing.md para confirmação no gate humano (etapa 10)",
+    "draft (etapa 4) precisa resolver duas notas do autor entre colchetes na transcrição: parágrafo faltante sobre o que é Black-Scholes (seção 3) e reescrita do parágrafo de fechamento sobre 'existem teorias em finanças'"
+  ],
   "commit_inicial": "2240590"
 }
