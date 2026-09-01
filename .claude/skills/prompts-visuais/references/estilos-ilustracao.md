@@ -104,6 +104,30 @@ imperfeito porque a experiência foi.
 Não force objeto literal. Colagem aceita forma geométrica pura (círculo recortado, faixa,
 escada de papel) — o material é que carrega o registro, não o motivo.
 
+### Técnicas compositivas adicionais, avaliadas contra a marca
+
+O vocabulário acima é de **material** (papel, corte, retícula, desalinho). Colagem editorial
+tem também um repertório de **composição** — como os objetos da cena se relacionam entre si —
+que a taxonomia de Olga Tkachenko, ["10 Collage Approaches You're About to Use and Get
+Inspired by"](https://medium.muz.li/10-collage-approaches-youre-about-to-use-and-get-inspired-by-5c45bcb1aba4)
+(Muzli/Medium), cataloga bem. Três das dez abordagens já existem no sistema com nome próprio
+— **pareamento de dois objetos** é a "Fusão", **substituição de partes** é a "Substituição",
+e **composição de até dois objetos com uso ativo do vazio** é "O vazio carrega peso" (ambas em
+`briefing-ilustracao.md`). As demais foram avaliadas uma a uma, com o mesmo critério que o
+Estilo B já aplica aos seus próprios candidatos descartados:
+
+| Abordagem | Veredito | Por quê |
+|---|---|---|
+| Multiplicação/fragmentação de um objeto | **Adotar, com limite** | Serve quando o argumento *é* repetição, escala ou padrão sistêmico (ex.: efeito em cascata). Fora desse caso, conflita com "Uma ideia, uma família de objetos" (`briefing-ilustracao.md`) — usar só quando a multiplicação carrega o argumento, nunca como decoração |
+| Objeto reconhecível como dispositivo de escala | **Adotar** | Já compatível com "Estranhamento de objeto comum" (`briefing-ilustracao.md`) — só nomeia um uso específico da regra que já existe |
+| Composição suprematista harmonizada | **Adotar, nomear** | Já permitida implicitamente em "Quando o assunto é abstrato" acima; a mudança é dar critério explícito de harmonização (poucas formas geométricas, relação de peso e eixo clara), em vez de deixar em aberto |
+| Colagem com traço desenhado à mão | **Rejeitar** | Introduz variação caligráfica; conflita com a geometria reta e o traço de espessura constante que já separam este estilo do Estilo B |
+| Caos deliberado, influência Dada | **Rejeitar** | Já explicitamente descartado acima — "isso é o que separa esta colagem de colagem bagunçada genérica" |
+
+**Proveniência cultural:** mesma regra de "Referência de cultura pop" de
+`briefing-ilustracao.md` — da fonte externa se extrai a abordagem compositiva, nunca um
+exemplo visual específico de um artista vivo a copiar. A tabela acima já é essa extração.
+
 ---
 
 ## Estilo B — Notas de um Professor: desenho técnico esquemático
