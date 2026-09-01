@@ -1,11 +1,12 @@
 {
-  "etapa_atual": 3,
+  "etapa_atual": 4,
   "loops_consumidos": 0,
   "aprovacoes": [],
   "pendencias": [
     "linha editorial 'Spoiler' declarada pelo autor no arquivo de origem, mas o assunto (modelagem financeira, sem narrativa de carreira) se encaixaria melhor, pelo critério literal, em 'Notas de um Professor' — decisão do autor mantida, tensão registrada em 01-briefing.md para confirmação no gate humano (etapa 10)",
-    "draft (etapa 4) precisa resolver duas notas do autor entre colchetes na transcrição: parágrafo faltante sobre o que é Black-Scholes (seção 3) e reescrita do parágrafo de fechamento sobre 'existem teorias em finanças'",
-    "verificação técnica (etapa 7) precisa fechar 4 pontos da pesquisa: citação de Kempthorne não confirmada textualmente (só localizada a aula certa); London Whale '44%' não 'pela metade'; Sadia R$2,55bi é despesa financeira, não prejuízo líquido (R$2,48bi) — decidir qual citar; LTCM nocional US$1,25tri confirmado só por fonte secundária, não pelo relatório primário (President's Working Group)"
+    "draft (etapa 4) resolveu as duas notas do autor entre colchetes: parágrafo sobre o que é Black-Scholes (seção 3) escrito; fechamento sobre 'existem teorias em finanças' reescrito ecoando a nuance da seção 1",
+    "draft (etapa 4) já aplicou 2 das 4 correções da pesquisa: London Whale citado como '~44%' (não 'pela metade'), Sadia distinguindo despesa financeira (R$2,55bi) de prejuízo líquido (R$2,48bi)",
+    "verificação técnica (etapa 7) ainda precisa fechar 2 pontos: citação de Kempthorne não confirmada textualmente (só localizada a aula certa, 18.S096/18.642 Lecture 3); LTCM nocional US$1,25tri confirmado só por fonte secundária, não pelo relatório primário (President's Working Group) — abrir o PDF antes de publicar a cifra exata"
   ],
   "commit_inicial": "2240590"
 }
