@@ -70,8 +70,9 @@ autor (seção 3 e Fechamento) ficam pendentes para a etapa 4.
 - **Candidato considerado e descartado — retrato de Fischer Black, Myron Scholes ou Robert
   Merton:** desde a unificação de estilo e a revisão da regra de figura humana
   (`estilos-ilustracao.md`, "Figuras históricas e públicas"), um retrato seria tecnicamente
-  permitido — Fischer Black (falecido em 1995, citado pelo nome na seção 3) cairia na Faixa 1,
-  sem pergunta ao autor; Scholes ou Merton (nomeados aqui, um deles vivo) cairiam na Faixa 2,
+  permitido — Fischer Black (falecido em 30/08/1995, citado pelo nome na seção 3) cairia na Faixa 1,
+  sem pergunta ao autor; Scholes e Merton (nomeados aqui, ambos vivos em 2026 — confirmado em
+  `03-pesquisa.md`) cairiam na Faixa 2,
   exigindo pergunta nomeada no gate humano. Testei a ideia contra o critério de
   `briefing-ilustracao.md` (Passo 4/5) e descartei: nenhum dos três nomes carrega, sozinho, o
   argumento desta seção — o ponto não é "quem eram", é o mecanismo do colapso (o ciclo que já
