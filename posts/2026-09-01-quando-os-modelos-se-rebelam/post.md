@@ -7,17 +7,15 @@ tags: [Modelagem Financeira, Risco, Derivativos, LTCM]
 status: rascunho
 ---
 
-Numa aula de probabilidade a que assisti no MIT OpenCourseWare (o repositório de aulas e
-cursos que o MIT disponibiliza gratuitamente), um dos professores diz, numa explicação sobre a
-ideia de retorno à média:
-
-> "Se você lança uma moeda 100 vezes, obtendo cara em todos os lançamentos, você deveria
-> estar considerando seriamente a possibilidade de que essa moeda tenha algum vício ou
-> defeito." [VERIFICAR: a atribuição desta fala a Peter Kempthorne não se sustentou na
-> pesquisa e na verificação desta rodada — a página oficial de recursos do MIT OCW para esta
-> aula específica (Lecture 3, Probability Theory, 18.S096) lista Choongbum Lee como instrutor,
-> não Kempthorne. Confirmar assistindo ao vídeo da aula antes de publicar; se não for possível
-> confirmar, manter só "um dos professores do curso".]
+Um dos professores do curso de matemática financeira que acompanho no MIT OpenCourseWare (o
+repositório de aulas e cursos que o MIT disponibiliza gratuitamente) costuma ilustrar a ideia
+de retorno à média com um exemplo simples: se você lança uma moeda 100 vezes e todas caem
+cara, a suspeita razoável não é que a sorte vai se equilibrar no próximo lançamento — é que a
+moeda tem vício. [VERIFICAR: este exemplo é reconstruído de memória de uma aula assistida no
+curso 18.S096/18.642, sem atribuição a um professor específico — três rodadas de pesquisa e
+verificação não conseguiram rastrear a frase original a nenhuma aula testada (Lecture 3, 6, 8,
+9, 12), incluindo a transcrição real do vídeo da Lecture 3. Confirmar a aula exata antes de
+publicar, ou manter como paráfrase sem atribuição nominal, como está.]
 
 A frase é dita no contexto de que muitas pessoas começam a esperar o retorno à média, mas
 acabam se esquecendo de que a própria média pode ter mudado.
@@ -31,10 +29,10 @@ na versão de 2013, atualizada como 18.642 em 2024) — um passeio, a passo ráp
 série de ferramentas e modelos matemáticos fundamentais em finanças.
 
 Uma má compreensão do que são modelos, de como funcionam e da importância das hipóteses que os
-fundamentam pode ser a diferença entre ser um modelador bem-sucedido ou se tornar um
+fundamentam pode ser a diferença entre ser um modelador bem-sucedido e se tornar um
 extremista frustrado diante de modelos.
 
-No texto de hoje vou tratar dessas ideias e mostrar como o desacoplamento entre modelo e
+No texto de hoje vou tratar dessas ideias e mostrar como o descolamento entre modelo e
 realidade pode levar até vencedores do Prêmio Nobel ao desastre.
 
 ## Três palavras que você usa como sinônimo e não são
@@ -43,7 +41,7 @@ Emanuel Derman é uma figura útil aqui porque conhece os dois lados da históri
 física teórica de partículas, foi para a Goldman Sachs e virou um dos nomes centrais da
 engenharia financeira, coautor do modelo de volatilidade local Derman–Kani.
 
-Em *Models. Behaving. Badly.* (2011), ele propõe uma separação que vale a pena levar a sério:
+Em *Models.Behaving.Badly.* (2011), ele propõe uma separação que vale a pena levar a sério:
 'teoria', 'modelo' e 'intuição' são três coisas diferentes.
 
 'Teoria' é a tentativa de descrever o que uma coisa é. Uma teoria bem-sucedida se torna
@@ -164,7 +162,7 @@ E é exatamente essa a premissa que o mercado brasileiro adora quebrar.
 18 de maio de 2017. Na noite anterior vaza a gravação entre Joesley Batista e o então
 presidente Michel Temer. Na abertura, o Ibovespa cai o suficiente para acionar um 'circuit
 breaker' (mecanismo que suspende o pregão por alguns minutos quando a queda passa de um
-limite).
+limite) — o primeiro desde outubro de 2008.
 
 ![Gráfico: Ibovespa cai 8,80% e o dólar sobe 8,79% entre os fechamentos de 17 e 18 de maio de 2017, sem preço no meio do caminho](graf-01)
 
@@ -190,16 +188,21 @@ passaram a aderir melhor ao modelo do que aderiam antes. O modelo não era uma c
 para o mercado; era um motor que o empurrava. Isso é reflexividade no sentido de George Soros:
 o observador é participante, e a crença coletiva no modelo altera o objeto modelado.
 
-Vale uma nota rápida sobre uma variação brasileira do mesmo problema, ainda que fora do
-universo estrito de opções. No segundo semestre de 2008, dezenas de exportadoras brasileiras
-carregavam estruturas de derivativos cambiais chamadas 'target forward', com 'payoff' (o
-resultado financeiro final) assimétrico: ganho limitado se o dólar caísse, perda alavancada e
-sem trava se ele disparasse. Enquanto o real se valorizava, a estrutura parecia hedge barato.
-Quando o dólar subiu, virou outra coisa. A Aracruz Celulose e a Sadia figuram entre os casos
-mais citados dessas perdas; a Sadia, aliás, acabou incorporada pela Perdigão — o que deu
-origem à BRF — e o volume total dessas operações no país é estimado na casa de dezenas de
-bilhões de dólares. A precificação estava errada? Não necessariamente. O que estava errado era
-chamar aquilo de hedge — e o cenário em que a premissa de câmbio comportado valia.
+Uma variação brasileira do mesmo problema apareceu fora do universo estrito de opções. No
+segundo semestre de 2008, dezenas de exportadoras brasileiras carregavam estruturas de
+derivativos cambiais chamadas 'target forward', com 'payoff' (o resultado financeiro final)
+assimétrico: ganho limitado se o dólar caísse, perda alavancada e sem trava se ele disparasse.
+Enquanto o real se valorizava, a estrutura parecia um 'hedge' barato. Quando o dólar subiu,
+virou outra coisa. A Aracruz Celulose comunicou perda de US$2,13 bilhões ao desmontar 97% da
+exposição a derivativos em novembro daquele ano; a Sadia também carregava posições em valores
+muito acima do que qualquer proteção justificaria, e acabou incorporada pela Perdigão — o que
+deu origem à BRF. Estimativas de exposição/perda do mercado brasileiro como um todo variam
+bastante conforme a metodologia e a fonte, na casa de dezenas de bilhões de dólares
+[VERIFICAR: a faixa exata (BIS ~US$25bi de perda estimada; BCB/CETIP ~US$37bi de exposição/
+delta) mede coisas possivelmente diferentes entre si — não comprimir num número único sem
+decidir qual métrica citar]. A precificação estava errada? Não necessariamente. O que estava
+errado era chamar aquilo de 'hedge' — e o cenário em que a premissa de câmbio comportado
+valia.
 
 O cometa não muda de órbita porque o astrônomo publicou.
 O mercado muda.
@@ -225,12 +228,13 @@ bilhões, é preciso alavancagem. Muita alavancagem.
 
 No fim de 1997, confiante nas próprias métricas, o fundo devolveu bilhões de dólares aos
 investidores por não encontrar oportunidades suficientes, mantendo o tamanho da carteira. O
-efeito foi mecânico: menos capital, mesmo risco, alavancagem maior. No início de 1998 o LTCM
-operava com um patrimônio de cerca de US$4,7 bilhões contra mais de US$125 bilhões em ativos —
-alavancagem superior a 25 para 1 — e um nocional de derivativos fora de balanço estimado em
-mais de um trilhão de dólares. Vale registrar desde já, porque vai importar no fim: alavancar
-25 vezes não é consequência do modelo, é escolha de quem opera o modelo. Nada obrigava os
-sócios a apostar naquele tamanho.
+efeito foi mecânico: menos capital, mesmo risco, mais alavancagem — o fundo fechou 1997 já em
+28 para 1. Usando o patrimônio de US$4,8 bilhões do início de 1998 contra os mais de US$125
+bilhões em ativos que ainda carregava em 31 de agosto daquele ano — véspera da crise —, a
+alavancagem seguia acima de 25 para 1. O nocional de derivativos de balcão do fundo era de
+US$1,3 trilhão ao fim de 1997, e chegou a US$1,5 trilhão ao fim de 1998. Vale registrar desde
+já, porque vai importar no fim: alavancar 25 vezes não é consequência do modelo, é escolha de
+quem opera o modelo. Nada obrigava os sócios a apostar naquele tamanho.
 
 O sistema de risco era baseado em VaR (valor em risco: uma estimativa estatística da perda
 máxima esperada num horizonte de tempo, com certa probabilidade) e dizia, com serenidade, que
@@ -246,13 +250,14 @@ veio a seguir não estava no cenário: uma fuga global para qualidade e liquidez
 mundo inteiro abandonaram tudo que fosse menos líquido e correram para comprar exatamente os
 Treasuries 'on-the-run' — precisamente a ponta em que o LTCM estava vendido.
 
-Em vez de convergirem, os spreads divergiram. E divergiram juntos, em mercados que não tinham
-nenhuma razão econômica para se mover em bloco. A correlação, que era o alicerce do cálculo de
-risco, foi para perto de 1 no pior momento possível. Vale registrar como isso soa de dentro:
-em 2007, o então CFO (diretor financeiro) do Goldman Sachs descreveria um episódio semelhante
-(não o LTCM — um caso posterior e análogo, com dois fundos quantitativos do próprio banco)
-como movimentos de 25 desvios-padrão acontecendo vários dias seguidos. Quando você precisa
-dizer uma frase dessas, o problema não é o mercado, é a distribuição que você escolheu.
+Em vez de convergirem, os 'spreads' (as diferenças de preço que a estratégia apostava fechar)
+divergiram. E divergiram juntos, em mercados que não tinham nenhuma razão econômica para se
+mover em bloco. A correlação, que era o alicerce do cálculo de risco, foi para perto de 1 no
+pior momento possível. Vale registrar como isso soa de dentro: em 2007, o então CFO (diretor
+financeiro) do Goldman Sachs descreveria um episódio semelhante (não o LTCM — um caso
+posterior e análogo, com dois fundos quantitativos do próprio banco) como movimentos de 25
+desvios-padrão acontecendo vários dias seguidos. Quando você precisa dizer uma frase dessas, o
+problema não é o mercado, é a distribuição que você escolheu.
 
 Aí veio a segunda premissa quebrada, e essa é a mais cruel. Para cobrir chamadas de margem, o
 fundo precisou vender. Mas o LTCM era grande demais em relação aos mercados em que operava: o
@@ -270,9 +275,9 @@ a sala.
 
 E aqui está o ponto que eu quero que fique. Não houve erro de matemática no LTCM. As equações
 estavam corretas. Os testes estatísticos estavam corretos. O que houve foi um modelo calibrado
-num regime, sendo operado, com alavancagem de mais de 25 para 1, dentro de outro regime. O
-erro não estava na conta. Estava na fronteira entre a conta e o mundo, e essa fronteira não
-está escrita em lugar nenhum da planilha — mas a distância entre essa fronteira e a posição do
+num regime, mas operado com alavancagem de mais de 25 para 1 dentro de outro regime. O erro
+não estava na conta. Estava na fronteira entre a conta e o mundo, e essa fronteira não está
+escrita em lugar nenhum da planilha — mas a distância entre essa fronteira e a posição do
 fundo, essa sim, foi escolha de gente, não do modelo.
 
 ## As duas patologias
@@ -329,12 +334,13 @@ nela primeiro e se sentiu traído depois.
 ## A ficha técnica: como usar modelo sem virar refém dele
 
 Em 2009, Emanuel Derman e Paul Wilmott publicaram o *Financial Modelers' Manifesto*, cujo
-núcleo é um juramento de Hipócrates do modelador. Parafraseando os compromissos: lembrar que
-você não criou o mundo, e ele não satisfaz suas equações; usar modelos com ousadia para
-estimar valor, sem se deixar impressionar demais pela matemática; nunca sacrificar realidade
-por elegância sem dizer explicitamente que fez isso; não dar, a quem usa o modelo, falso
-conforto sobre sua precisão, tornando premissas e omissões explícitas; e reconhecer que o
-trabalho tem efeitos sobre a sociedade e a economia que excedem a própria compreensão.
+núcleo é um juramento de Hipócrates do modelador — o *Modelers' Hippocratic Oath*. Traduzindo
+os cinco compromissos: lembrar que você não criou o mundo, e ele não satisfaz suas equações;
+usar modelos com ousadia para estimar valor, sem se deixar impressionar demais pela
+matemática; nunca sacrificar realidade por elegância sem dizer explicitamente que fez isso;
+não dar, a quem usa o modelo, falso conforto sobre sua precisão, tornando premissas e omissões
+explícitas; e reconhecer que o trabalho tem efeitos sobre a sociedade e a economia que excedem
+a própria compreensão.
 
 Traduzindo para o seu dia a dia como analista: antes de entregar um número que saiu de um
 modelo, responda seis perguntas. Se você não souber responder três delas, você não sabe o que
@@ -389,16 +395,14 @@ Um modelo é uma ferramenta que não sabe que é uma ferramenta. Cabe a você sa
 - MIT OpenCourseWare, *18.S096 Topics in Mathematics with Applications in Finance*, Fall 2013
   (instrutores: Peter Kempthorne, Choongbum Lee, Vasily Strela, Jake Xia; versão atualizada:
   18.642, Fall 2024)
-- Emanuel Derman, *Models. Behaving. Badly.* (2011)
+- Emanuel Derman, *Models.Behaving.Badly.* (2011)
 - Emanuel Derman & Paul Wilmott, *The Financial Modelers' Manifesto* (2009)
 - Donald MacKenzie, *An Engine, Not a Camera: How Financial Models Shape Markets* (2006)
 - Nancy Cartwright, *How the Laws of Physics Lie* (1983); Imre Lakatos, *Falsification and the
   Methodology of Scientific Research Programmes* (1970)
-- Roger Lowenstein, *When Genius Failed* (2000); Federal Reserve History, 'Near Failure of
-  Long-Term Capital Management'
-- President's Working Group on Financial Markets, *Hedge Funds, Leverage, and the Lessons of
-  Long-Term Capital Management* (1999)
-- US Senate PSI, 'JPMorgan Chase Whale Trades: A Case History of Derivatives Risks and Abuses'
-  (2013)
-- Imprensa financeira brasileira sobre o pregão de 18/05/2017; fatos relevantes de 2008 sobre
-  Aracruz e Sadia; Banco Central do Brasil, Trabalhos para Discussão nº 202 (2010)
+- Roger Lowenstein, *When Genius Failed* (2000); President's Working Group on Financial
+  Markets, *Hedge Funds, Leverage, and the Lessons of Long-Term Capital Management* (1999)
+- US Senate Permanent Subcommittee on Investigations, *JPMorgan Chase Whale Trades: A Case
+  History of Derivatives Risks and Abuses* (2013)
+- Banco Central do Brasil, Trabalhos para Discussão nº 202 (2010); imprensa financeira
+  brasileira sobre o pregão de 18/05/2017; fato relevante da Aracruz Celulose (03/11/2008)
