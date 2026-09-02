@@ -1,4 +1,11 @@
-# Quando os Modelos se Rebelam
+# Quando os Modelos se Rebelam — transcrição limpa (rodada 4)
+
+Fonte: `_arquivo/transcricoes/2026-09-01_Quando_os_modelos_se_rebelam.md` (intocada). Este
+arquivo é rascunho escrito pelo autor, não fala de áudio — não há hesitação para remover; a
+limpeza aqui consiste em extrair os marcadores de colchete do fluxo de prosa, preservando cada
+palavra do autor no corpo do texto.
+
+---
 
 ### Por que o descolamento entre modelo e realidade é esperado — e por que entender isso separa um bom modelador de um extremista frustrado
 
@@ -55,7 +62,7 @@ O resultado é que o aluno aprende "as hipóteses do modelo de Black–Scholes" 
 O leitor mais rigoroso pode se perguntar: essa taxonomia é rigorosa ou se é a licença poética de um físico que virou banqueiro? A resposta honesta é: **bate em parte**.
 
 | Ponto de Derman | O que diz a filosofia da ciência | Veredito |
-|---|---|---|
+| --- | --- | --- |
 | Modelos são representações parciais e deliberadamente distorcidas | Convergência forte. Nancy Cartwright (_How the Laws of Physics Lie_, 1983) argumenta que até as leis fundamentais só são literalmente verdadeiras sobre modelos idealizados. George Box: todos os modelos estão errados, alguns são úteis | Alinhado |
 | Modelo falha ⇒ a analogia deixou de servir | Duhem–Quine complica: quando uma predição falha, o teste atinge o _conjunto_ (núcleo + premissas auxiliares + calibração + dados). Você nunca consegue isolar logicamente o culpado | Alinhado, mas incompleto — e a incompletude importa |
 | Teoria é categoricamente distinta de modelo | Aqui há discordância real. Na **visão semântica** das teorias (Suppes, van Fraassen, Giere), teorias _são_ famílias de modelos. As equações de Maxwell também idealizam: vácuo perfeito, cargas pontuais, meios homogêneos | Fronteira mais borrada do que Derman pinta |
@@ -105,7 +112,7 @@ Pergunte a quem estava vendido em opções naquela manhã quantas vezes consegui
 
 O mercado, aliás, já tinha admitido isso muito antes. Depois do crash de outubro de 1987, a superfície de volatilidade implícita deixou de ser plana e passou a exibir o famoso _smile_ (ou _skew_).
 
-Em português direto: os preços praticados passaram a embutir, permanentemente, uma probabilidade de salto maior do que a que o modelo comporta. O _smile_ é a cicatriz da hipótese 1 — o mercado usa a fórmula de Black–Scholes como uma linguagem de cotação e ajusta a premissa por fora, mexendo no _input_ de volatilidade.
+Em português direto: os preços praticados passaram a embutir, permanentemente, uma probabilidade de salto maior do que a que o modelo comporta. O _smile_ é a cicatriz da hipótese 1, o mercado usa a fórmula de Black–Scholes como uma linguagem de cotação e ajusta a premissa por fora, mexendo no _input_ de volatilidade.
 
 E há um detalhe que o sociólogo Donald MacKenzie explora bem em _An Engine, Not a Camera_ (2006): Black–Scholes não apenas descreveu o mercado de opções, ele **o transformou**.
 
@@ -144,7 +151,7 @@ Essa é a premissa. E ela é histórica, não estrutural. A matriz de correlaç�
 
 Em **17 de agosto de 1998**, a Rússia deu calote na dívida em rublos e desvalorizou a moeda. O que veio a seguir não estava no cenário: uma fuga global para qualidade e liquidez. Investidores do mundo inteiro abandonaram tudo que fosse menos líquido e correram para comprar exatamente os Treasuries _on-the-run_ — precisamente a ponta que o LTCM estava vendida.
 
-Em vez de convergirem, os spreads divergiram. E divergiram **juntos**, em mercados que não tinham nenhuma razão econômica para se mover em bloco. A correlação, que era o alicerce do cálculo de risco, foi para perto de 1 no pior momento possível. Vale registrar como isso soa de dentro: em 2007, o então CFO do Goldman Sachs descreveria episódio semelhante como movimentos de 25 desvios-padrão acontecendo vários dias seguidos. Quando você precisa dizer uma frase dessas, o problema não é o mercado — é a distribuição que você escolheu.
+Em vez de convergirem, os spreads divergiram. E divergiram **juntos**, em mercados que não tinham nenhuma razão econômica para se mover em bloco. A correlação, que era o alicerce do cálculo de risco, foi para perto de 1 no pior momento possível. Vale registrar como isso soa de dentro: em 2007, o então CFO do Goldman Sachs descreveria episódio semelhante como movimentos de 25 desvios-padrão acontecendo vários dias seguidos. Quando você precisa dizer uma frase dessas, o problema não é o mercado, é a distribuição que você escolheu.
 
 Aí veio a segunda premissa quebrada, e essa é a mais cruel. Para cobrir chamadas de margem, o fundo precisou vender. Mas o LTCM era grande demais em relação aos mercados em que operava: **o próprio ato de vender empurrava os preços contra as posições que ainda restavam**. A hipótese de liquidez é a premissa mais invisível e mais letal de toda a modelagem financeira. Ela é invisível porque quase nunca aparece escrita.
 
@@ -245,9 +252,27 @@ _Os textos publicados na Syntaxis expressam exclusivamente minhas opiniões pess
 
 ## Marcadores extraídos do rascunho
 
-| Marcador (verbatim) | Local no rascunho | Classificação | Resolução |
-|---|---|---|---|
-| `[LINHA EDITORIAL: Spoiler]` | Topo do arquivo, antes do título de apoio | Estrutural | *(preenchida na etapa 1)* |
-| `[CAPA: Como ideia para criativo de capa, podemos utilizar algo como uma rebelia de máquinas humanoides como nos filmes de Terminator]` | Topo do arquivo, logo após a linha editorial | Sugestão de visual | *(preenchida na etapa 8)* |
-| `[escrever um breve prágrafo sobre o que é o modelo e pq ele é tao famoso.]` | Seção 3, antes da lista de premissas de Black–Scholes | Instrução de escrita | *(preenchida na etapa 4)* |
-| `[tentar reescrever o parágrafo acima. Existem teorias em financas.]` | Seção "Fechamento", logo após o primeiro parágrafo | Instrução de escrita | *(preenchida na etapa 4)* |
+1. **`[LINHA EDITORIAL: Spoiler]`** — Estrutural. Declara a linha editorial pretendida pelo
+   autor. Resolvido na etapa 1 — mas ver nota abaixo: rodadas anteriores registraram tensão
+   entre esta declaração e o conteúdo do texto (mais próximo, pelo critério literal, de "Notas
+   de um Professor"), e essa tensão só virou pergunta nomeada de fato na rodada 2. Nesta
+   rodada, a tensão é levada à etapa 1 como pergunta nomeada desde o início.
+2. **`[CAPA: Como ideia para criativo de capa, podemos utilizar algo como uma rebelia de
+   máquinas humanoides como nos filmes de Terminator]`** — Sugestão de visual. Resolvida na
+   etapa 8. Nas rodadas 1–3, a referência literal (Terminator) foi descartada por propriedade
+   intelectual e a estrutura ("ferramenta que se volta contra quem a construiu") foi levada
+   adiante e invertida. **Nesta rodada, a regra de marca que também vetava robô/cérebro de IA
+   genérico como clichê foi removida** (`pesquisa/epico-iconografia-financeira/`) — a doutrina
+   de proveniência cultural (nunca reproduzir a franquia específica) continua valendo, mas a
+   categoria "robô" deixou de ser banida por si só. Isso reabre a possibilidade de uma capa que
+   use a figura de um robô/autômato genérico como objeto literal, não só como estrutura
+   emprestada — decisão a explorar na etapa 8.
+3. **`[escrever um breve prágrafo sobre o que é o modelo e pq ele é tao famoso.]`** — Instrução
+   de escrita, na seção 3 ("Black–Scholes: o que está na bula"), logo após "quase ninguém lê
+   até o fim." Resolvida na etapa 4.
+4. **`[tentar reescrever o parágrafo acima. Existem teorias em financas.]`** — Instrução de
+   escrita, no Fechamento, após "Nenhum modelo é uma bala de prata." O parágrafo alvo diz "em
+   finanças não existem teorias no sentido forte". Resolvida na etapa 4. Nota: a própria seção
+   1 do texto já registra, na tabela "Ponto de Derman × filosofia da ciência", que a fronteira
+   teoria/modelo é "mais borrada do que Derman pinta" — a reescrita precisa ser consistente com
+   essa ressalva já feita pelo próprio autor, não contradizê-la.

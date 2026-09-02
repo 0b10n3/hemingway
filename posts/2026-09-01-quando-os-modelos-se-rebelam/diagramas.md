@@ -2,15 +2,12 @@
 
 Uma peça. `diag-01` corresponde à composição de "precisão mecânica" dentro da colagem
 editorial unificada (`.claude/skills/prompts-visuais/references/estilos-ilustracao.md`, "Quando
-o argumento pede precisão mecânica") — herdeira do antigo desenho técnico esquemático, agora
-como família de composição, não estilo à parte. Em código Plotly isso já se expressa como
-vista/fluxo com nós e setas, sem mudança de implementação nesta rodada. Decidida em
-`processo/02-estrutura.md` (seção 4) e posicionada em
-`processo/04-draft-v1.md`, logo após "a hipótese de liquidez é a premissa mais invisível e
-mais letal de toda a modelagem financeira" — no ponto em que o ciclo já foi narrado por
-inteiro na prosa. Ferramenta: Plotly (nós e setas via `add_shape`/`add_annotation`), mesmo
-padrão de `graf-NN` — ver `.claude/skills/prompts-visuais/SKILL.md`. Tokens de marca lidos em
-runtime de `../../brand/tokens/skill_test.tokens.json`.
+o argumento pede precisão mecânica"). Decidida em `processo/02-estrutura.md` (seção 4) e
+posicionada em `processo/04-draft-v1.md`, logo após "a hipótese de liquidez é a premissa mais
+invisível e mais letal de toda a modelagem financeira". Ferramenta: Plotly (nós e setas via
+`add_shape`/`add_annotation`). Tokens de marca lidos em runtime de
+`../../brand/tokens/skill_test.tokens.json`. Sem mudança de dado ou conceito frente à rodada
+anterior — reafirmado, não recriado do zero (ver `processo/08-briefing-visual.md`).
 
 ## diag-01
 
@@ -20,9 +17,9 @@ spread numa espiral de venda forçada?
 
 **Fonte dos dados:** não há número embutido no diagrama (é mecanismo/fluxo, não série) — a
 sequência causal (calote russo → fuga para liquidez → spreads divergem → chamadas de margem →
-venda forçada → preços pioram → fecha o ciclo) está descrita e confirmada contra fonte
+venda forçada → preços pioram → fecha o ciclo) está descrita e reconfirmada contra fonte
 primária (President's Working Group on Financial Markets, 1999, lido na íntegra) em
-`processo/07-verificacao.md`, seção 4.
+`processo/07-verificacao.md`, seção 3.2.
 
 **Código Plotly executável** (testado com `python3` nesta etapa — gera `figuras/diag-01.svg`
 e `figuras/diag-01.png`):
@@ -101,7 +98,6 @@ def arrow(a, b, color=slate, width=2, gap=0.12, label=None, label_xy=None):
     na, nb = nodes[a], nodes[b]
     sx, sy = edge_point(na["x"], na["y"], NODE_W, NODE_H, nb["x"], nb["y"])
     ex, ey = edge_point(nb["x"], nb["y"], NODE_W, NODE_H, na["x"], na["y"])
-    # recua as duas pontas um pouco (gap) para a seta não tocar a borda da caixa
     vx, vy = ex - sx, ey - sy
     length = (vx ** 2 + vy ** 2) ** 0.5
     ux, uy = (vx / length, vy / length) if length else (0, 0)
@@ -159,8 +155,6 @@ um layout automático de grafo, porque com seis nós a disposição manual em "t
 comunica diretamente a distinção mais importante do mecanismo: dois eventos acontecem uma vez
 só (o calote, a fuga), mas quatro se retroalimentam (é o próprio ciclo que "fecha" e piora a
 cada volta). Um layout de força automática (spring layout) esconderia essa distinção.
-Descartado layout circular único com os seis nós, por misturar visualmente o que é gatilho
-(acontece uma vez) com o que é ciclo (se repete).
 
 **Alt-text final (para o placeholder `diag-01` em `post.md`):**
 

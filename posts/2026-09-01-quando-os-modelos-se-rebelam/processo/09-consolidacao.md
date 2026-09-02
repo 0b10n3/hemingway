@@ -1,138 +1,76 @@
-# Consolidação — "Quando os Modelos se Rebelam"
+# Consolidação — Quando os Modelos se Rebelam (rodada 4)
 
-Etapa 9. Aplica 5 (crítica estrutural) + 6 (revisão de linha) + 7 (verificação técnica) sobre
-`04-draft-v1.md` e emite `post.md` (mais `capa.md`, `ilustracoes.md`, `graficos.md`,
-`diagramas.md`, já produzidos na etapa 8). Checklist de `revisao-editorial/SKILL.md`, item a
-item.
+Aplica `05-critica.md` (já incorporada em `04-draft-v1.md` na própria etapa 4, ver nota de
+revisão pós-crítica naquele arquivo), `06-revisao.md` e `07-verificacao.md` sobre
+`04-draft-v1.md`, produzindo `post.md` na raiz. Entregáveis já publicados na etapa 8:
+`capa.md`, `ilustracoes.md`, `graficos.md`, `diagramas.md`.
 
-## 1. Coerência entre etapas
+## O que foi aplicado de `06-revisao.md`
 
-Sem contradição entre os três laudos — aplicados juntos sem conflito:
+- Removidas ~25 ocorrências de negrito/itálico de ênfase (regra 4 do guia de voz) — termo de
+  definição vira aspas simples ('teoria', 'modelo', 'intuição', 'hipótese', 'a bula do
+  remédio', 'bate em parte', 'visão semântica', 'ferramenta de ancoragem', 'agora', 'empírica');
+  sentença inteira/aforismo perde o negrito por completo (todas as ocorrências listadas no
+  laudo).
+- Jargão técnico-financeiro sem marcação → itálico: `_hedge_`, `_payoff_`, `_spreads_`,
+  `_outlier_`, `_backtest_`, `_feeling_`.
+- Correção de concordância: "que o LTCM estava vendida" → "vendido".
+- Sigla VaR glossada na primeira ocorrência.
+- Sigla CFO glossada ("diretor financeiro").
+- Reordenação para resolver ambiguidade sintática: "Não dar a quem usa o modelo falso conforto
+  sobre sua precisão" → "Não dar falso conforto a quem usa o modelo sobre sua precisão".
+- Consistência de vírgula após advérbio de data no início de parágrafo (seção 4).
+- Reancoragem em 1ª pessoa do parágrafo do Fechamento que amarra com a seção 1 ("Isto não
+  contradiz..." → "Não é contradição com a ressalva que eu já fiz..."), para casar com a
+  moldura pessoal que a seção 1 usa no mesmo argumento ("Minha leitura:...").
+- Consistência de formulação de alavancagem ("25 vezes de alavancagem" → "alavancagem de mais
+  de 25 para 1", casando com a correção numérica da etapa 7 e com a formulação já usada em
+  outros pontos do texto).
+- Título do livro sem espaços: "Models.Behaving.Badly." (duas ocorrências).
+- Ordem "extremista frustrado" alinhada ao título; regência "entre A e B" corrigida; "ante
+  modelos" → "diante de modelos"; "desacoplamento" → "descolamento" (consistência com o
+  título).
+- Parágrafo de abertura sobre Derman reescrito para resolver quebra de paralelismo (apostos
+  nominais + orações verbais sem sujeito de retomada).
 
-- **Crítica (05), os 4 achados médios**: todos resolvidos por corte/reordenação leve, sem
-  reabrir estrutura (autorizado pelo próprio veredito de `05-critica.md`). (a) Abertura
-  reescrita — corta o preâmbulo sobre hábito de compartilhar conteúdo, vai direto ao curso e
-  à citação de Kempthorne em duas frases. (b) Seção 1: acrescentada uma frase-ponte ao final
-  ("É essa fronteira — não abstrata, mas com data e prejuízo — que os dois casos a seguir
-  tornam impossível de ignorar.") para aliviar a transição para os casos concretos. (c) Nota
-  brasileira do target forward: comprimida — a descrição do payoff assimétrico virou aposto
-  parentético, uma frase inteira cortada, mantendo os números e a conclusão. (d) Ordem do
-  fechamento invertida: o CTA de compartilhamento agora vem antes, e "Um modelo é uma
-  ferramenta que não sabe que é uma ferramenta. Cabe a você saber." fecha o texto, como o
-  briefing pedia.
-- **Crítica (05), achado baixo**: a linha "O cometa não muda de órbita porque o astrônomo
-  publicou. / O mercado muda." voltou à forma de justaposição pura, sem a cláusula
-  explicativa que o draft v1 tinha acrescentado — a nuance de contraperformatividade
-  continua no parágrafo anterior, em prosa, então nada se perde.
-- **Revisão de linha (06)**: todos os 25 itens de "norma" aplicados (marcação de jargão em
-  aspas simples, gloss de siglas — CFO, OCC, Fed, PIB —, regência de "responder a" e "vendido
-  em", comma splice, tempo verbal de "descreveria" → "descreveu"). Dos 5 itens de "linha"
-  (sugestão), 4 aplicados; o item sobre o antecedente de "Eles" na abertura ficou resolvido
-  por reescrita completa do parágrafo (item 1), não pela correção pontual sugerida.
-- **Verificação técnica (07)**: as duas pendências abertas viraram, respectivamente, um
-  `[VERIFICAR]` visível (Kempthorne) e outro (`volume ~US$35bi do target forward`) — nenhum
-  resolvido silenciosamente, conforme regra 3 do checklist. As três correções pontuais
-  (LTCM 25:1→26:1, datação do "US$125bi em ativos", precisão do "8,06%") foram aplicadas
-  como correção direta, não como `[VERIFICAR]`, porque a verificação já entregou o número
-  certo contra fonte primária — não é incerteza, é precisão. O nocional do LTCM mudou de
-  "US$1,25 tri" (não encontrado em nenhuma fonte) para "US$1,3 tri" (citação direta do PWG
-  1999), evitando tanto a invenção quanto um `[FAIXA]` desnecessário.
+**Não aplicado** (fora do escopo desta consolidação, registrado para decisão futura, não
+bloqueia): a observação sobre a fórmula "Não é X, é Y" aparecer cinco vezes — item de
+vigilância, não correção, per `06-revisao.md`.
 
-## 2. Checklist de aderência à voz (§9 do guia)
+## O que foi aplicado de `07-verificacao.md`
 
-1. Jargão glossado na primeira ocorrência — ✅ (hedge, delta, VaR, CFO, Fed, OCC, PIB).
-2. Exemplo depois do conceito — ✅, estrutura mantida do draft.
-3. Zero negrito/itálico de ênfase — ✅ (`grep` confirma: só a tabela Teoria×Modelo usa `**`,
-   uso estrutural de cabeçalho de tabela, não ênfase de frase).
-4. Subtítulo H2 por seção — ✅.
-5. Autoridade por autor+ano nomeado — ✅ (Derman 2011, MacKenzie 2006, Cartwright 1983,
-   Knight 1921, Lakatos 1970, Dempster 2012).
-6. Uma voz só, sem mistura — ✅ ensaística; a densidade da seção 1 (achado da crítica) foi
-   aliviada, não eliminada — é conteúdo genuinamente denso, a frase-ponte ajuda sem forçar
-   humor onde não cabe.
-7. Voz ensaística — CTA + gancho + pergunta retórica genuína — ✅. Pergunta retórica: "essa
-   taxonomia é rigorosa ou é a licença poética de um físico que virou banqueiro?".
-8. N/A — não é voz explicativa.
-9. Tiques de IA — ✅, `grep` por frases genéricas ("é importante ressaltar", "em suma",
-   "estudos mostram", "pode-se dizer") não encontrou ocorrência.
-10. Instituição/norma citada corretamente — ✅ (Fed, OCC, SR 11-7, PWG 1999).
+- **Kempthorne removido do corpo e da bibliografia** — a atribuição não se sustenta (tabela
+  oficial de instrutores do MIT OCW). Texto final: "um dos professores diz", citação mantida
+  entre aspas diretas. Bibliografia reformulada para listar os quatro instrutores do curso sem
+  implicar autoria principal de Kempthorne.
+- **Target forward de 2008 resolvido** — `[VERIFICAR]` substituído pela frase final com fonte
+  primária do Banco Central (Trabalhos para Discussão nº 202, Mesquita & Torós, 2010):
+  exposição delta de ~US$ 37 bilhões via CETIP, fim de setembro de 2008.
+- **Cotações de dólar corrigidas** para precisão de 4 casas (R$3,1283 → R$3,3805), fechando
+  exatamente com o "8,06%" já usado no texto e no `graf-01`.
+- **LTCM**: patrimônio (início de 1998) e ativos (agosto de 1998) separados por data em vez de
+  apresentados como uma única fotografia; "em torno de 25:1" → "mais de 26 para 1"; nocional
+  "US$ 1,25 trilhão" (não encontrado na fonte primária) → "US$ 1,3 trilhão" (fim de 1997, PWG
+  1999).
+- **Bibliografia de Aracruz/Sadia** reformulada para não implicar que a RACEF confirma o número
+  de US$ 2,13 bilhões usado no corpo (ela cita R$ 2,5 bilhões sem proveniência rastreável) —
+  citação da RACEF removida da linha que sustenta o número, mantida como nota de contexto
+  institucional à parte.
 
-## 3. `[VERIFICAR]`/`[FAIXA]` visíveis — confirmado
+Todos os demais números (Ibovespa, London Whale, perda/resgate/devolução do LTCM, os cinco
+compromissos do Manifesto, as seis hipóteses de Black–Scholes) foram confirmados sem alteração.
 
-Dois marcadores no `post.md`, ambos visíveis no corpo do texto, não resolvidos
-silenciosamente:
+## `[VERIFICAR]` remanescentes em `post.md`
 
-1. Citação de Kempthorne (abertura) — `[VERIFICAR: atribuição... não confirmada...]`.
-2. Volume do target forward 2008 (~US$35 bi) — `[VERIFICAR: cifra é consenso de
-   imprensa...]`.
+**Nenhum.** Os dois pontos que chegaram com `[VERIFICAR]` explícito nesta rodada (citação de
+abertura, volume do target forward) foram resolvidos com fonte primária e decisão final na
+etapa 7 — nenhum marcador sobrevive à consolidação.
 
-## 4. Placeholders consistentes
+## Pendência não resolvida nesta etapa — vai para o gate humano (etapa 10)
 
-`ilu-01`, `graf-01`, `diag-01` — todos citados em `post.md` com bloco correspondente em
-`ilustracoes.md`/`graficos.md`/`diagramas.md`, e vice-versa. Nenhum órfão. Confirmado por
-`grep` nos quatro arquivos.
-
-## 5. Antipadrões de IA
-
-Varredura por frases genéricas de `voz-syntaxis/references/antipadroes.md` — nenhuma
-ocorrência. A revisão de linha (etapa 6) já tinha coberto a maioria dos casos relevantes
-(marcação de jargão); esta passada não achou nada novo.
-
-## 6. Frontmatter
-
-`título`, `subtítulo` (retomado do gancho/tese do briefing), `data: 2026-09-01`,
-`linha_editorial: Spoiler` (decisão do autor, tensão registrada em `01-briefing.md`),
-`tags`, `status: rascunho` — preenchido e coerente.
-
-## 7. Manchete
-
-Título temático mantido ("Quando os Modelos se Rebelam") — não testada a fórmula
-conceito+quebra+prática porque o título atual já carrega o gancho central (a "rebelião" é a
-imagem que a capa também usa) e nenhum título testado com a fórmula superou isso em clareza.
-Não bloqueante.
-
-## 8. Achado enterrado
-
-Nenhum sinalizado pela crítica estrutural — o achado central (Derman: teoria x modelo x
-intuição) está na abertura da seção 1, não enterrado.
-
-## 9. Inventário visual completo
-
-- `capa.md` — presente, uma capa (alavanca sobre traçado rompido).
-- `ilu-01` — presente em `ilustracoes.md`, bloco completo com prompt Nano Banana Pro.
-- `graf-01` — presente em `graficos.md`, código testado e executado (`figuras/graf-01.svg`
-  e `.png` gerados).
-- `diag-01` — presente em `diagramas.md`, código testado e executado (`figuras/diag-01.svg`
-  e `.png` gerados).
-- `infograficos.md` — não existe, corretamente: nenhum ponto do texto exige leitura conjunta
-  de duas peças (ver `02-estrutura.md`, "O que fica de fora").
-- Todo prompt em `capa.md`/`ilustracoes.md` declara "Nano Banana Pro" no cabeçalho — ✅.
-
-## 10. Paleta fora dos tokens — checagem mecânica
-
-`grep -oE '#[0-9A-Fa-f]{6}'` em `capa.md` e `ilustracoes.md`: `#0A3320`, `#2D9E67`,
-`#4A5568`, `#CDF163`, `#F7F7F5`, `#1B6A45` — todos presentes em
-`brand/tokens/skill_test.tokens.json`. Nenhum hex fora da lista.
-
-## 11. Gate de Tufte — checagem mecânica
-
-`graficos.md`: `rangemode="tozero"` presente nos dois painéis de `graf-01`. Nenhuma menção a
-`3d`, `shadow` (fora de `shadow.syntaxis*`), textura ou moldura em `graficos.md` nem
-`diagramas.md` (`grep` confirma). `diag-01` não é gráfico de eixo quantitativo (eixos
-`visible=False`, é diagrama de fluxo) — gate de eixo-zero não se aplica.
-
-## Resumo do que mudou desde a etapa 7
-
-- Abertura reescrita (mais curta, gancho mais rápido) + `[VERIFICAR]` inserido na citação de
-  Kempthorne.
-- Seção 1: uma frase-ponte adicionada ao final.
-- Seção 3: definição de Black–Scholes revisada (regência), cotações do dólar trocadas para
-  precisão maior (R$3,1283→R$3,3805), Nota brasileira comprimida e com `[VERIFICAR]` no
-  volume total.
-- Seção 4: LTCM nocional corrigido para US$1,3 tri (fonte primária), datação de "US$125bi em
-  ativos" corrigida para agosto/1998, alavancagem ajustada para "mais de 26 vezes" em duas
-  ocorrências (corpo e fechamento).
-- Seção 5: London Whale já com "44%"/"US$6,2bi" desde o draft; SR 11-7 com OCC glosado.
-- Fechamento: CTA reordenado para antes do aforismo final; linha do cometa revertida à forma
-  de justaposição pura.
-- 30 itens de marcação/norma da revisão de linha aplicados integralmente.
+**Tensão de linha editorial**, registrada em `01-briefing.md` e corroborada estruturalmente em
+`05-critica.md` item 5: o rascunho declara `Spoiler`, mas o conteúdo (conceitual, estudo de
+caso de terceiros, sem arco de jornada pessoal do autor) pesa, pelo critério de
+`PROJECT_DESCRIPTION.md`, para `Notas de um Professor`. `post.md` mantém `linha_editorial:
+Spoiler` como valor de trabalho (a declaração original do autor), pendente de confirmação —
+não é decisão desta etapa.
