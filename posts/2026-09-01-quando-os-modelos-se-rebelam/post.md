@@ -7,15 +7,22 @@ tags: [Modelagem Financeira, Risco, Derivativos, LTCM]
 status: rascunho
 ---
 
-Um dos professores do curso de matemática financeira que acompanho no MIT OpenCourseWare (o
-repositório de aulas e cursos que o MIT disponibiliza gratuitamente) costuma ilustrar a ideia
-de retorno à média com um exemplo simples: se você lança uma moeda 100 vezes e todas caem
-cara, a suspeita razoável não é que a sorte vai se equilibrar no próximo lançamento — é que a
-moeda tem vício. [VERIFICAR: este exemplo é reconstruído de memória de uma aula assistida no
-curso 18.S096/18.642, sem atribuição a um professor específico — três rodadas de pesquisa e
-verificação não conseguiram rastrear a frase original a nenhuma aula testada (Lecture 3, 6, 8,
-9, 12), incluindo a transcrição real do vídeo da Lecture 3. Confirmar a aula exata antes de
-publicar, ou manter como paráfrase sem atribuição nominal, como está.]
+Numa aula de probabilidade a que assisti no MIT OpenCourseWare (o repositório de aulas e
+cursos que o MIT disponibiliza gratuitamente), um dos professores diz, numa explicação sobre a
+ideia de retorno à média:
+
+> "Se você lança uma moeda 100 vezes, obtendo cara em todos os lançamentos, você deveria
+> estar considerando seriamente a possibilidade de que essa moeda tenha algum vício ou
+> defeito."
+
+[VERIFICAR: a atribuição desta fala a um professor específico do curso 18.S096/18.642 não se
+sustentou em três rodadas de pesquisa/verificação — a página oficial do MIT OCW atribui a aula
+mais provável (Lecture 3, Probability Theory) a Choongbum Lee, não a Peter Kempthorne, e a
+transcrição real do vídeo dessa aula não contém a frase. Nas quatro aulas mais prováveis de
+Kempthorne por tema (Lecture 6, 8, 9, 12) a frase também não aparece. Confirmar assistindo a
+mais material do curso antes de publicar; se não for possível confirmar, considerar remover a
+atribuição a "um dos professores" e citar como exemplo pedagógico de uso corrente, sem aspas
+diretas.]
 
 A frase é dita no contexto de que muitas pessoas começam a esperar o retorno à média, mas
 acabam se esquecendo de que a própria média pode ter mudado.
