@@ -1,147 +1,86 @@
-# Revisão de linha e norma — "Quando os Modelos se Rebelam"
+# Revisão de linha e norma — rodada 3
 
-Fonte: `04-draft-v1.md`, confrontado contra `estilo/estilo-autoral.md` §3-4,
-`pesquisa/frente-c-editoracao.md` §3, `.claude/skills/voz-syntaxis/references/antipadroes.md`.
-Marcadores `[VERIFICAR: ...]` e placeholders visuais (`ilu-01`, `graf-01`, `diag-01`) não
-foram tocados. Seção "Notas de processo" e "Loop etapa 5 → 2/4" ignoradas — não fazem parte
-do texto do post.
+Fonte: `04-draft-v1.md`. Confirmação prévia: as correções das rodadas anteriores sobrevivem no
+texto atual — "aula a que assisti" (regência), "a ponta em que o LTCM estava vendido"
+(concordância), siglas LTCM e CFO glosadas, aspas simples predominando sobre negrito/itálico
+de ênfase. Não repetidas abaixo.
 
-## Parágrafo de abertura
+## Subtítulo vs. corpo — "descolamento" vs. "desacoplamento"
 
-**Original:** "Numa aula de probabilidade **que assisti** no MIT OpenCourseWare..."
-**Sugestão:** "Numa aula de probabilidade **a que assisti** no MIT OpenCourseWare..."
-**Motivo (norma):** regência de "assistir" no sentido de "presenciar" é transitiva indireta
-("assistir a algo"); a relativa correspondente exige "a que". Primeira frase do post — prioridade
-alta.
+**Sugestão:** uniformizar para "descolamento" nas duas ocorrências (subtítulo já usa esse
+termo; parágrafo de abertura usa "desacoplamento").
+**Motivo (linha):** os dois termos designam o mesmo conceito central do ensaio — usar dois
+sinônimos técnicos para a ideia-chave, um no título e outro no corpo, enfraquece o fio
+condutor.
 
-## Títulos de obra em aspas simples em vez de itálico
+## "diferença entre ser... ou se tornar..."
 
-**Original:** títulos inteiros entre aspas simples — `'Topics in Mathematics with
-Applications in Finance'`, `'Models. Behaving. Badly.'`, `'An Engine, Not a Camera'`,
-`'Financial Modelers' Manifesto'` e as 8 entradas de "Fontes e leituras".
-**Sugestão:** itálico (`*Models. Behaving. Badly.*` etc.), preservando aspas simples só para
-jargão/conceito (uso já correto em 'convergence trade', 'on-the-run', 'smile').
-**Motivo (norma, com ressalva):** a nota da regra 4 do guia é explícita — itálico é para título
-de obra ou estrangeirismo isolado, nunca aspas. A escolha por aspas em todas as ~13 ocorrências
-parece deliberada; mudança de grande superfície, confirmar antes de aplicar em massa.
+**Sugestão:** trocar "ou" por "e" — "diferença entre ser um modelador bem-sucedido **e** se
+tornar um extremista frustrado".
+**Motivo (norma):** a construção "diferença entre A e B" pede o correlativo "e"; "entre X ou
+Y" é desvio de norma culta.
 
-## Aspas duplas dispersas quebrando o padrão de aspas simples
+## Parágrafo do target forward — dois-pontos empilhados
 
-**Locais:** `### E onde entram as "hipóteses"?`; `"as hipóteses do modelo de
-Black–Scholes"`; `cisne negro, outlier, "cinco desvios-padrão", anomalia irracional do
-mercado`; `o "cinturão protetor"`; `"esse modelo falhou nessas condições" com "modelar é
-inútil"`.
-**Sugestão:** trocar todas por aspas simples, por consistência com o resto do texto (regra 4).
-**Achado adicional:** na lista "cisne negro, outlier, 'cinco desvios-padrão', anomalia
-irracional", só o terceiro item tem aspas — uniformizar (nenhum ou todos).
+**Sugestão:** quebrar em duas frases — "Uma variação brasileira do mesmo problema apareceu
+fora do universo estrito de opções. No segundo semestre de 2008, dezenas de exportadoras..."
+**Motivo (linha):** o trecho abre com fragmento nominal encerrado por dois-pontos, e a frase
+completa tem um segundo dois-pontos mais adiante (introduzindo a definição do payoff
+assimétrico) — dois dois-pontos empilhados na mesma unidade de sentido atrapalham a leitura.
 
-## "precificar opção era arte de mesa"
+## "parecia hedge barato" / "chamar aquilo de hedge"
 
-**Sugestão:** "precificar **opções** era arte de mesa" — plural genérico é a construção
-natural para afirmação categórica (paralelo a "vender ações é arriscado").
-**Motivo:** linha.
+**Sugestão:** "parecia **um** 'hedge' barato" e "chamar aquilo de 'hedge'".
+**Motivo (norma + linha):** 'hedge' foi glosado entre aspas simples na primeira ocorrência, e
+o texto reaplica aspas simples em reocorrências de jargão ('smile' reaparece marcado) — usar a
+palavra nua aqui quebra o padrão. Separadamente, "parecia hedge barato" sem artigo soa
+truncado; "parecia um hedge barato" é a construção natural.
 
-## Gloss duplicado de "hedge"
+## Alavancagem e nocional do LTCM — concordância numeral e frase sobrecarregada
 
-Primeira ocorrência: "o hedge (a posição que anula o risco)"; segunda (target forward):
-"parecia hedge (proteção) barato" — duas definições parentéticas diferentes para o mesmo
-termo podem soar como explicações concorrentes. Considerar remover o segundo parêntese ou
-tornar eco explícito. Não é erro de regra (regra 1 exige gloss só na primeira ocorrência).
+**Sugestão 1:** "US$1,3 trilhão" e "US$1,5 trilhão" (singular), não "trilhões".
+**Motivo (norma):** convenção do jornalismo financeiro em pt-BR — valor decimal menor que 2
+mantém o substantivo no singular ("1,5 milhão", não "1,5 milhões"); só a partir de 2 o plural
+vale (por isso US$4,8 bi, US$2,13 bi etc. já estão corretos).
 
-## Jargão sem marcação de aspas simples/itálico
+**Sugestão 2:** quebrar a frase que empilha 28:1, >25:1, patrimônio, ativos e os dois
+nocionais em duas frases — alavancagem/patrimônio/ativos numa, nocional 1997→1998 na outra.
+**Motivo (linha):** quatro cifras diferentes numa única oração encadeada por "e"/"que" é
+difícil de acompanhar em leitura em voz alta. A conexão entre 28:1 e >25:1 pedida nesta rodada
+já fica resolvida antes do ponto proposto.
 
-**Termos:** `circuit breaker`, `hedge`, `payoff`, `spreads`, `backtest` — sem aspas simples,
-ao contrário de 'convergence trade', 'on-the-run'/'off-the-run', 'target forward',
-'smile'/'skew', já marcados no mesmo texto.
-**Sugestão:** aplicar aspas simples na primeira ocorrência de cada um.
-**Motivo (norma):** `pesquisa/frente-c-editoracao.md` §3 cita termos do mesmo campo semântico
-como candidatos a marcação por não estarem incorporados ao português; inconsistência entre
-"termo glossado com aspas" e "sem aspas" é ruído de auditoria (`estilo-autoral.md` §9, item 3).
-`delta` e `VaR` ficam como estão (notação matemática e sigla, tratados como CAPM/COE).
+## "os spreads divergiram" — jargão sem gloss
 
-## Vírgula picada entre orações independentes (Aracruz/Sadia)
+**Sugestão:** "os 'spreads' (as diferenças de preço que a estratégia apostava fechar)
+divergiram."
+**Motivo (norma):** "spread" nunca é introduzido explicitamente — o conceito foi descrito
+perifrasticamente ~25 linhas antes ("a diferença"), mas a palavra em si aparece aqui pela
+primeira vez sem aspas nem gloss.
 
-**Original:** "...figuram entre os casos mais citados dessas perdas, a Sadia acabou
-incorporada pela Perdigão..."
-**Sugestão:** "...figuram entre os casos mais citados dessas perdas; a Sadia, aliás, acabou
-incorporada pela Perdigão..."
-**Motivo (norma):** vírgula ligando duas orações independentes sem conjunção — pede ponto e
-vírgula, ponto ou conjunção.
+## "um modelo calibrado num regime, sendo operado, com alavancagem..."
 
-## Sigla LTCM sem amarração no corpo
+**Sugestão:** "um modelo calibrado num regime, mas operado com alavancagem de mais de 25 para
+1 dentro de outro regime."
+**Motivo (norma):** as vírgulas isolando "sendo operado" separam o particípio do seu
+complemento natural ("operado **com** alavancagem"), quebrando a leitura. Reconectar resolve a
+ambiguidade sem alterar o sentido.
 
-O H2 já usa "LTCM", mas o corpo nunca grafa "Long-Term Capital Management (LTCM)" lado a lado.
-**Sugestão:** no primeiro parágrafo — "O Long-Term Capital Management (LTCM) foi fundado em
-1994 por John Meriwether...".
-**Motivo (norma):** sigla usada antes de ser apresentada por extenso — regra 1.
+## "Modelers' Hippocratic Oath" — aspas duplas isoladas
 
-## "CFO" sem gloss
+**Sugestão:** itálico — *Modelers' Hippocratic Oath* — em vez de aspas duplas.
+**Motivo (norma):** única ocorrência de aspas duplas no corpo fora da citação em bloco de
+abertura. Aspas simples colidiriam com o apóstrofo possessivo do próprio termo
+("Modelers'"). Itálico é tratamento de título/termo cunhado, já previsto na regra 4.
 
-**Sugestão:** "o então CFO (diretor financeiro) do Goldman Sachs..."
-**Motivo (norma):** sigla/jargão corporativo sem explicação na primeira ocorrência, mesmo
-padrão de "Chief Investment Office", glosado duas linhas depois no próprio texto.
+## Bibliografia — uma entrada em aspas simples, resto em itálico
 
-## "a ponta que o LTCM estava vendida"
+**Sugestão:** itálico para "JPMorgan Chase Whale Trades: A Case History of Derivatives Risks
+and Abuses" — única entrada da lista em aspas simples, quebrando o padrão das demais.
+**Motivo (norma):** consistência de formatação dentro da mesma lista.
 
-**Sugestão:** "precisamente a ponta **em que** o LTCM estava **vendido**."
-**Motivo (norma):** preposição elidida ("estar vendido numa ponta", não "estar vendido [uma]
-ponta") + concordância de gênero (o sujeito é "o LTCM", masculino em todas as outras 6
-ocorrências no texto; o particípio correto é "vendido", não "vendida").
+## Achado fora de escopo (sinalizado, não corrigido)
 
-## "um modelo calibrado num regime sendo operado"
-
-**Sugestão:** "um modelo calibrado num regime, sendo operado, com alavancagem de mais de 25
-para 1, dentro de outro regime."
-**Motivo (linha/pontuação):** sem a vírgula, "num regime sendo operado" lê como se fosse o
-regime que está sendo operado, quando é o modelo — a oração reduzida de gerúndio precisa de
-vírgulas de isolamento.
-
-## "finanças quantitativas é charlatanismo"
-
-**Sugestão:** "finanças quantitativas **são** charlatanismo com LaTeX."
-**Motivo (norma, confiança média):** "finanças" é substantivo de forma plural; concordância
-prescritiva pede "são" — caso disputado (paralelo a "Estados Unidos é/são"), decisão editorial
-válida manter "é" se soar mais natural em registro falado.
-
-## "não dar a quem usa o modelo falso conforto"
-
-**Sugestão:** "não dar, a quem usa o modelo, falso conforto sobre sua precisão..."
-**Motivo (linha):** sem vírgulas de isolamento, "o modelo falso conforto" pode ser mal-parseado
-em voz alta como substantivo composto.
-
-## "aplicar 25 vezes de alavancagem"
-
-**Sugestão:** "aplicar uma alavancagem de 25 vezes sobre uma premissa histórica..."
-**Motivo (linha):** "aplicar X vezes de Y" não é colocação natural em português.
-
-## "Estude estocástico a sério" (baixa prioridade)
-
-**Sugestão opcional:** "Estude cálculo estocástico a sério."
-**Motivo (linha):** "estocástico" é adjetivo; "cálculo estocástico"/"processos estocásticos"
-são as formas substantivas — mas pode ser elipse deliberada no registro telegráfico da
-sequência de imperativos; sinalizado, não obrigatório.
-
-## Achado fora do escopo desta etapa — sinalização para a etapa 7
-
-"Fontes e leituras" cita "Peter Kempthorne et al." como autor/instrutor do curso sem nenhuma
-ressalva, mas o `[VERIFICAR: ...]` no corpo do texto (abertura) registra que essa atribuição
-"não se sustentou na pesquisa desta rodada" (a página oficial do MIT OCW lista Choongbum Lee,
-não Kempthorne, para essa aula específica). A lista de fontes afirma com confiança exatamente
-o dado que o corpo trata como não verificado — inconsistência factual entre duas partes do
-mesmo documento. Não é problema de linha/norma; a etapa 7 (verificação técnica) deve resolver
-as duas pontas juntas: se "Kempthorne" for removido/hedgeado no corpo, a entrada da
-bibliografia precisa do mesmo tratamento.
-
-## Resumo de prioridade
-
-**Norma (aplicar sem debate):** regência de "assistir a" na abertura; "a ponta em que o LTCM
-estava vendido"; vírgula picada Aracruz/Sadia; sigla LTCM sem amarração; CFO sem gloss;
-consistência aspas simples vs. duplas; marcação de jargão sem aspas (circuit breaker/hedge/
-payoff/spreads/backtest).
-
-**Norma com ressalva (aplicar com bom senso):** títulos de obra em aspas vs. itálico (grande
-superfície — confirmar); concordância "finanças é/são".
-
-**Linha (mais subjetivo):** "precificar opção(ões)"; gloss duplicado de hedge; vírgula em "num
-regime, sendo operado"; vírgulas em "não dar, a quem usa o modelo, falso conforto"; "aplicar 25
-vezes de alavancagem"; "Estude estocástico" (baixa prioridade).
+O título do livro de Derman aparece como "*Models. Behaving. Badly.*" (com espaços após cada
+ponto) — a grafia oficial pode não ter espaços. Questão de exatidão bibliográfica, não de
+norma culta — fica para a etapa 7 (verificação técnica) confirmar, não corrigida aqui por
+memória não verificada.
