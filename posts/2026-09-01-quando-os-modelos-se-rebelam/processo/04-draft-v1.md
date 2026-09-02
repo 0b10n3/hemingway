@@ -10,6 +10,12 @@ Placeholders de visual (`ilu-01`, `graf-01`, `diag-01`) inseridos nos pontos dec
 `02-estrutura.md`. `[VERIFICAR]` inserido no ponto identificado pela pesquisa (etapa 3) sobre
 o volume do target forward de 2008 — resolução final cabe à etapa 7.
 
+**Revisão pós-crítica (mesma etapa 4, depois de `05-critica.md`):** três ajustes — parágrafo de
+Black–Scholes enxugado (a derivação técnica não reaparecia depois, cortada) e o fato do Nobel
+movido para a seção 4, onde já é retomado sem duplicar; Fechamento ganhou amarração explícita
+com a ressalva da seção 1; nota do target forward de 2008 ganhou frase-ponte após o aforismo e
+foi reenquadrada como produto diferente, não extensão do caso Black–Scholes.
+
 ---
 
 ### Por que o descolamento entre modelo e realidade é esperado — e por que entender isso separa um bom modelador de um extremista frustrado
@@ -108,21 +114,16 @@ O que está errado é o contexto em que a conta foi aplicada.
 
 Black–Scholes é o caso clássico, porque a bula é longa e quase ninguém lê até o fim.
 
-<!-- NOVO (etapa 4): resolve marcador "escrever um breve parágrafo sobre o que é o modelo e por que ele é tão famoso" -->
-O modelo — publicado em 1973 por Fischer Black e Myron Scholes, e estendido no mesmo ano por
+<!-- NOVO (etapa 4, revisado após 05-critica.md item 1: corta a derivação técnica — carteira replicante, EDP —, que excedia o pedido de parágrafo "breve", e move o fato do Nobel para a seção 4, onde já é retomado sem repetição (05-critica.md item 2) -->
+O modelo — publicado em 1973 por Fischer Black e Myron Scholes, estendido no mesmo ano por
 Robert Merton — resolve um problema que até então não tinha resposta fechada: quanto vale uma
 opção europeia (o direito, não a obrigação, de comprar ou vender um ativo por um preço
-combinado numa data futura) antes do vencimento? A resposta de Black, Scholes e Merton não foi
-"estimar" o preço — foi derivá-lo por um argumento de não-arbitragem: se você consegue montar
-uma carteira de ações e caixa que replica o payoff da opção, e ajusta essa carteira
-continuamente conforme o preço da ação se move, o custo de montar a réplica é o preço justo da
-opção. Disso sai uma equação diferencial parcial e, dela, uma fórmula fechada — algo que dava
-para calcular numa calculadora financeira dos anos 1970, não só num computador de banco. É
-essa combinação — rigor matemático genuíno mais uma fórmula prática que cabia na palma da mão —
-que fez Black–Scholes se espalhar tão rápido que, como você vai ver adiante, ajudou a moldar o
-próprio mercado que tentava descrever. Scholes e Merton receberam o Nobel de Economia por esse
-trabalho em 1997; Black não, porque tinha morrido em 1995, e o prêmio não é concedido a título
-póstumo.
+combinado numa data futura) antes do vencimento? A resposta não foi "estimar" o preço, foi
+derivá-lo por um argumento de não-arbitragem — e o resultado saiu numa fórmula fechada, algo
+que já dava para calcular numa calculadora financeira dos anos 1970, não só num computador de
+banco. É essa combinação — rigor matemático genuíno mais uma fórmula que cabia na palma da mão
+— que fez Black–Scholes se espalhar tão rápido que, como você vai ver adiante, ajudou a moldar
+o próprio mercado que tentava descrever.
 
 O modelo assume, entre outras coisas:
 
@@ -154,7 +155,26 @@ Depois de 1973, com a fórmula difundida em tabelas e calculadoras, os preços o
 O cometa não muda de órbita porque o astrônomo publicou.
 O mercado muda.
 
-> **Nota brasileira: o target forward de 2008.** No segundo semestre de 2008, dezenas de exportadoras brasileiras carregavam estruturas de derivativos cambiais com payoff assimétrico — ganho limitado se o dólar caísse, perda alavancada e sem trava se ele disparasse. Enquanto o real se valorizava, a estrutura parecia hedge barato. Quando o dólar subiu, virou outra coisa. A Aracruz Celulose comunicou perda de US$ 2,13 bilhões ao desmontar as posições em novembro; a Sadia perdeu R$ 2,55 bilhões e acabou incorporada pela Perdigão, o que deu origem à BRF. [VERIFICAR: o volume total dessas operações no país — o rascunho original citava "US$ 35 bilhões", mas a pesquisa desta rodada (`03-pesquisa.md`, item 2) não encontrou fonte primária que sustente exatamente esse número; as duas cifras com proveniência clara medem coisas diferentes (BIS Quarterly Review, jun/2009: perda estimada de até US$ 25 bi; BIS Papers 54, Mesquita & Torós: exposição delta de ~US$ 37 bi na CETIP, fim de set/2008) — a etapa 7 decide qual (ou nenhuma) substitui o número do rascunho.] A precificação estava errada? Não necessariamente. O que estava errado era chamar aquilo de hedge — e o cenário em que a premissa de câmbio comportado valia.
+<!-- NOVO (etapa 4, revisado após 05-critica.md item 4: frase-ponte para dar respiro ao aforismo antes do bloco denso, e nota reenquadrada como produto diferente — mesma doença, não o mesmo remédio — em vez de ampliar o escopo que a seção promete provar com Black-Scholes -->
+O mesmo ano que deu ao Brasil o *smile* de opções deu, vinte anos depois, uma versão cambial
+da mesma doença — produto diferente, premissa igualmente confiante, mesmo desfecho.
+
+> **Nota brasileira: o target forward de 2008.** No segundo semestre de 2008, dezenas de
+> exportadoras brasileiras carregavam estruturas de derivativos cambiais com payoff assimétrico
+> — ganho limitado se o dólar caísse, perda alavancada e sem trava se ele disparasse. Não é
+> opção precificada por Black–Scholes, é outro instrumento — mas a mesma premissa por trás:
+> câmbio se comportando dentro de uma faixa previsível. Enquanto o real se valorizava, a
+> estrutura parecia hedge barato. Quando o dólar subiu, virou outra coisa. A Aracruz Celulose
+> comunicou perda de US$ 2,13 bilhões ao desmontar as posições em novembro; a Sadia perdeu
+> R$ 2,55 bilhões e acabou incorporada pela Perdigão, o que deu origem à BRF.
+> [VERIFICAR: o volume total dessas operações no país — o rascunho original citava
+> "US$ 35 bilhões", mas a pesquisa desta rodada (`03-pesquisa.md`, item 2) não encontrou fonte
+> primária que sustente exatamente esse número; as duas cifras com proveniência clara medem
+> coisas diferentes (BIS Quarterly Review, jun/2009: perda estimada de até US$ 25 bi; BIS
+> Papers 54, Mesquita & Torós: exposição delta de ~US$ 37 bi na CETIP, fim de set/2008) — a
+> etapa 7 decide qual, se alguma, substitui o número do rascunho.] A precificação estava
+> errada? Não necessariamente. O que estava errado era chamar aquilo de hedge — e o cenário em
+> que a premissa de câmbio comportado valia.
 
 ---
 
@@ -162,7 +182,7 @@ O mercado muda.
 
 Se existe um caso que precisa ser contado a todo analista júnior, é esse.
 
-O Long-Term Capital Management foi fundado em 1994 por John Meriwether, ex-chefe da mesa de arbitragem da Salomon Brothers. Entre os sócios estavam **Myron Scholes e Robert Merton**, que em 1997, com o fundo em operação, receberiam o Nobel de Economia justamente pelo trabalho de precificação de derivativos — o mesmo trabalho descrito na seção anterior.
+O Long-Term Capital Management foi fundado em 1994 por John Meriwether, ex-chefe da mesa de arbitragem da Salomon Brothers. Entre os sócios estavam **Myron Scholes e Robert Merton**, que em 1997, com o fundo já em operação, receberiam o Nobel de Economia justamente pelo trabalho de precificação de derivativos descrito na seção anterior — Fischer Black não dividiu o prêmio porque tinha morrido em 1995, e o Nobel não é concedido a título póstumo.
 
 O conselho reunia provavelmente a maior concentração de capital intelectual quantitativo já montada num único fundo.
 
@@ -254,7 +274,7 @@ Traduzindo para o seu dia a dia como analista: antes de entregar um número que 
 
 Nenhum modelo é uma bala de prata.
 
-<!-- NOVO (etapa 4): resolve marcador "tentar reescrever o parágrafo acima. Existem teorias em finanças." — mantém consistência com a ressalva já registrada na seção 1 ("fronteira mais borrada do que Derman pinta") em vez de repetir a afirmação categórica original -->
+<!-- NOVO (etapa 4, revisado após 05-critica.md item 3: adiciona amarração explícita com a tabela da seção 1 em vez de deslocar a fronteira teoria/modelo sem justificar por que a nova linha escapa da mesma crítica -->
 Não porque a matemática seja fraca. A matemática financeira tem teoremas de verdade — o
 teorema fundamental da precificação de ativos é uma prova, não uma metáfora, e um teorema
 provado é tão "teoria", no sentido forte, quanto qualquer resultado da física. O que não
@@ -262,8 +282,16 @@ existe, no sentido forte, é uma teoria _empírica_ sobre o próprio mercado. O 
 verdadeiro sobre o espaço de probabilidade que você definiu; se esse espaço descreve o mercado
 real amanhã de manhã é sempre uma analogia, nunca uma dedução — e é exatamente aí, na costura
 entre a prova e o mundo, que mora o modelo, com todo o domínio de validade que a palavra
-"modelo" carrega desde a seção 1. Esperar que a prova sozinha resolva essa costura é um erro
-de categoria, não de cálculo.
+"modelo" carrega desde a seção 1.
+
+Isto não contradiz a ressalva que a própria seção 1 já fez contra Derman — a de que, pela
+visão semântica, até Maxwell idealiza (vácuo perfeito, cargas pontuais) e a fronteira
+teoria/modelo é mais borrada do que ele pinta. A ressalva vale para a física tanto quanto para
+as finanças; a diferença não é categórica, é de grau, e o grau é o que importa aqui: o espaço
+de probabilidade de Black–Scholes idealiza tanto quanto o vácuo de Maxwell, só que erra a
+idealização por uma distância imensamente maior, porque o objeto do lado de cá — o mercado —
+reage ao próprio modelo, e o vácuo, não. Esperar que a prova sozinha resolva essa costura é um
+erro de categoria, não de cálculo.
 
 Mas modelos são alavancas extremamente eficientes.
 
