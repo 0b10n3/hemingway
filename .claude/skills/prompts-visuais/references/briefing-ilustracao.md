@@ -67,6 +67,11 @@ das três saídas foi aplicada:
 ### Camada 2 — objetos concretos do texto
 
 O que dá para desenhar e está lá: quadro, livro, balcão, porta, cadeira, sumário, contrato.
+Uma pessoa real citada pelo nome no texto (ex.: um economista, um matemático) também é objeto
+de Camada 2 válido — mas antes de desenhar o rosto dela, confira o critério em três faixas de
+"Figuras históricas e públicas" em `estilos-ilustracao.md`: figura histórica segue direto;
+figura pública viva exige registrar a pergunta ao autor no Passo 6; pessoa privada nunca vira
+rosto, nem estilizado.
 
 ### Camada 3 — números, documentos, instituições
 
@@ -178,6 +183,12 @@ estrutura de metáfora visual usada (justaposição / fusão / substituição �
 & McQuarrie) e **por que os outros perderam**. Se a Camada 1 era uma sugestão de visual pronta,
 esta é a seção que também leva a **"Proveniência"** (ver acima) e a comparação contra o
 conceito independente gerado no Passo 3.
+
+Se o conceito envolve rosto de figura pública viva (Faixa 2 de "Figuras históricas e públicas",
+`estilos-ilustracao.md`), esta seção também registra a **pergunta nomeada** que vai para o
+gate humano (etapa 10 do `post-substack/SKILL.md`) — mesmo formato da pergunta de linha
+editorial ambígua: um rótulo curto e "usar o rosto de [nome] aqui, ou não?", nunca decidido
+sozinho.
 
 | Estrutura | Como funciona | Verbaliza como |
 |---|---|---|

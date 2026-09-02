@@ -26,7 +26,12 @@ estilo, a distinção editorial existiria só no texto.
 
 ## Regras compartilhadas (valem para os dois estilos)
 
-Derivadas de `brand/DESIGN.md` §4.1, §4.5 e §5 — não são opinião desta referência:
+Regras 1, 2, 3, 4, 5 e 7 são derivadas de `brand/DESIGN.md` §4.1, §4.5 e §5 — não são opinião
+desta referência. A regra 6 (figura humana) **não** deriva de `DESIGN.md` — é critério próprio
+deste repositório, revisado em 2026-09-01 (ver `pesquisa/epico-figuras-em-ilustracao/`); a
+versão anterior ("sem figura humana reconhecível, rosto não") alegava a mesma proveniência de
+marca sem base real no documento — checado linha a linha, `DESIGN.md` não menciona figura
+humana, rosto ou retrato em nenhum ponto.
 
 1. **Paleta fechada.** Só os tokens de `brand/tokens/skill_test.tokens.json`. Nenhum hex fora
    da lista abaixo. Nenhuma cor "nova" porque ficou bonita.
@@ -40,9 +45,42 @@ Derivadas de `brand/DESIGN.md` §4.1, §4.5 e §5 — não são opinião desta r
 4. **Sem texto renderizado na imagem.** Gerador erra tipografia e a marca tem tipografia
    própria. Quem carrega a informação verbal é o alt-text.
 5. **Sem ilustração genérica de finanças** (`DESIGN.md` §4.5): moeda, cifrão, candlestick,
-   cofre, aperto de mão, robô/cérebro de IA, prédio de banco, gráfico de pizza.
-6. **Sem figura humana reconhecível.** Silhueta abstrata é aceitável; rosto não.
+   cofre, aperto de mão, robô/cérebro de IA, prédio de banco, gráfico de pizza. Isto não muda
+   com a revisão da regra 6 — uma referência de cultura pop (ex.: um robô de ficção científica)
+   continua proibida como objeto literal; o que o sistema já sabe fazer, e continua fazendo, é
+   extrair a **estrutura** da referência e descartar o elemento literal (ver "Referência de
+   cultura pop", em `briefing-ilustracao.md`).
+6. **Figura humana reconhecível — critério em três faixas, não proibição absoluta.** Silhueta
+   abstrata sempre foi e continua aceitável. Rosto reconhecível segue o critério de
+   "Figuras históricas e públicas", abaixo — a maioria dos casos (pessoa privada, decoração
+   sem função editorial) continua proibida; o que muda é que figura histórica ou pública
+   diretamente relevante ao argumento do texto ganhou caminho explícito.
 7. **Geometria reta.** Quadro, painel, bloco e moldura com canto reto (`DESIGN.md` §4.5).
+
+### Figuras históricas e públicas
+
+Três faixas, do mais livre ao proibido. Todas exigem que a pessoa seja citada pelo nome no
+corpo do post — nunca decoração externa ao texto — e tratamento sempre dentro do vocabulário
+do estilo em uso (ver "Como desenhar um rosto", em cada estilo abaixo), nunca fotorrealista.
+
+- **Faixa 1 — figura histórica: sempre permitida, sem pergunta ao autor.** Falecida e com
+  presença padrão em material didático/de referência do campo que o post trata (matemática,
+  economia, finanças) — o teste é "esse rosto já aparece em livro-texto ou enciclopédia sem
+  controvérsia", não uma data de corte arbitrária. Um caso limítrofe (falecimento recente,
+  ainda socialmente sensível) desce para a Faixa 2 por precaução.
+- **Faixa 2 — figura pública viva, discutida no papel profissional específico do texto:
+  permitida, mas vira pergunta nomeada no briefing visual (etapa 8), levada ao gate humano
+  (etapa 10)** — mesmo tratamento que a etapa 1 do `post-substack/SKILL.md` já dá à linha
+  editorial ambígua. Condição adicional: a peça nunca pode implicar endosso da pessoa ao post,
+  produto ou à Syntaxis, e o retrato se limita à capacidade profissional citada — nunca vida
+  pessoal ou contexto alheio ao motivo da citação.
+- **Faixa 3 — pessoa privada: nunca**, sem exceção, mesmo que nomeada no texto (ex.: um
+  cliente, colega ou fonte anônima de um post de linha Spoiler).
+
+Tratamento sempre respeitoso, nunca caricato ou satírico. O rosto é só **um** elemento da
+composição — as regras de "um ponto de tensão só" e "uma ideia por peça"
+(`briefing-ilustracao.md`, Passo 4) continuam valendo; a peça não vira retrato solto, precisa
+estar ancorada num conceito do Passo 6, como qualquer outra `ilu-NN`.
 
 ### Hex autorizados
 
@@ -87,6 +125,11 @@ imperfeito porque a experiência foi.
   §4.5.
 - **Fragmento de papel milimetrado / pautado** como substrato de uma camada, quando o assunto
   toca formação ou estudo.
+- **Como desenhar um rosto (Faixa 1/2 de "Figuras históricas e públicas", acima):** rosto como
+  composição de papel recortado — formas geométricas simples (elipse, triângulo, faixa)
+  compondo só os traços mínimos que tornam a pessoa reconhecível, mesma disciplina de material
+  do resto da peça (corte reto padrão, sombra chapada sem blur, retícula opcional numa camada,
+  paleta fechada). Retrato-colagem editorial de revista, nunca ilustração de rosto realista.
 
 ### Regras
 
@@ -165,6 +208,10 @@ milimetrado. Este estilo não importa uma estética — formaliza a que já est�
 - **Marca de cota** (linha fina com terminação em traço reto) quando o argumento envolver
   prazo, distância ou proporção — nunca com número escrito.
 - **Grade de pontos** (`dataGrid` da marca) nas margens, opacidade baixa, só como respiro.
+- **Como desenhar um rosto (Faixa 1/2 de "Figuras históricas e públicas", acima):** rosto como
+  projeção ortogonal/contorno de linha — traço de espessura constante, sem sombreamento
+  realista, no mesmo espírito da linha de construção visível que rege o resto do estilo.
+  Retrato de manual técnico ou selo postal linear, nunca desenho figurativo realista.
 
 ### Regras
 
