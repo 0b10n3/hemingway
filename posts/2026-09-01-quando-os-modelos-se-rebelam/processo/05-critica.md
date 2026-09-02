@@ -1,87 +1,93 @@
 # Crítica developmental — "Quando os Modelos se Rebelam"
 
-Laudo do agente `critico-editorial`, etapa 5. Nenhum achado de severidade alta — o texto não
-volta para a etapa 2. Quatro achados de severidade média (recorte/reordenação recomendados) e
-um de severidade baixa.
+Executada pelo agente `critico-editorial` sobre `04-draft-v1.md`, cruzado com
+`01-briefing.md` e `02-estrutura.md`.
 
 ## Achados
 
-**1. Abertura (parágrafos 1-2) atrasa o próprio gancho com preâmbulo administrativo.**
-O briefing (`01-briefing.md`) define o gancho como "a citação do professor Peter Kempthorne
-sobre a moeda... cena/dado concreto que abre o texto antes de qualquer tese" e afirma que o
-texto "abre com cena/anedota, não com definição". Na prática, as duas primeiras frases do
-draft são sobre o hábito de compartilhar conteúdo do MIT OCW e o nome/código da disciplina
-(18.S096 vs. 18.642) — metadado de plataforma, não cena. A citação em si só chega no quarto
-parágrafo. Um leitor que entra pela newsletter esperando o gancho ensaístico encontra duas
-frases de contextualização de curso antes dele. Severidade: média.
+**1. Seção 1 — colisão de ID entre o placeholder real de `graf-01` (seção 3) e um artefato
+mal formatado na seção 1.**
+`02-estrutura.md` decidiu explicitamente, em "O que fica de fora", que a taxonomia
+Teoria/Modelo/Intuição **não** vira peça visual — as duas tabelas nativas do rascunho cobrem
+essa comparação. O draft, porém, inseriu um comentário entre colchetes rotulado
+`[graf-01: comparativo Teoria x Modelo...]`, formatado como os placeholders visuais reais,
+cujo próprio texto diz "não vira peça visual" — contradição de forma — e reutiliza o ID
+`graf-01`, já reservado para os dados de Ibovespa/dólar da seção 3. Além disso, nenhuma das
+duas tabelas nativas prometidas pela estrutura aparece de fato como tabela no draft, só como
+prosa.
+Severidade: **alta**.
 
-**2. Seção 1 (segunda tabela + "E onde entram as hipóteses") é o ponto de maior densidade
-acadêmica do texto, sem nenhum caso concreto ainda apresentado.** Antes da primeira tabela
-(Teoria x Modelo) o leitor já processou a taxonomia de Derman; a segunda tabela adiciona
-Cartwright, Duhem–Quine, Suppes/van Fraassen/Giere e o contra-exemplo do flogisto — quatro
-posições filosóficas nomeadas, em formato de tabela comparativa, antes de qualquer desastre
-financeiro real ter sido narrado (o primeiro caso, Black–Scholes/Joesley Day, só chega na
-seção 3). É também o trecho onde o registro do texto mais se afasta do ensaístico (primeira
-pessoa, ironia, metáfora) e se aproxima do explicativo/textbook — mistura de tom dentro do
-mesmo post. É o parágrafo/seção onde um leitor real mais provavelmente desistiria: nenhuma
-aposta em dinheiro real ainda foi estabelecida para justificar o investimento de atenção
-nessa densidade. Severidade: média (a seção já estava planejada em `02-estrutura.md` com as
-duas tabelas — o problema não é a existência delas, é o acúmulo sem alívio narrativo antes
-delas).
+**2. Fechamento — o parágrafo novo sobre "existem teorias, sim, em domínios fechados" reverte
+sem preparo a frase categórica da seção 1 ("Em finanças, o que existe são modelos. Não
+teorias.") e usa como exemplo a não-arbitragem, que a própria seção 3 já tinha descrito como
+consequência derivada das premissas do modelo, não como teoria autônoma.**
+O leitor sai do texto sem saber se a tese é "não existem teorias em finanças" ou "existem
+teorias em domínios fechados, e não-arbitragem é uma delas" — as duas posições usam o mesmo
+conceito de dois jeitos incompatíveis. Isso não resolve bem a instrução original do autor
+(`[tentar reescrever... Existem teorias em financas.]`) — cria inconsistência nova em vez de
+matizar a frase categórica.
+Severidade: **alta**.
 
-**3. A "Nota brasileira" sobre o target forward de 2008 (seção 3) é um quarto case
-empilhado numa seção já carregada, e repete uma lição que a seção 4 (LTCM, clímax) prova de
-forma mais forte.** A seção 3 já sustenta: definição de Black–Scholes, lista de hipóteses,
-o caso Joesley Day com `graf-01`, e a nuance de performatividade/contraperformatividade de
-MacKenzie. A nota sobre Aracruz/Sadia acrescenta um quinto elemento de conteúdo à mesma
-seção, com o mesmo argumento de fundo ("a premissa quebrou, não a conta") que a seção
-seguinte (LTCM) já vai entregar com muito mais força dramática e números maiores. Não está
-mal escrita — é candidata a corte ou a nota de rodapé mais curta, porque dilui o foco da
-seção sem adicionar um mecanismo novo à tese. Severidade: média.
+**3. LTCM — a ressalva sobre alavancagem como "escolha humana" mina o clímax retórico
+imediatamente anterior, em vez de complementá-lo.**
+A seção monta para a frase "aqui está o ponto que eu quero que fique... o erro não estava na
+conta". O parágrafo seguinte qualifica essa mesma frase como possível "forma elegante de
+tirar a responsabilidade" um parágrafo depois de pedir que ela "fique" com o leitor —
+sobreposição de dois eixos causais despachada em sequência imediata, sem transição que
+sinalize que são complementares.
+Severidade: **média**.
 
-**4. O parágrafo de CTA de compartilhamento foi posicionado depois do aforismo de
-fechamento, invertendo o padrão do resto do corpus.** O briefing registra explicitamente que
-o texto "fecha... com aforismo autoral ('Um modelo é uma ferramenta que não sabe que é uma
-ferramenta. Cabe a você saber.')" e a estrutura deixa a decisão de CTA para a etapa 4,
-"seguindo o padrão dos outros posts ensaísticos do corpus". Checando esse padrão: em
-"O Mundo Invertido das Carreiras" o CTA de compartilhamento vem *antes* da linha de
-assinatura final ("Menos Upside Down, mais alicerce. Vejo vocês em setembro."); em "Dividir
-para Não Correr Risco" o CTA está fundido na mesma frase da linha de fechamento, não depois
-dela. No draft atual, a ordem é invertida: o aforismo aparece primeiro, isolado, como se
-fosse a última linha do texto — e só depois vem um parágrafo novo pedindo compartilhamento.
-Isso faz da última coisa que o leitor lê o pedido de compartilhamento, não o aforismo que a
-etapa 1 definiu como o fechamento. Severidade: média.
+**4. `diag-01` está posicionado antes da narrativa que ele resume**, entregando o mecanismo do
+colapso do LTCM (calote russo → fuga para qualidade → spreads divergem → margem → venda
+forçada) antes da prosa narrar esse mesmo ciclo — esvazia parte da tensão dramática do
+clímax.
+Severidade: **média**.
 
-**5. O par de linhas "O cometa não muda de órbita porque o astrônomo publicou. / O mercado
-muda." ganhou uma cláusula explicativa que o briefing pediu para não ter.** O briefing
-descreve esse par como "movimento Hemingway: justaposição sem explicar o porquê" e pede para
-"preservar a quebra de linha/ritmo". No draft, a segunda linha ficou "O mercado muda — e às
-vezes muda para se afastar do que o astrônomo previu", que explica o mecanismo em vez de
-deixar a justaposição falar sozinha. É um caso limítrofe entre developmental e linha
-(a instrução violada é sobre uma técnica retórica planejada, não sobre uma palavra isolada),
-por isso a severidade fica baixa, mas registro porque a etapa 1 tratou essa preservação como
-requisito explícito, não como sugestão. Severidade: baixa.
+**5. `graf-01` é o único dos três placeholders sem bloco/legenda descritiva própria** — está
+embutido numa frase de prosa, sem eixos/período especificados além do `[VERIFICAR]` de fonte,
+ao contrário de `ilu-01` e `diag-01`.
+Severidade: **baixa**.
 
-## Pontos positivos registrados (não são achados, não exigem ação)
+**6. Seção 1 acumula quatro posições filosóficas nomeadas antes de qualquer caso financeiro
+real ser narrado** — ponto de maior risco de abandono do texto, desproporcional ao papel de
+"contexto".
+Severidade: **média**.
 
-- O fechamento resolve corretamente a pendência do briefing sobre "não existem teorias no
-  sentido forte" — ecoa a nuance da seção 1 (visão semântica) em vez de reafirmar a frase
-  categórica original, exatamente como `01-briefing.md` e `02-estrutura.md` pediam.
-- As adições vindas da pesquisa (Frank Knight/incerteza knightiana na seção 4, SR 11-7 na
-  seção 5) estão bem integradas — parágrafos curtos, autocontidos, que reforçam o mecanismo
-  já estabelecido em vez de se comportarem como apêndices de pesquisa colados.
-- A distinção entre despesa financeira e prejuízo líquido da Sadia (seção 3) já está correta
-  no draft, antecipando o que a pesquisa (etapa 3) recomendava — não é achado, é checagem de
-  precisão que já passou (a verificação fina do número cabe à etapa 7, não aqui).
-- Os três pilares (dado, narrativa, visual) estão presentes e nenhum está ausente:
-  `ilu-01` (seção 2), `graf-01` (seção 3), `diag-01` (seção 4), narrativa em seções 1 e 5,
-  dado em seções 3 e 4 — consistente com `02-estrutura.md`.
+**7. Abertura — dois parágrafos de contextualização de plataforma (MIT OCW) atrasam o gancho**
+que `01-briefing.md` define como a citação em si, não o metadado do curso.
+Severidade: **média**.
+
+**8. A nota do target forward de 2008 é adicionada depois do dístico de fechamento de
+MacKenzie**, diluindo o beat retórico e estendendo uma seção 3 já carregada.
+Severidade: **média**.
+
+## Pontos positivos
+
+- Os três pilares (dado, narrativa, visual) representados nas seções certas.
+- `ilu-01` bem posicionado, âncora visual antes da abstração.
+- Imagem da alavanca e aforismo final preservados verbatim.
+- Seções 5 e 6 entregam exatamente o prometido pela estrutura, sem desvio.
 
 ## Veredito
 
-Arco, tese e três pilares confirmados corretos (nenhum achado força retorno à etapa 2).
-Os quatro achados de severidade média são de corte/reordenação (abertura, densidade da
-seção 1, nota do target forward, ordem do fechamento) e podem ser resolvidos na revisão de
-linha (etapa 6) ou por uma passada leve de reordenação antes dela, sem reabrir a estrutura.
-Segue para a etapa 6 com esses quatro pontos como pendência de ajuste, e o item 5 como
-observação de baixa prioridade.
+Dois achados de severidade alta atingem a tese central e a promessa estrutural da seção 1 —
+por regra do pipeline (`post-substack/SKILL.md`: "se a etapa 5 devolver severidade alta...
+volte à etapa 2 antes de seguir"), o texto volta para ajuste de estrutura/draft antes da
+revisão de linha.
+
+## Resolução (loop etapa 2 → 4, aplicado nesta mesma passada)
+
+- **Item 1**: removido o artefato `[graf-01: ...]` da seção 1; as duas tabelas nativas
+  (Teoria x Modelo; ponto de Derman x filosofia da ciência) reintegradas como tabelas
+  markdown reais, sem ID de visual — `02-estrutura.md` atualizado para deixar explícito que
+  elas são tabela nativa, nunca placeholder.
+- **Item 2**: o parágrafo do Fechamento reescrito para ecoar diretamente a nuance já
+  registrada na seção 1 (visão semântica de Suppes/van Fraassen/Giere — teoria também é
+  família de modelos, mas finanças mora do lado em que o objeto reage ao modelo), em vez de
+  introduzir não-arbitragem como exceção nova e incompatível com a seção 3.
+- **Itens 3-8 (média/baixa)**: aplicados na mesma revisão do draft — reordenação de `diag-01`
+  para o ponto em que o ciclo é narrado, ressalva de alavancagem integrada antes do clímax em
+  vez de depois, abertura cortada direto para a citação, nota do target forward movida para
+  antes do dístico de MacKenzie, `graf-01` ganhou bloco de legenda próprio.
+
+`loops_consumidos` incrementado para 1 em `estado.json`.

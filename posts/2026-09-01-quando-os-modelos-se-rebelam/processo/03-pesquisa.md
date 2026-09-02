@@ -1,279 +1,276 @@
-# Laudo de pesquisa — "Quando os Modelos se Rebelam"
+# Pesquisa — Quando os Modelos se Rebelam
 
-Pesquisa feita para a etapa 3 do pipeline. Estrutura abaixo espelha `02-estrutura.md`.
+Executada pelo agente `pesquisador-editorial` a partir de `00-transcricao.md`,
+`01-briefing.md` e `02-estrutura.md`.
 
-## Abertura — a moeda de Kempthorne (gancho)
+## Abertura — a citação de Kempthorne (achado mais importante desta pesquisa)
 
-- O padrão de raciocínio que a citação ataca (confundir retorno-à-média com estabilidade da
-  própria média) é tratado na literatura de probabilidade como variante do "gambler's
-  fallacy" versus mudança de regime — não há uma fonte específica que trate exatamente desse
-  enquadramento em conjunto com a citação de Kempthorne, então não há contraponto de
-  literatura a acrescentar aqui além do que o rascunho já tem.
-- **Verificação da citação não concluída**: localizada a página do curso e da aula (Lecture
-  3: Probability Theory, 18.S096 Fall 2013 —
-  [ocw.mit.edu](https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/resources/lecture-3-probability-theory/),
-  atualizado em 18.642 Fall 2024 —
-  [ocw.mit.edu](https://ocw.mit.edu/courses/18-642-topics-in-mathematics-with-applications-in-finance-fall-2024/)),
-  mas **não foi possível confirmar o texto exato da frase** por busca textual — as
-  ferramentas de pesquisa disponíveis não leem legendas/transcrição de vídeo, e o PDF de
-  notas de aula (`MIT18_S096F13_lecnote3.pdf`) não carregou (erro de redirecionamento).
-  Nenhuma citação de terceiros reproduzindo essa frase de Kempthorne foi encontrada fora do
-  próprio texto de origem. **Sinalizado como pendência real para a etapa 7**: alguém precisa
-  assistir ao vídeo da aula (ou abrir o PDF de notas diretamente) para confirmar a citação
-  literal antes de publicar entre aspas. Não é motivo para achar que está errada — só não foi
-  possível confirmar nesta etapa.
+**A atribuição a Peter Kempthorne é duvidosa e deveria ser tratada como `[VERIFICAR]` de alto
+risco antes de publicar.**
 
-## 1. "Três palavras que você usa como sinônimo e não são" (Derman: teoria/modelo/intuição)
+Evidência levantada (múltiplas buscas independentes convergindo no mesmo resultado):
 
-- A distinção teoria/modelo de Derman está corretamente descrita e é amplamente coberta por
-  resenhas do livro (EconTalk/Econlib, mathbabe, Forbes, CFA Institute) — nenhuma dessas
-  contesta a descrição básica que o rascunho faz da tese de Derman.
-  [EconTalk — Derman on Theories, Models, and Science](https://www.econtalk.org/derman-on-theories-models-and-science/);
-  [mathbabe](https://mathbabe.org/2011/10/25/emanuel-dermans-models-behaving-badly/);
-  [Forbes](https://www.forbes.com/sites/francinemckenna/2011/11/14/a-review-of-emanuel-dermans-new-book-models-behaving-badly/).
-- **Contraponto acadêmico adicional que o rascunho não cita**, e que reforça exatamente o
-  ponto que a estrutura já identificou como "fronteira mais borrada do que Derman pinta": a
-  resenha de **M.A.H. Dempster** em *Quantitative Finance*, v. 12, n. 4, abril de 2012 (DOI
-  10.1080/14697688.2012.662596), argumenta que a distinção de Derman entre "teorias" (física)
-  que dão certo e "modelos" (finanças) que dão errado é "wee bit oversimplified" e lembra que
-  a própria física teve teorias que se revelaram falsas (o exemplo citado é o flogisto). Texto
-  completo não acessível (paywall/403), mas a citação específica está confirmada de forma
-  consistente em múltiplos resumos de busca. É um contraponto genuíno, publicado, revisado
-  por pares, e mais forte do que só "física também idealiza" — é "física também erra
-  categoricamente, não só aproxima". Vale considerar citar ao lado da visão semântica.
-- **Um terceiro ponto de vista que falta na estrutura atual**: Mary Morgan & Margaret
-  Morrison, *Models as Mediators: Perspectives on Natural and Social Science* (Cambridge,
-  1999) — não é a "visão semântica" (que reduz teoria a família de modelos) nem a posição de
-  Derman (separação categórica). É uma terceira posição: modelos são **instrumentos
-  mediadores parcialmente autônomos** — nem deriváveis da teoria nem simples descrição do
-  mundo, com vida própria. Essa posição é, na prática, **mais compatível com o argumento
-  final do próprio texto** (o modelo como "ferramenta que não sabe que é ferramenta", que
-  "não decide nada por você") do que a redução semântica que a seção 1 usa como principal
-  contraponto — porque preserva a autonomia/agência do modelo sem apagar a diferença entre
-  modelo e teoria. Vale pelo menos como nota interna, mesmo que não entre no post.
-  ([PhilPapers](https://philpapers.org/rec/MORMAM-7),
-  [Wikipedia — Models as Mediators](https://en.wikipedia.org/wiki/Models_as_Mediators))
-- Cartwright (*How the Laws of Physics Lie*), Duhem-Quine, Lakatos ("cinturão protetor") são
-  tratamentos padrão e amplamente aceitos na filosofia da ciência — nenhuma divergência
-  relevante encontrada quanto ao uso que o rascunho faz deles. A entrada da Stanford
-  Encyclopedia of Philosophy sobre "Models in Science"
-  ([plato.stanford.edu](https://plato.stanford.edu/archives/fall2009/entries/models-science/))
-  é uma boa fonte de reforço/checagem se a etapa 7 quiser uma referência tercearizada e
-  citável para o quadro geral.
+- A página de recurso da própria MIT OCW para a *Lecture 3: Probability Theory* (18.S096,
+  Fall 2013) — [ocw.mit.edu/.../lecture-3-probability-theory](https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/resources/lecture-3-probability-theory/)
+  e o recurso do PDF de notas [.../mit18_s096f13_lecnote3](https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/resources/mit18_s096f13_lecnote3)
+  — foram consultadas em três fetches separados; em todos, o instrutor identificado para esta
+  aula específica é **Dr. Choongbum Lee**, não Kempthorne.
+- O curso 2013 lista quatro instrutores (Kempthorne, Choongbum Lee, Vasily Strela, Jake Xia)
+  — [math.mit.edu/classes/18.S096/fall13](https://math.mit.edu/classes/18.S096/fall13/) — mas
+  nenhuma página lista explicitamente "quem leciona qual aula" de forma centralizada; a
+  evidência de que é Lee vem especificamente da página de recurso da Lecture 3.
+- Padrão de conteúdo é consistente com essa divisão: nos PDFs da versão atualizada 2024
+  (18.642), vários slides trazem o crédito impresso "Dr. Kempthorne" — mas nas aulas de
+  conteúdo **aplicado** (Regression Analysis, Stochastic Processes I, Stochastic Differential
+  Equations, Stochastic Calculus —
+  [exemplo](https://ocw.mit.edu/courses/18-642-topics-in-mathematics-with-applications-in-finance-fall-2024/mit18_642_f24_lec05.pdf)),
+  nunca na aula de probabilidade básica.
+- Choongbum Lee é matemático puro (grafos aleatórios, teoria de Ramsey —
+  [Google Scholar](https://scholar.google.com/citations?user=044QzjcAAAAJ&hl=en)), do MIT
+  Math, sem perfil de mercado financeiro — compatível com a Lecture 3 ser descrita como
+  "revisão da teoria de probabilidade necessária para o curso" (conteúdo pré-requisito, não
+  aplicado). Kempthorne, ao contrário, tem CV de mercado (consultoria financeira desde 1992,
+  gestor de portfólio num hedge fund sistemático de US$2,1bi entre 2010-2012 —
+  [CV MIT](https://math.mit.edu/documents/uploads/cv/2015_07_20_CV_kempthorne.pdf)), o que
+  combina melhor com as aulas aplicadas.
+- **Descompasso temático**: a frase do rascunho é dita "no contexto de reversão à média" —
+  mas reversão à média é tópico de séries temporais/processos estocásticos, não da aula
+  descrita como cobrindo "random variables, probability distributions, and the Central Limit
+  Theorem". Evidência circunstancial adicional de que a citação pode vir de outra aula (ou
+  outro professor) e ter sido remontada de memória.
+- Na versão 2024 (18.642), Choongbum Lee não é mais listado como instrutor (só Kempthorne,
+  Strela, Xia), e o vídeo da Lecture 3 aparece como indisponível/restrito na cópia do
+  Internet Archive ([archive.org/details/mit18_642f24](https://archive.org/details/mit18_642f24))
+  — consistente com Lee ter deixado o MIT e essa aula ter sido retirada da atualização.
+- **Não foi encontrado o texto exato da citação** ("se você lança uma moeda 100 vezes...") em
+  nenhuma nota de aula, transcrição ou material indexado — é plausivelmente uma fala oral no
+  vídeo, não escrita, o que busca textual não confirma nem refuta.
+
+**Recomendação explícita**: isto não pode ser resolvido por busca textual — alguém precisa
+assistir ao vídeo da Lecture 3 (2013) e checar quem fala e o que exatamente é dito. Até lá, a
+atribuição nominal a Kempthorne é a peça mais frágil do texto inteiro, porque é o gancho de
+abertura e nomeia uma pessoa real.
+
+## 1. "Três palavras..." (Derman: teoria/modelo/intuição)
+
+- Confirmação independente da tese central de Derman via podcast Econlib/EconTalk,
+  "[Derman on Theories, Models, and Science](https://www.econtalk.org/derman-on-theories-models-and-science/)"
+  — reforça a distinção teoria/modelo/metáfora tal como o rascunho já apresenta.
+- **Contraponto real e citável**: no mesmo episódio, comentários posteriores atribuídos a
+  Eugene Fama corrigem Derman em pontos específicos — caudas gordas em retornos já eram
+  conhecidas há décadas antes da crise de 2008; hipótese de mercados eficientes não implica
+  CAPM necessariamente; EMH não pressupõe distribuições normais. Economista relevante
+  discordando de partes específicas do enquadramento "física vs. finanças" de Derman.
+- **Contraponto adicional, não usado no rascunho**: Uskali Mäki,
+  "[Performativity: Saving Austin from MacKenzie](https://personal.lse.ac.uk/ROBERT49/teaching/ph232/pdf/Maki-SavingAustinFromMacKenzie.pdf)"
+  — filósofo da economia questionando a precisão conceitual do próprio conceito de
+  "performatividade" que sustenta a leitura de MacKenzie (usada na seção 3). O rascunho já
+  faz esse exercício de auto-crítica para Derman (tabela "ponto de Derman vs. filosofia da
+  ciência") mas não para MacKenzie — mesma régua não aplicada aos dois autores.
+- George Box, "all models are wrong, but some are useful": a formulação completa não é de
+  1976 puro — "all models are wrong" aparece em 1976 (JASA, "Science and Statistics"); a
+  formulação completa com "but some are useful" se consolida num paper de 1978 e no livro de
+  1987 com Draper (*Empirical Model-Building and Response Surfaces*, p. 424) —
+  [fonte](https://blogs.sas.com/content/iml/2025/04/02/all-models-are-wrong.html). Se o post
+  datar essa frase, o ano correto depende de qual versão está sendo citada.
 
 ## 2. "O radar da rodovia"
 
-Analogia autoral do texto, sem afirmação de literatura a verificar — não é um "fato" a
-checar, é um exemplo pedagógico construído pelo autor. Nada a reportar aqui.
+Não requer fonte externa — é analogia do próprio autor, sem número a verificar. Nenhuma
+pendência de pesquisa aqui.
 
-## 3. "Black–Scholes: o que está na bula" (Joesley Day + target forward 2008)
+## 3. Black–Scholes / Joesley Day (`graf-01`)
 
-### Números do pregão de 18/05/2017 — confirmados
+**Números do pregão 18/05/2017** — confirmados de forma consistente por múltiplas fontes de
+imprensa financeira brasileira (não fonte primária/regulador, mas convergentes):
+- Intradiário -10,47%, fechamento -8,80% (maior queda diária desde outubro de 2008), dólar
+  subindo de ~R$3,14 para ~R$3,38 —
+  [InfoMoney](https://www.infomoney.com.br/mercados/joesley-day-a-delacao-que-colocou-em-xeque-a-agenda-de-reformas-e-fez-o-ibovespa-derreter-mais-de-10/),
+  [Cointimes](https://cointimes.com.br/bolsa-enfrenta-primeiro-circuit-breaker-desde-joesley-day/),
+  [Seu Dinheiro](https://www.seudinheiro.com/2019/empresas/dois-anos-de-joesley-day-relembre-o-terremoto-que-abalou-os-mercados/).
+- Divergência a marcar: uma busca indicou máxima intradiária do dólar em R$3,44 e fechamento
+  em R$3,3890 (não R$3,38 redondo) — a variação percentual de R$3,14→R$3,38 dá ~7,6%, não
+  "8,06%". Etapa 7 deveria puxar a série oficial em vez de reconciliar por aproximação.
+- **Fontes primárias candidatas para etapa 7**: B3 —
+  "[Índice Ibovespa – Estatísticas Históricas](https://www.b3.com.br/pt_br/market-data-e-indices/indices/indices-amplos/indice-ibovespa-ibovespa-estatisticas-historicas.htm)"
+  (fechamento em pontos por pregão) e Banco Central —
+  [dataset PTAX diário](https://dadosabertos.bcb.gov.br/dataset/dolar-americano-usd-todos-os-boletins-diarios)
+  (câmbio oficial por data). Nenhuma das duas foi consultada diretamente nesta pesquisa (só
+  via resumos de busca); ambas são as fontes certas para fechar o número com precisão.
+- Não encontrada fonte primária da B3 confirmando "primeiro circuit breaker desde 2008" — só
+  imprensa secundária repetindo a mesma frase.
 
-Múltiplas fontes de imprensa financeira, de forma consistente entre si: queda intradiária de
-**10,47%**, primeiro *circuit breaker* desde 2008, fechamento a **−8,80%** (maior queda
-diária desde 22/10/2008), dólar subindo **8,06%**, de **R$ 3,14 para R$ 3,38**.
-([InfoMoney](https://www.infomoney.com.br/mercados/joesley-day-a-delacao-que-colocou-em-xeque-a-agenda-de-reformas-e-fez-o-ibovespa-derreter-mais-de-10/),
-[Investing.com](https://br.investing.com/news/stock-market-news/ibovespa-atinge-maior-perda-diaria-desde-joesley-day-derrete-mais-de-9-727364),
-[Suno](https://www.suno.com.br/noticias/o-que-aconteceu-joesley-day/), acesso 31/08/2026) —
-nenhum sinal de divergência entre fontes nesse caso, ao contrário do que se viu em outros
-posts do corpus (ex.: LCI).
+**Sorriso de volatilidade (potencial reabertura de visual)**: Rubinstein (1994), *Implied
+Binomial Trees*, Journal of Finance — paper acadêmico revisado por pares, estabelece que a
+vol implícita pré-crash de 1987 era praticamente plana e que, pós-crash, emergiu um *smirk*
+negativo persistente em opções de S&P 500. Working paper do Chicago Fed,
+"[Explaining Asset Pricing Puzzles Associated with the 1987 Market Crash](https://www.chicagofed.org/-/media/publications/working-papers/2010/wp2010-10-pdf.pdf)"
+tem dados quantificados. Isso contradiz a premissa de `02-estrutura.md` de que "não há dado
+quantificado para plotar" — há, sim, se alguém quiser reabrir essa peça (a própria estrutura
+já previu essa possibilidade).
 
-### MacKenzie — reflexividade, com uma nuance importante que falta no rascunho
+**Target forward 2008**:
+- Volume total ~US$35 bilhões: aparece em resumos ligados à literatura RACEF/BCB, mas não
+  foi possível confirmar a citação primária exata (nem BCB nem CVM) — recomenda-se etapa 7
+  buscar diretamente
+  "[O mercado de câmbio brasileiro e o desenvolvimento do mercado de derivativos cambiais](https://www.bcb.gov.br/conteudo/relatorioinflacao/EstudosEspeciais/EE41_O_mercado_de_cambio_brasileiro_e_o_desenvolvimento_do_mercado_de_derivativos_cambiais.pdf)"
+  (BCB).
+- **Aracruz — inconsistência real de unidade monetária entre fontes**: um resumo (via RACEF)
+  fala em "R$ 2,5 bilhões"; outro (via Exame) fala em "R$ 2,1 bilhões"; um terceiro fala em
+  "US$ 2,13 bilhões (fair value)" e, no mesmo resultado, também usa "R$ 2,13 bilhões" para o
+  mesmo número — confusão de moeda até nos resumos automáticos. O prejuízo líquido *total* da
+  Aracruz em 2008 foi R$4,194 bilhões
+  ([Terra Economia](https://www.terra.com.br/economia/aracruz-fecha-2008-com-prejuizo-de-r-4194-bilhoes,9c8f17a7adc4b310VgnCLD200000bbcceb0aRCRD.html))
+  — número bem maior e diferente do prejuízo específico com derivativos, com risco real de
+  confundir "prejuízo do ano" com "prejuízo do desmonte das posições". A fonte que resolve a
+  ambiguidade é o Fato Relevante da própria Aracruz de 03/11/2008 (não localizado
+  diretamente nesta pesquisa).
+- **Sadia**: prejuízo líquido anual de R$2,48 bilhões em 2008 (primeiro prejuízo anual em 64
+  anos —
+  [InfoMoney](https://www.infomoney.com.br/mercados/perdas-cambiais-pesam-e-sadia-reporta-prejuizo-de-r-248-bilhoes-em-2008/))
+  e, separadamente, despesa financeira com derivativos de R$2,5 bilhões — nenhum dos dois
+  bate exatamente com os "R$2,55 bilhões" do rascunho; próximo, mas não idêntico, com dois
+  números candidatos (prejuízo do ano vs. despesa financeira específica) que podem estar
+  sendo confundidos.
 
-A leitura de MacKenzie ("engine, not a camera") está corretamente descrita para o período
-1973–1987: o ajuste dos preços observados ao modelo, após a difusão da fórmula, é
-performatividade confirmada pela literatura (o encaixe empírico do Black-Scholes de fato
-melhorou ao longo do final dos anos 1970/início dos 1980). **Mas o rascunho junta essa ideia
-com o surgimento do *smile* pós-1987 sem marcar a virada**: MacKenzie (com Alice Bamford, em
-trabalho posterior sobre "counterperformativity", *New Left Review* 113, 2018) trata o
-surgimento do *smile*/*skew* depois do crash de 1987 como o caso canônico do **oposto** —
-"counterperformatividade": a prática do mercado passou a **divergir** do modelo, não a
-convergir para ele. Ou seja: há duas fases distintas (convergência 1973-87, divergência
-pós-87), e o rascunho as apresenta em sequência como se fossem a mesma dinâmica de
-reflexividade. Não é um erro factual grave, mas é uma imprecisão de mecanismo que vale
-ajustar — o argumento fica **mais forte**, não mais fraco, se a distinção for explícita,
-porque mostra que a reflexividade financeira não é unidirecional.
-([Bamford & MacKenzie, "Counterperformativity", NLR 113](https://www.sps.ed.ac.uk/sites/default/files/assets/pdf/Alice_Bamford_and_Donald_MacKenzie_Counterperformativity_NLR_113_September-October_2018.pdf);
-[Wikipedia — Volatility smile, seção histórica](https://en.wikipedia.org/wiki/Volatility_smile))
+## 4. LTCM (`diag-01`)
 
-### Target forward 2008 — Aracruz confirmada, Sadia com ressalva de mecanismo
+- Fonte mais forte encontrada: Federal Reserve History,
+  "[Near Failure of Long-Term Capital Management](https://www.federalreservehistory.org/essays/ltcm-near-failure)"
+  (já citada no rascunho) — confirma: patrimônio caiu de US$4,72bi (início de 1998) para
+  ~US$600 milhões em setembro; usando o patrimônio de 1º/jan/1998 (US$4,8bi) contra
+  >US$125bi em ativos, alavancagem >25:1; 14 instituições aportaram US$3,6bi (outra fonte usa
+  US$3,65bi) por ~90% do fundo, sob mediação do Fed de NY; fundo perdeu 44% do valor só em
+  agosto de 1998.
+- **Variação de alavancagem entre fontes**: outra fonte (resumo de Wikipedia) cita patrimônio
+  ~US$5bi e >US$125bi emprestados, alavancagem "aproximadamente 30:1" — não 25:1. A diferença
+  entre 25:1 e 30:1 depende do ponto no tempo usado para o patrimônio-base. O "~25:1" do
+  rascunho está no limite inferior do que é citado — não é errado, mas merece nota de que a
+  razão exata varia por fonte/data de corte.
+- **Nocional ~US$1,25 trilhão**: não confirmado diretamente nesta pesquisa — número
+  amplamente repetido na cultura geral sobre o LTCM, mas recomenda-se etapa 7 confirmar
+  contra o relatório do President's Working Group (1999) — espelho em
+  [cftc.gov](https://www.cftc.gov/sites/default/files/tm/tmhedgefundreport.htm) — ou contra
+  *When Genius Failed* de Lowenstein diretamente.
+- Perda ~US$4,6bi em <4 meses: confirmada de forma consistente em múltiplas fontes.
+- David Viniar (CFO do Goldman Sachs), "25-sigma": confirmado — Financial Times, 13/ago/2007,
+  no contexto da perda de >25% de valor em uma semana por dois fundos quantitativos do
+  próprio Goldman (não é sobre o LTCM — episódio análogo e posterior, de 2007, que o rascunho
+  já cita corretamente sem confundir com o LTCM).
+  [Reuters Breakingviews](https://www.breakingviews.com/considered-view/goldmans-mr-25-standard-deviation-hard-to-follow/),
+  [paper acadêmico "How Unlucky Is 25-Sigma?"](https://arxiv.org/pdf/1103.5672).
 
-- **Aracruz**: perda de **US$ 2,13 bilhões** ao desmontar posições, comunicada em 03/11/2008,
-  confirmada por múltiplas fontes incluindo o artigo acadêmico já citado no rascunho.
-  ([Exame](https://exame.com/negocios/como-essa-empresa-brasileira-perdeu-r-21-bilhoes-tentando-se-proteger-do-dolar/),
-  [RACEF/Fundace](https://racef.fundace.org.br/index.php/racef/article/view/23/0))
-- **Sadia**: o número **R$ 2,55 bilhões** é real, mas é a **despesa financeira ligada aos
-  derivativos cambiais** (65,52% do total de R$ 3,892 bi de despesas financeiras do ano),
-  **não o prejuízo líquido do exercício**, que foi de **R$ 2,48 bilhões**. As duas cifras
-  estão próximas e ambas aparecem em fontes de imprensa, mas descrevem métricas diferentes
-  (despesa com derivativo vs. prejuízo líquido anual). Não é necessariamente "errado" citar
-  R$ 2,55 bi, mas a etapa 7 deveria decidir qual das duas grandezas o texto quer nomear, e
-  nomear com precisão qual é.
-  ([InfoMoney](https://www.infomoney.com.br/mercados/perdas-cambiais-pesam-e-sadia-reporta-prejuizo-de-r-248-bilhoes-em-2008/),
-  [Exame](https://exame.com/negocios/sadia-perde-cerca-r-2-5-bi-cambio-2008-diz-brascan-417570/))
-- **Volume total ~US$ 35 bilhões**: confirmado como estimativa amplamente repetida para o
-  total das operações de "target forward" entre centenas de empresas brasileiras em 2008. Não
-  há uma fonte primária única (BC/CVM) que assine esse número — é consenso de
-  imprensa/acadêmico, não dado regulatório direto. Vale a etapa 7 tentar achar a fonte
-  primária (BIS tem um artigo trimestral relevante:
-  ["Exposición del sector empresarial a instrumentos derivados: los casos de México y Brasil", BIS Quarterly Review](https://www.bis.org/publ/qtrpdf/r_qt0906y_es.htm)
-  — conteúdo não aberto nesta pesquisa, mas é o tipo de fonte que poderia confirmar o volume
-  de forma mais dura).
+**Contraponto genuíno sobre o enquadramento do LTCM** (ausente do rascunho): o rascunho
+enquadra o colapso quase inteiramente como "premissa quebrada" (liquidez), não como erro de
+julgamento de risco. Há literatura de peso discordando dessa ênfase:
+- Cato Institute,
+  "[Too Big to Fail? Long-Term Capital Management and the Federal Reserve](https://www.cato.org/sites/cato.org/files/pubs/pdf/bp52.pdf)"
+  — argumenta que o resgate criou precedente de risco moral ("too big to fail"), e que o
+  próprio Greenspan usou o termo "moral hazard" para descrever o legado do resgate.
+- Chicago Fed working paper,
+  "[The Costs and Benefits of Moral Suasion: Evidence from the Rescue of Long-Term Capital Management](https://www.chicagofed.org/-/media/publications/working-papers/2002/wp2002-11-pdf.pdf)"
+  — análise acadêmica de se o resgate (mediado, não financiado, pelo Fed) foi eficiente.
+- O argumento do crítico, resumido: alavancagem 25:1-30:1 é uma **escolha** de gestão de
+  risco, não um fato passivo do modelo — dizer "a matemática estava certa, a premissa é que
+  quebrou" é uma forma elegante de tirar a responsabilidade da decisão humana de alavancar
+  tanto sobre uma correlação estimada historicamente. Esse crítico tem razão num ponto real:
+  nada na "premissa de liquidez" obrigava os sócios a operar com 25x; a alavancagem foi
+  decisão discricionária, não decorrência do modelo. O rascunho já flerta com isso no
+  fechamento ("o LTCM não quebrou por usar modelos; quebrou por aplicar 25 vezes de
+  alavancagem"), mas a seção 4 em si narra o evento como se a alavancagem fosse quase
+  incidental — vale o texto reconhecer essa tensão, mesmo sem adotá-la.
 
-## 4. "LTCM: quando dois Nobéis descobrem que o mundo não satisfaz as equações"
+## 5. As duas patologias — London Whale (JPMorgan, 2012)
 
-Todos os números centrais do rascunho batem com múltiplas fontes independentes (o Federal
-Reserve History devolveu erro 403 diretamente, mas o conteúdo dele aparece replicado/citado
-em outras fontes de forma consistente):
+- Fonte primária: US Senate Permanent Subcommittee on Investigations,
+  "[JPMorgan Chase Whale Trades: A Case History of Derivatives Risks and Abuses](https://www.hsgac.senate.gov/wp-content/uploads/imo/media/doc/031314%20-%20PSI%20JPMorgan%20Whale%20Trades%20Hearing%20and%20Report.pdf)"
+  (2013, ~300 páginas) — confirma que o CIO escondeu mais de US$660 milhões em perdas por
+  meses via "mismarking" do book, manipulou modelos de risco, ignorou limites, e desinformou
+  investidores/reguladores. Recomenda-se etapa 7 puxar o PDF primário para citar a mecânica
+  exata do novo modelo de VaR.
+- A troca do modelo de VaR via planilha Excel com erro (dividir pela soma em vez da média das
+  taxas antiga/nova, que "diluiu" a volatilidade por um fator de 2 e cortou a estimativa de
+  risco pela metade) é amplamente reportada, mas por fontes secundárias (blogs técnicos:
+  AccountingWeb, Revolution Analytics/Revolutions, ProsperSpark) — consistente com o que o
+  rascunho descreve, mas sem confirmação direta do texto do relatório do Senado nesta
+  pesquisa.
+- Perda total: consistentemente citada como US$6,2 bilhões (ex.:
+  [Bloomberg Quicktake](https://www.bloomberg.com/quicktake/the-london-whale)) — o ">US$6bi"
+  do rascunho é seguro/conservador.
 
-- Patrimônio no início de 1998 ~**US$ 4,7 bi** (outra fonte cita US$ 4,8 bi para 1º/jan/1998
-  — variação pequena, mesma ordem de grandeza, prováveis datas de corte ligeiramente
-  diferentes).
-- Devolução de **US$ 2,7 bilhões** aos investidores no fim de 1997, reduzindo o capital em
-  ~36%, com **manutenção do tamanho das posições** — mecanismo exatamente como o rascunho
-  descreve, confirmado por múltiplas fontes.
-  ([247wallst — reportagem 2026 citando o caso](https://247wallst.com/investing/2026/07/01/the-hedge-fund-that-was-too-good-handed-back-2-7-billion-then-blew-up-the-economy/),
-  [Berkeley — notas de curso](https://eml.berkeley.edu/~webfac/craine/e137_f03/137lessons.pdf))
-- Ativos **>US$ 125 bilhões**, alavancagem de balanço **>25:1**, confirmados.
-  ([President's Working Group / referências consolidadas](https://home.treasury.gov/system/files/236/hedgfund.pdf))
-- Nocional de derivativos **US$ 1,25 trilhão**: confirmado em fontes secundárias/terciárias
-  de forma consistente (é o número amplamente repetido na literatura popular sobre o caso),
-  mas não foi verificado nesta pesquisa contra uma fonte primária/regulatória de primeira
-  camada (o relatório do President's Working Group, que seria a fonte ideal, não foi aberto
-  diretamente — PDF). Recomendado à etapa 7 abrir esse PDF e confirmar a cifra exata — o
-  número "mais de US$ 1 trilhão" está confirmado com mais segurança do que a cifra específica
-  de "1,25 tri".
-- Perda de **~US$ 4,6 bilhões em menos de quatro meses**: confirmado. Resgate de **US$ 3,65
-  bilhões** por **14 instituições em 23/09/1998**, sob articulação de William McDonough
-  (presidente do Fed de Nova York): confirmado — o rascunho arredonda para "~US$ 3,6 bi", o
-  que é consistente com a cifra mais precisa de US$ 3,65 bi encontrada nas fontes.
-- Calote russo em **17/08/1998**: confirmado.
-- Citação de David Viniar (então CFO do Goldman Sachs, não nomeado no rascunho) sobre
-  "movimentos de 25 desvios-padrão, vários dias seguidos": confirmada literalmente,
-  *Financial Times*, 13/08/2007 — o rascunho a usa corretamente como analogia posterior
-  (2007, fundos quant do Goldman), não a atribui erroneamente ao episódio LTCM em si.
-  ([Wikipedia — David Viniar](https://en.wikipedia.org/wiki/David_Viniar))
-- Prêmio Nobel de Economia de 1997 para Scholes e Merton: fato padrão, sem necessidade de
-  verificação adicional.
+## 6. Financial Modelers' Manifesto
 
-## 5. "As duas patologias" — London Whale
+- Fonte primária localizada —
+  [emanuelderman.com/wp-content/uploads/2009/01/fmm.pdf](https://emanuelderman.com/wp-content/uploads/2009/01/fmm.pdf),
+  site do próprio Derman — mas a ferramenta de busca retornou o conteúdo como binário não
+  processado; não foi possível extrair o texto exato dos cinco compromissos do "juramento"
+  nesta sessão. Outras cópias candidatas: SSRN (abstract 1324878), Wilmott.com, e um espelho
+  acadêmico da Universidade de Oslo usado como material de ensino. Wikipedia confirma
+  metadados (versão resumida na BusinessWeek em dez/2008, versão completa em jan/2009,
+  estrutura que ecoa propositalmente o Manifesto Comunista) mas não reproduz o texto dos
+  cinco pontos.
+- **Recomendação**: etapa 7 precisa baixar o PDF (funcionou como download binário, ~1,5MB) e
+  extrair o texto diretamente para checar a paráfrase dos cinco compromissos que o rascunho
+  já usa.
 
-- Mecânica geral (Duhem-Quine, "cinturão protetor" de Lakatos aplicados ao "fundamentalista")
-  é uso padrão e correto da filosofia da ciência — sem contraponto relevante a acrescentar.
-- **Leitura de Derman sobre 2008 e ceticismo raso ("niilista")**: é a leitura padrão do
-  próprio livro, sem necessidade de fonte adicional.
-- **London Whale — dois pontos de atenção para a etapa 7**:
-  1. A perda "mais de US$ 6 bilhões" está confirmada, mas a cifra mais precisa e citável do
-     relatório do Senado (Permanent Subcommittee on Investigations, *JPMorgan Chase Whale
-     Trades: A Case History of Derivatives Risks and Abuses*, 15/03/2013) é **"pelo menos
-     US$ 6,2 bilhões"** — o rascunho poderia ganhar precisão trocando "&gt;US$ 6 bi" por
-     "≥US$ 6,2 bi".
-     ([Relatório do Senado, PDF](https://www.hsgac.senate.gov/wp-content/uploads/imo/media/doc/REPORT%20-%20JPMorgan%20Chase%20Whale%20Trades%20(4-12-13).pdf))
-  2. **Discrepância de mecanismo, não só de fonte**: o rascunho diz que o novo modelo de VaR
-     "cortou a estimativa de perda potencial **pela metade**". O relatório do Senado descreve
-     a mudança como projetada para reduzir os resultados de VaR do CIO em **44%**, não 50%. É
-     uma diferença pequena em magnitude, mas "pela metade" é tecnicamente impreciso — o
-     número correto e citável é 44%. Recomendado à etapa 7 corrigir para "quase pela metade"
-     ou citar 44% diretamente. A parte qualitativa do rascunho (implementado com planilhas
-     Excel, transferência manual de dados, a OCC avisada com antecedência da mudança
-     projetada) está confirmada.
+## Contrapontos e ângulos ausentes do rascunho (síntese)
 
-## 6. "A ficha técnica" — Financial Modelers' Manifesto
+1. **Governança de risco de modelo já é lei, não só disciplina pessoal**: Fed/OCC,
+   "[SR 11-7 — Supervisory Guidance on Model Risk Management](https://www.federalreserve.gov/boarddocs/srletters/2011/sr1107.pdf)"
+   (abril de 2011) formalizou exatamente o espírito da "ficha técnica" do rascunho
+   (documentar premissas, validação independente, monitoramento contínuo) como exigência
+   regulatória para bancos — não é mais só ethos individual do analista. Ângulo interessante e
+   ausente: o London Whale aconteceu **em 2012, um ano depois** dessa exigência já estar em
+   vigor — o que complica qualquer leitura de "bastava ter processo" e reforça o ponto do
+   próprio rascunho sobre o "cinturão protetor" de Lakatos, mas aplicado a nível
+   institucional, não só individual.
+2. **A tese de MacKenzie (performatividade) é ela mesma contestada academicamente** — Uskali
+   Mäki e trabalho posterior do próprio MacKenzie sobre "contraperformatividade" (2018)
+   recuaram da versão mais forte da tese original. O rascunho aplica rigor filosófico à
+   distinção de Derman (tabela dedicada) mas usa MacKenzie sem o mesmo tratamento.
+3. **LTCM como precedente de "too big to fail"** é discutido pesadamente na literatura de
+   regulação financeira, mas nunca aparece no rascunho, que trata o caso puramente como
+   "falha de modelo". Ângulo que aprofundaria o fechamento sem contradizer a tese central.
+4. **A própria originalidade da citação de Kempthorne é frágil** — mesmo além da questão de
+   autoria, a frase ("cara 100 vezes, suspeite da moeda") é um exemplo pedagógico genérico de
+   estatística introdutória (atualização bayesiana vs. falácia do apostador); não foi
+   encontrado texto único e citável na internet que a torne "de" alguém específico.
 
-- Estrutura e texto do "juramento" confirmados diretamente contra o texto original hospedado
-  no site do próprio Derman
-  ([emanuelderman.com/wp-content/uploads/2009/01/fmm.pdf](https://emanuelderman.com/wp-content/uploads/2009/01/fmm.pdf))
-  e replicado no SSRN e no site do Wilmott. A frase "I will remember that I didn't make the
-  world, and it doesn't satisfy my equations" bate com a paráfrase do rascunho ("eu não criei
-  o mundo, e ele não satisfaz minhas equações"). Sem divergência a reportar.
-- Detalhe curioso, não essencial: a estrutura do *Manifesto* imita deliberadamente o
-  *Manifesto Comunista* de 1848 — mencionado em múltiplas fontes secundárias (Wikipedia, Wall
-  Street Oasis). Não é essencial ao argumento, só registro caso o autor queira uma nota de
-  rodapé de curiosidade.
+## Material aproveitável para os visuais (`ilu-01`, `graf-01`, `diag-01`)
 
-## Fechamento
+- **`graf-01` (Joesley Day)**: usar como eixos candidatos as séries oficiais de fechamento do
+  Ibovespa (B3 — estatísticas históricas) e PTAX (BCB — dataset aberto) para 16, 17 e
+  18/05/2017, em vez dos números arredondados de imprensa — evita herdar a pequena
+  inconsistência percentual encontrada nesta pesquisa.
+- **`diag-01` (ciclo do LTCM)**: a sequência causal já descrita no rascunho (calote russo →
+  fuga para qualidade → spreads divergem → chamada de margem → venda forçada → preços
+  pioram) está bem sustentada pela Federal Reserve History; os números de anotação mais
+  seguros para entrar no diagrama são: patrimônio ~US$4,7-4,8bi, ativos >US$125bi, alavancagem
+  >25:1 (citar como "mais de 25 para 1", não fixar em exatos 25:1 dado o range 25-30:1 entre
+  fontes), perda ~US$4,6bi, resgate US$3,6bi/14 instituições — evitar usar o nocional de
+  US$1,25tri até confirmação (fonte não encontrada nesta pesquisa).
+- **`ilu-01` (radar da rodovia)**: nenhum dado externo necessário — é metáfora pura do autor.
 
-Sem afirmação de literatura a checar aqui — é o parágrafo que a própria briefing já sinaliza
-como pendência de reescrita para a etapa 4, ecoando a nuance da seção 1. Nenhuma pesquisa
-adicional muda essa recomendação.
+## Risco de publicar sem mais checagem (ordem decrescente)
 
-## Contrapontos genuínos (síntese)
+1. **Citação de Kempthorne** — de longe o mais arriscado. Evidência real e repetida aponta
+   que a aula específica (*Probability Theory*, 18.S096) foi lecionada por Choongbum Lee, não
+   Kempthorne, e o texto da citação não foi localizado em lugar nenhum indexável. É o gancho
+   de abertura do post e nomeia uma pessoa real — não deveria ir ao ar sem alguém assistir ao
+   vídeo da aula para confirmar quem fala.
+2. **Números do target forward 2008 (Aracruz e Sadia)** — segundo mais arriscado. Há confusão
+   real de unidade monetária entre fontes para a Aracruz (R$ vs. US$ 2,1-2,5bi) e dois números
+   candidatos distintos para a Sadia (prejuízo do ano vs. despesa com derivativos) que não
+   batem exatamente com R$2,55bi. O total de mercado de US$35bi também não tem fonte primária
+   confirmada nesta pesquisa.
+3. **Alavancagem/nocional do LTCM** — risco moderado. O formato geral está bem sustentado
+   (Federal Reserve History), mas "25:1" é o extremo inferior de um range citado como 25:1-30:1
+   conforme a data de corte do patrimônio, e o nocional de US$1,25 trilhão não foi confirmado
+   nesta pesquisa.
+4. **Números do Ibovespa/dólar em 18/05/2017** — risco menor mas não nulo: os números centrais
+   (-10,47%/-8,80%/R$3,14→R$3,38) são consistentes entre múltiplas fontes de imprensa
+   financeira, mas nenhuma delas é fonte primária (B3/BCB), e há um pequeno descompasso
+   aritmético (7,6% vs. um possível "8,06%") que vale fechar com a série oficial.
 
-1. **O contraponto já registrado na estrutura (visão semântica de Suppes/van
-   Fraassen/Giere) é real, publicado, e suficiente como contraponto central** — não é ruído,
-   é a posição dominante na filosofia da ciência sobre "o que é uma teoria". Não precisa de
-   mais nuance para ser defensável.
-2. **Contraponto adicional que fortalece o texto sem enfraquecer a tese**: a resenha de
-   Dempster (*Quantitative Finance*, 2012) ataca a dicotomia de Derman por um ângulo
-   diferente — não "teoria também é modelo" (a via semântica), mas "física também produziu
-   teorias falsas categoricamente, não só aproximadas" (flogisto). Um crítico diria que
-   Derman romantiza a física como território de verdade estável; historicamente isso nem
-   sempre foi assim. Esse crítico tem razão no fato histórico (o flogisto existiu e foi
-   tratado como teoria, não modelo, até ser refutado), mas isso não derruba o ponto prático de
-   Derman sobre finanças — só mostra que a linha entre teoria-que-erra-e-morre e
-   modelo-que-sempre-tem-domínio-de-validade é uma diferença de **grau e frequência
-   histórica**, não uma parede absoluta. Isso é compatível com o "veredito" que o próprio
-   rascunho já dá ("bate em parte") — só acrescenta uma segunda camada de evidência a essa
-   conclusão.
-3. **Contraponto mais fraco, cotado e descartável**: a réplica de Russ Roberts a Derman no
-   EconTalk — de que mercados descobrem preços sem precisar de modelo "correto" nenhum (como
-   aluguéis de apartamento). Derman concorda parcialmente. Isso é mais sobre a necessidade
-   prática de modelar do que sobre a distinção teoria/modelo em si — não parece agregar ao
-   argumento central, seria ruído.
-
-## O que ninguém está dizendo
-
-1. **Incerteza knightiana (Frank Knight, *Risk, Uncertainty and Profit*, 1921)**: a
-   distinção entre risco mensurável (distribuição de probabilidade conhecida) e incerteza
-   genuína/não mensurável ("unknown unknowns") é, no vocabulário padrão de economia e
-   finanças, exatamente a ferramenta que descreve o mecanismo dos dois desastres do texto —
-   VaR trata correlação e volatilidade como risco calculável; a mudança de regime (calote
-   russo, Joesley Day) é incerteza knightiana propriamente dita. É notável que um texto sobre
-   exatamente esse fenômeno não cite Knight nem uma vez, dado que é a referência mais clássica
-   e mais citada do campo para esse ponto específico — mais do que Cartwright ou Lakatos, que
-   vêm de filosofia da ciência geral, não de teoria econômica sobre risco.
-   ([SSRC — "Risk versus Uncertainty: Frank Knight's 'Brute' Facts of Economic Life"](https://items.ssrc.org/privatization-of-risk/risk-versus-uncertainty-frank-knights-brute-facts-of-economic-life/))
-2. **SR 11-7 (Federal Reserve/OCC, "Supervisory Guidance on Model Risk Management",
-   4/4/2011)**: é a resposta institucional/regulatória direta a exatamente esse problema —
-   exige validação contínua de modelo, documentação explícita de premissas, monitoramento de
-   quando o modelo sai do regime em que foi calibrado. A seção 6 do rascunho ("ficha técnica",
-   seis perguntas) está, na prática, reinventando de forma pessoal algo que a indústria
-   bancária formalizou como exigência regulatória havia 15 anos. E o ponto mais interessante:
-   **o London Whale aconteceu em 2012, um ano depois** do SR 11-7 já estar em vigor — ou seja,
-   a norma que deveria evitar exatamente aquele tipo de manipulação de modelo já existia e não
-   impediu o caso que o próprio texto usa como exemplo-limite do "fundamentalista". É um
-   ângulo genuinamente ausente e reforça o ceticismo saudável do texto (regra escrita não é
-   proteção automática) sem precisar de nenhuma fonte nova além do próprio caso já citado.
-   ([Fed — SR 11-7, PDF](https://www.federalreserve.gov/boarddocs/srletters/2011/sr1107.pdf))
-3. **A dupla performatividade/contraperformatividade de MacKenzie** (ver seção 3 acima) é
-   mais rica do que a leitura unidirecional que o rascunho faz — vale ao menos uma frase
-   reconhecendo que a reflexividade financeira corta nos dois sentidos.
-
-## Resumo executivo
-
-Achados que **mudam o rumo do draft ou exigem correção** (para a etapa 7 fechar):
-
-1. **A citação de Kempthorne não pôde ser verificada textualmente** — a aula certa foi
-   localizada (18.S096/18.642, Lecture 3: Probability Theory), mas alguém precisa assistir ao
-   vídeo ou abrir o PDF de notas antes de publicar a frase entre aspas.
-2. **London Whale: "cortou a estimativa pela metade" está impreciso** — o relatório do
-   Senado (fonte primária) diz que a mudança de modelo VaR foi projetada para reduzir o
-   resultado em **44%**, não 50%.
-3. **Sadia: R$ 2,55 bi é a despesa financeira com derivativos, não o prejuízo líquido do
-   ano** (que foi R$ 2,48 bi) — os dois números são reais mas medem coisas diferentes; a
-   etapa 7 precisa decidir qual citar e nomear com precisão.
-4. **LTCM notional de US$ 1,25 tri**: confirmado só por fontes secundárias/terciárias nesta
-   pesquisa, não contra o relatório primário (President's Working Group) — recomendado à
-   etapa 7 abrir esse PDF diretamente antes de publicar a cifra exata.
-5. Todos os demais números (Joesley Day completo, Aracruz, volume total do target forward,
-   LTCM patrimônio/ativos/alavancagem/perda/resgate, London Whale >US$6 bi) foram confirmados
-   de forma consistente por múltiplas fontes.
-
-Achados que **enriquecem o argumento sem exigir correção**: a resenha de Dempster (flogisto)
-como segundo contraponto acadêmico à dicotomia de Derman; Morgan & Morrison como terceira
-posição filosófica; a distinção performatividade/contraperformatividade de MacKenzie (o
-*smile* pós-1987 é o mercado *divergindo* do modelo, não convergindo — o rascunho hoje trata
-os dois momentos como a mesma dinâmica); e dois ângulos ausentes de peso — incerteza
-knightiana (Frank Knight) e a norma SR 11-7, cuja existência prévia ao London Whale torna o
-caso ainda mais forte como exemplo de "cinturão protetor" vencendo regra escrita.
+O London Whale (>US$6bi) é o número mais seguro dos citados no rascunho — confirmado de forma
+consistente e com margem de segurança na formulação original.

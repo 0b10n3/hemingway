@@ -1,11 +1,11 @@
 # Diagramas — "Quando os Modelos se Rebelam"
 
 Uma peça, decidida em `processo/02-estrutura.md` (seção 4) e posicionada em
-`processo/04-draft-v1.md`, logo após "para cobrir chamadas de margem, o fundo precisou
-vender... a hipótese de liquidez é a premissa mais invisível e mais letal". Ferramenta:
-Plotly (nós e setas via `add_shape`/`add_annotation`), mesmo padrão de `graf-NN` — ver
-`.claude/skills/prompts-visuais/SKILL.md`. Tokens de marca lidos em runtime de
-`../../brand/tokens/skill_test.tokens.json`.
+`processo/04-draft-v1.md`, logo após "a hipótese de liquidez é a premissa mais invisível e
+mais letal de toda a modelagem financeira" — no ponto em que o ciclo já foi narrado por
+inteiro na prosa. Ferramenta: Plotly (nós e setas via `add_shape`/`add_annotation`), mesmo
+padrão de `graf-NN` — ver `.claude/skills/prompts-visuais/SKILL.md`. Tokens de marca lidos em
+runtime de `../../brand/tokens/skill_test.tokens.json`.
 
 ## diag-01
 
@@ -16,8 +16,8 @@ spread numa espiral de venda forçada?
 **Fonte dos dados:** não há número embutido no diagrama (é mecanismo/fluxo, não série) — a
 sequência causal (calote russo → fuga para liquidez → spreads divergem → chamadas de margem →
 venda forçada → preços pioram → fecha o ciclo) está descrita e confirmada contra fonte
-primária (President's Working Group on Financial Markets, 1999) em
-`processo/07-verificacao.md`.
+primária (President's Working Group on Financial Markets, 1999, lido na íntegra) em
+`processo/07-verificacao.md`, seção 4.
 
 **Código Plotly executável** (testado com `python3` nesta etapa — gera `figuras/diag-01.svg`
 e `figuras/diag-01.png`):

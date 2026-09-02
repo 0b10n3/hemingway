@@ -1,14 +1,13 @@
 {
   "etapa_atual": 10,
-  "loops_consumidos": 0,
+  "loops_consumidos": 1,
   "aprovacoes": [
-    "2026-08-31: aprovado para publicação no gate humano. Pendências mantidas em aberto: [VERIFICAR] da citação de Kempthorne (abertura) e [VERIFICAR] do volume ~US$35bi do target forward 2008, ambos visíveis em post.md; tensão sobre linha editorial (Spoiler vs. Notas de um Professor) registrada mas não resolvida — autor optou por manter Spoiler. Capa e ilu-01 seguem como prompt, não geradas (sem acesso ao Nano Banana Pro nesta sessão) — publicação real depende de gerar essas duas peças antes de rodar /publicar."
+    "2026-09-01: pipeline reexecutado do zero a pedido do autor, sobrescrevendo a rodada de 31/08. Aprovado para publicação no gate humano com pendências mantidas em aberto (ver abaixo). Linha editorial confirmada pelo autor no gate humano: Spoiler (tensão com o critério literal de 'Notas de um Professor', registrada em 01-briefing.md, respondida explicitamente — mantém Spoiler)."
   ],
   "pendencias": [
-    "linha editorial 'Spoiler' declarada pelo autor no arquivo de origem, mas o assunto (modelagem financeira, sem narrativa de carreira) se encaixaria melhor, pelo critério literal, em 'Notas de um Professor' — decisão do autor mantida, tensão registrada em 01-briefing.md para confirmação no gate humano (etapa 10)",
-    "[VERIFICAR] visível em post.md: citação de Kempthorne na abertura não confirmada contra fonte primária — a aula de 2013 citada é, segundo o MIT OCW, ministrada por Choongbum Lee, não por Kempthorne; ver 07-verificacao.md para o que já foi checado e a recomendação de reescrever sem citação literal atribuída, se o autor preferir",
-    "[VERIFICAR] visível em post.md: volume total de ~US$35bi em operações 'target forward' no Brasil em 2008 segue sem fonte primária/regulatória — só consenso de imprensa/acadêmico",
+    "[VERIFICAR] visível em post.md: citação de abertura (moeda 100 caras seguidas) segue sem confirmação de autoria — evidência da verificação técnica (07-verificacao.md) aponta que a Lecture 3 (Probability Theory, 18.S096, MIT OCW) é ministrada por Choongbum Lee, não por Peter Kempthorne, e a frase não foi localizada em texto indexável. Corpo do post já não nomeia ninguém ('um dos professores'); recomenda-se assistir ao vídeo da aula antes de publicar.",
+    "Capa e ilu-01 seguem como prompt, não geradas (sem acesso ao Nano Banana Pro nesta sessão) — publicação real depende de gerar essas duas peças antes de rodar /publicar. graf-01 e diag-01 já foram gerados de fato (Plotly) e estão em posts/2026-09-01-quando-os-modelos-se-rebelam/figuras/.",
     "publicação requer /publicar manual (disable-model-invocation: true de propósito) — merge, tag e push não são disparados automaticamente pelo pipeline"
   ],
-  "commit_inicial": "2240590"
+  "commit_inicial": "68ddb99"
 }
