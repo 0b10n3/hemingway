@@ -40,12 +40,26 @@ seção abaixo).
 
 ## Regras
 
-Regras 1, 2, 3, 4, 5 e 7 são derivadas de `brand/DESIGN.md` §4.1, §4.5 e §5 — não são opinião
-desta referência. A regra 6 (figura humana) **não** deriva de `DESIGN.md` — é critério próprio
+Regras 1, 2, 3, 4 e 6 são derivadas de `brand/DESIGN.md` §4.1, §4.5 e §5 — não são opinião
+desta referência. A regra 5 (figura humana) **não** deriva de `DESIGN.md` — é critério próprio
 deste repositório, revisado em 2026-09-01 (ver `pesquisa/epico-figuras-em-ilustracao/`); a
 versão anterior ("sem figura humana reconhecível, rosto não") alegava a mesma proveniência de
 marca sem base real no documento — checado linha a linha, `DESIGN.md` não menciona figura
 humana, rosto ou retrato em nenhum ponto.
+
+**Revisão de 2026-09-02:** a antiga regra 5 ("sem ilustração genérica de finanças" — moeda,
+cifrão, candlestick, cofre, aperto de mão, robô/cérebro de IA, prédio de banco, gráfico de
+pizza) foi **removida**. Diferente da revisão acima, esta regra tinha base real em
+`brand/DESIGN.md` §4.5 — a remoção é uma **divergência deliberada e documentada**, só para
+ilustração editorial de post (este repositório), a pedido do autor. `brand/DESIGN.md`
+continua valendo sem alteração para o resto do ecossistema Syntaxis (produto, curso,
+marketing) — ver `pesquisa/epico-iconografia-financeira/` para o raciocínio completo. Moeda,
+candlestick, robô e os demais itens da lista antiga passam a ser objetos de Camada 2/3
+disponíveis como qualquer outro (`briefing-ilustracao.md`), sujeitos às mesmas regras de
+sempre: paleta fechada, colagem editorial, sem clichê de banco de imagens (ver "Erros
+recorrentes" em `briefing-ilustracao.md`) e sem reprodução literal de propriedade de terceiros
+(ver "Referência de cultura pop", também em `briefing-ilustracao.md`) quando a ideia vier de
+uma referência externa (ex.: um robô de ficção científica específico).
 
 1. **Paleta fechada.** Só os tokens de `brand/tokens/skill_test.tokens.json`. Nenhum hex fora
    da lista abaixo. Nenhuma cor "nova" porque ficou bonita.
@@ -59,17 +73,12 @@ humana, rosto ou retrato em nenhum ponto.
    escuro; lime-700 se o fundo for claro. Nunca lime como cor ambiente.
 4. **Sem texto renderizado na imagem.** Gerador erra tipografia e a marca tem tipografia
    própria. Quem carrega a informação verbal é o alt-text.
-5. **Sem ilustração genérica de finanças** (`DESIGN.md` §4.5): moeda, cifrão, candlestick,
-   cofre, aperto de mão, robô/cérebro de IA, prédio de banco, gráfico de pizza. Uma referência
-   de cultura pop (ex.: um robô de ficção científica) continua proibida como objeto literal; o
-   que o sistema sabe fazer é extrair a **estrutura** da referência e descartar o elemento
-   literal (ver "Referência de cultura pop", em `briefing-ilustracao.md`).
-6. **Figura humana reconhecível — critério em três faixas, não proibição absoluta.** Silhueta
+5. **Figura humana reconhecível — critério em três faixas, não proibição absoluta.** Silhueta
    abstrata sempre foi e continua aceitável. Rosto reconhecível segue o critério de
    "Figuras históricas e públicas", abaixo — a maioria dos casos (pessoa privada, decoração
    sem função editorial) continua proibida; o que muda é que figura histórica ou pública
    diretamente relevante ao argumento do texto ganhou caminho explícito.
-7. **Geometria reta.** Quadro, painel, bloco e moldura com canto reto (`DESIGN.md` §4.5).
+6. **Geometria reta.** Quadro, painel, bloco e moldura com canto reto (`DESIGN.md` §4.5).
 
 ### Figuras históricas e públicas
 
