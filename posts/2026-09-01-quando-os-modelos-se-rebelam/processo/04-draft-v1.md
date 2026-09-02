@@ -2,17 +2,17 @@
 
 ### Por que o descolamento entre modelo e realidade é esperado — e por que entender isso separa um bom modelador de um extremista frustrado
 
-Numa aula de probabilidade que assisti no MIT OpenCourseWare (o repositório de aulas e cursos
-que o MIT disponibiliza gratuitamente), um dos professores diz, numa explicação sobre a ideia
-de retorno à média:
+Numa aula de probabilidade a que assisti no MIT OpenCourseWare (o repositório de aulas e
+cursos que o MIT disponibiliza gratuitamente), um dos professores diz, numa explicação sobre a
+ideia de retorno à média:
 
 > "Se você lança uma moeda 100 vezes, obtendo cara em todos os lançamentos, você deveria
 > estar considerando seriamente a possibilidade de que essa moeda tenha algum vício ou
-> defeito." [VERIFICAR: a atribuição desta fala a Peter Kempthorne não se sustentou na
-> pesquisa desta rodada — a página oficial de recursos do MIT OCW para esta aula específica
-> (Lecture 3, Probability Theory, 18.S096) lista Choongbum Lee como instrutor, não Kempthorne.
-> Confirmar assistindo ao vídeo da aula antes de publicar; se não for possível confirmar,
-> remover o nome e manter só "um dos professores do curso".]
+> defeito." [VERIFICAR: a atribuição desta fala a Peter Kempthorne não se sustentou em três
+> rodadas de pesquisa/verificação — a página oficial de recursos do MIT OCW para esta aula
+> específica (Lecture 3, Probability Theory, 18.S096) segue listando Choongbum Lee como
+> instrutor, não Kempthorne. Confirmar assistindo ao vídeo da aula antes de publicar; se não
+> for possível confirmar, manter só "um dos professores do curso".]
 
 A frase é dita no contexto de que muitas pessoas começam a esperar o retorno à média, mas
 acabam se esquecendo de que a própria média pode ter mudado.
@@ -21,7 +21,7 @@ Esse tipo de pensamento equivocado — bastante presente quando o problema envol
 probabilidades — é sintoma de uma compreensão parcial, ou mesmo equivocada, do funcionamento
 de modelos.
 
-A disciplina, aliás, chama-se 'Topics in Mathematics with Applications in Finance' (18.S096,
+A disciplina, aliás, chama-se *Topics in Mathematics with Applications in Finance* (18.S096,
 na versão de 2013, atualizada como 18.642 em 2024) — um passeio, a passo rápido, por uma
 série de ferramentas e modelos matemáticos fundamentais em finanças.
 
@@ -38,7 +38,7 @@ Emanuel Derman é uma figura útil aqui porque conhece os dois lados da históri
 física teórica de partículas, foi para a Goldman Sachs e virou um dos nomes centrais da
 engenharia financeira, coautor do modelo de volatilidade local Derman–Kani.
 
-Em 'Models. Behaving. Badly.' (2011), ele propõe uma separação que vale a pena levar a sério:
+Em *Models. Behaving. Badly.* (2011), ele propõe uma separação que vale a pena levar a sério:
 'teoria', 'modelo' e 'intuição' são três coisas diferentes.
 
 'Teoria' é a tentativa de descrever o que uma coisa é. Uma teoria bem-sucedida se torna
@@ -72,7 +72,7 @@ ou seja, não descrevem o que a coisa é, só com o que ela se parece.
 | Quando falha | Revela um limite físico novo (clássico → quântico) | Revela que a analogia deixou de servir naquele cenário |
 | Reflexividade | Nenhuma — o elétron não lê o paper | Alta — o mercado adota o modelo e muda de comportamento |
 
-### E onde entram as "hipóteses"?
+### E onde entram as 'hipóteses'?
 
 Aqui mora uma armadilha específica da nossa língua. Em inglês existem duas palavras:
 'hypothesis' (conjectura testável, que a metodologia científica manda você tentar falsear) e
@@ -81,7 +81,7 @@ de pé).
 
 Em português, as duas viram hipótese.
 
-O resultado é que o aluno aprende "as hipóteses do modelo de Black–Scholes" e as coloca
+O resultado é que o aluno aprende 'as hipóteses do modelo de Black–Scholes' e as coloca
 mentalmente na mesma caixa de hipótese nula — formalidade de demonstração, coisa que aparece
 no slide antes da fórmula e depois some. Não é isso. As hipóteses de Black–Scholes não são
 conjecturas a testar: são a bula do remédio. Elas definem o domínio de validade do
@@ -93,7 +93,7 @@ um físico que virou banqueiro? A resposta honesta é: bate em parte.
 
 | Ponto de Derman | O que diz a filosofia da ciência | Veredito |
 |---|---|---|
-| Modelos são representações parciais e deliberadamente distorcidas | Convergência forte — Nancy Cartwright ('How the Laws of Physics Lie', 1983) argumenta que até as leis fundamentais só são literalmente verdadeiras sobre modelos idealizados; George Box resumiu isso na frase que virou clichê: todos os modelos estão errados, alguns são úteis | Alinhado |
+| Modelos são representações parciais e deliberadamente distorcidas | Convergência forte — Nancy Cartwright (*How the Laws of Physics Lie*, 1983) argumenta que até as leis fundamentais só são literalmente verdadeiras sobre modelos idealizados; George Box resumiu isso na frase que virou clichê: todos os modelos estão errados, alguns são úteis | Alinhado |
 | Modelo falha ⇒ a analogia deixou de servir | Mais complicado do que parece: quando uma predição falha, o teste atinge o conjunto inteiro — núcleo, premissas auxiliares, calibração, dados — e você nunca isola logicamente o culpado sozinho (problema de Duhem–Quine) | Alinhado, mas incompleto |
 | Teoria é categoricamente distinta de modelo | Discordância real: na visão semântica das teorias (Suppes, van Fraassen, Giere), teorias também são famílias de modelos — as equações de Maxwell idealizam vácuo perfeito, cargas pontuais, meios homogêneos | Fronteira mais borrada do que Derman pinta |
 
@@ -112,7 +112,7 @@ entre dois sensores e reporta a velocidade média nesse intervalo. Depois trata 
 como se fosse a velocidade instantânea.
 
 *[ilu-01: a metáfora do radar na rodovia — carro cruzando dois sensores, a velocidade média
-tratada como se fosse instantânea. Ver `08-briefing-visual.md`.]*
+tratada como se fosse instantânea. Colagem editorial. Ver `08-briefing-visual.md`.]*
 
 Matematicamente, isso é uma troca: velocidade média por velocidade instantânea. A troca só é
 válida porque o movimento é contínuo e suave. A inércia garante que o carro não teleporta de
@@ -138,7 +138,7 @@ Black–Scholes é o caso clássico, porque a bula é longa e quase ninguém lê
 O modelo, publicado por Fischer Black e Myron Scholes em 1973 (com contribuição decisiva de
 Robert Merton), resolve um problema que até então não tinha resposta fechada: quanto vale uma
 opção — o direito, não a obrigação, de comprar ou vender um ativo por um preço fixado no
-futuro. Antes dele, precificar opção era arte de mesa, negociada por sensação. Depois dele,
+futuro. Antes dele, precificar opções era arte de mesa, negociada por sensação. Depois dele,
 virou fórmula que cabe numa calculadora, e é por isso que se espalhou tão rápido a ponto de
 Scholes e Merton receberem o Nobel de Economia em 1997 por esse mesmo trabalho — Black já
 tinha morrido dois anos antes, e o prêmio não é concedido postumamente.
@@ -146,7 +146,7 @@ tinha morrido dois anos antes, e o prêmio não é concedido postumamente.
 O modelo assume, entre outras coisas, que o preço do ativo segue um movimento browniano
 geométrico — trajetórias contínuas, sem saltos —, que a volatilidade é constante ao longo da
 vida da opção, que a taxa livre de risco é constante e conhecida, que não há custo de
-transação nem imposto, que é possível negociar e rebalancear o hedge (a posição que anula o
+transação nem imposto, que é possível negociar e rebalancear o 'hedge' (a posição que anula o
 risco) em tempo contínuo, e que a liquidez é ilimitada, com venda a descoberto livre e ativos
 infinitamente divisíveis.
 
@@ -158,16 +158,15 @@ preço.
 E é exatamente essa a premissa que o mercado brasileiro adora quebrar.
 
 18 de maio de 2017. Na noite anterior vaza a gravação entre Joesley Batista e o então
-presidente Michel Temer. Na abertura, o Ibovespa cai o suficiente para acionar um circuit
-breaker (mecanismo que suspende o pregão por alguns minutos quando a queda passa de um
-limite).
+presidente Michel Temer. Na abertura, o Ibovespa cai o suficiente para acionar um 'circuit
+breaker' (mecanismo que suspende o pregão por alguns minutos quando a queda passa de um
+limite) — o primeiro desde outubro de 2008.
 
-*[graf-01: fechamento do Ibovespa e cotação PTAX (Banco Central) em 16, 17 e 18/05/2017 —
-mostra o salto entre o fechamento de 17/05 e a abertura de 18/05, sem preço intermediário.
-Ver `08-briefing-visual.md`.]* [VERIFICAR: valores exatos de fechamento do Ibovespa (B3) e
-PTAX para 17 e 18/05/2017 — a pesquisa desta rodada achou pequena divergência entre fontes de
-imprensa (dólar fechando em R$3,38 ou R$3,3890) e recomenda puxar a série oficial em vez da
-imprensa antes de publicar o gráfico.]
+*[graf-01: fechamento do Ibovespa e cotação PTAX (Banco Central) em 17 e 18/05/2017 — mostra o
+salto entre o fechamento de 17/05 e a abertura de 18/05, sem preço intermediário. Números
+confirmados contra fonte primária em três rodadas (`03-pesquisa.md`): Ibovespa 67.540 →
+61.597 (-8,80%); dólar PTAX R$3,1076 → R$3,3807 (+8,79%). Não usar o "8,06%" que aparece no
+rascunho de origem — não bate com a série oficial. Ver `08-briefing-visual.md`.]*
 
 Pergunte a quem estava vendido em opções naquela manhã quantas vezes conseguiu rebalancear o
 delta (a sensibilidade do preço da opção ao preço do ativo) entre o fechamento do dia 17 e a
@@ -179,11 +178,11 @@ superfície de volatilidade implícita deixou de ser plana e passou a exibir o f
 (ou 'skew').
 
 Em português direto: os preços praticados passaram a embutir, permanentemente, uma
-probabilidade de salto maior do que a que o modelo comporta. O smile é a cicatriz da hipótese
-de continuidade — o mercado usa a fórmula de Black–Scholes como linguagem de cotação e ajusta
-a premissa por fora, mexendo no input de volatilidade.
+probabilidade de salto maior do que a que o modelo comporta. O 'smile' é a cicatriz da
+hipótese de continuidade — o mercado usa a fórmula de Black–Scholes como linguagem de cotação
+e ajusta a premissa por fora, mexendo no input de volatilidade.
 
-E há um detalhe que o sociólogo Donald MacKenzie explora bem em 'An Engine, Not a Camera'
+E há um detalhe que o sociólogo Donald MacKenzie explora bem em *An Engine, Not a Camera*
 (2006): Black–Scholes não apenas descreveu o mercado de opções, ele o transformou.
 
 Depois de 1973, com a fórmula difundida em tabelas e calculadoras, os preços observados
@@ -193,17 +192,19 @@ o observador é participante, e a crença coletiva no modelo altera o objeto mod
 
 Vale uma nota rápida sobre uma variação brasileira do mesmo problema, ainda que fora do
 universo estrito de opções. No segundo semestre de 2008, dezenas de exportadoras brasileiras
-carregavam estruturas de derivativos cambiais chamadas 'target forward', com payoff (o
+carregavam estruturas de derivativos cambiais chamadas 'target forward', com 'payoff' (o
 resultado financeiro final) assimétrico: ganho limitado se o dólar caísse, perda alavancada e
-sem trava se ele disparasse. Enquanto o real se valorizava, a estrutura parecia hedge
-(proteção) barato. Quando o dólar subiu, virou outra coisa. A Aracruz Celulose e a Sadia
-figuram entre os casos mais citados dessas perdas, a Sadia acabou incorporada pela Perdigão —
-o que deu origem à BRF — e o volume total dessas operações no país é estimado na casa de
-dezenas de bilhões de dólares [VERIFICAR: os valores específicos de prejuízo da Aracruz e da
-Sadia, e o volume total de mercado (~US$35bi), variam entre fontes e precisam de confirmação
-contra fato relevante/fonte regulatória antes de publicar — ver `03-pesquisa.md`]. A
-precificação estava errada? Não necessariamente. O que estava errado era chamar aquilo de
-hedge — e o cenário em que a premissa de câmbio comportado valia.
+sem trava se ele disparasse. Enquanto o real se valorizava, a estrutura parecia hedge barato.
+Quando o dólar subiu, virou outra coisa. A Aracruz Celulose comunicou perda de US$2,13 bilhões
+ao desmontar 97% da exposição a derivativos em novembro daquele ano; a Sadia também carregava
+posições em valores muito acima do que qualquer proteção justificaria, e acabou incorporada
+pela Perdigão — o que deu origem à BRF. Estimativas de exposição/perda do mercado brasileiro
+como um todo variam bastante conforme a metodologia e a fonte, na casa de dezenas de bilhões
+de dólares [VERIFICAR: a faixa exata (BIS ~US$25bi de perda estimada; BCB/CETIP ~US$37bi de
+exposição/delta) mede coisas possivelmente diferentes entre si — ver `03-pesquisa.md` — não
+comprimir num número único sem decidir qual métrica citar]. A precificação estava errada? Não
+necessariamente. O que estava errado era chamar aquilo de hedge — e o cenário em que a
+premissa de câmbio comportado valia.
 
 O cometa não muda de órbita porque o astrônomo publicou.
 O mercado muda.
@@ -212,11 +213,11 @@ O mercado muda.
 
 Se existe um caso que precisa ser contado a todo analista júnior, é esse.
 
-O Long-Term Capital Management foi fundado em 1994 por John Meriwether, ex-chefe da mesa de
-arbitragem da Salomon Brothers. Entre os sócios estavam Myron Scholes e Robert Merton, que em
-1997, com o fundo em operação, receberiam o Nobel de Economia justamente pelo trabalho de
-precificação de derivativos. O conselho reunia provavelmente a maior concentração de capital
-intelectual quantitativo já montada num único fundo.
+O Long-Term Capital Management (LTCM) foi fundado em 1994 por John Meriwether, ex-chefe da
+mesa de arbitragem da Salomon Brothers. Entre os sócios estavam Myron Scholes e Robert Merton,
+que em 1997, com o fundo em operação, receberiam o Nobel de Economia justamente pelo trabalho
+de precificação de derivativos. O conselho reunia provavelmente a maior concentração de
+capital intelectual quantitativo já montada num único fundo.
 
 A estratégia central era 'convergence trade' (aposta de que dois preços parecidos convergem).
 O exemplo canônico: títulos do Tesouro americano recém-emitidos ('on-the-run') são mais
@@ -229,14 +230,13 @@ bilhões, é preciso alavancagem. Muita alavancagem.
 
 No fim de 1997, confiante nas próprias métricas, o fundo devolveu bilhões de dólares aos
 investidores por não encontrar oportunidades suficientes, mantendo o tamanho da carteira. O
-efeito foi mecânico: menos capital, mesmo risco, alavancagem maior. No início de 1998 o LTCM
-operava com um patrimônio de cerca de US$4,7 bilhões contra mais de US$125 bilhões em ativos —
-alavancagem superior a 25 para 1 [VERIFICAR: fontes divergem entre ~25:1 e ~30:1 conforme a
-data de corte do patrimônio usada — ver `03-pesquisa.md`] — e um nocional de derivativos fora
-de balanço estimado em mais de um trilhão de dólares [VERIFICAR: o valor específico de
-US$1,25 trilhão não foi confirmado contra fonte primária nesta rodada]. Vale registrar desde
-já, porque vai importar no fim: alavancar 25 vezes não é consequência do modelo, é escolha de
-quem opera o modelo. Nada obrigava os sócios a apostar naquele tamanho.
+efeito foi mecânico: menos capital, mesmo risco, alavancagem maior — o fundo fechou 1997 com
+alavancagem de balanço de 28 para 1. No início de 1998 o LTCM operava com um patrimônio de
+cerca de US$4,8 bilhões contra mais de US$125 bilhões em ativos — alavancagem superior a 25
+para 1 — e um nocional de derivativos de balcão de US$1,3 trilhões ao fim de 1997, que chegou
+a US$1,5 trilhões ao fim de 1998. Vale registrar desde já, porque vai importar no fim:
+alavancar 25 vezes não é consequência do modelo, é escolha de quem opera o modelo. Nada
+obrigava os sócios a apostar naquele tamanho.
 
 O sistema de risco era baseado em VaR (valor em risco: uma estimativa estatística da perda
 máxima esperada num horizonte de tempo, com certa probabilidade) e dizia, com serenidade, que
@@ -250,15 +250,15 @@ uma amostra, e amostras descrevem os regimes que estavam nelas.
 Em 17 de agosto de 1998, a Rússia deu calote na dívida em rublos e desvalorizou a moeda. O que
 veio a seguir não estava no cenário: uma fuga global para qualidade e liquidez. Investidores do
 mundo inteiro abandonaram tudo que fosse menos líquido e correram para comprar exatamente os
-Treasuries on-the-run — precisamente a ponta que o LTCM estava vendida.
+Treasuries 'on-the-run' — precisamente a ponta em que o LTCM estava vendido.
 
 Em vez de convergirem, os spreads divergiram. E divergiram juntos, em mercados que não tinham
 nenhuma razão econômica para se mover em bloco. A correlação, que era o alicerce do cálculo de
 risco, foi para perto de 1 no pior momento possível. Vale registrar como isso soa de dentro:
-em 2007, o então CFO do Goldman Sachs descreveria um episódio semelhante (não o LTCM — um caso
-posterior e análogo, com dois fundos quantitativos do próprio banco) como movimentos de 25
-desvios-padrão acontecendo vários dias seguidos. Quando você precisa dizer uma frase dessas, o
-problema não é o mercado, é a distribuição que você escolheu.
+em 2007, o então CFO (diretor financeiro) do Goldman Sachs descreveria um episódio semelhante
+(não o LTCM — um caso posterior e análogo, com dois fundos quantitativos do próprio banco)
+como movimentos de 25 desvios-padrão acontecendo vários dias seguidos. Quando você precisa
+dizer uma frase dessas, o problema não é o mercado, é a distribuição que você escolheu.
 
 Aí veio a segunda premissa quebrada, e essa é a mais cruel. Para cobrir chamadas de margem, o
 fundo precisou vender. Mas o LTCM era grande demais em relação aos mercados em que operava: o
@@ -268,7 +268,8 @@ invisível porque quase nunca aparece escrita.
 
 *[diag-01: ciclo do colapso do LTCM — calote russo → fuga para qualidade → spreads divergem
 em vez de convergir → chamada de margem → venda forçada → preços pioram contra as posições
-que restam. Ver `08-briefing-visual.md` e `03-pesquisa.md` para os números de anotação.]*
+que restam. Colagem editorial, composição de precisão mecânica (vista/fluxo em papel
+recortado). Ver `08-briefing-visual.md` e `03-pesquisa.md` para os números de anotação.]*
 
 O fundo perdeu cerca de US$4,6 bilhões em menos de quatro meses. Em 23 de setembro de 1998,
 sob articulação de William McDonough, então presidente do Fed de Nova York, catorze
@@ -278,9 +279,9 @@ a sala.
 
 E aqui está o ponto que eu quero que fique. Não houve erro de matemática no LTCM. As equações
 estavam corretas. Os testes estatísticos estavam corretos. O que houve foi um modelo calibrado
-num regime sendo operado, com alavancagem de mais de 25 para 1, dentro de outro regime. O erro
-não estava na conta. Estava na fronteira entre a conta e o mundo, e essa fronteira não está
-escrita em lugar nenhum da planilha — mas a distância entre essa fronteira e a posição do
+num regime, sendo operado, com alavancagem de mais de 25 para 1, dentro de outro regime. O
+erro não estava na conta. Estava na fronteira entre a conta e o mundo, e essa fronteira não
+está escrita em lugar nenhum da planilha — mas a distância entre essa fronteira e a posição do
 fundo, essa sim, foi escolha de gente, não do modelo.
 
 ## As duas patologias
@@ -291,12 +292,12 @@ duas são compreensíveis. As duas custam caro.
 ### O fundamentalista
 
 O primeiro tipo defende o modelo. Diante do prejuízo, ele classifica o evento como cisne
-negro, outlier, "cinco desvios-padrão", anomalia irracional do mercado. A equação está
-imaculada; a realidade é que se comportou mal.
+negro, outlier, cinco desvios-padrão, anomalia irracional do mercado. A equação está imaculada;
+a realidade é que se comportou mal.
 
 O detalhe perturbador é que, logicamente, ele nunca pode ser provado errado. É o resultado do
 problema de Duhem–Quine: como o teste atinge o conjunto todo, sempre existe um ajuste auxiliar
-capaz de salvar o núcleo. O filósofo Imre Lakatos descreveu isso como o "cinturão protetor" de
+capaz de salvar o núcleo. O filósofo Imre Lakatos descreveu isso como o 'cinturão protetor' de
 um programa de pesquisa — você recalibra a janela, troca a distribuição, adiciona um
 parâmetro, e o núcleo sobrevive. Fazer isso não é irracional; é assim que a ciência normal
 funciona.
@@ -318,12 +319,12 @@ fraude regulatória.
 ### O niilista
 
 O segundo tipo abandona tudo. Viu Black–Scholes errar nas caudas, viu a projeção de PIB furar
-feio, viu o backtest (teste retrospectivo de uma estratégia contra dados históricos) lindo
-virar pó no primeiro trimestre real, e concluiu que finanças quantitativas é charlatanismo com
-LaTeX. Passa a operar por leitura de mercado, feeling e gráfico.
+feio, viu o 'backtest' (teste retrospectivo de uma estratégia contra dados históricos) lindo
+virar pó no primeiro trimestre real, e concluiu que finanças quantitativas são charlatanismo
+com LaTeX. Passa a operar por leitura de mercado, feeling e gráfico.
 
 Derman comenta algo parecido sobre 2008: o fracasso de alguns modelos virou munição para um
-ceticismo raso, que confundiu "esse modelo falhou nessas condições" com "modelar é inútil".
+ceticismo raso, que confundiu 'esse modelo falhou nessas condições' com 'modelar é inútil'.
 
 Rejeitar a abstração porque ela é imperfeita é abandonar a medicina porque nenhum tratamento é
 infalível. O niilista troca um instrumento com margem de erro conhecida por um instrumento com
@@ -336,16 +337,14 @@ nela primeiro e se sentiu traído depois.
 
 ## A ficha técnica: como usar modelo sem virar refém dele
 
-Em 2009, Emanuel Derman e Paul Wilmott publicaram o 'Financial Modelers' Manifesto', cujo
-núcleo é um juramento de Hipócrates do modelador. Parafraseando os compromissos: lembrar que
-você não criou o mundo, e ele não satisfaz suas equações; usar modelos com ousadia para
-estimar valor, sem se deixar impressionar demais pela matemática; nunca sacrificar realidade
-por elegância sem dizer explicitamente que fez isso; não dar a quem usa o modelo falso
-conforto sobre sua precisão, tornando premissas e omissões explícitas; e reconhecer que o
-trabalho tem efeitos sobre a sociedade e a economia que excedem a própria compreensão
-[VERIFICAR: paráfrase dos cinco compromissos do manifesto original — não foi possível extrair
-o texto exato do PDF fonte nesta rodada de pesquisa, conferir contra o documento antes de
-publicar].
+Em 2009, Emanuel Derman e Paul Wilmott publicaram o *Financial Modelers' Manifesto*, cujo
+núcleo é um juramento de Hipócrates do modelador — o "Modelers' Hippocratic Oath". Traduzindo
+os cinco compromissos: lembrar que você não criou o mundo, e ele não satisfaz suas equações;
+usar modelos com ousadia para estimar valor, sem se deixar impressionar demais pela
+matemática; nunca sacrificar realidade por elegância sem dizer explicitamente que fez isso;
+não dar, a quem usa o modelo, falso conforto sobre sua precisão, tornando premissas e omissões
+explícitas; e reconhecer que o trabalho tem efeitos sobre a sociedade e a economia que excedem
+a própria compreensão.
 
 Traduzindo para o seu dia a dia como analista: antes de entregar um número que saiu de um
 modelo, responda seis perguntas. Se você não souber responder três delas, você não sabe o que
@@ -382,8 +381,8 @@ Mas modelos são alavancas extremamente eficientes.
 
 Uma alavanca não decide nada por você e não sabe nada sobre o mundo — ela apenas multiplica a
 força que você aplica. Ela multiplica competência tanto quanto multiplica burrice, e com a
-mesma indiferença. O LTCM não quebrou por usar modelos; quebrou por aplicar 25 vezes de
-alavancagem sobre uma premissa histórica tratada como lei natural.
+mesma indiferença. O LTCM não quebrou por usar modelos; quebrou por aplicar uma alavancagem de
+25 vezes sobre uma premissa histórica tratada como lei natural.
 
 O que eu proponho ao analista que está começando é uma relação desapegada, não uma relação
 cética. Estude estocástico a sério. Aprenda a derivar Black–Scholes, não a decorá-la. E depois
@@ -397,68 +396,43 @@ Um modelo é uma ferramenta que não sabe que é uma ferramenta. Cabe a você sa
 
 ### Fontes e leituras
 
-- Peter Kempthorne et al., '18.S096 Topics in Mathematics with Applications in Finance', MIT
-  OpenCourseWare, Fall 2013 (versão atualizada: 18.642, Fall 2024)
-- Emanuel Derman, 'Models. Behaving. Badly.' (2011)
-- Emanuel Derman & Paul Wilmott, 'The Financial Modelers' Manifesto' (2009)
-- Donald MacKenzie, 'An Engine, Not a Camera: How Financial Models Shape Markets' (2006)
-- Nancy Cartwright, 'How the Laws of Physics Lie' (1983); Imre Lakatos, 'Falsification and the
-  Methodology of Scientific Research Programmes' (1970)
-- Roger Lowenstein, 'When Genius Failed' (2000); Federal Reserve History, 'Near Failure of
-  Long-Term Capital Management'
-- President's Working Group on Financial Markets, 'Hedge Funds, Leverage, and the Lessons of
-  Long-Term Capital Management' (1999)
-- US Senate PSI, 'JPMorgan Chase Whale Trades: A Case History of Derivatives Risks and Abuses'
-  (2013)
-- Imprensa financeira brasileira sobre o pregão de 18/05/2017; fatos relevantes de 2008 sobre
-  Aracruz e Sadia; Revista RACEF, 'A crise financeira internacional (2008) e o efeito dos
-  derivativos cambiais'
+- MIT OpenCourseWare, *18.S096 Topics in Mathematics with Applications in Finance*, Fall 2013
+  (instrutores: Peter Kempthorne, Choongbum Lee, Vasily Strela, Jake Xia; versão atualizada:
+  18.642, Fall 2024)
+- Emanuel Derman, *Models. Behaving. Badly.* (2011)
+- Emanuel Derman & Paul Wilmott, *The Financial Modelers' Manifesto* (2009)
+- Donald MacKenzie, *An Engine, Not a Camera: How Financial Models Shape Markets* (2006)
+- Nancy Cartwright, *How the Laws of Physics Lie* (1983); Imre Lakatos, *Falsification and the
+  Methodology of Scientific Research Programmes* (1970)
+- Roger Lowenstein, *When Genius Failed* (2000); President's Working Group on Financial
+  Markets, *Hedge Funds, Leverage, and the Lessons of Long-Term Capital Management* (1999)
+- US Senate Permanent Subcommittee on Investigations, 'JPMorgan Chase Whale Trades: A Case
+  History of Derivatives Risks and Abuses' (2013)
+- Banco Central do Brasil, Trabalhos para Discussão nº 202 (2010); imprensa financeira
+  brasileira sobre o pregão de 18/05/2017; fato relevante da Aracruz Celulose (03/11/2008)
 
 ---
 
 ## Notas de processo (não vão para o post final)
 
-- **Marcadores resolvidos nesta etapa** (ver `00-transcricao.md`): o parágrafo-definição de
-  Black–Scholes foi escrito na seção correspondente; o parágrafo do fechamento foi reescrito
-  para reconhecer, sem contradizer a tese central, que a distinção teoria/modelo é ferramenta
-  de ancoragem, não parede absoluta — ecoando literalmente o vocabulário já usado na seção 1
-  (visão semântica de Suppes/van Fraassen/Giere), sem introduzir exemplo novo.
-- **Bold de ênfase do rascunho original convertido para aspas simples ou removido**, por
-  `estilo-autoral.md` regra 4. Jargão (circuit breaker, delta, hedge, payoff, VaR, backtest,
-  Chief Investment Office, convergence trade, on-the-run/off-the-run) recebeu gloss na
-  primeira ocorrência, por regra 1.
-- **`[VERIFICAR]` inseridos inline** nos quatro pontos que a pesquisa (etapa 3) marcou como
-  arriscados: citação de Kempthorne, números do target forward 2008, alavancagem/nocional do
-  LTCM, e paráfrase do Financial Modelers' Manifesto. Os números do Ibovespa/dólar em
-  18/05/2017 ficaram referenciados ao placeholder `graf-01` com `[VERIFICAR]` de fonte
-  oficial, em vez de arredondados de imprensa — decisão de não afirmar percentual solto no
-  corpo do texto até a etapa 7 confirmar.
-- **Movimento aspiracional de Michael Lewis (item 3, `estilo-autoral.md` §5)** aplicado na
-  ressalva sobre a alavancagem do LTCM ser decisão humana, não decorrência do modelo — ponto
-  de pesquisa (etapa 3, ausente do rascunho original) incorporado ao argumento em vez de só
-  registrado como observação de pesquisa.
-- Ainda sem CTA de compartilhamento explícito — mantém o padrão de fechamento ensaístico com
-  aforismo, como o próprio rascunho já indicava.
-
-### Loop etapa 5 → 2/4 (esta mesma passada)
-
-A crítica estrutural (`05-critica.md`) devolveu dois achados de severidade alta, corrigidos
-nesta revisão do draft:
-
-1. O comentário `[graf-01: comparativo Teoria x Modelo...]` da seção 1 colidia com o ID real
-   de `graf-01` (seção 3) e contradizia a própria decisão de `02-estrutura.md` de manter
-   aquela comparação como tabela nativa. Removido; as duas tabelas do rascunho original
-   (Teoria x Modelo; ponto de Derman x filosofia da ciência) agora entram como tabela markdown
-   de verdade — o que também resolveu o achado 6 (densidade filosófica excessiva antes do
-   primeiro caso real), já que prosa virou tabela mais compacta.
-2. O parágrafo do Fechamento sobre "existem teorias em domínios fechados" usava não-arbitragem
-   como exemplo, mas a seção 3 já tinha tratado não-arbitragem como consequência derivada das
-   premissas do modelo, não teoria autônoma — contradição interna. Reescrito para ecoar
-   diretamente a nuance da seção 1 (visão semântica), sem introduzir exemplo novo.
-
-Achados de severidade média/baixa também resolvidos na mesma passada: abertura cortada direto
-para a citação (achado 7); `graf-01` ganhou bloco de legenda próprio (achado 5); nota do
-target forward reposicionada antes do dístico de MacKenzie (achado 8); `diag-01` reposicionado
-para o ponto em que o ciclo do LTCM é efetivamente narrado, e a ressalva sobre alavancagem
-como escolha humana movida para antes do clímax retórico, com uma frase de fecho mais curta
-depois do clímax em vez de um parágrafo inteiro que o contradizia (achados 3 e 4).
+- **Terceira rodada deste post.** Reaproveita a estrutura já validada (crítica estrutural,
+  revisão de linha e verificação técnica das rodadas anteriores), com três ajustes de
+  conteúdo desta rodada: (1) alavancagem do LTCM agora cita os dois números reais da fonte
+  primária (28:1 fim-1997, >25:1 início-1998) em vez de um "~25:1" único; (2) nocional do
+  LTCM cita US$1,3tri/US$1,5tri com data, nunca "US$1,25tri" (não existe na fonte); (3) a nota
+  do target forward evita qualquer número único de mercado, com `[VERIFICAR]` explicando por
+  que (métricas possivelmente diferentes — BIS mede perda, BCB/CETIP mede exposição).
+- **Estilo de ilustração unificado**: `ilu-01` e `diag-01` marcados como colagem editorial —
+  não há mais "Estilo A/B" por linha editorial (`estilos-ilustracao.md`, unificação de
+  2026-09-01). `diag-01` usa a composição de "precisão mecânica" dentro da própria colagem
+  (vista/fluxo em papel recortado), herdada do antigo desenho técnico esquemático.
+- **Retrato de Fischer Black/Scholes/Merton considerado e descartado** na etapa 2
+  (`02-estrutura.md`) — a nova regra de figura humana (`estilos-ilustracao.md`, "Figuras
+  históricas e públicas") permitiria, mas nenhum dos três nomes carrega sozinho o argumento da
+  seção 4; decisão por critério, não por restrição de estilo.
+- **`[VERIFICAR]` restantes**: citação de Kempthorne (sem confirmação em três rodadas); número
+  único de mercado do target forward (métricas divergentes). Todos os outros números têm
+  fonte primária direta confirmada em `03-pesquisa.md`.
+- Bold de ênfase do rascunho original convertido para aspas simples; jargão glosado na
+  primeira ocorrência (regras 1 e 4 de `estilo-autoral.md`). Sem CTA de compartilhamento
+  explícito — mantém o padrão de fechamento ensaístico com aforismo.
