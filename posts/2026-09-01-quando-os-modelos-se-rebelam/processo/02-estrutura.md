@@ -96,7 +96,13 @@ autor (seção 3 e Fechamento) ficam pendentes para a etapa 4.
 - **Pendência de conteúdo:** o parágrafo sobre "não existem teorias no sentido forte [em
   finanças]" precisa da reescrita pedida entre colchetes — resolvida na etapa 4, ecoando a
   nuance já registrada na seção 1 (visão semântica das teorias), não a frase categórica
-  original.
+  original. **Correção pós-etapa-5:** a primeira passada do draft ecoou essa nuance
+  introduzindo um exemplo novo (não-arbitragem como "teoria quase axiomática") que contradiz
+  a seção 3, onde não-arbitragem é tratada como consequência derivada das premissas do
+  modelo, não teoria autônoma — ver `05-critica.md`, achado 2. O eco correto reaproveita
+  literalmente o vocabulário da seção 1 (visão semântica de Suppes/van Fraassen/Giere: teoria
+  também é família de modelos; finanças mora do lado em que o objeto reage ao modelo), sem
+  introduzir exemplo novo.
 
 ## Três pilares — confirmação
 
@@ -113,7 +119,11 @@ Os três pilares estão representados; nenhum ausente.
   comparação de conceitos abstratos sem objeto concreto por trás, exatamente o alerta do
   critério 2 da etapa 2 ("diagrama fantasiado de ilustração"), já registrado como erro real em
   `posts/2026-08-17-o-mundo-invertido-das-carreiras-em-financas/ilustracoes.md` (revisão de
-  `ilu-02`). As duas tabelas nativas cobrem melhor essa comparação do que uma peça visual.
+  `ilu-02`). **As duas tabelas nativas (Teoria x Modelo; ponto de Derman x filosofia da
+  ciência) entram no draft como tabela markdown de verdade, sem ID de visual** — nunca como
+  placeholder `graf-NN`/`diag-NN`/`ilu-NN` (correção pós-etapa-5: a primeira passada do draft
+  rotulou esse trecho como `graf-01` por engano, colidindo com o `graf-01` real da seção 3;
+  ver `05-critica.md`, achado 1).
 - **Ilustração ou diagrama para "as duas patologias" (seção 5):** mesmo motivo — fundamentalista
   vs. niilista é literalmente "dois blocos" sem objeto concreto por trás. Fica como texto com
   subtítulos, já a estrutura do rascunho.

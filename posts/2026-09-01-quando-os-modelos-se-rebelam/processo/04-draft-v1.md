@@ -2,16 +2,9 @@
 
 ### Por que o descolamento entre modelo e realidade é esperado — e por que entender isso separa um bom modelador de um extremista frustrado
 
-Vez ou outra compartilho aqui conteúdo de aulas do MIT OpenCourseWare (o repositório de aulas
-e cursos que o MIT disponibiliza gratuitamente). Eles mantêm uma quantidade enorme de
-material.
-
-Entre esses materiais está a disciplina 'Topics in Mathematics with Applications in Finance'
-(18.S096, na versão de 2013, atualizada como 18.642 em 2024). A disciplina é um passeio, a
-passo rápido, por uma série de ferramentas e modelos matemáticos fundamentais em finanças.
-
-Um dos meus momentos favoritos do curso é a aula de probabilidade. Nela, um dos professores
-diz, numa explicação sobre a ideia de retorno à média:
+Numa aula de probabilidade que assisti no MIT OpenCourseWare (o repositório de aulas e cursos
+que o MIT disponibiliza gratuitamente), um dos professores diz, numa explicação sobre a ideia
+de retorno à média:
 
 > "Se você lança uma moeda 100 vezes, obtendo cara em todos os lançamentos, você deveria
 > estar considerando seriamente a possibilidade de que essa moeda tenha algum vício ou
@@ -27,6 +20,10 @@ acabam se esquecendo de que a própria média pode ter mudado.
 Esse tipo de pensamento equivocado — bastante presente quando o problema envolve
 probabilidades — é sintoma de uma compreensão parcial, ou mesmo equivocada, do funcionamento
 de modelos.
+
+A disciplina, aliás, chama-se 'Topics in Mathematics with Applications in Finance' (18.S096,
+na versão de 2013, atualizada como 18.642 em 2024) — um passeio, a passo rápido, por uma
+série de ferramentas e modelos matemáticos fundamentais em finanças.
 
 Uma má compreensão do que são modelos, de como funcionam e da importância das hipóteses que os
 fundamentam pode ser a diferença entre ser um modelador bem-sucedido ou se tornar um
@@ -67,9 +64,13 @@ capital), Black–Scholes, Hipótese dos Mercados Eficientes, Vasicek, Gordon: t
 estilo da física e usam a sintaxe da matemática, mas não têm a mesma ancoragem ontológica —
 ou seja, não descrevem o que a coisa é, só com o que ela se parece.
 
-*[graf-01: comparativo Teoria x Modelo — o que faz, fundamento, se exige justificativa,
-quando falha, reflexividade. Ver `02-estrutura.md`: mantido como tabela nativa, não vira
-peça visual — a comparação de conceitos abstratos não tem objeto concreto por trás.]*
+| | Teoria (ex.: eletromagnetismo) | Modelo (ex.: Black–Scholes) |
+|---|---|---|
+| O que faz | Descreve o que a coisa é | Descreve com o que a coisa se parece |
+| Fundamento | Próprio | Emprestado, por analogia |
+| Exige justificativa? | Não, exige confirmação | Sim, sempre — e a defesa é contextual |
+| Quando falha | Revela um limite físico novo (clássico → quântico) | Revela que a analogia deixou de servir naquele cenário |
+| Reflexividade | Nenhuma — o elétron não lê o paper | Alta — o mercado adota o modelo e muda de comportamento |
 
 ### E onde entram as "hipóteses"?
 
@@ -90,17 +91,11 @@ operação.
 O leitor mais rigoroso pode se perguntar: essa taxonomia é rigorosa ou é a licença poética de
 um físico que virou banqueiro? A resposta honesta é: bate em parte.
 
-Modelos serem representações parciais e deliberadamente distorcidas tem convergência forte com
-a filosofia da ciência — Nancy Cartwright argumenta, em 'How the Laws of Physics Lie' (1983),
-que até as leis fundamentais só são literalmente verdadeiras sobre modelos idealizados; George
-Box resumiu isso na frase que virou clichê: todos os modelos estão errados, alguns são úteis.
-Já a ideia de que "modelo falha, logo a analogia deixou de servir" é mais complicada do que
-parece: quando uma predição falha, o teste atinge o conjunto inteiro — núcleo, premissas
-auxiliares, calibração, dados —, e você nunca consegue isolar logicamente o culpado sozinho
-(é o chamado problema de Duhem–Quine). E a ideia de que teoria é categoricamente distinta de
-modelo tem discordância real: na visão semântica das teorias (Suppes, van Fraassen, Giere),
-teorias também são famílias de modelos — as equações de Maxwell idealizam vácuo perfeito,
-cargas pontuais, meios homogêneos, do mesmo jeito que qualquer modelo financeiro idealiza.
+| Ponto de Derman | O que diz a filosofia da ciência | Veredito |
+|---|---|---|
+| Modelos são representações parciais e deliberadamente distorcidas | Convergência forte — Nancy Cartwright ('How the Laws of Physics Lie', 1983) argumenta que até as leis fundamentais só são literalmente verdadeiras sobre modelos idealizados; George Box resumiu isso na frase que virou clichê: todos os modelos estão errados, alguns são úteis | Alinhado |
+| Modelo falha ⇒ a analogia deixou de servir | Mais complicado do que parece: quando uma predição falha, o teste atinge o conjunto inteiro — núcleo, premissas auxiliares, calibração, dados — e você nunca isola logicamente o culpado sozinho (problema de Duhem–Quine) | Alinhado, mas incompleto |
+| Teoria é categoricamente distinta de modelo | Discordância real: na visão semântica das teorias (Suppes, van Fraassen, Giere), teorias também são famílias de modelos — as equações de Maxwell idealizam vácuo perfeito, cargas pontuais, meios homogêneos | Fronteira mais borrada do que Derman pinta |
 
 Minha leitura: trate a distinção como uma ferramenta de ancoragem, não como uma parede. De um
 lado, construções que sobrevivem a testes de falseamento cada vez mais severos e cujo objeto
@@ -164,12 +159,15 @@ E é exatamente essa a premissa que o mercado brasileiro adora quebrar.
 
 18 de maio de 2017. Na noite anterior vaza a gravação entre Joesley Batista e o então
 presidente Michel Temer. Na abertura, o Ibovespa cai o suficiente para acionar um circuit
-breaker (mecanismo que suspende o pregão por alguns minutos quando a queda passa de um limite);
-a queda intradiária e o fechamento do dia, e a alta do dólar no mesmo pregão, entram como
-'[graf-01]' [VERIFICAR: valores exatos de fechamento do Ibovespa (B3) e PTAX (Banco Central)
-para 17 e 18/05/2017 — a pesquisa desta rodada achou pequena divergência entre fontes de
+breaker (mecanismo que suspende o pregão por alguns minutos quando a queda passa de um
+limite).
+
+*[graf-01: fechamento do Ibovespa e cotação PTAX (Banco Central) em 16, 17 e 18/05/2017 —
+mostra o salto entre o fechamento de 17/05 e a abertura de 18/05, sem preço intermediário.
+Ver `08-briefing-visual.md`.]* [VERIFICAR: valores exatos de fechamento do Ibovespa (B3) e
+PTAX para 17 e 18/05/2017 — a pesquisa desta rodada achou pequena divergência entre fontes de
 imprensa (dólar fechando em R$3,38 ou R$3,3890) e recomenda puxar a série oficial em vez da
-imprensa antes de publicar o gráfico].
+imprensa antes de publicar o gráfico.]
 
 Pergunte a quem estava vendido em opções naquela manhã quantas vezes conseguiu rebalancear o
 delta (a sensibilidade do preço da opção ao preço do ativo) entre o fechamento do dia 17 e a
@@ -193,21 +191,22 @@ passaram a aderir melhor ao modelo do que aderiam antes. O modelo não era uma c
 para o mercado; era um motor que o empurrava. Isso é reflexividade no sentido de George Soros:
 o observador é participante, e a crença coletiva no modelo altera o objeto modelado.
 
+Vale uma nota rápida sobre uma variação brasileira do mesmo problema, ainda que fora do
+universo estrito de opções. No segundo semestre de 2008, dezenas de exportadoras brasileiras
+carregavam estruturas de derivativos cambiais chamadas 'target forward', com payoff (o
+resultado financeiro final) assimétrico: ganho limitado se o dólar caísse, perda alavancada e
+sem trava se ele disparasse. Enquanto o real se valorizava, a estrutura parecia hedge
+(proteção) barato. Quando o dólar subiu, virou outra coisa. A Aracruz Celulose e a Sadia
+figuram entre os casos mais citados dessas perdas, a Sadia acabou incorporada pela Perdigão —
+o que deu origem à BRF — e o volume total dessas operações no país é estimado na casa de
+dezenas de bilhões de dólares [VERIFICAR: os valores específicos de prejuízo da Aracruz e da
+Sadia, e o volume total de mercado (~US$35bi), variam entre fontes e precisam de confirmação
+contra fato relevante/fonte regulatória antes de publicar — ver `03-pesquisa.md`]. A
+precificação estava errada? Não necessariamente. O que estava errado era chamar aquilo de
+hedge — e o cenário em que a premissa de câmbio comportado valia.
+
 O cometa não muda de órbita porque o astrônomo publicou.
 O mercado muda.
-
-No segundo semestre de 2008, dezenas de exportadoras brasileiras carregavam estruturas de
-derivativos cambiais chamadas 'target forward', com payoff (o resultado financeiro final)
-assimétrico: ganho limitado se o dólar caísse, perda alavancada e sem trava se ele disparasse.
-Enquanto o real se valorizava, a estrutura parecia hedge (proteção) barato. Quando o dólar
-subiu, virou outra coisa. A Aracruz Celulose e a Sadia figuram entre os casos mais citados
-dessas perdas, a Sadia acabou incorporada pela Perdigão — o que deu origem à BRF — e o volume
-total dessas operações no país é estimado na casa de dezenas de bilhões de dólares [VERIFICAR:
-os valores específicos de prejuízo da Aracruz e da Sadia, e o volume total de mercado
-(~US$35bi), variam entre fontes e precisam de confirmação contra fato relevante/fonte
-regulatória antes de publicar — ver `03-pesquisa.md`]. A precificação estava errada? Não
-necessariamente. O que estava errado era chamar aquilo de hedge — e o cenário em que a
-premissa de câmbio comportado valia.
 
 ## LTCM: quando dois Nobéis descobrem que o mundo não satisfaz as equações
 
@@ -228,10 +227,6 @@ tenderia a se fechar. Vende o caro, compra o barato, espera.
 O problema é que essas diferenças são medidas em pontos-base. Para transformar centavos em
 bilhões, é preciso alavancagem. Muita alavancagem.
 
-*[diag-01: ciclo do colapso do LTCM — calote russo → fuga para qualidade → spreads divergem
-em vez de convergir → chamada de margem → venda forçada → preços pioram contra as posições
-que restam. Ver `08-briefing-visual.md` e `03-pesquisa.md` para os números de anotação.]*
-
 No fim de 1997, confiante nas próprias métricas, o fundo devolveu bilhões de dólares aos
 investidores por não encontrar oportunidades suficientes, mantendo o tamanho da carteira. O
 efeito foi mecânico: menos capital, mesmo risco, alavancagem maior. No início de 1998 o LTCM
@@ -239,7 +234,9 @@ operava com um patrimônio de cerca de US$4,7 bilhões contra mais de US$125 bil
 alavancagem superior a 25 para 1 [VERIFICAR: fontes divergem entre ~25:1 e ~30:1 conforme a
 data de corte do patrimônio usada — ver `03-pesquisa.md`] — e um nocional de derivativos fora
 de balanço estimado em mais de um trilhão de dólares [VERIFICAR: o valor específico de
-US$1,25 trilhão não foi confirmado contra fonte primária nesta rodada].
+US$1,25 trilhão não foi confirmado contra fonte primária nesta rodada]. Vale registrar desde
+já, porque vai importar no fim: alavancar 25 vezes não é consequência do modelo, é escolha de
+quem opera o modelo. Nada obrigava os sócios a apostar naquele tamanho.
 
 O sistema de risco era baseado em VaR (valor em risco: uma estimativa estatística da perda
 máxima esperada num horizonte de tempo, com certa probabilidade) e dizia, com serenidade, que
@@ -269,6 +266,10 @@ próprio ato de vender empurrava os preços contra as posições que ainda resta
 liquidez é a premissa mais invisível e mais letal de toda a modelagem financeira. Ela é
 invisível porque quase nunca aparece escrita.
 
+*[diag-01: ciclo do colapso do LTCM — calote russo → fuga para qualidade → spreads divergem
+em vez de convergir → chamada de margem → venda forçada → preços pioram contra as posições
+que restam. Ver `08-briefing-visual.md` e `03-pesquisa.md` para os números de anotação.]*
+
 O fundo perdeu cerca de US$4,6 bilhões em menos de quatro meses. Em 23 de setembro de 1998,
 sob articulação de William McDonough, então presidente do Fed de Nova York, catorze
 instituições financeiras aportaram cerca de US$3,6 bilhões para evitar uma liquidação forçada
@@ -279,15 +280,8 @@ E aqui está o ponto que eu quero que fique. Não houve erro de matemática no L
 estavam corretas. Os testes estatísticos estavam corretos. O que houve foi um modelo calibrado
 num regime sendo operado, com alavancagem de mais de 25 para 1, dentro de outro regime. O erro
 não estava na conta. Estava na fronteira entre a conta e o mundo, e essa fronteira não está
-escrita em lugar nenhum da planilha.
-
-Vale uma ressalva que o próprio caso convida a fazer, e que eu não quero que passe batido:
-alavancar 25 vezes não é uma consequência do modelo, é uma escolha de quem opera o modelo.
-Nada na premissa de liquidez obrigava os sócios do LTCM a apostar naquele tamanho — a decisão
-de alavancagem foi discricionária, humana, sobre uma correlação estimada historicamente.
-Chamar o desastre de "a matemática estava certa, a premissa é que quebrou" é verdade, mas é
-também uma forma elegante de tirar a responsabilidade de cima de quem decidiu o tamanho da
-aposta.
+escrita em lugar nenhum da planilha — mas a distância entre essa fronteira e a posição do
+fundo, essa sim, foi escolha de gente, não do modelo.
 
 ## As duas patologias
 
@@ -374,13 +368,15 @@ está entregando.
 
 Nenhum modelo é uma bala de prata.
 
-Isso não significa que finanças não tenham nenhuma teoria — existem, sim, resultados que
-funcionam como teoria dentro de seu próprio domínio fechado (a ausência de arbitragem, por
-exemplo, é quase axiomática). O que não existe é uma teoria no sentido forte que descreva o
-mercado inteiro como as equações de Maxwell descrevem o eletromagnetismo: o que existem, na
-imensa maioria dos casos, são analogias projetadas sobre um sistema feito de gente que reage
-ao próprio modelo. Esperar que uma equação capture isso integralmente é um erro de categoria,
-não de cálculo.
+E a ressalva que cabe aqui não é uma exceção nova, é a mesma que já registrei lá atrás, na
+distinção de Derman: pela visão semântica da filosofia da ciência, até uma teoria também é,
+no fundo, uma família de modelos — a linha entre as duas nunca foi uma parede. Mas isso não
+resgata as equações de finanças para o lado esquerdo daquela tabela. O que separa os dois
+lados não é a palavra usada, é se o objeto reage a quem o descreve. As equações de Maxwell
+idealizam vácuo perfeito e ainda assim o elétron não lê o paper; toda construção em finanças,
+por mais rigorosa que seja, descreve um sistema feito de gente que lê o próprio modelo e muda
+de comportamento por causa dele. Esperar que uma equação capture isso integralmente é um erro
+de categoria, não de cálculo.
 
 Mas modelos são alavancas extremamente eficientes.
 
@@ -424,9 +420,9 @@ Um modelo é uma ferramenta que não sabe que é uma ferramenta. Cabe a você sa
 
 - **Marcadores resolvidos nesta etapa** (ver `00-transcricao.md`): o parágrafo-definição de
   Black–Scholes foi escrito na seção correspondente; o parágrafo do fechamento foi reescrito
-  para reconhecer, sem contradizer a tese central, que "teoria" também existe em domínios
-  restritos de finanças — ecoando a nuance já registrada na seção 1 (visão semântica de
-  Suppes/van Fraassen/Giere), em vez de reafirmar a frase categórica original do rascunho.
+  para reconhecer, sem contradizer a tese central, que a distinção teoria/modelo é ferramenta
+  de ancoragem, não parede absoluta — ecoando literalmente o vocabulário já usado na seção 1
+  (visão semântica de Suppes/van Fraassen/Giere), sem introduzir exemplo novo.
 - **Bold de ênfase do rascunho original convertido para aspas simples ou removido**, por
   `estilo-autoral.md` regra 4. Jargão (circuit breaker, delta, hedge, payoff, VaR, backtest,
   Chief Investment Office, convergence trade, on-the-run/off-the-run) recebeu gloss na
@@ -443,3 +439,26 @@ Um modelo é uma ferramenta que não sabe que é uma ferramenta. Cabe a você sa
   registrado como observação de pesquisa.
 - Ainda sem CTA de compartilhamento explícito — mantém o padrão de fechamento ensaístico com
   aforismo, como o próprio rascunho já indicava.
+
+### Loop etapa 5 → 2/4 (esta mesma passada)
+
+A crítica estrutural (`05-critica.md`) devolveu dois achados de severidade alta, corrigidos
+nesta revisão do draft:
+
+1. O comentário `[graf-01: comparativo Teoria x Modelo...]` da seção 1 colidia com o ID real
+   de `graf-01` (seção 3) e contradizia a própria decisão de `02-estrutura.md` de manter
+   aquela comparação como tabela nativa. Removido; as duas tabelas do rascunho original
+   (Teoria x Modelo; ponto de Derman x filosofia da ciência) agora entram como tabela markdown
+   de verdade — o que também resolveu o achado 6 (densidade filosófica excessiva antes do
+   primeiro caso real), já que prosa virou tabela mais compacta.
+2. O parágrafo do Fechamento sobre "existem teorias em domínios fechados" usava não-arbitragem
+   como exemplo, mas a seção 3 já tinha tratado não-arbitragem como consequência derivada das
+   premissas do modelo, não teoria autônoma — contradição interna. Reescrito para ecoar
+   diretamente a nuance da seção 1 (visão semântica), sem introduzir exemplo novo.
+
+Achados de severidade média/baixa também resolvidos na mesma passada: abertura cortada direto
+para a citação (achado 7); `graf-01` ganhou bloco de legenda próprio (achado 5); nota do
+target forward reposicionada antes do dístico de MacKenzie (achado 8); `diag-01` reposicionado
+para o ponto em que o ciclo do LTCM é efetivamente narrado, e a ressalva sobre alavancagem
+como escolha humana movida para antes do clímax retórico, com uma frase de fecho mais curta
+depois do clímax em vez de um parágrafo inteiro que o contradizia (achados 3 e 4).
