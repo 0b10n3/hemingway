@@ -1,8 +1,13 @@
 {
   "etapa_atual": 10,
   "loops_consumidos": 0,
-  "aprovacoes": [],
-  "pendencias": [],
+  "aprovacoes": [
+    "2026-09-02: quarta rodada do pipeline, a pedido do autor, com conteúdo apagado e reexecutado do zero. Gate humano: linha editorial mantida em Spoiler (declaração original, confirmada pelo autor). Post aprovado e publicação autorizada — requer /publicar manual."
+  ],
+  "pendencias": [
+    "Capa (autômato de papel) e ilu-01 (radar de rodovia) seguem como prompt, não geradas — sem acesso ao Nano Banana Pro nesta sessão. graf-01 e diag-01 já foram gerados de fato (Plotly) e estão em posts/2026-09-01-quando-os-modelos-se-rebelam/figuras/.",
+    "publicação requer /publicar manual (disable-model-invocation: true de propósito) — merge, tag e push não são disparados automaticamente pelo pipeline."
+  ],
   "commit_inicial": "9a0aa8c",
   "rodada": 4,
   "nota_rodada": "2026-09-02: quarta rodada, a pedido do autor — conteúdo gerado apagado e pipeline reexecutado do zero (etapa 0 em diante), incluindo a nova regra de iconografia financeira (pesquisa/epico-iconografia-financeira/) que passa a permitir robô/moeda/candlestick em ilustração."
