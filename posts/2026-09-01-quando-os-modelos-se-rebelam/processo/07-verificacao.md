@@ -1,411 +1,162 @@
-# Verificação técnica — "Quando os Modelos se Rebelam"
+# Verificação técnica — rodada 3 (fechamento)
 
-Laudo do agente `verificador-tecnico`, etapa 7, sobre `04-draft-v1.md` (versão pós-loop
-5→2/4, a que está em disco nesta rodada). Este laudo **substitui** o conteúdo anterior deste
-arquivo: o texto que estava aqui foi produzido contra um estado de rascunho diferente do
-atual — cita números que não existem mais no draft (ex.: "R$2,55 bilhões" da Sadia, "44%" de
-redução de VaR, "algo em torno de 25:1" para o LTCM) e por isso ficaria enganoso para a etapa
-de consolidação se mantido. Onde a verificação anterior fez trabalho genuíno e ainda
-relevante (ex.: leitura do PWG 1999 sobre o nocional do LTCM), esse achado foi conferido de
-novo nesta rodada e incorporado abaixo com fonte própria.
+Fonte: `04-draft-v1.md` (draft desta rodada). Não redescobre o que `03-pesquisa.md` já
+reconfirmou contra fonte primária — só os cinco pontos pedidos para esta etapa, com veredito
+de fechamento.
 
-Metodologia: busca web, `WebFetch` de página/PDF quando possível, extração de texto de PDF
-via `pdftotext` quando `WebFetch` falhou no binário, chamada direta à API pública do Banco
-Central (`api.bcb.gov.br`), e recálculo em `python3` para todo número percentual/razão citado
-no draft ou candidato a entrar nele.
+## 1. Título do livro de Derman — "Models. Behaving. Badly." vs "Models.Behaving.Badly."
 
----
+**⚠️ Impreciso — corrigir para `Models.Behaving.Badly.` (sem espaços após os pontos).**
 
-## 1. Citação de Kempthorne (abertura + bibliografia)
+Confirmado contra quatro fontes de catálogo/editora, todas convergentes:
 
-**No corpo do texto**: o draft já não nomeia Kempthorne — usa "um dos professores" com
-`[VERIFICAR]` inline explicando o motivo. Isso está correto e não precisa de mudança.
+- Simon & Schuster, página oficial do editor (Free Press): "Models.Behaving.Badly." —
+  [simonandschuster.com/books/Models-Behaving-Badly/Emanuel-Derman/9781439164990](https://www.simonandschuster.com/books/Models-Behaving-Badly/Emanuel-Derman/9781439164990)
+- Amazon, capa do hardcover, ISBN-13 9781439164983 (Free Press, 25/10/2011): título grafado
+  "Models.Behaving.Badly" na capa —
+  [amazon.com/dp/1439164983](https://www.amazon.com/Models-Behaving-Badly-Confusing-Illusion-Reality-Disaster/dp/1439164983)
+- Apple Books e ebooks.com, ambos "Models.Behaving.Badly." —
+  [books.apple.com/us/book/models-behaving-badly/id427556312](https://books.apple.com/us/book/models-behaving-badly/id427556312),
+  [ebooks.com/en-us/book/673297/models-behaving-badly/emanuel-derman](https://www.ebooks.com/en-us/book/673297/models-behaving-badly/emanuel-derman/)
 
-**Confirmação independente desta rodada**: refiz a checagem da página de recurso oficial do
-MIT OCW para a *Lecture 3: Probability Theory* (18.S096, Fall 2013) via `WebFetch` direto —
-a página identifica **Dr. Choongbum Lee** como instrutor desta aula específica, não
-Kempthorne. Também consultei a página do MIT Math (`math.mit.edu/classes/18.S096/fall13`),
-que lista os quatro instrutores do curso (Kempthorne, Choongbum Lee, Vasily Strela, Jake Xia)
-mas não atribui aulas individualmente — a atribuição de Lee à Lecture 3 vem especificamente
-da página de recurso daquela aula, não de inferência.
+Nenhuma fonte de catálogo usa espaço depois do ponto. O draft (linha 43 e linha 403,
+bibliografia) tem "*Models. Behaving. Badly.*" com espaços — trocar as duas ocorrências para
+"*Models.Behaving.Badly.*" sem espaços.
 
-**Veredito sobre a bibliografia** (o item que este laudo precisava resolver, já que o corpo
-já estava hedgeado): ⚠️ **Impreciso — ajustar**. A entrada atual —
+## 2. Citação de Kempthorne — tentativa adicional (transcrição de vídeo)
 
-> Peter Kempthorne et al., '18.S096 Topics in Mathematics with Applications in Finance', MIT
-> OpenCourseWare, Fall 2013 (...)
+**❓ Não verificável — mantém `[VERIFICAR]`, agora com achado adicional que reforça a dúvida em
+vez de resolvê-la.**
 
-lista Kempthorne como autor principal ("et al." implica ele como primeiro/principal) de um
-curso cuja aula especificamente citada na abertura do texto (ainda que sem nome, no corpo) não
-é dele. Isso não é "errado" no sentido de o curso não existir ou Kempthorne não fazer parte
-dele — ele de fato coordena/leciona parte do curso — mas um leitor que siga a citação até a
-fonte primária vai encontrar, na aula relevante, outro nome. **Correção proposta**: trocar
-"Peter Kempthorne et al." por uma forma que não implique autoria principal de Kempthorne sobre
-o curso inteiro, por exemplo:
+Além de reconfirmar que a página do MIT OCW da Lecture 3 segue atribuindo a aula a "Dr.
+Choongbum Lee" (não Kempthorne) —
+[ocw.mit.edu/.../resources/lecture-3-probability-theory/](https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/resources/lecture-3-probability-theory/),
+acesso 02/09/2026 —, esta rodada foi além do que as duas rodadas anteriores fizeram: baixei a
+legenda/transcrição real (não gerada automaticamente) do vídeo da Lecture 3 no YouTube
+([youtube.com/watch?v=f9XFM8YLccg](https://www.youtube.com/watch?v=f9XFM8YLccg)) e busquei a
+frase da moeda no texto completo (13.120 linhas de VTT). **A frase não aparece em lugar nenhum
+da aula.** Não há menção a "coin", "flip", "toss", "biased" nem qualquer variante próxima ao
+exemplo da moeda com 100 caras seguidas.
 
-> MIT OpenCourseWare, '18.S096 Topics in Mathematics with Applications in Finance', Fall 2013
-> (instrutores: Peter Kempthorne, Choongbum Lee, Vasily Strela, Jake Xia; versão atualizada:
-> 18.642, Fall 2024)
+Fui além ainda: como a citação é sobre "retorno à média", testei as aulas de Kempthorne que
+tratam de séries temporais e são o lugar temático mais plausível para esse exemplo — Lecture 6
+(Regression Analysis), Lecture 8 (Time Series Analysis I), Lecture 9 (Volatility Modeling, via
+transcrição oficial em PDF da versão 2024/18.642) e Lecture 12 (Time Series Analysis III).
+Encontrei, na Lecture 8, Kempthorne discutindo precisamente o conceito de "mean reversion" ("a
+ponto para o qual você reverte muda" — ligação temática real com a ideia do rascunho), mas sem
+nenhum exemplo de moeda em lugar nenhum das quatro aulas checadas.
 
-Isso preserva a citação do curso (correta e útil) sem atribuir autoria enganosa a uma pessoa
-específica que não ministrou a aula referenciada no gancho de abertura.
+**Conclusão:** a citação não é rastreável a nenhuma aula específica do curso 18.S096/18.642
+testada até agora (Lecture 3, 6, 8, 9, 12) — nem pela transcrição real, nem pela atribuição
+oficial de instrutor. Isso é mais forte do que a pendência das rodadas anteriores (que só
+apontava "instrutor errado"): agora há evidência de que a frase, tal como está no rascunho, não
+está em nenhuma das aulas mais prováveis do curso. Recomendação para a consolidação: manter
+`[VERIFICAR]`, mas considerar a alternativa mais segura de não atribuir a fala a "um dos
+professores do curso" com implicação de fonte rastreável — ou trocar por paráfrase sem aspas
+diretas, já que a citação literal não resiste a esta verificação.
 
-Fonte: [MIT OCW — Lecture 3: Probability Theory](https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/resources/lecture-3-probability-theory/); [MIT Math — 18.S096 Fall 2013](https://math.mit.edu/classes/18.S096/fall13/). Acesso: 01/09/2026.
+## 3. Seis hipóteses de Black–Scholes / definição de VaR / 'convergence trade' — sem mudança
 
----
+**✅ Confirmado — nada mudou na reescrita desta rodada, vereditos anteriores seguem valendo.**
 
-## 2. Ibovespa e dólar em 16–18/05/2017 (`graf-01`)
+- **Black–Scholes** (linhas 148–153 do draft): lista seis premissas — GBM sem saltos,
+  volatilidade constante, taxa livre de risco constante e conhecida, ausência de custo de
+  transação/imposto, rebalanceamento contínuo possível, liquidez ilimitada (venda a
+  descoberto livre + divisibilidade infinita). O texto usa "entre outras coisas" — não afirma
+  exaustividade — então a ausência explícita de "sem dividendos" (item que aparece em algumas
+  listas didáticas, ex. Hull) não é erro, é omissão coberta pela ressalva. Consistente com o
+  artigo original de Black & Scholes (1973) e com a apresentação padrão em livros-texto.
+- **VaR** (linha 242): "estimativa estatística da perda máxima esperada num horizonte de
+  tempo, com certa probabilidade" — é a formulação simplificada padrão (compare RiskMetrics:
+  "an estimate of the maximum loss...over a given time interval...at a given confidence
+  level"). Tecnicamente o VaR é um limiar de perda que só é excedido com probabilidade
+  (1-confiança), não literalmente "a perda máxima" — mas essa é a simplificação universal em
+  textos de divulgação e o parênteses já qualifica com "certa probabilidade". Aceitável como
+  está.
+- **'Convergence trade'** (linha 224): "aposta de que dois preços parecidos convergem" — gloss
+  correto e proporcional ao uso no texto (exemplo on-the-run/off-the-run logo em seguida).
 
-Fui direto às fontes primárias, não à imprensa.
+## 4. Alavancagem e nocional do LTCM — números reescritos nesta rodada
 
-**PTAX/dólar comercial (venda, fechamento)** — API pública do Banco Central, série SGS 1
-("Taxa de câmbio - Livre - Dólar americano (venda) - diário"), consultada via
-`api.bcb.gov.br/dados/serie/bcdata.sgs.1/dados`:
+**⚠️ Impreciso — os números individuais batem com a fonte primária, mas a frase junta duas
+datas diferentes (patrimônio de 01/01/1998 e ativos de 31/08/1998) como se fossem uma única
+fotografia de "início de 1998". Corrigir a atribuição temporal, não os valores.**
 
-| Data | Câmbio (venda, fechamento) |
-|---|---|
-| 16/05/2017 | R$ 3,0924 |
-| 17/05/2017 | R$ 3,1076 |
-| 18/05/2017 | R$ 3,3807 |
+Fonte primária: President's Working Group on Financial Markets, *Hedge Funds, Leverage, and
+the Lessons of Long-Term Capital Management* (abril de 1999), espelho CFTC —
+[cftc.gov/sites/default/files/tm/tmhedgefundreport.htm](https://www.cftc.gov/sites/default/files/tm/tmhedgefundreport.htm),
+acesso 02/09/2026. Texto integral confirmado nesta rodada:
 
-Variação 17→18/05: `(3,3807-3,1076)/3,1076 = +8,79%` (recalculado em `python3`).
+> "LTCM's balance sheet leverage was 28-to-1 at the end of 1997."
+>
+> "With regard to leverage, the LTCM Fund's balance sheet on August 31, 1998, included over
+> $125 billion in assets. Even using the January 1, 1998, equity capital figure of $4.8
+> billion, this level of assets still implies a balance-sheet leverage ratio of more than
+> 25-to-1."
+>
+> "The notional amount of LTCM's total OTC derivatives position was $1.3 trillion at the end
+> of 1997 and $1.5 trillion at the end of 1998."
 
-**Ibovespa (fechamento)** — cruzei duas fontes independentes: histórico diário do índice
-`^BVSP` (mirror de dados B3) e múltiplas notícias financeiras da época, que convergem no
-mesmo valor:
+Conferindo a conta: 125e9 / 4.8e9 = 26,04 — bate com ">25-to-1" (`python3` confirma).
 
-| Data | Fechamento (pontos) |
-|---|---|
-| 16/05/2017 | 68.684,00 |
-| 17/05/2017 | 67.540,00 |
-| 18/05/2017 | 61.597,00 |
+**O que o draft (linhas 233–240) faz:** "...seguia acima de 25 para 1 no início de 1998,
+quando operava com um patrimônio de cerca de US$4,8 bilhões contra mais de US$125 bilhões em
+ativos..." — a frase liga "início de 1998" tanto ao patrimônio quanto aos ativos, como se
+fossem medidos no mesmo momento. **Não são.** O relatório é explícito: o patrimônio de
+US$4,8bi é de 1º de janeiro de 1998; os mais de US$125bi em ativos são do balanço de **31 de
+agosto de 1998** — a véspera da crise russa, oito meses depois. O próprio relatório monta essa
+comparação de propósito ("Even using the January 1, 1998, equity capital figure...") para
+mostrar que, mesmo usando o patrimônio (maior, mais antigo) contra os ativos (mais recentes,
+já na reta final antes do colapso), a alavancagem continuava acima de 25:1 — é um argumento
+retórico deliberado, não uma fotografia de um único instante.
 
-Variação 17→18/05: `(61.597-67.540)/67.540 = -8,80%` (recalculado em `python3`) — bate
-exatamente com o "-8,80%, maior queda diária desde outubro de 2008" repetido pela imprensa
-financeira (InfoMoney, Seu Dinheiro, Cointimes) já levantada em `03-pesquisa.md`.
+**Correção proposta** (não reescrevo o draft, isso é da consolidação): separar as datas
+explicitamente, por exemplo —
 
-**Veredito**: ✅ Confirmado, com números agora fechados para o `graf-01` — dólar
-3,1076→3,3807 (+8,79%), Ibovespa 67.540→61.597 (-8,80%). Ressalva honesta: não consegui abrir
-diretamente a página de "Estatísticas Históricas" da B3 (carrega via JavaScript, `WebFetch`
-não renderiza) nem a API Olinda de PTAX (erro de conexão) — a série do Ibovespa vem de um
-espelho de dados de mercado (não é a página da B3 em si), e a série cambial vem da API SGS do
-Bacen (essa sim é fonte primária direta, número de série 1, documentada em
-`dadosabertos.bcb.gov.br`). Recomendo que quem monte o `graf-01` re-confirme o Ibovespa
-batendo a série espelhada contra a página da B3 quando o visual for de fato gerado, mas os
-dois números convergem entre si e com a imprensa da época — risco residual baixo.
+"o fundo fechou 1997 já em 28 para 1. Usando o patrimônio de US$4,8 bilhões do início de 1998
+contra os mais de US$125 bilhões em ativos que ainda carregava em 31 de agosto de 1998 —
+véspera da crise —, a alavancagem seguia acima de 25 para 1. O nocional de derivativos de
+balcão do fundo era de US$1,3 trilhões ao fim de 1997, e chegou a US$1,5 trilhões ao fim de
+1998."
 
-Não há percentual solto na prosa visível do draft atual (`04-draft-v1.md`) — os números só
-entram na legenda do `graf-01`, que é onde devem ir os valores acima.
+Os quatro valores em si (28:1, >25:1, US$4,8bi, >US$125bi, US$1,3tri, US$1,5tri) estão todos
+corretos e batem exatamente com a fonte primária — não é erro de número, é erro de amarração
+temporal entre dois deles.
 
-Fontes: [Banco Central — SGS série 1](https://api.bcb.gov.br/dados/serie/bcdata.sgs.1/dados?formato=json&dataInicial=15/05/2017&dataFinal=19/05/2017); Yahoo Finance `^BVSP` histórico diário; [InfoMoney](https://www.infomoney.com.br/mercados/joesley-day-a-delacao-que-colocou-em-xeque-a-agenda-de-reformas-e-fez-o-ibovespa-derreter-mais-de-10/). Acesso: 01/09/2026.
+## 5. Parágrafo do target forward — segurança factual
 
----
-
-## 3. Target forward 2008 — Aracruz, Sadia, volume total de mercado
-
-O parágrafo do draft (linhas ~194-206) já é genérico ("estimado na casa de dezenas de
-bilhões de dólares") e **não cita nenhum número específico de Aracruz ou Sadia em prosa** —
-o `[VERIFICAR]` inline está pendurado num parágrafo que, na versão atual, não afirma o número
-que ele adverte contra. Isso é seguro como está. Ainda assim, fechei os números para o caso de
-a consolidação querer adicionar precisão.
-
-**Aracruz — ✅ Confirmado, com fonte primária citável**: `US$ 2,13 bilhões (fair value)`. Achei
-o texto literal do Fato Relevante de 03/11/2008 citado dentro de um paper acadêmico revisado
-(XVIII Congresso Brasileiro de Custos, 2011, Perera/Reis Neto/Cavalcanti Alves):
-
-> "No dia 3 de novembro a Aracruz divulgou o seguinte Fato Relevante: 'De modo a viabilizar a
-> mencionada reestruturação, também nesta data foi concluído o desfazimento da parte mais
-> substancial das operações com derivativos até então mantidas com os Bancos, eliminando-se
-> 97% da exposição da Companhia a derivativos, com a realização de uma perda total de
-> aproximadamente US$ 2,13 bilhões (fair value).'"
-
-Isso também é confirmado independentemente por um artigo acadêmico peer-reviewed em inglês
-(*International Journal of Auditing Technology*, 2017): "it posted a derivate loss of US$2.1
-billion... the 7th largest derivative loss for all time". **Atenção**: existem outros números
-de imprensa (R$2,1bi — Exame; R$2,5bi — RACEF) que **misturam moeda** — são leituras
-imprecisas do mesmo fato relatado em dólar, não um número diferente. Se a consolidação citar
-um valor, o correto é **US$2,13 bilhões**, não "R$2,1/2,5 bilhões". Não confundir com o
-prejuízo líquido *anual* da empresa em 2008 (R$4,194 bilhões, Terra Economia) — métrica
-diferente (resultado total do ano, não a liquidação específica dos derivativos), nem com
-"R$4,7 bilhões" que aparece no mesmo paper acadêmico como estimativa própria dos autores para
-o impacto acumulado de derivativos no resultado operacional ao longo de 2006-2008 (mais uma
-métrica distinta — cuidado para não somar coisas diferentes).
-
-**Sadia — ⚠️ dois números legítimos, métricas diferentes, nenhum "R$2,55 bi" exato**:
-- Fato Relevante da Sadia foi em **25/09/2008** (data diferente da Aracruz), reconhecendo
-  operações "em valores superiores à finalidade de proteção" — o texto do Fato Relevante em
-  si, segundo o mesmo paper acadêmico, não traz uma cifra fechada.
-- **Despesa financeira com derivativos em 2008: R$2,5 bilhões** (Capital Aberto, "O Caso
-  Sadia"), dos quais R$705,9 milhões já realizados (efeito caixa) e R$1,8 bilhão reconhecido
-  contabilmente.
-- **Prejuízo líquido anual de 2008: R$2,48 bilhões** (primeiro prejuízo anual em 64 anos —
-  InfoMoney) — métrica diferente (resultado total do ano, não só derivativos).
-- O mesmo paper acadêmico usado para a Aracruz estima, com metodologia própria, "prejuízos de
-  2,6 bilhões de reais com derivativos" para a Sadia — uma terceira estimativa, próxima mas
-  não idêntica às duas acima.
-
-Se a consolidação optar por incluir um número, recomendo **R$2,5 bilhões em despesas
-financeiras com derivativos** (Capital Aberto/Exame), citando explicitamente que é a despesa
-financeira, não o prejuízo líquido do ano — e não usar "R$2,55 bilhões" (não encontrei essa
-cifra exata em nenhuma fonte).
-
-**Volume total de mercado — 📏 Faixa, não ponto único**. Não existe um "~US$35bi" consensual
-único; o que existe é uma faixa de estimativas conforme metodologia/fonte:
-- ~US$10 bilhões — estimativa inicial e mais conservadora, atribuída então ao diretor de
-  política monetária do Banco Central (via literatura secundária).
-- ~US$25 bilhões — estimativa do BIS (Bank for International Settlements), *BIS Quarterly
-  Review*, jun/2009 (não consegui abrir o PDF diretamente nesta rodada para citar o número
-  exato de página, mas a cifra é referenciada de forma consistente por múltiplas fontes
-  acadêmicas).
-- **~US$37 bilhões — fonte primária direta, Banco Central do Brasil**, Trabalhos para
-  Discussão nº 202 (março de 2010), que eu abri e li via `pdftotext`:
-
-  > "Após pesquisa sobre a posição das instituições financeiras com seus clientes e o
-  > cruzamento das mesmas na CETIP S.A. (...) estimou-se que o delta dessas exposições estaria
-  > próximo de US$37 bilhões ao final de setembro de 2008."
-
-**Veredito**: `[FAIXA: ~US$35 bilhões → US$25-37 bilhões, conforme metodologia (BIS ~US$25bi;
-Banco Central/CETIP ~US$37bi ao final de set/2008, Trabalhos para Discussão BCB nº 202/2010)]`
-— se a consolidação quiser um número âncora único, o mais defensável é **"quase US$37
-bilhões"** citando diretamente o BCB (fonte primária, não estimativa de imprensa), mas o
-enquadramento em faixa é mais honesto dado quanto os números variam por metodologia. O draft
-atual, ao dizer apenas "dezenas de bilhões de dólares" sem fixar um número, já está seguro —
-não precisa de correção obrigatória, só resolve o `[VERIFICAR]` pendente.
-
-Fontes: Perera, Reis Neto & Cavalcanti Alves, "Derivativos e crise financeira: os custos da
-especulação no Brasil — o caso da Aracruz e da Sadia" (XVIII Congresso Brasileiro de Custos,
-2011); Capital Aberto, "O Caso Sadia, Parte I"; InfoMoney (Sadia, prejuízo 2008); Terra
-Economia (Aracruz, prejuízo anual 2008); Banco Central do Brasil, Trabalhos para Discussão nº
-202 (mar/2010). Acesso: 01/09/2026.
+**✅ Confirmado como seguro.** O parágrafo (linhas 195–209) cita apenas: (a) a perda da
+Aracruz de US$2,13 bilhões, com Fato Relevante de 03/11/2008 como fonte — já reconfirmado em
+`03-pesquisa.md`; (b) a incorporação da Sadia pela Perdigão, dando origem à BRF — fato
+institucional público, não numérico, não carece de nota; (c) o `[VERIFICAR]` explícito sobre
+a métrica agregada de mercado, com a nota já correta explicando por que BIS (~US$25bi,
+estimativa de perda) e BCB/CETIP (~US$37bi, exposição/delta) não são diretamente comparáveis.
+O texto não afirma nenhum número único de mercado em prosa — só o `[VERIFICAR]`. Nada a
+corrigir; a nota de `03-pesquisa.md` está refletida com precisão no draft.
 
 ---
 
-## 4. LTCM — patrimônio, ativos, alavancagem, nocional, perda, resgate
+## Resumo para a consolidação
 
-Fonte primária lida diretamente nesta rodada: **President's Working Group on Financial
-Markets, *Hedge Funds, Leverage, and the Lessons of Long-Term Capital Management* (1999)**,
-via busca e `WebFetch`, cruzada com **Federal Reserve History, "Near Failure of Long-Term
-Capital Management"**.
+| # | Item | Veredito | Ação |
+|---|---|---|---|
+| 1 | Título "Models.Behaving.Badly." | ⚠️ Impreciso | Remover espaços nas duas ocorrências (linha 43 e bibliografia) |
+| 2 | Citação de Kempthorne | ❓ Não verificável | Manter `[VERIFICAR]`; achado novo (transcrição real não contém a frase em nenhuma das 5 aulas testadas) fortalece a dúvida |
+| 3 | 6 hipóteses BS / VaR / convergence trade | ✅ Confirmado | Nenhuma mudança |
+| 4 | Alavancagem/nocional LTCM | ⚠️ Impreciso | Separar data do patrimônio (01/01/1998) da data dos ativos (31/08/1998) — valores em si corretos |
+| 5 | Parágrafo target forward | ✅ Confirmado seguro | Nenhuma mudança |
 
-- **Patrimônio ~US$4,7-4,8 bilhões (início de 1998)** — ✅ Confirmado. PWG usa "the January 1,
-  1998, equity capital figure of $4.8 billion"; a literatura secundária mais citada
-  (Lowenstein, *When Genius Failed*) usa US$4,72bi, que arredonda para o "~US$4,7bi" do draft.
-  Ambos defensáveis, não precisa de correção.
-- **Ativos >US$125 bilhões — ✅ Confirmado, e a fonte primária usa exatamente essa
-  comparação inter-temporal.** O PWG diz: "the LTCM Fund's balance sheet on August 31, 1998,
-  included over $125 billion in assets. Even using the January 1, 1998, equity capital figure
-  of $4.8 billion, this level of assets still implies a balance-sheet leverage ratio of more
-  than 25-to-1." Ou seja: a própria fonte primária compara patrimônio de janeiro com ativos de
-  agosto para ilustrar a alavancagem — não é um erro do draft usar a mesma combinação, é
-  literalmente o que o relatório oficial faz.
-- **Alavancagem "superior a 25 para 1" — ✅ Confirmado, praticamente citação literal.** "More
-  than 25-to-1" no original bate com "superior a 25 para 1" no draft. Recalculei:
-  `125/4,8 = 26,0`; `125/4,7 = 26,6` — ambos consistentes com "superior a 25", que é uma
-  afirmação de piso (não de valor central), então não há subestimativa aqui. O
-  `[VERIFICAR: fontes divergem entre 25:1 e 30:1]` que está no draft pode ser **removido**: a
-  frase específica "superior a 25 para 1" está diretamente sourceada e correta; a variação
-  para "~30:1" que aparece em outras fontes secundárias vem de usar uma data de corte
-  diferente (ex.: patrimônio já reduzido por perdas em agosto), não de a fonte primária
-  divergir de si mesma.
-- **Nocional "mais de um trilhão de dólares" — ✅ Confirmado, e mais preciso que isso.** O PWG
-  dá dois números possíveis: "$1.3 trillion at the end of 1997 and $1.5 trillion at the end of
-  1998" (só posições de balcão/OTC); separadamente, para agosto de 1998: futuros >US$500bi +
-  swaps >US$750bi + opções/outros OTC >US$150bi, que somados dão bruto ≈US$1,4tri (mistura
-  bolsa com balcão, métrica diferente da primeira). **O número "US$1,25 trilhão" que o draft
-  havia marcado como não confirmado não aparece em lugar nenhum da fonte primária** — não
-  usar. A frase atual do draft ("mais de um trilhão de dólares") é segura e bate com qualquer
-  uma das leituras acima; o `[VERIFICAR]` correspondente pode ser resolvido/removido. Se a
-  consolidação quiser mais precisão: "cerca de US$1,3 trilhão (fim de 1997)" ou "até US$1,5
-  trilhão (fim de 1998)", citando o PWG diretamente.
-- **Perda ~US$4,6 bilhões em menos de quatro meses** — ✅ Consistente com múltiplas fontes
-  secundárias convergentes (já levantado em `03-pesquisa.md`; não encontrei essa soma agregada
-  isolada no texto do PWG nesta leitura, mas não há fonte discordante).
-- **Resgate: 23/09/1998, 14 instituições, ~US$3,6 bilhões, sob articulação de William
-  McDonough (Fed de Nova York)** — ✅ Confirmado quase literalmente contra o PWG e a Federal
-  Reserve History: "fourteen firms agreed to participate in the consortium... invested about
-  $3.6 billion in new equity" para ~90% de participação.
-- **Calote russo em 17/08/1998** — ✅ Confirmado ("Russia's devaluation of the ruble and
-  declaration of a debt moratorium on August 17").
-- **David Viniar, CFO do Goldman Sachs, "25-sigma", 2007** — ✅ Confirmado (Financial Times,
-  13/ago/2007), e o draft já o trata corretamente como episódio posterior e análogo, não como
-  parte do LTCM.
+### `[VERIFICAR]` / `[FAIXA]` consolidados para o texto final
 
-Fontes: [President's Working Group on Financial Markets (1999), via home.treasury.gov](https://home.treasury.gov/system/files/236/hedgfund.pdf); [Federal Reserve History — Near Failure of LTCM](https://www.federalreservehistory.org/essays/ltcm-near-failure). Acesso: 01/09/2026.
+- `[VERIFICAR: a atribuição da citação de abertura (moeda/retorno à média) a Peter Kempthorne
+  não se sustenta — a página do MIT OCW e a transcrição real do vídeo da Lecture 3
+  (Probability Theory, instrutor Dr. Choongbum Lee) não contêm essa frase; testadas também as
+  aulas de Kempthorne mais prováveis por tema (Lecture 6, 8, 9, 12) sem sucesso. Considerar
+  remover a atribuição a um professor específico ou não usar aspas diretas.]`
+- `[VERIFICAR: a faixa exata de exposição/perda do mercado brasileiro de target forward em
+  2008 (BIS ~US$25bi de perda estimada; BCB/CETIP ~US$37bi de exposição/delta) mede coisas
+  possivelmente diferentes entre si — não comprimir num número único sem decidir qual métrica
+  citar.]`
 
----
-
-## 5. Financial Modelers' Manifesto (Derman & Wilmott, 2009)
-
-Consegui extrair o texto completo do PDF original (`emanuelderman.com`) via `pdftotext`
-(o `WebFetch` direto retornava binário não processado; baixar e converter localmente
-resolveu). Texto original do "Modelers' Hippocratic Oath":
-
-> "I will remember that I didn't make the world, and it doesn't satisfy my equations. Though
-> I will use models boldly to estimate value, I will not be overly impressed by mathematics.
-> I will never sacrifice reality for elegance without explaining why I have done so. Nor will
-> I give the people who use my model false comfort about its accuracy. Instead, I will make
-> explicit its assumptions and oversights. I understand that my work may have enormous effects
-> on society and the economy, many of them beyond my comprehension."
-
-Comparado ponto a ponto com a paráfrase do draft:
-
-| Original (5 compromissos) | Paráfrase do draft |
-|---|---|
-| "I didn't make the world, and it doesn't satisfy my equations" | "lembrar que você não criou o mundo, e ele não satisfaz suas equações" |
-| "use models boldly to estimate value, ... not be overly impressed by mathematics" | "usar modelos com ousadia para estimar valor, sem se deixar impressionar demais pela matemática" |
-| "never sacrifice reality for elegance without explaining why" | "nunca sacrificar realidade por elegância sem dizer explicitamente que fez isso" |
-| "not give ... false comfort about its accuracy. ... make explicit its assumptions and oversights" | "não dar a quem usa o modelo falso conforto sobre sua precisão, tornando premissas e omissões explícitas" |
-| "my work may have enormous effects on society and the economy, ... beyond my comprehension" | "reconhecer que o trabalho tem efeitos sobre a sociedade e a economia que excedem a própria compreensão" |
-
-**Veredito**: ✅ **Confirmado.** Os cinco compromissos batem, na ordem certa, sem adição nem
-omissão de conteúdo. O `[VERIFICAR]` correspondente pode ser removido.
-
-Fonte: Emanuel Derman & Paul Wilmott, [*The Financial Modelers' Manifesto*](https://emanuelderman.com/wp-content/uploads/2009/01/fmm.pdf) (7 jan. 2009). Acesso: 01/09/2026.
-
----
-
-## 6. London Whale (JPMorgan CIO, 2012)
-
-Fonte primária: consegui acessar o texto da declaração de abertura do senador Carl Levin,
-presidente do Permanent Subcommittee on Investigations, no registro oficial da audiência
-(mirror em demos.org, texto legível via `pdftotext`), que descreve a mecânica exata:
-
-> "The CIO had been constructing a new VaR model that would lower calculated risk in the SCP.
-> It had not yet been properly tested and there was no system in place to transmit data on new
-> trades automatically. New trades would have to be manually recorded on a spreadsheet and
-> then loaded each night... Nonetheless, CIO put the new VaR model in place at the end of
-> January. The apparent risk of the SCP dropped by 50% instantaneously, well below limits.
-> Nothing had changed, but the flashing red lights were turned off... instead, the traders used
-> the new risk headroom to lay on more trades."
-
-Isso confirma, quase textualmente, a frase do draft: "trocar o modelo de VaR por um novo,
-implementado com planilhas Excel e transferência manual de dados, que cortou a estimativa de
-perda potencial pela metade e liberou espaço para a mesa continuar aumentando a aposta." —
-**"pela metade" bate exatamente com "dropped by 50% instantaneously"** da fonte primária.
-
-**Prejuízo total**: múltiplas fontes convergem em **~US$6,2 bilhões** (Bloomberg Quicktake,
-Wikipedia, cobertura consistente). O draft diz "mais de US$6 bilhões" — número seguro e
-conservador, não precisa de ajuste, embora "US$6,2 bilhões" seja mais preciso se a
-consolidação quiser fechar a casa decimal.
-
-**Veredito**: ✅ Confirmado — mecânica e valor batem com a fonte primária (registro oficial do
-Senado) e com a cobertura consolidada do caso.
-
-Fontes: Abertura do Sen. Carl Levin, Senate Permanent Subcommittee on Investigations,
-audiência "JPMorgan Chase Whale Trades" (2013), [mirror legível via demos.org](https://www.demos.org/sites/default/files/publications/JPMorganHearing_Demos.pdf); [Bloomberg Quicktake — The London Whale](https://www.bloomberg.com/quicktake/the-london-whale). Acesso: 01/09/2026.
-
----
-
-## 7. Verificações conceituais
-
-### Hipóteses de Black–Scholes
-
-O draft lista (entre outras coisas, frase que já hedgeia não-exaustividade): movimento
-browniano geométrico sem saltos; volatilidade constante; taxa livre de risco constante e
-conhecida; ausência de custo de transação e imposto; rebalanceamento contínuo possível;
-liquidez ilimitada com venda a descoberto livre e ativos infinitamente divisíveis.
-
-Cruzando com o paper original (Black & Scholes, 1973) e exposições padrão do modelo: as
-hipóteses citadas no draft **estão corretas e são um subconjunto real das hipóteses
-canônicas**. ⚠️ **Impreciso por omissão, não por erro** — o paper original lista também que
-a ação **não paga dividendos** durante a vida da opção e que a opção é **europeia** (só pode
-ser exercida no vencimento) — duas hipóteses centrais e frequentemente citadas que o draft não
-menciona. Como o texto já se protege com "entre outras coisas", isso não é tecnicamente
-incorreto, mas se a consolidação quiser fechar a lista com mais rigor, vale considerar
-acrescentar ao menos a hipótese de dividendos (a mais citada de todas em qualquer exposição
-didática do modelo).
-
-### VaR (Value at Risk)
-
-Definição do draft: "uma estimativa estatística da perda máxima esperada num horizonte de
-tempo, com certa probabilidade". Comparando com a definição-padrão de Philippe Jorion
-(referência canônica do campo): "VaR is the maximum loss over a target horizon such that
-there is a low, prespecified probability that the actual loss will be larger." A definição do
-draft está **alinhada em estrutura** com a de Jorion (perda máxima, horizonte, probabilidade).
-Único ponto de atenção: a palavra "esperada" pode, para um leitor mais técnico, soar como se
-estivesse falando de "perda esperada" (expected loss/shortfall), que é uma métrica diferente
-de VaR (VaR é um quantil-limiar, não uma média condicional). Não é um erro factual — é uma
-ambiguidade de leitura possível. ✅ Confirmado como definição válida e usual; nota de estilo,
-não de conteúdo, se quiserem trocar "perda máxima esperada" por "perda máxima" simples para
-eliminar a ambiguidade.
-
-### 'Convergence trade' e on-the-run/off-the-run
-
-Descrição do draft: títulos recém-emitidos ("on-the-run") mais líquidos, negociando com
-prêmio sobre títulos antigos de vencimento quase idêntico ("off-the-run"), mesmo risco de
-crédito, aposta na convergência do spread. Isso é exatamente a descrição padrão do trade
-clássico do LTCM na literatura (Lowenstein, *When Genius Failed*; PWG 1999) — títulos
-on-the-run negociam com yield mais baixo / preço mais alto por causa do prêmio de liquidez, o
-LTCM vendia o caro (on-the-run) e comprava o barato (off-the-run), apostando que o prêmio de
-liquidez se dissiparia. ✅ Confirmado, sem imprecisão.
-
-### Outros fatos pontuais conferidos de passagem
-
-- **Nobel de 1997 para Scholes e Merton; Fischer Black morto em 1995 ("dois anos antes")** —
-  ✅ Confirmado: Black morreu em 30/08/1995 (múltiplas fontes, incluindo o próprio press
-  release do Prêmio Nobel de 1997, que registra explicitamente que o prêmio não é concedido
-  postumamente). 1995→1997 = dois anos, exato.
-- **MacKenzie, *An Engine, Not a Camera* (2006)** — título e ano corretos (MIT Press, 2006),
-  bem estabelecido na literatura de sociologia econômica.
-- **Smile de volatilidade pós-crash de 1987** — ✅ Consistente com Rubinstein (1994), *Implied
-  Binomial Trees*, já levantado em `03-pesquisa.md`; não há nada a corrigir no draft, que
-  trata isso qualitativamente, sem número a checar.
-
----
-
-## Resumo executivo
-
-**Itens verificados nesta rodada**: os 7 pedidos pelo despacho, mais 3 fatos pontuais
-conferidos de passagem (Nobel/Black, MacKenzie, smile de 1987) — todos com fonte primária ou,
-quando isso não foi possível (BIS Quarterly Review, B3 Estatísticas Históricas), nota
-explícita de qual fonte não pôde ser aberta diretamente e por quê.
-
-### `[VERIFICAR]` e `[FAIXA]` para o texto final
-
-1. Bibliografia — trocar "Peter Kempthorne et al." por **"MIT OpenCourseWare, '18.S096 Topics
-   in Mathematics with Applications in Finance', Fall 2013 (instrutores: Peter Kempthorne,
-   Choongbum Lee, Vasily Strela, Jake Xia; versão atualizada: 18.642, Fall 2024)"** — não é um
-   `[VERIFICAR]`, é uma correção direta a aplicar na consolidação.
-2. O `[VERIFICAR]` da citação de Kempthorne no corpo do texto (linhas 9-15 do draft) **deve
-   ser mantido como está** — a pesquisa e esta verificação convergem em não confirmar a
-   atribuição, e a frase já está devidamente hedgeada com "um dos professores".
-3. `[FAIXA: ~US$35 bilhões → US$25-37 bilhões, conforme metodologia (BIS ~US$25bi; Banco
-   Central/CETIP ~US$37bi ao final de set/2008, Trabalhos para Discussão BCB nº 202/2010)]` —
-   só relevante se a consolidação decidir sair do "dezenas de bilhões" genérico atual (que já
-   é seguro) para um número mais específico.
-4. `[VERIFICAR: fonte primária/regulatória para o volume total de operações target forward no
-   Brasil em 2008]` do draft atual **pode ser resolvido** com a fonte primária do BCB
-   (Trabalhos para Discussão nº 202) encontrada nesta rodada — não precisa mais ficar em
-   aberto, só decidir se vira número único (~US$37bi) ou faixa (item 3 acima).
-5. `[VERIFICAR]` do nocional do LTCM ("US$1,25 trilhão não confirmado") **pode ser removido**
-   — a frase atual do draft ("mais de um trilhão de dólares") já está confirmada contra a
-   fonte primária (PWG 1999: US$1,3tri fim-1997 / US$1,5tri fim-1998); "US$1,25tri" nunca
-   apareceu na fonte e não deve ser usado se a consolidação quiser mais precisão — usar
-   US$1,3tri ou US$1,5tri, com data.
-6. `[VERIFICAR]` de "alavancagem superior a 25 para 1 (fontes divergem 25:1-30:1)` **pode ser
-   removido** — a frase específica do draft bate quase literalmente com a fonte primária
-   (PWG 1999: "more than 25-to-1"); não é uma divergência de fonte, é uma citação correta de
-   um piso, não de um valor central.
-7. `[VERIFICAR]` da paráfrase do Financial Modelers' Manifesto **pode ser removido** — os
-   cinco compromissos foram conferidos ponto a ponto contra o texto original e batem.
-
-### Correções pontuais recomendadas (não `[VERIFICAR]`, ajuste direto de texto)
-
-8. Se a consolidação adicionar números específicos de Aracruz/Sadia: usar **US$2,13 bilhões**
-   (Aracruz, Fato Relevante 03/11/2008) e, para a Sadia, **R$2,5 bilhões em despesas
-   financeiras com derivativos** (não "R$2,55 bilhões", cifra que não encontrei em nenhuma
-   fonte) — rotulando explicitamente a métrica para não confundir com prejuízo líquido anual.
-9. Números confirmados para o `graf-01`: Ibovespa 67.540 (17/05) → 61.597 (18/05), -8,80%;
-   dólar (PTAX venda, BCB SGS série 1) R$3,1076 (17/05) → R$3,3807 (18/05), +8,79%.
-10. Hipóteses de Black–Scholes: considerar acrescentar "sem pagamento de dividendos" à lista,
-    já hedgeada por "entre outras coisas" — não obrigatório, mas é a omissão mais notável
-    frente ao paper original.
-
-### Sem necessidade de marcador ou correção
-
-Definição de VaR (alinhada com Jorion); caracterização de 'convergence trade' e
-on-the-run/off-the-run; Nobel 1997/morte de Fischer Black em 1995; MacKenzie (2006); smile de
-volatilidade pós-1987; patrimônio do LTCM (~US$4,7-4,8bi); resgate do LTCM (14 instituições,
-~US$3,6bi, 23/09/1998); calote russo (17/08/1998); perda do LTCM (~US$4,6bi); "25-sigma" de
-Viniar (2007, tratado corretamente como episódio análogo e posterior); mecânica e valor do
-London Whale (redução de 50% no VaR via planilha manual, >US$6bi de prejuízo).
+Nenhum item novo desta rodada vira `[FAIXA: ...]` — os dois pontos quantitativos revisados
+(título do livro, alavancagem/nocional do LTCM) são correções de exatidão pontual, não faixas.
