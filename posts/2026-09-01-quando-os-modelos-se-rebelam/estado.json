@@ -1,7 +1,13 @@
 {
-  "etapa_atual": 9,
+  "etapa_atual": 10,
   "loops_consumidos": 1,
-  "aprovacoes": [],
-  "pendencias": [],
+  "aprovacoes": [
+    "2026-09-01: pipeline reexecutado do zero a pedido do autor, sobrescrevendo a rodada de 31/08. Aprovado para publicação no gate humano com pendências mantidas em aberto (ver abaixo). Linha editorial confirmada pelo autor no gate humano: Spoiler (tensão com o critério literal de 'Notas de um Professor', registrada em 01-briefing.md, respondida explicitamente — mantém Spoiler)."
+  ],
+  "pendencias": [
+    "[VERIFICAR] visível em post.md: citação de abertura (moeda 100 caras seguidas) segue sem confirmação de autoria — evidência da verificação técnica (07-verificacao.md) aponta que a Lecture 3 (Probability Theory, 18.S096, MIT OCW) é ministrada por Choongbum Lee, não por Peter Kempthorne, e a frase não foi localizada em texto indexável. Corpo do post já não nomeia ninguém ('um dos professores'); recomenda-se assistir ao vídeo da aula antes de publicar.",
+    "Capa e ilu-01 seguem como prompt, não geradas (sem acesso ao Nano Banana Pro nesta sessão) — publicação real depende de gerar essas duas peças antes de rodar /publicar. graf-01 e diag-01 já foram gerados de fato (Plotly) e estão em posts/2026-09-01-quando-os-modelos-se-rebelam/figuras/.",
+    "publicação requer /publicar manual (disable-model-invocation: true de propósito) — merge, tag e push não são disparados automaticamente pelo pipeline"
+  ],
   "commit_inicial": "68ddb99"
 }
