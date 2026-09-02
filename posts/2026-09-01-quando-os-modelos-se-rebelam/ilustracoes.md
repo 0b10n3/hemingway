@@ -1,9 +1,9 @@
 # Ilustrações — "Quando os Modelos se Rebelam"
 
-Briefing completo em `processo/08-briefing-visual.md`. Linha editorial em uso: **Spoiler**
-(default provisório, a confirmar no gate humano) → colagem editorial. Gerador: Nano Banana
+Briefing completo em `processo/08-briefing-visual.md`. Estilo: colagem editorial, o mesmo de
+todo post desde a unificação de 2026-09-01 (`estilos-ilustracao.md`). Gerador: Nano Banana
 Pro. **Sem acesso ao gerador nesta sessão** — prompt pronto, imagem não gerada (mesma situação
-da capa e da rodada anterior deste post).
+da capa e das rodadas anteriores deste post).
 
 ## ilu-01
 
@@ -28,11 +28,11 @@ só a lacuna aponta para ele. Operação geradora: cruzamento (radar × vazio-co
 torção (o clichê seria desenhar o carro cruzando os dois sensores com rastro de velocidade,
 afirmando a continuidade que o texto questiona — a torção nega isso).
 
-## Linha editorial e estilo aplicado
+## Estilo aplicado
 
-Spoiler → colagem editorial. Sem lime nesta peça: não há "virada" ou conquista neste ponto do
-texto, só constatação de limite (`estilos-ilustracao.md`: "se a peça não tem virada, não tem
-lime").
+Colagem editorial, composição pessoal/assimétrica padrão. Sem lime nesta peça: não há
+"virada" ou conquista neste ponto do texto, só constatação de limite (`estilos-ilustracao.md`:
+"se a peça não tem virada, não tem lime").
 
 ## Prompt completo (Nano Banana Pro)
 

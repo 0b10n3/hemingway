@@ -1,9 +1,9 @@
 # Capa — "Quando os Modelos se Rebelam"
 
 Briefing completo (colheita de material, três operações, testes) em
-`processo/08-briefing-visual.md`. Linha editorial em uso: **Spoiler** (default provisório —
-ver tensão registrada em `processo/01-briefing.md`, a confirmar no gate humano). Estilo:
-colagem editorial (`estilos-ilustracao.md`). Gerador: Nano Banana Pro
+`processo/08-briefing-visual.md`. Estilo: colagem editorial, o mesmo de todo post desde a
+unificação de 2026-09-01 (`estilos-ilustracao.md`, "Por que um estilo só") — não depende mais
+de qual linha editorial foi confirmada. Gerador: Nano Banana Pro
 (`references/geradores/nano-banana-pro.md`).
 
 **Sem acesso ao gerador nesta sessão** — este arquivo entrega o prompt pronto para gerar
@@ -24,11 +24,12 @@ ferramenta que deixa de obedecer ao mapa que a media — sobrevive; a forma huma
 proibição de marca (`estilos-ilustracao.md`, regra compartilhada 5: sem robô/cérebro de IA)
 e por direito autoral de personagem reconhecível.
 
-## Linha editorial e estilo aplicado
+## Estilo aplicado
 
-Spoiler → colagem editorial. Papel recortado como material dominante, corte reto padrão,
-sombra chapada sem blur, fundo chalk, paleta fechada aos tokens autorizados, lime-500 uma
-única vez no ponto de "virada" (onde a alavanca cruza a última linha da grade).
+Colagem editorial. Papel recortado como material dominante, corte reto padrão, sombra chapada
+sem blur, fundo chalk, paleta fechada aos tokens autorizados, lime-500 uma única vez no ponto
+de "virada" (onde a alavanca cruza a última linha da grade). Composição pessoal/assimétrica
+padrão — não é peça de mecanismo.
 
 ## Zona segura
 

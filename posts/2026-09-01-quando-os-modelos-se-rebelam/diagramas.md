@@ -1,6 +1,11 @@
 # Diagramas — "Quando os Modelos se Rebelam"
 
-Uma peça, decidida em `processo/02-estrutura.md` (seção 4) e posicionada em
+Uma peça. `diag-01` corresponde à composição de "precisão mecânica" dentro da colagem
+editorial unificada (`.claude/skills/prompts-visuais/references/estilos-ilustracao.md`, "Quando
+o argumento pede precisão mecânica") — herdeira do antigo desenho técnico esquemático, agora
+como família de composição, não estilo à parte. Em código Plotly isso já se expressa como
+vista/fluxo com nós e setas, sem mudança de implementação nesta rodada. Decidida em
+`processo/02-estrutura.md` (seção 4) e posicionada em
 `processo/04-draft-v1.md`, logo após "a hipótese de liquidez é a premissa mais invisível e
 mais letal de toda a modelagem financeira" — no ponto em que o ciclo já foi narrado por
 inteiro na prosa. Ferramenta: Plotly (nós e setas via `add_shape`/`add_annotation`), mesmo
