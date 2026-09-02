@@ -10,82 +10,94 @@ quando houver acesso, não a imagem final.
 
 ## Conceito e estrutura de metáfora
 
-Um autômato de papel recortado, calmo e sem rosto hostil, com o braço estendido ao longo da
-última linha impressa de um fragmento de papel milimetrado — o ponteiro continua um pouco além
-da grade, sobre espaço vazio, na mesma pose tranquila, como se nada tivesse mudado. Estrutura:
-**fusão** (o autômato e a régua formam uma composição só — o autômato não existe sem o objeto
-que está lendo). Operação geradora: **torção**. O pedido original do autor
-(`[CAPA: rebelia de máquinas humanoides como Terminator]`, catalogado em `00-transcricao.md`)
-pede rebelião violenta; a peça entrega o oposto — um autômato que nunca decide nada e nunca
-para de obedecer, muito depois de o mapa parar de bater com o território. É essa obediência
-cega, não a rebeldia, que produz o desastre — a virada de toda a tese do post, agora literal.
+Um robô de papel recortado, de corpo inteiro, caminhando num passo calmo e regular ao longo de
+uma trilha de papel milimetrado — a grade impressa termina no meio do quadro, e o robô já pisa
+além dela, sobre chalk vazio, sem hesitar, sem olhar para baixo, no mesmo ritmo de sempre.
+Estrutura: **fusão** (o robô e a trilha formam uma composição só — sem a trilha que termina, o
+gesto de caminhar não significa nada). Operação geradora: **torção**. O pedido original do
+autor (`[CAPA: rebelia de máquinas humanoides como Terminator]`, catalogado em
+`00-transcricao.md`) pede rebelião violenta; a peça entrega o oposto — um robô que nunca decide
+nada e nunca hesita, só continua andando no mesmo passo, muito depois de o chão mapeado ter
+acabado. É essa obediência cega, não a rebeldia, que produz o desastre — a virada de toda a
+tese do post, agora literal.
 
-**Mudança desta rodada:** a regra de marca que bania robô/cérebro de IA como clichê genérico
-foi removida (`pesquisa/epico-iconografia-financeira/`), então esta é a primeira rodada deste
-post em que um autômato pode aparecer como objeto literal da composição, não só como estrutura
-emprestada. A franquia Terminator especificamente continua fora de cogitação — nada no design
-do autômato remete a personagem reconhecível de nenhuma obra.
+**Segunda versão desta capa, na mesma rodada.** A primeira tentativa (autômato parado, braço-
+ponteiro ao longo de uma régua) foi descartada por reaproveitar quase literalmente a composição
+da alavanca das rodadas 1–3 — mesmo objeto-régua, mesma disposição, só com uma cabeça colada:
+usava a liberdade nova de marca só na superfície, não na estrutura. Esta versão é uma
+composição nova de verdade: figura de corpo inteiro, em movimento, reconhecível como robô à
+primeira vista.
+
+**Mudança de marca que tornou isso possível:** a regra que bania robô/cérebro de IA como
+clichê genérico foi removida nesta sessão (`pesquisa/epico-iconografia-financeira/`) — esta é
+a primeira rodada deste post em que um robô pode aparecer como objeto literal e central da
+composição, não só como estrutura emprestada. A franquia Terminator especificamente continua
+fora de cogitação — nada no design do robô remete a personagem reconhecível de nenhuma obra.
 
 ## Estilo aplicado
 
 Colagem editorial. Papel recortado como material dominante, corte reto padrão, sombra chapada
-sem blur, fundo chalk, paleta fechada aos tokens autorizados, lime-500 uma única vez no ponto
-em que o ponteiro cruza a última linha da grade. Composição assimétrica, diagonal dominante.
+sem blur, fundo chalk, paleta fechada aos tokens autorizados, lime-500 uma única vez na marca
+do passo, onde o pé cruza para o chalk vazio. Composição assimétrica: robô e trilha no terço
+inferior-esquerdo, o restante do quadro — para onde o robô caminha — em chalk vazio.
 
 ## Zona segura
 
-O ponto de cruzamento entre o ponteiro e a última linha da grade — onde mora o único acento
-lime — fica no terço central da composição, dentro da zona segura de recorte da Substack (nove
-formatos).
+A marca de lime (o passo) fica no terço central-inferior da composição, dentro da zona segura
+de recorte da Substack (nove formatos).
 
 ## Prompt completo (Nano Banana Pro)
 
 ```
-A simple hand-cut paper automaton figure, built from flat geometric shapes in matte
-forest-green paper (#1B6A45): an oval head, a rectangular torso, and one jointed arm ending in
-a thin pointer. The automaton has no face, no eyes, no hostile features — just clean abstract
-paper-collage geometry, calm and upright in posture, like a measuring instrument rather than a
-warrior. It stands in the lower-left third of the frame, on top of a fragment of graph-ruled
-paper (fine mint #E6F4EE grid lines on white), its pointer arm extended along the last printed
-gridline of that ruled fragment. The pointer continues a short distance past the last
-gridline, into empty flat chalk-white space (#F7F7F5) beyond the ruled area — resting there
-calmly, at a steady angle, still and intact, not bent or damaged. A solid flat drop shadow in
-deep forest-green (#0A3320), hard-edged with no blur, separates the automaton and the graph
-paper from the background. A single small mark in bright lime-green (#CDF163) sits exactly at
-the point where the pointer crosses the last gridline into the empty space — the only accent
-of that color in the whole composition. A subtle halftone dot pattern is printed across the
-automaton's torso shape, like offset print registration, adding analog-print texture. The
-composition is asymmetric, with a strong diagonal running from the lower-left ruled fragment
-toward the upper-right, where large areas of flat chalk-white background remain empty, giving
-the pointer's extension room to breathe. Flat cut-paper collage aesthetic throughout: hard
-geometric edges, no gradients, no glow, no glassmorphism, no 3D rendering, no glowing eyes or
-metallic skull, no readable text or numbers anywhere in the image. 16:9 aspect ratio, 2K
-resolution.
+A simple hand-cut paper robot figure, seen in profile, mid-stride, built from flat geometric
+shapes in matte forest-green paper (#1B6A45): a round head with a single static circular lens
+in place of an eye (no glow, no light), a rectangular torso marked with two or three small
+rivet dots and one horizontal seam line suggesting a panel, two simple arms swinging naturally
+at its sides, and two jointed legs caught in a calm, regular walking stride. The robot has no
+hostile features and no facial expression — just clean geometric paper-collage construction,
+walking at an unhurried, mechanical, everyday pace, like a pedestrian, not a warrior. It walks
+left to right across the lower third of the frame, along a horizontal strip of graph-ruled
+paper (fine mint #E6F4EE grid lines on white) that runs from the left edge of the frame to a
+point a little past the center, where the printed grid simply ends. The robot's front leg is
+caught exactly at the moment its foot lands past the last printed gridline, already on the
+flat chalk-white surface (#F7F7F5) beyond the ruled strip — the step is calm and steady, not
+hesitant, not looking down. A single small lime-green (#CDF163) mark — a stylized footprint or
+short tick mark — sits exactly at the point where the front foot crosses onto the empty chalk
+surface, the only accent of that color in the whole composition. A solid flat drop shadow in
+deep forest-green (#0A3320), hard-edged with no blur, separates the robot and the ruled strip
+from the background. A subtle halftone dot pattern is printed across the robot's torso, like
+offset print registration, adding analog-print texture. The composition is asymmetric: the
+robot and the ruled strip occupy the lower-left third of the frame, while the entire right
+two-thirds of the frame — the direction the robot is walking into — remains large, empty, flat
+chalk-white space. Flat cut-paper collage aesthetic throughout: hard geometric edges, no
+gradients, no glow, no glassmorphism, no 3D rendering, no glowing eyes, no metallic skull, no
+weapons, no readable text or numbers anywhere in the image. 16:9 aspect ratio, 2K resolution.
 ```
 
 **Nota de contexto (pt-BR):** a imagem carrega a frase "o modelo não se rebela por raiva — ele
 continua obedecendo, exatamente como sempre obedeceu, muito depois de o mapa parar de bater
 com o território" (`processo/08-briefing-visual.md`, Passo 2). É a tese do post traduzida em
 composição, e é também a resposta irônica ao próprio título: quem espera Terminator encontra o
-oposto — obediência, não rebeldia.
+oposto — um passo calmo e regular, não uma rebelião.
 
 ## Restrições em enquadramento positivo
 
-- O autômato deve estar **inteiro, intacto e calmo** — sem fratura, faísca, dano, olho aceso
-  ou pose de ataque (teste da fatalidade: o texto não é sobre catástrofe nem violência).
+- O robô deve estar **inteiro, intacto e caminhando num passo calmo e regular** — sem
+  fratura, faísca, dano, olho aceso, tropeço ou pose de ataque (teste da fatalidade: o texto
+  não é sobre catástrofe nem violência).
 - Nenhum traço de design reconhecível de personagem de franquia específica.
 - Fundo **chapado**, sem textura de papel amassado nem sombra suave — só sombra chapada de
   borda dura.
 - **Nenhum texto, número, logotipo ou símbolo de moeda** desenhado dentro da imagem.
-- Lime-500 aparece **uma única vez**, exatamente no ponto de cruzamento entre o ponteiro e a
-  última linha da grade — em nenhuma outra parte da composição.
+- Lime-500 aparece **uma única vez**, exatamente na marca onde o pé cruza para o chalk vazio —
+  em nenhuma outra parte da composição.
 
 ## Alt-text
 
-> Colagem editorial: um autômato de papel verde-floresta, calmo e sem rosto, aponta com um
-> ponteiro fino ao longo da última linha de uma grade milimetrada — o braço continua além da
-> grade, sobre um fundo vazio, e um único traço verde-limão marca exatamente o ponto onde ele
-> deixa de ser medido pela régua e segue apontando do mesmo jeito.
+> Colagem editorial: um robô de papel verde-floresta, de corpo inteiro, caminha num passo
+> calmo ao longo de uma trilha de papel milimetrado — a grade impressa termina no meio do
+> quadro, e o robô já pisa além dela, sobre um fundo vazio, sem hesitar. Uma única marca
+> verde-limão indica exatamente o ponto onde o passo cruza para fora da área medida.
 
 ## Proporção e resolução
 
