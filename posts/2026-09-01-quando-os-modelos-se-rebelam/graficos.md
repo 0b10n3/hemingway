@@ -1,11 +1,11 @@
 # Gráficos — "Quando os Modelos se Rebelam"
 
 Uma peça, decidida em `processo/02-estrutura.md` (seção 3) e posicionada em
-`processo/04-draft-v1.md`, logo após os números do pregão de 18/05/2017 ("Joesley Day").
-Checklist de craft (`.claude/skills/prompts-visuais/references/checklist-graficos.md`)
-aplicado abaixo. Tokens de marca lidos em runtime de
-`../../brand/tokens/skill_test.tokens.json` (skill `marca-syntaxis`) — nenhuma cor
-hardcoded fora do arquivo de origem.
+`processo/04-draft-v1.md`, logo após a descrição do circuit breaker do pregão de 18/05/2017
+("Joesley Day"). Checklist de craft
+(`.claude/skills/prompts-visuais/references/checklist-graficos.md`) aplicado abaixo. Tokens de
+marca lidos em runtime de `../../brand/tokens/skill_test.tokens.json` (skill
+`marca-syntaxis`) — nenhuma cor hardcoded fora do arquivo de origem.
 
 ## graf-01
 
@@ -13,22 +13,23 @@ hardcoded fora do arquivo de origem.
 a hipótese de continuidade do Black–Scholes pressupõe bem-comportados — o índice de ações e o
 câmbio — quando a premissa quebrou de uma vez só?
 
-**Fonte dos dados:** confirmada em `processo/07-verificacao.md` (itens reconfirmados contra
-`03-pesquisa.md`) — InfoMoney e Suno, cobertura do pregão de 18/05/2017, acesso 31/08/2026.
-Queda intradiária do Ibovespa de -10,47% (mínima), fechamento a -8,80% (maior queda diária
-desde 22/10/2008), primeiro *circuit breaker* desde 2008. Alta do dólar de 8,06%, de R$ 3,14
-para R$ 3,38 (cotações arredondadas do texto) — a verificação técnica apontou que 8,06% só
-bate matematicamente contra cotações com mais casas decimais (R$ 3,1283 → R$ 3,3805, a
-precisão usada de fato pela imprensa financeira); o percentual em si (8,06%) está correto e é
-o número usado no gráfico e no corpo do texto.
+**Fonte dos dados:** `processo/07-verificacao.md` (etapa 7), confirmada direto contra fonte
+primária. Dólar (PTAX venda, fechamento): Banco Central, API SGS série 1
+(`api.bcb.gov.br/dados/serie/bcdata.sgs.1/dados`) — R$3,1076 (17/05/2017) → R$3,3807
+(18/05/2017), +8,79% (recalculado). Ibovespa (fechamento): 67.540 (17/05) → 61.597 (18/05),
+-8,80% — cruzado entre espelho de dados de mercado e imprensa financeira da época (InfoMoney,
+Seu Dinheiro, Cointimes), convergente. Mínima intradiária do Ibovespa (-10,47%, ponto que
+acionou o primeiro circuit breaker desde 2008) mantida da pesquisa (`03-pesquisa.md`) — número
+citado de forma consistente pela imprensa financeira, sem fonte primária de intraday minuto a
+minuto disponível nesta verificação; risco residual baixo dado o consenso entre fontes
+independentes.
 
 **Dados:** `posts/2026-09-01-quando-os-modelos-se-rebelam/graficos/dados/graf-01.csv` — cinco
 pontos, dois painéis (Ibovespa: fechamento 17/05, mínima intradiária 18/05, fechamento 18/05;
 Dólar: fechamento 17/05, fechamento 18/05), todos como variação percentual em relação ao
-fechamento do dia anterior — não como nível absoluto do índice/câmbio, porque a pesquisa e a
-verificação técnica confirmaram os percentuais contra fonte primária, mas não os pontos
-absolutos do Ibovespa naquele pregão (evitando `[VERIFICAR]` desnecessário: o gráfico usa só
-o que foi verificado).
+fechamento do dia anterior — não como nível absoluto do índice/câmbio, para manter o gráfico
+ancorado só no que tem verificação direta de fonte primária (evitando `[VERIFICAR]`
+desnecessário no visual).
 
 **Código Plotly executável** (testado com `python3` nesta etapa — gera `figuras/graf-01.svg`
 e `figuras/graf-01.png`):
@@ -98,9 +99,8 @@ fig.add_annotation(
 )
 
 # Painel 2 — Dólar: variação % do fechamento de 17/05 para o fechamento de 18/05.
-# Cotações-fonte com precisão maior que as duas casas citadas no corpo do texto
-# (R$3,14 -> R$3,38, que arredondado dá 7,64%): R$3,1283 -> R$3,3805 = +8,06%,
-# a cifra consistentemente reportada pela imprensa financeira (ver 07-verificacao.md).
+# Cotações-fonte: PTAX venda, Banco Central, API SGS série 1 — R$3,1076 -> R$3,3807 = +8,79%
+# (recalculado em python3 na etapa 7; ver 07-verificacao.md, seção 2).
 dolar = df[df["painel"] == "Dólar (USD/BRL)"].sort_values("ordem")
 fig.add_trace(
     go.Bar(
@@ -176,10 +176,11 @@ conceitual.
 > Ibovespa: 0% no fechamento do dia anterior, -10,47% na mínima intradiária (ponto em que o
 > primeiro *circuit breaker* desde 2008 foi acionado) e -8,80% no fechamento (a maior queda
 > diária desde outubro de 2008). À direita, o dólar frente ao real: 0% no fechamento anterior
-> e +8,06% no fechamento do dia 18.
+> e +8,79% no fechamento do dia 18.
 
 **Legenda (para exibição junto à figura em `post.md`):**
 
-> Ibovespa e dólar (USD/BRL), variação percentual sobre o fechamento do dia anterior —
-> 17-18/05/2017, o pregão do "Joesley Day" (InfoMoney, Suno). A queda intradiária do Ibovespa
+> Ibovespa e dólar (USD/BRL, PTAX venda), variação percentual sobre o fechamento do dia
+> anterior — 17-18/05/2017, o pregão do "Joesley Day" (Banco Central, API SGS série 1; queda
+> do Ibovespa cruzada com imprensa financeira da época). A queda intradiária do Ibovespa
 > acionou o primeiro *circuit breaker* desde 2008.
