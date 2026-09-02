@@ -18,7 +18,9 @@ intuição.
 
 **Nota que carrega para a etapa 7 (verificação técnica):** a atribuição da fala a Kempthorne
 precisa ser conferida contra a gravação/material do curso antes de publicar — é exatamente o
-tipo de dado factual verificável que a regra "evidência ou silêncio" do `CLAUDE.md` cobre.
+tipo de dado factual verificável que a regra "evidência ou silêncio" do `CLAUDE.md` cobre. Isso
+já foi investigado em rodadas anteriores deste post (`03-pesquisa.md` e `07-verificacao.md` de
+01/09) e segue sem confirmação definitiva — carrega como pendência conhecida.
 
 ## Analogias do autor (preservar — são dele, não do repórter)
 
@@ -37,8 +39,7 @@ tipo de dado factual verificável que a regra "evidência ou silêncio" do `CLAU
 - **O modelo como alavanca** — imagem de fechamento: "não decide nada por você e não sabe
   nada sobre o mundo — ela apenas multiplica a força que você aplica. Ela multiplica
   competência tanto quanto multiplica burrice, e com a mesma indiferença." Carrega o
-  argumento central, não é decoração; candidata a retomar no fechamento do post (ver §6 do
-  guia de voz sobre metáfora raramente retomada — aspiracional a testar aqui).
+  argumento central, não é decoração; candidata a retomar no fechamento do post.
 
 ## Encaixe no funil (`_arquivo/MARKETING_REVIEW.md` §5)
 
@@ -66,31 +67,23 @@ duas patologias do modelador). Sinais adicionais no próprio rascunho:
 - fecha com aforismo autoral, não com resumo genérico ("Um modelo é uma ferramenta que não
   sabe que é uma ferramenta. Cabe a você saber.").
 
-## Linha editorial — tensão registrada como pergunta nomeada
+## Linha editorial — tensão registrada, mas sem mais efeito sobre o visual
 
 O arquivo de origem traz a anotação do próprio autor: `[LINHA EDITORIAL: Spoiler]` (marcador
 **estrutural**, inventariado na etapa 0).
 
 Pelo critério literal de `PROJECT_DESCRIPTION.md` — Spoiler é relato de jornada de carreira
-pessoal; Notas de um Professor é conceito/produto explicado com rigor técnico, contextualizado
-pelos dois lados do balcão — o assunto deste texto (teoria vs. modelo, Black–Scholes, LTCM,
-sem narrativa de carreira própria do autor) se encaixaria melhor em **Notas de um Professor**.
-Não decido essa divergência sozinho: a linha declarada pelo autor no rascunho é um sinal forte
-de intenção, mas o critério literal do documento-fonte aponta para o outro lado, e é
-exatamente esse tipo de tensão silenciosa (resolvida por inércia, sem nunca virar pergunta
-explícita) que motivou a formalização de marcadores na etapa 0 do pipeline.
+pessoal; Notas de um Professor é conceito/produto explicado com rigor técnico — o assunto
+deste texto (teoria vs. modelo, Black–Scholes, LTCM, sem narrativa de carreira própria do
+autor) se encaixaria melhor em **Notas de um Professor**. Essa tensão já foi levada ao gate
+humano na rodada de 01/09/2026 e respondida explicitamente pelo autor: manter **Spoiler**.
+Registro mantido aqui por rastreabilidade, mas não repito a pergunta nomeada nesta rodada — já
+foi respondida uma vez para este mesmo post, e reabrir sem motivo novo seria ruído.
 
-**Pergunta para o gate humano (etapa 10), nomeada e separada de qualquer `[VERIFICAR]`
-técnico:**
-
-> **Linha editorial — Spoiler ou Notas de um Professor?** O rascunho declara Spoiler, mas o
-> texto não tem relato de jornada de carreira — é conceito de modelagem financeira explicado
-> com rigor técnico, o que bate literalmente com Notas de um Professor. Mantenho a linha
-> declarada pelo autor (Spoiler) até essa confirmação explícita no gate humano.
-
-Sigo com **Spoiler** como default até a resposta, porque é a instrução mais recente e
-explícita do autor sobre este texto especificamente — mas o campo `linha_editorial:` do
-frontmatter (etapa 9) e o estilo de ilustração da etapa 8 dependem dessa resposta.
+**Mudança de sistema desde a última rodada:** a linha editorial **não determina mais o estilo
+das ilustrações** (`estilos-ilustracao.md`, "Por que um estilo só", unificação de 2026-09-01).
+Colagem editorial vale para o post inteiro independentemente da resposta acima — a linha
+segue relevante só para frontmatter e encaixe de funil, não bloqueia mais a etapa 8.
 
 ## Pendências que a etapa 4 (draft) precisa resolver
 

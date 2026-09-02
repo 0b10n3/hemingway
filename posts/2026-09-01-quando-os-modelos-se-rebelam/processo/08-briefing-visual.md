@@ -1,8 +1,9 @@
 # Briefing de ilustração — "Quando os Modelos se Rebelam"
 
 Método de `.claude/skills/prompts-visuais/references/briefing-ilustracao.md` aplicado à capa
-e a `ilu-01`. Linha editorial em uso: **Spoiler** (default provisório de `01-briefing.md`,
-pendente confirmação no gate humano — etapa 10) → estilo **colagem editorial**.
+e a `ilu-01`, na terceira rodada deste post. Estilo: **colagem editorial**, unificado para
+todo post desde 2026-09-01 (`estilos-ilustracao.md`, "Por que um estilo só") — não depende
+mais de qual linha editorial for confirmada no gate humano.
 
 ---
 
@@ -200,8 +201,9 @@ Descartes:
 - Carro atravessando os dois sensores com rastro de velocidade (clichê de continuidade):
   descartado por reprovar o teste da troca e por contradizer o próprio argumento do texto.
 - Velocímetro/mostrador com ponteiro: descartado — muito próximo de "ilustração genérica de
-  finanças/dashboard", e duplica o vocabulário de "mostrador" que melhor pertence ao registro
-  técnico esquemático (Notas de um Professor), não à colagem.
+  finanças/dashboard" (`estilos-ilustracao.md`, regra 5), e essa peça não pede a composição de
+  precisão mecânica (não é vista de mecanismo por dentro) — o vão vazio já carrega o argumento
+  sem precisar de instrumento de leitura desenhado.
 
 ### Passo 7 — Composição de cena
 

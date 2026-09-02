@@ -1,13 +1,14 @@
 {
   "etapa_atual": 10,
-  "loops_consumidos": 1,
+  "loops_consumidos": 0,
   "aprovacoes": [
-    "2026-09-01: pipeline reexecutado do zero a pedido do autor, sobrescrevendo a rodada de 31/08. Aprovado para publicação no gate humano com pendências mantidas em aberto (ver abaixo). Linha editorial confirmada pelo autor no gate humano: Spoiler (tensão com o critério literal de 'Notas de um Professor', registrada em 01-briefing.md, respondida explicitamente — mantém Spoiler)."
+    "2026-09-02: terceira rodada do pipeline, a pedido do autor, sobrescrevendo a rodada de 01/09. Aprovado no gate humano com pendências mantidas em aberto. Autor rejeitou a reescrita da abertura como paráfrase sem aspas (proposta pela consolidação após evidência mais forte contra a atribuição a Kempthorne) e pediu para manter a citação entre aspas diretas com [VERIFICAR] — atendido, revertido antes da aprovação final."
   ],
   "pendencias": [
-    "[VERIFICAR] visível em post.md: citação de abertura (moeda 100 caras seguidas) segue sem confirmação de autoria — evidência da verificação técnica (07-verificacao.md) aponta que a Lecture 3 (Probability Theory, 18.S096, MIT OCW) é ministrada por Choongbum Lee, não por Peter Kempthorne, e a frase não foi localizada em texto indexável. Corpo do post já não nomeia ninguém ('um dos professores'); recomenda-se assistir ao vídeo da aula antes de publicar.",
+    "[VERIFICAR] visível em post.md: citação de abertura (moeda 100 caras seguidas) segue sem aula-fonte confirmada — evidência desta rodada é a mais forte até agora (transcrição real de 5 aulas testadas, nenhuma contém a frase), mas o autor optou por manter a citação entre aspas diretas em vez de reescrever como paráfrase.",
+    "[VERIFICAR] visível em post.md: faixa de exposição/perda do target forward brasileiro em 2008 sem número único de mercado — BIS (~US$25bi, perda estimada) e BCB/CETIP (~US$37bi, exposição/delta) medem métricas possivelmente diferentes.",
     "Capa e ilu-01 seguem como prompt, não geradas (sem acesso ao Nano Banana Pro nesta sessão) — publicação real depende de gerar essas duas peças antes de rodar /publicar. graf-01 e diag-01 já foram gerados de fato (Plotly) e estão em posts/2026-09-01-quando-os-modelos-se-rebelam/figuras/.",
     "publicação requer /publicar manual (disable-model-invocation: true de propósito) — merge, tag e push não são disparados automaticamente pelo pipeline"
   ],
-  "commit_inicial": "68ddb99"
+  "commit_inicial": "7e0c3a0"
 }
