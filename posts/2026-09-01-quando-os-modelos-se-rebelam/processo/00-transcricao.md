@@ -1,8 +1,5 @@
 # Quando os Modelos se Rebelam
 
-[LINHA EDITORIAL: Spoiler]
-[CAPA: Como ideia para criativo de capa, podemos utilizar algo como uma rebelia de máquinas humanoides como nos filmes de Terminator]
-
 ### Por que o descolamento entre modelo e realidade é esperado — e por que entender isso separa um bom modelador de um extremista frustrado
 
 ---
@@ -27,7 +24,7 @@ No texto de hoje vamos tratar dessas ideias e mostrar como o desacoplamento entr
 
 ## 1. Três palavras que você usa como sinônimo e não são
 
-Emanuel Derman é uma figura útil aqui porque ele conhece os dois lados da história: doutor em física teórica de partículas, foi para a Goldman Sachs e virou um dos nomes centrais da engenharia financeira, coautor do modelo de volatilidade local Derman–Kani. 
+Emanuel Derman é uma figura útil aqui porque ele conhece os dois lados da história: doutor em física teórica de partículas, foi para a Goldman Sachs e virou um dos nomes centrais da engenharia financeira, coautor do modelo de volatilidade local Derman–Kani.
 
 Em _Models. Behaving. Badly._ (2011), ele propõe uma separação que vale a pena levar a sério: **teoria**, **modelo** e **intuição** são três coisas diferentes.
 
@@ -57,13 +54,13 @@ O resultado é que o aluno aprende "as hipóteses do modelo de Black–Scholes" 
 
 O leitor mais rigoroso pode se perguntar: essa taxonomia é rigorosa ou se é a licença poética de um físico que virou banqueiro? A resposta honesta é: **bate em parte**.
 
-| Ponto de Derman                                                   | O que diz a filosofia da ciência                                                                                                                                                                                                          | Veredito                                             |
-| ----------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------- |
-| Modelos são representações parciais e deliberadamente distorcidas | Convergência forte. Nancy Cartwright (_How the Laws of Physics Lie_, 1983) argumenta que até as leis fundamentais só são literalmente verdadeiras sobre modelos idealizados. George Box: todos os modelos estão errados, alguns são úteis | Alinhado                                             |
-| Modelo falha ⇒ a analogia deixou de servir                        | Duhem–Quine complica: quando uma predição falha, o teste atinge o _conjunto_ (núcleo + premissas auxiliares + calibração + dados). Você nunca consegue isolar logicamente o culpado                                                       | Alinhado, mas incompleto — e a incompletude import5) |
-| Teoria é categoricamente distinta de modelo                       | Aqui há discordância real. Na **visão semântica** das teorias (Suppes, van Fraassen, Giere), teorias _são_ famílias de modelos. As equações de Maxwell também idealizam: vácuo perfeito, cargas pontuais, meios homogêneos                | Fronteira mais borrada do que Derman pinta           |
+| Ponto de Derman | O que diz a filosofia da ciência | Veredito |
+|---|---|---|
+| Modelos são representações parciais e deliberadamente distorcidas | Convergência forte. Nancy Cartwright (_How the Laws of Physics Lie_, 1983) argumenta que até as leis fundamentais só são literalmente verdadeiras sobre modelos idealizados. George Box: todos os modelos estão errados, alguns são úteis | Alinhado |
+| Modelo falha ⇒ a analogia deixou de servir | Duhem–Quine complica: quando uma predição falha, o teste atinge o _conjunto_ (núcleo + premissas auxiliares + calibração + dados). Você nunca consegue isolar logicamente o culpado | Alinhado, mas incompleto — e a incompletude importa |
+| Teoria é categoricamente distinta de modelo | Aqui há discordância real. Na **visão semântica** das teorias (Suppes, van Fraassen, Giere), teorias _são_ famílias de modelos. As equações de Maxwell também idealizam: vácuo perfeito, cargas pontuais, meios homogêneos | Fronteira mais borrada do que Derman pinta |
 
-Minha leitura: trate a distinção como um **ferramenta de ancoragem**, não como uma parede. De um lado, construções que sobrevivem a testes de falseamento cada vez mais severos e cujo objeto não reage a elas. Do outro, construções cujo objeto é feito de gente que lê o próprio modelo. Finanças mora firmemente do lado direito e Derman está certo no que importa: tratar a segunda coisa como se fosse a primeira é a origem do problema.
+Minha leitura: trate a distinção como uma **ferramenta de ancoragem**, não como uma parede. De um lado, construções que sobrevivem a testes de falseamento cada vez mais severos e cujo objeto não reage a elas. Do outro, construções cujo objeto é feito de gente que lê o próprio modelo. Finanças mora firmemente do lado direito e Derman está certo no que importa: tratar a segunda coisa como se fosse a primeira é a origem do problema.
 
 ---
 
@@ -77,9 +74,9 @@ Matematicamente, isso é uma troca: velocidade média por velocidade instantâne
 
 Agora quebre a premissa. Imagine que a aceleração pudesse dar um salto instantâneo, sem percorrer os valores intermediários. O radar continuaria calculando corretamente e continuaria entregando um número sem sentido. **A matemática seguiria perfeita; o cenário é que teria mudado.**
 
-Guarde essa frase, porque ela descreve praticamente todo desastre de modelo que você vai ver na sua carreira. 
+Guarde essa frase, porque ela descreve praticamente todo desastre de modelo que você vai ver na sua carreira.
 
-Quase nunca a conta está errada. 
+Quase nunca a conta está errada.
 
 O que está errado é o contexto em que a conta foi aplicada.
 
@@ -87,9 +84,7 @@ O que está errado é o contexto em que a conta foi aplicada.
 
 ## 3. Black–Scholes: o que está na bula
 
-Black–Scholes é o caso clássico, porque a bula é longa e quase ninguém lê até o fim. 
-
-[escrever um breve prágrafo sobre o que é o modelo e pq ele é tao famoso.]
+Black–Scholes é o caso clássico, porque a bula é longa e quase ninguém lê até o fim.
 
 O modelo assume, entre outras coisas:
 
@@ -110,13 +105,13 @@ Pergunte a quem estava vendido em opções naquela manhã quantas vezes consegui
 
 O mercado, aliás, já tinha admitido isso muito antes. Depois do crash de outubro de 1987, a superfície de volatilidade implícita deixou de ser plana e passou a exibir o famoso _smile_ (ou _skew_).
 
-Em português direto: os preços praticados passaram a embutir, permanentemente, uma probabilidade de salto maior do que a que o modelo comporta. O _smile_ é a cicatriz da hipótese 1,  o mercado usa a fórmula de Black–Scholes como uma linguagem de cotação e ajusta a premissa por fora, mexendo no _input_ de volatilidade.
+Em português direto: os preços praticados passaram a embutir, permanentemente, uma probabilidade de salto maior do que a que o modelo comporta. O _smile_ é a cicatriz da hipótese 1 — o mercado usa a fórmula de Black–Scholes como uma linguagem de cotação e ajusta a premissa por fora, mexendo no _input_ de volatilidade.
 
-E há um detalhe que o sociólogo Donald MacKenzie explora bem em _An Engine, Not a Camera_ (2006): Black–Scholes não apenas descreveu o mercado de opções,  ele **o transformou**. 
+E há um detalhe que o sociólogo Donald MacKenzie explora bem em _An Engine, Not a Camera_ (2006): Black–Scholes não apenas descreveu o mercado de opções, ele **o transformou**.
 
 Depois de 1973, com a fórmula difundida em tabelas e calculadoras, os preços observados passaram a aderir melhor ao modelo do que aderiam antes. O modelo não era uma câmera apontada para o mercado; era um motor que o empurrava. Isso é reflexividade no sentido de George Soros: o observador é participante, e a crença coletiva no modelo altera o objeto modelado.
 
-O cometa não muda de órbita porque o astrônomo publicou. 
+O cometa não muda de órbita porque o astrônomo publicou.
 O mercado muda.
 
 > **Nota brasileira: o target forward de 2008.** No segundo semestre de 2008, dezenas de exportadoras brasileiras carregavam estruturas de derivativos cambiais com payoff assimétrico — ganho limitado se o dólar caísse, perda alavancada e sem trava se ele disparasse. Enquanto o real se valorizava, a estrutura parecia hedge barato. Quando o dólar subiu, virou outra coisa. A Aracruz Celulose comunicou perda de US$ 2,13 bilhões ao desmontar as posições em novembro; a Sadia perdeu R$ 2,55 bilhões e acabou incorporada pela Perdigão, o que deu origem à BRF. Estima-se que o volume total dessas operações no país tenha chegado a US$ 35 bilhões. A precificação estava errada? Não necessariamente. O que estava errado era chamar aquilo de hedge — e o cenário em que a premissa de câmbio comportado valia.
@@ -127,19 +122,19 @@ O mercado muda.
 
 Se existe um caso que precisa ser contado a todo analista júnior, é esse.
 
-O Long-Term Capital Management foi fundado em 1994 por John Meriwether, ex-chefe da mesa de arbitragem da Salomon Brothers. Entre os sócios estavam **Myron Scholes e Robert Merton**,  que em 1997, com o fundo em operação, receberiam o Nobel de Economia justamente pelo trabalho de precificação de derivativos. 
+O Long-Term Capital Management foi fundado em 1994 por John Meriwether, ex-chefe da mesa de arbitragem da Salomon Brothers. Entre os sócios estavam **Myron Scholes e Robert Merton**, que em 1997, com o fundo em operação, receberiam o Nobel de Economia justamente pelo trabalho de precificação de derivativos.
 
 O conselho reunia provavelmente a maior concentração de capital intelectual quantitativo já montada num único fundo.
 
-A estratégia central era _convergence trade_. O exemplo canônico: títulos do Tesouro americano recém-emitidos (_on-the-run_) são mais líquidos e negociam com prêmio sobre títulos antigos de vencimento praticamente idêntico (_off-the-run_). 
+A estratégia central era _convergence trade_. O exemplo canônico: títulos do Tesouro americano recém-emitidos (_on-the-run_) são mais líquidos e negociam com prêmio sobre títulos antigos de vencimento praticamente idêntico (_off-the-run_).
 
 Mesmo risco de crédito, preços diferentes. O modelo dizia que a diferença tenderia a se fechar. Vende o caro, compra o barato, espera.
 
-O problema é que essas diferenças são medidas em pontos-base. Para transformar centavos em bilhões, é preciso alavancagem. 
+O problema é que essas diferenças são medidas em pontos-base. Para transformar centavos em bilhões, é preciso alavancagem.
 
-Muita alavancagem. 
+Muita alavancagem.
 
-No fim de 1997, confiante nas próprias métricas, o fundo **devolveu US$ 2,7 bilhões aos investidores** por não encontrar oportunidades suficientes, mantendo o tamanho da carteira. O efeito foi mecânico: menos capital, mesmo risco, alavancagem maior. 
+No fim de 1997, confiante nas próprias métricas, o fundo **devolveu US$ 2,7 bilhões aos investidores** por não encontrar oportunidades suficientes, mantendo o tamanho da carteira. O efeito foi mecânico: menos capital, mesmo risco, alavancagem maior.
 
 No início de 1998 o LTCM operava com cerca de US$ 4,7 bilhões de patrimônio, aproximadamente US$ 125 bilhões em ativos (algo em torno de 25:1) e um nocional de derivativos fora de balanço estimado em US$ 1,25 trilhão.
 
@@ -149,13 +144,13 @@ Essa é a premissa. E ela é histórica, não estrutural. A matriz de correlaç�
 
 Em **17 de agosto de 1998**, a Rússia deu calote na dívida em rublos e desvalorizou a moeda. O que veio a seguir não estava no cenário: uma fuga global para qualidade e liquidez. Investidores do mundo inteiro abandonaram tudo que fosse menos líquido e correram para comprar exatamente os Treasuries _on-the-run_ — precisamente a ponta que o LTCM estava vendida.
 
-Em vez de convergirem, os spreads divergiram. E divergiram **juntos**, em mercados que não tinham nenhuma razão econômica para se mover em bloco. A correlação, que era o alicerce do cálculo de risco, foi para perto de 1 no pior momento possível. Vale registrar como isso soa de dentro: em 2007, o então CFO do Goldman Sachs descreveria episódio semelhante como movimentos de 25 desvios-padrão acontecendo vários dias seguidos. Quando você precisa dizer uma frase dessas, o problema não é o mercado,  é a distribuição que você escolheu.
+Em vez de convergirem, os spreads divergiram. E divergiram **juntos**, em mercados que não tinham nenhuma razão econômica para se mover em bloco. A correlação, que era o alicerce do cálculo de risco, foi para perto de 1 no pior momento possível. Vale registrar como isso soa de dentro: em 2007, o então CFO do Goldman Sachs descreveria episódio semelhante como movimentos de 25 desvios-padrão acontecendo vários dias seguidos. Quando você precisa dizer uma frase dessas, o problema não é o mercado — é a distribuição que você escolheu.
 
-Aí veio a segunda premissa quebrada, e essa é a mais cruel. Para cobrir chamadas de margem, o fundo precisou vender. Mas o LTCM era grande demais em relação aos mercados em que operava: **o próprio ato de vender empurrava os preços contra as posições que ainda restavam**. A hipótese de liquidez  é a premissa mais invisível e mais letal de toda a modelagem financeira. Ela é invisível porque quase nunca aparece escrita.
+Aí veio a segunda premissa quebrada, e essa é a mais cruel. Para cobrir chamadas de margem, o fundo precisou vender. Mas o LTCM era grande demais em relação aos mercados em que operava: **o próprio ato de vender empurrava os preços contra as posições que ainda restavam**. A hipótese de liquidez é a premissa mais invisível e mais letal de toda a modelagem financeira. Ela é invisível porque quase nunca aparece escrita.
 
 O fundo perdeu cerca de US$ 4,6 bilhões em menos de quatro meses. Em 23 de setembro de 1998, sob articulação de William McDonough, então presidente do Fed de Nova York, **14 instituições financeiras aportaram cerca de US$ 3,6 bilhões** para evitar uma liquidação forçada que teria contaminado os mercados de crédito globais. O Fed não pôs dinheiro próprio: organizou a sala.
 
-E aqui está o ponto que eu quero que fique. **Não houve erro de matemática no LTCM.** As equações estavam corretas. Os testes estatísticos estavam corretos. O que houve foi um modelo calibrado em um regime sendo operado, com alavancagem de 25 para 1, dentro de outro regime. O erro não estava na conta. Estava na fronteira entre a conta e o mundo e essa fronteira não está escrita em lugar nenhum da planilha.
+E aqui está o ponto que eu quero que fique. **Não houve erro de matemática no LTCM.** As equações estavam corretas. Os testes estatísticos estavam corretos. O que houve foi um modelo calibrado em um regime sendo operado, com alavancagem de 25 para 1, dentro de outro regime. O erro não estava na conta. Estava na fronteira entre a conta e o mundo, e essa fronteira não está escrita em lugar nenhum da planilha.
 
 ---
 
@@ -167,14 +162,14 @@ Quando o modelo se comporta mal, o jovem analista tende a adoecer de uma entre d
 
 O primeiro tipo defende o modelo. Diante do prejuízo, ele classifica o evento como cisne negro, outlier, "cinco desvios-padrão", anomalia irracional do mercado. A equação está imaculada; a realidade é que se comportou mal.
 
-O detalhe perturbador é que, logicamente, **ele nunca pode ser provado errado**. 
+O detalhe perturbador é que, logicamente, **ele nunca pode ser provado errado**.
 É o resultado de Duhem–Quine: como o teste atinge o conjunto todo, sempre existe um ajuste auxiliar capaz de salvar o núcleo. Imre Lakatos descreveu isso como o "cinturão protetor" de um programa de pesquisa: você recalibra a janela, troca a distribuição, adiciona um parâmetro, e o núcleo sobrevive. Fazer isso não é irracional, é assim que a ciência normal funciona.
 
 O que separa um programa saudável de um degenerado é se os ajustes **geram previsões novas** ou apenas explicam, depois do fato, por que a última perda não conta.
 
-O caso limite disso tem nome e data: em 2012, o Chief Investment Office do JPMorgan em Londres estourou repetidamente os limites de VaR do banco. A resposta não foi reduzir posição. Foi **trocar o modelo de VaR** por um novo, implementado com planilhas Excel e transferência manual de dados, que cortou a estimativa de perda potencial pela metade e liberou espaço para a mesa continuar aumentando a aposta. 
+O caso limite disso tem nome e data: em 2012, o Chief Investment Office do JPMorgan em Londres estourou repetidamente os limites de VaR do banco. A resposta não foi reduzir posição. Foi **trocar o modelo de VaR** por um novo, implementado com planilhas Excel e transferência manual de dados, que cortou a estimativa de perda potencial pela metade e liberou espaço para a mesa continuar aumentando a aposta.
 
-O resultado foi o episódio conhecido como London Whale e mais de US$ 6 bilhões de prejuízo. 
+O resultado foi o episódio conhecido como London Whale e mais de US$ 6 bilhões de prejuízo.
 
 Quando o risco excede o limite do modelo, o cinturão protetor pode ser esticado até virar fraude regulatória.
 
@@ -211,19 +206,15 @@ Traduzindo para o seu dia a dia como analista: antes de entregar um número que 
 |5|Consigo sair da posição no tamanho em que estou, sem mover o preço?|A premissa de liquidez, que matou o LTCM e quase nunca está escrita|
 |6|Se o resultado vier errado, como eu vou saber que foi o modelo — e não a calibração, o dado ou o mundo?|Duhem–Quine na prática: definir o critério **antes** de precisar dele|
 
-
-
 ---
 
 ## Fechamento
 
-Nenhum modelo é uma bala de prata. 
+Nenhum modelo é uma bala de prata.
 
 Não porque a matemática seja fraca, mas porque em finanças não existem teorias no sentido forte: existem analogias projetadas sobre um sistema feito de gente que reage ao próprio modelo. Esperar que uma equação capture isso integralmente é um erro de categoria, não de cálculo.
 
-[tentar reescrever o parágrafo acima. Existem teorias em financas. ]
-
-Mas modelos são alavancas extremamente eficientes. 
+Mas modelos são alavancas extremamente eficientes.
 
 Uma alavanca não decide nada por você e não sabe nada sobre o mundo — ela apenas multiplica a força que você aplica. Ela multiplica competência tanto quanto multiplica burrice, e com a mesma indiferença. O LTCM não quebrou por usar modelos; quebrou por aplicar 25 vezes de alavancagem sobre uma premissa histórica tratada como lei natural.
 
@@ -249,3 +240,14 @@ Um modelo é uma ferramenta que não sabe que é uma ferramenta. Cabe a você sa
 ---
 
 _Os textos publicados na Syntaxis expressam exclusivamente minhas opiniões pessoais, formadas a partir da minha experiência profissional, e não representam a posição de meu empregador atual ou de empregadores anteriores. O conteúdo tem finalidade educacional e informativa: não constitui recomendação de investimento, análise de valores mobiliários ou consultoria financeira. Decisões de investimento são de responsabilidade exclusiva do leitor._
+
+---
+
+## Marcadores extraídos do rascunho
+
+| Marcador (verbatim) | Local no rascunho | Classificação | Resolução |
+|---|---|---|---|
+| `[LINHA EDITORIAL: Spoiler]` | Topo do arquivo, antes do título de apoio | Estrutural | *(preenchida na etapa 1)* |
+| `[CAPA: Como ideia para criativo de capa, podemos utilizar algo como uma rebelia de máquinas humanoides como nos filmes de Terminator]` | Topo do arquivo, logo após a linha editorial | Sugestão de visual | *(preenchida na etapa 8)* |
+| `[escrever um breve prágrafo sobre o que é o modelo e pq ele é tao famoso.]` | Seção 3, antes da lista de premissas de Black–Scholes | Instrução de escrita | *(preenchida na etapa 4)* |
+| `[tentar reescrever o parágrafo acima. Existem teorias em financas.]` | Seção "Fechamento", logo após o primeiro parágrafo | Instrução de escrita | *(preenchida na etapa 4)* |
