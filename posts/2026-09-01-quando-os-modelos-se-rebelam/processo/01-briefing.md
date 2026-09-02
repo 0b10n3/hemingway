@@ -2,91 +2,105 @@
 
 ## Tese em uma frase
 
-O que separa um modelador competente de um "extremista frustrado" (fundamentalista ou
-niilista) é entender que, em finanças, não existem teorias — só modelos, analogias com
-domínio de validade —, e que todo desastre de modelo real (Black–Scholes no 18/05/2017,
-LTCM em 1998) nasce do descolamento entre a premissa e o mundo, não de erro de conta.
+Em finanças não existem teorias, só modelos — analogias emprestadas com domínio de validade
+limitado —, e todo desastre real de modelagem (Black–Scholes em 18/05/2017, LTCM em 1998) não
+nasce de erro de conta, mas do descolamento entre a premissa calibrada e o regime em que ela
+foi aplicada; saber operar dentro dessa fronteira é o que separa um modelador competente de um
+extremista frustrado (fundamentalista ou niilista).
 
 ## Gancho escolhido
 
-A citação do professor Peter Kempthorne (MIT OCW) sobre a moeda que sai cara 100 vezes
-seguidas — cena/dado concreto e datável (aula de *Probability Theory*, 18.S096) que abre o
-texto antes de qualquer tese. Não é a mesma coisa que a tese: a tese só aparece formulada
-depois, na seção 1 (Derman: teoria x modelo x intuição).
+A citação atribuída a Peter Kempthorne (aula de *Probability Theory*, MIT OCW 18.S096) sobre a
+moeda que sai cara 100 vezes seguidas. É cena/dado concreto e datável — uma disciplina real,
+localizável — que abre o texto antes de qualquer formulação de tese. Não confundir com a tese
+em si: a tese só se fecha depois, na seção 1, com a separação de Derman entre teoria, modelo e
+intuição.
+
+**Nota que carrega para a etapa 7 (verificação técnica):** a atribuição da fala a Kempthorne
+precisa ser conferida contra a gravação/material do curso antes de publicar — é exatamente o
+tipo de dado factual verificável que a regra "evidência ou silêncio" do `CLAUDE.md` cobre.
 
 ## Analogias do autor (preservar — são dele, não do repórter)
 
-- **O radar de solo na rodovia** (seção 2): velocidade média tratada como instantânea; a
-  aproximação só funciona sob a premissa de movimento contínuo. Serve de exemplo "fora de
-  finanças, onde ninguém tem viés comportamental" antes de entrar no caso técnico.
+- **O radar de solo na rodovia** (seção 2): troca velocidade média por velocidade
+  instantânea; a aproximação só vale sob a premissa de movimento contínuo. Funciona como
+  exemplo fora de finanças, "onde ninguém tem viés comportamental", antes de entrar no caso
+  técnico.
 - **"A bula do remédio"**: as hipóteses de um modelo não são conjecturas a testar, são o
   domínio de validade do instrumento — ignorá-las é "usar o aparelho fora da faixa de
   operação".
 - **"O modelo pressupõe um filme; o que aconteceu foi um corte do editor"** (18/05/2017,
-  Joesley Day) — frase de fechamento de cena, alto valor de retenção, preservar verbatim.
+  vazamento Joesley/Temer) — frase de fechamento de cena, preservar verbatim.
 - **"O cometa não muda de órbita porque o astrônomo publicou. / O mercado muda."** — par de
-  frases curtas (movimento Hemingway: justaposição sem explicar o porquê) sobre
-  reflexividade (MacKenzie, Soros). Preservar a quebra de linha/ritmo.
-- **O modelo como alavanca**: "não decide nada por você e não sabe nada sobre o mundo — ela
-  apenas multiplica a força que você aplica. Ela multiplica competência tanto quanto
-  multiplica burrice, e com a mesma indiferença." Imagem de fechamento do texto, carrega o
-  argumento central — não é decoração.
+  frases curtas sobre reflexividade (MacKenzie, Soros); preservar a quebra de linha e o
+  ritmo de justaposição sem explicação (movimento Hemingway).
+- **O modelo como alavanca** — imagem de fechamento: "não decide nada por você e não sabe
+  nada sobre o mundo — ela apenas multiplica a força que você aplica. Ela multiplica
+  competência tanto quanto multiplica burrice, e com a mesma indiferença." Carrega o
+  argumento central, não é decoração; candidata a retomar no fechamento do post (ver §6 do
+  guia de voz sobre metáfora raramente retomada — aspiracional a testar aqui).
 
 ## Encaixe no funil (`_arquivo/MARKETING_REVIEW.md` §5)
 
-Texto de audiência/educação (topo do funil gratuito), mas com profundidade técnica acima da
-média do corpus até aqui (estocástico, VaR, precificação de opções). Fala diretamente à
-objeção-mestra de `#GENZ-GREED` e `#Millennials-GREED` ("consigo aprender isso de graça" /
-"vale o investimento de tempo?") ao mostrar rigor que não se encontra em conteúdo
-fragmentado, e ecoa a trilha paga "Fundamentos Matemáticos para Finanças" citada em
-`MARKETING_REVIEW.md` §5 — funciona como prova de competência técnica antes de qualquer
-oferta, sem vender nada explicitamente no corpo.
+Conteúdo de topo de funil (audiência/educação via Substack), mas com densidade técnica acima
+da média do corpus (estocástico, VaR, precificação de opções, alavancagem). Fala diretamente
+à objeção-mestra das personas `#GENZ-GREED` e `#Millennials-GREED` — "isso não dá pra achar de
+graça em qualquer lugar" — funcionando como prova de competência técnica antes de qualquer
+oferta explícita, e ecoa a trilha paga "Fundamentos Matemáticos para Finanças" do funil sem
+vender nada no corpo do texto. Não fecha com CTA de compartilhamento no rascunho de origem — a
+etapa 4 decide se adiciona um, seguindo o padrão predominante nos posts ensaísticos já
+publicados do corpus.
 
 ## Qual voz (`estilo/estilo-autoral.md` §4)
 
-**Ensaística.** Critério de decisão do guia: "se o post tem tese defensável ou opinião, é
-ensaístico" — este tem (a tese acima, mais o julgamento explícito sobre as duas patologias
-do modelador). Confirmação adicional pelos sinais do próprio texto:
-- abre com cena/anedota (aula do MIT), não com definição;
-- primeira pessoa singular de opinião presente o tempo todo ("um dos meus momentos
-  favoritos", "minha leitura", "o que eu proponho");
-- ironia constante contra a própria prática financeira (o "extremista frustrado", o
-  "modeleiro", o CIO do JPMorgan trocando de modelo até a perda virar meia);
-- metáfora/analogia frequente (ver seção acima), inclusive retomada no fechamento — o que o
-  guia nota como aspiracional ainda não testado na voz atual (`estilo-autoral.md` §6);
-- fecha sem resumo genérico, com aforismo autoral ("Um modelo é uma ferramenta que não sabe
-  que é uma ferramenta. Cabe a você saber.").
+**Ensaística.** O critério do guia é direto: "se o post tem tese defensável ou opinião, é
+ensaístico" — este texto tem (a tese acima, mais o julgamento explícito do autor sobre as
+duas patologias do modelador). Sinais adicionais no próprio rascunho:
 
-Não fecha com CTA de compartilhamento explícito no rascunho da transcrição — a etapa 4
-decide se adiciona um, seguindo o padrão dos outros posts ensaísticos do corpus.
+- abre com cena/anedota (a aula do MIT), não com definição;
+- primeira pessoa singular de opinião o tempo todo ("um dos meus momentos favoritos", "minha
+  leitura", "o que eu proponho");
+- ironia constante contra a própria prática financeira ("extremista frustrado",
+  "modeleiro", o CIO do JPMorgan trocando de modelo de VaR para liberar espaço de aposta);
+- metáfora e analogia frequentes (ver seção acima);
+- fecha com aforismo autoral, não com resumo genérico ("Um modelo é uma ferramenta que não
+  sabe que é uma ferramenta. Cabe a você saber.").
 
-## Linha editorial
+## Linha editorial — tensão registrada como pergunta nomeada
 
-O arquivo de origem já traz a anotação do autor: `[LINHA EDITORIAL: Spoiler]`.
+O arquivo de origem traz a anotação do próprio autor: `[LINHA EDITORIAL: Spoiler]` (marcador
+**estrutural**, inventariado na etapa 0).
 
-**Registro de tensão, não bloqueio:** pelo critério literal de `PROJECT_DESCRIPTION.md`
-(Spoiler = relato de jornada de carreira pessoal; Notas de um Professor = conceito/produto
-com rigor técnico), o conteúdo deste texto — modelagem financeira, Black–Scholes, LTCM, sem
-narrativa de carreira própria do autor — se pareceria mais, pelo assunto, com "Notas de um
-Professor". Mas a decisão de linha editorial é separada da voz e do assunto (já houve
-precedente inverso documentado em
-`posts/2026-08-25-dividir-para-nao-correr-risco/estado.json`), e aqui é o próprio autor quem
-já declarou a linha antes mesmo do briefing — tratando isto, presumivelmente, como mais um
-"spoiler" de como ele pensa/decide na prática profissional diante de modelos, não como
-definição de produto. Honro a decisão explícita do autor e sigo com **Spoiler**. Levo o
-registro da tensão ao gate humano (etapa 10) para confirmação, não para reabrir a escolha
-sem necessidade.
+Pelo critério literal de `PROJECT_DESCRIPTION.md` — Spoiler é relato de jornada de carreira
+pessoal; Notas de um Professor é conceito/produto explicado com rigor técnico, contextualizado
+pelos dois lados do balcão — o assunto deste texto (teoria vs. modelo, Black–Scholes, LTCM,
+sem narrativa de carreira própria do autor) se encaixaria melhor em **Notas de um Professor**.
+Não decido essa divergência sozinho: a linha declarada pelo autor no rascunho é um sinal forte
+de intenção, mas o critério literal do documento-fonte aponta para o outro lado, e é
+exatamente esse tipo de tensão silenciosa (resolvida por inércia, sem nunca virar pergunta
+explícita) que motivou a formalização de marcadores na etapa 0 do pipeline.
+
+**Pergunta para o gate humano (etapa 10), nomeada e separada de qualquer `[VERIFICAR]`
+técnico:**
+
+> **Linha editorial — Spoiler ou Notas de um Professor?** O rascunho declara Spoiler, mas o
+> texto não tem relato de jornada de carreira — é conceito de modelagem financeira explicado
+> com rigor técnico, o que bate literalmente com Notas de um Professor. Mantenho a linha
+> declarada pelo autor (Spoiler) até essa confirmação explícita no gate humano.
+
+Sigo com **Spoiler** como default até a resposta, porque é a instrução mais recente e
+explícita do autor sobre este texto especificamente — mas o campo `linha_editorial:` do
+frontmatter (etapa 9) e o estilo de ilustração da etapa 8 dependem dessa resposta.
 
 ## Pendências que a etapa 4 (draft) precisa resolver
 
-O texto de origem tem duas notas do autor entre colchetes, tratadas como instrução de
-escrita, não como conteúdo a preservar literalmente:
+Duas instruções de escrita inventariadas na etapa 0:
 
-1. Seção 3 (Black–Scholes): `[escrever um breve parágrafo sobre o que é o modelo e pq ele é
-   tão famoso.]` — falta uma frase-definição de Black–Scholes antes da lista de hipóteses.
-2. Fechamento: `[tentar reescrever o parágrafo acima. Existem teorias em finanças.]` — o
-   autor sinaliza que o parágrafo "não existem teorias no sentido forte [em finanças]" está
-   forte demais / impreciso e quer revisão. Nota: a própria seção 1 já registra essa mesma
-   tensão de forma mais matizada (a "visão semântica" de Suppes/van Fraassen/Giere, onde
-   teoria também é família de modelos) — o fechamento deve ecoar essa mesma nuance em vez de
-   reafirmar a frase categórica original.
+1. Seção 3 (Black–Scholes): `[escrever um breve prágrafo sobre o que é o modelo e pq ele é
+   tao famoso.]` — falta uma frase-definição de Black–Scholes (o que precifica, quando
+   publicado, por que virou padrão de mercado) antes da lista de hipóteses.
+2. Fechamento: `[tentar reescrever o parágrafo acima. Existem teorias em financas.]` — o
+   autor sinaliza que "não existem teorias no sentido forte [em finanças]" está categórico
+   demais. A seção 1 já registra a mesma tensão de forma mais matizada, na tabela sobre a
+   visão semântica de Suppes/van Fraassen/Giere (onde teoria também é família de modelos) —
+   o fechamento deve ecoar essa nuance em vez de reafirmar a frase absoluta original.
