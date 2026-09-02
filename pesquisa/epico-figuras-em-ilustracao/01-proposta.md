@@ -132,3 +132,27 @@ com Myron Scholes ou Robert Merton (ambos nomeados, e um deles ainda vivo) cairi
 exigiria a pergunta nomeada no gate humano antes de prosseguir. Nenhuma peça nova é proposta
 por esta reforma — é só o exemplo de como o critério se aplicaria, para calibrar a regra
 escrita.
+
+---
+
+## Iteração 2 (mesmo dia) — unificação dos dois estilos em um só (colagem)
+
+Depois da revisão da regra 6, o autor pediu um passo além: que as ilustrações da linha
+**Notas de um Professor** também usassem colagem editorial, em vez do "Estilo B" (desenho
+técnico esquemático). Perguntado sobre o escopo — manter a distinção visual entre as linhas
+dentro da mesma família de material, ou unificar por completo —, o autor escolheu **unificar
+por completo**: aposentar o Estilo B, e as duas linhas passam a ter exatamente as mesmas
+regras de ilustração. A distinção editorial (relato vivido vs. conceito explicado) fica só no
+texto.
+
+Implementado sem tocar `brand/DESIGN.md` (nunca foi a fonte da distinção de estilo — isso
+sempre viveu só em `estilos-ilustracao.md`). O vocabulário técnico do Estilo B (projeção
+ortogonal, vista explodida, linha de construção, chamada, cota, simetria) não foi descartado:
+virou uma família de **composição** dentro da colagem ("Quando o argumento pede precisão
+mecânica", em `estilos-ilustracao.md`) — mesmo material (papel recortado, sombra chapada,
+paleta fechada), disposição diferente, para quando a peça precisar mostrar um mecanismo por
+dentro. Arquivos ajustados: `estilos-ilustracao.md` (reescrito), `templates-prompt.md`
+(templates mesclados), `exemplos-prompts.md` (exemplo do Estilo B marcado como histórico, não
+regenerado — post já publicado, `CLAUDE.md` proíbe reescrever visual já publicado),
+`prompts-visuais/SKILL.md`, `post-substack/SKILL.md` e `PROJECT_DESCRIPTION.md` (removida a
+dependência de linha editorial para decidir estilo — a etapa 8 não bloqueia mais por isso).

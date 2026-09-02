@@ -27,9 +27,9 @@ Sempre presente — todo post tem exatamente uma capa. Nasce da **tese em uma fr
 escolhido em `processo/01-briefing.md`**, nunca de um detalhe do corpo do texto: a capa
 comunica a tese, não uma evidência de apoio.
 
-- **Estilo:** mesma tabela de `references/estilos-ilustracao.md` usada por `ilu-NN` — colagem
-  para Spoiler, desenho técnico esquemático para Notas de um Professor. Mesma paleta fechada,
-  mesmas regras compartilhadas.
+- **Estilo:** colagem editorial, mesma referência de `references/estilos-ilustracao.md` usada
+  por `ilu-NN` — vale para todo post, qualquer linha editorial (unificado em 2026-09-01).
+  Mesma paleta fechada, mesmas regras.
 - **Proporção:** 16:9. Gerar em 2400×1350px (margem confortável acima do alvo de publicação)
   e exportar em 1456×816px para a capa do artigo — dimensão convergente em múltiplas fontes
   secundárias (a Substack gera separadamente um thumbnail 1200×630 por recorte automático
@@ -61,26 +61,24 @@ comunica a tese, não uma evidência de apoio.
 
 ## `ilustracoes.md`
 
-### Antes de escrever qualquer prompt: identifique a linha editorial
+### Antes de escrever qualquer prompt
 
-O estilo artístico da ilustração é **determinado pela linha editorial do post**, não pela voz
-do texto e não pelo gosto de quem gera o prompt:
+Desde 2026-09-01, o estilo artístico **não depende mais da linha editorial** — colagem
+editorial vale para todo post (ver `references/estilos-ilustracao.md`, "Por que um estilo
+só"). A linha editorial ainda importa para outras decisões do pipeline (frontmatter, encaixe
+no funil), mas não bloqueia mais a etapa 8: não é preciso confirmar linha editorial antes de
+escrever um prompt de ilustração.
 
-- **Spoiler** (carreira, relato pessoal) → colagem editorial
-- **Notas de um Professor** (conceito, produto, mecanismo) → desenho técnico esquemático
+O que a etapa 8 ainda decide, por post, é a **composição**: registro pessoal/assimétrico
+(quando o argumento é relato ou virada) ou registro de precisão mecânica/centrado (quando o
+argumento é mostrar um mecanismo por dentro) — ver "Quando o argumento pede precisão mecânica"
+em `references/estilos-ilustracao.md`. Essa escolha vem do conceito de cada `ilu-NN`
+(`processo/08-briefing-visual.md`), não de uma regra fixa por linha.
 
-Onde ler a linha, nesta ordem: o campo `linha_editorial` no frontmatter de `post.md`; a seção
-"Linha editorial" de `processo/01-briefing.md`; a tag correspondente em `tags`.
-
-**Se a linha não estiver declarada em nenhum desses lugares, ou se as fontes discordarem,
-pare e pergunte ao autor.** Não deduza a partir da voz — voz e linha editorial não coincidem
-sempre, e o repositório já tem um caso real de post ambíguo (ver
-`references/estilos-ilustracao.md`, última seção).
-
-Especificação completa dos dois estilos, hex autorizados e checklist de prompt:
+Especificação completa do estilo, hex autorizados e checklist de prompt:
 **`references/estilos-ilustracao.md`** — leia antes de escrever o primeiro prompt.
-**`references/templates-prompt.md`** dá o esqueleto preenchível de cada estilo — não repete a
-tabela de hex nem as regras, só acelera a escrita e reduz prompt vago.
+**`references/templates-prompt.md`** dá o esqueleto preenchível, com a extensão de precisão
+mecânica — não repete a tabela de hex nem as regras, só acelera a escrita e reduz prompt vago.
 
 ### Etapa 8a — briefing antes do prompt (obrigatório)
 
@@ -103,8 +101,9 @@ a primeira.**
 - Onde entra no texto e que ideia carrega (referencie o parágrafo/seção de `post.md`).
 - **Conceito e estrutura de metáfora** — o conceito escolhido em `08-briefing-visual.md`, a
   estrutura usada (justaposição / fusão / substituição) e o material do texto que ele usa.
-- **Linha editorial e estilo aplicado**, em uma linha — deixa auditável, na própria peça, por
-  que ela ficou com essa cara.
+- **Registro de composição aplicado**, em uma linha — pessoal/assimétrico ou precisão
+  mecânica/centrado (ver `estilos-ilustracao.md`) e por quê. Deixa auditável, na própria peça,
+  por que ela ficou com essa cara.
 - Prompt completo para `GERADOR_IMAGEM` (Google Nano Banana Pro): cena narrada seguindo
   `[Sujeito] + [Ação/estado] + [Contexto] + [Composição] + [Estilo e materialidade] +
   [Paleta com hex] + [Proporção]`, com os hex citados por nome do token (ex. "flat deepForest

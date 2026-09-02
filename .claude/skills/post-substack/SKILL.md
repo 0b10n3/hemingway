@@ -115,10 +115,12 @@ pelo critério literal, de "Notas de um Professor") foi registrada em prosa no b
 acabou aprovada por inércia — carregada como item de uma lista de pendências genéricas até a
 etapa 10, sem nunca virar, de fato, uma pergunta que alguém respondesse.
 
-A linha escolhida vai para o frontmatter de `post.md` como `linha_editorial:` na etapa 9, e é
-o que determina o **estilo artístico das ilustrações** na etapa 8
-(`prompts-visuais/references/estilos-ilustracao.md`). Sem esse campo, a etapa 8 para e
-pergunta.
+A linha escolhida vai para o frontmatter de `post.md` como `linha_editorial:` na etapa 9.
+**Desde 2026-09-01, ela não determina mais o estilo artístico das ilustrações** — o sistema
+foi unificado em colagem editorial para todo post, qualquer linha
+(`prompts-visuais/references/estilos-ilustracao.md`, "Por que um estilo só") — então a etapa 8
+não bloqueia mais por linha editorial ausente ou ambígua. A linha segue relevante para
+frontmatter e encaixe no funil (`_arquivo/MARKETING_REVIEW.md` §5), só não para visual.
 
 ## Etapa 2 — ilustração, gráfico, diagrama ou infográfico: critério, não gosto
 

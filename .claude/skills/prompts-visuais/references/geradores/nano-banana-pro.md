@@ -35,7 +35,9 @@ Template do guia oficial, adaptado:
 - [ ] O conceito veio de `briefing-ilustracao.md` (etapa 8a), com os três conceitos
       divergentes gerados e os quatro testes de rejeição aplicados? **Estilo é a última
       decisão — se você chegou aqui sem briefing, volte.**
-- [ ] O estilo bate com a linha editorial declarada no post?
+- [ ] A composição escolhida (pessoal/assimétrica ou precisão mecânica/centrada) bate com o
+      que o conceito pede — não com a linha editorial, que não determina mais estilo desde
+      2026-09-01 (`estilos-ilustracao.md`, "Por que um estilo só")?
 - [ ] Todo hex citado existe na tabela de hex autorizados (`estilos-ilustracao.md`)?
 - [ ] A palavra "glow", "glowing", "luminous", "bloom" ou "gradient" **não** aparece?
 - [ ] Lime aparece em exatamente um elemento (ou em nenhum, se não há virada/foco)?

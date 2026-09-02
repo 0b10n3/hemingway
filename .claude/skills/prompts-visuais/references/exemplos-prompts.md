@@ -13,7 +13,11 @@ Peças de validação, **terceira rodada** (31/08/2026), geradas com o método d
 
 ---
 
-# Estilo A — Spoiler (colagem editorial)
+# Colagem editorial — exemplo do antigo "Estilo A" (Spoiler)
+
+Desde 2026-09-01 não existe mais distinção de estilo por linha editorial (ver
+`estilos-ilustracao.md`) — todo post usa colagem editorial. Este exemplo continua válido como
+referência de vocabulário e método; o rótulo "Estilo A" abaixo é histórico.
 
 Post: `2026-08-17-o-mundo-invertido-das-carreiras-em-financas`
 
@@ -236,7 +240,16 @@ imagem livre de letras, algarismos e numeração de página.
 
 ---
 
-# Estilo B — Notas de um Professor (desenho técnico esquemático)
+# Desenho técnico esquemático — antigo "Estilo B" (retirado em 2026-09-01)
+
+**Aposentado.** Até 2026-09-01, Notas de um Professor usava esta técnica de renderização
+inteira (projeção ortogonal em traço vetorial, sem papel/colagem) em vez do estilo de
+colagem. O sistema foi unificado (ver `estilos-ilustracao.md`, "Por que um estilo só") — todo
+post novo usa colagem editorial, inclusive para peças de mecanismo, através do bloco "Quando o
+argumento pede precisão mecânica" (a mesma ideia de vista em corte/explodida e linha de
+construção, agora em papel recortado, não em traço vetorial puro). O exemplo abaixo fica como
+registro do que o post publicado de fato usou (`posts/2026-08-14-.../ilustracoes.md`, que não
+é regenerado retroativamente — ver `CLAUDE.md`) — **não é template para peça nova.**
 
 Post: `2026-08-14-o-papel-do-cdb-na-transformacao-de-prazos`
 

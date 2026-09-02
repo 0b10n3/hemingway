@@ -9,25 +9,32 @@ Use depois de `briefing-ilustracao.md` (etapa 8a) já ter dado o conceito, a ope
 (extensão/cruzamento/torção) e a estrutura de metáfora (justaposição/fusão/substituição) —
 nunca antes.
 
-## Template — Colagem editorial (Spoiler)
+## Template — Colagem editorial (todo post, qualquer linha editorial)
 
 ```
 [Sujeito/objeto único, recortado em papel de cor chapada] + [camadas visíveis, sombra chapada
 sem blur, offset sólido] + [retícula de meio-tom ou desalinho de registro tipo risograph, se
 o conceito pedir] + [fundo: chalk ou deepForest — ver estilos-ilustracao.md] + [até quatro
-cores de papel; lime-500 uma vez só, se e só se há virada/saída no conceito] + [composição
-assimétrica, diagonal dominante] + [proporção]
+cores de papel; lime-500 uma vez só, se e só se há virada/saída/ponto de explicação no
+conceito] + [composição assimétrica, diagonal dominante — ou centrada/simétrica, se o
+argumento for mostrar mecanismo, ver bloco de precisão mecânica abaixo] + [proporção]
 ```
 
-## Template — Desenho técnico esquemático (Notas de um Professor)
+### Extensão — quando o argumento pede precisão mecânica
+
+Some ao template acima, no lugar da composição assimétrica padrão, quando a peça precisar
+mostrar um mecanismo por dentro (herdado do antigo "Estilo B", ver `estilos-ilustracao.md`,
+"Quando o argumento pede precisão mecânica" — continua sendo papel recortado, não outra
+técnica):
 
 ```
-[Peça/mecanismo único, projeção ortogonal — vista frontal, corte ou explodida] + [linha de
-construção hairline visível marcando eixo/centro/extensão] + [chamada com linha-guia até a
-peça que importa, sem rótulo de texto] + [marca de cota, se o argumento envolver prazo/
-distância/proporção] + [fundo: deepForest ou chalk — ver estilos-ilustracao.md] + [lime-500
-marca só a peça que o parágrafo está explicando; resto em verde estrutural] + [composição
-centrada e simétrica] + [proporção]
+[Peça/mecanismo único, em corte ou vista explodida, camadas de papel alinhadas no mesmo eixo,
+projeção ortogonal — sem perspectiva] + [linha de construção como tira fina de papel
+recortado, marcando eixo/centro/extensão] + [chamada com linha-guia em papel fino até a peça
+que importa, sem rótulo de texto] + [marca de cota em papel, se o argumento envolver prazo/
+distância/proporção] + [fundo: deepForest ou chalk] + [lime-500 marca só a peça que o
+parágrafo está explicando; resto em verde estrutural] + [composição centrada e simétrica] +
+[proporção]
 ```
 
 ## Lembrete de formato (não repetido de `estilos-ilustracao.md`, só citado)

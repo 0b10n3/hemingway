@@ -1,4 +1,4 @@
-# Estilos de ilustração por linha editorial
+# Estilo de ilustração
 
 SSOT do **estilo artístico** das ilustrações (`ilu-NN`). Vale só para ilustração — gráficos
 (`graf-NN`) seguem `checklist-graficos.md` e não têm estilo por linha editorial.
@@ -7,24 +7,38 @@ Criado em 31/08/2026. `brand/DESIGN.md` v2.0 define paleta, tipografia, formas e
 anti-padrões, mas **não define estilo de ilustração** — esta é a camada que faltava, e ela
 é subordinada ao `DESIGN.md`: em qualquer conflito, o `DESIGN.md` vence.
 
----
-
-## Por que dois estilos
-
-A Substack tem duas linhas editoriais com epistemologias opostas, e o estilo precisa carregar
-essa diferença antes de o leitor ler a primeira palavra:
-
-| Linha | O que o texto faz | O que o estilo faz |
-|---|---|---|
-| **Spoiler** | Reconstrói uma carreira *depois* de vivida — fragmentos de memória montados em ordem que só existe em retrospecto | **Colagem**: sentido montado a partir de pedaços recortados, camadas, imperfeição analógica |
-| **Notas de um Professor** | Desmonta um mecanismo para explicá-lo — corte, peça, função | **Desenho técnico esquemático**: mecanismo aberto, projeção ortogonal, linha de construção |
-
-Vivido *versus* explicado. A colagem monta; o esquema desmonta. Se os dois usassem o mesmo
-estilo, a distinção editorial existiria só no texto.
+**Revisão de 2026-09-01:** até esta data, o sistema tinha dois estilos por linha editorial
+(colagem para Spoiler, desenho técnico esquemático para Notas de um Professor). A pedido do
+autor, os dois foram unificados num único estilo — colagem editorial — para todo post,
+qualquer que seja a linha. Ver "Por que um estilo só", abaixo, e
+`pesquisa/epico-figuras-em-ilustracao/` para o histórico da decisão.
 
 ---
 
-## Regras compartilhadas (valem para os dois estilos)
+## Por que um estilo só
+
+Até 2026-09-01, o sistema argumentava que Spoiler (relato vivido, retrospectivo) e Notas de
+um Professor (mecanismo explicado) precisavam de técnicas de renderização inteiras diferentes
+para que a distinção editorial existisse também no visual, não só no texto. Na prática, isso
+custava caro: duas gramáticas de estilo para manter, e a decisão de linha editorial virava
+pré-requisito bloqueante da etapa 8 (`post-substack/SKILL.md`, etapa 1: "sem esse campo, a
+etapa 8 para e pergunta").
+
+O autor decidiu simplificar: **colagem editorial é o material de todo post**, sem exceção. A
+distinção entre "vivido" e "explicado" continua existindo — só que agora vive inteiramente no
+texto (voz, estrutura, conteúdo) e, dentro da própria colagem, na **composição** escolhida
+para cada peça (ver "Quando o argumento pede precisão mecânica", abaixo) — não mais numa
+técnica de renderização à parte. Isso também resolve, de graça, o bloqueio da etapa 8 em linha
+editorial ambígua ou não declarada: o estilo não depende mais dessa decisão.
+
+O vocabulário técnico que pertencia ao antigo "Estilo B" (desenho técnico esquemático) não foi
+descartado — foi absorvido como uma família de técnicas compositivas disponíveis dentro da
+colagem, para quando o argumento do post for "mostrar um mecanismo por dentro" (ver a mesma
+seção abaixo).
+
+---
+
+## Regras
 
 Regras 1, 2, 3, 4, 5 e 7 são derivadas de `brand/DESIGN.md` §4.1, §4.5 e §5 — não são opinião
 desta referência. A regra 6 (figura humana) **não** deriva de `DESIGN.md` — é critério próprio
@@ -40,16 +54,16 @@ humana, rosto ou retrato em nenhum ponto.
    usavam (sistema anterior "O Sinal no Escuro") — **contraste agora é por cor chapada,
    densidade e escala, nunca por luz.**
 3. **Lime é acento único e escasso.** Um só ponto de lime por peça, e só onde há ação ou
-   conquista real. Lime-500 sobre fundo escuro; lime-700 se o fundo for claro. Nunca lime
-   como cor ambiente.
+   conquista real (ou, em peça de mecanismo, só na peça que o parágrafo está explicando
+   naquele ponto — ver "Quando o argumento pede precisão mecânica"). Lime-500 sobre fundo
+   escuro; lime-700 se o fundo for claro. Nunca lime como cor ambiente.
 4. **Sem texto renderizado na imagem.** Gerador erra tipografia e a marca tem tipografia
    própria. Quem carrega a informação verbal é o alt-text.
 5. **Sem ilustração genérica de finanças** (`DESIGN.md` §4.5): moeda, cifrão, candlestick,
-   cofre, aperto de mão, robô/cérebro de IA, prédio de banco, gráfico de pizza. Isto não muda
-   com a revisão da regra 6 — uma referência de cultura pop (ex.: um robô de ficção científica)
-   continua proibida como objeto literal; o que o sistema já sabe fazer, e continua fazendo, é
-   extrair a **estrutura** da referência e descartar o elemento literal (ver "Referência de
-   cultura pop", em `briefing-ilustracao.md`).
+   cofre, aperto de mão, robô/cérebro de IA, prédio de banco, gráfico de pizza. Uma referência
+   de cultura pop (ex.: um robô de ficção científica) continua proibida como objeto literal; o
+   que o sistema sabe fazer é extrair a **estrutura** da referência e descartar o elemento
+   literal (ver "Referência de cultura pop", em `briefing-ilustracao.md`).
 6. **Figura humana reconhecível — critério em três faixas, não proibição absoluta.** Silhueta
    abstrata sempre foi e continua aceitável. Rosto reconhecível segue o critério de
    "Figuras históricas e públicas", abaixo — a maioria dos casos (pessoa privada, decoração
@@ -61,7 +75,7 @@ humana, rosto ou retrato em nenhum ponto.
 
 Três faixas, do mais livre ao proibido. Todas exigem que a pessoa seja citada pelo nome no
 corpo do post — nunca decoração externa ao texto — e tratamento sempre dentro do vocabulário
-do estilo em uso (ver "Como desenhar um rosto", em cada estilo abaixo), nunca fotorrealista.
+de colagem (ver "Como desenhar um rosto", abaixo), nunca fotorrealista.
 
 - **Faixa 1 — figura histórica: sempre permitida, sem pergunta ao autor.** Falecida e com
   presença padrão em material didático/de referência do campo que o post trata (matemática,
@@ -101,11 +115,12 @@ estar ancorada num conceito do Passo 6, como qualquer outra `ilu-NN`.
 
 ---
 
-## Estilo A — Spoiler: colagem editorial
+## Colagem editorial
 
-**Registro:** analógico, humano, montado à mão. É a linha do relato pessoal, do erro
-cometido, do "não é porque eu sofri que você também precisa sofrer" — o estilo pode ser
-imperfeito porque a experiência foi.
+**Registro:** analógico, humano, montado à mão — sentido montado a partir de pedaços
+recortados, camadas, imperfeição analógica controlada. Vale para todo post, qualquer linha
+editorial; o registro pode pender mais para o pessoal/imperfeito (Spoiler) ou mais para o
+preciso/construído (Notas de um Professor) através da composição escolhida, não da técnica.
 
 ### Vocabulário
 
@@ -134,18 +149,48 @@ imperfeito porque a experiência foi.
 ### Regras
 
 - Fundo: chalk `#F7F7F5` (padrão) ou deepForest `#0F3D27` (quando o texto for sobre erro,
-  perda ou o "mundo invertido").
-- Camadas: forest-500, grove-500, mint, slate. Máximo **quatro** cores de papel por peça —
-  acima disso vira ruído.
-- Lime-500 aparece **uma vez só**, na forma que representa a virada, a saída, o spoiler útil.
-  Se a peça não tem virada, não tem lime.
-- Composição assimétrica, com uma diagonal dominante. Colagem centralizada e simétrica soa
-  cartaz institucional, não relato.
+  perda, "mundo invertido", ou quando a peça for de mecanismo/precisão — ver abaixo).
+- Camadas: forest-500, grove-500, mint, slate (ou grove-300 sobre fundo escuro). Máximo
+  **quatro** cores de papel por peça — acima disso vira ruído.
+- Lime-500 aparece **uma vez só**, na forma que representa a virada, a saída, o spoiler útil —
+  ou, em peça de mecanismo, a peça que o parágrafo está explicando naquele ponto. Se a peça
+  não tem virada nem ponto de explicação, não tem lime.
+- Composição assimétrica, com uma diagonal dominante, é o padrão — colagem centralizada e
+  simétrica soa cartaz institucional, não relato. **Exceção:** quando o argumento é mostrar um
+  mecanismo em corte/vista explodida (ver abaixo), composição centrada e simétrica é aceitável
+  — ali, ordem visual é o próprio argumento.
 
 ### Quando o assunto é abstrato
 
 Não force objeto literal. Colagem aceita forma geométrica pura (círculo recortado, faixa,
 escada de papel) — o material é que carrega o registro, não o motivo.
+
+### Quando o argumento pede precisão mecânica
+
+Herdado do antigo "Estilo B" (desenho técnico esquemático, retirado em 2026-09-01) — não é
+outra técnica de renderização, é vocabulário de **composição** dentro da mesma colagem de
+papel recortado, para quando o argumento for "por dentro isto funciona assim":
+
+- **Vista em corte / explodida, em papel.** Camadas de papel separadas por espaço regular,
+  alinhadas no mesmo eixo, cada uma um componente do mecanismo — a mesma disciplina de sombra
+  chapada e corte reto do resto do vocabulário, só que a composição é ortogonal (vista
+  frontal), sem perspectiva nem profundidade falsa.
+- **Linha de construção como tira fina de papel** (mist `#E2E8F0` sobre escuro, slate
+  `#4A5568` sobre claro) marcando eixo, centro ou alinhamento — não é hairline vetorial, é uma
+  tira de papel cortada fina o bastante para ler como linha auxiliar.
+- **Chamada com linha-guia**, também em papel cortado fino, apontando para a peça que importa
+  — terminando em ponto ou seta recortada, **sem rótulo de texto** (o alt-text carrega o
+  nome).
+- **Marca de cota em papel** (tira fina com terminação em corte reto) quando o argumento
+  envolver prazo, distância ou proporção — nunca com número escrito.
+- **Grade de pontos** (`dataGrid` da marca) como camada de fundo, opacidade baixa, só como
+  respiro — pode ser retícula de meio-tom bem espaçada, mantendo o vocabulário de material.
+
+Nessa família de composição, fundo deepForest é o mais comum (é "a prancha"), estrutura
+principal em grove-300 sobre escuro ou forest-500 sobre claro, e simetria/alinhamento
+rigoroso é aceitável (ver exceção de composição, acima). Isso não é um "modo alternativo" —
+continua sendo papel recortado, sombra chapada, paleta fechada; só a disposição dos objetos
+muda para servir o argumento de mecanismo.
 
 ### Técnicas compositivas adicionais, avaliadas contra a marca
 
@@ -156,74 +201,19 @@ Inspired by"](https://medium.muz.li/10-collage-approaches-youre-about-to-use-and
 (Muzli/Medium), cataloga bem. Três das dez abordagens já existem no sistema com nome próprio
 — **pareamento de dois objetos** é a "Fusão", **substituição de partes** é a "Substituição",
 e **composição de até dois objetos com uso ativo do vazio** é "O vazio carrega peso" (ambas em
-`briefing-ilustracao.md`). As demais foram avaliadas uma a uma, com o mesmo critério que o
-Estilo B já aplica aos seus próprios candidatos descartados:
+`briefing-ilustracao.md`). As demais foram avaliadas uma a uma:
 
 | Abordagem | Veredito | Por quê |
 |---|---|---|
 | Multiplicação/fragmentação de um objeto | **Adotar, com limite** | Serve quando o argumento *é* repetição, escala ou padrão sistêmico (ex.: efeito em cascata). Fora desse caso, conflita com "Uma ideia, uma família de objetos" (`briefing-ilustracao.md`) — usar só quando a multiplicação carrega o argumento, nunca como decoração |
 | Objeto reconhecível como dispositivo de escala | **Adotar** | Já compatível com "Estranhamento de objeto comum" (`briefing-ilustracao.md`) — só nomeia um uso específico da regra que já existe |
 | Composição suprematista harmonizada | **Adotar, nomear** | Já permitida implicitamente em "Quando o assunto é abstrato" acima; a mudança é dar critério explícito de harmonização (poucas formas geométricas, relação de peso e eixo clara), em vez de deixar em aberto |
-| Colagem com traço desenhado à mão | **Rejeitar** | Introduz variação caligráfica; conflita com a geometria reta e o traço de espessura constante que já separam este estilo do Estilo B |
+| Colagem com traço desenhado à mão | **Rejeitar** | Introduz variação caligráfica; conflita com a geometria reta e o traço de espessura constante que o vocabulário de precisão mecânica exige quando ativado |
 | Caos deliberado, influência Dada | **Rejeitar** | Já explicitamente descartado acima — "isso é o que separa esta colagem de colagem bagunçada genérica" |
 
 **Proveniência cultural:** mesma regra de "Referência de cultura pop" de
 `briefing-ilustracao.md` — da fonte externa se extrai a abordagem compositiva, nunca um
 exemplo visual específico de um artista vivo a copiar. A tabela acima já é essa extração.
-
----
-
-## Estilo B — Notas de um Professor: desenho técnico esquemático
-
-**Registro:** preciso, construído, sem ornamento. É "um professor que já foi aluno e não se
-esqueceu": mostra o mecanismo aberto, com a paciência de quem lembra como é não entender.
-
-**Por que este estilo, e não os candidatos descartados:**
-
-| Candidato | Veredito |
-|---|---|
-| **Isométrico 3D** | Descartado — `DESIGN.md` §4.5 proíbe "3D render look", e isométrico corporativo é o estilo mais genérico de conteúdo tech/fintech gerado por IA |
-| **Blueprint clássico** (branco sobre ciano) | Paleta descartada (ciano não existe na marca); **gramática aproveitada** — linha de construção, projeção ortogonal, cota. É a base deste estilo, repintada na paleta da marca |
-| **Risograph / impressão analógica** | Descartado aqui — é o registro analógico, que pertence ao Spoiler. Usar nos dois colapsaria a distinção |
-| **Construtivista / Bauhaus** | Descartado — geometria chapada é on-brand, mas é registro *expressivo*, não *explicativo*. Esta linha precisa mostrar mecanismo, não afirmar atitude |
-
-O estilo escolhido é o que a marca já descreve para si mesma sem nomear: `DESIGN.md` posiciona
-a Syntaxis como "instrumento de precisão: mais terminal financeiro, menos SaaS genérico"
-(linha 10) e trata hairline como assinatura — "o grid é visível, como em terminal/planilha:
-precisão desenhada, não caixas flutuantes" (§4.4.3). As três famílias de padrão da marca (§5.2)
-já são vocabulário esquemático: nó-e-galho é diagrama de árvore, grade de dados é papel
-milimetrado. Este estilo não importa uma estética — formaliza a que já está no sistema.
-
-### Vocabulário
-
-- **Projeção ortogonal.** Vista frontal, corte ou vista explodida. Sem perspectiva, sem
-  ponto de fuga, sem profundidade falsa.
-- **Linha de construção visível.** Hairline mist `#E2E8F0` (sobre escuro) ou slate `#4A5568`
-  (sobre claro) marcando eixo, centro, alinhamento e extensão — a linha auxiliar fica na peça,
-  como em prancha técnica real. É o que faz o desenho parecer construído, não desenhado.
-- **Chamada com linha-guia** (*leader line*) apontando para a peça que importa — terminando
-  em ponto ou seta fina, **sem rótulo de texto** (o alt-text carrega o nome).
-- **Corte / vista explodida** quando o argumento for "por dentro isto é assim": camadas
-  separadas por espaço regular, alinhadas no mesmo eixo.
-- **Marca de cota** (linha fina com terminação em traço reto) quando o argumento envolver
-  prazo, distância ou proporção — nunca com número escrito.
-- **Grade de pontos** (`dataGrid` da marca) nas margens, opacidade baixa, só como respiro.
-- **Como desenhar um rosto (Faixa 1/2 de "Figuras históricas e públicas", acima):** rosto como
-  projeção ortogonal/contorno de linha — traço de espessura constante, sem sombreamento
-  realista, no mesmo espírito da linha de construção visível que rege o resto do estilo.
-  Retrato de manual técnico ou selo postal linear, nunca desenho figurativo realista.
-
-### Regras
-
-- Fundo: deepForest `#0F3D27` (padrão — é a prancha) ou chalk `#F7F7F5` para peças claras.
-- Estrutura principal: grove-300 `#78C9A4` sobre escuro; forest-500 `#1B6A45` sobre claro.
-- Linha de construção e auxiliares sempre um degrau abaixo da estrutura em contraste — elas
-  organizam, não competem.
-- Lime-500 marca **uma** peça: o elemento que o parágrafo está explicando naquele ponto. O
-  resto do mecanismo fica em verde estrutural. É o equivalente visual de apontar o dedo.
-- Simetria e alinhamento rigorosos. Composição centrada é permitida aqui (ao contrário do
-  Spoiler) — é prancha técnica, ordem é o assunto.
-- Traço de espessura constante. Sem variação caligráfica, sem "traço à mão".
 
 ---
 
@@ -235,14 +225,3 @@ arquivo é vocabulário e regra **agnósticos** de marca/composição (o que val
 seja o gerador); a sintaxe de chamada é camada condicional, separada desde 31/08/2026 (ver
 `pesquisa/frente-e-visuais/02-proposta.md`, item B.4). Gerador ativo hoje: **Nano Banana Pro**
 — ver `references/geradores/nano-banana-pro.md`.
-
----
-
-## Quando a linha editorial não está declarada
-
-**Pare e pergunte.** Não infira o estilo a partir da voz do texto: voz e linha editorial não
-são a mesma coisa, e já houve caso real disso no repositório — o post
-`2026-08-25-dividir-para-nao-correr-risco` foi escrito em voz **ensaística** sobre um produto
-de renda fixa, e o próprio briefing registrou que isso o tornava ambíguo entre as duas linhas
-(`processo/01-briefing.md`). Escolher estilo por dedução silenciosa nesse caso teria dado a um
-texto de produto a estética do relato pessoal, sem ninguém decidir isso.
