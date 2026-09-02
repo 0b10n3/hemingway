@@ -8,11 +8,13 @@ ideia de retorno à média:
 
 > "Se você lança uma moeda 100 vezes, obtendo cara em todos os lançamentos, você deveria
 > estar considerando seriamente a possibilidade de que essa moeda tenha algum vício ou
-> defeito." [VERIFICAR: a atribuição desta fala a Peter Kempthorne não se sustentou em três
-> rodadas de pesquisa/verificação — a página oficial de recursos do MIT OCW para esta aula
-> específica (Lecture 3, Probability Theory, 18.S096) segue listando Choongbum Lee como
-> instrutor, não Kempthorne. Confirmar assistindo ao vídeo da aula antes de publicar; se não
-> for possível confirmar, manter só "um dos professores do curso".]
+> defeito."
+
+[VERIFICAR: a atribuição desta fala a Peter Kempthorne não se sustentou em três rodadas de
+pesquisa/verificação — a página oficial de recursos do MIT OCW para esta aula específica
+(Lecture 3, Probability Theory, 18.S096) segue listando Choongbum Lee como instrutor, não
+Kempthorne. Confirmar assistindo ao vídeo da aula antes de publicar; se não for possível
+confirmar, manter só "um dos professores do curso".]
 
 A frase é dita no contexto de que muitas pessoas começam a esperar o retorno à média, mas
 acabam se esquecendo de que a própria média pode ter mudado.
@@ -190,8 +192,8 @@ passaram a aderir melhor ao modelo do que aderiam antes. O modelo não era uma c
 para o mercado; era um motor que o empurrava. Isso é reflexividade no sentido de George Soros:
 o observador é participante, e a crença coletiva no modelo altera o objeto modelado.
 
-Vale uma nota rápida sobre uma variação brasileira do mesmo problema, ainda que fora do
-universo estrito de opções. No segundo semestre de 2008, dezenas de exportadoras brasileiras
+Uma variação brasileira do mesmo problema, ainda que fora do universo estrito de opções: no
+segundo semestre de 2008, dezenas de exportadoras brasileiras
 carregavam estruturas de derivativos cambiais chamadas 'target forward', com 'payoff' (o
 resultado financeiro final) assimétrico: ganho limitado se o dólar caísse, perda alavancada e
 sem trava se ele disparasse. Enquanto o real se valorizava, a estrutura parecia hedge barato.
@@ -230,13 +232,12 @@ bilhões, é preciso alavancagem. Muita alavancagem.
 
 No fim de 1997, confiante nas próprias métricas, o fundo devolveu bilhões de dólares aos
 investidores por não encontrar oportunidades suficientes, mantendo o tamanho da carteira. O
-efeito foi mecânico: menos capital, mesmo risco, alavancagem maior — o fundo fechou 1997 com
-alavancagem de balanço de 28 para 1. No início de 1998 o LTCM operava com um patrimônio de
-cerca de US$4,8 bilhões contra mais de US$125 bilhões em ativos — alavancagem superior a 25
-para 1 — e um nocional de derivativos de balcão de US$1,3 trilhões ao fim de 1997, que chegou
-a US$1,5 trilhões ao fim de 1998. Vale registrar desde já, porque vai importar no fim:
-alavancar 25 vezes não é consequência do modelo, é escolha de quem opera o modelo. Nada
-obrigava os sócios a apostar naquele tamanho.
+efeito foi mecânico: menos capital, mesmo risco, mais alavancagem — o fundo fechou 1997 já em
+28 para 1 e seguia acima de 25 para 1 no início de 1998, quando operava com um patrimônio de
+cerca de US$4,8 bilhões contra mais de US$125 bilhões em ativos, e um nocional de derivativos
+de balcão de US$1,3 trilhões ao fim de 1997, que chegou a US$1,5 trilhões ao fim de 1998. Vale
+registrar desde já, porque vai importar no fim: alavancar 25 vezes não é consequência do
+modelo, é escolha de quem opera o modelo. Nada obrigava os sócios a apostar naquele tamanho.
 
 O sistema de risco era baseado em VaR (valor em risco: uma estimativa estatística da perda
 máxima esperada num horizonte de tempo, com certa probabilidade) e dizia, com serenidade, que

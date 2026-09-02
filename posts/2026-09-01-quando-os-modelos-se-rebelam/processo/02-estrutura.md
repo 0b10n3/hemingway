@@ -97,7 +97,9 @@ autor (seção 3 e Fechamento) ficam pendentes para a etapa 4.
   *Financial Modelers' Manifesto* e a tabela de seis perguntas que o analista deveria saber
   responder antes de entregar qualquer número saído de modelo.
 - **Ato:** resolução, segunda parte — "e daí, o que eu faço com isso".
-- **Pilar:** nenhum adicional — a tabela nativa do rascunho já é a peça.
+- **Pilar:** nenhum adicional — a lista numerada de seis perguntas do rascunho já é a peça
+  (corrigido em 02/09: o registro anterior dizia "tabela nativa", mas o formato real é lista
+  numerada, não tabela markdown — ver `05-critica.md` da rodada 3, achado 7).
 
 ## Fechamento — **fechamento (ensaístico)**
 
