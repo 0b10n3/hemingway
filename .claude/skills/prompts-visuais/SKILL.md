@@ -11,7 +11,7 @@ foi decidido e por quê, pelo critério da "Etapa 2" em `post-substack/SKILL.md`
 `posts/<slug>/04-draft-v1.md` ou o draft mais recente em `processo/`, e produz os entregáveis
 visuais: `capa.md` sempre, os demais quando o post tiver a peça correspondente. Usa
 `marca-syntaxis` para paleta/tipografia — leia `../../../../../brand/DESIGN.md` e
-`../../../../../brand/tokens/skill_test.tokens.json` antes de escrever qualquer prompt ou código
+`../../../../../brand/tokens/syntaxis.tokens.json` antes de escrever qualquer prompt ou código
 (ver nota de 31/08/2026 em `marca-syntaxis/SKILL.md`: posts publicados antes dessa data usam o
 sistema anterior e não são referência para trabalho novo).
 
@@ -141,7 +141,7 @@ Um bloco por `graf-NN`:
 - **Dados** salvos em `posts/<slug>/graficos/dados/graf-NN.csv`, versionados junto — um
   gráfico cujo dado não está no repositório não é reproduzível seis meses depois.
 - **Código Plotly executável**, em bloco ` ```python `, autocontido: lê o CSV ao lado por
-  caminho relativo, aplica os tokens de `../../../../../brand/tokens/skill_test.tokens.json` (leia o
+  caminho relativo, aplica os tokens de `../../../../../brand/tokens/syntaxis.tokens.json` (leia o
   JSON em runtime ou copie os valores `$value` exatos com comentário apontando a origem —
   nunca hardcode cor fora do tokens.json), exporta para `posts/<slug>/figuras/graf-NN.svg` e
   `.png`. Cada bloco roda sozinho, sem preâmbulo — teste com `python3` antes de considerar a
@@ -164,7 +164,7 @@ decisão — nenhum caso previsto hoje chega perto disso.
 
 Um bloco por `diag-NN`, mesmo formato de `graf-NN`: pergunta que o diagrama responde em uma
 frase; fonte dos dados só se houver número real embutido (senão, omitir a seção); código
-Plotly executável, autocontido, lendo `../../../../../brand/tokens/skill_test.tokens.json` em
+Plotly executável, autocontido, lendo `../../../../../brand/tokens/syntaxis.tokens.json` em
 runtime, exportando `posts/<slug>/figuras/diag-NN.svg` e `.png`; escolha de layout justificada
 em uma linha; alt-text.
 

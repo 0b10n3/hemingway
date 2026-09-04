@@ -51,9 +51,10 @@ posts/<slug>/      post.md, capa.md, ilustracoes.md, graficos.md, diagramas.md,
 .claude/agents/    subagentes de trabalho isolado (leitura pesada, pesquisa, crítica, verificação)
 ```
 
-**Nota de 31/08/2026:** este repo não mantém mais cópia própria de design tokens. A pasta
-`marca/` (que tinha `tokens.json` do sistema "O Sinal no Escuro" v2.1) foi removida —
-`../../brand/DESIGN.md` v2.0 é o sucessor declarado desse sistema e passa a ser a fonte
+**Nota de 31/08/2026 (atualizada em 04/09/2026 — sincronização com a v3.0):** este repo não
+mantém mais cópia própria de design tokens. A pasta `marca/` (que tinha `tokens.json` do
+sistema "O Sinal no Escuro" v2.1) foi removida — `../../brand/DESIGN.md` (hoje v3.0,
+reconstruído do zero na rodada 3) é o sucessor declarado desse sistema e passa a ser a fonte
 única de identidade visual para todo o ecossistema Syntaxis, não só para este repo. Nenhum
 gráfico ou ilustração já publicado foi regenerado — a correção vale só daqui para frente
 (ver `.claude/skills/marca-syntaxis/SKILL.md`).
@@ -67,7 +68,7 @@ gráfico ou ilustração já publicado foi regenerado — a correção vale só 
   copy/curso/produto, não da prosa ensaística de um autor específico. Os dois documentos
   coexistem porque descrevem coisas diferentes; nenhum substitui o outro.
 - **Marca/design tokens:** `../../brand/DESIGN.md` (regras) +
-  `../../brand/tokens/skill_test.tokens.json` (valores exatos, formato DTCG) — referenciados
+  `../../brand/tokens/syntaxis.tokens.json` (valores exatos, formato DTCG) — referenciados
   por caminho relativo, nunca copiados para dentro deste repo. Todo código Plotly em
   `graficos.md` novo lê esses arquivos em vez de repetir cor literal.
 - **Público e estratégia comercial:** `_arquivo/MARKETING_REVIEW.md`.

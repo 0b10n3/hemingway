@@ -1,7 +1,7 @@
 # Checagem de paleta na imagem gerada (não só no prompt)
 
 `graf-NN` e `diag-NN` são estruturalmente seguros porque o código lê
-`../../../../../brand/tokens/skill_test.tokens.json` em runtime — a cor é determinística. `ilu-NN` e a
+`../../../../../brand/tokens/syntaxis.tokens.json` em runtime — a cor é determinística. `ilu-NN` e a
 capa dependem de um gerador de imagem externo (Nano Banana Pro), e geradores são conhecidos por
 não aderir 100% ao hex pedido no prompt. O item 10 de `revisao-editorial/SKILL.md` audita hoje
 só o **texto** do prompt (grep de hex em `capa.md`/`ilustracoes.md`/`infograficos.md`) — isso
@@ -122,7 +122,7 @@ if __name__ == "__main__":
             print(f"  RGB{cor} ({fatia:.1%} da imagem) — mais próximo de {token_perto}, distância {dist} (limite {RGB_DIST_MAX})")
 ```
 
-Uso: `python3 checagem-paleta.py posts/<slug>/figuras/capa.png ../../brand/tokens/skill_test.tokens.json`
+Uso: `python3 checagem-paleta.py posts/<slug>/figuras/capa.png ../../brand/tokens/syntaxis.tokens.json`
 (ajuste os caminhos relativos ao diretório de execução).
 
 ## Saída

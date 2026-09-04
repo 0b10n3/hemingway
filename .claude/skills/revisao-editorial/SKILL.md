@@ -61,7 +61,7 @@ que olha as três juntas.
     `ilustracoes.md` e `infograficos.md` (arquivos baseados em prompt — `graficos.md` e
     `diagramas.md` já são estruturalmente seguros, o código lê `tokens.json` em runtime, não
     precisa desta checagem). Compare cada hex encontrado contra os valores `$value` de
-    `../../brand/tokens/skill_test.tokens.json` (leia o arquivo). Hex fora da lista vira
+    `../../brand/tokens/syntaxis.tokens.json` (leia o arquivo). Hex fora da lista vira
     pendência para o gate humano — não corrija sozinho qual token o autor quis dizer.
     **A isenção de `graficos.md`/`diagramas.md` pressupõe que o código roda com sucesso — esta
     etapa não executa o bloco Python, só lê o texto.** Quem confirma que o import de fato
