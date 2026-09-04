@@ -39,7 +39,9 @@ Template do guia oficial, adaptado:
       que o conceito pede — não com a linha editorial, que não determina mais estilo desde
       2026-09-01 (`estilos-ilustracao.md`, "Por que um estilo só")?
 - [ ] Todo hex citado existe na tabela de hex autorizados (`estilos-ilustracao.md`)?
-- [ ] A palavra "glow", "glowing", "luminous", "bloom" ou "gradient" **não** aparece?
+- [ ] A palavra "glow", "glowing", "luminous", "bloom", "gradient", "shadow", "drop shadow"
+      ou "soft shadow" **não** aparece? (profundidade é degrau de tom, nunca sombra — ver
+      "A escada" em `estilos-ilustracao.md`)
 - [ ] Lime aparece em exatamente um elemento (ou em nenhum, se não há virada/foco)?
 - [ ] O prompt descreve cena narrada, sem cauda de palavras-chave soltas?
 - [ ] Toda restrição está em forma positiva?

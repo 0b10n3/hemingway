@@ -3,9 +3,11 @@
 SSOT do **estilo artístico** das ilustrações (`ilu-NN`). Vale só para ilustração — gráficos
 (`graf-NN`) seguem `checklist-graficos.md` e não têm estilo por linha editorial.
 
-Criado em 31/08/2026. `brand/DESIGN.md` v2.0 define paleta, tipografia, formas e
-anti-padrões, mas **não define estilo de ilustração** — esta é a camada que faltava, e ela
-é subordinada ao `DESIGN.md`: em qualquer conflito, o `DESIGN.md` vence.
+Criado em 31/08/2026 (atualizado em 04/09/2026 — sincronização com a v3.0). `brand/DESIGN.md`
+(hoje v3.0) define paleta, tipografia, formas, anti-padrões e, desde a rodada 3, o mecanismo
+de profundidade da própria camada de ilustração (§7 — collage/paper cut, subordinado a este
+repositório como único consumidor). Este arquivo é a especificação executável dessa camada
+para o pipeline: em qualquer conflito, o `DESIGN.md` vence.
 
 **Revisão de 2026-09-01:** até esta data, o sistema tinha dois estilos por linha editorial
 (colagem para Spoiler, desenho técnico esquemático para Notas de um Professor). A pedido do
@@ -40,7 +42,7 @@ seção abaixo).
 
 ## Regras
 
-Regras 1, 2, 3, 4 e 6 são derivadas de `brand/DESIGN.md` §4.1, §4.5 e §5 — não são opinião
+Regras 1, 2, 3, 4 e 6 são derivadas de `brand/DESIGN.md` §4.1, §4.5 e §7 — não são opinião
 desta referência. A regra 5 (figura humana) **não** deriva de `DESIGN.md` — é critério próprio
 deste repositório, revisado em 2026-09-01 (ver `pesquisa/epico-figuras-em-ilustracao/`); a
 versão anterior ("sem figura humana reconhecível, rosto não") alegava a mesma proveniência de
@@ -61,12 +63,16 @@ recorrentes" em `briefing-ilustracao.md`) e sem reprodução literal de propried
 (ver "Referência de cultura pop", também em `briefing-ilustracao.md`) quando a ideia vier de
 uma referência externa (ex.: um robô de ficção científica específico).
 
-1. **Paleta fechada.** Só os tokens de `brand/tokens/skill_test.tokens.json`. Nenhum hex fora
+1. **Paleta fechada.** Só os tokens de `brand/tokens/syntaxis.tokens.json`. Nenhum hex fora
    da lista abaixo. Nenhuma cor "nova" porque ficou bonita.
-2. **Sem glow, gradiente, glassmorphism ou blob desfocado.** `DESIGN.md` §4.5 proíbe
-   explicitamente. Isto revoga a regra do "elemento iluminado" que os posts de agosto/2026
-   usavam (sistema anterior "O Sinal no Escuro") — **contraste agora é por cor chapada,
-   densidade e escala, nunca por luz.**
+2. **Sem glow, gradiente, glassmorphism, blob desfocado ou sombra — nenhuma exceção, nem
+   "chapada sem blur".** `DESIGN.md` §4.5 proíbe glow/gradiente/glassmorphism explicitamente;
+   §7.1/§7.2 (regra 4) fecha a lacuna que ainda restava — **sombra projetada é anti-padrão em
+   qualquer forma, mesmo sólida e sem blur.** Isto revoga duas regras antigas em sequência: o
+   "elemento iluminado" dos posts de agosto/2026 (contraste por glow verde sobre fundo escuro)
+   e, mais recentemente, a "sombra chapada" que substituiu o glow mas nunca foi validada contra
+   `DESIGN.md` (achado S7, `brand/REVOGACOES.md`) — **profundidade agora é só degrau de tom
+   entre os hex da pilha** (ver "A escada", abaixo), nunca luz nem sombra.
 3. **Lime é acento único e escasso.** Um só ponto de lime por peça, e só onde há ação ou
    conquista real (ou, em peça de mecanismo, só na peça que o parágrafo está explicando
    naquele ponto — ver "Quando o argumento pede precisão mecânica"). Lime-500 sobre fundo
@@ -107,20 +113,54 @@ estar ancorada num conceito do Passo 6, como qualquer outra `ilu-NN`.
 
 ### Hex autorizados
 
+Tabela reorganizada nos papéis semânticos de `illustration.*` (`brand/tokens/syntaxis.tokens.json`,
+§7 do `DESIGN.md`) — mesmos hexes de sempre, moldura corrigida: **pilha** é a escada de
+profundidade (a "escada", abaixo — nunca inclui grove nem lime), **figura** é o que fica sobre
+a pilha sem nunca empilhar, **acento** é só o lime, escasso e com teto de área.
+
 | Papel | Token | Hex |
 |---|---|---|
-| Âncora institucional | forest-500 | `#1B6A45` |
-| Estrutura em movimento | grove-500 | `#2D9E67` |
-| Estrutura clara / traço sobre escuro | grove-300 | `#78C9A4` |
-| Acento único (ação/conquista) | lime-500 | `#CDF163` |
-| Acento sobre fundo claro | lime-700 | `#5F7D1C` |
-| Papel / fundo claro | chalk | `#F7F7F5` |
-| Fundo escuro (prancha, banda) | deepForest | `#0F3D27` |
-| Fundo escuro máximo contraste | ink | `#141414` |
+| Pilha escura, nível 1 (mais escuro) | `illustration.stack.dark.layer1` (ink) | `#141414` |
+| Pilha escura, nível 2 | `illustration.stack.dark.layer2` (deepForest) | `#0F3D27` |
+| Pilha escura, nível 3 | `illustration.stack.dark.layer3` (forest-700) | `#125233` |
+| Pilha escura, nível 4 (mais claro) | `illustration.stack.dark.layer4` (forest-500) | `#1B6A45` |
+| Pilha clara, nível 1 (mais escuro) | `illustration.stack.light.layer1` (mist) | `#E2E8F0` |
+| Pilha clara, nível 2 | `illustration.stack.light.layer2` (mint) | `#E6F4EE` |
+| Pilha clara, nível 3 (mais claro) | `illustration.stack.light.layer3` (chalk) | `#F7F7F5` |
+| Figura, sobre a pilha (nunca empilha) | `illustration.figure.primary` (grove-500) | `#2D9E67` |
+| Figura, traço sobre escuro | `illustration.figure.secondary` (grove-300) | `#78C9A4` |
+| Acento único (ação/conquista) | `illustration.accent` (lime-500) | `#CDF163` |
+| Acento sobre pilha clara | lime-700 | `#5F7D1C` |
 | Secundário / traço neutro | slate | `#4A5568` |
-| Hairline / linha de construção | mist | `#E2E8F0` |
-| Superfície suave | mint | `#E6F4EE` |
-| Verde profundo (sombra chapada) | forest-900 | `#0A3320` |
+
+### A escada — como escrever profundidade sem sombra
+
+Duas camadas adjacentes da pilha diferem por **um degrau de luminância pequeno e regular**
+(0,017–0,046, medido e travado em `DESIGN.md` §7.1), nunca por sombra projetada — é o que faz
+a peça ler como papel empilhado sem violar a regra 2, acima.
+
+**Lição cara, já paga uma vez — vale para todo prompt novo:** linguagem **comparativa** entre
+folhas ("cada camada claramente mais clara que a anterior") faz o gerador inflar o intervalo e
+sair da paleta. Use **âncora absoluta**: cite o hex de cada folha, mais um adjetivo de família
+("verdes escuros e profundos, não médios nem claros"), nunca uma comparação relativa entre
+folhas.
+
+**Descreva a cena como imagem de scanner de mesa, luz idêntica em todo o quadro** — é a
+alavanca mais forte contra sombra projetada. Cada folha é "uma cor perfeitamente uniforme de
+borda a borda, o mesmo tom no meio e na margem". Na borda de uma abertura (onde uma camada
+revela a de baixo), não há espessura de papel visível nem escurecimento de borda — "no visible
+paper thickness, no wall, no bevel, no darkening at the rim" é a frase que resolve isso no
+prompt.
+
+Tetos numéricos, verificáveis, não de gosto (`illustration.*` em `syntaxis.tokens.json`):
+
+| Regra | Valor | Token |
+|---|---|---|
+| Matizes de pilha por peça | 1, mais um neutro estrutural | `illustration.maxHues` |
+| Cores ≥1% do quadro | entre 3 e 7 | `illustration.maxColors` |
+| Fundo mínimo do quadro | 40% | `illustration.minBackground` |
+| Acento (lime) do quadro | até 1%, medido 0,35% na peça de referência | `illustration.accentMaxCoverage` |
+| Granulação, amplitude de luminância | abaixo de 0,028 (um degrau da escada) | `illustration.grainMaxLuminanceAmplitude` |
 
 ---
 
@@ -134,16 +174,17 @@ preciso/construído (Notas de um Professor) através da composição escolhida, 
 ### Vocabulário
 
 - **Papel recortado como material dominante.** Formas em papel de cor chapada, sobrepostas em
-  camadas visíveis, com sombra chapada (offset sólido em forest-900, **sem blur**) marcando a
-  separação entre camadas.
+  camadas visíveis, separadas por **degrau de tom** entre os hex da pilha (ver "A escada",
+  acima) — nunca sombra, nem chapada.
 - **Corte reto é o padrão; rasgo é acento.** A tesoura/guilhotina domina — mantém a
   disciplina geométrica da marca. Uma borda rasgada por peça, no máximo, e só no fragmento
   que representa o ponto de ruptura da narrativa. Isso é o que separa esta colagem de
   "colagem bagunçada genérica".
 - **Retícula de meio-tom (halftone)** em uma ou duas formas — ponto visível, grande o
-  bastante para ler como impressão. Não é textura decorativa: é o parente direto do padrão
-  `dataGrid` da marca (`DESIGN.md` §5.2), o que ancora o estilo no sistema em vez de importá-lo
-  de fora.
+  bastante para ler como impressão. **Construída peça a peça, não derivada de
+  `pattern.reticula` da camada de sistema** — `DESIGN.md` §7.3 exige separação estrita entre
+  as duas camadas desde a rodada 3 (decisão A6): a retícula de ilustração é regra própria
+  desta seção, não herança do sistema.
 - **Desalinho de registro tipo risograph:** uma camada de cor deslocada 2–4px da forma que
   deveria preencher. Cor chapada, sem gradiente — riso é spot color, então isso não viola
   §4.5.
@@ -152,18 +193,23 @@ preciso/construído (Notas de um Professor) através da composição escolhida, 
 - **Como desenhar um rosto (Faixa 1/2 de "Figuras históricas e públicas", acima):** rosto como
   composição de papel recortado — formas geométricas simples (elipse, triângulo, faixa)
   compondo só os traços mínimos que tornam a pessoa reconhecível, mesma disciplina de material
-  do resto da peça (corte reto padrão, sombra chapada sem blur, retícula opcional numa camada,
-  paleta fechada). Retrato-colagem editorial de revista, nunca ilustração de rosto realista.
+  do resto da peça (corte reto padrão, degrau de tom entre camadas, retícula opcional numa
+  camada, paleta fechada). Retrato-colagem editorial de revista, nunca ilustração de rosto
+  realista.
 
 ### Regras
 
 - Fundo: chalk `#F7F7F5` (padrão) ou deepForest `#0F3D27` (quando o texto for sobre erro,
-  perda, "mundo invertido", ou quando a peça for de mecanismo/precisão — ver abaixo).
-- Camadas: forest-500, grove-500, mint, slate (ou grove-300 sobre fundo escuro). Máximo
-  **quatro** cores de papel por peça — acima disso vira ruído.
+  perda, "mundo invertido", ou quando a peça for de mecanismo/precisão — ver abaixo). Fundo
+  ocupa no mínimo 40% do quadro (`illustration.minBackground`).
+- Camadas: um matiz de pilha só, mais um neutro estrutural (`illustration.maxHues`) — ver "A
+  escada", acima, para os hex exatos por nível. Figura (grove-500, ou grove-300 sobre fundo
+  escuro) fica sobre a pilha, nunca é mais um degrau dela. Entre 3 e 7 cores ≥1% do quadro no
+  total (`illustration.maxColors`) — acima disso vira ruído.
 - Lime-500 aparece **uma vez só**, na forma que representa a virada, a saída, o spoiler útil —
   ou, em peça de mecanismo, a peça que o parágrafo está explicando naquele ponto. Se a peça
-  não tem virada nem ponto de explicação, não tem lime.
+  não tem virada nem ponto de explicação, não tem lime. Teto de área: 1% do quadro, medido
+  0,35% na peça de referência (`illustration.accentMaxCoverage`).
 - Composição assimétrica, com uma diagonal dominante, é o padrão — colagem centralizada e
   simétrica soa cartaz institucional, não relato. **Exceção:** quando o argumento é mostrar um
   mecanismo em corte/vista explodida (ver abaixo), composição centrada e simétrica é aceitável
@@ -181,8 +227,8 @@ outra técnica de renderização, é vocabulário de **composição** dentro da 
 papel recortado, para quando o argumento for "por dentro isto funciona assim":
 
 - **Vista em corte / explodida, em papel.** Camadas de papel separadas por espaço regular,
-  alinhadas no mesmo eixo, cada uma um componente do mecanismo — a mesma disciplina de sombra
-  chapada e corte reto do resto do vocabulário, só que a composição é ortogonal (vista
+  alinhadas no mesmo eixo, cada uma um componente do mecanismo — a mesma disciplina de degrau
+  de tom e corte reto do resto do vocabulário, só que a composição é ortogonal (vista
   frontal), sem perspectiva nem profundidade falsa.
 - **Linha de construção como tira fina de papel** (mist `#E2E8F0` sobre escuro, slate
   `#4A5568` sobre claro) marcando eixo, centro ou alinhamento — não é hairline vetorial, é uma
@@ -192,13 +238,14 @@ papel recortado, para quando o argumento for "por dentro isto funciona assim":
   nome).
 - **Marca de cota em papel** (tira fina com terminação em corte reto) quando o argumento
   envolver prazo, distância ou proporção — nunca com número escrito.
-- **Grade de pontos** (`dataGrid` da marca) como camada de fundo, opacidade baixa, só como
-  respiro — pode ser retícula de meio-tom bem espaçada, mantendo o vocabulário de material.
+- **Grade de pontos**, construída peça a peça (não derivada de `pattern.reticula` do sistema —
+  ver "Retícula de meio-tom", acima) como camada de fundo, opacidade baixa, só como respiro —
+  pode ser retícula de meio-tom bem espaçada, mantendo o vocabulário de material.
 
 Nessa família de composição, fundo deepForest é o mais comum (é "a prancha"), estrutura
 principal em grove-300 sobre escuro ou forest-500 sobre claro, e simetria/alinhamento
 rigoroso é aceitável (ver exceção de composição, acima). Isso não é um "modo alternativo" —
-continua sendo papel recortado, sombra chapada, paleta fechada; só a disposição dos objetos
+continua sendo papel recortado, degrau de tom, paleta fechada; só a disposição dos objetos
 muda para servir o argumento de mecanismo.
 
 ### Técnicas compositivas adicionais, avaliadas contra a marca
