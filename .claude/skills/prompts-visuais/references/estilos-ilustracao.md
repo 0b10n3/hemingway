@@ -162,6 +162,14 @@ Tetos numéricos, verificáveis, não de gosto (`illustration.*` em `syntaxis.to
 | Acento (lime) do quadro | até 1%, medido 0,35% na peça de referência | `illustration.accentMaxCoverage` |
 | Granulação, amplitude de luminância | abaixo de 0,028 (um degrau da escada) | `illustration.grainMaxLuminanceAmplitude` |
 
+**Sobrevivência à recompressão de plataforma, medida em 09/2026** (`references/checagem-graos.md`):
+o grão perde entre 40% e 53% da amplitude de alta frequência ao passar por LinkedIn, Instagram
+ou YouTube (sobrevivência de 47,3% a 59,4%, a três perfis de recompressão testados numa peça
+real gerada para o teste). O teto de 0,028 continua valendo — o achado muda é **onde dentro da
+faixa mirar**: peça pedida com grão perto do piso aceitável arrisca chegar quase lisa depois de
+publicada. Ao escrever o prompt, mire a metade superior da faixa aceitável, não o meio ou o
+piso.
+
 ---
 
 ## Colagem editorial
