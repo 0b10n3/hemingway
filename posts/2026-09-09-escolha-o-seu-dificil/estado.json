@@ -1,7 +1,11 @@
 {
   "etapa_atual": 10,
   "loops_consumidos": 0,
-  "aprovacoes": [],
-  "pendencias": [],
+  "aprovacoes": [
+    "2026-09-09: aprovado para publicação no gate humano, sem pedido de ajuste — post e visuais aceitos como consolidados na etapa 9"
+  ],
+  "pendencias": [
+    "BLOQUEIO publicação: a skill publicar tem disable-model-invocation: true e recusa ser chamada pelo orquestrador — precisa que o autor rode /publicar 2026-09-09-escolha-o-seu-dificil diretamente"
+  ],
   "commit_inicial": "f6cf9f4"
 }
