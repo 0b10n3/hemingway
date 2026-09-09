@@ -1,6 +1,6 @@
 ---
 name: revisao-editorial
-description: Passada final de coerência sobre um post já com crítica estrutural, revisão de linha e verificação técnica aplicadas — confere se as três etapas não se contradisseram e se os entregáveis (post.md, capa.md, ilustracoes.md, graficos.md, diagramas.md, infograficos.md quando existir) estão consistentes entre si. Use na etapa 9 do pipeline post-substack, ou isoladamente quando pedirem para "dar uma revisão final" num texto já pronto.
+description: Passada final de coerência sobre um post já com crítica estrutural, revisão de linha e verificação técnica aplicadas — confere se as três etapas não se contradisseram e se os entregáveis (post.md, graficos.md, diagramas.md, infograficos.md quando existir) estão consistentes entre si. Use na etapa 9 do pipeline post-substack, ou isoladamente quando pedirem para "dar uma revisão final" num texto já pronto.
 disable-model-invocation: true
 argument-hint: [caminho-do-slug-em-posts/]
 allowed-tools: Read Edit Glob Grep
@@ -27,10 +27,9 @@ que olha as três juntas.
    ponto único (`[FAIXA: ...]`), ambos devem aparecer no `post.md` visíveis — nunca
    silenciosamente resolvidos a favor de uma suposição ou do valor único original.
 
-4. **Placeholders consistentes entre os entregáveis.** Todo `ilu-NN`/`graf-NN`/`diag-NN`/
-   `info-NN` citado em `post.md` tem bloco correspondente em `ilustracoes.md`/`graficos.md`/
-   `diagramas.md`/`infograficos.md`, e vice-versa — nenhum placeholder órfão em nenhuma
-   direção.
+4. **Placeholders consistentes entre os entregáveis.** Todo `graf-NN`/`diag-NN`/`info-NN`
+   citado em `post.md` tem bloco correspondente em `graficos.md`/`diagramas.md`/
+   `infograficos.md`, e vice-versa — nenhum placeholder órfão em nenhuma direção.
 
 5. **Antipadrões de IA.** Passe `references` de `voz-syntaxis` (`antipadroes.md`) e, se
    houver tempo, a lista completa em `pesquisa/frente-d-antipadroes-ia-ptbr.md` sobre o texto
@@ -50,34 +49,12 @@ que olha as três juntas.
    (crítica estrutural) deixou passar isso — é informação para o gate humano decidir se vale
    reabrir a etapa 2, não uma correção silenciosa aqui.
 
-9. **Inventário visual completo.** Todo post tem `capa.md`. Todo `ilu-NN`/`graf-NN`/`diag-NN`/
-   `info-NN` referenciado em `post.md` tem bloco no arquivo certo (ver item 4). `infograficos.md`
-   só existe se o critério de gatilho de `prompts-visuais/SKILL.md` de fato se aplicou — se
-   existir sem justificativa registrada, sinalize. Todo prompt de imagem em `capa.md`/
-   `ilustracoes.md` declara no cabeçalho para qual gerador foi escrito (ver
-   `prompts-visuais/SKILL.md`, "Gerador ativo hoje") — se faltar, sinalize.
+9. **Inventário visual completo.** Todo `graf-NN`/`diag-NN`/`info-NN` referenciado em
+   `post.md` tem bloco no arquivo certo (ver item 4). `infograficos.md` só existe se o
+   critério de gatilho de `prompts-visuais/SKILL.md` de fato se aplicou — se existir sem
+   justificativa registrada, sinalize.
 
-10. **Paleta fora dos tokens — checagem mecânica.** `Grep` por `#[0-9A-Fa-f]{6}` em `capa.md`,
-    `ilustracoes.md` e `infograficos.md` (arquivos baseados em prompt — `graficos.md` e
-    `diagramas.md` já são estruturalmente seguros, o código lê `tokens.json` em runtime, não
-    precisa desta checagem). Compare cada hex encontrado contra os valores `$value` de
-    `../../brand/tokens/syntaxis.tokens.json` (leia o arquivo). Hex fora da lista vira
-    pendência para o gate humano — não corrija sozinho qual token o autor quis dizer.
-    **A isenção de `graficos.md`/`diagramas.md` pressupõe que o código roda com sucesso — esta
-    etapa não executa o bloco Python, só lê o texto.** Quem confirma que o import de fato
-    resolve é o autor, ao rodar o código antes de aprovar a figura no gate humano; se o
-    caminho do token estiver quebrado, o erro aparece ali, não aqui.
-
-    **Checagem do pixel, não só do prompt, para `ilu-NN`/capa já geradas.** O grep acima
-    audita o texto do prompt — confirma que ele só cita hex autorizado, não que a imagem que o
-    gerador devolveu de fato saiu com essa cor (geradores de imagem podem não aderir 100% ao
-    prompt). Para toda peça que já tiver PNG salvo em `posts/<slug>/figuras/` (não peças ainda
-    em estágio de prompt), rode a checagem mecânica de
-    `.claude/skills/prompts-visuais/references/checagem-paleta.md` contra o token de marca.
-    Cor fora da tolerância vira pendência para o gate humano, no mesmo padrão do grep de texto
-    — não corrija a imagem sozinho.
-
-11. **Gate de Tufte — checagem mecânica.** Para cada bloco de código em `graficos.md`/
+10. **Gate de Tufte — checagem mecânica.** Para cada bloco de código em `graficos.md`/
     `diagramas.md`: `rangemode="tozero"` presente (ou exceção justificada por escrito no
     spec)? Nenhuma menção a `3d`, sombra (`shadow` fora de `shadow.syntaxis*`), textura ou
     moldura no código? Se o spec já traz "Lie Factor" declarado, confira a conta; se a peça
@@ -87,6 +64,6 @@ que olha as três juntas.
 
 ## Saída
 
-Aplica as correções diretamente nos entregáveis (`post.md`, `capa.md`, `ilustracoes.md`,
-`graficos.md`, `diagramas.md`, `infograficos.md` quando existirem) e devolve um resumo curto
-do que mudou desde a etapa 7, para o gate humano (etapa 10) mostrar ao autor.
+Aplica as correções diretamente nos entregáveis (`post.md`, `graficos.md`, `diagramas.md`,
+`infograficos.md` quando existirem) e devolve um resumo curto do que mudou desde a etapa 7,
+para o gate humano (etapa 10) mostrar ao autor.

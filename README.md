@@ -11,8 +11,9 @@
 Este repositório **não é um projeto de código** — é um sistema editorial que roda dentro do
 Claude Code. Ele lê uma transcrição de áudio, passa por um pipeline de onze etapas
 (briefing → estrutura → pesquisa → draft → crítica → revisão → verificação → visuais →
-consolidação → aprovação sua), e devolve um post pronto para colar na Substack, com as
-ilustrações e os gráficos já especificados.
+consolidação → aprovação sua), e devolve um post pronto para colar na Substack, com os
+gráficos, diagramas e infográficos já especificados (capa e ilustração não fazem mais parte
+deste pipeline — ver nota em `.claude/skills/prompts-visuais/SKILL.md`).
 
 Este README é o manual de uso. Para as regras internas do sistema (o que cada skill pode e
 não pode fazer), veja `CLAUDE.md`. Para o histórico de como o sistema foi construído, veja
@@ -48,8 +49,8 @@ posts/AAAA-MM-DD-slug/processo/   (00 a 08 — rascunho, crítica, revisão, ver
       │
       │  etapa 9 consolida
       ▼
-posts/AAAA-MM-DD-slug/{post.md, capa.md, ilustracoes.md, graficos.md, diagramas.md, [infograficos.md]}
-      (os entregáveis — capa.md sempre, infograficos.md só condicional)
+posts/AAAA-MM-DD-slug/{post.md, [graficos.md], [diagramas.md], [infograficos.md]}
+      (os entregáveis — todos condicionais à peça existir)
       │
       │  etapa 10 — GATE HUMANO: você aprova, pede ajuste, ou aborta
       ▼
@@ -89,13 +90,13 @@ lendo os arquivos de `processo/` conforme eles aparecem.
 |---|---|---|
 | 0 | Ingestão | Limpa a transcrição (hesitação fora, suas palavras preservadas) sem tocar no original |
 | 1 | Briefing | Define tese, gancho, analogias a preservar, encaixe no funil, e qual das duas vozes (ensaística ou explicativa) o post vai usar |
-| 2 | Estrutura | Decide subtítulos, o que cada seção prova, e para cada ponto que precisa de visual escolhe por critério — gráfico (série numérica), diagrama (relação estrutural sem métrica), ilustração (metáfora do autor) ou infográfico (só se nenhuma peça isolada carregar a síntese) — e mapeia o arco narrativo |
+| 2 | Estrutura | Decide subtítulos, o que cada seção prova, e para cada ponto que precisa de visual escolhe por critério — gráfico (série numérica), diagrama (relação estrutural sem métrica) ou infográfico (só se nenhuma peça isolada carregar a síntese) — e mapeia o arco narrativo |
 | 3 | Pesquisa | Um subagente busca dados, contrapontos e como o tema é tratado — sem escrever prosa |
 | 4 | Draft | Primeira versão do texto, na sua voz |
 | 5 | Crítica estrutural | Um subagente diagnostica o argumento (sem reescrever); se achar problema grave, o pipeline volta à etapa 2 |
 | 6 | Linha e norma | Um subagente revisa frase e norma culta, sem mexer em estrutura |
 | 7 | Verificação técnica | Um subagente recalcula fórmulas e confere fontes; o que não fecha vira `[VERIFICAR: ...]` |
-| 8 | Visuais | Gera `capa.md` (capa obrigatória, 16:9), `ilustracoes.md` (prompts de imagem) e `graficos.md`/`diagramas.md` (specs + código Plotly); `infograficos.md` só no caso condicional |
+| 8 | Visuais | Gera `graficos.md`/`diagramas.md` (specs + código Plotly); `infograficos.md` só no caso condicional |
 | 9 | Consolidação | Junta tudo, confere coerência entre as etapas, emite os três entregáveis finais |
 | 10 | **Você decide** | O pipeline para e mostra o post pronto |
 
@@ -126,12 +127,10 @@ atualização do guia de voz.
 
 ### 5. Copie para a Substack
 
-Abra `posts/<slug>/post.md`, `capa.md`, `ilustracoes.md` e `graficos.md` (mais `diagramas.md`
-e `infograficos.md` quando existirem). Gere a capa a partir do prompt de `capa.md` e suba no
-campo de capa da Substack (não é um placeholder inline — ver `CLAUDE.md`). Gere as imagens de
-`ilustracoes.md`, rode os blocos Python de `graficos.md`/`diagramas.md` para gerar os SVGs/PNGs,
-substitua os placeholders `ilu-NN`/`graf-NN`/`diag-NN`/`info-NN` pelas imagens reais, e cole na
-Substack.
+Abra `posts/<slug>/post.md` e `graficos.md`/`diagramas.md`/`infograficos.md` quando existirem.
+Rode os blocos Python para gerar os SVGs/PNGs, substitua os placeholders
+`graf-NN`/`diag-NN`/`info-NN` pelas imagens reais, e cole na Substack. Capa e ilustração não
+são geradas por este pipeline — suba manualmente o que a Substack exigir.
 
 ## Retomando um post em andamento
 
@@ -189,8 +188,6 @@ pesquisa/           material de apoio (estilometria, editoração, antipadrões 
 
 posts/<slug>/       um post publicado ou em andamento
   ├─ post.md             o texto final
-  ├─ capa.md              prompt da capa obrigatória (16:9), sempre presente
-  ├─ ilustracoes.md      prompts de imagem prontos
   ├─ graficos.md          specs + código Plotly executável
   ├─ diagramas.md         specs + código Plotly de diagramas (nós/setas, sem série numérica)
   ├─ infograficos.md      só quando nenhuma peça isolada carrega a síntese (condicional)

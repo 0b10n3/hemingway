@@ -11,7 +11,7 @@ inteira na etapa 6 do pipeline (revisão de linha).
 | Nunca faz | Porquê importa |
 |---|---|
 | Negrito ou itálico de ênfase | Confirmado em 5/6 posts de Substack como ausência total. Aspas simples fazem esse trabalho. |
-| Tabela ou gráfico nativo no corpo do texto | Todo dado visual vira placeholder (`ilu-NN`/`graf-NN`) com legenda que carrega informação real. |
+| Tabela ou gráfico nativo no corpo do texto | Todo dado visual vira placeholder (`graf-NN`/`diag-NN`) com legenda que carrega informação real. |
 | Admitir incerteza na voz explicativa | Tom categórico do início ao fim nos posts de referência de produto (tesouro_selic, títulos). Incerteza pontual só aparece na voz ensaística. |
 | Humor/ironia na voz explicativa | Idem — humor é assinatura da voz ensaística, não do autor em geral. |
 | Metáfora retomada no fechamento | O autor abre com figura de linguagem e raramente volta a ela — é uma lacuna, não terreno pra "corrigir" sem avisar (ver §6 do guia, tensão com Gladwell/Lewis). |

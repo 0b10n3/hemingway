@@ -35,9 +35,6 @@ A ideia central dessa linha editorial é apresentar como enxergo a carreira no m
 
 Uma ideia pessoal que eu acabo refletindo nos textos e conteúdos é: *não é por que eu sofri que você também precisa sofrer.*
 
-**Estilo de ilustração:** colagem editorial — mesmo estilo de todo post desde 2026-09-01, ver
-`.claude/skills/prompts-visuais/references/estilos-ilustracao.md`.
-
 ### Notas de um Professor
 
 Textos de "um professor que já foi aluno e não se esqueceu". O combinado é sempre explicar da
@@ -53,8 +50,3 @@ balcão — quem adquire e quem emite — e, quando cabe, o papel do distribuido
 _(Definição registrada a partir da fala do autor na abertura de
 `_arquivo/transcricoes/2026-08-14_O Papel do CDB na Transformação de Prazos.md`, que é o post
 de estreia da série.)_
-
-**Estilo de ilustração:** colagem editorial — mesmo estilo de todo post desde 2026-09-01
-(antes era desenho técnico esquemático, retirado; ver
-`.claude/skills/prompts-visuais/references/estilos-ilustracao.md`, "Por que um estilo só").
-Peças de mecanismo usam a composição de precisão mecânica dentro da própria colagem.

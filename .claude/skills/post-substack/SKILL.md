@@ -45,13 +45,13 @@ cortar (ver `pesquisa/frente-c-editoracao.md`).
 |---|---|---|---|
 | 0 | Ingestão | principal | `00-transcricao.md` — cópia limpa (hesitação removida, palavras do autor preservadas) **e** inventário de marcadores do rascunho, se houver (ver "Etapa 0" abaixo). A crua fica intocada em `_arquivo/` |
 | 1 | Briefing | principal + `voz-syntaxis` + `marca-syntaxis` | `01-briefing.md` — tese em uma frase; gancho escolhido (cena, dado ou pergunta que abre o texto — não é a mesma coisa que a tese); analogias usadas no áudio (preservar, são do autor); encaixe no funil (`_arquivo/MARKETING_REVIEW.md` §5); qual voz (§4 do guia — ensaística ou explicativa); **qual linha editorial** (ver abaixo); resolução de todo marcador **estrutural** e **nota de conteúdo** do inventário da etapa 0 (ver "Etapa 0" abaixo) |
-| 2 | Estrutura | principal | `02-estrutura.md` — subtítulos; o que cada seção prova; em qual ato do arco cada seção entra (setup/conflito/resolução, ou a versão completa — ver `.claude/skills/revisao-editorial/references/tecnicas-narrativas.md`); confirmação de que dado, narrativa e visual (os três pilares) estão cada um representados em pelo menos uma seção; onde entra `ilu-NN`/`graf-NN`/`diag-NN`/`info-NN` e por quê, pelo critério da seção "Etapa 2" abaixo; o que fica de fora |
+| 2 | Estrutura | principal | `02-estrutura.md` — subtítulos; o que cada seção prova; em qual ato do arco cada seção entra (setup/conflito/resolução, ou a versão completa — ver `.claude/skills/revisao-editorial/references/tecnicas-narrativas.md`); confirmação de que dado, narrativa e visual (os três pilares) estão cada um representados em pelo menos uma seção; onde entra `graf-NN`/`diag-NN`/`info-NN` e por quê, pelo critério da seção "Etapa 2" abaixo; o que fica de fora |
 | 3 | Pesquisa | agente `pesquisador-editorial` | `03-pesquisa.md` com fontes — tratamento do tema, dados, contrapontos |
 | 4 | Draft | principal, com `voz-syntaxis` | `04-draft-v1.md` — toda **instrução de escrita** do inventário da etapa 0 aparece atendida, com nota lateral de como (ver "Etapa 0" abaixo) |
 | 5 | Crítica estrutural | agente `critico-editorial` | `05-critica.md` — diagnóstico com severidade por item, não reescreve |
 | 6 | Linha e norma | agente `revisor-gramatical` | `06-revisao.md` — diff comentado, não toca estrutura |
 | 7 | Verificação técnica | agente `verificador-tecnico` | `07-verificacao.md` — veredito por item, fórmulas recalculadas |
-| 8 | Visuais | skill `prompts-visuais` | `08-briefing-visual.md` (conceito de cada `ilu-NN`, com os descartes) + rascunho consolidado em `capa.md`, `ilustracoes.md`, `graficos.md`, `diagramas.md` e, condicional, `infograficos.md` |
+| 8 | Visuais | skill `prompts-visuais` | rascunho consolidado em `graficos.md`, `diagramas.md` e, condicional, `infograficos.md` |
 | 9 | Consolidação | skill `revisao-editorial` | aplica 5+6+7, emite os entregáveis finais (ver "Os entregáveis" abaixo) |
 | 10 | **Gate humano** | principal | apresenta o post, o que mudou, pendências `[VERIFICAR]`; **para e espera** |
 
@@ -78,9 +78,10 @@ classificado por um destes quatro padrões observados no corpus real — não é
 nem sintaxe obrigatória para o autor, é reconhecimento rápido do que já apareceu:
 
 - **Estrutural** — decide algo do pipeline (`[LINHA EDITORIAL: ...]`). Resolvido na etapa 1.
-- **Sugestão de visual** — ideia de capa ou ilustração, marcada (`[CAPA: ...]`) ou solta no
-  corpo do texto sem marcador formal. Resolvida na etapa 8
-  (`prompts-visuais/references/briefing-ilustracao.md`).
+- **Sugestão de visual** — ideia de gráfico, diagrama ou infográfico, marcada ou solta no
+  corpo do texto sem marcador formal. Resolvida na etapa 8 (`prompts-visuais/SKILL.md`). Uma
+  ideia de capa ou ilustração (`[CAPA: ...]`) não é mais resolvida por este pipeline — registre
+  como tensão na etapa 1 e leve ao gate humano, já que este sistema não produz mais essa peça.
 - **Instrução de escrita** — pede um trecho novo ou revisão de um existente
   (`[escrever um parágrafo sobre X]`, `[tentar reescrever o parágrafo acima]`). Resolvida na
   etapa 4.
@@ -115,33 +116,27 @@ pelo critério literal, de "Notas de um Professor") foi registrada em prosa no b
 acabou aprovada por inércia — carregada como item de uma lista de pendências genéricas até a
 etapa 10, sem nunca virar, de fato, uma pergunta que alguém respondesse.
 
-A linha escolhida vai para o frontmatter de `post.md` como `linha_editorial:` na etapa 9.
-**Desde 2026-09-01, ela não determina mais o estilo artístico das ilustrações** — o sistema
-foi unificado em colagem editorial para todo post, qualquer linha
-(`prompts-visuais/references/estilos-ilustracao.md`, "Por que um estilo só") — então a etapa 8
-não bloqueia mais por linha editorial ausente ou ambígua. A linha segue relevante para
-frontmatter e encaixe no funil (`_arquivo/MARKETING_REVIEW.md` §5), só não para visual.
+A linha escolhida vai para o frontmatter de `post.md` como `linha_editorial:` na etapa 9. Ela
+segue relevante para frontmatter e encaixe no funil (`_arquivo/MARKETING_REVIEW.md` §5); não
+bloqueia a etapa 8, que desde 2026-09-09 só produz gráfico, diagrama e infográfico — capa e
+ilustração saíram do pipeline (ver nota em `prompts-visuais/SKILL.md`).
 
-## Etapa 2 — ilustração, gráfico, diagrama ou infográfico: critério, não gosto
+## Etapa 2 — gráfico, diagrama ou infográfico: critério, não gosto
 
 Para cada ponto que a etapa 2 decidir que precisa de visual, decida o tipo por este critério,
 nesta ordem — e registre em `02-estrutura.md` por que os outros três perderam:
 
 1. Há série numérica real a comparar/mostrar trajetória? → **`graf-NN`**.
 2. Não há série, mas há relação estrutural entre entidades, fluxo, processo ou linha do tempo
-   sem métrica central? → **`diag-NN`**. Sinal de que devia ser isto e não `ilu-NN`: se o
-   conceito se resolve em formas geométricas comparadas — duas linhas, dois blocos — sem um
-   objeto concreto do texto por trás, é diagrama fantasiado de ilustração. Já aconteceu:
-   `posts/2026-08-17-o-mundo-invertido-das-carreiras-em-financas/ilustracoes.md`, revisão de
-   `ilu-02`.
-3. Nenhuma das duas, mas o texto tem metáfora/analogia/imagem própria do autor que carrega
-   argumento? → **`ilu-NN`**, via `prompts-visuais/references/briefing-ilustracao.md`.
-4. Só considere **`info-NN`** se nenhuma peça isolada acima carregar a síntese sozinha — ver
+   sem métrica central? → **`diag-NN`**. Sinal de que devia ser isto: se o conceito se resolve
+   em formas geométricas comparadas — duas linhas, dois blocos — sem uma métrica real por
+   trás, é diagrama.
+3. Só considere **`info-NN`** se nenhuma peça isolada acima carregar a síntese sozinha — ver
    critério de gatilho em `prompts-visuais/SKILL.md`. Padrão: não tem infográfico.
-
-Toda ideia visual do post tem, além disso, uma **capa** obrigatória (`capa.md`) — não é uma
-opção da lista acima, é item separado e sempre presente, especificado na etapa 8 a partir da
-tese e do gancho de `01-briefing.md` (não do corpo do texto).
+4. Nenhuma das três se aplica, mas o texto tem metáfora/analogia própria do autor que carregaria
+   o argumento? Este pipeline não produz mais ilustração (ver nota em
+   `prompts-visuais/SKILL.md`) — o ponto fica em prosa, sem peça visual, até existir o projeto
+   dedicado a isso.
 
 ## Etapa 10 — gate humano
 
@@ -161,9 +156,9 @@ Use `AskUserQuestion` com três saídas: **aprovar e publicar**, **ajustar**, **
 - Abortar → deixa a branch `post/<slug>` como está (não deleta — histórico de versões
   descartadas alimenta o modo `atualizar` da forja de voz), avisa o autor onde ela ficou.
 
-Antes do `AskUserQuestion`, apresente também o **inventário visual do post**: status da capa
-(gerada/pendente) e a lista de `ilu-NN`/`graf-NN`/`diag-NN`/`info-NN` com tipo e status — o
-autor decide com o inventário completo à vista, não só com o texto.
+Antes do `AskUserQuestion`, apresente também o **inventário visual do post**: a lista de
+`graf-NN`/`diag-NN`/`info-NN` com tipo e status — o autor decide com o inventário completo à
+vista, não só com o texto.
 
 **Toda tensão estrutural registrada na etapa 1** (ver "Etapa 1" acima) aparece aqui como
 pergunta própria, com rótulo (ex.: "Tensão — linha editorial") — nunca dissolvida dentro da
@@ -173,13 +168,12 @@ uma vira uma pergunta separada; não resuma várias em uma só.
 ## Os entregáveis (etapa 9, na raiz de `posts/<slug>/`)
 
 **`post.md`** — texto revisado, frontmatter (título, subtítulo, data, `linha_editorial`, tags,
-status), placeholders `![Ilustração: ...](ilu-NN)` / `![Gráfico: ...](graf-NN)` /
-`![Diagrama: ...](diag-NN)` / `![Infográfico: ...](info-NN)` com alt-text descritivo.
-**`capa.md`** — sempre presente, uma capa por post, especificada a partir de
-`01-briefing.md`, não do corpo. **`ilustracoes.md`**, **`graficos.md`** e **`diagramas.md`** —
-presentes quando o post tiver a peça correspondente. **`infograficos.md`** — só quando o
+status), placeholders `![Gráfico: ...](graf-NN)` / `![Diagrama: ...](diag-NN)` /
+`![Infográfico: ...](info-NN)` com alt-text descritivo. **`graficos.md`** e **`diagramas.md`**
+— presentes quando o post tiver a peça correspondente. **`infograficos.md`** — só quando o
 critério de gatilho do infográfico se aplicar (padrão: não existe). Ver skill
-`prompts-visuais` para o formato exato de cada um.
+`prompts-visuais` para o formato exato de cada um. Capa e ilustração saíram deste pipeline
+(ver `prompts-visuais/SKILL.md`).
 
 ## Regras que valem para toda etapa
 

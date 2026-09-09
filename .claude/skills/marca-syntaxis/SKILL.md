@@ -31,18 +31,13 @@ novo.
   (certificados, badges), nunca decoração ambiente. `pattern.reticula` é exclusivo da camada
   de sistema: a retícula usada em ilustração/colagem (`illustration.*`, §7 do `DESIGN.md`) é
   construída peça a peça, não derivada deste token — separação estrita entre as duas camadas.
-- `illustration.*` — tokens exclusivos da camada de ilustração/collage (pilha de tons, figura,
-  acento, tetos numéricos) — ver `brand/ILUSTRACOES/_bloco-marca.md` para o bloco pronto pra
-  colar em prompt, e `references/estilos-ilustracao.md` desta skill para o vocabulário
-  completo.
+- `illustration.*` — tokens da camada de ilustração/collage de `brand/`. **Nota de
+  2026-09-09:** este repo não gera mais capa/ilustração (ver `prompts-visuais/SKILL.md`), então
+  esta skill não consome mais `illustration.*` — o token continua existindo em `brand/` para o
+  projeto que assumir essa peça no futuro.
 
 ## Quando usar
 
-- **`prompts-visuais` (etapa 8 do pipeline):** todo prompt de imagem para o gerador
-  (`GERADOR_IMAGEM`) embute a paleta e o mecanismo de profundidade da ilustração (degrau de
-  tom entre os tokens `illustration.stack.*` — nunca sombra, ver
-  `references/estilos-ilustracao.md`) — leia `../../../../../brand/tokens/syntaxis.tokens.json`
-  antes de escrever o prompt, não invente hex.
 - **Código Plotly em `graficos.md`:** o bloco Python deve importar as cores de
   `../../../../../brand/tokens/syntaxis.tokens.json` (ex.: lendo o JSON em runtime, ou copiando
   os valores `$value` exatos com comentário apontando a origem) — nunca hardcode um hex que

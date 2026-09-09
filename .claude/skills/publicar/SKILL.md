@@ -11,9 +11,10 @@ atalho para pular o gate humano.
 
 ## Passo a passo
 
-1. **Confere completude.** `post.md`, `ilustracoes.md` e `graficos.md` existem em
-   `posts/<slug>/`? Algum tem `[VERIFICAR]` pendente? Se tiver, liste cada um e pergunte ao
-   autor se publica assim mesmo — não decida sozinho.
+1. **Confere completude.** `post.md` existe em `posts/<slug>/`? Cada peça visual declarada no
+   post (`graficos.md`/`diagramas.md`/`infograficos.md`, conforme existir) também está lá?
+   Algum tem `[VERIFICAR]` pendente? Se tiver, liste cada um e pergunte ao autor se publica
+   assim mesmo — não decida sozinho.
 
 2. **Commita o que restar solto** na branch `post/<slug>` (`git status` primeiro; nunca
    `git add -A` cego — revise o que está sendo adicionado).

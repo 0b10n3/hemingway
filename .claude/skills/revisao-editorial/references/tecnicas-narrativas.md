@@ -25,7 +25,7 @@ dois subgêneros para o mesmo ato final**:
 Todo rascunho deveria ter os três — a ausência de um é diagnóstico, não estilo:
 - **Dado** (evidência: número, fonte, estudo nomeado — regra 6 do guia).
 - **Narrativa** (sentido: por que esse dado importa, o que ele muda no raciocínio do leitor).
-- **Visual** (clareza: `ilu-NN`/`graf-NN` carregando informação real — regra 9 do guia).
+- **Visual** (clareza: `graf-NN`/`diag-NN` carregando informação real — regra 9 do guia).
 
 Só narrativa sem dado é opinião. Só dado sem narrativa é planilha. Só visual sem os outros
 dois é decoração.
