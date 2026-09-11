@@ -64,6 +64,56 @@ Critério aplicado, na ordem do `SKILL.md`:
    ilustração não é mais peça deste pipeline (nota de 2026-09-09). Já registrado como tensão na
    etapa 1 para o gate humano; a metáfora fica só em prosa.
 
+## Loop 1 — reentrada pedida pelo gate humano (2026-09-11)
+
+O gate humano da rodada 1 aprovou a estrutura de 5 seções, mas pediu três adições de conteúdo
+e um título/subtítulo novos (ver `estado.json`, `motivo_retorno`). Duas das três adições
+aprofundam seções já existentes, sem mudar o arco; a terceira é tese nova, sem lugar nas 5
+seções da rodada 1 — por isso a reentrada é na etapa 2, não direto na etapa 4.
+
+**Seção 2 (O Objetivo Escolhe o Fardo) — aprofundamento, sem mudar o que a seção prova.**
+Acrescenta o argumento "se você não escolhe conscientemente, seu chefe escolhe por você"
+(consequência concreta de não escolher o próprio difícil) — já é o que a seção argumenta em
+tese ("se você não escolhe os difíceis da sua jornada, alguém... escolhe por você"); o pedido
+do autor é tornar isso concreto com a figura do chefe, incluindo a ressalva de que nem todo
+chefe é um problema. Continua setup→conflito, mesmo pilar (dado: crítica ao VaR).
+
+**Seção 4 (Dificuldades com significado) — aprofundamento, sem mudar o que a seção prova.**
+Acrescenta "a disciplina não pode depender de ânimo, depende de significado" com exemplos
+concretos de teoria da medida/probabilidade avançada (Fubini, Radon-Nikodym, Decomposição de
+Lebesgue, convergência de medidas de probabilidade) — mesmo ponto já presente ("entender a
+demonstração antes de decorar a fórmula"), só com nomes próprios em vez de genérico. Continua
+resolução (parte 1), mesmo pilar (visual: `diag-01`).
+
+**Nova seção 5 (entre a atual 4 e a atual 5) — tese nova, não estava na rodada 1.**
+"O difícil chato fica mais valioso justamente porque a IA generativa faz o fácil." Prova: dá a
+razão de urgência — por que esse investimento em base "chata" importa *agora*, especificamente
+num mundo em que ferramentas de IA comoditizam a parte "pop"/de superfície do trabalho quant
+(rodar um modelo, montar um `trade system` básico). É resolução (parte 2): fortalece a tese
+antes do fechamento, não é setup nem conflito novo.
+
+Pilar coberto: **dado** — mas é um dado de natureza diferente dos outros dois (evidência
+empírica de ciência do esporte, crítica documentada pós-2008): aqui é argumento
+econômico/prospectivo sobre valor de habilidade num mercado de trabalho em mudança, mais frágil
+por natureza (é sobre o futuro, não sobre o passado). **Registrado para a etapa 7:** verificar
+se a afirmação precisa de hedge (`[VERIFICAR]` ou linguagem qualificada) em vez de tom
+categórico — é o tipo de claim mais fácil de exagerar sem perceber.
+
+**Visual:** nenhuma peça nova. Critério da etapa 2 (rodada 1) não muda: sem série numérica
+(sem `graf-NN`), sem fluxo/relação estrutural nova que `diag-01` já não cubra (a nova seção é
+argumentativa, não processual). `diag-01` segue sendo o único visual do post — a legenda não
+precisa mudar, porque a nova seção não altera a cadeia de Peterson que `diag-01` já representa.
+
+**Título/subtítulo:** ditados pelo autor no gate humano —
+"O Díficil sobre as Dificuldades em uma Carreira em Finanças" / "As partes difíceis que
+ninguém posta no instagram". Substituem os da rodada 1 (que eram tentativa da consolidação,
+não pedido do autor). Ajuste de norma culta (acentuação de "Difícil", maiúscula em
+"Instagram") fica para a etapa 6 desta rodada — não decidido aqui.
+
+**Arco final: 6 seções** — setup (1) → setup/conflito (2, aprofundada) → conflito (3) →
+resolução parte 1 (4, aprofundada) → resolução parte 2, nova (5) → resolução/fechamento (6, era
+a 5 da rodada 1).
+
 ## O que fica de fora
 
 - A cadeia "Dor A vs. Dor B" (seção 3) não vira diagrama: já está organizada como paralelismo

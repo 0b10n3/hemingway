@@ -1,5 +1,6 @@
 {
   "etapa_atual": 2,
+  "loop1_etapa3_pesquisa": "pulada deliberadamente — as três adições são aprofundamento de argumento já pesquisado (teoremas de teoria da medida, fatos matemáticos estáveis, não precisam de fonte externa) ou opinião do autor enquadrada como tal (tese sobre IA e valor de habilidade, não afirmação de 'estudos mostram') — etapa 7 desta rodada confere enquadramento/hedge em vez de rodar pesquisa nova",
   "loops_consumidos": 1,
   "ponto_retorno": "etapa 2 (estrutura) — reentrada por pedido do gate humano em 2026-09-11",
   "motivo_retorno": "Gate humano (rodada 1) pediu: (1) novo título/subtítulo ditados pelo autor; (2) expandir seção 2 com o argumento 'se você não escolhe, seu chefe escolhe por você'; (3) expandir seção 4 com 'significado sustenta a disciplina, não o ânimo' e exemplos concretos de teoremas de teoria da medida/probabilidade avançada; (4) novo argumento — habilidades difíceis ficam mais valiosas no mundo da IA generativa. Os itens 2 e 3 aprofundam seções existentes; o item 4 é tese nova, sem lugar na estrutura de 5 seções da rodada 1 — por isso reentrada na etapa 2, não direto na etapa 4.",
