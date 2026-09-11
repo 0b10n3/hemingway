@@ -114,6 +114,38 @@ não pedido do autor). Ajuste de norma culta (acentuação de "Difícil", maiús
 resolução parte 1 (4, aprofundada) → resolução parte 2, nova (5) → resolução/fechamento (6, era
 a 5 da rodada 1).
 
+## Loop 1, revisão 2 — crítica encontrou severidade alta, seção de IA reintegrada
+
+`05-critica-loop1.md` (agente `critico-editorial`) achou severidade alta: a seção nova sobre
+IA trocava o eixo do argumento (de "significado", a mecânica de Peterson, para "valor de
+mercado"), não era recolhida pelo fechamento, e sua frase final ("o que fica mais difícil de
+automatizar") competia como critério rival com a frase-tese da seção seguinte ("escolha aquilo
+que é significativo..."). Com 6 seções, isso também produzia três beats de resolução seguidos
+antes do fechamento real.
+
+**Decisão:** não cortar o conteúdo (o pedido do autor era claro) — subordinar o argumento de
+IA ao critério de significado em vez de propor um critério concorrente. Dois ajustes:
+
+1. **A seção deixa de ser um H2 próprio.** Vira um parágrafo mais curto, movido para dentro da
+   seção de fechamento ("Nem toda dificuldade vale a pena"), logo no início — antes da
+   ressalva "sempre escolha o mais difícil não é isso". Isso resolve o achado 5 (elimina o
+   terceiro beat de resolução) e evita competir com o pico da seção 4 (achado 3, parte
+   "posição").
+2. **A conclusão do parágrafo passa a apontar para significado, não para automação.** Em vez
+   de "o difícil que vale a pena é o que fica mais difícil de automatizar" (critério novo),
+   a frase final vira algo como "não é coincidência que o difícil com significado seja também
+   o mais difícil de automatizar — mas é consequência de escolher certo, não o motivo para
+   escolher". Isso resolve o achado 3 (parte "critério concorrente") — a IA vira evidência a
+   favor do critério já estabelecido, não um critério novo.
+
+Hedge (achado 4) também ajustado nesta reescrita: cortar "pelo menos não ainda" (concede que o
+argumento expira) e "não é uma previsão confortável de se admitir" (reforça em vez de
+qualificar); generalizações sem hedge ("para qualquer pessoa", "cada vez mais") suavizadas.
+
+**Arco final revisado: 5 seções**, igual à rodada 1 — a seção de IA não conta mais como seção
+própria, volta a ser 5 subtítulos H2, só que a seção de fechamento agora tem um parágrafo a
+mais no início.
+
 ## O que fica de fora
 
 - A cadeia "Dor A vs. Dor B" (seção 3) não vira diagrama: já está organizada como paralelismo
