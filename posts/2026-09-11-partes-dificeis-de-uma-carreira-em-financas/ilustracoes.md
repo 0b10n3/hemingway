@@ -55,3 +55,18 @@ mesma composição funciona nos dois tons, sem inconsistência com a marca).
 **Alt-text:** "Ilustração: coluna vertebral de papel recortado, em tons de verde floresta
 sobre fundo claro, com um rasgo horizontal na região lombar iluminado por um brilho
 verde-limão, revelando por baixo fórmulas de teoria da probabilidade — formato widescreen."
+
+## `ilu-01-16x9-dark`
+
+Variante dark de `ilu-01-16x9`, pedida pelo autor em 2026-09-11 — mesma composição e ideia,
+fundo trocado de claro para verde muito escuro (mais próximo da versão original `ilu-01`, que
+já era dark).
+
+**Arquivo:** `figuras/ilu-01-16x9-dark.png` — 1376×768px (proporção 1,79:1), mesma limitação
+de resolução já registrada em `ilu-01-16x9` (sem controle de resolução exposto pela
+ferramenta, 2K pedido não foi atendido, aceito pelo autor).
+
+**Alt-text:** "Ilustração: coluna vertebral de papel recortado em tons de verde floresta sobre
+fundo verde muito escuro, com um rasgo horizontal na região lombar iluminado por um brilho
+verde-limão, revelando por baixo fórmulas de teoria da probabilidade (Bayes, variância) —
+formato widescreen, variante dark."
