@@ -1,0 +1,10 @@
+{
+  "etapa_atual": 0,
+  "loops_consumidos": 0,
+  "aprovacoes": [],
+  "pendencias": [
+    "Tensão — conteúdo duplicado: corpo do texto de origem é idêntico ao post já aprovado 2026-09-09-escolha-o-seu-dificil (ver 00-transcricao.md)",
+    "Tensão — frontmatter de origem (título/subtítulo/data/linha editorial/tags) pertence ao post antigo, não foi decidido para este post novo"
+  ],
+  "commit_inicial": "a315ddb"
+}
