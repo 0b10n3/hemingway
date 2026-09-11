@@ -1,10 +1,11 @@
 {
-  "etapa_atual": 8,
+  "etapa_atual": 9,
   "loops_consumidos": 0,
   "aprovacoes": [],
   "pendencias": [
-    "Tensão — conteúdo duplicado: corpo do texto de origem é idêntico ao post já aprovado 2026-09-09-escolha-o-seu-dificil (ver 00-transcricao.md)",
-    "Tensão — frontmatter de origem (título/subtítulo/data/linha editorial/tags) pertence ao post antigo, não foi decidido para este post novo"
+    "Tensão — conteúdo duplicado: corpo do texto de origem é idêntico ao post já aprovado 2026-09-09-escolha-o-seu-dificil (ver 00-transcricao.md, 01-briefing.md) — pergunta nomeada para o gate humano, não resolvida por esta etapa",
+    "Tensão — ilustração ilu-01 fora de escopo: rascunho de origem pedia ilustração (coluna de papel), mas o pipeline não produz mais essa peça (nota de 2026-09-09) — pergunta nomeada para o gate humano",
+    "Resolvido na consolidação: [VERIFICAR] da citação de Peterson (07-verificacao.md) fechado pela opção (b) do verificador — aspas duplas removidas, frase tratada como paráfrase (já confirmada fiel ao original pela pesquisa), sem pendência visível no post.md"
   ],
   "commit_inicial": "a315ddb"
 }
