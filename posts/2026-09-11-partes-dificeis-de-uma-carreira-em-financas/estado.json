@@ -1,14 +1,15 @@
 {
-  "etapa_atual": 9,
+  "etapa_atual": 10,
   "loops_consumidos": 1,
   "ponto_retorno": "etapa 2 (estrutura) — reentrada por pedido do gate humano em 2026-09-11",
   "motivo_retorno": "Gate humano (rodada 1) pediu: (1) novo título/subtítulo ditados pelo autor; (2) expandir seção 2 com o argumento 'se você não escolhe, seu chefe escolhe por você'; (3) expandir seção 4 com 'significado sustenta a disciplina, não o ânimo' e exemplos concretos de teoremas de teoria da medida/probabilidade avançada; (4) novo argumento — habilidades difíceis ficam mais valiosas no mundo da IA generativa. Crítica estrutural (05-critica-loop1.md) achou severidade alta no item 4 como seção própria (competia com o critério de significado, não recolhida pelo fechamento) — corrigido subordinando o argumento ao critério existente, movido para dentro do fechamento (04-draft-v3.md), reconfirmado sem severidade alta em 05-critica-loop1-v2.md.",
-  "aprovacoes": [],
+  "aprovacoes": [
+    "2026-09-11: aprovado para publicação no gate humano (rodada 2), sem novo pedido de ajuste — post e visuais aceitos como consolidados na etapa 9. Ilustração ilu-01 mantida fora do post.md por decisão do autor no próprio gate."
+  ],
   "pendencias": [
-    "Resolvido pelo gate humano (rodada 1): conteúdo duplicado — este post (2026-09-11) substitui o post 2026-09-09-escolha-o-seu-dificil; a branch antiga fica sem publicar quando este publicar (ação de git nessa outra branch não tomada nesta etapa — decisão a executar no momento do /publicar)",
-    "Fora do pipeline: ilustração ilu-01 gerada via agy:image (figuras/ilu-01.png, ilustracoes.md) a pedido do gate humano — não inserida em post.md porque ilustração está fora do escopo formal do pipeline (nota de 2026-09-09); fica registrada como peça à parte",
-    "Resolvido na consolidação da rodada 1: [VERIFICAR] da citação de Peterson fechado pela opção (b) do verificador — paráfrase sem aspas duplas",
-    "Resolvido na verificação da rodada 2 (07-verificacao-loop1.md): teoremas de Fubini/Radon-Nikodym e claim sobre IA aprovados, nenhum [VERIFICAR] novo"
+    "BLOQUEIO publicação: a skill publicar tem disable-model-invocation: true e recusa ser chamada pelo orquestrador — precisa que o autor rode /publicar 2026-09-11-partes-dificeis-de-uma-carreira-em-financas diretamente",
+    "Ação pendente fora deste pipeline: branch post/2026-09-09-escolha-o-seu-dificil (conteúdo duplicado, já resolvido a favor deste post) fica sem publicar — decisão do autor sobre abandonar/fechar essa branch não foi executada aqui, só registrada",
+    "Ilustração ilu-01 (figuras/ilu-01.png, ilustracoes.md) gerada fora do pipeline, não referenciada em post.md por decisão do autor no gate humano"
   ],
   "commit_inicial": "a315ddb"
 }
