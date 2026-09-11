@@ -1,14 +1,14 @@
 {
-  "etapa_atual": 7,
-  "loop1_etapa3_pesquisa": "pulada deliberadamente — as três adições são aprofundamento de argumento já pesquisado (teoremas de teoria da medida, fatos matemáticos estáveis, não precisam de fonte externa) ou opinião do autor enquadrada como tal (tese sobre IA e valor de habilidade, não afirmação de 'estudos mostram') — etapa 7 desta rodada confere enquadramento/hedge em vez de rodar pesquisa nova",
+  "etapa_atual": 9,
   "loops_consumidos": 1,
   "ponto_retorno": "etapa 2 (estrutura) — reentrada por pedido do gate humano em 2026-09-11",
-  "motivo_retorno": "Gate humano (rodada 1) pediu: (1) novo título/subtítulo ditados pelo autor; (2) expandir seção 2 com o argumento 'se você não escolhe, seu chefe escolhe por você'; (3) expandir seção 4 com 'significado sustenta a disciplina, não o ânimo' e exemplos concretos de teoremas de teoria da medida/probabilidade avançada; (4) novo argumento — habilidades difíceis ficam mais valiosas no mundo da IA generativa. Os itens 2 e 3 aprofundam seções existentes; o item 4 é tese nova, sem lugar na estrutura de 5 seções da rodada 1 — por isso reentrada na etapa 2, não direto na etapa 4.",
+  "motivo_retorno": "Gate humano (rodada 1) pediu: (1) novo título/subtítulo ditados pelo autor; (2) expandir seção 2 com o argumento 'se você não escolhe, seu chefe escolhe por você'; (3) expandir seção 4 com 'significado sustenta a disciplina, não o ânimo' e exemplos concretos de teoremas de teoria da medida/probabilidade avançada; (4) novo argumento — habilidades difíceis ficam mais valiosas no mundo da IA generativa. Crítica estrutural (05-critica-loop1.md) achou severidade alta no item 4 como seção própria (competia com o critério de significado, não recolhida pelo fechamento) — corrigido subordinando o argumento ao critério existente, movido para dentro do fechamento (04-draft-v3.md), reconfirmado sem severidade alta em 05-critica-loop1-v2.md.",
   "aprovacoes": [],
   "pendencias": [
     "Resolvido pelo gate humano (rodada 1): conteúdo duplicado — este post (2026-09-11) substitui o post 2026-09-09-escolha-o-seu-dificil; a branch antiga fica sem publicar quando este publicar (ação de git nessa outra branch não tomada nesta etapa — decisão a executar no momento do /publicar)",
-    "Fora do pipeline: ilustração ilu-01 (coluna de papel) — gate humano pediu para produzir agora, fora do fluxo /post-substack; tratado como tarefa à parte, não bloqueia a etapa 10 deste pipeline",
-    "Resolvido na consolidação da rodada 1: [VERIFICAR] da citação de Peterson fechado pela opção (b) do verificador — paráfrase sem aspas duplas"
+    "Fora do pipeline: ilustração ilu-01 gerada via agy:image (figuras/ilu-01.png, ilustracoes.md) a pedido do gate humano — não inserida em post.md porque ilustração está fora do escopo formal do pipeline (nota de 2026-09-09); fica registrada como peça à parte",
+    "Resolvido na consolidação da rodada 1: [VERIFICAR] da citação de Peterson fechado pela opção (b) do verificador — paráfrase sem aspas duplas",
+    "Resolvido na verificação da rodada 2 (07-verificacao-loop1.md): teoremas de Fubini/Radon-Nikodym e claim sobre IA aprovados, nenhum [VERIFICAR] novo"
   ],
   "commit_inicial": "a315ddb"
 }
