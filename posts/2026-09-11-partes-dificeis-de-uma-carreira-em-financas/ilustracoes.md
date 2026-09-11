@@ -34,3 +34,24 @@ de fórmulas de teoria da probabilidade (Bayes, distribuição binomial, variân
 ```markdown
 ![Ilustração: coluna vertebral de papel recortado em tons de verde floresta, com um rasgo na lombar revelando fórmulas de probabilidade por baixo](ilu-01)
 ```
+
+## `ilu-01-16x9`
+
+Mesma imagem/ideia de `ilu-01`, variante widescreen pedida pelo autor em 2026-09-11 (proporção
+16:9, para uso em formatos que exigem horizontal — ex. capa de e-mail, banner).
+
+**Arquivo:** `figuras/ilu-01-16x9.png` — 1376×768px (proporção 1,79:1, o bucket nativo de
+"16:9" do gerador).
+
+**Resolução — limitação conhecida:** o pedido original era 2K (2048px+); a ferramenta
+`agy:image` não expõe parâmetro de resolução (só `--name`/`--output`), então pedir "2K" no
+texto do prompt não teve efeito — o gerador decide o tamanho de pixel sozinho. Aceito como
+está por decisão do autor (768px de altura é adequado para uso em newsletter/web, não para
+impressão ou tela grande).
+
+Paleta e estilo idênticos a `ilu-01` (fundo claro nesta variante, em vez de verde escuro — a
+mesma composição funciona nos dois tons, sem inconsistência com a marca).
+
+**Alt-text:** "Ilustração: coluna vertebral de papel recortado, em tons de verde floresta
+sobre fundo claro, com um rasgo horizontal na região lombar iluminado por um brilho
+verde-limão, revelando por baixo fórmulas de teoria da probabilidade — formato widescreen."
