@@ -70,3 +70,20 @@ ferramenta, 2K pedido não foi atendido, aceito pelo autor).
 fundo verde muito escuro, com um rasgo horizontal na região lombar iluminado por um brilho
 verde-limão, revelando por baixo fórmulas de teoria da probabilidade (Bayes, variância) —
 formato widescreen, variante dark."
+
+## `ilu-01-16x9-dark-2k`
+
+Upscale de `ilu-01-16x9-dark`, pedido pelo autor em 2026-09-11, para chegar perto da resolução
+2K originalmente pedida (que o gerador não atende via prompt — ver `ilu-01-16x9`).
+
+**Método — importante para não confundir com melhoria real de detalhe:** reamostragem
+Lanczos via Pillow (`Image.resize`, filtro `LANCZOS`), **não** super-resolução por IA — não
+há biblioteca de upscale neural (Real-ESRGAN, waifu2x etc.) instalada neste ambiente, e instalar
+uma stack de ML só para uma imagem seria desproporcional. Lanczos amplia os pixels existentes
+com interpolação de alta qualidade; não inventa detalhe novo nem melhora nitidez além do que já
+estava na imagem-fonte.
+
+**Arquivo:** `figuras/ilu-01-16x9-dark-2k.png` — 2048×1143px (mesma proporção 1,79:1 de
+`ilu-01-16x9-dark`, upscaled de 1376×768px).
+
+**Alt-text:** idêntico a `ilu-01-16x9-dark` — mesma imagem, só em resolução maior.
