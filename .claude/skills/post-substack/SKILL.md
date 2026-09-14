@@ -45,15 +45,15 @@ cortar (ver `pesquisa/frente-c-editoracao.md`).
 |---|---|---|---|
 | 0 | Leitura do rascunho | principal | `00-leitura.md` — cópia de trabalho do draft (a original fica intocada em `_arquivo/`) **e** inventário de marcadores, se houver (ver "Etapa 0" abaixo) |
 | 1 | Briefing | principal + `voz-syntaxis` + `marca-syntaxis` | `01-briefing.md` — tese em uma frase; gancho escolhido (cena, dado ou pergunta que abre o texto — não é a mesma coisa que a tese); analogias usadas no áudio (preservar, são do autor); encaixe no funil (`_arquivo/MARKETING_REVIEW.md` §5); qual voz (§4 do guia — ensaística ou explicativa); **qual linha editorial** (ver abaixo); resolução de todo marcador **estrutural** e **nota de conteúdo** do inventário da etapa 0 (ver "Etapa 0" abaixo) |
-| 2 | Estrutura | principal | `02-estrutura.md` — subtítulos; o que cada seção prova; em qual ato do arco cada seção entra (setup/conflito/resolução, ou a versão completa — ver `.claude/skills/revisao-editorial/references/tecnicas-narrativas.md`); confirmação de que dado, narrativa e visual (os três pilares) estão cada um representados em pelo menos uma seção; onde entra `graf-NN`/`diag-NN`/`info-NN` e por quê, pelo critério da seção "Etapa 2" abaixo; o que fica de fora |
+| 2 | Estrutura | principal | `02-estrutura.md` — subtítulos; o que cada seção prova; em qual ato do arco cada seção entra (setup/conflito/resolução, ou a versão completa — ver `.claude/agents/references/tecnicas-narrativas.md`); confirmação de que dado, narrativa e visual (os três pilares) estão cada um representados em pelo menos uma seção; onde entra `graf-NN`/`diag-NN`/`info-NN` e por quê, pelo critério da seção "Etapa 2" abaixo; o que fica de fora |
 | 3 | Pesquisa | agente `pesquisador-editorial` | `03-pesquisa.md` com fontes — tratamento do tema, dados, contrapontos |
 | 4 | Draft | principal, com `voz-syntaxis` | `04-draft-v1.md` — toda **instrução de escrita** do inventário da etapa 0 aparece atendida, com nota lateral de como (ver "Etapa 0" abaixo) |
 | 5 | Crítica estrutural | agente `critico-editorial` | `05-critica.md` — diagnóstico com severidade por item, não reescreve; se `linha_editorial: Spoiler`, inclui validação argumentativa (ver seção do agente) |
 | 5a | Revisão quantitativa (**só Spoiler**) | agente `revisor-quant` | `_revisoes/AAAA-MM-DD_slug_quant.md` — somente leitura, cada achado termina em pergunta ao autor; pula esta etapa se `linha_editorial` não for Spoiler |
 | 6 | Linha e norma | agente `revisor-gramatical` | `06-revisao.md` — diff comentado, não toca estrutura |
 | 7 | Verificação técnica | agente `verificador-tecnico` | `07-verificacao.md` — veredito por item, fórmulas recalculadas |
-| 8 | Visuais | skill `prompts-visuais` | rascunho consolidado em `graficos.md`, `diagramas.md` e, condicional, `infograficos.md` |
-| 9 | Consolidação | skill `revisao-editorial` | aplica 5+6+7, emite os entregáveis finais (ver "Os entregáveis" abaixo) |
+| 8 | Visuais | agente `prompts-visuais` | rascunho consolidado em `graficos.md`, `diagramas.md` e, condicional, `infograficos.md` |
+| 9 | Consolidação | agente `revisao-editorial` | aplica 5+6+7, emite os entregáveis finais (ver "Os entregáveis" abaixo) |
 | 10 | **Gate humano** | principal | apresenta o post, o que mudou, pendências `[VERIFICAR]`; **para e espera** |
 
 Cada etapa: grava seu arquivo em `processo/`, atualiza `estado.json.etapa_atual`, **commita**
@@ -92,7 +92,7 @@ nem sintaxe obrigatória para o autor, é reconhecimento rápido do que já apar
 
 - **Estrutural** — decide algo do pipeline (`[LINHA EDITORIAL: ...]`). Resolvido na etapa 1.
 - **Sugestão de visual** — ideia de gráfico, diagrama ou infográfico, marcada ou solta no
-  corpo do texto sem marcador formal. Resolvida na etapa 8 (`prompts-visuais/SKILL.md`). Uma
+  corpo do texto sem marcador formal. Resolvida na etapa 8 (`prompts-visuais`). Uma
   ideia de capa ou ilustração (`[CAPA: ...]`) não é mais resolvida por este pipeline — registre
   como tensão na etapa 1 e leve ao gate humano, já que este sistema não produz mais essa peça.
 - **Instrução de escrita** — pede um trecho novo ou revisão de um existente
@@ -150,7 +150,7 @@ etapa 10, sem nunca virar, de fato, uma pergunta que alguém respondesse.
 A linha escolhida vai para o frontmatter de `post.md` como `linha_editorial:` na etapa 9. Ela
 segue relevante para frontmatter e encaixe no funil (`_arquivo/MARKETING_REVIEW.md` §5); não
 bloqueia a etapa 8, que desde 2026-09-09 só produz gráfico, diagrama e infográfico — capa e
-ilustração saíram do pipeline (ver nota em `prompts-visuais/SKILL.md`).
+ilustração saíram do pipeline (ver nota em `prompts-visuais`).
 
 ## Etapa 2 — backward design explícito (só `linha_editorial: Notas de um Professor`)
 
@@ -177,10 +177,10 @@ nesta ordem — e registre em `02-estrutura.md` por que os outros três perderam
    em formas geométricas comparadas — duas linhas, dois blocos — sem uma métrica real por
    trás, é diagrama.
 3. Só considere **`info-NN`** se nenhuma peça isolada acima carregar a síntese sozinha — ver
-   critério de gatilho em `prompts-visuais/SKILL.md`. Padrão: não tem infográfico.
+   critério de gatilho em `prompts-visuais`. Padrão: não tem infográfico.
 4. Nenhuma das três se aplica, mas o texto tem metáfora/analogia própria do autor que carregaria
    o argumento? Este pipeline não produz mais ilustração (ver nota em
-   `prompts-visuais/SKILL.md`) — o ponto fica em prosa, sem peça visual, até existir o projeto
+   `prompts-visuais`) — o ponto fica em prosa, sem peça visual, até existir o projeto
    dedicado a isso.
 
 ## Etapa 10 — gate humano
@@ -221,7 +221,7 @@ status), placeholders `![Gráfico: ...](graf-NN)` / `![Diagrama: ...](diag-NN)` 
 — presentes quando o post tiver a peça correspondente. **`infograficos.md`** — só quando o
 critério de gatilho do infográfico se aplicar (padrão: não existe). Ver skill
 `prompts-visuais` para o formato exato de cada um. Capa e ilustração saíram deste pipeline
-(ver `prompts-visuais/SKILL.md`).
+(ver `prompts-visuais`).
 
 ## Regras que valem para toda etapa
 

@@ -21,7 +21,7 @@ parágrafo que você mesmo vai recomendar cortar é esforço jogado fora.
   `estilo/estilo-autoral.md`) está sendo seguida na estrutura do argumento, ou o texto
   mistura os dois tons dentro do mesmo post?
 - O rascunho tem os três pilares (dado, narrativa, visual — ver
-  `.claude/skills/revisao-editorial/references/tecnicas-narrativas.md`), ou é só narrativa
+  `.claude/agents/references/tecnicas-narrativas.md`), ou é só narrativa
   sem evidência, ou dado sem sentido?
 - O texto abre explicando como um número foi calculado, em vez de dizer o que ele significa?
   (Isto não se aplica a abrir definindo o produto na voz explicativa — só a

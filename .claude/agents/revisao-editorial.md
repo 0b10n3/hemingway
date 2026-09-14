@@ -1,16 +1,14 @@
 ---
 name: revisao-editorial
 description: Passada final de coerência sobre um post já com crítica estrutural, revisão de linha e verificação técnica aplicadas — confere se as três etapas não se contradisseram e se os entregáveis (post.md, graficos.md, diagramas.md, infograficos.md quando existir) estão consistentes entre si. Use na etapa 9 do pipeline post-substack, ou isoladamente quando pedirem para "dar uma revisão final" num texto já pronto.
-disable-model-invocation: true
-argument-hint: [caminho-do-slug-em-posts/]
-allowed-tools: Read Edit Glob Grep
+tools: Read, Edit, Glob, Grep
+model: inherit
 ---
 
-Esta skill roda **depois** das etapas 5 (crítica estrutural), 6 (linha/norma) e 7
-(verificação técnica) — ela não refaz o trabalho delas, confere se o resultado combinado
-ainda faz sentido como um todo. Editoração em camadas existe justamente para não misturar
-essas responsabilidades (ver `pesquisa/frente-c-editoracao.md`); esta skill é o único ponto
-que olha as três juntas.
+Roda **depois** das etapas 5 (crítica estrutural), 6 (linha/norma) e 7 (verificação técnica)
+— não refaz o trabalho delas, confere se o resultado combinado ainda faz sentido como um
+todo. Editoração em camadas existe justamente para não misturar essas responsabilidades (ver
+`pesquisa/frente-c-editoracao.md`); este é o único ponto que olha as três juntas.
 
 ## Checklist de consolidação
 
@@ -35,24 +33,24 @@ que olha as três juntas.
    houver tempo, a lista completa em `pesquisa/frente-d-antipadroes-ia-ptbr.md` sobre o texto
    final — a revisão de linha (etapa 6) já deve ter pego a maioria, esta é a rede de segurança.
 
-6. **Frontmatter do `post.md`** — título, subtítulo, data, tags, status — está preenchido e
-   coerente com o briefing (`01-briefing.md`)?
+6. **Frontmatter do `post.md`** — título, subtítulo, data, `linha_editorial`, tags, status —
+   está preenchido e coerente com o briefing (`01-briefing.md`)?
 
-7. **Manchete** (opcional — ver `references/tecnicas-narrativas.md`, "fórmula de manchete"):
-   o título testa a fórmula conceito+quebra-de-intuição+prática? Não é bloqueante — é
-   técnica a testar, não regra do guia de voz. Se aplicar bem, ótimo; se o título temático
-   atual já funciona, não force.
+7. **Manchete** (opcional — ver `.claude/agents/references/tecnicas-narrativas.md`, "fórmula
+   de manchete"): o título testa a fórmula conceito+quebra-de-intuição+prática? Não é
+   bloqueante — é técnica a testar, não regra do guia de voz. Se aplicar bem, ótimo; se o
+   título temático atual já funciona, não force.
 
 8. **Achado enterrado — alarme, não correção.** Se o insight mais forte do post ainda
-   estiver no meio de um parágrafo neste ponto do pipeline, esta skill não reestrutura (não
+   estiver no meio de um parágrafo neste ponto do pipeline, esta etapa não reestrutura (não
    é seu escopo, ver acima). Sinalize explicitamente no resumo da etapa 10 que a etapa 5
    (crítica estrutural) deixou passar isso — é informação para o gate humano decidir se vale
    reabrir a etapa 2, não uma correção silenciosa aqui.
 
 9. **Inventário visual completo.** Todo `graf-NN`/`diag-NN`/`info-NN` referenciado em
    `post.md` tem bloco no arquivo certo (ver item 4). `infograficos.md` só existe se o
-   critério de gatilho de `prompts-visuais/SKILL.md` de fato se aplicou — se existir sem
-   justificativa registrada, sinalize.
+   critério de gatilho de `prompts-visuais` de fato se aplicou — se existir sem justificativa
+   registrada, sinalize.
 
 10. **Fluxo por linha editorial — checagem final.**
     - `linha_editorial: Spoiler` — todo item `bloqueante` de
@@ -71,7 +69,7 @@ que olha as três juntas.
     moldura no código? Se o spec já traz "Lie Factor" declarado, confira a conta; se a peça
     tem ênfase visual e não declara, sinalize para o gate humano — não calcule por conta
     própria sem o dado bruto. Critério completo em
-    `.claude/skills/prompts-visuais/references/checklist-graficos.md`, seção "Gate de Tufte".
+    `.claude/agents/references/checklist-graficos.md`, seção "Gate de Tufte".
 
 ## Saída
 
