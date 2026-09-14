@@ -185,11 +185,14 @@ nesta ordem — e registre em `02-estrutura.md` por que os outros três perderam
 
 ## Etapa 10 — gate humano
 
-Use `AskUserQuestion` com três saídas: **aprovar e publicar**, **ajustar**, **abortar**.
+Use `AskUserQuestion` com três saídas: **aprovar**, **ajustar**, **abortar**.
 
-- Aprovar → informe o autor que a publicação requer `/publicar` manual (a skill tem
-  `disable-model-invocation: true` de propósito — merge, tag e push são ação de alto risco
-  demais para disparo automático).
+- Aprovar → apresente `post.md` (e `graficos.md`/`diagramas.md`/`infograficos.md` quando
+  existirem) prontos para o autor copiar manualmente para a Substack — não há automação de
+  publicação neste sistema. Se algum `[VERIFICAR]` ou `[FAIXA]` ficou pendente, liste cada um
+  e pergunte se o autor publica assim mesmo. Publicar (colar na Substack) e decidir o que
+  fazer com a branch (mergear em `main`, deixar como está) são ações manuais do autor, fora
+  deste pipeline.
 - Ajustar → pergunte o que mudar, reentre no **ponto mais raso que resolve o pedido**:
   - reentrada na etapa 4 ou anterior → **consome um loop** (o texto está sendo refeito);
   - reentrada nas etapas 5-9 → **não consome** (é acabamento, é para isso que o gate serve).
