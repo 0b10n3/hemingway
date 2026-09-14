@@ -1,8 +1,10 @@
 {
-  "etapa_atual": 4,
+  "etapa_atual": 5,
   "loops_consumidos": 0,
   "aprovacoes": [],
-  "pendencias": [],
+  "pendencias": [
+    "Severidade alta na crítica estrutural (etapa 5): Seção 5 subdesenvolvida + registro determinístico em série. Retorno à etapa 2 antes de seguir."
+  ],
   "commit_inicial": "4963704",
   "nota": "Slug de teste para validar o pipeline v2 ponta a ponta, a pedido do autor. Não é o post real 2026-09-11 (esse continua em post/2026-09-11-partes-dificeis-de-uma-carreira-em-financas, aprovado, aguardando cópia manual para a Substack)."
 }
