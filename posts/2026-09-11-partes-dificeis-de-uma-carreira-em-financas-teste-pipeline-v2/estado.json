@@ -1,18 +1,25 @@
 {
-  "etapa_atual": 9,
+  "etapa_atual": 10,
   "loops_consumidos": 0,
-  "aprovacoes": [],
+  "aprovacoes": [
+    {
+      "data": "2026-09-14",
+      "decisao": "aprovar",
+      "tensao_ilustracao": "Autor decidiu gerar ilu-01 fora do pipeline (como no post real 2026-09-11), não deixar de fora. Ação manual do autor, fora deste sistema."
+    }
+  ],
   "pendencias": [
-    "revisor-quant: 0 bloqueante, 2 atenção (contra-exemplo LTCM/Scholes-Merton enfraquece a moldura 'quem não entende a premissa'; construto de Credé é Conscienciosidade, mais amplo que 'disciplina no sentido comum'), 3 nitpick — vai ao gate humano (etapa 10)",
-    "Estruturais residuais de baixa severidade (05-critica-v2.md), fora do escopo da correção anterior: Seção 3 salto lógico VaR→qualquer difícil; Seção 2 três definições técnicas empilhadas sem respiro — decisão de reabrir etapa 2/5 é do autor",
-    "Tensão — ilustração: draft original tinha ideia de ilustração (ilu-01), que não é mais produzida por este pipeline (saiu em 2026-09-09) — decisão de gerar fora do pipeline ou deixar de fora está em aberto",
-    "Divergência de data: front-matter do draft original traz data: 2026-09-09, slug/pasta é 2026-09-11 — mantido o valor do draft, só sinalizado"
+    "revisor-quant: 2 atenção (contra-exemplo LTCM/Scholes-Merton; construto de Credé é Conscienciosidade, mais amplo que 'disciplina no sentido comum') + 3 nitpick — não bloquearam a aprovação, ficam como registro",
+    "Estruturais residuais de baixa severidade: Seção 3 salto lógico VaR→qualquer difícil; Seção 2 três definições técnicas empilhadas — não bloquearam a aprovação, ficam como registro",
+    "Ilustração ilu-01 a gerar fora do pipeline — ação manual do autor",
+    "Divergência de data (draft: 2026-09-09, slug/pasta: 2026-09-11) — não corrigida, só registrada"
   ],
   "resolvidos": [
-    "Severidade alta na crítica estrutural (etapa 5) — reentrada na etapa 2/4, draft v2 corrigiu Seção 5 e o registro determinístico em série; confirmado em 05-critica-v2.md.",
-    "Bloqueio da etapa 8 por prompts-visuais/revisao-editorial indisponíveis como agentes na sessão anterior — resolvido em sessão nova (2026-09-14).",
-    "Etapa 8 (visuais): diag-01 gerado, único visual do post, consistente com placeholder em post.md.",
-    "Etapa 9 (consolidação): post.md emitido com achados de 05/06/07 aplicados, sem [VERIFICAR]/[FAIXA] pendente; diagramas.md conferido, sem alteração necessária."
+    "Severidade alta na crítica estrutural (etapa 5) — resolvida no draft v2, confirmado em 05-critica-v2.md.",
+    "Bloqueio da etapa 8 (agentes indisponíveis na sessão anterior) — resolvido em sessão nova (2026-09-14).",
+    "Etapa 8 (visuais): diag-01 gerado e consistente.",
+    "Etapa 9 (consolidação): post.md emitido, sem [VERIFICAR]/[FAIXA] pendente.",
+    "Etapa 10 (gate humano): APROVADO em 2026-09-14. Post e diagrama prontos para cópia manual na Substack — publicação e decisão sobre a branch continuam fora deste pipeline."
   ],
   "commit_inicial": "4963704",
   "nota": "Slug de teste para validar o pipeline v2 ponta a ponta, a pedido do autor. Não é o post real 2026-09-11 (esse continua em post/2026-09-11-partes-dificeis-de-uma-carreira-em-financas, aprovado, aguardando cópia manual para a Substack)."
