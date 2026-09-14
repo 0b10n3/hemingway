@@ -104,10 +104,10 @@ estrutural vira pergunta ao autor, nunca edição silenciosa. Detalhes completos
 `.claude/skills/post-substack/SKILL.md` e `docs/BACKWARDS_DESIGN.md`.
 
 Os entregáveis (`post.md`, `graficos.md`/`diagramas.md` quando a peça existir,
-`infograficos.md` só no caso condicional — ver `.claude/skills/prompts-visuais/SKILL.md`)
+`infograficos.md` só no caso condicional — ver `.claude/agents/prompts-visuais.md`)
 ficam na raiz de `posts/<slug>/`, separados de `processo/`. **Nota de 2026-09-09:** capa e
 ilustração saíram deste pipeline — viram peça de um projeto próprio, ainda não criado (ver
-`prompts-visuais/SKILL.md`). Posts publicados antes desta data mantêm `capa.md`/
+`.claude/agents/prompts-visuais.md`). Posts publicados antes desta data mantêm `capa.md`/
 `ilustracoes.md` como registro do que foi feito, mesma regra de `_arquivo/` — intocáveis.
 
 ## Git
