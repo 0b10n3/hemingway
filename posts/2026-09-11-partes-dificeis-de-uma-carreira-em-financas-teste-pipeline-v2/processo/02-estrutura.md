@@ -37,3 +37,21 @@ Professor, ver `docs/BACKWARDS_DESIGN.md`).
    1) — este pipeline não produz mais essa peça; fica em prosa.
 
 **Decisão:** um único visual, `diag-01`, para a cadeia de Peterson.
+
+## Revisão (retorno da etapa 5 — severidade alta)
+
+A crítica estrutural (`05-critica.md`) encontrou dois achados de severidade alta:
+
+1. **Seção 5 subdesenvolvida** — o contrapeso "nem toda dificuldade vale a pena" tinha duas
+   frases sem apoio, exatamente onde a pesquisa (etapa 3) reuniu material aproveitável
+   (crítica de Credé ao "grit", viés de sobrevivência, "culpar a vítima"). **Correção
+   estrutural:** a Seção 5 ganha um parágrafo extra incorporando esse material — não é ajuste
+   de frase, é conteúdo novo que faltava na seção.
+2. **Registro determinístico em série** (seções 1, 2 e 4 — "garante", "consequência
+   mecânica", "a maioria não percebe") sem hedge suficiente ao longo do corpo, só recuando
+   tarde no fechamento. **Correção estrutural:** cada uma dessas três afirmações passa a
+   trazer o hedge no próprio parágrafo onde aparece (não só no fechamento) — decisão de
+   estrutura, não de palavra isolada, porque afeta o registro do texto inteiro, não um ponto.
+
+Voltando para a etapa 4 com essas duas correções — não é reescrita do zero, é redistribuição
+de ênfase e adição de conteúdo já pesquisado e não usado.

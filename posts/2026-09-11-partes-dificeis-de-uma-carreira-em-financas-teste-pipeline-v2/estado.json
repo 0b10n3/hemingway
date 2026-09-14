@@ -1,10 +1,11 @@
 {
-  "etapa_atual": 5,
+  "etapa_atual": 2,
   "loops_consumidos": 0,
   "aprovacoes": [],
   "pendencias": [
     "Severidade alta na crítica estrutural (etapa 5): Seção 5 subdesenvolvida + registro determinístico em série. Retorno à etapa 2 antes de seguir."
   ],
   "commit_inicial": "4963704",
-  "nota": "Slug de teste para validar o pipeline v2 ponta a ponta, a pedido do autor. Não é o post real 2026-09-11 (esse continua em post/2026-09-11-partes-dificeis-de-uma-carreira-em-financas, aprovado, aguardando cópia manual para a Substack)."
+  "nota": "Slug de teste para validar o pipeline v2 ponta a ponta, a pedido do autor. Não é o post real 2026-09-11 (esse continua em post/2026-09-11-partes-dificeis-de-uma-carreira-em-financas, aprovado, aguardando cópia manual para a Substack).",
+  "ponto_retorno": "etapa 2 (estrutura) — reentrada interna por severidade alta da crítica estrutural (etapa 5), não consome loop (loop é só pós-gate humano)"
 }
