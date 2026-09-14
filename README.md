@@ -14,7 +14,7 @@ editorial), passa por um pipeline de onze etapas mais sub-etapas condicionais po
 (briefing → estrutura → pesquisa → revisão/integração do rascunho → crítica → revisão →
 verificação → visuais → consolidação → aprovação sua), e devolve um post pronto para colar
 na Substack, com os gráficos, diagramas e infográficos já especificados (capa e ilustração
-não fazem mais parte deste pipeline — ver nota em `.claude/skills/prompts-visuais/SKILL.md`).
+não fazem mais parte deste pipeline — ver nota em `.claude/agents/prompts-visuais.md`).
 O pipeline não reescreve seu rascunho do zero nem reordena sua argumentação por conta
 própria — ele revisa, verifica, questiona e sugere; qualquer mudança estrutural vira
 pergunta para você, nunca edição silenciosa.
@@ -240,7 +240,7 @@ posts/<slug>/       um post publicado ou em andamento
 | Conferir um texto contra o guia sem publicar | `/forja-de-voz auditar <arquivo>` |
 | Comparar duas versões do guia | `/forja-de-voz diff <tagA> <tagB>` |
 | Reescrever algo fora do pipeline, na sua voz | invoque a skill `voz-syntaxis` ou só peça — ela carrega sozinha |
-| Gerar só os visuais de um post que já tem estrutura | skill `prompts-visuais` |
+| Gerar só os visuais de um post que já tem estrutura | peça no chat ("gera os visuais desse post") — dispara o agente `prompts-visuais`, não é mais comando de barra |
 
 ## Se algo der errado
 

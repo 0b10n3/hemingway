@@ -1,16 +1,15 @@
 ---
 name: prompts-visuais
 description: Gera as specs de gráfico e diagrama com código Plotly executável (graficos.md, diagramas.md) e, condicional, o infográfico (infograficos.md) de um post, a partir da estrutura definida na etapa 2 do pipeline. Use na etapa 8 do post-substack, ou isoladamente quando pedirem para "gerar os visuais" de um texto que já tem os placeholders graf-NN/diag-NN/info-NN marcados.
-disable-model-invocation: true
-argument-hint: [caminho-do-slug-em-posts/]
-allowed-tools: Read Write Edit Glob Grep Bash(python3 *)
+tools: Read, Write, Edit, Glob, Grep, Bash(python3 *)
+model: inherit
 ---
 
 Lê `posts/<slug>/processo/02-estrutura.md` (onde cada `graf-NN`/`diag-NN`/`info-NN` foi
 decidido e por quê, pelo critério da "Etapa 2" em `post-substack/SKILL.md`) e
 `posts/<slug>/04-draft-v1.md` ou o draft mais recente em `processo/`, e produz os entregáveis
 visuais: `graficos.md` e `diagramas.md` quando o post tiver a peça correspondente,
-`infograficos.md` condicional. Usa `marca-syntaxis` para paleta/tipografia — leia
+`infograficos.md` condicional. Usa a paleta/tipografia de `marca-syntaxis` — leia
 `../../../../../brand/DESIGN.md` e `../../../../../brand/tokens/syntaxis.tokens.json` antes de
 escrever qualquer código (ver nota de 31/08/2026 em `marca-syntaxis/SKILL.md`: posts
 publicados antes dessa data usam o sistema anterior e não são referência para trabalho novo).
@@ -25,7 +24,7 @@ trabalho novo.
 
 ## `graficos.md`
 
-Antes de escrever qualquer spec, leia `references/checklist-graficos.md` — anotação,
+Antes de escrever qualquer spec, leia `.claude/agents/references/checklist-graficos.md` — anotação,
 revelação progressiva e contraste genuíno vs. forçado.
 
 Um bloco por `graf-NN`:
@@ -37,15 +36,15 @@ Um bloco por `graf-NN`:
 - **Dados** salvos em `posts/<slug>/graficos/dados/graf-NN.csv`, versionados junto — um
   gráfico cujo dado não está no repositório não é reproduzível seis meses depois.
 - **Código Plotly executável**, em bloco ` ```python `, autocontido: lê o CSV ao lado por
-  caminho relativo, aplica os tokens de `../../../../../brand/tokens/syntaxis.tokens.json` (leia o
-  JSON em runtime ou copie os valores `$value` exatos com comentário apontando a origem —
+  caminho relativo, aplica os tokens de `../../../../../brand/tokens/syntaxis.tokens.json` (leia
+  o JSON em runtime ou copie os valores `$value` exatos com comentário apontando a origem —
   nunca hardcode cor fora do tokens.json), exporta para `posts/<slug>/figuras/graf-NN.svg` e
   `.png`. Cada bloco roda sozinho, sem preâmbulo — teste com `python3` antes de considerar a
   etapa concluída.
 - **Escolha de tipo de gráfico justificada** em uma linha, e o que foi descartado.
 - **Alt-text e legenda.**
 - **Anotação**: todo ponto de interesse tem `add_annotation` apontando para ele (ver
-  `references/checklist-graficos.md`).
+  `.claude/agents/references/checklist-graficos.md`).
 
 ## `diagramas.md`
 

@@ -32,7 +32,7 @@ novo.
   de sistema: a retícula usada em ilustração/colagem (`illustration.*`, §7 do `DESIGN.md`) é
   construída peça a peça, não derivada deste token — separação estrita entre as duas camadas.
 - `illustration.*` — tokens da camada de ilustração/collage de `brand/`. **Nota de
-  2026-09-09:** este repo não gera mais capa/ilustração (ver `prompts-visuais/SKILL.md`), então
+  2026-09-09:** este repo não gera mais capa/ilustração (ver `.claude/agents/prompts-visuais.md`), então
   esta skill não consome mais `illustration.*` — o token continua existindo em `brand/` para o
   projeto que assumir essa peça no futuro.
 
