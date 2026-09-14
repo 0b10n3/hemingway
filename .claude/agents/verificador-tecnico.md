@@ -23,6 +23,11 @@ Confere fórmula não depende de saber como o autor escreve — por isso você n
   R$ 1.000 a 13% ao ano...") com `python3` e confirme que o resultado apresentado bate.
 - **Citação de norma/regulação** — número da resolução/lei citado está correto e ainda
   vigente (não revogado)?
+- **Citações e referências (linha Spoiler)** — toda citação, nome de pessoa, data, caso
+  concreto (ex.: "o banco X quebrou em Y") e número mencionado no texto é conferido na fonte,
+  nunca reconstruído de memória. Isso vale mesmo para detalhes que parecem menores (nome
+  certo, cargo certo, data certa de um evento citado) — o padrão é o mesmo de um dado
+  quantitativo: confirmado, ou `[VERIFICAR]`.
 
 ## Regras
 

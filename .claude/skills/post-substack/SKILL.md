@@ -48,7 +48,8 @@ cortar (ver `pesquisa/frente-c-editoracao.md`).
 | 2 | Estrutura | principal | `02-estrutura.md` — subtítulos; o que cada seção prova; em qual ato do arco cada seção entra (setup/conflito/resolução, ou a versão completa — ver `.claude/skills/revisao-editorial/references/tecnicas-narrativas.md`); confirmação de que dado, narrativa e visual (os três pilares) estão cada um representados em pelo menos uma seção; onde entra `graf-NN`/`diag-NN`/`info-NN` e por quê, pelo critério da seção "Etapa 2" abaixo; o que fica de fora |
 | 3 | Pesquisa | agente `pesquisador-editorial` | `03-pesquisa.md` com fontes — tratamento do tema, dados, contrapontos |
 | 4 | Draft | principal, com `voz-syntaxis` | `04-draft-v1.md` — toda **instrução de escrita** do inventário da etapa 0 aparece atendida, com nota lateral de como (ver "Etapa 0" abaixo) |
-| 5 | Crítica estrutural | agente `critico-editorial` | `05-critica.md` — diagnóstico com severidade por item, não reescreve |
+| 5 | Crítica estrutural | agente `critico-editorial` | `05-critica.md` — diagnóstico com severidade por item, não reescreve; se `linha_editorial: Spoiler`, inclui validação argumentativa (ver seção do agente) |
+| 5a | Revisão quantitativa (**só Spoiler**) | agente `revisor-quant` | `_revisoes/AAAA-MM-DD_slug_quant.md` — somente leitura, cada achado termina em pergunta ao autor; pula esta etapa se `linha_editorial` não for Spoiler |
 | 6 | Linha e norma | agente `revisor-gramatical` | `06-revisao.md` — diff comentado, não toca estrutura |
 | 7 | Verificação técnica | agente `verificador-tecnico` | `07-verificacao.md` — veredito por item, fórmulas recalculadas |
 | 8 | Visuais | skill `prompts-visuais` | rascunho consolidado em `graficos.md`, `diagramas.md` e, condicional, `infograficos.md` |
@@ -61,6 +62,13 @@ não vale perder).
 
 **Se a etapa 5 devolver severidade alta** (tese frágil, seção que não prova o que promete),
 volte à etapa 2 antes de seguir, e avise o autor — não maqueie problema estrutural na etapa 6.
+
+**Etapa 5a — gate de bloqueantes.** Se `linha_editorial: Spoiler`, dispare `revisor-quant`
+depois da etapa 5. O pipeline **não avança para a etapa 6** enquanto houver item marcado
+`bloqueante` em `_revisoes/AAAA-MM-DD_slug_quant.md` sem resposta do autor — apresente os
+bloqueantes como pergunta nomeada (mesmo padrão de tensão estrutural da etapa 1), espere
+resposta, registre a resposta no próprio arquivo de revisão antes de seguir. Itens `atenção`
+e `nitpick` não bloqueiam; ficam visíveis para o gate humano (etapa 10) decidir se quer olhar.
 
 ## Etapa 0 — o arquivo de origem é rascunho, não transcrição
 
