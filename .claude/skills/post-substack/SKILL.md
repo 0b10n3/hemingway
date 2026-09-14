@@ -1,8 +1,8 @@
 ---
 name: post-substack
-description: Pipeline completo de transcrição de áudio a post publicável no Syntaxis, com verificação técnica, visuais e commit por etapa. Use quando o autor pedir para transformar uma transcrição em post, retomar um post em andamento, ou continuar o trabalho de um slug existente em posts/.
+description: Pipeline completo de rascunho pré-estruturado do autor a post publicável no Syntaxis, com verificação técnica, visuais e commit por etapa. Use quando o autor pedir para transformar um rascunho em post, retomar um post em andamento, ou continuar o trabalho de um slug existente em posts/.
 disable-model-invocation: true
-argument-hint: [caminho-da-transcrição-em-_arquivo/ | slug-existente-em-posts/]
+argument-hint: [caminho-do-draft-em-_arquivo/drafts/ | slug-existente-em-posts/]
 allowed-tools: Read Write Edit Glob Grep Bash(python3 *) Bash(git add *) Bash(git commit *) Bash(git status *) Bash(git diff *) Bash(git log *) Bash(git checkout -b *) Bash(git branch *)
 ---
 
@@ -11,7 +11,7 @@ gate humano — um subagente em background não consegue perguntar nada.
 
 ## Invocação
 
-- `/post-substack _arquivo/transcricoes/2026-08-10_titulo.txt` — começa um post novo.
+- `/post-substack _arquivo/drafts/2026-08-10_titulo.md` — começa um post novo.
 - `/post-substack <slug>` — retoma um post existente a partir de `posts/<slug>/estado.json`,
   na última etapa concluída.
 
@@ -43,12 +43,13 @@ cortar (ver `pesquisa/frente-c-editoracao.md`).
 
 | # | Etapa | Executor | Saída em `posts/<slug>/processo/` |
 |---|---|---|---|
-| 0 | Ingestão | principal | `00-transcricao.md` — cópia limpa (hesitação removida, palavras do autor preservadas) **e** inventário de marcadores do rascunho, se houver (ver "Etapa 0" abaixo). A crua fica intocada em `_arquivo/` |
+| 0 | Leitura do rascunho | principal | `00-leitura.md` — cópia de trabalho do draft (a original fica intocada em `_arquivo/`) **e** inventário de marcadores, se houver (ver "Etapa 0" abaixo) |
 | 1 | Briefing | principal + `voz-syntaxis` + `marca-syntaxis` | `01-briefing.md` — tese em uma frase; gancho escolhido (cena, dado ou pergunta que abre o texto — não é a mesma coisa que a tese); analogias usadas no áudio (preservar, são do autor); encaixe no funil (`_arquivo/MARKETING_REVIEW.md` §5); qual voz (§4 do guia — ensaística ou explicativa); **qual linha editorial** (ver abaixo); resolução de todo marcador **estrutural** e **nota de conteúdo** do inventário da etapa 0 (ver "Etapa 0" abaixo) |
 | 2 | Estrutura | principal | `02-estrutura.md` — subtítulos; o que cada seção prova; em qual ato do arco cada seção entra (setup/conflito/resolução, ou a versão completa — ver `.claude/skills/revisao-editorial/references/tecnicas-narrativas.md`); confirmação de que dado, narrativa e visual (os três pilares) estão cada um representados em pelo menos uma seção; onde entra `graf-NN`/`diag-NN`/`info-NN` e por quê, pelo critério da seção "Etapa 2" abaixo; o que fica de fora |
 | 3 | Pesquisa | agente `pesquisador-editorial` | `03-pesquisa.md` com fontes — tratamento do tema, dados, contrapontos |
 | 4 | Draft | principal, com `voz-syntaxis` | `04-draft-v1.md` — toda **instrução de escrita** do inventário da etapa 0 aparece atendida, com nota lateral de como (ver "Etapa 0" abaixo) |
-| 5 | Crítica estrutural | agente `critico-editorial` | `05-critica.md` — diagnóstico com severidade por item, não reescreve |
+| 5 | Crítica estrutural | agente `critico-editorial` | `05-critica.md` — diagnóstico com severidade por item, não reescreve; se `linha_editorial: Spoiler`, inclui validação argumentativa (ver seção do agente) |
+| 5a | Revisão quantitativa (**só Spoiler**) | agente `revisor-quant` | `_revisoes/AAAA-MM-DD_slug_quant.md` — somente leitura, cada achado termina em pergunta ao autor; pula esta etapa se `linha_editorial` não for Spoiler |
 | 6 | Linha e norma | agente `revisor-gramatical` | `06-revisao.md` — diff comentado, não toca estrutura |
 | 7 | Verificação técnica | agente `verificador-tecnico` | `07-verificacao.md` — veredito por item, fórmulas recalculadas |
 | 8 | Visuais | skill `prompts-visuais` | rascunho consolidado em `graficos.md`, `diagramas.md` e, condicional, `infograficos.md` |
@@ -62,17 +63,29 @@ não vale perder).
 **Se a etapa 5 devolver severidade alta** (tese frágil, seção que não prova o que promete),
 volte à etapa 2 antes de seguir, e avise o autor — não maqueie problema estrutural na etapa 6.
 
-## Etapa 0 — o arquivo de origem é rascunho, não transcrição
+**Etapa 5a — gate de bloqueantes.** Se `linha_editorial: Spoiler`, dispare `revisor-quant`
+depois da etapa 5. O pipeline **não avança para a etapa 6** enquanto houver item marcado
+`bloqueante` em `_revisoes/AAAA-MM-DD_slug_quant.md` sem resposta do autor — apresente os
+bloqueantes como pergunta nomeada (mesmo padrão de tensão estrutural da etapa 1), espere
+resposta, registre a resposta no próprio arquivo de revisão antes de seguir. Itens `atenção`
+e `nitpick` não bloqueiam; ficam visíveis para o gate humano (etapa 10) decidir se quer olhar.
 
-O arquivo em `_arquivo/transcricoes/` nem sempre é fala de áudio limpa de hesitação — pode ser
-um rascunho escrito pelo autor, com instruções para o próprio processo embutidas no texto
+## Etapa 0 — leitura do rascunho e inventário de marcadores
+
+O arquivo em `_arquivo/drafts/` é um rascunho escrito pelo autor, com estrutura, ordem de
+argumento e voz próprios — às vezes com instruções para o próprio processo embutidas no texto
 (caso real: `2026-09-01-quando-os-modelos-se-rebelam`, que já chegou com
 `[LINHA EDITORIAL: Spoiler]`, `[CAPA: ...]` e notas como `[escrever um parágrafo sobre X]`).
-Colchetes, ou qualquer outra marca visivelmente fora da prosa corrida, não são fala a limpar —
-são ordem de serviço para o pipeline. A etapa 0 é a única que lê o arquivo cru inteiro, então é
-dela a responsabilidade de não deixar nenhuma se perder.
+Colchetes, ou qualquer outra marca visivelmente fora da prosa corrida, são ordem de serviço
+para o pipeline, não texto a incorporar literalmente. A etapa 0 é a única que lê o arquivo
+cru inteiro, então é dela a responsabilidade de não deixar nenhuma marca se perder.
 
-Além da cópia limpa de sempre, `00-transcricao.md` ganha uma seção final **"Marcadores
+**O pipeline não reescreve o rascunho do zero nem reordena a argumentação por conta própria**
+— um rascunho já traz estrutura e voz do autor; o sistema revisa, verifica, questiona e
+sugere. Qualquer proposta de mudança estrutural vira sugestão explícita ao autor (via tensão
+registrada, ver Etapa 1) — nunca edição silenciosa.
+
+Além da cópia de trabalho de sempre, `00-leitura.md` ganha uma seção final **"Marcadores
 extraídos do rascunho"** (vazia se o arquivo não tiver nenhum): cada marcador citado verbatim,
 classificado por um destes quatro padrões observados no corpus real — não é taxonomia fechada
 nem sintaxe obrigatória para o autor, é reconhecimento rápido do que já apareceu:
@@ -93,17 +106,35 @@ resolve. Nenhum marcador desaparece silenciosamente entre etapas: se a etapa res
 achar solução, ele vira tensão registrada como pergunta nomeada (ver Etapa 1 abaixo) — nunca é
 descartado sem registro escrito de por quê.
 
-## Etapa 1 — linha editorial é campo obrigatório
+**Front-matter mínimo.** Todo draft em `_arquivo/drafts/` carrega front-matter YAML:
+
+```yaml
+---
+titulo:
+slug:
+data: AAAA-MM-DD
+linha_editorial: Spoiler | Notas de um Professor
+status: rascunho | em-revisao | aprovado
+---
+```
+
+A etapa 0 lê esse front-matter junto com o corpo do arquivo. Se `linha_editorial` estiver
+ausente ou não for um dos dois valores válidos, **o pipeline para e pergunta ao autor** —
+nunca infere pelo assunto do texto (ver Etapa 1 abaixo, é exatamente o erro que aconteceu com
+`2026-09-01-quando-os-modelos-se-rebelam`).
+
+## Etapa 1 — linha editorial é campo lido, não decidido
 
 A Substack tem duas linhas (`PROJECT_DESCRIPTION.md` §Linhas Editoriais):
 
 - **Spoiler** — carreira, relato de jornada pessoal, "spoiler" do que o leitor vai viver.
 - **Notas de um Professor** — conceito, produto ou mecanismo explicado com rigor técnico.
 
-O briefing declara a linha em uma seção própria (`## Linha editorial`), e ela é **decisão
-separada da voz**: já houve post em voz ensaística que não era Spoiler
-(`2026-08-25-dividir-para-nao-correr-risco`). Quando o texto não couber claramente em nenhuma
-das duas, **registre a ambiguidade e leve ao gate humano (etapa 10)** — não decida sozinho.
+O briefing **lê** `linha_editorial` do front-matter do draft (etapa 0) — não decide, não
+infere a partir do assunto. É **decisão separada da voz**: já houve post em voz ensaística que
+não era Spoiler (`2026-08-25-dividir-para-nao-correr-risco`). Se o front-matter não trouxer o
+campo, ou o autor achar que o valor declarado não serve mais depois de ver a estrutura,
+**registre a ambiguidade e leve ao gate humano (etapa 10)** — não decida sozinho.
 
 **"Levar ao gate humano" significa uma pergunta nomeada, não uma frase dissolvida numa lista.**
 Todo marcador **estrutural** ou **nota de conteúdo** do inventário da etapa 0 (ver acima) que
@@ -120,6 +151,20 @@ A linha escolhida vai para o frontmatter de `post.md` como `linha_editorial:` na
 segue relevante para frontmatter e encaixe no funil (`_arquivo/MARKETING_REVIEW.md` §5); não
 bloqueia a etapa 8, que desde 2026-09-09 só produz gráfico, diagrama e infográfico — capa e
 ilustração saíram do pipeline (ver nota em `prompts-visuais/SKILL.md`).
+
+## Etapa 2 — backward design explícito (só `linha_editorial: Notas de um Professor`)
+
+Antes de fechar a estrutura, preencha a **Ficha de Saída** (`docs/BACKWARDS_DESIGN.md` §2,
+8 campos — competência de saída, teste de transferência, tese de fundo, erro-alvo,
+ferramenta prática, âncora de autoridade, dois lados do balcão, ponte de série) dentro de
+`02-estrutura.md`. Isto declara o objetivo de aprendizagem do texto **antes** de escrever
+uma linha de prosa — é o backward design da Fase 5 do refactor, não um adorno.
+
+Depois de rascunhar as seções, confira: a sequência de fato entrega a competência de saída
+declarada no campo 1? Se não, a estrutura muda agora, na etapa 2 — não na etapa 9. Use os
+oito movimentos e as regras transversais de `docs/BACKWARDS_DESIGN.md` §3-§5 como referência
+de forma, não como gabarito rígido: nem todo movimento é obrigatório, ver a tabela de
+opcionais.
 
 ## Etapa 2 — gráfico, diagrama ou infográfico: critério, não gosto
 

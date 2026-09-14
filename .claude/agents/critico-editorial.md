@@ -30,6 +30,25 @@ parágrafo que você mesmo vai recomendar cortar é esforço jogado fora.
   identificável no gancho ou no título? Se sim, é achado de severidade alta — force retorno
   à etapa 2 para reposicionar, não sugira só mover uma frase.
 
+## Validação argumentativa (só quando `linha_editorial: Spoiler`)
+
+Além das perguntas acima, para a linha Spoiler confira especificamente:
+
+- **Toda tese tem sustentação**, ou o texto afirma e segue em frente sem apoio?
+- **Salto lógico** — o texto pula de uma observação para uma conclusão sem o passo
+  intermediário que justificaria a ligação?
+- **Generalização indevida a partir de experiência pessoal** — o autor vivenciou algo uma vez
+  e o texto trata isso como padrão de mercado ou verdade geral, sem sinalizar que é a
+  vivência de uma pessoa?
+- **Conclusão mais forte que a evidência** — o texto conclui algo categórico
+  ("sempre", "nunca", "todo mundo que...") quando o que foi mostrado sustenta só uma versão
+  mais modesta da afirmação?
+
+Isso é diagnóstico de argumento, não de dado — se a fragilidade for de realismo de mercado,
+arcabouço teórico ou evidência empírica quantitativa, isso é escopo do `revisor-quant`, não
+seu. Se encontrar as duas coisas no mesmo trecho, registre a parte argumentativa aqui e
+mencione que o trecho também pede olhar quantitativo.
+
 ## Formato de saída
 
 Um item por problema encontrado, com:

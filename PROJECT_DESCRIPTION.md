@@ -48,5 +48,5 @@ de produtos e instrumentos financeiros. Todo texto contextualiza o produto pelos
 balcão — quem adquire e quem emite — e, quando cabe, o papel do distribuidor.
 
 _(Definição registrada a partir da fala do autor na abertura de
-`_arquivo/transcricoes/2026-08-14_O Papel do CDB na Transformação de Prazos.md`, que é o post
+`_arquivo/drafts/2026-08-14_O Papel do CDB na Transformação de Prazos.md`, que é o post
 de estreia da série.)_

@@ -23,6 +23,29 @@ Confere fórmula não depende de saber como o autor escreve — por isso você n
   R$ 1.000 a 13% ao ano...") com `python3` e confirme que o resultado apresentado bate.
 - **Citação de norma/regulação** — número da resolução/lei citado está correto e ainda
   vigente (não revogado)?
+- **Citações e referências (linha Spoiler)** — toda citação, nome de pessoa, data, caso
+  concreto (ex.: "o banco X quebrou em Y") e número mencionado no texto é conferido na fonte,
+  nunca reconstruído de memória. Isso vale mesmo para detalhes que parecem menores (nome
+  certo, cargo certo, data certa de um evento citado) — o padrão é o mesmo de um dado
+  quantitativo: confirmado, ou `[VERIFICAR]`.
+
+## Verificações adicionais (linha `Notas de um Professor`)
+
+- **Fórmula: simbólica e numérica.** Não basta conferir a fórmula em si — recalcule com
+  `python3` usando os valores exatos que o próprio texto usa, e registre o cálculo de
+  verificação em `_revisoes/AAAA-MM-DD_slug_calculo.md`. Divergência entre o resultado do
+  texto e o seu recálculo é **bloqueante**, não `[VERIFICAR]`: o dado não está pendente de
+  fonte, está matematicamente incorreto.
+- **Aderência de exemplos à realidade brasileira.** Taxas, prazos, tributação, limites e
+  ordens de grandeza usados em exemplo didático são compatíveis com o mercado brasileiro na
+  data do texto? Exemplo simplificado é aceitável; exemplo irreal não é.
+- **Dois lados do balcão.** O texto explica o produto/mecanismo só pela ótica de quem
+  adquire, ou também pela de quem emite (e, quando cabe, quem distribui)? Se só o lado do
+  investidor estiver presente, isso é achado bloqueante — encaminhe para a etapa 5
+  (`critico-editorial`) como problema estrutural, não corrija você mesmo o texto.
+- **Regra de referências.** A bibliografia final tem no máximo 3-4 itens, com no mínimo 2
+  livros? Leis só entram como referência quando o próprio dispositivo legal é o ponto central
+  do texto (não como bibliografia de apoio). Fora disso, sinalize excesso ou falta de livros.
 
 ## Regras
 

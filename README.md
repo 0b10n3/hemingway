@@ -4,16 +4,20 @@
 
 <h1 align="center">hemingway</h1>
 
-<p align="center"><em>De transcrição de áudio a post publicável no Syntaxis, na sua voz, verificado tecnicamente.</em></p>
+<p align="center"><em>De rascunho a post publicável no Syntaxis, na sua voz, verificado tecnicamente.</em></p>
 
 ---
 
 Este repositório **não é um projeto de código** — é um sistema editorial que roda dentro do
-Claude Code. Ele lê uma transcrição de áudio, passa por um pipeline de onze etapas
-(briefing → estrutura → pesquisa → draft → crítica → revisão → verificação → visuais →
-consolidação → aprovação sua), e devolve um post pronto para colar na Substack, com os
-gráficos, diagramas e infográficos já especificados (capa e ilustração não fazem mais parte
-deste pipeline — ver nota em `.claude/skills/prompts-visuais/SKILL.md`).
+Claude Code. Ele lê um rascunho pré-estruturado seu (com front-matter declarando a linha
+editorial), passa por um pipeline de onze etapas mais sub-etapas condicionais por linha
+(briefing → estrutura → pesquisa → revisão/integração do rascunho → crítica → revisão →
+verificação → visuais → consolidação → aprovação sua), e devolve um post pronto para colar
+na Substack, com os gráficos, diagramas e infográficos já especificados (capa e ilustração
+não fazem mais parte deste pipeline — ver nota em `.claude/skills/prompts-visuais/SKILL.md`).
+O pipeline não reescreve seu rascunho do zero nem reordena sua argumentação por conta
+própria — ele revisa, verifica, questiona e sugere; qualquer mudança estrutural vira
+pergunta para você, nunca edição silenciosa.
 
 Este README é o manual de uso. Para as regras internas do sistema (o que cada skill pode e
 não pode fazer), veja `CLAUDE.md`. Para o histórico de como o sistema foi construído, veja
@@ -38,19 +42,21 @@ erro de "não encontrado".
 ## Visão geral do fluxo
 
 ```
-áudio (fora do repo)
-      │  você transcreve (ferramenta externa)
+você escreve o rascunho, com front-matter (título, slug, data, linha_editorial, status)
       ▼
-_arquivo/transcricoes/AAAA-MM-DD_slug.txt   (crua, nunca editada depois)
+_arquivo/drafts/AAAA-MM-DD_slug.md   (cru, nunca editado depois)
       │
-      │  /post-substack _arquivo/transcricoes/AAAA-MM-DD_slug.txt
+      │  /post-substack _arquivo/drafts/AAAA-MM-DD_slug.md
       ▼
-posts/AAAA-MM-DD-slug/processo/   (00 a 08 — rascunho, crítica, revisão, verificação...)
+posts/AAAA-MM-DD-slug/processo/   (00 a 09 — leitura, briefing, estrutura, crítica...)
+      │  linha_editorial roteia sub-etapas: Spoiler ganha revisor-quant (5a, gate
+      │  bloqueante); Notas de um Professor ganha Ficha de Saída na etapa 2
       │
       │  etapa 9 consolida
       ▼
 posts/AAAA-MM-DD-slug/{post.md, [graficos.md], [diagramas.md], [infograficos.md]}
       (os entregáveis — todos condicionais à peça existir)
+      _revisoes/AAAA-MM-DD-slug_*.md guarda as saídas de verificação condicional
       │
       │  etapa 10 — GATE HUMANO: você aprova, pede ajuste, ou aborta
       ▼
@@ -59,46 +65,70 @@ posts/AAAA-MM-DD-slug/{post.md, [graficos.md], [diagramas.md], [infograficos.md]
 
 ## Passo a passo — publicar um post do zero
 
-### 1. Grave e transcreva o áudio
+### 1. Escreva o rascunho
 
-Grave sua ideia como faria normalmente. Transcreva com a ferramenta que preferir (Whisper,
-o transcritor do seu celular, o que for) e salve o texto cru — com hesitações, repetições,
-tudo — em:
+Escreva sua ideia já estruturada — com a ordem de argumento e a voz que você quiser dar ao
+texto — e salve com front-matter YAML mínimo em:
 
 ```
-_arquivo/transcricoes/AAAA-MM-DD_titulo-resumido.txt
+_arquivo/drafts/AAAA-MM-DD_titulo-resumido.md
 ```
 
-Esse arquivo **nunca é editado depois de criado**. Se um dia esta pasta ganhar áudios
-(`_arquivo/audios/`), eles seguem a mesma regra e vão para o Git LFS automaticamente (já
-configurado em `.gitattributes`).
+```yaml
+---
+titulo:
+slug:
+data: AAAA-MM-DD
+linha_editorial: Spoiler | Notas de um Professor
+status: rascunho
+---
+```
+
+`linha_editorial` é obrigatório e roteia o pipeline para um dos dois fluxos (ver seção
+"Duas linhas editoriais" abaixo). Se faltar ou vier com valor inválido, o pipeline para e
+pergunta — nunca adivinha pelo assunto do texto. Esse arquivo **nunca é editado depois de
+criado**. Se um dia esta pasta ganhar áudios (`_arquivo/audios/`), eles seguem a mesma regra
+e vão para o Git LFS automaticamente (já configurado em `.gitattributes`).
 
 ### 2. Rode o pipeline
 
 Dentro do Claude Code, na raiz do repo:
 
 ```
-/post-substack _arquivo/transcricoes/AAAA-MM-DD_titulo-resumido.txt
+/post-substack _arquivo/drafts/AAAA-MM-DD_titulo-resumido.md
 ```
 
-Isso cria a branch `post/AAAA-MM-DD-titulo-resumido` e começa a rodar as onze etapas. Cada
-etapa grava seu arquivo em `posts/<slug>/processo/`, atualiza `estado.json` e commita
-sozinha — você não precisa fazer nada até a etapa 10, mas pode acompanhar em tempo real
-lendo os arquivos de `processo/` conforme eles aparecem.
+Isso cria a branch `post/AAAA-MM-DD-titulo-resumido` e começa a rodar as onze etapas mais as
+sub-etapas condicionais da sua linha editorial. Cada etapa grava seu arquivo em
+`posts/<slug>/processo/`, atualiza `estado.json` e commita sozinha — você não precisa fazer
+nada até a etapa 10, mas pode acompanhar em tempo real lendo os arquivos de `processo/`
+conforme eles aparecem.
 
 | # | Etapa | O que acontece |
 |---|---|---|
-| 0 | Ingestão | Limpa a transcrição (hesitação fora, suas palavras preservadas) sem tocar no original |
-| 1 | Briefing | Define tese, gancho, analogias a preservar, encaixe no funil, e qual das duas vozes (ensaística ou explicativa) o post vai usar |
-| 2 | Estrutura | Decide subtítulos, o que cada seção prova, e para cada ponto que precisa de visual escolhe por critério — gráfico (série numérica), diagrama (relação estrutural sem métrica) ou infográfico (só se nenhuma peça isolada carregar a síntese) — e mapeia o arco narrativo |
+| 0 | Leitura do rascunho | Lê o front-matter e o corpo, monta cópia de trabalho e inventário de marcadores, sem tocar no original |
+| 1 | Briefing | Lê `linha_editorial` do front-matter (não decide); define tese, gancho, analogias a preservar, encaixe no funil, e qual das duas vozes (ensaística ou explicativa) o post vai usar |
+| 2 | Estrutura | Decide subtítulos, o que cada seção prova, e para cada ponto que precisa de visual escolhe por critério — gráfico (série numérica), diagrama (relação estrutural sem métrica) ou infográfico (só se nenhuma peça isolada carregar a síntese). **Linha Notas de um Professor:** preenche a Ficha de Saída de backward design antes de fechar a estrutura (`docs/BACKWARDS_DESIGN.md`) |
 | 3 | Pesquisa | Um subagente busca dados, contrapontos e como o tema é tratado — sem escrever prosa |
-| 4 | Draft | Primeira versão do texto, na sua voz |
-| 5 | Crítica estrutural | Um subagente diagnostica o argumento (sem reescrever); se achar problema grave, o pipeline volta à etapa 2 |
+| 4 | Revisão/integração | Revisa e completa o rascunho na sua voz — não reescreve do zero; qualquer mudança de estrutura vira pergunta a você |
+| 5 | Crítica estrutural | Um subagente diagnostica o argumento (sem reescrever); se achar problema grave, o pipeline volta à etapa 2. **Linha Spoiler:** inclui validação argumentativa (salto lógico, generalização indevida, conclusão mais forte que a evidência) |
+| 5a | Revisão quantitativa (**só linha Spoiler**) | Um subagente somente-leitura (`revisor-quant`) aponta fragilidade de realismo de mercado/teoria/evidência, sempre como pergunta a você. Itens `bloqueante` **param o pipeline** até você responder |
 | 6 | Linha e norma | Um subagente revisa frase e norma culta, sem mexer em estrutura |
-| 7 | Verificação técnica | Um subagente recalcula fórmulas e confere fontes; o que não fecha vira `[VERIFICAR: ...]` |
+| 7 | Verificação técnica | Um subagente recalcula fórmulas e confere fontes; o que não fecha vira `[VERIFICAR: ...]`. **Linha Spoiler:** confere nome/data/caso citado. **Linha Notas:** confere os dois lados do balcão, aderência dos exemplos ao Brasil, e a regra de referências (3-4, ≥2 livros) |
 | 8 | Visuais | Gera `graficos.md`/`diagramas.md` (specs + código Plotly); `infograficos.md` só no caso condicional |
-| 9 | Consolidação | Junta tudo, confere coerência entre as etapas, emite os três entregáveis finais |
+| 9 | Consolidação | Junta tudo, confere coerência entre as etapas (inclusive o gate da sua linha editorial), emite os entregáveis finais |
 | 10 | **Você decide** | O pipeline para e mostra o post pronto |
+
+### Duas linhas editoriais
+
+| | Spoiler | Notas de um Professor |
+|---|---|---|
+| Sobre | Carreira, relato de jornada pessoal — "não é porque eu sofri que você também precisa sofrer" | Conceito/produto/instrumento financeiro, explicado com rigor técnico e os dois lados do balcão |
+| Registro | Conversa, menos formal | Aula — backward design explícito (etapa 2) |
+| Verificação extra | Argumento (salto lógico, generalização) + citação/nome/data + `revisor-quant` (etapa 5a, gate bloqueante) | Fórmula recalculada + dois lados do balcão + exemplos reais no Brasil + 3-4 referências, ≥2 livros |
+
+Definição completa em `PROJECT_DESCRIPTION.md` §Linhas Editoriais; estrutura da linha Notas
+em `docs/BACKWARDS_DESIGN.md`.
 
 ### 3. O gate — sua única decisão obrigatória
 
@@ -173,8 +203,8 @@ admirados (ver `estilo/CHANGELOG.md` para a v1.0.0). Ele **fossiliza se nunca fo
 
 ```
 _arquivo/          originais imutáveis — nunca editados depois de commitados
-  ├─ audios/           gravações cruas (Git LFS)
-  ├─ transcricoes/     transcrições cruas
+  ├─ audios/           gravações cruas (Git LFS), se houver
+  ├─ drafts/           rascunhos crus do autor, com front-matter (linha_editorial etc.)
   ├─ amostras/         textos usados para construir o guia de voz
   └─ MANIFESTO.md      origem e proveniência de cada item acima
 
@@ -184,7 +214,12 @@ estilo/             o guia de voz e seus derivados
   ├─ corpus-manifest.json  hash de cada amostra usada
   └─ scripts/metricas.py   camada quantitativa (roda com `python3`)
 
-pesquisa/           material de apoio (estilometria, editoração, antipadrões de IA em pt-BR)
+docs/               documentação permanente absorvida de material de apoio
+  └─ BACKWARDS_DESIGN.md   backward design da linha "Notas de um Professor"
+
+pesquisa/           auditoria e histórico do próprio sistema hemingway
+_pesquisa/          Deep Research pontual (via agy) sobre metodologia editorial
+_revisoes/          saídas de revisão condicional por linha (revisor-quant, cálculo numérico)
 
 posts/<slug>/       um post publicado ou em andamento
   ├─ post.md             o texto final
@@ -204,7 +239,7 @@ posts/<slug>/       um post publicado ou em andamento
 
 | Quero... | Comando |
 |---|---|
-| Começar um post novo | `/post-substack _arquivo/transcricoes/<arquivo>.txt` |
+| Começar um post novo | `/post-substack _arquivo/drafts/<arquivo>.md` |
 | Retomar um post | `/post-substack <slug>` |
 | Publicar um post aprovado | `/publicar <slug>` |
 | Atualizar o guia de voz com amostra nova | `/forja-de-voz atualizar <arquivo>` |
