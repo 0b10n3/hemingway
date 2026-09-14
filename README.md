@@ -60,7 +60,7 @@ posts/AAAA-MM-DD-slug/{post.md, [graficos.md], [diagramas.md], [infograficos.md]
       │
       │  etapa 10 — GATE HUMANO: você aprova, pede ajuste, ou aborta
       ▼
-  aprovar → /publicar slug   →   main + tag publicado/AAAA-MM-DD-slug → GitHub
+  aprovar → você copia post.md (e visuais) manualmente para a Substack
 ```
 
 ## Passo a passo — publicar um post do zero
@@ -135,32 +135,26 @@ em `docs/BACKWARDS_DESIGN.md`.
 Na etapa 10 você vê o post final, o que mudou desde o rascunho, e qualquer pendência
 `[VERIFICAR: ...]`. Três opções:
 
-- **Aprovar e publicar** → o sistema chama `/publicar` sozinho (ver passo 4).
+- **Aprovar** → o post está pronto (ver passo 4, copiar para a Substack). Este sistema não
+  automatiza publicação nem merge/tag/push — quem cola o texto na Substack, e quem decide se
+  e quando mergear a branch em `main`, é você.
 - **Ajustar** → diga o que quer mudar. O pipeline volta só até onde precisa (se for algo de
   conteúdo, refaz o draft — conta como um "loop"; se for só acabamento, refaz revisão/visuais
   sem gastar loop). Você tem 3 rodadas de ajuste por padrão antes do sistema parar e te
   entregar o estado atual para decisão manual.
 - **Abortar** → a branch fica salva (nada é apagado), você decide depois o que fazer com ela.
 
-### 4. Publicar
-
-Se você aprovou no gate, isso já roda sozinho. Se quiser rodar manualmente depois:
-
-```
-/publicar AAAA-MM-DD-titulo-resumido
-```
-
-Isso confere que os três entregáveis existem e não têm `[VERIFICAR]` pendente sem revisão,
-faz merge para `main` com `--no-ff`, cria a tag `publicado/AAAA-MM-DD-titulo-resumido`, e dá
-push. A branch do post **não é apagada** — ela vira material de entrada para a próxima
-atualização do guia de voz.
-
-### 5. Copie para a Substack
+### 4. Copie para a Substack
 
 Abra `posts/<slug>/post.md` e `graficos.md`/`diagramas.md`/`infograficos.md` quando existirem.
 Rode os blocos Python para gerar os SVGs/PNGs, substitua os placeholders
 `graf-NN`/`diag-NN`/`info-NN` pelas imagens reais, e cole na Substack. Capa e ilustração não
 são geradas por este pipeline — suba manualmente o que a Substack exigir.
+
+A branch `post/<slug>` **não precisa ser apagada nem mergeada** para você publicar — o
+Substack não sabe nada sobre este repositório git. Mergear em `main` (se você quiser esse
+registro) é ação manual sua, quando quiser; o histórico de versões descartadas ao longo do
+pipeline continua servindo de material de entrada para `/forja-de-voz atualizar`.
 
 ## Retomando um post em andamento
 
@@ -241,7 +235,7 @@ posts/<slug>/       um post publicado ou em andamento
 |---|---|
 | Começar um post novo | `/post-substack _arquivo/drafts/<arquivo>.md` |
 | Retomar um post | `/post-substack <slug>` |
-| Publicar um post aprovado | `/publicar <slug>` |
+| Publicar um post aprovado | copiar `post.md` (e visuais) manualmente para a Substack — sem comando |
 | Atualizar o guia de voz com amostra nova | `/forja-de-voz atualizar <arquivo>` |
 | Conferir um texto contra o guia sem publicar | `/forja-de-voz auditar <arquivo>` |
 | Comparar duas versões do guia | `/forja-de-voz diff <tagA> <tagB>` |
