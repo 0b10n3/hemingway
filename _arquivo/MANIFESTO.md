@@ -53,6 +53,16 @@ integral (links de spam injetados no HTML arquivado foram removidos antes de sal
 | `transcricoes/2026-0817_O_Mundo_Invertido_das_Carreiras_em_Financas.md` | Ideia de post: primeiro texto da nova linha editorial "Spoiler" (carreira). Analogia central: mesma ideia do "mundo invertido" do post anterior, agora aplicada à carreira — profissionais que começam pela ponta mais complexa (ex.: precificação de opções, mesa de risco/VaR) sem ter primeiro o domínio de conceitos básicos (dinâmica de juros, dívida pública, mercado de crédito). Exemplo concreto: formação do próprio autor (mestrado em precificação de opções antes de dominar produtos mais simples). Gancho comercial: divulgação do curso gratuito ao vivo no YouTube (setembro) sobre valor do dinheiro no tempo | 2026-08-17 (conforme nome do arquivo) | Autoral (nota de voz do autor, ditada para orientar o post) |
 | `transcricoes/2026-08-25_Dividir_para_nao_correr_risco.md` | Draft quase completo (não é nota ditada solta, já vem com subtítulos, referências numeradas, marcadores `[VALIDAR:]` e placeholder `[graf-01]`): o que a LCI (Letra de Crédito Imobiliário) realmente é — dívida comum do banco emissor, lastreada em crédito imobiliário mas sem segregação patrimonial, versus CRI (securitização, sem FGC) e LIG (patrimônio de afetação, duplo recurso). Tese: "dividir para não correr risco" não é força de expressão — é a estrutura descrevendo onde o risco fica (risco de crédito do banco emissor, mitigado até o teto do FGC). Gancho: liquidação extrajudicial do Banco Master (nov/2025) e o desembolso do FGC (~R$ 44 bi). Fecha com CTA para o próximo texto da série (CRI) | 2026-08-25 (conforme nome do arquivo) | Autoral (nota de voz do autor, ditada para orientar o post) |
 
+**Nota de 2026-09-13 (refatoração do pipeline v2):** esta pasta foi renomeada para
+`drafts/` — os arquivos acima (e mais um não catalogado individualmente nesta tabela:
+`2026-08-14_O Papel do CDB na Transformação de Prazos.md`) foram movidos com `git mv` para
+`drafts/`, preservando histórico. O insumo do pipeline deixou de ser transcrição de áudio e
+passou a ser rascunho pré-estruturado pelo autor — ver `CLAUDE.md`. Nenhum conteúdo destes
+arquivos foi alterado, só a pasta que os contém. Um sexto arquivo
+(`2026-09-11_O Díficil...md`) existe na branch de um post ainda não publicado
+(`post/2026-09-11-partes-dificeis-de-uma-carreira-em-financas`) e será migrado quando essa
+branch chegar a `main`.
+
 ## Documentos de contexto
 
 | Arquivo | Conteúdo | Uso |
