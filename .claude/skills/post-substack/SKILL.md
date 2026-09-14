@@ -129,6 +129,20 @@ segue relevante para frontmatter e encaixe no funil (`_arquivo/MARKETING_REVIEW.
 bloqueia a etapa 8, que desde 2026-09-09 só produz gráfico, diagrama e infográfico — capa e
 ilustração saíram do pipeline (ver nota em `prompts-visuais/SKILL.md`).
 
+## Etapa 2 — backward design explícito (só `linha_editorial: Notas de um Professor`)
+
+Antes de fechar a estrutura, preencha a **Ficha de Saída** (`docs/BACKWARDS_DESIGN.md` §2,
+8 campos — competência de saída, teste de transferência, tese de fundo, erro-alvo,
+ferramenta prática, âncora de autoridade, dois lados do balcão, ponte de série) dentro de
+`02-estrutura.md`. Isto declara o objetivo de aprendizagem do texto **antes** de escrever
+uma linha de prosa — é o backward design da Fase 5 do refactor, não um adorno.
+
+Depois de rascunhar as seções, confira: a sequência de fato entrega a competência de saída
+declarada no campo 1? Se não, a estrutura muda agora, na etapa 2 — não na etapa 9. Use os
+oito movimentos e as regras transversais de `docs/BACKWARDS_DESIGN.md` §3-§5 como referência
+de forma, não como gabarito rígido: nem todo movimento é obrigatório, ver a tabela de
+opcionais.
+
 ## Etapa 2 — gráfico, diagrama ou infográfico: critério, não gosto
 
 Para cada ponto que a etapa 2 decidir que precisa de visual, decida o tipo por este critério,

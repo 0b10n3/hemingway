@@ -54,7 +54,18 @@ que olha as três juntas.
    critério de gatilho de `prompts-visuais/SKILL.md` de fato se aplicou — se existir sem
    justificativa registrada, sinalize.
 
-10. **Gate de Tufte — checagem mecânica.** Para cada bloco de código em `graficos.md`/
+10. **Fluxo por linha editorial — checagem final.**
+    - `linha_editorial: Spoiler` — todo item `bloqueante` de
+      `_revisoes/AAAA-MM-DD_slug_quant.md` (`revisor-quant`) tem resposta registrada do
+      autor? Se não, esta etapa não fecha — volta para o gate da etapa 5a.
+    - `linha_editorial: Notas de um Professor` — a Ficha de Saída (`02-estrutura.md`) está
+      preenchida e a competência de saída declarada nela é de fato entregue pela estrutura
+      final? O texto trata os dois lados do balcão (não só a ótica do investidor)? A
+      bibliografia final tem 3-4 itens com no mínimo 2 livros (`docs/BACKWARDS_DESIGN.md`
+      §5.7)? Alguma divergência numérica registrada em
+      `_revisoes/AAAA-MM-DD_slug_calculo.md` ficou sem correção aplicada?
+
+11. **Gate de Tufte — checagem mecânica.** Para cada bloco de código em `graficos.md`/
     `diagramas.md`: `rangemode="tozero"` presente (ou exceção justificada por escrito no
     spec)? Nenhuma menção a `3d`, sombra (`shadow` fora de `shadow.syntaxis*`), textura ou
     moldura no código? Se o spec já traz "Lie Factor" declarado, confira a conta; se a peça
