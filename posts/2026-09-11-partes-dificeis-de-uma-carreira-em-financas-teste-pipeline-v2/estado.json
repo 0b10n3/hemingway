@@ -5,7 +5,8 @@
   "pendencias": [
     "Severidade alta na crítica estrutural (etapa 5): Seção 5 subdesenvolvida + registro determinístico em série. Retorno à etapa 2 antes de seguir.",
     "revisor-quant: 0 bloqueante, 2 atenção, 3 nitpick — não trava, mas vai ao gate humano (etapa 10)",
-    "BLOQUEIO real na etapa 8: prompts-visuais tem disable-model-invocation:true e a ferramenta recusa invocação pelo orquestrador, mesmo em contexto de pipeline — recusa também replicar o workflow por fora. Achado de validação, não resolvido."
+    "BLOQUEIO real na etapa 8: prompts-visuais tem disable-model-invocation:true e a ferramenta recusa invocação pelo orquestrador, mesmo em contexto de pipeline — recusa também replicar o workflow por fora. Achado de validação, não resolvido.",
+    "Etapa 8 pausada: prompts-visuais e revisao-editorial foram criados como agentes NESTA sessão (PR #3) e não ficam disponíveis até reiniciar o Claude Code (limitação já documentada no README). Retomar /post-substack neste slug numa sessão nova para rodar etapas 8, 9 e 10."
   ],
   "commit_inicial": "4963704",
   "nota": "Slug de teste para validar o pipeline v2 ponta a ponta, a pedido do autor. Não é o post real 2026-09-11 (esse continua em post/2026-09-11-partes-dificeis-de-uma-carreira-em-financas, aprovado, aguardando cópia manual para a Substack).",
