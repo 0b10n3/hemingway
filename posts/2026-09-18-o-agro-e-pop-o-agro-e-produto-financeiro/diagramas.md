@@ -159,8 +159,8 @@ parágrafo do rascunho ("A contraparte é o banco emissor") sem precisar de anot
 
 > Diagrama de fluxo com três entidades em linha: produtor/cooperativa, banco emissor (em
 > destaque) e investidor. Duas setas apontam da direita para a esquerda, cada uma rotulada com
-> uma relação de crédito distinta — "Crédito 2: investidor empresta ao banco, representado pela
-> própria LCA" e "Crédito 1: banco empresta ao agro, forma o lastro da LCA". Uma nota abaixo do
+> uma relação de crédito distinta — 'Crédito 2: investidor empresta ao banco, representado pela
+> própria LCA' e 'Crédito 1: banco empresta ao agro, forma o lastro da LCA'. Uma nota abaixo do
 > banco esclarece que o investidor não tem relação de crédito direta com o produtor — a
 > contraparte dele é sempre o banco.
 
