@@ -1,7 +1,9 @@
 {
-  "etapa_atual": 0,
+  "etapa_atual": 1,
   "loops_consumidos": 0,
   "aprovacoes": [],
-  "pendencias": [],
+  "pendencias": [
+    "Tensão — ideia de capa: guardar para projeto futuro de capa/ilustração ou descartar? (levar à etapa 10)"
+  ],
   "commit_inicial": "dbf346d"
 }
