@@ -32,7 +32,11 @@ Existem, portanto, 'duas relações de crédito' distintas:
 
 [diag-01: fluxo produtor/cooperativa ← banco ← investidor, com as duas relações de crédito rotuladas separadamente]
 
-Esse é o ponto que sustenta todo o resto: quem compra LCA não assume o risco do produtor rural. A contraparte é o banco emissor. Diferente da CRA, a LCA não tem patrimônio separado — o regime que, numa securitização, isola os créditos do resto da empresa emissora. A carteira rural fica vinculada à emissão, mas dentro do balanço do próprio banco; o lastro não transforma o investidor em credor de cada produtor. Se o banco quebrar, a carteira rural não é "sua".
+Esse é o ponto que sustenta todo o resto: quem compra LCA não assume o risco do produtor rural. A contraparte é o banco emissor.
+
+A LCA é dívida do banco, não do agro.
+
+Diferente da CRA, a LCA não tem patrimônio separado — o regime que, numa securitização, isola os créditos do resto da empresa emissora. A carteira rural fica vinculada à emissão, mas dentro do balanço do próprio banco; o lastro não transforma o investidor em credor de cada produtor. Se o banco quebrar, a carteira rural não é "sua".
 
 Até aqui, é a definição que qualquer prospecto do banco traz. O interessante começa agora — no lado de quem emite, e no lado de quem faz a conta errada na hora de comprar.
 
@@ -45,6 +49,8 @@ A LCA ganha essa comparação por causa da isenção de IR para pessoa física. 
 Essa vantagem tem condições. A emissão depende de lastro elegível — operações ligadas à produção, comercialização, beneficiamento ou industrialização agropecuária — e das regras de direcionamento, que obrigam o banco a aplicar 60% dos recursos captados em crédito rural — percentual elevado de 50% pela Resolução do CMN (Conselho Monetário Nacional, o órgão que define as regras do sistema financeiro) nº 5.216/2025, em vigor desde 1º de julho daquele ano. Uma resolução mais recente do CMN, a de nº 5.315/2026, mexeu em regras do Proagro e em restrição socioambiental ao crédito rural — não nesse percentual. [VERIFICAR: confirmar os dois números e vigências direto no texto das resoluções (MCR do Bacen) antes de publicar — a pesquisa da etapa 3 só confirmou via fontes secundárias]
 
 Cabe ao emissor casar volume, prazo e indexador das LCAs com os créditos que as lastreiam. É o mesmo raciocínio por trás do compulsório e dos índices de liquidez que os bancos reportam ao regulador: captação e crédito precisam ficar emparelhados, não só em volume, mas em prazo. Se o lastro encolhe, a capacidade de emitir encolhe junto — não é formalidade, é gestão de ativos e passivos.
+
+Isso também pesa nos índices de liquidez que todo banco reporta ao regulador: o LCR (Liquidez de Curto Prazo, a razão entre ativos líquidos e a saída de caixa esperada em 30 dias de estresse) e o NSFR (Financiamento Estável Líquido, a mesma lógica num horizonte de um ano). Os dois recompensam funding mais longo e mais estável. Uma LCA presa a contrato até o vencimento — com carência mínima de seis meses — pesa melhor nesses índices do que um CDB resgatável a qualquer momento ou um depósito à vista. Isso é parte do motivo pelo qual o banco aceita pagar menos por uma LCA do que exigiria numa captação mais líquida: não é só o benefício fiscal repassado, é também o valor regulatório da estabilidade.
 
 Em 2026, esse limite já aparece nos números: a taxa média da LCA de 12 meses caiu de 90,05% para 88,24% do CDI entre 2025 e 2026 (Quantum Finance, via InfoMoney, 11/06/2026). [VERIFICAR: estoque de LCA em queda de cerca de 4% no primeiro semestre de 2026 — fonte plausível é B3 (27/07/2026), mas o número não foi confirmado com o artigo original antes de publicar]
 

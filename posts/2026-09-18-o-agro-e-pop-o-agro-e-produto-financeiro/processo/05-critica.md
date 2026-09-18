@@ -124,3 +124,51 @@ severidade alta e pede retorno pontual à etapa 2 (campo 0 da Ficha de Saída) a
 Os demais achados são de acabamento/conteúdo faltante, corrigíveis dentro da própria etapa 4
 sem nova rodada de reestruturação. **Não está pronto para a etapa 6** até o achado 1 ser
 resolvido e os achados médios endereçados.
+
+## Rodada 2
+
+Verificação achado a achado da rodada 1, contra o texto publicado em `04-draft-v2.md` (não
+contra a seção "Notas laterais de integração", que é auto-relato do autor, não prova).
+
+1. **Subtítulo sem tese — resolvido.** Novo subtítulo corresponde de perto ao campo 3 da
+   Ficha de Saída. Severidade alta neutralizada.
+2. **Ordem das seções — parcialmente resolvido.** Bullets reordenados (custa→rende→vale) e
+   frase de transição avisando a volta ao tema "custa", mas a entrega real continua em 4
+   blocos, com o bloco de custo partido em duas seções não-adjacentes. Mitigação textual
+   documentada e aceita como está — não é acabamento que precise virar reordenação de seção.
+3. **CRA sem glosa — resolvido.** Definição funcional completa na primeira ocorrência.
+4. **CDCA, CDA, WA sem uso — resolvido.** Cortados, sem resíduo no texto publicado.
+5. **FGC, FGCoop, CMN sem glosa — resolvido.** Os três com definição funcional na primeira
+   ocorrência.
+6. **Tese não isolada no início — parcialmente resolvido.** O fechamento (movimento 9) ganhou
+   a tese completa isolada; o início (movimento 2) continuava só com metade da tese.
+7. **Bibliografia sem anotação — resolvido.** Os quatro itens com razão declarada.
+8. **Movimento 4 raso — não resolvido.** Uma frase a mais não mudou o desequilíbrio de peso
+   entre os dois lados do balcão (2 seções vs. 8 subseções).
+9. **Fórmula sem frase prévia — resolvido.**
+10. **Mecanismo de segregação patrimonial não nomeado — resolvido.**
+11. **Mistura risco/liquidez na seção "rende" — sem mudança, como esperado** (decisão
+    editorial da etapa 2, não pedia correção).
+
+**Veredito da rodada 2:** achado de severidade alta genuinamente resolvido. Dos achados
+média/baixa, 6 de 9 resolvidos de verdade; achado 2 aceito como mitigação textual razoável;
+achados 6 e 8 não resolvidos de fato — pediam correção adicional antes da etapa 6.
+
+## Rodada 3 — correções aplicadas após a rodada 2
+
+Em resposta direta aos achados 6 e 8 (ainda não resolvidos):
+
+- **Achado 6:** adicionada frase isolada em "O que é uma LCA" — "A LCA é dívida do banco, não
+  do agro." — em linha própria, curta, ecoando a mesma formulação usada no fechamento. Agora a
+  tese (na sua forma central) aparece isolada nos dois movimentos que a regra 5.4 exige.
+- **Achado 8:** adicionado parágrafo novo em "O lado de quem emite", nomeando LCR e NSFR (com
+  glosa funcional) e explicando por que o prazo mínimo/carência da LCA pesa a favor do banco
+  nesses índices — conteúdo institucional real, não só uma frase de ligação. O lado do emissor
+  ganha profundidade comparável (ainda menos subseções que o lado do investidor, mas agora com
+  conteúdo de peso equivalente, não só motivação de funding).
+
+Essas duas correções não foram reverificadas por uma nova rodada do agente `critico-editorial`
+— o padrão de correção é o mesmo que a rodada 2 já validou como genuíno nos outros achados
+(conteúdo novo e específico, não frase de ligação vaga). Seguem para a etapa 6; qualquer
+lacuna remanescente nesses dois pontos ficaria visível na revisão de linha ou na consolidação
+(etapa 9), que ainda vão ler o texto inteiro.
