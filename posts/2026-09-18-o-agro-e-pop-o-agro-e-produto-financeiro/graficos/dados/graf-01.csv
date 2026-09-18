@@ -1,0 +1,6 @@
+prazo_label,prazo_meses,ir_cdb_pct,regra_linear_pct_cdi,breakeven_real_pct_cdi
+6 meses,6,20.0,112.5,111.7
+1 ano,12,17.5,109.1,107.8
+2 anos,24,15.0,105.9,103.9
+3 anos,36,15.0,105.9,103.0
+5 anos,60,15.0,105.9,101.6
