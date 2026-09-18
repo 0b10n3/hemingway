@@ -67,6 +67,24 @@ Os dois marcadores do rascunho já vieram com o tipo certo pelo critério da ski
 - **`info-NN`** — nenhum. Nenhuma peça isolada acima falha em carregar sozinha sua parte da
   síntese; padrão do critério 3 (não ter infográfico) se aplica.
 
+## Retorno pontual (pós-etapa 5, achado de severidade alta)
+
+A crítica estrutural (`05-critica.md`, achado 1) apontou que o subtítulo original — "LCA —
+quanto rende, quanto custa, quanto vale" — carrega só o roteiro (assunto), não a tese de
+fundo (campo 3 da Ficha de Saída). O movimento 0 exige que o subtítulo, sozinho, entregue a
+tese. Correção:
+
+- **Subtítulo revisado:** "A LCA é dívida do banco, não do agro — e a isenção que parece
+  favor é benefício fiscal repartido entre os dois lados do balcão."
+- O roteiro (rende/custa/vale) não se perde — continua explícito nos três bullets do primeiro
+  parágrafo do corpo, que já cumprem esse papel de mapa de leitura. O subtítulo fica livre
+  para carregar só a tese, como o movimento 0 pede.
+- O achado 2 (ordem custa→rende→custa→vale não bate com a promessa rende→custa→vale) não pede
+  reordenar seção — isso seria mudança estrutural de argumento, fora do escopo de um ajuste de
+  acabamento. Resolvido de outra forma na etapa 4 (rodada 2): bullets reordenados para
+  custa→rende→vale (a ordem real de primeira aparição) e frase de transição na segunda seção
+  de "custa" avisando que o texto está voltando a essa pergunta.
+
 ## Confirmação dos três pilares
 
 - **Dado:** tabela de break-even, fórmulas de precificação, decomposição de taxa.
