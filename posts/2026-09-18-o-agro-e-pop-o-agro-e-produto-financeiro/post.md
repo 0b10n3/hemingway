@@ -1,6 +1,6 @@
 ---
 título: O Agro é POP, o Agro é Produto Financeiro!
-subtítulo: Como um banco repassa os riscos do financiamento do agronegócio.
+subtítulo: O risco do financiamento ao agronegócio fica com o banco — não com quem compra a LCA.
 data: 2026-09-18
 linha_editorial: Notas de um Professor
 tags: [Notas de um Professor, Renda Fixa, LCA, Agronegócio]
@@ -36,7 +36,7 @@ Esse é o ponto que sustenta todo o resto: quem compra LCA não assume o risco d
 
 A LCA é dívida do banco, não do agro.
 
-Diferente da CRA, a LCA não tem patrimônio separado — o regime que, numa **securitização**, isola os créditos do resto da empresa emissora. A carteira rural fica vinculada à emissão, mas dentro do balanço do próprio banco; o lastro não transforma o investidor em credor de cada produtor. 
+Diferente da CRA, a LCA não tem patrimônio separado — o regime que, numa 'securitização', isola os créditos do resto da empresa emissora. A carteira rural fica vinculada à emissão, mas dentro do balanço do próprio banco; o lastro não transforma o investidor em credor de cada produtor. 
 
 Se o banco quebrar, a carteira rural não é 'sua'.
 
@@ -100,7 +100,7 @@ O risco principal é a capacidade de pagamento do banco.
 
 A LCA tem cobertura do FGC (Fundo Garantidor de Créditos, o seguro que cobre depósitos e alguns títulos bancários até um limite por CPF/CNPJ): até R$ 250 mil por CPF ou CNPJ, por instituição ou conglomerado, com teto global de R$ 1 milhão a cada quatro anos. Dois detalhes que mudam a conta:
 
-- o limite vale para **principal mais rendimentos**, não para o valor aplicado;
+- o limite vale para 'principal mais rendimentos', não para o valor aplicado;
 - LCAs de marcas diferentes do mesmo conglomerado dividem o mesmo limite.
 
 LCA de cooperativa de crédito, porém, é coberta pelo FGCoop (Fundo Garantidor do Cooperativismo de Crédito, o equivalente ao FGC para cooperativas).
@@ -164,7 +164,7 @@ Para marcar antes do vencimento: acumula-se o que já foi apropriado, projeta-se
 
 Sem negócios no secundário, a taxa de desconto precisa ser construída. 
 
-Uma ordem razoável de referências que podem ser utilizadas, seria:
+Uma ordem razoável de referências:
 
 1. negócios recentes da própria LCA;
 2. ofertas firmes de compra e venda;
