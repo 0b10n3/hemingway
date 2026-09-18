@@ -1,9 +1,10 @@
 {
-  "etapa_atual": 4,
+  "etapa_atual": 5,
   "loops_consumidos": 0,
   "aprovacoes": [],
   "pendencias": [
-    "Tensão — ideia de capa: guardar para projeto futuro de capa/ilustração ou descartar? (levar à etapa 10)"
+    "Tensão — ideia de capa: guardar para projeto futuro de capa/ilustração ou descartar? (levar à etapa 10)",
+    "Crítica etapa 5 (rodada 1): severidade alta no subtítulo (não carrega a tese) — retorno à etapa 2 necessário antes da etapa 6"
   ],
   "commit_inicial": "dbf346d"
 }
