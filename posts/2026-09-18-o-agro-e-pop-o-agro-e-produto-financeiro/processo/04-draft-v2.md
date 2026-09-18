@@ -46,13 +46,13 @@ O banco não emite LCA porque "precisa de dinheiro". Ele compara fontes de capta
 
 A LCA ganha essa comparação por causa da isenção de IR para pessoa física. Uma LCA a 90% do CDI pode entregar ao investidor um retorno líquido maior que um CDB a 100% do CDI, e ainda assim custar menos ao banco. É aqui que a tese da série aparece de novo: a isenção é um benefício fiscal, e ele é repartido. Parte vira retorno líquido maior para o investidor, parte vira funding mais barato para o banco. Quem define a divisão é oferta e demanda — e quanto disso chega a cada lado é, na prática, pouco transparente: nem o regulador nem o investidor têm hoje uma forma simples de medir a proporção exata.
 
-Essa vantagem tem condições. A emissão depende de lastro elegível — operações ligadas à produção, comercialização, beneficiamento ou industrialização agropecuária — e das regras de direcionamento, que obrigam o banco a aplicar 60% dos recursos captados em crédito rural — percentual elevado de 50% pela Resolução do CMN (Conselho Monetário Nacional, o órgão que define as regras do sistema financeiro) nº 5.216/2025, em vigor desde 1º de julho daquele ano. Uma resolução mais recente do CMN, a de nº 5.315/2026, mexeu em regras do Proagro e em restrição socioambiental ao crédito rural — não nesse percentual. [VERIFICAR: confirmar os dois números e vigências direto no texto das resoluções (MCR do Bacen) antes de publicar — a pesquisa da etapa 3 só confirmou via fontes secundárias]
+Essa vantagem tem condições. A emissão depende de lastro elegível — operações ligadas à produção, comercialização, beneficiamento ou industrialização agropecuária — e das regras de direcionamento, que obrigam o banco a aplicar 60% dos recursos captados em crédito rural — percentual elevado de 50% para 60% pela Resolução do CMN (Conselho Monetário Nacional, o órgão que define as regras do sistema financeiro) nº 5.216/2025, em vigor desde 1º de julho daquele ano. Duas resoluções mais recentes do CMN, de nº 5.314 e 5.315/2026 (25 de junho, vigência 1º de julho), mexeram respectivamente em restrição socioambiental ao crédito rural e em regras do Proagro — nenhuma altera esse percentual.
 
 Cabe ao emissor casar volume, prazo e indexador das LCAs com os créditos que as lastreiam. É o mesmo raciocínio por trás do compulsório e dos índices de liquidez que os bancos reportam ao regulador: captação e crédito precisam ficar emparelhados, não só em volume, mas em prazo. Se o lastro encolhe, a capacidade de emitir encolhe junto — não é formalidade, é gestão de ativos e passivos.
 
-Isso também pesa nos índices de liquidez que todo banco reporta ao regulador: o LCR (Liquidez de Curto Prazo, a razão entre ativos líquidos e a saída de caixa esperada em 30 dias de estresse) e o NSFR (Financiamento Estável Líquido, a mesma lógica num horizonte de um ano). Os dois recompensam funding mais longo e mais estável. Uma LCA presa a contrato até o vencimento — com carência mínima de seis meses — pesa melhor nesses índices do que um CDB resgatável a qualquer momento ou um depósito à vista. Isso é parte do motivo pelo qual o banco aceita pagar menos por uma LCA do que exigiria numa captação mais líquida: não é só o benefício fiscal repassado, é também o valor regulatório da estabilidade.
+Isso também pesa nos índices de liquidez que todo banco reporta ao regulador: o LCR (Liquidez de Curto Prazo, a razão entre ativos líquidos e a saída de caixa esperada em 30 dias de estresse) e o NSFR (no jargão do Bacen, Índice de Liquidez de Longo Prazo — ILE —, a mesma lógica num horizonte de um ano). Os dois recompensam funding mais longo e mais estável. Uma LCA presa a contrato até o vencimento — com carência mínima de seis meses — pesa melhor nesses índices do que um CDB resgatável a qualquer momento ou um depósito à vista. Isso é parte do motivo pelo qual o banco aceita pagar menos por uma LCA do que exigiria numa captação mais líquida: não é só o benefício fiscal repassado, é também o valor regulatório da estabilidade.
 
-Em 2026, esse limite já aparece nos números: a taxa média da LCA de 12 meses caiu de 90,05% para 88,24% do CDI entre 2025 e 2026 (Quantum Finance, via InfoMoney, 11/06/2026). [VERIFICAR: estoque de LCA em queda de cerca de 4% no primeiro semestre de 2026 — fonte plausível é B3 (27/07/2026), mas o número não foi confirmado com o artigo original antes de publicar]
+Em 2026, esse limite já aparece nos números: a taxa média da LCA de 12 meses caiu de 90,05% para 88,24% do CDI entre 2025 e 2026 (Quantum Finance, via InfoMoney, 11/06/2026), e o estoque de LCA caiu 4% na comparação anual, para R$ 563 bilhões ao final de junho de 2026 (B3, 27/07/2026).
 
 ## O lado de quem compra: quanto a LCA rende de verdade
 
@@ -101,7 +101,7 @@ LCA de cooperativa de crédito, porém, é coberta pelo FGCoop (Fundo Garantidor
 
 ### Carência e liquidez
 
-Desde maio de 2025, o prazo mínimo de vencimento de LCAs sem atualização por índice de preços é de seis meses (antes, nove) — mudança trazida pela Resolução CMN nº 5.215/2025, válida para títulos emitidos a partir de 23 de maio daquele ano. [VERIFICAR: confirmar número e data direto no texto da resolução antes de publicar] Liquidez antes disso depende do contrato de cada emissão, e o mercado secundário é raso.
+Desde maio de 2025, o prazo mínimo de vencimento de LCAs sem atualização por índice de preços é de seis meses (antes, nove) — mudança trazida pela Resolução CMN nº 5.215, de 22 de maio de 2025, publicada no Diário Oficial em 26 de maio, com vigência a partir da publicação. Liquidez antes disso depende do contrato de cada emissão, e o mercado secundário é raso.
 
 ## Como o banco define a taxa de emissão
 
@@ -194,10 +194,8 @@ Fica a pergunta para fechar: sem negócios no secundário, o que deveria pesar m
 
 - Lei nº 11.076, de 30 de dezembro de 2004 (texto compilado) — fonte primária da definição, emissão e lastro da LCA.
 - José Carlos de Souza Santos e Armênio de Souza Rangel, _Precificação e risco nos mercados de renda-fixa_ (Editora CRV, 2016) — referência para a mecânica de precificação e marcação a mercado de renda fixa usada neste texto.
-- Frank J. Fabozzi, _Bond Markets, Analysis and Strategies_ — tratamento padrão de mercado internacional para análise e precificação de títulos de renda fixa, base da lógica de desconto por curva usada na seção "Quanto a LCA vale hoje".
-- Luiz Cláudio Caffagni, "LCA: o título de crédito bancário para o agro" — leitura direcionada especificamente à LCA como instrumento de crédito bancário, não de securitização.
-
-[VERIFICAR: edição do Fabozzi e referência completa do artigo do Caffagni]
+- Frank J. Fabozzi e Francesco A. Fabozzi, _Bond Markets, Analysis, and Strategies_ [VERIFICAR: edição a citar — 10ª ed. (MIT Press, 2021) ou 11ª ed. (MIT Press, 2026)] — tratamento padrão de mercado internacional para análise e precificação de títulos de renda fixa, base da lógica de desconto por curva usada na seção "Quanto a LCA vale hoje".
+- Luiz Cláudio Caffagni, "LCA: o título de crédito bancário para o agro", _Agroanalysis_ (FGV), out. 2021, p. 26–28 — leitura direcionada especificamente à LCA como instrumento de crédito bancário, não de securitização.
 
 ---
 

@@ -1,10 +1,13 @@
 {
-  "etapa_atual": 6,
+  "etapa_atual": 7,
   "loops_consumidos": 0,
   "aprovacoes": [],
   "pendencias": [
     "Tensão — ideia de capa: guardar para projeto futuro de capa/ilustração ou descartar? (levar à etapa 10)",
-    "Decisão editorial (etapa 6): glosar IR/CDB/CDI (e 'bullet' em cabeçalho) na primeira ocorrência ou tratar como termo-base conhecido do público? — decidir na etapa 9"
+    "Decisão editorial (etapa 6): glosar IR/CDB/CDI (e 'bullet' em cabeçalho) na primeira ocorrência ou tratar como termo-base conhecido do público? — decidir na etapa 9",
+    "[VERIFICAR] remanescente: teto global do FGCoop (norma primária não localizada)",
+    "[VERIFICAR] remanescente: edição do Fabozzi a citar (10ª ou 11ª) — decisão do autor",
+    "[VERIFICAR] remanescente: CDI vigente na data de publicação, recalcular tabela de break-even (só resolve no dia da publicação)"
   ],
   "commit_inicial": "dbf346d"
 }
