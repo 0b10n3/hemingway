@@ -1,6 +1,6 @@
 ---
 título: O Agro é POP, o Agro é Produto Financeiro!
-subtítulo: A LCA é dívida do banco, não do agro — e a isenção que parece favor é benefício fiscal repartido entre os dois lados do balcão
+subtítulo: Como um banco repassa os riscos do financiamento do agronegócio.
 data: 2026-09-18
 linha_editorial: Notas de um Professor
 tags: [Notas de um Professor, Renda Fixa, LCA, Agronegócio]
@@ -19,7 +19,7 @@ Este texto responde uma de cada vez, começando pela mais básica: o que exatame
 
 ## O que é uma LCA
 
-A Letra de Crédito do Agronegócio é um título de renda fixa 'emitido por uma instituição financeira', que representa uma promessa de pagamento em dinheiro e fica vinculado a direitos creditórios do agronegócio. Foi criada pela Lei nº 11.076, de 30 de dezembro de 2004, que também instituiu a CRA (Certificado de Recebíveis do Agronegócio) — o produto securitizado que se compara com a LCA mais adiante neste texto.
+A Letra de Crédito do Agronegócio é um título de renda fixa 'emitido por uma instituição financeira', que representa uma promessa de pagamento em dinheiro e fica vinculado a direitos creditórios do agronegócio. Foi criada pela Lei nº 11.076, de 30 de dezembro de 2004, que também instituiu a CRA (Certificado de Recebíveis do Agronegócio).
 
 Sim, o título é do agronegócio, mas emitido por uma instituição financeira.
 
@@ -36,9 +36,13 @@ Esse é o ponto que sustenta todo o resto: quem compra LCA não assume o risco d
 
 A LCA é dívida do banco, não do agro.
 
-Diferente da CRA, a LCA não tem patrimônio separado — o regime que, numa securitização, isola os créditos do resto da empresa emissora. A carteira rural fica vinculada à emissão, mas dentro do balanço do próprio banco; o lastro não transforma o investidor em credor de cada produtor. Se o banco quebrar, a carteira rural não é 'sua'.
+Diferente da CRA, a LCA não tem patrimônio separado — o regime que, numa **securitização**, isola os créditos do resto da empresa emissora. A carteira rural fica vinculada à emissão, mas dentro do balanço do próprio banco; o lastro não transforma o investidor em credor de cada produtor. 
 
-Até aqui, é a definição que qualquer prospecto do banco traz. O interessante começa agora — no lado de quem emite e no lado de quem faz a conta errada na hora de comprar.
+Se o banco quebrar, a carteira rural não é 'sua'.
+
+Até aqui, é a definição que qualquer prospecto do banco traz. 
+
+O interessante começa agora. Nas perspectivas de quem emite e no lado de quem faz a conta errada na hora de comprar.
 
 ## O lado de quem emite: por que o banco capta com LCA
 
@@ -74,7 +78,7 @@ $$ (1 - IR)\left[(1 + x \cdot d)^{n} - 1\right] = (1 + p \cdot d)^{n} - 1 $$
 
 onde $p$ é o percentual da LCA, $d = (1 + CDI)^{1/252} - 1$ é o CDI diário e $n$ o número de dias úteis.
 
-Com CDI de 14% ao ano e LCA a 90% do CDI:
+Com CDI de 14% ao ano (valor didático, não a taxa do dia — o argumento é sobre a forma da conta, não sobre o nível atual de juros) e LCA a 90% do CDI:
 
 |Prazo|IR do CDB|Regra linear|Break-even real|
 |---|---|---|---|
@@ -86,20 +90,20 @@ Com CDI de 14% ao ano e LCA a 90% do CDI:
 
 ![Gráfico: Gráfico de linhas mostrando duas curvas em percentual do CDI ao longo do prazo (6 meses a 5 anos): a regra linear ingênua (Taxa LCA dividida por 1 menos IR), que muda em degraus seguindo as faixas de IR regressivo do CDB, e o break-even real por juros compostos, que cai de forma contínua. A área entre as duas linhas — o erro da regra linear — cresce de 0,8 pontos percentuais em 6 meses para 4,3 pontos percentuais em 5 anos.](graf-01)
 
-[VERIFICAR: recalcular a tabela e o gráfico acima com o CDI vigente na data de publicação — os valores usados (14% a.a.) refletem a premissa do rascunho, não necessariamente a taxa do dia]
-
 Numa LCA de cinco anos, o CDB precisa de bem menos do que a regra diz. A isenção vale mais no curto e médio prazo; no papel longo, ou o emissor compensa na taxa, ou a vantagem quase some.
 
 ### O risco é o banco
 
-Duas LCAs a 90% do CDI, com o mesmo prazo e a mesma liquidez, não são equivalentes se os emissores forem diferentes. O risco principal é a capacidade de pagamento do banco.
+Duas LCAs a 90% do CDI, com o mesmo prazo e a mesma liquidez, não são equivalentes se os emissores forem diferentes. 
+
+O risco principal é a capacidade de pagamento do banco.
 
 A LCA tem cobertura do FGC (Fundo Garantidor de Créditos, o seguro que cobre depósitos e alguns títulos bancários até um limite por CPF/CNPJ): até R$ 250 mil por CPF ou CNPJ, por instituição ou conglomerado, com teto global de R$ 1 milhão a cada quatro anos. Dois detalhes que mudam a conta:
 
-- o limite vale para principal mais rendimentos, não para o valor aplicado;
+- o limite vale para **principal mais rendimentos**, não para o valor aplicado;
 - LCAs de marcas diferentes do mesmo conglomerado dividem o mesmo limite.
 
-LCA de cooperativa de crédito, porém, é coberta pelo FGCoop (Fundo Garantidor do Cooperativismo de Crédito, o equivalente ao FGC para cooperativas), não pelo FGC — sistema de garantia separado, com o mesmo teto individual de R$ 250 mil por instituição. [VERIFICAR: teto global do FGCoop, equivalente ao R$ 1 milhão a cada quatro anos do FGC — fontes secundárias convergentes sugerem que esse teto agregado não existe no FGCoop, mas a norma primária não foi localizada]
+LCA de cooperativa de crédito, porém, é coberta pelo FGCoop (Fundo Garantidor do Cooperativismo de Crédito, o equivalente ao FGC para cooperativas).
 
 ### Carência e liquidez
 
@@ -158,7 +162,9 @@ Para marcar antes do vencimento: acumula-se o que já foi apropriado, projeta-se
 
 ### Qual curva usar para descontar
 
-Sem negócios no secundário, a taxa de desconto precisa ser construída. Uma ordem razoável de referências:
+Sem negócios no secundário, a taxa de desconto precisa ser construída. 
+
+Uma ordem razoável de referências que podem ser utilizadas, seria:
 
 1. negócios recentes da própria LCA;
 2. ofertas firmes de compra e venda;
@@ -195,5 +201,5 @@ Fica a pergunta para fechar: sem negócios no secundário, o que deveria pesar m
 ## Para continuar aprendendo
 
 - José Carlos de Souza Santos e Armênio de Souza Rangel, _Precificação e risco nos mercados de renda-fixa_ (Editora CRV, 2016) — referência para a mecânica de precificação e marcação a mercado de renda fixa usada neste texto.
-- Frank J. Fabozzi e Francesco A. Fabozzi, _Bond Markets, Analysis, and Strategies_ [VERIFICAR: edição a citar — 10ª ed. (MIT Press, 2021) ou 11ª ed. (MIT Press, 2026)] — tratamento padrão de mercado internacional para análise e precificação de títulos de renda fixa, base da lógica de desconto por curva usada na seção "Quanto a LCA vale hoje".
+- Frank J. Fabozzi e Francesco A. Fabozzi, _Bond Markets, Analysis, and Strategies_, 10ª ed. (MIT Press, 2021) — tratamento padrão de mercado internacional para análise e precificação de títulos de renda fixa, base da lógica de desconto por curva usada na seção "Quanto a LCA vale hoje".
 - Luiz Cláudio Caffagni, "LCA: o título de crédito bancário para o agro", _Agroanalysis_ (FGV), out. 2021, p. 26–28 — leitura direcionada especificamente à LCA como instrumento de crédito bancário, não de securitização.

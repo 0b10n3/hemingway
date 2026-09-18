@@ -15,11 +15,10 @@ convenção dos demais `graficos.md` do pipeline.
 
 **Fonte dos dados:** `posts/2026-09-18-o-agro-e-pop-o-agro-e-produto-financeiro/processo/07-verificacao.md`
 (etapa 7, item 2) — fórmulas e tabela conferidas, sem divergência frente ao rascunho. Premissas:
-CDI de 14% a.a., LCA a 90% do CDI, IR do CDB regressivo por prazo (20% até 6 meses, 17,5% até
-1 ano, 15% acima de 2 anos — Lei nº 11.033/2004, tabela regressiva de renda fixa).
-**[VERIFICAR]** herdado do rascunho (`04-draft-v2.md`, mesmo ponto): recalcular a tabela com o
-CDI vigente na data real de publicação — os dados abaixo e o CSV usam a premissa de 14% a.a.
-citada no texto até essa correção ser feita.
+CDI de 14% a.a. (valor didático, não a taxa do dia — decisão do autor no gate humano, etapa 10:
+o argumento é sobre a forma da conta, não sobre o nível atual de juros), LCA a 90% do CDI, IR
+do CDB regressivo por prazo (20% até 6 meses, 17,5% até 1 ano, 15% acima de 2 anos — Lei
+nº 11.033/2004, tabela regressiva de renda fixa).
 
 **Dados:** `posts/2026-09-18-o-agro-e-pop-o-agro-e-produto-financeiro/graficos/dados/graf-01.csv`
 — cinco prazos (6 meses, 1 ano, 2 anos, 3 anos, 5 anos), com o percentual do CDI da regra
@@ -146,7 +145,7 @@ fig.add_annotation(
     font=dict(size=11, color=text_medium, family=font_body), xanchor="left", align="left",
 )
 fig.add_annotation(
-    text="Fonte: processo/07-verificacao.md (etapa 7, item 2) — recalcular com o CDI vigente na data de publicação.",
+    text="Fonte: processo/07-verificacao.md (etapa 7, item 2) — CDI de 14% a.a. é valor didático, não a taxa do dia.",
     showarrow=False, x=0, y=-0.31, xref="paper", yref="paper",
     font=dict(size=10, color=text_medium, family=font_data), xanchor="left",
 )
