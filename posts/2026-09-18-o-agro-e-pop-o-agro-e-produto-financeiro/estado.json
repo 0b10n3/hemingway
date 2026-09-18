@@ -1,9 +1,10 @@
 {
-  "etapa_atual": 5,
+  "etapa_atual": 6,
   "loops_consumidos": 0,
   "aprovacoes": [],
   "pendencias": [
-    "Tensão — ideia de capa: guardar para projeto futuro de capa/ilustração ou descartar? (levar à etapa 10)"
+    "Tensão — ideia de capa: guardar para projeto futuro de capa/ilustração ou descartar? (levar à etapa 10)",
+    "Decisão editorial (etapa 6): glosar IR/CDB/CDI (e 'bullet' em cabeçalho) na primeira ocorrência ou tratar como termo-base conhecido do público? — decidir na etapa 9"
   ],
   "commit_inicial": "dbf346d"
 }
