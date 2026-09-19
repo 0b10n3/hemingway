@@ -1,0 +1,10 @@
+{
+  "etapa_atual": 10,
+  "loops_consumidos": 0,
+  "ponto_retorno": "etapa 9 (ajuste pós-gate, não consumiu loop — acabamento)",
+  "aprovacoes": [
+    "2026-09-18: gate humano — APROVADO, após correção de subtítulo ambíguo (edição manual do autor revisada em gate) e acabamento (negritos de ênfase, concordância)"
+  ],
+  "pendencias": [],
+  "commit_inicial": "dbf346d"
+}
