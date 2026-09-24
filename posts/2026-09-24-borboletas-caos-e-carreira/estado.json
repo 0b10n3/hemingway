@@ -1,8 +1,11 @@
 {
-  "etapa_atual": 0,
+  "etapa_atual": 1,
   "loops_consumidos": 0,
   "aprovacoes": [],
-  "pendencias": [],
+  "pendencias": [
+    "Tensão: capa fora de escopo (atrator de Lorenz em paper cut) — decidir no gate humano",
+    "Tensão: parágrafo da avalanche (Housel/Brendan/Bryan) — cortar ou manter, decidir no gate humano"
+  ],
   "commit_inicial": "6837146",
   "linha_editorial": "Spoiler",
   "titulo": "Borboletas, Caos e Carreira",
