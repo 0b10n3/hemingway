@@ -1,14 +1,16 @@
 {
-  "etapa_atual": 8,
+  "etapa_atual": 9,
   "loops_consumidos": 0,
   "aprovacoes": [],
   "pendencias": [
     "Tensão: capa fora de escopo (atrator de Lorenz em paper cut) — decidir no gate humano",
     "Tensão: parágrafo da avalanche (Housel/Brendan/Bryan) — cortar ou manter, decidir no gate humano",
-    "Severidade média (etapa 5): conflação caos determinístico/acaso genuíno na aplicação biográfica — considerar ressalva de uma frase, decidir no gate humano",
-    "Revisão quantitativa (etapa 5a, _revisoes/2026-09-24_2026-09-24-borboletas-caos-e-carreira_quant.md): 0 bloqueantes, 4 atenção, 3 nitpick — visíveis para o gate humano, não impedem a etapa 6",
-    "[FAIXA] etapa 7: '70% já têm ou estão desenhando' requalificação Febraban — leitura estrita dá 61%, não 70%",
-    "[VERIFICAR] etapa 7: 'dez minutos de primeiro dia' na trajetória de Housel — fontes dizem 'primeira hora', não 'dez minutos'"
+    "Tensão: caos determinístico vs. acaso genuíno na aplicação biográfica (severidade média, etapa 5) — inserir ressalva de uma frase ou manter como está, decidir no gate humano",
+    "Revisão quantitativa (etapa 5a): 0 bloqueantes, 4 atenção, 3 nitpick — visíveis para o gate humano, não bloquearam o pipeline",
+    "[FAIXA] no post.md: '70% já têm ou estão desenhando' requalificação Febraban — leitura estrita dá 61%, não 70%",
+    "[VERIFICAR] no post.md: 'dez minutos de primeiro dia' na trajetória de Housel — fontes dizem 'primeira hora', não 'dez minutos'",
+    "Data de publicação (2026-09-24, do slug) nunca foi perguntada ao autor — o rascunho original trazia 'Sep 23, 2026' no cabeçalho — confirmar no gate humano",
+    "Metadados de distribuição (assunto de e-mail, nota do Substack, já escritos pelo autor no rascunho) não têm campo no frontmatter — perguntar se o autor quer registrá-los em algum lugar do pipeline"
   ],
   "commit_inicial": "6837146",
   "linha_editorial": "Spoiler",
