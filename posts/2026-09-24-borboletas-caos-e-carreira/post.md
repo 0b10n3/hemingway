@@ -61,7 +61,7 @@ Depois de 14 passos: 0,0010 contra 0,7630.
 
 Nenhuma relação. Nesse sistema, a distância entre as duas trajetórias dobra, em média, a cada passo. Em catorze passos, um erro invisível vira um erro do tamanho do próprio sistema.
 
-![Gráfico: duas trajetórias do mapa logístico (x seguinte = 4x(1−x)) partindo de 0,2 e de 0,2001, mostrando 20 passos — as curvas ficam coladas nos primeiros passos e divergem por completo depois do décimo quarto.](graf-01)
+![Gráfico: cobweb plot do mapa logístico (x seguinte = 4x(1−x)) — duas trajetórias em degraus partindo de 0,2000 e de 0,2001, coladas na mesma escada nos primeiros passos e separadas por completo depois do décimo quarto, terminando em lados opostos do quadrado.](graf-01)
 
 É por isso que a previsão do tempo não vai muito além de uma semana, dez dias. Não é falta de computador. É a natureza do sistema.
 
@@ -99,9 +99,7 @@ Mude qualquer uma dessas condições iniciais e eu não estaria aqui escrevendo 
 
 Foi aí que me lembrei da borboleta no Brasil.
 
-Não sou caso isolado. Morgan Housel, que hoje é um dos autores de finanças mais lidos do mundo, conta que o plano A, B e C dele era ser banqueiro de investimento. Conseguiu um estágio num banco e, em dez minutos de primeiro dia [VERIFICAR: fontes localizadas — Masters in Business, Tim Ferriss Show — descrevem "na primeira hora do primeiro dia", não "dez minutos"; confirmar se há fonte própria com esse detalhe exato], soube que aquilo não era para ele. Formou-se em 2008, com o mundo pegando fogo e ninguém contratando, e acabou virando redator de finanças no Motley Fool por desespero, sem plano nenhum. Nunca mais parou de escrever.
-
-Housel conhece também o lado mais duro dessa sensibilidade. Em *Same as Ever*, ele conta que em fevereiro de 2001 dois dos seus amigos mais próximos, Brendan e Bryan, morreram numa avalanche em Squaw Valley, numa área fora de pista em que os três costumavam esquiar juntos.
+Não sou caso isolado. Morgan Housel, que hoje é um dos autores de finanças mais lidos do mundo, conta que o plano A, B e C dele era ser banqueiro de investimento. Conseguiu um estágio num banco e, na primeira hora do primeiro dia, soube que aquilo não era para ele. Formou-se em 2008, com o mundo pegando fogo e ninguém contratando, e acabou virando redator de finanças no Motley Fool por desespero, sem plano nenhum. Nunca mais parou de escrever.
 
 ## Se tudo é caos, para que escolher?
 
@@ -165,7 +163,7 @@ A Pesquisa Febraban de Tecnologia Bancária 2026 — divulgada em agosto pela Fe
 
 Tarefa rotineira. Relatório. Documento. Se você está no começo da carreira, releia essa lista com calma. É uma boa descrição do que se pede de um estagiário ou analista no primeiro ano.
 
-Ao mesmo tempo, 42% dos bancos pretendem ampliar o time de tecnologia. As funções mais procuradas no último ano foram desenvolvedor de software, engenheiro de IA, engenheiro de dados, arquiteto corporativo e engenheiro de DevOps. E 70% já têm ou estão desenhando programas de requalificação [FAIXA: composição real da pesquisa é 39% já implementaram e executam + 22% estruturando + 9% em discussão inicial — a soma bate em 70%, mas a leitura estrita de "já têm ou estão desenhando" (sem contar "discussão inicial") dá 61%].
+Ao mesmo tempo, 42% dos bancos pretendem ampliar o time de tecnologia. As funções mais procuradas no último ano foram desenvolvedor de software, engenheiro de IA, engenheiro de dados, arquiteto corporativo e engenheiro de DevOps. E 70% já implementam, estão estruturando ou discutindo programas de requalificação.
 
 Lá fora, o sinal é parecido. O relatório Future of Jobs 2025 do Fórum Econômico Mundial indica que os empregadores esperam que 39% das habilidades essenciais dos trabalhadores mudem até 2030. E o pensamento analítico segue como a habilidade central mais valorizada, considerada essencial por sete em cada dez empresas.
 
