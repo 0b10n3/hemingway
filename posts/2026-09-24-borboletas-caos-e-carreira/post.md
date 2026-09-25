@@ -4,7 +4,7 @@ subtítulo: Caos, acaso e como escolher os difíceis quando ninguém consegue pr
 data: 2026-09-24
 linha_editorial: Spoiler
 tags: [Carreira, Teoria do Caos, Mercado Financeiro, Inteligência Artificial]
-status: rascunho
+status: aprovado
 ---
 
 Num dia de inverno de 1961, um meteorologista do MIT resolveu economizar tempo.
