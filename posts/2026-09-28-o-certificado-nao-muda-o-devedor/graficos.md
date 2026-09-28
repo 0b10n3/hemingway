@@ -268,7 +268,7 @@ for i in hit:
 fig = go.Figure(go.Table(
     columnwidth=[0.8, 0.9, 1.2, 1.2],
     header=dict(
-        values=["<b>Prazo</b>", "<b>Alíquota de IR</b>", "<b>Regra de bolso</b><br>IPCA + 7% / (1 − t)",
+        values=["<b>Prazo</b>", "<b>Alíquota de IR</b>", "<b>Regra de bolso</b><br>IPCA + [7% ÷ (1 − t)]",
                 "<b>Empate correto</b><br>fórmula do texto"],
         fill_color=forest, line_color=forest, align="center", height=56,
         font=dict(color=bg, size=17, family=font_body),
