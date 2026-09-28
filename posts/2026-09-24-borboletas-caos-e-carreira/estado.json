@@ -1,0 +1,25 @@
+{
+  "etapa_atual": 10,
+  "loops_consumidos": 0,
+  "ponto_retorno": 8,
+  "motivo_retorno": "Gate humano (etapa 10): autor pediu refazer graf-01 em estilo cobweb plot em vez de duas trajetórias sobrepostas. Reentrada em 5-9 não consumiu loop. Concluída, retomado o gate.",
+  "aprovacoes": [
+    "Tensão — capa fora de escopo: deixar fora (capa vira peça de projeto visual separado, quando existir)",
+    "Tensão — parágrafo da avalanche (Housel/Brendan/Bryan): cortado do post.md",
+    "Tensão — caos determinístico vs. acaso genuíno: mantido como está, sem ressalva adicional",
+    "[VERIFICAR] Housel 'dez minutos': trocado para 'na primeira hora do primeiro dia' — resolvido",
+    "[FAIXA] Febraban 70%: mantido 70%, texto requalificado para 'já implementam, estão estruturando ou discutindo' — resolvido",
+    "Data de publicação: mantida 2026-09-24 (frontmatter atual) — resolvido",
+    "Metadados de distribuição (assunto de e-mail, nota do Substack): decidido deixar fora do pipeline, ficam só no rascunho original em _arquivo/ — resolvido",
+    "graf-01: refeito em estilo cobweb plot — resolvido, commit 18339dd",
+    "Gate humano (etapa 10): APROVADO pelo autor. Publicação (colar na Substack) e decisão sobre a branch (merge em main ou deixar como está) são ações manuais, fora deste pipeline."
+  ],
+  "pendencias": [
+    "Revisão quantitativa (etapa 5a): 0 bloqueantes, 4 atenção, 3 nitpick — ficam registradas, sem ação pendente"
+  ],
+  "status": "aprovado",
+  "commit_inicial": "6837146",
+  "linha_editorial": "Spoiler",
+  "titulo": "Borboletas, Caos e Carreira",
+  "slug": "2026-09-24-borboletas-caos-e-carreira"
+}
