@@ -5,8 +5,8 @@ slug: 2026-09-28-o-certificado-nao-muda-o-devedor
 data: 2026-09-28
 linha_editorial: Notas de um Professor
 tags: [Notas de um Professor, Renda Fixa, CRI, CRA, Securitização]
-status: rascunho
-kicker_proposto: "Quem Deve Pra Você?"  # tensão do briefing (A kicker / B metadado de distribuição / C descartar) — decidir no gate
+status: aprovado
+kicker: "Quem Deve Pra Você?"
 ---
 
 No texto sobre a LCA (Letra de Crédito do Agronegócio), prometi que o próximo seria sobre o CRA (Certificado de Recebíveis do Agronegócio), "outro título do agro, mas de risco completamente diferente". Promessa é dívida. E, neste texto, a palavra 'dívida' vai aparecer bastante.
@@ -143,7 +143,7 @@ Quando o devedor pede para renegociar, quem decide é a assembleia de titulares,
 
 Na LCA, você nunca vota. O banco paga ou não paga.
 
-No CRA, você faz parte de um coletivo de credores que negocia com o devedor por meio da securitizadora e do agente fiduciário. É uma camada a mais de mediação. Não de proteção.
+No CRA, você faz parte de um coletivo de credores que negocia com o devedor por meio da securitizadora e do agente fiduciário. Entre você e a mesa de negociação há mais um intermediário. Não mais uma proteção.
 
 ---
 
@@ -243,12 +243,6 @@ PU = 1.000 × 1,08³ / 1,12³ ≈ R$ 896,64.
 
 *Spread* sobe, preço cai. É a mesma mecânica da LCA prefixada, agora com duas fontes de oscilação: a curva de juro real e o *spread* de crédito do devedor.
 
-### Quando o preço vai a 50
-
-Em julho de 2026, os títulos de dívida da Raízen eram negociados perto de 50% do preço unitário no mercado secundário.
-
-Nesse ponto, o mercado já não está precificando *spread*. Está precificando recuperação: quanto volta, quando volta e em que forma — dinheiro, dívida nova ou ação. A fórmula continua válida, mas a pergunta relevante deixou de ser "qual taxa" e passou a ser "quantos dos fluxos _c_ₖ vão de fato existir".
-
 ### Qual curva usar para descontar
 
 Sem negócios frequentes, a taxa de desconto precisa ser construída. Uma ordem razoável de referências:
@@ -267,6 +261,12 @@ taxa de emissão, ajustada pela mudança de curva e de risco.
 
 A debênture do mesmo devedor é a referência mais tentadora, pelo mesmo motivo que a LF (Letra Financeira) no texto da LCA: é a leitura mais direta do risco de quem paga. Mas a debênture é tributada e o CRA não, e a estrutura do CRA pode ter garantias que a debênture não tem. Serve de referência relativa, não de curva final.
 
+### Quando o preço vai a 50
+
+Em julho de 2026, os títulos de dívida da Raízen eram negociados perto de 50% do valor de face no mercado secundário.
+
+Nesse ponto, o mercado já não está precificando *spread*. Está precificando recuperação: quanto volta, quando volta e em que forma — dinheiro, dívida nova ou ação. A fórmula continua válida, mas a pergunta relevante deixou de ser "qual taxa" e passou a ser "quantos dos fluxos _c_ₖ vão de fato existir".
+
 ---
 
 ## De volta à Raízen
@@ -275,7 +275,7 @@ Com o que vimos até aqui, é possível reler o caso.
 
 A estrutura funcionou como foi desenhada. O patrimônio separado ficou onde a lei manda. A securitizadora convocou as assembleias, e os titulares votaram. O plano de recuperação extrajudicial foi homologado pela Justiça em 30 de julho de 2026 e passou a valer para todos os credores sujeitos a ele, inclusive os que não aderiram. Para os créditos incentivados — debêntures incentivadas e CRAs, isentos de IR para pessoa física —, uma das opções de pagamento prevê instrumentos que preservam a isenção fiscal.
 
-Até a isenção foi preservada. O que nenhuma estrutura tinha como preservar era o devedor.
+Até parte da isenção sobreviveu. O que nenhuma estrutura tinha como preservar era o devedor.
 
 ---
 
@@ -283,7 +283,7 @@ Até a isenção foi preservada. O que nenhuma estrutura tinha como preservar er
 
 Na LCI e na LCA, você compra o banco, com o FGC como rede até o limite. No CRI e no CRA, você compra o devedor — e a estrutura decide quanto sobra quando ele não paga.
 
-O patrimônio separado tira a securitizadora da equação. A isenção melhora a conta. Nenhum dos dois muda quem deve.
+O patrimônio separado tira a insolvência da securitizadora da equação. A isenção melhora a conta. Nenhum dos dois muda quem deve.
 
 Securitizar muda o endereço do risco. Não muda o tamanho dele.
 

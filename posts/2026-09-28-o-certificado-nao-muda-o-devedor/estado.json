@@ -1,10 +1,24 @@
 {
-  "etapa_atual": 9,
+  "etapa_atual": 10,
   "loops_consumidos": 0,
-  "aprovacoes": [],
-  "pendencias": [],
+  "aprovacoes": [
+    "Tensão — 'Quem Deve Pra Você?': vira kicker do post (front-matter kicker)",
+    "Caso Virgo: qualificar só o fechamento — 'tira a insolvência da securitizadora da equação'",
+    "M-2: 'Até a isenção foi preservada.' → 'Até parte da isenção sobreviveu.'",
+    "Migalhas (l. 167): reescrito — 'Entre você e a mesa de negociação há mais um intermediário. Não mais uma proteção.'",
+    "M-5: 'Qual curva usar' passa a vir antes de 'Quando o preço vai a 50'",
+    "'50% do preço unitário' → '50% do valor de face'",
+    "Gate humano (etapa 10): APROVADO pelo autor em 2026-09-27. Publicação e merge são ações do autor."
+  ],
+  "pendencias": [
+    "Itens menores da crítica não aplicados por escolha (M-6, M-7, B-2 a B-5, l. 21, l. 155 'colchão', l. 181) — registrados em 05-critica.md/06-revisao.md",
+    "Fontes da marca (Montserrat, Source Sans 3, IBM Plex Mono) não instaladas: figuras renderizadas com fontes de fallback"
+  ],
   "commit_inicial": "fe48b65",
   "linha_editorial": "Notas de um Professor",
   "titulo": "O Certificado Não Muda o Devedor",
-  "slug": "2026-09-28-o-certificado-nao-muda-o-devedor"
+  "slug": "2026-09-28-o-certificado-nao-muda-o-devedor",
+  "status": "aprovado",
+  "ponto_retorno": 9,
+  "motivo_retorno": "Gate humano (etapa 10): respostas do autor aplicadas como acabamento na etapa 9 (não consome loop)."
 }
