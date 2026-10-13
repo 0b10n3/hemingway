@@ -152,3 +152,49 @@ Esta etapa não reabre as tensões já registradas para o gate (reenquadramento,
 ## Veredito
 
 Precisa voltar para a etapa de estrutura: o eixo de custo não comanda as seções 5, 6 e o fecho (item 1), e o autor precisa decidir o eixo antes da revisão de linha, porque essa decisão define o que sobrevive nos itens 4, 5 e 8.
+
+---
+
+## Re-checagem pós-v2
+
+**(a) Item 1 está resolvido: sim.** Os quatro trechos que voltavam ao eixo de origem agora usam o eixo de custo.
+- **l. 154 e l. 178:** "ninguém nasce sabendo" e "nasce com ninguém" viraram "nada disso dá fruto sem cultivo" e "Nenhum dos três dá fruto sem cultivo".
+- **l. 156:** o coqueiro deixou de ser prova de "estrangeiro que virou nativo". Agora é prova de "custo de entrada alto, depois manutenção baixa". É o mesmo formato do exemplo de programação logo abaixo (l. 158: "custava uma tarde de sofrimento passa a sair no automático"), então metáfora e exemplo dizem a mesma coisa.
+- **l. 182:** o fecho mantém a frase do autor e acrescenta o custo de entrada.
+
+Fica uma folga na analogia, de severidade baixa: o coqueiro nunca precisou de cultivo contínuo, só de uma introdução única. Por isso ele mostra "custo de entrada que depois some", e não "manutenção alta que vira baixa". Como o próprio texto equipara "trazer de fora" a aprender ("ou você a trouxe de fora, estudando, errando e repetindo", l. 75), a leitura se sustenta dentro da metáfora. Não bloqueia.
+
+**(b) Problemas novos criados pelos cinco trechos**
+
+1. **O 1587 agora sustenta o argumento, e a fonte contradiz justamente essa parte (média).**
+   - **Onde:** trecho 3 (l. 156: "Depois que pegou, parou de pedir: trinta e quatro anos depois [...] bastava enterrar um coco") e trecho 4 (l. 178: "pagou o custo de entrada e depois quase não pediu mais nada").
+   - **O problema:** na v1 o 1587 era cor da abertura. Na v2 ele é a evidência de "parou de pedir". O mesmo parágrafo de Gabriel Soares diz que, naquele momento, as palmeiras secavam aos oito ou dez anos por um "bicho no olho" que ninguém sabia matar (03-pesquisa §1.4, §2.1).
+   - **Decisão do autor:** não reabro a recusa do item 4. Registro só que o peso dela mudou: a afirmação que a fonte contradiz agora fica no centro do argumento, e não mais só na abertura. A checagem do fato é da etapa 7. A decisão de manter vai ao gate sabendo disso.
+
+2. **A ressalva está presa à frase errada (baixa).**
+   - **Onde:** l. 156, "se você confiar no cronista".
+   - **O problema:** na v1 essa ressalva protegia a parte que o texto chama de exagero ("cinco ou seis anos" contra "vinte"). Agora ela protege "bastava enterrar um coco", que é a parte que o próprio texto dá como verdadeira e atual (l. 51: "É do mesmo jeito que se planta coqueiro no litoral baiano até hoje").
+
+3. **Os dois lados da simetria ficam em dois recortes diferentes, sem aviso (baixa).**
+   - **Onde:** trecho 1 (l. 43), seguido de "O símbolo de importado é brasileiro" (l. 45).
+   - **O problema:** a ressalva é honesta. Mas o leitor lê "na Bahia, ele também chegou de fora" e, na linha seguinte, a frase de efeito sobre ser brasileiro, que só vale em escala de país. O texto não marca essa troca de recorte, e "Errei nas duas pontas" continua de pé sem ressalva.
+
+4. **O mesmo ponto aparece três vezes em cerca de 30 linhas (baixa).**
+   - **Onde:** l. 156, l. 178 e l. 182 repetem "custo de entrada, depois se planta sozinho". Somadas a l. 47 e l. 53, o dado de 1587 / "se planta quase sozinho" aparece cinco vezes no post.
+   - **O problema:** o argumento ficou explícito demais. É questão de ritmo, não de lógica.
+
+Também não criam problema: trecho 2 (l. 154) e trecho 4 (l. 178) estão no eixo certo e não geram contradição com "a afinidade muda a taxa de câmbio" (l. 160).
+
+**Nota fora dos cinco trechos:** com o eixo A decidido, o item 8 (subtítulo "Skills nativas, skills importadas…") deixa de depender do item 1. Ele segue com severidade baixa: o subtítulo continua anunciando o eixo de origem, que o post descarta. Vai para a etapa 9 / gate.
+
+**(c) Veredito:** pronto para revisão de linha. Não resta achado de severidade alta, e o ponto do 1587 (média) segue para a etapa 7 e para o gate como decisão consciente do autor.
+
+### Encaminhamento do pipeline principal
+
+- **Item (b)1 e (b)2/(b)4, em parte:** a cláusula "trinta e quatro anos depois, se você confiar
+  no cronista, bastava enterrar um coco" foi redação do pipeline no v2, não do autor. Ajuste
+  registrado para a etapa 9: remover essa cláusula do trecho 3. O trecho fica "Depois que
+  pegou, parou de pedir. Hoje ele se planta quase sozinho, e ninguém olha…". Assim o 1587 volta
+  a ser só cor da abertura (decisão do autor no item 4) e a repetição cai de cinco para quatro
+  ocorrências. Não consome loop: é acabamento de uma frase do próprio pipeline.
+- **(b)3 e item 8 (subtítulo):** baixa. Vão ao gate.
