@@ -59,3 +59,13 @@
 
 
 _Nota do pipeline: Deming & Noray (2020) e a regra da CVM sobre dispensa de prospecto foram citadas de memória pelo revisor e ficam para conferência na etapa 7._
+
+## Respostas do autor (2026-10-12, antes da etapa 6)
+
+| Achado | Resposta do autor | Aplicação |
+|---|---|---|
+| **Bloqueante** — l. 178, "virar coqueiro" × depreciação de skills técnicas | **Separar fundamento de ferramenta.** O que vira coqueiro é o fundamento; a ferramenta muda e continua pedindo poda. | `04-draft-v3.md`, fecho de "Três cacaueiros". |
+| Atenção — l. 172, "estrutura de garantias por trás de um CRA ou de uma LCI" | **Trocar LCI por CRI.** | `04-draft-v3.md`, cacaueiro 1. |
+
+Gate 5a liberado: não resta bloqueante sem resposta. Os outros 11 itens de atenção e os 7
+nitpicks não bloqueiam e ficam visíveis para o gate humano (etapa 10).

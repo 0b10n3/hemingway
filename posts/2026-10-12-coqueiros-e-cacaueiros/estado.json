@@ -9,11 +9,11 @@
     "Tensão — reenquadramento: RESOLVIDA, opção A (eixo energia de manutenção), via reparo mínimo (autor, pós-etapa 5)",
     "Crítica item 7 (Musashi): manter na abertura (autor)",
     "Crítica item 4 (1587): manter só a metade atual (autor)",
-    "Crítica item 3 (cacau baiano): nuançar em uma frase (autor)"
+    "Crítica item 3 (cacau baiano): nuançar em uma frase (autor)",
+    "5a bloqueante (depreciação de skills técnicas): separar fundamento de ferramenta (autor)",
+    "5a atenção (CRA/LCI): trocar LCI por CRI (autor)"
   ],
-  "pendencias": [
-    "Etapa 9: remover a cláusula 'trinta e quatro anos depois, se você confiar no cronista, bastava enterrar um coco' do trecho 3 do v2 (re-checagem da etapa 5, (b)1)"
-  ],
+  "pendencias": [],
   "commit_inicial": "04e6e82",
   "linha_editorial": "Spoiler",
   "titulo": "Coqueiros e cacaueiros",
