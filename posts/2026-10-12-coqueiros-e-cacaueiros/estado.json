@@ -1,5 +1,5 @@
 {
-  "etapa_atual": 7,
+  "etapa_atual": 8,
   "loops_consumidos": 1,
   "aprovacoes": [
     "Linha editorial: Spoiler (confirmada pelo autor, etapa 0)",
@@ -13,7 +13,10 @@
     "5a bloqueante (depreciação de skills técnicas): separar fundamento de ferramenta (autor)",
     "5a atenção (CRA/LCI): trocar LCI por CRI (autor)"
   ],
-  "pendencias": [],
+  "pendencias": [
+    "Fontes da marca (Montserrat, Source Sans 3, IBM Plex Mono) não instaladas: diag-01.png renderizado com fontes de fallback; SVG declara a pilha completa",
+    "brand/DESIGN.md §10 (checklist) ainda cita Space Grotesk/Hanken Grotesk/Space Mono, em conflito com §4.2 e tokens.json — correção é no repo brand/, fora deste pipeline"
+  ],
   "commit_inicial": "04e6e82",
   "linha_editorial": "Spoiler",
   "titulo": "Coqueiros e cacaueiros",
