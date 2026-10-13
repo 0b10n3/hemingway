@@ -5,7 +5,7 @@ slug: 2026-10-12-coqueiros-e-cacaueiros
 data: 2026-10-12
 linha_editorial: Spoiler
 tags: [Spoiler, Carreira, Mercado Financeiro, Inteligência Artificial]
-status: em-revisao
+status: aprovado
 assunto_email: "Sua melhor nota pode estar mentindo para você"
 nota_substack: "O coqueiro chegou à Bahia em 1553 e hoje ninguém lembra que é imigrante. Algumas skills funcionam assim."
 busca_organica: "Skills naturais e aprendidas: como descobrir seus pontos fortes na carreira"

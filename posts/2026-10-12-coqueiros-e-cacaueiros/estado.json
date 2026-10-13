@@ -1,5 +1,5 @@
 {
-  "etapa_atual": 9,
+  "etapa_atual": 10,
   "loops_consumidos": 1,
   "aprovacoes": [
     "Linha editorial: Spoiler (confirmada pelo autor, etapa 0)",
@@ -11,16 +11,24 @@
     "Crítica item 4 (1587): manter só a metade atual (autor)",
     "Crítica item 3 (cacau baiano): nuançar em uma frase (autor)",
     "5a bloqueante (depreciação de skills técnicas): separar fundamento de ferramenta (autor)",
-    "5a atenção (CRA/LCI): trocar LCI por CRI (autor)"
+    "5a atenção (CRA/LCI): trocar LCI por CRI (autor)",
+    "Tensão — capa fora de escopo: autor produz por fora do pipeline",
+    "Tensão — ilustração fora de escopo: autor produz por fora do pipeline",
+    "Tensão — subtítulo (crítica item 8): manter 'Skills nativas, skills importadas…' como isca deliberada",
+    "Gate humano (etapa 10): APROVADO pelo autor em 2026-10-13. Publicação e merge são ações do autor."
   ],
   "pendencias": [
     "Fontes da marca (Montserrat, Source Sans 3, IBM Plex Mono) não instaladas: diag-01.png renderizado com fontes de fallback; SVG declara a pilha completa",
-    "brand/DESIGN.md §10 (checklist) ainda cita Space Grotesk/Hanken Grotesk/Space Mono, em conflito com §4.2 e tokens.json — correção é no repo brand/, fora deste pipeline"
+    "brand/DESIGN.md §10 (checklist) ainda cita Space Grotesk/Hanken Grotesk/Space Mono, em conflito com §4.2 e tokens.json — correção é no repo brand/, fora deste pipeline",
+    "[VERIFICAR: nome oficial do programa] (mentoria ANBIMA 2025) — autor resolve ao colar na Substack",
+    "[VERIFICAR: link da Notas de um Professor] — autor resolve ao colar na Substack",
+    "Itens de linha/voz e de atenção da 5a não aplicados por escolha — registrados em 09-consolidacao.md §2 e §5"
   ],
   "commit_inicial": "04e6e82",
   "linha_editorial": "Spoiler",
   "titulo": "Coqueiros e cacaueiros",
   "slug": "2026-10-12-coqueiros-e-cacaueiros",
   "ponto_retorno": 2,
-  "motivo_retorno": "Etapa 5, item 1 (alta): eixo custo × origem. Autor: reparo mínimo no eixo custo. Reentrada na etapa 4 contada como loop por conservadorismo (a regra de loop é do gate; aqui o retorno foi pré-gate)."
+  "motivo_retorno": "Etapa 5, item 1 (alta): eixo custo × origem. Autor: reparo mínimo no eixo custo. Reentrada na etapa 4 contada como loop por conservadorismo (a regra de loop é do gate; aqui o retorno foi pré-gate).",
+  "status": "aprovado"
 }
