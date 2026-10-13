@@ -1,15 +1,21 @@
 {
-  "etapa_atual": 5,
-  "loops_consumidos": 0,
+  "etapa_atual": 4,
+  "loops_consumidos": 1,
   "aprovacoes": [
     "Linha editorial: Spoiler (confirmada pelo autor, etapa 0)",
     "Título: Coqueiros e cacaueiros (confirmado pelo autor, etapa 0)",
     "Três cacaueiros: manter três (autor, etapa 0)",
-    "Profissional em T: manter; incluir frase sobre mentoria ANBIMA 2025 (autor, etapa 0)"
+    "Profissional em T: manter; incluir frase sobre mentoria ANBIMA 2025 (autor, etapa 0)",
+    "Tensão — reenquadramento: RESOLVIDA, opção A (eixo energia de manutenção), via reparo mínimo (autor, pós-etapa 5)",
+    "Crítica item 7 (Musashi): manter na abertura (autor)",
+    "Crítica item 4 (1587): manter só a metade atual (autor)",
+    "Crítica item 3 (cacau baiano): nuançar em uma frase (autor)"
   ],
   "pendencias": [],
   "commit_inicial": "04e6e82",
   "linha_editorial": "Spoiler",
   "titulo": "Coqueiros e cacaueiros",
-  "slug": "2026-10-12-coqueiros-e-cacaueiros"
+  "slug": "2026-10-12-coqueiros-e-cacaueiros",
+  "ponto_retorno": 2,
+  "motivo_retorno": "Etapa 5, item 1 (alta): eixo custo × origem. Autor: reparo mínimo no eixo custo. Reentrada na etapa 4 contada como loop por conservadorismo (a regra de loop é do gate; aqui o retorno foi pré-gate)."
 }

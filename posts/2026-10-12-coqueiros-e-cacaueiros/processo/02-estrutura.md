@@ -88,3 +88,21 @@ duas no mesmo plano.
   duas plantas); a frase pode prometer algo que não aparece.
 - O parágrafo da série sobre Musashi interrompe o gancho entre a viagem e a ideia "pronta".
 - Subtítulo do rascunho ainda no eixo de origem (ver briefing).
+
+---
+
+## Adendo (2026-10-12) — retorno à etapa 2 após severidade alta na etapa 5
+
+`05-critica.md`, item 1 (alta): o eixo declarado (custo de manutenção) não comandava "Não
+fique esperando um coqueiro", o fecho de "Três cacaueiros" e "O seu coqueiral". Esses trechos
+voltavam ao eixo de origem. O autor decidiu: **reparo mínimo no eixo custo**. A estrutura de
+seções **não muda**: mesma ordem, mesmos H2, mesmo `diag-01`. O que muda é o que a seção "Não
+fique esperando um coqueiro" prova. Antes provava "estrangeiro que pegou parece nativo". Agora
+prova "custo de entrada alto, manutenção baixa depois que pega", e o coqueiro passa a ser a
+imagem do cacaueiro que virou coqueiro pelo eixo certo. Reentrada executada em
+`04-draft-v2.md`.
+
+Itens médios da crítica decididos pelo autor no mesmo momento: Musashi fica na abertura
+(item 7); bloco de 1587 fica como está (item 4); cacau baiano ganha uma frase de nuance
+(item 3). Os demais itens médios e baixos (2, 5, 6, 8–13) não mudam a estrutura. Ficam
+visíveis para o gate (etapa 10) e, no que for frase, para a etapa 6.
