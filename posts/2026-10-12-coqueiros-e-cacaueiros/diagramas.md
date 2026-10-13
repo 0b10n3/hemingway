@@ -134,6 +134,14 @@ e uma nota de que a posição compara e não mede. Descartados: pontos com coord
 inventado com cara de gráfico), seta cacaueiro → coqueiro (antecipa "Não fique esperando um
 coqueiro", descartada na etapa 2) e rótulos nos quadrantes inferiores.
 
+**Gate de Tufte (etapa 9):** sem `rangemode="tozero"` por exceção justificada. Não há série
+numérica nem barra: os eixos são conceituais, sem escala e sem ticks (`visible=False`), e o
+`range=[-1.4, 10.4]` só enquadra o plano 0-10 com margem para setas e rótulos. Não há o que
+truncar. Lie Factor: não se aplica, porque nenhum tamanho, área ou posição codifica dado (os
+quadrantes têm o mesmo tamanho por construção, e a nota no rodapé diz que a posição compara e
+não mede). Sem 3D, sombra, textura ou moldura: as bordas `width=1` são hairlines dos
+quadrantes, não moldura da figura.
+
 **Alt-text (para o placeholder `diag-01` em `post.md`):**
 
 > Diagrama: matriz de dois eixos, sem escala. No eixo horizontal, a energia de manutenção que
