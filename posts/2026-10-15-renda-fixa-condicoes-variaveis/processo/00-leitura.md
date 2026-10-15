@@ -2,7 +2,7 @@
 
 Fonte: `_arquivo/drafts/2026-10-15_Renda_Fixa_Condições_Variáveis.md` (intocado, cópia de trabalho abaixo).
 
-**Linha editorial:** pendente de confirmação do autor. O rascunho não traz front-matter YAML;
+**Linha editorial:** Notas de um Professor (confirmada pelo autor na etapa 0, 2026-10-15). O rascunho não traz front-matter YAML;
 o H1 diz "Notas de um Professor — Debêntures [draft]" e o rascunho traz Ficha de Saída
 preenchida (artefato próprio da linha Notas de um Professor), mas a regra é perguntar, não
 inferir.
@@ -329,13 +329,13 @@ O texto ensina o leitor a ler uma debênture pela escritura, não pela sigla: on
 
 | # | Trecho (verbatim ou resumido) | Classificação | Resolução |
 |---|---|---|---|
-| 1 | H1 "# Notas de um Professor — Debêntures \[draft\]" (sem front-matter YAML) | Estrutural | Pendente — confirmação do autor na etapa 0 (precedente: `2026-10-12-coqueiros-e-cacaueiros`). |
-| 2 | "*Alternativas de título:* 'Renda Fixa, Condições Variáveis' · 'O Contrato Muda por Maioria'" | Estrutural | Pendente — autor escolhe na etapa 0/1. |
+| 1 | H1 "# Notas de um Professor — Debêntures \[draft\]" (sem front-matter YAML) | Estrutural | **Resolvido (etapa 0)** — autor confirmou Notas de um Professor. |
+| 2 | "*Alternativas de título:* 'Renda Fixa, Condições Variáveis' · 'O Contrato Muda por Maioria'" | Estrutural | **Resolvido (etapa 0)** — autor: "Renda Fixa, Condições Variáveis". |
 | 3 | Ficha de Saída (8 campos) já preenchida pelo autor | Estrutural | Pendente — etapa 2 adota a Ficha do autor como base (não reescreve), só confere se a sequência entrega a competência do campo 1. |
 | 4 | Ficha, campo 8: "aponta para \[DECISÃO DO AUTOR: FIDC, prometido no texto anterior, ou nota comercial\]" | Estrutural | Pendente — pergunta ao autor. **Fato conferido:** o post do CRA publicado prometeu a **debênture** como próximo texto ("A debênture é o tema do próximo texto desta série", `posts/2026-09-28-o-certificado-nao-muda-o-devedor/post.md:290`), não o FIDC. A premissa "FIDC, prometido no texto anterior" não confere. |
 | 5 | "**Movimentos usados:** 0, 1 (Modo A, GPA), 2, 3, 4 (com materialidade curta), 5, 7, 8, 9, 10." | Nota de conteúdo | Pendente — etapa 2 confere contra `docs/BACKWARDS_DESIGN.md` §3. |
 | 6 | Checklist "Ponte de série. O fechamento assume que o texto do CRA publicado prometeu o FIDC…" + corpo: "No texto do CRA, prometi o FIDC. Ele vem no próximo…" | Nota de conteúdo | Ver #4: a promessa publicada foi a debênture. A frase "No texto do CRA, prometi o FIDC" está factualmente errada contra o post publicado e precisa mudar na etapa 4, conforme a resposta ao #4. |
-| 7 | Checklist "Data da abertura. 'Na quarta-feira, 7 de outubro' funciona se o post sair nesta semana ou na próxima." | Nota de conteúdo | Pendente — etapa 1 (depende da data de publicação). 7/10/2026 é de fato quarta-feira. |
+| 7 | Checklist "Data da abertura. 'Na quarta-feira, 7 de outubro' funciona se o post sair nesta semana ou na próxima." | Nota de conteúdo | **Resolvido (etapa 0)** — publicação depois de 18/10: vira "Em 7 de outubro" (etapa 4). |
 | 8 | Checklist "Chilli Beans. … sugere que a debênture é lastro de um CRI ou CRA da Vert … o original do Neofeed não foi aberto." | Nota de conteúdo | Pendente — etapa 7 (abrir a fonte primária) e, se confirmado, etapa 4/9 decide a linha ligando ao texto do CRA. |
 | 9 | Checklist "Ticket mínimo do GPA. Os R$ 15 milhões aparecem nas reportagens de maio e julho. Vale conferir no plano homologado." | Nota de conteúdo | Pendente — etapa 7. |
 | 10 | Checklist "Anderson (1999). … O prenome Christopher veio de memória." | Nota de conteúdo | Pendente — etapa 7. |
