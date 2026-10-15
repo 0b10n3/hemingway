@@ -1,0 +1,12 @@
+{
+  "etapa_atual": 0,
+  "loops_consumidos": 0,
+  "aprovacoes": [],
+  "pendencias": [
+    "Linha editorial: confirmar com o autor (rascunho sem front-matter YAML)",
+    "Título: escolher entre 'Renda Fixa, Condições Variáveis' e 'O Contrato Muda por Maioria'",
+    "Ponte de série: FIDC ou nota comercial; a frase 'No texto do CRA, prometi o FIDC' não confere com o post publicado"
+  ],
+  "commit_inicial": "08aa3d0",
+  "slug": "2026-10-15-renda-fixa-condicoes-variaveis"
+}
