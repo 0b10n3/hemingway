@@ -1,5 +1,5 @@
 {
-  "etapa_atual": 8,
+  "etapa_atual": 9,
   "loops_consumidos": 0,
   "aprovacoes": [
     "Linha editorial: Notas de um Professor (confirmada pelo autor, etapa 0)",
@@ -13,11 +13,18 @@
     "Crítica C-01: manter ordem (autor)",
     "Crítica C-02/03/04: Chilli Beans enxuto em Gatilhos, sem ligação no fechamento (autor)",
     "Crítica C-06/07/08: cortar os três trechos (autor)",
-    "Crítica C-05: ajuste mínimo espécie/RJ×RE (autor)"
+    "Crítica C-05: ajuste mínimo espécie/RJ×RE (autor)",
+    "Etapa 6: aplicar todas as correções de norma/regra + só as 8 sugestões ★ (autor)",
+    "Lâmina: glosar na 1ª ocorrência (autor)",
+    "Etapa 7: K-01 versão recomendada, data + retificação do MP (autor)",
+    "Etapa 7: K-05 e K-07 opcionais aplicados (autor, junto com as ★)",
+    "Etapa 7: K-06 — cortar a oração do coordenador da 20ª emissão (autor)"
   ],
   "pendencias": [
     "Fontes da marca não instaladas: PNGs com fontes de fallback; SVG declara a pilha completa",
-    "Rodapé do diag-01 cita Leis 11.076/2004 e 14.430/2022, verificadas no post do CRA, não neste"
+    "Rodapé do diag-01 cita Leis 11.076/2004 e 14.430/2022, verificadas no post do CRA, não neste",
+    "[VERIFICAR] Varanda Neto et al.: capítulos 8 e 19",
+    "[VERIFICAR] Eizirik: edição vigente e paginação"
   ],
   "commit_inicial": "08aa3d0",
   "slug": "2026-10-15-renda-fixa-condicoes-variaveis",

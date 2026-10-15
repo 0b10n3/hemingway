@@ -124,8 +124,8 @@ def pct(v):
 spread_cols = ["spread_105_pct", "spread_110_pct", "spread_120_pct"]
 values = [[pct(v) for v in df["cdi_pct"]]] + [["CDI + " + pct(v) for v in df[col]] for col in spread_cols]
 
-# Destaque: o mesmo 110% do CDI com o CDI de hoje (13,65%) e com o CDI a 10% — o par que o
-# texto lê ("vira CDI + 0,96% se o CDI cair para 10%").
+# Destaque: os mesmos 110% do CDI com o CDI de hoje (13,65%) e com o CDI a 10% — o par que o
+# texto lê ("viram CDI + 0,96% se o CDI cair para 10%").
 hit = df.index[df["cdi_pct"].isin([13.65, 10.0])].tolist()
 fills = [[white] * len(df) for _ in values]
 fonts = [[ink] * len(df) for _ in values]
@@ -153,7 +153,7 @@ fig = go.Figure(go.Table(
 fig.add_annotation(
     xref="paper", yref="paper", x=TABLE_X + 0.005, y=0.455, ax=50, ay=0, showarrow=True,
     arrowhead=2, arrowwidth=1.5, arrowcolor=lime_text, xanchor="left", align="left",
-    text="O mesmo 110% do CDI:<br>CDI + 1,29% com o CDI<br>a 13,65%, CDI + 0,96%<br>"
+    text="Os mesmos 110% do CDI:<br>CDI + 1,29% com o CDI<br>a 13,65%, CDI + 0,96%<br>"
          "se o CDI cair para 10%.<br>O risco da empresa não<br>caiu. A compensação, sim.",
     font=dict(color=lime_text, size=15, family=font_body),
 )
@@ -192,7 +192,7 @@ Factor a declarar.
 > juros, com o CDI constante ao longo do prazo. Com o CDI a 15% ao ano: 105% do CDI equivale a
 > CDI + 0,70%; 110%, a CDI + 1,41%; 120%, a CDI + 2,83%. Com o CDI a 13,65%: CDI + 0,64%,
 > CDI + 1,29% e CDI + 2,59%. A 10%: CDI + 0,48%, CDI + 0,96% e CDI + 1,92%. A 8%: CDI + 0,39%,
-> CDI + 0,77% e CDI + 1,55%. O mesmo 110% do CDI que hoje vale CDI + 1,29% vira CDI + 0,96% se
+> CDI + 0,77% e CDI + 1,55%. Os mesmos 110% do CDI que hoje valem CDI + 1,29% viram CDI + 0,96% se
 > o CDI cair para 10%: o percentual do CDI é um spread que encolhe quando os juros caem.
 
 **Legenda:**
