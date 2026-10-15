@@ -1,5 +1,5 @@
 {
-  "etapa_atual": 7,
+  "etapa_atual": 8,
   "loops_consumidos": 0,
   "aprovacoes": [
     "Linha editorial: Notas de um Professor (confirmada pelo autor, etapa 0)",
@@ -15,7 +15,10 @@
     "Crítica C-06/07/08: cortar os três trechos (autor)",
     "Crítica C-05: ajuste mínimo espécie/RJ×RE (autor)"
   ],
-  "pendencias": [],
+  "pendencias": [
+    "Fontes da marca não instaladas: PNGs com fontes de fallback; SVG declara a pilha completa",
+    "Rodapé do diag-01 cita Leis 11.076/2004 e 14.430/2022, verificadas no post do CRA, não neste"
+  ],
   "commit_inicial": "08aa3d0",
   "slug": "2026-10-15-renda-fixa-condicoes-variaveis",
   "linha_editorial": "Notas de um Professor",
