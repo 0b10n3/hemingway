@@ -55,7 +55,7 @@ A escritura (art. 61) define tudo o que importa: valor, séries, remuneração, 
 
 A palavra comunhão vai voltar.
 
-A lei prevê quatro espécies (art. 58): com garantia real (um bem específico reservado ao credor), com garantia flutuante (privilégio geral sobre o ativo da empresa), quirografária (sem preferência sobre os demais credores) e subordinada (que só recebe depois dos quirografários). A espécie define, em tese, o seu lugar na fila se a empresa quebrar. Em tese, porque a Lei de Falências não lê o nome da espécie do jeito que o investidor lê.
+A lei prevê quatro espécies (art. 58): com garantia real (um bem específico reservado ao credor), com garantia flutuante (que dá privilégio geral sobre o ativo, nos termos da Lei das S.A.), quirografária (sem preferência sobre os demais credores) e subordinada (que só recebe depois dos quirografários). A espécie define, em tese, o seu lugar na fila se a empresa quebrar. Em tese, porque a Lei de Falências não lê o nome da espécie do jeito que o investidor lê.
 
 A debênture pode ainda ser simples ou conversível em ações (art. 57).
 
@@ -160,7 +160,7 @@ Com o CDI constante em *c* ao ano, a taxa diária é d = (1 + c)^(1/252) − 1. 
 
 $$ 1 + s = \frac{\left(1 + p \cdot d\right)^{252}}{1 + c} $$
 
-Com a Selic (a taxa básica de juros, definida pelo Banco Central) em 13,75%, o CDI fica perto de 13,65% ao ano. A tabela mostra quanto valem alguns percentuais em diferentes níveis de juros.
+Com a meta da Selic (a taxa básica de juros, definida pelo Banco Central) em 13,75%, o CDI fica perto de 13,65% ao ano. A tabela mostra quanto valem alguns percentuais em diferentes níveis de juros.
 
 ![Gráfico: Tabela com o spread sobre o CDI equivalente a três percentuais do CDI, em quatro níveis de juros, com o CDI constante ao longo do prazo. Com o CDI a 15% ao ano: 105% do CDI equivale a CDI + 0,70%; 110%, a CDI + 1,41%; 120%, a CDI + 2,83%. Com o CDI a 13,65%: CDI + 0,64%, CDI + 1,29% e CDI + 2,59%. A 10%: CDI + 0,48%, CDI + 0,96% e CDI + 1,92%. A 8%: CDI + 0,39%, CDI + 0,77% e CDI + 1,55%. Os mesmos 110% do CDI que hoje valem CDI + 1,29% viram CDI + 0,96% se o CDI cair para 10%: o percentual do CDI é um spread que encolhe quando os juros caem.](graf-01)
 

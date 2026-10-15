@@ -1,5 +1,5 @@
 {
-  "etapa_atual": 9,
+  "etapa_atual": 10,
   "loops_consumidos": 0,
   "aprovacoes": [
     "Linha editorial: Notas de um Professor (confirmada pelo autor, etapa 0)",
@@ -18,7 +18,10 @@
     "Lâmina: glosar na 1ª ocorrência (autor)",
     "Etapa 7: K-01 versão recomendada, data + retificação do MP (autor)",
     "Etapa 7: K-05 e K-07 opcionais aplicados (autor, junto com as ★)",
-    "Etapa 7: K-06 — cortar a oração do coordenador da 20ª emissão (autor)"
+    "Etapa 7: K-06 — cortar a oração do coordenador da 20ª emissão (autor)",
+    "Tensão — ponte de série: RESOLVIDA, leitura confirmada (CRA prometeu a debênture; FIDC anunciado como próximo) (autor, gate)",
+    "Gate: acabamentos 'meta da Selic' e glosa da flutuante aplicados (autor)",
+    "Gate: [VERIFICAR] da bibliografia ficam; autor confere antes de colar"
   ],
   "pendencias": [
     "Fontes da marca não instaladas: PNGs com fontes de fallback; SVG declara a pilha completa",
@@ -30,6 +33,6 @@
   "slug": "2026-10-15-renda-fixa-condicoes-variaveis",
   "linha_editorial": "Notas de um Professor",
   "titulo": "Renda Fixa, Condições Variáveis",
-  "ponto_retorno": 4,
-  "motivo_retorno": "Etapa 5: respostas do autor aos itens médios aplicadas em draft v2 (acabamento pré-gate, sem mudança de estrutura; não consome loop)."
+  "ponto_retorno": 9,
+  "motivo_retorno": "Gate humano (etapa 10): autor pediu 'Ajustar'; acabamentos aplicados na etapa 9 (não consome loop); demais ajustes a definir."
 }

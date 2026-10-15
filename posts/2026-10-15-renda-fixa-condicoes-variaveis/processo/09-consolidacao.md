@@ -68,3 +68,8 @@ Passada de coerência: agente `revisao-editorial`.
 2. Eizirik, *A Lei das S/A Comentada*: edição vigente e paginação.
 
 Sem `[FAIXA]`.
+
+## Reentrada pós-gate (acabamento, não consome loop)
+
+- Glosa da flutuante: `(privilégio geral sobre o ativo da empresa)` → `(que dá privilégio geral sobre o ativo, nos termos da Lei das S.A.)` (observação 3).
+- `Com a Selic (…) em 13,75
