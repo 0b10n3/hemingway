@@ -72,4 +72,4 @@ Sem `[FAIXA]`.
 ## Reentrada pós-gate (acabamento, não consome loop)
 
 - Glosa da flutuante: `(privilégio geral sobre o ativo da empresa)` → `(que dá privilégio geral sobre o ativo, nos termos da Lei das S.A.)` (observação 3).
-- `Com a Selic (…) em 13,75
+- `Com a Selic (…) em 13,75%,` → `Com a meta da Selic (…) em 13,75%,` (observação 6).
