@@ -1,15 +1,17 @@
 {
-  "etapa_atual": 3,
+  "etapa_atual": 4,
   "loops_consumidos": 0,
   "aprovacoes": [
     "Linha editorial: Notas de um Professor (confirmada pelo autor, etapa 0)",
     "Título: Renda Fixa, Condições Variáveis (autor, etapa 0)",
     "Ponte de série: corrigir para refletir que o CRA prometeu a debênture (autor, etapa 0)",
-    "Abertura: 'Na quarta-feira, 7 de outubro' → 'Em 7 de outubro' (autor, etapa 0)"
+    "Abertura: 'Na quarta-feira, 7 de outubro' → 'Em 7 de outubro' (autor, etapa 0)",
+    "MP: cortar 'O juiz homologou' (autor, pós-etapa 3)",
+    "Chilli Beans: corrigir estrutura e ligar à nota comercial (autor, pós-etapa 3)",
+    "Escritura × lei: precisar 'O voto' e a frase de laço (autor, pós-etapa 3)",
+    "Tensão — bibliografia: RESOLVIDA, enxugar para 4 com Eizirik (autor, pós-etapa 3)"
   ],
-  "pendencias": [
-    "Tensão — bibliografia (6 itens, 1 livro × regra 3-4 itens, 2 livros): gate"
-  ],
+  "pendencias": [],
   "commit_inicial": "08aa3d0",
   "slug": "2026-10-15-renda-fixa-condicoes-variaveis",
   "linha_editorial": "Notas de um Professor",
