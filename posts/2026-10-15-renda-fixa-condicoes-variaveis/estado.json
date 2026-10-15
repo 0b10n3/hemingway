@@ -9,11 +9,17 @@
     "MP: cortar 'O juiz homologou' (autor, pós-etapa 3)",
     "Chilli Beans: corrigir estrutura e ligar à nota comercial (autor, pós-etapa 3)",
     "Escritura × lei: precisar 'O voto' e a frase de laço (autor, pós-etapa 3)",
-    "Tensão — bibliografia: RESOLVIDA, enxugar para 4 com Eizirik (autor, pós-etapa 3)"
+    "Tensão — bibliografia: RESOLVIDA, enxugar para 4 com Eizirik (autor, pós-etapa 3)",
+    "Crítica C-01: manter ordem (autor)",
+    "Crítica C-02/03/04: Chilli Beans enxuto em Gatilhos, sem ligação no fechamento (autor)",
+    "Crítica C-06/07/08: cortar os três trechos (autor)",
+    "Crítica C-05: ajuste mínimo espécie/RJ×RE (autor)"
   ],
   "pendencias": [],
   "commit_inicial": "08aa3d0",
   "slug": "2026-10-15-renda-fixa-condicoes-variaveis",
   "linha_editorial": "Notas de um Professor",
-  "titulo": "Renda Fixa, Condições Variáveis"
+  "titulo": "Renda Fixa, Condições Variáveis",
+  "ponto_retorno": 4,
+  "motivo_retorno": "Etapa 5: respostas do autor aos itens médios aplicadas em draft v2 (acabamento pré-gate, sem mudança de estrutura; não consome loop)."
 }

@@ -171,4 +171,13 @@ decisões de ordem, corte ou encaixe e vão como pergunta ao autor antes da etap
 
 ## Respostas do autor
 
-(preenchido após a pergunta ao autor)
+Perguntas feitas em 2026-10-15, logo após a crítica:
+
+- **C-01 (ordem 4 × 5):** manter a ordem.
+- **C-02/C-03/C-04 (Chilli Beans):** fica em "Os gatilhos", enxuto; sai a ligação no fechamento.
+- **C-06/C-07/C-08 (cortes):** cortar os três (opções do plano na abertura; MP e conversíveis na anatomia; números de 2026 no emissor).
+- **C-05 (espécie, RJ × RE):** ajuste mínimo.
+- **C-10 (média, método antes do achado):** não perguntado; registrado para o gate.
+- Itens baixos: C-12, C-13 (l.284), C-18 e C-19 seguem para a etapa 6; C-14 para a etapa 7; C-11, C-15, C-16, C-20 para o gate.
+
+Aplicado em `04-draft-v2.md`.
