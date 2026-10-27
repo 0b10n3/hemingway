@@ -1,5 +1,5 @@
 {
-  "etapa_atual": 1,
+  "etapa_atual": 2,
   "loops_consumidos": 0,
   "aprovacoes": [
     "Linha editorial: Spoiler (confirmada pelo autor, etapa 0)",
@@ -10,10 +10,12 @@
   ],
   "pendencias": [
     "Tensão — subtítulo: '5 etapas…' × cinco anéis (gate)",
-    "Intertítulo vazio da abertura: etapa 2 propõe, como sugestão ao autor",
     "Edição de referência (tradução BR × Cleary): pergunta ao autor pós-etapa 3",
     "Vídeo 'para ir além' (Jocko #80 ou alternativa): pergunta ao autor pós-etapa 3",
-    "Instrução do autor: exemplo de eleições na auditoria do Anel da Terra (etapa 4)"
+    "Instrução do autor: exemplo de eleições na auditoria do Anel da Terra (etapa 4)",
+    "Intertítulo da abertura: sugestão de remover o '## ' vazio (etapa 4 aplica; gate pode reverter)",
+    "Tensão — ponte de série: coqueiros prometeu 'uma série sobre O livro dos cinco anéis'; este post cobre os cinco num texto (gate)",
+    "Etapa 7: convenção de idade (28 ocidental × 60 japonês)"
   ],
   "commit_inicial": "53ea484",
   "slug": "2026-10-27-samurais-e-duelos",
