@@ -1,15 +1,19 @@
 {
-  "etapa_atual": 0,
+  "etapa_atual": 1,
   "loops_consumidos": 0,
   "aprovacoes": [
     "Linha editorial: Spoiler (confirmada pelo autor, etapa 0)",
-    "Título: Samurais e duelos no Mercado Financeiro (autor, etapa 0); título de e-mail vira assunto_email"
+    "Título: Samurais e duelos no Mercado Financeiro (autor, etapa 0); título de e-mail vira assunto_email",
+    "Bloco de Wall Street: manter inteiro (autor, etapa 1)",
+    "Relatos pessoais: sem relato; etapa 4 não cria (autor, etapa 1)",
+    "Minimalismo: só o Dokkōdō, sem livro moderno (autor, etapa 1)"
   ],
   "pendencias": [
-    "Subtítulo '5 etapas para combater estagnição' × estrutura em cinco anéis (etapa 1)",
-    "Intertítulo vazio da abertura × 'Antes do 1% melhor, havia os Cinco Anéis' das notas (etapa 1)",
-    "Perguntas herdadas das notas: livro de minimalismo, bloco de Wall Street, relatos pessoais ([INSERIR] ausentes no corpo), edição de referência, vídeo, tamanho (etapa 1)",
-    "Instrução do autor: exemplo de eleições / tempo com política em rede social (etapa 4)"
+    "Tensão — subtítulo: '5 etapas…' × cinco anéis (gate)",
+    "Intertítulo vazio da abertura: etapa 2 propõe, como sugestão ao autor",
+    "Edição de referência (tradução BR × Cleary): pergunta ao autor pós-etapa 3",
+    "Vídeo 'para ir além' (Jocko #80 ou alternativa): pergunta ao autor pós-etapa 3",
+    "Instrução do autor: exemplo de eleições na auditoria do Anel da Terra (etapa 4)"
   ],
   "commit_inicial": "53ea484",
   "slug": "2026-10-27-samurais-e-duelos",
