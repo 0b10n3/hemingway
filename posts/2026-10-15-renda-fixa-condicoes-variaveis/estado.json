@@ -21,7 +21,8 @@
     "Etapa 7: K-06 — cortar a oração do coordenador da 20ª emissão (autor)",
     "Tensão — ponte de série: RESOLVIDA, leitura confirmada (CRA prometeu a debênture; FIDC anunciado como próximo) (autor, gate)",
     "Gate: acabamentos 'meta da Selic' e glosa da flutuante aplicados (autor)",
-    "Gate: [VERIFICAR] da bibliografia ficam; autor confere antes de colar"
+    "Gate: [VERIFICAR] da bibliografia ficam; autor confere antes de colar",
+    "Gate humano (etapa 10): APROVADO pelo autor em 2026-10-26. Publicação e merge são ações do autor."
   ],
   "pendencias": [
     "Fontes da marca não instaladas: PNGs com fontes de fallback; SVG declara a pilha completa",
@@ -34,5 +35,6 @@
   "linha_editorial": "Notas de um Professor",
   "titulo": "Renda Fixa, Condições Variáveis",
   "ponto_retorno": 9,
-  "motivo_retorno": "Gate humano (etapa 10): autor pediu 'Ajustar'; acabamentos aplicados na etapa 9 (não consome loop); demais ajustes a definir."
+  "motivo_retorno": "Gate humano (etapa 10): autor pediu 'Ajustar'; acabamentos aplicados na etapa 9 (não consome loop); demais ajustes a definir. Encerrado com aprovação em 2026-10-26, sem ajustes adicionais.",
+  "status": "aprovado"
 }

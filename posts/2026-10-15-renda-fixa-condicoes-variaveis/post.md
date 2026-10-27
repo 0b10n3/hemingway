@@ -5,7 +5,7 @@ slug: 2026-10-15-renda-fixa-condicoes-variaveis
 data: 2026-10-15
 linha_editorial: Notas de um Professor
 tags: [Notas de um Professor, Renda Fixa, Debêntures, Crédito Privado]
-status: em-revisao
+status: aprovado
 titulo_alternativo: "O Contrato Muda por Maioria"
 ---
 
