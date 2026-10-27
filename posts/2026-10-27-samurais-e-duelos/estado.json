@@ -1,0 +1,18 @@
+{
+  "etapa_atual": 0,
+  "loops_consumidos": 0,
+  "aprovacoes": [
+    "Linha editorial: Spoiler (confirmada pelo autor, etapa 0)",
+    "Título: Samurais e duelos no Mercado Financeiro (autor, etapa 0); título de e-mail vira assunto_email"
+  ],
+  "pendencias": [
+    "Subtítulo '5 etapas para combater estagnição' × estrutura em cinco anéis (etapa 1)",
+    "Intertítulo vazio da abertura × 'Antes do 1% melhor, havia os Cinco Anéis' das notas (etapa 1)",
+    "Perguntas herdadas das notas: livro de minimalismo, bloco de Wall Street, relatos pessoais ([INSERIR] ausentes no corpo), edição de referência, vídeo, tamanho (etapa 1)",
+    "Instrução do autor: exemplo de eleições / tempo com política em rede social (etapa 4)"
+  ],
+  "commit_inicial": "53ea484",
+  "slug": "2026-10-27-samurais-e-duelos",
+  "linha_editorial": "Spoiler",
+  "titulo": "Samurais e duelos no Mercado Financeiro"
+}
