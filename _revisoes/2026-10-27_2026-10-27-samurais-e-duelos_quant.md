@@ -91,4 +91,9 @@ _Os cenários de volatilidade (35×, 24×, 6,3×, 1,1×; 0,91¹⁸²) e 1,01²�
 
 ## Respostas do autor
 
-_(preenchido pelo pipeline principal com as respostas do autor; o pipeline só avança para a etapa 6 depois da resposta ao bloqueante)_
+Registrado em 2026-10-28.
+
+- **Bloqueante (l. 150, "a conta bate com a biografia"): RESPONDIDO.** A biografia entra como **ilustração de ordem de grandeza** (décadas, não um ano), não como evidência de que dez mil dias rendem. A calibração "A biografia, aliás, fica na mesma ordem de grandeza:" (crítica, item 9) basta, e nada mais muda. Aplicado em `04-draft-v2.md`, nota 5.
+- **Atenção (l. 146, pós-fixado × taxa constante):** o autor mantém "pós-fixado" no sentido coloquial ("rende todo dia").
+- **Atenção (l. 146 + cenário do graf-01):** o graf-01 mostra um **semestre contra que se reverte**. Mesma chegada (≈ 37,8×), com a dor do caminho como marcação a mercado e não como perda realizada. A volatilidade não é calibrada, e o cenário vai declarado na legenda (etapa 8).
+- Os demais 8 itens de atenção e os 6 nitpicks não foram respondidos e ficam visíveis para o gate (etapa 10).
