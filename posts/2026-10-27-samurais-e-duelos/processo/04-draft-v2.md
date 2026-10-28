@@ -17,7 +17,7 @@ v1 continuam valendo; abaixo estão só as mudanças novas.
 | 6 | Vazio | "O sofrimento inútil, Musashi já tinha cortado" → "O sofrimento inútil, na minha leitura, Musashi já tinha cortado" | Crítica item 7, autor: "'Sofrimento inútil'" |
 | 7 | Água, pedra | "Pense na pedra no meio do rio." → "A imagem que eu uso é a da pedra no meio do rio." (marca de leitura do autor) | Crítica item 7, autor: "Marcar a pedra" |
 | 8 | Fogo, premissa | "A reação natural é raiva." → "A reação natural é raiva, quando não é resignação." | Crítica item 4, autor: "Ajuste mínimo" |
-| 9 | Vazio, versão *hardcore* | Acrescenta ", a dos vídeos de \"disciplina samurai\" lá do começo", ligando os dois alvos do texto | Crítica item 4, autor: "Ajuste mínimo" |
+| 9 | Vazio, versão *hardcore* | Acrescenta ", a dos vídeos de "disciplina samurai" lá do começo", ligando os dois alvos do texto | Crítica item 4, autor: "Ajuste mínimo" |
 | 10 | Wall Street, rōnin | Acrescenta "— pelo menos até os últimos anos, quando aceitou o estipêndio dos Hosokawa e escreveu o livro." (Hurst: "for all but the last years of his life") | Crítica item 6, autor: "Meia frase com a ressalva" (`03-pesquisa.md` §9) |
 | 11 | Tabela, Terra | "as coisas pequenas e as grandes" → "distinguir ganho e perda", para a síntese bater com o corpo depois da troca pela regra 5 | Crítica item 16 (baixa), consequência da decisão do autor sobre a regra 5. **O gate pode reverter.** |
 
