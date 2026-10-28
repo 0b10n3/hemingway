@@ -1,22 +1,24 @@
 {
-  "etapa_atual": 3,
+  "etapa_atual": 4,
   "loops_consumidos": 0,
   "aprovacoes": [
     "Linha editorial: Spoiler (confirmada pelo autor, etapa 0)",
     "Título: Samurais e duelos no Mercado Financeiro (autor, etapa 0); título de e-mail vira assunto_email",
     "Bloco de Wall Street: manter inteiro (autor, etapa 1)",
     "Relatos pessoais: sem relato; etapa 4 não cria (autor, etapa 1)",
-    "Minimalismo: só o Dokkōdō, sem livro moderno (autor, etapa 1)"
+    "Minimalismo: só o Dokkōdō, sem livro moderno (autor, etapa 1)",
+    "Edição de referência: Kikuchi (Jardim dos Livros, 2020), tradução direta do japonês (autor, pós-etapa 3)",
+    "Vídeo 'para ir além': sem vídeo (autor, pós-etapa 3)",
+    "Idade: contagem japonesa de Musashi (29 em 1612, 60 em 1643), explicitada uma vez (autor, pós-etapa 3)",
+    "Nove regras: trocar 'pequenas e grandes' pela regra 5, ganho e perda (autor, pós-etapa 3)",
+    "Água: incorporar o 'sem pressa' do original em uma frase (autor, pós-etapa 3)"
   ],
   "pendencias": [
     "Tensão — subtítulo: '5 etapas…' × cinco anéis (gate)",
-    "Edição de referência (tradução BR × Cleary): pergunta ao autor pós-etapa 3",
-    "Vídeo 'para ir além' (Jocko #80 ou alternativa): pergunta ao autor pós-etapa 3",
-    "Instrução do autor: exemplo de eleições na auditoria do Anel da Terra (etapa 4)",
     "Intertítulo da abertura: sugestão de remover o '## ' vazio (etapa 4 aplica; gate pode reverter)",
     "Tensão — ponte de série: coqueiros prometeu 'uma série sobre O livro dos cinco anéis'; este post cobre os cinco num texto (gate)",
-    "Etapa 7: convenção de idade (28 ocidental × 60 japonês)",
-    "Pesquisa: 20 divergências rascunho × fonte (D1–D20 em 03-pesquisa.md §0) para etapas 4/7"
+    "Pesquisa: 20 divergências rascunho × fonte (D1–D20 em 03-pesquisa.md §0) para etapas 4/7",
+    "diag-01 com a contagem japonesa: 1596 (13), 1612 (29), ~1633 (~50), 1643 (60)"
   ],
   "commit_inicial": "53ea484",
   "slug": "2026-10-27-samurais-e-duelos",
