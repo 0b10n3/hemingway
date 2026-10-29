@@ -1,5 +1,5 @@
 {
-  "etapa_atual": 9,
+  "etapa_atual": 10,
   "loops_consumidos": 0,
   "aprovacoes": [
     "Linha editorial: Spoiler (confirmada pelo autor, etapa 0)",
@@ -22,12 +22,14 @@
     "Etapa 7: Kojirō 'para alguns, espadachim melhor que o próprio Musashi'; Dokkōdō 'no mesmo dia em que entregou o livro ao discípulo'; nota única de tradução livre nas Referências; 'o duelo mais famoso da vida dele' (autor)",
     "Etapa 7: lista das três décadas sem a guerra; nenhum opcional (autor)",
     "Etapa 8: visuais aprovados como estão (graf-01, diag-01, diag-02) (autor)",
-    "Etapa 9: 'distinga ganho de perda' e 'livrarias do país' aplicadas pelo orquestrador (texto verificado na etapa 7); gate pode reverter"
+    "Etapa 9: 'distinga ganho de perda' e 'livrarias do país' aplicadas pelo orquestrador (texto verificado na etapa 7); gate pode reverter",
+    "Gate — subtítulo: manter '5 etapas para combater estagnação' (autor)",
+    "Gate — ponte de série: um texto só, reconhecido no aparte (autor; redação do pipeline)",
+    "Gate — coerência: aplicar obs. 1 (Kojirō 'o melhor espadachim dos dois') e 2 (nove regras 'com que Musashi fecha o primeiro rolo'); obs. 3 (eco 'lê como') não (autor)",
+    "Gate humano (etapa 10): APROVADO pelo autor em 2026-10-28, com os acabamentos acima (etapa 9, não consome loop). Publicação e merge são ações do autor."
   ],
   "pendencias": [
-    "Tensão — subtítulo: '5 etapas…' × cinco anéis (gate)",
     "Intertítulo da abertura: sugestão de remover o '## ' vazio (etapa 4 aplica; gate pode reverter)",
-    "Tensão — ponte de série: coqueiros prometeu 'uma série sobre O livro dos cinco anéis'; este post cobre os cinco num texto (gate)",
     "Gate: itens médios/baixos da crítica não aplicados e 8 atenção + 6 nitpick da 5a",
     "Fontes da marca não instaladas: PNGs com fontes de fallback; SVG declara a pilha completa",
     "Gate: observações 1–7 de processo/09-consolidacao.md (Musashi antes de apresentado, nove regras antes de apresentadas, eco 'lê como' e outras)",
@@ -37,5 +39,6 @@
   "commit_inicial": "53ea484",
   "slug": "2026-10-27-samurais-e-duelos",
   "linha_editorial": "Spoiler",
-  "titulo": "Samurais e duelos no Mercado Financeiro"
+  "titulo": "Samurais e duelos no Mercado Financeiro",
+  "status": "aprovado"
 }

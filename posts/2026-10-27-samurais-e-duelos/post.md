@@ -5,13 +5,13 @@ slug: 2026-10-27-samurais-e-duelos
 data: 2026-10-27
 linha_editorial: Spoiler
 tags: [Spoiler, Carreira, Mercado Financeiro, Disciplina]
-status: rascunho
+status: aprovado
 assunto_email: "O que um samurai do século 17 sabe sobre sua carreira em finanças que o Hábitos Atômicos não te conta"
 nota_substack: "Antes do 1% melhor, havia os Cinco Anéis"
 busca_organica: "Livro dos Cinco Anéis aplicado à carreira: o que Musashi ensina sobre disciplina e maestria"
 ---
 
-Em 1612, numa ilhota entre Kyushu e Honshu, um espadachim de 29 anos desceu de um barco com uma espada de madeira talhada de um remo. Do outro lado estava Sasaki Kojirō, instrutor de esgrima de um senhor feudal e, para alguns, espadachim melhor que o próprio Musashi. Kojirō morreu ali, na areia.
+Em 1612, numa ilhota entre Kyushu e Honshu, um espadachim de 29 anos desceu de um barco com uma espada de madeira talhada de um remo. Do outro lado estava Sasaki Kojirō, instrutor de esgrima de um senhor feudal e, para alguns, o melhor espadachim dos dois. Kojirō morreu ali, na areia.
 
 Se você já caiu num vídeo de "disciplina samurai" no YouTube, conhece a continuação: depois do duelo, Miyamoto Musashi teria se trancado numa caverna por dois anos para entender por que quase perdeu.
 
@@ -21,7 +21,7 @@ A caverna existe. Chama-se Reigandō e fica nos arredores de Kumamoto. Mas Musas
 
 Entre o duelo mais famoso da vida dele e o livro, passaram-se três décadas.
 
-*(Passada a eleição, a série Spoiler volta com um texto que eu estava devendo.)*
+*(Passada a eleição, a série Spoiler volta com um texto que eu estava devendo. O que prometi como série sobre o livro de Musashi virou um texto só.)*
 
 No prefácio, o próprio Musashi faz o resumo.
 
@@ -53,7 +53,7 @@ O próprio Hurst derruba essa ideia. As grandes empresas japonesas não punham s
 
 Acho que é exatamente por isso que ele ainda conversa com quem trabalha em finanças. Não porque explica o Japão, mas porque descreve alguém que opera sozinho, sob risco assimétrico, num jogo em que um único erro custa tudo.
 
-Hurst faz uma provocação que vale levar a sério: quase todas as nove regras de Musashi soam familiares. Benjamin Franklin, manual de escoteiro. É verdade — o conteúdo nunca foi segredo. A diferença está no que foi lixado fora. Os best-sellers de hoje ficaram com a mecânica (hábitos, aprendizado contínuo) e tiraram o desconforto. Musashi não tira.
+Hurst faz uma provocação que vale levar a sério: quase todas as nove regras com que Musashi fecha o primeiro rolo soam familiares. Benjamin Franklin, manual de escoteiro. É verdade — o conteúdo nunca foi segredo. A diferença está no que foi lixado fora. Os best-sellers de hoje ficaram com a mecânica (hábitos, aprendizado contínuo) e tiraram o desconforto. Musashi não tira.
 
 ## Um manual de esgrima, lido como manual de carreira
 
