@@ -16,9 +16,9 @@ Nenhum `info-NN`. O critério de gatilho falha: cada peça carrega a própria s�
 
 ## diag-01
 
-**Onde entra:** abertura, logo depois de "Só perto dos 50 sentiu que tinha entendido o
-Caminho." (parágrafo próprio desde a etapa 6) e antes de "No mercado financeiro um sujeito
-invicto…".
+**Onde entra:** abertura, logo depois do parágrafo do prefácio, que termina em "Só perto dos
+50 sentiu que tinha entendido o Caminho.", e antes de "No mercado financeiro, o equivalente é
+o sujeito invicto…".
 
 **Por que é diag (raciocínio de `02-estrutura.md`):** sugestão do autor ("Linha do tempo de
 Musashi… destacando os 30 anos entre Ganryūjima e a caverna"). São datas sem métrica central,
@@ -341,6 +341,10 @@ o texto delas na vertical (mesmo recurso do post da debênture). Descartados: ci
 empilhados, um por anel (cabem melhor no celular, mas perdem a leitura por coluna, que separa
 "o que Musashi escreveu" de "o que eu leio", o contrato do texto), e a tabela em duas imagens
 (divide a síntese que justifica a peça).
+
+**Gate de Tufte:** tabela sem eixo e sem cifra, então não há `rangemode` a declarar nem Lie
+Factor a calcular. A cor (`mint` na coluna da pergunta) marca função, não grandeza. Sem 3D,
+sombra, textura nem moldura: só hairlines em `mist`.
 
 **Tokens usados:** `color.neutral.chalk` (fundo), `color.forest.500` (cabeçalho, nome do
 anel), `color.neutral.white` (células: superfície elevada sobre o chalk), `color.neutral.mint`

@@ -1,5 +1,5 @@
 {
-  "etapa_atual": 8,
+  "etapa_atual": 9,
   "loops_consumidos": 0,
   "aprovacoes": [
     "Linha editorial: Spoiler (confirmada pelo autor, etapa 0)",
@@ -21,15 +21,18 @@
     "Etapa 7: correções factuais aplicadas por padrão (título japonês, nove regras, 'Passados os 30', 'que muita gente lê como zen', tradução de Harris, Tofugu e Greene completos)",
     "Etapa 7: Kojirō 'para alguns, espadachim melhor que o próprio Musashi'; Dokkōdō 'no mesmo dia em que entregou o livro ao discípulo'; nota única de tradução livre nas Referências; 'o duelo mais famoso da vida dele' (autor)",
     "Etapa 7: lista das três décadas sem a guerra; nenhum opcional (autor)",
-    "Etapa 8: visuais aprovados como estão (graf-01, diag-01, diag-02) (autor)"
+    "Etapa 8: visuais aprovados como estão (graf-01, diag-01, diag-02) (autor)",
+    "Etapa 9: 'distinga ganho de perda' e 'livrarias do país' aplicadas pelo orquestrador (texto verificado na etapa 7); gate pode reverter"
   ],
   "pendencias": [
     "Tensão — subtítulo: '5 etapas…' × cinco anéis (gate)",
     "Intertítulo da abertura: sugestão de remover o '## ' vazio (etapa 4 aplica; gate pode reverter)",
     "Tensão — ponte de série: coqueiros prometeu 'uma série sobre O livro dos cinco anéis'; este post cobre os cinco num texto (gate)",
-    "Pesquisa: 20 divergências rascunho × fonte (D1–D20 em 03-pesquisa.md §0) para etapas 4/7",
     "Gate: itens médios/baixos da crítica não aplicados e 8 atenção + 6 nitpick da 5a",
-    "Fontes da marca não instaladas: PNGs com fontes de fallback; SVG declara a pilha completa"
+    "Fontes da marca não instaladas: PNGs com fontes de fallback; SVG declara a pilha completa",
+    "Gate: observações 1–7 de processo/09-consolidacao.md (Musashi antes de apresentado, nove regras antes de apresentadas, eco 'lê como' e outras)",
+    "Gate: fecho sem CTA nem gancho (crítica item 10)",
+    "Data de publicação: frontmatter 2026-10-27"
   ],
   "commit_inicial": "53ea484",
   "slug": "2026-10-27-samurais-e-duelos",
