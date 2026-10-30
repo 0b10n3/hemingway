@@ -1,5 +1,5 @@
 {
-  "etapa_atual": 5,
+  "etapa_atual": 6,
   "loops_consumidos": 0,
   "aprovacoes": [
     "Linha editorial: Notas de um Professor (confirmada pelo autor, etapa 0; front-matter usava a chave `linha`)",
@@ -13,7 +13,6 @@
   ],
   "pendencias": [
     "[PREENCHER] memória do autor na abertura (autor escreve até o gate)",
-    "Próxima: etapa 6 (revisor-gramatical) sobre processo/04-draft-v2.md",
     "Etapa 7 confere as frases novas do v2 (notas 4, 5, 7) e as divergências 2–12 da pesquisa"
   ],
   "commit_inicial": "c4c432d",
