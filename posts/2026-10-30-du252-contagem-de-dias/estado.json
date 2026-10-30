@@ -4,12 +4,14 @@
   "aprovacoes": [
     "Linha editorial: Notas de um Professor (confirmada pelo autor, etapa 0; front-matter usava a chave `linha`)",
     "Título: variante de e-mail 'Você está contando os dias úteis errado (e isso está custando dinheiro)' (autor, etapa 0); busca orgânica e nota do Substack vão para o frontmatter",
-    "Memória pessoal da abertura: espaço mantido, autor escreve até o gate (autor, etapa 0)"
+    "Memória pessoal da abertura: espaço mantido, autor escreve até o gate (autor, etapa 0)",
+    "Tensão — ponte de série: RESOLVIDA, parêntese antes do FIDC, uma frase perto do CTA (autor, pós-etapa 3)",
+    "Tensão — bibliografia: RESOLVIDA, enxugar para 4 (Hull + Tosi + Metodologias ANBIMA + Garcia); demais links viram link no corpo (autor, pós-etapa 3)",
+    "Armadilha 3: corrigir a explicação das pontas do bizdays e o comentário do Caminho A (autor, pós-etapa 3)",
+    "Subtítulo: manter 'quase nunca' (autor, pós-etapa 3)"
   ],
   "pendencias": [
-    "[PREENCHER] memória do autor na abertura (autor escreve até o gate)",
-    "Tensão — ponte de série: o post de debêntures (2026-10-15) prometeu FIDC; A/B/C vai ao autor depois da etapa 3",
-    "Tensão — bibliografia: 7 links, 0 livros × §5.7 (3–4, mínimo 2 livros); A/B/C vai ao autor depois da etapa 3"
+    "[PREENCHER] memória do autor na abertura (autor escreve até o gate)"
   ],
   "commit_inicial": "c4c432d",
   "slug": "2026-10-30-du252-contagem-de-dias",
