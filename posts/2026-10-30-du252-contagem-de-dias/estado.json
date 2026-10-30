@@ -1,5 +1,5 @@
 {
-  "etapa_atual": 0,
+  "etapa_atual": 1,
   "loops_consumidos": 0,
   "aprovacoes": [
     "Linha editorial: Notas de um Professor (confirmada pelo autor, etapa 0; front-matter usava a chave `linha`)",
@@ -7,7 +7,9 @@
     "Memória pessoal da abertura: espaço mantido, autor escreve até o gate (autor, etapa 0)"
   ],
   "pendencias": [
-    "[PREENCHER] memória do autor na abertura (autor escreve até o gate)"
+    "[PREENCHER] memória do autor na abertura (autor escreve até o gate)",
+    "Tensão — ponte de série: o post de debêntures (2026-10-15) prometeu FIDC; A/B/C vai ao autor depois da etapa 3",
+    "Tensão — bibliografia: 7 links, 0 livros × §5.7 (3–4, mínimo 2 livros); A/B/C vai ao autor depois da etapa 3"
   ],
   "commit_inicial": "c4c432d",
   "slug": "2026-10-30-du252-contagem-de-dias",
