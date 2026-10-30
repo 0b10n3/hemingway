@@ -1,5 +1,5 @@
 {
-  "etapa_atual": 7,
+  "etapa_atual": 8,
   "loops_consumidos": 0,
   "aprovacoes": [
     "Linha editorial: Notas de um Professor (confirmada pelo autor, etapa 0; front-matter usava a chave `linha`)",
@@ -17,7 +17,10 @@
   "pendencias": [
     "[PREENCHER] memória do autor na abertura (autor escreve até o gate)",
     "Etapa 7 confere as frases novas do v2 (notas 4, 5, 7) e as divergências 2–12 da pesquisa",
-    "[VERIFICAR] Hull: título da seção do cap. 6 na 11ª ed. ('Day Count and Quotation Conventions')"
+    "[VERIFICAR] Hull: título da seção do cap. 6 na 11ª ed. ('Day Count and Quotation Conventions')",
+    "Fontes da marca não instaladas: PNGs com fontes de fallback; SVG declara a pilha completa",
+    "graf-01: rendimento por barra virou eixo da direita (mudança de forma em relação a 02-estrutura.md); mostrar no gate",
+    "B-7 da crítica (visual para as pontas) não produzido: fora das peças decididas"
   ],
   "commit_inicial": "c4c432d",
   "slug": "2026-10-30-du252-contagem-de-dias",
