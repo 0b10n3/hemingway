@@ -1,5 +1,5 @@
 {
-  "etapa_atual": 9,
+  "etapa_atual": 10,
   "loops_consumidos": 0,
   "aprovacoes": [
     "Linha editorial: Notas de um Professor (confirmada pelo autor, etapa 0; front-matter usava a chave `linha`)",
@@ -12,19 +12,24 @@
     "Crítica: M-1 memória faz a ponte; M-2 manter; M-3 corte parcial da rolagem; M-4 pontas na Anatomia; M-6 inverter (fim de ano primeiro, SP como nota histórica); M-7 graf-01 com série 2001–2030; B-4 manter; B-6 viés do 252 + 20/11 mexeu em dinheiro (autor, pós-etapa 5)",
     "Etapa 6: aplicar todas as correções de norma + as 19 ★; 'o bizdays' no masculino (autor)",
     "Etapa 7: O-1 (218,18), O-2 (padrão, não regra, com a oração do emissor) e O-3 (causalidade do CE 013) aplicadas por padrão (autor)",
-    "Etapa 7: opcionais P-7, P-1/P-2, P-4/P-5, P-6, P-12a/b e P-3 aplicados; P-9/P-10/P-13 e P-11 não (autor)"
+    "Etapa 7: opcionais P-7, P-1/P-2, P-4/P-5, P-6, P-12a/b e P-3 aplicados; P-9/P-10/P-13 e P-11 não (autor)",
+    "Gate — acabamentos: obs. 1 (primeira frase partida em duas) e obs. 2 (novo parágrafo em 'Padrão, não regra'; 'A fórmula é:') aplicadas; obs. 3, 4 e 5 não (autor)",
+    "Gate — Hull: título da seção cortado, fica 'capítulo 6'; [VERIFICAR] resolvido (autor)",
+    "Gate — alt-text do graf-02: 'Gráfico: tabela com o mesmo CDB…' em post.md e graficos.md (orquestrador, obs. 6; alt curto mantido)",
+    "Gate — memória da abertura: [PREENCHER] fica; autor escreve antes de colar na Substack (autor)",
+    "Gate humano (etapa 10): APROVADO pelo autor em 2026-10-30, com os acabamentos acima (etapa 9, não consome loop). Publicação e merge são ações do autor."
   ],
   "pendencias": [
     "[PREENCHER] memória do autor na abertura (autor escreve até o gate)",
-    "[VERIFICAR] Hull: título da seção do cap. 6 na 11ª ed. ('Day Count and Quotation Conventions')",
     "Fontes da marca não instaladas: PNGs com fontes de fallback; SVG declara a pilha completa",
     "graf-01: rendimento por barra virou eixo da direita (mudança de forma em relação a 02-estrutura.md); mostrar no gate",
     "B-7 da crítica (visual para as pontas) não produzido: fora das peças decididas",
-    "Gate: observações 1–14 de processo/09-consolidacao.md",
-    "Datas sensíveis: publicar antes de 19/11/2026; reconferir PyPI (bizdays 1.0.19) e B3.cal no dia"
+    "Datas sensíveis: publicar antes de 19/11/2026; reconferir PyPI (bizdays 1.0.19) e B3.cal no dia",
+    "Gate: observações 3–5, 7, 10–14 de processo/09-consolidacao.md não aplicadas (autor aprovou como está)"
   ],
   "commit_inicial": "c4c432d",
   "slug": "2026-10-30-du252-contagem-de-dias",
   "linha_editorial": "Notas de um Professor",
-  "titulo": "Você está contando os dias úteis errado (e isso está custando dinheiro)"
+  "titulo": "Você está contando os dias úteis errado (e isso está custando dinheiro)",
+  "status": "aprovado"
 }

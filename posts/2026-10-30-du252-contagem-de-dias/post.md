@@ -5,12 +5,12 @@ slug: 2026-10-30-du252-contagem-de-dias
 data: 2026-10-30
 linha_editorial: Notas de um Professor
 tags: [Notas de um Professor, Renda Fixa, Matemática Financeira, Python]
-status: rascunho
+status: aprovado
 nota_substack: "252 dias úteis por ano. 2026 tem 249."
 busca_organica: "DU/252 explicado: a convenção de dias úteis que todo profissional de renda fixa precisa dominar"
 ---
 
-Uma LTN (Letra do Tesouro Nacional, o título público prefixado) comprada a, digamos, 12% ao ano, com liquidação no primeiro dia útil de 2026, e levada até o vencimento, em 1º de janeiro de 2027, entrega 11,85% no período.
+Uma LTN (Letra do Tesouro Nacional, o título público prefixado) comprada a, digamos, 12% ao ano, com liquidação no primeiro dia útil de 2026, vence em 1º de janeiro de 2027. Levada até lá, entrega 11,85% no período.
 
 Ninguém errou a conta. Ninguém ficou com a diferença.
 
@@ -46,7 +46,9 @@ A capitalização é o 'motor'. Ele recebe τ e a taxa e devolve o fator que mul
 
 Régua e motor são peças independentes. Trocar uma não troca a outra. O mercado monta combinações diferentes conforme o produto, e é por isso que vale aprender as duas peças separadas, e não o 'pacote'.
 
-Na renda fixa brasileira em reais, a combinação padrão é régua DU/252 com motor composto. É a da Selic (a taxa básica de juros), do DI (a taxa dos empréstimos entre bancos), dos títulos públicos e do futuro de DI, e é o padrão também no CDB (Certificado de Depósito Bancário) e nas debêntures. Padrão, não regra: a B3 aceita registrar CDB em dias corridos, base 360 ou 365, e é o emissor quem escolhe a régua no registro. A fórmula do padrão é:
+Na renda fixa brasileira em reais, a combinação padrão é régua DU/252 com motor composto. É a da Selic (a taxa básica de juros), do DI (a taxa dos empréstimos entre bancos), dos títulos públicos e do futuro de DI, e é o padrão também no CDB (Certificado de Depósito Bancário) e nas debêntures.
+
+Padrão, não regra: a B3 aceita registrar CDB em dias corridos, base 360 ou 365, e é o emissor quem escolhe a régua no registro. A fórmula é:
 
 $$\text{Fator} = (1 + i)^{du/252}$$
 
@@ -93,7 +95,7 @@ São 61 dias corridos. Mas o intervalo atravessa três feriados nacionais em dia
 
 Agora veja o que acontece quando o mesmo número, 12%, é lido com réguas e motores diferentes:
 
-![Gráfico: o mesmo CDB de R$ 100 mil a 12% ao ano, de 01/10 a 01/12/2026, em quatro réguas. Contratado (DU/252, composto, 1,12^(40/252)): R$ 101.815,15. DC/365 composto: + R$ 96,89. DC/360 composto: + R$ 123,70. DC/360 linear: + R$ 218,18.](graf-02)
+![Gráfico: tabela com o mesmo CDB de R$ 100 mil a 12% ao ano, de 01/10 a 01/12/2026, em quatro réguas. Contratado (DU/252, composto, 1,12^(40/252)): R$ 101.815,15. DC/365 composto: + R$ 96,89. DC/360 composto: + R$ 123,70. DC/360 linear: + R$ 218,18.](graf-02)
 
 Num CDB de R$ 100 mil, a régua errada promete entre R$ 97 e R$ 218 que o contrato não vai pagar. Numa carteira de R$ 100 milhões, a mesma confusão gera uma divergência entre R$ 96,9 mil e R$ 218,2 mil na marcação (o valor atribuído todo dia a cada título da carteira), em dois meses.
 
@@ -260,7 +262,7 @@ Se este texto te poupou uma conta errada, encaminhe para quem está começando n
 
 ## Para ir além
 
-- John C. Hull, *Options, Futures, and Other Derivatives*, 11ª ed. (Pearson, 2021), capítulo 6, seção "Day Count and Quotation Conventions" [VERIFICAR: título da seção do cap. 6 na 11ª ed. — a Pearson confirma só o capítulo ("Interest rate futures"); o título da seção 6.1 foi confirmado na 9ª ed.] — as réguas do mercado americano (Actual/Actual, 30/360, Actual/360) e como cada uma acumula juros dentro do período.
+- John C. Hull, *Options, Futures, and Other Derivatives*, 11ª ed. (Pearson, 2021), capítulo 6 — as réguas do mercado americano (Actual/Actual, 30/360, Actual/360) e como cada uma acumula juros dentro do período.
 - Armando José Tosi, *Matemática Financeira com Ênfase em Produtos Bancários*, 4ª ed. (Atlas, 2015) — taxa *over* (a de um dia útil), CDI (Certificado de Depósito Interbancário; no mercado, também o nome da taxa DI) e Selic do ponto de vista do produto bancário brasileiro.
 - ANBIMA, [*Metodologias ANBIMA de Precificação*](https://www.anbima.com.br/data/files/5D/92/EC/E7/E82F971013C70F976B2BA2A8/Metodologias-ANBIMA-de-precificacao.pdf) — as fórmulas de referência do mercado para PU e taxa em base 252 dos títulos públicos federais (LTN, NTN-F, NTN-B e LFT), com as regras de truncamento.
 - Márcio G. P. Garcia, [*Efeitos da anualização da taxa Selic*](https://www.econ.puc-rio.br/mgarcia/Artigos/Macrometrica/!MACROMT.RIC/!anuliz.pdf) (Departamento de Economia da PUC-Rio, 30/06/1997) — escrito logo após a Circular BCB nº 2.761, com a observação dos 249 dias úteis de 1998.

@@ -541,5 +541,5 @@ conquista.
 **Placeholder sugerido para `post.md` (etapa 9):**
 
 ```markdown
-![Gráfico: o mesmo CDB de R$ 100 mil a 12% ao ano, de 01/10 a 01/12/2026, em quatro réguas. Contratado (DU/252, composto, 1,12^(40/252)): R$ 101.815,15. DC/365 composto: + R$ 96,89. DC/360 composto: + R$ 123,70. DC/360 linear: + R$ 218,18.](graf-02)
+![Gráfico: tabela com o mesmo CDB de R$ 100 mil a 12% ao ano, de 01/10 a 01/12/2026, em quatro réguas. Contratado (DU/252, composto, 1,12^(40/252)): R$ 101.815,15. DC/365 composto: + R$ 96,89. DC/360 composto: + R$ 123,70. DC/360 linear: + R$ 218,18.](graf-02)
 ```
