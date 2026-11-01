@@ -65,7 +65,7 @@ todo. Editoração em camadas existe justamente para não misturar essas respons
 
 11. **Gate de Tufte — checagem mecânica.** Para cada bloco de código em `graficos.md`/
     `diagramas.md`: `rangemode="tozero"` presente (ou exceção justificada por escrito no
-    spec)? Nenhuma menção a `3d`, sombra (`shadow` fora de `shadow.syntaxis*`), textura ou
+    spec)? Nenhuma menção a `3d`, sombra (nenhuma: o grupo `shadow` saiu nos tokens v3.0.0), textura ou
     moldura no código? Se o spec já traz "Lie Factor" declarado, confira a conta; se a peça
     tem ênfase visual e não declara, sinalize para o gate humano — não calcule por conta
     própria sem o dado bruto. Critério completo em

@@ -27,6 +27,13 @@ preço de um título antes/depois de um choque de juros). Não force um "antes/d
 conteúdo é conceitual e não tem dois estados reais — um gráfico conceitual mal-encaixado num
 molde de contraste é pior que nenhum contraste.
 
+## Forma de ênfase (DESIGN.md v4.1 §10)
+
+A paleta da marca é monocromática: nenhum par de tokens funciona como paleta categórica. Por
+isso a forma é **ênfase** — a série que é o ponto (a que a pergunta do gráfico responde) em
+`color.grove.500`, todo o resto como contexto em `color.neutral.slate`, sobre Chalk. Duas
+séries de peso igual não viram duas cores: viram dois gráficos ou rótulo direto em cada linha.
+
 ## Gate de Tufte (integridade da forma, não do craft de leitura)
 
 Os três critérios acima (anotação, revelação progressiva, contraste genuíno) tratam de como o

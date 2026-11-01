@@ -38,7 +38,8 @@ Um bloco por `graf-NN`:
 - **Código Plotly executável**, em bloco ` ```python `, autocontido: lê o CSV ao lado por
   caminho relativo, aplica os tokens de `../../../../../brand/tokens/syntaxis.tokens.json` (leia
   o JSON em runtime ou copie os valores `$value` exatos com comentário apontando a origem —
-  nunca hardcode cor fora do tokens.json), exporta para `posts/<slug>/figuras/graf-NN.svg` e
+  nunca hardcode cor fora do tokens.json; forma de **ênfase** — a série que é o ponto em
+  `grove.500`, contexto em `slate`, ver `references/checklist-graficos.md`), exporta para `posts/<slug>/figuras/graf-NN.svg` e
   `.png`. Cada bloco roda sozinho, sem preâmbulo — teste com `python3` antes de considerar a
   etapa concluída.
 - **Escolha de tipo de gráfico justificada** em uma linha, e o que foi descartado.
