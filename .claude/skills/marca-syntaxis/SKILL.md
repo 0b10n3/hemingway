@@ -1,9 +1,9 @@
 ---
 name: marca-syntaxis
-description: Identidade visual e design tokens do Syntaxis (DESIGN.md v3.0 — Forest/Grove/Lime, cantos retos). Use sempre que for gerar prompt de imagem, código de gráfico Plotly, ou qualquer decisão de cor/tipografia/proporção para os visuais de um post.
+description: Identidade visual e design tokens do Syntaxis (DESIGN.md v4.1, tokens v3.1.0 — Forest/Grove/Lime, cantos retos, nenhuma sombra). Use sempre que for gerar prompt de imagem, código de gráfico Plotly, ou qualquer decisão de cor/tipografia/proporção para os visuais de um post.
 ---
 
-**Nota de 31/08/2026 (atualizada em 04/09/2026 — sincronização com a v3.0):** este
+**Nota de 31/08/2026 (atualizada em 31/10/2026 — sincronização com a v4.1, rodada 5 da marca):** este
 repositório não mantém cópia própria de tokens. A fonte é `../../../../../brand/DESIGN.md`
 (regras e racional) + `../../../../../brand/tokens/syntaxis.tokens.json` (valores exatos,
 formato DTCG). **Não recrie identidade visual**: leia os dois arquivos, não repita cores
@@ -20,13 +20,14 @@ novo.
   cinza de texto permitido), mist (hairlines), mint, deepForest (banda escura).
 - `color.theme.light` / `color.theme.dark` — mapeamento semântico já resolvido (background,
   foreground, primary, accent etc.) — prefira usar esses aliases a montar a cor na mão.
-- `typography.fontFamily` — display: Space Grotesk; body: Hanken Grotesk; data: Space Mono.
+- `typography.fontFamily` — display: Montserrat; body: Source Sans 3; data: IBM Plex Mono.
 - `radius` — sistema de **cantos retos**: `none` (0px, padrão), `sm` (2px, máximo permitido
   em chips), `full` (exclusivo para avatar/símbolo circular do logo). Nunca use radius
   intermediário (8–16px) — isso é anti-padrão explícito em `brand/DESIGN.md` §4.5.
   Cada valor tem `$value` (o que usar) e, quando aplicável, `$description` (quando/por quê).
-- `pattern.nodeBranch` / `pattern.reticula` — os dois padrões geométricos da camada de
-  sistema (ver `brand/DESIGN.md` §6). `growthLine`, que antes era um terceiro pattern, foi
+- `pattern.mesh` / `pattern.reticula` — padrões geométricos da camada de sistema (ver
+  `brand/DESIGN.md` §6; a v4.1 acrescenta a família `grafo`, §6.7). `nodeBranch` saiu nos
+  tokens v3.0.0. `growthLine`, que antes era um terceiro pattern, foi
   reclassificado na v3.0 como **marca de dado**, não pattern — usado só em conquista real
   (certificados, badges), nunca decoração ambiente. `pattern.reticula` é exclusivo da camada
   de sistema: a retícula usada em ilustração/colagem (`illustration.*`, §7 do `DESIGN.md`) é
@@ -45,6 +46,11 @@ novo.
 - **Qualquer decisão de proporção/grid:** `spacing.*` (grid de 8px) e `radius.*` de
   `syntaxis.tokens.json` são os valores canônicos para espaçamento e raio de borda, quando
   relevante para composição de imagem. Cantos retos, não arredondados.
+
+- **Gráfico (DESIGN.md §10):** a paleta é monocromática — nenhum par de tokens serve de paleta
+  categórica. A forma é **ênfase**: a série que é o ponto em `color.grove.500`, contexto em
+  `color.neutral.slate`, sobre Chalk; duas séries de peso igual viram dois gráficos ou rótulo
+  direto. Nenhuma sombra (o grupo `shadow` saiu nos tokens v3.0.0).
 
 ## Regra de ouro
 
