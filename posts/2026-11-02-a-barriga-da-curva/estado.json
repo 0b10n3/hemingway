@@ -1,5 +1,5 @@
 {
-  "etapa_atual": 3,
+  "etapa_atual": 4,
   "loops_consumidos": 0,
   "aprovacoes": [
     "Linha editorial: Notas de um Professor (confirmada pelo autor, etapa 0; rascunho sem front-matter)",
@@ -7,7 +7,10 @@
     "Série: reenquadrar a abertura como continuação do du252 e ajustar a ponte para o FIDC (autor, etapa 0)",
     "Tensão — vocabulário régua/motor: RESOLVIDA, alinhar ao du252 (regime = motor; régua = contagem/base) (autor, durante a etapa 3)",
     "Tensão — virada de 1998: RESOLVIDA, encurtar ao que é novo, remetendo ao du252 (autor, durante a etapa 3)",
-    "Tensão — Einstein: RESOLVIDA, manter (autor, durante a etapa 3; Quote Investigator confirma ausência de fonte)"
+    "Tensão — Einstein: RESOLVIDA, manter (autor, durante a etapa 3; Quote Investigator confirma ausência de fonte)",
+    "Tese de 1998: REFORMULAR — o BC trocou a embalagem (over mensal × 30, linear) por taxa efetiva anual exponencial; consistência entre prazos como propriedade, não motivo (autor, pós-etapa 3)",
+    "Abertura R$ 70 mil: trocar por 'É o que paga o juro simples, e há contratos que pagam assim' (autor, pós-etapa 3)",
+    "Taxa legal: ampliar com os dois lados da barriga (autor, pós-etapa 3)"
   ],
   "pendencias": [
     "Subtítulo: provisório carrega assunto, não tese; alternativa proposta para o gate"
