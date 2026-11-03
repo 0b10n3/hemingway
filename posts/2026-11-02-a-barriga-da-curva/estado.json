@@ -1,15 +1,15 @@
 {
-  "etapa_atual": 2,
+  "etapa_atual": 3,
   "loops_consumidos": 0,
   "aprovacoes": [
     "Linha editorial: Notas de um Professor (confirmada pelo autor, etapa 0; rascunho sem front-matter)",
     "Autoria: rascunho montado a partir da pesquisa de pauta, sem texto autoral; tratar como rascunho, etapa 4 pesa a voz (autor, etapa 0)",
-    "Série: reenquadrar a abertura como continuação do du252 e ajustar a ponte para o FIDC (autor, etapa 0)"
+    "Série: reenquadrar a abertura como continuação do du252 e ajustar a ponte para o FIDC (autor, etapa 0)",
+    "Tensão — vocabulário régua/motor: RESOLVIDA, alinhar ao du252 (regime = motor; régua = contagem/base) (autor, durante a etapa 3)",
+    "Tensão — virada de 1998: RESOLVIDA, encurtar ao que é novo, remetendo ao du252 (autor, durante a etapa 3)",
+    "Tensão — Einstein: RESOLVIDA, manter (autor, durante a etapa 3; Quote Investigator confirma ausência de fonte)"
   ],
   "pendencias": [
-    "Tensão — vocabulário régua/motor (perguntar pós-etapa 3)",
-    "Tensão — 'A virada de 1998' repete o du252 (perguntar pós-etapa 3)",
-    "Tensão — Einstein (perguntar pós-etapa 3)",
     "Subtítulo: provisório carrega assunto, não tese; alternativa proposta para o gate"
   ],
   "commit_inicial": "fbb8ee4",
