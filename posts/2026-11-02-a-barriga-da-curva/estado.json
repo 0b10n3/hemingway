@@ -1,5 +1,5 @@
 {
-  "etapa_atual": 4,
+  "etapa_atual": 5,
   "loops_consumidos": 0,
   "aprovacoes": [
     "Linha editorial: Notas de um Professor (confirmada pelo autor, etapa 0; rascunho sem front-matter)",
@@ -17,5 +17,7 @@
   ],
   "commit_inicial": "fbb8ee4",
   "slug": "2026-11-02-a-barriga-da-curva",
-  "linha_editorial": "Notas de um Professor"
+  "linha_editorial": "Notas de um Professor",
+  "ponto_retorno": 2,
+  "motivo": "Etapa 5 com severidade alta (A1: âncora/fechamento × 1998 reformulado); volta à estrutura com escopo restrito, antes da etapa 6 (regra do pipeline, não é reentrada do gate)"
 }
