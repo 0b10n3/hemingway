@@ -183,3 +183,16 @@ Nenhum marcador lexical da frente D §12 ("crucial", "mergulhar", "jornada" etc.
 5. l.197: "14% ao ano na base 360 rendem 14% × 365/360" não diz o motor (a conta é linear). Sugestão: "14% ao ano linear, base 360".
 6. l.208: "ANBIMA" dentro do `[VERIFICAR]`; se ficar no texto, glosa do du252.
 7. Estrutural: nada novo. Itens 18 e 52 mexem numa frase e na forma de uma lista.
+
+---
+
+## Decisões do autor (2026-11-04)
+
+- **Aplicar:** todos os itens [norma] — 1, 2, 3, 4, 6, 10, 20, 21, 26, 31, 32, 38, 39, 40, 43, 45,
+  49, 50, 51, 52, 54, 56, 60 — e todas as ★ — 7, 8, 9, 14, 15, 19, 23, 27, 28, 29, 43, 46, 47, 50,
+  52, 54, 56, 62. O item 24 (glosa opcional de "curva de juros") não entra.
+- **Não aplicar:** os demais itens de linha sem ★ (5, 11–13, 16–18, 22, 25, 30, 33–37, 41, 42, 44,
+  48, 53, 55, 57–59) e o item 61 ("Para ir além").
+- **Série:** uniformizar o tratamento do CTA em "você" ("Se este texto ajudou você a destravar…").
+- Os itens 28 e 56 dependem da conferência da etapa 7; a seção C vai para a etapa 7.
+- Aplicação: etapa 9 (consolidação), como no du252.
