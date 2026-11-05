@@ -98,3 +98,37 @@ posts anteriores.
   por que cada mercado escolheu a sua → a barriga (o desenho explica a abertura) → a bola de neve
   demora → as três perguntas → a cláusula.
 - **Visual**: graf-01, graf-02.
+
+---
+
+## Revisão pós-etapa 5 (2026-11-04)
+
+A etapa 5 devolveu uma alta (A1) e o pipeline voltou aqui, com escopo restrito. Decisões do
+autor (2026-11-04):
+
+1. **Espinha = nominal × efetiva (A1).** Pergunta-âncora: "O motor que a renda fixa brasileira usa
+   por padrão é justamente o que paga menos em seis meses. Por que, então, cotar assim…?" Resposta:
+   consistência entre prazos (fatiamento), como **propriedade**. A seção 1998 prova outra coisa e
+   diz: o motor composto já estava lá (over "efetiva-dia"); a norma trocou a embalagem, uma **taxa
+   nominal** (over ao mês, diária × 30), por uma **efetiva**. O fechamento liga essa troca ao teste
+   de transferência (12% capitalizados mensalmente → 12,68%). O exemplo de Garcia ganha a distinção
+   mês civil × prazo em du.
+2. **Movimentos 4 e 5 invertidos (M1, M7).** Nova ordem: Abertura → Mito → Anatomia (+ prazo
+   quebrado) → **Barriga (5)** → **Bola de neve (6)** → **Quem escolhe o motor / 1998 / Onde o
+   linear sobrevive (4)** → Três perguntas (8) → Fechamento (9) → Bibliografia (10). A taxa legal
+   (CMN 5.171) passa a ser o **vizinho nomeado** da barriga, no lugar da operação anônima; o aviso
+   "mais adiante" sai. Frase-sinal da Anatomia: "O interessante começa quando se desenha essa
+   diferença."
+3. **Contínuo encolhido (M2).** A subseção "E o contínuo" vira uma frase em "Onde o linear
+   sobrevive". A armadilha dos 15,03% fica na Anatomia. **graf-01 perde a linha tracejada** (ela
+   desenhava o erro como se fosse o motor): passa a ter dois motores. Isso não resolve a escala
+   (~0,2%); a etapa 8 segue decidindo entre eixo recortado e painel com a diferença.
+4. **Título mantido, duplo sentido nomeado (M3).** Um parágrafo na barriga diz que esta não é a
+   barriga da curva de juros da mesa (vencimentos intermediários), e sim a do prazo curto.
+
+**Verificação da competência (refeita):** prever o lado (barriga + taxa legal + bola de neve) →
+por que o padrão é o composto (fatiamento) → nominal × efetiva (1998) → converter (três perguntas,
+equação, planilha, separação motor × régua) → teste de transferência (nominal × efetiva no
+financiamento), agora preparado pela seção 1998. ✓
+
+**graf-02:** marcador único no lugar do "embedded content" (B5).

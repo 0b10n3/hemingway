@@ -1,5 +1,5 @@
 {
-  "etapa_atual": 5,
+  "etapa_atual": 2,
   "loops_consumidos": 0,
   "aprovacoes": [
     "Linha editorial: Notas de um Professor (confirmada pelo autor, etapa 0; rascunho sem front-matter)",
@@ -10,7 +10,11 @@
     "Tensão — Einstein: RESOLVIDA, manter (autor, durante a etapa 3; Quote Investigator confirma ausência de fonte)",
     "Tese de 1998: REFORMULAR — o BC trocou a embalagem (over mensal × 30, linear) por taxa efetiva anual exponencial; consistência entre prazos como propriedade, não motivo (autor, pós-etapa 3)",
     "Abertura R$ 70 mil: trocar por 'É o que paga o juro simples, e há contratos que pagam assim' (autor, pós-etapa 3)",
-    "Taxa legal: ampliar com os dois lados da barriga (autor, pós-etapa 3)"
+    "Taxa legal: ampliar com os dois lados da barriga (autor, pós-etapa 3)",
+    "Crítica A1: espinha nominal × efetiva; consistência como propriedade; fechamento ligado ao teste de transferência (autor, pós-etapa 5)",
+    "Crítica M1/M7: inverter movimentos 4 e 5; taxa legal vira vizinho nomeado da barriga (autor, pós-etapa 5)",
+    "Crítica M2: encolher o contínuo; graf-01 sem a tracejada (autor, pós-etapa 5)",
+    "Crítica M3: manter o título e nomear o duplo sentido de 'barriga' (autor, pós-etapa 5)"
   ],
   "pendencias": [
     "Subtítulo: provisório carrega assunto, não tese; alternativa proposta para o gate"
