@@ -5,7 +5,7 @@ slug: 2026-11-02-a-barriga-da-curva
 data: 2026-11-02
 linha_editorial: Notas de um Professor
 tags: [Notas de um Professor, Renda Fixa, Matemática Financeira]
-status: em-revisao
+status: aprovado
 ---
 
 No último texto conversamos sobre como um ano pode ter mais, ou menos, dias úteis do que os 252 de um ano convencional. 2026 tem 249 dias úteis.

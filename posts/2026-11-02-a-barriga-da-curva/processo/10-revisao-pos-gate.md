@@ -43,6 +43,6 @@ Reescrita: a convenção fica como afirmação geral; 1998 passa a ser "cotaçã
 (Garcia + Circular 2.761). Mudam a marca e quatro frases ("A virada de 1998" e fechamento). A
 pedagogia nominal × efetiva fica no texto. Para voltar à versão anterior: reverter este commit.
 
-## Pendente
+## Gate
 
-Reaprovação no gate pelo autor.
+Reaprovado pelo autor em 2026-11-05.
