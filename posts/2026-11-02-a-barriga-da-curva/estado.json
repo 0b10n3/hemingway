@@ -24,14 +24,14 @@
     "Gate humano (etapa 10): APROVADO pelo autor em 2026-11-05. Publicação e merge são ações do autor.",
     "Pós-gate (2026-11-05): nova base é a versão do autor, título 'A Corda e o Arco'; slug e branch mantidos (autor)",
     "Pós-gate: aplicar todas as correções de processo/10-revisao-pos-gate.md e regenerar graf-01 (autor)",
-    "Pós-gate — gancho: frequência de capitalização, 'motor contínuo'; avisar em uma frase o adiamento do FIDC (autor)"
+    "Pós-gate — gancho: frequência de capitalização, 'motor contínuo'; avisar em uma frase o adiamento do FIDC (autor)",
+    "Pós-gate — V-1: autor delegou ('siga com o seu melhor julgamento'); [VERIFICAR] removido por reescrita que não afirma como a Selic era cotada antes de 1998 (orquestrador; reversível, ver processo/10-revisao-pos-gate.md)"
   ],
   "pendencias": [
-    "[VERIFICAR] over ao mês = diária × 30 (l.157; afeta 'taxa nominal' em 1998 e no fechamento): autor confere no exemplar do Assaf Neto",
     "Fontes da marca não instaladas: PNGs com fontes de reserva; SVG declara a pilha completa",
-    "[VERIFICAR] over ao mês × 30 continua no corpo do post.md: tirar antes de publicar",
     "Substack: substituir graf-01 pela imagem nova; conferir itálicos e o link do Garcia, que a colagem não mostra",
-    "Gate: reaprovar a versão final (status em-revisao)"
+    "Gate: reaprovar a versão final (status em-revisao)",
+    "Opcional: se o Assaf Neto e uma fonte de época confirmarem a over × 30 na Selic pré-1998, a espinha nominal × efetiva pode voltar"
   ],
   "commit_inicial": "fbb8ee4",
   "slug": "2026-11-02-a-barriga-da-curva",

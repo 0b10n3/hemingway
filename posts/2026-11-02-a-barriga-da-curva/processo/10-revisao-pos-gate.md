@@ -27,6 +27,22 @@ e^(0,14t), 15,03%, e não para 1,14^t, que é o "regime exponencial" deste post.
 (m = 2), 14,93% (m = 12), limite 15,03%. Ajuste depois da decisão: "depois dele" → "depois desse
 texto", porque "dele" podia remeter ao motor contínuo.
 
+## V-1: over × 30 (resolvido por reescrita)
+
+O autor delegou a decisão. Nova busca em 2026-11-05 (web e API de normativos do BCB):
+
+- A convenção existe, sem data: "taxa de juros de um dia útil, multiplicada por 30 (convenção de
+  mercado…)", página sem autor nem data em bertolo.pro.br, com "Ver ASSAF p. 168"; Bússola do
+  Investidor diz o mesmo. Fontes secundárias. O exemplar do Assaf Neto não foi conferido.
+- Nenhuma fonte diz que a Selic era cotada assim antes de 1998. Nada nos normativos do BCB.
+- Garcia (1997), a única fonte de época, confirma as taxas "mensalizadas", mas usa 1,66% ao mês como
+  taxa que se compõe (1,0166^12 = 21,84% a.a.). Na mesma taxa diária, × 30 daria 2,35%. É uma taxa a
+  termo, então não refuta a over × 30, mas também não sustenta "saiu uma nominal".
+
+Reescrita: a convenção fica como afirmação geral; 1998 passa a ser "cotação ao mês → efetiva ao ano"
+(Garcia + Circular 2.761). Mudam a marca e quatro frases ("A virada de 1998" e fechamento). A
+pedagogia nominal × efetiva fica no texto. Para voltar à versão anterior: reverter este commit.
+
 ## Pendente
 
-`[VERIFICAR]` da over × 30 segue no corpo (ver `07-verificacao.md`, V-1). Reaprovação no gate.
+Reaprovação no gate pelo autor.

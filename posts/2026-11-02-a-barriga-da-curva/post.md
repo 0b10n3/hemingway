@@ -138,9 +138,9 @@ No motor composto, o fatiamento não muda nada: 1,14 elevado a 0,5, vezes 1,14 e
 
 ### A virada de 1998
 
-No Brasil, o motor composto já estava lá antes de a norma falar dele. A *over*, a taxa das operações de um dia, era uma taxa 'efetiva-dia', acumulada de forma composta. O que mudou foi a embalagem. Cotava-se a *over* ao mês, multiplicando a taxa do dia por 30 [VERIFICAR: convenção da taxa over mensal como taxa por dia útil × 30, antes de 1998, com fonte de livro-texto (Assaf Neto, capítulo de taxa over, com página)]: linear por fora, composta por dentro. Uma taxa assim tem nome, taxa nominal, e o número cotado não é o que se recebe.
+No Brasil, o motor composto já estava lá antes de a norma falar dele. A *over*, a taxa das operações de um dia, era uma taxa 'efetiva-dia', acumulada de forma composta. O que mudou foi a embalagem. Com a megainflação, as taxas tinham passado a ser cotadas ao mês, e a convenção de mercado para a *over* ao mês multiplica a taxa do dia por 30: linear por fora, composta por dentro. Uma taxa assim tem nome, taxa nominal, e o número cotado não é o que se recebe.
 
-Como contei no texto anterior, a Circular nº 2.761 do Banco Central do Brasil (BCB), de junho de 1997, trocou essa embalagem: a partir de 1998, a Selic (a taxa básica de juros, que é a *over* das operações com títulos públicos) passou a ser expressa ao ano, como taxa efetiva com base em 252 dias úteis. Saiu uma taxa nominal, entrou uma efetiva.
+Como contei no texto anterior, a Circular nº 2.761 do Banco Central do Brasil (BCB), de junho de 1997, trocou a embalagem: a partir de 1998, a Selic (a taxa básica de juros, que é a *over* das operações com títulos públicos) passou a ser expressa ao ano, como taxa efetiva com base em 252 dias úteis. Saiu a cotação ao mês, entrou uma taxa efetiva ao ano.
 
 Num texto da época, o economista Márcio Garcia, da PUC-Rio, leu a mudança pela inflação: com ela em um dígito ao ano, era natural voltar a cotar juros ao ano. E apontou um efeito colateral que ficou de fora do texto anterior. Com a mesma taxa por dia útil, fevereiro de 1998, com 18 dias úteis, renderia 1,42% no mês; julho, com 23, renderia 1,82%. Quarenta pontos-base (0,40 ponto percentual) de diferença que pareciam volatilidade e eram só calendário. A taxa efetiva não se contradiz entre prazos medidos em dias úteis. O mês civil, que tem um número variável deles, é que passou a oscilar.
 
@@ -193,11 +193,11 @@ A quarta conta traz de volta as duas perguntas que ficaram no texto anterior, ca
 
 ## Fechamento: o expoente que faltava
 
-Com o mesmo número cotado, o juro simples ganha do composto em qualquer fração de período. O composto só começa a ganhar depois do primeiro período, e a bola de neve leva anos para valer mais que o juro linear. O mercado brasileiro cota no composto porque é o motor que não se contradiz de um prazo para o outro. Em 1998, trocou uma taxa nominal por uma efetiva.
+Com o mesmo número cotado, o juro simples ganha do composto em qualquer fração de período. O composto só começa a ganhar depois do primeiro período, e a bola de neve leva anos para valer mais que o juro linear. O mercado brasileiro cota no composto porque é o motor que não se contradiz de um prazo para o outro. Em 1998, trocou a cotação ao mês por uma taxa efetiva ao ano.
 
 Capitalização não é lei da natureza. É cláusula.
 
-Se o texto funcionou, você consegue fazer a mesma troca sozinho. Pegue um contrato de financiamento que mostre, lado a lado, uma 'taxa nominal' e uma 'taxa efetiva'. Faça as três perguntas. Por que 12% ao ano capitalizados mensalmente viram 12,68% efetivos? E qual dos dois números é o que você de fato paga?
+Se o texto funcionou, você consegue separar sozinho uma taxa nominal de uma efetiva. Pegue um contrato de financiamento que mostre, lado a lado, uma 'taxa nominal' e uma 'taxa efetiva'. Faça as três perguntas. Por que 12% ao ano capitalizados mensalmente viram 12,68% efetivos? E qual dos dois números é o que você de fato paga?
 
 Os 12,68% são o fio do próximo texto: a frequência de capitalização. Com uma corda por ano, 14% rendem 14%. Com duas, 14,49%, a conta que já fizemos. Com doze, 14,93%. Quanto mais curtas as cordas, mais a linha quebrada se aproxima do motor contínuo, e o rendimento nunca passa dos 15,03% que já apareceram aqui. Vamos ver o que essa frequência muda na taxa e como essa aproximação é usada. O FIDC que prometi vem depois desse texto.
 
