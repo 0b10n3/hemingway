@@ -1,5 +1,5 @@
 {
-  "etapa_atual": 7,
+  "etapa_atual": 8,
   "loops_consumidos": 0,
   "aprovacoes": [
     "Linha editorial: Notas de um Professor (confirmada pelo autor, etapa 0; rascunho sem front-matter)",
@@ -22,7 +22,9 @@
   ],
   "pendencias": [
     "Subtítulo: provisório carrega assunto, não tese; alternativa proposta para o gate",
-    "[VERIFICAR] over ao mês = diária × 30 (l.157; afeta 'taxa nominal' em 1998 e no fechamento): autor confere no exemplar do Assaf Neto"
+    "[VERIFICAR] over ao mês = diária × 30 (l.157; afeta 'taxa nominal' em 1998 e no fechamento): autor confere no exemplar do Assaf Neto",
+    "Fontes da marca não instaladas: PNGs com fontes de reserva; SVG declara a pilha completa",
+    "graf-01 em dois painéis (montante + diferença ampliada), decisão da etapa 8; mostrar no gate"
   ],
   "commit_inicial": "fbb8ee4",
   "slug": "2026-11-02-a-barriga-da-curva",
