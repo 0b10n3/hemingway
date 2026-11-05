@@ -5,7 +5,7 @@ slug: 2026-11-02-a-barriga-da-curva
 data: 2026-11-02
 linha_editorial: Notas de um Professor
 tags: [Notas de um Professor, Renda Fixa, Matemática Financeira]
-status: em-revisao
+status: aprovado
 ---
 
 No último texto, contei os dias: os 252 de um ano convencional, os 249 de 2026, o calendário que decide se o juro correu no sábado. O motor, a regra que transforma o tempo contado em dinheiro, ganhou duas linhas: composto, (1 + i) elevado a τ; linear, 1 + i vezes τ.

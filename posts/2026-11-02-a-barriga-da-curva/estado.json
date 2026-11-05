@@ -1,5 +1,5 @@
 {
-  "etapa_atual": 9,
+  "etapa_atual": 10,
   "loops_consumidos": 0,
   "aprovacoes": [
     "Linha editorial: Notas de um Professor (confirmada pelo autor, etapa 0; rascunho sem front-matter)",
@@ -18,7 +18,10 @@
     "Crítica — demais itens (M4, M5, M6, B1–B5) aplicados por padrão no draft v2; B6/B7 não; reversíveis no gate (orquestrador, pós-etapa 5)",
     "Etapa 6: aplicar todas as correções de norma + as 18 ★ (item 24 opcional não); CTA uniformizado em 'você'; 'Para continuar aprendendo' mantido (autor)",
     "Etapa 7: B-1, B-2, B-3 aplicados por padrão; R-1 a R-8 aplicadas; opcionais P-1 a P-7 não (autor)",
-    "Etapa 7 — V-1: espinha nominal × efetiva mantida com [VERIFICAR] (over × 30); autor confere no Assaf Neto antes de publicar (autor)"
+    "Etapa 7 — V-1: espinha nominal × efetiva mantida com [VERIFICAR] (over × 30); autor confere no Assaf Neto antes de publicar (autor)",
+    "Gate — subtítulo: manter o provisório 'Juro simples, composto e contínuo além dos livros' (autor)",
+    "Gate — acabamentos: nenhuma das observações de processo/09-consolidacao.md aplicada (autor aprovou como está)",
+    "Gate humano (etapa 10): APROVADO pelo autor em 2026-11-05. Publicação e merge são ações do autor."
   ],
   "pendencias": [
     "Subtítulo: provisório carrega assunto, não tese; alternativa proposta para o gate",
@@ -30,5 +33,7 @@
   "slug": "2026-11-02-a-barriga-da-curva",
   "linha_editorial": "Notas de um Professor",
   "ponto_retorno": 2,
-  "motivo": "Etapa 5 com severidade alta (A1: âncora/fechamento × 1998 reformulado); volta à estrutura com escopo restrito, antes da etapa 6 (regra do pipeline, não é reentrada do gate)"
+  "motivo": "Etapa 5 com severidade alta (A1: âncora/fechamento × 1998 reformulado); volta à estrutura com escopo restrito, antes da etapa 6 (regra do pipeline, não é reentrada do gate)",
+  "titulo": "A Barriga da Curva",
+  "status": "aprovado"
 }
