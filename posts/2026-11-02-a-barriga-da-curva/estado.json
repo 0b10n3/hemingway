@@ -1,0 +1,43 @@
+{
+  "etapa_atual": 10,
+  "loops_consumidos": 0,
+  "aprovacoes": [
+    "Linha editorial: Notas de um Professor (confirmada pelo autor, etapa 0; rascunho sem front-matter)",
+    "Autoria: rascunho montado a partir da pesquisa de pauta, sem texto autoral; tratar como rascunho, etapa 4 pesa a voz (autor, etapa 0)",
+    "Série: reenquadrar a abertura como continuação do du252 e ajustar a ponte para o FIDC (autor, etapa 0)",
+    "Tensão — vocabulário régua/motor: RESOLVIDA, alinhar ao du252 (regime = motor; régua = contagem/base) (autor, durante a etapa 3)",
+    "Tensão — virada de 1998: RESOLVIDA, encurtar ao que é novo, remetendo ao du252 (autor, durante a etapa 3)",
+    "Tensão — Einstein: RESOLVIDA, manter (autor, durante a etapa 3; Quote Investigator confirma ausência de fonte)",
+    "Tese de 1998: REFORMULAR — o BC trocou a embalagem (over mensal × 30, linear) por taxa efetiva anual exponencial; consistência entre prazos como propriedade, não motivo (autor, pós-etapa 3)",
+    "Abertura R$ 70 mil: trocar por 'É o que paga o juro simples, e há contratos que pagam assim' (autor, pós-etapa 3)",
+    "Taxa legal: ampliar com os dois lados da barriga (autor, pós-etapa 3)",
+    "Crítica A1: espinha nominal × efetiva; consistência como propriedade; fechamento ligado ao teste de transferência (autor, pós-etapa 5)",
+    "Crítica M1/M7: inverter movimentos 4 e 5; taxa legal vira vizinho nomeado da barriga (autor, pós-etapa 5)",
+    "Crítica M2: encolher o contínuo; graf-01 sem a tracejada (autor, pós-etapa 5)",
+    "Crítica M3: manter o título e nomear o duplo sentido de 'barriga' (autor, pós-etapa 5)",
+    "Crítica — demais itens (M4, M5, M6, B1–B5) aplicados por padrão no draft v2; B6/B7 não; reversíveis no gate (orquestrador, pós-etapa 5)",
+    "Etapa 6: aplicar todas as correções de norma + as 18 ★ (item 24 opcional não); CTA uniformizado em 'você'; 'Para continuar aprendendo' mantido (autor)",
+    "Etapa 7: B-1, B-2, B-3 aplicados por padrão; R-1 a R-8 aplicadas; opcionais P-1 a P-7 não (autor)",
+    "Etapa 7 — V-1: espinha nominal × efetiva mantida com [VERIFICAR] (over × 30); autor confere no Assaf Neto antes de publicar (autor)",
+    "Gate — subtítulo: manter o provisório 'Juro simples, composto e contínuo além dos livros' (autor)",
+    "Gate — acabamentos: nenhuma das observações de processo/09-consolidacao.md aplicada (autor aprovou como está)",
+    "Gate humano (etapa 10): APROVADO pelo autor em 2026-11-05. Publicação e merge são ações do autor.",
+    "Pós-gate (2026-11-05): nova base é a versão do autor, título 'A Corda e o Arco'; slug e branch mantidos (autor)",
+    "Pós-gate: aplicar todas as correções de processo/10-revisao-pos-gate.md e regenerar graf-01 (autor)",
+    "Pós-gate — gancho: frequência de capitalização, 'motor contínuo'; avisar em uma frase o adiamento do FIDC (autor)",
+    "Pós-gate — V-1: autor delegou ('siga com o seu melhor julgamento'); [VERIFICAR] removido por reescrita que não afirma como a Selic era cotada antes de 1998 (orquestrador; reversível, ver processo/10-revisao-pos-gate.md)",
+    "Gate humano (etapa 10): REAPROVADO pelo autor em 2026-11-05, versão 'A Corda e o Arco'. Autor pediu commit e merge em main."
+  ],
+  "pendencias": [
+    "Fontes da marca não instaladas: PNGs com fontes de reserva; SVG declara a pilha completa",
+    "Substack: substituir graf-01 pela imagem nova; conferir itálicos e o link do Garcia, que a colagem não mostra",
+    "Opcional: se o Assaf Neto e uma fonte de época confirmarem a over × 30 na Selic pré-1998, a espinha nominal × efetiva pode voltar"
+  ],
+  "commit_inicial": "fbb8ee4",
+  "slug": "2026-11-02-a-barriga-da-curva",
+  "linha_editorial": "Notas de um Professor",
+  "ponto_retorno": 9,
+  "motivo": "Rodada pós-gate sobre versão editada pelo autor na Substack (título novo); acabamento, reentrada nas etapas 5-9, não consome loop",
+  "titulo": "A Corda e o Arco",
+  "status": "aprovado"
+}
