@@ -1,28 +1,40 @@
 ---
-titulo: A Barriga da Curva
+titulo: A Corda e o Arco
 subtitulo: Juro simples, composto e contínuo além dos livros
 slug: 2026-11-02-a-barriga-da-curva
 data: 2026-11-02
 linha_editorial: Notas de um Professor
 tags: [Notas de um Professor, Renda Fixa, Matemática Financeira]
-status: aprovado
+status: em-revisao
 ---
 
-No último texto, contei os dias: os 252 de um ano convencional, os 249 de 2026, o calendário que decide se o juro correu no sábado. O motor, a regra que transforma o tempo contado em dinheiro, ganhou duas linhas: composto, (1 + i) elevado a τ; linear, 1 + i vezes τ.
+No último texto conversamos sobre como um ano pode ter mais, ou menos, dias úteis do que os 252 de um ano convencional. 2026 tem 249 dias úteis.
 
-Duas linhas é pouco para uma conta que aparece em quase todo texto desta série. Na LCA (Letra de Crédito do Agronegócio), para achar a taxa em que um CDB (Certificado de Depósito Bancário) empata com ela depois do imposto. Na debênture, para converter percentual do CDI (no mercado, o nome da taxa DI, a dos empréstimos de um dia entre bancos) em CDI mais *spread* (o prêmio acima do CDI que paga o risco do devedor) e para estimar quanto o PU (preço unitário, o valor de mercado de cada título) cai quando o *spread* do devedor abre. Em todas, o du/252 (dias úteis sobre 252) estava no expoente.
+Chamamos essa contagem de régua.
 
-Antes do FIDC (Fundo de Investimento em Direitos Creditórios), então, mais um parêntese de ferramenta. Ele começa com uma pergunta que parece de primeiro semestre da faculdade.
+O motor, a regra que transforma o tempo contado em dinheiro, ganhou duas linhas:
+
+composto, (1 + i) elevado a τ;
+
+linear, 1 + i vezes τ.
+
+Duas linhas é pouco para uma conta que aparece em quase todo texto desta série.
+
+Na LCA (Letra de Crédito do Agronegócio), para achar a taxa em que um CDB (Certificado de Depósito Bancário) empata com ela depois do imposto. Na debênture, para converter percentual do CDI (no mercado, o nome da taxa DI, a dos empréstimos de um dia entre bancos) em CDI mais *spread* (o prêmio acima do CDI que paga o risco do devedor) e para estimar quanto o PU (preço unitário, o valor de mercado de cada título) cai quando o *spread* do devedor abre. Em todas, o du/252 (dias úteis sobre 252) estava no expoente.
+
+Aqui podemos começar com uma pergunta típica do início de um curso de matemática financeira.
 
 Você aplica R$ 1 milhão a 14% ao ano por seis meses, ou 126 dias úteis. Quanto rende?
 
-Se a sua resposta foi R$ 70 mil, você acertou. É o que o juro simples paga, e há contratos que pagam assim.
+Se a sua resposta foi R$ 70 mil, você acertou.
 
-E você errou. Num CDB prefixado à mesma taxa, o rendimento é de R$ 67.707,83.
+É o que o juro simples paga, e há contratos que pagam assim.
+
+E você também errou.
+
+Num CDB prefixado à mesma taxa, o rendimento é de R$ 67.707,83.
 
 A diferença, R$ 2.292,17, é a distância entre dois motores.
-
-O motor que a renda fixa brasileira usa por padrão é justamente o que paga menos em seis meses. Por que, então, cotar assim, e o que isso muda na hora de ler qualquer taxa que alguém coloque na sua frente?
 
 ## A versão que se aprende cedo
 
@@ -72,23 +84,25 @@ R$ 1 milhão a 14% ao ano por um ano e meio: R$ 219.800,00 de juros pela conven�
 
 Até aqui, é o segundo capítulo de qualquer livro de matemática financeira. O interessante começa quando se desenha essa diferença.
 
-## A barriga da curva
+## A corda e o arco
 
-Eis a peça que separa quem decorou as fórmulas de quem as entende.
+Aqui está a ideia que separa quem decorou as fórmulas de quem as entende.
 
 A reta do simples e a curva do composto passam pelos mesmos dois pontos. Em t = 0, os dois valem C. Em t = 1, os dois valem C vezes (1 + i): no fim do primeiro período ainda não há juro anterior para render juro.
 
-Entre esses dois pontos, a reta do juro simples é a corda de uma curva convexa (no sentido do cálculo: arqueada para cima, como o fundo de uma tigela). E a corda de uma curva convexa passa por cima dela. Com o mesmo número cotado, para qualquer fração de período, o juro composto rende menos que o simples. Quem fez cálculo reconhece a desigualdade de Bernoulli, na versão para expoentes entre zero e um; quem não fez pode confiar no desenho.
+Entre esses dois pontos, a reta do juro simples é a corda e a curva do composto é o arco. A curva é convexa (no sentido do cálculo: arqueada para cima, como o fundo de uma tigela).
+
+E a corda de uma curva convexa passa por cima do arco. Com o mesmo número cotado, para qualquer fração de período, o juro composto rende menos que o simples. Quem fez um curso de cálculo reconhece a desigualdade de Bernoulli, na versão para expoentes entre zero e um; quem não fez pode confiar no desenho.
 
 ![Gráfico: R$ 1.000 a 14% ao ano, de zero a dois anos, nos dois motores. Entre zero e um ano, a reta do juro simples fica acima da curva do composto, com a maior distância perto de seis meses (R$ 1.070,00 contra R$ 1.067,71, uma diferença de R$ 2,29). As duas se encontram em um ano, em R$ 1.140,00, e a curva passa por cima da reta dali em diante: em dois anos, o composto paga R$ 19,60 a mais.](graf-01)
 
-O espaço entre a corda e a curva, abaixo de um período, é a barriga deste texto. Quem é de mesa conhece outra: a barriga da curva de juros, os vencimentos intermediários. Esta fica na ponta curta e mora dentro de qualquer taxa, não só na curva de juros.
-
 Na prática, isso quer dizer que, com o mesmo número cotado, o motor linear paga mais a quem aplica e cobra mais de quem toma sempre que o prazo é menor que o período da taxa. Seis meses de uma taxa anual. Quinze dias de uma taxa mensal. A fração de mês de uma dívida em atraso.
 
-Esse último caso tem endereço. Em 2024, a Resolução nº 5.171 do Conselho Monetário Nacional (CMN) definiu o cálculo da taxa legal, a taxa de juros que incide sobre uma dívida civil quando o contrato não fixa a taxa (art. 406 do Código Civil). O art. 6º manda acumulá-la em juros simples, tanto de um mês para o outro quanto na fração do mês, apropriada por dias corridos. O devedor com quinze dias de atraso paga a taxa do mês em proporção aos dias, cerca de metade dela, e não o equivalente composto: paga pela reta, que nesse trecho passa acima da curva. Numa dívida de muitos meses, as taxas mensais se somam em vez de se multiplicar, e a reta passa para baixo da curva. A mesma norma, dos dois lados da barriga.
+Esse último caso tem endereço. Em 2024, a Resolução nº 5.171 do Conselho Monetário Nacional (CMN) definiu o cálculo da taxa legal, a taxa de juros que incide sobre uma dívida civil quando o contrato não fixa a taxa. A norma manda acumulá-la em juros simples, tanto de um mês para o outro quanto na fração do mês, apropriada por dias corridos. O devedor com quinze dias de atraso paga a taxa do mês em proporção aos dias, cerca de metade dela, e não o equivalente composto: paga pela reta, que nesse trecho passa acima da curva. Numa dívida de muitos meses, as taxas mensais se somam em vez de se multiplicar, e a reta passa para baixo da curva. A mesma norma, ora acima da curva, ora abaixo dela.
 
-Por isso a frase "14% ao ano", sozinha, não diz quanto você vai receber. Ela é a metade de uma cláusula.
+Por isso a frase "14% ao ano", sozinha, não diz quanto você vai receber.
+
+Ela é a metade de uma cláusula.
 
 ## A bola de neve demora a rolar
 
@@ -138,7 +152,7 @@ O motor linear não morreu.
 
 O cupom cambial é a taxa de juro em dólar negociada no Brasil. Nele, os contratos futuros da B3 (DDI) e o FRC, a operação a termo de cupom, são cotados em taxa linear ao ano, base 360 dias corridos. É a língua do mercado monetário internacional em dólar, onde depósitos de curto prazo são, por convenção, rateados de forma proporcional ao tempo.
 
-Nos títulos do Tesouro americano, o juro acumulado entre dois pagamentos de cupom (os juros periódicos do título), o que o comprador paga ao vendedor pelos dias já corridos, também é apropriado de forma linear. E há a taxa legal brasileira, que já apareceu na barriga.
+Nos títulos do Tesouro americano, o juro acumulado entre dois pagamentos de cupom (os juros periódicos do título), o que o comprador paga ao vendedor pelos dias já corridos, também é apropriado de forma linear. E há a taxa legal brasileira, que já apareceu neste texto.
 
 O contínuo ficou com os modelos. Ele torna os retornos aditivos no tempo (o retorno de dois períodos é a soma dos dois) e deixa o cálculo diferencial trabalhar. Por isso aparece na fórmula de Black-Scholes-Merton, a de preço de opções, e nas curvas de juros que a Susep (Superintendência de Seguros Privados) estima em taxa contínua para as seguradoras.
 
@@ -185,7 +199,7 @@ Capitalização não é lei da natureza. É cláusula.
 
 Se o texto funcionou, você consegue fazer a mesma troca sozinho. Pegue um contrato de financiamento que mostre, lado a lado, uma 'taxa nominal' e uma 'taxa efetiva'. Faça as três perguntas. Por que 12% ao ano capitalizados mensalmente viram 12,68% efetivos? E qual dos dois números é o que você de fato paga?
 
-Agora, sim, o FIDC, sem mais parênteses. Com a régua e o motor no lugar, dá para olhar uma carteira de devedores dividida em cotas e perguntar quem recebe primeiro, e quanto isso vale hoje.
+Os 12,68% são o fio do próximo texto: a frequência de capitalização. Com uma corda por ano, 14% rendem 14%. Com duas, 14,49%, a conta que já fizemos. Com doze, 14,93%. Quanto mais curtas as cordas, mais a linha quebrada se aproxima do motor contínuo, e o rendimento nunca passa dos 15,03% que já apareceram aqui. Vamos ver o que essa frequência muda na taxa e como essa aproximação é usada. O FIDC que prometi vem depois desse texto.
 
 Se este texto ajudou você a destravar uma conta que você fazia no automático, encaminhe para quem ainda acha que o composto sempre rende mais.
 

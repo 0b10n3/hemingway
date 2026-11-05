@@ -1,4 +1,4 @@
-# Gráficos — "A barriga da curva"
+# Gráficos — "A Corda e o Arco"
 
 Duas peças, decididas em `processo/02-estrutura.md` ("Onde entra graf-NN / diag-NN / info-NN" e
 "Revisão pós-etapa 5") e posicionadas em `processo/04-draft-v2.md`. A linha contínua tracejada
@@ -103,9 +103,9 @@ print("ok", t_max, gap(t_max), [v["virada_anos"] for v in vir], [g2[-1][k] for k
 
 ## graf-01
 
-**Onde entra:** "A barriga da curva", no lugar do marcador `> [graf-01]`: depois de "Quem fez
-cálculo reconhece a desigualdade de Bernoulli…; quem não fez pode confiar no desenho." e antes de
-"O espaço entre a corda e a curva, abaixo de um período, é a barriga deste texto."
+**Onde entra:** "A corda e o arco", no lugar do marcador `> [graf-01]`: depois de "Quem fez
+um curso de cálculo reconhece a desigualdade de Bernoulli…; quem não fez pode confiar no desenho." e antes de
+"Na prática, isso quer dizer que, com o mesmo número cotado…"
 
 **Por que é graf (raciocínio de `02-estrutura.md`):** série numérica (montante em R$ por prazo),
 critério 1. diag perde porque tiraria os números (R$ 1.070,00 × R$ 1.067,71, R$ 1.140,00), que
@@ -235,7 +235,7 @@ fig.add_trace(go.Scatter(x=[0.5, 1.0, 2.0],
                          hoverinfo="skip"), row=2, col=1)
 fig.add_annotation(x=0.5, y=meio["simples_menos_composto"], ax=70, ay=-26, showarrow=True,
                    arrowhead=0, arrowwidth=1, arrowcolor=grove, xanchor="left", align="left",
-                   text=f"<b>a barriga: o simples paga até {RS} {brl(meio['simples_menos_composto'])}"
+                   text=f"<b>entre a corda e o arco, o simples paga até {RS} {brl(meio['simples_menos_composto'])}"
                         f" a mais</b><br>({brl(pct_meio)}% do montante, perto de 6 meses)",
                    font=dict(color=grove, size=14, family=font_body), row=2, col=1)
 fig.add_annotation(x=2.0, y=dois["simples_menos_composto"], ax=-24, ay=-6, showarrow=True,
@@ -306,7 +306,7 @@ autor, M2).
 **Anotação:** (1) em cima, seis meses, com os dois montantes do texto (R$ 1.070,00 simples ×
 R$ 1.067,71 composto) e dois marcadores quase sobrepostos, sobreposição que é o próprio
 argumento de escala; (2) em cima, um ano: "as duas valem R$ 1.140,00"; (3) embaixo, o pico da
-barriga: "o simples paga até R$ 2,29 a mais (0,21% do montante, perto de 6 meses)"; (4)
+distância: "entre a corda e o arco, o simples paga até R$ 2,29 a mais (0,21% do montante, perto de 6 meses)"; (4)
 embaixo, dois anos: "o composto paga R$ 19,60 a mais". O marcador do pico fica em t = 0,5 (o
 ponto que o texto usa); o máximo exato, em t = 0,5055, vale R$ 2,2924, e as duas coisas
 arredondam para R$ 2,29, por isso a anotação diz "perto de 6 meses". Os rótulos "composto

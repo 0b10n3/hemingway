@@ -21,19 +21,23 @@
     "Etapa 7 — V-1: espinha nominal × efetiva mantida com [VERIFICAR] (over × 30); autor confere no Assaf Neto antes de publicar (autor)",
     "Gate — subtítulo: manter o provisório 'Juro simples, composto e contínuo além dos livros' (autor)",
     "Gate — acabamentos: nenhuma das observações de processo/09-consolidacao.md aplicada (autor aprovou como está)",
-    "Gate humano (etapa 10): APROVADO pelo autor em 2026-11-05. Publicação e merge são ações do autor."
+    "Gate humano (etapa 10): APROVADO pelo autor em 2026-11-05. Publicação e merge são ações do autor.",
+    "Pós-gate (2026-11-05): nova base é a versão do autor, título 'A Corda e o Arco'; slug e branch mantidos (autor)",
+    "Pós-gate: aplicar todas as correções de processo/10-revisao-pos-gate.md e regenerar graf-01 (autor)",
+    "Pós-gate — gancho: frequência de capitalização, 'motor contínuo'; avisar em uma frase o adiamento do FIDC (autor)"
   ],
   "pendencias": [
-    "Subtítulo: provisório carrega assunto, não tese; alternativa proposta para o gate",
     "[VERIFICAR] over ao mês = diária × 30 (l.157; afeta 'taxa nominal' em 1998 e no fechamento): autor confere no exemplar do Assaf Neto",
     "Fontes da marca não instaladas: PNGs com fontes de reserva; SVG declara a pilha completa",
-    "graf-01 em dois painéis (montante + diferença ampliada), decisão da etapa 8; mostrar no gate"
+    "[VERIFICAR] over ao mês × 30 continua no corpo do post.md: tirar antes de publicar",
+    "Substack: substituir graf-01 pela imagem nova; conferir itálicos e o link do Garcia, que a colagem não mostra",
+    "Gate: reaprovar a versão final (status em-revisao)"
   ],
   "commit_inicial": "fbb8ee4",
   "slug": "2026-11-02-a-barriga-da-curva",
   "linha_editorial": "Notas de um Professor",
-  "ponto_retorno": 2,
-  "motivo": "Etapa 5 com severidade alta (A1: âncora/fechamento × 1998 reformulado); volta à estrutura com escopo restrito, antes da etapa 6 (regra do pipeline, não é reentrada do gate)",
-  "titulo": "A Barriga da Curva",
-  "status": "aprovado"
+  "ponto_retorno": 9,
+  "motivo": "Rodada pós-gate sobre versão editada pelo autor na Substack (título novo); acabamento, reentrada nas etapas 5-9, não consome loop",
+  "titulo": "A Corda e o Arco",
+  "status": "em-revisao"
 }
