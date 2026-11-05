@@ -16,10 +16,13 @@
     "Crítica M2: encolher o contínuo; graf-01 sem a tracejada (autor, pós-etapa 5)",
     "Crítica M3: manter o título e nomear o duplo sentido de 'barriga' (autor, pós-etapa 5)",
     "Crítica — demais itens (M4, M5, M6, B1–B5) aplicados por padrão no draft v2; B6/B7 não; reversíveis no gate (orquestrador, pós-etapa 5)",
-    "Etapa 6: aplicar todas as correções de norma + as 18 ★ (item 24 opcional não); CTA uniformizado em 'você'; 'Para continuar aprendendo' mantido (autor)"
+    "Etapa 6: aplicar todas as correções de norma + as 18 ★ (item 24 opcional não); CTA uniformizado em 'você'; 'Para continuar aprendendo' mantido (autor)",
+    "Etapa 7: B-1, B-2, B-3 aplicados por padrão; R-1 a R-8 aplicadas; opcionais P-1 a P-7 não (autor)",
+    "Etapa 7 — V-1: espinha nominal × efetiva mantida com [VERIFICAR] (over × 30); autor confere no Assaf Neto antes de publicar (autor)"
   ],
   "pendencias": [
-    "Subtítulo: provisório carrega assunto, não tese; alternativa proposta para o gate"
+    "Subtítulo: provisório carrega assunto, não tese; alternativa proposta para o gate",
+    "[VERIFICAR] over ao mês = diária × 30 (l.157; afeta 'taxa nominal' em 1998 e no fechamento): autor confere no exemplar do Assaf Neto"
   ],
   "commit_inicial": "fbb8ee4",
   "slug": "2026-11-02-a-barriga-da-curva",

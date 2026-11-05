@@ -151,3 +151,14 @@ CMN 5.171, Susep 2022) via `pdftotext`. Planalto bloqueado para as ferramentas.
 - Planilhas: Microsoft https://support.microsoft.com/pt-br/office/fun%C3%A7%C3%A3o-diatrabalhototal-48e717bf-a7a3-495f-969e-5005e3eb18e7 · Google https://support.google.com/docs/table/25273?hl=pt-BR · LibreOffice https://help.libreoffice.org/latest/pt-BR/text/scalc/01/func_networkdays.html
 - Bibliografia: Assaf Neto https://www.martinsfontespaulista.com.br/matematica-financeira-e-suas-aplicacoes-1004941/p · Samanez https://biblioteca.ifac.edu.br//bib/33168 · Hull https://www.pearson.com/en-us/subject-catalog/p/options-futures-and-other-derivatives/P200000005938/9780136939979 · sumário secundário https://toc.uni.li/FLMF056124.pdf
 - Reaproveitado do du252/07: DDI/FRC (B3), OC 055/2024-PRE, Tesouro, slides Hull cap. 6, ANBIMA, `bizdays`.
+
+---
+
+## Decisões do autor (2026-11-04)
+
+- **Bloqueantes B-1, B-2, B-3:** aplicados por padrão (precedente du252).
+- **V-1:** manter a espinha nominal × efetiva com `[VERIFICAR]` na l.157; o autor confere no próprio
+  exemplar do Assaf Neto antes de publicar. Vai ao gate como pendência.
+- **R-1 a R-8:** aplicar todas.
+- **Opcionais P-1 a P-7:** nenhum aplicado.
+- Aplicação: etapa 9 (consolidação).
