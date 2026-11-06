@@ -44,7 +44,7 @@ cortar (ver `pesquisa/frente-c-editoracao.md`).
 | # | Etapa | Executor | Saída em `posts/<slug>/processo/` |
 |---|---|---|---|
 | 0 | Leitura do rascunho | principal | `00-leitura.md` — cópia de trabalho do draft (a original fica intocada em `_arquivo/`) **e** inventário de marcadores, se houver (ver "Etapa 0" abaixo) |
-| 1 | Briefing | principal + `voz-syntaxis` + `marca-syntaxis` | `01-briefing.md` — tese em uma frase; gancho escolhido (cena, dado ou pergunta que abre o texto — não é a mesma coisa que a tese); analogias usadas no áudio (preservar, são do autor); encaixe no funil (`_arquivo/MARKETING_REVIEW.md` §5); qual voz (§4 do guia — ensaística ou explicativa); **qual linha editorial** (ver abaixo); resolução de todo marcador **estrutural** e **nota de conteúdo** do inventário da etapa 0 (ver "Etapa 0" abaixo) |
+| 1 | Briefing | principal + `voz-syntaxis` + `marca-syntaxis` | `01-briefing.md` — tese em uma frase; gancho escolhido (cena, dado ou pergunta que abre o texto — não é a mesma coisa que a tese); analogias usadas no áudio (preservar, são do autor); encaixe no funil (`../../strategy/FUNIL.md`); qual voz (§4 do guia — ensaística ou explicativa); **qual linha editorial** (ver abaixo); resolução de todo marcador **estrutural** e **nota de conteúdo** do inventário da etapa 0 (ver "Etapa 0" abaixo) |
 | 2 | Estrutura | principal | `02-estrutura.md` — subtítulos; o que cada seção prova; em qual ato do arco cada seção entra (setup/conflito/resolução, ou a versão completa — ver `.claude/agents/references/tecnicas-narrativas.md`); confirmação de que dado, narrativa e visual (os três pilares) estão cada um representados em pelo menos uma seção; onde entra `graf-NN`/`diag-NN`/`info-NN` e por quê, pelo critério da seção "Etapa 2" abaixo; o que fica de fora |
 | 3 | Pesquisa | agente `pesquisador-editorial` | `03-pesquisa.md` com fontes — tratamento do tema, dados, contrapontos |
 | 4 | Draft | principal, com `voz-syntaxis` | `04-draft-v1.md` — toda **instrução de escrita** do inventário da etapa 0 aparece atendida, com nota lateral de como (ver "Etapa 0" abaixo) |
@@ -148,7 +148,7 @@ acabou aprovada por inércia — carregada como item de uma lista de pendências
 etapa 10, sem nunca virar, de fato, uma pergunta que alguém respondesse.
 
 A linha escolhida vai para o frontmatter de `post.md` como `linha_editorial:` na etapa 9. Ela
-segue relevante para frontmatter e encaixe no funil (`_arquivo/MARKETING_REVIEW.md` §5); não
+segue relevante para frontmatter e encaixe no funil (`../../strategy/FUNIL.md`); não
 bloqueia a etapa 8, que desde 2026-09-09 só produz gráfico, diagrama e infográfico — capa e
 ilustração saíram do pipeline (ver nota em `prompts-visuais`).
 
