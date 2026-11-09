@@ -177,3 +177,14 @@ escrever no gate.
 - **graf-01 não veio no arquivo** ("embedded content"). A etapa 8 reconstrói a partir da fórmula.
 - **Tamanho:** cerca de 2.600 palavras de prosa publicável. Não há pedido de corte, mas a tensão
   de profundidade pode encurtar.
+
+## Respostas do autor às tensões (2026-11-09, durante a etapa 3)
+
+- **Título:** "Frequência de Capitalização" (o H1 do rascunho). O movimento 0 pede deck com a
+  tese, então a etapa 4 usa como subtítulo provisório "O limite matemático que explica o
+  composto e o contínuo" (o da Ficha, sem o "vs."). A troca é decisão do gate.
+- **Correção ou aprofundamento:** aprofundamento. O "Devo uma correção" sai, e a abertura de
+  "Mesma curva, outra etiqueta" e a frase repetida dos 15,03% são ajustadas para remeter ao texto
+  anterior em vez de repeti-lo.
+- **Profundidade:** o binômio e o Black-Scholes ficam no corpo, como estão.
+- **Linha pessoal sobre o e:** fica de fora. O marcador nº 7 está resolvido, sem `[PREENCHER]`.

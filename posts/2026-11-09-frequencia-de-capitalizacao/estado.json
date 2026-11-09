@@ -3,10 +3,15 @@
   "loops_consumidos": 0,
   "aprovacoes": [
     "Linha editorial: Notas de um Professor (confirmada pelo autor, etapa 0; rascunho sem front-matter)",
-    "FIDC: texto cancelado; cortar a promessa do fechamento e do campo 8 da Ficha, fechar sem anunciar o próximo texto (autor, etapa 0)"
+    "FIDC: texto cancelado; cortar a promessa do fechamento e do campo 8 da Ficha, fechar sem anunciar o próximo texto (autor, etapa 0)",
+    "Tensão — título: RESOLVIDA, 'Frequência de Capitalização'; subtítulo provisório 'O limite matemático que explica o composto e o contínuo' (autor, durante a etapa 3)",
+    "Tensão — correção ou aprofundamento: RESOLVIDA, aprofundamento (autor, durante a etapa 3)",
+    "Tensão — profundidade: RESOLVIDA, binômio e Black-Scholes ficam no corpo (autor, durante a etapa 3)",
+    "Tensão — linha pessoal sobre o e: RESOLVIDA, fica de fora (autor, durante a etapa 3)"
   ],
   "pendencias": [],
   "commit_inicial": "6a20a9b",
   "slug": "2026-11-09-frequencia-de-capitalizacao",
-  "linha_editorial": "Notas de um Professor"
+  "linha_editorial": "Notas de um Professor",
+  "titulo": "Frequência de Capitalização"
 }
