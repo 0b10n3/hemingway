@@ -183,6 +183,17 @@
       "citavel": true
     },
     {
+      "id": "post:2026-11-09-frequencia-de-capitalizacao",
+      "tipo": "post",
+      "titulo": "Frequência de Capitalização",
+      "data": "2026-11-09",
+      "linha_editorial": "Notas de um Professor",
+      "resumo": "Taxa nominal, efetiva e contínua: por que a capitalização contínua é o limite do composto, e não um regime rival, e por que errar a etiqueta da taxa pesa mais que a frequência.",
+      "url": null,
+      "situacao": "não publicado",
+      "citavel": false
+    },
+    {
       "id": "legado:conectando-dinheiro-e-sonhos",
       "tipo": "post",
       "titulo": "Conectando dinheiro e sonhos",

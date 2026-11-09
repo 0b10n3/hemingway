@@ -1,7 +1,7 @@
 # Etapa 0 — Leitura do rascunho
 
-Fonte: `_arquivo/drafts/2026-11-09Frequência de Capitalização.md` (intocado; já commitado em
-`main`, `6a20a9b`).
+Fonte: `_arquivo/drafts/2026-11-09Frequência de Capitalização.md` (intocado; **ainda não versionado**:
+está fora do git, nem em `main` nem nesta branch, e fica para o autor commitar em `main`, escopo `arquivo`).
 
 **Front-matter:** ausente. O arquivo abre com o H1 "# Notas de um Professor — Frequência de
 Capitalização \[draft v1\]" e "Nov 9, 2026 · @0b10n3" (cabeçalho de exportação).

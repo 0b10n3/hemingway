@@ -1,5 +1,5 @@
 {
-  "etapa_atual": 9,
+  "etapa_atual": 10,
   "loops_consumidos": 0,
   "aprovacoes": [
     "Linha editorial: Notas de um Professor (confirmada pelo autor, etapa 0; rascunho sem front-matter)",
@@ -18,8 +18,8 @@
     "S1: mover o parágrafo do cartão para o fim de 'Rende todo dia', depois de 'Numa taxa efetiva, a frequência já foi paga' (autor)"
   ],
   "pendencias": [
-    "Etapa 9a (marketing) e etapa 10 (gate) pendentes",
-    "Gate: deck/subtítulo com a tese (M3); [VERIFICAR] Hull e ano do Maor; S4 linkar 'A Corda e o Arco'"
+    "Gate: deck/subtítulo com a tese (M3); [VERIFICAR] Hull e ano do Maor; S4 linkar 'A Corda e o Arco'",
+    "Rascunho _arquivo/drafts/2026-11-09Frequência de Capitalização.md não versionado: autor commita em main (escopo arquivo)"
   ],
   "commit_inicial": "6a20a9b",
   "slug": "2026-11-09-frequencia-de-capitalizacao",
