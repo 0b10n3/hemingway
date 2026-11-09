@@ -330,12 +330,12 @@ O anexo trouxe só a pesquisa de pauta. O draft segue o gancho que você aprovou
 | # | Trecho (verbatim ou resumido) | Classificação | Resolução |
 |---|---|---|---|
 | 1 | Sem front-matter; H1 "Notas de um Professor — Frequência de Capitalização [draft v1]" | Estrutural | **Resolvido (etapa 0):** o autor confirmou Notas de um Professor (2026-11-09). |
-| 2 | "Ficha de Saída (não publicar)": tabela com 8 campos | Estrutural | Pendente (etapa 2): adotar e conferir contra `docs/BACKWARDS_DESIGN.md` §2. Ajustar o campo 8 (FIDC). |
-| 3 | Título: "Capitalização Contínua vs. Composta" / "O Limite Matemático Que Explica as Duas" × "Quantas Cordas Cabem num Ano?" (Pergunta 1) | Estrutural | Pendente (etapa 1): vira tensão nomeada. |
+| 2 | "Ficha de Saída (não publicar)": tabela com 8 campos | Estrutural | **Resolvido (etapa 2):** adotada em `02-estrutura.md`, campo 8 sem FIDC. |
+| 3 | Título: "Capitalização Contínua vs. Composta" / "O Limite Matemático Que Explica as Duas" × "Quantas Cordas Cabem num Ano?" (Pergunta 1) | Estrutural | **Resolvido (etapa 1):** "Frequência de Capitalização"; subtítulo provisório no draft, troca decidida no gate (autor, 2026-11-09). |
 | 4 | "No próximo texto, o FIDC (…), que prometi duas vezes" (fechamento) + campo 8 "aponta para o FIDC" | Nota de conteúdo | **Resolvido (etapa 0):** o FIDC foi cancelado. O autor decidiu cortar e fechar sem anunciar (2026-11-09). A etapa 4 aplica. |
-| 5 | Pergunta 2: "devo uma correção" (texto anterior com três motores) — manter ou enquadrar como aprofundamento? | Nota de conteúdo | Pendente (etapa 1): tensão nomeada. |
-| 6 | Pergunta 3: profundidade — demonstração do teto de 3 e exemplo de Black-Scholes no corpo, encurtados ou em nota? (decisão 3 do BACKWARDS_DESIGN) | Estrutural | Pendente (etapa 1/2): tensão nomeada. |
-| 7 | Pergunta 4: "Uma linha sua: como o e apareceu para você na graduação em Matemática? Encaixaria depois da escada de Bernoulli." | Instrução de escrita | Pendente (etapa 4): só o autor pode escrever. Sem resposta, vira `[PREENCHER: …]` ou fica de fora. |
+| 5 | Pergunta 2: "devo uma correção" (texto anterior com três motores) — manter ou enquadrar como aprofundamento? | Nota de conteúdo | **Resolvido (etapa 1):** aprofundamento (autor, 2026-11-09). A etapa 4 aplicou (notas 2–4). |
+| 6 | Pergunta 3: profundidade — demonstração do teto de 3 e exemplo de Black-Scholes no corpo, encurtados ou em nota? (decisão 3 do BACKWARDS_DESIGN) | Estrutural | **Resolvido (etapa 1):** ficam no corpo (autor, 2026-11-09). |
+| 7 | Pergunta 4: "Uma linha sua: como o e apareceu para você na graduação em Matemática? Encaixaria depois da escada de Bernoulli." | Instrução de escrita | **Resolvido (etapa 1):** fica de fora (autor, 2026-11-09). |
 | 8 | "[embedded content: cálculo próprio · taxa nominal de 14% ao ano; efetiva = (1 + 0,14/m)^m − 1; teto = e^0,14 − 1 · no post, entra como graf-01 (imagem exportada)]" | Sugestão de visual | Pendente (etapa 2/8): o conteúdo embutido não veio no arquivo e a etapa 8 reconstrói a partir da fórmula. |
 | 9 | "> [graf-02] Ilustração: a linha quebrada de Bernoulli…" (1, 2, 4, 12 cordas + curva contínua) | Sugestão de visual | Pendente (etapa 2/8): conferir o tipo pelo critério (série real × diagrama). |
 | 10 | "[VERIFICAR: ano da edição]" (Maor, Record) | Nota de conteúdo | Pendente (etapa 7). |
