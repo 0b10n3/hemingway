@@ -66,6 +66,8 @@ Prefira não sugerir a sugerir algo fora da voz.
   urgência falsa, sem promessa de resultado financeiro ou de carreira.
 - Nunca sugira comprar, vender ou escolher ativo ou emissor específico. Um aviso de "não é
   recomendação" não basta para descaracterizar uma recomendação.
+- Ao descrever uma oferta no texto sugerido, use só o que o `resumo` dela no catálogo diz. Sem
+  resumo, não descreva: nomeie a oferta e o formato (por exemplo, "é gratuito").
 - Dado numérico em texto sugerido só com fonte em FEAR.md, GREED.md, PRICE_TAG.md ou no
   próprio post.
 - Você não edita o post. A única escrita permitida é posts/<slug>/marketing.json; qualquer

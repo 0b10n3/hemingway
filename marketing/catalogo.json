@@ -384,6 +384,7 @@
       "url": null,
       "situacao": "disponível",
       "estagio": "topo gratuito",
+      "resumo": null,
       "segmento": [
         "#GENZ-FEAR",
         "#GENZ-GREED"
@@ -397,6 +398,7 @@
       "url": null,
       "situacao": "disponível",
       "estagio": "topo gratuito",
+      "resumo": null,
       "segmento": [
         "#GENZ-FEAR",
         "#GENZ-GREED"
@@ -410,6 +412,7 @@
       "url": null,
       "situacao": "disponível",
       "estagio": "topo gratuito",
+      "resumo": null,
       "segmento": [
         "#GENZ-FEAR",
         "#GENZ-GREED"
@@ -423,6 +426,7 @@
       "url": null,
       "situacao": "disponível",
       "estagio": "topo gratuito",
+      "resumo": null,
       "segmento": [
         "#GENZ-FEAR",
         "#GENZ-GREED"
@@ -436,6 +440,7 @@
       "url": "https://skill.syntaxis.com.br/",
       "situacao": "disponível",
       "estagio": "topo gratuito",
+      "resumo": "Diagnóstico gratuito de conhecimento técnico: 15 questões, escolhidas pela senioridade declarada, em cinco dimensões (mercados e produtos, de renda fixa bancária a crédito estruturado; matemática financeira e quant; dados e programação; IA aplicada; risco e regulação). O resultado compara o perfil com o que o mercado espera para o próximo degrau da carreira e aponta as duas dimensões em que investir primeiro.",
       "segmento": [
         "#GENZ-FEAR",
         "#GENZ-GREED"
@@ -449,6 +454,7 @@
       "url": null,
       "situacao": "em produção",
       "estagio": "isca paga",
+      "resumo": null,
       "segmento": [
         "#GENZ-FEAR",
         "#GENZ-GREED"
@@ -462,6 +468,7 @@
       "url": null,
       "situacao": "em produção",
       "estagio": "produto de entrada",
+      "resumo": null,
       "segmento": [
         "#GENZ-FEAR",
         "#GENZ-GREED"
@@ -475,6 +482,7 @@
       "url": null,
       "situacao": "congelado",
       "estagio": "2º curso",
+      "resumo": null,
       "segmento": [],
       "citavel": false
     },
@@ -485,6 +493,7 @@
       "url": null,
       "situacao": "congelado",
       "estagio": "combo",
+      "resumo": null,
       "segmento": [],
       "citavel": false
     },
@@ -495,6 +504,7 @@
       "url": null,
       "situacao": "congelado",
       "estagio": "avançado",
+      "resumo": null,
       "segmento": [
         "#Millennials-FEAR",
         "#Millennials-GREED"
@@ -508,6 +518,7 @@
       "url": null,
       "situacao": "congelado",
       "estagio": null,
+      "resumo": null,
       "segmento": [],
       "citavel": false
     },
@@ -518,6 +529,7 @@
       "url": null,
       "situacao": "congelado",
       "estagio": "backend",
+      "resumo": null,
       "segmento": [
         "#Millennials-FEAR",
         "#Millennials-GREED"

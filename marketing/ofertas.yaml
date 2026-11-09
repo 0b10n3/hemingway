@@ -5,6 +5,7 @@
 # situacao: disponível | em produção | congelado
 #   Só "disponível" recebe CTA. Para "em produção" e "congelado", no máximo menção
 #   editorial sem link de venda, e só a pedido do autor.
+# resumo (opcional) = o que a oferta entrega; é a única descrição que o parecer pode usar.
 # tipo nativo = botão ou gesto do próprio Substack (sem URL). Os demais precisam de url.
 
 - id: substack:inscrever
@@ -45,6 +46,8 @@
   tipo: captura
   url: https://skill.syntaxis.com.br/
   situacao: disponível
+  # Fonte: apps/skill_test/docs/metodologia.md §1–§5 (2026-11-09).
+  resumo: "Diagnóstico gratuito de conhecimento técnico: 15 questões, escolhidas pela senioridade declarada, em cinco dimensões (mercados e produtos, de renda fixa bancária a crédito estruturado; matemática financeira e quant; dados e programação; IA aplicada; risco e regulação). O resultado compara o perfil com o que o mercado espera para o próximo degrau da carreira e aponta as duas dimensões em que investir primeiro."
   estagio: topo gratuito
   segmento: ["#GENZ-FEAR", "#GENZ-GREED"]
 
