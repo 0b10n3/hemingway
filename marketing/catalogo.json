@@ -166,7 +166,7 @@
       "url": "https://syntaxis.substack.com/p/voce-esta-contando-os-dias-errado",
       "situacao": "disponível",
       "cluster": "matematica-financeira",
-      "pilar": true,
+      "pilar": false,
       "citavel": true
     },
     {
@@ -179,7 +179,7 @@
       "url": "https://syntaxis.substack.com/p/a-corda-e-o-arco",
       "situacao": "disponível",
       "cluster": "matematica-financeira",
-      "pilar": false,
+      "pilar": true,
       "citavel": true
     },
     {
@@ -548,10 +548,10 @@
     {
       "id": "matematica-financeira",
       "nome": "Matemática financeira (dias úteis, regimes, capitalização)",
-      "pilar": "post:2026-10-30-du252-contagem-de-dias",
+      "pilar": "post:2026-11-02-a-barriga-da-curva",
       "membros": [
-        "post:2026-10-30-du252-contagem-de-dias",
-        "post:2026-11-02-a-barriga-da-curva"
+        "post:2026-11-02-a-barriga-da-curva",
+        "post:2026-10-30-du252-contagem-de-dias"
       ]
     },
     {

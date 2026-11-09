@@ -1,4 +1,4 @@
-# Clusters temáticos (topic clusters). PROPOSTA de 2026-11-09, a aprovar pelo autor.
+# Clusters temáticos (topic clusters). Aprovado pelo autor em 2026-11-09.
 # Um post pertence a um cluster. O pilar é o texto mais amplo do tema: a referência
 # preferida quando o leitor precisa de base. Novo post entra no cluster ao ser publicado.
 # ids: post:<slug-do-repo> ou legado:<slug-do-substack> (ver legado.yaml).
@@ -20,10 +20,10 @@
 
 - id: matematica-financeira
   nome: Matemática financeira (dias úteis, regimes, capitalização)
-  pilar: post:2026-10-30-du252-contagem-de-dias
+  pilar: post:2026-11-02-a-barriga-da-curva
   membros:
-    - post:2026-10-30-du252-contagem-de-dias
     - post:2026-11-02-a-barriga-da-curva
+    - post:2026-10-30-du252-contagem-de-dias
 
 - id: renda-fixa-publica
   nome: Títulos públicos (Tesouro Direto)
