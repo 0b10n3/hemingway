@@ -7,11 +7,17 @@
     "Tensão — título: RESOLVIDA, 'Frequência de Capitalização'; subtítulo provisório 'O limite matemático que explica o composto e o contínuo' (autor, durante a etapa 3)",
     "Tensão — correção ou aprofundamento: RESOLVIDA, aprofundamento (autor, durante a etapa 3)",
     "Tensão — profundidade: RESOLVIDA, binômio e Black-Scholes ficam no corpo (autor, durante a etapa 3)",
-    "Tensão — linha pessoal sobre o e: RESOLVIDA, fica de fora (autor, durante a etapa 3)"
+    "Tensão — linha pessoal sobre o e: RESOLVIDA, fica de fora (autor, durante a etapa 3)",
+    "Crítica M5: ligar a hipótese à tese (autor, pós-etapa 5)",
+    "Crítica M8/B6: manter a LTN e ligá-la à regra de precisão; Súmula 541 não entra (autor, pós-etapa 5)",
+    "Crítica M6: acrescentar o contraexemplo do rotativo do cartão (autor, pós-etapa 5)",
+    "Crítica M1, M2, M4, M7 aplicados no draft v2; baixos B1/B4 por redação; M3 vai ao gate (autor, pós-etapa 5)"
   ],
   "pendencias": [],
   "commit_inicial": "6a20a9b",
   "slug": "2026-11-09-frequencia-de-capitalizacao",
   "linha_editorial": "Notas de um Professor",
-  "titulo": "Frequência de Capitalização"
+  "titulo": "Frequência de Capitalização",
+  "ponto_retorno": 4,
+  "motivo": "Draft v2 com decisões da crítica, dentro do fluxo (antes do gate); não consome loop"
 }
