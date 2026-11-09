@@ -256,7 +256,7 @@ Quatro perguntas para fazer a qualquer taxa que chegar à sua mesa:
 
 Quem responde às quatro sem hesitar já entendeu algo que muita gente experiente só sabe aplicar no automático.
 
-Este texto foi um parêntese de ferramenta. O próximo volta à série de crédito com o FIDC (Fundo de Investimento em Direitos Creditórios), como ficou prometido no texto das debêntures.
+Este texto foi um parêntese de ferramenta.
 
 Se este texto te poupou uma conta errada, encaminhe para quem está começando na mesa. E me conte, nos comentários, a pior pegadinha de calendário que você já encontrou.
 
