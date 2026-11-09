@@ -5,6 +5,8 @@ data: 2026-09-11
 linha_editorial: Spoiler
 tags: [Carreira, Finanças Quantitativas, Disciplina, Jordan Peterson]
 status: rascunho
+url_publicada: https://syntaxis.substack.com/p/o-dificil-sobre-as-dificuldades-em
+resumo: "O que sustenta uma carreira em finanças no longo prazo é a base chata que ninguém posta, não a parte visível do ofício."
 ---
 
 ## Fortalecer a Lombar é uma Droga

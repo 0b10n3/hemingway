@@ -9,6 +9,8 @@ status: aprovado
 assunto_email: "Sua melhor nota pode estar mentindo para você"
 nota_substack: "O coqueiro chegou à Bahia em 1553 e hoje ninguém lembra que é imigrante. Algumas skills funcionam assim."
 busca_organica: "Skills naturais e aprendidas: como descobrir seus pontos fortes na carreira"
+url_publicada: https://syntaxis.substack.com/p/coqueiros-e-cacaueiros
+resumo: "Skills nativas e skills importadas: quais pedem esforço contínuo, quais passam a dar fruto sozinhas e quais vale cultivar de propósito no mercado financeiro."
 ---
 
 Voltei de viagem com duas ideias de texto. Pelo litoral sul da Bahia, é impossível caminhar pelas praias e vilas sem ver coqueiros à beira-mar e cacau, suco de cacau, mel de cacau... sendo oferecidos em cada esquina.

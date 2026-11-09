@@ -9,6 +9,8 @@ status: aprovado
 assunto_email: "O que um samurai do século 17 sabe sobre sua carreira em finanças que o Hábitos Atômicos não te conta"
 nota_substack: "Antes do 1% melhor, havia os Cinco Anéis"
 busca_organica: "Livro dos Cinco Anéis aplicado à carreira: o que Musashi ensina sobre disciplina e maestria"
+url_publicada: https://syntaxis.substack.com/p/samurais-e-duelos-no-mercado-financeiro
+resumo: "O Livro dos Cinco Anéis lido como disciplina de carreira em finanças: cinco etapas para sair da estagnação, sem a versão hardcore da produtividade."
 ---
 
 Em 1612, numa ilhota entre Kyushu e Honshu, um espadachim de 29 anos desceu de um barco com uma espada de madeira talhada de um remo. Do outro lado estava Sasaki Kojirō, instrutor de esgrima de um senhor feudal e, para alguns, o melhor espadachim dos dois. Kojirō morreu ali, na areia.

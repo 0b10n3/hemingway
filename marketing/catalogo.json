@@ -1,0 +1,608 @@
+{
+  "itens": [
+    {
+      "id": "post:2026-08-10-o-mundo-invertido-dos-investimentos",
+      "tipo": "post",
+      "titulo": "O Mundo Invertido dos Investimentos",
+      "data": "2026-08-10",
+      "linha_editorial": null,
+      "resumo": "Por que tanto investidor iniciante começa pelos produtos mais arriscados e complexos, e por que a ordem certa é começar pelo simples.",
+      "url": "https://syntaxis.substack.com/p/o-mundo-invertido-dos-investimentos",
+      "situacao": "disponível",
+      "cluster": "investimentos-pessoais",
+      "pilar": false,
+      "citavel": true
+    },
+    {
+      "id": "post:2026-08-14-o-papel-do-cdb-na-transformacao-de-prazos",
+      "tipo": "post",
+      "titulo": "O Papel do CDB na Transformação de Prazos",
+      "data": "2026-08-14",
+      "linha_editorial": "Notas de um Professor",
+      "resumo": "O CDB como instrumento de transformação de prazos do banco: por que ele existe, por que a remuneração se ancora no CDI e por que o Banco Central o regula de perto.",
+      "url": "https://syntaxis.substack.com/p/o-papel-do-cdb-na-transformacao-de",
+      "situacao": "disponível",
+      "cluster": "renda-fixa-bancaria",
+      "pilar": true,
+      "citavel": true
+    },
+    {
+      "id": "post:2026-08-17-o-mundo-invertido-das-carreiras-em-financas",
+      "tipo": "post",
+      "titulo": "O Mundo Invertido das Carreiras",
+      "data": "2026-08-17",
+      "linha_editorial": "Spoiler",
+      "resumo": "Aprender finanças fora de ordem: quem começa a carreira pela ponta mais complexa e precisa voltar ao alicerce, como o valor do dinheiro no tempo.",
+      "url": "https://syntaxis.substack.com/p/o-mundo-invertido-das-carreiras-em",
+      "situacao": "disponível",
+      "cluster": "carreira",
+      "pilar": false,
+      "citavel": true
+    },
+    {
+      "id": "post:2026-08-25-dividir-para-nao-correr-risco",
+      "tipo": "post",
+      "titulo": "Dividir para não correr risco",
+      "data": "2026-08-25",
+      "linha_editorial": "Notas de um Professor",
+      "resumo": "A LCI é dívida do banco lastreada em crédito imobiliário, não securitização nem covered bond: de quem é o risco e por que a isenção não é favor, é spread.",
+      "url": "https://syntaxis.substack.com/p/dividir-para-nao-correr-risco",
+      "situacao": "disponível",
+      "cluster": "renda-fixa-bancaria",
+      "pilar": false,
+      "citavel": true
+    },
+    {
+      "id": "post:2026-09-01-quando-os-modelos-se-rebelam",
+      "tipo": "post",
+      "titulo": "Quando os Modelos se Rebelam",
+      "data": "2026-09-01",
+      "linha_editorial": "Spoiler",
+      "resumo": "Em finanças só há modelos, não teorias: por que o descolamento entre modelo e realidade é esperado e o que os desastres de modelagem ensinam a quem modela.",
+      "url": "https://syntaxis.substack.com/p/quando-os-modelos-se-rebelam",
+      "situacao": "disponível",
+      "cluster": "modelos-e-risco-de-modelo",
+      "pilar": true,
+      "citavel": true
+    },
+    {
+      "id": "post:2026-09-11-partes-dificeis-de-uma-carreira-em-financas",
+      "tipo": "post",
+      "titulo": "O Difícil sobre as Dificuldades em uma Carreira em Finanças",
+      "data": "2026-09-11",
+      "linha_editorial": "Spoiler",
+      "resumo": "O que sustenta uma carreira em finanças no longo prazo é a base chata que ninguém posta, não a parte visível do ofício.",
+      "url": "https://syntaxis.substack.com/p/o-dificil-sobre-as-dificuldades-em",
+      "situacao": "disponível",
+      "cluster": "carreira",
+      "pilar": false,
+      "citavel": true
+    },
+    {
+      "id": "post:2026-09-18-o-agro-e-pop-o-agro-e-produto-financeiro",
+      "tipo": "post",
+      "titulo": "O Agro é POP, o Agro é Produto Financeiro!",
+      "data": "2026-09-18",
+      "linha_editorial": "Notas de um Professor",
+      "resumo": "A LCA é dívida do banco lastreada em crédito ao agro, não empréstimo ao produtor: de onde vêm o rendimento, o custo de emissão e o valor de mercado do título.",
+      "url": "https://syntaxis.substack.com/p/o-agro-e-pop-o-agro-e-produto-financeiro",
+      "situacao": "disponível",
+      "cluster": "renda-fixa-bancaria",
+      "pilar": false,
+      "citavel": true
+    },
+    {
+      "id": "post:2026-09-24-borboletas-caos-e-carreira",
+      "tipo": "post",
+      "titulo": "Borboletas, Caos e Carreira",
+      "data": "2026-09-24",
+      "linha_editorial": "Spoiler",
+      "resumo": "Teoria do caos aplicada à carreira: ninguém prevê a trajetória, mas dá para escolher as regras e os difíceis que você carrega todo dia.",
+      "url": "https://syntaxis.substack.com/p/borboletas-caos-e-carreira",
+      "situacao": "disponível",
+      "cluster": "carreira",
+      "pilar": false,
+      "citavel": true
+    },
+    {
+      "id": "post:2026-09-28-o-certificado-nao-muda-o-devedor",
+      "tipo": "post",
+      "titulo": "O Certificado Não Muda o Devedor",
+      "data": "2026-09-28",
+      "linha_editorial": "Notas de um Professor",
+      "resumo": "CRA e CRI tiram a securitizadora do caminho, mas não o devedor: a análise começa pelo risco de crédito de quem deve o lastro, como mostrou o caso Raízen.",
+      "url": "https://syntaxis.substack.com/p/a-anatomia-e-o-verdadeiro-risco-do",
+      "situacao": "disponível",
+      "cluster": "credito-privado",
+      "pilar": false,
+      "citavel": true
+    },
+    {
+      "id": "post:2026-10-12-coqueiros-e-cacaueiros",
+      "tipo": "post",
+      "titulo": "Coqueiros e cacaueiros",
+      "data": "2026-10-12",
+      "linha_editorial": "Spoiler",
+      "resumo": "Skills nativas e skills importadas: quais pedem esforço contínuo, quais passam a dar fruto sozinhas e quais vale cultivar de propósito no mercado financeiro.",
+      "url": "https://syntaxis.substack.com/p/coqueiros-e-cacaueiros",
+      "situacao": "disponível",
+      "cluster": "carreira",
+      "pilar": true,
+      "citavel": true
+    },
+    {
+      "id": "post:2026-10-15-renda-fixa-condicoes-variaveis",
+      "tipo": "post",
+      "titulo": "Renda Fixa, Condições Variáveis",
+      "data": "2026-10-15",
+      "linha_editorial": "Notas de um Professor",
+      "resumo": "Na debênture não há FGC nem patrimônio separado: entre o investidor e a empresa há só a escritura, um contrato que a maioria dos credores pode reescrever.",
+      "url": "https://syntaxis.substack.com/p/renda-fixa-condicoes-variaveis",
+      "situacao": "disponível",
+      "cluster": "credito-privado",
+      "pilar": true,
+      "citavel": true
+    },
+    {
+      "id": "post:2026-10-27-samurais-e-duelos",
+      "tipo": "post",
+      "titulo": "Samurais e duelos no mercado financeiro",
+      "data": "2026-10-27",
+      "linha_editorial": "Spoiler",
+      "resumo": "O Livro dos Cinco Anéis lido como disciplina de carreira em finanças: cinco etapas para sair da estagnação, sem a versão hardcore da produtividade.",
+      "url": "https://syntaxis.substack.com/p/samurais-e-duelos-no-mercado-financeiro",
+      "situacao": "disponível",
+      "cluster": "carreira",
+      "pilar": false,
+      "citavel": true
+    },
+    {
+      "id": "post:2026-10-30-du252-contagem-de-dias",
+      "tipo": "post",
+      "titulo": "Você está contando os dias úteis errado (e isso está custando dinheiro)",
+      "data": "2026-10-30",
+      "linha_editorial": "Notas de um Professor",
+      "resumo": "DU/252: por que o juro brasileiro conta dias úteis, por que '12% ao ano' quase nunca rende 12% em um ano e como não errar o calendário no código.",
+      "url": "https://syntaxis.substack.com/p/voce-esta-contando-os-dias-errado",
+      "situacao": "disponível",
+      "cluster": "matematica-financeira",
+      "pilar": false,
+      "citavel": true
+    },
+    {
+      "id": "post:2026-11-02-a-barriga-da-curva",
+      "tipo": "post",
+      "titulo": "A Corda e o Arco",
+      "data": "2026-11-02",
+      "linha_editorial": "Notas de um Professor",
+      "resumo": "Juro simples, composto e contínuo: por que o simples ganha do composto antes do primeiro período e por que capitalização é cláusula de contrato, não lei da natureza.",
+      "url": "https://syntaxis.substack.com/p/a-corda-e-o-arco",
+      "situacao": "disponível",
+      "cluster": "matematica-financeira",
+      "pilar": true,
+      "citavel": true
+    },
+    {
+      "id": "legado:conectando-dinheiro-e-sonhos",
+      "tipo": "post",
+      "titulo": "Conectando dinheiro e sonhos",
+      "data": "2024-09-06",
+      "linha_editorial": null,
+      "resumo": "\"O que pode ser medido pode ser gerenciado.\"",
+      "url": "https://syntaxis.substack.com/p/conectando-dinheiro-e-sonhos",
+      "situacao": "disponível",
+      "cluster": "investimentos-pessoais",
+      "pilar": false,
+      "citavel": true
+    },
+    {
+      "id": "legado:escolhendo-as-batalhas",
+      "tipo": "post",
+      "titulo": "Escolhendo as Batalhas",
+      "data": "2024-09-12",
+      "linha_editorial": null,
+      "resumo": "Objetivos Financeiros que Importam",
+      "url": "https://syntaxis.substack.com/p/escolhendo-as-batalhas",
+      "situacao": "disponível",
+      "cluster": "investimentos-pessoais",
+      "pilar": false,
+      "citavel": true
+    },
+    {
+      "id": "legado:um-objetivo-para-comecar",
+      "tipo": "post",
+      "titulo": "Um Objetivo para Começar",
+      "data": "2024-09-20",
+      "linha_editorial": null,
+      "resumo": "Se você ainda não começou",
+      "url": "https://syntaxis.substack.com/p/um-objetivo-para-comecar",
+      "situacao": "disponível",
+      "cluster": "investimentos-pessoais",
+      "pilar": false,
+      "citavel": true
+    },
+    {
+      "id": "legado:reservas-de-emergencia",
+      "tipo": "post",
+      "titulo": "Reservas de Emergência",
+      "data": "2024-09-30",
+      "linha_editorial": null,
+      "resumo": "A Importância de uma Reserva de Emergência",
+      "url": "https://syntaxis.substack.com/p/reservas-de-emergencia",
+      "situacao": "disponível",
+      "cluster": "investimentos-pessoais",
+      "pilar": false,
+      "citavel": true
+    },
+    {
+      "id": "legado:comece-com-o-simples",
+      "tipo": "post",
+      "titulo": "Comece com o Simples",
+      "data": "2024-10-10",
+      "linha_editorial": null,
+      "resumo": "Os intrumentos certos, para seus objetivos.",
+      "url": "https://syntaxis.substack.com/p/comece-com-o-simples",
+      "situacao": "disponível",
+      "cluster": "investimentos-pessoais",
+      "pilar": true,
+      "citavel": true
+    },
+    {
+      "id": "legado:titulos-do-tesouro-nacional",
+      "tipo": "post",
+      "titulo": "Títulos do Tesouro Nacional",
+      "data": "2024-10-16",
+      "linha_editorial": null,
+      "resumo": "O que você precisa saber",
+      "url": "https://syntaxis.substack.com/p/titulos-do-tesouro-nacional",
+      "situacao": "disponível",
+      "cluster": "renda-fixa-publica",
+      "pilar": true,
+      "citavel": true
+    },
+    {
+      "id": "legado:eu-preciso-de-um-assessor-de-investimentos",
+      "tipo": "post",
+      "titulo": "Eu Preciso de um Assessor de Investimentos?",
+      "data": "2024-10-20",
+      "linha_editorial": null,
+      "resumo": "Cinco aspectos que devem considerados",
+      "url": "https://syntaxis.substack.com/p/eu-preciso-de-um-assessor-de-investimentos",
+      "situacao": "disponível",
+      "cluster": "investimentos-pessoais",
+      "pilar": false,
+      "citavel": true
+    },
+    {
+      "id": "legado:tesouro-prefixado-o-guia-completo",
+      "tipo": "post",
+      "titulo": "Tesouro Prefixado: O Guia Completo para Investidores Iniciantes",
+      "data": "2024-10-24",
+      "linha_editorial": null,
+      "resumo": "Alcançando objetivos bem especificados",
+      "url": "https://syntaxis.substack.com/p/tesouro-prefixado-o-guia-completo",
+      "situacao": "disponível",
+      "cluster": "renda-fixa-publica",
+      "pilar": false,
+      "citavel": true
+    },
+    {
+      "id": "legado:tesouro-selic",
+      "tipo": "post",
+      "titulo": "Tesouro Selic",
+      "data": "2024-11-01",
+      "linha_editorial": null,
+      "resumo": "O Que Você Precisa Saber Antes de Investir",
+      "url": "https://syntaxis.substack.com/p/tesouro-selic",
+      "situacao": "disponível",
+      "cluster": "renda-fixa-publica",
+      "pilar": false,
+      "citavel": true
+    },
+    {
+      "id": "legado:etf-o-que-e",
+      "tipo": "post",
+      "titulo": "ETF: O que é?",
+      "data": "2025-07-08",
+      "linha_editorial": null,
+      "resumo": "Como Funciona e Como Analisar Além do Básico",
+      "url": "https://syntaxis.substack.com/p/etf-o-que-e",
+      "situacao": "disponível",
+      "cluster": "investimentos-pessoais",
+      "pilar": false,
+      "citavel": true
+    },
+    {
+      "id": "legado:o-simples-funciona",
+      "tipo": "post",
+      "titulo": "O Simples Funciona",
+      "data": "2026-01-06",
+      "linha_editorial": null,
+      "resumo": "Mas não é para todo mundo",
+      "url": "https://syntaxis.substack.com/p/o-simples-funciona",
+      "situacao": "disponível",
+      "cluster": "investimentos-pessoais",
+      "pilar": false,
+      "citavel": true
+    },
+    {
+      "id": "legado:o-portfolio-da-ivy-league",
+      "tipo": "post",
+      "titulo": "O Portfólio da Ivy League",
+      "data": "2026-01-14",
+      "linha_editorial": null,
+      "resumo": "Como funciona a gestão dos fundos da elite acadêmica",
+      "url": "https://syntaxis.substack.com/p/o-portfolio-da-ivy-league",
+      "situacao": "disponível",
+      "cluster": "investimentos-pessoais",
+      "pilar": false,
+      "citavel": true
+    },
+    {
+      "id": "legado:objetivos-and-classes",
+      "tipo": "post",
+      "titulo": "Objetivos & Classes",
+      "data": "2026-01-26",
+      "linha_editorial": null,
+      "resumo": "Por que organizar ativos é o coração do investimento",
+      "url": "https://syntaxis.substack.com/p/objetivos-and-classes",
+      "situacao": "disponível",
+      "cluster": "investimentos-pessoais",
+      "pilar": false,
+      "citavel": true
+    },
+    {
+      "id": "legado:a-ciencia-da-separacao",
+      "tipo": "post",
+      "titulo": "A Ciência da Separação",
+      "data": "2026-02-08",
+      "linha_editorial": null,
+      "resumo": "O que define, afinal, uma Classe de Ativos ?",
+      "url": "https://syntaxis.substack.com/p/a-ciencia-da-separacao",
+      "situacao": "disponível",
+      "cluster": "investimentos-pessoais",
+      "pilar": false,
+      "citavel": true
+    },
+    {
+      "id": "legado:goal-based-investing",
+      "tipo": "post",
+      "titulo": "Goal Based Investing",
+      "data": "2026-03-02",
+      "linha_editorial": null,
+      "resumo": "Conectando seus investimentos e objetivos",
+      "url": "https://syntaxis.substack.com/p/goal-based-investing",
+      "situacao": "disponível",
+      "cluster": "investimentos-pessoais",
+      "pilar": false,
+      "citavel": true
+    },
+    {
+      "id": "substack:inscrever",
+      "tipo": "nativo",
+      "titulo": "Botão de inscrição do Substack",
+      "url": null,
+      "situacao": "disponível",
+      "estagio": "topo gratuito",
+      "segmento": [
+        "#GENZ-FEAR",
+        "#GENZ-GREED"
+      ],
+      "citavel": true
+    },
+    {
+      "id": "substack:compartilhar",
+      "tipo": "nativo",
+      "titulo": "Botão de compartilhar do Substack",
+      "url": null,
+      "situacao": "disponível",
+      "estagio": "topo gratuito",
+      "segmento": [
+        "#GENZ-FEAR",
+        "#GENZ-GREED"
+      ],
+      "citavel": true
+    },
+    {
+      "id": "substack:comentar",
+      "tipo": "nativo",
+      "titulo": "Botão de comentar do Substack",
+      "url": null,
+      "situacao": "disponível",
+      "estagio": "topo gratuito",
+      "segmento": [
+        "#GENZ-FEAR",
+        "#GENZ-GREED"
+      ],
+      "citavel": true
+    },
+    {
+      "id": "substack:responder-email",
+      "tipo": "nativo",
+      "titulo": "Convite para responder ao e-mail da newsletter",
+      "url": null,
+      "situacao": "disponível",
+      "estagio": "topo gratuito",
+      "segmento": [
+        "#GENZ-FEAR",
+        "#GENZ-GREED"
+      ],
+      "citavel": true
+    },
+    {
+      "id": "oferta:skill-check",
+      "tipo": "captura",
+      "titulo": "Syntaxis Skill Check",
+      "url": "https://skill.syntaxis.com.br/",
+      "situacao": "disponível",
+      "estagio": "topo gratuito",
+      "segmento": [
+        "#GENZ-FEAR",
+        "#GENZ-GREED"
+      ],
+      "citavel": true
+    },
+    {
+      "id": "oferta:isca-dias-uteis",
+      "tipo": "isca",
+      "titulo": "Isca SKILL.md de dias úteis e capitalização",
+      "url": null,
+      "situacao": "em produção",
+      "estagio": "isca paga",
+      "segmento": [
+        "#GENZ-FEAR",
+        "#GENZ-GREED"
+      ],
+      "citavel": false
+    },
+    {
+      "id": "oferta:fvdt",
+      "tipo": "curso",
+      "titulo": "Fundamentos do Valor do Dinheiro no Tempo (FVDT)",
+      "url": null,
+      "situacao": "em produção",
+      "estagio": "produto de entrada",
+      "segmento": [
+        "#GENZ-FEAR",
+        "#GENZ-GREED"
+      ],
+      "citavel": false
+    },
+    {
+      "id": "oferta:ia-financas",
+      "tipo": "curso",
+      "titulo": "IA para Profissionais de Finanças",
+      "url": null,
+      "situacao": "congelado",
+      "estagio": "2º curso",
+      "segmento": [],
+      "citavel": false
+    },
+    {
+      "id": "oferta:pacote-basico",
+      "tipo": "curso",
+      "titulo": "Pacote de cursos básicos (FVDT + IA)",
+      "url": null,
+      "situacao": "congelado",
+      "estagio": "combo",
+      "segmento": [],
+      "citavel": false
+    },
+    {
+      "id": "oferta:renda-fixa-profissionais",
+      "tipo": "curso",
+      "titulo": "Renda Fixa para Profissionais do Mercado Financeiro",
+      "url": null,
+      "situacao": "congelado",
+      "estagio": "avançado",
+      "segmento": [
+        "#Millennials-FEAR",
+        "#Millennials-GREED"
+      ],
+      "citavel": false
+    },
+    {
+      "id": "oferta:databricks",
+      "tipo": "curso",
+      "titulo": "Databricks para Profissionais de Finanças",
+      "url": null,
+      "situacao": "congelado",
+      "estagio": null,
+      "segmento": [],
+      "citavel": false
+    },
+    {
+      "id": "oferta:mentoria",
+      "tipo": "mentoria",
+      "titulo": "Mentoria Syntaxis",
+      "url": null,
+      "situacao": "congelado",
+      "estagio": "backend",
+      "segmento": [
+        "#Millennials-FEAR",
+        "#Millennials-GREED"
+      ],
+      "citavel": false
+    }
+  ],
+  "clusters": [
+    {
+      "id": "renda-fixa-bancaria",
+      "nome": "Renda fixa bancária (CDB, LCI, LCA, FGC)",
+      "pilar": "post:2026-08-14-o-papel-do-cdb-na-transformacao-de-prazos",
+      "membros": [
+        "post:2026-08-14-o-papel-do-cdb-na-transformacao-de-prazos",
+        "post:2026-08-25-dividir-para-nao-correr-risco",
+        "post:2026-09-18-o-agro-e-pop-o-agro-e-produto-financeiro"
+      ]
+    },
+    {
+      "id": "credito-privado",
+      "nome": "Crédito privado e securitização (debênture, CRI, CRA, FIDC)",
+      "pilar": "post:2026-10-15-renda-fixa-condicoes-variaveis",
+      "membros": [
+        "post:2026-10-15-renda-fixa-condicoes-variaveis",
+        "post:2026-09-28-o-certificado-nao-muda-o-devedor"
+      ]
+    },
+    {
+      "id": "matematica-financeira",
+      "nome": "Matemática financeira (dias úteis, regimes, capitalização)",
+      "pilar": "post:2026-11-02-a-barriga-da-curva",
+      "membros": [
+        "post:2026-11-02-a-barriga-da-curva",
+        "post:2026-10-30-du252-contagem-de-dias"
+      ]
+    },
+    {
+      "id": "renda-fixa-publica",
+      "nome": "Títulos públicos (Tesouro Direto)",
+      "pilar": "legado:titulos-do-tesouro-nacional",
+      "membros": [
+        "legado:titulos-do-tesouro-nacional",
+        "legado:tesouro-selic",
+        "legado:tesouro-prefixado-o-guia-completo"
+      ]
+    },
+    {
+      "id": "modelos-e-risco-de-modelo",
+      "nome": "Modelos e risco de modelo",
+      "pilar": "post:2026-09-01-quando-os-modelos-se-rebelam",
+      "membros": [
+        "post:2026-09-01-quando-os-modelos-se-rebelam"
+      ]
+    },
+    {
+      "id": "carreira",
+      "nome": "Carreira no mercado financeiro (Spoiler)",
+      "pilar": "post:2026-10-12-coqueiros-e-cacaueiros",
+      "membros": [
+        "post:2026-10-12-coqueiros-e-cacaueiros",
+        "post:2026-08-17-o-mundo-invertido-das-carreiras-em-financas",
+        "post:2026-09-11-partes-dificeis-de-uma-carreira-em-financas",
+        "post:2026-09-24-borboletas-caos-e-carreira",
+        "post:2026-10-27-samurais-e-duelos"
+      ]
+    },
+    {
+      "id": "investimentos-pessoais",
+      "nome": "Investimentos pessoais e alocação por objetivos",
+      "pilar": "legado:comece-com-o-simples",
+      "membros": [
+        "legado:comece-com-o-simples",
+        "post:2026-08-10-o-mundo-invertido-dos-investimentos",
+        "legado:o-simples-funciona",
+        "legado:objetivos-and-classes",
+        "legado:a-ciencia-da-separacao",
+        "legado:goal-based-investing",
+        "legado:o-portfolio-da-ivy-league",
+        "legado:etf-o-que-e",
+        "legado:eu-preciso-de-um-assessor-de-investimentos",
+        "legado:reservas-de-emergencia",
+        "legado:um-objetivo-para-comecar",
+        "legado:escolhendo-as-batalhas",
+        "legado:conectando-dinheiro-e-sonhos"
+      ]
+    }
+  ]
+}

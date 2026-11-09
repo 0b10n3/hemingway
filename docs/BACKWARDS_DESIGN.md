@@ -226,3 +226,8 @@ público/estratégia comercial da newsletter já tem fonte única em
 `_arquivo/MARKETING_REVIEW.md` (ver `CLAUDE.md`), e misturar as duas violaria a regra de
 "uma fonte por fato". Ficam de fora deliberadamente — se um dia o pipeline de cursos for
 migrado para este ecossistema de repositórios, esse material pertence lá, não aqui.
+
+**Atualização de 2026-11-09:** a estratégia passou a morar em `../../strategy/`, e esse
+diretório virou a fonte de público, funil e ofertas também da newsletter. Ele é lido pelo
+subagente `estrategista-marketing` (etapa 9a). `_arquivo/MARKETING_REVIEW.md` ficou como
+histórico. Ver `CLAUDE.md`, "Fonte única de cada coisa".

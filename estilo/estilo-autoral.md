@@ -24,10 +24,10 @@ falando.
 |---|---|---|
 | Post de Substack | Educar e construir audiência para o funil vigente | `../../strategy/FUNIL.md` |
 | Conteúdo de curso | Ensinar com rigor, sustentar credibilidade técnica | inferido, a confirmar |
-| Marketing/aquisição | Falar às personas `#GENZ-FEAR`, `#GENZ-GREED`, `#Millennials-FEAR`, `#Millennials-GREED` | `_arquivo/MARKETING_REVIEW.md` §3.3 |
+| Marketing/aquisição | Falar às personas `#GENZ-FEAR`, `#GENZ-GREED`, `#Millennials-FEAR`, `#Millennials-GREED` | `../../strategy/AUDIENCES.md` §3 |
 
-Detalhamento de público e personas: ver `_arquivo/MARKETING_REVIEW.md`. Este guia não repete
-esse conteúdo — aponta para ele.
+Detalhamento de público e personas: ver `../../strategy/AUDIENCES.md` e
+`../../strategy/MARKETING.md` §3.3. Este guia não repete esse conteúdo — aponta para ele.
 
 ## 3. Regras (voz atual — descritivo)
 

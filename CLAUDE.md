@@ -50,7 +50,12 @@ pesquisa/          resumos das frentes de pesquisa (Claude Code, estilometria, e
 _pesquisa/         Deep Research pontual (via agy) para esclarecer dúvida de metodologia/verificação
 _revisoes/         saídas de revisão condicionais por linha editorial (revisor-quant, cálculo)
 posts/<slug>/      post.md, graficos.md, diagramas.md, infograficos.md (entregáveis,
-                   todos condicionais à peça existir) + processo/ (rascunho de etapas)
+                   todos condicionais à peça existir), marketing.json/.md (parecer da 9a)
+                   + processo/ (rascunho de etapas)
+marketing/         catálogo de conteúdo citável: ofertas, posts legados, clusters (YAML à mão)
+                   e catalogo.json (gerado)
+scripts/           gerar_catalogo.py, parecer.py (validar/aplicar o parecer) e testes
+evals/marketing/   avaliação do estrategista de marketing (casos, rodadas, notas do autor)
 .claude/skills/    skills de referência e de tarefa
 .claude/agents/    subagentes de trabalho isolado (leitura pesada, pesquisa, crítica, verificação)
 ```
@@ -81,9 +86,13 @@ gráfico ou ilustração já publicado foi regenerado — a correção vale só 
   `../../brand/tokens/syntaxis.tokens.json` (valores exatos, formato DTCG) — referenciados
   por caminho relativo, nunca copiados para dentro deste repo. Todo código Plotly em
   `graficos.md` novo lê esses arquivos em vez de repetir cor literal.
-- **Público e estratégia comercial (desta newsletter):** `_arquivo/MARKETING_REVIEW.md`.
-  Segmentação/funil/preço dos cursos Syntaxis Educação (produto irmão, Hotmart) não é fonte
-  deste pipeline — ver nota de escopo no fim de `docs/BACKWARDS_DESIGN.md`.
+- **Público, funil e ofertas:** `../../strategy/` (`AUDIENCES.md`, `FUNIL.md`,
+  `PRICE_TAG.md`, `MARKETING.md`, `DECISOES_2026-11.md`), só leitura. Quem lê esses arquivos
+  inteiros é o subagente `estrategista-marketing` (etapa 9a); a conversa principal lê só
+  FUNIL §1 e §5 no briefing. `_arquivo/MARKETING_REVIEW.md` ficou como histórico (desde 2026-11-09).
+- **O que um post pode citar ou linkar:** `marketing/catalogo.json`, gerado por
+  `scripts/gerar_catalogo.py` a partir do frontmatter dos posts (`url_publicada`, `resumo`) e
+  de `marketing/{ofertas,legado,clusters}.yaml`. Nunca editado à mão.
 - **Antipadrões de texto gerado por IA em pt-BR:** `pesquisa/frente-d-antipadroes-ia-ptbr.md`.
 - **Backward design da linha "Notas de um Professor":** `docs/BACKWARDS_DESIGN.md`
   (Ficha de Saída, os oito movimentos, regras transversais, regra de referências).
@@ -98,7 +107,8 @@ rascunho → briefing → estrutura (com Ficha de Saída de backward design, só
 Professor) → pesquisa → revisão/integração do rascunho na voz do autor → crítica estrutural
 (com validação argumentativa, só linha Spoiler) → revisão quantitativa (etapa 5a, só linha
 Spoiler, somente leitura, gate bloqueante) → revisão de linha/norma → verificação técnica →
-visuais → consolidação → **gate humano**. O pipeline não reescreve o rascunho do zero nem
+visuais → consolidação → estratégia de marketing (etapa 9a, parecer que só sugere, nunca
+edita o post) → **gate humano**. O pipeline não reescreve o rascunho do zero nem
 reordena a argumentação por conta própria — revisa, verifica, questiona e sugere; mudança
 estrutural vira pergunta ao autor, nunca edição silenciosa. Detalhes completos em
 `.claude/skills/post-substack/SKILL.md` e `docs/BACKWARDS_DESIGN.md`.

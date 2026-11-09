@@ -1,0 +1,71 @@
+# Clusters temáticos (topic clusters). Aprovado pelo autor em 2026-11-09.
+# Um post pertence a um cluster. O pilar é o texto mais amplo do tema: a referência
+# preferida quando o leitor precisa de base. Novo post entra no cluster ao ser publicado.
+# ids: post:<slug-do-repo> ou legado:<slug-do-substack> (ver legado.yaml).
+
+- id: renda-fixa-bancaria
+  nome: Renda fixa bancária (CDB, LCI, LCA, FGC)
+  pilar: post:2026-08-14-o-papel-do-cdb-na-transformacao-de-prazos
+  membros:
+    - post:2026-08-14-o-papel-do-cdb-na-transformacao-de-prazos
+    - post:2026-08-25-dividir-para-nao-correr-risco
+    - post:2026-09-18-o-agro-e-pop-o-agro-e-produto-financeiro
+
+- id: credito-privado
+  nome: Crédito privado e securitização (debênture, CRI, CRA, FIDC)
+  pilar: post:2026-10-15-renda-fixa-condicoes-variaveis
+  membros:
+    - post:2026-10-15-renda-fixa-condicoes-variaveis
+    - post:2026-09-28-o-certificado-nao-muda-o-devedor
+
+- id: matematica-financeira
+  nome: Matemática financeira (dias úteis, regimes, capitalização)
+  pilar: post:2026-11-02-a-barriga-da-curva
+  membros:
+    - post:2026-11-02-a-barriga-da-curva
+    - post:2026-10-30-du252-contagem-de-dias
+
+- id: renda-fixa-publica
+  nome: Títulos públicos (Tesouro Direto)
+  pilar: legado:titulos-do-tesouro-nacional
+  membros:
+    - legado:titulos-do-tesouro-nacional
+    - legado:tesouro-selic
+    - legado:tesouro-prefixado-o-guia-completo
+
+- id: modelos-e-risco-de-modelo
+  nome: Modelos e risco de modelo
+  pilar: post:2026-09-01-quando-os-modelos-se-rebelam
+  membros:
+    - post:2026-09-01-quando-os-modelos-se-rebelam
+
+- id: carreira
+  nome: Carreira no mercado financeiro (Spoiler)
+  pilar: post:2026-10-12-coqueiros-e-cacaueiros
+  membros:
+    - post:2026-10-12-coqueiros-e-cacaueiros
+    - post:2026-08-17-o-mundo-invertido-das-carreiras-em-financas
+    - post:2026-09-11-partes-dificeis-de-uma-carreira-em-financas
+    - post:2026-09-24-borboletas-caos-e-carreira
+    - post:2026-10-27-samurais-e-duelos
+
+# Investidor pessoa física: fase anterior da newsletter, fora do público atual
+# (profissional de mercado). Citável, mas o parecer só deve usar quando o leitor
+# do post novo precisar exatamente dessa base.
+- id: investimentos-pessoais
+  nome: Investimentos pessoais e alocação por objetivos
+  pilar: legado:comece-com-o-simples
+  membros:
+    - legado:comece-com-o-simples
+    - post:2026-08-10-o-mundo-invertido-dos-investimentos
+    - legado:o-simples-funciona
+    - legado:objetivos-and-classes
+    - legado:a-ciencia-da-separacao
+    - legado:goal-based-investing
+    - legado:o-portfolio-da-ivy-league
+    - legado:etf-o-que-e
+    - legado:eu-preciso-de-um-assessor-de-investimentos
+    - legado:reservas-de-emergencia
+    - legado:um-objetivo-para-comecar
+    - legado:escolhendo-as-batalhas
+    - legado:conectando-dinheiro-e-sonhos

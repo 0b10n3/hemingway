@@ -8,6 +8,8 @@ tags: [Notas de um Professor, Renda Fixa, Matemática Financeira, Python]
 status: aprovado
 nota_substack: "252 dias úteis por ano. 2026 tem 249."
 busca_organica: "DU/252 explicado: a convenção de dias úteis que todo profissional de renda fixa precisa dominar"
+url_publicada: https://syntaxis.substack.com/p/voce-esta-contando-os-dias-errado
+resumo: "DU/252: por que o juro brasileiro conta dias úteis, por que '12% ao ano' quase nunca rende 12% em um ano e como não errar o calendário no código."
 ---
 
 Uma LTN (Letra do Tesouro Nacional, o título público prefixado) comprada a, digamos, 12% ao ano, com liquidação no primeiro dia útil de 2026, vence em 1º de janeiro de 2027. Levada até lá, entrega 11,85% no período.
