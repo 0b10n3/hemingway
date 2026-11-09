@@ -1,5 +1,5 @@
 {
-  "etapa_atual": 8,
+  "etapa_atual": 9,
   "loops_consumidos": 0,
   "aprovacoes": [
     "Linha editorial: Notas de um Professor (confirmada pelo autor, etapa 0; rascunho sem front-matter)",
@@ -18,7 +18,6 @@
     "S1: mover o parágrafo do cartão para o fim de 'Rende todo dia', depois de 'Numa taxa efetiva, a frequência já foi paga' (autor)"
   ],
   "pendencias": [
-    "Etapa 9 (consolidação) ainda não rodou: aplicar as decisões acima sobre 04-draft-v2.md e emitir post.md",
     "Etapa 9a (marketing) e etapa 10 (gate) pendentes",
     "Gate: deck/subtítulo com a tese (M3); [VERIFICAR] Hull e ano do Maor; S4 linkar 'A Corda e o Arco'"
   ],

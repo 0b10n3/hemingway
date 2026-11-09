@@ -261,15 +261,15 @@ anotação), `color.neutral.slate` (as quatro linhas quebradas, eixos, rodapé),
 
 **Alt-text (para o placeholder `graf-01` em `post.md`):**
 
-> Gráfico de linhas com o montante de um capital de 1 a 100% ao ano, de zero a um ano. Quatro
+> Gráfico de linhas com o montante de um capital de 1 aplicado a 100% ao ano, ao longo de um ano. Quatro
 > linhas quebradas, feitas de 1, 2, 4 e 12 cordas, saem juntas de 1 e se separam a cada
 > capitalização, quando o juro vira saldo e a linha dobra para cima. No fim do ano, terminam em
-> 2, 2,25, 2,44 e 2,61. Por cima de todas, a curva contínua e elevado a t termina em 2,718. Cada
+> 2; 2,25; 2,44 e 2,61. Por cima de todas, a curva contínua e elevado a t termina em 2,718. Cada
 > linha quebrada fica abaixo da seguinte, e nenhuma passa da curva. Cálculo próprio.
 
 **Legenda:**
 
-> Capital de 1 a 100% ao ano, capitalizado 1, 2, 4 e 12 vezes. Dentro de cada subperíodo o juro
+> Capital de 1 aplicado a 100% ao ano, capitalizado 1, 2, 4 e 12 vezes. Dentro de cada subperíodo o juro
 > corre em linha reta; a cada capitalização ele vira saldo e a linha dobra. Quanto mais cordas,
 > mais perto da curva e<sup>t</sup>, que termina o ano em 2,718, sem nunca passar dela. Fonte:
 > cálculo próprio.
