@@ -4,6 +4,9 @@ subtítulo: Como o banco transforma depósito de curto prazo em crédito de long
 data: 2026-08-14
 tags: [Notas de um Professor, Renda Fixa, CDB, Educação Financeira]
 status: rascunho
+linha_editorial: Notas de um Professor
+url_publicada: https://syntaxis.substack.com/p/o-papel-do-cdb-na-transformacao-de
+resumo: "O CDB como instrumento de transformação de prazos do banco: por que ele existe, por que a remuneração se ancora no CDI e por que o Banco Central o regula de perto."
 ---
 
 # O Papel do CDB na Transformação de Prazos

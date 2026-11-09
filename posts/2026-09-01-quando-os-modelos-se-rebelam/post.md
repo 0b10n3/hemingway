@@ -5,6 +5,8 @@ data: 2026-09-01
 linha_editorial: Spoiler
 tags: [Modelagem Financeira, Risco, Derivativos, LTCM]
 status: rascunho
+url_publicada: https://syntaxis.substack.com/p/quando-os-modelos-se-rebelam
+resumo: "Em finanças só há modelos, não teorias: por que o descolamento entre modelo e realidade é esperado e o que os desastres de modelagem ensinam a quem modela."
 ---
 
 Vez ou outra compartilho aqui conteúdo de aulas do MIT OpenCourseWare. Eles mantêm uma quantidade enorme de aulas e cursos disponibilizados gratuitamente.

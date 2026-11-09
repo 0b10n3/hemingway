@@ -5,6 +5,8 @@ data: 2026-09-18
 linha_editorial: Notas de um Professor
 tags: [Notas de um Professor, Renda Fixa, LCA, Agronegócio]
 status: rascunho
+url_publicada: https://syntaxis.substack.com/p/o-agro-e-pop-o-agro-e-produto-financeiro
+resumo: "A LCA é dívida do banco lastreada em crédito ao agro, não empréstimo ao produtor: de onde vêm o rendimento, o custo de emissão e o valor de mercado do título."
 ---
 
 No texto sobre LCI, terminei sugerindo que, para entender a LCA, poderíamos trocar 'imobiliário' por 'agronegócio'. É um bom começo, mas não suficiente.

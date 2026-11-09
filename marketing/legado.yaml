@@ -1,0 +1,79 @@
+# Posts publicados no Substack antes do pipeline hemingway (não estão em posts/).
+# Extraído de https://syntaxis.substack.com/api/v1/archive em 2026-11-09. Mantido à mão.
+# resumo: subtítulo publicado pelo autor; vazio = revisar antes de citar. Cluster: ver clusters.yaml.
+
+- id: legado:conectando-dinheiro-e-sonhos
+  titulo: "Conectando dinheiro e sonhos"
+  data: 2024-09-06
+  url_publicada: https://syntaxis.substack.com/p/conectando-dinheiro-e-sonhos
+  resumo: "\"O que pode ser medido pode ser gerenciado.\""
+- id: legado:escolhendo-as-batalhas
+  titulo: "Escolhendo as Batalhas"
+  data: 2024-09-12
+  url_publicada: https://syntaxis.substack.com/p/escolhendo-as-batalhas
+  resumo: "Objetivos Financeiros que Importam"
+- id: legado:um-objetivo-para-comecar
+  titulo: "Um Objetivo para Começar"
+  data: 2024-09-20
+  url_publicada: https://syntaxis.substack.com/p/um-objetivo-para-comecar
+  resumo: "Se você ainda não começou"
+- id: legado:reservas-de-emergencia
+  titulo: "Reservas de Emergência"
+  data: 2024-09-30
+  url_publicada: https://syntaxis.substack.com/p/reservas-de-emergencia
+  resumo: "A Importância de uma Reserva de Emergência"
+- id: legado:comece-com-o-simples
+  titulo: "Comece com o Simples"
+  data: 2024-10-10
+  url_publicada: https://syntaxis.substack.com/p/comece-com-o-simples
+  resumo: "Os intrumentos certos, para seus objetivos."
+- id: legado:titulos-do-tesouro-nacional
+  titulo: "Títulos do Tesouro Nacional"
+  data: 2024-10-16
+  url_publicada: https://syntaxis.substack.com/p/titulos-do-tesouro-nacional
+  resumo: "O que você precisa saber"
+- id: legado:eu-preciso-de-um-assessor-de-investimentos
+  titulo: "Eu Preciso de um Assessor de Investimentos?"
+  data: 2024-10-20
+  url_publicada: https://syntaxis.substack.com/p/eu-preciso-de-um-assessor-de-investimentos
+  resumo: "Cinco aspectos que devem considerados"
+- id: legado:tesouro-prefixado-o-guia-completo
+  titulo: "Tesouro Prefixado: O Guia Completo para Investidores Iniciantes"
+  data: 2024-10-24
+  url_publicada: https://syntaxis.substack.com/p/tesouro-prefixado-o-guia-completo
+  resumo: "Alcançando objetivos bem especificados"
+- id: legado:tesouro-selic
+  titulo: "Tesouro Selic"
+  data: 2024-11-01
+  url_publicada: https://syntaxis.substack.com/p/tesouro-selic
+  resumo: "O Que Você Precisa Saber Antes de Investir"
+- id: legado:etf-o-que-e
+  titulo: "ETF: O que é?"
+  data: 2025-07-08
+  url_publicada: https://syntaxis.substack.com/p/etf-o-que-e
+  resumo: "Como Funciona e Como Analisar Além do Básico"
+- id: legado:o-simples-funciona
+  titulo: "O Simples Funciona"
+  data: 2026-01-06
+  url_publicada: https://syntaxis.substack.com/p/o-simples-funciona
+  resumo: "Mas não é para todo mundo"
+- id: legado:o-portfolio-da-ivy-league
+  titulo: "O Portfólio da Ivy League"
+  data: 2026-01-14
+  url_publicada: https://syntaxis.substack.com/p/o-portfolio-da-ivy-league
+  resumo: "Como funciona a gestão dos fundos da elite acadêmica"
+- id: legado:objetivos-and-classes
+  titulo: "Objetivos & Classes"
+  data: 2026-01-26
+  url_publicada: https://syntaxis.substack.com/p/objetivos-and-classes
+  resumo: "Por que organizar ativos é o coração do investimento"
+- id: legado:a-ciencia-da-separacao
+  titulo: "A Ciência da Separação"
+  data: 2026-02-08
+  url_publicada: https://syntaxis.substack.com/p/a-ciencia-da-separacao
+  resumo: "O que define, afinal, uma Classe de Ativos ?"
+- id: legado:goal-based-investing
+  titulo: "Goal Based Investing"
+  data: 2026-03-02
+  url_publicada: https://syntaxis.substack.com/p/goal-based-investing
+  resumo: "Conectando seus investimentos e objetivos"

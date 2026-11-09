@@ -4,6 +4,9 @@ subtítulo: Não é favor, é 'spread' — e o risco que sobra nunca desaparece,
 data: 2026-08-25
 tags: [Renda Fixa, LCI, Educação Financeira, Banco Master]
 status: rascunho
+linha_editorial: Notas de um Professor
+url_publicada: https://syntaxis.substack.com/p/dividir-para-nao-correr-risco
+resumo: "A LCI é dívida do banco lastreada em crédito imobiliário, não securitização nem covered bond: de quem é o risco e por que a isenção não é favor, é spread."
 ---
 
 ## O que uma LCI realmente faz

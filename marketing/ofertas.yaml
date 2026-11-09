@@ -1,0 +1,105 @@
+# Ofertas e chamadas que o parecer de marketing pode citar. Mantido à mão pelo autor.
+# Semeado de ../../strategy/PRICE_TAG.md e FUNIL.md §2–§5 em 2026-11-09.
+# Preço não mora aqui: a fonte é PRICE_TAG.md.
+#
+# situacao: disponível | em produção | congelado
+#   Só "disponível" recebe CTA. Para "em produção" e "congelado", no máximo menção
+#   editorial sem link de venda, e só a pedido do autor.
+# tipo nativo = botão ou gesto do próprio Substack (sem URL). Os demais precisam de url.
+
+- id: substack:inscrever
+  nome: Botão de inscrição do Substack
+  tipo: nativo
+  url: null
+  situacao: disponível
+  estagio: topo gratuito
+  segmento: ["#GENZ-FEAR", "#GENZ-GREED"]
+
+- id: substack:compartilhar
+  nome: Botão de compartilhar do Substack
+  tipo: nativo
+  url: null
+  situacao: disponível
+  estagio: topo gratuito
+  segmento: ["#GENZ-FEAR", "#GENZ-GREED"]
+
+# Atenção: nem todo post aceita comentário de leitor gratuito (ver o ajuste do post no Substack).
+- id: substack:comentar
+  nome: Botão de comentar do Substack
+  tipo: nativo
+  url: null
+  situacao: disponível
+  estagio: topo gratuito
+  segmento: ["#GENZ-FEAR", "#GENZ-GREED"]
+
+- id: substack:responder-email
+  nome: Convite para responder ao e-mail da newsletter
+  tipo: nativo
+  url: null
+  situacao: disponível
+  estagio: topo gratuito
+  segmento: ["#GENZ-FEAR", "#GENZ-GREED"]
+
+- id: oferta:skill-check
+  nome: Syntaxis Skill Check
+  tipo: captura
+  url: https://skill-test-mocha.vercel.app/
+  situacao: disponível
+  estagio: topo gratuito
+  segmento: ["#GENZ-FEAR", "#GENZ-GREED"]
+
+- id: oferta:isca-dias-uteis
+  nome: Isca SKILL.md de dias úteis e capitalização
+  tipo: isca
+  url: null
+  situacao: em produção
+  estagio: isca paga
+  segmento: ["#GENZ-FEAR", "#GENZ-GREED"]
+
+- id: oferta:fvdt
+  nome: Fundamentos do Valor do Dinheiro no Tempo (FVDT)
+  tipo: curso
+  url: null
+  situacao: em produção
+  estagio: produto de entrada
+  segmento: ["#GENZ-FEAR", "#GENZ-GREED"]
+
+- id: oferta:ia-financas
+  nome: IA para Profissionais de Finanças
+  tipo: curso
+  url: null
+  situacao: congelado   # começa depois de o FVDT vender
+  estagio: 2º curso
+  segmento: []
+
+- id: oferta:pacote-basico
+  nome: Pacote de cursos básicos (FVDT + IA)
+  tipo: curso
+  url: null
+  situacao: congelado   # à venda depois que o 2º curso existir
+  estagio: combo
+  segmento: []
+
+- id: oferta:renda-fixa-profissionais
+  nome: Renda Fixa para Profissionais do Mercado Financeiro
+  tipo: curso
+  url: null
+  situacao: congelado   # futuro, sem data
+  estagio: avançado
+  segmento: ["#Millennials-FEAR", "#Millennials-GREED"]
+
+- id: oferta:databricks
+  nome: Databricks para Profissionais de Finanças
+  tipo: curso
+  url: null
+  situacao: congelado
+  estagio: null
+  segmento: []
+
+- id: oferta:mentoria
+  nome: Mentoria Syntaxis
+  tipo: mentoria
+  url: null
+  situacao: congelado
+  estagio: backend
+  segmento: ["#Millennials-FEAR", "#Millennials-GREED"]

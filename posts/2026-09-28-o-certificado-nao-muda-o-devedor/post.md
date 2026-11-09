@@ -7,6 +7,8 @@ linha_editorial: Notas de um Professor
 tags: [Notas de um Professor, Renda Fixa, CRI, CRA, Securitização]
 status: aprovado
 kicker: "Quem Deve Pra Você?"
+url_publicada: https://syntaxis.substack.com/p/a-anatomia-e-o-verdadeiro-risco-do
+resumo: "CRA e CRI tiram a securitizadora do caminho, mas não o devedor: a análise começa pelo risco de crédito de quem deve o lastro, como mostrou o caso Raízen."
 ---
 
 No texto sobre a LCA (Letra de Crédito do Agronegócio), prometi que o próximo seria sobre o CRA (Certificado de Recebíveis do Agronegócio), "outro título do agro, mas de risco completamente diferente". Promessa é dívida. E, neste texto, a palavra 'dívida' vai aparecer bastante.

@@ -4,6 +4,9 @@ subtítulo: Não foi a complexidade do modelo que me atrasou. Foi ter aprendido 
 data: 2026-08-17
 tags: [carreira, educação financeira, formação, mercado financeiro]
 status: revisado
+linha_editorial: Spoiler
+url_publicada: https://syntaxis.substack.com/p/o-mundo-invertido-das-carreiras-em
+resumo: "Aprender finanças fora de ordem: quem começa a carreira pela ponta mais complexa e precisa voltar ao alicerce, como o valor do dinheiro no tempo."
 ---
 
 ## A conta batia. O produto, não.

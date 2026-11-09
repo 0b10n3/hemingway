@@ -6,6 +6,8 @@ data: 2026-11-02
 linha_editorial: Notas de um Professor
 tags: [Notas de um Professor, Renda Fixa, Matemática Financeira]
 status: aprovado
+url_publicada: https://syntaxis.substack.com/p/a-corda-e-o-arco
+resumo: "Juro simples, composto e contínuo: por que o simples ganha do composto antes do primeiro período e por que capitalização é cláusula de contrato, não lei da natureza."
 ---
 
 No último texto conversamos sobre como um ano pode ter mais, ou menos, dias úteis do que os 252 de um ano convencional. 2026 tem 249 dias úteis.

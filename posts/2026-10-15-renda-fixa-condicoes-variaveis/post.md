@@ -7,6 +7,8 @@ linha_editorial: Notas de um Professor
 tags: [Notas de um Professor, Renda Fixa, Debêntures, Crédito Privado]
 status: aprovado
 titulo_alternativo: "O Contrato Muda por Maioria"
+url_publicada: https://syntaxis.substack.com/p/renda-fixa-condicoes-variaveis
+resumo: "Na debênture não há FGC nem patrimônio separado: entre o investidor e a empresa há só a escritura, um contrato que a maioria dos credores pode reescrever."
 ---
 
 Em 7 de outubro, um grupo de investidores viu as condições das debêntures que tinha comprado serem reescritas por outros credores.

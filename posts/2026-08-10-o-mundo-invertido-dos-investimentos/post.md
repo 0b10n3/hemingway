@@ -4,6 +4,8 @@ subtítulo: Por que tanta gente compra o primeiro par de tênis já achando que 
 data: 2026-08-10
 tags: [investimentos, educação financeira, iniciantes, risco]
 status: revisado
+url_publicada: https://syntaxis.substack.com/p/o-mundo-invertido-dos-investimentos
+resumo: "Por que tanto investidor iniciante começa pelos produtos mais arriscados e complexos, e por que a ordem certa é começar pelo simples."
 ---
 
 ## Bem-vindo ao mundo invertido

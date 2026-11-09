@@ -5,6 +5,8 @@ data: 2026-09-24
 linha_editorial: Spoiler
 tags: [Carreira, Teoria do Caos, Mercado Financeiro, Inteligência Artificial]
 status: aprovado
+url_publicada: https://syntaxis.substack.com/p/borboletas-caos-e-carreira
+resumo: "Teoria do caos aplicada à carreira: ninguém prevê a trajetória, mas dá para escolher as regras e os difíceis que você carrega todo dia."
 ---
 
 Num dia de inverno de 1961, um meteorologista do MIT resolveu economizar tempo.
