@@ -1,0 +1,40 @@
+{
+  "etapa_atual": 10,
+  "loops_consumidos": 0,
+  "aprovacoes": [
+    "Linha editorial: Notas de um Professor (confirmada pelo autor, etapa 0)",
+    "Título: Renda Fixa, Condições Variáveis (autor, etapa 0)",
+    "Ponte de série: corrigir para refletir que o CRA prometeu a debênture (autor, etapa 0)",
+    "Abertura: 'Na quarta-feira, 7 de outubro' → 'Em 7 de outubro' (autor, etapa 0)",
+    "MP: cortar 'O juiz homologou' (autor, pós-etapa 3)",
+    "Chilli Beans: corrigir estrutura e ligar à nota comercial (autor, pós-etapa 3)",
+    "Escritura × lei: precisar 'O voto' e a frase de laço (autor, pós-etapa 3)",
+    "Tensão — bibliografia: RESOLVIDA, enxugar para 4 com Eizirik (autor, pós-etapa 3)",
+    "Crítica C-01: manter ordem (autor)",
+    "Crítica C-02/03/04: Chilli Beans enxuto em Gatilhos, sem ligação no fechamento (autor)",
+    "Crítica C-06/07/08: cortar os três trechos (autor)",
+    "Crítica C-05: ajuste mínimo espécie/RJ×RE (autor)",
+    "Etapa 6: aplicar todas as correções de norma/regra + só as 8 sugestões ★ (autor)",
+    "Lâmina: glosar na 1ª ocorrência (autor)",
+    "Etapa 7: K-01 versão recomendada, data + retificação do MP (autor)",
+    "Etapa 7: K-05 e K-07 opcionais aplicados (autor, junto com as ★)",
+    "Etapa 7: K-06 — cortar a oração do coordenador da 20ª emissão (autor)",
+    "Tensão — ponte de série: RESOLVIDA, leitura confirmada (CRA prometeu a debênture; FIDC anunciado como próximo) (autor, gate)",
+    "Gate: acabamentos 'meta da Selic' e glosa da flutuante aplicados (autor)",
+    "Gate: [VERIFICAR] da bibliografia ficam; autor confere antes de colar",
+    "Gate humano (etapa 10): APROVADO pelo autor em 2026-10-26. Publicação e merge são ações do autor."
+  ],
+  "pendencias": [
+    "Fontes da marca não instaladas: PNGs com fontes de fallback; SVG declara a pilha completa",
+    "Rodapé do diag-01 cita Leis 11.076/2004 e 14.430/2022, verificadas no post do CRA, não neste",
+    "[VERIFICAR] Varanda Neto et al.: capítulos 8 e 19",
+    "[VERIFICAR] Eizirik: edição vigente e paginação"
+  ],
+  "commit_inicial": "08aa3d0",
+  "slug": "2026-10-15-renda-fixa-condicoes-variaveis",
+  "linha_editorial": "Notas de um Professor",
+  "titulo": "Renda Fixa, Condições Variáveis",
+  "ponto_retorno": 9,
+  "motivo_retorno": "Gate humano (etapa 10): autor pediu 'Ajustar'; acabamentos aplicados na etapa 9 (não consome loop); demais ajustes a definir. Encerrado com aprovação em 2026-10-26, sem ajustes adicionais.",
+  "status": "aprovado"
+}
