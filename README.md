@@ -29,7 +29,8 @@ não pode fazer), veja `CLAUDE.md`. Para o histórico de como o sistema foi cons
   `claude --version`; o sistema usa campos de frontmatter recentes de skills/subagentes).
 - `git` e `git-lfs` instalados (`git lfs install` já deve ter rodado neste repo — confira com
   `git lfs env` se um `git add` de PDF ou áudio reclamar de filtro).
-- `python3` (stdlib apenas — `estilo/scripts/metricas.py` não usa nenhum pacote externo).
+- `python3` (`estilo/scripts/metricas.py` usa só a stdlib; `scripts/` usa `PyYAML` e
+  `jsonschema`: `pip install pyyaml jsonschema` se faltar).
 - `pdftotext` (do pacote `poppler-utils`) se você for processar PDFs como amostra de voz.
 - Acesso de push ao remoto configurado em `git remote -v` (`origin`).
 
@@ -117,7 +118,8 @@ conforme eles aparecem.
 | 7 | Verificação técnica | Um subagente recalcula fórmulas e confere fontes; o que não fecha vira `[VERIFICAR: ...]`. **Linha Spoiler:** confere nome/data/caso citado. **Linha Notas:** confere os dois lados do balcão, aderência dos exemplos ao Brasil, e a regra de referências (3-4, ≥2 livros) |
 | 8 | Visuais | Gera `graficos.md`/`diagramas.md` (specs + código Plotly); `infograficos.md` só no caso condicional |
 | 9 | Consolidação | Junta tudo, confere coerência entre as etapas (inclusive o gate da sua linha editorial), emite os entregáveis finais |
-| 10 | **Você decide** | O pipeline para e mostra o post pronto |
+| 9a | Estratégia de marketing | Um subagente (`estrategista-marketing`) dá um parecer em `marketing.md`: alinhamento ao funil, onde entram CTAs e quais posts linkar (só do catálogo). Não mexe no texto; um script valida o parecer antes de você ver |
+| 10 | **Você decide** | O pipeline para e mostra o post pronto e o parecer de marketing |
 
 ### Duas linhas editoriais
 
@@ -143,6 +145,18 @@ Na etapa 10 você vê o post final, o que mudou desde o rascunho, e qualquer pen
   sem gastar loop). Você tem 3 rodadas de ajuste por padrão antes do sistema parar e te
   entregar o estado atual para decisão manual.
 - **Abortar** → a branch fica salva (nada é apagado), você decide depois o que fazer com ela.
+
+**O parecer de marketing** (`posts/<slug>/marketing.md`) vem com IDs: `A` (alinhamento),
+`C` (CTA), `R` (link interno), `B` (backlink), `X` (risco). Responda por ID, por exemplo
+`aceito C1, R2; recuso C2; R1 com o texto "…"`. O pipeline aplica só os CTAs e links aceitos,
+exatamente no ponto indicado, e mostra o diff. Botões nativos do Substack (inscrever,
+compartilhar, comentar) e backlinks em posts antigos saem como lista para você fazer à mão
+no editor. Aplicar itens do parecer conta como uma das 3 rodadas de ajuste.
+
+**Depois de publicar**, preencha `url_publicada` (a URL do Substack) e `resumo` no
+frontmatter de `post.md` e rode `python3 scripts/gerar_catalogo.py`. Sem URL, o post não
+entra no catálogo de links. Ofertas novas ou mudança de situação (FVDT pronto, por exemplo)
+vão em `marketing/ofertas.yaml`; o cluster de cada post, em `marketing/clusters.yaml`.
 
 ### 4. Copie para a Substack
 
@@ -222,7 +236,13 @@ posts/<slug>/       um post publicado ou em andamento
   ├─ infograficos.md      só quando nenhuma peça isolada carrega a síntese (condicional)
   ├─ graficos/dados/      CSVs dos gráficos
   ├─ figuras/             SVG/PNG gerados
+  ├─ marketing.md         parecer de marketing da etapa 9a (gerado de marketing.json)
   └─ processo/             rascunho de cada etapa do pipeline
+
+marketing/          o que um post pode citar: ofertas.yaml, legado.yaml, clusters.yaml
+  └─ catalogo.json         gerado por scripts/gerar_catalogo.py — não edite à mão
+scripts/            gerar_catalogo.py, parecer.py (validar/aplicar parecer), test_parecer.py
+evals/marketing/    avaliação do estrategista de marketing
 
 .claude/
   ├─ skills/            o que você invoca com /nome

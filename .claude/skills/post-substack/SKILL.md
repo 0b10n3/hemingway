@@ -44,7 +44,7 @@ cortar (ver `pesquisa/frente-c-editoracao.md`).
 | # | Etapa | Executor | Saída em `posts/<slug>/processo/` |
 |---|---|---|---|
 | 0 | Leitura do rascunho | principal | `00-leitura.md` — cópia de trabalho do draft (a original fica intocada em `_arquivo/`) **e** inventário de marcadores, se houver (ver "Etapa 0" abaixo) |
-| 1 | Briefing | principal + `voz-syntaxis` + `marca-syntaxis` | `01-briefing.md` — tese em uma frase; gancho escolhido (cena, dado ou pergunta que abre o texto — não é a mesma coisa que a tese); analogias usadas no áudio (preservar, são do autor); encaixe no funil (`../../strategy/FUNIL.md`); qual voz (§4 do guia — ensaística ou explicativa); **qual linha editorial** (ver abaixo); resolução de todo marcador **estrutural** e **nota de conteúdo** do inventário da etapa 0 (ver "Etapa 0" abaixo) |
+| 1 | Briefing | principal + `voz-syntaxis` + `marca-syntaxis` | `01-briefing.md` — tese em uma frase; gancho escolhido (cena, dado ou pergunta que abre o texto — não é a mesma coisa que a tese); analogias usadas no áudio (preservar, são do autor); **briefing de funil** em três linhas (segmento, estágio, objetivo do post), lendo só `../../strategy/FUNIL.md` §1 e §5, sem carregar a estratégia inteira (quem lê o resto é o subagente da etapa 9a); qual voz (§4 do guia — ensaística ou explicativa); **qual linha editorial** (ver abaixo); resolução de todo marcador **estrutural** e **nota de conteúdo** do inventário da etapa 0 (ver "Etapa 0" abaixo) |
 | 2 | Estrutura | principal | `02-estrutura.md` — subtítulos; o que cada seção prova; em qual ato do arco cada seção entra (setup/conflito/resolução, ou a versão completa — ver `.claude/agents/references/tecnicas-narrativas.md`); confirmação de que dado, narrativa e visual (os três pilares) estão cada um representados em pelo menos uma seção; onde entra `graf-NN`/`diag-NN`/`info-NN` e por quê, pelo critério da seção "Etapa 2" abaixo; o que fica de fora |
 | 3 | Pesquisa | agente `pesquisador-editorial` | `03-pesquisa.md` com fontes — tratamento do tema, dados, contrapontos |
 | 4 | Draft | principal, com `voz-syntaxis` | `04-draft-v1.md` — toda **instrução de escrita** do inventário da etapa 0 aparece atendida, com nota lateral de como (ver "Etapa 0" abaixo) |
@@ -54,7 +54,8 @@ cortar (ver `pesquisa/frente-c-editoracao.md`).
 | 7 | Verificação técnica | agente `verificador-tecnico` | `07-verificacao.md` — veredito por item, fórmulas recalculadas |
 | 8 | Visuais | agente `prompts-visuais` | rascunho consolidado em `graficos.md`, `diagramas.md` e, condicional, `infograficos.md` |
 | 9 | Consolidação | agente `revisao-editorial` | aplica 5+6+7, emite os entregáveis finais (ver "Os entregáveis" abaixo) |
-| 10 | **Gate humano** | principal | apresenta o post, o que mudou, pendências `[VERIFICAR]`; **para e espera** |
+| 9a | Estratégia de marketing | agente `estrategista-marketing` + `scripts/parecer.py` | `marketing.json` e `marketing.md` na raiz de `posts/<slug>/` — parecer com IDs, só sugere, não toca em `post.md` (ver "Etapa 9a" abaixo) |
+| 10 | **Gate humano** | principal | apresenta o post, o que mudou, pendências `[VERIFICAR]` e o parecer de marketing; **para e espera** |
 
 Cada etapa: grava seu arquivo em `processo/`, atualiza `estado.json.etapa_atual`, **commita**
 (`feat(<slug>): <nome da etapa>`). Etapas com subagente: push depois do commit (trabalho caro,
@@ -183,9 +184,38 @@ nesta ordem — e registre em `02-estrutura.md` por que os outros três perderam
    `prompts-visuais`) — o ponto fica em prosa, sem peça visual, até existir o projeto
    dedicado a isso.
 
+## Etapa 9a — estratégia de marketing
+
+Roda depois da 9 porque só ali o `post.md` fica estável: as âncoras dos CTAs e dos links são
+copiadas dele e não podem mudar depois. O subagente lê a estratégia (`../../strategy/`) no
+contexto dele; a conversa principal recebe só o resumo e o `marketing.md`.
+
+1. `python3 scripts/gerar_catalogo.py` (atualiza `marketing/catalogo.json`).
+2. Dispare `estrategista-marketing` com o slug e o caminho de `01-briefing.md`. Ele escreve só
+   `posts/<slug>/marketing.json` (um hook bloqueia qualquer outra escrita).
+3. `python3 scripts/parecer.py validar <slug>`: confere o JSON contra o esquema, o post e o
+   catálogo, e escreve `marketing.md`. Se reprovar, mande os erros ao mesmo subagente e peça
+   uma nova versão **uma vez**. Se reprovar de novo, siga: o `marketing.md` sai marcado
+   "PARECER INVÁLIDO" com os erros visíveis. A etapa nunca trava o post.
+4. Commit `feat(<slug>): etapa 9a — parecer de marketing`.
+
 ## Etapa 10 — gate humano
 
 Use `AskUserQuestion` com três saídas: **aprovar**, **ajustar**, **abortar**.
+
+**Parecer de marketing.** Antes da pergunta, mostre `marketing.md`. O autor responde por ID
+(`aceito C1, R2; recuso C2; R1 com o texto "…"`). Aplique só o que ele aceitou:
+
+- `python3 scripts/parecer.py aplicar <slug> C1 R2 'R1=…'` insere os CTAs em texto e os links
+  aceitos exatamente na âncora e não mexe em mais nada. Mostre `git diff posts/<slug>/post.md`.
+- O script imprime a **lista de inserção manual** (botões nativos com o número do parágrafo) e
+  os backlinks aceitos, que viram tarefas do autor no Substack. Itens `A`/`X` aceitos pedem
+  redação: aplique na etapa 4 (principal + `voz-syntaxis`), só no trecho citado.
+- Cada rodada que aplica itens do parecer consome **um loop** (conta para
+  `MAX_LOOPS_REVISAO`), mesmo sendo reentrada depois da etapa 4. Registre em `estado.json` os
+  IDs aceitos e recusados.
+- Se `../uther-pendragon/` existir, não o edite: só diga no resumo final que as tarefas de
+  backlink podem ir para o ClickUp.
 
 - Aprovar → apresente `post.md` (e `graficos.md`/`diagramas.md`/`infograficos.md` quando
   existirem) prontos para o autor copiar manualmente para a Substack — não há automação de
@@ -195,7 +225,8 @@ Use `AskUserQuestion` com três saídas: **aprovar**, **ajustar**, **abortar**.
   deste pipeline.
 - Ajustar → pergunte o que mudar, reentre no **ponto mais raso que resolve o pedido**:
   - reentrada na etapa 4 ou anterior → **consome um loop** (o texto está sendo refeito);
-  - reentrada nas etapas 5-9 → **não consome** (é acabamento, é para isso que o gate serve).
+  - reentrada nas etapas 5-9 → **não consome** (é acabamento, é para isso que o gate serve),
+    exceto a aplicação do parecer de marketing, que consome (ver acima).
   Registre a reentrada em `estado.json` (`ponto_retorno`, `motivo`, incrementa
   `loops_consumidos` só se aplicável).
 - Esgotado `MAX_LOOPS_REVISAO` (3 por padrão): entregue o estado atual com um resumo honesto
@@ -217,7 +248,8 @@ uma vira uma pergunta separada; não resuma várias em uma só.
 
 **`post.md`** — texto revisado, frontmatter (título, subtítulo, data, `linha_editorial`, tags,
 status), placeholders `![Gráfico: ...](graf-NN)` / `![Diagrama: ...](diag-NN)` /
-`![Infográfico: ...](info-NN)` com alt-text descritivo. **`graficos.md`** e **`diagramas.md`**
+`![Infográfico: ...](info-NN)` com alt-text descritivo. **`marketing.json`/`marketing.md`**
+— parecer da etapa 9a (o JSON é a fonte; o `.md` é gerado). **`graficos.md`** e **`diagramas.md`**
 — presentes quando o post tiver a peça correspondente. **`infograficos.md`** — só quando o
 critério de gatilho do infográfico se aplicar (padrão: não existe). Ver skill
 `prompts-visuais` para o formato exato de cada um. Capa e ilustração saíram deste pipeline

@@ -1,0 +1,111 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Parecer de marketing de um post (posts/<slug>/marketing.json)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["post", "diagnostico", "alinhamento", "ctas", "referencias", "backlinks_sugeridos", "riscos"],
+  "$defs": {
+    "trecho": {"type": "string", "minLength": 3, "description": "Cópia literal do post, sem reticências nem paráfrase."},
+    "texto": {"type": "string", "minLength": 1}
+  },
+  "properties": {
+    "post": {"type": "string", "description": "slug da pasta em posts/"},
+    "diagnostico": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["linha_editorial", "voz", "segmento", "eixo", "estagio", "cluster", "justificativas"],
+      "properties": {
+        "linha_editorial": {"enum": ["Spoiler", "Notas de um Professor"]},
+        "voz": {"enum": ["ensaística", "explicativa"]},
+        "segmento": {"enum": ["#GENZ-FEAR", "#GENZ-GREED", "#Millennials-FEAR", "#Millennials-GREED"]},
+        "eixo": {"enum": ["FEAR", "GREED"]},
+        "estagio": {"enum": ["topo gratuito", "isca paga", "produto de entrada", "2º curso", "avançado", "mentoria"]},
+        "cluster": {"type": ["string", "null"], "description": "id de marketing/clusters.yaml, ou null se nenhum serve"},
+        "justificativas": {
+          "type": "array", "minItems": 1,
+          "items": {
+            "type": "object", "additionalProperties": false, "required": ["escolha", "trecho"],
+            "properties": {"escolha": {"$ref": "#/$defs/texto"}, "trecho": {"$ref": "#/$defs/trecho"}}
+          }
+        }
+      }
+    },
+    "alinhamento": {
+      "type": "array",
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["id", "criterio", "veredito", "evidencia"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^A[0-9]+$"},
+          "criterio": {"enum": ["segmento-e-estagio", "eixo-puro", "dado-com-fonte", "objecao-mestra", "anti-padroes", "gancho-na-abertura", "promessa-guia", "conformidade", "preco"]},
+          "veredito": {"enum": ["passa", "não passa", "não se aplica"]},
+          "evidencia": {"$ref": "#/$defs/texto"},
+          "trecho": {"$ref": "#/$defs/trecho"},
+          "o_que_mudaria": {"$ref": "#/$defs/texto"}
+        },
+        "if": {"properties": {"veredito": {"const": "não passa"}}},
+        "then": {"required": ["trecho", "o_que_mudaria"]}
+      }
+    },
+    "ctas": {
+      "type": "array",
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["id", "papel", "tipo", "formato", "ancora", "destino_id", "motivo"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^C[0-9]+$"},
+          "papel": {"enum": ["inscricao", "principal", "secundario"]},
+          "tipo": {"enum": ["inscricao", "skill_check", "link_post", "compartilhar", "comentar", "responder_email"]},
+          "formato": {"enum": ["botao_nativo", "texto"]},
+          "ancora": {"$ref": "#/$defs/trecho", "description": "O CTA entra depois do parágrafo que contém este trecho."},
+          "texto_sugerido": {"$ref": "#/$defs/texto"},
+          "texto_link": {"$ref": "#/$defs/texto", "description": "Trecho de texto_sugerido que vira link; obrigatório quando o destino tem URL."},
+          "destino_id": {"type": "string"},
+          "motivo": {"$ref": "#/$defs/texto"}
+        },
+        "if": {"properties": {"formato": {"const": "texto"}}},
+        "then": {"required": ["texto_sugerido"]}
+      }
+    },
+    "referencias": {
+      "type": "array",
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["id", "ancora", "texto_link", "destino_id", "pergunta_do_leitor"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^R[0-9]+$"},
+          "ancora": {"$ref": "#/$defs/trecho"},
+          "texto_link": {"$ref": "#/$defs/texto", "description": "Trecho de ancora que vira link; ou trecho de frase_nova."},
+          "frase_nova": {"$ref": "#/$defs/texto", "description": "Só se nenhum trecho da âncora servir de texto de link. Entra logo depois da âncora."},
+          "destino_id": {"type": "string"},
+          "pergunta_do_leitor": {"$ref": "#/$defs/texto"}
+        }
+      }
+    },
+    "backlinks_sugeridos": {
+      "type": "array",
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["id", "origem_id", "ancora_na_origem", "texto_link", "motivo"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^B[0-9]+$"},
+          "origem_id": {"type": "string", "description": "post antigo do catálogo que deve passar a apontar para este"},
+          "ancora_na_origem": {"type": ["string", "null"], "description": "trecho literal do post antigo (null para legado:, que não está no repo)"},
+          "texto_link": {"$ref": "#/$defs/texto"},
+          "motivo": {"$ref": "#/$defs/texto"}
+        }
+      }
+    },
+    "riscos": {
+      "type": "array",
+      "items": {
+        "type": "object", "additionalProperties": false, "required": ["id", "descricao"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^X[0-9]+$"},
+          "descricao": {"$ref": "#/$defs/texto"},
+          "trecho": {"$ref": "#/$defs/trecho"}
+        }
+      }
+    }
+  }
+}
