@@ -191,7 +191,7 @@ fig.add_annotation(x=0.5, y=1.5, ax=60, ay=60, showarrow=True, arrowhead=0, arro
 
 fig.add_annotation(xref="paper", yref="paper", x=-0.08, y=0, yshift=-58, xanchor="left",
                    yanchor="top", showarrow=False, align="left",
-                   text="Fonte: cálculo próprio. Capital 1 a 100% ao ano, capitalizado m vezes. "
+                   text="Fonte: cálculo próprio. Capital de 1 aplicado a 100% ao ano, capitalizado m vezes. "
                         "Dentro de cada subperíodo o juro corre linear<br>(a corda); em cada nó "
                         "k/m ele vira saldo. Valores no fim do ano: (1 + 1/m)<sup>m</sup>; "
                         "contínuo: e<sup>t</sup>.",

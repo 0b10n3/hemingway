@@ -1,15 +1,15 @@
 ---
 titulo: Frequência de Capitalização
-subtitulo: O limite matemático que explica o composto e o contínuo
+subtitulo: A frequência muda a etiqueta, não o motor
 slug: 2026-11-09-frequencia-de-capitalizacao
 data: 2026-11-09
 linha_editorial: Notas de um Professor
 tags: [Notas de um Professor, Renda Fixa, Matemática Financeira]
-status: em-revisao
+status: aprovado
 resumo: "Taxa nominal, efetiva e contínua: por que a capitalização contínua é o limite do composto, e não um regime rival, e por que errar a etiqueta da taxa pesa mais que a frequência."
 ---
 
-No fim do último texto, deixei uma conta para você. Por que 12% ao ano capitalizados mensalmente viram 12,68% efetivos? E qual dos dois números você de fato paga?
+No fim de "A Corda e o Arco", o último texto, deixei uma conta para você. Por que 12% ao ano capitalizados mensalmente viram 12,68% efetivos? E qual dos dois números você de fato paga?
 
 A resposta cabe em poucas linhas. 'Capitalizados mensalmente' quer dizer que o contrato divide os 12% por doze, dá 1% ao mês, e compõe esse 1% doze vezes. Cada real vira 1,01 elevado a 12, ou 1,1268.
 
@@ -141,7 +141,7 @@ Ela só acrescenta quando o número cotado é nominal. Quem lê os 14% como nomi
 
 Numa taxa efetiva, a frequência já foi paga.
 
-Tudo isso vale a 14%. A distância até o teto cresce mais rápido que o quadrado da taxa, e há taxas no Brasil em que ela não some. Segundo o Banco Central, o rotativo do cartão de crédito custou 451,7% ao ano em setembro de 2026, o equivalente a cerca de 15,3% ao mês. Se a mesma taxa nominal, 12 × 15,3%, ou 183,5% ao ano, fosse capitalizada todo dia, nos 365 dias do ano, em vez de todo mês, o ano sairia por 523,9%. No contínuo, por 526,7%. A taxas assim, até o último degrau da escada vale quase três pontos percentuais.
+Os degraus da escada encolhem assim a 14%. A distância até o teto cresce mais rápido que o quadrado da taxa, e há taxas no Brasil em que ela não some. Segundo o Banco Central, o rotativo do cartão de crédito custou 451,7% ao ano em setembro de 2026, o equivalente a cerca de 15,3% ao mês. Se a mesma taxa nominal, 12 × 15,29%, ou 183,5% ao ano, fosse capitalizada todo dia, nos 365 dias do ano, em vez de todo mês, o ano sairia por 523,9%. No contínuo, por 526,7%. A taxas assim, até o último degrau da escada vale quase três pontos percentuais.
 
 ## Por que a mesa de opções fala contínuo
 
@@ -163,7 +163,7 @@ Troca porque o modelo é escrito em tempo contínuo, e nele a etiqueta contínua
 2. O cálculo diferencial trabalha. O modelo descreve o preço do ativo mudando instante a instante, e o preço da opção sai de uma equação diferencial. O desconto que se encaixa nela é e elevado a (−r × T): a equação dM/dt = r × M, lida de trás para a frente.
 3. A volatilidade (a medida de quanto o preço oscila) já fala essa língua. No modelo, ela é o desvio-padrão dos retornos logarítmicos (cada um, o logaritmo da razão entre dois preços seguidos, que é o retorno em taxa contínua). Quando o manual estima a volatilidade de ativos pouco negociados a partir do histórico, é com esses retornos que trabalha.
 
-John Hull escreveu um dos manuais de derivativos (contratos cujo valor depende de outro ativo, como as opções) mais usados no mercado. No capítulo de taxas de juros, ele registra que as taxas contínuas são amplamente usadas na análise desses contratos [VERIFICAR: formulação do Hull, 11ª ed., cap. 4; a pesquisa não achou a frase em fonte verificável]. A escolha é de conveniência, não de precisão.
+John Hull escreveu um dos manuais de derivativos (contratos cujo valor depende de outro ativo, como as opções) mais usados no mercado. No capítulo de taxas de juros, ele trabalha em taxa contínua e mostra a conversão entre as etiquetas. A escolha é de conveniência, não de precisão.
 
 ### Onde mora o erro
 
@@ -212,6 +212,8 @@ Para comparar dois CDBs, meio ponto-base some. Para replicar um preço, não: a 
 ```
 PU da LTN:   =TRUNCAR(1000/(1+i)^TRUNCAR(du/252;14);6)
 ```
+
+Matemática financeira é uma das dimensões do [Syntaxis Skill Check](https://skill.syntaxis.com.br/). É um diagnóstico gratuito, que compara o seu perfil com o que o mercado espera para o próximo degrau da carreira.
 
 ## Fechamento: o topo da escada
 
