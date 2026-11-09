@@ -11,9 +11,17 @@
     "Crítica M5: ligar a hipótese à tese (autor, pós-etapa 5)",
     "Crítica M8/B6: manter a LTN e ligá-la à regra de precisão; Súmula 541 não entra (autor, pós-etapa 5)",
     "Crítica M6: acrescentar o contraexemplo do rotativo do cartão (autor, pós-etapa 5)",
-    "Crítica M1, M2, M4, M7 aplicados no draft v2; baixos B1/B4 por redação; M3 vai ao gate (autor, pós-etapa 5)"
+    "Crítica M1, M2, M4, M7 aplicados no draft v2; baixos B1/B4 por redação; M3 vai ao gate (autor, pós-etapa 5)",
+    "Etapa 7: aplicar B1 (0,26206 → 1,2996), B2 (put R$ 0,27), I1, I3, I4, I5, I6; I7 não (autor)",
+    "Etapa 7 — I2: cartão em 365 dias corridos (523,9% / 526,7% / quase três pontos) (autor)",
+    "Etapa 6: aplicar os 47 itens, inclusive o 38 ('A taxa estava certa. A etiqueta, errada.'); item 25 usa 183,5% (autor)",
+    "S1: mover o parágrafo do cartão para o fim de 'Rende todo dia', depois de 'Numa taxa efetiva, a frequência já foi paga' (autor)"
   ],
-  "pendencias": [],
+  "pendencias": [
+    "Etapa 9 (consolidação) ainda não rodou: aplicar as decisões acima sobre 04-draft-v2.md e emitir post.md",
+    "Etapa 9a (marketing) e etapa 10 (gate) pendentes",
+    "Gate: deck/subtítulo com a tese (M3); [VERIFICAR] Hull e ano do Maor; S4 linkar 'A Corda e o Arco'"
+  ],
   "commit_inicial": "6a20a9b",
   "slug": "2026-11-09-frequencia-de-capitalizacao",
   "linha_editorial": "Notas de um Professor",
