@@ -1,0 +1,184 @@
+{
+  "post": "2026-11-02-a-barriga-da-curva",
+  "diagnostico": {
+    "linha_editorial": "Notas de um Professor",
+    "voz": "ensaística",
+    "segmento": "#GENZ-GREED",
+    "eixo": "GREED",
+    "estagio": "topo gratuito",
+    "cluster": "matematica-financeira",
+    "justificativas": [
+      {
+        "escolha": "Linha Notas de um Professor: mecanismo técnico (regimes de capitalização) apresentado como aula, sem relato de carreira. Bate com o front-matter.",
+        "trecho": "Aqui podemos começar com uma pergunta típica do início de um curso de matemática financeira."
+      },
+      {
+        "escolha": "Voz ensaística em registro técnico: ironia contra a versão escolar, aforismo em parágrafo próprio e fecho com pedido de compartilhamento e gancho para o próximo texto (estilo-autoral §4.1).",
+        "trecho": "Juro simples é coisa de livro escolar e de agiota de bairro."
+      },
+      {
+        "escolha": "Segmento #GENZ-GREED: o leitor é o estagiário ou analista júnior que sabe a fórmula e quer provar que entende o porquê. A palavra emocional do segmento é prova, e o texto se oferece como essa prova.",
+        "trecho": "Aqui está a ideia que separa quem decorou as fórmulas de quem as entende."
+      },
+      {
+        "escolha": "Eixo GREED: o argumento parte do retorno da ação (o que você passa a conseguir fazer), não do custo de não saber. O teste de transferência no fecho é retorno verificável.",
+        "trecho": "Se o texto funcionou, você consegue separar sozinho uma taxa nominal de uma efetiva."
+      },
+      {
+        "escolha": "Estágio topo gratuito: newsletter aberta, e a linha Notas de um Professor é a amostra do método (FUNIL §3.1). As contas de planilha são exatamente essa amostra.",
+        "trecho": "Na planilha, as quatro contas que resolvem quase tudo:"
+      },
+      {
+        "escolha": "Cluster matematica-financeira (dias úteis, regimes, capitalização), do qual este post é o pilar; continua explicitamente o texto sobre DU/252, o outro membro.",
+        "trecho": "Um regime de capitalização, o motor do texto anterior"
+      }
+    ]
+  },
+  "alinhamento": [
+    {
+      "id": "A1",
+      "criterio": "segmento-e-estagio",
+      "veredito": "passa",
+      "evidencia": "Topo gratuito com segmento #GENZ-*, o prioritário do estágio (FUNIL §5). O texto parte do que um júnior já sabe (a pergunta de início de curso) e leva ao que ele ainda não sabe explicar.",
+      "trecho": "Aqui podemos começar com uma pergunta típica do início de um curso de matemática financeira."
+    },
+    {
+      "id": "A2",
+      "criterio": "eixo-puro",
+      "veredito": "passa",
+      "evidencia": "Nenhum bloco usa custo da inação de carreira. O único enquadramento de decisão do leitor é o de entender o que se compra em cada prazo, sem ameaça ao lado.",
+      "trecho": "Quem aplica por dois anos está comprando, essencialmente, juro simples com uma correção pequena."
+    },
+    {
+      "id": "A3",
+      "criterio": "dado-com-fonte",
+      "veredito": "passa",
+      "evidencia": "Os números são contas reprodutíveis no próprio texto ou fatos normativos com fonte nomeada (Resolução CMN 5.171, Circular BCB 2.761, Comunicado BCB 7.684, Garcia/PUC-Rio), e passaram pela etapa 7. Não há número de carreira ou de mercado de trabalho.",
+      "trecho": "Em 2024, a Resolução nº 5.171 do Conselho Monetário Nacional (CMN)"
+    },
+    {
+      "id": "A4",
+      "criterio": "objecao-mestra",
+      "veredito": "passa",
+      "evidencia": "A objeção de #GENZ-GREED (\"consigo aprender isso de graça\") é respondida de forma implícita: o texto marca onde o material comum para e onde ele começa. O subtítulo, \"além dos livros\", reforça.",
+      "trecho": "Até aqui, é o segundo capítulo de qualquer livro de matemática financeira."
+    },
+    {
+      "id": "A5",
+      "criterio": "anti-padroes",
+      "veredito": "passa",
+      "evidencia": "Não infantiliza, não promete enriquecimento, não usa medo sem saída. A 'bola de neve' é desmontada em vez de vendida, o oposto do hype de guru.",
+      "trecho": "Quem faz a bola de neve crescer é o tempo."
+    },
+    {
+      "id": "A6",
+      "criterio": "gancho-na-abertura",
+      "veredito": "passa",
+      "evidencia": "O gancho (pergunta com número, \"acertou\" e \"errou\") vem antes do primeiro intertítulo. Ele vem depois de cinco parágrafos curtos que retomam o texto anterior. Para quem chega por encaminhamento sem ter lido o DU/252, essa retomada pede contexto; o link R1 resolve isso sem mexer no texto.",
+      "trecho": "Você aplica R$ 1 milhão a 14% ao ano por seis meses, ou 126 dias úteis. Quanto rende?"
+    },
+    {
+      "id": "A7",
+      "criterio": "promessa-guia",
+      "veredito": "passa",
+      "evidencia": "Entrega skill técnica e fluxo de trabalho (as três perguntas e as quatro contas de planilha) sem prometer salário, efetivação ou resultado financeiro.",
+      "trecho": "Aqui está a ideia que separa quem decorou as fórmulas de quem as entende."
+    },
+    {
+      "id": "A8",
+      "criterio": "conformidade",
+      "veredito": "passa",
+      "evidencia": "Produtos aparecem como classe (CDB prefixado, LTN, Tesouro americano), nunca como emissor ou ativo a comprar. O exemplo é didático e o aviso legal está no rodapé, sem precisar descaracterizar nada.",
+      "trecho": "Num CDB prefixado à mesma taxa, o rendimento é de R$ 67.707,83."
+    },
+    {
+      "id": "A9",
+      "criterio": "preco",
+      "veredito": "não se aplica",
+      "evidencia": "O post não cita preço de produto da Syntaxis. Os valores em reais são exemplos de cálculo."
+    }
+  ],
+  "ctas": [
+    {
+      "id": "C1",
+      "papel": "inscricao",
+      "tipo": "inscricao",
+      "formato": "botao_nativo",
+      "ancora": "é a distância entre dois motores",
+      "destino_id": "substack:inscrever",
+      "motivo": "Fecha o gancho da abertura, logo antes do primeiro intertítulo e dentro do primeiro quarto. O leitor acabou de ver os R$ 2.292,17 e ainda não sabe por quê: é o ponto de maior curiosidade antes da explicação."
+    },
+    {
+      "id": "C2",
+      "papel": "principal",
+      "tipo": "skill_check",
+      "formato": "texto",
+      "ancora": "Um calendário de feriados desatualizado muda o du",
+      "texto_sugerido": "Se quiser medir onde você está em outras habilidades da mesa, o Syntaxis Skill Check é gratuito.",
+      "texto_link": "Syntaxis Skill Check",
+      "destino_id": "oferta:skill-check",
+      "motivo": "O post é o pilar do cluster, então o próximo passo do topo gratuito é o Skill Check. Entra no fim da seção das três perguntas e das quatro contas de planilha, quando o leitor acabou de receber a ferramenta, e não no fecho, onde o autor já encadeia exercício, próximo texto e encaminhamento sem espaço para mais uma chamada. É uma frase só, sem urgência. Ver X2 antes de aceitar."
+    },
+    {
+      "id": "C3",
+      "papel": "secundario",
+      "tipo": "compartilhar",
+      "formato": "botao_nativo",
+      "ancora": "encaminhe para quem ainda acha que o composto sempre rende mais",
+      "destino_id": "substack:compartilhar",
+      "motivo": "O autor já escreveu o pedido de encaminhamento, específico do tema. O parecer não propõe outro texto: só o botão logo depois, que transforma o pedido em clique."
+    },
+    {
+      "id": "C4",
+      "papel": "inscricao",
+      "tipo": "inscricao",
+      "formato": "botao_nativo",
+      "ancora": "O FIDC que prometi vem depois desse texto.",
+      "destino_id": "substack:inscrever",
+      "motivo": "O parágrafo anuncia o próximo texto (frequência de capitalização) e o seguinte (FIDC). É a razão concreta para assinar, e o botão entra no fim, antes do pedido de encaminhamento."
+    }
+  ],
+  "referencias": [
+    {
+      "id": "R1",
+      "ancora": "No último texto conversamos sobre como um ano pode ter mais, ou menos, dias úteis",
+      "texto_link": "como um ano pode ter mais, ou menos, dias úteis",
+      "destino_id": "post:2026-10-30-du252-contagem-de-dias",
+      "pergunta_do_leitor": "Que texto? Onde está a explicação da régua e dos 249 dias úteis que este post dá por sabida?"
+    },
+    {
+      "id": "R2",
+      "ancora": "Na LCA (Letra de Crédito do Agronegócio), para achar a taxa em que um CDB",
+      "texto_link": "LCA (Letra de Crédito do Agronegócio)",
+      "destino_id": "post:2026-09-18-o-agro-e-pop-o-agro-e-produto-financeiro",
+      "pergunta_do_leitor": "Em que texto foi feita a conta de empate entre LCA e CDB com o du/252 no expoente?"
+    },
+    {
+      "id": "R3",
+      "ancora": "Na debênture, para converter percentual do CDI",
+      "texto_link": "debênture",
+      "destino_id": "post:2026-10-15-renda-fixa-condicoes-variaveis",
+      "pergunta_do_leitor": "Onde está a conversão de percentual do CDI em CDI mais spread e a conta de quanto o PU cai quando o spread abre?"
+    }
+  ],
+  "backlinks_sugeridos": [
+    {
+      "id": "B1",
+      "origem_id": "post:2026-10-30-du252-contagem-de-dias",
+      "ancora_na_origem": "Qual o regime? Composto ou linear?",
+      "texto_link": "Composto ou linear?",
+      "motivo": "Mesmo cluster, e este post é o pilar. No checklist do DU/252, o leitor encontra a pergunta do regime sem a explicação de por que a resposta muda o resultado. Este post é essa explicação."
+    }
+  ],
+  "riscos": [
+    {
+      "id": "X1",
+      "descricao": "Segundo adiamento do FIDC. O DU/252 terminou com \"O próximo volta à série de crédito com o FIDC\", e este texto adia de novo, agora para depois do próximo. Quem assinou esperando o FIDC vê a promessa andar duas vezes. O autor decide se mantém, se data a promessa de outro jeito ou se tira a menção. A âncora de C4 é esta frase; se ela mudar, C4 vai para o parágrafo que anuncia o próximo texto.",
+      "trecho": "O FIDC que prometi vem depois desse texto."
+    },
+    {
+      "id": "X2",
+      "descricao": "C2 supõe que o Skill Check avalia habilidades técnicas de mesa. O catálogo e a estratégia só dizem que ele é captura gratuita, no ar, que manda leads ao MailerLite (lista de sequências de venda). Antes de aceitar, confirme se o conteúdo do teste tem relação com cálculo de taxas. Se não tiver, recuse C2: chamá-lo logo depois das contas de planilha prometeria algo que ele não entrega."
+    }
+  ]
+}
