@@ -256,8 +256,6 @@ Quatro perguntas para fazer a qualquer taxa que chegar à sua mesa:
 
 Quem responde às quatro sem hesitar já entendeu algo que muita gente experiente só sabe aplicar no automático.
 
-Este texto foi um parêntese de ferramenta.
-
 Se este texto te poupou uma conta errada, encaminhe para quem está começando na mesa. E me conte, nos comentários, a pior pegadinha de calendário que você já encontrou.
 
 ---
