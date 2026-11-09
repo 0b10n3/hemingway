@@ -28,6 +28,7 @@
       "Bash(git filter-branch*)",
       "Bash(git push origin --delete*)",
       "Bash(git branch -D*)"
-    ]
+    ],
+    "additionalDirectories": ["../../strategy"]
   }
 }
