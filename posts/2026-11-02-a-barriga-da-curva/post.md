@@ -201,7 +201,7 @@ Capitalização não é lei da natureza. É cláusula.
 
 Se o texto funcionou, você consegue separar sozinho uma taxa nominal de uma efetiva. Pegue um contrato de financiamento que mostre, lado a lado, uma 'taxa nominal' e uma 'taxa efetiva'. Faça as três perguntas. Por que 12% ao ano capitalizados mensalmente viram 12,68% efetivos? E qual dos dois números é o que você de fato paga?
 
-Os 12,68% são o fio do próximo texto: a frequência de capitalização. Com uma corda por ano, 14% rendem 14%. Com duas, 14,49%, a conta que já fizemos. Com doze, 14,93%. Quanto mais curtas as cordas, mais a linha quebrada se aproxima do motor contínuo, e o rendimento nunca passa dos 15,03% que já apareceram aqui. Vamos ver o que essa frequência muda na taxa e como essa aproximação é usada. O FIDC que prometi vem depois desse texto.
+Os 12,68% são o fio do próximo texto: a frequência de capitalização. Com uma corda por ano, 14% rendem 14%. Com duas, 14,49%, a conta que já fizemos. Com doze, 14,93%. Quanto mais curtas as cordas, mais a linha quebrada se aproxima do motor contínuo, e o rendimento nunca passa dos 15,03% que já apareceram aqui. Vamos ver o que essa frequência muda na taxa e como essa aproximação é usada.
 
 Se este texto ajudou você a destravar uma conta que você fazia no automático, encaminhe para quem ainda acha que o composto sempre rende mais.
 

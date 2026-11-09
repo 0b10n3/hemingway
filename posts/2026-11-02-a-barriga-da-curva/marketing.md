@@ -56,7 +56,7 @@ Por quê: O post é o pilar do cluster, então o próximo passo do topo gratuito
 
 - **C1**: botão de inscrição depois do 14º parágrafo da abertura, que contém “é a distância entre dois motores”. Fecha o gancho da abertura, logo antes do primeiro intertítulo e dentro do primeiro quarto. O leitor acabou de ver os R$ 2.292,17 e ainda não sabe por quê: é o ponto de maior curiosidade antes da explicação.
 - **C3**: botão de compartilhar depois do 5º parágrafo de «Fechamento: o expoente que faltava», que contém “encaminhe para quem ainda acha que o composto sempre rende mais”. O autor já escreveu o pedido de encaminhamento, específico do tema. O parecer não propõe outro texto: só o botão logo depois, que transforma o pedido em clique.
-- **C4**: botão de inscrição depois do 4º parágrafo de «Fechamento: o expoente que faltava», que contém “O FIDC que prometi vem depois desse texto.”. O parágrafo anuncia o próximo texto (frequência de capitalização) e o seguinte (FIDC). É a razão concreta para assinar, e o botão entra no fim, antes do pedido de encaminhamento.
+- **C4**: botão de inscrição depois do 4º parágrafo de «Fechamento: o expoente que faltava», que contém “Vamos ver o que essa frequência muda na taxa e como essa aproximação é”. O parágrafo anuncia o próximo texto (frequência de capitalização). É a razão concreta para assinar, e o botão entra no fim, antes do pedido de encaminhamento.
 
 ## Referências internas
 
@@ -84,5 +84,4 @@ Pergunta que o link responde: Onde está a conversão de percentual do CDI em CD
 
 ## Riscos
 
-- **X1**: Segundo adiamento do FIDC. O DU/252 terminou com "O próximo volta à série de crédito com o FIDC", e este texto adia de novo, agora para depois do próximo. Quem assinou esperando o FIDC vê a promessa andar duas vezes. O autor decide se mantém, se data a promessa de outro jeito ou se tira a menção. A âncora de C4 é esta frase; se ela mudar, C4 vai para o parágrafo que anuncia o próximo texto.
 - **X2**: C2 supõe que o Skill Check avalia habilidades técnicas de mesa. O catálogo e a estratégia só dizem que ele é captura gratuita, no ar, que manda leads ao MailerLite (lista de sequências de venda). Antes de aceitar, confirme se o conteúdo do teste tem relação com cálculo de taxas. Se não tiver, recuse C2: chamá-lo logo depois das contas de planilha prometeria algo que ele não entrega.

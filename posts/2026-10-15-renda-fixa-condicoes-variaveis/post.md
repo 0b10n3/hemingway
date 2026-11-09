@@ -232,7 +232,7 @@ Na debênture, não há rede. Há contrato.
 
 Se o texto funcionou, você consegue dar o próximo passo sozinho. Pegue uma nota comercial, o título que a Lei nº 14.195/2021 criou para empresas que não querem ou não podem emitir debênture. Troque a escritura pelo termo de emissão e a S.A. pela limitada. As perguntas continuam as mesmas: quem deve, onde você está na fila, quem decide quando o contrato muda.
 
-O próximo texto é sobre o FIDC (Fundo de Investimento em Direitos Creditórios), e o momento ajuda: em agosto, as ofertas de FIDCs somaram R$ 14,5 bilhões, mais que o dobro de um ano antes. Faltava a peça do meio, o devedor sem intermediário. Com ela no lugar, dá para ver o FIDC pelo que ele é: uma carteira de devedores com uma fila desenhada em cotas, em que a ordem de quem recebe primeiro não está na Lei de Falências, e sim no regulamento.
+Faltava a peça do meio, o devedor sem intermediário. Com ela no lugar, dá para ver o FIDC (Fundo de Investimento em Direitos Creditórios) pelo que ele é: uma carteira de devedores com uma fila desenhada em cotas, em que a ordem de quem recebe primeiro não está na Lei de Falências, e sim no regulamento.
 
 ## Para continuar aprendendo
 

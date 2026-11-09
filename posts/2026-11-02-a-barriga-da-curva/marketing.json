@@ -133,9 +133,9 @@
       "papel": "inscricao",
       "tipo": "inscricao",
       "formato": "botao_nativo",
-      "ancora": "O FIDC que prometi vem depois desse texto.",
+      "ancora": "Vamos ver o que essa frequência muda na taxa e como essa aproximação é usada.",
       "destino_id": "substack:inscrever",
-      "motivo": "O parágrafo anuncia o próximo texto (frequência de capitalização) e o seguinte (FIDC). É a razão concreta para assinar, e o botão entra no fim, antes do pedido de encaminhamento."
+      "motivo": "O parágrafo anuncia o próximo texto (frequência de capitalização). É a razão concreta para assinar, e o botão entra no fim, antes do pedido de encaminhamento."
     }
   ],
   "referencias": [
@@ -171,11 +171,6 @@
     }
   ],
   "riscos": [
-    {
-      "id": "X1",
-      "descricao": "Segundo adiamento do FIDC. O DU/252 terminou com \"O próximo volta à série de crédito com o FIDC\", e este texto adia de novo, agora para depois do próximo. Quem assinou esperando o FIDC vê a promessa andar duas vezes. O autor decide se mantém, se data a promessa de outro jeito ou se tira a menção. A âncora de C4 é esta frase; se ela mudar, C4 vai para o parágrafo que anuncia o próximo texto.",
-      "trecho": "O FIDC que prometi vem depois desse texto."
-    },
     {
       "id": "X2",
       "descricao": "C2 supõe que o Skill Check avalia habilidades técnicas de mesa. O catálogo e a estratégia só dizem que ele é captura gratuita, no ar, que manda leads ao MailerLite (lista de sequências de venda). Antes de aceitar, confirme se o conteúdo do teste tem relação com cálculo de taxas. Se não tiver, recuse C2: chamá-lo logo depois das contas de planilha prometeria algo que ele não entrega."

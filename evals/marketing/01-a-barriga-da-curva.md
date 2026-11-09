@@ -40,3 +40,13 @@ citáveis do catálogo, limites de CTA respeitados.
    acrescentar palavra ao post (o padrão do exemplo 3 de `exemplos.md`).
 3. **Acerto a manter:** o agente cruzou este post com outro do catálogo (X1) e achou uma
    inconsistência editorial que nenhuma etapa anterior viu.
+
+## Desdobramentos (2026-11-09)
+
+- **X1:** o autor cancelou o texto sobre FIDC. A promessa saiu dos três posts que a faziam
+  (Condições Variáveis, DU/252 e este). Por isso o X1 saiu do `marketing.json` e o C4 passou para
+  a frase anterior do mesmo parágrafo. A versão avaliada acima é a do commit 654d9ad.
+- **C2/X2:** `marketing/ofertas.yaml` passou a ter o `resumo` do Skill Check (fonte:
+  `apps/skill_test/docs/metodologia.md`). O agente ganhou a regra de descrever oferta só pelo
+  `resumo` do catálogo. O teste dessa regra fica para o próximo caso que propuser CTA para
+  o Skill Check.
