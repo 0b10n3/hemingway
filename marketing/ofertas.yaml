@@ -43,7 +43,7 @@
 - id: oferta:skill-check
   nome: Syntaxis Skill Check
   tipo: captura
-  url: https://skill-test-mocha.vercel.app/
+  url: https://skill.syntaxis.com.br/
   situacao: disponível
   estagio: topo gratuito
   segmento: ["#GENZ-FEAR", "#GENZ-GREED"]
