@@ -1,0 +1,177 @@
+{
+  "post": "2026-11-09-frequencia-de-capitalizacao",
+  "diagnostico": {
+    "linha_editorial": "Notas de um Professor",
+    "voz": "ensaística",
+    "segmento": "#GENZ-GREED",
+    "eixo": "GREED",
+    "estagio": "topo gratuito",
+    "cluster": "matematica-financeira",
+    "justificativas": [
+      {
+        "escolha": "Linha Notas de um Professor: matemática financeira dada como aula (taxa nominal, efetiva e contínua), que marca onde termina o manual e onde começa o texto. Bate com o front-matter.",
+        "trecho": "Até aqui, é o capítulo de taxas equivalentes (taxas diferentes que entregam o mesmo rendimento) de qualquer livro, com uma nota histórica."
+      },
+      {
+        "escolha": "Voz ensaística em registro técnico (estilo-autoral §4.1): aforismo em parágrafo próprio, pergunta retórica que carrega o argumento e fecho com pedido de encaminhamento.",
+        "trecho": "O perigo nunca foi a frequência. É a etiqueta."
+      },
+      {
+        "escolha": "Segmento #GENZ-GREED: o leitor é o estagiário ou analista júnior que sabe a fórmula mas nunca traduziu a taxa do DI para o modelo. A palavra emocional do segmento é prova, e o texto põe o leitor exatamente na passagem entre tesouraria e mesa de opções.",
+        "trecho": "Dentro da mesma instituição, a tesouraria cota o DI em taxa efetiva, base 252, e a mesa de opções precisa de uma taxa contínua."
+      },
+      {
+        "escolha": "Eixo GREED: o argumento parte do que o leitor passa a fazer (ler a etiqueta e decidir), não do custo de não saber. O teste de transferência do fecho é retorno verificável.",
+        "trecho": "Se o texto funcionou, você consegue ler sozinho uma taxa de que todo brasileiro já ouviu falar."
+      },
+      {
+        "escolha": "Estágio topo gratuito: newsletter aberta, e a linha Notas de um Professor é a amostra do método (FUNIL §3.1). As conversões de planilha são essa amostra.",
+        "trecho": "Na planilha, as contas são estas:"
+      },
+      {
+        "escolha": "Cluster matematica-financeira (dias úteis, regimes, capitalização): fecha a série do du/252 e continua o pilar, A Corda e o Arco.",
+        "trecho": "Com a régua, o motor e agora a etiqueta, o expoente du/252 desta série está explicado de ponta a ponta."
+      }
+    ]
+  },
+  "alinhamento": [
+    {
+      "id": "A1",
+      "criterio": "segmento-e-estagio",
+      "veredito": "passa",
+      "evidencia": "Topo gratuito com segmento #GENZ-*, o prioritário do estágio (FUNIL §5). O texto leva o júnior do que ele já sabe (a conta dos 12,68%) até o ponto em que ele erraria na mesa (taxa do DI no Black-Scholes).",
+      "trecho": "Dentro da mesma instituição, a tesouraria cota o DI em taxa efetiva, base 252, e a mesa de opções precisa de uma taxa contínua."
+    },
+    {
+      "id": "A2",
+      "criterio": "eixo-puro",
+      "veredito": "passa",
+      "evidencia": "Nenhum bloco usa custo da inação de carreira. A seção sobre o erro de etiqueta mostra um custo técnico, mas vem com a saída no mesmo bloco (traduzir a taxa) e é seguida pela regra de decisão.",
+      "trecho": "O risco mora na passagem de uma para a outra."
+    },
+    {
+      "id": "A3",
+      "criterio": "dado-com-fonte",
+      "veredito": "passa",
+      "evidencia": "Os números são contas que o leitor refaz no próprio texto, ou fatos com fonte nomeada (Banco Central, manual de opções da B3, metodologia do Tesouro Nacional), e passaram pela etapa 7. Não há número de carreira nem de mercado de trabalho. As duas marcações [VERIFICAR] que sobraram são de citação, não de número (ver X1).",
+      "trecho": "Segundo o Banco Central, o rotativo do cartão de crédito custou 451,7% ao ano em setembro de 2026"
+    },
+    {
+      "id": "A4",
+      "criterio": "objecao-mestra",
+      "veredito": "passa",
+      "evidencia": "A objeção de #GENZ-GREED (\"consigo aprender isso de graça\") é respondida de forma implícita: o texto diz onde o material comum para e onde ele começa.",
+      "trecho": "O interessante começa quando se trocam os 100% de Bernoulli por uma taxa qualquer."
+    },
+    {
+      "id": "A5",
+      "criterio": "anti-padroes",
+      "veredito": "passa",
+      "evidencia": "Não infantiliza, não promete ganho e não usa medo sem saída. Desmonta uma frase de propaganda em vez de repeti-la, que é o oposto do hype de guru.",
+      "trecho": "Isso desmonta uma frase comum de propaganda"
+    },
+    {
+      "id": "A6",
+      "criterio": "gancho-na-abertura",
+      "veredito": "passa",
+      "evidencia": "A pergunta com número está na primeira linha e é respondida em três parágrafos, antes de Bernoulli. Ela depende do texto anterior, e quem chega por encaminhamento pede contexto. O link R1 resolve isso sem mexer no texto.",
+      "trecho": "No fim do último texto, deixei uma conta para você."
+    },
+    {
+      "id": "A7",
+      "criterio": "promessa-guia",
+      "veredito": "passa",
+      "evidencia": "Entrega skill técnica e fluxo de trabalho (a quarta pergunta, a regra de decisão e as conversões de planilha) sem prometer salário, efetivação ou resultado financeiro.",
+      "trecho": "Se a taxa vai entrar num modelo, traduza sempre."
+    },
+    {
+      "id": "A8",
+      "criterio": "conformidade",
+      "veredito": "passa",
+      "evidencia": "Produtos aparecem como classe (CDB prefixado, LTN, poupança, rotativo do cartão), e a opção do exemplo é hipotética. Nenhuma passagem sugere comprar, vender ou escolher ativo ou emissor.",
+      "trecho": "Um exemplo simples, em cálculo próprio."
+    },
+    {
+      "id": "A9",
+      "criterio": "preco",
+      "veredito": "não se aplica",
+      "evidencia": "O post não cita preço de produto da Syntaxis. Os valores em reais são exemplos de cálculo."
+    }
+  ],
+  "ctas": [
+    {
+      "id": "C1",
+      "papel": "inscricao",
+      "tipo": "inscricao",
+      "formato": "botao_nativo",
+      "ancora": "que nenhum CDB (Certificado de Depósito Bancário) jamais cotou",
+      "destino_id": "substack:inscrever",
+      "motivo": "Fim da abertura, logo antes do primeiro intertítulo e dentro do primeiro quarto. O texto acabou de prometer duas explicações (o du/252 como caso particular e a taxa do manual da B3), e é o ponto de maior curiosidade antes da resposta."
+    },
+    {
+      "id": "C2",
+      "papel": "principal",
+      "tipo": "skill_check",
+      "formato": "texto",
+      "ancora": "PU da LTN:",
+      "texto_sugerido": "Matemática financeira é uma das dimensões do Syntaxis Skill Check. É um diagnóstico gratuito, que compara o seu perfil com o que o mercado espera para o próximo degrau da carreira.",
+      "texto_link": "Syntaxis Skill Check",
+      "destino_id": "oferta:skill-check",
+      "motivo": "Entra depois do bloco de planilha do PU da LTN, antes do Fechamento: o leitor acabou de receber as conversões, e o próximo passo do topo gratuito é medir o resto. Fica fora do fecho, que já encadeia exercício, fim da série e encaminhamento. O texto usa só o que o resumo do catálogo diz, que agora confirma a dimensão de matemática financeira. Isso resolve a dúvida que ficou no parecer de A Corda e o Arco."
+    },
+    {
+      "id": "C3",
+      "papel": "secundario",
+      "tipo": "compartilhar",
+      "formato": "botao_nativo",
+      "ancora": "encaminhe para quem ainda acha que o contínuo é o juro mais agressivo",
+      "destino_id": "substack:compartilhar",
+      "motivo": "O autor já escreveu o pedido de encaminhamento, específico do tema. O parecer não propõe outro texto, só o botão logo depois, que transforma o pedido em clique."
+    },
+    {
+      "id": "C4",
+      "papel": "inscricao",
+      "tipo": "inscricao",
+      "formato": "botao_nativo",
+      "ancora": "o expoente du/252 desta série está explicado de ponta a ponta",
+      "destino_id": "substack:inscrever",
+      "motivo": "Último quarto, depois do parágrafo que fecha a série e antes do pedido de encaminhamento. Assim fica um botão por gatilho: inscrição depois do fim da série, compartilhar depois do pedido do autor. Sem texto, para não anunciar próximo tema (a promessa do FIDC saiu)."
+    }
+  ],
+  "referencias": [
+    {
+      "id": "R1",
+      "ancora": "No fim do último texto, deixei uma conta para você.",
+      "texto_link": "último texto",
+      "destino_id": "post:2026-11-02-a-barriga-da-curva",
+      "pergunta_do_leitor": "Que texto? Onde está a conta dos 12,68%, e onde foram apresentados os três motores e a corda que este post retoma?"
+    },
+    {
+      "id": "R2",
+      "ancora": "o composto que você usa todo dia, o du/252 (dias úteis sobre 252) desta série",
+      "texto_link": "du/252 (dias úteis sobre 252)",
+      "destino_id": "post:2026-10-30-du252-contagem-de-dias",
+      "pergunta_do_leitor": "Que série? Onde foi explicado o du/252, que este post diz ser só um caso particular?"
+    }
+  ],
+  "backlinks_sugeridos": [
+    {
+      "id": "B1",
+      "origem_id": "post:2026-11-02-a-barriga-da-curva",
+      "ancora_na_origem": "o fio do próximo texto: a frequência de capitalização",
+      "texto_link": "a frequência de capitalização",
+      "motivo": "Pilar do mesmo cluster. O fecho de A Corda e o Arco anuncia este texto pelo nome do tema. Quem lê o pilar depois da publicação encontra a promessa sem o destino."
+    }
+  ],
+  "riscos": [
+    {
+      "id": "X1",
+      "descricao": "Duas marcações [VERIFICAR] continuam no post: a frase atribuída ao Hull no corpo e o ano da edição do Maor na bibliografia. Não é tema de marketing, mas uma afirmação publicada sem fonte verificável vai contra o posicionamento da Syntaxis (evidência ou silêncio). Resolva antes de publicar, ou corte a frase do Hull.",
+      "trecho": "a pesquisa não achou a frase em fonte verificável"
+    },
+    {
+      "id": "X2",
+      "descricao": "R1 linka em 'último texto', e no arquivo do Substack esse 'último' fica velho a partir do próximo post. A consolidação sugeriu nomear A Corda e o Arco na primeira menção ao texto anterior. Essa mudança é do autor, não do parecer. Se ele nomear, o link vai no título."
+    }
+  ]
+}

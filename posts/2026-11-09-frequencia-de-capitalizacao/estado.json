@@ -1,0 +1,50 @@
+{
+  "etapa_atual": 10,
+  "loops_consumidos": 1,
+  "aprovacoes": [
+    "Linha editorial: Notas de um Professor (confirmada pelo autor, etapa 0; rascunho sem front-matter)",
+    "FIDC: texto cancelado; cortar a promessa do fechamento e do campo 8 da Ficha, fechar sem anunciar o próximo texto (autor, etapa 0)",
+    "Tensão — título: RESOLVIDA, 'Frequência de Capitalização'; subtítulo provisório 'O limite matemático que explica o composto e o contínuo' (autor, durante a etapa 3)",
+    "Tensão — correção ou aprofundamento: RESOLVIDA, aprofundamento (autor, durante a etapa 3)",
+    "Tensão — profundidade: RESOLVIDA, binômio e Black-Scholes ficam no corpo (autor, durante a etapa 3)",
+    "Tensão — linha pessoal sobre o e: RESOLVIDA, fica de fora (autor, durante a etapa 3)",
+    "Crítica M5: ligar a hipótese à tese (autor, pós-etapa 5)",
+    "Crítica M8/B6: manter a LTN e ligá-la à regra de precisão; Súmula 541 não entra (autor, pós-etapa 5)",
+    "Crítica M6: acrescentar o contraexemplo do rotativo do cartão (autor, pós-etapa 5)",
+    "Crítica M1, M2, M4, M7 aplicados no draft v2; baixos B1/B4 por redação; M3 vai ao gate (autor, pós-etapa 5)",
+    "Etapa 7: aplicar B1 (0,26206 → 1,2996), B2 (put R$ 0,27), I1, I3, I4, I5, I6; I7 não (autor)",
+    "Etapa 7 — I2: cartão em 365 dias corridos (523,9% / 526,7% / quase três pontos) (autor)",
+    "Etapa 6: aplicar os 47 itens, inclusive o 38 ('A taxa estava certa. A etiqueta, errada.'); item 25 usa 183,5% (autor)",
+    "S1: mover o parágrafo do cartão para o fim de 'Rende todo dia', depois de 'Numa taxa efetiva, a frequência já foi paga' (autor)",
+    "Gate — marketing: aceitos C1, C2, C3, C4, B1; recusados R1, R2 (autor). C2 aplicado por parecer.py; C1/C3/C4/B1 são inserção manual no Substack",
+    "Gate — Hull: reescrito sem atribuir ('trabalha em taxa contínua e mostra a conversão entre as etiquetas'); [VERIFICAR] removido (autor)",
+    "Gate — subtítulo: 'A frequência muda a etiqueta, não o motor' (autor)",
+    "Gate — acabamentos: ponte 'Os degraus da escada encolhem assim a 14%.'; '12 × 15,29%'; nomear 'A Corda e o Arco' na primeira frase; graf-01 regenerado com rodapé corrigido (autor)",
+    "Gate humano (etapa 10): APROVADO pelo autor em 2026-11-09. Publicação e merge são ações do autor."
+  ],
+  "pendencias": [
+    "[VERIFICAR] ano da edição Record do Maor (ISBN 978-85-01-05847-8) na bibliografia",
+    "Substack, à mão: botões C1 (fim da abertura), C4 (depois de 'ponta a ponta'), C3 (compartilhar depois do pedido de encaminhamento); backlink B1 em 'A Corda e o Arco'",
+    "Subir figuras/graf-01.png e graf-02.png nos placeholders",
+    "Rascunho _arquivo/drafts/2026-11-09Frequência de Capitalização.md não versionado: autor commita em main (escopo arquivo)"
+  ],
+  "commit_inicial": "6a20a9b",
+  "slug": "2026-11-09-frequencia-de-capitalizacao",
+  "linha_editorial": "Notas de um Professor",
+  "titulo": "Frequência de Capitalização",
+  "marketing": {
+    "aceitos": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "B1"
+    ],
+    "recusados": [
+      "R1",
+      "R2"
+    ]
+  },
+  "status": "aprovado",
+  "subtitulo": "A frequência muda a etiqueta, não o motor"
+}
