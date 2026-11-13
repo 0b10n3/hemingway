@@ -230,8 +230,8 @@ Você pode fazer melhor. Abra uma nota hoje, antes do próximo mês ruim, e escr
 | 2 | "**[VERIFICAR: saída em 1983]**" (Mick Jones) | Nota de conteúdo | Pendente (etapa 3/7). A nota de revisão diz que a fonte não traz 1983. |
 | 3 | "**[LINK: post do Livro dos Cinco Anéis]**" (sinal 1 de ficar) | Nota de conteúdo | Pendente (etapa 1): URL existe em `posts/2026-10-27-samurais-e-duelos/post.md`. |
 | 4 | "**[LINK: post dos coqueiros e cacaueiros]**" (sinal 3 de ficar) | Nota de conteúdo | Pendente (etapa 1): URL existe em `posts/2026-10-12-coqueiros-e-cacaueiros/post.md`. |
-| 5 | "O que falta de você" nº 2: "eu fui checar os números" no running back — vale para o autor ou troca por formulação neutra? | Instrução de escrita | Pendente (etapa 1, pergunta ao autor). |
-| 6 | Decisão editorial: "olhe a derivada, não o nível" × "olhe a inclinação da curva" se soar técnico demais | Nota de conteúdo | Pendente (etapa 1, pergunta ao autor). |
+| 5 | "O que falta de você" nº 2: "eu fui checar os números" no running back — vale para o autor ou troca por formulação neutra? | Instrução de escrita | **Resolvido (etapa 1):** formulação neutra (autor). Etapa 4 aplica. |
+| 6 | Decisão editorial: "olhe a derivada, não o nível" × "olhe a inclinação da curva" se soar técnico demais | Nota de conteúdo | **Resolvido (etapa 1):** derivada, com gloss (autor). |
 | 7 | Tamanho: "Enquanto decide, procure empregado" é o bloco mais cortável | Nota de conteúdo | Registro: só se a crítica (etapa 5) pedir corte. |
 | 8 | Títulos por uso (post / busca / nota) | Estrutural | Pendente (etapa 1): título do post é o H1; os outros dois vão ao gate/marketing. |
 | 9 | Verificações: Combat Rock (mai/1982, nº 1 em 1991, Levi's); Levitt ("voluntários", "autodeclarada" não estão no resumo); Griffeth r ≈ 0,38 (paper não lido); Topel e Ward (7 empregadores, ≥ 1/3); DIEESE (8.044 / 21.561 = 37,3%, 1º sem. 2024); Oremland (1991–2017, Jones-Drew 5'7"); Newport (três desqualificadores); Hirschman, Hoffman, Duke, fit pessoa-ambiente (fontes não lidas) | Nota de conteúdo | Pendente (etapa 3/5a/7). |
