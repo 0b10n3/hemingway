@@ -5,7 +5,7 @@ slug: 2026-11-13-should-i-stay
 data: 2026-11-13
 linha_editorial: Spoiler
 tags: [Spoiler, Carreira, Mercado Financeiro, Tomada de Decisão]
-status: em-revisao
+status: aprovado
 assunto_email: "Should I stay or should I go: seu trabalho ainda trabalha por você?"
 nota_substack: "Clima ruim não é motivo para pedir demissão. Trabalho que parou de trabalhar por você, é."
 busca_organica: "Quando sair do emprego no mercado financeiro: 3 sinais para ficar e 3 para ir"
@@ -128,7 +128,7 @@ Annie Duke, ex-jogadora profissional de pôquer que hoje estuda tomada de decis�
 
 Por exemplo: "Se até 30 de junho eu não estiver tocando sozinho um modelo de ponta a ponta, começo a procurar." Ou: "Se até o fim do próximo ciclo de avaliação ninguém tiver conversado comigo sobre o que eu quero aprender, depois de eu ter pedido duas vezes, atualizo o currículo."
 
-A regra faz duas coisas. Protege você de sair por causa de uma semana ruim. E protege você do contrário, que é mais comum: ficar mais um ano porque já investiu três. É o custo afundado (o que já foi gasto e não volta) com crachá.
+A regra faz duas coisas. Protege você de sair por causa de uma semana ruim. No [texto sobre caos e carreira](https://syntaxis.substack.com/p/borboletas-caos-e-carreira), chamei isso de escolher a regra: o acaso você não controla, a regra sim. E protege você do contrário, que é mais comum: ficar mais um ano porque já investiu três. É o custo afundado (o que já foi gasto e não volta) com crachá.
 
 Mick Jones não escolheu a data da própria saída. Em setembro de 1983, quem escolheu foram os colegas de banda, Joe Strummer e Paul Simonon. Em 1991, a pergunta que ele cantava chegou ao primeiro lugar.
 

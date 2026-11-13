@@ -1,6 +1,6 @@
 {
-  "etapa_atual": 9,
-  "loops_consumidos": 0,
+  "etapa_atual": 10,
+  "loops_consumidos": 1,
   "aprovacoes": [
     "Linha editorial: Spoiler (confirmada pelo autor, etapa 0; rascunho sem front-matter)",
     "Running back: formulação neutra, sem 'eu fui checar' (autor, etapa 1)",
@@ -15,11 +15,17 @@
     "Etapa 5a — bloqueante Levitt: agregado + qualificar emprego (autor)",
     "Etapa 6: aplicar os 43 itens; item 2 = gestora; item 37 = Procure emprego enquanto tem um; S2 = Os dois conselhos (autor)",
     "Etapa 7: aplicar C1–C6; C7 não (autor)",
-    "S1: ano só nos estudos — Levitt 2021, Griffeth, Hom e Gaertner 2000 (autor)"
+    "S1: ano só nos estudos — Levitt 2021, Griffeth, Hom e Gaertner 2000 (autor)",
+    "Gate — marketing: aceitos C1, C4, R1, B2, B3; recusados C2, C3, B1, B4 (autor). R1 aplicado por parecer.py; C1/C4/B2/B3 são inserção manual no Substack",
+    "Gate — X1: nota do Substack mantida (autor)",
+    "Gate humano (etapa 10): APROVADO pelo autor em 2026-11-13. Publicação e merge são ações do autor."
   ],
   "pendencias": [
     "Rascunho _arquivo/drafts/2026-11-13_should-i-stay.md não versionado: autor commita em main (escopo arquivo)",
-    "Etapa 5a: 12 itens de atenção e 5 nitpicks em _revisoes/2026-11-13_2026-11-13-should-i-stay_quant.md, para o gate"
+    "Substack, à mão: botões C1 (fim da abertura, depois de 'com critério, e não com desabafo') e C4 (depois de 'Se quiser, me conte qual foi.'); backlinks B2 em coqueiros-e-cacaueiros e B3 em partes-dificeis",
+    "Subir figuras/diag-01.png no placeholder diag-01 (PNG com fonte reserva; reexportar com Montserrat/Source Sans 3 instaladas, se quiser)",
+    "Depois de publicar: preencher url_publicada no frontmatter de post.md",
+    "Etapa 5a: 12 itens de atenção e 5 nitpicks vistos no gate, não aplicados"
   ],
   "commit_inicial": "a6d576c",
   "slug": "2026-11-13-should-i-stay",
@@ -30,5 +36,22 @@
       "motivo": "etapa 5 com severidade alta (itens 1 e 2)",
       "consome_loop": false
     }
-  ]
+  ],
+  "marketing": {
+    "aceitos": [
+      "C1",
+      "C4",
+      "R1",
+      "B2",
+      "B3"
+    ],
+    "recusados": [
+      "C2",
+      "C3",
+      "B1",
+      "B4"
+    ]
+  },
+  "status": "aprovado",
+  "titulo": "Should I stay or should I go: seu trabalho ainda trabalha por você?"
 }
