@@ -228,8 +228,8 @@ Você pode fazer melhor. Abra uma nota hoje, antes do próximo mês ruim, e escr
 |---|---|---|---|
 | 1 | Sem front-matter; `linha_editorial` ausente | Estrutural | **Resolvido (etapa 0):** o autor confirmou Spoiler (2026-11-13). |
 | 2 | "**[VERIFICAR: saída em 1983]**" (Mick Jones) | Nota de conteúdo | **Resolvido (etapa 3):** demitido em 1/09/1983 (Wikipedia, três páginas). Etapa 7 confere. |
-| 3 | "**[LINK: post do Livro dos Cinco Anéis]**" (sinal 1 de ficar) | Nota de conteúdo | Pendente (etapa 1): URL existe em `posts/2026-10-27-samurais-e-duelos/post.md`. |
-| 4 | "**[LINK: post dos coqueiros e cacaueiros]**" (sinal 3 de ficar) | Nota de conteúdo | Pendente (etapa 1): URL existe em `posts/2026-10-12-coqueiros-e-cacaueiros/post.md`. |
+| 3 | "**[LINK: post do Livro dos Cinco Anéis]**" (sinal 1 de ficar) | Nota de conteúdo | **Resolvido (etapa 1 + 4):** link inline em "falei de Musashi". |
+| 4 | "**[LINK: post dos coqueiros e cacaueiros]**" (sinal 3 de ficar) | Nota de conteúdo | **Resolvido (etapa 1 + 4):** link inline em "coqueiros". |
 | 5 | "O que falta de você" nº 2: "eu fui checar os números" no running back — vale para o autor ou troca por formulação neutra? | Instrução de escrita | **Resolvido (etapa 1):** formulação neutra (autor). Etapa 4 aplica. |
 | 6 | Decisão editorial: "olhe a derivada, não o nível" × "olhe a inclinação da curva" se soar técnico demais | Nota de conteúdo | **Resolvido (etapa 1):** derivada, com gloss (autor). |
 | 7 | Tamanho: "Enquanto decide, procure empregado" é o bloco mais cortável | Nota de conteúdo | Registro: só se a crítica (etapa 5) pedir corte. |
