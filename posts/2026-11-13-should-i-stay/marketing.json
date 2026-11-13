@@ -1,0 +1,197 @@
+{
+  "post": "2026-11-13-should-i-stay",
+  "diagnostico": {
+    "linha_editorial": "Spoiler",
+    "voz": "ensaística",
+    "segmento": "#GENZ-FEAR",
+    "eixo": "FEAR",
+    "estagio": "topo gratuito",
+    "cluster": "carreira",
+    "justificativas": [
+      {
+        "escolha": "Linha Spoiler: o post é uma decisão de carreira (ficar ou sair do emprego), não um conceito ou produto técnico.",
+        "trecho": "O seu trabalho ainda trabalha por você?"
+      },
+      {
+        "escolha": "Voz ensaística: opinião em primeira pessoa, admissão de incerteza e critério próprio do autor, sem a neutralidade da voz explicativa.",
+        "trecho": "Como matemático, eu resolvo pelo meu critério: olhe a derivada, não o nível."
+      },
+      {
+        "escolha": "Segmento #GENZ-FEAR: o leitor imaginado está no começo da carreira e teme errar a escolha que ainda vai pesar no currículo. #Millennials-FEAR fica como secundário (quem teme a curva plana depois de anos na mesma casa).",
+        "trecho": "No começo da carreira, o nome da casa e o tempo que você aguentou nela são lidos como sinal."
+      },
+      {
+        "escolha": "O argumento favorece explicitamente quem tem horizonte longo, o que confirma GENZ como alvo primário.",
+        "trecho": "Por isso a derivada pesa mais para quem tem muitos anos de carreira pela frente."
+      },
+      {
+        "escolha": "Eixo FEAR: a estrutura do argumento é o custo da inação (ficar demais numa curva plana) e o custo da decisão errada pelo humor, não o retorno de uma ação.",
+        "trecho": "E protege você do contrário, que é mais comum: ficar mais um ano porque já investiu três."
+      },
+      {
+        "escolha": "Estágio topo gratuito: o post não menciona oferta nem preço; o próximo passo pedido é uma ação do próprio leitor e uma resposta ao autor.",
+        "trecho": "Abra uma nota hoje, antes do próximo mês ruim, e escreva o seu estado e a sua data."
+      },
+      {
+        "escolha": "Cluster carreira: o post se apoia em dois membros do cluster (o pilar coqueiros-e-cacaueiros e samurais-e-duelos) e retoma a ideia de skill que fica barata de manter.",
+        "trecho": "Há coisas que você faz bem gastando pouca energia."
+      }
+    ]
+  },
+  "alinhamento": [
+    {
+      "id": "A1",
+      "criterio": "segmento-e-estagio",
+      "veredito": "passa",
+      "evidencia": "Topo gratuito, e #GENZ-FEAR é segmento prioritário desse estágio (FUNIL §5). O post fala com quem está montando o currículo e ainda tem anos de carreira pela frente; o exemplo de regra (tocar um modelo de ponta a ponta) é meta de júnior.",
+      "trecho": "Dois anos completos numa mesa exigente contam uma história. Oito meses contam outra."
+    },
+    {
+      "id": "A2",
+      "criterio": "eixo-puro",
+      "veredito": "passa",
+      "evidencia": "Cada bloco tem um vetor só. Os sinais para ficar falam do que se perde ao sair; os sinais para ir, do que se perde ao ficar; a regra de estado e data protege dos dois erros. Mesmo o parágrafo da condição de horizonte fala em custo (trocar de casa custa nível), não em ganho prometido.",
+      "trecho": "Com uma condição: trocar de casa custa nível."
+    },
+    {
+      "id": "A3",
+      "criterio": "dado-com-fonte",
+      "veredito": "passa",
+      "evidencia": "Os números do post (Levitt 2021, Griffeth e outros 2000 e a correlação de 0,38, o levantamento de corredores de 1991 a 2017 e as alturas) têm fonte na seção de referências e passaram pela etapa 7. Não há número de mercado de trabalho ou salário sem origem; o dado do DIEESE saiu na etapa 5 por decisão do autor.",
+      "trecho": "é moderada: perto de 0,38"
+    },
+    {
+      "id": "A4",
+      "criterio": "objecao-mestra",
+      "veredito": "passa",
+      "evidencia": "A objeção de #GENZ-FEAR (\"não tenho experiência para aproveitar isso ainda\") é endereçada de forma implícita: a falta de experiência vira justamente o motivo para valorizar a casa que ensina, e o critério da derivada pesa mais para quem está começando.",
+      "trecho": "você está sendo pago para estudar"
+    },
+    {
+      "id": "A5",
+      "criterio": "anti-padroes",
+      "veredito": "passa",
+      "evidencia": "Não há medo sem saída: a ressalva inicial protege quem não tem margem, a seção \"Procure emprego enquanto tem um\" impede a leitura de pedir demissão no impulso e o fecho entrega uma ação concreta. O \"hoje\" do fecho é tarefa do leitor, não urgência de venda. Sem enriquecimento rápido, sem infantilizar.",
+      "trecho": "Salvo situações extremas, ninguém deveria sair sem ter para onde ir."
+    },
+    {
+      "id": "A6",
+      "criterio": "gancho-na-abertura",
+      "veredito": "passa",
+      "evidencia": "A cena datada do Clash abre o texto e já carrega a pergunta do título; o fecho só retoma a cena com fatos.",
+      "trecho": "Em maio de 1982, o Clash lançou o álbum *Combat Rock*."
+    },
+    {
+      "id": "A7",
+      "criterio": "promessa-guia",
+      "veredito": "passa",
+      "evidencia": "O critério do post é a skill transferível, que é o núcleo da promessa-guia (skills técnicas que separam quem fica genérico de quem vira referência). Não promete salário, promoção nem resultado: a negociação aparece como poder de dizer não, não como aumento.",
+      "trecho": "Saber precificar um título, montar um modelo ou ler uma escritura (o contrato que fixa as regras de um título de dívida) vale em qualquer lugar."
+    },
+    {
+      "id": "A8",
+      "criterio": "conformidade",
+      "veredito": "passa",
+      "evidencia": "Nenhum ativo, emissor ou produto de investimento é citado como escolha. As menções a mercado (título, escritura, modelo) são exemplos de skill."
+    },
+    {
+      "id": "A9",
+      "criterio": "preco",
+      "veredito": "não se aplica",
+      "evidencia": "O post não cita preço nem oferta da Syntaxis."
+    }
+  ],
+  "ctas": [
+    {
+      "id": "C1",
+      "papel": "inscricao",
+      "tipo": "inscricao",
+      "formato": "botao_nativo",
+      "ancora": "com critério, e não com desabafo",
+      "destino_id": "substack:inscrever",
+      "motivo": "Fim da abertura: o leitor acabou de aceitar a pergunta do título e o texto acabou de prometer um critério. É o primeiro quarto do post e antecede a ressalva, que não deve ficar colada a um botão."
+    },
+    {
+      "id": "C2",
+      "papel": "principal",
+      "tipo": "skill_check",
+      "formato": "texto",
+      "ancora": "a missão acabou e ninguém avisou",
+      "texto_sugerido": "Se nem você saberia dizer, o Skill Check da Syntaxis é um diagnóstico gratuito: compara o seu perfil com o que o mercado espera para o próximo degrau da carreira e aponta as duas dimensões em que investir primeiro.",
+      "texto_link": "Skill Check da Syntaxis",
+      "destino_id": "oferta:skill-check",
+      "motivo": "É o único ponto do post em que o leitor fica com uma pergunta que a oferta responde: o que eu quero aprender em seguida? A descrição usa só o resumo do catálogo. Opcional: é a primeira menção a oferta num Spoiler sobre sair do emprego, e o post funciona inteiro sem ela."
+    },
+    {
+      "id": "C3",
+      "papel": "secundario",
+      "tipo": "responder_email",
+      "formato": "texto",
+      "ancora": "Se quiser, me conte qual foi.",
+      "texto_sugerido": "Basta responder a este e-mail.",
+      "destino_id": "substack:responder-email",
+      "motivo": "O autor já pede a resposta, mas não diz o canal. A regra do leitor (estado e data de saída) é informação que ele não vai querer em comentário público; a resposta por e-mail é privada. O autor já usou esse fecho em coqueiros-e-cacaueiros. Na versão web a frase não faz sentido; vale só para o e-mail."
+    },
+    {
+      "id": "C4",
+      "papel": "inscricao",
+      "tipo": "inscricao",
+      "formato": "botao_nativo",
+      "ancora": "Se quiser, me conte qual foi.",
+      "destino_id": "substack:inscrever",
+      "motivo": "Fim do corpo, antes das referências: quem chegou até a regra de estado e data é o leitor que vale manter na lista."
+    }
+  ],
+  "referencias": [
+    {
+      "id": "R1",
+      "ancora": "Protege você de sair por causa de uma semana ruim.",
+      "texto_link": "texto sobre caos e carreira",
+      "frase_nova": "No texto sobre caos e carreira, chamei isso de escolher a regra: o acaso você não controla, a regra sim.",
+      "destino_id": "post:2026-09-24-borboletas-caos-e-carreira",
+      "pergunta_do_leitor": "Por que confiar numa regra escrita antes, e não no que eu sentir na hora?"
+    }
+  ],
+  "backlinks_sugeridos": [
+    {
+      "id": "B1",
+      "origem_id": "post:2026-10-27-samurais-e-duelos",
+      "ancora_na_origem": "sair de um lugar que já não ensina nada",
+      "texto_link": "sair de um lugar que já não ensina nada",
+      "motivo": "Mesmo cluster, e este post já linka o de Musashi. Ali o leitor pergunta: como eu sei que o lugar já não ensina? Os sinais e a regra de estado e data respondem."
+    },
+    {
+      "id": "B2",
+      "origem_id": "post:2026-10-12-coqueiros-e-cacaueiros",
+      "ancora_na_origem": "É onde cada hora de esforço vai render mais.",
+      "texto_link": "onde cada hora de esforço vai render mais",
+      "motivo": "Pilar do cluster, já linkado por este post. O terceiro sinal para ir (a casa que paga por uma skill que nunca fica barata) é a taxa de câmbio do pilar aplicada ao emprego."
+    },
+    {
+      "id": "B3",
+      "origem_id": "post:2026-09-11-partes-dificeis-de-uma-carreira-em-financas",
+      "ancora_na_origem": "o molda para habilidades desalinhadas",
+      "texto_link": "o molda para habilidades desalinhadas",
+      "motivo": "Mesmo cluster. O leitor que reconhece o chefe que o molda para o lugar errado pergunta o que fazer; este post responde com a voz primeiro e a saída depois."
+    },
+    {
+      "id": "B4",
+      "origem_id": "post:2026-09-24-borboletas-caos-e-carreira",
+      "ancora_na_origem": "os princípios que usa para reagir a cada perturbação",
+      "texto_link": "os princípios que usa para reagir a cada perturbação",
+      "motivo": "Par de R1. Este post dá um exemplo concreto de princípio escrito antes da perturbação: a regra de estado e data para o mês ruim."
+    }
+  ],
+  "riscos": [
+    {
+      "id": "X1",
+      "descricao": "A nota do Substack no frontmatter (\"Clima ruim não é motivo para pedir demissão. Trabalho que parou de trabalhar por você, é.\") circula fora do contexto do post e lê como conselho de pedir demissão. O corpo diz o contrário: decidir sair não é pedir demissão, e ninguém deveria sair sem ter para onde ir. Para #GENZ-FEAR, cuja palavra é estabilidade, a nota pode soar como o hype que a Syntaxis evita. Vale o autor reler antes de publicar.",
+      "trecho": "Decidir sair não é o mesmo que pedir demissão amanhã."
+    },
+    {
+      "id": "X2",
+      "descricao": "Não pôr o botão de comentar depois do fecho. O post pede ao leitor a data em que pretende sair do emprego; num comentário público, isso pode ser lido por colegas ou pelo chefe. Por isso C3 sugere a resposta por e-mail, que é privada.",
+      "trecho": "Se quiser, me conte qual foi."
+    }
+  ]
+}
