@@ -96,3 +96,11 @@ outra coisa."; "a lista não basta. Precisa de uma regra."; "Mick Jones não esc
   o disco" (Johns) e "fundador" (Hoffman) na fila.
 - **S5.** Opiniões de voz ensaística ("quase sempre o motivo é clima", "Muita gente pula…", "o
   contrário, que é mais comum") ficam; só "a imensa maioria" ganha sugestão (item 4).
+
+## Decisão do autor (2026-11-13)
+
+Aplicar **todos os 43 itens** na consolidação (etapa 9), com estas escolhas:
+- Item 2: "de banco, de gestora ou de corretora" (sem *asset*), com a glosa de "mesa".
+- Item 37: H2 "Procure emprego enquanto tem um".
+- S2: "Os dois conselhos não se resolvem um pelo outro. Como matemático, eu resolvo pelo meu critério…".
+- Itens que acrescentam fato (5, 14, 28, 31, 35, 38) dependem do veredito da etapa 7.
