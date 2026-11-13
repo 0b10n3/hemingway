@@ -1,16 +1,29 @@
 {
-  "etapa_atual": 5,
+  "etapa_atual": 2,
   "loops_consumidos": 0,
   "aprovacoes": [
     "Linha editorial: Spoiler (confirmada pelo autor, etapa 0; rascunho sem front-matter)",
     "Running back: formulação neutra, sem 'eu fui checar' (autor, etapa 1)",
-    "Arbitragem: 'olhe a derivada, não o nível', com gloss (autor, etapa 1)"
+    "Arbitragem: 'olhe a derivada, não o nível', com gloss (autor, etapa 1)",
+    "Crítica 1: derivada como critério do autor, Levitt reforça, condição de horizonte (autor, pós-etapa 5)",
+    "Crítica 2: Griffeth mostra que a dúvida é real; pergunta sobre intenção, 0,38 fica (autor, pós-etapa 5)",
+    "Crítica 4: bloco 'procure empregado' encurtado, sem Topel e Ward e sem DIEESE (autor, pós-etapa 5)",
+    "Crítica 5: sinal ir 3 = skill que nunca vai virar coqueiro, com a taxa de câmbio (autor, pós-etapa 5)",
+    "Crítica 6: Oremland fica, alcance ajustado (autor, pós-etapa 5)",
+    "Crítica 7: regra de estado e data declarada como desempate (autor, pós-etapa 5)",
+    "Crítica 9: fecho por justaposição (autor, pós-etapa 5)"
   ],
   "pendencias": [
-    "Rascunho _arquivo/drafts/2026-11-13_should-i-stay.md não versionado: autor commita em main (escopo arquivo)",
-    "Etapa 5 com severidade alta (itens 1 e 2): volta à etapa 2 no nó da derivada/Griffeth, com decisões do autor"
+    "Rascunho _arquivo/drafts/2026-11-13_should-i-stay.md não versionado: autor commita em main (escopo arquivo)"
   ],
   "commit_inicial": "a6d576c",
   "slug": "2026-11-13-should-i-stay",
-  "linha_editorial": "Spoiler"
+  "linha_editorial": "Spoiler",
+  "reentradas": [
+    {
+      "ponto_retorno": 2,
+      "motivo": "etapa 5 com severidade alta (itens 1 e 2)",
+      "consome_loop": false
+    }
+  ]
 }

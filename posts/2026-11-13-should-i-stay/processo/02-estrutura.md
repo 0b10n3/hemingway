@@ -78,3 +78,34 @@ leitor acaba de ler a regra e vê as duas curvas.
 - **Letra da música:** nenhum verso, por decisão do autor.
 - **Corte do bloco "procure empregado":** não nesta etapa. Fica como opção se a crítica
   (etapa 5) pedir.
+
+---
+
+## Revisão pós-etapa 5 (2026-11-13) — retorno por severidade alta
+
+A crítica (itens 1 e 2, alta) apontou que a arbitragem pela derivada renomeava o conflito
+Newport × Levitt e que Griffeth era usado para justificar agir. Decisões do autor:
+
+| Item da crítica | Decisão do autor | Efeito na estrutura |
+|---|---|---|
+| 1 — derivada | **Critério do autor, Levitt reforça** | A regra é apresentada como critério de matemático, não como síntese das duas pesquisas. Levitt entra como reforço: o estudo descreve quem está em dúvida a ponto de deixar a moeda decidir. Entra uma condição de horizonte (trocar custa nível; a derivada pesa mais para quem tem muitos anos pela frente). Reconhece que a regra é o 1º desqualificador de Newport escrito como taxa. "A melhor evidência" vira "boa evidência". |
+| 2 — Griffeth | **A dúvida é real** | O papel encolhe: intenção declarada prevê o que você vai fazer; não justifica agir. A pergunta passa a ser sobre intenção ("você já decidiu que vai sair?"), compatível com o 0,38. |
+| 4 — bloco "procure empregado" | **Encurtar, sem dados** | Fica o núcleo (decidir ≠ pedir demissão; poder dizer não). Saem Topel e Ward e o DIEESE. O post perde o único dado brasileiro. |
+| 5 — sinal para ir nº 3 | **"Nunca vai virar coqueiro"** | O sinal passa a ser a casa que paga por uma skill que, para você, nunca fica barata de manter. Usa a "taxa de câmbio" de `coqueiros-e-cacaueiros`. |
+| 6 — Oremland | **Manter e ajustar o alcance** | O dado fica como inversão de expectativa, com alcance corrigido (corrida curta, perto da linha do gol, entre os dez melhores). |
+| 7 — desempate | **Declarar** | Frase de ponte no início de "Escreva hoje o que decide por você": com sinais dos dois lados, a regra de estado e data desempata. |
+| 9 — fecho | **Justaposição** | O Clash volta só com fatos (Jones não escolheu a data da própria saída), sem moral. Liga com "escreva a sua data". |
+
+**Item 8 — `diag-01` revisado.** Com a regra apresentada como critério sobre uma trajetória (a
+sua), o diagrama deixa de comparar duas casas. Passa a ser **uma curva** de capital de carreira
+transferível que sobe e achata, com dois trechos rotulados: "subindo: clima ruim é custo" e
+"plana: a dúvida semanal vira sinal". Eixos sem números. Continua `diag-01` pelo mesmo
+critério (sem série real; forma geométrica sem métrica). A condição de horizonte fica em prosa.
+
+**Tese revisada (substitui a do briefing para as etapas seguintes):** clima ruim não decide
+sozinho se você fica ou sai; o critério é se o seu capital de carreira transferível ainda está
+crescendo — enquanto a curva sobe, clima é custo; quando ela achata, a dúvida recorrente vira
+sinal, e a evidência sugere que, na dúvida, a tendência é ficar demais.
+
+Itens 3, 10, 11, 12 (média/baixa): o 3 é absorvido pelo item 1; o 10 se resolve pelos itens 1 e
+4; 11 e 12 não pedem ação estrutural (12 fica para a etapa 6 avaliar o tom).
