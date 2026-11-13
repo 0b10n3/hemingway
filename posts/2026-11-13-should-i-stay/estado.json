@@ -1,5 +1,5 @@
 {
-  "etapa_atual": 4,
+  "etapa_atual": 5,
   "loops_consumidos": 0,
   "aprovacoes": [
     "Linha editorial: Spoiler (confirmada pelo autor, etapa 0; rascunho sem front-matter)",
@@ -7,7 +7,8 @@
     "Arbitragem: 'olhe a derivada, não o nível', com gloss (autor, etapa 1)"
   ],
   "pendencias": [
-    "Rascunho _arquivo/drafts/2026-11-13_should-i-stay.md não versionado: autor commita em main (escopo arquivo)"
+    "Rascunho _arquivo/drafts/2026-11-13_should-i-stay.md não versionado: autor commita em main (escopo arquivo)",
+    "Etapa 5 com severidade alta (itens 1 e 2): volta à etapa 2 no nó da derivada/Griffeth, com decisões do autor"
   ],
   "commit_inicial": "a6d576c",
   "slug": "2026-11-13-should-i-stay",
