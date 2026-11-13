@@ -36,7 +36,7 @@ Quando alguém me diz que quer sair do emprego, quase sempre o motivo é clima. 
 
 Tudo isso é real. Mas clima é o que você sente na semana. Existe outra conta, que só aparece no ano: o que você está acumulando ali.
 
-Cal Newport, professor de ciência da computação e autor de livros sobre trabalho e carreira, chama isso de *career capital*, capital de carreira: as habilidades raras e valiosas que você constrói e que, mais tarde, compram as coisas boas de uma vida profissional: trabalho criativo, impacto e controle sobre o que você faz. Eu coloco na mesma conta a marca da casa no seu currículo e as pessoas que um dia vão atender o telefone para falar bem de você.
+Cal Newport, professor de ciência da computação e autor de livros sobre trabalho e carreira, chama isso de *career capital*, capital de carreira: as habilidades raras e valiosas que você constrói e que, mais tarde, compram as coisas boas de uma vida profissional (trabalho criativo, impacto e controle sobre o que você faz). Eu coloco na mesma conta a marca da casa no seu currículo e as pessoas que um dia vão atender o telefone para falar bem de você.
 
 Nem todo capital sai pela porta com você. Saber operar o sistema interno que só existe naquela empresa vale ali dentro. Saber precificar um título, montar um modelo ou ler uma escritura (o contrato que fixa as regras de um título de dívida) vale em qualquer lugar. O primeiro é capital específico. O segundo é transferível, e é ele que interessa.
 

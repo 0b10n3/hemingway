@@ -47,7 +47,7 @@ jan/1986 (Confirmado). Nº 1: 09/03 e 16/03/1991, 9 semanas (Confirmado; a OCC r
 na ordem do texto (Confirmado; ajuste fino opcional no 1º: "poucas chances de se destacar
 desenvolvendo habilidades raras e valiosas"). "Professor de ciência da computação" (Georgetown,
 Confirmado). "Autor de livros sobre carreira" impreciso → "autor de livros sobre trabalho e
-carreira". *So Good They Can't Ignore You*: **2012**.
+carreira". *So Good They Can't Ignore You*: **2012** (Hachette/Grand Central, selo Business Plus, ISBN 9781455509126).
 
 **Levitt.** "Economista e coautor do livro *Freakonomics*" (Confirmado; *Freakonomics*, 2005, com
 Dubner). "Como largar o emprego ou terminar um relacionamento" = "quitting a job or ending a
