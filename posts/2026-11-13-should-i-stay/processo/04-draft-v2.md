@@ -72,7 +72,7 @@ Tudo o que escrevi até aqui é o conselho prudente: fique e acumule. O problema
 
 Steven Levitt, o economista do *Freakonomics*, montou um experimento curioso. Pessoas em dúvida diante de uma decisão importante, como largar o emprego ou terminar um relacionamento, jogavam uma moeda para ajudar a decidir. Cara, muda. Coroa, fica como está.
 
-Quem recebeu da moeda a ordem de mudar mudou com mais frequência. E, seis meses depois, estava mais feliz do que quem recebeu a ordem de ficar.
+Quem recebeu da moeda a ordem de mudar mudou com mais frequência. E, seis meses depois, estava mais feliz do que quem recebeu a ordem de ficar. Na pergunta sobre o emprego, o efeito aponta para o mesmo lado, mas é bem mais fraco: a moeda mudou a decisão de poucas pessoas, e a estimativa é imprecisa.
 
 A conclusão de Levitt é que, diante de escolhas grandes, somos cautelosos demais. Vale a ressalva: eram voluntários, e a felicidade foi declarada por eles mesmos. Ainda assim, é um resultado difícil de ignorar, e vale justamente para quem está em dúvida a ponto de deixar uma moeda decidir. Ou seja, para quem está lendo este texto.
 
@@ -151,6 +151,8 @@ Você pode escolher a sua data. Abra uma nota hoje, antes do próximo mês ruim,
 | 7 | Declarar o desempate | Parágrafo de abertura de "Escreva hoje…": sinais dos dois lados (exemplo ficar 2 + ir 1); "Para o empate, a lista não basta. Precisa de uma regra." |
 | 8 | `diag-01` revisado | Alt-text de uma curva só, dois trechos rotulados, sem números. |
 | 9 | Justaposição | "Mick Jones não escolheu a data da própria saída. Em setembro de 1983, quem escolheu foram os parceiros de banda, Joe Strummer e Paul Simonon. Em 1991, a pergunta que ele cantava chegou ao primeiro lugar." → "Você pode escolher a sua data." Sem moral. Datas: etapa 7. |
+
+**Pós-5a (bloqueante Levitt, autor: agregado + qualificar emprego):** acrescentada a frase "Na pergunta sobre o emprego, o efeito aponta para o mesmo lado, mas é bem mais fraco: a moeda mudou a decisão de poucas pessoas, e a estimativa é imprecisa." depois de "…recebeu a ordem de ficar."
 
 Alertas para a etapa 6: novas construções de contraste ("Não é destino, e não diz…"; "isso
 não é humor de sexta-feira. É a melhor previsão…"); o glossário pendente do v1 (meta-análise,

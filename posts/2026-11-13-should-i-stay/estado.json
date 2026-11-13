@@ -11,10 +11,12 @@
     "Crítica 5: sinal ir 3 = skill que nunca vai virar coqueiro, com a taxa de câmbio (autor, pós-etapa 5)",
     "Crítica 6: Oremland fica, alcance ajustado (autor, pós-etapa 5)",
     "Crítica 7: regra de estado e data declarada como desempate (autor, pós-etapa 5)",
-    "Crítica 9: fecho por justaposição (autor, pós-etapa 5)"
+    "Crítica 9: fecho por justaposição (autor, pós-etapa 5)",
+    "Etapa 5a — bloqueante Levitt: agregado + qualificar emprego (autor)"
   ],
   "pendencias": [
-    "Rascunho _arquivo/drafts/2026-11-13_should-i-stay.md não versionado: autor commita em main (escopo arquivo)"
+    "Rascunho _arquivo/drafts/2026-11-13_should-i-stay.md não versionado: autor commita em main (escopo arquivo)",
+    "Etapa 5a: 12 itens de atenção e 5 nitpicks em _revisoes/2026-11-13_2026-11-13-should-i-stay_quant.md, para o gate"
   ],
   "commit_inicial": "a6d576c",
   "slug": "2026-11-13-should-i-stay",
