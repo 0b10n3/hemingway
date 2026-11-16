@@ -1,0 +1,276 @@
+{
+ "audience": "everyone",
+ "audience_before_archived": null,
+ "canonical_url": "https://syntaxis.substack.com/p/dividir-para-nao-correr-risco",
+ "default_comment_sort": null,
+ "editor_v2": false,
+ "exempt_from_archive_paywall": false,
+ "free_unlock_required": false,
+ "id": 212698921,
+ "podcast_art_url": null,
+ "podcast_duration": null,
+ "podcast_preview_upload_id": null,
+ "podcast_upload_id": null,
+ "podcast_url": null,
+ "post_date": "2026-08-25T20:15:51.963Z",
+ "updated_at": "2026-08-25T20:15:51.409Z",
+ "publication_id": 2968718,
+ "search_engine_description": null,
+ "search_engine_title": null,
+ "section_id": 442561,
+ "should_send_free_preview": false,
+ "show_guest_bios": true,
+ "slug": "dividir-para-nao-correr-risco",
+ "social_title": null,
+ "subtitle": "Não é favor, é spread. E o risco que sobra nunca desaparece, só muda de endereço.",
+ "teaser_post_eligible": true,
+ "title": "Dividir para não correr risco",
+ "type": "newsletter",
+ "video_upload_id": null,
+ "write_comment_permissions": "everyone",
+ "meter_type": "none",
+ "live_stream_id": null,
+ "is_published": true,
+ "restacks": 2,
+ "reactions": {
+  "❤": 5
+ },
+ "top_exclusions": [],
+ "pins": [],
+ "section_pins": [],
+ "has_shareable_clips": false,
+ "previous_post_slug": "o-papel-do-cdb-na-transformacao-de",
+ "next_post_slug": "o-agro-e-pop-o-agro-e-produto-financeiro",
+ "cover_image": "https://substackcdn.com/image/fetch/$s_!Aslq!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8996f5da-c5ec-4f3e-96ad-e8c3194d5145_2752x1536.jpeg",
+ "cover_image_is_square": false,
+ "cover_image_is_explicit": false,
+ "videoUpload": null,
+ "podcastFields": {
+  "post_id": 212698921,
+  "podcast_episode_number": null,
+  "podcast_season_number": null,
+  "podcast_episode_type": null,
+  "should_syndicate_to_other_feed": null,
+  "syndicate_to_section_id": null,
+  "hide_from_feed": false,
+  "free_podcast_url": null,
+  "free_podcast_duration": null,
+  "preview_contains_ad": false,
+  "was_imported_self_serve_sync": false,
+  "draft_free_podcast_url": null,
+  "draft_free_podcast_duration": null
+ },
+ "podcastUpload": null,
+ "podcastPreviewUpload": null,
+ "voiceover_upload_id": null,
+ "voiceoverUpload": null,
+ "has_voiceover": false,
+ "description": "Não é favor, é spread. E o risco que sobra nunca desaparece, só muda de endereço.",
+ "body_html": "<p>Novembro de 2025. O Banco Central decreta a liquidação extrajudicial do Banco Master. A instituição tinha crescido rápido, captando via <strong>CDB</strong> (Certificado de Depósito Bancário), <strong>LCI</strong> (Letra de Crédito Imobiliário) e <strong>LCA</strong> (Letra de Crédito do Agronegócio) com taxas acima da média de mercado.</p><p>O banco quebrou.</p><p>Quem tinha título lá dentro descobriu, na prática, uma coisa que sempre esteve escrita em letra miúda: o <strong>FGC</strong> (Fundo Garantidor de Créditos) precisou desembolsar algo perto de R$ 40,6 bilhões para ressarcir quem estava protegido dentro do limite, um dos maiores pagamentos da história do fundo.</p><p>Guardo esse episódio para o meio do texto, mas confesso que ele mudou a forma como respondo a uma pergunta que já era antiga antes dele acontecer. Toda vez que alguém chega até mim com perguntas sobre uma LCI, a dele ou a de um cliente, a primeira coisa que pergunto não é <em>quanto rende</em>. É: você sabe por que, exatamente, esse título existe?</p><p>Por que um banco, que já tem um monte de outras fontes de captação, se dá ao trabalho de estruturar um produto específico, com lastro (a garantia por trás do título) em crédito imobiliário, isenção de Imposto de Renda (IR) e proteção do FGC, e oferecer isso a você?</p><p>A resposta que mais se ouve por aí é bonitinha: o banco tem uns créditos imobiliários e resolve compartilhar um pedaço da rentabilidade com o investidor.</p><p>É a versão <em>hollywoodiana</em> da renda fixa, com banco camarada e investidor mimado. Soa bem. E é errada, ou pelo menos incompleta o suficiente para atrapalhar quem está aprendendo.</p><p>A LCI não é favor.</p><p>É intermediação financeira fazendo o que sempre fez: o banco pega um crédito que rende X, capta de você a um custo menor que X, fica com a diferença (o <em>spread</em>, o pedaço que ele embolsa por bancar a estrutura) e empurra parte do risco dessa operação para quem comprou o título. Só que <em>parte do risco</em> esconde a pergunta mais interessante do texto inteiro: risco de quê, exatamente? A resposta não é óbvia, e é o motivo de eu ter guardado o Master para mais adiante.</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!Aslq!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8996f5da-c5ec-4f3e-96ad-e8c3194d5145_2752x1536.jpeg\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!Aslq!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8996f5da-c5ec-4f3e-96ad-e8c3194d5145_2752x1536.jpeg 424w, https://substackcdn.com/image/fetch/$s_!Aslq!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8996f5da-c5ec-4f3e-96ad-e8c3194d5145_2752x1536.jpeg 848w, https://substackcdn.com/image/fetch/$s_!Aslq!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8996f5da-c5ec-4f3e-96ad-e8c3194d5145_2752x1536.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!Aslq!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8996f5da-c5ec-4f3e-96ad-e8c3194d5145_2752x1536.jpeg 1456w\" sizes=\"auto, 100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!Aslq!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8996f5da-c5ec-4f3e-96ad-e8c3194d5145_2752x1536.jpeg\" width=\"1456\" height=\"813\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/8996f5da-c5ec-4f3e-96ad-e8c3194d5145_2752x1536.jpeg&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:813,&quot;width&quot;:1456,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:1740628,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/jpeg&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://syntaxis.substack.com/i/212698921?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8996f5da-c5ec-4f3e-96ad-e8c3194d5145_2752x1536.jpeg&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!Aslq!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8996f5da-c5ec-4f3e-96ad-e8c3194d5145_2752x1536.jpeg 424w, https://substackcdn.com/image/fetch/$s_!Aslq!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8996f5da-c5ec-4f3e-96ad-e8c3194d5145_2752x1536.jpeg 848w, https://substackcdn.com/image/fetch/$s_!Aslq!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8996f5da-c5ec-4f3e-96ad-e8c3194d5145_2752x1536.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!Aslq!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8996f5da-c5ec-4f3e-96ad-e8c3194d5145_2752x1536.jpeg 1456w\" sizes=\"auto, 100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p></p><h2>O que é a LCI, rapidamente</h2><p>A LCI (Letra de Crédito Imobiliário) foi criada pela <strong>Lei nº 10.931/2004</strong>.</p><p>Podem emiti-la bancos comerciais, bancos múltiplos com carteira imobiliária, a Caixa, sociedades de crédito imobiliário, associações de poupança e empréstimo, companhias hipotecárias e outras instituições autorizadas pelo Banco Central. Desde julho de 2025 (Resolução BCB nº 471/2025), as SCFI (Sociedades de Crédito, Financiamento e Investimento, as financeiras) também entraram nesse grupo.</p><p>A LCI <strong>precisa ser lastreada por créditos imobiliários</strong> garantidos por hipoteca ou por alienação fiduciária (a garantia em que o imóvel fica em nome do credor até a quitação da dívida): o banco não emite no vazio; precisa ter no ativo crédito imobiliário suficiente para sustentar aquilo.</p><p>Para você, pessoa física, o rendimento é <strong>isento de Imposto de Renda</strong> (Lei nº 11.033/2004).</p><p>Isso não mudou nem depois da novela da MP (Medida Provisória) 1.303/2025, que chegou a propor tributar novas emissões e caducou sem virar lei.</p><p>E você conta com o <strong>FGC até R$ 250 mil por CPF, por instituição, com teto de R$ 1 milhão a cada 4 anos</strong>.</p><p>A liquidez varia: o CMN (Conselho Monetário Nacional) fixou carência mínima de seis meses para LCI pós-fixada ou prefixada, mantendo 36 meses quando o título é atualizado por índice de preços, como o IPCA (Índice Nacional de Preços ao Consumidor Amplo).</p><p>Até aqui, é o que qualquer material de corretora te conta. O interessante começa agora.</p><h2>Por que o banco emite LCI</h2><p>Aqui vai a pergunta que separa quem entende o produto de quem só sabe vendê-lo: quando você compra uma LCI, de quem é o risco que você está assumindo?</p><p>A resposta intuitiva (o risco do crédito imobiliário que lastreia o título) está errada, ou imprecisa demais para ser útil. </p><p>A razão é estrutural, e vale abrir o compasso.</p><p>Securitizar é transformar um fluxo de recebíveis futuros num título negociável hoje, separando quem originou o crédito de quem financia e carrega o risco dele no longo prazo.</p><p>Essa separação é exatamente o que diferencia os três modelos que existem, no Brasil, para <strong>títulos lastreados em crédito imobiliário</strong>:</p><ol><li><p>No <strong>CRI</strong> (Certificado de Recebíveis Imobiliários), uma companhia securitizadora, que não é banco, compra os recebíveis imobiliários de quem originou o crédito. Essa cessão (a venda do crédito de um dono para outro) tira o crédito do balanço de quem originou e cria segregação patrimonial: o CRI é pago pelo desempenho daqueles recebíveis específicos. Quem investe em CRI está exposto ao risco do devedor final, e não tem FGC.</p></li><li><p>Na <strong>LIG</strong> (Letra Imobiliária Garantida, Lei nº 13.097/2015), o banco emite o título, mas separa uma carteira de ativos em regime de patrimônio de afetação (um patrimônio segregado, que sobrevive à falência do banco emissor). É o duplo recurso que caracteriza um <em>covered bond</em> (modelo de título bancário com garantia dupla, comum na Europa) de verdade: o investidor pode acionar tanto o banco quanto a carteira segregada.</p></li><li><p>Na <strong>LCI</strong>, nada disso acontece. O crédito imobiliário fica no balanço do banco, como exigência regulatória de lastro, mas não existe segregação patrimonial em favor exclusivo de quem comprou o título. A LCI é, na prática, uma dívida comum do banco, só que lastreada e isenta de IR.</p></li></ol><p>Ou seja: a LCI não é securitização, porque não há cessão nem segregação externa do crédito. Também não é um <em>covered bond </em>completo como a LIG, porque não há patrimônio de afetação. É um título de dívida do próprio emissor. O risco que você assume, ao comprar uma LCI, é primariamente o risco de crédito do banco, mitigado até o teto do FGC, e não o risco direto de quem tomou o financiamento imobiliário lá na ponta. Isso não anula a lógica de política pública por trás da isenção, o Estado quer baratear crédito imobiliário, e o produto cumpre esse papel, mas responde a uma pergunta diferente da que abriu este texto: por que o produto é incentivado, não de quem é o risco quando você compra.</p><p>Isso não derruba a ideia de que existe transferência de risco.</p><p>Thomas Ho e Anthony Saunders, num artigo de 1981 no Journal of Financial and Quantitative Analysis que busca explicar o spread bancário, descrevem o banco como um <em>dealer</em> avesso a risco: um intermediário que carrega, no meio do caminho, a incerteza do descasamento entre o que capta e o que empresta, e é remunerado exatamente por isso.</p><p>Com a LCI, o banco pega um crédito que rende mais, capta de você a um custo menor, embolsa o ‘spread’. O preço que você paga por participar é ficar exposto à saúde financeira daquele banco específico, dentro do limite que o FGC cobre.</p><p>Voltando a novembro de 2025: o Master captava CDB, LCI e LCA pagando acima do mercado. Cresceu rápido. Quebrou. O FGC pagou. Nenhum leitor deste texto precisa entrar em pânico com a própria LCI por causa disso, já que o fundo funcionou e quem estava dentro do limite foi ressarcido. Mas o episódio é a prova mais concreta que existe hoje de que ‘dividir para não correr risco’ não é força de expressão: é literalmente o que a estrutura faz, e o risco dividido tem endereço, o do banco emissor.</p><p>A resposta do regulador veio poucos meses depois. Em abril de 2026, o CMN aprovou um pacote: um teto calculado a partir da qualidade e da diversificação dos ativos do banco. Acima dele, a instituição é obrigada a alocar em títulos públicos federais o excedente captado em produtos garantidos pelo FGC, em vez de usar livremente. </p><p>Na prática, o mercado viu a resolução como resposta direta a um problema real: bancos vinham usando a garantia do FGC como trampolim para captar acima do preço de mercado — o mesmo mecanismo que este texto descreve, agora batizado oficialmente de Ativo de Referência. A regra entrou em vigor em junho de 2026, mas com o excedente exigido crescendo aos poucos, de 5% até 100% só em 2028: é cedo para esperar que o estoque de LCI já mostre esse freio.</p><h2>Quanto a LCI movimenta no mercado</h2><p>Fora da teoria, dá para ver essa captação em números, e o crescimento é relevante demais para ser tratado como nicho. Veja o gráfico abaixo:</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!E66J!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2bd73c23-b9af-4f27-8b6f-5be21576174e_1800x1120.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!E66J!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2bd73c23-b9af-4f27-8b6f-5be21576174e_1800x1120.png 424w, https://substackcdn.com/image/fetch/$s_!E66J!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2bd73c23-b9af-4f27-8b6f-5be21576174e_1800x1120.png 848w, https://substackcdn.com/image/fetch/$s_!E66J!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2bd73c23-b9af-4f27-8b6f-5be21576174e_1800x1120.png 1272w, https://substackcdn.com/image/fetch/$s_!E66J!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2bd73c23-b9af-4f27-8b6f-5be21576174e_1800x1120.png 1456w\" sizes=\"auto, 100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!E66J!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2bd73c23-b9af-4f27-8b6f-5be21576174e_1800x1120.png\" width=\"1456\" height=\"906\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/2bd73c23-b9af-4f27-8b6f-5be21576174e_1800x1120.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:906,&quot;width&quot;:1456,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:174863,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://syntaxis.substack.com/i/212698921?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2bd73c23-b9af-4f27-8b6f-5be21576174e_1800x1120.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!E66J!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2bd73c23-b9af-4f27-8b6f-5be21576174e_1800x1120.png 424w, https://substackcdn.com/image/fetch/$s_!E66J!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2bd73c23-b9af-4f27-8b6f-5be21576174e_1800x1120.png 848w, https://substackcdn.com/image/fetch/$s_!E66J!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2bd73c23-b9af-4f27-8b6f-5be21576174e_1800x1120.png 1272w, https://substackcdn.com/image/fetch/$s_!E66J!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2bd73c23-b9af-4f27-8b6f-5be21576174e_1800x1120.png 1456w\" sizes=\"auto, 100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p><em>Estoque de LCI no Brasil, R$ bilhões (B3/Bora Investir; dez/2020 é aproximação própria a partir de fonte agregada). O ponto laranja marca o recuo após o aperto regulatório de fev/2024 (Resoluções CMN 5.118/5.119); o trecho tracejado não tem dado mensal confirmado.</em></p><p>O estoque de LCI saiu de R$ 141 bilhões ao final de 2020 para R$ 544 bilhões em junho de 2026: quase 4 vezes em menos de seis anos.</p><p> A trajetória não foi uma linha reta. Em fevereiro de 2024, o CMN apertou as regras de lastro para LCI, LCA, LIG, CRI e CRA , e o estoque de LCI recuou de R$ 373 bilhões em janeiro de 2024 para R$ 362 bilhões em abril do mesmo ano. </p><p>O estoque fechou 2024 em R$ 392,8 bilhões — a recuperação já havia começado antes do fim do ano, mas ganhou força mesmo foi em 2025, em parte pela MP 1.303/2025, que chegou a propor tributar novas emissões de LCI e LCA e disparou uma corrida de investidores para entrar antes da mudança, em parte pela redução da carência mínima trazida pela Resolução CMN nº 5.215/2025. </p><p>Em participação, a LCI ainda é modesta perto do CDB, mas já não é marginal. A</p><p>o final de 2025, o estoque de produtos de captação bancária registrados na B3 (CDB, LCA, LCI e Letra Financeira) somava R$ 4,9 trilhões. Nesse conjunto, o CDB concentrava R$ 2,8 trilhões (cerca de 57%), a LCA R$ 599,9 bilhões e a LCI seus R$ 508,8 bilhões, o que coloca a LCI perto de 10% desse total (cálculo próprio a partir dos números acima. </p><p>O dado mais relevante para a tese deste texto não é o tamanho relativo, e sim a velocidade: entre os quatro produtos, foi a LCI que mais cresceu em 2025. Se intermediação lastreada em crédito imobiliário fosse um favor esporádico, não seria o instrumento de captação que mais ganha espaço no balanço dos bancos ano após ano.</p><h2>Onde a LCI entra no seu portfólio</h2><p>Sabendo o que você está comprando (dívida do banco, lastreada, isenta de IR, com FGC até o teto), a pergunta de portfólio fica mais simples de responder.</p><p>Como título isento, a LCI precisa ser comparada a um CDB pelo cálculo de <em>gross-up</em> (a conta que converte um rendimento isento numa taxa bruta equivalente, para comparar com um título tributado): taxa bruta equivalente = rendimento líquido da LCI ÷ (1 - alíquota de IR que incidiria em um CDB de prazo parecido). </p><p>Uma LCI a 90% do CDI (Certificado de Depósito Interbancário, a taxa de referência da renda fixa pós-fixada) costuma equivaler a um CDB de aproximadamente 106% a 116% do CDI, dependendo do prazo e da alíquota regressiva aplicável. Em prazos curtos e intermediários, essa vantagem tende a favorecer a LCI. </p><p>A partir de dois anos (720 dias), a alíquota do CDB já bateu no piso da tabela regressiva, 15%, e não cai mais — a partir daí, quem decide a comparação não é mais o imposto, é a taxa que cada banco está oferecendo em CDI% para cada produto, naquele prazo específico. Não é incomum, em prazos muito longos, um CDB oferecer um CDI% nominal mais alto que a LCI equivalente e virar a escolha melhor — mas isso é decisão de precificação de cada banco, não do Fisco.</p><p>Em risco relativo dentro da renda fixa, a LCI fica no mesmo patamar conservador que o CDB : banco como contraparte, FGC como rede de segurança até o teto. Isso a coloca abaixo, em risco, de um CRI ou CRA (sem FGC, risco do devedor final, potencial de retorno maior) e em posição intermediária frente a uma LIG (dupla garantia, mercado secundário ainda pouco líquido no Brasil).</p><p>A implicação prática para quem monta ou revisa uma carteira: tratar a LCI como renda fixa isenta e segura está certo, desde que <em>segura</em> seja lido como risco do banco emissor dentro do teto do FGC, e não como ausência de risco. Para valores acima desse teto, diversificar entre emissores deixa de ser boa prática e vira, literalmente, a única forma de manter a mesma proteção.</p><h2>O risco tem endereço</h2><p>A LCI é um bom ponto de partida justamente porque parece simples e não é. Ela mostra, em miniatura, a lógica que vai aparecer de novo, com estruturas mais sofisticadas, quando chegarmos ao CRI: banco (ou securitizadora) captura <em>spread</em>, risco migra para quem financiou a operação, e o preço desse risco está embutido na taxa que você recebe.</p><p>Praticamente todo o raciocínio deste texto (de quem é o risco, como ele se compara ao CRI e à LIG, como encaixar isso em portfólio) se aplica quase sem alteração à LCA. Troque ‘crédito imobiliário’ por ‘crédito do agronegócio’ e a estrutura, a base legal (mesma Lei nº 11.033/2004 para a isenção) e a lógica de captação são as mesmas.</p><p>Não é favor. É <em>spread</em>. </p><p>E o risco que sobra nunca desaparece: só muda de endereço. Se este texto te fez olhar sua própria LCI (ou a de um cliente) de um jeito diferente, manda para quem também vive comparando percentual do CDI sem nunca ter perguntado de quem é o risco do outro lado.</p><h2>Para continuar aprendendo</h2><ul><li><p>Lei nº 10.931/2004: cria a LCI, define quem pode emiti-la e exige o lastro em crédito imobiliário garantido por hipoteca ou alienação fiduciária.</p></li><li><p>Lei nº 9.514/1997: base da securitização imobiliária e do CRI, ponto de partida para o próximo texto. Parte do regime fiduciário que ela criou foi revogada e atualizada pela Lei nº 14.430/2022 (marco legal das securitizadoras) — vale checar na etapa de pesquisa do próximo post.</p></li><li><p>Vedrossi, Alessandro Olzon. “A securitização de recebíveis imobiliários: uma alternativa de aporte de capitais para empreendimentos residenciais no Brasil.” Dissertação de Mestrado, Escola Politécnica da USP, 2002: referência acadêmica de base sobre securitização imobiliária no Brasil.</p></li><li><p>Ho, Thomas S. Y.; Saunders, Anthony. “The Determinants of Bank Interest Margins: Theory and Empirical Evidence.” Journal of Financial and Quantitative Analysis, v. 16, n. 4, 1981, p. 581-600: o modelo do banco como ‘dealer’ avesso a risco, base teórica do ‘spread’ bancário citada no bloco central.</p></li><li><p>B3/Bora Investir, “CDB, LCI, LCA e LF: estoque de produtos de captação bancária na B3 cresceu 17% em 2025”, e Suno, cobertura do release B3 do 1º semestre de 2026: fonte da série de estoque de LCI (dez/2020-jun/2026) usada na seção “Quanto a LCI movimenta no mercado”.</p></li><li><p>Liquidação do Banco Master (nov/2025) e Resolução CMN nº 5.295/2026 (Ativo de Referência): o caso real que mostra a transferência de risco descrita neste post em funcionamento.</p></li></ul>",
+ "has_dynamic_content": false,
+ "truncated_body_text": "Novembro de 2025. O Banco Central decreta a liquidação extrajudicial do Banco Master. A instituição tinha crescido rápido, captando via CDB (Certificado de Depósito Bancário), LCI (Letra de Crédito Imobiliário) e LCA (Letra de Crédito do Agronegócio) com taxas acima da média de mercado.",
+ "wordcount": 2489,
+ "post_preview_limit": null,
+ "language": "pt",
+ "postTags": [
+  {
+   "id": "03b212af-441c-484b-a74b-592ea4210252",
+   "publication_id": 2968718,
+   "name": "Educação Financeira",
+   "slug": "educacao-financeira",
+   "hidden": false
+  },
+  {
+   "id": "32913b8f-3dce-4ff9-bfea-17dc0715a87d",
+   "publication_id": 2968718,
+   "name": "Investimentos",
+   "slug": "investimentos",
+   "hidden": false
+  },
+  {
+   "id": "4cfe37a6-d47d-4ceb-9400-f7ccf3d1d0ee",
+   "publication_id": 2968718,
+   "name": "Renda Fixa",
+   "slug": "renda-fixa",
+   "hidden": false
+  },
+  {
+   "id": "f5b4acc9-f24d-4a35-af16-f7c348f3ec9a",
+   "publication_id": 2968718,
+   "name": "Instrumentos Financeiros",
+   "slug": "instrumentos-financeiros",
+   "hidden": false
+  }
+ ],
+ "postCountryBlocks": [],
+ "disable_drop_cap": false,
+ "cover_image_crop": null,
+ "headlineTest": null,
+ "coverImagePalette": {
+  "Vibrant": {
+   "rgb": [
+    72,
+    222,
+    126
+   ],
+   "population": 6
+  },
+  "DarkVibrant": {
+   "rgb": [
+    30,
+    90,
+    54
+   ],
+   "population": 63
+  },
+  "LightVibrant": {
+   "rgb": [
+    142.65833333333336,
+    234.74166666666665,
+    175.80833333333334
+   ],
+   "population": 0
+  },
+  "Muted": {
+   "rgb": [
+    64,
+    136,
+    76
+   ],
+   "population": 2
+  },
+  "DarkMuted": {
+   "rgb": [
+    44,
+    87,
+    61
+   ],
+   "population": 13
+  },
+  "LightMuted": {
+   "rgb": [
+    23.37500000000003,
+    129.62499999999997,
+    61.625
+   ],
+   "population": 0
+  }
+ },
+ "publishedBylines": [
+  {
+   "id": 136725718,
+   "name": "Silvano Junior",
+   "handle": "saapjr",
+   "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/4d24c48d-d4f2-406d-ab80-902631955776_640x640.jpeg",
+   "bio": "Capixaba Matemático (MsC) Cientista de Dados e Analista Quantitativo",
+   "profile_set_up_at": "2023-03-28T04:01:23.570Z",
+   "reader_installed_at": "2023-03-28T04:05:16.777Z",
+   "publicationUsers": [
+    {
+     "id": 3019355,
+     "user_id": 136725718,
+     "publication_id": 2968718,
+     "role": "admin",
+     "public": true,
+     "is_primary": true,
+     "publication": {
+      "id": 2968718,
+      "name": "Syntaxis",
+      "subdomain": "syntaxis",
+      "custom_domain": null,
+      "custom_domain_optional": false,
+      "hero_text": "A Syntaxis te ajuda a desenvolver as skills que hoje separam quem estagia de quem é efetivado, e quem é efetivado de quem vira referência.",
+      "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/f1431d70-c6a3-4eb3-9219-23ab9997436b_320x320.png",
+      "author_id": 136725718,
+      "primary_user_id": 136725718,
+      "theme_var_background_pop": "#FF6719",
+      "created_at": "2024-09-03T01:29:04.169Z",
+      "email_from_name": "SYNTAXIS",
+      "copyright": "Silvano Junior",
+      "founding_plan_name": "Membro Fundador",
+      "community_enabled": true,
+      "invite_only": false,
+      "payments_state": "enabled",
+      "language": "pt-br",
+      "explicit": false,
+      "homepage_type": "newspaper",
+      "is_personal_mode": false,
+      "logo_url_wide": null
+     }
+    }
+   ],
+   "is_guest": false,
+   "bestseller_tier": null,
+   "status": {
+    "bestsellerTier": null,
+    "subscriberTier": null,
+    "leaderboard": null,
+    "vip": false,
+    "badge": null,
+    "subscriber": null
+   }
+  }
+ ],
+ "reaction": null,
+ "reaction_count": 5,
+ "comment_count": 0,
+ "child_comment_count": 0,
+ "vg_wort_pixel_url": null,
+ "is_geoblocked": false,
+ "sponsorshipEditionBanner": null,
+ "is_editor_preview": false,
+ "hasCashtag": false,
+ "unlockedWithIP": false,
+ "unlockedWithCampaign": false,
+ "themeVariables": {
+  "color_theme_bg_pop": "#1B6A45",
+  "background_pop": "#1B6A45",
+  "color_theme_bg_web": "#F7F7F5",
+  "cover_bg_color": "#F7F7F5",
+  "cover_bg_color_secondary": "#e8e8e6",
+  "background_pop_darken": "#165638",
+  "print_on_pop": "#ffffff",
+  "color_theme_bg_pop_darken": "#165638",
+  "color_theme_print_on_pop": "#ffffff",
+  "color_theme_bg_pop_20": "rgba(27, 106, 69, 0.2)",
+  "color_theme_bg_pop_30": "rgba(27, 106, 69, 0.3)",
+  "print_pop": "#1b6a45",
+  "color_theme_accent": "#1b6a45",
+  "cover_print_primary": "#363737",
+  "cover_print_secondary": "#757575",
+  "cover_print_tertiary": "#b6b6b6",
+  "cover_border_color": "#1b6a45",
+  "font_family_body_preset": "'SF Pro Display', -apple-system, system-ui, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+  "font_weight_body_preset": 400,
+  "font_preset_body": "sans",
+  "home_hero": "feature-media",
+  "home_posts": "grid",
+  "home_show_top_posts": true,
+  "web_bg_color": "#F7F7F5",
+  "background_contrast_1": "#e8e8e6",
+  "background_contrast_2": "#d6d6d4",
+  "background_contrast_3": "#b1b1b0",
+  "background_contrast_4": "#8e8e8d",
+  "background_contrast_5": "#4e4e4d",
+  "color_theme_bg_contrast_1": "#e8e8e6",
+  "color_theme_bg_contrast_2": "#d6d6d4",
+  "color_theme_bg_contrast_3": "#b1b1b0",
+  "color_theme_bg_contrast_4": "#8e8e8d",
+  "color_theme_bg_contrast_5": "#4e4e4d",
+  "color_theme_bg_elevated": "#f7f7f5",
+  "color_theme_bg_elevated_secondary": "#e8e8e6",
+  "color_theme_bg_elevated_tertiary": "#d6d6d4",
+  "color_theme_detail": "#dededd",
+  "background_contrast_pop": "rgba(27, 106, 69, 0.4)",
+  "color_theme_bg_contrast_pop": "rgba(27, 106, 69, 0.4)",
+  "theme_bg_is_dark": "0",
+  "print_on_web_bg_color": "#363737",
+  "print_secondary_on_web_bg_color": "#838483",
+  "background_pop_rgb": "27, 106, 69",
+  "color_theme_bg_pop_rgb": "27, 106, 69",
+  "color_theme_accent_rgb": "27, 106, 69"
+ },
+ "oneOffUnlockOffer": {
+  "eligible": false
+ }
+}

@@ -1,0 +1,311 @@
+{
+ "audience": "everyone",
+ "audience_before_archived": null,
+ "canonical_url": "https://syntaxis.substack.com/p/o-agro-e-pop-o-agro-e-produto-financeiro",
+ "default_comment_sort": null,
+ "editor_v2": false,
+ "exempt_from_archive_paywall": false,
+ "free_unlock_required": false,
+ "id": 216594000,
+ "podcast_art_url": null,
+ "podcast_duration": null,
+ "podcast_preview_upload_id": null,
+ "podcast_upload_id": null,
+ "podcast_url": null,
+ "post_date": "2026-09-20T15:39:39.954Z",
+ "updated_at": "2026-09-20T15:39:39.211Z",
+ "publication_id": 2968718,
+ "search_engine_description": null,
+ "search_engine_title": null,
+ "section_id": 442561,
+ "should_send_free_preview": false,
+ "show_guest_bios": true,
+ "slug": "o-agro-e-pop-o-agro-e-produto-financeiro",
+ "social_title": null,
+ "subtitle": "Transformando produção agrícola em produto financeiro.",
+ "teaser_post_eligible": true,
+ "title": "O Agro é POP, o Agro é Produto Financeiro!",
+ "type": "newsletter",
+ "video_upload_id": null,
+ "write_comment_permissions": "everyone",
+ "meter_type": "none",
+ "live_stream_id": null,
+ "is_published": true,
+ "restacks": 1,
+ "reactions": {
+  "❤": 3
+ },
+ "top_exclusions": [],
+ "pins": [],
+ "section_pins": [],
+ "has_shareable_clips": false,
+ "previous_post_slug": "dividir-para-nao-correr-risco",
+ "next_post_slug": "a-anatomia-e-o-verdadeiro-risco-do",
+ "cover_image": "https://substackcdn.com/image/fetch/$s_!sgIi!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F71e9385f-a8a9-4989-aaef-248b1bd229e8_2752x1536.jpeg",
+ "cover_image_is_square": false,
+ "cover_image_is_explicit": false,
+ "videoUpload": null,
+ "podcastFields": {
+  "post_id": 216594000,
+  "podcast_episode_number": null,
+  "podcast_season_number": null,
+  "podcast_episode_type": null,
+  "should_syndicate_to_other_feed": null,
+  "syndicate_to_section_id": null,
+  "hide_from_feed": false,
+  "free_podcast_url": null,
+  "free_podcast_duration": null,
+  "preview_contains_ad": false,
+  "was_imported_self_serve_sync": false,
+  "draft_free_podcast_url": null,
+  "draft_free_podcast_duration": null
+ },
+ "podcastUpload": null,
+ "podcastPreviewUpload": null,
+ "voiceover_upload_id": null,
+ "voiceoverUpload": null,
+ "has_voiceover": false,
+ "description": "Transformando produção agrícola em produto financeiro.",
+ "body_html": "<p>No texto sobre LCI, terminei sugerindo que, para entender a LCA, poderíamos trocar <em>imobiliário</em> por <em>agronegócio</em>. É um bom começo, mas não suficiente.</p><p>A estrutura do produto é parecida. Mudam o lastro, a regra de direcionamento, a trajetória de preço e, principalmente, a forma de fazer a conta. E muitos erros de análise sobre LCA nascem de misturar três perguntas diferentes:</p><ul><li><p>quanto ela custa para quem emite;</p></li><li><p>quanto a LCA rende para quem compra;</p></li><li><p>quanto ela vale hoje.</p></li></ul><p>Este texto responde uma de cada vez, começando pela mais básica: o que exatamente você compra quando compra uma LCA?</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!sgIi!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F71e9385f-a8a9-4989-aaef-248b1bd229e8_2752x1536.jpeg\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!sgIi!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F71e9385f-a8a9-4989-aaef-248b1bd229e8_2752x1536.jpeg 424w, https://substackcdn.com/image/fetch/$s_!sgIi!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F71e9385f-a8a9-4989-aaef-248b1bd229e8_2752x1536.jpeg 848w, https://substackcdn.com/image/fetch/$s_!sgIi!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F71e9385f-a8a9-4989-aaef-248b1bd229e8_2752x1536.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!sgIi!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F71e9385f-a8a9-4989-aaef-248b1bd229e8_2752x1536.jpeg 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!sgIi!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F71e9385f-a8a9-4989-aaef-248b1bd229e8_2752x1536.jpeg\" width=\"1456\" height=\"813\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/71e9385f-a8a9-4989-aaef-248b1bd229e8_2752x1536.jpeg&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:813,&quot;width&quot;:1456,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:2981880,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/jpeg&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:false,&quot;topImage&quot;:true,&quot;internalRedirect&quot;:&quot;https://syntaxis.substack.com/i/216594000?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F71e9385f-a8a9-4989-aaef-248b1bd229e8_2752x1536.jpeg&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!sgIi!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F71e9385f-a8a9-4989-aaef-248b1bd229e8_2752x1536.jpeg 424w, https://substackcdn.com/image/fetch/$s_!sgIi!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F71e9385f-a8a9-4989-aaef-248b1bd229e8_2752x1536.jpeg 848w, https://substackcdn.com/image/fetch/$s_!sgIi!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F71e9385f-a8a9-4989-aaef-248b1bd229e8_2752x1536.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!sgIi!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F71e9385f-a8a9-4989-aaef-248b1bd229e8_2752x1536.jpeg 1456w\" sizes=\"100vw\" fetchpriority=\"high\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><h2>O que é uma LCA</h2><p>A Letra de Crédito do Agronegócio é um título de renda fixa <strong>emitido por uma instituição financeira</strong>, que representa uma promessa de pagamento em dinheiro e fica vinculado a direitos creditórios do agronegócio. Foi criada pela Lei nº 11.076, de 30 de dezembro de 2004, que também instituiu a CRA (Certificado de Recebíveis do Agronegócio).</p><p><strong>Sim, o título é do agronegócio, mas emitido por uma instituição financeira.</strong></p><p>Em termos simples: o investidor empresta dinheiro ao banco, o banco emite a LCA como comprovante dessa dívida e mantém <strong>uma carteira de créditos ao agro vinculada à emissão</strong>.</p><p>Existem, portanto, <em>duas relações de crédito</em> distintas:</p><ol><li><p>o crédito do banco para o agronegócio, que forma o lastro;</p></li><li><p>o crédito do investidor contra o banco, representado pela LCA.</p></li></ol><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!6ORS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F84f9cd73-3bb3-46ba-bc3d-9a32b72e2a6e_2200x1040.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!6ORS!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F84f9cd73-3bb3-46ba-bc3d-9a32b72e2a6e_2200x1040.png 424w, https://substackcdn.com/image/fetch/$s_!6ORS!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F84f9cd73-3bb3-46ba-bc3d-9a32b72e2a6e_2200x1040.png 848w, https://substackcdn.com/image/fetch/$s_!6ORS!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F84f9cd73-3bb3-46ba-bc3d-9a32b72e2a6e_2200x1040.png 1272w, https://substackcdn.com/image/fetch/$s_!6ORS!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F84f9cd73-3bb3-46ba-bc3d-9a32b72e2a6e_2200x1040.png 1456w\" sizes=\"auto, 100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!6ORS!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F84f9cd73-3bb3-46ba-bc3d-9a32b72e2a6e_2200x1040.png\" width=\"1456\" height=\"688\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/84f9cd73-3bb3-46ba-bc3d-9a32b72e2a6e_2200x1040.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:688,&quot;width&quot;:1456,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:112592,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://syntaxis.substack.com/i/216594000?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F84f9cd73-3bb3-46ba-bc3d-9a32b72e2a6e_2200x1040.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!6ORS!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F84f9cd73-3bb3-46ba-bc3d-9a32b72e2a6e_2200x1040.png 424w, https://substackcdn.com/image/fetch/$s_!6ORS!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F84f9cd73-3bb3-46ba-bc3d-9a32b72e2a6e_2200x1040.png 848w, https://substackcdn.com/image/fetch/$s_!6ORS!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F84f9cd73-3bb3-46ba-bc3d-9a32b72e2a6e_2200x1040.png 1272w, https://substackcdn.com/image/fetch/$s_!6ORS!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F84f9cd73-3bb3-46ba-bc3d-9a32b72e2a6e_2200x1040.png 1456w\" sizes=\"auto, 100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p>Esse é o ponto que sustenta todo o resto: quem compra LCA não assume o risco do produtor rural. A contraparte é o banco emissor.</p><p>A LCA é dívida do banco, não do agro.</p><p>Diferente do CRA, a LCA não tem patrimônio separado — o regime que, numa <em>securitização</em>, isola os créditos do resto da empresa emissora. </p><p>A carteira rural fica vinculada à emissão, mas dentro do balanço do próprio banco; o lastro não transforma o investidor em credor de cada produtor.</p><p><strong>Se o banco quebrar, a carteira rural não é ‘</strong><em><strong>sua</strong></em><strong>’.</strong></p><p>Até aqui, é a definição que qualquer prospecto do banco traz.</p><p>O interessante começa agora. Nas perspectivas de quem emite e no lado de quem faz a conta errada na hora de comprar.</p><h2>O lado de quem emite: por que o banco capta com LCA</h2><p>O banco não emite LCA porque ‘precisa de dinheiro’. Ele compara fontes de captação, o chamado <em>funding</em>, e escolhe <strong>a mais barata que consegue sustentar:</strong> CDB (Certificado de Depósito Bancário), depósitos, Letras Financeiras (LF), LCA.</p><p>A LCA constuma se sair bem nessa comparação por causa da isenção de IR (Imposto de Renda) para pessoa física. Uma LCA a 90% do CDI (Certificado de Depósito Interbancário, a taxa de referência da renda fixa) pode entregar ao investidor um retorno líquido maior que um CDB a 100% do CDI, e ainda assim custar menos ao banco. </p><p><strong>A isenção é um benefício fiscal, e ele é repartido. Parte vira retorno líquido maior para o investidor, parte vira </strong><em><strong>funding</strong></em><strong> mais barato para o banco. </strong></p><p>Quem define a divisão é oferta e demanda — e quanto disso chega a cada lado é, na prática, pouco transparente: nem o regulador nem o investidor têm hoje uma forma simples de medir a proporção exata.</p><p>Essa vantagem tem condições. A emissão depende de lastro elegível — operações ligadas à produção, comercialização, beneficiamento ou industrialização agropecuária — e das regras de direcionamento, que obrigam o banco a aplicar 60% dos recursos captados em crédito rura. </p><p>Cabe ao emissor casar volume, prazo e indexador das LCAs com os créditos que as lastreiam. </p><p>É o mesmo raciocínio por trás do compulsório e dos índices de liquidez que os bancos reportam ao regulador: captação e crédito precisam ficar emparelhados, não só em volume, mas em prazo. Se o lastro encolhe, a capacidade de emitir encolhe junto.</p><p>Isso também pesa nos índices de liquidez que todo banco reporta ao regulador: o LCR (Liquidez de Curto Prazo, a razão entre ativos líquidos e a saída de caixa esperada em 30 dias de estresse) e o NSFR (no jargão do Bacen, Índice de Liquidez de Longo Prazo). </p><p>Os dois recompensam <em>funding</em> mais longo e mais estável. Uma LCA presa a contrato até o vencimento — com carência mínima de seis meses — pesa melhor nesses índices do que um CDB resgatável a qualquer momento ou um depósito à vista. </p><p>Isso é parte do motivo pelo qual o banco aceita pagar menos por uma LCA do que exigiria numa captação mais líquida: não é só o benefício fiscal repassado, é também o valor regulatório da estabilidade.</p><h2>O lado de quem compra: quanto a LCA rende de verdade</h2><h3>A conta que todo mundo faz</h3><p>A comparação de bolso entre uma LCA isenta e um CDB tributado é:</p><div class=\"latex-rendered\" data-attrs=\"{&quot;persistentExpression&quot;:&quot;\\\\text{Taxa}_{\\\\text{CDB equivalente}} = \\\\frac{\\\\text{Taxa}_{\\\\text{LCA}}}{1 - IR}&quot;,&quot;id&quot;:&quot;GUOYMILNAV&quot;}\" data-component-name=\"LatexBlockToDOM\"></div><p></p><p>Com uma LCA a 90% do CDI e alíquota de 15%: 90% / 0,85 ≈ 105,88% do CDI.</p><p>O IR do CDB é uma mordida única sobre o ganho acumulado no resgate. A diferença de taxa entre os dois papéis, por outro lado, capitaliza todos os dias. Quanto mais longo o prazo, maior o efeito dos juros compostos sobre essa diferença  e mais a regra linear exagera o quanto o CDB precisa pagar.</p><p>O <em>break-even</em> correto é o percentual x do CDI que iguala os ganhos líquidos:</p><div class=\"latex-rendered\" data-attrs=\"{&quot;persistentExpression&quot;:&quot;(1 - IR)\\\\left[(1 + x \\\\cdot d)^{n} - 1\\\\right] = (1 + p \\\\cdot d)^{n} - 1&quot;,&quot;id&quot;:&quot;JOIPNUQWUE&quot;}\" data-component-name=\"LatexBlockToDOM\"></div><p></p><p>onde p é o percentual da LCA, d = (1 + CDI)^{1/252} - 1 é o CDI diário e n o número de dias úteis.</p><p>Com CDI de 14% ao ano e LCA a 90% do CDI:</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!GED9!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3f1395ce-8f8d-416b-8c91-92e8f173a226_1600x672.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!GED9!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3f1395ce-8f8d-416b-8c91-92e8f173a226_1600x672.png 424w, https://substackcdn.com/image/fetch/$s_!GED9!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3f1395ce-8f8d-416b-8c91-92e8f173a226_1600x672.png 848w, https://substackcdn.com/image/fetch/$s_!GED9!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3f1395ce-8f8d-416b-8c91-92e8f173a226_1600x672.png 1272w, https://substackcdn.com/image/fetch/$s_!GED9!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3f1395ce-8f8d-416b-8c91-92e8f173a226_1600x672.png 1456w\" sizes=\"auto, 100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!GED9!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3f1395ce-8f8d-416b-8c91-92e8f173a226_1600x672.png\" width=\"1456\" height=\"612\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/3f1395ce-8f8d-416b-8c91-92e8f173a226_1600x672.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:612,&quot;width&quot;:1456,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:100643,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://syntaxis.substack.com/i/216594000?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3f1395ce-8f8d-416b-8c91-92e8f173a226_1600x672.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!GED9!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3f1395ce-8f8d-416b-8c91-92e8f173a226_1600x672.png 424w, https://substackcdn.com/image/fetch/$s_!GED9!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3f1395ce-8f8d-416b-8c91-92e8f173a226_1600x672.png 848w, https://substackcdn.com/image/fetch/$s_!GED9!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3f1395ce-8f8d-416b-8c91-92e8f173a226_1600x672.png 1272w, https://substackcdn.com/image/fetch/$s_!GED9!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3f1395ce-8f8d-416b-8c91-92e8f173a226_1600x672.png 1456w\" sizes=\"auto, 100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!ReZ5!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5fbcfdb8-30ca-4261-b3d7-a320e7cf2c8a_2200x1240.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!ReZ5!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5fbcfdb8-30ca-4261-b3d7-a320e7cf2c8a_2200x1240.png 424w, https://substackcdn.com/image/fetch/$s_!ReZ5!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5fbcfdb8-30ca-4261-b3d7-a320e7cf2c8a_2200x1240.png 848w, https://substackcdn.com/image/fetch/$s_!ReZ5!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5fbcfdb8-30ca-4261-b3d7-a320e7cf2c8a_2200x1240.png 1272w, https://substackcdn.com/image/fetch/$s_!ReZ5!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5fbcfdb8-30ca-4261-b3d7-a320e7cf2c8a_2200x1240.png 1456w\" sizes=\"auto, 100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!ReZ5!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5fbcfdb8-30ca-4261-b3d7-a320e7cf2c8a_2200x1240.png\" width=\"1456\" height=\"821\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/5fbcfdb8-30ca-4261-b3d7-a320e7cf2c8a_2200x1240.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:821,&quot;width&quot;:1456,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:190710,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://syntaxis.substack.com/i/216594000?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5fbcfdb8-30ca-4261-b3d7-a320e7cf2c8a_2200x1240.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!ReZ5!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5fbcfdb8-30ca-4261-b3d7-a320e7cf2c8a_2200x1240.png 424w, https://substackcdn.com/image/fetch/$s_!ReZ5!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5fbcfdb8-30ca-4261-b3d7-a320e7cf2c8a_2200x1240.png 848w, https://substackcdn.com/image/fetch/$s_!ReZ5!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5fbcfdb8-30ca-4261-b3d7-a320e7cf2c8a_2200x1240.png 1272w, https://substackcdn.com/image/fetch/$s_!ReZ5!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5fbcfdb8-30ca-4261-b3d7-a320e7cf2c8a_2200x1240.png 1456w\" sizes=\"auto, 100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p>Numa LCA de cinco anos, o CDB precisa de bem menos do que a regra diz. A isenção vale mais no curto e médio prazo; no papel longo, ou o emissor compensa na taxa, ou a vantagem quase some.</p><h3>O risco é o banco</h3><p>Duas LCAs a 90% do CDI, com o mesmo prazo e a mesma liquidez, não são equivalentes se os emissores forem diferentes.</p><p><strong>O risco principal é a capacidade de pagamento do banco.</strong></p><p>A LCA tem cobertura do FGC (Fundo Garantidor de Créditos, o seguro que cobre depósitos e alguns títulos bancários até um limite por CPF/CNPJ): até R$ 250 mil por CPF ou CNPJ, por instituição ou conglomerado, com teto global de R$ 1 milhão a cada quatro anos. Dois detalhes que mudam a conta:</p><ul><li><p>o limite vale para ‘principal mais rendimentos’, não para o valor aplicado;</p></li><li><p>LCAs de marcas diferentes do mesmo conglomerado dividem o mesmo limite.</p></li></ul><p>LCA de cooperativa de crédito, porém, é coberta pelo FGCoop (Fundo Garantidor do Cooperativismo de Crédito, o equivalente ao FGC para cooperativas).</p><h3>Carência e liquidez</h3><p>Desde maio de 2025, o prazo mínimo de vencimento de LCAs sem atualização por índice de preços é de seis meses (antes, nove) — mudança trazida pela Resolução do CMN nº 5.215, de 22 de maio de 2025, publicada no Diário Oficial em 26 de maio, com vigência a partir da publicação. Liquidez antes disso depende do contrato de cada emissão, e o mercado secundário é raso.</p><h2>Como o banco define a taxa de emissão</h2><p>Voltamos à pergunta de quanto a LCA custa, agora do ponto de vista da política de preços da tesouraria, não só da motivação de <em>funding</em>. </p><p>Antes dos números: a ideia aqui não é montar uma conta, é mapear o que entra no preço. Do ponto de vista da tesouraria, a taxa oferecida pode ser decomposta assim:</p><div class=\"latex-rendered\" data-attrs=\"{&quot;persistentExpression&quot;:&quot;\\\\text{Taxa}_{\\\\text{LCA}} = \\\\text{Taxa}_{\\\\text{base}} + \\\\text{Spread}_{\\\\text{crédito}} + \\\\text{Prêmio}_{\\\\text{liquidez}} + \\\\text{Ajuste}_{\\\\text{prazo}} - \\\\text{Benefício}_{\\\\text{tributário}}&quot;,&quot;id&quot;:&quot;JNXGKLIYJZ&quot;}\" data-component-name=\"LatexBlockToDOM\"></div><p>Não é uma fórmula operacional, muito menos uma equação para resolver, esses componentes não se somam de forma literal. </p><p>É uma forma de enxergar o que entra no preço, bloco por bloco.</p><p>O que move cada parcela cabe em três blocos:</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!Mw2C!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff2c8415b-e8e5-4a0d-a73e-261db9ae3ace_1600x781.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!Mw2C!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff2c8415b-e8e5-4a0d-a73e-261db9ae3ace_1600x781.png 424w, https://substackcdn.com/image/fetch/$s_!Mw2C!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff2c8415b-e8e5-4a0d-a73e-261db9ae3ace_1600x781.png 848w, https://substackcdn.com/image/fetch/$s_!Mw2C!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff2c8415b-e8e5-4a0d-a73e-261db9ae3ace_1600x781.png 1272w, https://substackcdn.com/image/fetch/$s_!Mw2C!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff2c8415b-e8e5-4a0d-a73e-261db9ae3ace_1600x781.png 1456w\" sizes=\"auto, 100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!Mw2C!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff2c8415b-e8e5-4a0d-a73e-261db9ae3ace_1600x781.png\" width=\"1456\" height=\"711\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/f2c8415b-e8e5-4a0d-a73e-261db9ae3ace_1600x781.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:711,&quot;width&quot;:1456,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:107489,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://syntaxis.substack.com/i/216594000?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff2c8415b-e8e5-4a0d-a73e-261db9ae3ace_1600x781.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!Mw2C!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff2c8415b-e8e5-4a0d-a73e-261db9ae3ace_1600x781.png 424w, https://substackcdn.com/image/fetch/$s_!Mw2C!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff2c8415b-e8e5-4a0d-a73e-261db9ae3ace_1600x781.png 848w, https://substackcdn.com/image/fetch/$s_!Mw2C!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff2c8415b-e8e5-4a0d-a73e-261db9ae3ace_1600x781.png 1272w, https://substackcdn.com/image/fetch/$s_!Mw2C!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff2c8415b-e8e5-4a0d-a73e-261db9ae3ace_1600x781.png 1456w\" sizes=\"auto, 100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p></p><p>Some a isso a urgência do banco: quem precisa captar rápido paga mais; quem tem fila de investidor paga menos.</p><h2>Quanto a LCA vale hoje</h2><h3>Taxa contratual não é taxa de mercado</h3><p>Este é o erro mais comum na precificação:</p><ul><li><p>a taxa contratual determina o que o título paga;</p></li><li><p>a taxa de mercado determina quanto esse pagamento vale hoje.</p></li></ul><h3>LCA prefixada <em>bullet</em></h3><p>Numa LCA prefixada <em>bullet</em> — principal e juros pagos de uma vez no vencimento —, o preço unitário é o valor de vencimento descontado pela taxa de mercado:</p><div class=\"latex-rendered\" data-attrs=\"{&quot;persistentExpression&quot;:&quot;PU = \\\\frac{VF}{(1 + y)^{du/252}}&quot;,&quot;id&quot;:&quot;DOWJULKZVM&quot;}\" data-component-name=\"LatexBlockToDOM\"></div><p></p><p>Com VF de R$ 1.100, 252 dias úteis até o vencimento e taxa de mercado de 12% a.a.: PU = 1.100 / 1,12 = R$ 982,14. Se a taxa de mercado sobe para 14%: PU = 1.100 / 1,14 = R$ 964,91.</p><p>Taxa sobe, preço cai. É a base de toda marcação a mercado.</p><p>Com fluxos intermediários, cada pagamento é descontado pela taxa do seu prazo:</p><div class=\"latex-rendered\" data-attrs=\"{&quot;persistentExpression&quot;:&quot;PU = \\\\sum_{i=1}^{n} \\\\frac{FC_i}{(1 + y_i)^{du_i/252}}&quot;,&quot;id&quot;:&quot;MSKNHDOKQP&quot;}\" data-component-name=\"LatexBlockToDOM\"></div><p></p><h3>LCA em percentual do CDI</h3><p>Numa LCA a 90% do CDI, o saldo acumulado até a data de avaliação é:</p><div class=\"latex-rendered\" data-attrs=\"{&quot;persistentExpression&quot;:&quot;\\\\text{Saldo}_t = \\\\text{Principal} \\\\times \\\\prod_{j=1}^{m} \\\\left[1 + 0{,}90 \\\\times \\\\left((1 + CDI_j)^{1/252} - 1\\\\right)\\\\right]\\n\\n&quot;,&quot;id&quot;:&quot;PPVTFXEURV&quot;}\" data-component-name=\"LatexBlockToDOM\"></div><p>Na prática, valem as convenções do contrato: truncamento, arredondamento, defasagem.</p><p>Para marcar antes do vencimento: acumula-se o que já foi apropriado, projeta-se o CDI futuro pela curva DI, estima-se o valor no vencimento e desconta-se esse valor pela curva de mercado do emissor.</p><h3>Qual curva usar para descontar</h3><p>Sem negócios no secundário, a taxa de desconto precisa ser construída.</p><p>Uma ordem razoável de referências:</p><ol><li><p>negócios recentes da própria LCA;</p></li><li><p>ofertas firmes de compra e venda;</p></li><li><p>outras LCAs do mesmo banco;</p></li><li><p>Letras Financeiras do mesmo emissor, ajustadas;</p></li><li><p>CDBs do mesmo banco;</p></li><li><p>bancos comparáveis;</p></li><li><p>taxa de emissão, ajustada pela mudança de curva e de risco.</p></li></ol><p>A curva de LF é tentadora porque é a melhor leitura do risco da tesouraria do banco. Mas LF e LCA diferem em prazo mínimo, senioridade, tributação, cobertura do FGC e público investidor. A LF serve de referência relativa, não de curva final.</p><h2>Fechamento: do produto ao balanço</h2><p>Um banco tem uma carteira de crédito rural remunerada a CDI + 4% ao ano e emite uma LCA de dois anos a 88% do CDI — para simplificar, suponha que todo o volume dessa emissão esteja alocado nessa carteira (na prática, só 60% do captado por LCA precisa ir para crédito rural; o restante financia outras operações do banco, a outras taxas).</p><p>A leitura ingênua é olhar a diferença entre as duas taxas e chamar de margem. A leitura correta pergunta pelo que essa diferença precisa pagar: inadimplência esperada, custo de capital alocado ao crédito, descasamento de prazo entre ativo e passivo, pré-pagamento dos créditos, custo alternativo de <em>funding</em> e as exigências de lastro e direcionamento.</p><p>Esse é o salto entre entender a LCA como produto de investimento e entendê-la como instrumento de gestão do balanço de um banco. Dito direto: a LCA é dívida do banco, não do agro — e a isenção que parece favor é benefício fiscal, repartido entre quem empresta e quem capta. É também a fronteira que separa a LCA da CRA — outro título do agro, mas de risco completamente diferente, tema do próximo texto desta série.</p><h2>Para continuar aprendendo</h2><ul><li><p>José Carlos de Souza Santos e Armênio de Souza Rangel, <em>Precificação e risco nos mercados de renda-fixa</em> (Editora CRV, 2016) — referência para a mecânica de precificação e marcação a mercado de renda fixa usada neste texto.</p></li><li><p>Frank J. Fabozzi e Francesco A. Fabozzi, <em>Bond Markets, Analysis, and Strategies</em>, 10ª ed. (MIT Press, 2021) — tratamento padrão de mercado internacional para análise e precificação de títulos de renda fixa, base da lógica de desconto por curva usada na seção “Quanto a LCA vale hoje”.</p></li><li><p>Luiz Cláudio Caffagni, “LCA: o título de crédito bancário para o agro”, <em>Agroanalysis</em> (FGV), out. 2021, p. 26–28 — leitura direcionada especificamente à LCA como instrumento de crédito bancário, não de securitização.</p></li></ul>",
+ "has_dynamic_content": false,
+ "truncated_body_text": "No texto sobre LCI, terminei sugerindo que, para entender a LCA, poderíamos trocar imobiliário por agronegócio. É um bom começo, mas não suficiente.",
+ "wordcount": 1872,
+ "post_preview_limit": null,
+ "language": "pt",
+ "postTags": [
+  {
+   "id": "03b212af-441c-484b-a74b-592ea4210252",
+   "publication_id": 2968718,
+   "name": "Educação Financeira",
+   "slug": "educacao-financeira",
+   "hidden": false
+  },
+  {
+   "id": "15ccaf53-de38-4889-974e-03b8167db4a4",
+   "publication_id": 2968718,
+   "name": "CRA",
+   "slug": "cra",
+   "hidden": false
+  },
+  {
+   "id": "32913b8f-3dce-4ff9-bfea-17dc0715a87d",
+   "publication_id": 2968718,
+   "name": "Investimentos",
+   "slug": "investimentos",
+   "hidden": false
+  },
+  {
+   "id": "4cfe37a6-d47d-4ceb-9400-f7ccf3d1d0ee",
+   "publication_id": 2968718,
+   "name": "Renda Fixa",
+   "slug": "renda-fixa",
+   "hidden": false
+  },
+  {
+   "id": "6743abfd-a52d-4919-bbc2-fc1aa11ae623",
+   "publication_id": 2968718,
+   "name": "Mercado Financeiro",
+   "slug": "mercado-financeiro",
+   "hidden": false
+  },
+  {
+   "id": "a5f74e9a-5231-4e69-81f8-7b663a00993c",
+   "publication_id": 2968718,
+   "name": "LCI",
+   "slug": "lci",
+   "hidden": false
+  },
+  {
+   "id": "abba2082-dc39-472e-a258-1bdaa121fef3",
+   "publication_id": 2968718,
+   "name": "LCA",
+   "slug": "lca",
+   "hidden": false
+  },
+  {
+   "id": "f58eb1b3-be9c-4d86-9aeb-9430284945d8",
+   "publication_id": 2968718,
+   "name": "CRI",
+   "slug": "cri",
+   "hidden": false
+  },
+  {
+   "id": "fb22de56-2791-482d-92eb-7c886e0db62e",
+   "publication_id": 2968718,
+   "name": "Produtos Financeiros",
+   "slug": "produtos-financeiros",
+   "hidden": false
+  }
+ ],
+ "postCountryBlocks": [],
+ "disable_drop_cap": false,
+ "cover_image_crop": null,
+ "headlineTest": null,
+ "coverImagePalette": {
+  "Vibrant": {
+   "rgb": [
+    182,
+    214,
+    111
+   ],
+   "population": 23
+  },
+  "DarkVibrant": {
+   "rgb": [
+    19,
+    69,
+    53
+   ],
+   "population": 22
+  },
+  "LightVibrant": {
+   "rgb": [
+    202.67675675675676,
+    225.61297297297298,
+    151.78702702702702
+   ],
+   "population": 0
+  },
+  "Muted": {
+   "rgb": [
+    111,
+    165,
+    107
+   ],
+   "population": 53
+  },
+  "DarkMuted": {
+   "rgb": [
+    50,
+    99,
+    74
+   ],
+   "population": 296
+  },
+  "LightMuted": {
+   "rgb": [
+    92.62702702702704,
+    119.09189189189189,
+    33.9081081081081
+   ],
+   "population": 0
+  }
+ },
+ "publishedBylines": [
+  {
+   "id": 136725718,
+   "name": "Silvano Junior",
+   "handle": "saapjr",
+   "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/4d24c48d-d4f2-406d-ab80-902631955776_640x640.jpeg",
+   "bio": "Capixaba Matemático (MsC) Cientista de Dados e Analista Quantitativo",
+   "profile_set_up_at": "2023-03-28T04:01:23.570Z",
+   "reader_installed_at": "2023-03-28T04:05:16.777Z",
+   "publicationUsers": [
+    {
+     "id": 3019355,
+     "user_id": 136725718,
+     "publication_id": 2968718,
+     "role": "admin",
+     "public": true,
+     "is_primary": true,
+     "publication": {
+      "id": 2968718,
+      "name": "Syntaxis",
+      "subdomain": "syntaxis",
+      "custom_domain": null,
+      "custom_domain_optional": false,
+      "hero_text": "A Syntaxis te ajuda a desenvolver as skills que hoje separam quem estagia de quem é efetivado, e quem é efetivado de quem vira referência.",
+      "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/f1431d70-c6a3-4eb3-9219-23ab9997436b_320x320.png",
+      "author_id": 136725718,
+      "primary_user_id": 136725718,
+      "theme_var_background_pop": "#FF6719",
+      "created_at": "2024-09-03T01:29:04.169Z",
+      "email_from_name": "SYNTAXIS",
+      "copyright": "Silvano Junior",
+      "founding_plan_name": "Membro Fundador",
+      "community_enabled": true,
+      "invite_only": false,
+      "payments_state": "enabled",
+      "language": "pt-br",
+      "explicit": false,
+      "homepage_type": "newspaper",
+      "is_personal_mode": false,
+      "logo_url_wide": null
+     }
+    }
+   ],
+   "is_guest": false,
+   "bestseller_tier": null,
+   "status": {
+    "bestsellerTier": null,
+    "subscriberTier": null,
+    "leaderboard": null,
+    "vip": false,
+    "badge": null,
+    "subscriber": null
+   }
+  }
+ ],
+ "reaction": null,
+ "reaction_count": 3,
+ "comment_count": 0,
+ "child_comment_count": 0,
+ "vg_wort_pixel_url": null,
+ "is_geoblocked": false,
+ "sponsorshipEditionBanner": null,
+ "is_editor_preview": false,
+ "hasCashtag": false,
+ "unlockedWithIP": false,
+ "unlockedWithCampaign": false,
+ "themeVariables": {
+  "color_theme_bg_pop": "#1B6A45",
+  "background_pop": "#1B6A45",
+  "color_theme_bg_web": "#F7F7F5",
+  "cover_bg_color": "#F7F7F5",
+  "cover_bg_color_secondary": "#e8e8e6",
+  "background_pop_darken": "#165638",
+  "print_on_pop": "#ffffff",
+  "color_theme_bg_pop_darken": "#165638",
+  "color_theme_print_on_pop": "#ffffff",
+  "color_theme_bg_pop_20": "rgba(27, 106, 69, 0.2)",
+  "color_theme_bg_pop_30": "rgba(27, 106, 69, 0.3)",
+  "print_pop": "#1b6a45",
+  "color_theme_accent": "#1b6a45",
+  "cover_print_primary": "#363737",
+  "cover_print_secondary": "#757575",
+  "cover_print_tertiary": "#b6b6b6",
+  "cover_border_color": "#1b6a45",
+  "font_family_body_preset": "'SF Pro Display', -apple-system, system-ui, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+  "font_weight_body_preset": 400,
+  "font_preset_body": "sans",
+  "home_hero": "feature-media",
+  "home_posts": "grid",
+  "home_show_top_posts": true,
+  "web_bg_color": "#F7F7F5",
+  "background_contrast_1": "#e8e8e6",
+  "background_contrast_2": "#d6d6d4",
+  "background_contrast_3": "#b1b1b0",
+  "background_contrast_4": "#8e8e8d",
+  "background_contrast_5": "#4e4e4d",
+  "color_theme_bg_contrast_1": "#e8e8e6",
+  "color_theme_bg_contrast_2": "#d6d6d4",
+  "color_theme_bg_contrast_3": "#b1b1b0",
+  "color_theme_bg_contrast_4": "#8e8e8d",
+  "color_theme_bg_contrast_5": "#4e4e4d",
+  "color_theme_bg_elevated": "#f7f7f5",
+  "color_theme_bg_elevated_secondary": "#e8e8e6",
+  "color_theme_bg_elevated_tertiary": "#d6d6d4",
+  "color_theme_detail": "#dededd",
+  "background_contrast_pop": "rgba(27, 106, 69, 0.4)",
+  "color_theme_bg_contrast_pop": "rgba(27, 106, 69, 0.4)",
+  "theme_bg_is_dark": "0",
+  "print_on_web_bg_color": "#363737",
+  "print_secondary_on_web_bg_color": "#838483",
+  "background_pop_rgb": "27, 106, 69",
+  "color_theme_bg_pop_rgb": "27, 106, 69",
+  "color_theme_accent_rgb": "27, 106, 69"
+ },
+ "oneOffUnlockOffer": {
+  "eligible": false
+ }
+}

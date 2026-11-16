@@ -74,3 +74,21 @@ branch chegar a `main`.
 `marca/tokens.json` — sistema de design "O Sinal no Escuro" (v2.1), já existente, reutilizado
 por `marca-syntaxis` e pelo código Plotly de `graficos.md`. Não é um original de leitura —
 é um artefato de sistema, por isso vive fora de `_arquivo/` e pode evoluir.
+
+## Posts publicados — captura do site (desde 2026-11-15)
+
+| Pasta | Conteúdo | Origem | Datas | Licença |
+|---|---|---|---|---|
+| `publicados/` | JSON bruto de cada post publicado na Syntaxis (31 na primeira captura: 15 anteriores ao pipeline e 16 da era pipeline), um arquivo por post: `AAAA-MM-DD_<slug-do-site>.json` (data = `post_date`). Recaptura de post alterado no site entra como arquivo novo `AAAA-MM-DD_<slug>__cap-<data-da-captura>.json`, nunca sobrescreve | API pública do Substack (`/api/v1/archive` e `/api/v1/posts/<slug>`), sem autenticação, via `scripts/corpus_publicado.py` | posts de 2024-09-06 a 2026-11-15; primeira captura em 2026-11-15 | Autoral (Silvano A. A. P. Junior) |
+
+O campo `comments` da API é removido antes de gravar: traz nome, handle e foto de leitores, não
+serve ao estudo de estilo e este repositório é público. Fora isso, o JSON é o que a API devolveu.
+A lista item a item (post, slug no repositório, rascunho correspondente, captura vigente) mora em
+`estilo/corpus/mapa-publicados.json`, gerado pelo mesmo script — não é repetida aqui.
+
+**Nota de 2026-11-15 sobre as amostras próprias de Substack (acima):** as datas de publicação que
+faltavam constam agora do mapa (campo `post_date` das entradas que têm `amostra_v1`). A comparação
+com a captura do site mostrou que
+os seis arquivos de `amostras/proprias/substack/` perderam formatação na conversão original: o
+negrito do site sumiu e as aspas duplas curvas (“…”) viraram aspas simples retas ('…'). Os
+arquivos continuam intocados; a evidência está em `pesquisa/epico-revisao-editorial/00-corpus.md`.

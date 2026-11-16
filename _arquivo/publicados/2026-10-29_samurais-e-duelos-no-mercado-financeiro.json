@@ -1,0 +1,262 @@
+{
+ "audience": "everyone",
+ "audience_before_archived": null,
+ "canonical_url": "https://syntaxis.substack.com/p/samurais-e-duelos-no-mercado-financeiro",
+ "default_comment_sort": null,
+ "editor_v2": false,
+ "exempt_from_archive_paywall": false,
+ "free_unlock_required": false,
+ "id": 222580609,
+ "podcast_art_url": null,
+ "podcast_duration": null,
+ "podcast_preview_upload_id": null,
+ "podcast_upload_id": null,
+ "podcast_url": null,
+ "post_date": "2026-10-29T10:03:53.664Z",
+ "updated_at": "2026-10-30T19:57:06.570Z",
+ "publication_id": 2968718,
+ "search_engine_description": null,
+ "search_engine_title": null,
+ "section_id": 442556,
+ "should_send_free_preview": false,
+ "show_guest_bios": true,
+ "slug": "samurais-e-duelos-no-mercado-financeiro",
+ "social_title": null,
+ "subtitle": "5 etapas para combater estagnação",
+ "teaser_post_eligible": true,
+ "title": "Samurais e duelos no mercado financeiro",
+ "type": "newsletter",
+ "video_upload_id": null,
+ "write_comment_permissions": "everyone",
+ "meter_type": "none",
+ "live_stream_id": null,
+ "is_published": true,
+ "restacks": 2,
+ "reactions": {
+  "❤": 4
+ },
+ "top_exclusions": [],
+ "pins": [],
+ "section_pins": [],
+ "has_shareable_clips": false,
+ "previous_post_slug": "coqueiros-e-cacaueiros",
+ "next_post_slug": "should-i-stay-or-should-i-go",
+ "cover_image": "https://substackcdn.com/image/fetch/$s_!NHz7!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F76e28ad1-5cc2-4d77-9903-e2074812d73d_2752x1536.jpeg",
+ "cover_image_is_square": false,
+ "cover_image_is_explicit": false,
+ "videoUpload": null,
+ "podcastFields": {
+  "post_id": 222580609,
+  "podcast_episode_number": null,
+  "podcast_season_number": null,
+  "podcast_episode_type": null,
+  "should_syndicate_to_other_feed": null,
+  "syndicate_to_section_id": null,
+  "hide_from_feed": false,
+  "free_podcast_url": null,
+  "free_podcast_duration": null,
+  "preview_contains_ad": false,
+  "was_imported_self_serve_sync": false,
+  "draft_free_podcast_url": null,
+  "draft_free_podcast_duration": null
+ },
+ "podcastUpload": null,
+ "podcastPreviewUpload": null,
+ "voiceover_upload_id": null,
+ "voiceoverUpload": null,
+ "has_voiceover": false,
+ "description": "5 etapas para combater estagnação",
+ "body_html": "<div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!NHz7!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F76e28ad1-5cc2-4d77-9903-e2074812d73d_2752x1536.jpeg\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!NHz7!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F76e28ad1-5cc2-4d77-9903-e2074812d73d_2752x1536.jpeg 424w, https://substackcdn.com/image/fetch/$s_!NHz7!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F76e28ad1-5cc2-4d77-9903-e2074812d73d_2752x1536.jpeg 848w, https://substackcdn.com/image/fetch/$s_!NHz7!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F76e28ad1-5cc2-4d77-9903-e2074812d73d_2752x1536.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!NHz7!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F76e28ad1-5cc2-4d77-9903-e2074812d73d_2752x1536.jpeg 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!NHz7!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F76e28ad1-5cc2-4d77-9903-e2074812d73d_2752x1536.jpeg\" width=\"1456\" height=\"813\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/76e28ad1-5cc2-4d77-9903-e2074812d73d_2752x1536.jpeg&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:813,&quot;width&quot;:1456,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:1823641,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/jpeg&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:false,&quot;topImage&quot;:true,&quot;internalRedirect&quot;:&quot;https://syntaxis.substack.com/i/222580609?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F76e28ad1-5cc2-4d77-9903-e2074812d73d_2752x1536.jpeg&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!NHz7!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F76e28ad1-5cc2-4d77-9903-e2074812d73d_2752x1536.jpeg 424w, https://substackcdn.com/image/fetch/$s_!NHz7!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F76e28ad1-5cc2-4d77-9903-e2074812d73d_2752x1536.jpeg 848w, https://substackcdn.com/image/fetch/$s_!NHz7!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F76e28ad1-5cc2-4d77-9903-e2074812d73d_2752x1536.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!NHz7!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F76e28ad1-5cc2-4d77-9903-e2074812d73d_2752x1536.jpeg 1456w\" sizes=\"100vw\" fetchpriority=\"high\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\" tabindex=\"0\" type=\"button\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\" tabindex=\"0\" type=\"button\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p>Em 1612, numa pequena ilha entre Kyushu e Honshu, um espadachim de 29 anos desceu de um barco com uma espada de madeira talhada de um remo. Do outro lado estava Sasaki Kojirō, instrutor de esgrima de um senhor feudal e, para alguns, o melhor espadachim dos dois. </p><p>Kojirō morreu ali, na areia.</p><p>Se você já caiu num vídeo de “disciplina samurai” no YouTube, talvez já conheça a continuação: depois do duelo, <strong>Miyamoto Musashi</strong> teria se trancado numa caverna por dois anos para entender por que quase perdeu.</p><p>É uma ótima história. Só que não aconteceu assim.</p><p>A caverna existe. Chama-se <strong>Reigandō</strong> e fica nos arredores de Kumamoto. Mas Musashi só se recolheu lá em 1643, aos 60 anos, dois anos antes de morrer. </p><p>Foi ali que começou a escrever o <em>Livro dos Cinco Anéis</em>.</p><p>Entre o duelo mais famoso da vida dele e o livro, passaram-se três décadas.</p><p>No prefácio, o próprio Musashi faz o resumo.</p><p><strong>Lutou mais de sessenta duelos sem perder</strong>, o primeiro aos 13 anos. Passados os 30, olhou para trás e concluiu que não tinha vencido por dominar a estratégia: tinha sido talento natural, a ordem do céu ou escolas adversárias fracas. Só perto dos 50 sentiu que tinha entendido o Caminho.</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!KQGk!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F78c10874-8fbc-49c0-b437-3554b6e8ad5d_1800x1000.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!KQGk!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F78c10874-8fbc-49c0-b437-3554b6e8ad5d_1800x1000.png 424w, https://substackcdn.com/image/fetch/$s_!KQGk!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F78c10874-8fbc-49c0-b437-3554b6e8ad5d_1800x1000.png 848w, https://substackcdn.com/image/fetch/$s_!KQGk!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F78c10874-8fbc-49c0-b437-3554b6e8ad5d_1800x1000.png 1272w, https://substackcdn.com/image/fetch/$s_!KQGk!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F78c10874-8fbc-49c0-b437-3554b6e8ad5d_1800x1000.png 1456w\" sizes=\"auto, 100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!KQGk!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F78c10874-8fbc-49c0-b437-3554b6e8ad5d_1800x1000.png\" width=\"1456\" height=\"809\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/78c10874-8fbc-49c0-b437-3554b6e8ad5d_1800x1000.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:809,&quot;width&quot;:1456,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:190061,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://syntaxis.substack.com/i/222580609?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F78c10874-8fbc-49c0-b437-3554b6e8ad5d_1800x1000.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!KQGk!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F78c10874-8fbc-49c0-b437-3554b6e8ad5d_1800x1000.png 424w, https://substackcdn.com/image/fetch/$s_!KQGk!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F78c10874-8fbc-49c0-b437-3554b6e8ad5d_1800x1000.png 848w, https://substackcdn.com/image/fetch/$s_!KQGk!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F78c10874-8fbc-49c0-b437-3554b6e8ad5d_1800x1000.png 1272w, https://substackcdn.com/image/fetch/$s_!KQGk!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F78c10874-8fbc-49c0-b437-3554b6e8ad5d_1800x1000.png 1456w\" sizes=\"auto, 100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\" tabindex=\"0\" type=\"button\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\" tabindex=\"0\" type=\"button\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p>No mercado financeiro, o equivalente é o sujeito invicto que olha para a própria sequência de vitórias e conclui que talvez tenha sido sorte. Quantos gestores você conhece que chegaram a essa conclusão sozinhos depois de três anos bons de bolsa?</p><p>Os primeiros anos numa mesa, num banco ou numa gestora ensinam você a vencer duelos: terminar um relatório, entregar o modelo, sobreviver ao fechamento do mês.</p><p>Isso é tática.</p><p>O sistema que funciona quando o mercado não ajuda vem depois — se vier.</p><p>E o “modo automático” que aparece depois de uns bons anos de carreira costuma nascer justamente da confusão entre uma coisa e outra.</p><h2>Wall Street já tentou te vender este livro</h2><p>A tradução inglesa de Victor Harris saiu em 1974 e passou quase despercebida fora do circuito das artes marciais. No começo dos anos 80, virou leitura de executivo.</p><p>O que mudou não foi o livro. Foi o Japão: a indústria japonesa estava engolindo a americana, e Nova York queria saber qual era o segredo.</p><p>O historiador G. Cameron Hurst III conta como a coisa pegou.</p><blockquote><p>Um ex-jogador de beisebol que vivia no Japão comentou o livro com um publicitário nova-iorquino, que sugeriu, meio de brincadeira, que ali estava a chave para entender o sucesso japonês. A editora pôs uma faixa na capa: <em>“Japan’s Answer to the Harvard MBA”</em>. A concorrente lançou uma edição de bolso com o subtítulo <em>The Real Art of Japanese Management</em> e, na capa, um executivo de sobretudo erguendo o <em>Wall Street Journal</em> como se fosse uma <em>katana</em>.</p></blockquote><p> As grandes empresas japonesas não punham seus trainees em massa para estudar Musashi, e o livro mal se achava nas livrarias do país. O modelo corporativo japonês era feito de lealdade, consenso e emprego vitalício. Musashi era o oposto: um <em>rōnin</em>, samurai sem senhor, leal só a si mesmo, apostando a vida inteira na própria espada.</p><p>Acho que é exatamente por isso que ele ainda conversa com quem trabalha em finanças. Não porque explica o Japão, mas porque descreve <strong>alguém que opera sozinho, sob risco assimétrico, num jogo em que um único erro custa tudo</strong>.</p><p>Hurst faz uma provocação interessante: quase todas as nove regras com que Musashi fecha o primeiro rolo soam familiares. </p><p>Benjamin Franklin, manual de escoteiro. </p><p>É verdade, o conteúdo nunca foi segredo. </p><p>A diferença está no que foi deixado de fora. Os best-sellers de hoje ficaram com a mecânica (hábitos, aprendizado contínuo) e tiraram o desconforto. </p><p>Musashi não.</p><h2>Um manual de esgrima, lido como manual de carreira</h2><p>O <em>Gorin no Sho</em> (o título japonês do livro) tem cinco rolos, um para cada elemento: </p><ol><li><p>Terra (<em>Chi</em>), </p></li><li><p>Água (<em>Sui</em>), </p></li><li><p>Fogo (<em>Ka</em>), </p></li><li><p>Vento (<em>Fū</em>) e </p></li><li><p>Vazio (<em>Kū</em>). </p></li></ol><p>Foi escrito para ser entregue a um discípulo, não para ser vendido. E boa parte dele trata do que só interessa a quem segura uma espada: empunhadura, postura, distância, ritmo.</p><p>Então, um aviso de leitura. Nas cinco etapas a seguir, busco separar o que Musashi escreveu do que eu aplico para a carreira. </p><p>Lidos juntos, eles são o sistema de que falei no começo: <strong>o que funciona quando o mercado não ajuda</strong>.</p><h2>Anel da Terra: saiba para onde vai sua energia</h2><p>No Anel da Terra, Musashi compara o estrategista a um mestre carpinteiro. Antes de levantar a casa, ele conhece a madeira, as medidas e as ferramentas. É também onde estão as nove regras que fecham o rolo. Entre elas:</p><ul><li><p>o Caminho está no treino;</p></li><li><p>distinga ganho de perda em todas as coisas;</p></li><li><p>preste atenção até no que parece trivial;</p></li><li><p><strong>não faça nada que seja inútil</strong>.</p></li></ul><p>Nenhuma delas diz “acredite em você”. Todas pedem que você <strong>enxergue o que de fato faz</strong>.</p><p>Faça uma revisão honesta de uma semana normal. Quantas horas exigiram cabeça de verdade — entender uma estrutura de crédito, montar um modelo do zero, ler a escritura de uma debênture até o fim? </p><p>Quantas foram de formatação de planilha, reunião sem pauta, aba aberta e celular na mão?<strong> E, nas semanas de eleição, quantas foram de discussão política em rede social, o mesmo debate relido pela décima vez?</strong> </p><p>Desconfio que o dia “cheio” vai ter menos horas de trabalho real do que você gostaria.</p><p>Em tempos de IA, talvez pudéssemos perguntar ainda: quanto do que você entrega foi você que fez? Se o modelo, o relatório e o e-mail saíram de uma IA e você revisou, ótimo — desde que saiba refazer cada um na mão. </p><p>Usar IA é competência. </p><p><strong>Não saber o que ela fez é débito técnico</strong>: um atalho que cobra juros depois. Aí você não está ganhando produtividade, está terceirizando a fundação da casa.</p><p>Musashi levou essa contabilidade para além do ofício. Uma semana antes de morrer, no mesmo dia em que entregou o livro ao discípulo, escreveu o <em><strong>Dokkōdō</strong></em>, 21 preceitos curtos. Vários soam como um manual de minimalismo escrito quase quatro séculos antes da moda: </p><ul><li><p>não guarde objetos antigos à espera de que um dia valham alguma coisa; </p></li><li><p>não busque bens para garantir a velhice; </p></li><li><p>seja indiferente ao lugar onde mora.</p></li></ul><p>Na carreira, cada degrau de padrão de vida que você trava é um degrau a menos de liberdade para arriscar: trocar de área, aceitar um salário menor para aprender, sair de um lugar que já não ensina nada.</p><h2>Anel da Água: vencer o eu de ontem (por dez mil dias)</h2><p>A água assume a forma do recipiente e continua clara.</p><p>É esse o espírito que Musashi pede no Anel da Água: postura firme, mente que não endurece, adaptação imediata ao que aparece.</p><p>A imagem que eu uso é a da pedra no meio do rio. </p><blockquote><p>A <strong>pedra resiste</strong>. </p><p>A <strong>água contorna</strong>, <strong>acha passagem e segue</strong>.</p></blockquote><p>Aceitar a realidade, aqui, não é se render a ela. É parar de brigar com o fato para gastar energia no caminho em volta dele.</p><p>Toda carreira tem pedras: a <em>skill</em> que você não tem, o chefe que trava, a área que encolheu, o ciclo de juros que mudou de regime. A tentação é virar pedra e ficar parado esperando o obstáculo sair. </p><p>Ser água é perguntar: dado que isso não muda agora, <strong>por onde eu passo</strong>?</p><p>É também no fecho do Anel da Água que está a frase de que eu mais gosto no livro. Em tradução livre: <strong>hoje, vença o você de ontem</strong>; <strong>amanhã, vença os menos hábeis</strong>; <strong>depois, os mais hábeis</strong>. E Musashi define o ritmo: mil dias de treino para forjar, dez mil para polir. E, no mesmo parágrafo, pede o que as citações costumam cortar: <strong>que se treine sem pressa, porque uma estrada de mil léguas se percorre um passo de cada vez</strong>.</p><p>Quem leu <em><strong>Hábitos Atômicos</strong></em> reconhece uma ideia parecida com a de vencer o eu de ontem. James Clear a vende como o “1% melhor por dia”: melhore 1% ao dia durante um ano e você termina cerca de 37 vezes melhor. Quem trabalha com renda fixa sabe o que é aquilo — juros compostos.</p><p>1,01³⁶⁵ ≈ 37,8</p><p>Quem trabalha com finanças já viu alguma conta semelhante.</p><p>Ela supõe uma taxa constante e positiva, todo santo dia. Carreira não é título pós-fixado. Tem dia de taxa negativa, tem semestre inteiro de marcação a mercado contra você — o preço do título, atualizado todo dia pelo valor de mercado, em queda.</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!JPfc!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdc65c5e4-0872-4326-8ebd-be72d8444b9c_1800x1320.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!JPfc!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdc65c5e4-0872-4326-8ebd-be72d8444b9c_1800x1320.png 424w, https://substackcdn.com/image/fetch/$s_!JPfc!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdc65c5e4-0872-4326-8ebd-be72d8444b9c_1800x1320.png 848w, https://substackcdn.com/image/fetch/$s_!JPfc!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdc65c5e4-0872-4326-8ebd-be72d8444b9c_1800x1320.png 1272w, https://substackcdn.com/image/fetch/$s_!JPfc!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdc65c5e4-0872-4326-8ebd-be72d8444b9c_1800x1320.png 1456w\" sizes=\"auto, 100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!JPfc!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdc65c5e4-0872-4326-8ebd-be72d8444b9c_1800x1320.png\" width=\"1456\" height=\"1068\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/dc65c5e4-0872-4326-8ebd-be72d8444b9c_1800x1320.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:1068,&quot;width&quot;:1456,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:331804,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://syntaxis.substack.com/i/222580609?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdc65c5e4-0872-4326-8ebd-be72d8444b9c_1800x1320.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!JPfc!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdc65c5e4-0872-4326-8ebd-be72d8444b9c_1800x1320.png 424w, https://substackcdn.com/image/fetch/$s_!JPfc!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdc65c5e4-0872-4326-8ebd-be72d8444b9c_1800x1320.png 848w, https://substackcdn.com/image/fetch/$s_!JPfc!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdc65c5e4-0872-4326-8ebd-be72d8444b9c_1800x1320.png 1272w, https://substackcdn.com/image/fetch/$s_!JPfc!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdc65c5e4-0872-4326-8ebd-be72d8444b9c_1800x1320.png 1456w\" sizes=\"auto, 100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\" tabindex=\"0\" type=\"button\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\" tabindex=\"0\" type=\"button\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p>Musashi não precisa dessa premissa. Dez mil dias são uns 27 anos, e ele não promete retorno em nenhum deles.</p><p>A biografia, aliás, fica na mesma ordem de grandeza: do primeiro duelo, aos 13, até sentir que entendeu a estratégia, perto dos 50, foram quase quatro décadas.</p><h2>Anel do Fogo: o desconforto como combustível</h2><p>Aqui está a parte que a autoajuda moderna não vende.</p><p>Literalmente, o Anel do Fogo é sobre a luta em si, o calor do combate. Musashi fala em tomar a iniciativa, em não deixar o adversário recuperar o ritmo, em esmagá-lo quando ele vacila. E tem uma ideia que eu acho brilhante: quando a luta trava e os dois ficam presos no mesmo impasse, a saída não é empurrar mais forte. É abandonar aquela abordagem e recomeçar, como se fosse outra luta.</p><p>Para quem tem de dois a oito anos de mercado, o adversário que importa não é o colega da mesa ao lado. É o modo automático: a mesma planilha, o mesmo relatório, o mesmo tipo de entrega, ano após ano.</p><p>E o que o Anel da Terra faz com você, se feito com honestidade, incomoda. Você descobre que passa mais tempo no Instagram do que estudando. Que o estagiário que entrou ano passado escreve Python melhor que você. Que o projeto que você adia há dois anos continua adiado. A reação natural é raiva, quando não é resignação.</p><p>O conselho padrão de desenvolvimento pessoal é ser gentil consigo mesmo. A leitura que faço do Fogo é outra: essa raiva é energia, e energia não se desperdiça. O desperdício é queimá-la em autodepreciação ou em inveja de quem está na frente. (O próprio <em>Dokkōdō</em> manda nunca invejar ninguém.)</p><p>O ponto é a mira.</p><p><strong>Raiva de você mesmo vira paralisia.</strong></p><p><strong>Raiva do estado em que você está vira plano</strong>: “estudei 30 minutos esta semana” vira “na próxima, o celular fica em outro cômodo nessas duas horas”. O Fogo não é para se punir.</p><p>É para não deixar o adversário — o seu padrão de sempre — recuperar o fôlego.</p><p>E se você está há dois anos empurrando a mesma porta, lembre-se do impasse de Musashi. Mais força na mesma abordagem raramente resolve. Às vezes a jogada é mudar de luta.</p><h2>Anel do Vento: estude as outras escolas</h2><p>Literalmente, o Anel do Vento é o capítulo em que Musashi critica as escolas rivais de esgrima. Uma usa espada longa demais; outra, curta demais. Uma confia na força bruta; outra coleciona posturas. E ele desconfia de quem divide o ensino em níveis secretos, com uma “porta” para iniciantes e um “interior” para os escolhidos.</p><p>O nome guarda um trocadilho que se perde na tradução. <em>Fū</em>, vento, também quer dizer estilo, maneira, tradição — como em “o jeito da casa”. O rolo do Vento é o rolo dos estilos dos outros. E a justificativa de Musashi é simples: é difícil conhecer a si mesmo sem conhecer os outros.</p><p>(A ironia: o sujeito que desconfiava de escolas de segredos foi vendido nos Estados Unidos como o segredo do Japão.)</p><p>Leio aqui a ideia do aprendiz permanente. Robert Greene, em <em>Maestria</em>, chama de aprendizado a fase em que você absorve um ofício com humildade. Para quem quer continuar relevante, eu diria que essa fase nunca termina de verdade.</p><p>No contexto de finanças quantitativas, vejo muito o caso de quem aprende processos estocásticos e acha que fechou a matemática, a estatística e as finanças. Para de estudar. Perde a fome. O título de mestre chega antes da maestria.</p><p>O segundo risco é mais silencioso: conhecer só a escola do próprio banco. O modelo da casa, a planilha da casa, o jeito da casa de olhar risco. Funciona até o dia em que você muda de casa — ou a casa muda de mercado. Estudar como outras mesas, outras gestoras e outras áreas resolvem o mesmo problema é a forma mais barata de achar os seus pontos cegos.</p><h2>Anel do Vazio: não existe linha de chegada</h2><p>O último rolo é o mais curto, poucas páginas que muita gente lê como zen. É fácil ler o Vazio como iluminação: o estágio em que o esforço acaba e tudo flui.</p><p>Musashi não deixa.</p><p>Ele avisa que muita gente chama de vazio aquilo que simplesmente não entende — e isso não é vazio, é confusão. O vazio verdadeiro aparece quando essa névoa se dissipa. E o caminho até lá é descrito sem romantismo nenhum: com o espírito assentado, acumule prática dia após dia, hora após hora; afie a mente e o olhar.</p><p>O spoiler que eu tiro do Vazio é desconfortável: uma vida de melhoria contínua é difícil para sempre. Não existe a certificação, a promoção ou o mestrado depois do qual o trabalho fica leve.</p><p>Você não chega num ponto em que a disciplina fica fácil.</p><p>Você vira alguém para quem fazer coisas difíceis é o normal.</p><p>E aqui eu discordo da versão <em>hardcore</em> que circula por aí, a dos vídeos de “disciplina samurai” lá do começo. Difícil para sempre não quer dizer sofrer à toa. Esta série existe por uma ideia: não é porque eu sofri que você também precisa sofrer. O atrito de aprender um modelo novo, de recomeçar numa área, de admitir que o eu de ontem estava errado — esse fica. O sofrimento inútil, Musashi já tinha cortado lá na Terra, na minha leitura: não faça nada que seja inútil.</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!ndWW!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9997b003-52f3-46b2-a1cb-bae46ae9fbae_1800x1500.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!ndWW!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9997b003-52f3-46b2-a1cb-bae46ae9fbae_1800x1500.png 424w, https://substackcdn.com/image/fetch/$s_!ndWW!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9997b003-52f3-46b2-a1cb-bae46ae9fbae_1800x1500.png 848w, https://substackcdn.com/image/fetch/$s_!ndWW!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9997b003-52f3-46b2-a1cb-bae46ae9fbae_1800x1500.png 1272w, https://substackcdn.com/image/fetch/$s_!ndWW!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9997b003-52f3-46b2-a1cb-bae46ae9fbae_1800x1500.png 1456w\" sizes=\"auto, 100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!ndWW!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9997b003-52f3-46b2-a1cb-bae46ae9fbae_1800x1500.png\" width=\"1456\" height=\"1213\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/9997b003-52f3-46b2-a1cb-bae46ae9fbae_1800x1500.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:1213,&quot;width&quot;:1456,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:491825,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://syntaxis.substack.com/i/222580609?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9997b003-52f3-46b2-a1cb-bae46ae9fbae_1800x1500.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!ndWW!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9997b003-52f3-46b2-a1cb-bae46ae9fbae_1800x1500.png 424w, https://substackcdn.com/image/fetch/$s_!ndWW!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9997b003-52f3-46b2-a1cb-bae46ae9fbae_1800x1500.png 848w, https://substackcdn.com/image/fetch/$s_!ndWW!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9997b003-52f3-46b2-a1cb-bae46ae9fbae_1800x1500.png 1272w, https://substackcdn.com/image/fetch/$s_!ndWW!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9997b003-52f3-46b2-a1cb-bae46ae9fbae_1800x1500.png 1456w\" sizes=\"auto, 100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\" tabindex=\"0\" type=\"button\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\" tabindex=\"0\" type=\"button\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><h2>Não fica fácil</h2><p>Musashi começou o livro aos 60 anos, numa caverna, e o terminou doente, para um único discípulo. Venceu o duelo mais famoso da vida dele aos 29 e passou as três décadas seguintes treinando, pintando, escrevendo e estudando as escolas dos outros.</p><p>Na última semana de vida, ainda estava escrevendo regras para si mesmo.</p><p>Se você está no terceiro, quinto ou oitavo ano de carreira e sente que entrou no modo automático, a boa notícia é que isso não é defeito seu. É o ponto exato em que Musashi parou de contar vitórias e começou a perguntar por que tinha vencido.</p><p>A má notícia é que não fica mais fácil.</p><p>Mas, se você leu até aqui, desconfio que isso você já sabia.</p><div><hr></div><p><em>Os textos publicados na Syntaxis expressam exclusivamente minhas opiniões pessoais, formadas a partir da minha experiência profissional, e não representam a posição de meu empregador atual ou de empregadores anteriores. O conteúdo tem finalidade educacional e informativa: não constitui recomendação de investimento, análise de valores mobiliários ou consultoria financeira.</em></p>",
+ "has_dynamic_content": false,
+ "truncated_body_text": "Em 1612, numa pequena ilha entre Kyushu e Honshu, um espadachim de 29 anos desceu de um barco com uma espada de madeira talhada de um remo. Do outro lado estava Sasaki Kojirō, instrutor de esgrima de um senhor feudal e, para alguns, o melhor espadachim dos dois.",
+ "wordcount": 2483,
+ "post_preview_limit": null,
+ "language": "pt",
+ "postTags": [
+  {
+   "id": "5d3acdc8-31a3-4380-8ff0-c213ed95a7fd",
+   "publication_id": 2968718,
+   "name": "Consultoria Financeira",
+   "slug": "consultoria-financeira",
+   "hidden": false
+  },
+  {
+   "id": "80540162-738e-4f31-b39b-7277a25def66",
+   "publication_id": 2968718,
+   "name": "Carreira",
+   "slug": "carreira",
+   "hidden": false
+  }
+ ],
+ "postCountryBlocks": [],
+ "disable_drop_cap": false,
+ "cover_image_crop": null,
+ "headlineTest": null,
+ "coverImagePalette": {
+  "Vibrant": {
+   "rgb": [
+    52,
+    148,
+    108
+   ],
+   "population": 1593
+  },
+  "DarkVibrant": {
+   "rgb": [
+    28,
+    85,
+    53
+   ],
+   "population": 1234
+  },
+  "LightVibrant": {
+   "rgb": [
+    156.876,
+    220.524,
+    194.004
+   ],
+   "population": 0
+  },
+  "Muted": {
+   "rgb": [
+    84,
+    148,
+    100
+   ],
+   "population": 1
+  },
+  "DarkMuted": {
+   "rgb": [
+    49,
+    95,
+    76
+   ],
+   "population": 9
+  },
+  "LightMuted": {
+   "rgb": [
+    129,
+    186,
+    149
+   ],
+   "population": 124
+  }
+ },
+ "publishedBylines": [
+  {
+   "id": 136725718,
+   "name": "Silvano Junior",
+   "handle": "saapjr",
+   "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/4d24c48d-d4f2-406d-ab80-902631955776_640x640.jpeg",
+   "bio": "Capixaba Matemático (MsC) Cientista de Dados e Analista Quantitativo",
+   "profile_set_up_at": "2023-03-28T04:01:23.570Z",
+   "reader_installed_at": "2023-03-28T04:05:16.777Z",
+   "publicationUsers": [
+    {
+     "id": 3019355,
+     "user_id": 136725718,
+     "publication_id": 2968718,
+     "role": "admin",
+     "public": true,
+     "is_primary": true,
+     "publication": {
+      "id": 2968718,
+      "name": "Syntaxis",
+      "subdomain": "syntaxis",
+      "custom_domain": null,
+      "custom_domain_optional": false,
+      "hero_text": "A Syntaxis te ajuda a desenvolver as skills que hoje separam quem estagia de quem é efetivado, e quem é efetivado de quem vira referência.",
+      "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/f1431d70-c6a3-4eb3-9219-23ab9997436b_320x320.png",
+      "author_id": 136725718,
+      "primary_user_id": 136725718,
+      "theme_var_background_pop": "#FF6719",
+      "created_at": "2024-09-03T01:29:04.169Z",
+      "email_from_name": "SYNTAXIS",
+      "copyright": "Silvano Junior",
+      "founding_plan_name": "Membro Fundador",
+      "community_enabled": true,
+      "invite_only": false,
+      "payments_state": "enabled",
+      "language": "pt-br",
+      "explicit": false,
+      "homepage_type": "newspaper",
+      "is_personal_mode": false,
+      "logo_url_wide": null
+     }
+    }
+   ],
+   "is_guest": false,
+   "bestseller_tier": null,
+   "status": {
+    "bestsellerTier": null,
+    "subscriberTier": null,
+    "leaderboard": null,
+    "vip": false,
+    "badge": null,
+    "subscriber": null
+   }
+  }
+ ],
+ "reaction": null,
+ "reaction_count": 4,
+ "comment_count": 0,
+ "child_comment_count": 0,
+ "vg_wort_pixel_url": null,
+ "is_geoblocked": false,
+ "sponsorshipEditionBanner": null,
+ "is_editor_preview": false,
+ "hasCashtag": false,
+ "unlockedWithIP": false,
+ "unlockedWithCampaign": false,
+ "themeVariables": {
+  "color_theme_bg_pop": "#1B6A45",
+  "background_pop": "#1B6A45",
+  "color_theme_bg_web": "#F7F7F5",
+  "cover_bg_color": "#F7F7F5",
+  "cover_bg_color_secondary": "#e8e8e6",
+  "background_pop_darken": "#165638",
+  "print_on_pop": "#ffffff",
+  "color_theme_bg_pop_darken": "#165638",
+  "color_theme_print_on_pop": "#ffffff",
+  "color_theme_bg_pop_20": "rgba(27, 106, 69, 0.2)",
+  "color_theme_bg_pop_30": "rgba(27, 106, 69, 0.3)",
+  "print_pop": "#1b6a45",
+  "color_theme_accent": "#1b6a45",
+  "cover_print_primary": "#363737",
+  "cover_print_secondary": "#757575",
+  "cover_print_tertiary": "#b6b6b6",
+  "cover_border_color": "#1b6a45",
+  "font_family_body_preset": "'SF Pro Display', -apple-system, system-ui, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+  "font_weight_body_preset": 400,
+  "font_preset_body": "sans",
+  "home_hero": "feature-media",
+  "home_posts": "grid",
+  "home_show_top_posts": true,
+  "web_bg_color": "#F7F7F5",
+  "background_contrast_1": "#e8e8e6",
+  "background_contrast_2": "#d6d6d4",
+  "background_contrast_3": "#b1b1b0",
+  "background_contrast_4": "#8e8e8d",
+  "background_contrast_5": "#4e4e4d",
+  "color_theme_bg_contrast_1": "#e8e8e6",
+  "color_theme_bg_contrast_2": "#d6d6d4",
+  "color_theme_bg_contrast_3": "#b1b1b0",
+  "color_theme_bg_contrast_4": "#8e8e8d",
+  "color_theme_bg_contrast_5": "#4e4e4d",
+  "color_theme_bg_elevated": "#f7f7f5",
+  "color_theme_bg_elevated_secondary": "#e8e8e6",
+  "color_theme_bg_elevated_tertiary": "#d6d6d4",
+  "color_theme_detail": "#dededd",
+  "background_contrast_pop": "rgba(27, 106, 69, 0.4)",
+  "color_theme_bg_contrast_pop": "rgba(27, 106, 69, 0.4)",
+  "theme_bg_is_dark": "0",
+  "print_on_web_bg_color": "#363737",
+  "print_secondary_on_web_bg_color": "#838483",
+  "background_pop_rgb": "27, 106, 69",
+  "color_theme_bg_pop_rgb": "27, 106, 69",
+  "color_theme_accent_rgb": "27, 106, 69"
+ },
+ "oneOffUnlockOffer": {
+  "eligible": false
+ }
+}

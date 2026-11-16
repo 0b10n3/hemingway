@@ -1,0 +1,283 @@
+{
+ "audience": "everyone",
+ "audience_before_archived": null,
+ "canonical_url": "https://syntaxis.substack.com/p/tesouro-prefixado-o-guia-completo",
+ "default_comment_sort": null,
+ "editor_v2": false,
+ "exempt_from_archive_paywall": false,
+ "free_unlock_required": false,
+ "id": 150611243,
+ "podcast_art_url": null,
+ "podcast_duration": null,
+ "podcast_preview_upload_id": null,
+ "podcast_upload_id": null,
+ "podcast_url": null,
+ "post_date": "2024-10-24T01:01:36.966Z",
+ "updated_at": "2024-10-24T01:01:37.089Z",
+ "publication_id": 2968718,
+ "search_engine_description": null,
+ "search_engine_title": null,
+ "section_id": null,
+ "should_send_free_preview": false,
+ "show_guest_bios": true,
+ "slug": "tesouro-prefixado-o-guia-completo",
+ "social_title": null,
+ "subtitle": "Alcançando objetivos bem especificados",
+ "teaser_post_eligible": true,
+ "title": "Tesouro Prefixado: O Guia Completo para Investidores Iniciantes",
+ "type": "newsletter",
+ "video_upload_id": null,
+ "write_comment_permissions": "everyone",
+ "meter_type": "none",
+ "live_stream_id": null,
+ "is_published": true,
+ "restacks": 1,
+ "reactions": {
+  "❤": 3
+ },
+ "top_exclusions": [],
+ "pins": [],
+ "section_pins": [],
+ "has_shareable_clips": false,
+ "previous_post_slug": "eu-preciso-de-um-assessor-de-investimentos",
+ "next_post_slug": "tesouro-selic",
+ "cover_image": "https://substackcdn.com/image/fetch/$s_!dg-L!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0c2fa5a0-53a8-4d52-92cc-7dbeab7896fe_896x804.jpeg",
+ "cover_image_is_square": false,
+ "cover_image_is_explicit": false,
+ "videoUpload": null,
+ "podcastFields": {
+  "post_id": 150611243,
+  "podcast_episode_number": null,
+  "podcast_season_number": null,
+  "podcast_episode_type": null,
+  "should_syndicate_to_other_feed": null,
+  "syndicate_to_section_id": null,
+  "hide_from_feed": false,
+  "free_podcast_url": null,
+  "free_podcast_duration": null,
+  "preview_contains_ad": false,
+  "was_imported_self_serve_sync": false,
+  "draft_free_podcast_url": null,
+  "draft_free_podcast_duration": null
+ },
+ "podcastUpload": null,
+ "podcastPreviewUpload": null,
+ "voiceover_upload_id": null,
+ "voiceoverUpload": null,
+ "has_voiceover": false,
+ "description": "Alcançando objetivos bem especificados",
+ "body_html": "<div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!dg-L!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0c2fa5a0-53a8-4d52-92cc-7dbeab7896fe_896x804.jpeg\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!dg-L!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0c2fa5a0-53a8-4d52-92cc-7dbeab7896fe_896x804.jpeg 424w, https://substackcdn.com/image/fetch/$s_!dg-L!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0c2fa5a0-53a8-4d52-92cc-7dbeab7896fe_896x804.jpeg 848w, https://substackcdn.com/image/fetch/$s_!dg-L!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0c2fa5a0-53a8-4d52-92cc-7dbeab7896fe_896x804.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!dg-L!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0c2fa5a0-53a8-4d52-92cc-7dbeab7896fe_896x804.jpeg 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!dg-L!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0c2fa5a0-53a8-4d52-92cc-7dbeab7896fe_896x804.jpeg\" width=\"896\" height=\"804\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/0c2fa5a0-53a8-4d52-92cc-7dbeab7896fe_896x804.jpeg&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:804,&quot;width&quot;:896,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:191728,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/jpeg&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:false,&quot;topImage&quot;:true,&quot;internalRedirect&quot;:null,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!dg-L!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0c2fa5a0-53a8-4d52-92cc-7dbeab7896fe_896x804.jpeg 424w, https://substackcdn.com/image/fetch/$s_!dg-L!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0c2fa5a0-53a8-4d52-92cc-7dbeab7896fe_896x804.jpeg 848w, https://substackcdn.com/image/fetch/$s_!dg-L!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0c2fa5a0-53a8-4d52-92cc-7dbeab7896fe_896x804.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!dg-L!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0c2fa5a0-53a8-4d52-92cc-7dbeab7896fe_896x804.jpeg 1456w\" sizes=\"100vw\" fetchpriority=\"high\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\" tabindex=\"0\" type=\"button\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\" tabindex=\"0\" type=\"button\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><div class=\"pullquote\"><p><strong>\"O risco vem de não saber o que você está fazendo.\"</strong><br>— <strong>Warren Buffett</strong>, <em>The Intelligent Investor</em></p></div><p>Hoje iniciamos nossa série sobre os títulos do Tesouro Nacional. Escolhi começar com o Tesouro Prefixado, que é o título com a dinâmica mais simples. Nosso plano é apresentar suas principais características, explicar como funciona sua remuneração e trazer um exemplo de uso do Tesouro Prefixado para alcançar um objetivo de investimento.</p><h2>O que é o Tesouro Prefixado?</h2><p>O Tesouro Prefixado (LTN) é um título público que faz parte do programa do Tesouro Direto, uma parceria entre o governo federal e a B3. Sua principal característica é que sua rentabilidade é definida no momento da compra, ou seja, o investidor sabe exatamente quanto irá receber se mantiver o título até o vencimento. Essa previsibilidade o torna atrativo para quem busca segurança em seus investimentos.</p><p>Vale destacar que o Tesouro Prefixado é equivalente às LTNs (Letras do Tesouro Nacional), que são títulos de dívida pública emitidos pelo governo brasileiro. As LTNs possuem características semelhantes ao Tesouro Prefixado no que diz respeito à rentabilidade fixa e ao valor nominal de R$ 1.000,00 no vencimento. A principal diferença entre eles é a nomenclatura: LTN refere-se ao título no contexto mais amplo das emissões diretas do governo, enquanto Tesouro Prefixado é o nome dado ao mesmo título dentro do programa Tesouro Direto, destinado ao público em geral para aplicações de baixo valor, com facilidades de compra e acompanhamento online.</p><h2>Como funciona sua remuneração?</h2><p>A remuneração do Tesouro Prefixado é composta por uma taxa de juros anual definida no momento da compra. No vencimento do título, o investidor recebe o valor de face (R$ 1.000,00 por título) somado à rentabilidade contratada. No entanto, se o investidor optar por vender o título antes do vencimento, o preço do título pode oscilar devido à marcação a mercado, o que significa que seu valor varia conforme as condições econômicas e a expectativa de juros futuros.</p><p>Imagine que você comprou um título do Tesouro Prefixado com vencimento em 01/01/2025 e pagou R$ 733,86 por ele, com uma taxa de juros anual de 10,88%. No vencimento, em 2025, você receberá o valor de face de R$ 1.000,00. Assim, se você mantiver o título até o vencimento, a rentabilidade contratada será garantida, resultando em um ganho de 36,27% para todo o período.</p><p>No entanto, se você optar por vender o título antes do vencimento, a rentabilidade pode variar conforme as condições de mercado. Se, por exemplo, no momento da venda as taxas de juros de mercado subirem, o preço do título pode cair, resultando em uma venda por menos de R$ 733,86. Por outro lado, se as taxas de juros caírem, o valor do título poderá subir, permitindo que você o venda por um preço superior, obtendo um ganho antecipado.</p><p>Esse efeito ocorre devido à marcação a mercado, que ajusta o valor do título diariamente de acordo com as expectativas de juros futuros e as condições econômicas no momento da venda.</p><h2>Vantagens e Riscos</h2><h3>Vantagens</h3><p>Segurança: Como o governo federal é considerado o credor mais seguro do país, investir em títulos públicos como o Tesouro Prefixado é considerado um investimento conservador.</p><p>Previsibilidade: Se mantido até o vencimento, o Tesouro Prefixado oferece ao investidor a segurança de saber exatamente quanto receberá, independentemente das condições de mercado.</p><h3>Riscos</h3><p>Marcação a Mercado: Quem precisa vender o título antes do vencimento pode ser afetado pela oscilação do preço devido às mudanças na taxa de juros. Quando os juros de mercado sobem, o preço do título tende a cair, e vice-versa.</p><p>A marcação a mercado é um conceito crucial para entender o comportamento de títulos públicos como o Tesouro Prefixado, especialmente se o investidor considerar a venda antes do vencimento. Ela se refere ao ajuste diário do valor do título com base nas condições econômicas e nas expectativas do mercado, especialmente em relação à taxa de juros. Quando o investidor compra um Tesouro Prefixado, a taxa de juros do momento é travada e o valor do título será exatamente o acordado no vencimento. Entretanto, caso o investidor deseje vender esse título antes da data de vencimento, ele estará sujeito às flutuações do mercado.</p><p>Se, durante o período de investimento, as taxas de juros de mercado aumentarem, o preço do Tesouro Prefixado tende a cair. Isso acontece porque títulos mais recentes serão emitidos com taxas de juros mais altas, tornando os antigos menos atraentes, já que pagam uma remuneração inferior. Para competir com esses novos títulos, o preço dos títulos antigos precisa ser ajustado para baixo, de modo que o retorno total seja equivalente ao dos novos. Por outro lado, se as taxas de juros caírem, o preço do título tende a subir, uma vez que ele se torna mais valioso comparado a novos títulos que pagam juros menores. Esse movimento de alta e baixa no valor do título ocorre continuamente até o vencimento, o que pode resultar em ganhos ou perdas para quem decide vendê-lo antecipadamente.</p><h2>Para quem se destina esse investimento?</h2><p>O Tesouro Prefixado é indicado para investidores que desejam estabilidade e previsibilidade em seus investimentos, sabendo exatamente o valor que irão receber ao final do período. Ele não é recomendado para quem pode precisar resgatar o dinheiro antes do vencimento, devido ao risco de perdas associadas à marcação a mercado.</p><h2>Custos e Tributação</h2><h3>Taxas</h3><p>&nbsp;Todos os investidores do Tesouro Direto estão sujeitos a uma taxa de 0,20% ao ano, cobrada pela CBLC (Companhia Brasileira de Liquidação e Custódia).</p><h3>Tributação</h3><p>Os investimentos no Tesouro Direto estão sujeitos ao Imposto de Renda, com alíquotas que variam de 22,5% a 15%, dependendo do prazo do investimento:</p><ul><li><p>22,5% para aplicações até 180 dias;</p></li><li><p>20% para aplicações de 181 a 360 dias;</p></li><li><p>17,5% para aplicações de 361 a 720 dias;</p></li><li><p>15% para aplicações superiores a 720 dias.</p></li></ul><h3>IOF</h3><p>Caso o resgate ocorra antes de 30 dias, o Imposto sobre Operações Financeiras (IOF) também é cobrado, com uma alíquota que diminui progressivamente conforme o tempo.</p><h2>Caso Prático: Como o Tesouro Prefixado pode ajudar um investidor?</h2><p>Imagine que você planeja comprar um terreno daqui a três anos, cujo preço estimado é de R$ 100.000,00. Você já possui R$ 73.386,00 disponíveis para investir e quer garantir que esse montante cresça de forma segura até atingir os R$ 100.000,00 ao final do período.</p><p>Sabendo que o Tesouro Prefixado oferece uma taxa de rentabilidade de 10,88% ao ano, você decide investir esse valor comprando 100 títulos por R$ 733,86 cada um. Mantendo os títulos até o vencimento, em três anos, você receberá R$ 1.000,00 por título, o que resultará nos R$ 100.000,00 necessários para a compra do terreno. Dessa forma, você alcança seu objetivo com segurança, sem precisar se preocupar com oscilações no mercado financeiro ou mudanças na taxa de juros.</p><p>Esse é um exemplo clássico de como o Tesouro Prefixado pode ser utilizado dentro de uma estratégia de goal-based investing, alinhando o planejamento financeiro com um objetivo específico, de maneira previsível e sem surpresas.</p><h2>Conclusão</h2><p>Em resumo, o Tesouro Prefixado é uma excelente opção para investidores que buscam segurança e previsibilidade em seus investimentos. Com a certeza de quanto receberão ao final do período, eles podem planejar melhor seus objetivos financeiros. </p><p>No próximo artigo, abordaremos o Tesouro Selic, outro importante título do Tesouro Nacional, que oferece características distintas e pode ser uma alternativa interessante para sua carteira de investimentos. Fique atento!</p><h2></h2>",
+ "has_dynamic_content": false,
+ "truncated_body_text": "\"O risco vem de não saber o que você está fazendo.\"",
+ "wordcount": 1230,
+ "post_preview_limit": null,
+ "language": "pt",
+ "postTags": [
+  {
+   "id": "0b58bb7f-b411-41eb-bb37-9f8d73a14930",
+   "publication_id": 2968718,
+   "name": "Aposentadoria",
+   "slug": "aposentadoria",
+   "hidden": false
+  },
+  {
+   "id": "152ce6b8-627e-4cfd-9cd2-d37fc564c51a",
+   "publication_id": 2968718,
+   "name": "Fintech",
+   "slug": "fintech",
+   "hidden": false
+  },
+  {
+   "id": "840a3954-b7d3-40aa-a461-ecf64e5a4dd2",
+   "publication_id": 2968718,
+   "name": "Tesouro",
+   "slug": "tesouro",
+   "hidden": false
+  },
+  {
+   "id": "b53ab524-9da7-4f72-809b-a0d91634f563",
+   "publication_id": 2968718,
+   "name": "Finanças",
+   "slug": "financas",
+   "hidden": false
+  },
+  {
+   "id": "da8762be-e580-4bc8-b60b-a8d8c807400e",
+   "publication_id": 2968718,
+   "name": "Prefixado",
+   "slug": "prefixado",
+   "hidden": false
+  }
+ ],
+ "postCountryBlocks": [],
+ "disable_drop_cap": false,
+ "cover_image_crop": null,
+ "headlineTest": null,
+ "coverImagePalette": {
+  "Vibrant": {
+   "rgb": [
+    58,
+    172,
+    182
+   ],
+   "population": 62
+  },
+  "DarkVibrant": {
+   "rgb": [
+    102,
+    35,
+    11
+   ],
+   "population": 194
+  },
+  "LightVibrant": {
+   "rgb": [
+    236,
+    204,
+    170
+   ],
+   "population": 6
+  },
+  "Muted": {
+   "rgb": [
+    105,
+    171,
+    175
+   ],
+   "population": 540
+  },
+  "DarkMuted": {
+   "rgb": [
+    46,
+    31,
+    22
+   ],
+   "population": 430
+  },
+  "LightMuted": {
+   "rgb": [
+    216,
+    194,
+    168
+   ],
+   "population": 508
+  }
+ },
+ "publishedBylines": [
+  {
+   "id": 136725718,
+   "name": "Silvano Junior",
+   "handle": "saapjr",
+   "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/4d24c48d-d4f2-406d-ab80-902631955776_640x640.jpeg",
+   "bio": "Capixaba Matemático (MsC) Cientista de Dados e Analista Quantitativo",
+   "profile_set_up_at": "2023-03-28T04:01:23.570Z",
+   "reader_installed_at": "2023-03-28T04:05:16.777Z",
+   "publicationUsers": [
+    {
+     "id": 3019355,
+     "user_id": 136725718,
+     "publication_id": 2968718,
+     "role": "admin",
+     "public": true,
+     "is_primary": true,
+     "publication": {
+      "id": 2968718,
+      "name": "Syntaxis",
+      "subdomain": "syntaxis",
+      "custom_domain": null,
+      "custom_domain_optional": false,
+      "hero_text": "A Syntaxis te ajuda a desenvolver as skills que hoje separam quem estagia de quem é efetivado, e quem é efetivado de quem vira referência.",
+      "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/f1431d70-c6a3-4eb3-9219-23ab9997436b_320x320.png",
+      "author_id": 136725718,
+      "primary_user_id": 136725718,
+      "theme_var_background_pop": "#FF6719",
+      "created_at": "2024-09-03T01:29:04.169Z",
+      "email_from_name": "SYNTAXIS",
+      "copyright": "Silvano Junior",
+      "founding_plan_name": "Membro Fundador",
+      "community_enabled": true,
+      "invite_only": false,
+      "payments_state": "enabled",
+      "language": "pt-br",
+      "explicit": false,
+      "homepage_type": "newspaper",
+      "is_personal_mode": false,
+      "logo_url_wide": null
+     }
+    }
+   ],
+   "is_guest": false,
+   "bestseller_tier": null,
+   "status": {
+    "bestsellerTier": null,
+    "subscriberTier": null,
+    "leaderboard": null,
+    "vip": false,
+    "badge": null,
+    "subscriber": null
+   }
+  }
+ ],
+ "reaction": null,
+ "reaction_count": 3,
+ "comment_count": 0,
+ "child_comment_count": 0,
+ "vg_wort_pixel_url": null,
+ "is_geoblocked": false,
+ "sponsorshipEditionBanner": null,
+ "is_editor_preview": false,
+ "hasCashtag": false,
+ "unlockedWithIP": false,
+ "unlockedWithCampaign": false,
+ "themeVariables": {
+  "color_theme_bg_pop": "#1B6A45",
+  "background_pop": "#1B6A45",
+  "color_theme_bg_web": "#F7F7F5",
+  "cover_bg_color": "#F7F7F5",
+  "cover_bg_color_secondary": "#e8e8e6",
+  "background_pop_darken": "#165638",
+  "print_on_pop": "#ffffff",
+  "color_theme_bg_pop_darken": "#165638",
+  "color_theme_print_on_pop": "#ffffff",
+  "color_theme_bg_pop_20": "rgba(27, 106, 69, 0.2)",
+  "color_theme_bg_pop_30": "rgba(27, 106, 69, 0.3)",
+  "print_pop": "#1b6a45",
+  "color_theme_accent": "#1b6a45",
+  "cover_print_primary": "#363737",
+  "cover_print_secondary": "#757575",
+  "cover_print_tertiary": "#b6b6b6",
+  "cover_border_color": "#1b6a45",
+  "font_family_body_preset": "'SF Pro Display', -apple-system, system-ui, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+  "font_weight_body_preset": 400,
+  "font_preset_body": "sans",
+  "home_hero": "feature-media",
+  "home_posts": "grid",
+  "home_show_top_posts": true,
+  "web_bg_color": "#F7F7F5",
+  "background_contrast_1": "#e8e8e6",
+  "background_contrast_2": "#d6d6d4",
+  "background_contrast_3": "#b1b1b0",
+  "background_contrast_4": "#8e8e8d",
+  "background_contrast_5": "#4e4e4d",
+  "color_theme_bg_contrast_1": "#e8e8e6",
+  "color_theme_bg_contrast_2": "#d6d6d4",
+  "color_theme_bg_contrast_3": "#b1b1b0",
+  "color_theme_bg_contrast_4": "#8e8e8d",
+  "color_theme_bg_contrast_5": "#4e4e4d",
+  "color_theme_bg_elevated": "#f7f7f5",
+  "color_theme_bg_elevated_secondary": "#e8e8e6",
+  "color_theme_bg_elevated_tertiary": "#d6d6d4",
+  "color_theme_detail": "#dededd",
+  "background_contrast_pop": "rgba(27, 106, 69, 0.4)",
+  "color_theme_bg_contrast_pop": "rgba(27, 106, 69, 0.4)",
+  "theme_bg_is_dark": "0",
+  "print_on_web_bg_color": "#363737",
+  "print_secondary_on_web_bg_color": "#838483",
+  "background_pop_rgb": "27, 106, 69",
+  "color_theme_bg_pop_rgb": "27, 106, 69",
+  "color_theme_accent_rgb": "27, 106, 69"
+ },
+ "oneOffUnlockOffer": {
+  "eligible": false
+ }
+}

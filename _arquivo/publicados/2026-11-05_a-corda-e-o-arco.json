@@ -1,0 +1,297 @@
+{
+ "audience": "everyone",
+ "audience_before_archived": null,
+ "canonical_url": "https://syntaxis.substack.com/p/a-corda-e-o-arco",
+ "default_comment_sort": null,
+ "editor_v2": false,
+ "exempt_from_archive_paywall": false,
+ "free_unlock_required": false,
+ "id": 223621443,
+ "podcast_art_url": null,
+ "podcast_duration": null,
+ "podcast_preview_upload_id": null,
+ "podcast_upload_id": null,
+ "podcast_url": null,
+ "post_date": "2026-11-05T21:14:42.134Z",
+ "updated_at": "2026-11-05T21:14:42.920Z",
+ "publication_id": 2968718,
+ "search_engine_description": null,
+ "search_engine_title": null,
+ "section_id": 442561,
+ "should_send_free_preview": false,
+ "show_guest_bios": true,
+ "slug": "a-corda-e-o-arco",
+ "social_title": null,
+ "subtitle": "Juro simples, composto e contínuo além dos livros",
+ "teaser_post_eligible": true,
+ "title": "A Corda e o Arco",
+ "type": "newsletter",
+ "video_upload_id": null,
+ "write_comment_permissions": "only_paid",
+ "meter_type": "none",
+ "live_stream_id": null,
+ "is_published": true,
+ "restacks": 2,
+ "reactions": {
+  "❤": 5
+ },
+ "top_exclusions": [],
+ "pins": [],
+ "section_pins": [],
+ "has_shareable_clips": false,
+ "previous_post_slug": "voce-esta-contando-os-dias-errado",
+ "next_post_slug": "frequencia-de-capitalizacao",
+ "cover_image": "https://substackcdn.com/image/fetch/$s_!vGRM!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F72523de6-6b8a-460a-a7d3-067c1b50908e_2752x1536.jpeg",
+ "cover_image_is_square": false,
+ "cover_image_is_explicit": false,
+ "videoUpload": null,
+ "podcastFields": {
+  "post_id": 223621443,
+  "podcast_episode_number": null,
+  "podcast_season_number": null,
+  "podcast_episode_type": null,
+  "should_syndicate_to_other_feed": null,
+  "syndicate_to_section_id": null,
+  "hide_from_feed": false,
+  "free_podcast_url": null,
+  "free_podcast_duration": null,
+  "preview_contains_ad": false,
+  "was_imported_self_serve_sync": false,
+  "draft_free_podcast_url": null,
+  "draft_free_podcast_duration": null
+ },
+ "podcastUpload": null,
+ "podcastPreviewUpload": null,
+ "voiceover_upload_id": null,
+ "voiceoverUpload": null,
+ "has_voiceover": false,
+ "description": "Juro simples, composto e contínuo além dos livros",
+ "body_html": "<div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!vGRM!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F72523de6-6b8a-460a-a7d3-067c1b50908e_2752x1536.jpeg\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!vGRM!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F72523de6-6b8a-460a-a7d3-067c1b50908e_2752x1536.jpeg 424w, https://substackcdn.com/image/fetch/$s_!vGRM!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F72523de6-6b8a-460a-a7d3-067c1b50908e_2752x1536.jpeg 848w, https://substackcdn.com/image/fetch/$s_!vGRM!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F72523de6-6b8a-460a-a7d3-067c1b50908e_2752x1536.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!vGRM!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F72523de6-6b8a-460a-a7d3-067c1b50908e_2752x1536.jpeg 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!vGRM!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F72523de6-6b8a-460a-a7d3-067c1b50908e_2752x1536.jpeg\" width=\"1456\" height=\"813\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/72523de6-6b8a-460a-a7d3-067c1b50908e_2752x1536.jpeg&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:813,&quot;width&quot;:1456,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:1772152,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/jpeg&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:false,&quot;topImage&quot;:true,&quot;internalRedirect&quot;:&quot;https://syntaxis.substack.com/i/223621443?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F72523de6-6b8a-460a-a7d3-067c1b50908e_2752x1536.jpeg&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!vGRM!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F72523de6-6b8a-460a-a7d3-067c1b50908e_2752x1536.jpeg 424w, https://substackcdn.com/image/fetch/$s_!vGRM!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F72523de6-6b8a-460a-a7d3-067c1b50908e_2752x1536.jpeg 848w, https://substackcdn.com/image/fetch/$s_!vGRM!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F72523de6-6b8a-460a-a7d3-067c1b50908e_2752x1536.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!vGRM!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F72523de6-6b8a-460a-a7d3-067c1b50908e_2752x1536.jpeg 1456w\" sizes=\"100vw\" fetchpriority=\"high\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p></p><p>No último texto conversamos sobre como um ano pode ter mais, ou menos, dias úteis do que os 252 de um ano convencional. 2026 tem 249 dias úteis.</p><p>Chamamos essa contagem de régua.</p><p>O motor, a regra que transforma o tempo contado em dinheiro, ganhou duas linhas:</p><p>composto, (1 + i) elevado a τ;</p><p>linear, 1 + i vezes τ.</p><p>Duas linhas é pouco para uma conta que aparece em quase todo texto desta série.</p><p>Na LCA (Letra de Crédito do Agronegócio), para achar a taxa em que um CDB (Certificado de Depósito Bancário) empata com ela depois do imposto. Na debênture, para converter percentual do CDI (no mercado, o nome da taxa DI, a dos empréstimos de um dia entre bancos) em CDI mais <em>spread</em> (o prêmio acima do CDI que paga o risco do devedor) e para estimar quanto o PU (preço unitário, o valor de mercado de cada título) cai quando o <em>spread</em> do devedor abre. Em todas, o du/252 (dias úteis sobre 252) estava no expoente.</p><p>Aqui podemos começar com uma pergunta típica do início de um curso de matemática financeira.</p><p>Você aplica R$ 1 milhão a 14% ao ano por seis meses, ou 126 dias úteis. Quanto rende?</p><p>Se a sua resposta foi R$ 70 mil, você acertou.</p><p>É o que o juro simples paga, e há contratos que pagam assim.</p><p>E você também errou.</p><p>Num CDB prefixado à mesma taxa, o rendimento é de R$ 67.707,83.</p><p>A diferença, R$ 2.292,17, é a distância entre dois motores.</p><h2>A versão que se aprende cedo</h2><p>A história costuma ser contada assim. Juro simples é coisa de livro escolar e de agiota de bairro. Juro composto é o regime dos profissionais, a <em>‘bola de neve’,</em> a força que uma frase atribuída a Einstein, sem fonte que a sustente, chamaria de oitava maravilha do mundo.</p><p>Então o composto rende mais. Sempre. E começa a trabalhar desde o primeiro dia.</p><p>As duas afirmações são falsas. A primeira, entre zero e um período. A segunda, por mais tempo do que quase todo mundo imagina.</p><p>Capitalização não é lei da natureza. É cláusula.</p><h2>Três motores para o mesmo tempo</h2><p>Um regime de capitalização, o motor do texto anterior, é a regra que diz o que acontece com o juro de cada período: se ele fica parado ao lado do capital ou se passa a render junto. Nas três fórmulas abaixo, C é o capital, M o montante (capital mais juros), i a taxa por período e t o prazo medido em períodos da própria taxa.</p><p>Na capitalização simples, ou regime linear, o juro incide só sobre o capital inicial. O montante cresce em progressão aritmética, uma reta:</p><div class=\"latex-rendered\" data-attrs=\"{&quot;persistentExpression&quot;:&quot;M = C\\\\,(1 + i\\\\,t)&quot;,&quot;id&quot;:&quot;FEGVMYWIXP&quot;}\" data-component-name=\"LatexBlockToDOM\"></div><p>Na capitalização composta, ou regime exponencial, o juro de cada período se incorpora ao saldo e passa a render no período seguinte. É o ‘juro sobre juro’, que o Direito chama de anatocismo. O montante cresce em progressão geométrica:</p><div class=\"latex-rendered\" data-attrs=\"{&quot;persistentExpression&quot;:&quot;M = C\\\\,(1 + i)^{t}&quot;,&quot;id&quot;:&quot;VMRRAYHBCQ&quot;}\" data-component-name=\"LatexBlockToDOM\"></div><p>Na capitalização contínua, o juro é reinvestido a cada instante, como se o número de capitalizações por período tendesse ao infinito. Entram o número de Euler (e ≈ 2,71828) e uma taxa instantânea r:</p><div class=\"latex-rendered\" data-attrs=\"{&quot;persistentExpression&quot;:&quot;M = C\\\\,e^{r\\\\,t}, \\\\qquad r = \\\\ln(1 + i)&quot;,&quot;id&quot;:&quot;RJVTXDZLUK&quot;}\" data-component-name=\"LatexBlockToDOM\"></div><p>A segunda igualdade importa. Com r = ln(1,14) = 13,10%, o motor contínuo dá exatamente o mesmo montante que 14% compostos. Usar e elevado a (0,14 × t), com o número cotado no lugar da taxa instantânea, é calcular 15,03% ao ano sem perceber.</p><p>Resta medir t, e aqui volta a régua. No Brasil, para quase toda a renda fixa em reais, t = du/252: dias úteis do período sobre um ano convencional de 252 dias úteis. É o expoente dos textos anteriores. Lá fora, o mais comum é contar dias corridos sobre 360 ou 365.</p><h3>O prazo quebrado</h3><p>Quando o prazo tem uma parte inteira n e uma fração f de período, há duas formas de fechar a conta dentro do regime composto. A convenção linear, ou mista, compõe a parte inteira e aplica juro simples na fração. A convenção exponencial compõe tudo:</p><div class=\"latex-rendered\" data-attrs=\"{&quot;persistentExpression&quot;:&quot;M_{\\\\text{linear}} = C\\\\,(1 + i)^{n}\\\\,(1 + i\\\\,f) \\\\qquad M_{\\\\text{exponencial}} = C\\\\,(1 + i)^{n + f}&quot;,&quot;id&quot;:&quot;ADKLFAOYOH&quot;}\" data-component-name=\"LatexBlockToDOM\"></div><p>R$ 1 milhão a 14% ao ano por um ano e meio: R$ 219.800,00 de juros pela convenção linear, R$ 217.186,92 pela exponencial. A fração vale R$ 2.613,08 para um dos lados do contrato. É a mesma diferença de meio período da abertura, carregada por mais um ano.</p><p>Até aqui, é o segundo capítulo de qualquer livro de matemática financeira. O interessante começa quando se desenha essa diferença.</p><h2>A Corda e o Arco</h2><p>Aqui podemos destacar algumas ideias que separam quem decorou as fórmulas de quem as entende.</p><p>A reta do simples e a curva do composto passam pelos mesmos dois pontos. Em t = 0, os dois valem C. Em t = 1, os dois valem C vezes (1 + i): <strong>no fim do primeiro período ainda não há juro anterior para render juro</strong>.</p><p>Entre esses dois pontos, a reta do juro simples é a corda de uma curva convexa (no sentido do cálculo: arqueada para cima, como o fundo de uma tigela). </p><p>E a corda de uma curva convexa passa por cima dela. Com o mesmo número cotado, para qualquer fração de período, o juro composto rende menos que o simples. Quem fez um curso de cálculo reconhece a desigualdade de Bernoulli, na versão para expoentes entre zero e um; quem não fez pode confiar no desenho.</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!HfRH!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1f6fa341-535d-42a9-a01a-301d2e4c859a_1800x1440.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!HfRH!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1f6fa341-535d-42a9-a01a-301d2e4c859a_1800x1440.png 424w, https://substackcdn.com/image/fetch/$s_!HfRH!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1f6fa341-535d-42a9-a01a-301d2e4c859a_1800x1440.png 848w, https://substackcdn.com/image/fetch/$s_!HfRH!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1f6fa341-535d-42a9-a01a-301d2e4c859a_1800x1440.png 1272w, https://substackcdn.com/image/fetch/$s_!HfRH!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1f6fa341-535d-42a9-a01a-301d2e4c859a_1800x1440.png 1456w\" sizes=\"auto, 100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!HfRH!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1f6fa341-535d-42a9-a01a-301d2e4c859a_1800x1440.png\" width=\"1456\" height=\"1165\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/1f6fa341-535d-42a9-a01a-301d2e4c859a_1800x1440.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:1165,&quot;width&quot;:1456,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:288872,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://syntaxis.substack.com/i/223621443?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1f6fa341-535d-42a9-a01a-301d2e4c859a_1800x1440.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!HfRH!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1f6fa341-535d-42a9-a01a-301d2e4c859a_1800x1440.png 424w, https://substackcdn.com/image/fetch/$s_!HfRH!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1f6fa341-535d-42a9-a01a-301d2e4c859a_1800x1440.png 848w, https://substackcdn.com/image/fetch/$s_!HfRH!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1f6fa341-535d-42a9-a01a-301d2e4c859a_1800x1440.png 1272w, https://substackcdn.com/image/fetch/$s_!HfRH!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1f6fa341-535d-42a9-a01a-301d2e4c859a_1800x1440.png 1456w\" sizes=\"auto, 100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p>Na prática, isso quer dizer que, com o mesmo número cotado, o motor linear paga mais a quem aplica e cobra mais de quem toma sempre que o prazo é menor que o período da taxa. Seis meses de uma taxa anual. Quinze dias de uma taxa mensal. A fração de mês de uma dívida em atraso.</p><p>Esse último caso tem endereço. Em 2024, a Resolução nº 5.171 do Conselho Monetário Nacional (CMN) definiu o cálculo da taxa legal, a taxa de juros que incide sobre uma dívida civil quando o contrato não fixa a taxa. O texto manda acumulá-la em juros simples, tanto de um mês para o outro quanto na fração do mês, apropriada por dias corridos. O devedor com quinze dias de atraso paga a taxa do mês em proporção aos dias, cerca de metade dela, e não o equivalente composto: paga pela reta, que nesse trecho passa acima da curva. Numa dívida de muitos meses, as taxas mensais se somam em vez de se multiplicar, e a reta passa para baixo da curva. A mesma norma, dos dois lados da barriga.</p><p>Por isso a frase “14% ao ano”, sozinha, não diz quanto você vai receber. </p><p>Ela é a metade de uma cláusula.</p><h2>A bola de neve demora a rolar</h2><p>Depois do primeiro período, o composto passa à frente. A pergunta seguinte é quanto do rendimento é, de fato, juro sobre juro.</p><p>O montante composto se decompõe em três camadas: o capital; o juro linear, isto é, o juro simples sobre o capital, que cresce em linha reta; e o juro sobre juro, a parte que só existe porque o juro anterior foi reinvestido.</p><div class=\"latex-rendered\" data-attrs=\"{&quot;persistentExpression&quot;:&quot;J_{\\\\text{juro sobre juro}} = C\\\\,\\\\left[(1 + i)^{t} - 1 - i\\\\,t\\\\right]&quot;,&quot;id&quot;:&quot;VCQJJNSCNF&quot;}\" data-component-name=\"LatexBlockToDOM\"></div><p></p><p>Em dois anos a 14% ao ano, R$ 1.000 rendem R$ 299,60. Desses, R$ 280,00 são juro linear. O juro sobre juro responde por R$ 19,60.</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!D9gH!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa1092895-2efb-4d4a-889a-02038e485ad7_1800x1280.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!D9gH!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa1092895-2efb-4d4a-889a-02038e485ad7_1800x1280.png 424w, https://substackcdn.com/image/fetch/$s_!D9gH!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa1092895-2efb-4d4a-889a-02038e485ad7_1800x1280.png 848w, https://substackcdn.com/image/fetch/$s_!D9gH!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa1092895-2efb-4d4a-889a-02038e485ad7_1800x1280.png 1272w, https://substackcdn.com/image/fetch/$s_!D9gH!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa1092895-2efb-4d4a-889a-02038e485ad7_1800x1280.png 1456w\" sizes=\"auto, 100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!D9gH!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa1092895-2efb-4d4a-889a-02038e485ad7_1800x1280.png\" width=\"1456\" height=\"1035\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/a1092895-2efb-4d4a-889a-02038e485ad7_1800x1280.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:1035,&quot;width&quot;:1456,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:285570,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://syntaxis.substack.com/i/223621443?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa1092895-2efb-4d4a-889a-02038e485ad7_1800x1280.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!D9gH!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa1092895-2efb-4d4a-889a-02038e485ad7_1800x1280.png 424w, https://substackcdn.com/image/fetch/$s_!D9gH!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa1092895-2efb-4d4a-889a-02038e485ad7_1800x1280.png 848w, https://substackcdn.com/image/fetch/$s_!D9gH!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa1092895-2efb-4d4a-889a-02038e485ad7_1800x1280.png 1272w, https://substackcdn.com/image/fetch/$s_!D9gH!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa1092895-2efb-4d4a-889a-02038e485ad7_1800x1280.png 1456w\" sizes=\"auto, 100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p>A virada, o prazo em que o juro sobre juro passa a valer mais que o juro linear, chega depois de uma década a 14% ao ano. A 6%, uma taxa da ordem de grandeza de um juro real (o que sobra acima da inflação), leva mais de duas.</p><p>Quem aplica por dois anos está comprando, essencialmente, juro simples com uma correção pequena. Quem aplica por trinta está comprando outra coisa.</p><p>Quem faz a bola de neve crescer é o tempo.</p><h2>Quem escolhe o motor, e por quê</h2><p>Se o composto paga menos no prazo curto e só ganha de verdade no longo, por que é ele o padrão?</p><p>Cada motor embute uma hipótese. O linear supõe que o juro fica parado até o fim do período. O composto supõe que ele é reinvestido à mesma taxa. Para quem cota juros para muitos prazos ao mesmo tempo, essa diferença vira dinheiro.</p><p>Volte ao exemplo da abertura. A 14% ao ano no motor linear, quem aplica por seis meses e renova por mais seis termina o ano com um fator de 1,07 × 1,07 = 1,1449. Rendeu 14,49%, contra 14% de quem aplicou direto por um ano, à mesma taxa cotada.</p><p>Uma taxa linear única não consegue valer para todos os prazos ao mesmo tempo. Fatiar o prazo vira estratégia.</p><p>No motor composto, o fatiamento não muda nada: 1,14 elevado a 0,5, vezes 1,14 elevado a 0,5, dá 1,14. Aplicar por 63 dias úteis e reaplicar por mais 63 gera o mesmo fator que aplicar por 126. É essa propriedade que permite montar uma curva de juros inteira, do <em>overnight</em> (o empréstimo de um dia útil para o outro) ao título de dez anos, sem que um prazo contradiga o outro.</p><h3>A virada de 1998</h3><p>No Brasil, o motor composto já estava lá antes de a norma falar dele. A <em>over</em>, a taxa das operações de um dia, era uma taxa ‘efetiva-dia’, acumulada de forma composta. O que mudou foi a embalagem. Cotava-se a <em>over</em> ao mês, multiplicando a taxa do dia por 30 [VERIFICAR: convenção da taxa over mensal como taxa por dia útil × 30, antes de 1998, com fonte de livro-texto (Assaf Neto, capítulo de taxa over, com página)]: linear por fora, composta por dentro. Uma taxa assim tem nome, taxa nominal, e o número cotado não é o que se recebe.</p><p>Como contei no texto anterior, a Circular nº 2.761 do Banco Central do Brasil (BCB), de junho de 1997, trocou essa embalagem: a partir de 1998, a Selic (a taxa básica de juros, que é a <em>over</em> das operações com títulos públicos) passou a ser expressa ao ano, como taxa efetiva com base em 252 dias úteis. Saiu uma taxa nominal, entrou uma efetiva.</p><p>Num texto da época, o economista Márcio Garcia, da PUC-Rio, leu a mudança pela inflação: com ela em um dígito ao ano, era natural voltar a cotar juros ao ano. E apontou um efeito colateral que ficou de fora do texto anterior. Com a mesma taxa por dia útil, fevereiro de 1998, com 18 dias úteis, renderia 1,42% no mês; julho, com 23, renderia 1,82%. Quarenta pontos-base (0,40 ponto percentual) de diferença que pareciam volatilidade e eram só calendário. A taxa efetiva não se contradiz entre prazos medidos em dias úteis. O mês civil, que tem um número variável deles, é que passou a oscilar.</p><p>Em julho de 2000, o Comunicado BCB nº 7.684 levou o mesmo padrão às operações do Banco Central com títulos públicos: taxa efetiva anual, base 252.</p><h3>Onde o linear sobrevive</h3><p>O motor linear não morreu.</p><p>O cupom cambial é a taxa de juro em dólar negociada no Brasil. Nele, os contratos futuros da B3 (DDI) e o FRC, a operação a termo de cupom, são cotados em taxa linear ao ano, base 360 dias corridos. É a língua do mercado monetário internacional em dólar, onde depósitos de curto prazo são, por convenção, rateados de forma proporcional ao tempo.</p><p>Nos títulos do Tesouro americano, o juro acumulado entre dois pagamentos de cupom (os juros periódicos do título), o que o comprador paga ao vendedor pelos dias já corridos, também é apropriado de forma linear. E há a taxa legal brasileira, que já apareceu na barriga.</p><p>O contínuo ficou com os modelos. Ele torna os retornos aditivos no tempo (o retorno de dois períodos é a soma dos dois) e deixa o cálculo diferencial trabalhar. Por isso aparece na fórmula de Black-Scholes-Merton, a de preço de opções, e nas curvas de juros que a Susep (Superintendência de Seguros Privados) estima em taxa contínua para as seguradoras.</p><p>Nenhum dos três motores é o certo. Cada um é o que resolve o problema de quem está cotando.</p><h2>Três perguntas antes de qualquer taxa</h2><p>Para comparar duas taxas cotadas em motores diferentes, três perguntas resolvem quase tudo. São as duas primeiras do texto anterior, a contagem e o regime, com a contagem aberta em duas:</p><ol><li><p>Qual é o motor? Linear ou composto?</p></li><li><p>Qual é a base? 252, 360 ou 365?</p></li><li><p>Que dias contam? Os úteis ou os corridos?</p></li></ol><p>Com as três respondidas, basta igualar os fatores do mesmo período:</p><div class=\"latex-rendered\" data-attrs=\"{&quot;persistentExpression&quot;:&quot;(1 + i_{252})^{du/252} = 1 + i_{360}\\\\,\\\\frac{dc}{360}&quot;,&quot;id&quot;:&quot;GSCIAATHIY&quot;}\" data-component-name=\"LatexBlockToDOM\"></div><p>em que i₂₅₂ é a taxa composta base 252, i₃₆₀ a linear base 360, du os dias úteis e dc os dias corridos do período.</p><p>E dá para prever o lado antes da conta: com a mesma régua e prazo menor que um ano, a taxa linear vira uma taxa composta maior.</p><p>Uma operação de 91 dias corridos, que no calendário contém 63 dias úteis, cotada a 14% ao ano linear base 360, tem fator de 1 + 0,14 × 91/360 = 1,035389. Na convenção brasileira, isso equivale a 1,035389 elevado a 252/63, menos 1: 14,92% ao ano. O mesmo “14%” virou quase 15%. Dos quase 100 pontos-base a mais, 75 vêm do motor: com a mesma régua, 63/252, a linear daria 14,75% compostos. Os 17 restantes vêm da régua, porque 91 dias corridos sobre 360 são um pouco mais que 63 úteis sobre 252.</p><p>A régua pesa mesmo num ano inteiro. Num ano civil de 365 dias corridos, 14% ao ano linear, base 360, rendem 14% × 365/360 = 14,19%.</p><p>Na planilha, as quatro contas que resolvem quase tudo:</p><pre><code><code>Fator exponencial 252:     =(1+i)^(du/252)\nFator linear 360:          =1+i*dc/360\nLinear 360 → exponencial:  =(1+i_lin*dc/360)^(252/du)-1\nDias úteis entre datas:    =DIATRABALHOTOTAL(início;fim-1;feriados)\n</code></code></pre><p>A quarta conta traz de volta as duas perguntas que ficaram no texto anterior, calendário e pontas. O “menos 1” vai na data final porque a função conta as duas pontas, quando são dias úteis, e o mercado conta a data inicial e exclui a final. Tirar o dia do fim, e não do resultado, mantém a conta certa quando o vencimento cai num feriado, como o 1º de janeiro das LTN (Letras do Tesouro Nacional, os títulos públicos prefixados). Um calendário de feriados desatualizado muda o du, e o du está no expoente.</p><h2>O expoente que faltava</h2><p>Com o mesmo número cotado, o juro simples ganha do compost</p><p>o em qualquer fração de período. O composto só começa a ganhar depois do primeiro período, e a bola de neve leva anos para valer mais que o juro linear. O mercado brasileiro cota no composto porque é o motor que não se contradiz de um prazo para o outro. Em 1998, trocou uma taxa nominal por uma efetiva.</p><p>Capitalização não é lei da natureza. É cláusula.</p><p>Se o texto funcionou, você consegue separar sozinho uma taxa nominal de uma efetiva. Pegue um contrato de financiamento que mostre, lado a lado, uma ‘taxa nominal’ e uma ‘taxa efetiva’. Faça as três perguntas. Por que 12% ao ano capitalizados mensalmente viram 12,68% efetivos? E qual dos dois números é o que você de fato paga?</p><p>Os 12,68% são o fio do próximo texto: a frequência de capitalização. Com uma corda por ano, 14% rendem 14%. Com duas, 14,49%, a conta que já fizemos. Com doze, 14,93%. Quanto mais curtas as cordas, mais a linha quebrada se aproxima do motor contínuo, e o rendimento nunca passa dos 15,03% que já apareceram aqui. </p><p>Vamos ver o que essa frequência muda na taxa e como essa aproximação é usada. </p><p>Se este texto ajudou você a destravar uma conta que você fazia no automático, encaminhe para quem ainda acha que o composto sempre rende mais.</p><h2>Para continuar aprendendo</h2><ul><li><p>Alexandre Assaf Neto, <em>Matemática Financeira e suas Aplicações</em>, 15ª ed. (GEN Atlas, 2022) — a referência brasileira para regimes, convenção linear e exponencial em prazos quebrados e taxa over.</p></li><li><p>Carlos Patricio Samanez, <em>Matemática Financeira</em>, 5ª ed. (Pearson Prentice Hall, 2010) — outro manual brasileiro de referência, bom para treinar o teste de transferência.</p></li><li><p>John C. Hull, <em>Options, Futures, and Other Derivatives</em>, 11ª ed. (Pearson, 2021), cap. 4, “Interest Rates” — frequência de capitalização, taxa contínua e conversões, na língua do mercado internacional.</p></li><li><p>Márcio G. P. Garcia, <em><a href=\"https://www.econ.puc-rio.br/mgarcia/Artigos/Macrometrica/!MACROMT.RIC/!anuliz.pdf\">Efeitos da anualização da taxa Selic</a></em> (Departamento de Economia da PUC-Rio, 30/06/1997) — o registro de época da mudança de 1998 e de seus efeitos nas taxas mensais.</p></li></ul><div><hr></div><p><em>Os textos publicados na Syntaxis expressam exclusivamente minhas opiniões pessoais, formadas a partir da minha experiência profissional, e não representam a posição de meu empregador atual ou de empregadores anteriores. O conteúdo tem finalidade educacional e informativa: não constitui recomendação de investimento, análise de valores mobiliários ou consultoria financeira.</em></p>",
+ "has_dynamic_content": false,
+ "truncated_body_text": "No último texto conversamos sobre como um ano pode ter mais, ou menos, dias úteis do que os 252 de um ano convencional. 2026 tem 249 dias úteis.",
+ "wordcount": 2746,
+ "post_preview_limit": null,
+ "language": "pt",
+ "postTags": [
+  {
+   "id": "03b212af-441c-484b-a74b-592ea4210252",
+   "publication_id": 2968718,
+   "name": "Educação Financeira",
+   "slug": "educacao-financeira",
+   "hidden": false
+  },
+  {
+   "id": "11d02f5c-3ea3-4bec-939a-b8cb9a6c936a",
+   "publication_id": 2968718,
+   "name": "Assessoria",
+   "slug": "assessoria",
+   "hidden": false
+  },
+  {
+   "id": "22694084-ac95-486f-b35e-d13c272a79fb",
+   "publication_id": 2968718,
+   "name": "Finanças Quantitativas",
+   "slug": "financas-quantitativas",
+   "hidden": false
+  },
+  {
+   "id": "5d3acdc8-31a3-4380-8ff0-c213ed95a7fd",
+   "publication_id": 2968718,
+   "name": "Consultoria Financeira",
+   "slug": "consultoria-financeira",
+   "hidden": false
+  },
+  {
+   "id": "63402821-23a4-4b73-8921-24029dc2f7b4",
+   "publication_id": 2968718,
+   "name": "asset allocation",
+   "slug": "asset-allocation",
+   "hidden": false
+  },
+  {
+   "id": "80540162-738e-4f31-b39b-7277a25def66",
+   "publication_id": 2968718,
+   "name": "Carreira",
+   "slug": "carreira",
+   "hidden": false
+  },
+  {
+   "id": "f5b4acc9-f24d-4a35-af16-f7c348f3ec9a",
+   "publication_id": 2968718,
+   "name": "Instrumentos Financeiros",
+   "slug": "instrumentos-financeiros",
+   "hidden": false
+  }
+ ],
+ "postCountryBlocks": [],
+ "disable_drop_cap": false,
+ "cover_image_crop": null,
+ "headlineTest": null,
+ "coverImagePalette": {
+  "Vibrant": {
+   "rgb": [
+    201,
+    237,
+    83
+   ],
+   "population": 101
+  },
+  "DarkVibrant": {
+   "rgb": [
+    28,
+    107,
+    67
+   ],
+   "population": 66
+  },
+  "LightVibrant": {
+   "rgb": [
+    188,
+    228,
+    92
+   ],
+   "population": 2
+  },
+  "Muted": {
+   "rgb": [
+    100,
+    167,
+    128
+   ],
+   "population": 167
+  },
+  "DarkMuted": {
+   "rgb": [
+    49,
+    76,
+    57
+   ],
+   "population": 11
+  },
+  "LightMuted": {
+   "rgb": [
+    119,
+    188,
+    149
+   ],
+   "population": 72
+  }
+ },
+ "publishedBylines": [
+  {
+   "id": 136725718,
+   "name": "Silvano Junior",
+   "handle": "saapjr",
+   "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/4d24c48d-d4f2-406d-ab80-902631955776_640x640.jpeg",
+   "bio": "Capixaba Matemático (MsC) Cientista de Dados e Analista Quantitativo",
+   "profile_set_up_at": "2023-03-28T04:01:23.570Z",
+   "reader_installed_at": "2023-03-28T04:05:16.777Z",
+   "publicationUsers": [
+    {
+     "id": 3019355,
+     "user_id": 136725718,
+     "publication_id": 2968718,
+     "role": "admin",
+     "public": true,
+     "is_primary": true,
+     "publication": {
+      "id": 2968718,
+      "name": "Syntaxis",
+      "subdomain": "syntaxis",
+      "custom_domain": null,
+      "custom_domain_optional": false,
+      "hero_text": "A Syntaxis te ajuda a desenvolver as skills que hoje separam quem estagia de quem é efetivado, e quem é efetivado de quem vira referência.",
+      "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/f1431d70-c6a3-4eb3-9219-23ab9997436b_320x320.png",
+      "author_id": 136725718,
+      "primary_user_id": 136725718,
+      "theme_var_background_pop": "#FF6719",
+      "created_at": "2024-09-03T01:29:04.169Z",
+      "email_from_name": "SYNTAXIS",
+      "copyright": "Silvano Junior",
+      "founding_plan_name": "Membro Fundador",
+      "community_enabled": true,
+      "invite_only": false,
+      "payments_state": "enabled",
+      "language": "pt-br",
+      "explicit": false,
+      "homepage_type": "newspaper",
+      "is_personal_mode": false,
+      "logo_url_wide": null
+     }
+    }
+   ],
+   "is_guest": false,
+   "bestseller_tier": null,
+   "status": {
+    "bestsellerTier": null,
+    "subscriberTier": null,
+    "leaderboard": null,
+    "vip": false,
+    "badge": null,
+    "subscriber": null
+   }
+  }
+ ],
+ "reaction": null,
+ "reaction_count": 5,
+ "comment_count": 0,
+ "child_comment_count": 0,
+ "vg_wort_pixel_url": null,
+ "is_geoblocked": false,
+ "sponsorshipEditionBanner": null,
+ "is_editor_preview": false,
+ "hasCashtag": false,
+ "unlockedWithIP": false,
+ "unlockedWithCampaign": false,
+ "themeVariables": {
+  "color_theme_bg_pop": "#1B6A45",
+  "background_pop": "#1B6A45",
+  "color_theme_bg_web": "#F7F7F5",
+  "cover_bg_color": "#F7F7F5",
+  "cover_bg_color_secondary": "#e8e8e6",
+  "background_pop_darken": "#165638",
+  "print_on_pop": "#ffffff",
+  "color_theme_bg_pop_darken": "#165638",
+  "color_theme_print_on_pop": "#ffffff",
+  "color_theme_bg_pop_20": "rgba(27, 106, 69, 0.2)",
+  "color_theme_bg_pop_30": "rgba(27, 106, 69, 0.3)",
+  "print_pop": "#1b6a45",
+  "color_theme_accent": "#1b6a45",
+  "cover_print_primary": "#363737",
+  "cover_print_secondary": "#757575",
+  "cover_print_tertiary": "#b6b6b6",
+  "cover_border_color": "#1b6a45",
+  "font_family_body_preset": "'SF Pro Display', -apple-system, system-ui, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+  "font_weight_body_preset": 400,
+  "font_preset_body": "sans",
+  "home_hero": "feature-media",
+  "home_posts": "grid",
+  "home_show_top_posts": true,
+  "web_bg_color": "#F7F7F5",
+  "background_contrast_1": "#e8e8e6",
+  "background_contrast_2": "#d6d6d4",
+  "background_contrast_3": "#b1b1b0",
+  "background_contrast_4": "#8e8e8d",
+  "background_contrast_5": "#4e4e4d",
+  "color_theme_bg_contrast_1": "#e8e8e6",
+  "color_theme_bg_contrast_2": "#d6d6d4",
+  "color_theme_bg_contrast_3": "#b1b1b0",
+  "color_theme_bg_contrast_4": "#8e8e8d",
+  "color_theme_bg_contrast_5": "#4e4e4d",
+  "color_theme_bg_elevated": "#f7f7f5",
+  "color_theme_bg_elevated_secondary": "#e8e8e6",
+  "color_theme_bg_elevated_tertiary": "#d6d6d4",
+  "color_theme_detail": "#dededd",
+  "background_contrast_pop": "rgba(27, 106, 69, 0.4)",
+  "color_theme_bg_contrast_pop": "rgba(27, 106, 69, 0.4)",
+  "theme_bg_is_dark": "0",
+  "print_on_web_bg_color": "#363737",
+  "print_secondary_on_web_bg_color": "#838483",
+  "background_pop_rgb": "27, 106, 69",
+  "color_theme_bg_pop_rgb": "27, 106, 69",
+  "color_theme_accent_rgb": "27, 106, 69"
+ },
+ "oneOffUnlockOffer": {
+  "eligible": false
+ }
+}

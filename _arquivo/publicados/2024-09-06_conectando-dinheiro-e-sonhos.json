@@ -1,0 +1,269 @@
+{
+ "audience": "everyone",
+ "audience_before_archived": null,
+ "canonical_url": "https://syntaxis.substack.com/p/conectando-dinheiro-e-sonhos",
+ "default_comment_sort": null,
+ "editor_v2": false,
+ "exempt_from_archive_paywall": false,
+ "free_unlock_required": false,
+ "id": 148475266,
+ "podcast_art_url": null,
+ "podcast_duration": null,
+ "podcast_preview_upload_id": null,
+ "podcast_upload_id": null,
+ "podcast_url": null,
+ "post_date": "2024-09-06T02:46:59.177Z",
+ "updated_at": "2024-09-06T02:46:59.177Z",
+ "publication_id": 2968718,
+ "search_engine_description": null,
+ "search_engine_title": null,
+ "section_id": null,
+ "should_send_free_preview": false,
+ "show_guest_bios": true,
+ "slug": "conectando-dinheiro-e-sonhos",
+ "social_title": null,
+ "subtitle": "",
+ "teaser_post_eligible": true,
+ "title": "Conectando dinheiro e sonhos",
+ "type": "newsletter",
+ "video_upload_id": null,
+ "write_comment_permissions": "everyone",
+ "meter_type": "none",
+ "live_stream_id": null,
+ "is_published": true,
+ "restacks": 0,
+ "reactions": {
+  "❤": 3
+ },
+ "top_exclusions": [],
+ "pins": [],
+ "section_pins": [],
+ "has_shareable_clips": false,
+ "previous_post_slug": null,
+ "next_post_slug": "escolhendo-as-batalhas",
+ "cover_image": "https://substackcdn.com/image/fetch/$s_!OmfP!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2d95dcd4-3e57-4b3e-a04e-853a9aacf268_5376x3584.jpeg",
+ "cover_image_is_square": false,
+ "cover_image_is_explicit": false,
+ "videoUpload": null,
+ "podcastFields": {
+  "post_id": 148475266,
+  "podcast_episode_number": null,
+  "podcast_season_number": null,
+  "podcast_episode_type": null,
+  "should_syndicate_to_other_feed": null,
+  "syndicate_to_section_id": null,
+  "hide_from_feed": false,
+  "free_podcast_url": null,
+  "free_podcast_duration": null,
+  "preview_contains_ad": false,
+  "was_imported_self_serve_sync": false,
+  "draft_free_podcast_url": null,
+  "draft_free_podcast_duration": null
+ },
+ "podcastUpload": null,
+ "podcastPreviewUpload": null,
+ "voiceover_upload_id": null,
+ "voiceoverUpload": null,
+ "has_voiceover": false,
+ "description": "\"O que pode ser medido pode ser gerenciado.\"",
+ "body_html": "<div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!OmfP!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2d95dcd4-3e57-4b3e-a04e-853a9aacf268_5376x3584.jpeg\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!OmfP!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2d95dcd4-3e57-4b3e-a04e-853a9aacf268_5376x3584.jpeg 424w, https://substackcdn.com/image/fetch/$s_!OmfP!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2d95dcd4-3e57-4b3e-a04e-853a9aacf268_5376x3584.jpeg 848w, https://substackcdn.com/image/fetch/$s_!OmfP!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2d95dcd4-3e57-4b3e-a04e-853a9aacf268_5376x3584.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!OmfP!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2d95dcd4-3e57-4b3e-a04e-853a9aacf268_5376x3584.jpeg 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!OmfP!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2d95dcd4-3e57-4b3e-a04e-853a9aacf268_5376x3584.jpeg\" width=\"1456\" height=\"971\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/2d95dcd4-3e57-4b3e-a04e-853a9aacf268_5376x3584.jpeg&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:971,&quot;width&quot;:1456,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:9962623,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/jpeg&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:false,&quot;topImage&quot;:true,&quot;internalRedirect&quot;:null,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!OmfP!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2d95dcd4-3e57-4b3e-a04e-853a9aacf268_5376x3584.jpeg 424w, https://substackcdn.com/image/fetch/$s_!OmfP!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2d95dcd4-3e57-4b3e-a04e-853a9aacf268_5376x3584.jpeg 848w, https://substackcdn.com/image/fetch/$s_!OmfP!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2d95dcd4-3e57-4b3e-a04e-853a9aacf268_5376x3584.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!OmfP!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2d95dcd4-3e57-4b3e-a04e-853a9aacf268_5376x3584.jpeg 1456w\" sizes=\"100vw\" fetchpriority=\"high\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\" tabindex=\"0\" type=\"button\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\" tabindex=\"0\" type=\"button\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><div class=\"pullquote\"><p>\"O que pode ser medido pode ser gerenciado.\"</p><p><strong>Peter Drucker</strong></p></div><h2>Por que Investir?</h2><p>Provavelmente você já se perguntou: \"Por que devo investir?\". A resposta mais comum é: para ter mais dinheiro!. Mas, ao refletir um pouco mais, percebe-se que o dinheiro em si não é o objetivo final. Na verdade, ele é apenas um meio para alcançar algo maior.</p><p>O objetivo amplo de \"ter mais dinheiro\" pode trazer mais perguntas do que respostas:</p><ul><li><p>Quanto dinheiro é suficiente?</p></li><li><p>Como vou saber que atingi meu objetivo?</p></li><li><p>Como posso saber se estou no caminho certo?</p></li></ul><p>O dinheiro, por si só, deve ser visto como um recurso para atingir objetivos específicos. Por trás desse objetivo geral, normalmente há outros mais concretos, como:</p><ul><li><p>Comprar um novo notebook</p></li><li><p>Comprar um iPhone</p></li><li><p>Viajar para o exterior</p></li><li><p>Comprar um carro</p></li><li><p>Comprar uma casa</p></li><li><p>Aposentar-se cedo</p></li></ul><p>Dependendo do seu momento de vida, alguns desses objetivos podem estar mais próximos que outros. Talvez, comprar uma casa pareça distante, mas a compra de um novo notebook pode ser uma meta atingível em pouco tempo. Alguns desses objetivos podem até parecer sonhos, mas acredite: todos são possíveis. A forma como você cuida e investe o seu dinheiro pode ser a chave para realizá-los.</p><p>Os investimentos devem ser vistos como um meio para alcançar seus objetivos de vida!</p><h2>Transformando Sonhos em Objetivos</h2><p>Uma maneira eficaz de transformar sonhos em objetivos é torná-los mais específicos. Vamos usar o exemplo de uma viagem internacional. Para transformar esse sonho em uma meta, você pode começar respondendo a algumas perguntas:</p><ul><li><p>Qual será o destino da viagem?</p></li><li><p>Quanto tempo você quer passar lá?</p></li><li><p>Quanto você estima gastar?</p></li><li><p>Quando pretende viajar?</p></li><li><p>O que precisa fazer para atingir esse objetivo?</p></li></ul><p>Ao final desse exercício, você terá uma perspectiva mais clara sobre:</p><ul><li><p>A importância desse objetivo para você</p></li><li><p>Se ele é realmente alcançável</p></li></ul><p>Entender se um objetivo é alcançável pode parecer simples, mas nem sempre é fácil. Por exemplo, pode ser inviável planejar uma viagem para Paris na próxima semana se você precisar de R$ 20 mil. Mesmo que consiga o valor de forma inesperada, como através de uma loteria (a chance de ganhar é 1 em 50 milhões), a probabilidade é extremamente baixa.</p><p>Agora, se o objetivo for viajar para Paris em cinco anos, a história muda. Com um planejamento adequado e economias constantes, o sonho se torna mais próximo da realidade.</p><p>Acreditar em objetivos alcançáveis significa entender que, com um bom planejamento e esforço, você pode atingi-los, sem depender de milagres ou mudanças drásticas. Evite metas que exigem um esforço sobre-humano ou que são inatingíveis para a maioria.</p><p>Nesse processo, pode ser útil (e até recomendável) utilizar metodologias como a <strong>SMART</strong> ou ferramentas como a <strong>matriz de Eisenhower</strong> para ajudar a definir e priorizar seus objetivos.</p><h2>Todo Objetivo Precisa de um Plano</h2><p>Uma vez que você tenha definido seus objetivos, é hora de planejar como alcançá-los. Se você quer comprar um carro, por exemplo, precisa saber quanto custa, quanto tem para dar de entrada, qual parcela pode pagar por mês, e quanto tempo levará para quitar o financiamento.</p><p>Se deseja viajar para o exterior, deve saber o custo total da viagem, quanto tem disponível, quanto pode economizar por mês e quanto tempo levará para juntar o valor.</p><p>Vamos usar um exemplo simples: comprar um novo notebook. Após responder às perguntas da seção anterior, você definiu que é um objetivo importante e alcançável. Agora, é hora de planejar como concretizá-lo.</p><p>Responda a perguntas como:</p><ul><li><p>Quanto custa o notebook desejado?</p></li><li><p>Quanto você tem disponível para gastar?</p></li><li><p>Quanto pode economizar por mês?</p></li><li><p>Quanto tempo levará para juntar o valor?</p></li></ul><p>Imagine que o notebook custa R$ 4.000,00, você tem R$ 1.000,00 disponíveis e pode economizar R$ 100,00 por mês. Levaria 30 meses para alcançar o valor total.</p><p>É aqui que os investimentos entram em cena. Investindo o valor que você economiza mensalmente, pode reduzir o tempo necessário para atingir sua meta. Se o investimento render 1% ao mês, você precisaria de 28 meses para alcançar o valor. Com um rendimento de 2% ao mês, seriam 26 meses.</p><p>O papel dos investimentos é simples: ajudar você a alcançar seus objetivos mais rápido! Como reflexão, perceba que se economizasse R$ 300,00 por mês, levaria apenas 14 meses para juntar o valor necessário.</p><p>No futuro, pretendo explorar essas comparações mais a fundo.</p><h2>Conclusão</h2><p>Alcançar seus objetivos financeiros depende de dois fatores principais: planejamento e execução. Definir metas claras e específicas, assim como elaborar um plano detalhado, são os primeiros passos essenciais. O dinheiro, quando gerido de forma inteligente, é uma ferramenta poderosa para transformar sonhos em realidade. Investir regularmente acelera esse processo, ajudando você a atingir seus objetivos mais rapidamente do que apenas poupando.</p><p>Lembre-se de que o propósito do investimento não é apenas acumular riqueza, mas permitir que você viva a vida que deseja. Mantenha o foco nos objetivos que realmente importam e verá que cada real investido é um passo em direção às suas conquistas. </p><div><hr></div><div class=\"poll-embed\" data-attrs=\"{&quot;id&quot;:210396}\" data-component-name=\"PollToDOM\"></div><div><hr></div><p></p><p>Se precisar de ajuda para estruturar seu planejamento financeiro, considere procurar a Syntaxis para uma consultoria personalizada.</p><p></p><p class=\"button-wrapper\" data-attrs=\"{&quot;url&quot;:&quot;https://syntaxis.substack.com/p/conectando-dinheiro-e-sonhos/comments&quot;,&quot;text&quot;:&quot;Deixe um comentário&quot;,&quot;action&quot;:null,&quot;class&quot;:null}\" data-component-name=\"ButtonCreateButton\"><a class=\"button primary\" href=\"https://syntaxis.substack.com/p/conectando-dinheiro-e-sonhos/comments\"><span>Deixe um comentário</span></a></p>",
+ "has_dynamic_content": false,
+ "truncated_body_text": "\"O que pode ser medido pode ser gerenciado.\"",
+ "wordcount": 847,
+ "post_preview_limit": null,
+ "language": "pt",
+ "postTags": [
+  {
+   "id": "32913b8f-3dce-4ff9-bfea-17dc0715a87d",
+   "publication_id": 2968718,
+   "name": "Investimentos",
+   "slug": "investimentos",
+   "hidden": false
+  },
+  {
+   "id": "e2861bd5-de9b-4309-ba78-f803724819b4",
+   "publication_id": 2968718,
+   "name": "Planejamento",
+   "slug": "planejamento",
+   "hidden": false
+  },
+  {
+   "id": "f05c03ed-e4d9-4cfc-af8b-0199ab0cf1c2",
+   "publication_id": 2968718,
+   "name": "Wealth Management",
+   "slug": "wealth-management",
+   "hidden": false
+  }
+ ],
+ "postCountryBlocks": [],
+ "disable_drop_cap": false,
+ "cover_image_crop": null,
+ "headlineTest": null,
+ "coverImagePalette": {
+  "Vibrant": {
+   "rgb": [
+    124,
+    196,
+    204
+   ],
+   "population": 34
+  },
+  "DarkVibrant": {
+   "rgb": [
+    37.15714285714285,
+    89.61428571428569,
+    95.44285714285715
+   ],
+   "population": 0
+  },
+  "LightVibrant": {
+   "rgb": [
+    159,
+    211,
+    220
+   ],
+   "population": 134
+  },
+  "Muted": {
+   "rgb": [
+    112,
+    153,
+    156
+   ],
+   "population": 324
+  },
+  "DarkMuted": {
+   "rgb": [
+    99,
+    86,
+    75
+   ],
+   "population": 345
+  },
+  "LightMuted": {
+   "rgb": [
+    144,
+    199,
+    204
+   ],
+   "population": 403
+  }
+ },
+ "publishedBylines": [
+  {
+   "id": 136725718,
+   "name": "Silvano Junior",
+   "handle": "saapjr",
+   "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/4d24c48d-d4f2-406d-ab80-902631955776_640x640.jpeg",
+   "bio": "Capixaba Matemático (MsC) Cientista de Dados e Analista Quantitativo",
+   "profile_set_up_at": "2023-03-28T04:01:23.570Z",
+   "reader_installed_at": "2023-03-28T04:05:16.777Z",
+   "publicationUsers": [
+    {
+     "id": 3019355,
+     "user_id": 136725718,
+     "publication_id": 2968718,
+     "role": "admin",
+     "public": true,
+     "is_primary": true,
+     "publication": {
+      "id": 2968718,
+      "name": "Syntaxis",
+      "subdomain": "syntaxis",
+      "custom_domain": null,
+      "custom_domain_optional": false,
+      "hero_text": "A Syntaxis te ajuda a desenvolver as skills que hoje separam quem estagia de quem é efetivado, e quem é efetivado de quem vira referência.",
+      "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/f1431d70-c6a3-4eb3-9219-23ab9997436b_320x320.png",
+      "author_id": 136725718,
+      "primary_user_id": 136725718,
+      "theme_var_background_pop": "#FF6719",
+      "created_at": "2024-09-03T01:29:04.169Z",
+      "email_from_name": "SYNTAXIS",
+      "copyright": "Silvano Junior",
+      "founding_plan_name": "Membro Fundador",
+      "community_enabled": true,
+      "invite_only": false,
+      "payments_state": "enabled",
+      "language": "pt-br",
+      "explicit": false,
+      "homepage_type": "newspaper",
+      "is_personal_mode": false,
+      "logo_url_wide": null
+     }
+    }
+   ],
+   "is_guest": false,
+   "bestseller_tier": null,
+   "status": {
+    "bestsellerTier": null,
+    "subscriberTier": null,
+    "leaderboard": null,
+    "vip": false,
+    "badge": null,
+    "subscriber": null
+   }
+  }
+ ],
+ "reaction": null,
+ "reaction_count": 3,
+ "comment_count": 0,
+ "child_comment_count": 0,
+ "vg_wort_pixel_url": null,
+ "is_geoblocked": false,
+ "sponsorshipEditionBanner": null,
+ "is_editor_preview": false,
+ "hasCashtag": false,
+ "unlockedWithIP": false,
+ "unlockedWithCampaign": false,
+ "themeVariables": {
+  "color_theme_bg_pop": "#1B6A45",
+  "background_pop": "#1B6A45",
+  "color_theme_bg_web": "#F7F7F5",
+  "cover_bg_color": "#F7F7F5",
+  "cover_bg_color_secondary": "#e8e8e6",
+  "background_pop_darken": "#165638",
+  "print_on_pop": "#ffffff",
+  "color_theme_bg_pop_darken": "#165638",
+  "color_theme_print_on_pop": "#ffffff",
+  "color_theme_bg_pop_20": "rgba(27, 106, 69, 0.2)",
+  "color_theme_bg_pop_30": "rgba(27, 106, 69, 0.3)",
+  "print_pop": "#1b6a45",
+  "color_theme_accent": "#1b6a45",
+  "cover_print_primary": "#363737",
+  "cover_print_secondary": "#757575",
+  "cover_print_tertiary": "#b6b6b6",
+  "cover_border_color": "#1b6a45",
+  "font_family_body_preset": "'SF Pro Display', -apple-system, system-ui, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+  "font_weight_body_preset": 400,
+  "font_preset_body": "sans",
+  "home_hero": "feature-media",
+  "home_posts": "grid",
+  "home_show_top_posts": true,
+  "web_bg_color": "#F7F7F5",
+  "background_contrast_1": "#e8e8e6",
+  "background_contrast_2": "#d6d6d4",
+  "background_contrast_3": "#b1b1b0",
+  "background_contrast_4": "#8e8e8d",
+  "background_contrast_5": "#4e4e4d",
+  "color_theme_bg_contrast_1": "#e8e8e6",
+  "color_theme_bg_contrast_2": "#d6d6d4",
+  "color_theme_bg_contrast_3": "#b1b1b0",
+  "color_theme_bg_contrast_4": "#8e8e8d",
+  "color_theme_bg_contrast_5": "#4e4e4d",
+  "color_theme_bg_elevated": "#f7f7f5",
+  "color_theme_bg_elevated_secondary": "#e8e8e6",
+  "color_theme_bg_elevated_tertiary": "#d6d6d4",
+  "color_theme_detail": "#dededd",
+  "background_contrast_pop": "rgba(27, 106, 69, 0.4)",
+  "color_theme_bg_contrast_pop": "rgba(27, 106, 69, 0.4)",
+  "theme_bg_is_dark": "0",
+  "print_on_web_bg_color": "#363737",
+  "print_secondary_on_web_bg_color": "#838483",
+  "background_pop_rgb": "27, 106, 69",
+  "color_theme_bg_pop_rgb": "27, 106, 69",
+  "color_theme_accent_rgb": "27, 106, 69"
+ },
+ "oneOffUnlockOffer": {
+  "eligible": false
+ }
+}
