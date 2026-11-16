@@ -293,3 +293,22 @@ etapas que já existem.
 | P13, escopo | o aviso legal entra **em todos os posts**, nas duas linhas |
 
 As regras do P1 passam por uma segunda aprovação, uma a uma, no GATE da onda 1.
+
+## Registro da Fase D
+
+### Onda 1 — voz (concluída em 2026-11-16)
+
+| Item | Commits | Decisão |
+|---|---|---|
+| P1 guia v2.0.0 | `c53b1d9`, `6a97222`, `aeefb64`; tag `voz-v2.0.0`; merge `447a41f` | aprovado regra por regra: quatro revogações e reformulações, todas as regras novas, antítese como voz com teto, linha de base com recorte, confiança alta para forma |
+| P2 referências de voz | ver `git log -- .claude/skills/voz-syntaxis` | aprovado no fim da onda |
+| P3 revisor da etapa 6 | ver `git log -- .claude/agents/revisor-gramatical.md` | aprovado no fim da onda |
+| Varredura de referências | `fix(sistema): referências ao guia v2` | consequência do P1 |
+
+Desvios registrados:
+- Os extratores rodaram como agentes gerais seguindo `extrator-de-estilo.md` (os agentes do
+  hemingway não carregam numa sessão aberta na raiz). Cada um gravou o próprio JSON, para não
+  trazer 31 extrações para o contexto principal. Uma evidência parafraseada foi trocada pelo
+  trecho literal.
+- A branch `voz/2.0.0` saiu da branch do épico (precisa do corpus) e voltou para ela; o merge em
+  `main` fica para a Fase F, com a sua autorização.
