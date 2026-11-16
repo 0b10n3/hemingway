@@ -333,3 +333,14 @@ jargão de 08-25.
 | P7 | `diff_edicoes.py preferencias` → `estilo/preferencias-de-edicao.md` (15 tipos de edição); teste; `voz-syntaxis` manda as etapas 4, 6 e 9 lerem | aprovado no fim da onda |
 | P8 | `pesquisador-editorial.md` (etiqueta de pertinência), `critico-editorial.md` (pergunta + 3 cortes reais), etapa 4 do `post-substack` | aprovado no fim da onda |
 | P9 | sem mudança no pipeline; desenhado para a Fase E (crítica e juiz também com modelo de outra família, via `agy`) | aprovado no GATE C |
+
+### Onda 4 — colheita, visuais, marketing (concluída em 2026-11-16)
+
+| Item | Entrega | Decisão |
+|---|---|---|
+| P10 | modo `colher` em `forja-de-voz/SKILL.md`; lembrete no fim da etapa 10; ensaio de ponta a ponta sem alterar dados | aprovado no fim da onda |
+| P11 | `checar_post.py` (alt-text ≤ 125 e lista para colar; parágrafo sem palavra); `prompts-visuais.md` | aprovado no fim da onda |
+| P12 | `parecer.py` sem inscrição obrigatória; `regras-cta.md`, `exemplos.md`, `estrategia-marketing/SKILL.md`; teste trocado | aprovado no fim da onda |
+| P13 | `docs/AVISO_LEGAL.md` (versão de 10-27 a 11-09; a anterior está registrada no arquivo); etapa 9; aviso no checador | aprovado no fim da onda |
+
+A Fase D está concluída. Todos os testes passam (58).
