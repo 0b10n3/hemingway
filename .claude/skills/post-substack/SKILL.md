@@ -194,7 +194,8 @@ edita no site (sobrevive 89% e 80%, contra 92–96% do resto; ver
 `pesquisa/epico-revisao-editorial/01-diagnostico.md`, D2).
 
 A consolidação não escreve prosa nova. Se uma correção pede redação (uma glosa, uma transição),
-ela volta à etapa 4 (principal + `voz-syntaxis`), só no trecho.
+ela volta à etapa 4 (principal + `voz-syntaxis`), só no trecho. A única peça que ela acrescenta
+é o aviso legal, copiado de `docs/AVISO_LEGAL.md` para o fim do `post.md`, depois de `* * *`.
 
 Depois da passada do agente, rode `python3 scripts/checar_post.py <slug>`. Bloqueante de
 aplicação (placeholder sem bloco, frontmatter) se corrige aqui. Marcador de pendência
@@ -245,6 +246,8 @@ Use `AskUserQuestion` com três saídas: **aprovar**, **ajustar**, **abortar**.
   existirem) prontos para o autor copiar manualmente para a Substack — não há automação de
   publicação neste sistema. Publicar (colar na Substack) e decidir o que fazer com a branch
   (mergear em `main`, deixar como está) são ações manuais do autor, fora deste pipeline.
+  Termine lembrando: **depois de publicar, rode `/forja-de-voz colher <slug>`** — é assim que as
+  edições que o autor fizer no Substack voltam para o guia e para o registro de preferências.
 - Ajustar → pergunte o que mudar, reentre no **ponto mais raso que resolve o pedido**:
   - reentrada na etapa 4 ou anterior → **consome um loop** (o texto está sendo refeito);
   - reentrada nas etapas 5-9 → **não consome** (é acabamento, é para isso que o gate serve),
@@ -258,7 +261,8 @@ Use `AskUserQuestion` com três saídas: **aprovar**, **ajustar**, **abortar**.
   descartadas alimenta o modo `atualizar` da forja de voz), avisa o autor onde ela ficou.
 
 Antes do `AskUserQuestion`, apresente também o **inventário visual do post**: a lista de
-`graf-NN`/`diag-NN`/`info-NN` com tipo e status — o autor decide com o inventário completo à
+`graf-NN`/`diag-NN`/`info-NN` com tipo, status e o alt-text de cada figura para colar no editor
+do Substack (o `checar_post.py` imprime a lista) — o autor decide com o inventário completo à
 vista, não só com o texto.
 
 **Toda tensão estrutural registrada na etapa 1** (ver "Etapa 1" acima) aparece aqui como
