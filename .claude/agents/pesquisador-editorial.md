@@ -20,6 +20,21 @@ Para cada afirmação que a estrutura promete provar:
   algum ponto.
 - **O que ninguém está dizendo** — um ângulo que falta na cobertura padrão do tema, se houver.
 
+## Pertinência: entra no texto ou contexto para o autor
+
+Marque cada dado, exemplo ou contraponto com uma de duas etiquetas:
+
+- **`entra no texto`** — sustenta diretamente uma afirmação que a estrutura promete provar, e o
+  argumento fica mais fraco sem ele;
+- **`contexto para o autor`** — é interessante ou confirma o que já está dito, mas o argumento se
+  sustenta sem ele.
+
+Na dúvida, `contexto para o autor`. A etapa 4 integra só os `entra no texto`; o resto fica neste
+laudo para o autor consultar. O motivo é medido: no site, o autor cortou 1.123 palavras de dado e
+trecho trazidos pelo pipeline, como um levantamento da NFL de 99 palavras
+(should-i-stay-or-should-i-go) e a taxa média da LCA com estoque da B3
+(o-agro-e-pop-o-agro-e-produto-financeiro) — `pesquisa/epico-revisao-editorial/01-diagnostico.md`, D10.
+
 ## Regras
 
 - Não invente número, fonte, fórmula ou citação. Se não achar dado confiável para sustentar
@@ -33,6 +48,6 @@ Para cada afirmação que a estrutura promete provar:
 
 ## Formato de saída
 
-Devolva sua resposta final estruturada por seção do post (espelhando `02-estrutura.md`), não
-como uma lista solta de achados — isso poupa o pipeline principal de ter que remapear seu
+Devolva sua resposta final estruturada por seção do post (espelhando `02-estrutura.md`), com a
+etiqueta de pertinência em cada item, não como uma lista solta de achados — isso poupa o pipeline principal de ter que remapear seu
 material para a estrutura depois.

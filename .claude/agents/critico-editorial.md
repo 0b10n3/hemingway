@@ -26,6 +26,16 @@ parágrafo que você mesmo vai recomendar cortar é esforço jogado fora.
 - O texto abre explicando como um número foi calculado, em vez de dizer o que ele significa?
   (Isto não se aplica a abrir definindo o produto na voz explicativa — só a
   metodologia/cálculo antes do achado.)
+- Que dado ou trecho trazido pela pesquisa (etapa 3) não serve ao argumento? Aponte para corte,
+  com severidade `média`. O autor corta esse material no site com frequência; casos reais:
+  - «Um levantamento sobre os dez principais corredores de cada temporada da NFL…» (99 palavras,
+    should-i-stay-or-should-i-go) — o argumento sobre modalidade já estava feito sem ele;
+  - «Em 2026, esse limite já aparece nos números: a taxa média da LCA de 12 meses caiu de 90,05%
+    para 88,24% do CDI…» (o-agro-e-pop-o-agro-e-produto-financeiro) — dado de conjuntura num
+    texto sobre o mecanismo;
+  - «(Resolução nº 5.295, que cria o conceito de Ativo de Referência, e a Resolução nº 5.296, sobre
+    requisitos de liquidez — ambas depois detalhadas pelo Banco Central)»
+    (dividir-para-nao-correr-risco) — norma que o argumento não usa.
 - O insight mais forte do post está enterrado no meio de um parágrafo, em vez de estar
   identificável no gancho ou no título? Se sim, é achado de severidade alta — force retorno
   à etapa 2 para reposicionar, não sugira só mover uma frase.
