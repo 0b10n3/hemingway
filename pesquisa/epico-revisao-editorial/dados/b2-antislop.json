@@ -1,0 +1,2703 @@
+{
+ "tamanho": {
+  "pipeline_palavras": 12291,
+  "autor_palavras": 51711,
+  "site_pipeline_palavras": 38995,
+  "trechos_pipeline": 1416,
+  "docs_autor": 152
+ },
+ "sondas": [
+  {
+   "sonda": "D1 abertura clichê",
+   "pipeline_por_mil": 0.0,
+   "autor_por_mil": 0.0,
+   "site_pipeline_por_mil": 0.0,
+   "pipeline_n": 0,
+   "autor_n": 0,
+   "razao": 4.21
+  },
+  {
+   "sonda": "D2 conectivo formal",
+   "pipeline_por_mil": 0.16,
+   "autor_por_mil": 0.19,
+   "site_pipeline_por_mil": 0.08,
+   "pipeline_n": 2,
+   "autor_n": 10,
+   "razao": 1.0
+  },
+  {
+   "sonda": "D3 tríade 'x, y e z'",
+   "pipeline_por_mil": 0.41,
+   "autor_por_mil": 1.18,
+   "site_pipeline_por_mil": 0.77,
+   "pipeline_n": 5,
+   "autor_n": 61,
+   "razao": 0.38
+  },
+  {
+   "sonda": "D4 hedging",
+   "pipeline_por_mil": 0.0,
+   "autor_por_mil": 0.02,
+   "site_pipeline_por_mil": 0.0,
+   "pipeline_n": 0,
+   "autor_n": 1,
+   "razao": 1.4
+  },
+  {
+   "sonda": "D5 fecho genérico",
+   "pipeline_por_mil": 0.0,
+   "autor_por_mil": 0.04,
+   "site_pipeline_por_mil": 0.0,
+   "pipeline_n": 0,
+   "autor_n": 2,
+   "razao": 0.84
+  },
+  {
+   "sonda": "D7 adjetivo vazio",
+   "pipeline_por_mil": 0.0,
+   "autor_por_mil": 0.46,
+   "site_pipeline_por_mil": 0.15,
+   "pipeline_n": 0,
+   "autor_n": 24,
+   "razao": 0.09
+  },
+  {
+   "sonda": "D8 passiva analítica",
+   "pipeline_por_mil": 0.0,
+   "autor_por_mil": 0.08,
+   "site_pipeline_por_mil": 0.0,
+   "pipeline_n": 0,
+   "autor_n": 4,
+   "razao": 0.47
+  },
+  {
+   "sonda": "D9 analogia genérica",
+   "pipeline_por_mil": 0.0,
+   "autor_por_mil": 0.12,
+   "site_pipeline_por_mil": 0.03,
+   "pipeline_n": 0,
+   "autor_n": 6,
+   "razao": 0.32
+  },
+  {
+   "sonda": "D11 pergunta-muleta",
+   "pipeline_por_mil": 0.0,
+   "autor_por_mil": 0.06,
+   "site_pipeline_por_mil": 0.03,
+   "pipeline_n": 0,
+   "autor_n": 3,
+   "razao": 0.6
+  },
+  {
+   "sonda": "D12 léxico de IA",
+   "pipeline_por_mil": 0.24,
+   "autor_por_mil": 0.14,
+   "site_pipeline_por_mil": 0.18,
+   "pipeline_n": 3,
+   "autor_n": 7,
+   "razao": 1.96
+  },
+  {
+   "sonda": "D12 'não é x, é y'",
+   "pipeline_por_mil": 0.81,
+   "autor_por_mil": 0.83,
+   "site_pipeline_por_mil": 1.05,
+   "pipeline_n": 10,
+   "autor_n": 43,
+   "razao": 1.02
+  },
+  {
+   "sonda": "D12 gerúndio pendurado",
+   "pipeline_por_mil": 0.65,
+   "autor_por_mil": 1.12,
+   "site_pipeline_por_mil": 0.64,
+   "pipeline_n": 8,
+   "autor_n": 58,
+   "razao": 0.61
+  },
+  {
+   "sonda": "A travessão",
+   "pipeline_por_mil": 11.8,
+   "autor_por_mil": 3.29,
+   "site_pipeline_por_mil": 3.23,
+   "pipeline_n": 145,
+   "autor_n": 170,
+   "razao": 3.59
+  },
+  {
+   "sonda": "A dois-pontos",
+   "pipeline_por_mil": 14.16,
+   "autor_por_mil": 13.36,
+   "site_pipeline_por_mil": 14.03,
+   "pipeline_n": 174,
+   "autor_n": 691,
+   "razao": 1.06
+  },
+  {
+   "sonda": "A aspas simples de ênfase",
+   "pipeline_por_mil": 3.42,
+   "autor_por_mil": 0.77,
+   "site_pipeline_por_mil": 1.51,
+   "pipeline_n": 42,
+   "autor_n": 40,
+   "razao": 4.41
+  },
+  {
+   "sonda": "A 'é justamente/exatamente'",
+   "pipeline_por_mil": 0.33,
+   "autor_por_mil": 0.15,
+   "site_pipeline_por_mil": 0.31,
+   "pipeline_n": 4,
+   "autor_n": 8,
+   "razao": 2.23
+  },
+  {
+   "sonda": "A 'ou seja / isto é'",
+   "pipeline_por_mil": 0.33,
+   "autor_por_mil": 0.14,
+   "site_pipeline_por_mil": 0.18,
+   "pipeline_n": 4,
+   "autor_n": 7,
+   "razao": 2.52
+  },
+  {
+   "sonda": "A 'na prática'",
+   "pipeline_por_mil": 0.33,
+   "autor_por_mil": 0.41,
+   "site_pipeline_por_mil": 0.38,
+   "pipeline_n": 4,
+   "autor_n": 21,
+   "razao": 0.88
+  },
+  {
+   "sonda": "A 'o ponto é / a questão é'",
+   "pipeline_por_mil": 0.0,
+   "autor_por_mil": 0.06,
+   "site_pipeline_por_mil": 0.08,
+   "pipeline_n": 0,
+   "autor_n": 3,
+   "razao": 0.6
+  }
+ ],
+ "lista_calibrada": {
+  "criterio": "razão >= 3 contra os rascunhos dos mesmos posts, em >= 4 posts, e < 70% das ocorrências inteiras no site",
+  "itens": [
+   {
+    "ngrama": "conselho monetário",
+    "pipeline": 6,
+    "autor": 1,
+    "posts_pipeline": 6,
+    "posts_autor": 1,
+    "razao": 13.03,
+    "sobrevive_no_site": 0.67
+   },
+   {
+    "ngrama": "monetário nacional",
+    "pipeline": 6,
+    "autor": 1,
+    "posts_pipeline": 6,
+    "posts_autor": 1,
+    "razao": 13.03,
+    "sobrevive_no_site": 0.67
+   },
+   {
+    "ngrama": "conselho monetário nacional",
+    "pipeline": 6,
+    "autor": 1,
+    "posts_pipeline": 6,
+    "posts_autor": 1,
+    "razao": 13.03,
+    "sobrevive_no_site": 0.67
+   },
+   {
+    "ngrama": "— não",
+    "pipeline": 7,
+    "autor": 3,
+    "posts_pipeline": 5,
+    "posts_autor": 2,
+    "razao": 6.44,
+    "sobrevive_no_site": 0.43
+   },
+   {
+    "ngrama": "— a",
+    "pipeline": 13,
+    "autor": 8,
+    "posts_pipeline": 4,
+    "posts_autor": 5,
+    "razao": 4.78,
+    "sobrevive_no_site": 0.46
+   },
+   {
+    "ngrama": "— o",
+    "pipeline": 12,
+    "autor": 9,
+    "posts_pipeline": 8,
+    "posts_autor": 6,
+    "razao": 3.96,
+    "sobrevive_no_site": 0.58
+   },
+   {
+    "ngrama": "julho",
+    "pipeline": 8,
+    "autor": 8,
+    "posts_pipeline": 5,
+    "posts_autor": 4,
+    "razao": 3.01,
+    "sobrevive_no_site": 0.62
+   },
+   {
+    "ngrama": "conselho",
+    "pipeline": 6,
+    "autor": 6,
+    "posts_pipeline": 6,
+    "posts_autor": 5,
+    "razao": 3.01,
+    "sobrevive_no_site": 0.67
+   }
+  ]
+ },
+ "controlado_por_tema": {
+  "descricao": "pipeline x rascunhos dos mesmos 13 posts (+ acréscimos)",
+  "sobre_representados": [
+   {
+    "ngrama": "( a taxa",
+    "pipeline": 9,
+    "autor": 2,
+    "posts_pipeline": 4,
+    "posts_autor": 1,
+    "razao": 11.43,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "( o",
+    "pipeline": 30,
+    "autor": 12,
+    "posts_pipeline": 10,
+    "posts_autor": 7,
+    "razao": 7.34,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "conselho monetário",
+    "pipeline": 6,
+    "autor": 1,
+    "posts_pipeline": 6,
+    "posts_autor": 1,
+    "razao": 13.03,
+    "sobrevive_no_site": 0.67
+   },
+   {
+    "ngrama": "monetário nacional",
+    "pipeline": 6,
+    "autor": 1,
+    "posts_pipeline": 6,
+    "posts_autor": 1,
+    "razao": 13.03,
+    "sobrevive_no_site": 0.67
+   },
+   {
+    "ngrama": "conselho monetário nacional",
+    "pipeline": 6,
+    "autor": 1,
+    "posts_pipeline": 6,
+    "posts_autor": 1,
+    "razao": 13.03,
+    "sobrevive_no_site": 0.67
+   },
+   {
+    "ngrama": "básica",
+    "pipeline": 6,
+    "autor": 1,
+    "posts_pipeline": 5,
+    "posts_autor": 1,
+    "razao": 13.03,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "depósito",
+    "pipeline": 13,
+    "autor": 4,
+    "posts_pipeline": 7,
+    "posts_autor": 3,
+    "razao": 9.02,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "de depósito",
+    "pipeline": 10,
+    "autor": 3,
+    "posts_pipeline": 7,
+    "posts_autor": 2,
+    "razao": 9.02,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "certificado de depósito",
+    "pipeline": 10,
+    "autor": 3,
+    "posts_pipeline": 7,
+    "posts_autor": 2,
+    "razao": 9.02,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "( certificado de depósito",
+    "pipeline": 9,
+    "autor": 3,
+    "posts_pipeline": 6,
+    "posts_autor": 2,
+    "razao": 8.16,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "( certificado",
+    "pipeline": 14,
+    "autor": 6,
+    "posts_pipeline": 8,
+    "posts_autor": 3,
+    "razao": 6.71,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "( certificado de",
+    "pipeline": 14,
+    "autor": 6,
+    "posts_pipeline": 8,
+    "posts_autor": 3,
+    "razao": 6.71,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "entre bancos",
+    "pipeline": 7,
+    "autor": 2,
+    "posts_pipeline": 5,
+    "posts_autor": 2,
+    "razao": 9.02,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "certificado de",
+    "pipeline": 15,
+    "autor": 8,
+    "posts_pipeline": 9,
+    "posts_autor": 3,
+    "razao": 5.48,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "a posição",
+    "pipeline": 6,
+    "autor": 2,
+    "posts_pipeline": 5,
+    "posts_autor": 2,
+    "razao": 7.82,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "depósito bancário",
+    "pipeline": 6,
+    "autor": 2,
+    "posts_pipeline": 6,
+    "posts_autor": 2,
+    "razao": 7.82,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "de depósito bancário",
+    "pipeline": 6,
+    "autor": 2,
+    "posts_pipeline": 6,
+    "posts_autor": 2,
+    "razao": 7.82,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "certificado de depósito bancário",
+    "pipeline": 6,
+    "autor": 2,
+    "posts_pipeline": 6,
+    "posts_autor": 2,
+    "razao": 7.82,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "bancário )",
+    "pipeline": 6,
+    "autor": 2,
+    "posts_pipeline": 6,
+    "posts_autor": 2,
+    "razao": 7.82,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "ativo",
+    "pipeline": 14,
+    "autor": 8,
+    "posts_pipeline": 7,
+    "posts_autor": 6,
+    "razao": 5.13,
+    "sobrevive_no_site": 0.86
+   },
+   {
+    "ngrama": "( a",
+    "pipeline": 22,
+    "autor": 15,
+    "posts_pipeline": 8,
+    "posts_autor": 8,
+    "razao": 4.36,
+    "sobrevive_no_site": 0.91
+   },
+   {
+    "ngrama": "( letra",
+    "pipeline": 10,
+    "autor": 5,
+    "posts_pipeline": 6,
+    "posts_autor": 3,
+    "razao": 5.74,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "certificado",
+    "pipeline": 16,
+    "autor": 10,
+    "posts_pipeline": 9,
+    "posts_autor": 3,
+    "razao": 4.72,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "( letra de",
+    "pipeline": 7,
+    "autor": 3,
+    "posts_pipeline": 4,
+    "posts_autor": 2,
+    "razao": 6.44,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "( letra de crédito",
+    "pipeline": 7,
+    "autor": 3,
+    "posts_pipeline": 4,
+    "posts_autor": 2,
+    "razao": 6.44,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "( fundo",
+    "pipeline": 7,
+    "autor": 3,
+    "posts_pipeline": 5,
+    "posts_autor": 3,
+    "razao": 6.44,
+    "sobrevive_no_site": 0.86
+   },
+   {
+    "ngrama": "— não",
+    "pipeline": 7,
+    "autor": 3,
+    "posts_pipeline": 5,
+    "posts_autor": 2,
+    "razao": 6.44,
+    "sobrevive_no_site": 0.43
+   },
+   {
+    "ngrama": "— a",
+    "pipeline": 13,
+    "autor": 8,
+    "posts_pipeline": 4,
+    "posts_autor": 5,
+    "razao": 4.78,
+    "sobrevive_no_site": 0.46
+   },
+   {
+    "ngrama": "certo",
+    "pipeline": 8,
+    "autor": 4,
+    "posts_pipeline": 4,
+    "posts_autor": 4,
+    "razao": 5.68,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "lógica",
+    "pipeline": 8,
+    "autor": 4,
+    "posts_pipeline": 5,
+    "posts_autor": 3,
+    "razao": 5.68,
+    "sobrevive_no_site": 0.75
+   },
+   {
+    "ngrama": "inflação",
+    "pipeline": 8,
+    "autor": 4,
+    "posts_pipeline": 4,
+    "posts_autor": 2,
+    "razao": 5.68,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "públicos",
+    "pipeline": 8,
+    "autor": 4,
+    "posts_pipeline": 4,
+    "posts_autor": 4,
+    "razao": 5.68,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "títulos públicos",
+    "pipeline": 8,
+    "autor": 4,
+    "posts_pipeline": 4,
+    "posts_autor": 4,
+    "razao": 5.68,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "equivalente",
+    "pipeline": 8,
+    "autor": 4,
+    "posts_pipeline": 7,
+    "posts_autor": 2,
+    "razao": 5.68,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "contratos",
+    "pipeline": 9,
+    "autor": 5,
+    "posts_pipeline": 5,
+    "posts_autor": 3,
+    "razao": 5.19,
+    "sobrevive_no_site": 0.89
+   },
+   {
+    "ngrama": "índice",
+    "pipeline": 9,
+    "autor": 5,
+    "posts_pipeline": 5,
+    "posts_autor": 4,
+    "razao": 5.19,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "um dia",
+    "pipeline": 10,
+    "autor": 6,
+    "posts_pipeline": 4,
+    "posts_autor": 5,
+    "razao": 4.86,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "padrão",
+    "pipeline": 11,
+    "autor": 7,
+    "posts_pipeline": 6,
+    "posts_autor": 4,
+    "razao": 4.61,
+    "sobrevive_no_site": 0.91
+   },
+   {
+    "ngrama": "bancário",
+    "pipeline": 12,
+    "autor": 8,
+    "posts_pipeline": 8,
+    "posts_autor": 5,
+    "razao": 4.42,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "mobiliários",
+    "pipeline": 6,
+    "autor": 3,
+    "posts_pipeline": 6,
+    "posts_autor": 3,
+    "razao": 5.58,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "de valores",
+    "pipeline": 6,
+    "autor": 3,
+    "posts_pipeline": 6,
+    "posts_autor": 3,
+    "razao": 5.58,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "valores mobiliários",
+    "pipeline": 6,
+    "autor": 3,
+    "posts_pipeline": 6,
+    "posts_autor": 3,
+    "razao": 5.58,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "de valores mobiliários",
+    "pipeline": 6,
+    "autor": 3,
+    "posts_pipeline": 6,
+    "posts_autor": 3,
+    "razao": 5.58,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "— o",
+    "pipeline": 12,
+    "autor": 9,
+    "posts_pipeline": 8,
+    "posts_autor": 6,
+    "razao": 3.96,
+    "sobrevive_no_site": 0.58
+   },
+   {
+    "ngrama": "nacional",
+    "pipeline": 11,
+    "autor": 8,
+    "posts_pipeline": 7,
+    "posts_autor": 4,
+    "razao": 4.07,
+    "sobrevive_no_site": 0.82
+   },
+   {
+    "ngrama": "letra de",
+    "pipeline": 7,
+    "autor": 4,
+    "posts_pipeline": 4,
+    "posts_autor": 3,
+    "razao": 5.01,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "letra de crédito",
+    "pipeline": 7,
+    "autor": 4,
+    "posts_pipeline": 4,
+    "posts_autor": 3,
+    "razao": 5.01,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "agronegócio )",
+    "pipeline": 7,
+    "autor": 4,
+    "posts_pipeline": 5,
+    "posts_autor": 3,
+    "razao": 5.01,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "do agronegócio )",
+    "pipeline": 7,
+    "autor": 4,
+    "posts_pipeline": 5,
+    "posts_autor": 3,
+    "razao": 5.01,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "diferente",
+    "pipeline": 7,
+    "autor": 4,
+    "posts_pipeline": 6,
+    "posts_autor": 4,
+    "razao": 5.01,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "monetário",
+    "pipeline": 7,
+    "autor": 4,
+    "posts_pipeline": 6,
+    "posts_autor": 3,
+    "razao": 5.01,
+    "sobrevive_no_site": 0.71
+   },
+   {
+    "ngrama": "at",
+    "pipeline": 7,
+    "autor": 4,
+    "posts_pipeline": 4,
+    "posts_autor": 1,
+    "razao": 5.01,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "que ela",
+    "pipeline": 8,
+    "autor": 5,
+    "posts_pipeline": 8,
+    "posts_autor": 4,
+    "razao": 4.65,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "deveria",
+    "pipeline": 9,
+    "autor": 7,
+    "posts_pipeline": 4,
+    "posts_autor": 5,
+    "razao": 3.81,
+    "sobrevive_no_site": 0.89
+   },
+   {
+    "ngrama": "por trás",
+    "pipeline": 8,
+    "autor": 6,
+    "posts_pipeline": 5,
+    "posts_autor": 5,
+    "razao": 3.93,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "posição",
+    "pipeline": 7,
+    "autor": 5,
+    "posts_pipeline": 5,
+    "posts_autor": 4,
+    "razao": 4.1,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "— ,",
+    "pipeline": 7,
+    "autor": 5,
+    "posts_pipeline": 4,
+    "posts_autor": 3,
+    "razao": 4.1,
+    "sobrevive_no_site": 0.71
+   },
+   {
+    "ngrama": "operações",
+    "pipeline": 6,
+    "autor": 4,
+    "posts_pipeline": 4,
+    "posts_autor": 4,
+    "razao": 4.34,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "nova",
+    "pipeline": 6,
+    "autor": 4,
+    "posts_pipeline": 5,
+    "posts_autor": 4,
+    "razao": 4.34,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "juros ,",
+    "pipeline": 6,
+    "autor": 4,
+    "posts_pipeline": 5,
+    "posts_autor": 3,
+    "razao": 4.34,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "usada",
+    "pipeline": 6,
+    "autor": 4,
+    "posts_pipeline": 5,
+    "posts_autor": 3,
+    "razao": 4.34,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "de referência",
+    "pipeline": 10,
+    "autor": 9,
+    "posts_pipeline": 6,
+    "posts_autor": 6,
+    "razao": 3.32,
+    "sobrevive_no_site": 0.9
+   },
+   {
+    "ngrama": "de renda",
+    "pipeline": 9,
+    "autor": 8,
+    "posts_pipeline": 5,
+    "posts_autor": 5,
+    "razao": 3.36,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "de investimento",
+    "pipeline": 8,
+    "autor": 7,
+    "posts_pipeline": 7,
+    "posts_autor": 6,
+    "razao": 3.41,
+    "sobrevive_no_site": 0.75
+   },
+   {
+    "ngrama": "ordem",
+    "pipeline": 10,
+    "autor": 10,
+    "posts_pipeline": 5,
+    "posts_autor": 8,
+    "razao": 3.01,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "letra",
+    "pipeline": 10,
+    "autor": 10,
+    "posts_pipeline": 6,
+    "posts_autor": 6,
+    "razao": 3.01,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "pagar",
+    "pipeline": 10,
+    "autor": 10,
+    "posts_pipeline": 5,
+    "posts_autor": 4,
+    "razao": 3.01,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "valores",
+    "pipeline": 7,
+    "autor": 6,
+    "posts_pipeline": 7,
+    "posts_autor": 5,
+    "razao": 3.47,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "passou a",
+    "pipeline": 7,
+    "autor": 6,
+    "posts_pipeline": 5,
+    "posts_autor": 5,
+    "razao": 3.47,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "ed",
+    "pipeline": 7,
+    "autor": 6,
+    "posts_pipeline": 4,
+    "posts_autor": 2,
+    "razao": 3.47,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "ed .",
+    "pipeline": 7,
+    "autor": 6,
+    "posts_pipeline": 4,
+    "posts_autor": 2,
+    "razao": 3.47,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "entender",
+    "pipeline": 9,
+    "autor": 9,
+    "posts_pipeline": 4,
+    "posts_autor": 6,
+    "razao": 3.01,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "os títulos",
+    "pipeline": 6,
+    "autor": 5,
+    "posts_pipeline": 4,
+    "posts_autor": 3,
+    "razao": 3.55,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "banco central",
+    "pipeline": 8,
+    "autor": 8,
+    "posts_pipeline": 5,
+    "posts_autor": 3,
+    "razao": 3.01,
+    "sobrevive_no_site": 0.88
+   },
+   {
+    "ngrama": "a fórmula",
+    "pipeline": 8,
+    "autor": 8,
+    "posts_pipeline": 5,
+    "posts_autor": 6,
+    "razao": 3.01,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "julho",
+    "pipeline": 8,
+    "autor": 8,
+    "posts_pipeline": 5,
+    "posts_autor": 4,
+    "razao": 3.01,
+    "sobrevive_no_site": 0.62
+   },
+   {
+    "ngrama": "conselho",
+    "pipeline": 6,
+    "autor": 6,
+    "posts_pipeline": 6,
+    "posts_autor": 5,
+    "razao": 3.01,
+    "sobrevive_no_site": 0.67
+   }
+  ],
+  "sub_representados": [
+   {
+    "ngrama": "\\",
+    "pipeline": 0,
+    "autor": 34,
+    "posts_pipeline": 0,
+    "posts_autor": 5,
+    "razao": 0.04,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": ". [",
+    "pipeline": 0,
+    "autor": 24,
+    "posts_pipeline": 0,
+    "posts_autor": 8,
+    "razao": 0.06,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "quatro",
+    "pipeline": 0,
+    "autor": 22,
+    "posts_pipeline": 0,
+    "posts_autor": 11,
+    "razao": 0.07,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "estrutura",
+    "pipeline": 0,
+    "autor": 19,
+    "posts_pipeline": 0,
+    "posts_autor": 8,
+    "razao": 0.08,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "notas",
+    "pipeline": 0,
+    "autor": 19,
+    "posts_pipeline": 0,
+    "posts_autor": 9,
+    "razao": 0.08,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "veio",
+    "pipeline": 0,
+    "autor": 18,
+    "posts_pipeline": 0,
+    "posts_autor": 8,
+    "razao": 0.08,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": ", as",
+    "pipeline": 0,
+    "autor": 18,
+    "posts_pipeline": 0,
+    "posts_autor": 10,
+    "razao": 0.08,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "notas de",
+    "pipeline": 0,
+    "autor": 16,
+    "posts_pipeline": 0,
+    "posts_autor": 6,
+    "razao": 0.09,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "lca ,",
+    "pipeline": 0,
+    "autor": 15,
+    "posts_pipeline": 0,
+    "posts_autor": 4,
+    "razao": 0.1,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "depois do",
+    "pipeline": 0,
+    "autor": 15,
+    "posts_pipeline": 0,
+    "posts_autor": 6,
+    "razao": 0.1,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "bom",
+    "pipeline": 0,
+    "autor": 14,
+    "posts_pipeline": 0,
+    "posts_autor": 9,
+    "razao": 0.1,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "a estrutura",
+    "pipeline": 0,
+    "autor": 14,
+    "posts_pipeline": 0,
+    "posts_autor": 6,
+    "razao": 0.1,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "banco .",
+    "pipeline": 0,
+    "autor": 13,
+    "posts_pipeline": 0,
+    "posts_autor": 7,
+    "razao": 0.11,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "o cdi",
+    "pipeline": 0,
+    "autor": 13,
+    "posts_pipeline": 0,
+    "posts_autor": 4,
+    "razao": 0.11,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "condições",
+    "pipeline": 0,
+    "autor": 13,
+    "posts_pipeline": 0,
+    "posts_autor": 4,
+    "razao": 0.11,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": ". as",
+    "pipeline": 1,
+    "autor": 29,
+    "posts_pipeline": 1,
+    "posts_autor": 10,
+    "razao": 0.15,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "escritura",
+    "pipeline": 1,
+    "autor": 28,
+    "posts_pipeline": 1,
+    "posts_autor": 4,
+    "razao": 0.16,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "emissões",
+    "pipeline": 0,
+    "autor": 12,
+    "posts_pipeline": 0,
+    "posts_autor": 4,
+    "razao": 0.12,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "gráfico",
+    "pipeline": 0,
+    "autor": 12,
+    "posts_pipeline": 0,
+    "posts_autor": 7,
+    "razao": 0.12,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "cálculo próprio",
+    "pipeline": 0,
+    "autor": 12,
+    "posts_pipeline": 0,
+    "posts_autor": 5,
+    "razao": 0.12,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": ". entre",
+    "pipeline": 0,
+    "autor": 12,
+    "posts_pipeline": 0,
+    "posts_autor": 6,
+    "razao": 0.12,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": ", com o",
+    "pipeline": 0,
+    "autor": 12,
+    "posts_pipeline": 0,
+    "posts_autor": 7,
+    "razao": 0.12,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "publicar",
+    "pipeline": 0,
+    "autor": 12,
+    "posts_pipeline": 0,
+    "posts_autor": 7,
+    "razao": 0.12,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "pauta",
+    "pipeline": 0,
+    "autor": 12,
+    "posts_pipeline": 0,
+    "posts_autor": 6,
+    "razao": 0.12,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "fgc",
+    "pipeline": 1,
+    "autor": 26,
+    "posts_pipeline": 1,
+    "posts_autor": 4,
+    "razao": 0.17,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "perguntas",
+    "pipeline": 1,
+    "autor": 26,
+    "posts_pipeline": 1,
+    "posts_autor": 10,
+    "razao": 0.17,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "virar",
+    "pipeline": 0,
+    "autor": 11,
+    "posts_pipeline": 0,
+    "posts_autor": 6,
+    "razao": 0.13,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "existem",
+    "pipeline": 0,
+    "autor": 11,
+    "posts_pipeline": 0,
+    "posts_autor": 6,
+    "razao": 0.13,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "continuar",
+    "pipeline": 0,
+    "autor": 11,
+    "posts_pipeline": 0,
+    "posts_autor": 10,
+    "razao": 0.13,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "outra coisa",
+    "pipeline": 0,
+    "autor": 11,
+    "posts_pipeline": 0,
+    "posts_autor": 5,
+    "razao": 0.13,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": ". se o",
+    "pipeline": 0,
+    "autor": 11,
+    "posts_pipeline": 0,
+    "posts_autor": 7,
+    "razao": 0.13,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "+",
+    "pipeline": 3,
+    "autor": 46,
+    "posts_pipeline": 2,
+    "posts_autor": 7,
+    "razao": 0.23,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "o que é",
+    "pipeline": 0,
+    "autor": 10,
+    "posts_pipeline": 0,
+    "posts_autor": 7,
+    "razao": 0.14,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "fechamento",
+    "pipeline": 0,
+    "autor": 10,
+    "posts_pipeline": 0,
+    "posts_autor": 7,
+    "razao": 0.14,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "planilha",
+    "pipeline": 0,
+    "autor": 10,
+    "posts_pipeline": 0,
+    "posts_autor": 6,
+    "razao": 0.14,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "além",
+    "pipeline": 0,
+    "autor": 10,
+    "posts_pipeline": 0,
+    "posts_autor": 6,
+    "razao": 0.14,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "caminho .",
+    "pipeline": 0,
+    "autor": 10,
+    "posts_pipeline": 0,
+    "posts_autor": 6,
+    "razao": 0.14,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "hoje .",
+    "pipeline": 0,
+    "autor": 10,
+    "posts_pipeline": 0,
+    "posts_autor": 6,
+    "razao": 0.14,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "deste",
+    "pipeline": 0,
+    "autor": 9,
+    "posts_pipeline": 0,
+    "posts_autor": 5,
+    "razao": 0.16,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "texto ,",
+    "pipeline": 0,
+    "autor": 9,
+    "posts_pipeline": 0,
+    "posts_autor": 6,
+    "razao": 0.16,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "até a",
+    "pipeline": 0,
+    "autor": 9,
+    "posts_pipeline": 0,
+    "posts_autor": 7,
+    "razao": 0.16,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "carteira de",
+    "pipeline": 0,
+    "autor": 9,
+    "posts_pipeline": 0,
+    "posts_autor": 7,
+    "razao": 0.16,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "no meio",
+    "pipeline": 0,
+    "autor": 9,
+    "posts_pipeline": 0,
+    "posts_autor": 7,
+    "razao": 0.16,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "deste texto",
+    "pipeline": 0,
+    "autor": 9,
+    "posts_pipeline": 0,
+    "posts_autor": 5,
+    "razao": 0.16,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "bilhões em",
+    "pipeline": 0,
+    "autor": 9,
+    "posts_pipeline": 0,
+    "posts_autor": 5,
+    "razao": 0.16,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "não foi",
+    "pipeline": 0,
+    "autor": 9,
+    "posts_pipeline": 0,
+    "posts_autor": 7,
+    "razao": 0.16,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": ". por que",
+    "pipeline": 0,
+    "autor": 9,
+    "posts_pipeline": 0,
+    "posts_autor": 6,
+    "razao": 0.16,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "elas",
+    "pipeline": 0,
+    "autor": 9,
+    "posts_pipeline": 0,
+    "posts_autor": 6,
+    "razao": 0.16,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "constante",
+    "pipeline": 0,
+    "autor": 9,
+    "posts_pipeline": 0,
+    "posts_autor": 6,
+    "razao": 0.16,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": ": se",
+    "pipeline": 0,
+    "autor": 9,
+    "posts_pipeline": 0,
+    "posts_autor": 7,
+    "razao": 0.16,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "como se",
+    "pipeline": 0,
+    "autor": 9,
+    "posts_pipeline": 0,
+    "posts_autor": 6,
+    "razao": 0.16,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "o segundo",
+    "pipeline": 0,
+    "autor": 9,
+    "posts_pipeline": 0,
+    "posts_autor": 6,
+    "razao": 0.16,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "( não",
+    "pipeline": 0,
+    "autor": 9,
+    "posts_pipeline": 0,
+    "posts_autor": 7,
+    "razao": 0.16,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "três perguntas",
+    "pipeline": 0,
+    "autor": 9,
+    "posts_pipeline": 0,
+    "posts_autor": 5,
+    "razao": 0.16,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "o caminho",
+    "pipeline": 0,
+    "autor": 9,
+    "posts_pipeline": 0,
+    "posts_autor": 4,
+    "razao": 0.16,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "publicar )",
+    "pipeline": 0,
+    "autor": 9,
+    "posts_pipeline": 0,
+    "posts_autor": 7,
+    "razao": 0.16,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "se o",
+    "pipeline": 2,
+    "autor": 30,
+    "posts_pipeline": 2,
+    "posts_autor": 11,
+    "razao": 0.25,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": ". na",
+    "pipeline": 5,
+    "autor": 55,
+    "posts_pipeline": 4,
+    "posts_autor": 11,
+    "razao": 0.3,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "anbima",
+    "pipeline": 2,
+    "autor": 29,
+    "posts_pipeline": 2,
+    "posts_autor": 5,
+    "razao": 0.25,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": ". quando",
+    "pipeline": 1,
+    "autor": 19,
+    "posts_pipeline": 1,
+    "posts_autor": 9,
+    "razao": 0.23,
+    "sobrevive_no_site": 1.0
+   }
+  ]
+ },
+ "contra_todo_o_autor": {
+  "descricao": "pipeline x rascunhos + 15 posts pré-pipeline + acréscimos",
+  "sobre_representados": [
+   {
+    "ngrama": "( a taxa",
+    "pipeline": 9,
+    "autor": 2,
+    "posts_pipeline": 4,
+    "posts_autor": 1,
+    "razao": 15.91,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "conselho monetário",
+    "pipeline": 6,
+    "autor": 1,
+    "posts_pipeline": 6,
+    "posts_autor": 1,
+    "razao": 18.15,
+    "sobrevive_no_site": 0.67
+   },
+   {
+    "ngrama": "monetário nacional",
+    "pipeline": 6,
+    "autor": 1,
+    "posts_pipeline": 6,
+    "posts_autor": 1,
+    "razao": 18.15,
+    "sobrevive_no_site": 0.67
+   },
+   {
+    "ngrama": "conselho monetário nacional",
+    "pipeline": 6,
+    "autor": 1,
+    "posts_pipeline": 6,
+    "posts_autor": 1,
+    "razao": 18.15,
+    "sobrevive_no_site": 0.67
+   },
+   {
+    "ngrama": "certificado de depósito",
+    "pipeline": 10,
+    "autor": 3,
+    "posts_pipeline": 7,
+    "posts_autor": 2,
+    "razao": 12.56,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "depósito",
+    "pipeline": 13,
+    "autor": 5,
+    "posts_pipeline": 7,
+    "posts_autor": 4,
+    "razao": 10.28,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "( certificado de depósito",
+    "pipeline": 9,
+    "autor": 3,
+    "posts_pipeline": 6,
+    "posts_autor": 2,
+    "razao": 11.37,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "( o",
+    "pipeline": 30,
+    "autor": 17,
+    "posts_pipeline": 10,
+    "posts_autor": 10,
+    "razao": 7.3,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "entre bancos",
+    "pipeline": 7,
+    "autor": 2,
+    "posts_pipeline": 5,
+    "posts_autor": 2,
+    "razao": 12.56,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "de depósito",
+    "pipeline": 10,
+    "autor": 4,
+    "posts_pipeline": 7,
+    "posts_autor": 3,
+    "razao": 9.77,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "( certificado",
+    "pipeline": 14,
+    "autor": 7,
+    "posts_pipeline": 8,
+    "posts_autor": 4,
+    "razao": 8.1,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "( certificado de",
+    "pipeline": 14,
+    "autor": 7,
+    "posts_pipeline": 8,
+    "posts_autor": 4,
+    "razao": 8.1,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "a posição",
+    "pipeline": 6,
+    "autor": 2,
+    "posts_pipeline": 5,
+    "posts_autor": 2,
+    "razao": 10.89,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "certificado de depósito bancário",
+    "pipeline": 6,
+    "autor": 2,
+    "posts_pipeline": 6,
+    "posts_autor": 2,
+    "razao": 10.89,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "certificado de",
+    "pipeline": 15,
+    "autor": 9,
+    "posts_pipeline": 9,
+    "posts_autor": 4,
+    "razao": 6.83,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "( letra de",
+    "pipeline": 7,
+    "autor": 3,
+    "posts_pipeline": 4,
+    "posts_autor": 2,
+    "razao": 8.97,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "( letra de crédito",
+    "pipeline": 7,
+    "autor": 3,
+    "posts_pipeline": 4,
+    "posts_autor": 2,
+    "razao": 8.97,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "( fundo",
+    "pipeline": 7,
+    "autor": 3,
+    "posts_pipeline": 5,
+    "posts_autor": 3,
+    "razao": 8.97,
+    "sobrevive_no_site": 0.86
+   },
+   {
+    "ngrama": "— não",
+    "pipeline": 7,
+    "autor": 3,
+    "posts_pipeline": 5,
+    "posts_autor": 2,
+    "razao": 8.97,
+    "sobrevive_no_site": 0.43
+   },
+   {
+    "ngrama": "certificado",
+    "pipeline": 16,
+    "autor": 11,
+    "posts_pipeline": 9,
+    "posts_autor": 4,
+    "razao": 6.01,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "( letra",
+    "pipeline": 10,
+    "autor": 6,
+    "posts_pipeline": 6,
+    "posts_autor": 4,
+    "razao": 6.77,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "um dia",
+    "pipeline": 10,
+    "autor": 6,
+    "posts_pipeline": 4,
+    "posts_autor": 5,
+    "razao": 6.77,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "( a",
+    "pipeline": 22,
+    "autor": 20,
+    "posts_pipeline": 8,
+    "posts_autor": 12,
+    "razao": 4.6,
+    "sobrevive_no_site": 0.91
+   },
+   {
+    "ngrama": "depósito bancário",
+    "pipeline": 6,
+    "autor": 3,
+    "posts_pipeline": 6,
+    "posts_autor": 3,
+    "razao": 7.78,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "de depósito bancário",
+    "pipeline": 6,
+    "autor": 3,
+    "posts_pipeline": 6,
+    "posts_autor": 3,
+    "razao": 7.78,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "bancário )",
+    "pipeline": 6,
+    "autor": 3,
+    "posts_pipeline": 6,
+    "posts_autor": 3,
+    "razao": 7.78,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "— a",
+    "pipeline": 13,
+    "autor": 10,
+    "posts_pipeline": 4,
+    "posts_autor": 7,
+    "razao": 5.38,
+    "sobrevive_no_site": 0.46
+   },
+   {
+    "ngrama": "bancário",
+    "pipeline": 12,
+    "autor": 9,
+    "posts_pipeline": 8,
+    "posts_autor": 6,
+    "razao": 5.51,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "padrão",
+    "pipeline": 11,
+    "autor": 8,
+    "posts_pipeline": 6,
+    "posts_autor": 5,
+    "razao": 5.67,
+    "sobrevive_no_site": 0.91
+   },
+   {
+    "ngrama": "letra de",
+    "pipeline": 7,
+    "autor": 4,
+    "posts_pipeline": 4,
+    "posts_autor": 3,
+    "razao": 6.98,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "letra de crédito",
+    "pipeline": 7,
+    "autor": 4,
+    "posts_pipeline": 4,
+    "posts_autor": 3,
+    "razao": 6.98,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "agronegócio )",
+    "pipeline": 7,
+    "autor": 4,
+    "posts_pipeline": 5,
+    "posts_autor": 3,
+    "razao": 6.98,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "do agronegócio )",
+    "pipeline": 7,
+    "autor": 4,
+    "posts_pipeline": 5,
+    "posts_autor": 3,
+    "razao": 6.98,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "monetário",
+    "pipeline": 7,
+    "autor": 4,
+    "posts_pipeline": 6,
+    "posts_autor": 3,
+    "razao": 6.98,
+    "sobrevive_no_site": 0.71
+   },
+   {
+    "ngrama": "at",
+    "pipeline": 7,
+    "autor": 4,
+    "posts_pipeline": 4,
+    "posts_autor": 1,
+    "razao": 6.98,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "que ela",
+    "pipeline": 8,
+    "autor": 6,
+    "posts_pipeline": 8,
+    "posts_autor": 5,
+    "razao": 5.48,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "— o",
+    "pipeline": 12,
+    "autor": 11,
+    "posts_pipeline": 8,
+    "posts_autor": 8,
+    "razao": 4.55,
+    "sobrevive_no_site": 0.58
+   },
+   {
+    "ngrama": "posição",
+    "pipeline": 7,
+    "autor": 5,
+    "posts_pipeline": 5,
+    "posts_autor": 4,
+    "razao": 5.71,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "mobiliários",
+    "pipeline": 6,
+    "autor": 4,
+    "posts_pipeline": 6,
+    "posts_autor": 4,
+    "razao": 6.05,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "valores mobiliários",
+    "pipeline": 6,
+    "autor": 4,
+    "posts_pipeline": 6,
+    "posts_autor": 4,
+    "razao": 6.05,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "de valores mobiliários",
+    "pipeline": 6,
+    "autor": 4,
+    "posts_pipeline": 6,
+    "posts_autor": 4,
+    "razao": 6.05,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "nova",
+    "pipeline": 6,
+    "autor": 4,
+    "posts_pipeline": 5,
+    "posts_autor": 4,
+    "razao": 6.05,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "básica",
+    "pipeline": 6,
+    "autor": 4,
+    "posts_pipeline": 5,
+    "posts_autor": 3,
+    "razao": 6.05,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "juros ,",
+    "pipeline": 6,
+    "autor": 4,
+    "posts_pipeline": 5,
+    "posts_autor": 3,
+    "razao": 6.05,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "usada",
+    "pipeline": 6,
+    "autor": 4,
+    "posts_pipeline": 5,
+    "posts_autor": 3,
+    "razao": 6.05,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "certo",
+    "pipeline": 8,
+    "autor": 7,
+    "posts_pipeline": 4,
+    "posts_autor": 7,
+    "razao": 4.75,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "por trás",
+    "pipeline": 8,
+    "autor": 7,
+    "posts_pipeline": 5,
+    "posts_autor": 6,
+    "razao": 4.75,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "passou a",
+    "pipeline": 7,
+    "autor": 6,
+    "posts_pipeline": 5,
+    "posts_autor": 5,
+    "razao": 4.83,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "ed",
+    "pipeline": 7,
+    "autor": 6,
+    "posts_pipeline": 4,
+    "posts_autor": 2,
+    "razao": 4.83,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "ed .",
+    "pipeline": 7,
+    "autor": 6,
+    "posts_pipeline": 4,
+    "posts_autor": 2,
+    "razao": 4.83,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "deveria",
+    "pipeline": 9,
+    "autor": 9,
+    "posts_pipeline": 4,
+    "posts_autor": 6,
+    "razao": 4.19,
+    "sobrevive_no_site": 0.89
+   },
+   {
+    "ngrama": "letra",
+    "pipeline": 10,
+    "autor": 11,
+    "posts_pipeline": 6,
+    "posts_autor": 7,
+    "razao": 3.82,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "julho",
+    "pipeline": 8,
+    "autor": 8,
+    "posts_pipeline": 5,
+    "posts_autor": 4,
+    "razao": 4.19,
+    "sobrevive_no_site": 0.62
+   },
+   {
+    "ngrama": "equivalente",
+    "pipeline": 8,
+    "autor": 8,
+    "posts_pipeline": 7,
+    "posts_autor": 5,
+    "razao": 4.19,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "contratos",
+    "pipeline": 9,
+    "autor": 10,
+    "posts_pipeline": 5,
+    "posts_autor": 6,
+    "razao": 3.79,
+    "sobrevive_no_site": 0.89
+   },
+   {
+    "ngrama": "bancos",
+    "pipeline": 11,
+    "autor": 14,
+    "posts_pipeline": 8,
+    "posts_autor": 8,
+    "razao": 3.32,
+    "sobrevive_no_site": 0.91
+   },
+   {
+    "ngrama": "lógica",
+    "pipeline": 8,
+    "autor": 9,
+    "posts_pipeline": 5,
+    "posts_autor": 7,
+    "razao": 3.75,
+    "sobrevive_no_site": 0.75
+   },
+   {
+    "ngrama": "a fórmula",
+    "pipeline": 8,
+    "autor": 9,
+    "posts_pipeline": 5,
+    "posts_autor": 7,
+    "razao": 3.75,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "passou",
+    "pipeline": 9,
+    "autor": 11,
+    "posts_pipeline": 6,
+    "posts_autor": 8,
+    "razao": 3.46,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "conselho",
+    "pipeline": 6,
+    "autor": 6,
+    "posts_pipeline": 6,
+    "posts_autor": 5,
+    "razao": 4.19,
+    "sobrevive_no_site": 0.67
+   },
+   {
+    "ngrama": "— ,",
+    "pipeline": 7,
+    "autor": 8,
+    "posts_pipeline": 4,
+    "posts_autor": 4,
+    "razao": 3.7,
+    "sobrevive_no_site": 0.71
+   },
+   {
+    "ngrama": "precificação",
+    "pipeline": 7,
+    "autor": 8,
+    "posts_pipeline": 5,
+    "posts_autor": 5,
+    "razao": 3.7,
+    "sobrevive_no_site": 0.86
+   },
+   {
+    "ngrama": "ordem",
+    "pipeline": 10,
+    "autor": 14,
+    "posts_pipeline": 5,
+    "posts_autor": 12,
+    "razao": 3.03,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "produto",
+    "pipeline": 10,
+    "autor": 14,
+    "posts_pipeline": 5,
+    "posts_autor": 9,
+    "razao": 3.03,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "fórmula",
+    "pipeline": 10,
+    "autor": 14,
+    "posts_pipeline": 6,
+    "posts_autor": 9,
+    "razao": 3.03,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "de valores",
+    "pipeline": 6,
+    "autor": 7,
+    "posts_pipeline": 6,
+    "posts_autor": 6,
+    "razao": 3.63,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "taxa di",
+    "pipeline": 6,
+    "autor": 7,
+    "posts_pipeline": 4,
+    "posts_autor": 3,
+    "razao": 3.63,
+    "sobrevive_no_site": 0.83
+   },
+   {
+    "ngrama": "dela",
+    "pipeline": 6,
+    "autor": 7,
+    "posts_pipeline": 4,
+    "posts_autor": 6,
+    "razao": 3.63,
+    "sobrevive_no_site": 0.83
+   },
+   {
+    "ngrama": "banco central",
+    "pipeline": 8,
+    "autor": 11,
+    "posts_pipeline": 5,
+    "posts_autor": 5,
+    "razao": 3.1,
+    "sobrevive_no_site": 0.88
+   },
+   {
+    "ngrama": "seção",
+    "pipeline": 7,
+    "autor": 9,
+    "posts_pipeline": 5,
+    "posts_autor": 5,
+    "razao": 3.31,
+    "sobrevive_no_site": 0.71
+   },
+   {
+    "ngrama": ": é",
+    "pipeline": 6,
+    "autor": 8,
+    "posts_pipeline": 5,
+    "posts_autor": 7,
+    "razao": 3.2,
+    "sobrevive_no_site": 0.83
+   },
+   {
+    "ngrama": "têm",
+    "pipeline": 6,
+    "autor": 8,
+    "posts_pipeline": 6,
+    "posts_autor": 5,
+    "razao": 3.2,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "captação",
+    "pipeline": 6,
+    "autor": 8,
+    "posts_pipeline": 4,
+    "posts_autor": 2,
+    "razao": 3.2,
+    "sobrevive_no_site": 1.0
+   }
+  ],
+  "sub_representados": [
+   {
+    "ngrama": "objetivos",
+    "pipeline": 0,
+    "autor": 75,
+    "posts_pipeline": 0,
+    "posts_autor": 15,
+    "razao": 0.03,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "o tesouro",
+    "pipeline": 0,
+    "autor": 44,
+    "posts_pipeline": 0,
+    "posts_autor": 6,
+    "razao": 0.05,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "\\",
+    "pipeline": 0,
+    "autor": 34,
+    "posts_pipeline": 0,
+    "posts_autor": 5,
+    "razao": 0.06,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "emergência",
+    "pipeline": 0,
+    "autor": 26,
+    "posts_pipeline": 0,
+    "posts_autor": 4,
+    "razao": 0.08,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "reserva",
+    "pipeline": 0,
+    "autor": 25,
+    "posts_pipeline": 0,
+    "posts_autor": 5,
+    "razao": 0.08,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "etfs",
+    "pipeline": 0,
+    "autor": 25,
+    "posts_pipeline": 0,
+    "posts_autor": 5,
+    "razao": 0.08,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "estrutura",
+    "pipeline": 0,
+    "autor": 25,
+    "posts_pipeline": 0,
+    "posts_autor": 11,
+    "razao": 0.08,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "seus objetivos",
+    "pipeline": 0,
+    "autor": 24,
+    "posts_pipeline": 0,
+    "posts_autor": 11,
+    "razao": 0.09,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": ". [",
+    "pipeline": 0,
+    "autor": 24,
+    "posts_pipeline": 0,
+    "posts_autor": 8,
+    "razao": 0.09,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "além",
+    "pipeline": 0,
+    "autor": 22,
+    "posts_pipeline": 0,
+    "posts_autor": 14,
+    "razao": 0.09,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "quatro",
+    "pipeline": 0,
+    "autor": 22,
+    "posts_pipeline": 0,
+    "posts_autor": 11,
+    "razao": 0.09,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "alcançar",
+    "pipeline": 0,
+    "autor": 21,
+    "posts_pipeline": 0,
+    "posts_autor": 8,
+    "razao": 0.1,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "bom",
+    "pipeline": 0,
+    "autor": 21,
+    "posts_pipeline": 0,
+    "posts_autor": 15,
+    "razao": 0.1,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "custos",
+    "pipeline": 0,
+    "autor": 21,
+    "posts_pipeline": 0,
+    "posts_autor": 7,
+    "razao": 0.1,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "o tesouro selic",
+    "pipeline": 0,
+    "autor": 21,
+    "posts_pipeline": 0,
+    "posts_autor": 4,
+    "razao": 0.1,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "!",
+    "pipeline": 0,
+    "autor": 20,
+    "posts_pipeline": 0,
+    "posts_autor": 9,
+    "razao": 0.1,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "de emergência",
+    "pipeline": 0,
+    "autor": 20,
+    "posts_pipeline": 0,
+    "posts_autor": 4,
+    "razao": 0.1,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "segurança",
+    "pipeline": 0,
+    "autor": 20,
+    "posts_pipeline": 0,
+    "posts_autor": 9,
+    "razao": 0.1,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "condições",
+    "pipeline": 0,
+    "autor": 20,
+    "posts_pipeline": 0,
+    "posts_autor": 7,
+    "razao": 0.1,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": ", as",
+    "pipeline": 0,
+    "autor": 20,
+    "posts_pipeline": 0,
+    "posts_autor": 12,
+    "razao": 0.1,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "conclusão",
+    "pipeline": 0,
+    "autor": 19,
+    "posts_pipeline": 0,
+    "posts_autor": 17,
+    "razao": 0.11,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "notas",
+    "pipeline": 0,
+    "autor": 19,
+    "posts_pipeline": 0,
+    "posts_autor": 9,
+    "razao": 0.11,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "seus",
+    "pipeline": 2,
+    "autor": 64,
+    "posts_pipeline": 2,
+    "posts_autor": 22,
+    "razao": 0.16,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "objetivos de",
+    "pipeline": 0,
+    "autor": 18,
+    "posts_pipeline": 0,
+    "posts_autor": 10,
+    "razao": 0.11,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": ". se o",
+    "pipeline": 0,
+    "autor": 18,
+    "posts_pipeline": 0,
+    "posts_autor": 13,
+    "razao": 0.11,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "veio",
+    "pipeline": 0,
+    "autor": 18,
+    "posts_pipeline": 0,
+    "posts_autor": 8,
+    "razao": 0.11,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "? o",
+    "pipeline": 0,
+    "autor": 17,
+    "posts_pipeline": 0,
+    "posts_autor": 11,
+    "razao": 0.12,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "seria",
+    "pipeline": 0,
+    "autor": 17,
+    "posts_pipeline": 0,
+    "posts_autor": 12,
+    "razao": 0.12,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "reserva de",
+    "pipeline": 0,
+    "autor": 17,
+    "posts_pipeline": 0,
+    "posts_autor": 4,
+    "razao": 0.12,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "características",
+    "pipeline": 0,
+    "autor": 16,
+    "posts_pipeline": 0,
+    "posts_autor": 7,
+    "razao": 0.13,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "o que é",
+    "pipeline": 0,
+    "autor": 16,
+    "posts_pipeline": 0,
+    "posts_autor": 12,
+    "razao": 0.13,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "como uma",
+    "pipeline": 0,
+    "autor": 16,
+    "posts_pipeline": 0,
+    "posts_autor": 9,
+    "razao": 0.13,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "reserva de emergência",
+    "pipeline": 0,
+    "autor": 16,
+    "posts_pipeline": 0,
+    "posts_autor": 4,
+    "razao": 0.13,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "classe de",
+    "pipeline": 0,
+    "autor": 16,
+    "posts_pipeline": 0,
+    "posts_autor": 4,
+    "razao": 0.13,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "notas de",
+    "pipeline": 0,
+    "autor": 16,
+    "posts_pipeline": 0,
+    "posts_autor": 6,
+    "razao": 0.13,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "tesouro",
+    "pipeline": 5,
+    "autor": 101,
+    "posts_pipeline": 4,
+    "posts_autor": 12,
+    "razao": 0.23,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "maneira",
+    "pipeline": 0,
+    "autor": 15,
+    "posts_pipeline": 0,
+    "posts_autor": 11,
+    "razao": 0.14,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "muitas",
+    "pipeline": 0,
+    "autor": 15,
+    "posts_pipeline": 0,
+    "posts_autor": 10,
+    "razao": 0.14,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "carteira de",
+    "pipeline": 0,
+    "autor": 15,
+    "posts_pipeline": 0,
+    "posts_autor": 11,
+    "razao": 0.14,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "ipca +",
+    "pipeline": 0,
+    "autor": 15,
+    "posts_pipeline": 0,
+    "posts_autor": 4,
+    "razao": 0.14,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "reais",
+    "pipeline": 0,
+    "autor": 15,
+    "posts_pipeline": 0,
+    "posts_autor": 10,
+    "razao": 0.14,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "a estrutura",
+    "pipeline": 0,
+    "autor": 15,
+    "posts_pipeline": 0,
+    "posts_autor": 7,
+    "razao": 0.14,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "lca ,",
+    "pipeline": 0,
+    "autor": 15,
+    "posts_pipeline": 0,
+    "posts_autor": 4,
+    "razao": 0.14,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "depois do",
+    "pipeline": 0,
+    "autor": 15,
+    "posts_pipeline": 0,
+    "posts_autor": 6,
+    "razao": 0.14,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "podem",
+    "pipeline": 1,
+    "autor": 34,
+    "posts_pipeline": 1,
+    "posts_autor": 17,
+    "razao": 0.18,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "?",
+    "pipeline": 13,
+    "autor": 199,
+    "posts_pipeline": 7,
+    "posts_autor": 26,
+    "razao": 0.28,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "perguntas",
+    "pipeline": 1,
+    "autor": 33,
+    "posts_pipeline": 1,
+    "posts_autor": 14,
+    "razao": 0.19,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": ". as",
+    "pipeline": 1,
+    "autor": 33,
+    "posts_pipeline": 1,
+    "posts_autor": 14,
+    "razao": 0.19,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "realmente",
+    "pipeline": 0,
+    "autor": 14,
+    "posts_pipeline": 0,
+    "posts_autor": 9,
+    "razao": 0.14,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "metas",
+    "pipeline": 0,
+    "autor": 14,
+    "posts_pipeline": 0,
+    "posts_autor": 8,
+    "razao": 0.14,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "importante",
+    "pipeline": 0,
+    "autor": 14,
+    "posts_pipeline": 0,
+    "posts_autor": 12,
+    "razao": 0.14,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "alocação",
+    "pipeline": 0,
+    "autor": 14,
+    "posts_pipeline": 0,
+    "posts_autor": 7,
+    "razao": 0.14,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "elas",
+    "pipeline": 0,
+    "autor": 14,
+    "posts_pipeline": 0,
+    "posts_autor": 11,
+    "razao": 0.14,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "tesouro selic",
+    "pipeline": 1,
+    "autor": 32,
+    "posts_pipeline": 1,
+    "posts_autor": 4,
+    "razao": 0.19,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "+",
+    "pipeline": 3,
+    "autor": 59,
+    "posts_pipeline": 2,
+    "posts_autor": 9,
+    "razao": 0.25,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "se o",
+    "pipeline": 2,
+    "autor": 45,
+    "posts_pipeline": 2,
+    "posts_autor": 20,
+    "razao": 0.23,
+    "sobrevive_no_site": 1.0
+   },
+   {
+    "ngrama": "milhões",
+    "pipeline": 0,
+    "autor": 13,
+    "posts_pipeline": 0,
+    "posts_autor": 4,
+    "razao": 0.16,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "comprar um",
+    "pipeline": 0,
+    "autor": 13,
+    "posts_pipeline": 0,
+    "posts_autor": 7,
+    "razao": 0.16,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": ". conclusão",
+    "pipeline": 0,
+    "autor": 13,
+    "posts_pipeline": 0,
+    "posts_autor": 13,
+    "razao": 0.16,
+    "sobrevive_no_site": null
+   },
+   {
+    "ngrama": "continuar",
+    "pipeline": 0,
+    "autor": 13,
+    "posts_pipeline": 0,
+    "posts_autor": 12,
+    "razao": 0.16,
+    "sobrevive_no_site": null
+   }
+  ]
+ }
+}
