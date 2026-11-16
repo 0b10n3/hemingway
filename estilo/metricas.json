@@ -345,23 +345,1542 @@
         "media_palavras": 130.6
       },
       "genero": "substack"
+    },
+    "estilo/corpus/publicados/a-anatomia-e-o-verdadeiro-risco-do.md": {
+      "palavras": 3186,
+      "frases": {
+        "total": 145,
+        "mediana": 16,
+        "p10": 6.0,
+        "p90": 42.6,
+        "desvio_padrao": 20.17
+      },
+      "paragrafos": {
+        "total": 122,
+        "media_palavras": 26.1
+      },
+      "lexico": {
+        "type_token_ratio": 0.2768,
+        "hapax_legomena": 519,
+        "hapax_por_mil": 162.9
+      },
+      "pontuacao_por_mil_palavras": {
+        ".": 57.44,
+        ",": 62.46,
+        ";": 8.79,
+        ":": 13.18,
+        "—": 6.91,
+        "-": 6.59,
+        "(": 16.01,
+        ")": 16.01,
+        "\"": 0.0,
+        "!": 0.0,
+        "?": 1.57,
+        "…": 0.0
+      },
+      "conectivos_por_mil": 0.63,
+      "marcadores_contra_argumento_por_mil": 1.57,
+      "primeira_pessoa": {
+        "singular_por_mil": 0.0,
+        "plural_por_mil": 0.0
+      },
+      "perguntas_por_mil": 1.57,
+      "numeros_por_mil": 29.5,
+      "siglas_por_mil": 34.53,
+      "indicios_formula_por_mil": 4.39,
+      "voz_passiva_aproximada_por_mil": 4.08,
+      "bloco_medio_antes_de_subtitulo": {
+        "n_blocos": 15,
+        "media_palavras": 188.8
+      },
+      "genero": "substack-publicado-pipeline"
+    },
+    "estilo/corpus/publicados/a-ciencia-da-separacao.md": {
+      "palavras": 1564,
+      "frases": {
+        "total": 58,
+        "mediana": 26.0,
+        "p10": 8.7,
+        "p90": 47.9,
+        "desvio_padrao": 15.24
+      },
+      "paragrafos": {
+        "total": 50,
+        "media_palavras": 31.3
+      },
+      "lexico": {
+        "type_token_ratio": 0.4246,
+        "hapax_legomena": 481,
+        "hapax_por_mil": 307.54
+      },
+      "pontuacao_por_mil_palavras": {
+        ".": 43.48,
+        ",": 47.31,
+        ";": 1.92,
+        ":": 8.95,
+        "—": 3.84,
+        "-": 7.67,
+        "(": 11.51,
+        ")": 11.51,
+        "\"": 0.0,
+        "!": 0.64,
+        "?": 1.92,
+        "…": 0.0
+      },
+      "conectivos_por_mil": 3.84,
+      "marcadores_contra_argumento_por_mil": 4.48,
+      "primeira_pessoa": {
+        "singular_por_mil": 1.92,
+        "plural_por_mil": 5.75
+      },
+      "perguntas_por_mil": 1.92,
+      "numeros_por_mil": 1.92,
+      "siglas_por_mil": 10.87,
+      "indicios_formula_por_mil": 0.0,
+      "voz_passiva_aproximada_por_mil": 2.56,
+      "bloco_medio_antes_de_subtitulo": {
+        "n_blocos": 4,
+        "media_palavras": 365
+      },
+      "genero": "substack-publicado-pre-pipeline"
+    },
+    "estilo/corpus/publicados/a-corda-e-o-arco.md": {
+      "palavras": 2650,
+      "frases": {
+        "total": 152,
+        "mediana": 14.0,
+        "p10": 5.0,
+        "p90": 35.0,
+        "desvio_padrao": 12.87
+      },
+      "paragrafos": {
+        "total": 91,
+        "media_palavras": 29.1
+      },
+      "lexico": {
+        "type_token_ratio": 0.2804,
+        "hapax_legomena": 437,
+        "hapax_por_mil": 164.91
+      },
+      "pontuacao_por_mil_palavras": {
+        ".": 63.77,
+        ",": 96.6,
+        ";": 2.64,
+        ":": 11.32,
+        "—": 1.51,
+        "-": 6.79,
+        "(": 15.85,
+        ")": 15.85,
+        "\"": 0.0,
+        "!": 0.0,
+        "?": 3.77,
+        "…": 0.0
+      },
+      "conectivos_por_mil": 1.13,
+      "marcadores_contra_argumento_por_mil": 0.0,
+      "primeira_pessoa": {
+        "singular_por_mil": 1.13,
+        "plural_por_mil": 0.38
+      },
+      "perguntas_por_mil": 3.77,
+      "numeros_por_mil": 61.51,
+      "siglas_por_mil": 7.17,
+      "indicios_formula_por_mil": 8.68,
+      "voz_passiva_aproximada_por_mil": 2.26,
+      "bloco_medio_antes_de_subtitulo": {
+        "n_blocos": 11,
+        "media_palavras": 214.5
+      },
+      "genero": "substack-publicado-pipeline"
+    },
+    "estilo/corpus/publicados/borboletas-caos-e-carreira.md": {
+      "palavras": 2678,
+      "frases": {
+        "total": 241,
+        "mediana": 9,
+        "p10": 3.0,
+        "p90": 22.0,
+        "desvio_padrao": 7.74
+      },
+      "paragrafos": {
+        "total": 99,
+        "media_palavras": 27.1
+      },
+      "lexico": {
+        "type_token_ratio": 0.3742,
+        "hapax_legomena": 679,
+        "hapax_por_mil": 253.55
+      },
+      "pontuacao_por_mil_palavras": {
+        ".": 89.25,
+        ",": 67.59,
+        ";": 0.37,
+        ":": 7.47,
+        "—": 0.0,
+        "-": 2.99,
+        "(": 1.49,
+        ")": 1.49,
+        "\"": 0.0,
+        "!": 0.0,
+        "?": 5.6,
+        "…": 0.0
+      },
+      "conectivos_por_mil": 0.37,
+      "marcadores_contra_argumento_por_mil": 5.6,
+      "primeira_pessoa": {
+        "singular_por_mil": 8.96,
+        "plural_por_mil": 0.75
+      },
+      "perguntas_por_mil": 5.6,
+      "numeros_por_mil": 14.56,
+      "siglas_por_mil": 4.48,
+      "indicios_formula_por_mil": 0.37,
+      "voz_passiva_aproximada_por_mil": 1.12,
+      "bloco_medio_antes_de_subtitulo": {
+        "n_blocos": 9,
+        "media_palavras": 266.2
+      },
+      "genero": "substack-publicado-pipeline"
+    },
+    "estilo/corpus/publicados/comece-com-o-simples.md": {
+      "palavras": 612,
+      "frases": {
+        "total": 21,
+        "mediana": 27,
+        "p10": 16.0,
+        "p90": 38.0,
+        "desvio_padrao": 18.41
+      },
+      "paragrafos": {
+        "total": 15,
+        "media_palavras": 40.8
+      },
+      "lexico": {
+        "type_token_ratio": 0.5294,
+        "hapax_legomena": 239,
+        "hapax_por_mil": 390.52
+      },
+      "pontuacao_por_mil_palavras": {
+        ".": 40.85,
+        ",": 76.8,
+        ";": 0.0,
+        ":": 4.9,
+        "—": 0.0,
+        "-": 6.54,
+        "(": 1.63,
+        ")": 1.63,
+        "\"": 3.27,
+        "!": 0.0,
+        "?": 4.9,
+        "…": 0.0
+      },
+      "conectivos_por_mil": 3.27,
+      "marcadores_contra_argumento_por_mil": 0.0,
+      "primeira_pessoa": {
+        "singular_por_mil": 0.0,
+        "plural_por_mil": 6.54
+      },
+      "perguntas_por_mil": 4.9,
+      "numeros_por_mil": 0.0,
+      "siglas_por_mil": 0.0,
+      "indicios_formula_por_mil": 0.0,
+      "voz_passiva_aproximada_por_mil": 4.9,
+      "bloco_medio_antes_de_subtitulo": {
+        "n_blocos": 0,
+        "media_palavras": null
+      },
+      "genero": "substack-publicado-pre-pipeline"
+    },
+    "estilo/corpus/publicados/conectando-dinheiro-e-sonhos.md": {
+      "palavras": 824,
+      "frases": {
+        "total": 42,
+        "mediana": 16.0,
+        "p10": 8.0,
+        "p90": 35.7,
+        "desvio_padrao": 10.93
+      },
+      "paragrafos": {
+        "total": 31,
+        "media_palavras": 26.6
+      },
+      "lexico": {
+        "type_token_ratio": 0.4078,
+        "hapax_legomena": 220,
+        "hapax_por_mil": 266.99
+      },
+      "pontuacao_por_mil_palavras": {
+        ".": 50.97,
+        ",": 64.32,
+        ";": 0.0,
+        ":": 13.35,
+        "—": 0.0,
+        "-": 35.19,
+        "(": 2.43,
+        ")": 2.43,
+        "\"": 4.85,
+        "!": 3.64,
+        "?": 16.99,
+        "…": 0.0
+      },
+      "conectivos_por_mil": 3.64,
+      "marcadores_contra_argumento_por_mil": 6.07,
+      "primeira_pessoa": {
+        "singular_por_mil": 1.21,
+        "plural_por_mil": 1.21
+      },
+      "perguntas_por_mil": 16.99,
+      "numeros_por_mil": 15.78,
+      "siglas_por_mil": 1.21,
+      "indicios_formula_por_mil": 2.43,
+      "voz_passiva_aproximada_por_mil": 0.0,
+      "bloco_medio_antes_de_subtitulo": {
+        "n_blocos": 4,
+        "media_palavras": 202.5
+      },
+      "genero": "substack-publicado-pre-pipeline"
+    },
+    "estilo/corpus/publicados/coqueiros-e-cacaueiros.md": {
+      "palavras": 2432,
+      "frases": {
+        "total": 166,
+        "mediana": 11.0,
+        "p10": 5.0,
+        "p90": 27.5,
+        "desvio_padrao": 10.54
+      },
+      "paragrafos": {
+        "total": 84,
+        "media_palavras": 29.0
+      },
+      "lexico": {
+        "type_token_ratio": 0.3729,
+        "hapax_legomena": 596,
+        "hapax_por_mil": 245.07
+      },
+      "pontuacao_por_mil_palavras": {
+        ".": 79.77,
+        ",": 70.31,
+        ";": 0.82,
+        ":": 11.1,
+        "—": 0.0,
+        "-": 3.7,
+        "(": 4.11,
+        ")": 4.11,
+        "\"": 0.0,
+        "!": 0.0,
+        "?": 2.88,
+        "…": 0.0
+      },
+      "conectivos_por_mil": 1.23,
+      "marcadores_contra_argumento_por_mil": 4.52,
+      "primeira_pessoa": {
+        "singular_por_mil": 11.1,
+        "plural_por_mil": 0.41
+      },
+      "perguntas_por_mil": 2.88,
+      "numeros_por_mil": 7.81,
+      "siglas_por_mil": 5.76,
+      "indicios_formula_por_mil": 0.0,
+      "voz_passiva_aproximada_por_mil": 1.64,
+      "bloco_medio_antes_de_subtitulo": {
+        "n_blocos": 6,
+        "media_palavras": 334
+      },
+      "genero": "substack-publicado-pipeline"
+    },
+    "estilo/corpus/publicados/dividir-para-nao-correr-risco.md": {
+      "palavras": 2408,
+      "frases": {
+        "total": 91,
+        "mediana": 25,
+        "p10": 3.0,
+        "p90": 49.0,
+        "desvio_padrao": 18.1
+      },
+      "paragrafos": {
+        "total": 55,
+        "media_palavras": 43.8
+      },
+      "lexico": {
+        "type_token_ratio": 0.331,
+        "hapax_legomena": 490,
+        "hapax_por_mil": 203.49
+      },
+      "pontuacao_por_mil_palavras": {
+        ".": 48.59,
+        ",": 73.09,
+        ";": 1.66,
+        ":": 14.95,
+        "—": 2.08,
+        "-": 6.23,
+        "(": 17.03,
+        ")": 16.61,
+        "\"": 0.0,
+        "!": 0.0,
+        "?": 1.66,
+        "…": 0.0
+      },
+      "conectivos_por_mil": 0.42,
+      "marcadores_contra_argumento_por_mil": 3.74,
+      "primeira_pessoa": {
+        "singular_por_mil": 0.42,
+        "plural_por_mil": 0.0
+      },
+      "perguntas_por_mil": 1.66,
+      "numeros_por_mil": 36.96,
+      "siglas_por_mil": 46.93,
+      "indicios_formula_por_mil": 2.91,
+      "voz_passiva_aproximada_por_mil": 3.74,
+      "bloco_medio_antes_de_subtitulo": {
+        "n_blocos": 6,
+        "media_palavras": 337.3
+      },
+      "genero": "substack-publicado-pipeline"
+    },
+    "estilo/corpus/publicados/escolhendo-as-batalhas.md": {
+      "palavras": 566,
+      "frases": {
+        "total": 30,
+        "mediana": 15.5,
+        "p10": 10.8,
+        "p90": 35.1,
+        "desvio_padrao": 8.67
+      },
+      "paragrafos": {
+        "total": 24,
+        "media_palavras": 23.6
+      },
+      "lexico": {
+        "type_token_ratio": 0.4594,
+        "hapax_legomena": 181,
+        "hapax_por_mil": 319.79
+      },
+      "pontuacao_por_mil_palavras": {
+        ".": 58.3,
+        ",": 47.7,
+        ";": 0.0,
+        ":": 0.0,
+        "—": 0.0,
+        "-": 3.53,
+        "(": 1.77,
+        ")": 1.77,
+        "\"": 7.07,
+        "!": 1.77,
+        "?": 1.77,
+        "…": 0.0
+      },
+      "conectivos_por_mil": 7.07,
+      "marcadores_contra_argumento_por_mil": 3.53,
+      "primeira_pessoa": {
+        "singular_por_mil": 3.53,
+        "plural_por_mil": 5.3
+      },
+      "perguntas_por_mil": 1.77,
+      "numeros_por_mil": 0.0,
+      "siglas_por_mil": 1.77,
+      "indicios_formula_por_mil": 0.0,
+      "voz_passiva_aproximada_por_mil": 0.0,
+      "bloco_medio_antes_de_subtitulo": {
+        "n_blocos": 5,
+        "media_palavras": 101
+      },
+      "genero": "substack-publicado-pre-pipeline"
+    },
+    "estilo/corpus/publicados/etf-o-que-e.md": {
+      "palavras": 1110,
+      "frases": {
+        "total": 38,
+        "mediana": 25.0,
+        "p10": 9.7,
+        "p90": 46.8,
+        "desvio_padrao": 29.14
+      },
+      "paragrafos": {
+        "total": 29,
+        "media_palavras": 38.3
+      },
+      "lexico": {
+        "type_token_ratio": 0.4189,
+        "hapax_legomena": 314,
+        "hapax_por_mil": 282.88
+      },
+      "pontuacao_por_mil_palavras": {
+        ".": 54.95,
+        ",": 58.56,
+        ";": 0.0,
+        ":": 27.03,
+        "—": 0.0,
+        "-": 24.32,
+        "(": 9.01,
+        ")": 9.01,
+        "\"": 5.41,
+        "!": 0.0,
+        "?": 7.21,
+        "…": 0.0
+      },
+      "conectivos_por_mil": 2.7,
+      "marcadores_contra_argumento_por_mil": 5.41,
+      "primeira_pessoa": {
+        "singular_por_mil": 1.8,
+        "plural_por_mil": 0.0
+      },
+      "perguntas_por_mil": 7.21,
+      "numeros_por_mil": 13.51,
+      "siglas_por_mil": 13.51,
+      "indicios_formula_por_mil": 0.0,
+      "voz_passiva_aproximada_por_mil": 3.6,
+      "bloco_medio_antes_de_subtitulo": {
+        "n_blocos": 8,
+        "media_palavras": 115.8
+      },
+      "genero": "substack-publicado-pre-pipeline"
+    },
+    "estilo/corpus/publicados/eu-preciso-de-um-assessor-de-investimentos.md": {
+      "palavras": 1109,
+      "frases": {
+        "total": 49,
+        "mediana": 22,
+        "p10": 11.6,
+        "p90": 31.2,
+        "desvio_padrao": 11.59
+      },
+      "paragrafos": {
+        "total": 25,
+        "media_palavras": 44.4
+      },
+      "lexico": {
+        "type_token_ratio": 0.4283,
+        "hapax_legomena": 323,
+        "hapax_por_mil": 291.25
+      },
+      "pontuacao_por_mil_palavras": {
+        ".": 42.38,
+        ",": 62.22,
+        ";": 0.9,
+        ":": 9.92,
+        "—": 0.0,
+        "-": 3.61,
+        "(": 2.71,
+        ")": 2.71,
+        "\"": 0.0,
+        "!": 0.0,
+        "?": 13.53,
+        "…": 0.0
+      },
+      "conectivos_por_mil": 2.71,
+      "marcadores_contra_argumento_por_mil": 2.71,
+      "primeira_pessoa": {
+        "singular_por_mil": 1.8,
+        "plural_por_mil": 0.9
+      },
+      "perguntas_por_mil": 13.53,
+      "numeros_por_mil": 5.41,
+      "siglas_por_mil": 4.51,
+      "indicios_formula_por_mil": 0.0,
+      "voz_passiva_aproximada_por_mil": 2.71,
+      "bloco_medio_antes_de_subtitulo": {
+        "n_blocos": 7,
+        "media_palavras": 118.9
+      },
+      "genero": "substack-publicado-pre-pipeline"
+    },
+    "estilo/corpus/publicados/frequencia-de-capitalizacao.md": {
+      "palavras": 3033,
+      "frases": {
+        "total": 186,
+        "mediana": 13.0,
+        "p10": 4.0,
+        "p90": 32.0,
+        "desvio_padrao": 12.79
+      },
+      "paragrafos": {
+        "total": 105,
+        "media_palavras": 28.9
+      },
+      "lexico": {
+        "type_token_ratio": 0.2453,
+        "hapax_legomena": 415,
+        "hapax_por_mil": 136.83
+      },
+      "pontuacao_por_mil_palavras": {
+        ".": 64.95,
+        ",": 104.52,
+        ";": 3.96,
+        ":": 16.82,
+        "—": 1.32,
+        "-": 7.91,
+        "(": 19.45,
+        ")": 19.45,
+        "\"": 0.0,
+        "!": 0.66,
+        "?": 4.29,
+        "…": 0.66
+      },
+      "conectivos_por_mil": 0.99,
+      "marcadores_contra_argumento_por_mil": 1.32,
+      "primeira_pessoa": {
+        "singular_por_mil": 0.99,
+        "plural_por_mil": 0.66
+      },
+      "perguntas_por_mil": 4.29,
+      "numeros_por_mil": 73.85,
+      "siglas_por_mil": 10.22,
+      "indicios_formula_por_mil": 7.25,
+      "voz_passiva_aproximada_por_mil": 2.31,
+      "bloco_medio_antes_de_subtitulo": {
+        "n_blocos": 12,
+        "media_palavras": 230.8
+      },
+      "genero": "substack-publicado-pipeline"
+    },
+    "estilo/corpus/publicados/goal-based-investing.md": {
+      "palavras": 1454,
+      "frases": {
+        "total": 61,
+        "mediana": 21,
+        "p10": 8.0,
+        "p90": 46.0,
+        "desvio_padrao": 15.34
+      },
+      "paragrafos": {
+        "total": 45,
+        "media_palavras": 32.3
+      },
+      "lexico": {
+        "type_token_ratio": 0.4553,
+        "hapax_legomena": 478,
+        "hapax_por_mil": 328.75
+      },
+      "pontuacao_por_mil_palavras": {
+        ".": 43.33,
+        ",": 44.02,
+        ";": 1.38,
+        ":": 1.38,
+        "—": 4.81,
+        "-": 7.57,
+        "(": 11.0,
+        ")": 11.0,
+        "\"": 0.0,
+        "!": 0.69,
+        "?": 1.38,
+        "…": 0.69
+      },
+      "conectivos_por_mil": 0.69,
+      "marcadores_contra_argumento_por_mil": 5.5,
+      "primeira_pessoa": {
+        "singular_por_mil": 0.0,
+        "plural_por_mil": 2.06
+      },
+      "perguntas_por_mil": 1.38,
+      "numeros_por_mil": 4.13,
+      "siglas_por_mil": 9.63,
+      "indicios_formula_por_mil": 0.0,
+      "voz_passiva_aproximada_por_mil": 2.06,
+      "bloco_medio_antes_de_subtitulo": {
+        "n_blocos": 3,
+        "media_palavras": 414
+      },
+      "genero": "substack-publicado-pre-pipeline"
+    },
+    "estilo/corpus/publicados/o-agro-e-pop-o-agro-e-produto-financeiro.md": {
+      "palavras": 1905,
+      "frases": {
+        "total": 62,
+        "mediana": 23.0,
+        "p10": 6.0,
+        "p90": 65.4,
+        "desvio_padrao": 25.41
+      },
+      "paragrafos": {
+        "total": 82,
+        "media_palavras": 23.2
+      },
+      "lexico": {
+        "type_token_ratio": 0.326,
+        "hapax_legomena": 371,
+        "hapax_por_mil": 194.75
+      },
+      "pontuacao_por_mil_palavras": {
+        ".": 50.39,
+        ",": 65.09,
+        ";": 7.87,
+        ":": 18.37,
+        "—": 7.87,
+        "-": 13.12,
+        "(": 11.55,
+        ")": 11.55,
+        "\"": 0.0,
+        "!": 0.0,
+        "?": 0.52,
+        "…": 0.0
+      },
+      "conectivos_por_mil": 2.1,
+      "marcadores_contra_argumento_por_mil": 4.2,
+      "primeira_pessoa": {
+        "singular_por_mil": 0.0,
+        "plural_por_mil": 1.05
+      },
+      "perguntas_por_mil": 0.52,
+      "numeros_por_mil": 38.85,
+      "siglas_por_mil": 51.44,
+      "indicios_formula_por_mil": 7.87,
+      "voz_passiva_aproximada_por_mil": 3.67,
+      "bloco_medio_antes_de_subtitulo": {
+        "n_blocos": 12,
+        "media_palavras": 143.7
+      },
+      "genero": "substack-publicado-pipeline"
+    },
+    "estilo/corpus/publicados/o-dificil-sobre-as-dificuldades-em.md": {
+      "palavras": 1592,
+      "frases": {
+        "total": 76,
+        "mediana": 18.0,
+        "p10": 5.5,
+        "p90": 40.5,
+        "desvio_padrao": 14.94
+      },
+      "paragrafos": {
+        "total": 63,
+        "media_palavras": 25.3
+      },
+      "lexico": {
+        "type_token_ratio": 0.3976,
+        "hapax_legomena": 423,
+        "hapax_por_mil": 265.7
+      },
+      "pontuacao_por_mil_palavras": {
+        ".": 56.53,
+        ",": 57.79,
+        ";": 0.0,
+        ":": 15.08,
+        "—": 13.19,
+        "-": 3.14,
+        "(": 2.51,
+        ")": 2.51,
+        "\"": 0.0,
+        "!": 0.0,
+        "?": 0.63,
+        "…": 0.0
+      },
+      "conectivos_por_mil": 0.63,
+      "marcadores_contra_argumento_por_mil": 2.51,
+      "primeira_pessoa": {
+        "singular_por_mil": 5.03,
+        "plural_por_mil": 0.63
+      },
+      "perguntas_por_mil": 0.63,
+      "numeros_por_mil": 1.26,
+      "siglas_por_mil": 0.63,
+      "indicios_formula_por_mil": 0.0,
+      "voz_passiva_aproximada_por_mil": 3.77,
+      "bloco_medio_antes_de_subtitulo": {
+        "n_blocos": 5,
+        "media_palavras": 312.8
+      },
+      "genero": "substack-publicado-pipeline"
+    },
+    "estilo/corpus/publicados/o-mundo-invertido-das-carreiras-em.md": {
+      "palavras": 1172,
+      "frases": {
+        "total": 57,
+        "mediana": 18,
+        "p10": 6.0,
+        "p90": 38.0,
+        "desvio_padrao": 16.71
+      },
+      "paragrafos": {
+        "total": 43,
+        "media_palavras": 27.3
+      },
+      "lexico": {
+        "type_token_ratio": 0.413,
+        "hapax_legomena": 315,
+        "hapax_por_mil": 268.77
+      },
+      "pontuacao_por_mil_palavras": {
+        ".": 52.05,
+        ",": 69.97,
+        ";": 0.85,
+        ":": 13.65,
+        "—": 0.0,
+        "-": 4.27,
+        "(": 4.27,
+        ")": 4.27,
+        "\"": 0.0,
+        "!": 0.85,
+        "?": 1.71,
+        "…": 0.0
+      },
+      "conectivos_por_mil": 5.12,
+      "marcadores_contra_argumento_por_mil": 3.41,
+      "primeira_pessoa": {
+        "singular_por_mil": 17.92,
+        "plural_por_mil": 2.56
+      },
+      "perguntas_por_mil": 1.71,
+      "numeros_por_mil": 2.56,
+      "siglas_por_mil": 1.71,
+      "indicios_formula_por_mil": 0.0,
+      "voz_passiva_aproximada_por_mil": 0.0,
+      "bloco_medio_antes_de_subtitulo": {
+        "n_blocos": 6,
+        "media_palavras": 162.3
+      },
+      "genero": "substack-publicado-pipeline"
+    },
+    "estilo/corpus/publicados/o-mundo-invertido-dos-investimentos.md": {
+      "palavras": 1229,
+      "frases": {
+        "total": 38,
+        "mediana": 19.0,
+        "p10": 7.0,
+        "p90": 59.9,
+        "desvio_padrao": 35.52
+      },
+      "paragrafos": {
+        "total": 19,
+        "media_palavras": 64.7
+      },
+      "lexico": {
+        "type_token_ratio": 0.4475,
+        "hapax_legomena": 383,
+        "hapax_por_mil": 311.64
+      },
+      "pontuacao_por_mil_palavras": {
+        ".": 40.68,
+        ",": 59.4,
+        ";": 0.81,
+        ":": 17.9,
+        "—": 13.02,
+        "-": 9.76,
+        "(": 15.46,
+        ")": 15.46,
+        "\"": 0.0,
+        "!": 0.0,
+        "?": 0.0,
+        "…": 0.0
+      },
+      "conectivos_por_mil": 2.44,
+      "marcadores_contra_argumento_por_mil": 4.88,
+      "primeira_pessoa": {
+        "singular_por_mil": 2.44,
+        "plural_por_mil": 1.63
+      },
+      "perguntas_por_mil": 0.0,
+      "numeros_por_mil": 15.46,
+      "siglas_por_mil": 8.14,
+      "indicios_formula_por_mil": 0.81,
+      "voz_passiva_aproximada_por_mil": 0.0,
+      "bloco_medio_antes_de_subtitulo": {
+        "n_blocos": 4,
+        "media_palavras": 260.5
+      },
+      "genero": "substack-publicado-pipeline"
+    },
+    "estilo/corpus/publicados/o-papel-do-cdb-na-transformacao-de.md": {
+      "palavras": 1679,
+      "frases": {
+        "total": 37,
+        "mediana": 38,
+        "p10": 17.6,
+        "p90": 89.6,
+        "desvio_padrao": 30.82
+      },
+      "paragrafos": {
+        "total": 46,
+        "media_palavras": 36.5
+      },
+      "lexico": {
+        "type_token_ratio": 0.3496,
+        "hapax_legomena": 372,
+        "hapax_por_mil": 221.56
+      },
+      "pontuacao_por_mil_palavras": {
+        ".": 29.78,
+        ",": 63.13,
+        ";": 0.0,
+        ":": 16.68,
+        "—": 0.6,
+        "-": 7.15,
+        "(": 14.29,
+        ")": 14.29,
+        "\"": 0.0,
+        "!": 0.0,
+        "?": 0.6,
+        "…": 0.0
+      },
+      "conectivos_por_mil": 2.98,
+      "marcadores_contra_argumento_por_mil": 2.38,
+      "primeira_pessoa": {
+        "singular_por_mil": 0.0,
+        "plural_por_mil": 0.6
+      },
+      "perguntas_por_mil": 0.6,
+      "numeros_por_mil": 14.89,
+      "siglas_por_mil": 33.95,
+      "indicios_formula_por_mil": 0.6,
+      "voz_passiva_aproximada_por_mil": 4.76,
+      "bloco_medio_antes_de_subtitulo": {
+        "n_blocos": 7,
+        "media_palavras": 234.4
+      },
+      "genero": "substack-publicado-pipeline"
+    },
+    "estilo/corpus/publicados/o-portfolio-da-ivy-league.md": {
+      "palavras": 890,
+      "frases": {
+        "total": 48,
+        "mediana": 16.5,
+        "p10": 7.7,
+        "p90": 31.5,
+        "desvio_padrao": 9.33
+      },
+      "paragrafos": {
+        "total": 26,
+        "media_palavras": 34.2
+      },
+      "lexico": {
+        "type_token_ratio": 0.5135,
+        "hapax_legomena": 334,
+        "hapax_por_mil": 375.28
+      },
+      "pontuacao_por_mil_palavras": {
+        ".": 65.17,
+        ",": 60.67,
+        ";": 2.25,
+        ":": 21.35,
+        "—": 5.62,
+        "-": 7.87,
+        "(": 23.6,
+        ")": 23.6,
+        "\"": 0.0,
+        "!": 0.0,
+        "?": 3.37,
+        "…": 1.12
+      },
+      "conectivos_por_mil": 1.12,
+      "marcadores_contra_argumento_por_mil": 6.74,
+      "primeira_pessoa": {
+        "singular_por_mil": 3.37,
+        "plural_por_mil": 5.62
+      },
+      "perguntas_por_mil": 3.37,
+      "numeros_por_mil": 32.58,
+      "siglas_por_mil": 14.61,
+      "indicios_formula_por_mil": 0.0,
+      "voz_passiva_aproximada_por_mil": 1.12,
+      "bloco_medio_antes_de_subtitulo": {
+        "n_blocos": 4,
+        "media_palavras": 176
+      },
+      "genero": "substack-publicado-pre-pipeline"
+    },
+    "estilo/corpus/publicados/o-simples-funciona.md": {
+      "palavras": 717,
+      "frases": {
+        "total": 51,
+        "mediana": 12,
+        "p10": 3.0,
+        "p90": 28.0,
+        "desvio_padrao": 10.28
+      },
+      "paragrafos": {
+        "total": 31,
+        "media_palavras": 23.1
+      },
+      "lexico": {
+        "type_token_ratio": 0.5272,
+        "hapax_legomena": 293,
+        "hapax_por_mil": 408.65
+      },
+      "pontuacao_por_mil_palavras": {
+        ".": 62.76,
+        ",": 39.05,
+        ";": 0.0,
+        ":": 9.76,
+        "—": 4.18,
+        "-": 5.58,
+        "(": 5.58,
+        ")": 5.58,
+        "\"": 0.0,
+        "!": 0.0,
+        "?": 15.34,
+        "…": 1.39
+      },
+      "conectivos_por_mil": 0.0,
+      "marcadores_contra_argumento_por_mil": 4.18,
+      "primeira_pessoa": {
+        "singular_por_mil": 2.79,
+        "plural_por_mil": 1.39
+      },
+      "perguntas_por_mil": 15.34,
+      "numeros_por_mil": 18.13,
+      "siglas_por_mil": 2.79,
+      "indicios_formula_por_mil": 1.39,
+      "voz_passiva_aproximada_por_mil": 4.18,
+      "bloco_medio_antes_de_subtitulo": {
+        "n_blocos": 4,
+        "media_palavras": 147
+      },
+      "genero": "substack-publicado-pre-pipeline"
+    },
+    "estilo/corpus/publicados/objetivos-and-classes.md": {
+      "palavras": 1329,
+      "frases": {
+        "total": 66,
+        "mediana": 18.5,
+        "p10": 5.0,
+        "p90": 37.5,
+        "desvio_padrao": 11.83
+      },
+      "paragrafos": {
+        "total": 50,
+        "media_palavras": 26.6
+      },
+      "lexico": {
+        "type_token_ratio": 0.4454,
+        "hapax_legomena": 425,
+        "hapax_por_mil": 319.79
+      },
+      "pontuacao_por_mil_palavras": {
+        ".": 42.89,
+        ",": 47.4,
+        ";": 3.76,
+        ":": 3.76,
+        "—": 8.28,
+        "-": 8.28,
+        "(": 10.53,
+        ")": 10.53,
+        "\"": 0.0,
+        "!": 3.01,
+        "?": 8.28,
+        "…": 2.26
+      },
+      "conectivos_por_mil": 2.26,
+      "marcadores_contra_argumento_por_mil": 3.01,
+      "primeira_pessoa": {
+        "singular_por_mil": 3.76,
+        "plural_por_mil": 6.02
+      },
+      "perguntas_por_mil": 8.28,
+      "numeros_por_mil": 6.77,
+      "siglas_por_mil": 14.3,
+      "indicios_formula_por_mil": 0.0,
+      "voz_passiva_aproximada_por_mil": 0.0,
+      "bloco_medio_antes_de_subtitulo": {
+        "n_blocos": 4,
+        "media_palavras": 317.8
+      },
+      "genero": "substack-publicado-pre-pipeline"
+    },
+    "estilo/corpus/publicados/quando-os-modelos-se-rebelam.md": {
+      "palavras": 3395,
+      "frases": {
+        "total": 178,
+        "mediana": 16.0,
+        "p10": 6.0,
+        "p90": 36.3,
+        "desvio_padrao": 12.99
+      },
+      "paragrafos": {
+        "total": 89,
+        "media_palavras": 38.1
+      },
+      "lexico": {
+        "type_token_ratio": 0.3859,
+        "hapax_legomena": 911,
+        "hapax_por_mil": 268.34
+      },
+      "pontuacao_por_mil_palavras": {
+        ".": 56.85,
+        ",": 58.03,
+        ";": 5.89,
+        ":": 12.37,
+        "—": 6.48,
+        "-": 8.54,
+        "(": 8.54,
+        ")": 8.54,
+        "\"": 0.0,
+        "!": 0.0,
+        "?": 0.88,
+        "…": 0.0
+      },
+      "conectivos_por_mil": 0.0,
+      "marcadores_contra_argumento_por_mil": 2.65,
+      "primeira_pessoa": {
+        "singular_por_mil": 2.36,
+        "plural_por_mil": 0.59
+      },
+      "perguntas_por_mil": 0.88,
+      "numeros_por_mil": 25.33,
+      "siglas_por_mil": 6.77,
+      "indicios_formula_por_mil": 1.18,
+      "voz_passiva_aproximada_por_mil": 2.36,
+      "bloco_medio_antes_de_subtitulo": {
+        "n_blocos": 11,
+        "media_palavras": 283.5
+      },
+      "genero": "substack-publicado-pipeline"
+    },
+    "estilo/corpus/publicados/renda-fixa-condicoes-variaveis.md": {
+      "palavras": 4320,
+      "frases": {
+        "total": 237,
+        "mediana": 16,
+        "p10": 5.0,
+        "p90": 36.8,
+        "desvio_padrao": 13.22
+      },
+      "paragrafos": {
+        "total": 119,
+        "media_palavras": 36.3
+      },
+      "lexico": {
+        "type_token_ratio": 0.269,
+        "hapax_legomena": 668,
+        "hapax_por_mil": 154.63
+      },
+      "pontuacao_por_mil_palavras": {
+        ".": 66.9,
+        ",": 82.87,
+        ";": 1.85,
+        ":": 10.65,
+        "—": 0.0,
+        "-": 3.47,
+        "(": 14.35,
+        ")": 14.35,
+        "\"": 0.0,
+        "!": 0.0,
+        "?": 2.78,
+        "…": 0.0
+      },
+      "conectivos_por_mil": 0.93,
+      "marcadores_contra_argumento_por_mil": 0.46,
+      "primeira_pessoa": {
+        "singular_por_mil": 1.16,
+        "plural_por_mil": 0.46
+      },
+      "perguntas_por_mil": 2.78,
+      "numeros_por_mil": 36.34,
+      "siglas_por_mil": 24.31,
+      "indicios_formula_por_mil": 2.55,
+      "voz_passiva_aproximada_por_mil": 2.55,
+      "bloco_medio_antes_de_subtitulo": {
+        "n_blocos": 14,
+        "media_palavras": 272.4
+      },
+      "genero": "substack-publicado-pipeline"
+    },
+    "estilo/corpus/publicados/reservas-de-emergencia.md": {
+      "palavras": 961,
+      "frases": {
+        "total": 39,
+        "mediana": 17,
+        "p10": 6.8,
+        "p90": 45.4,
+        "desvio_padrao": 27.14
+      },
+      "paragrafos": {
+        "total": 24,
+        "media_palavras": 40.0
+      },
+      "lexico": {
+        "type_token_ratio": 0.4516,
+        "hapax_legomena": 305,
+        "hapax_por_mil": 317.38
+      },
+      "pontuacao_por_mil_palavras": {
+        ".": 54.11,
+        ",": 49.95,
+        ";": 2.08,
+        ":": 14.57,
+        "—": 0.0,
+        "-": 10.41,
+        "(": 5.2,
+        ")": 5.2,
+        "\"": 2.08,
+        "!": 3.12,
+        "?": 4.16,
+        "…": 1.04
+      },
+      "conectivos_por_mil": 3.12,
+      "marcadores_contra_argumento_por_mil": 5.2,
+      "primeira_pessoa": {
+        "singular_por_mil": 0.0,
+        "plural_por_mil": 1.04
+      },
+      "perguntas_por_mil": 4.16,
+      "numeros_por_mil": 2.08,
+      "siglas_por_mil": 1.04,
+      "indicios_formula_por_mil": 0.0,
+      "voz_passiva_aproximada_por_mil": 1.04,
+      "bloco_medio_antes_de_subtitulo": {
+        "n_blocos": 5,
+        "media_palavras": 180.2
+      },
+      "genero": "substack-publicado-pre-pipeline"
+    },
+    "estilo/corpus/publicados/samurais-e-duelos-no-mercado-financeiro.md": {
+      "palavras": 2466,
+      "frases": {
+        "total": 143,
+        "mediana": 15,
+        "p10": 5.0,
+        "p90": 28.8,
+        "desvio_padrao": 10.98
+      },
+      "paragrafos": {
+        "total": 92,
+        "media_palavras": 26.8
+      },
+      "lexico": {
+        "type_token_ratio": 0.3824,
+        "hapax_legomena": 638,
+        "hapax_por_mil": 258.72
+      },
+      "pontuacao_por_mil_palavras": {
+        ".": 64.07,
+        ",": 61.64,
+        ";": 4.06,
+        ":": 16.63,
+        "—": 4.46,
+        "-": 6.89,
+        "(": 4.06,
+        ")": 4.06,
+        "\"": 0.0,
+        "!": 0.0,
+        "?": 2.43,
+        "…": 0.0
+      },
+      "conectivos_por_mil": 0.41,
+      "marcadores_contra_argumento_por_mil": 1.22,
+      "primeira_pessoa": {
+        "singular_por_mil": 6.49,
+        "plural_por_mil": 0.81
+      },
+      "perguntas_por_mil": 2.43,
+      "numeros_por_mil": 10.54,
+      "siglas_por_mil": 2.03,
+      "indicios_formula_por_mil": 0.41,
+      "voz_passiva_aproximada_por_mil": 0.81,
+      "bloco_medio_antes_de_subtitulo": {
+        "n_blocos": 8,
+        "media_palavras": 261.9
+      },
+      "genero": "substack-publicado-pipeline"
+    },
+    "estilo/corpus/publicados/should-i-stay-or-should-i-go.md": {
+      "palavras": 2138,
+      "frases": {
+        "total": 128,
+        "mediana": 13.0,
+        "p10": 4.0,
+        "p90": 31.0,
+        "desvio_padrao": 13.18
+      },
+      "paragrafos": {
+        "total": 82,
+        "media_palavras": 26.1
+      },
+      "lexico": {
+        "type_token_ratio": 0.3789,
+        "hapax_legomena": 534,
+        "hapax_por_mil": 249.77
+      },
+      "pontuacao_por_mil_palavras": {
+        ".": 75.3,
+        ",": 71.56,
+        ";": 0.47,
+        ":": 14.5,
+        "—": 0.0,
+        "-": 8.89,
+        "(": 7.02,
+        ")": 7.02,
+        "\"": 0.0,
+        "!": 0.0,
+        "?": 3.74,
+        "…": 0.47
+      },
+      "conectivos_por_mil": 2.34,
+      "marcadores_contra_argumento_por_mil": 1.4,
+      "primeira_pessoa": {
+        "singular_por_mil": 8.42,
+        "plural_por_mil": 0.0
+      },
+      "perguntas_por_mil": 3.74,
+      "numeros_por_mil": 16.84,
+      "siglas_por_mil": 0.47,
+      "indicios_formula_por_mil": 0.0,
+      "voz_passiva_aproximada_por_mil": 1.87,
+      "bloco_medio_antes_de_subtitulo": {
+        "n_blocos": 12,
+        "media_palavras": 154.9
+      },
+      "genero": "substack-publicado-pipeline"
+    },
+    "estilo/corpus/publicados/tesouro-prefixado-o-guia-completo.md": {
+      "palavras": 1181,
+      "frases": {
+        "total": 41,
+        "mediana": 25,
+        "p10": 15.0,
+        "p90": 50.0,
+        "desvio_padrao": 19.92
+      },
+      "paragrafos": {
+        "total": 34,
+        "media_palavras": 34.7
+      },
+      "lexico": {
+        "type_token_ratio": 0.3268,
+        "hapax_legomena": 234,
+        "hapax_por_mil": 198.14
+      },
+      "pontuacao_por_mil_palavras": {
+        ".": 45.72,
+        ",": 76.21,
+        ";": 2.54,
+        ":": 5.08,
+        "—": 0.0,
+        "-": 6.77,
+        "(": 4.23,
+        ")": 4.23,
+        "\"": 0.0,
+        "!": 0.85,
+        "?": 3.39,
+        "…": 0.0
+      },
+      "conectivos_por_mil": 5.93,
+      "marcadores_contra_argumento_por_mil": 4.23,
+      "primeira_pessoa": {
+        "singular_por_mil": 0.0,
+        "plural_por_mil": 2.54
+      },
+      "perguntas_por_mil": 3.39,
+      "numeros_por_mil": 28.79,
+      "siglas_por_mil": 4.23,
+      "indicios_formula_por_mil": 4.23,
+      "voz_passiva_aproximada_por_mil": 7.62,
+      "bloco_medio_antes_de_subtitulo": {
+        "n_blocos": 10,
+        "media_palavras": 109.1
+      },
+      "genero": "substack-publicado-pre-pipeline"
+    },
+    "estilo/corpus/publicados/tesouro-selic.md": {
+      "palavras": 982,
+      "frases": {
+        "total": 33,
+        "mediana": 23,
+        "p10": 15.0,
+        "p90": 31.8,
+        "desvio_padrao": 25.32
+      },
+      "paragrafos": {
+        "total": 26,
+        "media_palavras": 37.8
+      },
+      "lexico": {
+        "type_token_ratio": 0.3523,
+        "hapax_legomena": 217,
+        "hapax_por_mil": 220.98
+      },
+      "pontuacao_por_mil_palavras": {
+        ".": 46.84,
+        ",": 70.26,
+        ";": 3.05,
+        ":": 10.18,
+        "—": 0.0,
+        "-": 14.26,
+        "(": 5.09,
+        ")": 5.09,
+        "\"": 0.0,
+        "!": 0.0,
+        "?": 3.05,
+        "…": 0.0
+      },
+      "conectivos_por_mil": 7.13,
+      "marcadores_contra_argumento_por_mil": 4.07,
+      "primeira_pessoa": {
+        "singular_por_mil": 0.0,
+        "plural_por_mil": 0.0
+      },
+      "perguntas_por_mil": 3.05,
+      "numeros_por_mil": 26.48,
+      "siglas_por_mil": 5.09,
+      "indicios_formula_por_mil": 2.04,
+      "voz_passiva_aproximada_por_mil": 5.09,
+      "bloco_medio_antes_de_subtitulo": {
+        "n_blocos": 8,
+        "media_palavras": 113.5
+      },
+      "genero": "substack-publicado-pre-pipeline"
+    },
+    "estilo/corpus/publicados/titulos-do-tesouro-nacional.md": {
+      "palavras": 907,
+      "frases": {
+        "total": 29,
+        "mediana": 26,
+        "p10": 17.0,
+        "p90": 53.0,
+        "desvio_padrao": 14.76
+      },
+      "paragrafos": {
+        "total": 24,
+        "media_palavras": 37.8
+      },
+      "lexico": {
+        "type_token_ratio": 0.3958,
+        "hapax_legomena": 231,
+        "hapax_por_mil": 254.69
+      },
+      "pontuacao_por_mil_palavras": {
+        ".": 39.69,
+        ",": 69.46,
+        ";": 0.0,
+        ":": 0.0,
+        "—": 0.0,
+        "-": 3.31,
+        "(": 2.21,
+        ")": 2.21,
+        "\"": 2.21,
+        "!": 0.0,
+        "?": 0.0,
+        "…": 0.0
+      },
+      "conectivos_por_mil": 3.31,
+      "marcadores_contra_argumento_por_mil": 0.0,
+      "primeira_pessoa": {
+        "singular_por_mil": 0.0,
+        "plural_por_mil": 1.1
+      },
+      "perguntas_por_mil": 0.0,
+      "numeros_por_mil": 0.0,
+      "siglas_por_mil": 7.72,
+      "indicios_formula_por_mil": 0.0,
+      "voz_passiva_aproximada_por_mil": 4.41,
+      "bloco_medio_antes_de_subtitulo": {
+        "n_blocos": 6,
+        "media_palavras": 92.2
+      },
+      "genero": "substack-publicado-pre-pipeline"
+    },
+    "estilo/corpus/publicados/um-objetivo-para-comecar.md": {
+      "palavras": 699,
+      "frases": {
+        "total": 23,
+        "mediana": 21,
+        "p10": 10.6,
+        "p90": 50.2,
+        "desvio_padrao": 27.84
+      },
+      "paragrafos": {
+        "total": 24,
+        "media_palavras": 29.1
+      },
+      "lexico": {
+        "type_token_ratio": 0.4592,
+        "hapax_legomena": 212,
+        "hapax_por_mil": 303.29
+      },
+      "pontuacao_por_mil_palavras": {
+        ".": 52.93,
+        ",": 55.79,
+        ";": 0.0,
+        ":": 30.04,
+        "—": 0.0,
+        "-": 25.75,
+        "(": 18.6,
+        ")": 18.6,
+        "\"": 2.86,
+        "!": 1.43,
+        "?": 0.0,
+        "…": 0.0
+      },
+      "conectivos_por_mil": 1.43,
+      "marcadores_contra_argumento_por_mil": 5.72,
+      "primeira_pessoa": {
+        "singular_por_mil": 1.43,
+        "plural_por_mil": 1.43
+      },
+      "perguntas_por_mil": 0.0,
+      "numeros_por_mil": 7.15,
+      "siglas_por_mil": 0.0,
+      "indicios_formula_por_mil": 1.43,
+      "voz_passiva_aproximada_por_mil": 0.0,
+      "bloco_medio_antes_de_subtitulo": {
+        "n_blocos": 4,
+        "media_palavras": 162.2
+      },
+      "genero": "substack-publicado-pre-pipeline"
+    },
+    "estilo/corpus/publicados/voce-esta-contando-os-dias-errado.md": {
+      "palavras": 2582,
+      "frases": {
+        "total": 143,
+        "mediana": 14,
+        "p10": 5.0,
+        "p90": 37.0,
+        "desvio_padrao": 15.49
+      },
+      "paragrafos": {
+        "total": 113,
+        "media_palavras": 22.8
+      },
+      "lexico": {
+        "type_token_ratio": 0.2943,
+        "hapax_legomena": 441,
+        "hapax_por_mil": 170.8
+      },
+      "pontuacao_por_mil_palavras": {
+        ".": 75.14,
+        ",": 83.66,
+        ";": 1.16,
+        ":": 21.69,
+        "—": 1.94,
+        "-": 29.05,
+        "(": 27.5,
+        ")": 27.5,
+        "\"": 24.01,
+        "!": 0.0,
+        "?": 7.36,
+        "…": 0.0
+      },
+      "conectivos_por_mil": 1.16,
+      "marcadores_contra_argumento_por_mil": 1.94,
+      "primeira_pessoa": {
+        "singular_por_mil": 2.32,
+        "plural_por_mil": 3.1
+      },
+      "perguntas_por_mil": 7.36,
+      "numeros_por_mil": 122.77,
+      "siglas_por_mil": 27.5,
+      "indicios_formula_por_mil": 11.23,
+      "voz_passiva_aproximada_por_mil": 3.49,
+      "bloco_medio_antes_de_subtitulo": {
+        "n_blocos": 18,
+        "media_palavras": 133.4
+      },
+      "genero": "substack-publicado-pipeline"
     }
   },
   "agregado_geral": {
-    "textos": 7,
-    "palavras_total": 17460,
-    "frase_mediana_media_ponderada": 14.1,
-    "frase_desvio_padrao_media_ponderada": 12.11,
-    "paragrafo_media_palavras_media_ponderada": 27.05,
-    "type_token_ratio_media": 0.25,
-    "conectivos_por_mil_media": 7.05,
-    "marcadores_contra_argumento_por_mil_media": 2.46,
-    "primeira_pessoa_singular_por_mil_media": 1.09,
-    "primeira_pessoa_plural_por_mil_media": 4.01,
-    "perguntas_por_mil_media": 2.98,
-    "numeros_por_mil_media": 111.74,
-    "siglas_por_mil_media": 6.93,
-    "voz_passiva_aproximada_por_mil_media": 3.84
+    "textos": 32,
+    "palavras_total": 64505,
+    "frase_mediana_media_ponderada": 16.55,
+    "frase_desvio_padrao_media_ponderada": 15.27,
+    "paragrafo_media_palavras_media_ponderada": 29.98,
+    "type_token_ratio_media": 0.32,
+    "conectivos_por_mil_media": 2.99,
+    "marcadores_contra_argumento_por_mil_media": 2.73,
+    "primeira_pessoa_singular_por_mil_media": 2.64,
+    "primeira_pessoa_plural_por_mil_media": 1.86,
+    "perguntas_por_mil_media": 3.04,
+    "numeros_por_mil_media": 53.22,
+    "siglas_por_mil_media": 13.05,
+    "voz_passiva_aproximada_por_mil_media": 2.87
   },
   "agregado_por_genero": {
     "dissertacao": {
@@ -395,6 +1914,38 @@
       "numeros_por_mil_media": 7.73,
       "siglas_por_mil_media": 8.33,
       "voz_passiva_aproximada_por_mil_media": 2.83
+    },
+    "substack-publicado-pipeline": {
+      "textos": 16,
+      "palavras_total": 38865,
+      "frase_mediana_media_ponderada": 16.56,
+      "frase_desvio_padrao_media_ponderada": 15.71,
+      "paragrafo_media_palavras_media_ponderada": 31.41,
+      "type_token_ratio_media": 0.33,
+      "conectivos_por_mil_media": 1.16,
+      "marcadores_contra_argumento_por_mil_media": 2.37,
+      "primeira_pessoa_singular_por_mil_media": 3.68,
+      "primeira_pessoa_plural_por_mil_media": 0.75,
+      "perguntas_por_mil_media": 2.75,
+      "numeros_por_mil_media": 35.33,
+      "siglas_por_mil_media": 17.29,
+      "voz_passiva_aproximada_por_mil_media": 2.5
+    },
+    "substack-publicado-pre-pipeline": {
+      "textos": 15,
+      "palavras_total": 14905,
+      "frase_mediana_media_ponderada": 21.23,
+      "frase_desvio_padrao_media_ponderada": 17.12,
+      "paragrafo_media_palavras_media_ponderada": 33.64,
+      "type_token_ratio_media": 0.43,
+      "conectivos_por_mil_media": 3.15,
+      "marcadores_contra_argumento_por_mil_media": 4.16,
+      "primeira_pessoa_singular_por_mil_media": 1.41,
+      "primeira_pessoa_plural_por_mil_media": 2.75,
+      "perguntas_por_mil_media": 5.5,
+      "numeros_por_mil_media": 10.8,
+      "siglas_por_mil_media": 7.04,
+      "voz_passiva_aproximada_por_mil_media": 2.68
     }
   }
 }
