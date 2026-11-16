@@ -21,6 +21,9 @@ corrige o pipeline.
 - **Antes de escrever (etapa 4) ou reescrever:** `estilo/estilo-autoral.md` inteiro; decida a voz.
 - **Na revisão (etapas 6 e 9):** `references/antipadroes.md` — o que o autor corta no site, com o
   par real (pipeline → autor) e o conserto.
+- **Antes de escrever (etapa 4) e de revisar (etapas 6 e 9):** `estilo/preferencias-de-edicao.md`
+  — o que o autor desfaz e acrescenta no site, medido post a post (gerado; dado, não regra).
+  Escreva e revise já no rumo em que ele vai editar.
 - **Em dúvida sobre como aplicar uma regra:** `references/exemplos-pareados.md` — um par ✅/❌ por
   regra, tirado do texto publicado.
 - **Autores admirados (Michael Lewis, Hemingway, Gladwell):** §5 do guia. Só o movimento, nunca a

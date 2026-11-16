@@ -70,5 +70,22 @@ class Triplas(unittest.TestCase):
         self.assertEqual(sorted(classes(r)), ["imagem", "tabela"])  # fórmula igual a menos de espaço
 
 
+class Preferencias(unittest.TestCase):
+    def test_agrupa_conta_por_linha_e_ignora_layout(self):
+        op = lambda classe, natureza="estilo", sinais=(), antes="x", origem="rascunho": {  # noqa: E731
+            "classe": classe, "natureza": natureza, "sinais": list(sinais), "antes": antes, "depois": "",
+            "palavras_antes": 3, "palavras_depois": 0, "origem_antes": origem, "contexto": "a [[…]] b"}
+        eds = [{"slug_repo": "p1", "linha_editorial": "Spoiler",
+                "operacoes": [op("divisao_paragrafo"), op("remocao", sinais=["reversao"]), op("imagem", "layout-substack")]},
+               {"slug_repo": "p2", "linha_editorial": "Notas de um Professor",
+                "operacoes": [op("divisao_paragrafo"), op("remocao", "conteúdo/fato", origem="pipeline")]}]
+        linhas = {x["preferencia"]: x for x in D.linhas_preferencias(eds)}
+        self.assertEqual(set(linhas), {"Divide parágrafo", "Corta trecho",
+                                       "Corta dado ou trecho de conteúdo que o pipeline trouxe"})
+        self.assertEqual((linhas["Divide parágrafo"]["vezes"], linhas["Divide parágrafo"]["spoiler"],
+                          linhas["Divide parágrafo"]["notas"]), (2, 1, 1))
+        self.assertEqual(linhas["Corta trecho"]["desfaz_pipeline"], 1)
+
+
 if __name__ == "__main__":
     unittest.main()

@@ -3,6 +3,7 @@
 
   python3 scripts/diff_edicoes.py            # todos os posts com slug_repo no mapa
   python3 scripts/diff_edicoes.py <slug-repo>
+  python3 scripts/diff_edicoes.py preferencias   # gera estilo/preferencias-de-edicao.md das triplas
 
 Lê estilo/corpus/mapa-publicados.json (gerado por corpus_publicado.py) e grava
 estilo/corpus/edicoes/<slug-repo>.json + estilo/corpus/edicoes/_resumo.json.
@@ -529,5 +530,102 @@ def main(alvo=None):
         (SAIDA / "_resumo.json").write_text(json.dumps(resumo, ensure_ascii=False, indent=1) + "\n")
 
 
+# ---------------------------------------------------------------- registro de preferências (P7)
+
+PREFERENCIAS = RAIZ / "estilo" / "preferencias-de-edicao.md"
+
+
+def _rotulo(op):
+    """O que o autor fez, em linguagem de editor; None = não é preferência de estilo."""
+    c, n = op["classe"], op["natureza"]
+    if c == "remocao" and n == "conteúdo/fato" and op["origem_antes"] in ("pipeline", "misto"):
+        return "Corta dado ou trecho de conteúdo que o pipeline trouxe"
+    if n != "estilo":
+        return None
+    if c == "pontuacao":
+        return {"—": "Tira ou troca travessão", "'": "Tira aspas simples"}.get(op["antes"], "Muda outra pontuação")
+    return {"divisao_paragrafo": "Divide parágrafo", "fusao_paragrafo": "Junta parágrafos",
+            "negrito_adicionado": "Acrescenta negrito", "negrito_removido": "Tira negrito",
+            "italico_adicionado": "Acrescenta itálico", "italico_removido": "Tira itálico",
+            "substituicao": "Troca palavra ou trecho", "remocao": "Corta trecho",
+            "insercao": "Acrescenta trecho", "subtitulo_h2": "Reescreve subtítulo (H2)",
+            "titulo_post": "Reescreve título", "subtitulo_post": "Reescreve subtítulo do post"}.get(c)
+
+
+def linhas_preferencias(edicoes):
+    """edicoes: lista de JSONs de estilo/corpus/edicoes/. Uma linha por preferência, com
+    contagem, posts, divisão por linha editorial, fração que desfaz o pipeline e 2 exemplos."""
+    grupos = {}
+    for ed in edicoes:
+        linha = "Spoiler" if (ed.get("linha_editorial") or "").startswith("Spoiler") else "Notas"
+        for op in ed["operacoes"]:
+            r = _rotulo(op)
+            if r:
+                grupos.setdefault(r, []).append((ed["slug_repo"], linha, op))
+    linhas = []
+    for r, itens in grupos.items():
+        revs = [x for x in itens if "reversao" in x[2]["sinais"]]
+        exemplos, vistos = [], set()
+        def tamanho(x):  # exemplo legível primeiro: entre 2 e 25 palavras, depois o resto
+            op = x[2]
+            n = op["palavras_antes"] + op["palavras_depois"]
+            return (not 2 <= n <= 25 and op["classe"] in ("substituicao", "remocao", "insercao"), n)
+        for slug, _, op in sorted(revs or itens, key=tamanho):
+            if slug not in vistos and (op["antes"] or op["depois"]):
+                exemplos.append((slug, op))
+                vistos.add(slug)
+            if len(exemplos) == 2:
+                break
+        linhas.append({"preferencia": r, "vezes": len(itens), "posts": len({x[0] for x in itens}),
+                       "spoiler": sum(x[1] == "Spoiler" for x in itens), "notas": sum(x[1] == "Notas" for x in itens),
+                       "desfaz_pipeline": len(revs), "exemplos": exemplos})
+    return sorted(linhas, key=lambda x: -x["vezes"])
+
+
+def escrever_preferencias():
+    import datetime as dt
+    eds = [json.loads(f.read_text()) for f in sorted(SAIDA.glob("2026-*.json"))]
+    linhas = linhas_preferencias(eds)
+    out = [
+        "# Preferências de edição do autor",
+        "",
+        f"Gerado por `python3 scripts/diff_edicoes.py preferencias` em {dt.date.today().isoformat()}, "
+        f"a partir de {len(eds)} posts (`estilo/corpus/edicoes/`). Não editar à mão: a colheita "
+        "(`/forja-de-voz colher`) regera este arquivo a cada post publicado.",
+        "",
+        "É **dado medido, não regra**: o que o autor mudou entre o `post.md` aprovado e o texto que",
+        "publicou. Regra só nasce daqui pela forja (`estilo/estilo-autoral.md`). Use para escrever",
+        "(etapa 4) e revisar (etapas 6 e 9) já no rumo em que o autor vai editar. Edições de",
+        "tipografia, imagem, CTA e link ficam de fora (são do Substack ou de marketing). A coluna",
+        "\"Desfaz texto do pipeline\" só é medida em edição de palavra; para pontuação e ênfase, ver a",
+        "origem por etapa em `pesquisa/epico-revisao-editorial/dados/b1-atribuicao.json`.",
+        "",
+        "| O que o autor faz no site | Vezes | Posts | Spoiler | Notas | Desfaz texto do pipeline |",
+        "|---|---|---|---|---|---|",
+    ]
+    out += [f"| {x['preferencia']} | {x['vezes']} | {x['posts']} | {x['spoiler']} | {x['notas']} | "
+            f"{x['desfaz_pipeline']} |" for x in linhas]
+    out += ["", "## Exemplos", ""]
+    for x in linhas:
+        out.append(f"### {x['preferencia']}")
+        for slug, op in x["exemplos"]:
+            antes = (op["antes"] or "∅")[:160].replace("\n", " ")
+            depois = (op["depois"] or "∅")[:160].replace("\n", " ")
+            if op["classe"] in ("divisao_paragrafo", "fusao_paragrafo"):
+                out.append(f"- `{slug}`: «{antes}» ¶ «{depois}»")
+            elif op["classe"].endswith(("_adicionado", "_removido")):
+                out.append(f"- `{slug}`: «{op['antes'] or op['depois']}» em «…{op['contexto'][:150]}…»")
+            elif op["contexto"]:
+                out.append(f"- `{slug}`: «{antes}» → «{depois}», em «…{op['contexto'][:160]}…»")
+            else:
+                out.append(f"- `{slug}`: «{antes}» → «{depois}»")
+        out.append("")
+    PREFERENCIAS.write_text("\n".join(out).rstrip() + "\n")
+    print(f"preferencias: {len(linhas)} tipos de edição -> {PREFERENCIAS.relative_to(RAIZ)}")
+
+
 if __name__ == "__main__":
-    main(sys.argv[1] if len(sys.argv) > 1 else None)
+    if len(sys.argv) > 1 and sys.argv[1] == "preferencias":
+        escrever_preferencias()
+    else:
+        main(sys.argv[1] if len(sys.argv) > 1 else None)
