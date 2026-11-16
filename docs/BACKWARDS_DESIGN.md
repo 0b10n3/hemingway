@@ -82,6 +82,10 @@ condição de uso se verifica. Os movimentos 4 e 5 se invertem sem prejuízo, co
 | **9** | **A Síntese + Ponte** | Retomar a tese sem jargão, generalizar lateralmente (o produto-irmão), apontar o próximo post, convidar ao compartilhamento. | Se o leitor esquecer tudo, que frase sobra? E para onde ele vai agora? | [núcleo] | 3–6 linhas |
 | **10** | **Para Continuar Aprendendo** | Bibliografia **anotada**: cada item com a razão de estar ali. | Onde está a fonte primária, e para que serve cada uma? | [núcleo] | 4–6 itens (ver regra de referências, §5.7) |
 
+O nome de cada movimento ("A Abertura", "O Fechamento do Loop") é instrução de forma, não
+título: nunca vira rótulo de H2. O H2 da seção é a frase-tese dela (`estilo/estilo-autoral.md`,
+regra 5). O autor tirou "Fechamento:" de três H2 publicados.
+
 ### Quando usar os opcionais
 
 | Bloco | Use quando | Pule quando |

@@ -1,0 +1,283 @@
+{
+ "audience": "everyone",
+ "audience_before_archived": null,
+ "canonical_url": "https://syntaxis.substack.com/p/um-objetivo-para-comecar",
+ "default_comment_sort": null,
+ "editor_v2": false,
+ "exempt_from_archive_paywall": false,
+ "free_unlock_required": false,
+ "id": 149128664,
+ "podcast_art_url": null,
+ "podcast_duration": null,
+ "podcast_preview_upload_id": null,
+ "podcast_upload_id": null,
+ "podcast_url": null,
+ "post_date": "2024-09-20T01:05:05.151Z",
+ "updated_at": "2024-09-20T01:12:33.064Z",
+ "publication_id": 2968718,
+ "search_engine_description": null,
+ "search_engine_title": null,
+ "section_id": null,
+ "should_send_free_preview": false,
+ "show_guest_bios": true,
+ "slug": "um-objetivo-para-comecar",
+ "social_title": null,
+ "subtitle": "Se você ainda não começou",
+ "teaser_post_eligible": true,
+ "title": "Um Objetivo para Começar",
+ "type": "newsletter",
+ "video_upload_id": null,
+ "write_comment_permissions": "everyone",
+ "meter_type": "none",
+ "live_stream_id": null,
+ "is_published": true,
+ "restacks": 1,
+ "reactions": {
+  "❤": 4
+ },
+ "top_exclusions": [],
+ "pins": [],
+ "section_pins": [],
+ "has_shareable_clips": false,
+ "previous_post_slug": "escolhendo-as-batalhas",
+ "next_post_slug": "reservas-de-emergencia",
+ "cover_image": "https://substackcdn.com/image/fetch/$s_!uI73!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F62709c82-faa2-4f2d-af03-315cc831b390_5696x3392.jpeg",
+ "cover_image_is_square": false,
+ "cover_image_is_explicit": false,
+ "videoUpload": null,
+ "podcastFields": {
+  "post_id": 149128664,
+  "podcast_episode_number": null,
+  "podcast_season_number": null,
+  "podcast_episode_type": null,
+  "should_syndicate_to_other_feed": null,
+  "syndicate_to_section_id": null,
+  "hide_from_feed": false,
+  "free_podcast_url": null,
+  "free_podcast_duration": null,
+  "preview_contains_ad": false,
+  "was_imported_self_serve_sync": false,
+  "draft_free_podcast_url": null,
+  "draft_free_podcast_duration": null
+ },
+ "podcastUpload": null,
+ "podcastPreviewUpload": null,
+ "voiceover_upload_id": null,
+ "voiceoverUpload": null,
+ "has_voiceover": false,
+ "description": "Se você ainda não começou",
+ "body_html": "<div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!uI73!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F62709c82-faa2-4f2d-af03-315cc831b390_5696x3392.jpeg\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!uI73!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F62709c82-faa2-4f2d-af03-315cc831b390_5696x3392.jpeg 424w, https://substackcdn.com/image/fetch/$s_!uI73!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F62709c82-faa2-4f2d-af03-315cc831b390_5696x3392.jpeg 848w, https://substackcdn.com/image/fetch/$s_!uI73!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F62709c82-faa2-4f2d-af03-315cc831b390_5696x3392.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!uI73!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F62709c82-faa2-4f2d-af03-315cc831b390_5696x3392.jpeg 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!uI73!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F62709c82-faa2-4f2d-af03-315cc831b390_5696x3392.jpeg\" width=\"1456\" height=\"867\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/62709c82-faa2-4f2d-af03-315cc831b390_5696x3392.jpeg&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:867,&quot;width&quot;:1456,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:9177045,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/jpeg&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:false,&quot;topImage&quot;:true,&quot;internalRedirect&quot;:null,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!uI73!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F62709c82-faa2-4f2d-af03-315cc831b390_5696x3392.jpeg 424w, https://substackcdn.com/image/fetch/$s_!uI73!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F62709c82-faa2-4f2d-af03-315cc831b390_5696x3392.jpeg 848w, https://substackcdn.com/image/fetch/$s_!uI73!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F62709c82-faa2-4f2d-af03-315cc831b390_5696x3392.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!uI73!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F62709c82-faa2-4f2d-af03-315cc831b390_5696x3392.jpeg 1456w\" sizes=\"100vw\" fetchpriority=\"high\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><div class=\"pullquote\"><p><strong>\"Você deve ganhar controle sobre seu dinheiro ou a falta dele o controlará para sempre.\"</strong> </p><p>Dave Ramsey</p></div><p>Se você já quitou suas dívidas e possui algum dinheiro guardado ou investido, parabéns! Você já alcançou o primeiro objetivo financeiro que eu recomendaria a qualquer pessoa: ter suas finanças pessoais sob controle.</p><h2>Um Lugar Para Começar</h2><p>Agora, se ainda está enfrentando problemas com dívidas fora de controle, como contas em atraso ou parcelamentos no cartão de crédito, o foco principal deve ser resolver isso. Colocar as finanças em ordem é uma prioridade que vem antes de viagens, compras e até mesmo de poupar para a aposentadoria.</p><p>Existem muitos recursos sobre como lidar com dívidas, mas hoje vou recomendar dois que considero essenciais. Eles podem te ajudar a iniciar essa jornada de forma prática e confiável.</p><ol><li><p>Canal do Gustavo Cerbasi  </p><p>Cerbasi é um renomado especialista em finanças pessoais, conhecido por suas estratégias simples e eficientes para alcançar a liberdade financeira. Seus vídeos no YouTube abordam desde organização do orçamento até a construção de patrimônio, com dicas valiosas para sair das dívidas.</p><p><a href=\"https://www.youtube.com/@GustavocerbasiBr\">Assista ao canal do Gustavo Cerbasi</a></p></li><li><p>Canal do Primo Pobre (Eduardo Feldberg)</p><p>Com uma linguagem acessível, Eduardo Feldberg conquistou grande popularidade ao compartilhar estratégias para melhorar a saúde financeira, focando principalmente na gestão de dívidas. Seus vídeos são diretos e fáceis de entender, ideais para quem busca reorganizar as finanças.</p><p><a href=\"https://www.youtube.com/c/PrimoPobre\">Confira o canal do Primo Pobre </a></p></li></ol><p>Agora, além dessas excelentes recomendações, quero compartilhar uma visão simples sobre o conceito de dívidas, inspirado nas finanças corporativas.</p><h2>Dívidas: Aprendendo com as Finanças Corporativas</h2><p>Um ponto fundamental sobre dívidas pode ser compreendido ao analisarmos a <strong>Equação Fundamental da Contabilidade</strong>:</p><div class=\"latex-rendered\" data-attrs=\"{&quot;persistentExpression&quot;:&quot;Ativo = Passivo + Patrimônio \\\\ Líquido&quot;,&quot;id&quot;:&quot;TCRBKDCKFA&quot;}\" data-component-name=\"LatexBlockToDOM\"></div><p></p><p>Essa equação é simples, mas poderosa, e podemos adaptá-la para as finanças pessoais da seguinte forma:</p><ol><li><p><strong>Ativo:</strong> Tudo o que você possui e que tem valor econômico, como:</p><p>   - Dinheiro em contas bancárias</p><p>   - Investimentos (ações, títulos, etc.)</p><p>   - Bens móveis (carro, eletrônicos)</p><p>   - Bens imóveis (casa, apartamento)</p></li><li><p><strong>Passivo:</strong> Suas dívidas e obrigações financeiras, como:</p><p>   - Empréstimos (pessoais, imobiliários)</p><p>   - Saldo devedor do cartão de crédito</p><p>   - Contas a pagar </p></li><li><p><strong>Patrimônio Líquido:</strong> A diferença entre o que você possui (Ativo) e o que deve (Passivo). Ele representa sua <em>\"riqueza pessoal\"</em>.</p></li></ol><p>Ter um <strong>Patrimônio Líquido positivo e crescente</strong> é o que indica que você está construindo riqueza ao longo do tempo. E para aumentar esse patrimônio, podemos aprender com as Decisões de Financiamento das empresas.</p><h2>Decisões de Financiamento e Suas Finanças</h2><p>As decisões de financiamento envolvem escolher como financiar suas metas financeiras, seja usando seus recursos próprios ou tomando crédito. Vamos a alguns exemplos:</p><ul><li><p>Financiamento com recursos próprios: Imagine que você guardou dinheiro para comprar um novo notebook. Nesse caso, você troca um ativo líquido (dinheiro) por outro ativo (o notebook), sem alterar seu passivo ou patrimônio líquido.</p></li><li><p>Financiamento com crédito: Agora, se você decide comprar o notebook com cartão de crédito, você adquire um ativo (o notebook), mas também aumenta seu passivo (a dívida). Isso exige planejamento para evitar que o passivo cresça descontroladamente.</p></li></ul><p>Em termos simples, toda vez que você adquire um ativo financiado por uma dívida, deve considerar se o benefício futuro vale o custo do financiamento e como isso impacta seu controle financeiro.</p><p>Aqui estão algumas escolhas comuns:</p><ul><li><p>Usar economias ou tomar empréstimo: Decidir entre usar seu dinheiro guardado ou financiar uma compra. Usar economias reduz o ativo, enquanto financiar aumenta o passivo.</p></li><li><p>Escolher o tipo de financiamento: Optar por financiamento imobiliário ou alugar, usar cartão de crédito ou cheque especial para uma despesa inesperada, cada escolha impacta a equação de maneira diferente.</p></li></ul><p>Por exemplo:</p><ul><li><p>Um empréstimo para comprar um carro aumenta tanto o ativo (carro) quanto o passivo (dívida).</p></li><li><p>Usar economias para quitar dívidas reduz o passivo e o ativo, mas pode aumentar seu patrimônio líquido ao economizar nos juros.</p></li></ul><h2>Conclusão</h2><p>Ao tomar decisões de financiamento, leve em consideração fatores como:</p><ul><li><p><strong>Custo do capital:</strong> Juros e taxas.</p></li><li><p><strong>Impacto no fluxo de caixa pessoal:</strong> Sua capacidade de pagar a dívida sem comprometer o orçamento.</p></li><li><p><strong>Riscos associados:</strong> Como o risco de inadimplência.</p></li><li><p><strong>Potencial de retorno:</strong> No caso de financiamentos que possam gerar retorno, como investimentos.</p></li></ul><p>Entender como essas decisões impactam sua equação financeira pode te ajudar a equilibrar suas finanças e construir uma base sólida para o futuro. Quanto mais claro for o impacto das suas escolhas, melhor será seu controle financeiro.</p><div><hr></div><div class=\"captioned-button-wrap\" data-attrs=\"{&quot;url&quot;:&quot;https://syntaxis.substack.com/p/um-objetivo-para-comecar?utm_source=substack&utm_medium=email&utm_content=share&action=share&quot;,&quot;text&quot;:&quot;Compartilhar&quot;}\" data-component-name=\"CaptionedButtonToDOM\"><div class=\"preamble\"><p class=\"cta-caption\">Obrigado por ler o Syntaxis! Esta publicação é pública, então fique à vontade para  compartilhá-la.</p></div><p class=\"button-wrapper\" data-attrs=\"{&quot;url&quot;:&quot;https://syntaxis.substack.com/p/um-objetivo-para-comecar?utm_source=substack&utm_medium=email&utm_content=share&action=share&quot;,&quot;text&quot;:&quot;Compartilhar&quot;}\" data-component-name=\"ButtonCreateButton\"><a class=\"button primary\" href=\"https://syntaxis.substack.com/p/um-objetivo-para-comecar?utm_source=substack&utm_medium=email&utm_content=share&action=share\"><span>Compartilhar</span></a></p></div><p></p>",
+ "has_dynamic_content": false,
+ "truncated_body_text": "\"Você deve ganhar controle sobre seu dinheiro ou a falta dele o controlará para sempre.\"",
+ "wordcount": 728,
+ "post_preview_limit": null,
+ "language": "pt",
+ "postTags": [
+  {
+   "id": "2559e340-eeee-45d7-a684-798b66754be0",
+   "publication_id": 2968718,
+   "name": "Tecnologia",
+   "slug": "tecnologia",
+   "hidden": false
+  },
+  {
+   "id": "32913b8f-3dce-4ff9-bfea-17dc0715a87d",
+   "publication_id": 2968718,
+   "name": "Investimentos",
+   "slug": "investimentos",
+   "hidden": false
+  },
+  {
+   "id": "b53ab524-9da7-4f72-809b-a0d91634f563",
+   "publication_id": 2968718,
+   "name": "Finanças",
+   "slug": "financas",
+   "hidden": false
+  },
+  {
+   "id": "e2861bd5-de9b-4309-ba78-f803724819b4",
+   "publication_id": 2968718,
+   "name": "Planejamento",
+   "slug": "planejamento",
+   "hidden": false
+  },
+  {
+   "id": "f05c03ed-e4d9-4cfc-af8b-0199ab0cf1c2",
+   "publication_id": 2968718,
+   "name": "Wealth Management",
+   "slug": "wealth-management",
+   "hidden": false
+  }
+ ],
+ "postCountryBlocks": [],
+ "disable_drop_cap": false,
+ "cover_image_crop": null,
+ "headlineTest": null,
+ "coverImagePalette": {
+  "Vibrant": {
+   "rgb": [
+    192,
+    122,
+    80
+   ],
+   "population": 199
+  },
+  "DarkVibrant": {
+   "rgb": [
+    103,
+    60,
+    34
+   ],
+   "population": 388
+  },
+  "LightVibrant": {
+   "rgb": [
+    242,
+    208,
+    179
+   ],
+   "population": 17
+  },
+  "Muted": {
+   "rgb": [
+    75,
+    128,
+    169
+   ],
+   "population": 232
+  },
+  "DarkMuted": {
+   "rgb": [
+    80,
+    55,
+    38
+   ],
+   "population": 176
+  },
+  "LightMuted": {
+   "rgb": [
+    185,
+    190,
+    204
+   ],
+   "population": 469
+  }
+ },
+ "publishedBylines": [
+  {
+   "id": 136725718,
+   "name": "Silvano Junior",
+   "handle": "saapjr",
+   "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/4d24c48d-d4f2-406d-ab80-902631955776_640x640.jpeg",
+   "bio": "Capixaba Matemático (MsC) Cientista de Dados e Analista Quantitativo",
+   "profile_set_up_at": "2023-03-28T04:01:23.570Z",
+   "reader_installed_at": "2023-03-28T04:05:16.777Z",
+   "publicationUsers": [
+    {
+     "id": 3019355,
+     "user_id": 136725718,
+     "publication_id": 2968718,
+     "role": "admin",
+     "public": true,
+     "is_primary": true,
+     "publication": {
+      "id": 2968718,
+      "name": "Syntaxis",
+      "subdomain": "syntaxis",
+      "custom_domain": null,
+      "custom_domain_optional": false,
+      "hero_text": "A Syntaxis te ajuda a desenvolver as skills que hoje separam quem estagia de quem é efetivado, e quem é efetivado de quem vira referência.",
+      "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/f1431d70-c6a3-4eb3-9219-23ab9997436b_320x320.png",
+      "author_id": 136725718,
+      "primary_user_id": 136725718,
+      "theme_var_background_pop": "#FF6719",
+      "created_at": "2024-09-03T01:29:04.169Z",
+      "email_from_name": "SYNTAXIS",
+      "copyright": "Silvano Junior",
+      "founding_plan_name": "Membro Fundador",
+      "community_enabled": true,
+      "invite_only": false,
+      "payments_state": "enabled",
+      "language": "pt-br",
+      "explicit": false,
+      "homepage_type": "newspaper",
+      "is_personal_mode": false,
+      "logo_url_wide": null
+     }
+    }
+   ],
+   "is_guest": false,
+   "bestseller_tier": null,
+   "status": {
+    "bestsellerTier": null,
+    "subscriberTier": null,
+    "leaderboard": null,
+    "vip": false,
+    "badge": null,
+    "subscriber": null
+   }
+  }
+ ],
+ "reaction": null,
+ "reaction_count": 4,
+ "comment_count": 0,
+ "child_comment_count": 0,
+ "vg_wort_pixel_url": null,
+ "is_geoblocked": false,
+ "sponsorshipEditionBanner": null,
+ "is_editor_preview": false,
+ "hasCashtag": false,
+ "unlockedWithIP": false,
+ "unlockedWithCampaign": false,
+ "themeVariables": {
+  "color_theme_bg_pop": "#1B6A45",
+  "background_pop": "#1B6A45",
+  "color_theme_bg_web": "#F7F7F5",
+  "cover_bg_color": "#F7F7F5",
+  "cover_bg_color_secondary": "#e8e8e6",
+  "background_pop_darken": "#165638",
+  "print_on_pop": "#ffffff",
+  "color_theme_bg_pop_darken": "#165638",
+  "color_theme_print_on_pop": "#ffffff",
+  "color_theme_bg_pop_20": "rgba(27, 106, 69, 0.2)",
+  "color_theme_bg_pop_30": "rgba(27, 106, 69, 0.3)",
+  "print_pop": "#1b6a45",
+  "color_theme_accent": "#1b6a45",
+  "cover_print_primary": "#363737",
+  "cover_print_secondary": "#757575",
+  "cover_print_tertiary": "#b6b6b6",
+  "cover_border_color": "#1b6a45",
+  "font_family_body_preset": "'SF Pro Display', -apple-system, system-ui, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+  "font_weight_body_preset": 400,
+  "font_preset_body": "sans",
+  "home_hero": "feature-media",
+  "home_posts": "grid",
+  "home_show_top_posts": true,
+  "web_bg_color": "#F7F7F5",
+  "background_contrast_1": "#e8e8e6",
+  "background_contrast_2": "#d6d6d4",
+  "background_contrast_3": "#b1b1b0",
+  "background_contrast_4": "#8e8e8d",
+  "background_contrast_5": "#4e4e4d",
+  "color_theme_bg_contrast_1": "#e8e8e6",
+  "color_theme_bg_contrast_2": "#d6d6d4",
+  "color_theme_bg_contrast_3": "#b1b1b0",
+  "color_theme_bg_contrast_4": "#8e8e8d",
+  "color_theme_bg_contrast_5": "#4e4e4d",
+  "color_theme_bg_elevated": "#f7f7f5",
+  "color_theme_bg_elevated_secondary": "#e8e8e6",
+  "color_theme_bg_elevated_tertiary": "#d6d6d4",
+  "color_theme_detail": "#dededd",
+  "background_contrast_pop": "rgba(27, 106, 69, 0.4)",
+  "color_theme_bg_contrast_pop": "rgba(27, 106, 69, 0.4)",
+  "theme_bg_is_dark": "0",
+  "print_on_web_bg_color": "#363737",
+  "print_secondary_on_web_bg_color": "#838483",
+  "background_pop_rgb": "27, 106, 69",
+  "color_theme_bg_pop_rgb": "27, 106, 69",
+  "color_theme_accent_rgb": "27, 106, 69"
+ },
+ "oneOffUnlockOffer": {
+  "eligible": false
+ }
+}

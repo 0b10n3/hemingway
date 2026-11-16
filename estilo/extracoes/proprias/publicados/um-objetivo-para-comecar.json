@@ -1,0 +1,515 @@
+{
+  "arquivo": "estilo/corpus/publicados/um-objetivo-para-comecar.md",
+  "genero": "substack",
+  "palavras": 732,
+  "eixos": {
+    "lexico": [
+      {
+        "traco": "Campo semântico de finanças pessoais cruzado com vocabulário contábil e de finanças corporativas (ativo, passivo, patrimônio líquido, financiamento, custo do capital, fluxo de caixa, inadimplência).",
+        "frequencia": "frequente",
+        "ocorrencias": 45,
+        "evidencias": [
+          "Um empréstimo para comprar um carro aumenta tanto o ativo (carro) quanto o passivo (dívida).",
+          "**Impacto no fluxo de caixa pessoal:** Sua capacidade de pagar a dívida sem comprometer o orçamento."
+        ]
+      },
+      {
+        "traco": "Termo técnico glosado em português corrente na primeira aparição, por definição após dois-pontos ou por exemplo entre parênteses.",
+        "frequencia": "sempre",
+        "ocorrencias": 9,
+        "evidencias": [
+          "**Ativo:** Tudo o que você possui e que tem valor econômico",
+          "**Custo do capital:** Juros e taxas.",
+          "você troca um ativo líquido (dinheiro) por outro ativo (o notebook)"
+        ],
+        "contraexemplo": "inspirado nas finanças corporativas"
+      },
+      {
+        "traco": "Palavra recorrente \"simples\" para qualificar a própria explicação ou a fonte recomendada.",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "quero compartilhar uma visão simples sobre o conceito de dívidas",
+          "Essa equação é simples, mas poderosa",
+          "Em termos simples, toda vez que você adquire um ativo"
+        ]
+      },
+      {
+        "traco": "\"Controle\" como palavra-tema, ancorada na epígrafe e retomada da abertura ao fecho (controle, fora de controle, descontroladamente).",
+        "frequencia": "frequente",
+        "ocorrencias": 7,
+        "evidencias": [
+          "ter suas finanças pessoais sob controle.",
+          "problemas com dívidas fora de controle",
+          "melhor será seu controle financeiro."
+        ]
+      },
+      {
+        "traco": "Adjetivação valorativa genérica para fontes e conselhos recomendados.",
+        "frequencia": "frequente",
+        "ocorrencias": 7,
+        "evidencias": [
+          "Cerbasi é um renomado especialista em finanças pessoais",
+          "com dicas valiosas para sair das dívidas",
+          "além dessas excelentes recomendações"
+        ]
+      },
+      {
+        "traco": "Registro neutro e cordial com \"você\", admitindo o clítico coloquial \"te\" junto ao tratamento em terceira pessoa.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Eles podem te ajudar a iniciar essa jornada",
+          "pode te ajudar a equilibrar suas finanças"
+        ],
+        "contraexemplo": "Um ponto fundamental sobre dívidas pode ser compreendido ao analisarmos"
+      },
+      {
+        "traco": "Capitaliza o termo técnico quando o apresenta como conceito (Ativo, Patrimônio Líquido, Decisões de Financiamento) e volta à minúscula no uso corrente.",
+        "frequencia": "ocasional",
+        "ocorrencias": 5,
+        "evidencias": [
+          "podemos aprender com as Decisões de Financiamento das empresas.",
+          "**Patrimônio Líquido:** A diferença entre o que você possui (Ativo) e o que deve (Passivo)."
+        ],
+        "contraexemplo": "As decisões de financiamento envolvem escolher como financiar suas metas financeiras"
+      },
+      {
+        "traco": "Nenhum anglicismo fora de nome próprio (YouTube); termos financeiros sempre na forma portuguesa.",
+        "frequencia": "evita",
+        "ocorrencias": 0,
+        "evidencias": [
+          "Seus vídeos no YouTube abordam desde organização do orçamento",
+          "**Custo do capital:** Juros e taxas."
+        ]
+      }
+    ],
+    "sintaxe": [
+      {
+        "traco": "Frases de comprimento médio e uniforme (cerca de 15 a 30 palavras), com predomínio de subordinação; sem frase curta isolada para ênfase.",
+        "frequencia": "frequente",
+        "ocorrencias": 25,
+        "evidencias": [
+          "Colocar as finanças em ordem é uma prioridade que vem antes de viagens, compras e até mesmo de poupar para a aposentadoria."
+        ],
+        "contraexemplo": "Vamos a alguns exemplos:"
+      },
+      {
+        "traco": "Oração condicional ou temporal dirigida ao leitor antes da oração principal (\"Se você..., ...\").",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "Se você já quitou suas dívidas e possui algum dinheiro guardado ou investido, parabéns!",
+          "Agora, se você decide comprar o notebook com cartão de crédito, você adquire um ativo",
+          "toda vez que você adquire um ativo financiado por uma dívida, deve considerar"
+        ]
+      },
+      {
+        "traco": "\"Agora,\" como conector de transição no início de parágrafo ou item.",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Agora, se ainda está enfrentando problemas com dívidas fora de controle",
+          "Agora, além dessas excelentes recomendações, quero compartilhar uma visão simples"
+        ]
+      },
+      {
+        "traco": "Parênteses curtos que concretizam uma categoria abstrata com exemplo ou rótulo.",
+        "frequencia": "frequente",
+        "ocorrencias": 13,
+        "evidencias": [
+          "Investimentos (ações, títulos, etc.)",
+          "você adquire um ativo (o notebook), mas também aumenta seu passivo (a dívida)",
+          "A diferença entre o que você possui (Ativo) e o que deve (Passivo)."
+        ]
+      },
+      {
+        "traco": "Contraste binário em construção paralela (enquanto; tanto... quanto; seja... ou).",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "Usar economias reduz o ativo, enquanto financiar aumenta o passivo.",
+          "aumenta tanto o ativo (carro) quanto o passivo (dívida).",
+          "seja usando seus recursos próprios ou tomando crédito"
+        ]
+      },
+      {
+        "traco": "Pares de adjetivos coordenados para qualificar fonte, método ou resultado.",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "conhecido por suas estratégias simples e eficientes",
+          "Seus vídeos são diretos e fáceis de entender",
+          "iniciar essa jornada de forma prática e confiável."
+        ]
+      },
+      {
+        "traco": "Correlativa \"Quanto mais..., melhor...\" como frase final de moral.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Quanto mais claro for o impacto das suas escolhas, melhor será seu controle financeiro."
+        ]
+      }
+    ],
+    "pontuacao": [
+      {
+        "traco": "Dois-pontos como articulador principal: anuncia lista, fórmula ou a resposta de uma frase.",
+        "frequencia": "sempre",
+        "ocorrencias": 9,
+        "evidencias": [
+          "o primeiro objetivo financeiro que eu recomendaria a qualquer pessoa: ter suas finanças pessoais sob controle.",
+          "Aqui estão algumas escolhas comuns:",
+          "podemos adaptá-la para as finanças pessoais da seguinte forma:"
+        ]
+      },
+      {
+        "traco": "Listas dominam a segunda metade: 6 listas (2 numeradas, 4 com marcador) de 2 a 4 itens; a abertura fica em prosa corrida.",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "Vamos a alguns exemplos:",
+          "Ao tomar decisões de financiamento, leve em consideração fatores como:"
+        ],
+        "contraexemplo": "Colocar as finanças em ordem é uma prioridade que vem antes de viagens"
+      },
+      {
+        "traco": "Item de lista no padrão \"Rótulo: explicação\", com maiúscula depois dos dois-pontos.",
+        "frequencia": "frequente",
+        "ocorrencias": 11,
+        "evidencias": [
+          "- Usar economias ou tomar empréstimo: Decidir entre usar seu dinheiro guardado ou financiar uma compra.",
+          "- **Riscos associados:** Como o risco de inadimplência."
+        ],
+        "contraexemplo": "- Um empréstimo para comprar um carro aumenta tanto o ativo (carro) quanto o passivo (dívida)."
+      },
+      {
+        "traco": "Parágrafos curtos, de 1 ou 2 frases (cerca de 20 a 45 palavras); vários parágrafos de uma frase só funcionam como ponte ou como anúncio.",
+        "frequencia": "sempre",
+        "ocorrencias": 10,
+        "evidencias": [
+          "Agora, além dessas excelentes recomendações, quero compartilhar uma visão simples sobre o conceito de dívidas, inspirado nas finanças corporativas.",
+          "Um ponto fundamental sobre dívidas pode ser compreendido ao analisarmos a **Equação Fundamental da Contabilidade**:"
+        ]
+      },
+      {
+        "traco": "Nenhum travessão; aposto e exemplo vão entre parênteses ou depois de dois-pontos.",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": [
+          "Canal do Primo Pobre (Eduardo Feldberg)"
+        ]
+      },
+      {
+        "traco": "Exclamação única, de congratulação, na abertura (sem contar o texto padrão do botão de compartilhar).",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Se você já quitou suas dívidas e possui algum dinheiro guardado ou investido, parabéns!"
+        ]
+      },
+      {
+        "traco": "Aspas retas ASCII (\") no texto publicado, em dois usos: a epígrafe citada e um termo informal (este último também em itálico).",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "**\"Você deve ganhar controle sobre seu dinheiro ou a falta dele o controlará para sempre.\"** Dave Ramsey",
+          "Ele representa sua *\"riqueza pessoal\"*."
+        ]
+      }
+    ],
+    "arquitetura": [
+      {
+        "traco": "Abre com imagem e com epígrafe de autoridade em destaque (pullquote) antes do primeiro parágrafo.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "[[PULLQUOTE: **\"Você deve ganhar controle sobre seu dinheiro ou a falta dele o controlará para sempre.\"** Dave Ramsey]]"
+        ]
+      },
+      {
+        "traco": "A abertura divide o leitor por situação (quem já tem controle e quem ainda está endividado) e declara a tese de prioridade: sair das dívidas antes de tudo.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Você já alcançou o primeiro objetivo financeiro que eu recomendaria a qualquer pessoa: ter suas finanças pessoais sob controle.",
+          "Colocar as finanças em ordem é uma prioridade que vem antes de viagens, compras e até mesmo de poupar para a aposentadoria."
+        ]
+      },
+      {
+        "traco": "Sustentação em sequência didática: recursos externos, depois um conceito importado (a equação contábil), a adaptação termo a termo, os exemplos e, por fim, um checklist.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Existem muitos recursos sobre como lidar com dívidas, mas hoje vou recomendar dois que considero essenciais.",
+          "Essa equação é simples, mas poderosa, e podemos adaptá-la para as finanças pessoais da seguinte forma:"
+        ]
+      },
+      {
+        "traco": "O conceito vem antes do exemplo, e o exemplo é anunciado por uma fórmula de transição seguida de dois-pontos.",
+        "frequencia": "sempre",
+        "ocorrencias": 3,
+        "evidencias": [
+          "As decisões de financiamento envolvem escolher como financiar suas metas financeiras, seja usando seus recursos próprios ou tomando crédito. Vamos a alguns exemplos:",
+          "Por exemplo:"
+        ]
+      },
+      {
+        "traco": "Frase-ponte no fim de um bloco anuncia a seção seguinte.",
+        "frequencia": "frequente",
+        "ocorrencias": 2,
+        "evidencias": [
+          "E para aumentar esse patrimônio, podemos aprender com as Decisões de Financiamento das empresas.",
+          "Agora, além dessas excelentes recomendações, quero compartilhar uma visão simples sobre o conceito de dívidas, inspirado nas finanças corporativas."
+        ]
+      },
+      {
+        "traco": "Subtítulos H2 densos (4 em cerca de 730 palavras, um a cada 180), usados como rótulos descritivos de etapa; o último é um \"Conclusão\" literal.",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "## Dívidas: Aprendendo com as Finanças Corporativas",
+          "## Conclusão"
+        ]
+      },
+      {
+        "traco": "Fecha com checklist de fatores e um parágrafo-síntese de benefício genérico que retoma a palavra-tema da epígrafe (controle); depois vêm o separador e o botão de compartilhar.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Entender como essas decisões impactam sua equação financeira pode te ajudar a equilibrar suas finanças e construir uma base sólida para o futuro.",
+          "Quanto mais claro for o impacto das suas escolhas, melhor será seu controle financeiro."
+        ]
+      }
+    ],
+    "figuras": [
+      {
+        "traco": "Analogia estrutural estendida: a pessoa física tratada como empresa (domínio de origem: contabilidade e finanças corporativas). Sustenta a metade final do texto e volta no fecho só pelo vocabulário (\"equação financeira\"), não como imagem.",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": [
+          "quero compartilhar uma visão simples sobre o conceito de dívidas, inspirado nas finanças corporativas.",
+          "podemos aprender com as Decisões de Financiamento das empresas.",
+          "Entender como essas decisões impactam sua equação financeira"
+        ]
+      },
+      {
+        "traco": "Metáforas lexicalizadas de jornada, construção e saúde, sem extensão nem retomada.",
+        "frequencia": "ocasional",
+        "ocorrencias": 5,
+        "evidencias": [
+          "iniciar essa jornada de forma prática e confiável",
+          "você está construindo riqueza ao longo do tempo",
+          "construir uma base sólida para o futuro."
+        ]
+      }
+    ],
+    "postura": [
+      {
+        "traco": "Primeira pessoa do singular restrita ao ato de recomendar ou compartilhar; nenhuma experiência pessoal é narrada.",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": [
+          "o primeiro objetivo financeiro que eu recomendaria a qualquer pessoa",
+          "hoje vou recomendar dois que considero essenciais",
+          "quero compartilhar uma visão simples sobre o conceito de dívidas"
+        ]
+      },
+      {
+        "traco": "\"Nós\" didático e inclusivo para conduzir o raciocínio junto com o leitor.",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "ao analisarmos a **Equação Fundamental da Contabilidade**",
+          "podemos adaptá-la para as finanças pessoais",
+          "Vamos a alguns exemplos:"
+        ]
+      },
+      {
+        "traco": "Tom prescritivo com \"deve\", temperado por encorajamento (\"parabéns!\").",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "o foco principal deve ser resolver isso.",
+          "deve considerar se o benefício futuro vale o custo do financiamento"
+        ]
+      },
+      {
+        "traco": "Autoridade emprestada: epígrafe de terceiro e delegação do tema \"sair das dívidas\" a criadores de conteúdo, com elogio. A autoridade própria fica implícita na ponte com as finanças corporativas.",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Cerbasi é um renomado especialista em finanças pessoais",
+          "Com uma linguagem acessível, Eduardo Feldberg conquistou grande popularidade"
+        ]
+      },
+      {
+        "traco": "Modalização leve com \"pode\", sem nunca admitir incerteza ou limite do próprio conhecimento.",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": [
+          "mas pode aumentar seu patrimônio líquido ao economizar nos juros.",
+          "Um ponto fundamental sobre dívidas pode ser compreendido"
+        ]
+      }
+    ],
+    "leitor": [
+      {
+        "traco": "Pressupõe leitor leigo, possivelmente endividado; define do zero ativo, passivo e patrimônio líquido.",
+        "frequencia": "sempre",
+        "ocorrencias": 3,
+        "evidencias": [
+          "**Passivo:** Suas dívidas e obrigações financeiras, como:",
+          "se ainda está enfrentando problemas com dívidas fora de controle, como contas em atraso ou parcelamentos no cartão de crédito"
+        ]
+      },
+      {
+        "traco": "Tratamento direto e constante por \"você\" e por possessivos de segunda pessoa (seu, sua, suas).",
+        "frequencia": "sempre",
+        "ocorrencias": 30,
+        "evidencias": [
+          "Imagine que você guardou dinheiro para comprar um novo notebook.",
+          "Sua capacidade de pagar a dívida sem comprometer o orçamento."
+        ]
+      },
+      {
+        "traco": "Apresenta o conceito novo por uma cena hipotética de consumo cotidiano (notebook, carro).",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Imagine que você guardou dinheiro para comprar um novo notebook.",
+          "Um empréstimo para comprar um carro aumenta tanto o ativo (carro) quanto o passivo (dívida)."
+        ]
+      },
+      {
+        "traco": "Imperativo pontual: na condução do exemplo, no checklist final e no texto-âncora dos links.",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": [
+          "leve em consideração fatores como:",
+          "[Assista ao canal do Gustavo Cerbasi](https://www.youtube.com/@GustavocerbasiBr)"
+        ]
+      },
+      {
+        "traco": "As chamadas para ação são links para canais de terceiros e o botão padrão de compartilhar no fim; não há CTA de assinatura nem de produto próprio.",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "[Confira o canal do Primo Pobre](https://www.youtube.com/c/PrimoPobre)",
+          "Obrigado por ler o Syntaxis! Esta publicação é pública, então fique à vontade para compartilhá-la."
+        ]
+      }
+    ],
+    "tecnico": [
+      {
+        "traco": "Fórmula única, em display ($$), escrita por extenso com palavras (sem símbolos ou letras) e com escape LaTeX para o espaço. Vem precedida do nome em negrito e seguida de glosa termo a termo em lista numerada.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "$$ Ativo = Passivo + Patrimônio \\ Líquido $$",
+          "Um ponto fundamental sobre dívidas pode ser compreendido ao analisarmos a **Equação Fundamental da Contabilidade**:"
+        ]
+      },
+      {
+        "traco": "Exemplos estritamente qualitativos: nenhum número, valor em reais, taxa ou dado.",
+        "frequencia": "sempre",
+        "ocorrencias": 0,
+        "evidencias": [
+          "Usar economias para quitar dívidas reduz o passivo e o ativo, mas pode aumentar seu patrimônio líquido ao economizar nos juros.",
+          "**Custo do capital:** Juros e taxas."
+        ]
+      },
+      {
+        "traco": "Fontes sem referência bibliográfica nem norma: a epígrafe é atribuída só pelo nome, e os recursos entram por link inline no fim do item.",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "**\"Você deve ganhar controle sobre seu dinheiro ou a falta dele o controlará para sempre.\"** Dave Ramsey",
+          "[Assista ao canal do Gustavo Cerbasi](https://www.youtube.com/@GustavocerbasiBr)"
+        ]
+      }
+    ],
+    "formatacao": [
+      {
+        "traco": "Negrito em três funções: a epígrafe inteira, o rótulo do termo em lista definicional e o conceito-chave na prosa. O uso é inconsistente entre as listas.",
+        "frequencia": "frequente",
+        "ocorrencias": 10,
+        "evidencias": [
+          "**Ativo:** Tudo o que você possui",
+          "Ter um **Patrimônio Líquido positivo e crescente** é o que indica que você está construindo riqueza"
+        ],
+        "contraexemplo": "- Financiamento com recursos próprios: Imagine que você guardou dinheiro"
+      },
+      {
+        "traco": "Itálico raro, sempre combinado com aspas, para marcar termo informal ou aproximado.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Ele representa sua *\"riqueza pessoal\"*."
+        ]
+      },
+      {
+        "traco": "Pullquote como epígrafe no topo: a citação vai em negrito e entre aspas, com a atribuição solta depois, sem travessão.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "[[PULLQUOTE: **\"Você deve ganhar controle sobre seu dinheiro ou a falta dele o controlará para sempre.\"** Dave Ramsey]]"
+        ]
+      },
+      {
+        "traco": "Subtítulos H2 em Title Case, com maiúscula também em preposição e possessivo; um deles usa dois-pontos. O título do post mantém \"para\" em minúscula.",
+        "frequencia": "sempre",
+        "ocorrencias": 4,
+        "evidencias": [
+          "## Um Lugar Para Começar",
+          "## Decisões de Financiamento e Suas Finanças"
+        ],
+        "contraexemplo": "Um Objetivo para Começar"
+      },
+      {
+        "traco": "Uma única imagem, no topo e sem legenda; não há tabela, gráfico, código nem citação em bloco além do pullquote.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "![](img-01)"
+        ]
+      },
+      {
+        "traco": "Links inline com texto-âncora imperativo, no fim do item de lista.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "[Confira o canal do Primo Pobre](https://www.youtube.com/c/PrimoPobre)"
+        ]
+      },
+      {
+        "traco": "Blocos curtos (parágrafos de 1 ou 2 frases, listas de 2 a 4 itens) e separador \"* * *\" antes do botão de compartilhar com o texto padrão do Substack.",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": [
+          "* * *",
+          "Aqui estão algumas escolhas comuns:"
+        ]
+      }
+    ]
+  },
+  "antipadroes_observados": [
+    "(a) Nunca usa travessão (0 ocorrências); aposto e exemplo vão entre parênteses ou depois de dois-pontos.",
+    "(a) Nenhuma pergunta, retórica ou não (0 pontos de interrogação na prosa).",
+    "(a) Nenhum número, valor monetário, taxa ou dado quantitativo; nenhuma fonte além de nomes e links.",
+    "(a) Nenhuma anedota, cena vivida ou experiência pessoal; a primeira pessoa só recomenda e compartilha.",
+    "(a) Nenhuma objeção ou contra-argumento tratado; nenhum humor ou ironia.",
+    "(a) Nenhuma frase curta isolada para ênfase.",
+    "(a) Nenhuma metáfora original; só imagens lexicalizadas (jornada, base sólida, saúde financeira).",
+    "(b) Fórmula adversativa de elogio: \"Essa equação é simples, mas poderosa\".",
+    "(b) Clichê de jornada com par de adjetivos: \"iniciar essa jornada de forma prática e confiável\".",
+    "(b) Pares de adjetivos coordenados em série: \"simples e eficientes\", \"diretos e fáceis de entender\", \"positivo e crescente\".",
+    "(b) Adjetivação laudatória genérica: \"renomado especialista\", \"dicas valiosas\", \"excelentes recomendações\".",
+    "(b) Lista anunciada por fórmula de apresentação: \"Aqui estão algumas escolhas comuns:\".",
+    "(b) Marcador de simplificação abrindo o parágrafo-síntese: \"Em termos simples,\".",
+    "(b) Subtítulo literal \"## Conclusão\" seguido de fecho genérico de benefício: \"construir uma base sólida para o futuro\".",
+    "(b) Correlativa final em tom de moral: \"Quanto mais claro for o impacto das suas escolhas, melhor será seu controle financeiro.\"",
+    "(b) Listas \"rótulo em negrito: definição\" dominando a segunda metade, em formato de listicle."
+  ],
+  "incerteza": "Texto curto (732 palavras), muito abaixo do piso de cerca de 5.000 por amostra; a variação sintática e as frequências valem só como indício. Post pre-pipeline de 2024-09-20, sem seção (section_name null): é um dos primeiros textos e pode não representar a voz posterior nem as linhas Spoiler e Notas de um Professor. Indícios de perda na captura: (1) os itens 1 e 2 da primeira lista fundem o nome do canal e a descrição (\"Canal do Gustavo Cerbasi Cerbasi é...\"), o que sugere quebra de linha ou negrito perdidos no título do item; (2) os subitens de Ativo e Passivo aparecem achatados na mesma linha com \" - \", provavelmente uma sublista achatada. Por isso as contagens de negrito e de listas podem estar subestimadas. As aspas do arquivo são retas ASCII; registrei como estão, sem confirmar a renderização no site. Os tiques de IA em (b) são reconhecimento de padrão, não prova de autoria: o frontmatter declara pre-pipeline (escrito só pelo autor). O arquivo não permite concluir nada sobre tratamento de incerteza, discordância, humor, notação numérica, tabelas, gráficos ou citação de norma, porque nada disso aparece."
+}

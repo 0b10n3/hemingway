@@ -1,0 +1,257 @@
+{
+ "slug_repo": "2026-09-24-borboletas-caos-e-carreira",
+ "slug_site": "borboletas-caos-e-carreira",
+ "linha_editorial": "Spoiler",
+ "rascunho": "_arquivo/drafts/2026-09-24_Borboleta_Caos_e_carreira.md",
+ "rascunho_tipo": "rascunho",
+ "post_md_base": {
+  "commit": "atual",
+  "similaridade_base": 0.994,
+  "similaridade_versao_atual": 0.994
+ },
+ "palavras": {
+  "rascunho": 3154,
+  "post_md": 2746,
+  "publicado": 2719
+ },
+ "similaridade": {
+  "rascunho_post_md": 0.921,
+  "post_md_publicado": 0.994,
+  "rascunho_publicado": 0.92
+ },
+ "resumo_classe": {
+  "imagem": 3,
+  "substituicao": 2,
+  "remocao": 2,
+  "pontuacao": 1,
+  "divisao_paragrafo": 1,
+  "negrito_adicionado": 1,
+  "tipografia_aspas": 1
+ },
+ "resumo_natureza": {
+  "estilo": 5,
+  "layout-substack": 4,
+  "conteúdo/fato": 2
+ },
+ "sinais": {
+  "acrescimo_autoral": 1,
+  "reversao": 2
+ },
+ "operacoes": [
+  {
+   "classe": "imagem",
+   "natureza": "layout-substack",
+   "antes": "",
+   "depois": "⟦IMG⟧",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": null,
+   "bloco_depois": 0,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": " [[…]] Num dia de inverno de 1961",
+   "pos_antes": [
+    0,
+    0
+   ],
+   "tipo": "insercao",
+   "id": 1
+  },
+  {
+   "classe": "imagem",
+   "natureza": "layout-substack",
+   "antes": "",
+   "depois": "⟦IMG⟧",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": null,
+   "bloco_depois": 27,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "0010 contra 0, 7630. [[…]] Nenhuma relação. Nesse sistema,",
+   "pos_antes": [
+    705,
+    705
+   ],
+   "tipo": "insercao",
+   "id": 2
+  },
+  {
+   "classe": "imagem",
+   "natureza": "layout-substack",
+   "antes": "⟦IMG⟧",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 27,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "do tamanho do próprio sistema. [[…]] É por isso que a previsão",
+   "pos_antes": [
+    742,
+    743
+   ],
+   "tipo": "remocao",
+   "id": 3
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "conteúdo/fato",
+   "antes": "do tamanho de 0, 506 para 0, 506127",
+   "depois": "pequena",
+   "palavras_antes": 8,
+   "palavras_depois": 1,
+   "bloco_antes": 37,
+   "bloco_depois": 38,
+   "sinais": [
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": "rascunho",
+   "contexto": "muito pouco. Por uma diferença [[…]] , eu poderia ter sido eliminado",
+   "pos_antes": [
+    974,
+    984
+   ],
+   "id": 4
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "estilo",
+   "antes": "na primeira hora",
+   "depois": "em dez minutos",
+   "palavras_antes": 3,
+   "palavras_depois": 3,
+   "bloco_antes": 46,
+   "bloco_depois": 47,
+   "sinais": [
+    "reversao"
+   ],
+   "restaurou_rascunho": true,
+   "origem_antes": "pipeline",
+   "contexto": "um estágio num banco e, [[…]] do primeiro dia, soube que",
+   "pos_antes": [
+    1191,
+    1194
+   ],
+   "id": 5
+  },
+  {
+   "classe": "pontuacao",
+   "natureza": "estilo",
+   "antes": ",",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 46,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "na primeira hora do primeiro dia [[…]] soube que aquilo não era para",
+   "pos_antes": [
+    1197,
+    1198
+   ],
+   "id": 6
+  },
+  {
+   "classe": "remocao",
+   "natureza": "estilo",
+   "antes": "— divulgada em agosto pela Federação Brasileira de Bancos (Febraban) —",
+   "depois": "",
+   "palavras_antes": 9,
+   "palavras_depois": 0,
+   "bloco_antes": 76,
+   "bloco_depois": null,
+   "sinais": [
+    "reversao"
+   ],
+   "restaurou_rascunho": null,
+   "origem_antes": "pipeline",
+   "contexto": "Pesquisa Febraban de Tecnologia Bancária 2026 [[…]] , mostra que os bancos brasileiros",
+   "pos_antes": [
+    2358,
+    2371
+   ],
+   "id": 7
+  },
+  {
+   "classe": "remocao",
+   "natureza": "conteúdo/fato",
+   "antes": ". E 70% já implementam, estão estruturando ou discutindo programas de requalificação",
+   "depois": "",
+   "palavras_antes": 11,
+   "palavras_depois": 0,
+   "bloco_antes": 78,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": "misto",
+   "contexto": "arquiteto corporativo e engenheiro de DevOps [[…]] . Lá fora, o sinal",
+   "pos_antes": [
+    2515,
+    2529
+   ],
+   "id": 8
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "IA como alavanca, e não como muleta.",
+   "depois": "Escolha os difíceis que não se depreciam.",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 81,
+   "bloco_depois": 83,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "IA como alavanca, e não como muleta. Escolha os difíceis que não se depreciam.",
+   "pos_antes": [
+    2710,
+    2712
+   ],
+   "id": 9
+  },
+  {
+   "classe": "negrito_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "Escolha os difíceis que não se depreciam.",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 81,
+   "bloco_depois": 83,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": ", e não como muleta. Escolha os difíceis que não se depreciam. 5. O acaso não é",
+   "pos_antes": [
+    2711,
+    2719
+   ],
+   "id": 10
+  },
+  {
+   "classe": "tipografia_aspas",
+   "natureza": "layout-substack",
+   "antes": "",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": null,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "",
+   "ocorrencias": 16,
+   "id": 11
+  }
+ ]
+}

@@ -1,0 +1,276 @@
+{
+ "audience": "everyone",
+ "audience_before_archived": null,
+ "canonical_url": "https://syntaxis.substack.com/p/o-mundo-invertido-das-carreiras-em",
+ "default_comment_sort": null,
+ "editor_v2": false,
+ "exempt_from_archive_paywall": false,
+ "free_unlock_required": false,
+ "id": 211544710,
+ "podcast_art_url": null,
+ "podcast_duration": null,
+ "podcast_preview_upload_id": null,
+ "podcast_upload_id": null,
+ "podcast_url": null,
+ "post_date": "2026-08-21T12:58:37.432Z",
+ "updated_at": "2026-08-21T12:58:37.470Z",
+ "publication_id": 2968718,
+ "search_engine_description": null,
+ "search_engine_title": null,
+ "section_id": 442556,
+ "should_send_free_preview": false,
+ "show_guest_bios": true,
+ "slug": "o-mundo-invertido-das-carreiras-em",
+ "social_title": null,
+ "subtitle": "Não foi a complexidade do modelo que me atrasou. Foi ter aprendido as coisas fora de ordem",
+ "teaser_post_eligible": true,
+ "title": "O Mundo Invertido das Carreiras em Finanças",
+ "type": "newsletter",
+ "video_upload_id": null,
+ "write_comment_permissions": "everyone",
+ "meter_type": "none",
+ "live_stream_id": null,
+ "is_published": true,
+ "restacks": 0,
+ "reactions": {
+  "❤": 3
+ },
+ "top_exclusions": [],
+ "pins": [],
+ "section_pins": [],
+ "has_shareable_clips": false,
+ "previous_post_slug": null,
+ "next_post_slug": "quando-os-modelos-se-rebelam",
+ "cover_image": "https://substackcdn.com/image/fetch/$s_!SJFY!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F466b4692-bb0e-4c21-ad9f-5d3cd6a85851_2752x1536.jpeg",
+ "cover_image_is_square": false,
+ "cover_image_is_explicit": false,
+ "videoUpload": null,
+ "podcastFields": {
+  "post_id": 211544710,
+  "podcast_episode_number": null,
+  "podcast_season_number": null,
+  "podcast_episode_type": null,
+  "should_syndicate_to_other_feed": null,
+  "syndicate_to_section_id": null,
+  "hide_from_feed": false,
+  "free_podcast_url": null,
+  "free_podcast_duration": null,
+  "preview_contains_ad": false,
+  "was_imported_self_serve_sync": false,
+  "draft_free_podcast_url": null,
+  "draft_free_podcast_duration": null
+ },
+ "podcastUpload": null,
+ "podcastPreviewUpload": null,
+ "voiceover_upload_id": null,
+ "voiceoverUpload": null,
+ "has_voiceover": false,
+ "description": "Não foi a complexidade do modelo que me atrasou. Foi ter aprendido as coisas fora de ordem",
+ "body_html": "<p>No fim da graduação, começo do mestrado, eu tinha bastante curiosidade por processos estocásticos (a matemática que descreve fenômenos que evoluem no tempo com uma boa dose de aleatoriedade, como o preço de uma ação). </p><p>Acabei estudando um modelo de precificação de opções (contratos cujo valor deriva do preço de outro ativo) como exemplo para uma parte da dissertação. Uma variante do consagrado modelo de Black-Scholes.</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!SJFY!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F466b4692-bb0e-4c21-ad9f-5d3cd6a85851_2752x1536.jpeg\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!SJFY!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F466b4692-bb0e-4c21-ad9f-5d3cd6a85851_2752x1536.jpeg 424w, https://substackcdn.com/image/fetch/$s_!SJFY!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F466b4692-bb0e-4c21-ad9f-5d3cd6a85851_2752x1536.jpeg 848w, https://substackcdn.com/image/fetch/$s_!SJFY!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F466b4692-bb0e-4c21-ad9f-5d3cd6a85851_2752x1536.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!SJFY!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F466b4692-bb0e-4c21-ad9f-5d3cd6a85851_2752x1536.jpeg 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!SJFY!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F466b4692-bb0e-4c21-ad9f-5d3cd6a85851_2752x1536.jpeg\" width=\"1456\" height=\"813\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/466b4692-bb0e-4c21-ad9f-5d3cd6a85851_2752x1536.jpeg&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:813,&quot;width&quot;:1456,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:2253467,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/jpeg&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:false,&quot;topImage&quot;:true,&quot;internalRedirect&quot;:&quot;https://syntaxis.substack.com/i/211544710?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F466b4692-bb0e-4c21-ad9f-5d3cd6a85851_2752x1536.jpeg&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!SJFY!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F466b4692-bb0e-4c21-ad9f-5d3cd6a85851_2752x1536.jpeg 424w, https://substackcdn.com/image/fetch/$s_!SJFY!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F466b4692-bb0e-4c21-ad9f-5d3cd6a85851_2752x1536.jpeg 848w, https://substackcdn.com/image/fetch/$s_!SJFY!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F466b4692-bb0e-4c21-ad9f-5d3cd6a85851_2752x1536.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!SJFY!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F466b4692-bb0e-4c21-ad9f-5d3cd6a85851_2752x1536.jpeg 1456w\" sizes=\"100vw\" fetchpriority=\"high\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p> Eu sabia derivar o modelo inteiro. Reproduzia cada passagem lógica sem dificuldades. Se você me pedisse para provar o resultado no quadro, eu provava.</p><p>O que eu não sabia era explicar, em termos simples, o que aquele contrato fazia de fato no mercado. Foi a parte um desafio da dissertação: não a matemática, que eu dominava, mas o instrumento em si. </p><p>E digo isso sem sombra de orgulho nem de falsa humildade: muita coisa sobre aquele instrumento eu só fui entender de verdade anos depois, já trabalhando com ele no mercado financeiro.</p><p>O problema nunca foi a complexidade do modelo. Foi eu ter aprendido as coisas fora de ordem.</p><div><hr></div><p></p><h2>Bem-vindo à <em>Spoiler</em></h2><p>Esse é o primeiro texto de uma linha nova aqui na Syntaxis, que vamos chamar de Spoiler: dar spoiler de coisas que você provavelmente vai viver na carreira, antes de você viver. </p><p>E o primeiro spoiler retoma uma ideia que já usamos por aqui em “<a href=\"https://syntaxis.substack.com/p/o-mundo-invertido-dos-investimentos\">O  Mundo Invertido dos Investimentos</a>”: o mundo invertido, o <em>Upside Down</em> de <em>Stranger Things</em>, a versão espelhada e hostil de um mundo normal, onde tudo o que deveria vir por último vem primeiro. Da última vez foi sobre qual produto você compra primeiro. </p><p>Dessa vez é sobre qual conhecimento você constrói primeiro.</p><div><hr></div><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!QMM5!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff46018ad-b371-43c7-a984-b8f65ad9fa44_2752x1536.jpeg\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!QMM5!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff46018ad-b371-43c7-a984-b8f65ad9fa44_2752x1536.jpeg 424w, https://substackcdn.com/image/fetch/$s_!QMM5!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff46018ad-b371-43c7-a984-b8f65ad9fa44_2752x1536.jpeg 848w, https://substackcdn.com/image/fetch/$s_!QMM5!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff46018ad-b371-43c7-a984-b8f65ad9fa44_2752x1536.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!QMM5!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff46018ad-b371-43c7-a984-b8f65ad9fa44_2752x1536.jpeg 1456w\" sizes=\"auto, 100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!QMM5!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff46018ad-b371-43c7-a984-b8f65ad9fa44_2752x1536.jpeg\" width=\"1456\" height=\"813\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/f46018ad-b371-43c7-a984-b8f65ad9fa44_2752x1536.jpeg&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:813,&quot;width&quot;:1456,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:2160336,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/jpeg&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://syntaxis.substack.com/i/211544710?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff46018ad-b371-43c7-a984-b8f65ad9fa44_2752x1536.jpeg&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!QMM5!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff46018ad-b371-43c7-a984-b8f65ad9fa44_2752x1536.jpeg 424w, https://substackcdn.com/image/fetch/$s_!QMM5!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff46018ad-b371-43c7-a984-b8f65ad9fa44_2752x1536.jpeg 848w, https://substackcdn.com/image/fetch/$s_!QMM5!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff46018ad-b371-43c7-a984-b8f65ad9fa44_2752x1536.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!QMM5!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff46018ad-b371-43c7-a984-b8f65ad9fa44_2752x1536.jpeg 1456w\" sizes=\"auto, 100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><h2>A Fronteira</h2><p>Pesquisa nova busca problema novo, e os problemas mais recentes em matemática financeira estão quase sempre na ponta mais complexa da régua de produtos: modelagem de opções, contratos mais sofisticados, precificação de instrumentos exóticos. A parte de renda fixa mais básica, os juros, a dívida pública, o crédito, já é um assunto bem mais resolvido academicamente, ainda que longe de morto. </p><p>Não é por acaso que quem está estudando acaba puxado para lá: é onde a fronteira de pesquisa está, não onde o alicerce está.</p><p>Então é fácil entrar pela porta errada: pela ponta complexa, sem o alicerce que deveria vir antes dela.</p><h2>Lacunas</h2><p>A primeira lacuna era a compreensão prática do produto. </p><p>Eu sabia explicar o modelo inteiro: a equação, as hipóteses por trás de cada termo, a lógica que leva de um pressuposto ao outro. Conseguia justificar cada passagem no quadro. O que eu não conseguia era responder a uma pergunta bem mais simples: por que alguém compra aquele contrato? Que necessidade ele resolve para quem está do outro lado da mesa, protegendo uma posição, especulando, tentando limitar um risco que já existia antes de qualquer fórmula aparecer?</p><p>Essa pergunta não está na dedução matemática. Está na mesa de operações, na razão de existir do instrumento antes de existir o modelo que o precifica. A matemática descreve o produto. Ela não é o produto. E é fácil confundir as duas coisas quando você aprendeu uma sem nunca ter visto a outra de perto.</p><p>A segunda, que demorei mais para perceber, era mais básica ainda. Boa parte daqueles modelos de precificação lidava com valor futuro, valor presente, modelagem de taxa de juros, curva de juros. E, de novo, a matemática em si era simples. Eu tinha domínio dela. O que faltava era entender a dinâmica real por trás dos números: como funciona a dívida pública, a emissão de títulos, o mercado de crédito. Coisas sem as quais os conceitos mais avançados não fazem sentido nenhum, só conta.</p><p>Isso não é impressão minha, e não estou inventando uma régua conveniente para a história ficar melhor. </p><p>Se você pegar, por exemplo, o livro-texto que qualquer profissional de derivativos conhece: <em>Options, Futures, and Other Derivatives</em>, de John Hull. Taxa de juros e formação de preço a termo vêm nos capítulos 4 a 6; a mecânica de opções só chega bem mais adiante, lá pelo capítulo 10, dependendo da edição. </p><p>Faz sentido, pensando bem: não dá para precificar um preço futuro sem antes entender a taxa que desconta esse futuro.</p><p>O currículo do CFA (<em>Chartered Financial Analyst</em>, a certificação mais reconhecida do mercado de investimentos) segue a mesma lógica: valor do dinheiro no tempo entra logo no primeiro módulo, antes de renda fixa, porque cada ferramenta dali vai ser reaproveitada depois. </p><p>E tem uma prova ainda mais direta, que eu queria muito ter visto antes de começar minha dissertação: o pré-requisito listado pela GFMI (Global Financial Markets Institute), provedora de treinamento profissional em risco, para o curso dela sobre VaR (Value at Risk, a métrica que estima quanto uma carteira pode perder num cenário ruim) não pede matemática avançada, pede apenas </p><blockquote><p><strong>“entender conceitos financeiros simples, como valor presente”. </strong></p></blockquote><p>Quem monta esses currículos já sabe, antes de qualquer aluno sentar na cadeira, uma coisa que eu só aprendi com o tempo: o gargalo muitas vezes não vai estar na matemática dos modelos. Mas no alicerce.</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!cbAH!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0459d798-9d01-42e3-91f9-2a98c93ab938_2752x1536.jpeg\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!cbAH!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0459d798-9d01-42e3-91f9-2a98c93ab938_2752x1536.jpeg 424w, https://substackcdn.com/image/fetch/$s_!cbAH!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0459d798-9d01-42e3-91f9-2a98c93ab938_2752x1536.jpeg 848w, https://substackcdn.com/image/fetch/$s_!cbAH!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0459d798-9d01-42e3-91f9-2a98c93ab938_2752x1536.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!cbAH!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0459d798-9d01-42e3-91f9-2a98c93ab938_2752x1536.jpeg 1456w\" sizes=\"auto, 100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!cbAH!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0459d798-9d01-42e3-91f9-2a98c93ab938_2752x1536.jpeg\" width=\"1456\" height=\"813\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/0459d798-9d01-42e3-91f9-2a98c93ab938_2752x1536.jpeg&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:813,&quot;width&quot;:1456,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:2203580,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/jpeg&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://syntaxis.substack.com/i/211544710?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0459d798-9d01-42e3-91f9-2a98c93ab938_2752x1536.jpeg&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!cbAH!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0459d798-9d01-42e3-91f9-2a98c93ab938_2752x1536.jpeg 424w, https://substackcdn.com/image/fetch/$s_!cbAH!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0459d798-9d01-42e3-91f9-2a98c93ab938_2752x1536.jpeg 848w, https://substackcdn.com/image/fetch/$s_!cbAH!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0459d798-9d01-42e3-91f9-2a98c93ab938_2752x1536.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!cbAH!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0459d798-9d01-42e3-91f9-2a98c93ab938_2752x1536.jpeg 1456w\" sizes=\"auto, 100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p></p><h2>Não é só quem veio da academia</h2><p>Você pode estar pensando que isso é problema de quem fez mestrado ou doutorado, não seu. </p><p>Talvez seja. </p><p>Talvez sua entrada tenha sido bem diferente, em um estágio, direto numa mesa que cuida do VaR de um banco, cercado de modelos complexos, no meio de uma equipe que trabalha com um tema sensível.</p><p>Eu não tenho como te dizer se isso é raro ou comum.</p><p>O que eu posso te dizer é que, se você já esteve numa sitação dessas. Sabendo executar o seu papel, mas sem saber muito bem por que ele existe, preso na rotina sem entender de fato a rotina que está executando, você reconheceu a cena antes de eu terminar de descrever. </p><p>A pergunta que interessa não é se isso é raro. É se já aconteceu com você.</p><h2>Não precisa ter vergonha</h2><p>Não é vergonha, e também não é para minimizar. </p><p>É reconhecer o que faltou e voltar para buscar. A ordem em que você aprendeu as coisas não é seu currículo. É só a ordem. </p><p>Dá para voltar e preencher o alicerce depois, do jeito que eu preenchi o meu. </p><p>O problema nunca foi ter começado pela ponta difícil. Foi ter demorado a fortalecer os fundamentos.</p><h2>Um Convite para Você</h2><p>Foi pensando nessa inversão, a que eu vivi e a que talvez você tenha vivido também, que decidi iniciar, a <strong>partir de setembro</strong>, um curso gratuito, com trasmisão ao vivo pelo nosso canal no YouTube, sobre um dos assuntos mais básicos de finanças e, ainda assim, um dos mais negligenciados: o valor do dinheiro no tempo. </p><p>É simples de calcular, a maioria das pessoas que já viu a fórmula consegue fazer a conta. Compreender de fato o que ela significa e como utiliza-la, é outra história. </p><p>E é justamente o valor do dinheiro no tempo a ferramenta mais usada em todo o mercado financeiro. </p><p>Se você quer assistir, o curso é gratuito. Basta se inscrever em nosso canal do Youtube!</p><p></p><p class=\"button-wrapper\" data-attrs=\"{&quot;url&quot;:&quot;https://www.youtube.com/@SyntaxisEduFin&quot;,&quot;text&quot;:&quot;Ir para o YouTube!&quot;,&quot;action&quot;:null,&quot;class&quot;:null}\" data-component-name=\"ButtonCreateButton\"><a class=\"button primary\" href=\"https://www.youtube.com/@SyntaxisEduFin\"><span>Ir para o YouTube!</span></a></p><p></p>",
+ "has_dynamic_content": false,
+ "truncated_body_text": "No fim da graduação, começo do mestrado, eu tinha bastante curiosidade por processos estocásticos (a matemática que descreve fenômenos que evoluem no tempo com uma boa dose de aleatoriedade, como o preço de uma ação).",
+ "wordcount": 1175,
+ "post_preview_limit": null,
+ "language": "pt",
+ "postTags": [
+  {
+   "id": "32913b8f-3dce-4ff9-bfea-17dc0715a87d",
+   "publication_id": 2968718,
+   "name": "Investimentos",
+   "slug": "investimentos",
+   "hidden": false
+  },
+  {
+   "id": "63402821-23a4-4b73-8921-24029dc2f7b4",
+   "publication_id": 2968718,
+   "name": "asset allocation",
+   "slug": "asset-allocation",
+   "hidden": false
+  },
+  {
+   "id": "b53ab524-9da7-4f72-809b-a0d91634f563",
+   "publication_id": 2968718,
+   "name": "Finanças",
+   "slug": "financas",
+   "hidden": false
+  },
+  {
+   "id": "f05c03ed-e4d9-4cfc-af8b-0199ab0cf1c2",
+   "publication_id": 2968718,
+   "name": "Wealth Management",
+   "slug": "wealth-management",
+   "hidden": false
+  }
+ ],
+ "postCountryBlocks": [],
+ "disable_drop_cap": false,
+ "cover_image_crop": null,
+ "headlineTest": null,
+ "coverImagePalette": {
+  "Vibrant": {
+   "rgb": [
+    112,
+    188,
+    135
+   ],
+   "population": 30
+  },
+  "DarkVibrant": {
+   "rgb": [
+    52,
+    116,
+    76
+   ],
+   "population": 2
+  },
+  "LightVibrant": {
+   "rgb": [
+    164.7057142857143,
+    212.69428571428568,
+    179.22857142857146
+   ],
+   "population": 0
+  },
+  "Muted": {
+   "rgb": [
+    97,
+    168,
+    119
+   ],
+   "population": 35
+  },
+  "DarkMuted": {
+   "rgb": [
+    54,
+    104,
+    72
+   ],
+   "population": 82
+  },
+  "LightMuted": {
+   "rgb": [
+    48.814285714285745,
+    104.18571428571424,
+    65.57142857142863
+   ],
+   "population": 0
+  }
+ },
+ "publishedBylines": [
+  {
+   "id": 136725718,
+   "name": "Silvano Junior",
+   "handle": "saapjr",
+   "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/4d24c48d-d4f2-406d-ab80-902631955776_640x640.jpeg",
+   "bio": "Capixaba Matemático (MsC) Cientista de Dados e Analista Quantitativo",
+   "profile_set_up_at": "2023-03-28T04:01:23.570Z",
+   "reader_installed_at": "2023-03-28T04:05:16.777Z",
+   "publicationUsers": [
+    {
+     "id": 3019355,
+     "user_id": 136725718,
+     "publication_id": 2968718,
+     "role": "admin",
+     "public": true,
+     "is_primary": true,
+     "publication": {
+      "id": 2968718,
+      "name": "Syntaxis",
+      "subdomain": "syntaxis",
+      "custom_domain": null,
+      "custom_domain_optional": false,
+      "hero_text": "A Syntaxis te ajuda a desenvolver as skills que hoje separam quem estagia de quem é efetivado, e quem é efetivado de quem vira referência.",
+      "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/f1431d70-c6a3-4eb3-9219-23ab9997436b_320x320.png",
+      "author_id": 136725718,
+      "primary_user_id": 136725718,
+      "theme_var_background_pop": "#FF6719",
+      "created_at": "2024-09-03T01:29:04.169Z",
+      "email_from_name": "SYNTAXIS",
+      "copyright": "Silvano Junior",
+      "founding_plan_name": "Membro Fundador",
+      "community_enabled": true,
+      "invite_only": false,
+      "payments_state": "enabled",
+      "language": "pt-br",
+      "explicit": false,
+      "homepage_type": "newspaper",
+      "is_personal_mode": false,
+      "logo_url_wide": null
+     }
+    }
+   ],
+   "is_guest": false,
+   "bestseller_tier": null,
+   "status": {
+    "bestsellerTier": null,
+    "subscriberTier": null,
+    "leaderboard": null,
+    "vip": false,
+    "badge": null,
+    "subscriber": null
+   }
+  }
+ ],
+ "reaction": null,
+ "reaction_count": 3,
+ "comment_count": 0,
+ "child_comment_count": 0,
+ "vg_wort_pixel_url": null,
+ "is_geoblocked": false,
+ "sponsorshipEditionBanner": null,
+ "is_editor_preview": false,
+ "hasCashtag": false,
+ "unlockedWithIP": false,
+ "unlockedWithCampaign": false,
+ "themeVariables": {
+  "color_theme_bg_pop": "#1B6A45",
+  "background_pop": "#1B6A45",
+  "color_theme_bg_web": "#F7F7F5",
+  "cover_bg_color": "#F7F7F5",
+  "cover_bg_color_secondary": "#e8e8e6",
+  "background_pop_darken": "#165638",
+  "print_on_pop": "#ffffff",
+  "color_theme_bg_pop_darken": "#165638",
+  "color_theme_print_on_pop": "#ffffff",
+  "color_theme_bg_pop_20": "rgba(27, 106, 69, 0.2)",
+  "color_theme_bg_pop_30": "rgba(27, 106, 69, 0.3)",
+  "print_pop": "#1b6a45",
+  "color_theme_accent": "#1b6a45",
+  "cover_print_primary": "#363737",
+  "cover_print_secondary": "#757575",
+  "cover_print_tertiary": "#b6b6b6",
+  "cover_border_color": "#1b6a45",
+  "font_family_body_preset": "'SF Pro Display', -apple-system, system-ui, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+  "font_weight_body_preset": 400,
+  "font_preset_body": "sans",
+  "home_hero": "feature-media",
+  "home_posts": "grid",
+  "home_show_top_posts": true,
+  "web_bg_color": "#F7F7F5",
+  "background_contrast_1": "#e8e8e6",
+  "background_contrast_2": "#d6d6d4",
+  "background_contrast_3": "#b1b1b0",
+  "background_contrast_4": "#8e8e8d",
+  "background_contrast_5": "#4e4e4d",
+  "color_theme_bg_contrast_1": "#e8e8e6",
+  "color_theme_bg_contrast_2": "#d6d6d4",
+  "color_theme_bg_contrast_3": "#b1b1b0",
+  "color_theme_bg_contrast_4": "#8e8e8d",
+  "color_theme_bg_contrast_5": "#4e4e4d",
+  "color_theme_bg_elevated": "#f7f7f5",
+  "color_theme_bg_elevated_secondary": "#e8e8e6",
+  "color_theme_bg_elevated_tertiary": "#d6d6d4",
+  "color_theme_detail": "#dededd",
+  "background_contrast_pop": "rgba(27, 106, 69, 0.4)",
+  "color_theme_bg_contrast_pop": "rgba(27, 106, 69, 0.4)",
+  "theme_bg_is_dark": "0",
+  "print_on_web_bg_color": "#363737",
+  "print_secondary_on_web_bg_color": "#838483",
+  "background_pop_rgb": "27, 106, 69",
+  "color_theme_bg_pop_rgb": "27, 106, 69",
+  "color_theme_accent_rgb": "27, 106, 69"
+ },
+ "oneOffUnlockOffer": {
+  "eligible": false
+ }
+}

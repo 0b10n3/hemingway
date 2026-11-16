@@ -1,8 +1,8 @@
 ---
 name: forja-de-voz
-description: Constrói, atualiza e audita o guia de voz autoral (estilo/estilo-autoral.md) a partir do corpus em _arquivo/amostras/. Use quando o autor pedir para "atualizar minha voz", "auditar este texto contra meu estilo", "comparar versões do guia", ou quando novas amostras forem adicionadas ao arquivo.
+description: Constrói, atualiza e audita o guia de voz autoral (estilo/estilo-autoral.md) a partir do corpus publicado e das amostras em _arquivo/. Use quando o autor pedir para "colher o post publicado", "atualizar minha voz", "auditar este texto contra meu estilo", "comparar versões do guia", ou quando novas amostras forem adicionadas ao arquivo.
 disable-model-invocation: true
-argument-hint: [bootstrap|atualizar|auditar|diff] [caminho ou tag]
+argument-hint: [colher|atualizar|auditar|diff|bootstrap] [slug, caminho ou tag]
 allowed-tools: Read Write Edit Glob Grep Bash(python3 *) Bash(git add *) Bash(git commit *) Bash(git checkout -b *) Bash(git tag *) Bash(git diff *) Bash(git log *)
 ---
 
@@ -34,7 +34,34 @@ salvo confirmação explícita do autor de que é para sobrescrever. Se confirma
 7. **Mostre o guia ao autor e espere aprovação antes de commitar.** Só depois do "ok":
    commit `feat(voz): guia de estilo autoral v1.0.0`, tag `voz-v1.0.0`, push com `--tags`.
 
+## Modo `colher <slug-do-repo | todos>`
+
+Roda depois de cada publicação: a etapa 10 do `post-substack` lembra o autor. Mantém o corpus
+publicado, as edições e o registro de preferências em dia, e aponta o que precisa de conserto no
+site. **Nunca altera regra do guia.**
+
+1. `python3 scripts/corpus_publicado.py` — captura o que é novo ou mudou no site (arquivo novo em
+   `_arquivo/publicados/`, nunca sobrescrita) e regera `estilo/corpus/`.
+2. Se o `post.md` do post publicado não tem `url_publicada`, proponha a linha (o par está em
+   `estilo/corpus/mapa-publicados.json`). Só aplique com o ok do autor.
+3. `python3 scripts/diff_edicoes.py <slug>` (ou sem argumento, para `todos`), depois
+   `python3 scripts/diff_edicoes.py preferencias`.
+4. `python3 scripts/checar_post.py estilo/corpus/publicados/<slug-do-site>.md`. Marcador ou jargão
+   do pipeline no ar é aviso imediato ao autor: o conserto é no Substack, não no repositório. Liste
+   também, como suspeita, as operações com `obs` ("possível erro de digitação") no JSON de edições.
+5. Mostre ao autor o resumo da tripla: similaridade nas três transições, operações por classe,
+   reversões e acréscimos autorais, e as edições `ambíguo` para ele classificar (as decisões vão
+   para `estilo/corpus/natureza-decidida.json`).
+6. Padrão de edição com 3 ou mais ocorrências em 2 ou mais posts, que o guia não descreve, entra
+   como candidato em "Em observação" (§8). Pode entrar sozinho, como patch do guia. Regra nova ou
+   alterada em §3/§4 só pelo modo `atualizar`, com o autor.
+7. Commit: `feat(voz): colheita de <slug>` (capturas novas, corpus, edições e preferências).
+
 ## Modo `atualizar <caminho-da-nova-amostra>`
+
+Desde a v2.0.0, amostras novas de Substack chegam pela colheita (`estilo/corpus/publicados/`,
+com as edições do autor como evidência). Este modo continua valendo para outros gêneros
+(LinkedIn, curso) em `_arquivo/amostras/proprias/` e para a revisão periódica do guia.
 
 O modo que mantém o guia vivo — rode a cada ~5 posts novos publicados. Ver protocolo
 completo em `references/protocolo-de-atualizacao.md`. Resumo:

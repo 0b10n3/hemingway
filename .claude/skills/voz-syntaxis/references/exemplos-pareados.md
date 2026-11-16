@@ -1,49 +1,74 @@
 # Exemplos pareados — voz-syntaxis
 
-Um par ✅/❌ por regra do guia (`estilo/estilo-autoral.md` §3), tirado ou adaptado do próprio
-corpus, para dirimir dúvida sobre como aplicar a regra a um caso novo.
+Um par ✅/❌ por regra de `estilo/estilo-autoral.md` §3 (v2.0.0). O ✅ é sempre texto publicado
+(`estilo/corpus/publicados/<slug>.md`). O ❌ é a versão que o pipeline entregou, quando existe
+par real, ou uma versão construída (marcada assim) para mostrar o desvio.
 
-## Regra 1 — jargão sempre glosado na primeira ocorrência
-✅ "O COE (Certificado de Operação Estruturada) costuma render bem ao assessor — nem sempre
-ao cliente."
-❌ "O COE costuma render bem ao assessor — nem sempre ao cliente." *(pressupõe que o leitor
-já sabe o que é COE)*
+## Regra 1 — parágrafo curto; frase curta como virada
+✅ "Parece uma blindagem completa. Não é." (a-anatomia-e-o-verdadeiro-risco-do)
+❌ *(construído)* "Parece uma blindagem completa, mas na prática não é, porque a subordinação só
+absorve perdas até o tamanho da cota e, acima disso, o sênior também perde." — a virada some no meio
+do período.
 
-## Regra 2 — exemplo depois do conceito, nunca antes
-✅ "GBI é dividir seu patrimônio em contas mentais por objetivo. O Pedro, por exemplo, tem
-42 anos e quer se aposentar aos 60 — ele separaria..."
-❌ "O Pedro tem 42 anos e quer se aposentar aos 60. Isso é GBI: dividir patrimônio em contas
-mentais por objetivo." *(o exemplo chega antes do leitor ter onde encaixá-lo)*
+## Regra 3 — glosa em parêntese; travessão raro
+✅ "convexa (no sentido do cálculo: arqueada para cima, como o fundo de uma tigela)" (a-corda-e-o-arco)
+❌ "captar recursos — via CDB, entre outros instrumentos — para financiar operações de crédito"
+(pipeline, o-papel-do-cdb; o autor trocou os travessões por vírgulas)
 
-## Regra 3 — dois-pontos como articulador de definição
-✅ "Um bom título de renda fixa tem três características: previsibilidade, liquidez e
-proteção contra inflação."
-❌ "Um bom título de renda fixa tem três características — previsibilidade, liquidez, e
-proteção contra inflação, que são..." *(travessão fazendo o trabalho do dois-pontos, perde
-o efeito de lista)*
+## Regra 4 — ênfase com função
+✅ "**Raiva de você mesmo vira paralisia.**" (samurais-e-duelos-no-mercado-financeiro) — negrito na
+frase-tese.
+✅ "qual fonte de captação — o *funding* — saía mais barata" (a-anatomia-e-o-verdadeiro-risco-do) —
+itálico no estrangeirismo.
+❌ "a primeira coisa que pergunto não é 'quanto rende'" (pipeline, dividir-para-nao-correr-risco; o
+autor publicou *quanto rende*)
 
-## Regra 4 — nunca negrito/itálico de ênfase
-✅ "A estratégia 'ingênua' do 1/N não é ingênua — ela só não precisa fingir que sabe o
-futuro."
-❌ "A estratégia **ingênua** do 1/N não é ingênua." *(negrito fazendo o trabalho que as
-aspas simples já fazem no corpus)*
+## Regra 5 — H2 como frase-tese, nunca rótulo
+✅ "## Render todo dia não é render mais" (frequencia-de-capitalizacao)
+❌ "## Fechamento: sem rede" (pipeline, renda-fixa-condicoes-variaveis; o autor publicou "## Sem rede")
 
-## Regra 5 — subtítulo H2 por movimento do argumento
-✅ Post com `## O Problema`, `## Por Que Isso Acontece`, `## O Que Fazer Diferente` — cada
-subtítulo abre um movimento novo do argumento.
-❌ Um único bloco de 1.200 palavras sem subtítulo, ou subtítulos genéricos tipo `## Parte 1`,
-`## Parte 2` que não dizem o que a seção prova.
+## Regra 7 — abre em cena ou caso concreto
+✅ "Novembro de 2025. O Banco Central decreta a liquidação extrajudicial do Banco Master."
+(dividir-para-nao-correr-risco)
+❌ *(construído)* "A LCI é um título de renda fixa emitido por bancos e lastreado em crédito
+imobiliário." — definição antes de qualquer tensão.
 
-## Regra 6 — autoridade por estudo nomeado (voz ensaística)
-✅ "DeMiguel, Garlappi e Uppal mostraram em 2007, na Review of Financial Studies, que a
-estratégia 1/N empatava com o modelo de Markowitz."
-❌ "Pesquisas mostram que estratégias simples costumam performar tão bem quanto as
-complexas." *(autoridade vaga — é exatamente o tique de IA que o corpus não tem)*
+## Regra 9 — expõe a versão corrente, concede, corrige
+✅ "É uma ótima história. Só que não aconteceu assim." (samurais-e-duelos-no-mercado-financeiro)
+❌ *(construído)* "Muitos autores de autoajuda erram sobre Musashi." — discorda de pessoas, sem
+conceder nada.
 
-## §4 — escolher a voz certa
-✅ Post de tese/opinião ("o simples funciona") em voz ensaística: abre com anedota pessoal
-("Quando eu estava na graduação..."), usa ironia, fecha com CTA.
-✅ Post de referência de produto ("o que é o Tesouro Selic") em voz explicativa: abre
-definindo o produto, terceira pessoa, sem humor, termina descrevendo, sem CTA.
-❌ Post de referência de produto abrindo com anedota pessoal e ironia — soa como se o autor
-estivesse "vendendo" o produto em vez de explicá-lo. É o desvio mais fácil de cometer.
+## Regra 10 — fecha em anel
+✅ "Com o que vimos até aqui, dá para reler o caso." (renda-fixa-condicoes-variaveis)
+❌ *(construído)* "Em resumo, a debênture exige atenção a vários fatores." — fecho genérico, sem
+voltar ao GPA.
+
+## Regra 12 — metáfora central nomeada e estendida
+✅ "Chamamos essa contagem de régua." (a-corda-e-o-arco) — a "régua" volta em
+voce-esta-contando-os-dias-errado e em frequencia-de-capitalizacao.
+
+## Regra 13 — autoridade por fonte nomeada
+✅ "Thomas Ho e Anthony Saunders, num artigo de 1981 no Journal of Financial and Quantitative
+Analysis" (dividir-para-nao-correr-risco)
+❌ *(construído)* "Pesquisas mostram que o spread bancário reflete o risco." — autoridade vaga.
+
+## Regra 14 — termo glosado na primeira ocorrência
+✅ "numa mesa de banco, de gestora ou de corretora (no mercado, ‘mesa’ é a equipe de uma área, como
+renda fixa ou ações)" (should-i-stay-or-should-i-go)
+❌ *(construído)* "numa mesa de banco, de gestora ou de corretora" — pressupõe que o leitor sabe o que
+é "mesa".
+
+## Regra 20 — antítese com teto
+✅ "Securitizar muda o endereço do risco. Não muda o tamanho dele." (a-anatomia-e-o-verdadeiro-risco-do)
+— uma vez, como tese, e retomada no fecho.
+❌ *(construído)* "Não é sorte. É método. Não é talento. É repetição. Não é o mercado. É você." — três
+seguidas viram cadência mecânica.
+
+## §4 — escolher a voz
+✅ Spoiler sobre carreira em voz ensaística: cena do Clash, primeira pessoa de mentor, pedido de
+resposta no fim (should-i-stay-or-should-i-go).
+✅ Notas sobre conceito em registro técnico: cena de Bernoulli, refrão "O contínuo não compete com o
+composto. É o limite dele." na abertura e no fecho, fórmulas anunciadas por dois-pontos
+(frequencia-de-capitalizacao).
+❌ Post de conceito em voz ensaística pura, sem conta nem fórmula: a tese fica sem prova. ❌ Post de
+carreira em registro técnico: soa como aula sobre a vida do leitor.

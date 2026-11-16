@@ -1,0 +1,1500 @@
+{
+ "slug_repo": "2026-08-17-o-mundo-invertido-das-carreiras-em-financas",
+ "slug_site": "o-mundo-invertido-das-carreiras-em",
+ "linha_editorial": "Spoiler",
+ "rascunho": "_arquivo/drafts/2026-0817_O_Mundo_Invertido_das_Carreiras_em_Financas.md",
+ "rascunho_tipo": "transcricao",
+ "post_md_base": {
+  "commit": "atual",
+  "similaridade_base": 0.847,
+  "similaridade_versao_atual": 0.847
+ },
+ "palavras": {
+  "rascunho": 1135,
+  "post_md": 1089,
+  "publicado": 1170
+ },
+ "similaridade": {
+  "rascunho_post_md": 0.152,
+  "post_md_publicado": 0.847,
+  "rascunho_publicado": 0.152
+ },
+ "resumo_classe": {
+  "substituicao": 21,
+  "divisao_paragrafo": 17,
+  "insercao": 9,
+  "pontuacao": 4,
+  "subtitulo_h2": 3,
+  "imagem": 3,
+  "remocao": 3,
+  "separador": 3,
+  "negrito_adicionado": 2,
+  "cta": 1,
+  "italico_adicionado": 1,
+  "link_adicionado": 1,
+  "legenda": 1,
+  "tipografia_aspas": 1,
+  "titulo_post": 1
+ },
+ "resumo_natureza": {
+  "estilo": 59,
+  "layout-substack": 8,
+  "marketing": 3,
+  "conteúdo/fato": 1
+ },
+ "sinais": {
+  "reversao": 28,
+  "acrescimo_autoral": 30
+ },
+ "operacoes": [
+  {
+   "classe": "subtitulo_h2",
+   "natureza": "estilo",
+   "antes": "A conta batia. O produto, não.",
+   "depois": "",
+   "palavras_antes": 6,
+   "palavras_depois": 0,
+   "bloco_antes": 0,
+   "bloco_depois": null,
+   "sinais": [
+    "reversao"
+   ],
+   "restaurou_rascunho": null,
+   "origem_antes": "pipeline",
+   "contexto": " [[…]] No fim da graduação, começo",
+   "pos_antes": [
+    0,
+    9
+   ],
+   "id": 1
+  },
+  {
+   "classe": "insercao",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "como exemplo",
+   "palavras_antes": 0,
+   "palavras_depois": 2,
+   "bloco_antes": null,
+   "bloco_depois": 1,
+   "sinais": [
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "do preço de outro ativo) [[…]] para a dissertação. Eu sabia",
+   "pos_antes": [
+    69,
+    69
+   ],
+   "id": 2
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "estilo",
+   "antes": "a",
+   "depois": "uma parte da",
+   "palavras_antes": 1,
+   "palavras_depois": 3,
+   "bloco_antes": 2,
+   "bloco_depois": 1,
+   "sinais": [
+    "reversao",
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": "pipeline",
+   "contexto": "preço de outro ativo) para [[…]] dissertação. Eu sabia derivar o",
+   "pos_antes": [
+    70,
+    71
+   ],
+   "id": 3
+  },
+  {
+   "classe": "imagem",
+   "natureza": "layout-substack",
+   "antes": "",
+   "depois": "⟦IMG⟧",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": null,
+   "bloco_depois": 2,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "ativo) para a dissertação. [[…]] Eu sabia derivar o modelo inteiro",
+   "pos_antes": [
+    73,
+    73
+   ],
+   "tipo": "insercao",
+   "id": 4
+  },
+  {
+   "classe": "insercao",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "Uma variante do consagrado modelo de Black-Scholes.",
+   "palavras_antes": 0,
+   "palavras_depois": 7,
+   "bloco_antes": null,
+   "bloco_depois": 1,
+   "sinais": [
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "ativo) para a dissertação. [[…]] Eu sabia derivar o modelo inteiro",
+   "pos_antes": [
+    73,
+    73
+   ],
+   "id": 5
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "estilo",
+   "antes": "mais difícil",
+   "depois": "um desafio",
+   "palavras_antes": 2,
+   "palavras_depois": 2,
+   "bloco_antes": 3,
+   "bloco_depois": 4,
+   "sinais": [
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": "rascunho",
+   "contexto": "no mercado. Foi a parte [[…]] da dissertação inteira: não a",
+   "pos_antes": [
+    126,
+    128
+   ],
+   "id": 6
+  },
+  {
+   "classe": "remocao",
+   "natureza": "estilo",
+   "antes": "inteira",
+   "depois": "",
+   "palavras_antes": 1,
+   "palavras_depois": 0,
+   "bloco_antes": 3,
+   "bloco_depois": null,
+   "sinais": [
+    "reversao"
+   ],
+   "restaurou_rascunho": null,
+   "origem_antes": "pipeline",
+   "contexto": "a parte mais difícil da dissertação [[…]] : não a matemática, que",
+   "pos_antes": [
+    130,
+    131
+   ],
+   "id": 7
+  },
+  {
+   "classe": "imagem",
+   "natureza": "layout-substack",
+   "antes": "⟦IMG⟧",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 5,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "as coisas fora de ordem. [[…]] Bem-vindo à Spoiler Esse é o",
+   "pos_antes": [
+    199,
+    200
+   ],
+   "tipo": "remocao",
+   "id": 8
+  },
+  {
+   "classe": "separador",
+   "natureza": "layout-substack",
+   "antes": "",
+   "depois": "⟦HR⟧",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": null,
+   "bloco_depois": 7,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "as coisas fora de ordem. [[…]] Bem-vindo à Spoiler Esse é o",
+   "pos_antes": [
+    199,
+    200
+   ],
+   "tipo": "insercao",
+   "id": 9
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "estilo",
+   "antes": "[LINK: post",
+   "depois": "em",
+   "palavras_antes": 2,
+   "palavras_depois": 1,
+   "bloco_antes": 7,
+   "bloco_depois": 10,
+   "sinais": [
+    "reversao",
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": "pipeline",
+   "contexto": "ideia que já usamos por aqui [[…]] \"O Mundo Invertido dos Investimentos",
+   "pos_antes": [
+    251,
+    255
+   ],
+   "id": 10
+  },
+  {
+   "classe": "pontuacao",
+   "natureza": "estilo",
+   "antes": "]",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 7,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "O Mundo Invertido dos Investimentos \" [[…]] : o mundo invertido, o",
+   "pos_antes": [
+    262,
+    263
+   ],
+   "id": 11
+  },
+  {
+   "classe": "separador",
+   "natureza": "layout-substack",
+   "antes": "",
+   "depois": "⟦HR⟧",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": null,
+   "bloco_depois": 12,
+   "sinais": [
+    "reversao"
+   ],
+   "restaurou_rascunho": null,
+   "origem_antes": "pipeline",
+   "contexto": "qual conhecimento você constrói primeiro. [[…]] Pesquisa nova busca problema novo,",
+   "pos_antes": [
+    317,
+    329
+   ],
+   "tipo": "insercao",
+   "id": 12
+  },
+  {
+   "classe": "imagem",
+   "natureza": "layout-substack",
+   "antes": "",
+   "depois": "⟦IMG⟧",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": null,
+   "bloco_depois": 13,
+   "sinais": [
+    "reversao"
+   ],
+   "restaurou_rascunho": null,
+   "origem_antes": "pipeline",
+   "contexto": "qual conhecimento você constrói primeiro. [[…]] Pesquisa nova busca problema novo,",
+   "pos_antes": [
+    317,
+    329
+   ],
+   "tipo": "insercao",
+   "id": 13
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "estilo",
+   "antes": "Não é falha pessoal. Tem uma explicação simples para isso.",
+   "depois": "A Fronteira",
+   "palavras_antes": 10,
+   "palavras_depois": 2,
+   "bloco_antes": 8,
+   "bloco_depois": 14,
+   "sinais": [
+    "reversao",
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": "pipeline",
+   "contexto": "qual conhecimento você constrói primeiro. [[…]] Pesquisa nova busca problema novo,",
+   "pos_antes": [
+    317,
+    329
+   ],
+   "id": 14
+  },
+  {
+   "classe": "subtitulo_h2",
+   "natureza": "estilo",
+   "antes": "A segunda lacuna: dinheiro no tempo",
+   "depois": "Lacunas",
+   "palavras_antes": 6,
+   "palavras_depois": 1,
+   "bloco_antes": 11,
+   "bloco_depois": 18,
+   "sinais": [
+    "reversao",
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": "pipeline",
+   "contexto": "que deveria vir antes dela. [[…]] A primeira lacuna era o produto",
+   "pos_antes": [
+    449,
+    456
+   ],
+   "id": 15
+  },
+  {
+   "classe": "insercao",
+   "natureza": "conteúdo/fato",
+   "antes": "",
+   "depois": "a compreensão prática do produto. Eu sabia explicar o modelo inteiro: a equação, as hipóteses por trás de cada termo, a lógica que leva de um pressuposto ao outro. Conseguia justificar cada passagem no quadro. O que eu não conseguia era responder a uma pergunta bem mais simples: por que alguém compra aquele contrato? Que necessidade ele resolve para quem está do outro lado da mesa, protegendo uma posição, especulando, tentando limitar um risco que já existia antes de qualquer fórmula aparecer? Essa pergunta não está na dedução matemática. Está na mesa de operações, na razão de existir do instrumento antes de existir o modelo que o precifica. A matemática descreve",
+   "palavras_antes": 0,
+   "palavras_depois": 111,
+   "bloco_antes": null,
+   "bloco_depois": 19,
+   "sinais": [
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "no tempo A primeira lacuna era [[…]] o produto. A segunda,",
+   "pos_antes": [
+    460,
+    460
+   ],
+   "id": 16,
+   "natureza_fonte": "GATE A, 2026-11-15: parágrafo de conteúdo acrescentado pelo autor"
+  },
+  {
+   "classe": "insercao",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": ". Ela não é o produto. E é fácil confundir as duas coisas quando você aprendeu uma sem nunca ter visto a outra de perto",
+   "palavras_antes": 0,
+   "palavras_depois": 24,
+   "bloco_antes": null,
+   "bloco_depois": 21,
+   "sinais": [
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "A primeira lacuna era o produto [[…]] . A segunda, que demorei",
+   "pos_antes": [
+    462,
+    462
+   ],
+   "id": 17
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "estilo",
+   "antes": "nomear",
+   "depois": "perceber",
+   "palavras_antes": 1,
+   "palavras_depois": 1,
+   "bloco_antes": 12,
+   "bloco_depois": 22,
+   "sinais": [
+    "reversao",
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": "pipeline",
+   "contexto": "segunda, que demorei mais para [[…]] , era mais básica ainda.",
+   "pos_antes": [
+    470,
+    471
+   ],
+   "id": 18
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "estilo",
+   "antes": "bater",
+   "depois": "ficar",
+   "palavras_antes": 1,
+   "palavras_depois": 1,
+   "bloco_antes": 13,
+   "bloco_depois": 23,
+   "sinais": [
+    "reversao",
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": "pipeline",
+   "contexto": "uma régua conveniente para a história [[…]] melhor. Pega o livro-texto que",
+   "pos_antes": [
+    579,
+    580
+   ],
+   "id": 19
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "estilo",
+   "antes": "Pega",
+   "depois": "Se você pegar, por exemplo,",
+   "palavras_antes": 1,
+   "palavras_depois": 5,
+   "bloco_antes": 13,
+   "bloco_depois": 24,
+   "sinais": [
+    "reversao",
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": "pipeline",
+   "contexto": "para a história bater melhor. [[…]] o livro-texto que qualquer profissional de",
+   "pos_antes": [
+    582,
+    583
+   ],
+   "id": 20
+  },
+  {
+   "classe": "pontuacao",
+   "natureza": "estilo",
+   "antes": "—",
+   "depois": ",",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 14,
+   "bloco_depois": 27,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "ruim) não pede matemática avançada [[…]] pede só \"entender conceitos financeiros",
+   "pos_antes": [
+    777,
+    778
+   ],
+   "id": 21
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "estilo",
+   "antes": "só",
+   "depois": "apenas",
+   "palavras_antes": 1,
+   "palavras_depois": 1,
+   "bloco_antes": 14,
+   "bloco_depois": 27,
+   "sinais": [
+    "reversao",
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": "pipeline",
+   "contexto": "não pede matemática avançada — pede [[…]] \"entender conceitos financeiros simples,",
+   "pos_antes": [
+    779,
+    780
+   ],
+   "id": 22
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "estilo",
+   "antes": "na marra",
+   "depois": "com o tempo",
+   "palavras_antes": 2,
+   "palavras_depois": 3,
+   "bloco_antes": 14,
+   "bloco_depois": 29,
+   "sinais": [
+    "reversao",
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": "pipeline",
+   "contexto": "uma coisa que eu só aprendi [[…]] : o gargalo raramente é a",
+   "pos_antes": [
+    812,
+    814
+   ],
+   "id": 23
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "estilo",
+   "antes": "raramente é a",
+   "depois": "muitas vezes não vai estar na",
+   "palavras_antes": 3,
+   "palavras_depois": 6,
+   "bloco_antes": 14,
+   "bloco_depois": 29,
+   "sinais": [
+    "reversao",
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": "pipeline",
+   "contexto": "aprendi na marra: o gargalo [[…]] matemática. É o alicerce.",
+   "pos_antes": [
+    817,
+    820
+   ],
+   "id": 24
+  },
+  {
+   "classe": "insercao",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "dos modelos",
+   "palavras_antes": 0,
+   "palavras_depois": 2,
+   "bloco_antes": null,
+   "bloco_depois": 29,
+   "sinais": [
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "o gargalo raramente é a matemática [[…]] . É o alicerce. ⟦IMG⟧",
+   "pos_antes": [
+    821,
+    821
+   ],
+   "id": 25
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "estilo",
+   "antes": "É o",
+   "depois": "Mas no",
+   "palavras_antes": 2,
+   "palavras_depois": 2,
+   "bloco_antes": 14,
+   "bloco_depois": 29,
+   "sinais": [
+    "reversao",
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": "pipeline",
+   "contexto": "gargalo raramente é a matemática. [[…]] alicerce. ⟦IMG⟧ Não é só",
+   "pos_antes": [
+    822,
+    824
+   ],
+   "id": 26
+  },
+  {
+   "classe": "insercao",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "ou doutorado",
+   "palavras_antes": 0,
+   "palavras_depois": 2,
+   "bloco_antes": null,
+   "bloco_depois": 32,
+   "sinais": [
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "é problema de quem fez mestrado [[…]] , não seu. Talvez seja",
+   "pos_antes": [
+    846,
+    846
+   ],
+   "id": 27
+  },
+  {
+   "classe": "remocao",
+   "natureza": "estilo",
+   "antes": "já",
+   "depois": "",
+   "palavras_antes": 1,
+   "palavras_depois": 0,
+   "bloco_antes": 17,
+   "bloco_depois": null,
+   "sinais": [
+    "reversao"
+   ],
+   "restaurou_rascunho": null,
+   "origem_antes": "pipeline",
+   "contexto": "no meio de uma equipe que [[…]] trabalha na ponta difícil. Eu",
+   "pos_antes": [
+    887,
+    888
+   ],
+   "id": 28
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "estilo",
+   "antes": "na ponta difícil",
+   "depois": "com um tema sensível",
+   "palavras_antes": 3,
+   "palavras_depois": 4,
+   "bloco_antes": 17,
+   "bloco_depois": 34,
+   "sinais": [
+    "reversao",
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": "pipeline",
+   "contexto": "de uma equipe que já trabalha [[…]] . Eu não tenho como te",
+   "pos_antes": [
+    889,
+    892
+   ],
+   "id": 29
+  },
+  {
+   "classe": "remocao",
+   "natureza": "estilo",
+   "antes": ": não achei um estudo que meça quantos estagiários caem exatamente nessa cadeira, e prefiro admitir a lacuna a inventar um número para fechar o argumento bonito",
+   "depois": "",
+   "palavras_antes": 26,
+   "palavras_depois": 0,
+   "bloco_antes": 18,
+   "bloco_depois": null,
+   "sinais": [
+    "reversao"
+   ],
+   "restaurou_rascunho": null,
+   "origem_antes": "pipeline",
+   "contexto": "se isso é raro ou comum [[…]] . O que eu posso te",
+   "pos_antes": [
+    905,
+    933
+   ],
+   "id": 30
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "estilo",
+   "antes": "nela —",
+   "depois": "numa sitação dessas.",
+   "palavras_antes": 1,
+   "palavras_depois": 3,
+   "bloco_antes": 18,
+   "bloco_depois": 36,
+   "sinais": [
+    "reversao",
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": "pipeline",
+   "contexto": "que, se você já esteve [[…]] sabendo rodar o modelo, sem",
+   "pos_antes": [
+    947,
+    949
+   ],
+   "id": 31
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "estilo",
+   "antes": "rodar",
+   "depois": "executar",
+   "palavras_antes": 1,
+   "palavras_depois": 1,
+   "bloco_antes": 18,
+   "bloco_depois": 36,
+   "sinais": [
+    "reversao",
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": "pipeline",
+   "contexto": "você já esteve nela — sabendo [[…]] o modelo, sem saber muito",
+   "pos_antes": [
+    950,
+    951
+   ],
+   "id": 32
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "estilo",
+   "antes": "modelo",
+   "depois": "seu papel",
+   "palavras_antes": 1,
+   "palavras_depois": 2,
+   "bloco_antes": 18,
+   "bloco_depois": 36,
+   "sinais": [
+    "reversao",
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": "pipeline",
+   "contexto": "esteve nela — sabendo rodar o [[…]] , sem saber muito bem por",
+   "pos_antes": [
+    952,
+    953
+   ],
+   "id": 33
+  },
+  {
+   "classe": "insercao",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "mas",
+   "palavras_antes": 0,
+   "palavras_depois": 1,
+   "bloco_antes": null,
+   "bloco_depois": 36,
+   "sinais": [
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "— sabendo rodar o modelo, [[…]] sem saber muito bem por que",
+   "pos_antes": [
+    954,
+    954
+   ],
+   "id": 34
+  },
+  {
+   "classe": "pontuacao",
+   "natureza": "estilo",
+   "antes": "—",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 18,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "fato a rotina que está executando [[…]] , você reconheceu a cena antes",
+   "pos_antes": [
+    975,
+    976
+   ],
+   "id": 35
+  },
+  {
+   "classe": "subtitulo_h2",
+   "natureza": "estilo",
+   "antes": "Sem orgulho, sem falsa humildade",
+   "depois": "Não precisa ter vergonha",
+   "palavras_antes": 5,
+   "palavras_depois": 4,
+   "bloco_antes": 19,
+   "bloco_depois": 38,
+   "sinais": [
+    "reversao",
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": "pipeline",
+   "contexto": "se já aconteceu com você. [[…]] Não é vergonha, e também",
+   "pos_antes": [
+    1006,
+    1012
+   ],
+   "id": 36
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "estilo",
+   "antes": "ficado lá, achando que aquilo bastava",
+   "depois": "demorado a fortalecer os fundamentos",
+   "palavras_antes": 6,
+   "palavras_depois": 5,
+   "bloco_antes": 20,
+   "bloco_depois": 42,
+   "sinais": [
+    "reversao",
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": "pipeline",
+   "contexto": "pela ponta difícil. Foi ter [[…]] . Um Convite para Você Foi",
+   "pos_antes": [
+    1080,
+    1087
+   ],
+   "id": 37
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "estilo",
+   "antes": "preparar",
+   "depois": "iniciar",
+   "palavras_antes": 1,
+   "palavras_depois": 1,
+   "bloco_antes": 22,
+   "bloco_depois": 44,
+   "sinais": [
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": "rascunho",
+   "contexto": "tenha vivido também, que decidi [[…]] , a partir de setembro,",
+   "pos_antes": [
+    1112,
+    1113
+   ],
+   "id": 38
+  },
+  {
+   "classe": "insercao",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "com trasmisão",
+   "palavras_antes": 0,
+   "palavras_depois": 2,
+   "bloco_antes": null,
+   "bloco_depois": 44,
+   "sinais": [
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "setembro, um curso gratuito, [[…]] ao vivo, no YouTube,",
+   "pos_antes": [
+    1123,
+    1123
+   ],
+   "id": 39
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "estilo",
+   "antes": ",",
+   "depois": "pelo nosso canal",
+   "palavras_antes": 0,
+   "palavras_depois": 3,
+   "bloco_antes": 22,
+   "bloco_depois": 44,
+   "sinais": [
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "um curso gratuito, ao vivo [[…]] no YouTube, sobre um dos",
+   "pos_antes": [
+    1125,
+    1126
+   ],
+   "id": 40
+  },
+  {
+   "classe": "pontuacao",
+   "natureza": "estilo",
+   "antes": ":",
+   "depois": ",",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 22,
+   "bloco_depois": 45,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "tempo. É simples de calcular [[…]] a maioria das pessoas que já",
+   "pos_antes": [
+    1158,
+    1159
+   ],
+   "id": 41
+  },
+  {
+   "classe": "insercao",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "e como utiliza-la,",
+   "palavras_antes": 0,
+   "palavras_depois": 3,
+   "bloco_antes": null,
+   "bloco_depois": 45,
+   "sinais": [
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "de fato o que ela significa [[…]] é outra história. E é",
+   "pos_antes": [
+    1180,
+    1180
+   ],
+   "id": 42
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "estilo",
+   "antes": "cadastro",
+   "depois": "curso",
+   "palavras_antes": 1,
+   "palavras_depois": 1,
+   "bloco_antes": 23,
+   "bloco_depois": 47,
+   "sinais": [
+    "reversao"
+   ],
+   "restaurou_rascunho": true,
+   "origem_antes": "pipeline",
+   "contexto": "Se você quer assistir, o [[…]] é gratuito: [LINK:",
+   "pos_antes": [
+    1209,
+    1210
+   ],
+   "id": 43
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "estilo",
+   "antes": ": [LINK: formulário de cadastro — curso Fundamentos",
+   "depois": ". Basta se inscrever em nosso canal",
+   "palavras_antes": 6,
+   "palavras_depois": 6,
+   "bloco_antes": 23,
+   "bloco_depois": 47,
+   "sinais": [
+    "reversao",
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": "pipeline",
+   "contexto": "assistir, o cadastro é gratuito [[…]] do Valor do Dinheiro no Tempo",
+   "pos_antes": [
+    1212,
+    1222
+   ],
+   "id": 44
+  },
+  {
+   "classe": "separador",
+   "natureza": "layout-substack",
+   "antes": "⟦HR⟧",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 24,
+   "bloco_depois": null,
+   "sinais": [
+    "reversao"
+   ],
+   "restaurou_rascunho": null,
+   "origem_antes": "pipeline",
+   "contexto": "de cadastro — curso Fundamentos do [[…]] ",
+   "pos_antes": [
+    1223,
+    1272
+   ],
+   "tipo": "remocao",
+   "id": 45
+  },
+  {
+   "classe": "cta",
+   "natureza": "marketing",
+   "antes": "",
+   "depois": "⟦CTA⟧",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": null,
+   "bloco_depois": 48,
+   "sinais": [
+    "reversao"
+   ],
+   "restaurou_rascunho": null,
+   "origem_antes": "pipeline",
+   "contexto": "de cadastro — curso Fundamentos do [[…]] ",
+   "pos_antes": [
+    1223,
+    1272
+   ],
+   "tipo": "insercao",
+   "id": 46
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "marketing",
+   "antes": "Valor do Dinheiro no Tempo]. E se você conhece alguém que também estaria começando pela ponta errada sem saber, manda esse texto por WhatsApp e pede para essa pessoa se cadastrar também. Menos Upside Down, mais alicerce. Vejo vocês em setembro.",
+   "depois": "Youtube!",
+   "palavras_antes": 41,
+   "palavras_depois": 1,
+   "bloco_antes": 23,
+   "bloco_depois": 47,
+   "sinais": [
+    "reversao"
+   ],
+   "restaurou_rascunho": null,
+   "origem_antes": "pipeline",
+   "contexto": "de cadastro — curso Fundamentos do [[…]] ",
+   "pos_antes": [
+    1223,
+    1272
+   ],
+   "id": 47,
+   "natureza_fonte": "GATE A, 2026-11-15: CTA do curso reescrito"
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "eu dominava, mas o instrumento em si.",
+   "depois": "E digo isso sem sombra de orgulho nem",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 3,
+   "bloco_depois": 5,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "eu dominava, mas o instrumento em si. E digo isso sem sombra de orgulho nem",
+   "pos_antes": [
+    145,
+    147
+   ],
+   "id": 48
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "viver na carreira, antes de você viver.",
+   "depois": "E o primeiro spoiler retoma uma ideia que",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 7,
+   "bloco_depois": 10,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "viver na carreira, antes de você viver. E o primeiro spoiler retoma uma ideia que",
+   "pos_antes": [
+    238,
+    240
+   ],
+   "id": 49
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "vez foi sobre qual produto você compra primeiro.",
+   "depois": "Dessa vez é sobre qual conhecimento você constrói",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 7,
+   "bloco_depois": 11,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "vez foi sobre qual produto você compra primeiro. Dessa vez é sobre qual conhecimento você constrói",
+   "pos_antes": [
+    306,
+    308
+   ],
+   "id": 50
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "resolvido academicamente, ainda que longe de morto.",
+   "depois": "Não é por acaso que quem está estudando",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 9,
+   "bloco_depois": 16,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "resolvido academicamente, ainda que longe de morto. Não é por acaso que quem está estudando",
+   "pos_antes": [
+    400,
+    402
+   ],
+   "id": 51
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "no tempo A primeira lacuna era o produto.",
+   "depois": "A segunda, que demorei mais para nomear",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 12,
+   "bloco_depois": 22,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "no tempo A primeira lacuna era o produto. A segunda, que demorei mais para nomear",
+   "pos_antes": [
+    462,
+    464
+   ],
+   "id": 52
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "lá pelo capítulo 10, dependendo da edição.",
+   "depois": "Faz sentido, pensando bem: não dá",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 13,
+   "bloco_depois": 25,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "lá pelo capítulo 10, dependendo da edição. Faz sentido, pensando bem: não dá",
+   "pos_antes": [
+    638,
+    640
+   ],
+   "id": 53
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "porque cada ferramenta dali vai ser reaproveitada depois.",
+   "depois": "E tem uma prova ainda mais direta,",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 14,
+   "bloco_depois": 27,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "porque cada ferramenta dali vai ser reaproveitada depois. E tem uma prova ainda mais direta,",
+   "pos_antes": [
+    709,
+    711
+   ],
+   "id": 54
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "conceitos financeiros simples, como valor presente \".",
+   "depois": "Quem monta esses currículos já sabe, antes",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 14,
+   "bloco_depois": 29,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "conceitos financeiros simples, como valor presente \". Quem monta esses currículos já sabe, antes",
+   "pos_antes": [
+    790,
+    792
+   ],
+   "id": 55
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "problema de quem fez mestrado, não seu.",
+   "depois": "Talvez seja. Talvez sua entrada tenha sido",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 17,
+   "bloco_depois": 33,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "problema de quem fez mestrado, não seu. Talvez seja. Talvez sua entrada tenha sido",
+   "pos_antes": [
+    849,
+    851
+   ],
+   "id": 56
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "fez mestrado, não seu. Talvez seja.",
+   "depois": "Talvez sua entrada tenha sido bem diferente,",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 17,
+   "bloco_depois": 34,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "fez mestrado, não seu. Talvez seja. Talvez sua entrada tenha sido bem diferente,",
+   "pos_antes": [
+    852,
+    854
+   ],
+   "id": 57
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "inventar um número para fechar o argumento bonito.",
+   "depois": "O que eu posso te dizer é que",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 18,
+   "bloco_depois": 36,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "inventar um número para fechar o argumento bonito. O que eu posso te dizer é que",
+   "pos_antes": [
+    933,
+    935
+   ],
+   "id": 58
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "a cena antes de eu terminar de descrever.",
+   "depois": "A pergunta que interessa não é se isso",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 18,
+   "bloco_depois": 37,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "a cena antes de eu terminar de descrever. A pergunta que interessa não é se isso",
+   "pos_antes": [
+    987,
+    989
+   ],
+   "id": 59
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "vergonha, e também não é para minimizar.",
+   "depois": "É reconhecer o que faltou e voltar para",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 20,
+   "bloco_depois": 40,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "vergonha, e também não é para minimizar. É reconhecer o que faltou e voltar para",
+   "pos_antes": [
+    1022,
+    1024
+   ],
+   "id": 60
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "é seu currículo. É só a ordem.",
+   "depois": "Dá para voltar e preencher o alicerce depois",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 20,
+   "bloco_depois": 41,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "é seu currículo. É só a ordem. Dá para voltar e preencher o alicerce depois",
+   "pos_antes": [
+    1050,
+    1052
+   ],
+   "id": 61
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": ", do jeito que eu preenchi o meu.",
+   "depois": "O problema nunca foi ter começado pela ponta",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 20,
+   "bloco_depois": 42,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": ", do jeito que eu preenchi o meu. O problema nunca foi ter começado pela ponta",
+   "pos_antes": [
+    1067,
+    1069
+   ],
+   "id": 62
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "negligenciados: o valor do dinheiro no tempo.",
+   "depois": "É simples de calcular: a maioria das",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 22,
+   "bloco_depois": 45,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "negligenciados: o valor do dinheiro no tempo. É simples de calcular: a maioria das",
+   "pos_antes": [
+    1153,
+    1155
+   ],
+   "id": 63
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "fato o que ela significa é outra história.",
+   "depois": "E é justamente o valor do dinheiro no",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 22,
+   "bloco_depois": 46,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "fato o que ela significa é outra história. E é justamente o valor do dinheiro no",
+   "pos_antes": [
+    1183,
+    1185
+   ],
+   "id": 64
+  },
+  {
+   "classe": "negrito_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "\"entender conceitos financeiros simples, como valor presente\".",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 14,
+   "bloco_depois": 28,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "pede matemática avançada — pede só \"entender conceitos financeiros simples, como valor presente\". Quem monta esses currículos já sabe",
+   "pos_antes": [
+    780,
+    791
+   ],
+   "id": 65
+  },
+  {
+   "classe": "negrito_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "partir de setembro",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 22,
+   "bloco_depois": 44,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": ", que decidi preparar, a partir de setembro, um curso gratuito, ao",
+   "pos_antes": [
+    1115,
+    1118
+   ],
+   "id": 66
+  },
+  {
+   "classe": "italico_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "Chartered Financial Analyst",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 14,
+   "bloco_depois": 26,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": ". O currículo do CFA (Chartered Financial Analyst, a certificação mais reconhecida do",
+   "pos_antes": [
+    667,
+    670
+   ],
+   "id": 67
+  },
+  {
+   "classe": "link_adicionado",
+   "natureza": "marketing",
+   "antes": "",
+   "depois": "O Mundo Invertido dos Investimentos",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 7,
+   "bloco_depois": 10,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "aqui [LINK: post \"O Mundo Invertido dos Investimentos\"]: o mundo invertido",
+   "pos_antes": [
+    256,
+    261
+   ],
+   "id": 68
+  },
+  {
+   "classe": "legenda",
+   "natureza": "layout-substack",
+   "antes": "Ilustração: uma árvore em corte transversal. A copa, cheia e brilhando em verde, está completa. As raízes, embaixo, são curtas e finas, sem alcançar a faixa de solo firme — a árvore parece pairar, ainda não ancorada, porque a raiz não terminou de crescer.",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 15,
+   "bloco_depois": 30,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "matemática. É o alicerce. [[…]] Não é só quem veio da",
+   "pos_antes": [
+    826,
+    827
+   ],
+   "id": 69
+  },
+  {
+   "classe": "tipografia_aspas",
+   "natureza": "layout-substack",
+   "antes": "",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": null,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "",
+   "ocorrencias": 4,
+   "id": 70
+  },
+  {
+   "id": 71,
+   "classe": "titulo_post",
+   "natureza": "estilo",
+   "antes": "O Mundo Invertido das Carreiras",
+   "depois": "O Mundo Invertido das Carreiras em Finanças",
+   "palavras_antes": 5,
+   "palavras_depois": 7,
+   "bloco_antes": null,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": ""
+  }
+ ]
+}

@@ -1,0 +1,1231 @@
+{
+ "sobrevivencia": {
+  "palavras": {
+   "rascunho": {
+    "total": 27787,
+    "sobrevive": 26601,
+    "taxa": 0.957
+   },
+   "etapa 4": {
+    "total": 7473,
+    "sobrevive": 6889,
+    "taxa": 0.922
+   },
+   "etapa 6": {
+    "total": 863,
+    "sobrevive": 810,
+    "taxa": 0.939
+   },
+   "etapa 7": {
+    "total": 345,
+    "sobrevive": 312,
+    "taxa": 0.904
+   },
+   "etapa 9": {
+    "total": 3169,
+    "sobrevive": 2819,
+    "taxa": 0.89
+   },
+   "etapa 10": {
+    "total": 441,
+    "sobrevive": 353,
+    "taxa": 0.8
+   }
+  },
+  "travessao": {
+   "rascunho": {
+    "total": 84,
+    "sobrevive": 56,
+    "taxa": 0.667
+   },
+   "etapa 4": {
+    "total": 93,
+    "sobrevive": 47,
+    "taxa": 0.505
+   },
+   "etapa 6": {
+    "total": 14,
+    "sobrevive": 8,
+    "taxa": 0.571
+   },
+   "etapa 9": {
+    "total": 36,
+    "sobrevive": 22,
+    "taxa": 0.611
+   },
+   "etapa 10": {
+    "total": 2,
+    "sobrevive": 1,
+    "taxa": 0.5
+   }
+  },
+  "aspas_simples": {
+   "rascunho": {
+    "total": 46,
+    "sobrevive": 26,
+    "taxa": 0.565
+   },
+   "etapa 4": {
+    "total": 66,
+    "sobrevive": 38,
+    "taxa": 0.576
+   },
+   "etapa 6": {
+    "total": 35,
+    "sobrevive": 20,
+    "taxa": 0.571
+   },
+   "etapa 7": {
+    "total": 2,
+    "sobrevive": 1,
+    "taxa": 0.5
+   },
+   "etapa 9": {
+    "total": 86,
+    "sobrevive": 44,
+    "taxa": 0.512
+   },
+   "etapa 10": {
+    "total": 4,
+    "sobrevive": 2,
+    "taxa": 0.5
+   }
+  }
+ },
+ "matriz_classe_etapa": [
+  {
+   "classe": "divisao_paragrafo",
+   "etapa": "etapa 10",
+   "n": 3
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "etapa": "etapa 4",
+   "n": 38
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "etapa": "etapa 6",
+   "n": 2
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "etapa": "etapa 9",
+   "n": 15
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "etapa": "rascunho",
+   "n": 115
+  },
+  {
+   "classe": "fusao_paragrafo",
+   "etapa": "etapa 4",
+   "n": 2
+  },
+  {
+   "classe": "fusao_paragrafo",
+   "etapa": "rascunho",
+   "n": 3
+  },
+  {
+   "classe": "insercao",
+   "etapa": "etapa 4",
+   "n": 7
+  },
+  {
+   "classe": "insercao",
+   "etapa": "etapa 9",
+   "n": 2
+  },
+  {
+   "classe": "insercao",
+   "etapa": "rascunho",
+   "n": 13
+  },
+  {
+   "classe": "italico_removido",
+   "etapa": "etapa 4",
+   "n": 2
+  },
+  {
+   "classe": "italico_removido",
+   "etapa": "rascunho",
+   "n": 1
+  },
+  {
+   "classe": "legenda",
+   "etapa": "etapa 4",
+   "n": 1
+  },
+  {
+   "classe": "pontuacao",
+   "etapa": "etapa 10",
+   "n": 3
+  },
+  {
+   "classe": "pontuacao",
+   "etapa": "etapa 4",
+   "n": 50
+  },
+  {
+   "classe": "pontuacao",
+   "etapa": "etapa 6",
+   "n": 14
+  },
+  {
+   "classe": "pontuacao",
+   "etapa": "etapa 7",
+   "n": 1
+  },
+  {
+   "classe": "pontuacao",
+   "etapa": "etapa 9",
+   "n": 38
+  },
+  {
+   "classe": "pontuacao",
+   "etapa": "rascunho",
+   "n": 52
+  },
+  {
+   "classe": "remocao",
+   "etapa": "etapa 10",
+   "n": 3
+  },
+  {
+   "classe": "remocao",
+   "etapa": "etapa 4",
+   "n": 21
+  },
+  {
+   "classe": "remocao",
+   "etapa": "etapa 6",
+   "n": 4
+  },
+  {
+   "classe": "remocao",
+   "etapa": "etapa 9",
+   "n": 9
+  },
+  {
+   "classe": "remocao",
+   "etapa": "rascunho",
+   "n": 26
+  },
+  {
+   "classe": "substituicao",
+   "etapa": "etapa 10",
+   "n": 9
+  },
+  {
+   "classe": "substituicao",
+   "etapa": "etapa 4",
+   "n": 38
+  },
+  {
+   "classe": "substituicao",
+   "etapa": "etapa 6",
+   "n": 1
+  },
+  {
+   "classe": "substituicao",
+   "etapa": "etapa 7",
+   "n": 2
+  },
+  {
+   "classe": "substituicao",
+   "etapa": "etapa 9",
+   "n": 14
+  },
+  {
+   "classe": "substituicao",
+   "etapa": "rascunho",
+   "n": 42
+  },
+  {
+   "classe": "subtitulo_h2",
+   "etapa": "etapa 10",
+   "n": 1
+  },
+  {
+   "classe": "subtitulo_h2",
+   "etapa": "etapa 4",
+   "n": 6
+  },
+  {
+   "classe": "subtitulo_h2",
+   "etapa": "rascunho",
+   "n": 19
+  }
+ ],
+ "enfase_adicionada": [
+  {
+   "classe": "italico_adicionado",
+   "origem": "devolve o que a etapas 6–9 tirou",
+   "n": 1
+  },
+  {
+   "classe": "italico_adicionado",
+   "origem": "novo (autor)",
+   "n": 59
+  },
+  {
+   "classe": "negrito_adicionado",
+   "origem": "devolve o que a etapa 4 tirou",
+   "n": 9
+  },
+  {
+   "classe": "negrito_adicionado",
+   "origem": "devolve o que a etapas 6–9 tirou",
+   "n": 4
+  },
+  {
+   "classe": "negrito_adicionado",
+   "origem": "novo (autor)",
+   "n": 115
+  }
+ ],
+ "por_post": [
+  {
+   "slug_repo": "2026-08-10-o-mundo-invertido-dos-investimentos",
+   "rascunho_tipo": "transcricao",
+   "base_commit": "atual",
+   "v9_commit": "518ec2b",
+   "v4_arquivo": "posts/2026-08-10-o-mundo-invertido-dos-investimentos/processo/04-draft-v1.md",
+   "tokens_por_etapa": {
+    "etapa 4": 1017,
+    "rascunho": 211,
+    "etapa 9": 216,
+    "etapa 7": 8,
+    "etapa 6": 51,
+    "etapa 10": 4
+   },
+   "sobrevivencia": {
+    "palavras": {
+     "etapa 4": [
+      865,
+      864
+     ],
+     "rascunho": [
+      162,
+      162
+     ],
+     "etapa 9": [
+      179,
+      138
+     ],
+     "etapa 7": [
+      5,
+      3
+     ],
+     "etapa 6": [
+      41,
+      41
+     ]
+    },
+    "travessao": {
+     "etapa 4": [
+      15,
+      15
+     ],
+     "etapa 9": [
+      2,
+      1
+     ]
+    },
+    "aspas_simples": {
+     "etapa 9": [
+      2,
+      2
+     ],
+     "etapa 4": [
+      2,
+      2
+     ]
+    }
+   }
+  },
+  {
+   "slug_repo": "2026-08-14-o-papel-do-cdb-na-transformacao-de-prazos",
+   "rascunho_tipo": "transcricao",
+   "base_commit": "atual",
+   "v9_commit": "583170e",
+   "v4_arquivo": "posts/2026-08-14-o-papel-do-cdb-na-transformacao-de-prazos/processo/04-draft-v1.md",
+   "tokens_por_etapa": {
+    "rascunho": 503,
+    "etapa 4": 1195,
+    "etapa 9": 96,
+    "etapa 6": 34,
+    "etapa 7": 40
+   },
+   "sobrevivencia": {
+    "palavras": {
+     "rascunho": [
+      411,
+      398
+     ],
+     "etapa 4": [
+      1017,
+      902
+     ],
+     "etapa 9": [
+      67,
+      14
+     ],
+     "etapa 6": [
+      16,
+      15
+     ],
+     "etapa 7": [
+      32,
+      32
+     ]
+    },
+    "travessao": {
+     "etapa 4": [
+      25,
+      1
+     ],
+     "etapa 6": [
+      1,
+      0
+     ],
+     "etapa 9": [
+      2,
+      0
+     ],
+     "rascunho": [
+      1,
+      0
+     ]
+    },
+    "aspas_simples": {
+     "etapa 6": [
+      12,
+      1
+     ],
+     "etapa 9": [
+      7,
+      1
+     ],
+     "etapa 7": [
+      1,
+      0
+     ]
+    }
+   }
+  },
+  {
+   "slug_repo": "2026-08-17-o-mundo-invertido-das-carreiras-em-financas",
+   "rascunho_tipo": "transcricao",
+   "base_commit": "atual",
+   "v9_commit": "5537dac",
+   "v4_arquivo": "posts/2026-08-17-o-mundo-invertido-das-carreiras-em-financas/processo/04-draft-v1.md",
+   "tokens_por_etapa": {
+    "etapa 4": 918,
+    "rascunho": 234,
+    "etapa 10": 91,
+    "etapa 6": 13,
+    "etapa 7": 15,
+    "etapa 9": 1
+   },
+   "sobrevivencia": {
+    "palavras": {
+     "rascunho": [
+      187,
+      171
+     ],
+     "etapa 4": [
+      783,
+      690
+     ],
+     "etapa 10": [
+      63,
+      57
+     ],
+     "etapa 6": [
+      12,
+      12
+     ],
+     "etapa 7": [
+      12,
+      12
+     ],
+     "etapa 9": [
+      1,
+      1
+     ]
+    },
+    "travessao": {
+     "etapa 4": [
+      4,
+      0
+     ]
+    },
+    "aspas_simples": {}
+   }
+  },
+  {
+   "slug_repo": "2026-08-25-dividir-para-nao-correr-risco",
+   "rascunho_tipo": "rascunho",
+   "base_commit": "atual",
+   "v9_commit": "29adc07",
+   "v4_arquivo": "posts/2026-08-25-dividir-para-nao-correr-risco/processo/04-draft-v1.md",
+   "tokens_por_etapa": {
+    "rascunho": 2758,
+    "etapa 4": 505,
+    "etapa 9": 75
+   },
+   "sobrevivencia": {
+    "palavras": {
+     "rascunho": [
+      2265,
+      2079
+     ],
+     "etapa 4": [
+      391,
+      335
+     ],
+     "etapa 9": [
+      53,
+      47
+     ]
+    },
+    "travessao": {
+     "etapa 4": [
+      8,
+      5
+     ],
+     "etapa 9": [
+      2,
+      0
+     ],
+     "rascunho": [
+      1,
+      1
+     ]
+    },
+    "aspas_simples": {
+     "rascunho": [
+      24,
+      6
+     ],
+     "etapa 4": [
+      24,
+      6
+     ]
+    }
+   }
+  },
+  {
+   "slug_repo": "2026-09-01-quando-os-modelos-se-rebelam",
+   "rascunho_tipo": "rascunho",
+   "base_commit": "4a8a1ee",
+   "v9_commit": "4a8a1ee",
+   "v4_arquivo": "posts/2026-09-01-quando-os-modelos-se-rebelam/processo/04-draft-v1.md",
+   "tokens_por_etapa": {
+    "etapa 9": 283,
+    "rascunho": 3548,
+    "etapa 4": 689,
+    "etapa 6": 101,
+    "etapa 7": 3
+   },
+   "sobrevivencia": {
+    "palavras": {
+     "etapa 9": [
+      219,
+      110
+     ],
+     "rascunho": [
+      2967,
+      2697
+     ],
+     "etapa 4": [
+      568,
+      511
+     ],
+     "etapa 6": [
+      63,
+      63
+     ],
+     "etapa 7": [
+      3,
+      3
+     ]
+    },
+    "travessao": {
+     "etapa 4": [
+      18,
+      12
+     ],
+     "etapa 9": [
+      6,
+      2
+     ],
+     "rascunho": [
+      13,
+      8
+     ],
+     "etapa 6": [
+      1,
+      1
+     ]
+    },
+    "aspas_simples": {
+     "etapa 4": [
+      8,
+      6
+     ],
+     "etapa 6": [
+      18,
+      16
+     ],
+     "etapa 9": [
+      14,
+      10
+     ],
+     "rascunho": [
+      2,
+      2
+     ]
+    }
+   }
+  },
+  {
+   "slug_repo": "2026-09-11-partes-dificeis-de-uma-carreira-em-financas",
+   "rascunho_tipo": "rascunho",
+   "base_commit": "atual",
+   "v9_commit": "8def7c1",
+   "v4_arquivo": "posts/2026-09-11-partes-dificeis-de-uma-carreira-em-financas/processo/04-draft-v3.md",
+   "tokens_por_etapa": {
+    "rascunho": 265,
+    "etapa 9": 1271,
+    "etapa 4": 334,
+    "etapa 6": 6
+   },
+   "sobrevivencia": {
+    "palavras": {
+     "etapa 9": [
+      1081,
+      1002
+     ],
+     "etapa 4": [
+      287,
+      282
+     ],
+     "rascunho": [
+      200,
+      184
+     ],
+     "etapa 6": [
+      4,
+      4
+     ]
+    },
+    "travessao": {
+     "etapa 9": [
+      18,
+      14
+     ],
+     "rascunho": [
+      4,
+      2
+     ],
+     "etapa 4": [
+      8,
+      5
+     ]
+    },
+    "aspas_simples": {
+     "etapa 9": [
+      22,
+      6
+     ],
+     "etapa 4": [
+      6,
+      2
+     ],
+     "rascunho": [
+      4,
+      2
+     ]
+    }
+   }
+  },
+  {
+   "slug_repo": "2026-09-18-o-agro-e-pop-o-agro-e-produto-financeiro",
+   "rascunho_tipo": "rascunho",
+   "base_commit": "atual",
+   "v9_commit": "9999663",
+   "v4_arquivo": "posts/2026-09-18-o-agro-e-pop-o-agro-e-produto-financeiro/processo/04-draft-v2.md",
+   "tokens_por_etapa": {
+    "rascunho": 1644,
+    "etapa 9": 42,
+    "etapa 4": 840,
+    "etapa 10": 35
+   },
+   "sobrevivencia": {
+    "palavras": {
+     "rascunho": [
+      1278,
+      1197
+     ],
+     "etapa 4": [
+      700,
+      564
+     ],
+     "etapa 9": [
+      22,
+      22
+     ],
+     "etapa 10": [
+      24,
+      2
+     ]
+    },
+    "travessao": {
+     "etapa 4": [
+      15,
+      9
+     ],
+     "rascunho": [
+      14,
+      7
+     ],
+     "etapa 10": [
+      1,
+      0
+     ]
+    },
+    "aspas_simples": {
+     "etapa 9": [
+      8,
+      4
+     ],
+     "etapa 4": [
+      4,
+      0
+     ],
+     "etapa 10": [
+      4,
+      2
+     ]
+    }
+   }
+  },
+  {
+   "slug_repo": "2026-09-24-borboletas-caos-e-carreira",
+   "rascunho_tipo": "rascunho",
+   "base_commit": "atual",
+   "v9_commit": "66e00c6",
+   "v4_arquivo": "posts/2026-09-24-borboletas-caos-e-carreira/processo/04-draft-v1.md",
+   "tokens_por_etapa": {
+    "rascunho": 3182,
+    "etapa 6": 14,
+    "etapa 4": 31,
+    "etapa 9": 8,
+    "etapa 7": 6,
+    "etapa 10": 5
+   },
+   "sobrevivencia": {
+    "palavras": {
+     "rascunho": [
+      2652,
+      2634
+     ],
+     "etapa 9": [
+      6,
+      6
+     ],
+     "etapa 4": [
+      2,
+      2
+     ],
+     "etapa 6": [
+      7,
+      1
+     ],
+     "etapa 7": [
+      6,
+      3
+     ],
+     "etapa 10": [
+      4,
+      0
+     ]
+    },
+    "travessao": {
+     "rascunho": [
+      1,
+      1
+     ],
+     "etapa 6": [
+      2,
+      0
+     ]
+    },
+    "aspas_simples": {
+     "etapa 4": [
+      16,
+      16
+     ]
+    }
+   }
+  },
+  {
+   "slug_repo": "2026-09-28-o-certificado-nao-muda-o-devedor",
+   "rascunho_tipo": "rascunho",
+   "base_commit": "atual",
+   "v9_commit": "9a6cf97",
+   "v4_arquivo": "posts/2026-09-28-o-certificado-nao-muda-o-devedor/processo/04-draft-v1.md",
+   "tokens_por_etapa": {
+    "rascunho": 3417,
+    "etapa 6": 319,
+    "etapa 9": 141,
+    "etapa 4": 233,
+    "etapa 7": 10,
+    "etapa 10": 111
+   },
+   "sobrevivencia": {
+    "palavras": {
+     "rascunho": [
+      2756,
+      2511
+     ],
+     "etapa 6": [
+      260,
+      237
+     ],
+     "etapa 9": [
+      107,
+      99
+     ],
+     "etapa 4": [
+      197,
+      192
+     ],
+     "etapa 7": [
+      10,
+      4
+     ],
+     "etapa 10": [
+      89,
+      89
+     ]
+    },
+    "travessao": {
+     "etapa 6": [
+      7,
+      5
+     ],
+     "rascunho": [
+      25,
+      16
+     ],
+     "etapa 9": [
+      2,
+      2
+     ],
+     "etapa 10": [
+      1,
+      1
+     ]
+    },
+    "aspas_simples": {
+     "etapa 9": [
+      4,
+      2
+     ]
+    }
+   }
+  },
+  {
+   "slug_repo": "2026-10-12-coqueiros-e-cacaueiros",
+   "rascunho_tipo": "rascunho",
+   "base_commit": "atual",
+   "v9_commit": "0bf7bc5",
+   "v4_arquivo": "posts/2026-10-12-coqueiros-e-cacaueiros/processo/04-draft-v3.md",
+   "tokens_por_etapa": {
+    "rascunho": 2623,
+    "etapa 6": 65,
+    "etapa 9": 24,
+    "etapa 4": 198,
+    "etapa 7": 1
+   },
+   "sobrevivencia": {
+    "palavras": {
+     "rascunho": [
+      2206,
+      2192
+     ],
+     "etapa 6": [
+      49,
+      49
+     ],
+     "etapa 9": [
+      16,
+      15
+     ],
+     "etapa 4": [
+      165,
+      146
+     ]
+    },
+    "travessao": {
+     "etapa 6": [
+      1,
+      0
+     ],
+     "etapa 9": [
+      1,
+      0
+     ]
+    },
+    "aspas_simples": {
+     "etapa 9": [
+      2,
+      2
+     ],
+     "etapa 6": [
+      1,
+      1
+     ],
+     "etapa 4": [
+      4,
+      4
+     ],
+     "etapa 7": [
+      1,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "slug_repo": "2026-10-15-renda-fixa-condicoes-variaveis",
+   "rascunho_tipo": "rascunho",
+   "base_commit": "atual",
+   "v9_commit": "d24d5fc",
+   "v4_arquivo": "posts/2026-10-15-renda-fixa-condicoes-variaveis/processo/04-draft-v2.md",
+   "tokens_por_etapa": {
+    "etapa 4": 285,
+    "rascunho": 4496,
+    "etapa 9": 680,
+    "etapa 10": 21
+   },
+   "sobrevivencia": {
+    "palavras": {
+     "etapa 4": [
+      233,
+      228
+     ],
+     "rascunho": [
+      3654,
+      3562
+     ],
+     "etapa 9": [
+      546,
+      525
+     ],
+     "etapa 10": [
+      16,
+      11
+     ]
+    },
+    "travessao": {
+     "rascunho": [
+      1,
+      1
+     ]
+    },
+    "aspas_simples": {
+     "etapa 9": [
+      2,
+      2
+     ]
+    }
+   }
+  },
+  {
+   "slug_repo": "2026-10-27-samurais-e-duelos",
+   "rascunho_tipo": "rascunho",
+   "base_commit": "atual",
+   "v9_commit": "afca6f7",
+   "v4_arquivo": "posts/2026-10-27-samurais-e-duelos/processo/04-draft-v2.md",
+   "tokens_por_etapa": {
+    "rascunho": 2677,
+    "etapa 4": 209,
+    "etapa 9": 28,
+    "etapa 10": 25,
+    "etapa 6": 72,
+    "etapa 7": 41
+   },
+   "sobrevivencia": {
+    "palavras": {
+     "rascunho": [
+      2186,
+      2102
+     ],
+     "etapa 4": [
+      183,
+      142
+     ],
+     "etapa 9": [
+      18,
+      12
+     ],
+     "etapa 10": [
+      24,
+      10
+     ],
+     "etapa 6": [
+      60,
+      60
+     ],
+     "etapa 7": [
+      38,
+      25
+     ]
+    },
+    "travessao": {
+     "rascunho": [
+      13,
+      10
+     ],
+     "etapa 6": [
+      1,
+      1
+     ]
+    },
+    "aspas_simples": {}
+   }
+  },
+  {
+   "slug_repo": "2026-10-30-du252-contagem-de-dias",
+   "rascunho_tipo": "rascunho",
+   "base_commit": "1839193",
+   "v9_commit": "24225d9",
+   "v4_arquivo": "posts/2026-10-30-du252-contagem-de-dias/processo/04-draft-v2.md",
+   "tokens_por_etapa": {
+    "etapa 6": 213,
+    "etapa 4": 524,
+    "etapa 9": 152,
+    "etapa 7": 125,
+    "rascunho": 2417,
+    "etapa 10": 5
+   },
+   "sobrevivencia": {
+    "palavras": {
+     "etapa 6": [
+      159,
+      139
+     ],
+     "etapa 9": [
+      98,
+      95
+     ],
+     "etapa 7": [
+      98,
+      98
+     ],
+     "rascunho": [
+      1878,
+      1790
+     ],
+     "etapa 10": [
+      4,
+      4
+     ],
+     "etapa 4": [
+      422,
+      407
+     ]
+    },
+    "travessao": {
+     "rascunho": [
+      2,
+      1
+     ],
+     "etapa 9": [
+      3,
+      3
+     ],
+     "etapa 6": [
+      1,
+      1
+     ]
+    },
+    "aspas_simples": {
+     "etapa 6": [
+      4,
+      2
+     ],
+     "etapa 9": [
+      22,
+      12
+     ]
+    }
+   }
+  },
+  {
+   "slug_repo": "2026-11-02-a-barriga-da-curva",
+   "rascunho_tipo": "rascunho",
+   "base_commit": "00dcfe0",
+   "v9_commit": "ffea63e",
+   "v4_arquivo": "posts/2026-11-02-a-barriga-da-curva/processo/04-draft-v2.md",
+   "tokens_por_etapa": {
+    "etapa 4": 1162,
+    "etapa 10": 172,
+    "rascunho": 1581,
+    "etapa 6": 239,
+    "etapa 9": 100,
+    "etapa 7": 123
+   },
+   "sobrevivencia": {
+    "palavras": {
+     "etapa 4": [
+      970,
+      966
+     ],
+     "etapa 10": [
+      142,
+      112
+     ],
+     "rascunho": [
+      1234,
+      1229
+     ],
+     "etapa 6": [
+      184,
+      184
+     ],
+     "etapa 9": [
+      79,
+      79
+     ],
+     "etapa 7": [
+      98,
+      98
+     ]
+    },
+    "travessao": {
+     "rascunho": [
+      4,
+      4
+     ]
+    },
+    "aspas_simples": {
+     "rascunho": [
+      8,
+      8
+     ],
+     "etapa 4": [
+      2,
+      2
+     ]
+    }
+   }
+  },
+  {
+   "slug_repo": "2026-11-09-frequencia-de-capitalizacao",
+   "rascunho_tipo": "rascunho",
+   "base_commit": "atual",
+   "v9_commit": "19a4eb5",
+   "v4_arquivo": "posts/2026-11-09-frequencia-de-capitalizacao/processo/04-draft-v2.md",
+   "tokens_por_etapa": {
+    "rascunho": 2969,
+    "etapa 10": 61,
+    "etapa 9": 443,
+    "etapa 4": 429,
+    "etapa 7": 31
+   },
+   "sobrevivencia": {
+    "palavras": {
+     "rascunho": [
+      2301,
+      2298
+     ],
+     "etapa 10": [
+      55,
+      48
+     ],
+     "etapa 9": [
+      350,
+      338
+     ],
+     "etapa 4": [
+      349,
+      349
+     ],
+     "etapa 7": [
+      25,
+      25
+     ]
+    },
+    "travessao": {
+     "rascunho": [
+      5,
+      5
+     ]
+    },
+    "aspas_simples": {
+     "rascunho": [
+      8,
+      8
+     ]
+    }
+   }
+  },
+  {
+   "slug_repo": "2026-11-13-should-i-stay",
+   "rascunho_tipo": "rascunho",
+   "base_commit": "atual",
+   "v9_commit": "74720a5",
+   "v4_arquivo": "posts/2026-11-13-should-i-stay/processo/04-draft-v2.md",
+   "tokens_por_etapa": {
+    "rascunho": 1806,
+    "etapa 9": 430,
+    "etapa 6": 8,
+    "etapa 4": 396,
+    "etapa 7": 22,
+    "etapa 10": 24
+   },
+   "sobrevivencia": {
+    "palavras": {
+     "rascunho": [
+      1450,
+      1395
+     ],
+     "etapa 9": [
+      327,
+      316
+     ],
+     "etapa 6": [
+      8,
+      5
+     ],
+     "etapa 4": [
+      341,
+      309
+     ],
+     "etapa 7": [
+      18,
+      9
+     ],
+     "etapa 10": [
+      20,
+      20
+     ]
+    },
+    "travessao": {},
+    "aspas_simples": {
+     "etapa 9": [
+      3,
+      3
+     ]
+    }
+   }
+  }
+ ]
+}

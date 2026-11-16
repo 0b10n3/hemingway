@@ -1,0 +1,478 @@
+{
+  "arquivo": "estilo/corpus/publicados/titulos-do-tesouro-nacional.md",
+  "genero": "substack",
+  "palavras": 917,
+  "eixos": {
+    "lexico": [
+      {
+        "traco": "Dois campos semânticos: finanças públicas/macroeconomia na introdução (dívida pública, liquidez, sustentabilidade fiscal) e planejamento financeiro pessoal nas seções de produto (aposentadoria, educação, Reserva de Emergência).",
+        "frequencia": "frequente",
+        "ocorrencias": 25,
+        "evidencias": [
+          "Os títulos públicos, como os emitidos pelo Tesouro Nacional, são ferramentas essenciais para a gestão da dívida pública.",
+          "ajuda o governo a manter suas contas em ordem, garantindo a sustentabilidade fiscal",
+          "tornando-se ideal para a Reserva de Emergência"
+        ]
+      },
+      {
+        "traco": "Explica os indexadores com aposto ou parêntese na primeira menção. O jargão operacional de investimento (pós-fixado, liquidez diária, resgate antecipado, aportes, vencimento) fica sem glosa.",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": [
+          "rentabilidade está atrelada à taxa Selic, a taxa básica de juros da economia",
+          "somada à variação da inflação (medida pelo IPCA)"
+        ],
+        "contraexemplo": "É o título mais indicado para quem **busca liquidez diária e segurança**"
+      },
+      {
+        "traco": "Registro formal e institucional, com verbos de escolha culta ('utiliza', 'adquiridos', 'arrecadando', 'proporcionando'). Nenhum coloquialismo e nenhum anglicismo.",
+        "frequencia": "sempre",
+        "ocorrencias": 10,
+        "evidencias": [
+          "instrumentos que o governo brasileiro utiliza para captar recursos",
+          "Esses títulos são adquiridos por investidores"
+        ]
+      },
+      {
+        "traco": "Vocabulário recorrente de adequação e recomendação: 'ideal' (3), 'indicado' (3), 'segura/segurança' (5), 'proteção/protege contra a inflação' (4).",
+        "frequencia": "frequente",
+        "ocorrencias": 15,
+        "evidencias": [
+          "tornando-se ideal para a Reserva de Emergência",
+          "É indicado para objetivos de longo prazo, como aposentadoria ou compra de imóvel",
+          "Ele também é indexado ao IPCA, oferecendo proteção contra a inflação"
+        ]
+      },
+      {
+        "traco": "Adjetivos genéricos de importância: 'essenciais', 'fundamentais', 'papel fundamental', 'tão importante quanto'.",
+        "frequencia": "ocasional",
+        "ocorrencias": 5,
+        "evidencias": [
+          "são ferramentas essenciais para a gestão da dívida pública",
+          "esses títulos desempenham um papel fundamental na economia",
+          "um objetivo** tão importante quanto a educação"
+        ]
+      }
+    ],
+    "sintaxe": [
+      {
+        "traco": "Frases longas e de comprimento pouco variado: média de ~25 palavras (36 frases, mínimo 10, máximo 40). Não usa frase curta como ênfase.",
+        "frequencia": "sempre",
+        "ocorrencias": 36,
+        "evidencias": [
+          "Quando o governo estabelece a taxa dos títulos, ele influencia as taxas que os bancos cobram em financiamentos e empréstimos",
+          "Isso significa que o rendimento acompanha as variações da Selic, proporcionando sempre um retorno positivo, mesmo que a taxa caia."
+        ],
+        "contraexemplo": "**Abordaremos cada um destes títulos em detalhes nos próximos textos**."
+      },
+      {
+        "traco": "A oração principal vem primeiro e é seguida, depois de vírgula, por oração reduzida de gerúndio que encadeia consequência ou benefício ('garantindo' 5x, 'ajudando' 5x, 'proporcionando', 'permitindo', 'servindo', 'oferecendo').",
+        "frequencia": "frequente",
+        "ocorrencias": 20,
+        "evidencias": [
+          "Ele funciona como uma aplicação de longo prazo, com rentabilidade indexada ao IPCA, garantindo proteção contra a inflação.",
+          "influenciam diretamente o mercado financeiro, servindo como **base para o custo do crédito e operações de mercado**",
+          "Eles atuam como um \"termômetro\" para o mercado financeiro, ajudando a definir quanto custa pegar empréstimos"
+        ]
+      },
+      {
+        "traco": "Retoma o referente com demonstrativo ou pronome no início da frase ou do parágrafo ('Esse título' 3x, 'Esses títulos', 'Esse processo', 'Ele' 2x, 'Isso significa').",
+        "frequencia": "frequente",
+        "ocorrencias": 9,
+        "evidencias": [
+          "Esse título **protege o investidor contra a inflação**",
+          "Esse processo permite que o governo administre sua dívida de maneira controlada",
+          "Ele também é indexado ao IPCA"
+        ]
+      },
+      {
+        "traco": "Subordinada temporal com 'quando' antes da principal, com o sujeito retomado por pronome ('ele') logo depois da vírgula.",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Por exemplo, quando o Banco Central vende títulos, ele reduz a quantidade de dinheiro disponível no mercado",
+          "Quando o governo estabelece a taxa dos títulos, ele influencia as taxas"
+        ]
+      },
+      {
+        "traco": "Enumeração em tríade e correlação 'tanto... quanto'.",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "sejam elas em infraestrutura, educação ou saúde",
+          "tanto para pessoas quanto para empresas",
+          "contribuindo para o desenvolvimento econômico sustentável, a manutenção da estabilidade financeira e o controle da inflação"
+        ]
+      },
+      {
+        "traco": "Exemplos introduzidos por 'como' dentro da própria frase, logo depois do termo geral.",
+        "frequencia": "frequente",
+        "ocorrencias": 7,
+        "evidencias": [
+          "É indicado para objetivos de longo prazo, como aposentadoria ou compra de imóvel",
+          "como viagens ou aquisição de bens"
+        ]
+      },
+      {
+        "traco": "Fragmento de gerúndio solto depois do ponto final, como continuação da frase anterior.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Apresentando seus detalhes e características operacionais, bem como possíveis casos de uso."
+        ]
+      }
+    ],
+    "pontuacao": [
+      {
+        "traco": "Inventário restrito a vírgula e ponto final. No corpo não há dois-pontos, ponto e vírgula, interrogação nem exclamação. A enumeração entra por 'como' no lugar dos dois-pontos.",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": [
+          "O processo envolve a emissão de diferentes tipos de títulos, como o **Tesouro Selic, Tesouro IPCA+ e Tesouro Prefixado**"
+        ]
+      },
+      {
+        "traco": "Travessão como meia-risca (–) com espaços: um par de inciso no corpo e a atribuição da epígrafe.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Quando o governo precisa financiar suas despesas – sejam elas em infraestrutura, educação ou saúde – ele pode emitir esses títulos",
+          "– **Ralph Marston**]]"
+        ]
+      },
+      {
+        "traco": "Aspas retas (\"\") no corpo para marcar termo figurado. Aspas tipográficas (“ ”) só na citação da epígrafe (pullquote).",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Eles atuam como um \"termômetro\" para o mercado financeiro",
+          "[[PULLQUOTE: **“O que você faz hoje pode melhorar todos os seus amanhãs.”**"
+        ]
+      },
+      {
+        "traco": "Parênteses para glosa curta ou lista de exemplos.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "(medida pelo IPCA)",
+          "(ensino médio, universidade, intercâmbios)"
+        ]
+      },
+      {
+        "traco": "A quebra de parágrafo segue a função: cada subseção de produto tem exatamente dois parágrafos, um de definição e outro de indicação de uso. Parágrafos de 1 a 4 frases.",
+        "frequencia": "sempre",
+        "ocorrencias": 5,
+        "evidencias": [
+          "O **Tesouro IPCA+** é um título híbrido",
+          "Esse título **protege o investidor contra a inflação**, garantindo um retorno real acima da alta de preços."
+        ]
+      },
+      {
+        "traco": "Só prosa corrida, sem listas com marcadores: as enumerações ficam dentro da frase.",
+        "frequencia": "sempre",
+        "ocorrencias": 18,
+        "evidencias": [
+          "desde a segurança e liquidez imediata do Tesouro Selic até a proteção contra a inflação proporcionada pelo Tesouro IPCA+"
+        ]
+      }
+    ],
+    "arquitetura": [
+      {
+        "traco": "Abre com imagem e epígrafe motivacional de terceiro (pullquote) e passa direto à definição do objeto. A abertura é por definição, não por cena, dado, pergunta ou objeção.",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": [
+          "[[PULLQUOTE: **“O que você faz hoje pode melhorar todos os seus amanhãs.”**",
+          "Os títulos do Tesouro Nacional são instrumentos que o governo brasileiro utiliza para captar recursos"
+        ]
+      },
+      {
+        "traco": "Introdução longa (5 parágrafos, ~340 palavras) sobre a função dos títulos para o governo e a economia (financiamento, política monetária, custo do crédito) antes de chegar ao investidor e aos produtos.",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Além disso, o governo utiliza os títulos para controlar a oferta de dinheiro em circulação na economia.",
+          "Os títulos do Tesouro também oferecem aos investidores uma **opção segura** de investimento"
+        ]
+      },
+      {
+        "traco": "O corpo é um catálogo: uma seção H2 por produto, sempre no mesmo molde de dois parágrafos. O primeiro define o título ('O **Tesouro X** é/possui...') e explica o mecanismo de rentabilidade; o segundo dá o perfil ou o objetivo indicado.",
+        "frequencia": "sempre",
+        "ocorrencias": 5,
+        "evidencias": [
+          "O **Tesouro IPCA+** é um título híbrido",
+          "O **Tesouro Prefixado** possui uma taxa de juros fixa",
+          "É indicado para objetivos de longo prazo, como aposentadoria ou compra de imóvel"
+        ]
+      },
+      {
+        "traco": "O conceito vem antes do exemplo. O exemplo entra depois da afirmação geral, com 'Por exemplo,' ou com uma lista curta introduzida por 'como'.",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "Por exemplo, quando o Banco Central vende títulos, ele reduz a quantidade de dinheiro disponível no mercado"
+        ]
+      },
+      {
+        "traco": "O parágrafo fecha com frase de síntese ou consequência geral, puxada por 'Por isso' ou 'No final'.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Por isso, esses instrumentos são fundamentais tanto para o equilíbrio fiscal do governo quanto para a manutenção da estabilidade econômica.",
+          "No final, isso contribui para o crescimento saudável da economia"
+        ]
+      },
+      {
+        "traco": "Abre parágrafos com conectivo aditivo ('Além disso' 2x, 'Ao mesmo tempo').",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Além disso, o governo utiliza os títulos para controlar a oferta de dinheiro",
+          "Ao mesmo tempo, esses títulos desempenham um papel fundamental na economia"
+        ]
+      },
+      {
+        "traco": "Fecha com uma seção 'Conclusão' que recapitula os produtos e a função macro e termina anunciando a continuação da série.",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": [
+          "desde a segurança e liquidez imediata do Tesouro Selic até a proteção contra a inflação proporcionada pelo Tesouro IPCA+",
+          "**Abordaremos cada um destes títulos em detalhes nos próximos textos**."
+        ]
+      }
+    ],
+    "figuras": [
+      {
+        "traco": "Figura rara e pontual, de domínio cotidiano/médico, marcada com aspas, sem extensão e sem retomada no fim.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Eles atuam como um \"termômetro\" para o mercado financeiro, ajudando a definir quanto custa pegar empréstimos"
+        ]
+      },
+      {
+        "traco": "Explica o produto novo comparando-o com um produto ou categoria que o leitor já conhece.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "comece a receber um pagamento mensal por um período determinado, semelhante a uma aposentadoria privada",
+          "Ele funciona como uma aplicação de longo prazo"
+        ]
+      }
+    ],
+    "postura": [
+      {
+        "traco": "Texto impessoal, em terceira pessoa, sem 'eu'. A única primeira pessoa é o 'nós' editorial do fecho.",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": [
+          "**Abordaremos cada um destes títulos em detalhes nos próximos textos**."
+        ]
+      },
+      {
+        "traco": "Autoridade implícita e tom categórico: afirma os benefícios sem ressalva e sem marcador de incerteza.",
+        "frequencia": "frequente",
+        "ocorrencias": 8,
+        "evidencias": [
+          "proporcionando sempre um retorno positivo, mesmo que a taxa caia",
+          "sem o risco de perdas em resgates antecipados",
+          "garantindo um retorno real acima da alta de preços"
+        ],
+        "contraexemplo": "quando o investidor pode esperar até o vencimento sem necessidade de resgates antecipados"
+      },
+      {
+        "traco": "Tom favorável aos produtos: não discute risco, custo ou desvantagem e não apresenta objeção nem discordância.",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "uma **alternativa de baixo custo e flexível, acessível a pequenos investidores, ideal para quem busca uma aposentadoria segura**",
+          "uma **opção segura** de investimento"
+        ]
+      }
+    ],
+    "leitor": [
+      {
+        "traco": "Apresenta o desconhecido por definição classificatória ('é um título pós-fixado/híbrido') e depois a desdobra com 'Isso significa que'.",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "O **Tesouro Selic** é um título pós-fixado cuja rentabilidade está atrelada à taxa Selic",
+          "Isso significa que o rendimento acompanha as variações da Selic"
+        ]
+      },
+      {
+        "traco": "Pressupõe leitor iniciante quanto aos indexadores, mas usa sem explicação a mecânica de aplicação (aportes, período de acumulação, vencimento).",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "a taxa básica de juros da economia",
+          "faça aportes regulares durante o período de acumulação"
+        ]
+      },
+      {
+        "traco": "Chama o leitor de 'o investidor'/'os investidores' (12x), em terceira pessoa. No corpo nunca há 'você': o pronome aparece só na epígrafe e no subtítulo.",
+        "frequencia": "sempre",
+        "ocorrencias": 12,
+        "evidencias": [
+          "permitindo que o investidor saiba exatamente quanto receberá no vencimento do título",
+          "Para os investidores, o Educa+ oferece uma **forma disciplinada e segura de poupar"
+        ],
+        "contraexemplo": "subtitulo: \" O que você precisa saber\""
+      },
+      {
+        "traco": "Segmenta o leitor por perfil ou objetivo com 'para quem...'.",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "É o título mais indicado para quem **busca liquidez diária e segurança**",
+          "O Tesouro Renda+ é uma opção para quem está pensando em aposentadoria"
+        ]
+      },
+      {
+        "traco": "Não usa pergunta retórica, imperativo nem botão de CTA. A única chamada é a promessa de continuação da série.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "**Abordaremos cada um destes títulos em detalhes nos próximos textos**. Apresentando seus detalhes e características operacionais"
+        ]
+      }
+    ],
+    "tecnico": [
+      {
+        "traco": "Não usa nenhum número: nenhuma taxa, data, valor, prazo ou exemplo numérico. A rentabilidade é descrita só de forma qualitativa.",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": [
+          "possui uma taxa de juros fixa, permitindo que o investidor saiba exatamente quanto receberá no vencimento do título",
+          "garantindo um retorno real acima da alta de preços"
+        ]
+      },
+      {
+        "traco": "Explica o mecanismo pela classe de indexação (pós-fixado, híbrido, prefixado), sem fórmula.",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": [
+          "título pós-fixado cuja rentabilidade está atrelada à taxa Selic",
+          "uma taxa de juros fixa somada à variação da inflação (medida pelo IPCA)"
+        ]
+      },
+      {
+        "traco": "Escreve os produtos com o nome oficial ('IPCA+', 'Educa+', 'Renda+') e usa a forma abreviada depois da primeira menção.",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "O **Tesouro IPCA+** é um título híbrido",
+          "Para os investidores, o Educa+ oferece"
+        ]
+      },
+      {
+        "traco": "Não cita fonte, norma nem regulação: até a criação do produto é afirmada sem referência.",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": [
+          "O **Tesouro Educa+** foi criado para ajudar as famílias a planejarem a educação dos filhos"
+        ]
+      },
+      {
+        "traco": "Sem fórmula, tabela ou gráfico. O único visual é a imagem de abertura, sem legenda.",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": [
+          "![](img-01)"
+        ]
+      },
+      {
+        "traco": "Texto praticamente atemporal: há uma única referência à conjuntura, sem data nem valor.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "menores que a atual taxa prefixada"
+        ]
+      }
+    ],
+    "formatacao": [
+      {
+        "traco": "Negrito abundante (23 pares em ~900 palavras), com três usos: nome do produto na primeira menção da seção, frase inteira de benefício ou indicação, e termos-chave isolados na conclusão.",
+        "frequencia": "sempre",
+        "ocorrencias": 23,
+        "evidencias": [
+          "O **Tesouro Selic** é um título pós-fixado",
+          "Esse título **protege o investidor contra a inflação**",
+          "como **educação** e **aposentadoria**"
+        ],
+        "contraexemplo": "O Tesouro Renda+ é uma opção para quem está pensando em aposentadoria"
+      },
+      {
+        "traco": "O negrito chega a cobrir frases longas, de até ~24 palavras, com a recomendação de uso inteira.",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "Esse título é **ideal para quem acredita que as taxas de juros futuras serão menores que a atual taxa prefixada ou para quem deseja previsibilidade"
+        ]
+      },
+      {
+        "traco": "Frase final inteira em negrito, como fecho e anúncio da série.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "**Abordaremos cada um destes títulos em detalhes nos próximos textos**."
+        ]
+      },
+      {
+        "traco": "Não usa itálico, riscado nem código. O termo figurado é destacado com aspas retas, não com itálico.",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": [
+          "Eles atuam como um \"termômetro\" para o mercado financeiro"
+        ]
+      },
+      {
+        "traco": "Pullquote como epígrafe na abertura: citação e autor em negrito, aspas tipográficas e meia-risca na atribuição.",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": [
+          "[[PULLQUOTE: **“O que você faz hoje pode melhorar todos os seus amanhãs.”**",
+          "– **Ralph Marston**]]"
+        ]
+      },
+      {
+        "traco": "Subtítulos H2 curtos e nominais (nome do produto, mais 'Conclusão'): 6 H2, um a cada ~150 palavras. A introdução não tem subtítulo.",
+        "frequencia": "sempre",
+        "ocorrencias": 6,
+        "evidencias": [
+          "## Tesouro IPCA+",
+          "## Conclusão"
+        ]
+      },
+      {
+        "traco": "Blocos de tamanho curto a médio: parágrafos de 22 a 117 palavras (média ~50). Não há citação em bloco além do pullquote.",
+        "frequencia": "sempre",
+        "ocorrencias": 18,
+        "evidencias": [
+          "Esses títulos são adquiridos por investidores, e os recursos obtidos ajudam o governo a financiar suas despesas"
+        ]
+      },
+      {
+        "traco": "Imagem de capa no topo, antes de qualquer texto, com legenda vazia.",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": [
+          "![](img-01)"
+        ]
+      }
+    ]
+  },
+  "antipadroes_observados": [
+    "(a) Nunca usa pergunta (retórica ou não), exclamação, ponto e vírgula ou dois-pontos no corpo.",
+    "(a) Nunca usa primeira pessoa do singular, anedota, humor ou opinião declarada.",
+    "(a) Nunca traz número, dado, fonte, norma, fórmula, tabela ou gráfico.",
+    "(a) Nunca usa lista com marcadores, itálico, riscado, código ou botão [[CTA]].",
+    "(a) Nunca menciona risco, tributação ou custo de nenhum dos títulos.",
+    "(a) Nunca se dirige ao leitor por 'você' no corpo do texto.",
+    "(b) Tique de IA pt-BR: encadeamento de orações reduzidas de gerúndio de consequência ('garantindo' 5x, 'ajudando' 5x), ex.: \"garantindo que o valor das retiradas mantenha o poder de compra\".",
+    "(b) Tique de IA pt-BR: fórmulas genéricas de importância e de fecho, ex.: \"esses títulos desempenham um papel fundamental na economia\"; \"contribui para o crescimento saudável da economia\"; \"uma ampla gama de opções\".",
+    "(b) Tique de IA pt-BR: tríade abstrata no fecho, ex.: \"o desenvolvimento econômico sustentável, a manutenção da estabilidade financeira e o controle da inflação\".",
+    "(b) Tique de IA pt-BR: 'Além disso' abrindo parágrafo (2x) e seção 'Conclusão' que só recapitula, ex.: \"Além disso, **soluções mais direcionadas**, como o **Tesouro Educa+** e o **Tesouro Renda+**\"."
+  ],
+  "incerteza": "Amostra única de ~917 palavras, bem abaixo do piso de ~5.000 por amostra. Época pre-pipeline e section_name null: o texto não pode ser atribuído a uma linha editorial (Spoiler ou Notas de um Professor). Por ser um catálogo introdutório de produtos, parte do léxico (indexadores, inflação, aposentadoria) é assunto, não voz. A ausência de números, fontes e ressalvas pode ser escolha do formato introdutório (o fecho promete detalhamento em textos futuros), não traço estável. A diferença entre aspas retas no corpo e tipográficas no pullquote pode ser artefato do editor do Substack. Os tiques de texto gerado (gerúndio encadeado, 'papel fundamental', tríades) foram só registrados: não permitem concluir nada sobre a origem do texto. O subtítulo no frontmatter começa com espaço (\" O que você precisa saber\"), possível artefato de captura."
+}

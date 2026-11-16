@@ -1,0 +1,616 @@
+[
+ {
+  "slug_repo": "2026-08-10-o-mundo-invertido-dos-investimentos",
+  "linha_editorial": null,
+  "rascunho_tipo": "transcricao",
+  "palavras": {
+   "rascunho": 1163,
+   "post_md": 1282,
+   "publicado": 1245
+  },
+  "similaridade": {
+   "rascunho_post_md": 0.164,
+   "post_md_publicado": 0.977,
+   "rascunho_publicado": 0.164
+  },
+  "resumo_classe": {
+   "fusao_paragrafo": 5,
+   "pontuacao": 3,
+   "substituicao": 2,
+   "legenda": 2,
+   "subtitulo_h2": 1,
+   "remocao": 1,
+   "cta": 1,
+   "divisao_paragrafo": 1,
+   "italico_removido": 1,
+   "link_adicionado": 1,
+   "tipografia_aspas": 1,
+   "subtitulo_post": 1
+  },
+  "resumo_natureza": {
+   "estilo": 15,
+   "marketing": 2,
+   "layout-substack": 2,
+   "conteúdo/fato": 1
+  },
+  "sinais": {
+   "reversao": 5,
+   "acrescimo_autoral": 2
+  }
+ },
+ {
+  "slug_repo": "2026-08-14-o-papel-do-cdb-na-transformacao-de-prazos",
+  "linha_editorial": "Notas de um Professor",
+  "rascunho_tipo": "transcricao",
+  "palavras": {
+   "rascunho": 1618,
+   "post_md": 1594,
+   "publicado": 1697
+  },
+  "similaridade": {
+   "rascunho_post_md": 0.279,
+   "post_md_publicado": 0.848,
+   "rascunho_publicado": 0.255
+  },
+  "resumo_classe": {
+   "pontuacao": 36,
+   "substituicao": 17,
+   "divisao_paragrafo": 13,
+   "negrito_adicionado": 11,
+   "italico_adicionado": 10,
+   "remocao": 8,
+   "insercao": 3,
+   "subtitulo_h2": 2,
+   "separador": 2,
+   "legenda": 2,
+   "italico_removido": 1,
+   "tipografia_aspas": 1,
+   "subtitulo_post": 1
+  },
+  "resumo_natureza": {
+   "estilo": 99,
+   "layout-substack": 5,
+   "conteúdo/fato": 3
+  },
+  "sinais": {
+   "reversao": 26,
+   "acrescimo_autoral": 17
+  }
+ },
+ {
+  "slug_repo": "2026-08-17-o-mundo-invertido-das-carreiras-em-financas",
+  "linha_editorial": "Spoiler",
+  "rascunho_tipo": "transcricao",
+  "palavras": {
+   "rascunho": 1135,
+   "post_md": 1089,
+   "publicado": 1170
+  },
+  "similaridade": {
+   "rascunho_post_md": 0.152,
+   "post_md_publicado": 0.847,
+   "rascunho_publicado": 0.152
+  },
+  "resumo_classe": {
+   "substituicao": 21,
+   "divisao_paragrafo": 17,
+   "insercao": 9,
+   "pontuacao": 4,
+   "subtitulo_h2": 3,
+   "imagem": 3,
+   "remocao": 3,
+   "separador": 3,
+   "negrito_adicionado": 2,
+   "cta": 1,
+   "italico_adicionado": 1,
+   "link_adicionado": 1,
+   "legenda": 1,
+   "tipografia_aspas": 1,
+   "titulo_post": 1
+  },
+  "resumo_natureza": {
+   "estilo": 59,
+   "layout-substack": 8,
+   "marketing": 3,
+   "conteúdo/fato": 1
+  },
+  "sinais": {
+   "reversao": 28,
+   "acrescimo_autoral": 30
+  }
+ },
+ {
+  "slug_repo": "2026-08-25-dividir-para-nao-correr-risco",
+  "linha_editorial": "Notas de um Professor",
+  "rascunho_tipo": "rascunho",
+  "palavras": {
+   "rascunho": 2452,
+   "post_md": 2747,
+   "publicado": 2500
+  },
+  "similaridade": {
+   "rascunho_post_md": 0.892,
+   "post_md_publicado": 0.95,
+   "rascunho_publicado": 0.86
+  },
+  "resumo_classe": {
+   "pontuacao": 34,
+   "remocao": 12,
+   "negrito_adicionado": 12,
+   "italico_adicionado": 11,
+   "divisao_paragrafo": 8,
+   "substituicao": 6,
+   "subtitulo_h2": 1,
+   "imagem": 1,
+   "legenda": 1,
+   "tipografia_aspas": 1,
+   "subtitulo_post": 1
+  },
+  "resumo_natureza": {
+   "estilo": 77,
+   "conteúdo/fato": 8,
+   "layout-substack": 3
+  },
+  "sinais": {
+   "reversao": 3,
+   "acrescimo_autoral": 6
+  }
+ },
+ {
+  "slug_repo": "2026-09-01-quando-os-modelos-se-rebelam",
+  "linha_editorial": "Spoiler",
+  "rascunho_tipo": "rascunho",
+  "palavras": {
+   "rascunho": 3344,
+   "post_md": 3884,
+   "publicado": 3446
+  },
+  "similaridade": {
+   "rascunho_post_md": 0.859,
+   "post_md_publicado": 0.938,
+   "rascunho_publicado": 0.833
+  },
+  "resumo_classe": {
+   "remocao": 10,
+   "pontuacao": 9,
+   "divisao_paragrafo": 8,
+   "separador": 7,
+   "italico_adicionado": 7,
+   "subtitulo_h2": 5,
+   "substituicao": 4,
+   "tabela": 3,
+   "imagem": 2,
+   "cta": 1,
+   "negrito_adicionado": 1,
+   "italico_removido": 1,
+   "legenda": 1,
+   "tipografia_aspas": 1,
+   "subtitulo_post": 1
+  },
+  "resumo_natureza": {
+   "estilo": 38,
+   "layout-substack": 14,
+   "conteúdo/fato": 8,
+   "marketing": 1
+  },
+  "sinais": {
+   "reversao": 7,
+   "acrescimo_autoral": 3
+  }
+ },
+ {
+  "slug_repo": "2026-09-11-partes-dificeis-de-uma-carreira-em-financas",
+  "linha_editorial": "Spoiler",
+  "rascunho_tipo": "rascunho",
+  "palavras": {
+   "rascunho": 1307,
+   "post_md": 1600,
+   "publicado": 1589
+  },
+  "similaridade": {
+   "rascunho_post_md": 0.899,
+   "post_md_publicado": 0.941,
+   "rascunho_publicado": 0.836
+  },
+  "resumo_classe": {
+   "divisao_paragrafo": 26,
+   "pontuacao": 22,
+   "substituicao": 11,
+   "italico_adicionado": 10,
+   "remocao": 9,
+   "negrito_adicionado": 5,
+   "insercao": 4,
+   "separador": 2,
+   "imagem": 1,
+   "cta": 1,
+   "legenda": 1,
+   "tipografia_aspas": 1
+  },
+  "resumo_natureza": {
+   "estilo": 86,
+   "layout-substack": 5,
+   "marketing": 1,
+   "aviso-legal": 1
+  },
+  "sinais": {
+   "acrescimo_autoral": 14,
+   "reversao": 4
+  }
+ },
+ {
+  "slug_repo": "2026-09-18-o-agro-e-pop-o-agro-e-produto-financeiro",
+  "linha_editorial": "Notas de um Professor",
+  "rascunho_tipo": "rascunho",
+  "palavras": {
+   "rascunho": 1946,
+   "post_md": 2116,
+   "publicado": 1875
+  },
+  "similaridade": {
+   "rascunho_post_md": 0.678,
+   "post_md_publicado": 0.936,
+   "rascunho_publicado": 0.676
+  },
+  "resumo_classe": {
+   "pontuacao": 22,
+   "remocao": 8,
+   "divisao_paragrafo": 7,
+   "negrito_adicionado": 7,
+   "italico_adicionado": 5,
+   "imagem": 3,
+   "substituicao": 3,
+   "tabela": 3,
+   "legenda": 2,
+   "subtitulo_h2": 1,
+   "tipografia_aspas": 1,
+   "subtitulo_post": 1
+  },
+  "resumo_natureza": {
+   "estilo": 52,
+   "layout-substack": 9,
+   "conteúdo/fato": 2
+  },
+  "sinais": {
+   "reversao": 8,
+   "acrescimo_autoral": 3
+  }
+ },
+ {
+  "slug_repo": "2026-09-24-borboletas-caos-e-carreira",
+  "linha_editorial": "Spoiler",
+  "rascunho_tipo": "rascunho",
+  "palavras": {
+   "rascunho": 3154,
+   "post_md": 2746,
+   "publicado": 2719
+  },
+  "similaridade": {
+   "rascunho_post_md": 0.921,
+   "post_md_publicado": 0.994,
+   "rascunho_publicado": 0.92
+  },
+  "resumo_classe": {
+   "imagem": 3,
+   "substituicao": 2,
+   "remocao": 2,
+   "pontuacao": 1,
+   "divisao_paragrafo": 1,
+   "negrito_adicionado": 1,
+   "tipografia_aspas": 1
+  },
+  "resumo_natureza": {
+   "estilo": 5,
+   "layout-substack": 4,
+   "conteúdo/fato": 2
+  },
+  "sinais": {
+   "acrescimo_autoral": 1,
+   "reversao": 2
+  }
+ },
+ {
+  "slug_repo": "2026-09-28-o-certificado-nao-muda-o-devedor",
+  "linha_editorial": "Notas de um Professor",
+  "rascunho_tipo": "rascunho",
+  "palavras": {
+   "rascunho": 3250,
+   "post_md": 3511,
+   "publicado": 3240
+  },
+  "similaridade": {
+   "rascunho_post_md": 0.842,
+   "post_md_publicado": 0.954,
+   "rascunho_publicado": 0.801
+  },
+  "resumo_classe": {
+   "negrito_adicionado": 15,
+   "remocao": 11,
+   "divisao_paragrafo": 9,
+   "pontuacao": 7,
+   "substituicao": 7,
+   "separador": 6,
+   "legenda": 4,
+   "insercao": 3,
+   "subtitulo_h2": 2,
+   "italico_adicionado": 2,
+   "imagem": 1,
+   "link_adicionado": 1,
+   "tipografia_aspas": 1,
+   "titulo_post": 1,
+   "subtitulo_post": 1
+  },
+  "resumo_natureza": {
+   "estilo": 51,
+   "layout-substack": 12,
+   "conteúdo/fato": 7,
+   "marketing": 1
+  },
+  "sinais": {
+   "reversao": 7,
+   "acrescimo_autoral": 10
+  }
+ },
+ {
+  "slug_repo": "2026-10-12-coqueiros-e-cacaueiros",
+  "linha_editorial": "Spoiler",
+  "rascunho_tipo": "rascunho",
+  "palavras": {
+   "rascunho": 2685,
+   "post_md": 2461,
+   "publicado": 2432
+  },
+  "similaridade": {
+   "rascunho_post_md": 0.867,
+   "post_md_publicado": 0.992,
+   "rascunho_publicado": 0.867
+  },
+  "resumo_classe": {
+   "negrito_adicionado": 13,
+   "divisao_paragrafo": 9,
+   "remocao": 7,
+   "substituicao": 2,
+   "imagem": 1,
+   "insercao": 1,
+   "italico_adicionado": 1,
+   "link_adicionado": 1,
+   "legenda": 1,
+   "tipografia_aspas": 1
+  },
+  "resumo_natureza": {
+   "estilo": 33,
+   "layout-substack": 3,
+   "marketing": 1
+  },
+  "sinais": {
+   "reversao": 9,
+   "acrescimo_autoral": 3
+  }
+ },
+ {
+  "slug_repo": "2026-10-15-renda-fixa-condicoes-variaveis",
+  "linha_editorial": "Notas de um Professor",
+  "rascunho_tipo": "rascunho",
+  "palavras": {
+   "rascunho": 5003,
+   "post_md": 4515,
+   "publicado": 4469
+  },
+  "similaridade": {
+   "rascunho_post_md": 0.782,
+   "post_md_publicado": 0.978,
+   "rascunho_publicado": 0.769
+  },
+  "resumo_classe": {
+   "negrito_adicionado": 16,
+   "divisao_paragrafo": 14,
+   "remocao": 10,
+   "substituicao": 4,
+   "legenda": 4,
+   "pontuacao": 2,
+   "separador": 2,
+   "imagem": 1,
+   "subtitulo_h2": 1,
+   "insercao": 1,
+   "tipografia_aspas": 1
+  },
+  "resumo_natureza": {
+   "estilo": 40,
+   "layout-substack": 8,
+   "conteúdo/fato": 7,
+   "aviso-legal": 1
+  },
+  "sinais": {
+   "reversao": 4,
+   "acrescimo_autoral": 4
+  }
+ },
+ {
+  "slug_repo": "2026-10-27-samurais-e-duelos",
+  "linha_editorial": "Spoiler",
+  "rascunho_tipo": "rascunho",
+  "palavras": {
+   "rascunho": 2915,
+   "post_md": 2578,
+   "publicado": 2475
+  },
+  "similaridade": {
+   "rascunho_post_md": 0.826,
+   "post_md_publicado": 0.956,
+   "rascunho_publicado": 0.811
+  },
+  "resumo_classe": {
+   "divisao_paragrafo": 22,
+   "negrito_adicionado": 20,
+   "substituicao": 12,
+   "remocao": 5,
+   "imagem": 3,
+   "italico_adicionado": 3,
+   "pontuacao": 2,
+   "legenda": 2,
+   "separador": 1,
+   "insercao": 1,
+   "tipografia_aspas": 1
+  },
+  "resumo_natureza": {
+   "estilo": 61,
+   "layout-substack": 7,
+   "aviso-legal": 3,
+   "conteúdo/fato": 1
+  },
+  "sinais": {
+   "acrescimo_autoral": 12,
+   "reversao": 4
+  }
+ },
+ {
+  "slug_repo": "2026-10-30-du252-contagem-de-dias",
+  "linha_editorial": "Notas de um Professor",
+  "rascunho_tipo": "rascunho",
+  "palavras": {
+   "rascunho": 2317,
+   "post_md": 2737,
+   "publicado": 2625
+  },
+  "similaridade": {
+   "rascunho_post_md": 0.776,
+   "post_md_publicado": 0.973,
+   "rascunho_publicado": 0.758
+  },
+  "resumo_classe": {
+   "pontuacao": 12,
+   "negrito_adicionado": 10,
+   "divisao_paragrafo": 9,
+   "italico_adicionado": 8,
+   "substituicao": 6,
+   "remocao": 6,
+   "subtitulo_h2": 3,
+   "codigo": 3,
+   "legenda": 3,
+   "formula": 2,
+   "imagem": 1,
+   "link_adicionado": 1,
+   "tipografia_aspas": 1,
+   "titulo_post": 1,
+   "subtitulo_post": 1
+  },
+  "resumo_natureza": {
+   "estilo": 52,
+   "conteúdo/fato": 9,
+   "layout-substack": 5,
+   "marketing": 1
+  },
+  "sinais": {
+   "acrescimo_autoral": 6,
+   "reversao": 4
+  }
+ },
+ {
+  "slug_repo": "2026-11-02-a-barriga-da-curva",
+  "linha_editorial": "Notas de um Professor",
+  "rascunho_tipo": "rascunho",
+  "palavras": {
+   "rascunho": 2722,
+   "post_md": 2763,
+   "publicado": 2748
+  },
+  "similaridade": {
+   "rascunho_post_md": 0.47,
+   "post_md_publicado": 0.988,
+   "rascunho_publicado": 0.471
+  },
+  "resumo_classe": {
+   "substituicao": 10,
+   "remocao": 2,
+   "legenda": 2,
+   "imagem": 1,
+   "subtitulo_h2": 1,
+   "insercao": 1,
+   "divisao_paragrafo": 1,
+   "negrito_adicionado": 1,
+   "italico_adicionado": 1,
+   "tipografia_aspas": 1
+  },
+  "resumo_natureza": {
+   "estilo": 17,
+   "layout-substack": 4
+  },
+  "sinais": {
+   "reversao": 10,
+   "acrescimo_autoral": 8
+  }
+ },
+ {
+  "slug_repo": "2026-11-09-frequencia-de-capitalizacao",
+  "linha_editorial": "Notas de um Professor",
+  "rascunho_tipo": "rascunho",
+  "palavras": {
+   "rascunho": 3161,
+   "post_md": 3136,
+   "publicado": 3126
+  },
+  "similaridade": {
+   "rascunho_post_md": 0.751,
+   "post_md_publicado": 0.992,
+   "rascunho_publicado": 0.75
+  },
+  "resumo_classe": {
+   "divisao_paragrafo": 8,
+   "substituicao": 5,
+   "insercao": 4,
+   "subtitulo_h2": 4,
+   "pontuacao": 2,
+   "remocao": 2,
+   "legenda": 2,
+   "imagem": 1,
+   "italico_adicionado": 1,
+   "tipografia_aspas": 1
+  },
+  "resumo_natureza": {
+   "estilo": 26,
+   "layout-substack": 4
+  },
+  "sinais": {
+   "reversao": 4,
+   "acrescimo_autoral": 11
+  }
+ },
+ {
+  "slug_repo": "2026-11-13-should-i-stay",
+  "linha_editorial": "Spoiler",
+  "rascunho_tipo": "rascunho",
+  "palavras": {
+   "rascunho": 2034,
+   "post_md": 2264,
+   "publicado": 2160
+  },
+  "similaridade": {
+   "rascunho_post_md": 0.724,
+   "post_md_publicado": 0.972,
+   "rascunho_publicado": 0.713
+  },
+  "resumo_classe": {
+   "divisao_paragrafo": 21,
+   "negrito_adicionado": 14,
+   "substituicao": 5,
+   "cta": 4,
+   "subtitulo_h2": 2,
+   "pontuacao": 2,
+   "remocao": 2,
+   "imagem": 1,
+   "legenda": 1,
+   "tipografia_aspas": 1,
+   "titulo_post": 1,
+   "subtitulo_post": 1
+  },
+  "resumo_natureza": {
+   "estilo": 46,
+   "layout-substack": 4,
+   "marketing": 4,
+   "conteúdo/fato": 1
+  },
+  "sinais": {
+   "acrescimo_autoral": 6,
+   "reversao": 7
+  }
+ }
+]

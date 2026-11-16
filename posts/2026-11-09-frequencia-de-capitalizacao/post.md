@@ -6,6 +6,7 @@ data: 2026-11-09
 linha_editorial: Notas de um Professor
 tags: [Notas de um Professor, Renda Fixa, Matemática Financeira]
 status: aprovado
+url_publicada: https://syntaxis.substack.com/p/frequencia-de-capitalizacao
 resumo: "Taxa nominal, efetiva e contínua: por que a capitalização contínua é o limite do composto, e não um regime rival, e por que errar a etiqueta da taxa pesa mais que a frequência."
 ---
 

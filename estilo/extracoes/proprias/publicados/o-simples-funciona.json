@@ -1,0 +1,610 @@
+{
+  "arquivo": "estilo/corpus/publicados/o-simples-funciona.md",
+  "genero": "substack",
+  "palavras": 744,
+  "eixos": {
+    "lexico": [
+      {
+        "traco": "Registro coloquial e irreverente misturado a vocabulário técnico de finanças: gírias e adjetivos fortes ('sexy', 'estúpida', 'preguiçosa', 'o cara', 'um qualquer') convivem com 'cálculo estocástico' e 'média-variância'",
+        "frequencia": "frequente",
+        "ocorrencias": 7,
+        "evidencias": [
+          "É sexy.",
+          "Markowitz não é um qualquer.",
+          "às vezes, o cara “ingênuo” é o único na sala que não está sendo enganado."
+        ],
+        "contraexemplo": "A conclusão deles foi impactante."
+      },
+      {
+        "traco": "Termos técnicos de finanças usados sem explicação, pressupondo familiaridade do leitor",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "Sem cálculo estocástico. Sem descontar fluxos de caixa futuros.",
+          "o **modelo de otimização de média-variância de Harry Markowitz**",
+          "alheio aos objetivos e apetites de risco de cada investidor."
+        ],
+        "contraexemplo": "Ele ganhou um Prêmio Nobel de Economia por dizer ao mundo como otimizar portfólios baseando-se em risco, retorno e correlação."
+      },
+      {
+        "traco": "Glosa curta de sigla e de termo estrangeiro: sigla expandida entre parênteses, termo inglês traduzido explicitamente ou dado em itálico entre parênteses após o português",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "**UFES (Universidade Federal do Espírito Santo)**",
+          "“*Naive*” costuma virar “ingênuo”.",
+          "ideias de teoria de conjuntos (*set theory*) e lógica."
+        ]
+      },
+      {
+        "traco": "Anglicismos aceitos sem tradução ('trading floor', 'Rocket Science', 'sexy', 'Benchmark', 'CEO'); alguns em itálico, outros não",
+        "frequencia": "frequente",
+        "ocorrencias": 9,
+        "evidencias": [
+          "Se você entrar no *trading floor* da BlackRock hoje",
+          "É ***“Rocket Science”*** financeira. É sexy.",
+          "### O Benchmark da Ingenuidade"
+        ]
+      },
+      {
+        "traco": "Campo semântico de oposição simples × complexo, com uma palavra-chave ('ingênuo/ingênua') repetida ao longo do texto inteiro como fio condutor, inclusive no subtítulo e na última frase",
+        "frequencia": "frequente",
+        "ocorrencias": 10,
+        "evidencias": [
+          "A estratégia é tão brutalmente simples que ofende a sensibilidade de qualquer gestor de portfólio.",
+          "Na prática, a estratégia “ingênua” do 1/N empatava ou ganhava do modelo do Prêmio Nobel.",
+          "a matemática sofisticada de Markowitz superasse consistentemente a diversificação ingênua"
+        ]
+      },
+      {
+        "traco": "Mistura de 'te' (coloquial) com 'seu/sua' no tratamento do leitor",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Por que ninguém te vende o 1/N? Por que seu gerente de banco não sugere dividir seu dinheiro igualmente"
+        ]
+      }
+    ],
+    "sintaxe": [
+      {
+        "traco": "Frase curtíssima (1 a 5 palavras) como golpe de ênfase, geralmente logo após período longo ou exemplo; média aproximada de ~13 palavras por frase, amplitude de 1 a ~37",
+        "frequencia": "frequente",
+        "ocorrencias": 8,
+        "evidencias": [
+          "Você coloca 100 reais em cada uma. Fim.",
+          "Simples. Mas será que é essa estratégia ingênua, é também **eficiente**?",
+          "uma amostra de dados de cerca de 3.000 meses. São 250 anos."
+        ]
+      },
+      {
+        "traco": "Período longo construído por cadeia de orações relativas ('que... que... que'), usado para descrever o adversário (indústria/algoritmos) com acúmulo",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "como se o mercado fosse uma besta indomável que só pode ser controlada por equações que você não entende",
+          "geridas por pessoas que cobram taxas que você prefereria não pagar."
+        ]
+      },
+      {
+        "traco": "Anáfora e paralelismo em sequência de frases curtas ou fragmentos nominais, muitas vezes em tríade",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "Sem cálculo estocástico. Sem descontar fluxos de caixa futuros. Sem tentar adivinhar se o CEO da Apple vai ter uma indigestão amanhã.",
+          "É ***“Rocket Science”*** financeira. É sexy.",
+          "Ele não se importa com seus sentimentos, seus objetivos de comprar um iate ou seu medo de perder a aposentadoria."
+        ]
+      },
+      {
+        "traco": "Oração subordinada ou adjunto adverbial anteposto à oração principal (tempo, condição, causa, finalidade)",
+        "frequencia": "frequente",
+        "ocorrencias": 9,
+        "evidencias": [
+          "Como o modelo é uma máquina sensível, qualquer erro minúsculo nessas previsões faz o “portfólio ótimo” se comportar de forma distante do esperado.",
+          "Para responder a isso, precisamos olhar para o trabalho de três acadêmicos",
+          "A menos que você seja um vampiro ou uma tartaruga de Galápagos, a complexidade não vale o seu tempo."
+        ]
+      },
+      {
+        "traco": "Frase iniciada por conjunção coordenativa 'E' ou 'Mas'",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "E, acima de tudo, é caro.",
+          "Mas e se a “Rocket Science” for apenas uma cortina de fumaça?",
+          "E aí está o ponto curioso — e um pouco irônico"
+        ]
+      },
+      {
+        "traco": "Pergunta curta autoformulada seguida de resposta imediata",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "O resultado? Na prática, a estratégia “ingênua” do 1/N empatava ou ganhava do modelo do Prêmio Nobel.",
+          "A pergunta óbvia é: isso funciona?"
+        ]
+      },
+      {
+        "traco": "Paralelismo com virada: estrutura 'não apenas X' quebrada em duas frases, a segunda estendendo a ideia de forma inesperada",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Ele trata não apenas todos os ativos como iguais. Ele faz o mesmo com os investidores."
+        ]
+      }
+    ],
+    "pontuacao": [
+      {
+        "traco": "Ponto de interrogação abundante: perguntas retóricas, perguntas de setup de exemplo e perguntas diretas ao leitor",
+        "frequencia": "frequente",
+        "ocorrencias": 11,
+        "evidencias": [
+          "Você tem 1.000 reais? Tem 10 ações disponíveis?",
+          "Ou é apenas uma maneira preguiçosa de perder dinheiro de forma **diversificada**?",
+          "Por que ninguém te vende o 1/N?"
+        ]
+      },
+      {
+        "traco": "Dois-pontos como articulador que anuncia a revelação, a lista ou a fórmula",
+        "frequencia": "frequente",
+        "ocorrencias": 7,
+        "evidencias": [
+          "Na época, confesso: **não achei nada ingênuo**.",
+          "A fórmula é:",
+          "Mas, por enquanto, lembre-se: às vezes, o cara “ingênuo” é o único na sala"
+        ]
+      },
+      {
+        "traco": "Travessão (—) com espaços, para aparte avaliativo ou para enumeração intercalada",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "E aí está o ponto curioso — e um pouco irônico: existe uma estratégia",
+          "exigia estimativas sobre o futuro — retornos, volatilidade, correlações — que são impossíveis de prever com precisão."
+        ]
+      },
+      {
+        "traco": "Aspas tipográficas curvas (“ ”) para distanciamento irônico (scare quotes) e uso metalinguístico/tradução",
+        "frequencia": "sempre",
+        "ocorrencias": 10,
+        "evidencias": [
+          "Mas e se a “Rocket Science” for apenas uma cortina de fumaça?",
+          "faz o “portfólio ótimo” se comportar de forma distante do esperado.",
+          "O título ficaria seria algo como “Teoria Ingênua de Conjuntos”."
+        ]
+      },
+      {
+        "traco": "Parênteses curtos para glosa ou aparte humorístico",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "movida por um motor de uno (*sem escada*).",
+          "teoria de conjuntos (*set theory*) e lógica."
+        ]
+      },
+      {
+        "traco": "Quebra de parágrafo depois de frase de impacto: muitos parágrafos de uma única frase, isolando punchline, pergunta ou afirmação seca",
+        "frequencia": "frequente",
+        "ocorrencias": 8,
+        "evidencias": [
+          "E, acima de tudo, é caro.",
+          "Markowitz não é um qualquer.",
+          "O seu portifólio atual tem performance melhor que um portfólio 1/N nos últimos 24 meses?"
+        ]
+      },
+      {
+        "traco": "Prosa corrida em vez de lista: enumerações ficam dentro da frase (vírgulas, fragmentos anafóricos), nunca em marcadores",
+        "frequencia": "sempre",
+        "ocorrencias": 4,
+        "evidencias": [
+          "baseando-se em risco, retorno e correlação.",
+          "Sem cálculo estocástico. Sem descontar fluxos de caixa futuros."
+        ]
+      },
+      {
+        "traco": "Separador de seção '* * *' isolando o bloco de CTA; reticências (caractere único, com espaço antes) só no título de teaser",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "* * *",
+          "## Continua …"
+        ]
+      },
+      {
+        "traco": "Números com ponto de milhar e notação de fração '1/N' em texto corrido",
+        "frequencia": "frequente",
+        "ocorrencias": 7,
+        "evidencias": [
+          "Você tem 1.000 reais?",
+          "uma amostra de dados de cerca de 3.000 meses."
+        ]
+      }
+    ],
+    "arquitetura": [
+      {
+        "traco": "Abre com tese provocativa em frase curta, seguida imediatamente de cena concreta no presente com instituição real e link de fonte",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "O mercado financeiro tem um fetiche por complexidade.",
+          "Se você entrar no *trading floor* da BlackRock hoje, pode ser que ouça sussurros sobre algoritmos"
+        ]
+      },
+      {
+        "traco": "Introdução sem subtítulo que termina com pergunta retórica dupla em forma de hipótese ('E se...? E se...?'), apresentando a tese como pergunta",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Mas e se a “Rocket Science” for apenas uma cortina de fumaça? E se a estratégia de investimento mais eficaz for tão estúpida"
+        ]
+      },
+      {
+        "traco": "Anedota autobiográfica (graduação, livro recomendado por professor) usada como ponte para o conceito, via jogo de palavras com o termo-chave ('naive' → 'ingênua')",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Quando eu estava na graduação em Matemática na **UFES (Universidade Federal do Espírito Santo)**, um professor me recomendou uma leitura.",
+          "existe uma estratégia de alocação “ingenua” em finanças que você entende em minutos"
+        ]
+      },
+      {
+        "traco": "Exemplo numérico concreto antes da formalização: o caso com dinheiro do leitor vem primeiro, a fórmula depois",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Você tem 1.000 reais? Tem 10 ações disponíveis? Você coloca 100 reais em cada uma. Fim.",
+          "A fórmula é:"
+        ]
+      },
+      {
+        "traco": "Pergunta marcando a fronteira entre seções: a seção termina ou a seguinte abre com pergunta",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "O seu portifólio atual tem performance melhor que um portfólio 1/N nos últimos 24 meses?",
+          "A pergunta óbvia é: isso funciona?",
+          "Por que ninguém te vende o 1/N?"
+        ],
+        "contraexemplo": "A menos que você seja um vampiro ou uma tartaruga de Galápagos, a complexidade não vale o seu tempo."
+      },
+      {
+        "traco": "Sustenta a tese com um estudo acadêmico apresentado em sequência narrativa: autores, ano, adversário de prestígio, analogia, resultado, número de impacto, punchline",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Em 2007, esses pesquisadores decidiram comprar uma briga com uma lenda viva.",
+          "O resultado? Na prática, a estratégia “ingênua” do 1/N empatava ou ganhava do modelo do Prêmio Nobel."
+        ]
+      },
+      {
+        "traco": "Fecho em seção 'Conclusão' que introduz ressalva/limite da própria tese (ecoando o subtítulo 'Mas não é para todo mundo') e termina em frase condicional que retoma a figura de abertura",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Ele é um instrumento cego e completamente alheio aos objetivos e apetites de risco de cada investidor.",
+          "Se o seu objetivo é apenas provar que a “Rocket Science” financeira é superestimada, a estratégia ingênua é sua aliada."
+        ]
+      },
+      {
+        "traco": "Depois do CTA, seção 'Continua …' com teaser do próximo post da série e aforismo final que retoma a palavra-chave",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Na próxima vez, vamos falar sobre a estratégia Ivy 5 de Meb Faber, outra tentativa de colocar ordem no caos."
+        ]
+      },
+      {
+        "traco": "Subtítulos curtos e temáticos/irônicos, três seções internas para ~744 palavras (um subtítulo a cada ~200 palavras); um deles genérico",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "### O Benchmark da Ingenuidade",
+          "### Quando o Nobel Falha"
+        ],
+        "contraexemplo": "### Conclusão"
+      }
+    ],
+    "figuras": [
+      {
+        "traco": "Metáfora-motivo de engenharia/ciência ('Rocket Science') introduzida na abertura, retomada no meio e no fecho",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": [
+          "É ***“Rocket Science”*** financeira. É sexy.",
+          "Se o seu objetivo é apenas provar que a “Rocket Science” financeira é superestimada"
+        ]
+      },
+      {
+        "traco": "Analogia automobilística curta de uma frase, com referência popular brasileira e aparte humorístico entre parênteses",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "foi como abrir o capô de uma Ferrari e descobrir que ela era movida por um motor de uno (*sem escada*)."
+        ]
+      },
+      {
+        "traco": "Hipérbole humorística do cotidiano (escola, animais, férias) para tornar concreto um ponto abstrato",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "tão estúpida que um aluno da quarta série poderia executá-la no intervalo do recreio?",
+          "A menos que você seja um vampiro ou uma tartaruga de Galápagos, a complexidade não vale o seu tempo.",
+          "Sem tentar adivinhar se o CEO da Apple vai ter uma indigestão amanhã."
+        ]
+      },
+      {
+        "traco": "Metáforas breves não estendidas para o mercado e os modelos (animal selvagem, teatro/guerra, máquina)",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "como se o mercado fosse uma besta indomável",
+          "apenas uma cortina de fumaça?",
+          "Como o modelo é uma máquina sensível"
+        ]
+      },
+      {
+        "traco": "Personificação da estratégia/modelo no fecho ('O 1/N é agnóstico', 'não se importa'), sustentada por quatro frases com pronome 'Ele'",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "O 1/N é agnóstico. Ele não se importa com seus sentimentos"
+        ]
+      },
+      {
+        "traco": "Disputa acadêmica descrita como briga/confronto",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "esses pesquisadores decidiram comprar uma briga com uma lenda viva.",
+          "a colocaram em confronto contra o **modelo de otimização de média-variância de Harry Markowitz**."
+        ]
+      }
+    ],
+    "postura": [
+      {
+        "traco": "Ironia e antagonismo explícito contra a indústria financeira (gestores, taxas, gerente de banco), posicionando o autor ao lado do leitor",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "O mercado financeiro tem um fetiche por complexidade.",
+          "geridas por pessoas que cobram taxas que você prefereria não pagar.",
+          "Por que seu gerente de banco não sugere dividir seu dinheiro igualmente e ir para a praia?"
+        ]
+      },
+      {
+        "traco": "Humor frequente, por hipérbole e aparte, inclusive em trecho técnico",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "um motor de uno (*sem escada*).",
+          "A menos que você seja um vampiro ou uma tartaruga de Galápagos"
+        ],
+        "contraexemplo": "A conclusão deles foi impactante. O modelo complexo de Markowitz exigia estimativas sobre o futuro"
+      },
+      {
+        "traco": "Primeira pessoa singular autobiográfica com confissão de dificuldade: autoridade implícita (graduação em Matemática) sem declarar expertise, com humildade",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Na época, confesso: **não achei nada ingênuo**.",
+          "Foram meses voltando à biblioteca para tentar processar as ideias de teoria de conjuntos"
+        ]
+      },
+      {
+        "traco": "Primeira pessoa do plural inclusiva para conduzir o leitor e anunciar continuidade",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "precisamos olhar para o trabalho de três acadêmicos",
+          "Na próxima vez, vamos falar sobre a estratégia Ivy 5 de Meb Faber"
+        ]
+      },
+      {
+        "traco": "Autoridade delegada à pesquisa acadêmica e respeito ao adversário antes de mostrar sua falha",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Markowitz não é um qualquer.",
+          "O modelo dele é umas dos pilares da teoria moderna de finanças."
+        ]
+      },
+      {
+        "traco": "Admite limite da própria tese no fecho em vez de vender a estratégia sem ressalva; hedge pontual em afirmação factual",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Ele é um instrumento cego e completamente alheio aos objetivos e apetites de risco de cada investidor.",
+          "pode ser que ouça sussurros sobre algoritmos"
+        ]
+      }
+    ],
+    "leitor": [
+      {
+        "traco": "Trata o leitor por 'você'/'seu' o tempo todo, colocando-o dentro dos exemplos e das hipóteses",
+        "frequencia": "frequente",
+        "ocorrencias": 18,
+        "evidencias": [
+          "equações que você não entende",
+          "Você tem 1.000 reais? Tem 10 ações disponíveis? Você coloca 100 reais em cada uma.",
+          "a complexidade não vale o seu tempo."
+        ],
+        "contraexemplo": "Quando eu estava na graduação em Matemática"
+      },
+      {
+        "traco": "Perguntas retóricas que conduzem o raciocínio",
+        "frequencia": "frequente",
+        "ocorrencias": 9,
+        "evidencias": [
+          "Mas e se a “Rocket Science” for apenas uma cortina de fumaça?",
+          "A pergunta óbvia é: isso funciona?"
+        ]
+      },
+      {
+        "traco": "Pergunta diagnóstica que pede ao leitor que aplique a ideia à própria carteira",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "O seu portifólio atual tem performance melhor que um portfólio 1/N nos últimos 24 meses?"
+        ]
+      },
+      {
+        "traco": "Introduz o desconhecido por exemplo numérico com dinheiro do leitor e converte número abstrato em escala humana",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Você tem 1.000 reais?",
+          "uma amostra de dados de cerca de 3.000 meses. São 250 anos."
+        ]
+      },
+      {
+        "traco": "Leitor pressuposto: investidor leigo-curioso; conceito central explicado, jargão periférico pressuposto",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "Ele ganhou um Prêmio Nobel de Economia por dizer ao mundo como otimizar portfólios",
+          "Sem descontar fluxos de caixa futuros."
+        ]
+      },
+      {
+        "traco": "Imperativo raro, só no fecho",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Mas, por enquanto, lembre-se: às vezes, o cara “ingênuo” é o único na sala"
+        ]
+      },
+      {
+        "traco": "Chamada para ação: um botão de compartilhamento do Substack com texto padrão, mais teaser da próxima edição",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Obrigado por ler o SYNTAXIS! Compartilhar este post ajuda a ampliar o alcance de ideias que merecem circular.",
+          "Na próxima vez, vamos falar sobre a estratégia Ivy 5 de Meb Faber"
+        ]
+      }
+    ],
+    "tecnico": [
+      {
+        "traco": "Fórmula única em display ($$), com variáveis escritas por extenso em português dentro da própria fórmula e notação de cardinalidade de conjunto; introduzida por dois-pontos após exemplo numérico, seguida de comentário de uma palavra em vez de glosa",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "$$ c = \\frac{\\text{Capital Disponível (C)}}{\\# \\{ \\text{Universo de Ativos}\\}} $$",
+          "Simples."
+        ]
+      },
+      {
+        "traco": "Notação técnica curta em texto corrido sem LaTeX ('1/N')",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "Eles pegaram a estratégia 1/N e a colocaram em confronto",
+          "O 1/N é agnóstico."
+        ]
+      },
+      {
+        "traco": "Cita estudo acadêmico no corpo do texto: nomes completos dos autores, ano e periódico em itálico, sem referência formal, DOI ou link",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "três acadêmicos: Victor DeMiguel, Lorenzo Garlappi e Raman Uppal. Em 2007",
+          "publicado na *Review of Financial Studies*"
+        ]
+      },
+      {
+        "traco": "Link inline ancorado numa única palavra, apontando para fonte jornalística (Bloomberg, 2017) sobre afirmação dada como presente ('hoje'), atenuada por 'pode ser que'",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "algoritmos que analisam imagens de [satélite](https://www.bloomberg.com/news/articles/2017-02-21/blackrock-says-satellite-images-can-help-track-chinese-companies)"
+        ]
+      },
+      {
+        "traco": "Resultado do estudo resumido em prosa qualitativa, sem tabela, gráfico ou métrica numérica do desempenho",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "a estratégia “ingênua” do 1/N empatava ou ganhava do modelo do Prêmio Nobel."
+        ]
+      }
+    ],
+    "formatacao": [
+      {
+        "traco": "Negrito para ênfase em palavra-chave do argumento (muitas vezes a última palavra de uma pergunta), em confissão, em nome de instituição e em conceito técnico central",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "é também **eficiente**?",
+          "perder dinheiro de forma **diversificada**?",
+          "Na época, confesso: **não achei nada ingênuo**."
+        ]
+      },
+      {
+        "traco": "Itálico para estrangeirismo, título de obra/periódico e aparte humorístico; estrangeirismo nem sempre italicizado",
+        "frequencia": "frequente",
+        "ocorrencias": 7,
+        "evidencias": [
+          "Se você entrar no *trading floor* da BlackRock",
+          "*Naive Set Theory*, de Paul R. Halmos.",
+          "um motor de uno (*sem escada*)."
+        ],
+        "contraexemplo": "É sexy."
+      },
+      {
+        "traco": "Destaque empilhado (negrito + itálico + aspas) na primeira aparição do termo-motivo; itálico dentro de aspas no termo estrangeiro traduzido",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "É ***“Rocket Science”*** financeira.",
+          "“*Naive*” costuma virar “ingênuo”."
+        ]
+      },
+      {
+        "traco": "Blocos curtos: parágrafos de 1 a 3 frases, muitos de uma frase; o maior com ~50 palavras",
+        "frequencia": "sempre",
+        "ocorrencias": 26,
+        "evidencias": [
+          "E, acima de tudo, é caro.",
+          "Markowitz não é um qualquer."
+        ]
+      },
+      {
+        "traco": "Subtítulos internos em h3 (###), Title Case nos temáticos; teaser final em h2 (##); título em Title Case e subtítulo em caixa de frase",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "### Quando o Nobel Falha",
+          "## Continua …"
+        ],
+        "contraexemplo": "subtitulo: \"Mas não é para todo mundo\""
+      },
+      {
+        "traco": "Duas imagens no corpo, ambas sem legenda, inseridas como respiro depois de parágrafo",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "![](img-01)",
+          "![](img-02)"
+        ]
+      },
+      {
+        "traco": "Um único botão de CTA do Substack (compartilhar), entre separadores '* * *', antes do teaser final",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "[[CTA: Compartilhar → https://syntaxis.substack.com/p/o-simples-funciona?utm_source=substack&utm_medium=email&utm_content=share&action=share | Obrigado por ler o SYNTAXIS!"
+        ]
+      }
+    ]
+  },
+  "antipadroes_observados": [
+    "(a) Nunca usa ponto-e-vírgula (0 ocorrências).",
+    "(a) Nunca usa ponto de exclamação no corpo do texto; o único '!' está no texto padrão do botão de CTA.",
+    "(a) Nunca usa lista com marcadores ou numerada; toda enumeração fica em prosa.",
+    "(a) Nunca usa citação em bloco, PULLQUOTE, tabela, código, riscado, nota de rodapé ou lista final de referências.",
+    "(a) Nunca põe legenda nas imagens.",
+    "(a) Nunca usa emoji.",
+    "(b) Não reconheço tique claro de texto gerado por IA. Os pontos mais próximos: a recorrência de tríades (5 ocorrências), o adjetivo genérico em 'A conclusão deles foi impactante.' e o texto do CTA ('ideias que merecem circular. Vamos levar esse conhecimento mais longe?'), que parece boilerplate reutilizado. Tudo isso é compatível com escrita humana de época pre-pipeline."
+  ],
+  "incerteza": "Texto curto (744 palavras, bem abaixo do piso de ~5.000 por amostra) e um único post pre-pipeline sem seção editorial (section_name null): frequências como 'sempre' e 'nunca' valem só para este arquivo. O texto tem erros de digitação, concordância e revisão que NÃO devem ser lidos como traço de estilo: 'prefereria', 'O título ficaria seria', '“ingenua”' sem acento, 'portifólio' ao lado de 'portfólio', 'umas dos pilares', 'Mas será que é essa estratégia ingênua, é também' (construção truncada), 'uno' em minúscula e falta de espaço em '[satélite](...)de' (pode ser artefato de captura). As duas imagens não têm legenda, então não dá para saber o conteúdo nem a função delas. O texto do CTA pode ser modelo padrão da publicação e não escrita específica do post. Não dá para concluir nada sobre tratamento de norma/regulação, tabelas, gráficos ou fórmulas múltiplas. Title Case aparece em 2 dos 4 subtítulos; os outros dois têm uma palavra só, então não dá para saber se é regra. O Bloomberg de 2017 citado como 'hoje' sugere dado desatualizado sem ressalva, mas um caso só não basta para generalizar."
+}

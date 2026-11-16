@@ -1,0 +1,1341 @@
+{
+ "slug_repo": "2026-10-30-du252-contagem-de-dias",
+ "slug_site": "voce-esta-contando-os-dias-errado",
+ "linha_editorial": "Notas de um Professor",
+ "rascunho": "_arquivo/drafts/2026-10-30_du252-contagem-de-dias.md",
+ "rascunho_tipo": "rascunho",
+ "post_md_base": {
+  "commit": "1839193",
+  "similaridade_base": 0.973,
+  "similaridade_versao_atual": 0.967
+ },
+ "palavras": {
+  "rascunho": 2317,
+  "post_md": 2737,
+  "publicado": 2625
+ },
+ "similaridade": {
+  "rascunho_post_md": 0.776,
+  "post_md_publicado": 0.973,
+  "rascunho_publicado": 0.758
+ },
+ "resumo_classe": {
+  "pontuacao": 12,
+  "negrito_adicionado": 10,
+  "divisao_paragrafo": 9,
+  "italico_adicionado": 8,
+  "substituicao": 6,
+  "remocao": 6,
+  "subtitulo_h2": 3,
+  "codigo": 3,
+  "legenda": 3,
+  "formula": 2,
+  "imagem": 1,
+  "link_adicionado": 1,
+  "tipografia_aspas": 1,
+  "titulo_post": 1,
+  "subtitulo_post": 1
+ },
+ "resumo_natureza": {
+  "estilo": 52,
+  "conteúdo/fato": 9,
+  "layout-substack": 5,
+  "marketing": 1
+ },
+ "sinais": {
+  "acrescimo_autoral": 6,
+  "reversao": 4
+ },
+ "operacoes": [
+  {
+   "classe": "imagem",
+   "natureza": "layout-substack",
+   "antes": "",
+   "depois": "⟦IMG⟧",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": null,
+   "bloco_depois": 0,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": " [[…]] Uma LTN (Letra do Tesouro",
+   "pos_antes": [
+    0,
+    0
+   ],
+   "tipo": "insercao",
+   "id": 1
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "estilo",
+   "antes": "Se",
+   "depois": "S e",
+   "palavras_antes": 1,
+   "palavras_depois": 2,
+   "bloco_antes": 3,
+   "bloco_depois": 4,
+   "sinais": [
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": "rascunho",
+   "contexto": "este texto é para você. [[…]] soou óbvia, talvez ele seja",
+   "pos_antes": [
+    112,
+    113
+   ],
+   "id": 2
+  },
+  {
+   "classe": "remocao",
+   "natureza": "conteúdo/fato",
+   "antes": "O problema do professor é que ele esquece que foi aluno. [PREENCHER: memória do autor — a primeira vez que uma conta sua não bateu com a tela da mesa por causa do calendário. Duas ou três frases; ela faz a ponte com o título.]",
+   "depois": "",
+   "palavras_antes": 44,
+   "palavras_depois": 0,
+   "bloco_antes": 3,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": "misto",
+   "contexto": "que senta do seu lado. [[…]] \"12% ao ano\"",
+   "pos_antes": [
+    128,
+    180
+   ],
+   "id": 3,
+   "natureza_fonte": "GATE A, 2026-11-15: marcador do pipeline cortado no site"
+  },
+  {
+   "classe": "pontuacao",
+   "natureza": "estilo",
+   "antes": "'",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 12,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "na contagem de dias como uma [[…]] régua '. Ela recebe duas",
+   "pos_antes": [
+    316,
+    317
+   ],
+   "id": 4
+  },
+  {
+   "classe": "pontuacao",
+   "natureza": "estilo",
+   "antes": "'",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 12,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "de dias como uma 'régua [[…]] . Ela recebe duas datas e",
+   "pos_antes": [
+    318,
+    319
+   ],
+   "id": 5
+  },
+  {
+   "classe": "pontuacao",
+   "natureza": "estilo",
+   "antes": "'",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 16,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "360. A capitalização é o [[…]] motor '. Ele recebe τ",
+   "pos_antes": [
+    409,
+    410
+   ],
+   "id": 6
+  },
+  {
+   "classe": "pontuacao",
+   "natureza": "estilo",
+   "antes": "'",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 16,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "A capitalização é o 'motor [[…]] . Ele recebe τ e a",
+   "pos_antes": [
+    411,
+    412
+   ],
+   "id": 7
+  },
+  {
+   "classe": "formula",
+   "natureza": "conteúdo/fato",
+   "antes": "",
+   "depois": "$$ Fator = (1 + i)^τ $$",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": null,
+   "bloco_depois": 18,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": "rascunho",
+   "contexto": "seu dinheiro. Motor composto: [[…]] Motor linear: Fator = 1",
+   "pos_antes": [
+    432,
+    441
+   ],
+   "tipo": "insercao",
+   "id": 8
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "conteúdo/fato",
+   "antes": "Fator = (1 + i) ^ τ",
+   "depois": "",
+   "palavras_antes": 4,
+   "palavras_depois": 0,
+   "bloco_antes": 17,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": "rascunho",
+   "contexto": "seu dinheiro. Motor composto: [[…]] Motor linear: Fator = 1",
+   "pos_antes": [
+    432,
+    441
+   ],
+   "id": 9
+  },
+  {
+   "classe": "formula",
+   "natureza": "conteúdo/fato",
+   "antes": "",
+   "depois": "$$ Fator = 1 + i × τ $$",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": null,
+   "bloco_depois": 19,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": "rascunho",
+   "contexto": ") ^ τ Motor linear: [[…]] Régua e motor são peças independentes",
+   "pos_antes": [
+    444,
+    451
+   ],
+   "tipo": "insercao",
+   "id": 10
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "conteúdo/fato",
+   "antes": "Fator = 1 + i × τ",
+   "depois": "",
+   "palavras_antes": 4,
+   "palavras_depois": 0,
+   "bloco_antes": 18,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": "rascunho",
+   "contexto": ") ^ τ Motor linear: [[…]] Régua e motor são peças independentes",
+   "pos_antes": [
+    444,
+    451
+   ],
+   "id": 11
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "estilo",
+   "antes": "por isso que vale",
+   "depois": "importante",
+   "palavras_antes": 4,
+   "palavras_depois": 1,
+   "bloco_antes": 19,
+   "bloco_depois": 22,
+   "sinais": [
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": "rascunho",
+   "contexto": "conforme o produto, e é [[…]] aprender as duas peças separadas,",
+   "pos_antes": [
+    476,
+    480
+   ],
+   "id": 12
+  },
+  {
+   "classe": "pontuacao",
+   "natureza": "estilo",
+   "antes": "'",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 19,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "peças separadas, e não o [[…]] pacote '. Na renda fixa",
+   "pos_antes": [
+    489,
+    490
+   ],
+   "id": 13
+  },
+  {
+   "classe": "pontuacao",
+   "natureza": "estilo",
+   "antes": "'",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 19,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": ", e não o 'pacote [[…]] . Na renda fixa brasileira em",
+   "pos_antes": [
+    491,
+    492
+   ],
+   "id": 14
+  },
+  {
+   "classe": "remocao",
+   "natureza": "estilo",
+   "antes": "Padrão, não regra:",
+   "depois": "",
+   "palavras_antes": 3,
+   "palavras_depois": 0,
+   "bloco_antes": 21,
+   "bloco_depois": null,
+   "sinais": [
+    "reversao"
+   ],
+   "restaurou_rascunho": null,
+   "origem_antes": "pipeline",
+   "contexto": "Bancário) e nas debêntures. [[…]] a B3 aceita registrar CDB em",
+   "pos_antes": [
+    561,
+    566
+   ],
+   "id": 15
+  },
+  {
+   "classe": "pontuacao",
+   "natureza": "estilo",
+   "antes": "'",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 26,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": ", e é aí que o [[…]] inclusive/exclusive 'volta,",
+   "pos_antes": [
+    773,
+    774
+   ],
+   "id": 16
+  },
+  {
+   "classe": "pontuacao",
+   "natureza": "estilo",
+   "antes": "'",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 26,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "que o 'inclusive/exclusive [[…]] volta, no código. Por",
+   "pos_antes": [
+    777,
+    778
+   ],
+   "id": 17
+  },
+  {
+   "classe": "subtitulo_h2",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "usar",
+   "palavras_antes": 0,
+   "palavras_depois": 1,
+   "bloco_antes": null,
+   "bloco_depois": 44,
+   "sinais": [
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "ano de calendário. Quanto custa [[…]] a régua errada Vamos a um",
+   "pos_antes": [
+    1218,
+    1218
+   ],
+   "id": 18
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "estilo",
+   "antes": "bonita",
+   "depois": "curiosa",
+   "palavras_antes": 1,
+   "palavras_depois": 1,
+   "bloco_antes": 48,
+   "bloco_depois": 54,
+   "sinais": [
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": "rascunho",
+   "contexto": "a parte que eu acho mais [[…]] . Inverta a pergunta: qual",
+   "pos_antes": [
+    1436,
+    1437
+   ],
+   "id": 19
+  },
+  {
+   "classe": "remocao",
+   "natureza": "conteúdo/fato",
+   "antes": "Nota de rigor: ignorei aqui os truncamentos de casas decimais que cada emissor e a própria ANBIMA (a associação das instituições do mercado financeiro, que publica a metodologia de preço dos títulos e o calendário de feriados) aplicam no fator e no PU. Eles mexem nos centavos, não na conclusão.",
+   "depois": "",
+   "palavras_antes": 50,
+   "palavras_depois": 0,
+   "bloco_antes": 54,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": "misto",
+   "contexto": "com a régua do outro. [[…]] ANBIMA ou B3? Duas perguntas",
+   "pos_antes": [
+    1531,
+    1588
+   ],
+   "id": 20,
+   "natureza_fonte": "GATE A, 2026-11-15: nota de rigor cortada (conteúdo)"
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "estilo",
+   "antes": "essa conta",
+   "depois": "processos que envolvem a contagem de dias úteis",
+   "palavras_antes": 2,
+   "palavras_depois": 8,
+   "bloco_antes": 56,
+   "bloco_depois": 63,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": "rascunho",
+   "contexto": "Duas perguntas diferentes Quem vai automatizar [[…]] esbarra cedo numa dúvida: existem",
+   "pos_antes": [
+    1598,
+    1600
+   ],
+   "id": 21
+  },
+  {
+   "classe": "pontuacao",
+   "natureza": "estilo",
+   "antes": "'",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 56,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "numa dúvida: existem dois calendários [[…]] oficiais 'circulando, o da",
+   "pos_antes": [
+    1608,
+    1609
+   ],
+   "id": 22
+  },
+  {
+   "classe": "pontuacao",
+   "natureza": "estilo",
+   "antes": "'",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 56,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": ": existem dois calendários 'oficiais [[…]] circulando, o da ANBIMA e",
+   "pos_antes": [
+    1610,
+    1611
+   ],
+   "id": 23
+  },
+  {
+   "classe": "pontuacao",
+   "natureza": "estilo",
+   "antes": "'",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 57,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "mesmo? Quase. E o [[…]] quase 'importa, porque eles",
+   "pos_antes": [
+    1629,
+    1630
+   ],
+   "id": 24
+  },
+  {
+   "classe": "pontuacao",
+   "natureza": "estilo",
+   "antes": "'",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 57,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "Quase. E o 'quase [[…]] importa, porque eles respondem a",
+   "pos_antes": [
+    1631,
+    1632
+   ],
+   "id": 25
+  },
+  {
+   "classe": "remocao",
+   "natureza": "estilo",
+   "antes": ", para quem mexe em série antiga",
+   "depois": "",
+   "palavras_antes": 6,
+   "palavras_depois": 0,
+   "bloco_antes": 65,
+   "bloco_depois": null,
+   "sinais": [
+    "reversao"
+   ],
+   "restaurou_rascunho": null,
+   "origem_antes": "pipeline",
+   "contexto": "mil. ⟦IMG⟧ Uma nota histórica [[…]] : até 2021, a B3",
+   "pos_antes": [
+    1983,
+    1990
+   ],
+   "id": 26
+  },
+  {
+   "classe": "subtitulo_h2",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "Utilizando",
+   "palavras_antes": 0,
+   "palavras_depois": 1,
+   "bloco_antes": null,
+   "bloco_depois": 78,
+   "sinais": [
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "calendário B3. Na prática: [[…]] Python sem cair em armadilhas Quatro",
+   "pos_antes": [
+    2232,
+    2232
+   ],
+   "id": 27
+  },
+  {
+   "classe": "codigo",
+   "natureza": "conteúdo/fato",
+   "antes": "```python\nCalendar.load(\"B3\").enddate      # datetime.date(2026, 12, 31)\nCalendar.load(\"ANBIMA\").enddate  # datetime.date(2099, 12, 25)\n```",
+   "depois": "```\nCalendar.load(\"B3\").enddate      # datetime.date(2026, 12, 31)\nCalendar.load(\"ANBIMA\").enddate  # datetime.date(2099, 12, 25)\n```",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 85,
+   "bloco_depois": 93,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "meses de vida. Confira: [[…]] Com isso em mente, os",
+   "pos_antes": [
+    2566,
+    2567
+   ],
+   "tipo": "substituicao",
+   "id": 28
+  },
+  {
+   "classe": "codigo",
+   "natureza": "conteúdo/fato",
+   "antes": "```python\nfrom bizdays import Calendar\n\ncal = Calendar.load(\"ANBIMA\")\n\naplicacao  = \"2026-10-01\"\nvencimento = cal.following(\"2026-12-01\")  # garante que a ponta final é dia útil\n\ndu = cal.bizdays(aplicacao, vencimento)   # conta (aplicação, vencimento]: com as duas pontas em dia útil, dá o du da convenção\nfator = (1 + 0.12) ** (du / 252)\n\nprint(du, round(100_000 * fator, 2))\n# 40 101815.15\n```",
+   "depois": "```\nfrom bizdays import Calendar\n\ncal = Calendar.load(\"ANBIMA\")\n\naplicacao  = \"2026-10-01\"\nvencimento = cal.following(\"2026-12-01\")  # garante que a ponta final é dia útil\n\ndu = cal.bizdays(aplicacao, vencimento)   # conta (aplicação, vencimento]: com as duas pontas em dia útil, dá o du da convenção\nfator = (1 + 0.12) ** (du / 252)\n\nprint(du, round(100_000 * fator, 2))\n# 40 101815.15\n```",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 89,
+   "bloco_depois": 97,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "os calendários ANBIMA e B3. [[…]] Caminho B: `pandas` puro,",
+   "pos_antes": [
+    2609,
+    2610
+   ],
+   "tipo": "substituicao",
+   "id": 29
+  },
+  {
+   "classe": "codigo",
+   "natureza": "conteúdo/fato",
+   "antes": "```python\nimport pandas as pd\nfrom pandas.tseries.offsets import CustomBusinessDay\n\n# Feriados bancários nacionais de 2026 (Resolução CMN 4.880/2020 + Lei 14.759/2023)\nferiados_2026 = [\n    \"2026-01-01\", \"2026-02-16\", \"2026-02-17\", \"2026-04-03\",\n    \"2026-04-21\", \"2026-05-01\", \"2026-06-04\", \"2026-09-07\",\n    \"2026-10-12\", \"2026-11-02\", \"2026-11-15\", \"2026-11-20\",\n    \"2026-12-25\",\n]\n\ndia_util_br = CustomBusinessDay(holidays=feriados_2026)\ndias = pd.date_range(\"2026-10-01\", \"2026-12-01\", freq=dia_util_br, inclusive=\"left\")\n\nprint(len(dias))\n# 40\n```",
+   "depois": "```\nimport pandas as pd\nfrom pandas.tseries.offsets import CustomBusinessDay\n\n# Feriados bancários nacionais de 2026 (Resolução CMN 4.880/2020 + Lei 14.759/2023)\nferiados_2026 = [\n    \"2026-01-01\", \"2026-02-16\", \"2026-02-17\", \"2026-04-03\",\n    \"2026-04-21\", \"2026-05-01\", \"2026-06-04\", \"2026-09-07\",\n    \"2026-10-12\", \"2026-11-02\", \"2026-11-15\", \"2026-11-20\",\n    \"2026-12-25\",\n]\n\ndia_util_br = CustomBusinessDay(holidays=feriados_2026)\ndias = pd.date_range(\"2026-10-01\", \"2026-12-01\", freq=dia_util_br, inclusive=\"left\")\n\nprint(len(dias))\n# 40\n```",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 92,
+   "bloco_depois": 100,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "lista de feriados você mesmo. [[…]] O `inclusive=\"left\"` é o 'aplicação",
+   "pos_antes": [
+    2648,
+    2649
+   ],
+   "tipo": "substituicao",
+   "id": 30
+  },
+  {
+   "classe": "remocao",
+   "natureza": "estilo",
+   "antes": "Dois relógios no mesmo prédio:",
+   "depois": "",
+   "palavras_antes": 5,
+   "palavras_depois": 0,
+   "bloco_antes": 97,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": "rascunho",
+   "contexto": "(du/252). [[…]] dentro da própria B3, o",
+   "pos_antes": [
+    2795,
+    2801
+   ],
+   "id": 31
+  },
+  {
+   "classe": "remocao",
+   "natureza": "estilo",
+   "antes": "Exemplo fresco:",
+   "depois": "",
+   "palavras_antes": 2,
+   "palavras_depois": 0,
+   "bloco_antes": 98,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": "rascunho",
+   "contexto": "B3, ela é antecipada. [[…]] em novembro de 2026, a",
+   "pos_antes": [
+    2937,
+    2940
+   ],
+   "id": 32
+  },
+  {
+   "classe": "subtitulo_h2",
+   "natureza": "estilo",
+   "antes": "ir além",
+   "depois": "continuar aprendendo",
+   "palavras_antes": 2,
+   "palavras_depois": 2,
+   "bloco_antes": 110,
+   "bloco_depois": 120,
+   "sinais": [
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": "rascunho",
+   "contexto": "você já encontrou. ⟦HR⟧ Para [[…]] John C. Hull, Options",
+   "pos_antes": [
+    3178,
+    3180
+   ],
+   "id": 33
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "× τ Régua e motor são peças independentes.",
+   "depois": "Trocar uma não troca a outra. O",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 19,
+   "bloco_depois": 21,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "× τ Régua e motor são peças independentes. Trocar uma não troca a outra. O",
+   "pos_antes": [
+    457,
+    459
+   ],
+   "id": 34
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "independentes. Trocar uma não troca a outra.",
+   "depois": "O mercado monta combinações diferentes conforme o produto",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 19,
+   "bloco_depois": 22,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "independentes. Trocar uma não troca a outra. O mercado monta combinações diferentes conforme o produto",
+   "pos_antes": [
+    464,
+    466
+   ],
+   "id": 35
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "o emissor quem escolhe a régua no registro.",
+   "depois": "A fórmula é: $$\\text{Fator} = (1 + i)^{du/252}$$ E, para",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 21,
+   "bloco_depois": 25,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "o emissor quem escolhe a régua no registro. A fórmula é: $$\\text{Fator} = (1 + i)^{du/252}$$ E, para",
+   "pos_antes": [
+    590,
+    592
+   ],
+   "id": 36
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "foi 2024, receberia 12, 05%.",
+   "depois": "A taxa é a mesma. O ano",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 36,
+   "bloco_depois": 41,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "foi 2024, receberia 12, 05%. A taxa é a mesma. O ano",
+   "pos_antes": [
+    1154,
+    1156
+   ],
+   "id": 37
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "05%. A taxa é a mesma.",
+   "depois": "O ano é que muda de tamanho.",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 36,
+   "bloco_depois": 42,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "05%. A taxa é a mesma. O ano é que muda de tamanho.",
+   "pos_antes": [
+    1160,
+    1162
+   ],
+   "id": 38
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "/360 linear Mesmo dinheiro, quatro números.",
+   "depois": "Nenhum está errado. Errado é ler um",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 53,
+   "bloco_depois": 60,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "/360 linear Mesmo dinheiro, quatro números. Nenhum está errado. Errado é ler um",
+   "pos_antes": [
+    1515,
+    1517
+   ],
+   "id": 39
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "dinheiro, quatro números. Nenhum está errado.",
+   "depois": "Errado é ler um número com a régua",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 53,
+   "bloco_depois": 61,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "dinheiro, quatro números. Nenhum está errado. Errado é ler um número com a régua",
+   "pos_antes": [
+    1519,
+    1521
+   ],
+   "id": 40
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "taxa DI é apurada e o juro corre.",
+   "depois": "No último dia útil, não há atendimento",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 61,
+   "bloco_depois": 69,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "taxa DI é apurada e o juro corre. No último dia útil, não há atendimento",
+   "pos_antes": [
+    1800,
+    1802
+   ],
+   "id": 41
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "Ela também varia de um mercado para outro.",
+   "depois": "Na renda fixa, já vimos, a",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 98,
+   "bloco_depois": 107,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "Ela também varia de um mercado para outro. Na renda fixa, já vimos, a",
+   "pos_antes": [
+    2903,
+    2905
+   ],
+   "id": 42
+  },
+  {
+   "classe": "negrito_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "convenção de contagem",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 8,
+   "bloco_depois": 9,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "anos '? Essa é a convenção de contagem de dias (day count)",
+   "pos_antes": [
+    237,
+    240
+   ],
+   "id": 43
+  },
+  {
+   "classe": "negrito_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "convenção de capitalização",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 9,
+   "bloco_depois": 10,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "esse tempo? Essa é a convenção de capitalização: linear ou composta. O",
+   "pos_antes": [
+    259,
+    262
+   ],
+   "id": 44
+  },
+  {
+   "classe": "negrito_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "DU/252",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 20,
+   "bloco_depois": 23,
+   "sinais": [
+    "reversao"
+   ],
+   "restaurou_rascunho": true,
+   "origem_antes": null,
+   "contexto": ", a combinação padrão é régua DU/252 com motor composto. É a",
+   "pos_antes": [
+    505,
+    508
+   ],
+   "id": 45
+  },
+  {
+   "classe": "negrito_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "motor composto",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 20,
+   "bloco_depois": 23,
+   "sinais": [
+    "reversao"
+   ],
+   "restaurou_rascunho": true,
+   "origem_antes": null,
+   "contexto": "é régua DU/252 com motor composto. É a da Selic (",
+   "pos_antes": [
+    509,
+    511
+   ],
+   "id": 46
+  },
+  {
+   "classe": "negrito_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "Entre 2001 e 2030, só três anos têm exatamente 252 dias úteis",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 35,
+   "bloco_depois": 39,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "calendário continua não colaborando: ⟦IMG⟧ Entre 2001 e 2030, só três anos têm exatamente 252 dias úteis: 2004, 2025 e 2030",
+   "pos_antes": [
+    1068,
+    1081
+   ],
+   "id": 47
+  },
+  {
+   "classe": "negrito_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "CDB prefixado",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 39,
+   "bloco_depois": 45,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "a um exemplo concreto. Um CDB prefixado: Valor aplicado: R $",
+   "pos_antes": [
+    1228,
+    1230
+   ],
+   "id": 48
+  },
+  {
+   "classe": "negrito_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "enxergar além do DU/252",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 95,
+   "bloco_depois": 103,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "Três notas rápidas para quem quer enxergar além do DU/252. Lá fora, o juro",
+   "pos_antes": [
+    2672,
+    2678
+   ],
+   "id": 49
+  },
+  {
+   "classe": "negrito_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "Actual/Actual",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 96,
+   "bloco_depois": 104,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "os títulos públicos americanos) usam Actual/Actual (dias corridos divididos pelos dias",
+   "pos_antes": [
+    2707,
+    2710
+   ],
+   "id": 50
+  },
+  {
+   "classe": "negrito_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "30/360",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 96,
+   "bloco_depois": 104,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "), os títulos corporativos usam 30/360 e o mercado monetário usa Actual",
+   "pos_antes": [
+    2727,
+    2730
+   ],
+   "id": 51
+  },
+  {
+   "classe": "negrito_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "Nas opções sobre ações da B3, ela é antecipada",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 98,
+   "bloco_depois": 107,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "o `following` do código). Nas opções sobre ações da B3, ela é antecipada. Exemplo fresco: em novembro",
+   "pos_antes": [
+    2926,
+    2936
+   ],
+   "id": 52
+  },
+  {
+   "classe": "italico_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "régua",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 12,
+   "bloco_depois": 13,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "contagem de dias como uma 'régua'. Ela recebe duas datas",
+   "pos_antes": [
+    317,
+    318
+   ],
+   "id": 53
+  },
+  {
+   "classe": "italico_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "motor",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 16,
+   "bloco_depois": 17,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": ". A capitalização é o 'motor'. Ele recebe τ e",
+   "pos_antes": [
+    410,
+    411
+   ],
+   "id": 54
+  },
+  {
+   "classe": "italico_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "inclusive/exclusive",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 26,
+   "bloco_depois": 30,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "e é aí que o 'inclusive/exclusive' volta, no código.",
+   "pos_antes": [
+    774,
+    777
+   ],
+   "id": 55
+  },
+  {
+   "classe": "italico_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "oficiais",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 56,
+   "bloco_depois": 63,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "dúvida: existem dois calendários 'oficiais' circulando, o da ANBIMA",
+   "pos_antes": [
+    1609,
+    1610
+   ],
+   "id": 56
+  },
+  {
+   "classe": "italico_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "quase",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 57,
+   "bloco_depois": 64,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "? Quase. E o 'quase' importa, porque eles respondem",
+   "pos_antes": [
+    1630,
+    1631
+   ],
+   "id": 57
+  },
+  {
+   "classe": "italico_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "'o juro correu hoje?'",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 58,
+   "bloco_depois": 65,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": ". O calendário ANBIMA responde: 'o juro correu hoje?' É o calendário bancário nacional.",
+   "pos_antes": [
+    1646,
+    1653
+   ],
+   "id": 58
+  },
+  {
+   "classe": "italico_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "'a bolsa abriu hoje?'",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 59,
+   "bloco_depois": 66,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": ". O calendário B3 responde: 'a bolsa abriu hoje?' São os dias de pregão (",
+   "pos_antes": [
+    1717,
+    1724
+   ],
+   "id": 59
+  },
+  {
+   "classe": "italico_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "juro corre",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 61,
+   "bloco_depois": 68,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "taxa DI é apurada e o juro corre. No último dia útil,",
+   "pos_antes": [
+    1798,
+    1800
+   ],
+   "id": 60
+  },
+  {
+   "classe": "link_adicionado",
+   "natureza": "marketing",
+   "antes": "",
+   "depois": "debêntures",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 20,
+   "bloco_depois": 23,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "de Depósito Bancário) e nas debêntures. Padrão, não regra:",
+   "pos_antes": [
+    559,
+    560
+   ],
+   "id": 61
+  },
+  {
+   "classe": "legenda",
+   "natureza": "layout-substack",
+   "antes": "dias úteis por ano no calendário ANBIMA, 2001–2030, em barras que partem da convenção de 252. Só 2004, 2025 e 2030 têm exatamente 252; vinte anos ficam abaixo e sete acima, com média de 251. Em 2026, com 249 dias úteis, 12% ao ano rendem 11,85%. 2027–2030 projetados pelo calendário vigente.",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 34,
+   "bloco_depois": 38,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "o calendário continua não colaborando: [[…]] Entre 2001 e 2030, só",
+   "pos_antes": [
+    1067,
+    1068
+   ],
+   "id": 62
+  },
+  {
+   "classe": "legenda",
+   "natureza": "layout-substack",
+   "antes": "tabela com o mesmo CDB de R$ 100 mil a 12% ao ano, de 01/10 a 01/12/2026, em quatro réguas. Contratado (DU/252, composto, 1,12^(40/252)): R$ 101.815,15. DC/365 composto: + R$ 96,89. DC/360 composto: + R$ 123,70. DC/360 linear: + R$ 218,18.",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 46,
+   "bloco_depois": 52,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "com réguas e motores diferentes: [[…]] Num CDB de R $ 100",
+   "pos_antes": [
+    1354,
+    1355
+   ],
+   "id": 63
+  },
+  {
+   "classe": "legenda",
+   "natureza": "layout-substack",
+   "antes": "calendário de dezembro de 2026. Dos 22 dias úteis do calendário ANBIMA, 20 têm pregão na B3; os outros dois, 24 e 31 de dezembro, são dia útil sem pregão: o juro corre e a bolsa não abre. Fins de semana e o Natal (25) não são nem um nem outro.",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 64,
+   "bloco_depois": 72,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": ", R $ 90 mil. [[…]] Uma nota histórica, para quem",
+   "pos_antes": [
+    1979,
+    1980
+   ],
+   "id": 64
+  },
+  {
+   "classe": "tipografia_aspas",
+   "natureza": "layout-substack",
+   "antes": "",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": null,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "",
+   "ocorrencias": 30,
+   "id": 65
+  },
+  {
+   "id": 66,
+   "classe": "titulo_post",
+   "natureza": "estilo",
+   "antes": "Você está contando os dias úteis errado (e isso está custando dinheiro)",
+   "depois": "Você está contando os dias errado",
+   "palavras_antes": 12,
+   "palavras_depois": 6,
+   "bloco_antes": null,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": ""
+  },
+  {
+   "id": 67,
+   "classe": "subtitulo_post",
+   "natureza": "estilo",
+   "antes": "Por que o juro brasileiro não corre no sábado, por que \"12% ao ano\" quase nunca rende 12% em um ano e como impedir que o calendário errado entre no seu código.",
+   "depois": "e isso pode estar custando dinheiro",
+   "palavras_antes": 32,
+   "palavras_depois": 6,
+   "bloco_antes": null,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": ""
+  }
+ ]
+}

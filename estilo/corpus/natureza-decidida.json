@@ -1,0 +1,37 @@
+[
+ {
+  "slug_repo": "2026-08-17-o-mundo-invertido-das-carreiras-em-financas",
+  "classe": "insercao",
+  "trecho": "a compreensão prática do produto",
+  "natureza": "conteúdo/fato",
+  "motivo": "GATE A, 2026-11-15: parágrafo de conteúdo acrescentado pelo autor"
+ },
+ {
+  "slug_repo": "2026-08-17-o-mundo-invertido-das-carreiras-em-financas",
+  "classe": "substituicao",
+  "trecho": "Youtube!",
+  "natureza": "marketing",
+  "motivo": "GATE A, 2026-11-15: CTA do curso reescrito"
+ },
+ {
+  "slug_repo": "2026-10-30-du252-contagem-de-dias",
+  "classe": "remocao",
+  "trecho": "[PREENCHER",
+  "natureza": "conteúdo/fato",
+  "motivo": "GATE A, 2026-11-15: marcador do pipeline cortado no site"
+ },
+ {
+  "slug_repo": "2026-10-30-du252-contagem-de-dias",
+  "classe": "remocao",
+  "trecho": "Nota de rigor",
+  "natureza": "conteúdo/fato",
+  "motivo": "GATE A, 2026-11-15: nota de rigor cortada (conteúdo)"
+ },
+ {
+  "slug_repo": "2026-11-13-should-i-stay",
+  "classe": "divisao_paragrafo",
+  "trecho": "margem para escolher",
+  "natureza": "layout-substack",
+  "motivo": "GATE A, 2026-11-15: parágrafo só com '.', deslize no editor"
+ }
+]

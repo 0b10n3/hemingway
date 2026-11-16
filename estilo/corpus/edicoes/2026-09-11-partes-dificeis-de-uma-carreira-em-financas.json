@@ -1,0 +1,1854 @@
+{
+ "slug_repo": "2026-09-11-partes-dificeis-de-uma-carreira-em-financas",
+ "slug_site": "o-dificil-sobre-as-dificuldades-em",
+ "linha_editorial": "Spoiler",
+ "rascunho": "_arquivo/drafts/2026-09-11_O Díficil _Sobre_as_Partes_Difíceis_de_uma_Carreira_em_Financas.md",
+ "rascunho_tipo": "rascunho",
+ "post_md_base": {
+  "commit": "atual",
+  "similaridade_base": 0.941,
+  "similaridade_versao_atual": 0.941
+ },
+ "palavras": {
+  "rascunho": 1307,
+  "post_md": 1600,
+  "publicado": 1589
+ },
+ "similaridade": {
+  "rascunho_post_md": 0.899,
+  "post_md_publicado": 0.941,
+  "rascunho_publicado": 0.836
+ },
+ "resumo_classe": {
+  "divisao_paragrafo": 26,
+  "pontuacao": 22,
+  "substituicao": 11,
+  "italico_adicionado": 10,
+  "remocao": 9,
+  "negrito_adicionado": 5,
+  "insercao": 4,
+  "separador": 2,
+  "imagem": 1,
+  "cta": 1,
+  "legenda": 1,
+  "tipografia_aspas": 1
+ },
+ "resumo_natureza": {
+  "estilo": 86,
+  "layout-substack": 5,
+  "marketing": 1,
+  "aviso-legal": 1
+ },
+ "sinais": {
+  "acrescimo_autoral": 14,
+  "reversao": 4
+ },
+ "operacoes": [
+  {
+   "classe": "imagem",
+   "natureza": "layout-substack",
+   "antes": "",
+   "depois": "⟦IMG⟧",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": null,
+   "bloco_depois": 1,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "Fortalecer a Lombar é uma Droga [[…]] Este ano comecei a levar mais",
+   "pos_antes": [
+    6,
+    6
+   ],
+   "tipo": "insercao",
+   "id": 1
+  },
+  {
+   "classe": "remocao",
+   "natureza": "estilo",
+   "antes": "(a musculatura que estabiliza o tronco e transmite a força gerada no quadril para o resto do corpo)",
+   "depois": "",
+   "palavras_antes": 18,
+   "palavras_depois": 0,
+   "bloco_antes": 2,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": "rascunho",
+   "contexto": "o fortalecimento do 'core' [[…]] ou de músculos exóticos do pé",
+   "pos_antes": [
+    88,
+    108
+   ],
+   "id": 2
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "estilo",
+   "antes": "é honesta sobre isso de um jeito específico: há evidência sólida",
+   "depois": "reune muitas evidências",
+   "palavras_antes": 11,
+   "palavras_depois": 3,
+   "bloco_antes": 3,
+   "bloco_depois": 6,
+   "sinais": [
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": "rascunho",
+   "contexto": "A literatura de ciência do esporte [[…]] de que o 'core'",
+   "pos_antes": [
+    207,
+    219
+   ],
+   "obs": "possível erro de digitação no site: 'evidências'",
+   "id": 3
+  },
+  {
+   "classe": "remocao",
+   "natureza": "estilo",
+   "antes": "; a ligação direta com 'correr mais rápido' é mais fraca e menos estudada",
+   "depois": "",
+   "palavras_antes": 13,
+   "palavras_depois": 0,
+   "bloco_antes": 3,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": "rascunho",
+   "contexto": "do atleta ao longo do tempo [[…]] . Ou seja: o treino",
+   "pos_antes": [
+    238,
+    254
+   ],
+   "id": 4
+  },
+  {
+   "classe": "remocao",
+   "natureza": "estilo",
+   "antes": "Ou seja: o treino chato",
+   "depois": "",
+   "palavras_antes": 5,
+   "palavras_depois": 0,
+   "bloco_antes": 3,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": "rascunho",
+   "contexto": "mais fraca e menos estudada. [[…]] não é o que o deixa",
+   "pos_antes": [
+    255,
+    261
+   ],
+   "id": 5
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "estilo",
+   "antes": "Ficar procrastinando",
+   "depois": "Ficarprocrastinando",
+   "palavras_antes": 2,
+   "palavras_depois": 1,
+   "bloco_antes": 7,
+   "bloco_depois": 12,
+   "sinais": [
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": "rascunho",
+   "contexto": "inútil e sofrimento com propósito. [[…]] , isolado, viciado em entretenimento",
+   "pos_antes": [
+    410,
+    412
+   ],
+   "obs": "possível erro de digitação no site: 'Ficarprocrastinando'",
+   "id": 6
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "estilo",
+   "antes": "respeitável",
+   "depois": "admirável",
+   "palavras_antes": 1,
+   "palavras_depois": 1,
+   "bloco_antes": 8,
+   "bloco_depois": 15,
+   "sinais": [
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": "rascunho",
+   "contexto": "disponível para você — por mais [[…]] que seja o esforço. Peterson",
+   "pos_antes": [
+    513,
+    514
+   ],
+   "id": 7
+  },
+  {
+   "classe": "remocao",
+   "natureza": "estilo",
+   "antes": "— consciente ou não",
+   "depois": "",
+   "palavras_antes": 3,
+   "palavras_depois": 0,
+   "bloco_antes": 9,
+   "bloco_depois": null,
+   "sinais": [
+    "reversao"
+   ],
+   "restaurou_rascunho": null,
+   "origem_antes": "pipeline",
+   "contexto": "—, alguém decide por você [[…]] . Isso não é necessariamente ruim",
+   "pos_antes": [
+    584,
+    588
+   ],
+   "id": 8
+  },
+  {
+   "classe": "remocao",
+   "natureza": "estilo",
+   "antes": "— pior —",
+   "depois": "",
+   "palavras_antes": 1,
+   "palavras_depois": 0,
+   "bloco_antes": 9,
+   "bloco_depois": null,
+   "sinais": [
+    "reversao"
+   ],
+   "restaurou_rascunho": null,
+   "origem_antes": "pipeline",
+   "contexto": "a sua trajetória, ou que [[…]] o molda para habilidades desalinhadas com",
+   "pos_antes": [
+    626,
+    629
+   ],
+   "id": 9
+  },
+  {
+   "classe": "pontuacao",
+   "natureza": "estilo",
+   "antes": "(",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 10,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": ". Escolha o seu difícil. [[…]] E aceite, desde já:",
+   "pos_antes": [
+    674,
+    675
+   ],
+   "id": 10
+  },
+  {
+   "classe": "pontuacao",
+   "natureza": "estilo",
+   "antes": ")",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 10,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "que fica sob seu controle. [[…]] Desde que identifiquei meu objetivo —",
+   "pos_antes": [
+    713,
+    714
+   ],
+   "id": 11
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "estilo",
+   "antes": "—",
+   "depois": "como sendo",
+   "palavras_antes": 0,
+   "palavras_depois": 2,
+   "bloco_antes": 11,
+   "bloco_depois": 22,
+   "sinais": [
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": ") Desde que identifiquei meu objetivo [[…]] construir uma carreira sólida em finanças",
+   "pos_antes": [
+    719,
+    720
+   ],
+   "id": 12
+  },
+  {
+   "classe": "pontuacao",
+   "natureza": "estilo",
+   "antes": "—",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 11,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "construir uma carreira sólida em finanças [[…]] , um dos difíceis que abracei",
+   "pos_antes": [
+    726,
+    727
+   ],
+   "id": 13
+  },
+  {
+   "classe": "pontuacao",
+   "natureza": "estilo",
+   "antes": "'",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 11,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "distinção fica concreta. Construir um [[…]] trade system '(um sistema",
+   "pos_antes": [
+    749,
+    750
+   ],
+   "id": 14
+  },
+  {
+   "classe": "pontuacao",
+   "natureza": "estilo",
+   "antes": "'",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 11,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": ". Construir um 'trade system [[…]] (um sistema automatizado de decisão",
+   "pos_antes": [
+    752,
+    753
+   ],
+   "id": 15
+  },
+  {
+   "classe": "pontuacao",
+   "natureza": "estilo",
+   "antes": "'",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 11,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "), montar um modelo de [[…]] Value at Risk '(a",
+   "pos_antes": [
+    769,
+    770
+   ],
+   "id": 16
+  },
+  {
+   "classe": "pontuacao",
+   "natureza": "estilo",
+   "antes": "'",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 11,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "modelo de 'Value at Risk [[…]] (a estimativa estatística do nível",
+   "pos_antes": [
+    773,
+    774
+   ],
+   "id": 17
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "estilo",
+   "antes": "no portfólio",
+   "depois": "na timeline do LinkedIn",
+   "palavras_antes": 2,
+   "palavras_depois": 4,
+   "bloco_antes": 11,
+   "bloco_depois": 23,
+   "sinais": [
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": "rascunho",
+   "contexto": ". É pop. Aparece bem [[…]] , aparece bem numa conversa de",
+   "pos_antes": [
+    821,
+    823
+   ],
+   "id": 18
+  },
+  {
+   "classe": "pontuacao",
+   "natureza": "estilo",
+   "antes": "'",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 12,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "raramente reforça: um modelo de [[…]] Value at Risk 'implementado por",
+   "pos_antes": [
+    900,
+    901
+   ],
+   "id": 19
+  },
+  {
+   "classe": "pontuacao",
+   "natureza": "estilo",
+   "antes": "'",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 12,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "modelo de 'Value at Risk [[…]] implementado por alguém que não entende",
+   "pos_antes": [
+    904,
+    905
+   ],
+   "id": 20
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "estilo",
+   "antes": "a premissa de normalidade",
+   "depois": "as premissas",
+   "palavras_antes": 4,
+   "palavras_depois": 2,
+   "bloco_antes": 12,
+   "bloco_depois": 26,
+   "sinais": [
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": "rascunho",
+   "contexto": "implementado por alguém que não entende [[…]] por trás dele tende a subestimar",
+   "pos_antes": [
+    911,
+    915
+   ],
+   "id": 21
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "estilo",
+   "antes": "tende a",
+   "depois": ", pode",
+   "palavras_antes": 2,
+   "palavras_depois": 1,
+   "bloco_antes": 12,
+   "bloco_depois": 26,
+   "sinais": [
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": "rascunho",
+   "contexto": "premissa de normalidade por trás dele [[…]] subestimar sistematicamente a chance de superar",
+   "pos_antes": [
+    918,
+    920
+   ],
+   "id": 22
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "estilo",
+   "antes": "Essa",
+   "depois": "Esse",
+   "palavras_antes": 1,
+   "palavras_depois": 1,
+   "bloco_antes": 12,
+   "bloco_depois": 27,
+   "sinais": [
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": "rascunho",
+   "contexto": "exatamente esse nível de perda. [[…]] é uma crítica documentada desde a",
+   "pos_antes": [
+    932,
+    933
+   ],
+   "id": 23
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "estilo",
+   "antes": "uma crítica documentada",
+   "depois": "um ponto bem conhecido",
+   "palavras_antes": 3,
+   "palavras_depois": 4,
+   "bloco_antes": 12,
+   "bloco_depois": 27,
+   "sinais": [
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": "rascunho",
+   "contexto": "nível de perda. Essa é [[…]] desde a crise de 2008:",
+   "pos_antes": [
+    934,
+    937
+   ],
+   "id": 24
+  },
+  {
+   "classe": "pontuacao",
+   "natureza": "estilo",
+   "antes": "'",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 12,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "desde a crise de 2008: [[…]] saber implementar 'sem entender o",
+   "pos_antes": [
+    943,
+    944
+   ],
+   "id": 25
+  },
+  {
+   "classe": "pontuacao",
+   "natureza": "estilo",
+   "antes": "'",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 12,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "de 2008: 'saber implementar [[…]] sem entender o que sustenta o",
+   "pos_antes": [
+    946,
+    947
+   ],
+   "id": 26
+  },
+  {
+   "classe": "pontuacao",
+   "natureza": "estilo",
+   "antes": "'",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 15,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "mais difícil O mesmo raciocínio do [[…]] Value at Risk 'mal implementado",
+   "pos_antes": [
+    1014,
+    1015
+   ],
+   "id": 27
+  },
+  {
+   "classe": "pontuacao",
+   "natureza": "estilo",
+   "antes": "'",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 15,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "raciocínio do 'Value at Risk [[…]] mal implementado vale para qualquer difícil",
+   "pos_antes": [
+    1018,
+    1019
+   ],
+   "id": 28
+  },
+  {
+   "classe": "pontuacao",
+   "natureza": "estilo",
+   "antes": "'",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 20,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "Então a pergunta não deveria ser [[…]] qual opção é mais confortável '",
+   "pos_antes": [
+    1158,
+    1159
+   ],
+   "id": 29
+  },
+  {
+   "classe": "pontuacao",
+   "natureza": "estilo",
+   "antes": "'",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 20,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "'qual opção é mais confortável [[…]] . Deveria ser: qual dificuldade",
+   "pos_antes": [
+    1164,
+    1165
+   ],
+   "id": 30
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "estilo",
+   "antes": ", mesmo sem conseguir apontar para uma única passagem em que ele a resume dessa forma exata —",
+   "depois": ".",
+   "palavras_antes": 16,
+   "palavras_depois": 0,
+   "bloco_antes": 22,
+   "bloco_depois": 38,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": "rascunho",
+   "contexto": "de Peterson de que mais gosto [[…]] é antes um padrão que ele",
+   "pos_antes": [
+    1189,
+    1207
+   ],
+   "id": 31
+  },
+  {
+   "classe": "remocao",
+   "natureza": "estilo",
+   "antes": "antes",
+   "depois": "",
+   "palavras_antes": 1,
+   "palavras_depois": 0,
+   "bloco_antes": 22,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": "rascunho",
+   "contexto": "resume dessa forma exata — é [[…]] um padrão que ele repete,",
+   "pos_antes": [
+    1208,
+    1209
+   ],
+   "id": 32
+  },
+  {
+   "classe": "remocao",
+   "natureza": "estilo",
+   "antes": "— não como frase de efeito",
+   "depois": "",
+   "palavras_antes": 5,
+   "palavras_depois": 0,
+   "bloco_antes": 24,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": "rascunho",
+   "contexto": "obrigado a se tornar mais capaz [[…]] , como consequência mecânica. Ninguém",
+   "pos_antes": [
+    1263,
+    1269
+   ],
+   "id": 33
+  },
+  {
+   "classe": "insercao",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "Quase",
+   "palavras_antes": 0,
+   "palavras_depois": 1,
+   "bloco_antes": null,
+   "bloco_depois": 41,
+   "sinais": [
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "efeito, como consequência mecânica. [[…]] Ninguém acorda empolgado para estudar teoremas",
+   "pos_antes": [
+    1274,
+    1274
+   ],
+   "id": 34
+  },
+  {
+   "classe": "remocao",
+   "natureza": "estilo",
+   "antes": "— e",
+   "depois": "",
+   "palavras_antes": 1,
+   "palavras_depois": 0,
+   "bloco_antes": 25,
+   "bloco_depois": null,
+   "sinais": [
+    "reversao"
+   ],
+   "restaurou_rascunho": null,
+   "origem_antes": "pipeline",
+   "contexto": ", sustentam qualquer modelo probabilístico sério [[…]] se a disciplina depender só de",
+   "pos_antes": [
+    1311,
+    1313
+   ],
+   "id": 35
+  },
+  {
+   "classe": "pontuacao",
+   "natureza": "estilo",
+   "antes": "'",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 26,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "Transposto para o estudo, o [[…]] pequeno 'fica assim: entender",
+   "pos_antes": [
+    1388,
+    1389
+   ],
+   "id": 36
+  },
+  {
+   "classe": "pontuacao",
+   "natureza": "estilo",
+   "antes": "'",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 26,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "o estudo, o 'pequeno [[…]] fica assim: entender a demonstração",
+   "pos_antes": [
+    1390,
+    1391
+   ],
+   "id": 37
+  },
+  {
+   "classe": "remocao",
+   "natureza": "estilo",
+   "antes": "do Hull",
+   "depois": "",
+   "palavras_antes": 2,
+   "palavras_depois": 0,
+   "bloco_antes": 26,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": "rascunho",
+   "contexto": "de pular para o próximo capítulo [[…]] , fingindo que entendeu. Ler",
+   "pos_antes": [
+    1421,
+    1423
+   ],
+   "id": 38
+  },
+  {
+   "classe": "insercao",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "ou apresenta um conteto histórico relevante",
+   "palavras_antes": 0,
+   "palavras_depois": 6,
+   "bloco_antes": null,
+   "bloco_depois": 46,
+   "sinais": [
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "a premissa por trás do modelo [[…]] , não só a fórmula final",
+   "pos_antes": [
+    1442,
+    1442
+   ],
+   "id": 39
+  },
+  {
+   "classe": "insercao",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "um bom",
+   "palavras_antes": 0,
+   "palavras_depois": 2,
+   "bloco_antes": null,
+   "bloco_depois": 47,
+   "sinais": [
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "slide. Nenhum desses hábitos rende [[…]] post de LinkedIn. Todos eles",
+   "pos_antes": [
+    1458,
+    1458
+   ],
+   "id": 40
+  },
+  {
+   "classe": "pontuacao",
+   "natureza": "estilo",
+   "antes": "—",
+   "depois": ",",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 28,
+   "bloco_depois": 55,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "ser simplesmente estupidez vestida de disciplina [[…]] a mesma cultura que romantiza o",
+   "pos_antes": [
+    1598,
+    1599
+   ],
+   "id": 41
+  },
+  {
+   "classe": "pontuacao",
+   "natureza": "estilo",
+   "antes": "'",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 29,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "um modelo de linguagem montar um [[…]] trade system 'simples, esboçar",
+   "pos_antes": [
+    1668,
+    1669
+   ],
+   "id": 42
+  },
+  {
+   "classe": "pontuacao",
+   "natureza": "estilo",
+   "antes": "'",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 29,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "linguagem montar um 'trade system [[…]] simples, esboçar um código de",
+   "pos_antes": [
+    1671,
+    1672
+   ],
+   "id": 43
+  },
+  {
+   "classe": "pontuacao",
+   "natureza": "estilo",
+   "antes": "'",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 29,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "simples, esboçar um código de [[…]] Value at Risk 'ou repetir",
+   "pos_antes": [
+    1678,
+    1679
+   ],
+   "id": 44
+  },
+  {
+   "classe": "pontuacao",
+   "natureza": "estilo",
+   "antes": "'",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 29,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "código de 'Value at Risk [[…]] ou repetir a fórmula de Black-Scholes",
+   "pos_antes": [
+    1682,
+    1683
+   ],
+   "id": 45
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "estilo",
+   "antes": "o Hull e com 'Value at Risk' mal entendido",
+   "depois": "alguns desses difíceis",
+   "palavras_antes": 9,
+   "palavras_depois": 3,
+   "bloco_antes": 30,
+   "bloco_depois": 60,
+   "sinais": [
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": "rascunho",
+   "contexto": "Não é porque eu sofri com [[…]] que você precisa sofrer do mesmo",
+   "pos_antes": [
+    1773,
+    1784
+   ],
+   "id": 46
+  },
+  {
+   "classe": "cta",
+   "natureza": "marketing",
+   "antes": "",
+   "depois": "⟦CTA⟧",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": null,
+   "bloco_depois": 64,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "num objetivo específico de carreira. [[…]] ",
+   "pos_antes": [
+    1876,
+    1876
+   ],
+   "tipo": "insercao",
+   "id": 47
+  },
+  {
+   "classe": "separador",
+   "natureza": "layout-substack",
+   "antes": "",
+   "depois": "⟦HR⟧",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": null,
+   "bloco_depois": 65,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "num objetivo específico de carreira. [[…]] ",
+   "pos_antes": [
+    1876,
+    1876
+   ],
+   "tipo": "insercao",
+   "id": 48
+  },
+  {
+   "classe": "separador",
+   "natureza": "layout-substack",
+   "antes": "",
+   "depois": "⟦HR⟧",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": null,
+   "bloco_depois": 67,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "num objetivo específico de carreira. [[…]] ",
+   "pos_antes": [
+    1876,
+    1876
+   ],
+   "tipo": "insercao",
+   "id": 49
+  },
+  {
+   "classe": "insercao",
+   "natureza": "aviso-legal",
+   "antes": "",
+   "depois": "Os textos publicados na Syntaxis expressam exclusivamente minhas opiniões pessoais, formadas a partir da minha experiência profissional, e não representam a posição de meu empregador atual ou de empregadores anteriores. O conteúdo tem finalidade educacional e informativa: não constitui recomendação de investimento, análise de valores mobiliários ou consultoria financeira. Decisões de investimento são de responsabilidade exclusiva do leitor.",
+   "palavras_antes": 0,
+   "palavras_depois": 58,
+   "bloco_antes": null,
+   "bloco_depois": 66,
+   "sinais": [
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "num objetivo específico de carreira. [[…]] ",
+   "pos_antes": [
+    1876,
+    1876
+   ],
+   "id": 50
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "corpo) ou de músculos exóticos do pé.",
+   "depois": "Na academia, são os treinos para as",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 2,
+   "bloco_depois": 4,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "corpo) ou de músculos exóticos do pé. Na academia, são os treinos para as",
+   "pos_antes": [
+    114,
+    116
+   ],
+   "id": 51
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": ", peitoral — não uma lombar mais forte.",
+   "depois": "O problema é que boa parte do que",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 3,
+   "bloco_depois": 6,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": ", peitoral — não uma lombar mais forte. O problema é que boa parte do que",
+   "pos_antes": [
+    178,
+    180
+   ],
+   "id": 52
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "— só que essa dificuldade não constrói nada.",
+   "depois": "Ambos os caminhos têm dificuldade. A diferença",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 7,
+   "bloco_depois": 13,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "— só que essa dificuldade não constrói nada. Ambos os caminhos têm dificuldade. A diferença",
+   "pos_antes": [
+    432,
+    434
+   ],
+   "id": 53
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "precisa escolher o difícil alinhado com seu objetivo.",
+   "depois": "Se você está construindo, em algum canto",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 8,
+   "bloco_depois": 15,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "precisa escolher o difícil alinhado com seu objetivo. Se você está construindo, em algum canto",
+   "pos_antes": [
+    467,
+    469
+   ],
+   "id": 54
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "— por mais respeitável que seja o esforço.",
+   "depois": "Peterson fala com frequência de responsabilidade voluntariamente assumida",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 8,
+   "bloco_depois": 16,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "— por mais respeitável que seja o esforço. Peterson fala com frequência de responsabilidade voluntariamente assumida",
+   "pos_antes": [
+    518,
+    520
+   ],
+   "id": 55
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "nome e sobrenome: é o seu chefe.",
+   "depois": "Se você não escolhe conscientemente quais pesos vai",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 9,
+   "bloco_depois": 18,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "nome e sobrenome: é o seu chefe. Se você não escolhe conscientemente quais pesos vai",
+   "pos_antes": [
+    563,
+    565
+   ],
+   "id": 56
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": ", o tempo todo. Defina seus objetivos.",
+   "depois": "Escolha o seu difícil. (E aceite",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 10,
+   "bloco_depois": 20,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": ", o tempo todo. Defina seus objetivos. Escolha o seu difícil. (E aceite",
+   "pos_antes": [
+    668,
+    670
+   ],
+   "id": 57
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "quantitativas. E aqui a distinção fica concreta.",
+   "depois": "Construir um 'trade system' (um",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 11,
+   "bloco_depois": 23,
+   "sinais": [
+    "reversao"
+   ],
+   "restaurou_rascunho": true,
+   "origem_antes": null,
+   "contexto": "quantitativas. E aqui a distinção fica concreta. Construir um 'trade system' (um",
+   "pos_antes": [
+    746,
+    748
+   ],
+   "id": 58
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "curso sério de derivativos —, não é.",
+   "depois": "São dezenas de horas na cadeira, torturando",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 12,
+   "bloco_depois": 25,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "curso sério de derivativos —, não é. São dezenas de horas na cadeira, torturando",
+   "pos_antes": [
+    869,
+    871
+   ],
+   "id": 59
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "cadeira, torturando e sendo torturado por números.",
+   "depois": "E é aqui que mora um detalhe que",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 12,
+   "bloco_depois": 26,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "cadeira, torturando e sendo torturado por números. E é aqui que mora um detalhe que",
+   "pos_antes": [
+    883,
+    885
+   ],
+   "id": 60
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "ser 'qual opção é mais confortável'.",
+   "depois": "Deveria ser: qual dificuldade vale a pena",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 20,
+   "bloco_depois": 36,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "ser 'qual opção é mais confortável'. Deveria ser: qual dificuldade vale a pena",
+   "pos_antes": [
+    1165,
+    1167
+   ],
+   "id": 61
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "só de motivação, ela não se sustenta.",
+   "depois": "O que sustenta é o significado: enxergar",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 25,
+   "bloco_depois": 43,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "só de motivação, ela não se sustenta. O que sustenta é o significado: enxergar",
+   "pos_antes": [
+    1325,
+    1327
+   ],
+   "id": 62
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "alguém, resolver problemas, construir alguma coisa.",
+   "depois": "Transposto para o estudo, o 'pequeno",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 26,
+   "bloco_depois": 45,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "alguém, resolver problemas, construir alguma coisa. Transposto para o estudo, o 'pequeno",
+   "pos_antes": [
+    1381,
+    1383
+   ],
+   "id": 63
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "próximo capítulo do Hull, fingindo que entendeu.",
+   "depois": "Ler a nota de rodapé chata que explica",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 26,
+   "bloco_depois": 46,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "próximo capítulo do Hull, fingindo que entendeu. Ler a nota de rodapé chata que explica",
+   "pos_antes": [
+    1427,
+    1429
+   ],
+   "id": 64
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "a fórmula final que vai para o slide.",
+   "depois": "Nenhum desses hábitos rende post de LinkedIn.",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 26,
+   "bloco_depois": 47,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "a fórmula final que vai para o slide. Nenhum desses hábitos rende post de LinkedIn.",
+   "pos_antes": [
+    1453,
+    1455
+   ],
+   "id": 65
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": ". Nenhum desses hábitos rende post de LinkedIn.",
+   "depois": "Todos eles são o motivo pelo qual,",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 26,
+   "bloco_depois": 48,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": ". Nenhum desses hábitos rende post de LinkedIn. Todos eles são o motivo pelo qual,",
+   "pos_antes": [
+    1461,
+    1463
+   ],
+   "id": 66
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "o sustenta — e a maioria não percebe.",
+   "depois": "Isso não conta ponto pra próxima entrevista.",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 26,
+   "bloco_depois": 49,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "o sustenta — e a maioria não percebe. Isso não conta ponto pra próxima entrevista.",
+   "pos_antes": [
+    1498,
+    1500
+   ],
+   "id": 67
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": ". Isso não conta ponto pra próxima entrevista.",
+   "depois": "Conta pra você não ser a pessoa que",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 26,
+   "bloco_depois": 50,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": ". Isso não conta ponto pra próxima entrevista. Conta pra você não ser a pessoa que",
+   "pos_antes": [
+    1506,
+    1508
+   ],
+   "id": 68
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "'sempre escolha a opção mais difícil'.",
+   "depois": "Não é isso. O princípio está mais",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 28,
+   "bloco_depois": 53,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "'sempre escolha a opção mais difícil'. Não é isso. O princípio está mais",
+   "pos_antes": [
+    1554,
+    1556
+   ],
+   "id": 69
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "isso. O princípio está mais próximo de:",
+   "depois": "escolha aquilo que é significativo e que exige",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 28,
+   "bloco_depois": 54,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "isso. O princípio está mais próximo de: escolha aquilo que é significativo e que exige",
+   "pos_antes": [
+    1565,
+    1567
+   ],
+   "id": 70
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "se torne uma pessoa mais capaz para realizá-lo.",
+   "depois": "Uma dificuldade que não produz nada pode ser",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 28,
+   "bloco_depois": 55,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "se torne uma pessoa mais capaz para realizá-lo. Uma dificuldade que não produz nada pode ser",
+   "pos_antes": [
+    1584,
+    1586
+   ],
+   "id": 71
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "de maneira simples, resolva de maneira simples.",
+   "depois": "A questão nunca foi sofrer mais. Foi",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 28,
+   "bloco_depois": 56,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "de maneira simples, resolva de maneira simples. A questão nunca foi sofrer mais. Foi",
+   "pos_antes": [
+    1627,
+    1629
+   ],
+   "id": 72
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "do ofício está a um prompt de distância.",
+   "depois": "O que a IA generativa não faz sozinha",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 29,
+   "bloco_depois": 58,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "do ofício está a um prompt de distância. O que a IA generativa não faz sozinha",
+   "pos_antes": [
+    1704,
+    1706
+   ],
+   "id": 73
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "sendo usado fora do contexto em que funciona.",
+   "depois": "Não é coincidência que o difícil com significado",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 29,
+   "bloco_depois": 59,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "sendo usado fora do contexto em que funciona. Não é coincidência que o difícil com significado",
+   "pos_antes": [
+    1738,
+    1740
+   ],
+   "id": 74
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "entendido que você precisa sofrer do mesmo jeito.",
+   "depois": "Talvez o seu difícil nem seja esse.",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 30,
+   "bloco_depois": 61,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "entendido que você precisa sofrer do mesmo jeito. Talvez o seu difícil nem seja esse.",
+   "pos_antes": [
+    1791,
+    1793
+   ],
+   "id": 75
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": ". Talvez o seu difícil nem seja esse.",
+   "depois": "Mas ele existe, e provavelmente você já",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 30,
+   "bloco_depois": 62,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": ". Talvez o seu difícil nem seja esse. Mas ele existe, e provavelmente você já",
+   "pos_antes": [
+    1799,
+    1801
+   ],
+   "id": 76
+  },
+  {
+   "classe": "negrito_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "12 Rules for Life",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 4,
+   "bloco_depois": 8,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "últimos tempos — escreve, em 12 Rules for Life, que erguer os ombros é",
+   "pos_antes": [
+    310,
+    314
+   ],
+   "id": 77
+  },
+  {
+   "classe": "negrito_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "A diferença é o que a dificuldade constrói",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 7,
+   "bloco_depois": 13,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "Ambos os caminhos têm dificuldade. A diferença é o que a dificuldade constrói. E aqui entra a parte",
+   "pos_antes": [
+    439,
+    447
+   ],
+   "id": 78
+  },
+  {
+   "classe": "negrito_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "Na prática, esse alguém costuma ter nome e sobrenome: é o seu chefe.",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 9,
+   "bloco_depois": 17,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "circunstância — escolhe por você. Na prática, esse alguém costuma ter nome e sobrenome: é o seu chefe. Se você não escolhe conscientemente quais",
+   "pos_antes": [
+    548,
+    564
+   ],
+   "id": 79
+  },
+  {
+   "classe": "negrito_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "Deveria ser: qual dificuldade vale a pena?",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 20,
+   "bloco_depois": 36,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "opção é mais confortável '. Deveria ser: qual dificuldade vale a pena? Dificuldades com significado Essa é uma",
+   "pos_antes": [
+    1166,
+    1175
+   ],
+   "id": 80
+  },
+  {
+   "classe": "negrito_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "Mas ele existe, e provavelmente você já sabe qual é.",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 30,
+   "bloco_depois": 62,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "seu difícil nem seja esse. Mas ele existe, e provavelmente você já sabe qual é. Se você chegou até aqui e",
+   "pos_antes": [
+    1800,
+    1812
+   ],
+   "id": 81
+  },
+  {
+   "classe": "italico_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "core",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 2,
+   "bloco_depois": 3,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": ", é o fortalecimento do 'core' (a musculatura que estabiliza",
+   "pos_antes": [
+    86,
+    87
+   ],
+   "id": 82
+  },
+  {
+   "classe": "italico_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "core",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 3,
+   "bloco_depois": 6,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "evidência sólida de que o 'core' forte previne lesão e sustenta",
+   "pos_antes": [
+    223,
+    224
+   ],
+   "id": 83
+  },
+  {
+   "classe": "italico_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "'melhor difícil'",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 8,
+   "bloco_depois": 15,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": ". Olympia não é necessariamente o 'melhor difícil' disponível para você — por mais",
+   "pos_antes": [
+    503,
+    507
+   ],
+   "id": 84
+  },
+  {
+   "classe": "italico_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "'não estou escolhendo nenhuma dificuldade'",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 9,
+   "bloco_depois": 18,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "você quer construir. Achar que 'não estou escolhendo nenhuma dificuldade' é uma ilusão confortável: alguém",
+   "pos_antes": [
+    643,
+    650
+   ],
+   "id": 85
+  },
+  {
+   "classe": "italico_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "trade system",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 11,
+   "bloco_depois": 23,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "fica concreta. Construir um 'trade system' (um sistema automatizado de",
+   "pos_antes": [
+    750,
+    752
+   ],
+   "id": 86
+  },
+  {
+   "classe": "italico_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "Value at Risk",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 11,
+   "bloco_depois": 23,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": ", montar um modelo de 'Value at Risk' (a estimativa estatística do",
+   "pos_antes": [
+    770,
+    773
+   ],
+   "id": 87
+  },
+  {
+   "classe": "italico_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "Value at Risk",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 12,
+   "bloco_depois": 26,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "reforça: um modelo de 'Value at Risk' implementado por alguém que não",
+   "pos_antes": [
+    901,
+    904
+   ],
+   "id": 88
+  },
+  {
+   "classe": "italico_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "Value at Risk",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 15,
+   "bloco_depois": 30,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "difícil O mesmo raciocínio do 'Value at Risk' mal implementado vale para qualquer",
+   "pos_antes": [
+    1015,
+    1018
+   ],
+   "id": 89
+  },
+  {
+   "classe": "italico_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "trade system",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 29,
+   "bloco_depois": 57,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "modelo de linguagem montar um 'trade system' simples, esboçar um código",
+   "pos_antes": [
+    1669,
+    1671
+   ],
+   "id": 90
+  },
+  {
+   "classe": "italico_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "Value at Risk",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 29,
+   "bloco_depois": 57,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": ", esboçar um código de 'Value at Risk' ou repetir a fórmula de",
+   "pos_antes": [
+    1679,
+    1682
+   ],
+   "id": 91
+  },
+  {
+   "classe": "legenda",
+   "natureza": "layout-substack",
+   "antes": "cadeia de quatro setas — Responsabilidade (assumir um objetivo real) leva à Dificuldade (entender a demonstração antes da fórmula), que leva à Competência (perceber quando a premissa quebra), que leva à Contribuição (o que o mercado raramente reforça), que leva ao Significado (a carreira que sustenta), em destaque na cor de acento da marca",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 23,
+   "bloco_depois": 39,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "e contribuição leva ao significado. [[…]] Quando você assume algo que realmente",
+   "pos_antes": [
+    1246,
+    1247
+   ],
+   "id": 92
+  },
+  {
+   "classe": "tipografia_aspas",
+   "natureza": "layout-substack",
+   "antes": "",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": null,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "",
+   "ocorrencias": 10,
+   "id": 93
+  }
+ ]
+}

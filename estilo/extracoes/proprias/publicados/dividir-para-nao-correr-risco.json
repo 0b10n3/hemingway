@@ -1,0 +1,601 @@
+{
+  "arquivo": "estilo/corpus/publicados/dividir-para-nao-correr-risco.md",
+  "genero": "substack",
+  "palavras": 2489,
+  "eixos": {
+    "lexico": [
+      {
+        "traco": "Registro coloquial (diminutivo irônico, gíria leve, verbos do dia a dia) misturado à explicação técnica, no mesmo parágrafo.",
+        "frequencia": "frequente",
+        "ocorrencias": 10,
+        "evidencias": [
+          "A resposta que mais se ouve por aí é bonitinha",
+          "Por que um banco, que já tem um monte de outras fontes de captação, se dá ao trabalho",
+          "fica com a diferença (o *spread*, o pedaço que ele embolsa por bancar a estrutura)"
+        ],
+        "contraexemplo": "Essa cessão (a venda do crédito de um dono para outro) tira o crédito do balanço de quem originou e cria segregação patrimonial"
+      },
+      {
+        "traco": "Toda sigla é expandida entre parênteses na primeira ocorrência (CDB, LCI, LCA, FGC, IR, SCFI, MP, CMN, IPCA, CRI, LIG, CDI); a LCI é expandida de novo no início da primeira seção.",
+        "frequencia": "frequente",
+        "ocorrencias": 13,
+        "evidencias": [
+          "**FGC** (Fundo Garantidor de Créditos)",
+          "o CMN (Conselho Monetário Nacional) fixou carência mínima de seis meses",
+          "Uma LCI a 90% do CDI (Certificado de Depósito Interbancário, a taxa de referência da renda fixa pós-fixada)"
+        ],
+        "contraexemplo": "o CMN apertou as regras de lastro para LCI, LCA, LIG, CRI e CRA"
+      },
+      {
+        "traco": "O termo técnico vem seguido de uma glosa em linguagem simples entre parênteses, logo depois dele, sem interromper o argumento (lastro, alienação fiduciária, cessão, patrimônio de afetação, covered bond, gross-up).",
+        "frequencia": "frequente",
+        "ocorrencias": 7,
+        "evidencias": [
+          "com lastro (a garantia por trás do título) em crédito imobiliário",
+          "Essa cessão (a venda do crédito de um dono para outro)",
+          "*gross-up* (a conta que converte um rendimento isento numa taxa bruta equivalente, para comparar com um título tributado)"
+        ],
+        "contraexemplo": "banco como contraparte, FGC como rede de segurança até o teto"
+      },
+      {
+        "traco": "Aceita anglicismos do jargão financeiro (spread, dealer, covered bond, gross-up), marcados em itálico e glosados na primeira vez.",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": [
+          "descrevem o banco como um *dealer* avesso a risco",
+          "É o duplo recurso que caracteriza um *covered bond* (modelo de título bancário com garantia dupla, comum na Europa)"
+        ],
+        "contraexemplo": "num artigo de 1981 no Journal of Financial and Quantitative Analysis que busca explicar o spread bancário"
+      },
+      {
+        "traco": "Advérbios de precisão e de concretude que se repetem: 'exatamente' (4), 'na prática' (3), 'literalmente' (2).",
+        "frequencia": "frequente",
+        "ocorrencias": 9,
+        "evidencias": [
+          "risco de quê, exatamente?",
+          "você sabe por que, exatamente, esse título existe?",
+          "deixa de ser boa prática e vira, literalmente, a única forma de manter a mesma proteção"
+        ]
+      },
+      {
+        "traco": "'risco' é a palavra-eixo do texto (28 ocorrências), quase sempre dentro da pergunta 'de quem é o risco'.",
+        "frequencia": "frequente",
+        "ocorrencias": 28,
+        "evidencias": [
+          "quando você compra uma LCI, de quem é o risco que você está assumindo?",
+          "O risco que você assume, ao comprar uma LCI, é primariamente o risco de crédito do banco"
+        ]
+      },
+      {
+        "traco": "Usa o oblíquo 'te' junto com 'você' (mistura informal do pt-BR falado).",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Até aqui, é o que qualquer material de corretora te conta.",
+          "Se este texto te fez olhar sua própria LCI (ou a de um cliente) de um jeito diferente"
+        ]
+      }
+    ],
+    "sintaxe": [
+      {
+        "traco": "Frases longas de explicação (média de cerca de 25 palavras; 17 frases com 40 ou mais) alternadas com frases curtíssimas de ênfase (13 com até 5 palavras), muitas vezes isoladas como parágrafo ou em sequência staccato.",
+        "frequencia": "frequente",
+        "ocorrencias": 13,
+        "evidencias": [
+          "O banco quebrou.",
+          "A LCI não é favor.",
+          "Cresceu rápido. Quebrou. O FGC pagou."
+        ]
+      },
+      {
+        "traco": "Construção de negação seguida de correção ('não é X. É Y' / 'não é X: é Y' / 'não X, e sim Y'), que carrega a tese e as viradas do texto.",
+        "frequencia": "frequente",
+        "ocorrencias": 8,
+        "evidencias": [
+          "a primeira coisa que pergunto não é *quanto rende*. É: você sabe por que, exatamente, esse título existe?",
+          "Não é favor. É *spread*.",
+          "O dado mais relevante para a tese deste texto não é o tamanho relativo, e sim a velocidade"
+        ]
+      },
+      {
+        "traco": "Afirmação forte de erro seguida de atenuação com 'ou (pelo menos)'.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "E é errada, ou pelo menos incompleta o suficiente para atrapalhar quem está aprendendo.",
+          "está errada, ou imprecisa demais para ser útil."
+        ]
+      },
+      {
+        "traco": "Inciso entre parênteses no meio da frase como recurso sintático principal: glosa, recapitulação em lista ou fonte.",
+        "frequencia": "frequente",
+        "ocorrencias": 39,
+        "evidencias": [
+          "A resposta intuitiva (o risco do crédito imobiliário que lastreia o título) está errada",
+          "Sabendo o que você está comprando (dívida do banco, lastreada, isenta de IR, com FGC até o teto), a pergunta de portfólio"
+        ]
+      },
+      {
+        "traco": "Retomada anafórica com 'Isso' no início de frase ou parágrafo, muitas vezes em 'Isso não + verbo', para delimitar o alcance da afirmação anterior.",
+        "frequencia": "frequente",
+        "ocorrencias": 8,
+        "evidencias": [
+          "Isso não mudou nem depois da novela da MP",
+          "Isso não derruba a ideia de que existe transferência de risco.",
+          "Isso não anula a lógica de política pública por trás da isenção"
+        ]
+      },
+      {
+        "traco": "Frase ou parágrafo aberto por conjunção coordenativa ('E', 'Mas', 'Só que').",
+        "frequencia": "ocasional",
+        "ocorrencias": 5,
+        "evidencias": [
+          "E é errada, ou pelo menos incompleta",
+          "Só que *parte do risco* esconde a pergunta mais interessante do texto inteiro",
+          "E você conta com o **FGC até R$ 250 mil por CPF"
+        ]
+      },
+      {
+        "traco": "Apostos e incisos encadeados só por vírgulas, onde caberiam travessão ou parênteses, o que alonga a frase.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Isso não anula a lógica de política pública por trás da isenção, o Estado quer baratear crédito imobiliário, e o produto cumpre esse papel",
+          "o risco dividido tem endereço, o do banco emissor."
+        ]
+      }
+    ],
+    "pontuacao": [
+      {
+        "traco": "Dois-pontos como articulador dominante (27 no corpo), introduzindo resposta, revelação, explicação ou consequência.",
+        "frequencia": "frequente",
+        "ocorrencias": 27,
+        "evidencias": [
+          "A resposta que mais se ouve por aí é bonitinha: o banco tem uns créditos imobiliários",
+          "Ou seja: a LCI não é securitização",
+          "não é força de expressão: é literalmente o que a estrutura faz"
+        ]
+      },
+      {
+        "traco": "Parênteses são o sinal de inciso preferido (39 no corpo), bem acima do travessão.",
+        "frequencia": "frequente",
+        "ocorrencias": 39,
+        "evidencias": [
+          "**LCI** (Letra de Crédito Imobiliário)",
+          "Desde julho de 2025 (Resolução BCB nº 471/2025), as SCFI"
+        ]
+      },
+      {
+        "traco": "Travessão (—) espaçado para virada ou acréscimo explicativo no fim da frase; uso contido.",
+        "frequencia": "ocasional",
+        "ocorrencias": 5,
+        "evidencias": [
+          "para captar acima do preço de mercado — o mesmo mecanismo que este texto descreve",
+          "15%, e não cai mais — a partir daí, quem decide a comparação não é mais o imposto"
+        ]
+      },
+      {
+        "traco": "Ponto e vírgula raro na prosa (uma vez fora da legenda e da bibliografia).",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "o banco não emite no vazio; precisa ter no ativo crédito imobiliário suficiente"
+        ]
+      },
+      {
+        "traco": "Aspas tipográficas simples (‘ ’) no corpo para expressão mencionada ou destacada; aspas tipográficas duplas (“ ”) só para títulos de obras e de seção na lista de referências.",
+        "frequencia": "ocasional",
+        "ocorrencias": 10,
+        "evidencias": [
+          "‘dividir para não correr risco’ não é força de expressão",
+          "Troque ‘crédito imobiliário’ por ‘crédito do agronegócio’",
+          "usada na seção “Quanto a LCI movimenta no mercado”"
+        ]
+      },
+      {
+        "traco": "A quebra de parágrafo isola a tese, a virada ou a transição numa frase única (8 parágrafos com até 15 palavras), ao lado de parágrafos longos de explicação (mediana de cerca de 47 palavras, máximo de cerca de 187).",
+        "frequencia": "frequente",
+        "ocorrencias": 8,
+        "evidencias": [
+          "A LCI não é favor.",
+          "A razão é estrutural, e vale abrir o compasso.",
+          "Isso não derruba a ideia de que existe transferência de risco."
+        ]
+      },
+      {
+        "traco": "Prosa corrida predomina; uma única lista numerada no corpo, para comparar três modelos, com rótulo em negrito em cada item.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "1. No **CRI** (Certificado de Recebíveis Imobiliários), uma companhia securitizadora, que não é banco, compra os recebíveis imobiliários"
+        ]
+      }
+    ],
+    "arquitetura": [
+      {
+        "traco": "Abre com cena noticiosa datada: frase nominal com a data, depois presente histórico e uma frase curta isolada, antes de qualquer conceito.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Novembro de 2025. O Banco Central decreta a liquidação extrajudicial do Banco Master.",
+          "O banco quebrou."
+        ]
+      },
+      {
+        "traco": "O caso da abertura é declarado adiado de forma explícita e retomado no meio como prova, depois que o mecanismo já foi explicado.",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Guardo esse episódio para o meio do texto, mas confesso que ele mudou a forma como respondo",
+          "é o motivo de eu ter guardado o Master para mais adiante.",
+          "Voltando a novembro de 2025: o Master captava CDB, LCI e LCA pagando acima do mercado."
+        ]
+      },
+      {
+        "traco": "Depois do gancho, apresenta a explicação corrente ('a resposta que mais se ouve'), refuta-a e enuncia a tese num parágrafo isolado.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "A resposta que mais se ouve por aí é bonitinha",
+          "Soa bem. E é errada",
+          "A LCI não é favor."
+        ]
+      },
+      {
+        "traco": "Uma pergunta central ('de quem é o risco') funciona como fio condutor e volta na abertura, no miolo e na última frase.",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "quando você compra uma LCI, de quem é o risco que você está assumindo?",
+          "sem nunca ter perguntado de quem é o risco do outro lado."
+        ]
+      },
+      {
+        "traco": "Transições metatextuais que anunciam o próximo passo ou elevam a expectativa ao fim e no início das seções.",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "Até aqui, é o que qualquer material de corretora te conta. O interessante começa agora.",
+          "Aqui vai a pergunta que separa quem entende o produto de quem só sabe vendê-lo",
+          "Fora da teoria, dá para ver essa captação em números"
+        ]
+      },
+      {
+        "traco": "Progressão por seções: definição e regulação básicas, depois mecanismo (por quê), números de mercado, aplicação à carteira, fecho e referências. O conceito vem antes do dado, e a aplicação prática fica por último.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "## O que é a LCI, rapidamente",
+          "A implicação prática para quem monta ou revisa uma carteira:"
+        ]
+      },
+      {
+        "traco": "Subtítulos H2 (seis) com função de roteiro: quatro em interrogativa indireta sem ponto de interrogação (O que / Por que / Quanto / Onde); a introdução não tem subtítulo.",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "## Por que o banco emite LCI",
+          "## Onde a LCI entra no seu portfólio"
+        ],
+        "contraexemplo": "## O risco tem endereço"
+      },
+      {
+        "traco": "Definição explícita no formato 'X é Y' logo antes da enumeração comparativa.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Securitizar é transformar um fluxo de recebíveis futuros num título negociável hoje"
+        ]
+      },
+      {
+        "traco": "O fecho repete a tese em duas frases curtas que espelham o subtítulo do post, retoma a figura do endereço e termina com chamada para compartilhar.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Não é favor. É *spread*.",
+          "E o risco que sobra nunca desaparece: só muda de endereço.",
+          "Não é favor, é spread. E o risco que sobra nunca desaparece, só muda de endereço."
+        ]
+      },
+      {
+        "traco": "Liga o post a uma série e a produtos vizinhos: anuncia o próximo texto e estende o raciocínio a outro produto.",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "quando chegarmos ao CRI",
+          "se aplica quase sem alteração à LCA",
+          "base da securitização imobiliária e do CRI, ponto de partida para o próximo texto."
+        ]
+      },
+      {
+        "traco": "Termina com a seção 'Para continuar aprendendo': lista de referências (leis, artigo acadêmico, dissertação, fonte de dados), cada item seguido de dois-pontos e da função dele no texto.",
+        "frequencia": "ocasional",
+        "ocorrencias": 6,
+        "evidencias": [
+          "- Lei nº 10.931/2004: cria a LCI, define quem pode emiti-la e exige o lastro",
+          "## Para continuar aprendendo"
+        ]
+      }
+    ],
+    "figuras": [
+      {
+        "traco": "Metáfora espacial do risco que 'tem endereço' e 'muda de endereço', estendida do subtítulo ao miolo, ao título de seção e à última frase.",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "o risco dividido tem endereço, o do banco emissor.",
+          "## O risco tem endereço",
+          "E o risco que sobra nunca desaparece: só muda de endereço."
+        ]
+      },
+      {
+        "traco": "Imagens de cinema e TV (hollywoodiana, novela) usadas com ironia contra a explicação comercial e contra o vaivém regulatório; personifica banco e investidor.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "É a versão *hollywoodiana* da renda fixa, com banco camarada e investidor mimado.",
+          "Isso não mudou nem depois da novela da MP (Medida Provisória) 1.303/2025"
+        ]
+      },
+      {
+        "traco": "Metáforas físicas e mecânicas curtas, não estendidas (trampolim, freio, rede de segurança, piso).",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": [
+          "bancos vinham usando a garantia do FGC como trampolim para captar acima do preço de mercado",
+          "é cedo para esperar que o estoque de LCI já mostre esse freio.",
+          "banco como contraparte, FGC como rede de segurança até o teto"
+        ]
+      },
+      {
+        "traco": "Expressões idiomáticas do cotidiano (letra miúda, abrir o compasso, em miniatura, lá na ponta).",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": [
+          "uma coisa que sempre esteve escrita em letra miúda",
+          "A razão é estrutural, e vale abrir o compasso.",
+          "Ela mostra, em miniatura, a lógica que vai aparecer de novo"
+        ]
+      }
+    ],
+    "postura": [
+      {
+        "traco": "Primeira pessoa do singular com autoridade implícita de quem é procurado para tirar dúvidas, inclusive de profissionais, sem declarar credencial.",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": [
+          "Toda vez que alguém chega até mim com perguntas sobre uma LCI, a dele ou a de um cliente",
+          "Guardo esse episódio para o meio do texto, mas confesso"
+        ]
+      },
+      {
+        "traco": "Fala com o leitor por 'você', em tom próximo, colocando-o dentro da operação descrita.",
+        "frequencia": "frequente",
+        "ocorrencias": 13,
+        "evidencias": [
+          "Para você, pessoa física, o rendimento é **isento de Imposto de Renda**",
+          "capta de você a um custo menor que X"
+        ]
+      },
+      {
+        "traco": "Humor irônico leve, dirigido à explicação comercial e a quem só vende o produto.",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": [
+          "A resposta que mais se ouve por aí é bonitinha",
+          "Aqui vai a pergunta que separa quem entende o produto de quem só sabe vendê-lo",
+          "Até aqui, é o que qualquer material de corretora te conta."
+        ]
+      },
+      {
+        "traco": "Discorda de frente do senso comum, mas delimita a refutação e reconhece o que continua válido ('Isso não derruba', 'Isso não anula').",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Isso não derruba a ideia de que existe transferência de risco.",
+          "Isso não anula a lógica de política pública por trás da isenção"
+        ]
+      },
+      {
+        "traco": "Admite os limites do dado e marca como próprio o que é aproximação ou cálculo do autor.",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "dez/2020 é aproximação própria a partir de fonte agregada",
+          "é cedo para esperar que o estoque de LCI já mostre esse freio.",
+          "o trecho tracejado não tem dado mensal confirmado."
+        ]
+      },
+      {
+        "traco": "Depois do caso negativo, tranquiliza o leitor contra o alarmismo.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Nenhum leitor deste texto precisa entrar em pânico com a própria LCI por causa disso"
+        ]
+      }
+    ],
+    "leitor": [
+      {
+        "traco": "Leitor duplo: o investidor pessoa física e o profissional que atende cliente ou monta carteira.",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "Se este texto te fez olhar sua própria LCI (ou a de um cliente) de um jeito diferente",
+          "A implicação prática para quem monta ou revisa uma carteira"
+        ]
+      },
+      {
+        "traco": "Pressupõe familiaridade com a renda fixa de varejo (comparar percentual do CDI), mas trata o leitor como quem ainda está aprendendo e explica cada termo novo na hora.",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": [
+          "quem também vive comparando percentual do CDI",
+          "incompleta o suficiente para atrapalhar quem está aprendendo."
+        ]
+      },
+      {
+        "traco": "Perguntas retóricas que conduzem o texto (4) e são respondidas mais adiante, não na frase seguinte.",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": [
+          "Por que um banco, que já tem um monte de outras fontes de captação, se dá ao trabalho de estruturar um produto específico",
+          "risco de quê, exatamente?"
+        ]
+      },
+      {
+        "traco": "Imperativos pontuais: mandar olhar o gráfico, fazer uma substituição mental, compartilhar.",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Veja o gráfico abaixo:",
+          "Troque ‘crédito imobiliário’ por ‘crédito do agronegócio’"
+        ]
+      },
+      {
+        "traco": "Chamada para ação final informal, em prosa, para compartilhar com um conhecido; sem botão e sem oferta ou pedido de assinatura.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "manda para quem também vive comparando percentual do CDI sem nunca ter perguntado de quem é o risco do outro lado."
+        ]
+      }
+    ],
+    "tecnico": [
+      {
+        "traco": "Cita a norma pelo número com 'nº' e o ano, muitas vezes entre parênteses depois do fato; o formato varia (MP e resoluções do CMN às vezes sem 'nº').",
+        "frequencia": "frequente",
+        "ocorrencias": 10,
+        "evidencias": [
+          "A LCI (Letra de Crédito Imobiliário) foi criada pela **Lei nº 10.931/2004**.",
+          "Desde julho de 2025 (Resolução BCB nº 471/2025)"
+        ],
+        "contraexemplo": "(Resoluções CMN 5.118/5.119)"
+      },
+      {
+        "traco": "Fórmula em linha, escrita em palavras dentro da prosa, precedida de glosa e seguida de exemplo numérico; sem $$ nem notação simbólica.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "taxa bruta equivalente = rendimento líquido da LCI ÷ (1 - alíquota de IR que incidiria em um CDB de prazo parecido)",
+          "costuma equivaler a um CDB de aproximadamente 106% a 116% do CDI"
+        ]
+      },
+      {
+        "traco": "Gráfico em vez de tabela, anunciado por imperativo, com legenda em itálico logo abaixo trazendo fonte, método e limitações.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Veja o gráfico abaixo:",
+          "*Estoque de LCI no Brasil, R$ bilhões (B3/Bora Investir; dez/2020 é aproximação própria a partir de fonte agregada)."
+        ]
+      },
+      {
+        "traco": "Dado em evolução sempre datado (mês e ano), com o cronograma regulatório explícito e o aviso do que ainda não aparece nos números.",
+        "frequencia": "frequente",
+        "ocorrencias": 8,
+        "evidencias": [
+          "O estoque de LCI saiu de R$ 141 bilhões ao final de 2020 para R$ 544 bilhões em junho de 2026",
+          "A regra entrou em vigor em junho de 2026, mas com o excedente exigido crescendo aos poucos, de 5% até 100% só em 2028"
+        ]
+      },
+      {
+        "traco": "Número absoluto seguido de tradução em proporção (quase 4 vezes, cerca de 57%, perto de 10%), com cálculo próprio sinalizado.",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": [
+          "o CDB concentrava R$ 2,8 trilhões (cerca de 57%)",
+          "o que coloca a LCI perto de 10% desse total (cálculo próprio a partir dos números acima."
+        ]
+      },
+      {
+        "traco": "Citação acadêmica em prosa (autores, ano, periódico), com a referência completa só na lista final.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Thomas Ho e Anthony Saunders, num artigo de 1981 no Journal of Financial and Quantitative Analysis"
+        ]
+      },
+      {
+        "traco": "Valores em 'R$ X bilhões/trilhões' com vírgula decimal; percentuais em algarismos; números pequenos ora por extenso, ora em algarismos.",
+        "frequencia": "frequente",
+        "ocorrencias": 15,
+        "evidencias": [
+          "algo perto de R$ 40,6 bilhões",
+          "carência mínima de seis meses para LCI pós-fixada ou prefixada, mantendo 36 meses"
+        ]
+      }
+    ],
+    "formatacao": [
+      {
+        "traco": "Negrito para a sigla na primeira definição e para os fatos regulatórios centrais (lastro, isenção, limite do FGC). Fica concentrado no primeiro terço: nenhum negrito depois da lista dos três modelos.",
+        "frequencia": "frequente",
+        "ocorrencias": 12,
+        "evidencias": [
+          "captando via **CDB** (Certificado de Depósito Bancário), **LCI** (Letra de Crédito Imobiliário) e **LCA**",
+          "E você conta com o **FGC até R$ 250 mil por CPF, por instituição, com teto de R$ 1 milhão a cada 4 anos**."
+        ],
+        "contraexemplo": "Uma LCI a 90% do CDI (Certificado de Depósito Interbancário, a taxa de referência da renda fixa pós-fixada)"
+      },
+      {
+        "traco": "Itálico para anglicismo (spread, dealer, covered bond, gross-up), para palavra mencionada ou enfatizada (quanto rende, parte do risco, segura), para ironia (hollywoodiana) e para legenda de gráfico.",
+        "frequencia": "frequente",
+        "ocorrencias": 13,
+        "evidencias": [
+          "a primeira coisa que pergunto não é *quanto rende*",
+          "desde que *segura* seja lido como risco do banco emissor",
+          "É a versão *hollywoodiana* da renda fixa"
+        ],
+        "contraexemplo": "embolsa o ‘spread’"
+      },
+      {
+        "traco": "Imagens: uma sem legenda logo depois da introdução, antes do primeiro H2; um gráfico no meio, com legenda em itálico.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "![](img-01)",
+          "![](img-02)"
+        ]
+      },
+      {
+        "traco": "Subtítulos só em H2, com maiúscula apenas inicial e sem numeração; seis no total e nenhum H3.",
+        "frequencia": "sempre",
+        "ocorrencias": 6,
+        "evidencias": [
+          "## Quanto a LCI movimenta no mercado",
+          "## Para continuar aprendendo"
+        ]
+      },
+      {
+        "traco": "Título curto em forma de máxima (provável paráfrase de 'dividir para conquistar'), retomado entre aspas no corpo; subtítulo resume a tese em negação seguida de correção e traz a figura do endereço.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Dividir para não correr risco",
+          "‘dividir para não correr risco’ não é força de expressão: é literalmente o que a estrutura faz"
+        ]
+      },
+      {
+        "traco": "Blocos de tamanho muito desigual: parágrafo de uma frase lado a lado com bloco explicativo de mais de 150 palavras.",
+        "frequencia": "frequente",
+        "ocorrencias": 8,
+        "evidencias": [
+          "O banco quebrou.",
+          "Ou seja: a LCI não é securitização, porque não há cessão nem segregação externa do crédito."
+        ]
+      }
+    ]
+  },
+  "antipadroes_observados": [
+    "(a) Nenhum ponto de exclamação e nenhuma reticência no texto inteiro.",
+    "(a) Nenhuma citação em bloco, [[PULLQUOTE]], [[CTA]], código ou fórmula em $$; o único destaque é negrito ou itálico em linha.",
+    "(a) Nenhuma aspa dupla na prosa do corpo (só nos títulos da bibliografia) e nenhuma aspa reta.",
+    "(a) Nenhum H3 e nenhuma lista com marcadores no corpo argumentativo (marcadores só nas referências).",
+    "(a) Não declara credencial ou cargo; a autoridade fica implícita ('alguém chega até mim com perguntas sobre uma LCI, a dele ou a de um cliente').",
+    "(a) A primeira pessoa do plural só aparece uma vez, para a série ('quando chegarmos ao CRI'); não é a voz padrão.",
+    "(b) A construção 'não é X, é Y' é muito frequente (cerca de 8 vezes, inclusive no subtítulo e no fecho: 'Não é favor. É *spread*.'). Coincide com um tique conhecido de texto gerado por IA em pt-BR; como o post é da época pipeline, não dá para atribuí-la só ao autor.",
+    "(b) Anúncio de interesse sem conteúdo, possível tique: 'esconde a pergunta mais interessante do texto inteiro' / 'O interessante começa agora.' (evidência fraca).",
+    "(b) Jargão do processo editorial vazou para o texto publicado: 'vale checar na etapa de pesquisa do próximo post' e 'citada no bloco central' (bibliografia)."
+  ],
+  "incerteza": "Época pipeline: o texto passou pelo sistema editorial e foi editado pelo autor, então não dá para separar traço do autor de traço induzido pelo pipeline (sobretudo 'não é X, é Y', glosa parentética sistemática e referências comentadas). section_name é null no frontmatter, então a linha editorial não está registrada; pelo conteúdo (conceito e produto técnico) parece Notas de um Professor, mas isso não é confirmável. Há erros de publicação que não foram tratados como estilo: o parágrafo partido 'A' / 'o final de 2025' (Ao final), o parêntese não fechado em '(cálculo próprio a partir dos números acima.' e espaço antes de pontuação em 'CRA ,' e 'CDB :'. O uso de itálico e de aspas simples para spread/dealer é inconsistente, e um único texto não basta para dizer qual é a regra. img-01 não tem legenda nem alt, então o conteúdo é desconhecido. As contagens (frases, parágrafos, sinais) são aproximadas e saem de segmentação automática. O corpo tem cerca de 2.250 palavras sem as referências (2.489 pela API), abaixo do piso de 5.000 recomendado por amostra."
+}

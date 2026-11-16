@@ -1,0 +1,269 @@
+{
+ "audience": "everyone",
+ "audience_before_archived": null,
+ "canonical_url": "https://syntaxis.substack.com/p/quando-os-modelos-se-rebelam",
+ "default_comment_sort": null,
+ "editor_v2": false,
+ "exempt_from_archive_paywall": false,
+ "free_unlock_required": false,
+ "id": 213684977,
+ "podcast_art_url": null,
+ "podcast_duration": null,
+ "podcast_preview_upload_id": null,
+ "podcast_upload_id": null,
+ "podcast_url": null,
+ "post_date": "2026-09-01T11:00:20.605Z",
+ "updated_at": "2026-09-01T11:00:21.120Z",
+ "publication_id": 2968718,
+ "search_engine_description": null,
+ "search_engine_title": null,
+ "section_id": 442556,
+ "should_send_free_preview": false,
+ "show_guest_bios": true,
+ "slug": "quando-os-modelos-se-rebelam",
+ "social_title": null,
+ "subtitle": "Por que o descolamento entre modelo e realidade é esperado.",
+ "teaser_post_eligible": true,
+ "title": "Quando os Modelos se Rebelam",
+ "type": "newsletter",
+ "video_upload_id": null,
+ "write_comment_permissions": "everyone",
+ "meter_type": "none",
+ "live_stream_id": null,
+ "is_published": true,
+ "restacks": 1,
+ "reactions": {
+  "❤": 7
+ },
+ "top_exclusions": [],
+ "pins": [],
+ "section_pins": [],
+ "has_shareable_clips": false,
+ "previous_post_slug": "o-mundo-invertido-das-carreiras-em",
+ "next_post_slug": "o-dificil-sobre-as-dificuldades-em",
+ "cover_image": "https://substackcdn.com/image/fetch/$s_!w4_z!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6e2e2dbf-9e6d-4abf-9571-8e9ea203f610_2816x1536.jpeg",
+ "cover_image_is_square": false,
+ "cover_image_is_explicit": false,
+ "videoUpload": null,
+ "podcastFields": {
+  "post_id": 213684977,
+  "podcast_episode_number": null,
+  "podcast_season_number": null,
+  "podcast_episode_type": null,
+  "should_syndicate_to_other_feed": null,
+  "syndicate_to_section_id": null,
+  "hide_from_feed": false,
+  "free_podcast_url": null,
+  "free_podcast_duration": null,
+  "preview_contains_ad": false,
+  "was_imported_self_serve_sync": false,
+  "draft_free_podcast_url": null,
+  "draft_free_podcast_duration": null
+ },
+ "podcastUpload": null,
+ "podcastPreviewUpload": null,
+ "voiceover_upload_id": null,
+ "voiceoverUpload": null,
+ "has_voiceover": false,
+ "description": "Por que o descolamento entre modelo e realidade é esperado.",
+ "body_html": "<p>Entre as aulas gratuitas que o <strong>MIT</strong> disponibiliza no OpenCourseWare está a disciplina <em>Topics in Mathematics with Applications in Finance</em>, um passeio, a passo rápido, por uma série de ferramentas e modelos matemáticos fundamentais em finanças. </p><p>Um dos meus momentos favoritos do curso é a aula de probabilidade (<em>Probability Theory</em>) do professor Peter Kempthorne. </p><p>Em uma explicação sobre a ideia de retorno à média, ele diz:</p><blockquote><p>Se você lança uma moeda 100 vezes, obtendo cara em todos os lançamentos, você deveria estar considerando seriamente a possibilidade de que essa moeda tenha algum vício ou defeito.</p></blockquote><p>A frase é dita no contexto de que muitas pessoas começam a esperar o ‘retorno à média’, mas acabam se esquecendo de que a própria média pode ter sido alterada na realidade.</p><p>Esse tipo de pensamento equivocado — bastante presente quando o problema envolve probabilidades — é sintoma de uma compreensão parcial, ou mesmo equivocada, do funcionamento de modelos.</p><p>Uma má compreensão do que são modelos, de como funcionam e da importância das premissas que os fundamentam pode ser a diferença entre ser um ‘modeleiro’ bem-sucedido ou se tornar um frustrado extremista diante de modelos.</p><p>No texto de hoje vamos tratar dessas ideias e mostrar como o desacoplamento entre modelo e realidade pode levar até mesmo vencedores do Prêmio Nobel ao desastre.</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!w4_z!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6e2e2dbf-9e6d-4abf-9571-8e9ea203f610_2816x1536.jpeg\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!w4_z!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6e2e2dbf-9e6d-4abf-9571-8e9ea203f610_2816x1536.jpeg 424w, https://substackcdn.com/image/fetch/$s_!w4_z!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6e2e2dbf-9e6d-4abf-9571-8e9ea203f610_2816x1536.jpeg 848w, https://substackcdn.com/image/fetch/$s_!w4_z!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6e2e2dbf-9e6d-4abf-9571-8e9ea203f610_2816x1536.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!w4_z!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6e2e2dbf-9e6d-4abf-9571-8e9ea203f610_2816x1536.jpeg 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!w4_z!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6e2e2dbf-9e6d-4abf-9571-8e9ea203f610_2816x1536.jpeg\" width=\"1456\" height=\"794\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/6e2e2dbf-9e6d-4abf-9571-8e9ea203f610_2816x1536.jpeg&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:794,&quot;width&quot;:1456,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:2424757,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/jpeg&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:false,&quot;topImage&quot;:true,&quot;internalRedirect&quot;:&quot;https://syntaxis.substack.com/i/213684977?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6e2e2dbf-9e6d-4abf-9571-8e9ea203f610_2816x1536.jpeg&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!w4_z!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6e2e2dbf-9e6d-4abf-9571-8e9ea203f610_2816x1536.jpeg 424w, https://substackcdn.com/image/fetch/$s_!w4_z!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6e2e2dbf-9e6d-4abf-9571-8e9ea203f610_2816x1536.jpeg 848w, https://substackcdn.com/image/fetch/$s_!w4_z!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6e2e2dbf-9e6d-4abf-9571-8e9ea203f610_2816x1536.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!w4_z!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6e2e2dbf-9e6d-4abf-9571-8e9ea203f610_2816x1536.jpeg 1456w\" sizes=\"100vw\" fetchpriority=\"high\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\" tabindex=\"0\" type=\"button\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\" tabindex=\"0\" type=\"button\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><h2>Três palavras que você usa como sinônimo e não são</h2><p>Emanuel Derman é uma figura útil aqui porque conhece os dois lados da história: doutor em física teórica de partículas, foi para a Goldman Sachs e virou um dos nomes centrais da engenharia financeira, coautor do modelo de volatilidade local Derman–Kani.</p><p>Em <em>Models Behaving Badly.</em> (2011), ele propõe uma separação que vale a pena levar a sério: teoria, modelo e intuição são três coisas diferentes.</p><p>Teoria é a tentativa de descrever o que uma coisa é. Uma teoria bem-sucedida se torna indistinguível do fenômeno. As equações de Maxwell não se parecem com o eletromagnetismo; dentro da física clássica, elas são o eletromagnetismo. Teorias pedem confirmação empírica, mas não pedem justificativa: não faz sentido perguntar “por que você escolheu comparar a luz com uma onda eletromagnética?”.</p><p>Modelo é a tentativa de descrever com o que uma coisa se parece. Um modelo se apoia sempre em terreno emprestado: é uma analogia, uma metáfora que compara o objeto de estudo a outra coisa cuja dinâmica você já sabe manipular. Black–Scholes trata o preço de uma ação como fumaça se difundindo numa sala. A semelhança é sempre parcial, e por isso todo modelo exige justificativa: você precisa defender por que a analogia se sustenta neste caso.</p><p>Intuição é o terceiro termo, e é o mais fácil de descartar como misticismo, o que seria um erro. Para Derman, intuição não é palpite: é o resultado da imersão prolongada em um domínio, o ponto em que você para de operar a ferramenta e passa a pensar através dela. É o que permite a um gestor de risco olhar para um número que saiu do sistema e dizer “esse número está errado” antes de conseguir explicar por quê.</p><p>Em finanças, o que existe são modelos. Não teorias, ou pelo menos não no sentido forte de teoria física, o único que Derman está disposto a chamar assim. CAPM, Black–Scholes, Hipótese dos Mercados Eficientes, Vasicek, Gordon: todos imitam o estilo da física e usam a sintaxe da matemática, mas não têm a mesma ancoragem ontológica.</p><h2>E onde entram as “hipóteses”?</h2><p>Aqui mora uma armadilha específica da nossa língua. Em inglês existem duas palavras: <em>hypothesis</em> (conjectura testável, que a metodologia científica manda você tentar falsear) e <em>assumption</em> (premissa, condição de contorno assumida como verdadeira para a construção seguir de pé).</p><p>Em português, as duas viram ‘hipótese’.</p><p>O resultado é que o aluno aprende “as hipóteses do modelo de Black–Scholes” e as coloca mentalmente na mesma caixa de “hipótese nula”, como formalidade de demonstração, coisa que aparece no slide antes da fórmula e depois some. Não é isso. As hipóteses de Black–Scholes não são conjecturas a testar: são a bula do remédio. Elas definem o domínio de validade do instrumento. Ignorá-las não é imprecisão acadêmica, é usar o aparelho fora da faixa de operação.</p><p>O leitor mais rigoroso pode se perguntar: essa taxonomia é rigorosa ou é a licença poética de um físico que virou banqueiro? A resposta honesta é: bate em parte.</p><h2>O radar da rodovia</h2><p>Um exemplo fora de finanças ajuda, porque nele ninguém tem viés comportamental.</p><p>Pense num radar de solo. Ele mede o tempo que o veículo leva para cruzar um intervalo minúsculo entre dois sensores e reporta a velocidade média nesse intervalo. Depois trata esse número como se fosse a velocidade instantânea.</p><p>Matematicamente, isso é uma troca: velocidade média por velocidade instantânea. A troca só é válida porque o movimento é contínuo e suave. A inércia garante que o carro não teleporta de 10 km/h para 100 km/h — ele precisa passar por 40, 60 e 80 no caminho. Sob essa premissa, a aproximação é excelente e o radar funciona muito bem.</p><p>Agora quebre a premissa. Imagine que a aceleração pudesse dar um salto instantâneo, sem percorrer os valores intermediários. O radar continuaria calculando corretamente e continuaria entregando um número sem sentido. A matemática seguiria perfeita; o cenário é que teria mudado.</p><p>Guarde essa frase, porque ela descreve praticamente todo desastre de modelo que você vai ver na sua carreira.</p><p>Quase nunca a conta está errada.</p><p>O que está errado é o contexto em que a conta foi aplicada.</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!eEl0!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3b782ccc-7f2f-43a9-a348-4fb5fd4ffa48_2528x1696.jpeg\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!eEl0!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3b782ccc-7f2f-43a9-a348-4fb5fd4ffa48_2528x1696.jpeg 424w, https://substackcdn.com/image/fetch/$s_!eEl0!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3b782ccc-7f2f-43a9-a348-4fb5fd4ffa48_2528x1696.jpeg 848w, https://substackcdn.com/image/fetch/$s_!eEl0!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3b782ccc-7f2f-43a9-a348-4fb5fd4ffa48_2528x1696.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!eEl0!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3b782ccc-7f2f-43a9-a348-4fb5fd4ffa48_2528x1696.jpeg 1456w\" sizes=\"auto, 100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!eEl0!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3b782ccc-7f2f-43a9-a348-4fb5fd4ffa48_2528x1696.jpeg\" width=\"1456\" height=\"977\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/3b782ccc-7f2f-43a9-a348-4fb5fd4ffa48_2528x1696.jpeg&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:977,&quot;width&quot;:1456,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:1583691,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/jpeg&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://syntaxis.substack.com/i/213684977?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3b782ccc-7f2f-43a9-a348-4fb5fd4ffa48_2528x1696.jpeg&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!eEl0!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3b782ccc-7f2f-43a9-a348-4fb5fd4ffa48_2528x1696.jpeg 424w, https://substackcdn.com/image/fetch/$s_!eEl0!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3b782ccc-7f2f-43a9-a348-4fb5fd4ffa48_2528x1696.jpeg 848w, https://substackcdn.com/image/fetch/$s_!eEl0!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3b782ccc-7f2f-43a9-a348-4fb5fd4ffa48_2528x1696.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!eEl0!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3b782ccc-7f2f-43a9-a348-4fb5fd4ffa48_2528x1696.jpeg 1456w\" sizes=\"auto, 100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\" tabindex=\"0\" type=\"button\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\" tabindex=\"0\" type=\"button\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><h2>Black–Scholes: o que está na bula</h2><p>Black–Scholes é o caso clássico, porque a bula é longa e quase ninguém lê até o fim.</p><p>Publicada por Fischer Black e Myron Scholes em 1973, com contribuição decisiva de Robert Merton, a fórmula resolveu um problema que até então não tinha solução fechada: quanto vale, hoje, o direito — não a obrigação — de comprar ou vender um ativo a um preço combinado no futuro. Ela virou padrão de indústria quase da noite para o dia por um motivo específico: transformava um punhado de variáveis observáveis (preço do ativo, prazo, taxa de juros, volatilidade) numa equação fechada, sem exigir que ninguém estimasse o retorno esperado do ativo — a variável mais difícil e mais discutível de se estimar em finanças. A fama não vem só da precisão. Vem do fato de a fórmula dispensar exatamente o número que ninguém sabia calcular direito.</p><ol><li><p>O modelo assume, entre outras coisas:</p></li><li><p>O preço do ativo segue um Movimento Browniano Geométrico — trajetórias contínuas, sem saltos;</p></li><li><p>Volatilidade constante ao longo da vida da opção;</p></li><li><p>Taxa livre de risco constante e conhecida;</p></li><li><p>Ausência de custos de transação e impostos;</p></li><li><p>Possibilidade de negociar e rebalancear o ‘hedge’ (a posição de proteção) em tempo contínuo;</p></li><li><p>Liquidez ilimitada, venda a descoberto livre, divisibilidade dos ativos.</p></li></ol><p>Repare que as hipóteses 1, 5 e 6 são, na prática, uma coisa só: a possibilidade de o vendedor da opção se ajustar continuamente enquanto o mundo se move. É daí que sai o argumento de não-arbitragem, e é daí que sai o preço.</p><p>E é exatamente essa a premissa que o mercado brasileiro adora quebrar.</p><p>18 de maio de 2017. Na noite anterior vaza a gravação entre Joesley Batista e o então presidente Michel Temer. Na abertura, o Ibovespa cai o suficiente para acionar o primeiro ‘circuit breaker’ desde 2008; a queda chega a 10,47% no intradiário e o índice fecha a −8,80%, a maior baixa diária desde outubro de 2008. O dólar sobe 8,06% no mesmo pregão, de R$ 3,1283 para R$ 3,3805.</p><p>Pergunte a quem estava vendido em opções naquela manhã quantas vezes conseguiu rebalancear o delta (a sensibilidade do preço da opção ao preço do ativo) entre o fechamento do dia 17 e a abertura do dia 18. A resposta é zero. Não porque o operador foi lento, mas porque não existiu preço no meio do caminho. O modelo pressupõe um filme; o que aconteceu foi um corte do editor.</p><p>O mercado, aliás, já tinha admitido isso muito antes — só que ao contrário. Depois do crash de outubro de 1987, a superfície de volatilidade implícita deixou de ser plana e passou a exibir o famoso <em>smile</em>: os preços praticados passaram a embutir, permanentemente, uma probabilidade de salto maior do que a que o modelo comporta. O mercado usa a fórmula de Black–Scholes como linguagem de cotação e ajusta a premissa por fora, mexendo no ‘input’ de volatilidade.</p><p>E há um detalhe que o sociólogo Donald MacKenzie explora bem em _An Engine, Not a Camera_ (2006), e que vale separar em duas fases. Depois de 1973, com a fórmula difundida em tabelas e calculadoras, os preços observados passaram a aderir melhor ao modelo do que aderiam antes — o modelo não era uma câmera apontada para o mercado, era um motor que o empurrava. Isso é reflexividade no sentido de George Soros: o observador é participante, e a crença coletiva no modelo altera o objeto modelado. Mas depois de 1987 a mesma reflexividade trabalhou no sentido inverso: o mercado passou a se afastar deliberadamente do preço que Black–Scholes recomendaria, embutindo o ‘smile’ como cicatriz permanente da hipótese 1. MacKenzie chama isso de contraperformatividade — o modelo deixou de moldar o mundo para ser corrigido por ele, publicamente, todo dia, na cara de quem olha a superfície de volatilidade.</p><p>O cometa não muda de órbita porque o astrônomo publicou.</p><p>O mercado muda.</p><p></p><h2>LTCM: quando dois Nobéis descobrem que o mundo não satisfaz as equações</h2><p>Se existe um caso que precisa ser contado a todo analista júnior, é esse.</p><p>O Long-Term Capital Management foi fundado em 1994 por John Meriwether, ex-chefe da mesa de arbitragem da Salomon Brothers. Entre os sócios estavam Myron Scholes e Robert Merton, que em 1997, com o fundo em operação, receberiam o Nobel de Economia justamente pelo trabalho de precificação de derivativos.</p><p>O conselho reunia provavelmente a maior concentração de capital intelectual quantitativo já montada num único fundo.</p><p>A estratégia central era ‘convergence trade’. O exemplo canônico: títulos do Tesouro americano recém-emitidos (’on-the-run’) são mais líquidos e negociam com prêmio sobre títulos antigos de vencimento praticamente idêntico (’off-the-run’).</p><p>Mesmo risco de crédito, preços diferentes. O modelo dizia que a diferença tenderia a se fechar. Vende o caro, compra o barato, espera.</p><p>O problema é que essas diferenças são medidas em pontos-base. Para transformar centavos em bilhões, é preciso alavancagem.</p><p>Muita alavancagem.</p><p>No fim de 1997, confiante nas próprias métricas, o fundo devolveu US$ 2,7 bilhões aos investidores por não encontrar oportunidades suficientes, mantendo o tamanho da carteira. O efeito foi mecânico: menos capital, mesmo risco, alavancagem maior.</p><p>No início de 1998 o LTCM operava com cerca de US$ 4,7 bilhões de patrimônio e um nocional de derivativos fora de balanço de US$ 1,3 trilhão (President’s Working Group on Financial Markets, 1999). Em agosto, às vésperas do colapso, os ativos do fundo já haviam chegado a US$ 125 bilhões — mais de 26 vezes aquele patrimônio inicial.</p><p>O sistema de risco era baseado em VaR (’Value at Risk’, a perda máxima esperada dentro de um intervalo de confiança) e dizia, com serenidade, que a ruína era estatisticamente irrelevante. O raciocínio: as posições estavam espalhadas por dezenas de mercados pouco correlacionados; a chance de todas perderem ao mesmo tempo era desprezível.</p><p>Aqui vale nomear com precisão o tipo de erro. O economista Frank Knight, em 1921, separou risco (algo mensurável, com distribuição de probabilidade conhecida, que você pode precificar) de incerteza (o evento que ninguém tinha listado, porque ninguém sabia que precisava listar). O VaR do LTCM tratava correlação e volatilidade como risco. O calote russo era incerteza knightiana pura — e nenhum sistema de risco calibrado em dado histórico consegue precificar o que ainda não aconteceu nenhuma vez na amostra.</p><p>Porque a matriz de correlação foi estimada em uma amostra, e amostras descrevem os regimes que estavam nelas.</p><p>Em 17 de agosto de 1998, a Rússia deu calote na dívida em rublos e desvalorizou a moeda. O que veio a seguir não estava no cenário: uma fuga global para qualidade e liquidez. Investidores do mundo inteiro abandonaram tudo que fosse menos líquido e correram para comprar exatamente os Treasuries ‘on-the-run’ — precisamente a ponta em que o LTCM estava vendido.</p><p>Em vez de convergirem, os ‘spreads’ divergiram. E divergiram juntos, em mercados que não tinham nenhuma razão econômica para se mover em bloco. A correlação, que era o alicerce do cálculo de risco, foi para perto de 1 no pior momento possível. Vale registrar como isso soa de dentro: em 2007, o então CFO (Chief Financial Officer, diretor financeiro) do Goldman Sachs, David Viniar, descreveu episódio semelhante como movimentos de 25 desvios-padrão acontecendo vários dias seguidos. Quando você precisa dizer uma frase dessas, o problema não é o mercado — é a distribuição que você escolheu.</p><p>Aí veio a segunda premissa quebrada, e essa é a mais cruel. Para cobrir chamadas de margem, o fundo precisou vender. Mas o LTCM era grande demais em relação aos mercados em que operava: o próprio ato de vender empurrava os preços contra as posições que ainda restavam. A hipótese de liquidez é a premissa mais invisível e mais letal de toda a modelagem financeira. Ela é invisível porque quase nunca aparece escrita.</p><p>![Diagrama: o ciclo de liquidez que derrubou o LTCM — calote russo desvaloriza o rublo, dispara fuga para qualidade, spreads divergem em vez de convergir, chamadas de margem forçam venda, a venda empurra os preços ainda mais contra as posições restantes, fechando o ciclo](diag-01)</p><p>O fundo perdeu cerca de US$ 4,6 bilhões em menos de quatro meses. Em 23 de setembro de 1998, sob articulação de William McDonough, então presidente do Fed (Federal Reserve, o banco central americano) de Nova York, 14 instituições financeiras aportaram cerca de US$ 3,6 bilhões para evitar uma liquidação forçada que teria contaminado os mercados de crédito globais. O Fed não pôs dinheiro próprio: organizou a sala.</p><p>E aqui está o ponto que eu quero que fique. Não houve erro de matemática no LTCM. As equações estavam corretas. Os testes estatísticos estavam corretos. O que houve foi um modelo calibrado em um regime, mas operado — com alavancagem de cerca de 26 para 1 — dentro de outro. O erro não estava na conta. Estava na fronteira entre a conta e o mundo, e essa fronteira não está escrita em lugar nenhum da planilha.</p><h2>As duas patologias</h2><p>Quando o modelo se comporta mal, o jovem analista tende a adoecer de uma entre duas formas. As duas são compreensíveis. As duas custam caro.</p><h3>O fundamentalista</h3><p>O primeiro tipo defende o modelo. Diante do prejuízo, ele classifica o evento como cisne negro, ‘outlier’, “cinco desvios-padrão”, anomalia irracional do mercado. A equação está imaculada; a realidade é que se comportou mal.</p><p>O detalhe perturbador é que, logicamente, ele nunca pode ser provado errado. É o resultado de Duhem–Quine: como o teste atinge o conjunto todo, sempre existe um ajuste auxiliar capaz de salvar o núcleo. Imre Lakatos descreveu isso como o “cinturão protetor” de um programa de pesquisa: você recalibra a janela, troca a distribuição, adiciona um parâmetro, e o núcleo sobrevive. Fazer isso não é irracional; é assim que a ciência normal funciona.</p><p>O que separa um programa saudável de um degenerado é se os ajustes geram previsões novas ou apenas explicam, depois do fato, por que a última perda não conta.</p><p>O caso limite disso tem nome e data: em 2012, o Chief Investment Office do JPMorgan em Londres estourou repetidamente os limites de VaR do banco. A resposta não foi reduzir posição. Foi trocar o modelo de VaR por um novo, implementado com planilhas Excel e transferência manual de dados, que reduziu a estimativa de perda potencial em cerca de 44% e liberou espaço para a mesa continuar aumentando a aposta.</p><p>O resultado foi o episódio conhecido como London Whale e uma perda de pelo menos US$ 6,2 bilhões.</p><p>Vale um parêntese: uma norma criada exatamente para prevenir esse tipo de manipulação de modelo — a SR 11-7, orientação conjunta do Federal Reserve e do OCC (Office of the Comptroller of the Currency, órgão federal que supervisiona bancos nos EUA) sobre gestão de risco de modelo — já estava em vigor havia mais de um ano quando isso aconteceu. Regra escrita não é proteção automática contra um cinturão protetor bem construído. Quando o risco excede o limite do modelo, o cinturão pode ser esticado até virar fraude regulatória.</p><h3>O niilista</h3><p>O segundo tipo abandona tudo. Viu Black–Scholes errar nas caudas, viu a projeção de PIB (Produto Interno Bruto) furar feio, viu o backtest lindo virar pó no primeiro trimestre real, e concluiu que finanças quantitativas é charlatanismo com LaTeX. Passa a operar por “leitura de mercado”, ‘feeling’ e gráfico.</p><p>Derman comenta algo parecido sobre 2008: o fracasso de alguns modelos virou munição para um ceticismo raso, que confundiu “esse modelo falhou nessas condições” com “modelar é inútil”.</p><p>Rejeitar a abstração porque ela é imperfeita é abandonar a medicina porque nenhum tratamento é infalível. O niilista troca um instrumento com margem de erro conhecida por um instrumento com margem de erro desconhecida — e chama isso de prudência. Andar com um modelo cujos limites você mapeou é estritamente melhor do que andar às cegas.</p><p>Repare que as duas patologias têm a mesma raiz: as duas confundem modelo com teoria. O fundamentalista porque acredita na promessa de verdade absoluta; o niilista porque acreditou nela primeiro e se sentiu traído depois.</p><h2>Como usar modelo sem virar refém dele</h2><p>Em 2009, Emanuel Derman e Paul Wilmott publicaram o <em>Financial Modelers’ Manifesto</em>, similar a um “juramento de Hipócrates do modelador”. Parafraseando os cinco compromissos:</p><ol><li><p>Lembrar que “eu não criei o mundo, e ele não satisfaz minhas equações”;</p></li><li><p>Usar modelos com ousadia para estimar valor, sem se deixar impressionar demais pela matemática;</p></li><li><p>Nunca sacrificar realidade por elegância sem dizer explicitamente que fez isso;</p></li><li><p>Não dar a quem usa o modelo falso conforto sobre sua precisão — tornar premissas e omissões explícitas;</p></li><li><p>Reconhecer que o trabalho tem efeitos sobre a sociedade e a economia que excedem a própria compreensão.</p></li></ol><p>Traduzindo para o seu dia a dia como analista: antes de entregar um número que saiu de um modelo, responda a seis perguntas. Se você não souber responder a três delas, você não sabe o que está entregando.</p><h2>Nenhum modelo é uma bala de prata</h2><p>Não porque a matemática. </p><p>O que é mais difícil, em finanças, é uma teoria imune à reflexividade: um objeto de estudo que continue se comportando do mesmo jeito depois que alguém publicou a equação que o descreve. </p><p>Esperar que um modelo capture isso integralmente não é um erro de cálculo. É pedir a uma ferramenta que faça sozinha o trabalho de admitir que o mundo mudou assim que ela foi usada.</p><p>Mas modelos são alavancas extremamente eficientes.</p><p>Uma alavanca não decide nada por você e não sabe nada sobre o mundo, ela apenas multiplica a força que você aplica. Ela multiplica competência tanto quanto multiplica burrice, e com a mesma indiferença. O LTCM não quebrou por usar modelos; quebrou por alavancar seu capital em mais de 26 vezes sobre uma premissa histórica tratada como lei natural.</p><p>O que eu proponho ao analista que está começando é uma relação desapegada, não uma relação cética. Estude estocástico a sério. Aprenda a derivar Black–Scholes, não a decorá-la. E depois trate o resultado como o que ele é: uma estimativa condicionada a premissas que você consegue listar, com um domínio de validade que você consegue descrever, e uma fronteira além da qual o número que aparece na tela não significa mais nada.</p><p>Se este texto mudou a forma como você vai olhar para o próximo número que sair de um modelo — seu, do banco, do ‘research’ que você lê —, manda para quem também vive citando “o histórico mostra” sem perguntar em que regime esse histórico foi calibrado.</p><p class=\"button-wrapper\" data-attrs=\"{&quot;url&quot;:&quot;https://syntaxis.substack.com/p/quando-os-modelos-se-rebelam?utm_source=substack&utm_medium=email&utm_content=share&action=share&quot;,&quot;text&quot;:&quot;Compartilhar&quot;,&quot;action&quot;:null,&quot;class&quot;:null}\" data-component-name=\"ButtonCreateButton\"><a class=\"button primary\" href=\"https://syntaxis.substack.com/p/quando-os-modelos-se-rebelam?utm_source=substack&utm_medium=email&utm_content=share&action=share\"><span>Compartilhar</span></a></p><p></p><p>Um modelo é uma ferramenta que não sabe que é uma ferramenta. </p><p>Cabe a você saber.</p><div><hr></div><h4>Fontes e leituras</h4><p></p><ul><li><p>Emanuel Derman, <em>Models. Behaving. Badly.</em> (2011)</p></li><li><p>Emanuel Derman &amp; Paul Wilmott, <em>The Financial Modelers’ Manifesto</em> (2009)</p></li><li><p>Donald MacKenzie, <em>An Engine, Not a Camera: How Financial Models Shape Markets</em> (2006)</p></li><li><p>Alice Bamford &amp; Donald MacKenzie, <em>“Counterperformativity”, New Left Review</em> 113 (2018)</p></li><li><p>Nancy Cartwright, <em>How the Laws of Physics Lie (1983); Imre Lakatos, Falsification and the Methodology of Scientific Research Programmes</em> (1970)</p></li><li><p>Frank Knight, <em>Risk, Uncertainty and Profit</em> (1921)</p></li><li><p>M.A.H. Dempster, <em>resenha de Models. Behaving. Badly., Quantitative Finance, v. 12, n. 4</em> (2012)</p></li><li><p>Federal Reserve / OCC, SR 11-7: Supervisory Guidance on Model Risk Management (2011)</p></li><li><p>Roger Lowenstein, <em>When Genius Failed</em> (2000); President’s Working Group on Financial Markets, <em>Hedge Funds, Leverage, and the Lessons of Long-Term Capital Management_</em>(1999)</p></li></ul><div><hr></div><p></p><p><em>Os textos publicados na Syntaxis expressam exclusivamente minhas opiniões pessoais, formadas a partir da minha experiência profissional, e não representam a posição de meu empregador atual ou de empregadores anteriores. O conteúdo tem finalidade educacional e informativa: não constitui recomendação de investimento, análise de valores mobiliários ou consultoria financeira. Decisões de investimento são de responsabilidade exclusiva do leitor.</em></p>",
+ "has_dynamic_content": false,
+ "truncated_body_text": "Entre as aulas gratuitas que o MIT disponibiliza no OpenCourseWare está a disciplina Topics in Mathematics with Applications in Finance, um passeio, a passo rápido, por uma série de ferramentas e modelos matemáticos fundamentais em finanças.",
+ "wordcount": 3510,
+ "post_preview_limit": null,
+ "language": "pt",
+ "postTags": [
+  {
+   "id": "63402821-23a4-4b73-8921-24029dc2f7b4",
+   "publication_id": 2968718,
+   "name": "asset allocation",
+   "slug": "asset-allocation",
+   "hidden": false
+  },
+  {
+   "id": "96993acb-39ac-428a-9706-06e00aace3e3",
+   "publication_id": 2968718,
+   "name": "Modelos",
+   "slug": "modelos",
+   "hidden": false
+  },
+  {
+   "id": "b53ab524-9da7-4f72-809b-a0d91634f563",
+   "publication_id": 2968718,
+   "name": "Finanças",
+   "slug": "financas",
+   "hidden": false
+  }
+ ],
+ "postCountryBlocks": [],
+ "disable_drop_cap": false,
+ "cover_image_crop": null,
+ "headlineTest": null,
+ "coverImagePalette": {
+  "Vibrant": {
+   "rgb": [
+    142,
+    207,
+    49
+   ],
+   "population": 13
+  },
+  "DarkVibrant": {
+   "rgb": [
+    30,
+    98,
+    72
+   ],
+   "population": 13
+  },
+  "LightVibrant": {
+   "rgb": [
+    202,
+    239,
+    101
+   ],
+   "population": 29
+  },
+  "Muted": {
+   "rgb": [
+    97,
+    158,
+    115
+   ],
+   "population": 144
+  },
+  "DarkMuted": {
+   "rgb": [
+    47,
+    74,
+    57
+   ],
+   "population": 207
+  },
+  "LightMuted": {
+   "rgb": [
+    181,
+    199,
+    178
+   ],
+   "population": 39
+  }
+ },
+ "publishedBylines": [
+  {
+   "id": 136725718,
+   "name": "Silvano Junior",
+   "handle": "saapjr",
+   "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/4d24c48d-d4f2-406d-ab80-902631955776_640x640.jpeg",
+   "bio": "Capixaba Matemático (MsC) Cientista de Dados e Analista Quantitativo",
+   "profile_set_up_at": "2023-03-28T04:01:23.570Z",
+   "reader_installed_at": "2023-03-28T04:05:16.777Z",
+   "publicationUsers": [
+    {
+     "id": 3019355,
+     "user_id": 136725718,
+     "publication_id": 2968718,
+     "role": "admin",
+     "public": true,
+     "is_primary": true,
+     "publication": {
+      "id": 2968718,
+      "name": "Syntaxis",
+      "subdomain": "syntaxis",
+      "custom_domain": null,
+      "custom_domain_optional": false,
+      "hero_text": "A Syntaxis te ajuda a desenvolver as skills que hoje separam quem estagia de quem é efetivado, e quem é efetivado de quem vira referência.",
+      "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/f1431d70-c6a3-4eb3-9219-23ab9997436b_320x320.png",
+      "author_id": 136725718,
+      "primary_user_id": 136725718,
+      "theme_var_background_pop": "#FF6719",
+      "created_at": "2024-09-03T01:29:04.169Z",
+      "email_from_name": "SYNTAXIS",
+      "copyright": "Silvano Junior",
+      "founding_plan_name": "Membro Fundador",
+      "community_enabled": true,
+      "invite_only": false,
+      "payments_state": "enabled",
+      "language": "pt-br",
+      "explicit": false,
+      "homepage_type": "newspaper",
+      "is_personal_mode": false,
+      "logo_url_wide": null
+     }
+    }
+   ],
+   "is_guest": false,
+   "bestseller_tier": null,
+   "status": {
+    "bestsellerTier": null,
+    "subscriberTier": null,
+    "leaderboard": null,
+    "vip": false,
+    "badge": null,
+    "subscriber": null
+   }
+  }
+ ],
+ "reaction": null,
+ "reaction_count": 7,
+ "comment_count": 0,
+ "child_comment_count": 0,
+ "vg_wort_pixel_url": null,
+ "is_geoblocked": false,
+ "sponsorshipEditionBanner": null,
+ "is_editor_preview": false,
+ "hasCashtag": false,
+ "unlockedWithIP": false,
+ "unlockedWithCampaign": false,
+ "themeVariables": {
+  "color_theme_bg_pop": "#1B6A45",
+  "background_pop": "#1B6A45",
+  "color_theme_bg_web": "#F7F7F5",
+  "cover_bg_color": "#F7F7F5",
+  "cover_bg_color_secondary": "#e8e8e6",
+  "background_pop_darken": "#165638",
+  "print_on_pop": "#ffffff",
+  "color_theme_bg_pop_darken": "#165638",
+  "color_theme_print_on_pop": "#ffffff",
+  "color_theme_bg_pop_20": "rgba(27, 106, 69, 0.2)",
+  "color_theme_bg_pop_30": "rgba(27, 106, 69, 0.3)",
+  "print_pop": "#1b6a45",
+  "color_theme_accent": "#1b6a45",
+  "cover_print_primary": "#363737",
+  "cover_print_secondary": "#757575",
+  "cover_print_tertiary": "#b6b6b6",
+  "cover_border_color": "#1b6a45",
+  "font_family_body_preset": "'SF Pro Display', -apple-system, system-ui, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+  "font_weight_body_preset": 400,
+  "font_preset_body": "sans",
+  "home_hero": "feature-media",
+  "home_posts": "grid",
+  "home_show_top_posts": true,
+  "web_bg_color": "#F7F7F5",
+  "background_contrast_1": "#e8e8e6",
+  "background_contrast_2": "#d6d6d4",
+  "background_contrast_3": "#b1b1b0",
+  "background_contrast_4": "#8e8e8d",
+  "background_contrast_5": "#4e4e4d",
+  "color_theme_bg_contrast_1": "#e8e8e6",
+  "color_theme_bg_contrast_2": "#d6d6d4",
+  "color_theme_bg_contrast_3": "#b1b1b0",
+  "color_theme_bg_contrast_4": "#8e8e8d",
+  "color_theme_bg_contrast_5": "#4e4e4d",
+  "color_theme_bg_elevated": "#f7f7f5",
+  "color_theme_bg_elevated_secondary": "#e8e8e6",
+  "color_theme_bg_elevated_tertiary": "#d6d6d4",
+  "color_theme_detail": "#dededd",
+  "background_contrast_pop": "rgba(27, 106, 69, 0.4)",
+  "color_theme_bg_contrast_pop": "rgba(27, 106, 69, 0.4)",
+  "theme_bg_is_dark": "0",
+  "print_on_web_bg_color": "#363737",
+  "print_secondary_on_web_bg_color": "#838483",
+  "background_pop_rgb": "27, 106, 69",
+  "color_theme_bg_pop_rgb": "27, 106, 69",
+  "color_theme_accent_rgb": "27, 106, 69"
+ },
+ "oneOffUnlockOffer": {
+  "eligible": false
+ }
+}

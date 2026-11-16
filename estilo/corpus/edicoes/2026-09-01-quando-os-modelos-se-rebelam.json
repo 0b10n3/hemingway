@@ -1,0 +1,1235 @@
+{
+ "slug_repo": "2026-09-01-quando-os-modelos-se-rebelam",
+ "slug_site": "quando-os-modelos-se-rebelam",
+ "linha_editorial": "Spoiler",
+ "rascunho": "_arquivo/drafts/2026-09-01_Quando_os_modelos_se_rebelam.md",
+ "rascunho_tipo": "rascunho",
+ "post_md_base": {
+  "commit": "4a8a1ee",
+  "similaridade_base": 0.938,
+  "similaridade_versao_atual": 0.79
+ },
+ "palavras": {
+  "rascunho": 3344,
+  "post_md": 3884,
+  "publicado": 3446
+ },
+ "similaridade": {
+  "rascunho_post_md": 0.859,
+  "post_md_publicado": 0.938,
+  "rascunho_publicado": 0.833
+ },
+ "resumo_classe": {
+  "remocao": 10,
+  "pontuacao": 9,
+  "divisao_paragrafo": 8,
+  "separador": 7,
+  "italico_adicionado": 7,
+  "subtitulo_h2": 5,
+  "substituicao": 4,
+  "tabela": 3,
+  "imagem": 2,
+  "cta": 1,
+  "negrito_adicionado": 1,
+  "italico_removido": 1,
+  "legenda": 1,
+  "tipografia_aspas": 1,
+  "subtitulo_post": 1
+ },
+ "resumo_natureza": {
+  "estilo": 38,
+  "layout-substack": 14,
+  "conteúdo/fato": 8,
+  "marketing": 1
+ },
+ "sinais": {
+  "reversao": 7,
+  "acrescimo_autoral": 3
+ },
+ "operacoes": [
+  {
+   "classe": "remocao",
+   "natureza": "conteúdo/fato",
+   "antes": "(18. S096",
+   "depois": "",
+   "palavras_antes": 2,
+   "palavras_depois": 0,
+   "bloco_antes": 0,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": "rascunho",
+   "contexto": "in Mathematics with Applications in Finance [[…]] , na versão de 2013,",
+   "pos_antes": [
+    20,
+    24
+   ],
+   "id": 1
+  },
+  {
+   "classe": "remocao",
+   "natureza": "conteúdo/fato",
+   "antes": "na versão de 2013, atualizada como 18. 642 em 2024) —",
+   "depois": "",
+   "palavras_antes": 10,
+   "palavras_depois": 0,
+   "bloco_antes": 0,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": "rascunho",
+   "contexto": "Finance (18. S096, [[…]] um passeio, a passo rápido",
+   "pos_antes": [
+    25,
+    39
+   ],
+   "id": 2
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "estilo",
+   "antes": "atribuída a",
+   "depois": "do professor",
+   "palavras_antes": 2,
+   "palavras_depois": 2,
+   "bloco_antes": 0,
+   "bloco_depois": 1,
+   "sinais": [
+    "reversao"
+   ],
+   "restaurou_rascunho": true,
+   "origem_antes": "pipeline",
+   "contexto": "de probabilidade (Probability Theory) [[…]] Peter Kempthorne. Em uma explicação",
+   "pos_antes": [
+    74,
+    76
+   ],
+   "id": 3
+  },
+  {
+   "classe": "pontuacao",
+   "natureza": "estilo",
+   "antes": "\"",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 1,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "à média, ele diz: [[…]] Se você lança uma moeda 100",
+   "pos_antes": [
+    93,
+    94
+   ],
+   "id": 4
+  },
+  {
+   "classe": "remocao",
+   "natureza": "conteúdo/fato",
+   "antes": "\"[VERIFICAR: atribuição a Peter Kempthorne não confirmada contra fonte primária — a aula de 2013 citada é, segundo o próprio MIT OCW, ministrada por Choongbum Lee, não por Kempthorne; as duas aulas de probabilidade que Kempthorne de fato ministra na versão 2024 (18. 642, Lectures 4-5) não contêm a frase em suas transcrições. Ver `processo/07-verificacao.md`.]",
+   "depois": "",
+   "palavras_antes": 53,
+   "palavras_depois": 0,
+   "bloco_antes": 1,
+   "bloco_depois": null,
+   "sinais": [
+    "reversao"
+   ],
+   "restaurou_rascunho": null,
+   "origem_antes": "pipeline",
+   "contexto": "tenha algum vício ou defeito. [[…]] A frase é dita no contexto",
+   "pos_antes": [
+    126,
+    195
+   ],
+   "id": 5
+  },
+  {
+   "classe": "separador",
+   "natureza": "layout-substack",
+   "antes": "⟦HR⟧",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 6,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": "rascunho",
+   "contexto": "do Prêmio Nobel ao desastre. [[…]] Três palavras que você usa como",
+   "pos_antes": [
+    329,
+    332
+   ],
+   "tipo": "remocao",
+   "id": 6
+  },
+  {
+   "classe": "imagem",
+   "natureza": "layout-substack",
+   "antes": "",
+   "depois": "⟦IMG⟧",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": null,
+   "bloco_depois": 8,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": "rascunho",
+   "contexto": "do Prêmio Nobel ao desastre. [[…]] Três palavras que você usa como",
+   "pos_antes": [
+    329,
+    332
+   ],
+   "tipo": "insercao",
+   "id": 7
+  },
+  {
+   "classe": "subtitulo_h2",
+   "natureza": "estilo",
+   "antes": "1.",
+   "depois": "",
+   "palavras_antes": 1,
+   "palavras_depois": 0,
+   "bloco_antes": 7,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": "rascunho",
+   "contexto": "do Prêmio Nobel ao desastre. [[…]] Três palavras que você usa como",
+   "pos_antes": [
+    329,
+    332
+   ],
+   "id": 8
+  },
+  {
+   "classe": "pontuacao",
+   "natureza": "estilo",
+   "antes": ".",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 9,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "volatilidade local Derman–Kani. Em Models [[…]] Behaving. Badly. (2011",
+   "pos_antes": [
+    389,
+    390
+   ],
+   "id": 9
+  },
+  {
+   "classe": "pontuacao",
+   "natureza": "estilo",
+   "antes": ".",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 9,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "Derman–Kani. Em Models. Behaving [[…]] Badly. (2011),",
+   "pos_antes": [
+    391,
+    392
+   ],
+   "id": 10
+  },
+  {
+   "classe": "pontuacao",
+   "natureza": "estilo",
+   "antes": "—",
+   "depois": ",",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 12,
+   "bloco_depois": 14,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "mais fácil de descartar como misticismo [[…]] o que seria um erro.",
+   "pos_antes": [
+    591,
+    592
+   ],
+   "id": 11
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "estilo",
+   "antes": "Na acepção de",
+   "depois": "Para",
+   "palavras_antes": 3,
+   "palavras_depois": 1,
+   "bloco_antes": 12,
+   "bloco_depois": 14,
+   "sinais": [
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": "rascunho",
+   "contexto": "o que seria um erro. [[…]] Derman, intuição não é palpite",
+   "pos_antes": [
+    598,
+    601
+   ],
+   "id": 12
+  },
+  {
+   "classe": "pontuacao",
+   "natureza": "estilo",
+   "antes": "—",
+   "depois": ",",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 13,
+   "bloco_depois": 15,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "existe são modelos. Não teorias [[…]] ou pelo menos não no sentido",
+   "pos_antes": [
+    678,
+    679
+   ],
+   "id": 13
+  },
+  {
+   "classe": "tabela",
+   "natureza": "layout-substack",
+   "antes": "⟦TABELA⟧",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 14,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "têm a mesma ancoragem ontológica. [[…]] E onde entram as \"hipóteses",
+   "pos_antes": [
+    734,
+    735
+   ],
+   "tipo": "remocao",
+   "id": 14
+  },
+  {
+   "classe": "pontuacao",
+   "natureza": "estilo",
+   "antes": "—",
+   "depois": ",",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 18,
+   "bloco_depois": 19,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "caixa de \"hipótese nula\" [[…]] como formalidade de demonstração, coisa",
+   "pos_antes": [
+    828,
+    829
+   ],
+   "id": 15
+  },
+  {
+   "classe": "tabela",
+   "natureza": "layout-substack",
+   "antes": "⟦TABELA⟧",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 20,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": "misto",
+   "contexto": "honesta é: bate em parte [[…]] . O radar da rodovia Um",
+   "pos_antes": [
+    923,
+    1037
+   ],
+   "tipo": "remocao",
+   "id": 16
+  },
+  {
+   "classe": "separador",
+   "natureza": "layout-substack",
+   "antes": "⟦HR⟧",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 22,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": "misto",
+   "contexto": "honesta é: bate em parte [[…]] . O radar da rodovia Um",
+   "pos_antes": [
+    923,
+    1037
+   ],
+   "tipo": "remocao",
+   "id": 17
+  },
+  {
+   "classe": "remocao",
+   "natureza": "conteúdo/fato",
+   "antes": ". Minha leitura: trate a distinção como uma ferramenta de ancoragem, não como uma parede. De um lado, construções que sobrevivem a testes de falseamento cada vez mais severos e cujo objeto não reage a elas. Do outro, construções cujo objeto é feito de gente que lê o próprio modelo. Finanças mora firmemente do lado direito, e Derman está certo no que importa: tratar a segunda coisa como se fosse a primeira é a origem do problema. É essa fronteira — não abstrata, mas com data e prejuízo — que os dois casos a seguir tornam impossível de ignorar. 2",
+   "depois": "",
+   "palavras_antes": 97,
+   "palavras_depois": 0,
+   "bloco_antes": 19,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": "misto",
+   "contexto": "honesta é: bate em parte [[…]] . O radar da rodovia Um",
+   "pos_antes": [
+    923,
+    1037
+   ],
+   "id": 18
+  },
+  {
+   "classe": "separador",
+   "natureza": "layout-substack",
+   "antes": "⟦HR⟧",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 32,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": "rascunho",
+   "contexto": "a conta foi aplicada. ⟦IMG⟧ [[…]] Black–Scholes: o que está na",
+   "pos_antes": [
+    1257,
+    1260
+   ],
+   "tipo": "remocao",
+   "id": 19
+  },
+  {
+   "classe": "subtitulo_h2",
+   "natureza": "estilo",
+   "antes": "3.",
+   "depois": "",
+   "palavras_antes": 1,
+   "palavras_depois": 0,
+   "bloco_antes": 33,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": "rascunho",
+   "contexto": "a conta foi aplicada. ⟦IMG⟧ [[…]] Black–Scholes: o que está na",
+   "pos_antes": [
+    1257,
+    1260
+   ],
+   "id": 20
+  },
+  {
+   "classe": "imagem",
+   "natureza": "layout-substack",
+   "antes": "⟦IMG⟧",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 46,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "R $ 3, 3805. [[…]] Pergunte a quem estava vendido em",
+   "pos_antes": [
+    1667,
+    1668
+   ],
+   "tipo": "remocao",
+   "id": 21
+  },
+  {
+   "classe": "pontuacao",
+   "natureza": "estilo",
+   "antes": "'",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 48,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "e passou a exibir o famoso [[…]] smile '(ou' skew",
+   "pos_antes": [
+    1785,
+    1786
+   ],
+   "id": 22
+  },
+  {
+   "classe": "remocao",
+   "natureza": "estilo",
+   "antes": "'(ou' skew ')",
+   "depois": "",
+   "palavras_antes": 2,
+   "palavras_depois": 0,
+   "bloco_antes": 48,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": "rascunho",
+   "contexto": "a exibir o famoso 'smile [[…]] : os preços praticados passaram a",
+   "pos_antes": [
+    1787,
+    1794
+   ],
+   "id": 23
+  },
+  {
+   "classe": "separador",
+   "natureza": "layout-substack",
+   "antes": "⟦HR⟧",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 52,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": "misto",
+   "contexto": "astrônomo publicou. O mercado muda [[…]] . LTCM: quando dois Nobéis",
+   "pos_antes": [
+    2028,
+    2218
+   ],
+   "tipo": "remocao",
+   "id": 24
+  },
+  {
+   "classe": "remocao",
+   "natureza": "conteúdo/fato",
+   "antes": ". Nota brasileira: o mercado adora quebrar essa premissa também fora de opções. No segundo semestre de 2008, dezenas de exportadoras brasileiras carregavam estruturas de derivativos cambiais ('target forward' — ganho limitado se o dólar caísse, perda alavancada e sem trava se ele disparasse). A Aracruz Celulose comunicou perda de US $ 2, 13 bilhões ao desmontar as posições em novembro; a Sadia registrou R $ 2, 55 bilhões em despesas financeiras vindas desses mesmos derivativos e fechou o ano com prejuízo líquido de R $ 2, 48 bilhões, acabando incorporada pela Perdigão — o que deu origem à BRF. Estima-se que o volume total dessas operações no país tenha chegado a US $ 35 bilhões [VERIFICAR: cifra é consenso de imprensa e literatura acadêmica; fonte primária/regulatória (Banco Central, CVM ou BIS) não localizada — ver `processo/07-verificacao.md`]. O que estava errado não era a precificação. Era chamar aquilo de hedge, no cenário em que a premissa de câmbio comportado valia. 4",
+   "depois": "",
+   "palavras_antes": 153,
+   "palavras_depois": 0,
+   "bloco_antes": 50,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": "misto",
+   "contexto": "astrônomo publicou. O mercado muda [[…]] . LTCM: quando dois Nobéis",
+   "pos_antes": [
+    2028,
+    2218
+   ],
+   "id": 25
+  },
+  {
+   "classe": "separador",
+   "natureza": "layout-substack",
+   "antes": "⟦HR⟧",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 72,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": "rascunho",
+   "contexto": "em lugar nenhum da planilha. [[…]] As duas patologias Quando o modelo",
+   "pos_antes": [
+    3148,
+    3151
+   ],
+   "tipo": "remocao",
+   "id": 26
+  },
+  {
+   "classe": "subtitulo_h2",
+   "natureza": "estilo",
+   "antes": "5.",
+   "depois": "",
+   "palavras_antes": 1,
+   "palavras_depois": 0,
+   "bloco_antes": 73,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": "rascunho",
+   "contexto": "em lugar nenhum da planilha. [[…]] As duas patologias Quando o modelo",
+   "pos_antes": [
+    3148,
+    3151
+   ],
+   "id": 27
+  },
+  {
+   "classe": "separador",
+   "natureza": "layout-substack",
+   "antes": "⟦HR⟧",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 87,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": "rascunho",
+   "contexto": "e se sentiu traído depois. [[…]] como usar modelo sem virar refém",
+   "pos_antes": [
+    3747,
+    3754
+   ],
+   "tipo": "remocao",
+   "id": 28
+  },
+  {
+   "classe": "subtitulo_h2",
+   "natureza": "estilo",
+   "antes": "6. A ficha técnica:",
+   "depois": "",
+   "palavras_antes": 4,
+   "palavras_depois": 0,
+   "bloco_antes": 88,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": "rascunho",
+   "contexto": "e se sentiu traído depois. [[…]] como usar modelo sem virar refém",
+   "pos_antes": [
+    3747,
+    3754
+   ],
+   "id": 29
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "estilo",
+   "antes": "cujo núcleo é",
+   "depois": "similar a",
+   "palavras_antes": 3,
+   "palavras_depois": 2,
+   "bloco_antes": 89,
+   "bloco_depois": 82,
+   "sinais": [
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": "rascunho",
+   "contexto": "o Financial Modelers 'Manifesto, [[…]] um \"juramento de Hipócrates do",
+   "pos_antes": [
+    3776,
+    3779
+   ],
+   "id": 30
+  },
+  {
+   "classe": "tabela",
+   "natureza": "layout-substack",
+   "antes": "⟦TABELA⟧",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 96,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": "rascunho",
+   "contexto": "sabe o que está entregando. [[…]] Nenhum modelo é uma bala de",
+   "pos_antes": [
+    3918,
+    3921
+   ],
+   "tipo": "remocao",
+   "id": 31
+  },
+  {
+   "classe": "separador",
+   "natureza": "layout-substack",
+   "antes": "⟦HR⟧",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 97,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": "rascunho",
+   "contexto": "sabe o que está entregando. [[…]] Nenhum modelo é uma bala de",
+   "pos_antes": [
+    3918,
+    3921
+   ],
+   "tipo": "remocao",
+   "id": 32
+  },
+  {
+   "classe": "subtitulo_h2",
+   "natureza": "estilo",
+   "antes": "Fechamento",
+   "depois": "",
+   "palavras_antes": 1,
+   "palavras_depois": 0,
+   "bloco_antes": 98,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": "rascunho",
+   "contexto": "sabe o que está entregando. [[…]] Nenhum modelo é uma bala de",
+   "pos_antes": [
+    3918,
+    3921
+   ],
+   "id": 33
+  },
+  {
+   "classe": "pontuacao",
+   "natureza": "estilo",
+   "antes": ".",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 99,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "modelo é uma bala de prata [[…]] Não porque a matemática seja fraca",
+   "pos_antes": [
+    3928,
+    3929
+   ],
+   "id": 34
+  },
+  {
+   "classe": "remocao",
+   "natureza": "conteúdo/fato",
+   "antes": "seja fraca, e não porque 'teoria' seja palavra proibida em finanças — a fronteira entre as duas categorias é mais porosa do que a distinção de Derman sugere, como a seção 1 já reconheceu",
+   "depois": "",
+   "palavras_antes": 33,
+   "palavras_depois": 0,
+   "bloco_antes": 100,
+   "bloco_depois": null,
+   "sinais": [
+    "reversao"
+   ],
+   "restaurou_rascunho": null,
+   "origem_antes": "pipeline",
+   "contexto": "prata. Não porque a matemática [[…]] . O que não existe,",
+   "pos_antes": [
+    3933,
+    3971
+   ],
+   "id": 35
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "estilo",
+   "antes": "não existe",
+   "depois": "é mais difícil",
+   "palavras_antes": 2,
+   "palavras_depois": 3,
+   "bloco_antes": 100,
+   "bloco_depois": 91,
+   "sinais": [
+    "reversao",
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": "pipeline",
+   "contexto": "1 já reconheceu. O que [[…]] , em finanças, é uma",
+   "pos_antes": [
+    3974,
+    3976
+   ],
+   "id": 36
+  },
+  {
+   "classe": "remocao",
+   "natureza": "estilo",
+   "antes": "— mesmo o mais elegante —",
+   "depois": "",
+   "palavras_antes": 4,
+   "palavras_depois": 0,
+   "bloco_antes": 100,
+   "bloco_depois": null,
+   "sinais": [
+    "reversao"
+   ],
+   "restaurou_rascunho": null,
+   "origem_antes": "pipeline",
+   "contexto": "descreve. Esperar que um modelo [[…]] capture isso integralmente não é um",
+   "pos_antes": [
+    4012,
+    4018
+   ],
+   "id": 37
+  },
+  {
+   "classe": "pontuacao",
+   "natureza": "estilo",
+   "antes": "—",
+   "depois": ",",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 102,
+   "bloco_depois": 94,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "não sabe nada sobre o mundo [[…]] ela apenas multiplica a força que",
+   "pos_antes": [
+    4071,
+    4072
+   ],
+   "id": 38
+  },
+  {
+   "classe": "cta",
+   "natureza": "marketing",
+   "antes": "",
+   "depois": "⟦CTA⟧",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": null,
+   "bloco_depois": 97,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "regime esse histórico foi calibrado. [[…]] Um modelo é uma ferramenta que",
+   "pos_antes": [
+    4258,
+    4258
+   ],
+   "tipo": "insercao",
+   "id": 39
+  },
+  {
+   "classe": "remocao",
+   "natureza": "conteúdo/fato",
+   "antes": "Peter Kempthorne et al., 18. S096 Topics in Mathematics with Applications in Finance, MIT OpenCourseWare, Fall 2013 — ocw. mit. edu (versão atualizada: 18. 642, Fall 2024)",
+   "depois": "",
+   "palavras_antes": 26,
+   "palavras_depois": 0,
+   "bloco_antes": 108,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": "rascunho",
+   "contexto": "saber. ⟦HR⟧ Fontes e leituras [[…]] Emanuel Derman, Models. Behaving",
+   "pos_antes": [
+    4280,
+    4319
+   ],
+   "id": 40
+  },
+  {
+   "classe": "remocao",
+   "natureza": "conteúdo/fato",
+   "antes": "US Senate PSI, JPMorgan Chase Whale Trades: A Case History of Derivatives Risks and Abuses (2013) Joesley Day: InfoMoney e Suno, cobertura do pregão de 18/05/2017 Aracruz e Sadia: fatos relevantes de 2008; Revista RACEF, A crise financeira internacional (2008) e o efeito dos derivativos cambiais",
+   "depois": "",
+   "palavras_antes": 48,
+   "palavras_depois": 0,
+   "bloco_antes": 118,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": "misto",
+   "contexto": "Long-Term Capital Management (1999) [[…]] ⟦HR⟧ Os textos publicados na Syntaxis",
+   "pos_antes": [
+    4497,
+    4558
+   ],
+   "id": 41
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "de ferramentas e modelos matemáticos fundamentais em finanças.",
+   "depois": "Um dos meus momentos favoritos do curso é",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 0,
+   "bloco_depois": 1,
+   "sinais": [
+    "reversao"
+   ],
+   "restaurou_rascunho": true,
+   "origem_antes": null,
+   "contexto": "de ferramentas e modelos matemáticos fundamentais em finanças. Um dos meus momentos favoritos do curso é",
+   "pos_antes": [
+    57,
+    59
+   ],
+   "id": 42
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "(Probability Theory) atribuída a Peter Kempthorne.",
+   "depois": "Em uma explicação sobre a ideia de retorno",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 0,
+   "bloco_depois": 2,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "(Probability Theory) atribuída a Peter Kempthorne. Em uma explicação sobre a ideia de retorno",
+   "pos_antes": [
+    78,
+    80
+   ],
+   "id": 43
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "seguir tornam impossível de ignorar. ⟦HR⟧ 2.",
+   "depois": "O radar da rodovia Um exemplo fora de",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 23,
+   "bloco_depois": 21,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "seguir tornam impossível de ignorar. ⟦HR⟧ 2. O radar da rodovia Um exemplo fora de",
+   "pos_antes": [
+    1037,
+    1039
+   ],
+   "id": 44
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "não muda de órbita porque o astrônomo publicou.",
+   "depois": "O mercado muda. Nota brasileira: o",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 50,
+   "bloco_depois": 47,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "não muda de órbita porque o astrônomo publicou. O mercado muda. Nota brasileira: o",
+   "pos_antes": [
+    2024,
+    2026
+   ],
+   "id": 45
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "premissa de câmbio comportado valia. ⟦HR⟧ 4.",
+   "depois": "LTCM: quando dois Nobéis descobrem que o",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 53,
+   "bloco_depois": 48,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "premissa de câmbio comportado valia. ⟦HR⟧ 4. LTCM: quando dois Nobéis descobrem que o",
+   "pos_antes": [
+    2218,
+    2220
+   ],
+   "id": 46
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "sugere, como a seção 1 já reconheceu.",
+   "depois": "O que não existe, em finanças,",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 100,
+   "bloco_depois": 91,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "sugere, como a seção 1 já reconheceu. O que não existe, em finanças,",
+   "pos_antes": [
+    3971,
+    3973
+   ],
+   "id": 47
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "que alguém publicou a equação que o descreve.",
+   "depois": "Esperar que um modelo — mesmo o mais",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 100,
+   "bloco_depois": 92,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "que alguém publicou a equação que o descreve. Esperar que um modelo — mesmo o mais",
+   "pos_antes": [
+    4007,
+    4009
+   ],
+   "id": 48
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "ferramenta que não sabe que é uma ferramenta.",
+   "depois": "Cabe a você saber. ⟦HR⟧ Fontes e",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 105,
+   "bloco_depois": 99,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "ferramenta que não sabe que é uma ferramenta. Cabe a você saber. ⟦HR⟧ Fontes e",
+   "pos_antes": [
+    4270,
+    4272
+   ],
+   "id": 49
+  },
+  {
+   "classe": "negrito_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "MIT",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 0,
+   "bloco_depois": 0,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "Entre as aulas gratuitas que o MIT disponibiliza no OpenCourseWare está a disciplina",
+   "pos_antes": [
+    6,
+    7
+   ],
+   "id": 50
+  },
+  {
+   "classe": "italico_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "smile",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 48,
+   "bloco_depois": 44,
+   "sinais": [
+    "reversao"
+   ],
+   "restaurou_rascunho": true,
+   "origem_antes": null,
+   "contexto": "passou a exibir o famoso 'smile' (ou 'skew'",
+   "pos_antes": [
+    1786,
+    1787
+   ],
+   "id": 51
+  },
+  {
+   "classe": "italico_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "\"Counterperformativity\",",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 112,
+   "bloco_depois": 105,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "Alice Bamford & Donald MacKenzie, \"Counterperformativity\", New Left Review 113 (2018",
+   "pos_antes": [
+    4369,
+    4373
+   ],
+   "id": 52
+  },
+  {
+   "classe": "italico_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "(1983); Imre Lakatos,",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 113,
+   "bloco_depois": 106,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "How the Laws of Physics Lie (1983); Imre Lakatos, Falsification and the Methodology of Scientific",
+   "pos_antes": [
+    4389,
+    4396
+   ],
+   "id": 53
+  },
+  {
+   "classe": "italico_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "resenha de",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 115,
+   "bloco_depois": 108,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "A. H. Dempster, resenha de Models. Behaving. Badly.",
+   "pos_antes": [
+    4426,
+    4428
+   ],
+   "id": 54
+  },
+  {
+   "classe": "italico_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": ",",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 115,
+   "bloco_depois": 108,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "Models. Behaving. Badly., Quantitative Finance, v. 12",
+   "pos_antes": [
+    4434,
+    4435
+   ],
+   "id": 55
+  },
+  {
+   "classe": "italico_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": ", v. 12, n. 4",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 115,
+   "bloco_depois": 108,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": ". Badly., Quantitative Finance, v. 12, n. 4 (2012) Federal Reserve/",
+   "pos_antes": [
+    4437,
+    4445
+   ],
+   "id": 56
+  },
+  {
+   "classe": "italico_removido",
+   "natureza": "estilo",
+   "antes": "SR 11-7: Supervisory Guidance on Model Risk Management",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 116,
+   "bloco_depois": 109,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": ") Federal Reserve/OCC, SR 11-7: Supervisory Guidance on Model Risk Management (2011) Roger Lowenstein,",
+   "pos_antes": [
+    4453,
+    4462
+   ],
+   "id": 57
+  },
+  {
+   "classe": "italico_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "(1999)",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 117,
+   "bloco_depois": 110,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "the Lessons of Long-Term Capital Management (1999) US Senate PSI, JPMorgan Chase",
+   "pos_antes": [
+    4494,
+    4497
+   ],
+   "id": 58
+  },
+  {
+   "classe": "legenda",
+   "natureza": "layout-substack",
+   "antes": "Ilustração: um radar de velocidade mede o intervalo entre dois sensores numa rodovia; a estrada segue contínua até o ponto onde o traçado se rompe em um salto — a mesma leitura do radar, agora sem sentido",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 31,
+   "bloco_depois": 29,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "que a conta foi aplicada. [[…]] ⟦HR⟧ 3. Black–Scholes: o",
+   "pos_antes": [
+    1256,
+    1257
+   ],
+   "id": 59
+  },
+  {
+   "classe": "tipografia_aspas",
+   "natureza": "layout-substack",
+   "antes": "",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": null,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "",
+   "ocorrencias": 62,
+   "id": 60
+  },
+  {
+   "id": 61,
+   "classe": "subtitulo_post",
+   "natureza": "estilo",
+   "antes": "Por que o descolamento entre modelo e realidade é esperado — e por que entender isso separa um bom modelador de um extremista frustrado",
+   "depois": "Por que o descolamento entre modelo e realidade é esperado.",
+   "palavras_antes": 24,
+   "palavras_depois": 10,
+   "bloco_antes": null,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": ""
+  }
+ ]
+}

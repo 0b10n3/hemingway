@@ -1,0 +1,725 @@
+{
+  "arquivo": "estilo/corpus/publicados/reservas-de-emergencia.md",
+  "genero": "substack",
+  "palavras": 973,
+  "eixos": {
+    "lexico": [
+      {
+        "traco": "Repete a palavra-tema sem buscar sinônimo: 'emergência(s)' aparece cerca de 28 vezes em 973 palavras, até três vezes numa mesma frase.",
+        "frequencia": "sempre",
+        "ocorrencias": 28,
+        "evidencias": [
+          "mais apto a lidar com as emergências, mas não necessariamente pronto para arcar com toda e qualquer emergência.",
+          "Mas como exemplo, imagine que você precise ajudar sua mãe, ou pai, com uma cirurgia de emergência."
+        ]
+      },
+      {
+        "traco": "Campo semântico de finanças pessoais e proteção, em nível técnico leve: reserva, seguros, franquias, carteira, alocação, liquidez, renda variável, títulos do tesouro, CDB.",
+        "frequencia": "frequente",
+        "ocorrencias": 20,
+        "evidencias": [
+          "Ativos que compõem uma carteira de reserva de emergência devem ser de baixo risco.",
+          "Não pretendo escrever uma recomendação de alocação dos valores que você irá dedicar a sua reserva de proteção.",
+          "Franquias podem ser pagas com a reserva de emergência, mas o seguro mitiga a maior parte dos custos."
+        ]
+      },
+      {
+        "traco": "Explica alguns termos técnicos (CDB por glosa entre parênteses, liquidez pela função) e pressupõe outros (renda variável, títulos do tesouro, franquias) sem definir.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "CDB’s (títulos com fundo garantidor de crédito)",
+          "precisam ter a possibilidade de serem resgatados rapidamente para que você os utilize na emergência!"
+        ],
+        "contraexemplo": "Aqui você não lerá coisas do tipo “... colocar parte da reserva de emergência em renda variável….”"
+      },
+      {
+        "traco": "Repete o mesmo adjetivo ou verbo de reforço em curto espaço: 'essencial/essenciais' 5x, 'mitigar' e derivados 5x, 'imediato' 3x no texto próprio, 'inesperado' 3x.",
+        "frequencia": "frequente",
+        "ocorrencias": 16,
+        "evidencias": [
+          "Acho essencial dizer que muitas situações tidas como emergências poderiam (podem!) ser mitigadas com o uso de seguros.",
+          "Outra característica essencial é a liquidez.",
+          "Seguros específicos para doenças graves ou acidentes podem mitigar os custos associados a esses eventos"
+        ]
+      },
+      {
+        "traco": "Registro médio-formal ('carece de', 'na medida em que se encaixe') salpicado de marcas coloquiais ('a tal', 'coisas do tipo', 'bordão').",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "uma emergência que carece de uma “reserva”",
+          "amenizadas com a tal “Reserva de Emergência”",
+          "Aqui você não lerá coisas do tipo"
+        ]
+      },
+      {
+        "traco": "Nenhum anglicismo; até a máxima corrente é citada em português.",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": [
+          "gostaria de lembrar o bordão: “Feito é melhor do que perfeito.”"
+        ]
+      },
+      {
+        "traco": "Deslizes normativos pontuais: regência cruzada 'entre 6 a 12' e plural de sigla oscilando entre 'CDB’s' e 'CDBs'.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "costuma ficar entre 6 a 12 meses.",
+          "e CDB’s (títulos com fundo garantidor de crédito)"
+        ],
+        "contraexemplo": "No caso dos CDBs, a busca deve ser por aqueles com liquidez diária."
+      }
+    ],
+    "sintaxe": [
+      {
+        "traco": "Na prosa corrida (fora das listas), frase média de cerca de 16 palavras (41 frases, de 1 a 37), com variação alta; os itens de lista são mais longos e homogêneos (cerca de 20 a 30 palavras).",
+        "frequencia": "frequente",
+        "ocorrencias": 41,
+        "evidencias": [
+          "Uma vez que a maioria dos materiais parecem ter em mente a situação de perda do emprego/renda, é comum ouvirmos a recomendação",
+          "Obviamente, não."
+        ]
+      },
+      {
+        "traco": "Frase curtíssima como ênfase, logo depois de uma pergunta ou de uma conquista do leitor.",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Conseguiu o equivalente a um mês de seus principais gastos como reserva? Parabéns!",
+          "Obviamente, não.",
+          "Outra característica essencial é a liquidez."
+        ]
+      },
+      {
+        "traco": "Oração subordinada (causal, concessiva, temporal, proporcional) anteposta à principal.",
+        "frequencia": "frequente",
+        "ocorrencias": 7,
+        "evidencias": [
+          "Uma vez que a maioria dos materiais parecem ter em mente a situação de perda do emprego/renda",
+          "Embora nunca possamos prever todas as emergências que podem surgir, estar preparado para elas pode minimizar significativamente seu impacto.",
+          "Na medida em que se encaixe nos orçamentos, seguros como os de saúde, de automóvel e residencial podem resolver"
+        ]
+      },
+      {
+        "traco": "Abre frase com advérbio ou conector seguido de vírgula ('Hoje,', 'Certamente,', 'Afinal,', 'Obviamente,', 'Agora pense,').",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "Certamente, a perda de sua principal (ou única) fonte de renda se encaixa como uma emergência.",
+          "Afinal, mesmo após a perda do emprego, você continuará necessitando de meios para pagar suas necessidades básicas.",
+          "Agora pense, seriam seis meses de gastos essenciais um valor que cobriria qualquer emergência?"
+        ]
+      },
+      {
+        "traco": "'Mas' em início de frase para virar ou restringir o argumento.",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Mas existem outras situações que poderiam ser amenizadas com a tal “Reserva de Emergência”.",
+          "Mas como exemplo, imagine que você precise ajudar sua mãe, ou pai, com uma cirurgia de emergência.",
+          "Mas posso deixar alguns pontos a serem observados."
+        ]
+      },
+      {
+        "traco": "Oração reduzida de gerúndio no fim da frase para dizer a consequência, concentrada nos itens de lista.",
+        "frequencia": "frequente",
+        "ocorrencias": 7,
+        "evidencias": [
+          "como tratamentos específicos, medicamentos caros ou franquias/participações, exigindo o uso da reserva.",
+          "eventos como incêndios, desastres naturais ou roubo, mitigando grandes despesas de consertos.",
+          "Comece com pequenos passos, garantindo que, a cada mês, você esteja mais preparado do que no mês anterior."
+        ]
+      },
+      {
+        "traco": "Frase nominal sem verbo principal, como complemento da frase anterior ou abrindo item de lista.",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Algo como títulos do tesouro de vencimento em curto prazo (um ano ou menos) e CDB’s (títulos com fundo garantidor de crédito).",
+          "**Despesas com veículos:** Custos inesperados com consertos que não estão cobertos pelo seguro",
+          "**Ajuda familiar emergencial:** Situações em que um parente ou ente querido precisa de suporte financeiro imediato"
+        ]
+      },
+      {
+        "traco": "Inciso concessivo intercalado cujo sujeito oculto (o autor) não coincide com o sujeito da principal ('Esse número').",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Esse número, embora não tenha identificado sua origem, parece ser ancorado no prazo médio de recolocação de um profissional."
+        ]
+      }
+    ],
+    "pontuacao": [
+      {
+        "traco": "Dois-pontos como articulador para anunciar o tema, uma definição, exemplos ou uma máxima (4 na prosa, mais 10 nos rótulos de lista).",
+        "frequencia": "frequente",
+        "ocorrencias": 14,
+        "evidencias": [
+          "o próximo passo na sua lista de objetivos financeiros: formar uma reserva de emergência.",
+          "O Dicionário Aurélio define \"emergência\" como:",
+          "gostaria de lembrar o bordão: “Feito é melhor do que perfeito.”"
+        ]
+      },
+      {
+        "traco": "Parênteses para inciso curto: alternativa, exemplo, quantificação, glosa ou autocorreção enfática.",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "a perda de sua principal (ou única) fonte de renda",
+          "poderiam (podem!) ser mitigadas com o uso de seguros.",
+          "títulos do tesouro de vencimento em curto prazo (um ano ou menos)"
+        ]
+      },
+      {
+        "traco": "Travessão nunca aparece na prosa; o único é o da atribuição da epígrafe.",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": [
+          "**\"A preparação é a chave para o sucesso.\"** — Alexander Graham Bell"
+        ]
+      },
+      {
+        "traco": "Ponto e vírgula ausente da prosa do autor; só aparece nas definições citadas do dicionário.",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": [
+          "Acontecimento imprevisto ou perigoso; situação crítica que exige providências imediatas."
+        ]
+      },
+      {
+        "traco": "Exclamação para encorajar ou enfatizar, inclusive dentro de parêntese.",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Parabéns!",
+          "poderiam (podem!) ser mitigadas",
+          "para que você os utilize na emergência!"
+        ]
+      },
+      {
+        "traco": "Barra como alternativa compacta entre dois termos.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "medicamentos caros ou franquias/participações",
+          "a situação de perda do emprego/renda"
+        ]
+      },
+      {
+        "traco": "Aspas para menção de termo, distanciamento irônico ('a tal'), máxima e citação simulada; mistura aspas tipográficas (4 pares) com retas (2 pares: na epígrafe e na palavra 'emergência' do dicionário).",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "uma emergência que carece de uma “reserva”.",
+          "amenizadas com a tal “Reserva de Emergência”.",
+          "O Dicionário Aurélio define \"emergência\" como:"
+        ],
+        "contraexemplo": "Necessidade urgente de atenção ou ação."
+      },
+      {
+        "traco": "Reticências só dentro de citação simulada, abrindo com três pontos e fechando com o caractere de reticências seguido de ponto.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "coisas do tipo “... colocar parte da reserva de emergência em renda variável….”"
+        ]
+      },
+      {
+        "traco": "Parágrafos de 1 a 5 frases; o parágrafo de uma frase serve de transição ou de conclusão parcial.",
+        "frequencia": "frequente",
+        "ocorrencias": 18,
+        "evidencias": [
+          "Os dois últimos conceitos parecem mais próximos da ideia de uma emergência que carece de uma “reserva”."
+        ]
+      },
+      {
+        "traco": "O argumento fica na prosa e as listas com marcador fazem o inventário de casos (2 listas de 5 itens).",
+        "frequencia": "frequente",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Mas existem outras situações que poderiam ser amenizadas com a tal “Reserva de Emergência”. Por exemplo:"
+        ],
+        "contraexemplo": "podem resolver várias das pequenas situações imprevistas que temos."
+      }
+    ],
+    "arquitetura": [
+      {
+        "traco": "Abre com epígrafe (citação célebre em pullquote) e imagem; o primeiro parágrafo liga ao post anterior da série e anuncia o tema em primeira pessoa.",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": [
+          "[[PULLQUOTE: **\"A preparação é a chave para o sucesso.\"** — Alexander Graham Bell]]",
+          "No texto anterior, falamos sobre como quitar as dívidas deve ser um bom objetivo inicial",
+          "Hoje, quero abordar um objetivo que acredito ser o próximo passo na sua lista de objetivos financeiros"
+        ]
+      },
+      {
+        "traco": "Delimita o conceito por definição de dicionário antes de discuti-lo e escolhe quais acepções valem.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "O Dicionário Aurélio define \"emergência\" como:",
+          "Os dois últimos conceitos parecem mais próximos da ideia de uma emergência"
+        ]
+      },
+      {
+        "traco": "Sustenta o texto com uma sequência de perguntas práticas (o que é, quanto guardar, como mitigar, onde deixar), uma por subtítulo.",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "## Qual o Tamanho da Reserva?",
+          "## Emergências Mitigadas",
+          "## Onde Deixar a Reserva de Emergência?"
+        ]
+      },
+      {
+        "traco": "Parte do consenso corrente (desemprego, regra dos seis meses) para ampliá-lo ou relativizá-lo.",
+        "frequencia": "frequente",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Em boa parte do material que lemos e assistimos sobre reservas de emergência, percebemos um enfoque na situação de desemprego.",
+          "seriam seis meses de gastos essenciais um valor que cobriria qualquer emergência? Obviamente, não."
+        ]
+      },
+      {
+        "traco": "O conceito ou a regra vem antes do exemplo; o exemplo entra por 'Por exemplo:' ou por um hipotético com 'imagine'.",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Mas como exemplo, imagine que você precise ajudar sua mãe, ou pai, com uma cirurgia de emergência.",
+          "Mas existem outras situações que poderiam ser amenizadas com a tal “Reserva de Emergência”. Por exemplo:"
+        ]
+      },
+      {
+        "traco": "Sinaliza o percurso com metadiscurso em primeira pessoa, incluindo uma digressão declarada que interrompe a sequência para encorajar.",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "Antes de falar sobre a reserva de emergência, acredito que seja um exercício interessante refletir um pouco",
+          "Antes de prosseguir, gostaria de lembrar o bordão",
+          "Mas posso deixar alguns pontos a serem observados."
+        ]
+      },
+      {
+        "traco": "Fecha com o subtítulo literal 'Conclusão': parágrafo-resumo genérico e imperativo final que retoma o motivo da preparação incremental (epígrafe; 'mais preparado do que estava ontem').",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Formar uma reserva de emergência é um passo fundamental na construção de uma vida financeira saudável e estável.",
+          "Comece com pequenos passos, garantindo que, a cada mês, você esteja mais preparado do que no mês anterior.",
+          "Você está mais preparado para lidar com as emergências do que estava ontem."
+        ]
+      },
+      {
+        "traco": "Subtítulos densos: 5 H2 em 973 palavras (cerca de um a cada 190 palavras), seções de 1 a 4 parágrafos, mais lista quando houver.",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "## Emergências",
+          "## Conclusão"
+        ]
+      }
+    ],
+    "figuras": [
+      {
+        "traco": "Metáfora de percurso por etapas (passo, próximo nível, pequenos passos) para o progresso financeiro; pouco estendida e retomada no fecho.",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "o próximo passo na sua lista de objetivos financeiros",
+          "Estará também preparado para buscar um próximo nível em suas reservas.",
+          "Comece com pequenos passos"
+        ]
+      },
+      {
+        "traco": "Prefere exemplo concreto do cotidiano doméstico e familiar a analogia; não há analogia estendida no texto.",
+        "frequencia": "evita",
+        "ocorrencias": 0,
+        "evidencias": [
+          "quebra de equipamentos essenciais (geladeira, fogão) ou problemas elétricos podem exigir um desembolso imediato.",
+          "imagine que você precise ajudar sua mãe, ou pai, com uma cirurgia de emergência."
+        ]
+      },
+      {
+        "traco": "Delega a imagem de abertura a uma citação célebre de terceiro ('chave') em vez de criar figura própria.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "**\"A preparação é a chave para o sucesso.\"** — Alexander Graham Bell"
+        ]
+      },
+      {
+        "traco": "Metáfora lexicalizada de ancoragem para explicar a origem de uma regra prática.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "parece ser ancorado no prazo médio de recolocação de um profissional."
+        ]
+      }
+    ],
+    "postura": [
+      {
+        "traco": "Primeira pessoa do singular para opinião, intenção e metadiscurso.",
+        "frequencia": "frequente",
+        "ocorrencias": 8,
+        "evidencias": [
+          "Acho essencial dizer que muitas situações tidas como emergências poderiam (podem!) ser mitigadas",
+          "Não pretendo escrever uma recomendação de alocação",
+          "gostaria de lembrar o bordão"
+        ]
+      },
+      {
+        "traco": "Primeira pessoa do plural inclusiva (autor e leitor como consumidores de conteúdo e sujeitos de imprevistos).",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "Em boa parte do material que lemos e assistimos sobre reservas de emergência, percebemos um enfoque",
+          "várias das pequenas situações imprevistas que temos.",
+          "Embora nunca possamos prever todas as emergências que podem surgir"
+        ]
+      },
+      {
+        "traco": "Modaliza com 'acredito' e 'parece(m)' e admite abertamente não saber a origem de uma regra corrente.",
+        "frequencia": "frequente",
+        "ocorrencias": 7,
+        "evidencias": [
+          "Esse número, embora não tenha identificado sua origem, parece ser ancorado no prazo médio de recolocação",
+          "acredito que seja um exercício interessante refletir um pouco sobre o que seriam emergências.",
+          "Os dois últimos conceitos parecem mais próximos da ideia de uma emergência"
+        ]
+      },
+      {
+        "traco": "Ao lado dos atenuadores, usa marcadores assertivos curtos.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Certamente, a perda de sua principal (ou única) fonte de renda se encaixa como uma emergência.",
+          "Obviamente, não."
+        ]
+      },
+      {
+        "traco": "Tom encorajador e incrementalista: celebra o progresso parcial e prega começar pequeno.",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Parabéns! Você está mais preparado para lidar com as emergências do que estava ontem.",
+          "“Feito é melhor do que perfeito.”",
+          "Comece com pequenos passos"
+        ]
+      },
+      {
+        "traco": "Recusa recomendação de alocação, justifica pela heterogeneidade dos leitores e oferece critérios no lugar.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Não pretendo escrever uma recomendação de alocação dos valores que você irá dedicar a sua reserva de proteção.",
+          "Nenhuma alocação recomendada aqui atenderia a todos.",
+          "Mas posso deixar alguns pontos a serem observados."
+        ]
+      },
+      {
+        "traco": "Discordância difusa e sem alvo nomeado: contrapõe-se ao 'material' genérico do mercado, com ironia leve.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Em boa parte do material que lemos e assistimos sobre reservas de emergência, percebemos um enfoque na situação de desemprego.",
+          "Aqui você não lerá coisas do tipo “... colocar parte da reserva de emergência em renda variável….”"
+        ]
+      },
+      {
+        "traco": "Reconhece o limite da própria solução: a reserva não cobre tudo.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "mais apto a lidar com as emergências, mas não necessariamente pronto para arcar com toda e qualquer emergência."
+        ]
+      },
+      {
+        "traco": "Autoridade emprestada de obra de referência e de citação célebre; nenhuma credencial declarada nem experiência pessoal narrada.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "O Dicionário Aurélio define \"emergência\" como:",
+          "— Alexander Graham Bell"
+        ]
+      },
+      {
+        "traco": "Humor quase ausente; o único lampejo lúdico é a autocorreção entre parênteses.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "poderiam (podem!) ser mitigadas com o uso de seguros."
+        ]
+      }
+    ],
+    "leitor": [
+      {
+        "traco": "Pressupõe um iniciante em finanças pessoais que acompanha uma série de objetivos (quitar dívidas, depois reserva); remete ao post anterior sem link.",
+        "frequencia": "frequente",
+        "ocorrencias": 2,
+        "evidencias": [
+          "No texto anterior, falamos sobre como quitar as dívidas deve ser um bom objetivo inicial",
+          "Comece a ter algum dinheiro separado para emergências."
+        ]
+      },
+      {
+        "traco": "Trata o leitor por 'você', direto e no singular.",
+        "frequencia": "frequente",
+        "ocorrencias": 10,
+        "evidencias": [
+          "Afinal, mesmo após a perda do emprego, você continuará necessitando de meios para pagar suas necessidades básicas.",
+          "Aqui você não lerá coisas do tipo"
+        ]
+      },
+      {
+        "traco": "Pergunta retórica respondida na sequência imediata, curta.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Conseguiu o equivalente a um mês de seus principais gastos como reserva? Parabéns!",
+          "seriam seis meses de gastos essenciais um valor que cobriria qualquer emergência? Obviamente, não."
+        ]
+      },
+      {
+        "traco": "Imperativos de ação ('Comece') e de hipótese ('pense', 'imagine').",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "Comece a ter algum dinheiro separado para emergências.",
+          "Agora pense, seriam seis meses de gastos essenciais",
+          "imagine que você precise ajudar sua mãe, ou pai"
+        ]
+      },
+      {
+        "traco": "Introduz o desconhecido por definição de dicionário, glosa entre parênteses ou glosa funcional.",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "O Dicionário Aurélio define \"emergência\" como:",
+          "CDB’s (títulos com fundo garantidor de crédito)",
+          "precisam ter a possibilidade de serem resgatados rapidamente"
+        ]
+      },
+      {
+        "traco": "Nenhuma chamada para assinatura ou compartilhamento (nem botão, nem link); a única chamada é comportamental: começar a poupar.",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": [
+          "Comece com pequenos passos, garantindo que, a cada mês, você esteja mais preparado do que no mês anterior."
+        ]
+      }
+    ],
+    "tecnico": [
+      {
+        "traco": "Sem notação, fórmula, tabela ou gráfico; as quantidades ficam em prosa.",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": [
+          "uma reserva que cubra seus custos essenciais por cerca de seis meses.",
+          "o tempo médio de recolocação costuma ficar entre 6 a 12 meses."
+        ]
+      },
+      {
+        "traco": "Dá dado numérico sem fonte nem data ('em tempos normais') e admite não ter achado a origem da regra dos seis meses.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "No Brasil, em tempos normais, o tempo médio de recolocação costuma ficar entre 6 a 12 meses.",
+          "Esse número, embora não tenha identificado sua origem"
+        ]
+      },
+      {
+        "traco": "Numerais por extenso para quantidades pequenas e algarismos no intervalo.",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": [
+          "por cerca de seis meses",
+          "entre 6 a 12 meses",
+          "(um ano ou menos)"
+        ]
+      },
+      {
+        "traco": "Cita instituições e mecanismos regulatórios genericamente, em minúscula, sem nome próprio, valor-limite ou link.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "títulos do tesouro de vencimento em curto prazo",
+          "CDB’s (títulos com fundo garantidor de crédito)"
+        ]
+      },
+      {
+        "traco": "Indica critérios de seleção de ativo (baixo risco, liquidez, liquidez diária) em vez de produto ou percentual de alocação.",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Ativos que compõem uma carteira de reserva de emergência devem ser de baixo risco.",
+          "Outra característica essencial é a liquidez.",
+          "No caso dos CDBs, a busca deve ser por aqueles com liquidez diária."
+        ]
+      },
+      {
+        "traco": "Fontes de referência nomeadas sem edição nem localização: dicionário citado pelo nome, epígrafe atribuída sem fonte.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "O Dicionário Aurélio define \"emergência\" como:",
+          "— Alexander Graham Bell"
+        ]
+      }
+    ],
+    "formatacao": [
+      {
+        "traco": "Negrito só nos rótulos de lista (10 de 10 itens) e na epígrafe; nunca na prosa corrida, nem para conceito-chave.",
+        "frequencia": "sempre",
+        "ocorrencias": 11,
+        "evidencias": [
+          "**Despesas médicas inesperadas:** Mesmo com seguro de saúde, certos custos podem não estar totalmente cobertos",
+          "**Morte ou invalidez do principal provedor de renda:** Um seguro de vida pode fornecer suporte financeiro",
+          "[[PULLQUOTE: **\"A preparação é a chave para o sucesso.\"** — Alexander Graham Bell]]"
+        ],
+        "contraexemplo": "Outra característica essencial é a liquidez."
+      },
+      {
+        "traco": "Rótulo de lista padronizado: substantivo com qualificador, dois-pontos dentro do negrito, frase seguinte com maiúscula.",
+        "frequencia": "sempre",
+        "ocorrencias": 10,
+        "evidencias": [
+          "**Reparos emergenciais na casa:** Danos repentinos como vazamentos",
+          "**Danos à propriedade:** Um seguro residencial cobre reparos em casa"
+        ]
+      },
+      {
+        "traco": "Itálico ausente: nem as definições citadas, nem a máxima, nem termo em menção recebem itálico.",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": [
+          "Necessidade urgente de atenção ou ação.",
+          "o bordão: “Feito é melhor do que perfeito.”"
+        ]
+      },
+      {
+        "traco": "Citação longa (três acepções do Aurélio) em parágrafos soltos, sem citação em bloco, sem aspas e sem itálico.",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Ato ou efeito de emergir; o que emerge, surge, aparece subitamente."
+        ]
+      },
+      {
+        "traco": "Um único pullquote, usado como epígrafe de abertura: citação de terceiro em negrito, entre aspas retas, atribuída com travessão.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "[[PULLQUOTE: **\"A preparação é a chave para o sucesso.\"** — Alexander Graham Bell]]"
+        ]
+      },
+      {
+        "traco": "Uma única imagem, sem legenda, entre a epígrafe e o primeiro parágrafo.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "![](img-01)"
+        ]
+      },
+      {
+        "traco": "Título e subtítulos em Title Case, só no nível H2; 2 dos 5 subtítulos são interrogativos; o último é o literal 'Conclusão'.",
+        "frequencia": "sempre",
+        "ocorrencias": 5,
+        "evidencias": [
+          "## Qual o Tamanho da Reserva?",
+          "## Emergências Mitigadas",
+          "## Conclusão"
+        ]
+      },
+      {
+        "traco": "Mistura aspas tipográficas (“ ”) com aspas retas (\" \") no mesmo post; o apóstrofo é tipográfico.",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "a tal “Reserva de Emergência”",
+          "O Dicionário Aurélio define \"emergência\" como:",
+          "CDB’s"
+        ]
+      },
+      {
+        "traco": "Blocos curtos: parágrafos de 1 a 5 frases (cerca de 20 a 90 palavras); itens de lista de 1 a 2 frases.",
+        "frequencia": "frequente",
+        "ocorrencias": 18,
+        "evidencias": [
+          "Outra característica essencial é a liquidez. Instrumentos nessa carteira precisam ter a possibilidade de serem resgatados rapidamente"
+        ]
+      },
+      {
+        "traco": "Sem link, botão de CTA, código, riscado ou fórmula, nem mesmo na referência ao post anterior.",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": [
+          "No texto anterior, falamos sobre como quitar as dívidas"
+        ]
+      }
+    ]
+  },
+  "antipadroes_observados": [
+    {
+      "tipo": "nunca_no_arquivo",
+      "descricao": "Travessão como inciso na prosa (o único travessão é o da atribuição da epígrafe); o autor usa parênteses no lugar.",
+      "evidencias": ["a perda de sua principal (ou única) fonte de renda"]
+    },
+    {
+      "tipo": "nunca_no_arquivo",
+      "descricao": "Ponto e vírgula na prosa própria (só nas definições citadas do dicionário)."
+    },
+    {
+      "tipo": "nunca_no_arquivo",
+      "descricao": "Itálico, link, botão de CTA, fórmula, tabela, gráfico de dados, código, riscado, subtítulo H3."
+    },
+    {
+      "tipo": "nunca_no_arquivo",
+      "descricao": "Negrito em prosa corrida; o negrito só aparece em rótulo de lista e na epígrafe."
+    },
+    {
+      "tipo": "nunca_no_arquivo",
+      "descricao": "Anglicismo."
+    },
+    {
+      "tipo": "nunca_no_arquivo",
+      "descricao": "Anedota ou cena pessoal narrada; a única concretização é um hipotético na segunda pessoa.",
+      "evidencias": ["imagine que você precise ajudar sua mãe, ou pai, com uma cirurgia de emergência."]
+    },
+    {
+      "tipo": "nunca_no_arquivo",
+      "descricao": "Fonte citada para dado numérico ou estatística."
+    },
+    {
+      "tipo": "tique_ia_ptbr",
+      "descricao": "Listas de 5 itens com rótulo em negrito e dois-pontos, paralelismo rígido e comprimento homogêneo, com cada item fechando numa reduzida de gerúndio de consequência.",
+      "evidencias": [
+        "reduzindo a necessidade de sacar da reserva de emergência.",
+        "ajudando a substituir a renda e evitando o uso imediato da reserva de emergência.",
+        "como tratamento e adaptação da residência, reduzindo o impacto financeiro."
+      ]
+    },
+    {
+      "tipo": "tique_ia_ptbr",
+      "descricao": "Enumeração genérica de fatores condicionantes, sem dado nem fonte.",
+      "evidencias": [
+        "pode variar bastante dependendo de fatores como o setor de atuação, o nível de qualificação, o contexto econômico e a região."
+      ]
+    },
+    {
+      "tipo": "tique_ia_ptbr",
+      "descricao": "Conclusão-resumo sob '## Conclusão' com fórmulas genéricas (passo fundamental, vida financeira saudável e estável, minimizar significativamente).",
+      "evidencias": [
+        "é um passo fundamental na construção de uma vida financeira saudável e estável.",
+        "estar preparado para elas pode minimizar significativamente seu impacto."
+      ]
+    },
+    {
+      "tipo": "tique_ia_ptbr",
+      "descricao": "Contraste de registro: as listas, o parágrafo de fatores de recolocação e a conclusão são impessoais e homogêneos, enquanto a prosa em volta tem primeira pessoa, parênteses, exclamações e deslizes normativos. O post é pre-pipeline, então isto é só uma observação de superfície, não uma conclusão sobre a proveniência."
+    }
+  ],
+  "incerteza": "Texto curto (973 palavras), bem abaixo do piso de ~5.000 palavras por amostra: as contagens de frequência são frágeis e a média de frase (cerca de 16 palavras, só na prosa corrida, contagem automática aproximada) não deve virar limiar. Post pre-pipeline de 2024, sem seção editorial (section_name null): não dá para separar a voz da linha Spoiler da linha Notas de um Professor. Os trechos que lembram texto gerado (listas com gerúndio final, conclusão genérica) podem ser do autor ou ter vindo de assistência externa; o arquivo não permite decidir. A mistura de aspas retas e tipográficas pode ser artefato do editor do Substack ou da captura, e não escolha do autor. A imagem img-01 não tem legenda nem descrição, então não dá para avaliar sua função. Sem fórmula, tabela nem citação normativa explícita, o eixo técnico fica pouco informativo sobre notação. O post anterior da série não foi lido, então não dá para confirmar se a abertura de continuidade é um padrão."
+}

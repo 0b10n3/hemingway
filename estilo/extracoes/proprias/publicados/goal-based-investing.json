@@ -1,0 +1,559 @@
+{
+  "arquivo": "estilo/corpus/publicados/goal-based-investing.md",
+  "genero": "substack",
+  "palavras": 1623,
+  "eixos": {
+    "lexico": [
+      {
+        "traco": "Anglicismos de finanças mantidos em inglês e em itálico, muitas vezes ao lado do equivalente em português entre parênteses (português primeiro, inglês depois).",
+        "frequencia": "frequente",
+        "ocorrencias": 9,
+        "evidencias": [
+          "Já o conceito de Contabilidade Mental (*Mental Accounting*), desenvolvido por Richard Thaler",
+          "organizando o patrimônio em *buckets* com diferentes níveis de prioridade e horizontes temporais",
+          "Através do uso de algoritmos e da integração, via *Open Finance*, as instituições podem aplicar"
+        ],
+        "contraexemplo": "abrir caminho para apresentar alguns dos frameworks que implementam essa metodologia."
+      },
+      {
+        "traco": "Sigla introduzida uma vez com nome completo e depois usada como substantivo próprio ao longo do texto (GBI).",
+        "frequencia": "sempre",
+        "ocorrencias": 14,
+        "evidencias": [
+          "**Investimentos Baseados em Objetivos** (***Goal Based Investing*** **- GBI**)",
+          "O GBI não é uma invenção isolada, mas um capítulo avançado de uma construção intelectual"
+        ]
+      },
+      {
+        "traco": "Conceito técnico glosado em parênteses curtos logo após o termo (definição-relâmpago, não parágrafo explicativo).",
+        "frequencia": "frequente",
+        "ocorrencias": 7,
+        "evidencias": [
+          "depende do que ele pode fazer pelo indivíduo (utilidade).",
+          "o princípio econômico clássico da fungibilidade (a ideia de que um dólar é igual a qualquer outro dólar)",
+          "compram tanto bilhetes de loteria (busca por risco) quanto seguros de vida (aversão ao risco)."
+        ],
+        "contraexemplo": "a probabilidade de falhar na meta de cada camada, não a volatilidade da carteira total."
+      },
+      {
+        "traco": "Campo semântico recorrente de recipientes para o patrimônio: baldes, contas, camadas, módulos, compartimentos, subportfólios.",
+        "frequencia": "frequente",
+        "ocorrencias": 10,
+        "evidencias": [
+          "nossa mente não é um bloco único, mas uma coleção de ‘baldes’ com regras próprias.",
+          "subdividem sua riqueza em diferentes “contas” ou “baldes” mentais.",
+          "monitorando continuamente se o “balde” de segurança está devidamente protegido"
+        ]
+      },
+      {
+        "traco": "Oscilação de registro: coloquialismo de conversa ('o sujeito', 'te empurrar', 'joga o que sobrou no bolso') convivendo com vocabulário acadêmico denso.",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "Como explicar o sujeito que protege o patrimônio da família com um seguro de vida",
+          "mesmo quando o mercado tenta te empurrar para fora da estrada",
+          "descreve o conjunto de operações cognitivas pelo qual as pessoas organizam, avaliam e subdividem sua riqueza"
+        ]
+      },
+      {
+        "traco": "Maiúscula inicial em nomes de conceitos e teorias, aplicada de forma inconsistente.",
+        "frequencia": "frequente",
+        "ocorrencias": 8,
+        "evidencias": [
+          "começamos a compreender melhor temas como a Contabilidade Mental.",
+          "A Hiperpersonalização em finanças pode ser vista como uma evolução da visão de segmentos",
+          "integrando assim elementos da Teoria Moderna de Portfólio com as realidades da Finança Comportamental."
+        ],
+        "contraexemplo": "levando em consideração a contabilidade mental — o *Behavioral Portfolio Theory* [BPT]."
+      },
+      {
+        "traco": "Adjetivos e locuções valorativas de intensidade ('imprescindível', 'precisão cirúrgica', 'excelente', 'muito importante').",
+        "frequencia": "ocasional",
+        "ocorrencias": 5,
+        "evidencias": [
+          "o GBI se torna uma ferramenta imprescindível para a locação moderna de portfólios.",
+          "com uma precisão cirúrgica, monitorando continuamente",
+          "fica como dica o excelente debate entre Thaler (Finanças Comportamentais) e Eugene Fama"
+        ]
+      }
+    ],
+    "sintaxe": [
+      {
+        "traco": "Frases curtas ou fragmentos sem verbo principal como ritmo e ênfase, concentrados na abertura narrativa e nas viradas.",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "Viagem longa, um pouco mais de 1200 km, entre ida e volta.",
+          "Incluindo uma travessia do Rio Tietê.",
+          "Um estado vizinho, mas com muita coisa diferente."
+        ]
+      },
+      {
+        "traco": "Forte variação de comprimento: frases curtas na narrativa pessoal, frases longas (40-60 palavras) com subordinação e encaixes na exposição conceitual.",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "Essa separação explica por que os indivíduos exibem tolerâncias ao risco e preferências de retorno variadas dentro do mesmo patrimônio, sendo capazes de agir",
+          "Por lá é comum ver araras voando pela cidade."
+        ]
+      },
+      {
+        "traco": "Construção contrastiva 'não X, mas Y' para apresentar conceito por negação do senso comum.",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "o valor do dinheiro não é absoluto, mas depende do que ele pode fazer pelo indivíduo",
+          "não se trata apenas de colocar o nome do cliente no e-mail, mas de entender o contexto dele",
+          "A pergunta que sobra não é mais se você deve investir, mas para *quê* você está investindo."
+        ]
+      },
+      {
+        "traco": "Orações reduzidas de gerúndio encadeadas no fim da frase para acrescentar consequência ('garantindo que', 'ajustando', 'tornando').",
+        "frequencia": "frequente",
+        "ocorrencias": 12,
+        "evidencias": [
+          "ajustando a alocação de cada subportfólio para garantir que a probabilidade de atingir cada meta específica seja sempre maximizada.",
+          "tirando o peso de ativos de risco e reforçando o caixa de segurança, garantindo que a probabilidade de sobrevivência"
+        ]
+      },
+      {
+        "traco": "Clivadas 'É ... que' para pôr em foco o marco ou o contexto da frase.",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "Mas é em 2010 que um artigo de coautoria do própio Markowitz lança bases mais sólidas",
+          "É nesse contexto que o GBI se torna uma ferramenta imprescindível",
+          "Mas é com os trabalhos de Kahneman, Tversky e Thaler"
+        ]
+      },
+      {
+        "traco": "Inciso intercalado entre hífens ou travessões no meio da oração principal.",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "algumas pessoas - por mais estranho que possa parecer - compram tanto bilhetes de loteria",
+          "Se o GBI fornece a estrutura lógica — organizando o patrimônio em *buckets* com diferentes níveis de prioridade e horizontes temporais — a hiperpersonalização"
+        ]
+      },
+      {
+        "traco": "Adjunto de tempo ou lugar abrindo a frase, sobretudo no trecho histórico, que avança por marcos cronológicos.",
+        "frequencia": "frequente",
+        "ocorrencias": 8,
+        "evidencias": [
+          "Na década de 40, Friedman & Savage observaram que algumas pessoas",
+          "No início dos anos 2000 Hersh Shefrin e Meir Statman apresentam uma primeira formulação teórica",
+          "Neste mesmo período Jean Brunel abordou a formulação de carteiras"
+        ]
+      }
+    ],
+    "pontuacao": [
+      {
+        "traco": "Parágrafos curtos, muitas vezes de uma só frase; quebra de parágrafo a cada virada de ideia.",
+        "frequencia": "sempre",
+        "ocorrencias": 40,
+        "evidencias": [
+          "O tema continuou sendo amplamente estudado no campo das finanças.",
+          "O artigo acaba sendo a principal referência que temos para a implementação desta abordagem."
+        ],
+        "contraexemplo": "O parágrafo sobre Contabilidade Mental (Thaler) passa de 70 palavras em duas frases."
+      },
+      {
+        "traco": "Hífen simples com espaços usado como travessão, coexistindo com o travessão longo (—) na mesma função.",
+        "frequencia": "frequente",
+        "ocorrencias": 13,
+        "evidencias": [
+          "É dessa forma - buscando personalizar um portfólio para cada objetivo do investidor - que o GBI se relaciona",
+          "começou séculos atrás — e, como muita coisa que importa em probabilidade, os Bernoulli estavam presentes",
+          "*The Utility of Wealth* (1952) - **Harry Markowitz**"
+        ]
+      },
+      {
+        "traco": "Aspas tipográficas duplas (“ ”) para rótulos e conceitos citados; aspas simples (‘ ’) aparecem para o mesmo termo em outros pontos.",
+        "frequencia": "frequente",
+        "ocorrencias": 12,
+        "evidencias": [
+          "como “investidor moderado” ou “classe média”",
+          "para o chamado “segmento de um”.",
+          "o seu ‘balde’ de segurança permaneça intocado."
+        ],
+        "contraexemplo": "nossa mente não é um bloco único, mas uma coleção de ‘baldes’ com regras próprias."
+      },
+      {
+        "traco": "Dois-pontos como articulador que anuncia revelação ou definição no fim da frase.",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "se relaciona com um tema atual e muito importante em finanças: a hiperpersonalização.",
+          "Vale o registro: o que escrevo aqui é opinião pessoal.",
+          "podemos rascunhar uma primeira definição para o GBI como:"
+        ]
+      },
+      {
+        "traco": "Enumerações curtas embutidas em parênteses, em vez de listas com marcadores; prosa corrida o tempo todo.",
+        "frequencia": "sempre",
+        "ocorrencias": 3,
+        "evidencias": [
+          "carteiras focadas em “Módulos” (Liquidez, Preservação, Crescimento)",
+          "a alocação de risco (Risco Pessoal, Mercado e Aspiracional) deve anteceder a seleção de ativos."
+        ]
+      },
+      {
+        "traco": "Pergunta e exclamação usadas com parcimônia, como pontuação expressiva.",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Loucura? Para a economia clássica, talvez",
+          "Ambas vencedoras do Prêmio Nobel!"
+        ]
+      },
+      {
+        "traco": "Sigla entre colchetes depois do nome em itálico.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "o *Behavioral Portfolio Theory* [BPT]."
+        ],
+        "contraexemplo": "Inteligência Artificial (IA)"
+      }
+    ],
+    "arquitetura": [
+      {
+        "traco": "Abre com cena pessoal datada (viagem de feriado), cheia de detalhe local e sensorial, antes de qualquer conceito.",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": [
+          "No feriado de Carnaval viajei para a cidade de Três Lagoas no Mato Grosso do Sul para o casamento de um amigo.",
+          "Você está na sua casa e de repente uma arara pousa no coqueiro em frente."
+        ]
+      },
+      {
+        "traco": "Ponte explícita da cena para o tema com frase-dobradiça curta e depois anúncio de pauta da semana.",
+        "frequencia": "sempre",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Nos investimentos também costuma ser assim. Pessoas próximas podem ter características e objetivos distintos.",
+          "Nesta semana vamos aprofundar o tema dos **Investimentos Baseados em Objetivos**"
+        ]
+      },
+      {
+        "traco": "Sustenta com genealogia histórica em ordem cronológica (autor + data), chegando à definição só depois da história.",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": [
+          "**Daniel Bernoulli** (1738) ajudou a popularizar a ideia de que o valor do dinheiro não é absoluto",
+          "História contada e resumida, podemos rascunhar uma primeira definição para o GBI como:"
+        ]
+      },
+      {
+        "traco": "Definição formal em destaque seguida de reformulação informal em uma frase.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "De forma mais informal, **o GBI busca uma hiperpersonalização do portfólio aos objetivos de cada investidor**."
+        ]
+      },
+      {
+        "traco": "Digressão anunciada como tal (dica, vídeo) e retorno sinalizado ao fio principal.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Em tempo, e sem nos desviarmos muito do assunto, fica como dica o excelente debate",
+          "*back on track* …"
+        ]
+      },
+      {
+        "traco": "Fecha retomando as imagens da cena de abertura (divisa de estado, Tereré, araras) e termina anunciando a continuação da série.",
+        "frequencia": "sempre",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Assim como as paisagens mudam ao cruzar a divisa de um estado, a hiperpersonalização garante",
+          "Nas próximas semana vamos discutir alguns casos práticos."
+        ]
+      },
+      {
+        "traco": "Poucos subtítulos (3 H2 em ~1.600 palavras), um deles com trocadilho de atualidade e os outros só como rótulo.",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": [
+          "## Daniel. Bernoulli, não o Vorcaro.",
+          "## Hiperpersonalização",
+          "## Conclusão"
+        ]
+      },
+      {
+        "traco": "Exemplo cotidiano concreto entra depois do achado acadêmico, para ilustrá-lo.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "joga o que sobrou no bolso em uma aposta esportiva? Loucura?"
+        ]
+      }
+    ],
+    "figuras": [
+      {
+        "traco": "Analogia geográfica (estados vizinhos diferentes, como investidores próximos com objetivos distintos) aberta na cena inicial e retomada no fim.",
+        "frequencia": "sempre",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Um estado vizinho, mas com muita coisa diferente.",
+          "tornando a jornada financeira tão única quanto um copo de Tereré sob o voo das araras."
+        ]
+      },
+      {
+        "traco": "Metáfora de navegação e estrada (mapa, motor, rota recalculada) na conclusão, coerente com a viagem de abertura.",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Se o GBI desenha o mapa da sua jornada, a tecnologia é o motor que recalcula a rota em tempo real",
+          "Se a sua prioridade muda abruptamente, o sistema recalcula a rota"
+        ]
+      },
+      {
+        "traco": "Metáfora biológica do portfólio como organismo vivo, repetida.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "deixa de ser um produto estático de prateleira e passa a ser um organismo vivo.",
+          "Ela vira um organismo vivo simbiótico a seus **objetivos**."
+        ]
+      },
+      {
+        "traco": "Metáforas pontuais de domínios variados (fogo, guerra, medicina), sem desenvolvimento.",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Ela pode ser vista como a primeira faísca de uma teoria de utilidade baseada em objetivos.",
+          "Kahneman e Tversky invadiram o campo da economia com a psicologia",
+          "com uma precisão cirúrgica"
+        ]
+      }
+    ],
+    "postura": [
+      {
+        "traco": "Primeira pessoa do singular reservada à vivência pessoal e ao aviso de opinião; a exposição passa para um 'nós' editorial e inclusivo.",
+        "frequencia": "frequente",
+        "ocorrencias": 9,
+        "evidencias": [
+          "No feriado de Carnaval viajei para a cidade de Três Lagoas",
+          "Podemos traçar o surgimento de algumas ideias fundamentais",
+          "O artigo acaba sendo a principal referência que temos para a implementação desta abordagem."
+        ]
+      },
+      {
+        "traco": "Aviso de opinião pessoal e de independência institucional em destaque no topo do post.",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Vale o registro: o que escrevo aqui é opinião pessoal.",
+          "são apenas as minhas deduções sobre como o mecanismo realmente funciona."
+        ]
+      },
+      {
+        "traco": "Humor leve: trocadilho com nome em evidência no noticiário e comentário irônico sobre comportamento.",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "## Daniel. Bernoulli, não o Vorcaro.",
+          "Loucura? Para a economia clássica, talvez",
+          "algumas pessoas - por mais estranho que possa parecer - compram"
+        ]
+      },
+      {
+        "traco": "Autoridade implícita: credencial nenhuma declarada; a autoridade vem de citar autores, datas e obras.",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Das, Markowitz, Scheid e Statman em *Portfolio Optimization with Mental Accounts* apresentam de forma precisa"
+        ]
+      },
+      {
+        "traco": "Discordância acadêmica apresentada como duas visões legítimas, sem tomar partido.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "São duas visões distintas sobre finanças e construção de portfólios. Ambas vencedoras do Prêmio Nobel!"
+        ]
+      },
+      {
+        "traco": "Ressalva provisória ('pode ser vista como', 'primeira definição', 'talvez'), que convive com afirmações absolutas sobre o que a tecnologia garante.",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": [
+          "A Hiperpersonalização em finanças pode ser vista como uma evolução da visão de segmentos",
+          "podemos rascunhar uma primeira definição para o GBI"
+        ],
+        "contraexemplo": "a hiperpersonalização garante que o portfólio reflita exatamente o território individual de cada investidor"
+      }
+    ],
+    "leitor": [
+      {
+        "traco": "Pressupõe leitor com base de mercado (volatilidade, otimização de carteira, Markowitz) mas glosa os conceitos comportamentais.",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "como a probabilidade de falhar na meta de cada camada, não a volatilidade da carteira total.",
+          "**através** de métodos como o de Markowitz."
+        ]
+      },
+      {
+        "traco": "'Você' direto e genérico, com o 'te' coloquial, mais denso na abertura e na conclusão.",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "Você está na sua casa e de repente uma arara pousa no coqueiro em frente.",
+          "mas para *quê* você está investindo.",
+          "mesmo quando o mercado tenta te empurrar para fora da estrada"
+        ]
+      },
+      {
+        "traco": "Pergunta retórica para encenar o paradoxo antes de explicá-lo.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Como explicar o sujeito que protege o patrimônio da família com um seguro de vida enquanto"
+        ]
+      },
+      {
+        "traco": "Evita imperativo; recomendação vem na forma impessoal ('fica como dica').",
+        "frequencia": "evita",
+        "ocorrencias": 1,
+        "evidencias": [
+          "fica como dica o excelente debate entre Thaler (Finanças Comportamentais) e Eugene Fama"
+        ],
+        "contraexemplo": "Vamos levar esse conhecimento mais longe?"
+      },
+      {
+        "traco": "Chamada para ação: botão de compartilhar logo depois da abertura, vídeo recomendado no meio e gancho para a próxima edição da série no fim.",
+        "frequencia": "sempre",
+        "ocorrencias": 3,
+        "evidencias": [
+          "[[CTA: Compartilhar → https://syntaxis.substack.com/p/goal-based-investing?utm_source=substack&utm_medium=email&utm_content=share&action=share",
+          "Entender como O GBI pode ser utilizado em cada um deles e compreender algumas de suas implementações."
+        ]
+      }
+    ],
+    "tecnico": [
+      {
+        "traco": "Nenhuma fórmula nem notação; o objetivo matemático é descrito só em palavras.",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": [
+          "O objetivo matemático do GBI é **maximizar a probabilidade de atingir essas metas**"
+        ]
+      },
+      {
+        "traco": "Referências citadas no corpo do texto (autor, às vezes ano, título em itálico), sem link, sem bibliografia e em ordem variável.",
+        "frequencia": "frequente",
+        "ocorrencias": 7,
+        "evidencias": [
+          "Podemos destacar estudos como o *The Utility of Wealth* (1952) - **Harry Markowitz**",
+          "o trabalho de A. D. Roy - *Safety First and the Holding of Assets*",
+          "Chhabra publica o *Wealth Allocation Framework*"
+        ],
+        "contraexemplo": "principalmente com as ideias apresentadas em A Teoria da Perspectiva"
+      },
+      {
+        "traco": "Definição de trabalho entre aspas em destaque, sem fonte atribuída.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "“O Goal Based Investing é um *framework* de alocação de ativos que precede a seleção de ativos pela **alocação de riscos**"
+        ]
+      },
+      {
+        "traco": "Imagens e vídeo como apoio, sem tabela nem gráfico de dados; legenda descritiva quando existe.",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "![Três Lagoas - Mato Grosso do Sul](img-01)",
+          "![Alguns dos ilustres membros da familia Bernoulli.](img-02)"
+        ],
+        "contraexemplo": "![](img-03)"
+      },
+      {
+        "traco": "Infraestrutura regulatória citada só pelo nome, sem norma.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "via *Open Finance*, as instituições podem aplicar os modelos de otimização"
+        ]
+      }
+    ],
+    "formatacao": [
+      {
+        "traco": "Negrito em conceito-chave na primeira menção, no nome de autor central e em frases-tese inteiras.",
+        "frequencia": "frequente",
+        "ocorrencias": 12,
+        "evidencias": [
+          "**Daniel Bernoulli** (1738) ajudou a popularizar a ideia",
+          "como o GBI se encaixa no contexto da **hiperpersonalização** de produtos financeiros.",
+          "para **oferecer a solução exata no momento em que ele precisa**."
+        ],
+        "contraexemplo": "Mas é com os trabalhos de Kahneman, Tversky e Thaler - principalmente com as ideias apresentadas em A Teoria da Perspectiva"
+      },
+      {
+        "traco": "Negrito em palavra isolada sem função de ênfase evidente (verbo, preposição, palavra final).",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Chhabra publica o *Wealth Allocation Framework*, **disseminando** a ideia",
+          "um portfólio global otimizado **através** de métodos como o de Markowitz.",
+          "Ela vira um organismo vivo simbiótico a seus **objetivos**."
+        ]
+      },
+      {
+        "traco": "Itálico para termo em inglês e título de obra; uma vez para ênfase tônica em palavra.",
+        "frequencia": "frequente",
+        "ocorrencias": 14,
+        "evidencias": [
+          "Podemos destacar estudos como o *The Utility of Wealth* (1952)",
+          "o *Behavioral Portfolio Theory* [BPT].",
+          "mas para *quê* você está investindo."
+        ]
+      },
+      {
+        "traco": "Negrito e itálico combinados no termo central em inglês na sua primeira aparição.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "(***Goal Based Investing*** **- GBI**)"
+        ]
+      },
+      {
+        "traco": "Destaque (pullquote) usado para o aviso de opinião no topo e para a definição formal.",
+        "frequencia": "frequente",
+        "ocorrencias": 2,
+        "evidencias": [
+          "[[PULLQUOTE: Vale o registro: o que escrevo aqui é opinião pessoal.",
+          "[[PULLQUOTE: “O Goal Based Investing é um *framework* de alocação de ativos"
+        ]
+      },
+      {
+        "traco": "Título em inglês (nome do conceito) com subtítulo explicativo em português.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "titulo: \"Goal Based Investing\"",
+          "subtitulo: \"Conectando seus investimentos e objetivos\""
+        ]
+      },
+      {
+        "traco": "Blocos curtos (1-3 frases, ~20-50 palavras), sem listas, sem código, sem tabela e sem riscado; só subtítulos H2.",
+        "frequencia": "sempre",
+        "ocorrencias": 40,
+        "evidencias": [
+          "Kahneman e Tversky invadiram o campo da economia com a psicologia para expor a irracionalidade dos mercados."
+        ]
+      }
+    ]
+  },
+  "antipadroes_observados": [
+    "(a) Nunca usa lista com marcadores, tabela, fórmula, bloco de código, riscado ou subtítulo H3 neste arquivo.",
+    "(a) Nunca linka as referências acadêmicas que cita; nenhum link inline no corpo (só o botão de compartilhar e o vídeo embutido).",
+    "(a) Nunca usa imperativo dirigido ao leitor no corpo do texto; a única pergunta-convite está no texto padrão do botão de compartilhar.",
+    "(b) Contraste 'não X, mas Y' repetido (~6 vezes), padrão catalogado como tique de IA em pt-BR: 'Em termos práticos, não se trata apenas de colocar o nome do cliente no e-mail, mas de...'.",
+    "(b) Clichês grandiloquentes e cadeias de gerúndio de consequência concentrados na seção Hiperpersonalização e na Conclusão: 'organismo vivo', 'precisão cirúrgica', 'jornada financeira', 'garantindo que', 'tornando a jornada financeira tão única quanto um copo de Tereré'.",
+    "(b) Clivadas de transição ('É nesse contexto que', 'É dessa forma ... que') e fecho que amarra todas as imagens da abertura numa só frase ornamental. O registro desses trechos destoa do resto do texto, mais coloquial e com erros de digitação."
+  ],
+  "incerteza": "Post de época pre-pipeline (escrito só pelo autor), mas os trechos de Thaler (Contabilidade Mental), Hiperpersonalização e Conclusão têm registro mais polido e concentram os tiques listados em antipadroes (b); este arquivo sozinho não permite dizer se esses trechos tiveram outra origem ou edição. Há erros de digitação e de revisão que não devem virar regra de voz: 'é considerada o dos principais símbolos', 'diversas áreas. em particular', 'avalou', 'própio', 'locação moderna de portfólios', 'Nas próximas semana', 'como O GBI', 'sub portfólios' ao lado de 'subportfólios', 'familia' sem acento, '( o pai'. A alternância entre aspas simples e duplas e entre hífen e travessão pode ser descuido, não escolha. O texto do botão de compartilhar ('Obrigado por ler o Syntaxis!...') parece padrão do Substack, não voz do post. O conteúdo de img-03 (sem legenda) é desconhecido, então não dá para avaliar se é gráfico ou diagrama. 1.623 palavras: abaixo do piso de ~5.000 palavras por amostra, com confiança limitada para a variação sintática."
+}

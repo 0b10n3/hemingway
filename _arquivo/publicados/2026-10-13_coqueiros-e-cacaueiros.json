@@ -1,0 +1,283 @@
+{
+ "audience": "everyone",
+ "audience_before_archived": null,
+ "canonical_url": "https://syntaxis.substack.com/p/coqueiros-e-cacaueiros",
+ "default_comment_sort": null,
+ "editor_v2": false,
+ "exempt_from_archive_paywall": false,
+ "free_unlock_required": false,
+ "id": 220197912,
+ "podcast_art_url": null,
+ "podcast_duration": null,
+ "podcast_preview_upload_id": null,
+ "podcast_upload_id": null,
+ "podcast_url": null,
+ "post_date": "2026-10-13T14:47:01.517Z",
+ "updated_at": "2026-10-13T14:47:01.641Z",
+ "publication_id": 2968718,
+ "search_engine_description": null,
+ "search_engine_title": null,
+ "section_id": 442556,
+ "should_send_free_preview": false,
+ "show_guest_bios": true,
+ "slug": "coqueiros-e-cacaueiros",
+ "social_title": null,
+ "subtitle": "Skills nativas, skills importadas e por que a sua melhor nota pode estar mentindo para você",
+ "teaser_post_eligible": true,
+ "title": "Coqueiros e cacaueiros",
+ "type": "newsletter",
+ "video_upload_id": null,
+ "write_comment_permissions": "everyone",
+ "meter_type": "none",
+ "live_stream_id": null,
+ "is_published": true,
+ "restacks": 3,
+ "reactions": {
+  "❤": 4
+ },
+ "top_exclusions": [],
+ "pins": [],
+ "section_pins": [],
+ "has_shareable_clips": false,
+ "previous_post_slug": "borboletas-caos-e-carreira",
+ "next_post_slug": "samurais-e-duelos-no-mercado-financeiro",
+ "cover_image": "https://substackcdn.com/image/fetch/$s_!Pbln!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F73a1f1f4-07d6-49b8-97d3-2e083fc78b01_2752x1536.jpeg",
+ "cover_image_is_square": false,
+ "cover_image_is_explicit": false,
+ "videoUpload": null,
+ "podcastFields": null,
+ "podcastUpload": null,
+ "podcastPreviewUpload": null,
+ "voiceover_upload_id": null,
+ "voiceoverUpload": null,
+ "has_voiceover": false,
+ "description": "Skills nativas, skills importadas e por que a sua melhor nota pode estar mentindo para você",
+ "body_html": "<div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!Pbln!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F73a1f1f4-07d6-49b8-97d3-2e083fc78b01_2752x1536.jpeg\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!Pbln!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F73a1f1f4-07d6-49b8-97d3-2e083fc78b01_2752x1536.jpeg 424w, https://substackcdn.com/image/fetch/$s_!Pbln!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F73a1f1f4-07d6-49b8-97d3-2e083fc78b01_2752x1536.jpeg 848w, https://substackcdn.com/image/fetch/$s_!Pbln!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F73a1f1f4-07d6-49b8-97d3-2e083fc78b01_2752x1536.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!Pbln!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F73a1f1f4-07d6-49b8-97d3-2e083fc78b01_2752x1536.jpeg 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!Pbln!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F73a1f1f4-07d6-49b8-97d3-2e083fc78b01_2752x1536.jpeg\" width=\"1456\" height=\"813\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/73a1f1f4-07d6-49b8-97d3-2e083fc78b01_2752x1536.jpeg&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:813,&quot;width&quot;:1456,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:2348529,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/jpeg&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:false,&quot;topImage&quot;:true,&quot;internalRedirect&quot;:&quot;https://syntaxis.substack.com/i/220197912?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F73a1f1f4-07d6-49b8-97d3-2e083fc78b01_2752x1536.jpeg&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!Pbln!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F73a1f1f4-07d6-49b8-97d3-2e083fc78b01_2752x1536.jpeg 424w, https://substackcdn.com/image/fetch/$s_!Pbln!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F73a1f1f4-07d6-49b8-97d3-2e083fc78b01_2752x1536.jpeg 848w, https://substackcdn.com/image/fetch/$s_!Pbln!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F73a1f1f4-07d6-49b8-97d3-2e083fc78b01_2752x1536.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!Pbln!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F73a1f1f4-07d6-49b8-97d3-2e083fc78b01_2752x1536.jpeg 1456w\" sizes=\"100vw\" fetchpriority=\"high\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\" tabindex=\"0\" type=\"button\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\" tabindex=\"0\" type=\"button\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p>Voltei de viagem com duas ideias de texto. </p><p>Pelo litoral sul da Bahia, é impossível caminhar pelas praias e vilas sem ver coqueiros à beira-mar e cacau, suco de cacau, mel de cacau... sendo oferecidos em cada esquina.</p><p>Sei que prometi na semana passada começar uma série sobre <em>O livro dos cinco anéis</em>, de Miyamoto Musashi. Ela vai acontecer.</p><p>Depois de passagens pela Península de Maraú, por Itacaré e por Ilhéus, terra de Jorge Amado, a primeira ideia parecia pronta.</p><p>O coqueiro o símbolo do que é nativo: a planta que nasceu aqui, que se espalha sozinha pelo litoral e entrega valor sem pedir quase nada em troca. Do outro lado, o cacau. Tão icônico quanto, tão baiano quanto, mas trazido de fora e cultivado com muito trabalho.</p><p>Nativo contra importado. Talento contra esforço. Dava um bom Spoiler.</p><p>Aí fui checar. Errei nas duas pontas.</p><p>O coqueiro não existia no Brasil quando os portugueses chegaram. Segundo a <strong>Embrapa</strong> (Empresa Brasileira de Pesquisa Agropecuária), a primeira introdução aconteceu em 1553, na Bahia, com cocos vindos das ilhas de Cabo Verde. A origem remota provável seria a Índia ou o Sri Lanka. O ‘coco-da-baía’ é imigrante.</p><p>O cacau, por sua vez, é nosso. Está na Amazônia há milhares de anos. O cultivo no Brasil provavelmente começou no Pará, no fim do século XVII, e só virou a cara da Bahia a partir do século XIX. </p><p>Na Bahia, é verdade, ele também chegou de fora: as sementes vieram do Pará, em 1746.</p><p>O símbolo de nativo é estrangeiro. O símbolo de importado é brasileiro.</p><p>Em 1587, apenas 34 anos depois dos primeiros cocos, o cronista Gabriel Soares de Sousa anotou que as palmeiras se davam melhor na Bahia do que na própria Índia. Bastava enterrar um coco: “metido um coco debaixo da terra”, escreveu ele, a palmeira dava frutos em cinco ou seis anos. Na Índia, levava vinte.</p><p>Exagero de cronista, provavelmente.</p><p>Mas repare no <strong>método</strong>. É do mesmo jeito que se planta coqueiro no litoral baiano até hoje: o coco cai, alguém abre um buraco, joga um pouco de terra por cima, e pronto.</p><p>Mais de quatro séculos depois, o estrangeiro continua se plantando quase sozinho.</p><p>Eu poderia ter jogado a ideia fora. Mas o erro virou o melhor argumento do texto. Porque, para a sua carreira, a pergunta que importa não é de onde uma <em>skill</em> veio.</p><p>É quanto ela custa para continuar dando fruto.</p><h2>Coqueiros e cacaueiros</h2><p>Pense nas duas plantas pelo que elas pedem, não pelo país de origem.</p><p>O coqueiro, depois que pega, pede quase nada. E entrega muito: sombra para quem está na praia, palha para cobrir cabana e quiosque, a polpa e a água que você toma gelada depois do mergulho. <strong>Valor alto, manutenção baixíssima.</strong></p><p>O cacaueiro é outra conversa. No sul da Bahia, ele cresce na cabruca, à sombra da mata, e depende de manejo constante. Quando o cuidado funciona, a planta enriquece uma região inteira: na primeira metade do século XX, o cacau dos arredores de Ilhéus fez do Brasil o segundo maior produtor do mundo.</p><p>É o mundo dos coronéis dos romances de Jorge Amado.</p><p>Quando o cuidado falha, o tombo é do mesmo tamanho. No fim dos anos 1980, chegou um fungo, a vassoura-de-bruxa. Ao longo da década seguinte, a produção nacional caiu mais da metade.</p><p><strong>Valor alto, manutenção alta.</strong></p><p>Agora traga isso para a sua carreira.</p><p>Toda <em>skill</em> que você usa no trabalho tem uma origem. Ou ela veio com você (uma facilidade, um temperamento, um jeito de pensar), ou você a trouxe de fora, estudando, errando e repetindo.</p><p>Mas a origem importa menos do que parece.</p><p>A variável que muda o seu dia a dia é outra: quanta energia aquela <em>skill</em> consome para continuar entregando resultado.</p><p>Daqui em diante, vou chamar de ‘coqueiros’ as <em>skills</em> que entregam valor relevante com pouco ou nenhum gasto de energia. Você faz, sai bem feito, e nem sente que trabalhou.</p><p>E de ‘cacaueiros’ as <em>skills</em> que também entregam muito valor, mas pedem cultivo deliberado: estudo, prática, manutenção e atenção às pragas.</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!4X3g!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa596f453-f9c4-434b-bea6-202425ca6d14_1640x1640.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!4X3g!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa596f453-f9c4-434b-bea6-202425ca6d14_1640x1640.png 424w, https://substackcdn.com/image/fetch/$s_!4X3g!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa596f453-f9c4-434b-bea6-202425ca6d14_1640x1640.png 848w, https://substackcdn.com/image/fetch/$s_!4X3g!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa596f453-f9c4-434b-bea6-202425ca6d14_1640x1640.png 1272w, https://substackcdn.com/image/fetch/$s_!4X3g!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa596f453-f9c4-434b-bea6-202425ca6d14_1640x1640.png 1456w\" sizes=\"auto, 100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!4X3g!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa596f453-f9c4-434b-bea6-202425ca6d14_1640x1640.png\" width=\"1456\" height=\"1456\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/a596f453-f9c4-434b-bea6-202425ca6d14_1640x1640.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:1456,&quot;width&quot;:1456,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:188393,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://syntaxis.substack.com/i/220197912?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa596f453-f9c4-434b-bea6-202425ca6d14_1640x1640.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!4X3g!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa596f453-f9c4-434b-bea6-202425ca6d14_1640x1640.png 424w, https://substackcdn.com/image/fetch/$s_!4X3g!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa596f453-f9c4-434b-bea6-202425ca6d14_1640x1640.png 848w, https://substackcdn.com/image/fetch/$s_!4X3g!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa596f453-f9c4-434b-bea6-202425ca6d14_1640x1640.png 1272w, https://substackcdn.com/image/fetch/$s_!4X3g!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa596f453-f9c4-434b-bea6-202425ca6d14_1640x1640.png 1456w\" sizes=\"auto, 100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\" tabindex=\"0\" type=\"button\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\" tabindex=\"0\" type=\"button\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p>Nenhuma é melhor que a outra. Uma carreira sólida tem as duas.</p><p>O problema é não saber qual é qual.</p><h2>A nota mede outra coisa</h2><p>Aqui vai o spoiler mais contraintuitivo deste texto: a métrica que você usa para descobrir no que é bom pode estar medindo outra coisa.</p><p>Eu aprendi isso na graduação em Matemática.</p><p>As disciplinas de um curso de matemática costumam se agrupar em grandes temas. Tem a álgebra: estruturas algébricas, grupos, anéis, aritmética. Tem a análise: cálculo, análise real, análise funcional e, numa classificação mais regimental, até probabilidade. E tem a geometria, da diferencial à riemanniana.</p><p>Não vou polemizar sobre as fronteiras; para este texto, essa divisão basta.</p><p>Eu sempre gostei mais de análise.</p><p>Não por acaso, minha primeira iniciação científica foi em sistemas dinâmicos, que é território dela. E sempre tive mais dificuldade com álgebra.</p><p>O que aconteceu foi previsível, olhando para trás. Com pavor de ficar de prova final ou cair em recuperação numa disciplina de álgebra, eu estudava álgebra muito mais do que qualquer outra coisa. Resultado: em vários semestres, minhas notas de álgebra saíram melhores do que as das disciplinas de análise que eu cursava ao mesmo tempo.</p><p>Quem olhasse só o meu histórico concluiria que eu tinha vocação para álgebra.</p><p>O histórico estava medindo esforço por medo ou precaução. E horas de estudo.</p><p>A nota mistura afinidade e esforço, e não diz quanto veio de cada um. Quando o esforço é movido a medo, ele infla o número logo da disciplina de que você menos gosta.</p><p>No mercado, o boletim muda de nome. Vira avaliação de desempenho, meta batida, mérito. A armadilha é a mesma, só que mais cara. Você entrega muito bem a tarefa que mais teme errar. A empresa vê o resultado e, com toda a boa intenção, te dá mais daquilo. Às vezes, uma promoção para aquilo.</p><p>Enquanto isso, os seus coqueiros ficam invisíveis. Eles nunca aparecem no boletim como esforço heroico, justamente porque nunca precisaram de esforço heroico.</p><h2>Como encontrar seus coqueiros</h2><p>O problema de um coqueiro é que ele é invisível para o próprio dono.</p><p>O que é fácil para você parece óbvio.</p><p>E o que parece óbvio parece coisa que todo mundo sabe fazer. O esforço deixa marca na memória; a facilidade, não. Você se lembra da madrugada estudando álgebra. Não se lembra da tarde em que explicou um conceito para um colega e ele finalmente entendeu.</p><p>Comigo foi exatamente assim. Em todas as equipes por onde passei, fui bem avaliado pela capacidade de ensinar: pegar o que eu já dominava e ajudar outras pessoas a aprender. Por muito tempo, não dei valor nenhum a isso.</p><p>Era só explicar.</p><p>Quem me mostrou que aquilo era um coqueiro foram os colegas, com feedback sincero, repetido, vindo de gente diferente.</p><p>Foi esse coqueiro que me levou, em 2025, a ser mentor de carreira em um programa da ANBIMA . E a <em>Notas de um Professor</em>, a outra linha editorial desta newsletter, também é fruto dele.</p><p>Se eu tivesse que transformar o que funcionou para mim em método, seriam estes quatro passos.</p><ol><li><p><strong>Siga a demanda informal.</strong> Repare no que as pessoas vêm te pedir fora do processo formal. Se colegas voltam a você, de novo e de novo, para a mesma coisa (destravar um código, explicar uma planilha, escrever o e-mail difícil, organizar uma apresentação), o ambiente ao seu redor está apontando um coqueiro. Ninguém faz fila para pedir ajuda naquilo que você faz mal.</p></li><li><p><strong>Pergunte por atrito removido, não por qualidades. </strong>“Quais são meus pontos fortes?” rende elogio genérico. Troque por perguntas concretas: “Em que momento recente a minha participação destravou algo que estava parado?” ou “Se eu tivesse uma hora livre amanhã, o que você me pediria?” Faça a mesma pergunta a pessoas de níveis e áreas diferentes, inclusive a quem costuma discordar de você. Um elogio isolado é ruído. O mesmo padrão vindo de três pessoas é sinal.</p></li><li><p><strong>Faça uma auditoria de energia. </strong>Durante duas semanas, anote no fim do dia o que te drenou e o que fez o tempo passar sem você perceber. Depois cruze com o que gerou resultado de verdade. Coqueiro é resultado alto com cansaço baixo. Cacaueiro é resultado alto com cansaço alto. Os dois importam, mas você precisa saber qual é qual.</p></li><li><p><strong>Desconfie da sua reação ao feedback. </strong>Em <em>Obrigado pelo feedback</em>, Douglas Stone e Sheila Heen mostram que três gatilhos sabotam a forma como recebemos o que os outros dizem: o de verdade (”isso está errado”), o de relacionamento (”quem é você para me dizer isso?”) e o de identidade (”isso não combina com quem eu acho que sou”). Com coqueiros, acontece uma versão invertida do último: alguém elogia algo que você faz sem esforço e você responde: “Isso? Qualquer um faz.” Quase nunca é verdade. Esse desconforto é justamente o sinal.</p></li></ol><p>Um último ponto, que não é técnica, é ambiente. Procure lugares onde feedback honesto circula. </p><p>Ninguém descobre um coqueiro sozinho.</p><h2>Não fique esperando um coqueiro</h2><p>Este texto tem um risco, e prefiro nomeá-lo: alguém pode ler até aqui e concluir que o segredo é descobrir o seu dom e fazer só o que é fácil.</p><p>Não é.</p><p>Cal Newport passa um livro inteiro, <em>So Good They Can’t Ignore You</em> (2012), desmontando essa ideia. Para ele, “siga a sua paixão” é um conselho ruim, porque supõe que a vocação já está pronta dentro de você, esperando ser encontrada. O que constrói uma carreira, segundo Newport, é ‘capital de carreira’: <em>skills</em> raras e valiosas, acumuladas com prática deliberada. Aquela prática que te coloca de propósito no desconforto e te obriga a corrigir o erro logo em seguida.</p><p>No mercado financeiro, quase tudo que vale dinheiro começa como cacaueiro. <em>Duration</em> (o prazo médio ponderado dos pagamentos de um título), a estrutura de um CRA (Certificado de Recebíveis do Agronegócio), como particionar uma tabela no Spark: nada disso dá fruto sem cultivo.</p><p>E aqui o coqueiro volta, agora como argumento. Ele não chegou sozinho. Alguém teve de trazer os cocos de Cabo Verde e enterrá-los na Bahia, e esse foi o custo de entrada. Depois que pegou, o coqueiro parou de pedir. Hoje ele se planta quase sozinho, e ninguém olha para o litoral baiano e pensa em planta importada.</p><p>Com <em>skill</em> acontece algo parecido. Um cacaueiro bem cultivado pode virar coqueiro. </p><p>Você pode ter facilidade com raciocínio lógico e travar na sintaxe de uma linguagem de programação, por exemplo. Com prática suficiente, o código que custava uma tarde de sofrimento passa a sair no automático. E pode até virar o seu cartão de visita.</p><p>A afinidade não substitui a prática. </p><p>Ela muda a taxa de câmbio: a mesma hora de estudo rende mais onde você tem facilidade. Por isso a pergunta não é coqueiro ou cacaueiro. É onde cada hora de esforço vai render mais.</p><p>Uma moldura que ajuda a organizar isso é o famoso profissional em T. </p><p>A barra horizontal é a amplitude: comunicar, sintetizar, ensinar, conectar áreas. A haste vertical é a profundidade técnica, aquilo que te torna raro. Não é regra, mas é comum que os coqueiros morem na barra e que a haste seja um pomar de cacaueiros. No meu caso, o ensino mora na barra. A haste é onde estão renda fixa, crédito estruturado e dados.</p><h2>Três cacaueiros para plantar agora</h2><p>Com a IA mudando o terreno, vale perguntar quais cacaueiros compensam o investimento.</p><p>O <em>Future of Jobs Report 2025</em>, do Fórum Econômico Mundial, <strong>estima que 39% das </strong><em><strong>skills</strong></em><strong> essenciais dos trabalhadores vão mudar até 2030</strong>. No mesmo relatório, <strong>IA e </strong><em><strong>big data</strong></em><strong> aparecem como as </strong><em><strong>skills</strong></em><strong> de crescimento mais rápido</strong>, e o pensamento analítico segue como a <em>skill</em> central mais citada: sete em cada dez empresas a consideram essencial. </p><p>O relatório também observa que a IA generativa vai bem em resumir, redigir e calcular, mas ainda tropeça quando é preciso julgamento com nuance.</p><p>Traduzindo para o mercado financeiro, eu plantaria estes três:</p><ol><li><p><strong>Produto e risco, de verdade. </strong>Curva de juros, <em>duration</em>, marcação a mercado, a estrutura de garantias por trás de um CRA ou de um CRI (Certificado de Recebíveis Imobiliários). Um modelo de linguagem resume um prospecto em segundos. Mas quem assina a análise de risco é alguém que entende onde o risco mora. Essa é a camada em que a IA ajuda, mas que ela não substitui.</p></li><li><p><strong>Dados em escala. Python, SQL e plataformas como o Databricks. </strong>A análise que cabia numa planilha migrou para <em>pipelines</em> que processam séries históricas inteiras. Saber ler e escrever o código que produz o número é o que separa quem consome a análise de quem a constrói.</p></li><li><p><strong>IA como ferramenta, com critério.</strong> Não é “saber usar o ChatGPT”. É saber dar contexto, quebrar o problema em partes, verificar a saída e perceber quando o modelo está errado com toda a confiança do mundo. É a <em>skill</em> que transforma a IA de ameaça em alavanca.</p></li></ol><p>Os três são cacaueiros. Mas, bem cultivados, podem virar coqueiros. O próprio coqueiro está aí de prova: teve um custo de entrada e depois quase não pediu mais nada.</p><p>Só não confunda o fundamento com a ferramenta. O Databricks de hoje vai mudar, a versão do modelo de linguagem também. A ferramenta continua pedindo cuidado. O que vira coqueiro é o que fica por baixo: saber onde o risco mora, como o número foi construído e quando desconfiar da resposta.</p><h2>O seu coqueiral</h2><p>Da próxima vez que você estiver numa praia do Nordeste, debaixo de um coqueiro, lembre que ele também já foi novidade por aqui, e que alguém teve de plantá-lo antes que ele passasse a se plantar sozinho.</p><p>E leve duas perguntas para a sua carreira. </p><ol><li><p>Quais são os seus coqueiros, as coisas que você entrega bem sem perceber que está trabalhando? </p></li><li><p>E quais cacaueiros você está cultivando agora, de propósito, sabendo que vão dar trabalho antes de dar fruto?</p></li></ol><p>Eu levei anos, e um histórico escolar enganoso, para enxergar o meu coqueiro. Você não precisa levar o mesmo tempo. É para isso que serve um <em>spoiler</em>.</p><p>Se o seu próximo cacaueiro for técnico, a <em><a href=\"https://syntaxis.substack.com/s/notas-de-um-professor\">Notas de um Professor</a></em><a href=\"https://syntaxis.substack.com/s/notas-de-um-professor\"> </a>foi feita para isso. É onde eu uso o meu coqueiro para ajudar você a cultivar os seus: renda fixa, crédito estruturado, programação e ferramentas usadas de verdade nas instituições financeiras, como o Databricks. Cada texto parte do que você precisa ser capaz de fazer no trabalho e chega lá por meio de casos reais do mercado brasileiro. </p><p>E se alguém já te ajudou a enxergar um coqueiro seu, me conte. Quero muito saber qual foi.</p>",
+ "has_dynamic_content": false,
+ "truncated_body_text": "Voltei de viagem com duas ideias de texto.",
+ "wordcount": 2441,
+ "post_preview_limit": null,
+ "language": "pt",
+ "postTags": [
+  {
+   "id": "15ccaf53-de38-4889-974e-03b8167db4a4",
+   "publication_id": 2968718,
+   "name": "CRA",
+   "slug": "cra",
+   "hidden": false
+  },
+  {
+   "id": "5d3acdc8-31a3-4380-8ff0-c213ed95a7fd",
+   "publication_id": 2968718,
+   "name": "Consultoria Financeira",
+   "slug": "consultoria-financeira",
+   "hidden": false
+  },
+  {
+   "id": "7003b15f-d529-49d7-a0ce-587bbd3ccbf4",
+   "publication_id": 2968718,
+   "name": "Mentoria",
+   "slug": "mentoria",
+   "hidden": false
+  },
+  {
+   "id": "80540162-738e-4f31-b39b-7277a25def66",
+   "publication_id": 2968718,
+   "name": "Carreira",
+   "slug": "carreira",
+   "hidden": false
+  },
+  {
+   "id": "b53ab524-9da7-4f72-809b-a0d91634f563",
+   "publication_id": 2968718,
+   "name": "Finanças",
+   "slug": "financas",
+   "hidden": false
+  },
+  {
+   "id": "f58eb1b3-be9c-4d86-9aeb-9430284945d8",
+   "publication_id": 2968718,
+   "name": "CRI",
+   "slug": "cri",
+   "hidden": false
+  },
+  {
+   "id": "f5b4acc9-f24d-4a35-af16-f7c348f3ec9a",
+   "publication_id": 2968718,
+   "name": "Instrumentos Financeiros",
+   "slug": "instrumentos-financeiros",
+   "hidden": false
+  }
+ ],
+ "postCountryBlocks": [],
+ "disable_drop_cap": false,
+ "cover_image_crop": null,
+ "headlineTest": null,
+ "coverImagePalette": {
+  "Vibrant": {
+   "rgb": [
+    192,
+    227,
+    93
+   ],
+   "population": 58
+  },
+  "DarkVibrant": {
+   "rgb": [
+    28,
+    106,
+    72
+   ],
+   "population": 13
+  },
+  "LightVibrant": {
+   "rgb": [
+    177,
+    214,
+    84
+   ],
+   "population": 6
+  },
+  "Muted": {
+   "rgb": [
+    107,
+    163,
+    126
+   ],
+   "population": 150
+  },
+  "DarkMuted": {
+   "rgb": [
+    44,
+    90,
+    68
+   ],
+   "population": 28
+  },
+  "LightMuted": {
+   "rgb": [
+    128,
+    188,
+    148
+   ],
+   "population": 52
+  }
+ },
+ "publishedBylines": [
+  {
+   "id": 136725718,
+   "name": "Silvano Junior",
+   "handle": "saapjr",
+   "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/4d24c48d-d4f2-406d-ab80-902631955776_640x640.jpeg",
+   "bio": "Capixaba Matemático (MsC) Cientista de Dados e Analista Quantitativo",
+   "profile_set_up_at": "2023-03-28T04:01:23.570Z",
+   "reader_installed_at": "2023-03-28T04:05:16.777Z",
+   "publicationUsers": [
+    {
+     "id": 3019355,
+     "user_id": 136725718,
+     "publication_id": 2968718,
+     "role": "admin",
+     "public": true,
+     "is_primary": true,
+     "publication": {
+      "id": 2968718,
+      "name": "Syntaxis",
+      "subdomain": "syntaxis",
+      "custom_domain": null,
+      "custom_domain_optional": false,
+      "hero_text": "A Syntaxis te ajuda a desenvolver as skills que hoje separam quem estagia de quem é efetivado, e quem é efetivado de quem vira referência.",
+      "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/f1431d70-c6a3-4eb3-9219-23ab9997436b_320x320.png",
+      "author_id": 136725718,
+      "primary_user_id": 136725718,
+      "theme_var_background_pop": "#FF6719",
+      "created_at": "2024-09-03T01:29:04.169Z",
+      "email_from_name": "SYNTAXIS",
+      "copyright": "Silvano Junior",
+      "founding_plan_name": "Membro Fundador",
+      "community_enabled": true,
+      "invite_only": false,
+      "payments_state": "enabled",
+      "language": "pt-br",
+      "explicit": false,
+      "homepage_type": "newspaper",
+      "is_personal_mode": false,
+      "logo_url_wide": null
+     }
+    }
+   ],
+   "is_guest": false,
+   "bestseller_tier": null,
+   "status": {
+    "bestsellerTier": null,
+    "subscriberTier": null,
+    "leaderboard": null,
+    "vip": false,
+    "badge": null,
+    "subscriber": null
+   }
+  }
+ ],
+ "reaction": null,
+ "reaction_count": 4,
+ "comment_count": 0,
+ "child_comment_count": 0,
+ "vg_wort_pixel_url": null,
+ "is_geoblocked": false,
+ "sponsorshipEditionBanner": null,
+ "is_editor_preview": false,
+ "hasCashtag": false,
+ "unlockedWithIP": false,
+ "unlockedWithCampaign": false,
+ "themeVariables": {
+  "color_theme_bg_pop": "#1B6A45",
+  "background_pop": "#1B6A45",
+  "color_theme_bg_web": "#F7F7F5",
+  "cover_bg_color": "#F7F7F5",
+  "cover_bg_color_secondary": "#e8e8e6",
+  "background_pop_darken": "#165638",
+  "print_on_pop": "#ffffff",
+  "color_theme_bg_pop_darken": "#165638",
+  "color_theme_print_on_pop": "#ffffff",
+  "color_theme_bg_pop_20": "rgba(27, 106, 69, 0.2)",
+  "color_theme_bg_pop_30": "rgba(27, 106, 69, 0.3)",
+  "print_pop": "#1b6a45",
+  "color_theme_accent": "#1b6a45",
+  "cover_print_primary": "#363737",
+  "cover_print_secondary": "#757575",
+  "cover_print_tertiary": "#b6b6b6",
+  "cover_border_color": "#1b6a45",
+  "font_family_body_preset": "'SF Pro Display', -apple-system, system-ui, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+  "font_weight_body_preset": 400,
+  "font_preset_body": "sans",
+  "home_hero": "feature-media",
+  "home_posts": "grid",
+  "home_show_top_posts": true,
+  "web_bg_color": "#F7F7F5",
+  "background_contrast_1": "#e8e8e6",
+  "background_contrast_2": "#d6d6d4",
+  "background_contrast_3": "#b1b1b0",
+  "background_contrast_4": "#8e8e8d",
+  "background_contrast_5": "#4e4e4d",
+  "color_theme_bg_contrast_1": "#e8e8e6",
+  "color_theme_bg_contrast_2": "#d6d6d4",
+  "color_theme_bg_contrast_3": "#b1b1b0",
+  "color_theme_bg_contrast_4": "#8e8e8d",
+  "color_theme_bg_contrast_5": "#4e4e4d",
+  "color_theme_bg_elevated": "#f7f7f5",
+  "color_theme_bg_elevated_secondary": "#e8e8e6",
+  "color_theme_bg_elevated_tertiary": "#d6d6d4",
+  "color_theme_detail": "#dededd",
+  "background_contrast_pop": "rgba(27, 106, 69, 0.4)",
+  "color_theme_bg_contrast_pop": "rgba(27, 106, 69, 0.4)",
+  "theme_bg_is_dark": "0",
+  "print_on_web_bg_color": "#363737",
+  "print_secondary_on_web_bg_color": "#838483",
+  "background_pop_rgb": "27, 106, 69",
+  "color_theme_bg_pop_rgb": "27, 106, 69",
+  "color_theme_accent_rgb": "27, 106, 69"
+ },
+ "oneOffUnlockOffer": {
+  "eligible": false
+ }
+}

@@ -1,0 +1,538 @@
+{
+  "arquivo": "estilo/corpus/publicados/tesouro-prefixado-o-guia-completo.md",
+  "genero": "substack",
+  "palavras": 1243,
+  "eixos": {
+    "lexico": [
+      {
+        "traco": "Campo semântico de segurança/previsibilidade repetido como argumento central do produto (segurança 5x, previsibilidade/previsível 5x, 'sem surpresas').",
+        "frequencia": "frequente",
+        "ocorrencias": 11,
+        "evidencias": [
+          "Essa previsibilidade o torna atrativo para quem busca segurança em seus investimentos.",
+          "de maneira previsível e sem surpresas.",
+          "uma excelente opção para investidores que buscam segurança e previsibilidade em seus investimentos."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Siglas expandidas entre parênteses na primeira menção (sigla antes ou depois do nome por extenso).",
+        "frequencia": "sempre",
+        "ocorrencias": 4,
+        "evidencias": [
+          "LTNs (Letras do Tesouro Nacional)",
+          "cobrada pela CBLC (Companhia Brasileira de Liquidação e Custódia).",
+          "o Imposto sobre Operações Financeiras (IOF) também é cobrado"
+        ],
+        "contraexemplo": "uma parceria entre o governo federal e a B3."
+      },
+      {
+        "traco": "Jargão de mercado introduzido com glosa imediata: 'ou seja', 'o que significa que' ou parêntese explicativo.",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "sua rentabilidade é definida no momento da compra, ou seja, o investidor sabe exatamente quanto irá receber",
+          "o preço do título pode oscilar devido à marcação a mercado, o que significa que seu valor varia",
+          "o investidor recebe o valor de face (R$ 1.000,00 por título)"
+        ],
+        "contraexemplo": "dentro de uma estratégia de goal-based investing, alinhando o planejamento financeiro com um objetivo específico"
+      },
+      {
+        "traco": "Anglicismo técnico aceito sem tradução e sem itálico.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "dentro de uma estratégia de goal-based investing",
+          "com facilidades de compra e acompanhamento online."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Adjetivação avaliativa genérica, em registro de material institucional/promocional ('excelente', 'interessante', 'crucial', 'clássico', 'importante').",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "o Tesouro Prefixado é uma excelente opção para investidores",
+          "pode ser uma alternativa interessante para sua carteira de investimentos.",
+          "A marcação a mercado é um conceito crucial para entender o comportamento de títulos públicos"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Conectores de manual para contraste e conclusão: 'No entanto' (2), 'Por outro lado' (2), 'Entretanto', 'Assim', 'Dessa forma', 'Em resumo', 'Vale destacar'.",
+        "frequencia": "frequente",
+        "ocorrencias": 10,
+        "evidencias": [
+          "No entanto, se você optar por vender o título antes do vencimento",
+          "Vale destacar que o Tesouro Prefixado é equivalente às LTNs",
+          "Por outro lado, se as taxas de juros caírem, o valor do título poderá subir"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Registro formal e impessoal: ênclise ('refere-se'), futuro com 'irá', voz passiva com 'é considerado'.",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "LTN refere-se ao título no contexto mais amplo das emissões diretas do governo",
+          "o investidor sabe exatamente quanto irá receber se mantiver o título até o vencimento.",
+          "é considerado um investimento conservador."
+        ],
+        "contraexemplo": ""
+      }
+    ],
+    "sintaxe": [
+      {
+        "traco": "Frases médias a longas (cerca de 20 a 40 palavras), com predomínio de subordinação; a mais longa passa de 50 palavras.",
+        "frequencia": "frequente",
+        "ocorrencias": 30,
+        "evidencias": [
+          "A principal diferença entre eles é a nomenclatura: LTN refere-se ao título no contexto mais amplo das emissões diretas do governo, enquanto Tesouro Prefixado",
+          "Para competir com esses novos títulos, o preço dos títulos antigos precisa ser ajustado para baixo, de modo que o retorno total seja equivalente"
+        ],
+        "contraexemplo": "Fique atento!"
+      },
+      {
+        "traco": "Período condicional como motor da explicação: subordinada com 'se' antes da oração principal (causa → efeito no preço).",
+        "frequencia": "frequente",
+        "ocorrencias": 10,
+        "evidencias": [
+          "Se, por exemplo, no momento da venda as taxas de juros de mercado subirem, o preço do título pode cair",
+          "Se, durante o período de investimento, as taxas de juros de mercado aumentarem, o preço do Tesouro Prefixado tende a cair.",
+          "Por outro lado, se as taxas de juros caírem, o preço do título tende a subir"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Gerúndio de consequência pendurado no fim do período ('resultando em', 'permitindo que', 'obtendo', 'tornando', 'alinhando'), às vezes encadeado.",
+        "frequencia": "frequente",
+        "ocorrencias": 7,
+        "evidencias": [
+          "resultando em um ganho de 36,27% para todo o período.",
+          "permitindo que você o venda por um preço superior, obtendo um ganho antecipado.",
+          "tornando os antigos menos atraentes, já que pagam uma remuneração inferior."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Retomada anafórica com demonstrativo 'Esse/Essa' + nome resumidor abrindo a frase.",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "Essa previsibilidade o torna atrativo para quem busca segurança",
+          "Esse efeito ocorre devido à marcação a mercado",
+          "Esse movimento de alta e baixa no valor do título ocorre continuamente até o vencimento"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Frase curta isolada como ênfase praticamente ausente; a única é o imperativo do fecho.",
+        "frequencia": "evita",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Fique atento!"
+        ],
+        "contraexemplo": ""
+      }
+    ],
+    "pontuacao": [
+      {
+        "traco": "Dois-pontos como articulador: introduz o desdobramento de um núcleo, abre lista e serve de rótulo em pseudo-lista.",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "A principal diferença entre eles é a nomenclatura: LTN refere-se ao título",
+          "com alíquotas que variam de 22,5% a 15%, dependendo do prazo do investimento:",
+          "Segurança: Como o governo federal é considerado o credor mais seguro do país"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Ponto de interrogação só em subtítulos (formato FAQ); nenhuma pergunta no corpo do texto.",
+        "frequencia": "sempre",
+        "ocorrencias": 4,
+        "evidencias": [
+          "## O que é o Tesouro Prefixado?",
+          "## Como funciona sua remuneração?",
+          "## Para quem se destina esse investimento?"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Ponto de exclamação único, no fecho, em imperativo de série.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Fique atento!"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Aspas só na citação do pullquote, e são retas (ASCII \"), dentro do negrito; o corpo do texto não usa aspas.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "**\"O risco vem de não saber o que você está fazendo.\"**"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Travessão só na atribuição da epígrafe; nenhum travessão na prosa (intercalação feita por vírgula ou parêntese).",
+        "frequencia": "nunca",
+        "ocorrencias": 1,
+        "evidencias": [
+          "— **Warren Buffett**, *The Intelligent Investor*"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Vírgulas isolam adjunto intercalado entre o 'Se' e o restante da condicional.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Se, por exemplo, no momento da venda as taxas de juros de mercado subirem",
+          "Se, durante o período de investimento, as taxas de juros de mercado aumentarem"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Lista com marcadores reservada à faixa de alíquotas: itens com ponto e vírgula e o último com ponto final; o resto em prosa corrida.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "- 22,5% para aplicações até 180 dias;",
+          "- 15% para aplicações superiores a 720 dias."
+        ],
+        "contraexemplo": "Previsibilidade: Se mantido até o vencimento, o Tesouro Prefixado oferece ao investidor a segurança"
+      },
+      {
+        "traco": "Parágrafos de 1 a 5 frases; parágrafo de uma frase só nas seções curtas (taxas, IOF) e em frases de síntese depois de um exemplo.",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "Esse efeito ocorre devido à marcação a mercado, que ajusta o valor do título diariamente",
+          "Todos os investidores do Tesouro Direto estão sujeitos a uma taxa de 0,20% ao ano"
+        ],
+        "contraexemplo": ""
+      }
+    ],
+    "arquitetura": [
+      {
+        "traco": "Abre com imagem e epígrafe de autoridade (pullquote) e, em seguida, um parágrafo que anuncia a série e o roteiro do post ('Nosso plano é...').",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Hoje iniciamos nossa série sobre os títulos do Tesouro Nacional.",
+          "Nosso plano é apresentar suas principais características, explicar como funciona sua remuneração e trazer um exemplo"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Esqueleto fixo de guia de produto: O que é → Como funciona → Vantagens e Riscos → Para quem → Custos e Tributação → Caso Prático → Conclusão.",
+        "frequencia": "sempre",
+        "ocorrencias": 7,
+        "evidencias": [
+          "## Vantagens e Riscos",
+          "## Custos e Tributação",
+          "## Caso Prático: Como o Tesouro Prefixado pode ajudar um investidor?"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Densidade alta de subtítulos (7 H2 + 6 H3 em cerca de 1.240 palavras), com seções H3 de uma frase só.",
+        "frequencia": "frequente",
+        "ocorrencias": 13,
+        "evidencias": [
+          "### IOF",
+          "### Taxas"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Conceito primeiro; exemplo numérico depois, aberto por 'Imagine que você...'.",
+        "frequencia": "frequente",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Imagine que você comprou um título do Tesouro Prefixado com vencimento em 01/01/2025 e pagou R$ 733,86 por ele",
+          "Imagine que você planeja comprar um terreno daqui a três anos, cujo preço estimado é de R$ 100.000,00."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "O mesmo conceito (marcação a mercado) é reexplicado em várias seções, de modo redundante.",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "o preço do título pode oscilar devido à marcação a mercado, o que significa que seu valor varia",
+          "Esse efeito ocorre devido à marcação a mercado, que ajusta o valor do título diariamente",
+          "Ela se refere ao ajuste diário do valor do título com base nas condições econômicas"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Caso prático com objetivo concreto (terreno) logo antes da conclusão, amarrando o produto a um quadro conceitual (goal-based investing).",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Esse é um exemplo clássico de como o Tesouro Prefixado pode ser utilizado dentro de uma estratégia de goal-based investing"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Fecho em seção 'Conclusão': recapitulação com 'Em resumo', gancho para o próximo post da série e imperativo exclamativo.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Em resumo, o Tesouro Prefixado é uma excelente opção para investidores que buscam segurança",
+          "No próximo artigo, abordaremos o Tesouro Selic, outro importante título do Tesouro Nacional"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "A epígrafe sobre risco não é retomada no corpo nem no fecho.",
+        "frequencia": "nunca",
+        "ocorrencias": 1,
+        "evidencias": [
+          "\"O risco vem de não saber o que você está fazendo.\""
+        ],
+        "contraexemplo": ""
+      }
+    ],
+    "figuras": [
+      {
+        "traco": "Linguagem quase toda literal; sem analogia nem metáfora estendida. Só há figuras lexicalizadas e pontuais de mecânica/competição, que não voltam no texto.",
+        "frequencia": "evita",
+        "ocorrencias": 2,
+        "evidencias": [
+          "a taxa de juros do momento é travada",
+          "Para competir com esses novos títulos, o preço dos títulos antigos precisa ser ajustado para baixo"
+        ],
+        "contraexemplo": ""
+      }
+    ],
+    "postura": [
+      {
+        "traco": "Primeira pessoa mínima, oscilando entre o singular (escolha editorial) e o plural editorial (plano da série).",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": [
+          "Escolhi começar com o Tesouro Prefixado, que é o título com a dinâmica mais simples.",
+          "Hoje iniciamos nossa série",
+          "No próximo artigo, abordaremos o Tesouro Selic"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Distância impessoal: na exposição, o sujeito é genérico ('o investidor' 7x, 'quem' 4x); 'você' só aparece nos cenários hipotéticos e no fecho.",
+        "frequencia": "frequente",
+        "ocorrencias": 11,
+        "evidencias": [
+          "se o investidor optar por vender o título antes do vencimento",
+          "Quem precisa vender o título antes do vencimento pode ser afetado pela oscilação do preço"
+        ],
+        "contraexemplo": "Imagine que você comprou um título do Tesouro Prefixado"
+      },
+      {
+        "traco": "Autoridade implícita e tom categórico: recomenda e garante sem hesitar e sem admitir incerteza; a única atenuação é a passiva 'é considerado'.",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Ele não é recomendado para quem pode precisar resgatar o dinheiro antes do vencimento",
+          "você alcança seu objetivo com segurança, sem precisar se preocupar com oscilações no mercado financeiro"
+        ],
+        "contraexemplo": "Como o governo federal é considerado o credor mais seguro do país"
+      },
+      {
+        "traco": "Autoridade emprestada por epígrafe de investidor célebre, sem comentário próprio.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "— **Warren Buffett**, *The Intelligent Investor*"
+        ],
+        "contraexemplo": ""
+      }
+    ],
+    "leitor": [
+      {
+        "traco": "Pressupõe leitor iniciante: situa o produto institucionalmente e expande siglas, mas toma por sabidos juros, vencimento e carteira.",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "O Tesouro Prefixado (LTN) é um título público que faz parte do programa do Tesouro Direto, uma parceria entre o governo federal e a B3."
+        ],
+        "contraexemplo": "dentro de uma estratégia de goal-based investing"
+      },
+      {
+        "traco": "Introduz o desconhecido por cenário hipotético em segunda pessoa, com imperativo 'Imagine'.",
+        "frequencia": "frequente",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Imagine que você planeja comprar um terreno daqui a três anos",
+          "Imagine que você comprou um título do Tesouro Prefixado"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Antecipa as dúvidas do leitor nos subtítulos-pergunta, e não em perguntas retóricas no corpo.",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "## Para quem se destina esse investimento?"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Chamada para ação só como gancho de série ('Fique atento!'); não há convite a assinar, comentar ou compartilhar.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "pode ser uma alternativa interessante para sua carteira de investimentos. Fique atento!"
+        ],
+        "contraexemplo": ""
+      }
+    ],
+    "tecnico": [
+      {
+        "traco": "Exemplo numérico concreto (preço, taxa, data, quantidade, ganho), com o resultado dado sem mostrar o cálculo nem a fórmula.",
+        "frequencia": "frequente",
+        "ocorrencias": 2,
+        "evidencias": [
+          "pagou R$ 733,86 por ele, com uma taxa de juros anual de 10,88%.",
+          "resultando em um ganho de 36,27% para todo o período.",
+          "você decide investir esse valor comprando 100 títulos por R$ 733,86 cada um."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Mecanismo de preço explicado em prosa causal (juros sobem → preço cai), sem notação nem gráfico.",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Quando os juros de mercado sobem, o preço do título tende a cair, e vice-versa.",
+          "Isso acontece porque títulos mais recentes serão emitidos com taxas de juros mais altas"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Sem fórmula, tabela ou gráfico; a tabela regressiva de IR vira lista com marcadores e o IOF é descrito só qualitativamente.",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": [
+          "- 20% para aplicações de 181 a 360 dias;",
+          "com uma alíquota que diminui progressivamente conforme o tempo."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Dados de mercado e de regras (taxa ofertada, custódia, alíquotas) sem fonte, sem link, sem norma citada e sem data de referência.",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "Sabendo que o Tesouro Prefixado oferece uma taxa de rentabilidade de 10,88% ao ano",
+          "estão sujeitos a uma taxa de 0,20% ao ano, cobrada pela CBLC",
+          "estão sujeitos ao Imposto de Renda, com alíquotas que variam de 22,5% a 15%"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "O cenário do exemplo não é datado: vencimento em 01/01/2025 num post de 24/10/2024, com prazo implícito de cerca de 3 anos não declarado.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "com vencimento em 01/01/2025 e pagou R$ 733,86 por ele"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Números no formato brasileiro: R$ com centavos, vírgula decimal, percentual colado e data dd/mm/aaaa.",
+        "frequencia": "sempre",
+        "ocorrencias": 15,
+        "evidencias": [
+          "valor nominal de R$ 1.000,00 no vencimento",
+          "uma taxa de juros anual de 10,88%",
+          "com vencimento em 01/01/2025"
+        ],
+        "contraexemplo": ""
+      }
+    ],
+    "formatacao": [
+      {
+        "traco": "Negrito ausente na prosa; aparece só no pullquote (citação e nome do autor). Rótulos de pseudo-lista ficam sem negrito.",
+        "frequencia": "nunca",
+        "ocorrencias": 2,
+        "evidencias": [
+          "**\"O risco vem de não saber o que você está fazendo.\"**",
+          "**Warren Buffett**"
+        ],
+        "contraexemplo": "Previsibilidade: Se mantido até o vencimento"
+      },
+      {
+        "traco": "Itálico só em título de obra; o anglicismo fica em redondo.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "*The Intelligent Investor*"
+        ],
+        "contraexemplo": "dentro de uma estratégia de goal-based investing"
+      },
+      {
+        "traco": "Pullquote usado como epígrafe de abertura, com a atribuição depois de travessão em linha própria.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "[[PULLQUOTE: **\"O risco vem de não saber o que você está fazendo.\"**"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Uma única imagem, no topo, sem legenda.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "![](img-01)"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Subtítulos nominais e rótulos com maiúscula em cada palavra plena (Title Case, à inglesa); subtítulos-pergunta em caixa de frase.",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "## Vantagens e Riscos",
+          "## Caso Prático: Como o Tesouro Prefixado pode ajudar um investidor?",
+          "Marcação a Mercado: Quem precisa vender o título antes do vencimento"
+        ],
+        "contraexemplo": "## O que é o Tesouro Prefixado?"
+      },
+      {
+        "traco": "Pseudo-lista em parágrafos que começam por rótulo + dois-pontos, sem marcador nem negrito.",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Segurança: Como o governo federal é considerado o credor mais seguro do país",
+          "Previsibilidade: Se mantido até o vencimento, o Tesouro Prefixado oferece ao investidor"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Blocos de 1 a 5 frases (cerca de 20 a 130 palavras); os maiores ficam na explicação do mecanismo da marcação a mercado.",
+        "frequencia": "frequente",
+        "ocorrencias": 25,
+        "evidencias": [
+          "Esse movimento de alta e baixa no valor do título ocorre continuamente até o vencimento, o que pode resultar em ganhos ou perdas"
+        ],
+        "contraexemplo": ""
+      }
+    ]
+  },
+  "antipadroes_observados": [
+    "(a) Nunca neste arquivo: negrito ou itálico de ênfase na prosa; pergunta retórica no corpo; travessão na prosa; humor ou ironia; metáfora ou analogia estendida; anedota ou experiência pessoal; objeção do leitor tratada; fórmula ($$), tabela ou gráfico; link ou fonte citada no corpo; botão de CTA ([[CTA]]); riscado; código.",
+    "(b) Tique de manual/IA em pt-BR, presente mesmo sendo texto pre-pipeline: abertura de frase com 'Vale destacar que'.",
+    "(b) Gerúndio de consequência em cadeia ('resultando em', 'permitindo que', 'obtendo um ganho antecipado').",
+    "(b) Fecho genérico 'Em resumo' + adjetivos vazios ('excelente opção', 'alternativa interessante', 'conceito crucial', 'exemplo clássico').",
+    "(b) Pares sinonímicos de reforço ('estabilidade e previsibilidade', 'segurança e previsibilidade', 'previsível e sem surpresas').",
+    "(b) Esqueleto de subtítulos-template (O que é / Como funciona / Vantagens e Riscos / Para quem / Conclusão) e reexplicação redundante do mesmo conceito.",
+    "(b) Imperativo de fecho 'Fique atento!'."
+  ],
+  "incerteza": "Amostra única e curta (cerca de 1.240 palavras), pre-pipeline, section_name null, abaixo do piso de 5.000 palavras. O formato de guia de produto para iniciantes pode estar ditando parte dos traços (esqueleto FAQ, impessoalidade, ausência de figuras), e daqui não dá para separar voz de formato. As aspas aparecem uma vez só (par reto ASCII no pullquote), o que não permite concluir preferência entre aspas retas e tipográficas. A contagem de palavras exclui o frontmatter (o frontmatter registra palavras_md 1252, API 1230). [VERIFICAR: a epígrafe é atribuída a Warren Buffett com a obra 'The Intelligent Investor', que é de Benjamin Graham; registrado só como dado de citação, não como traço de estilo.]"
+}

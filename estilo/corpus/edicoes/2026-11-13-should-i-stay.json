@@ -1,0 +1,1113 @@
+{
+ "slug_repo": "2026-11-13-should-i-stay",
+ "slug_site": "should-i-stay-or-should-i-go",
+ "linha_editorial": "Spoiler",
+ "rascunho": "_arquivo/drafts/2026-11-13_should-i-stay.md",
+ "rascunho_tipo": "rascunho",
+ "post_md_base": {
+  "commit": "atual",
+  "similaridade_base": 0.972,
+  "similaridade_versao_atual": 0.972
+ },
+ "palavras": {
+  "rascunho": 2034,
+  "post_md": 2264,
+  "publicado": 2160
+ },
+ "similaridade": {
+  "rascunho_post_md": 0.724,
+  "post_md_publicado": 0.972,
+  "rascunho_publicado": 0.713
+ },
+ "resumo_classe": {
+  "divisao_paragrafo": 21,
+  "negrito_adicionado": 14,
+  "substituicao": 5,
+  "cta": 4,
+  "subtitulo_h2": 2,
+  "pontuacao": 2,
+  "remocao": 2,
+  "imagem": 1,
+  "legenda": 1,
+  "tipografia_aspas": 1,
+  "titulo_post": 1,
+  "subtitulo_post": 1
+ },
+ "resumo_natureza": {
+  "estilo": 46,
+  "layout-substack": 4,
+  "marketing": 4,
+  "conteúdo/fato": 1
+ },
+ "sinais": {
+  "acrescimo_autoral": 6,
+  "reversao": 7
+ },
+ "operacoes": [
+  {
+   "classe": "imagem",
+   "natureza": "layout-substack",
+   "antes": "",
+   "depois": "⟦IMG⟧",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": null,
+   "bloco_depois": 1,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "devo ficar ou devo ir? [[…]] A gravação aconteceu no meio de",
+   "pos_antes": [
+    31,
+    31
+   ],
+   "tipo": "insercao",
+   "id": 1
+  },
+  {
+   "classe": "cta",
+   "natureza": "marketing",
+   "antes": "",
+   "depois": "⟦CTA⟧",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": null,
+   "bloco_depois": 10,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": ", e não com desabafo. [[…]] Antes, uma ressalva O que",
+   "pos_antes": [
+    221,
+    221
+   ],
+   "tipo": "insercao",
+   "id": 2
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "estilo",
+   "antes": "é",
+   "depois": "costuma ser",
+   "palavras_antes": 1,
+   "palavras_depois": 2,
+   "bloco_antes": 8,
+   "bloco_depois": 16,
+   "sinais": [
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": "rascunho",
+   "contexto": "Para todo o resto, que [[…]] a maioria dos casos, a",
+   "pos_antes": [
+    301,
+    302
+   ],
+   "id": 3
+  },
+  {
+   "classe": "subtitulo_h2",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "de Carreira",
+   "palavras_antes": 0,
+   "palavras_depois": 2,
+   "bloco_antes": null,
+   "bloco_depois": 17,
+   "sinais": [
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "Clima é uma coisa. Capital [[…]] é outra. Quando alguém me",
+   "pos_antes": [
+    325,
+    325
+   ],
+   "id": 4
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "estilo",
+   "antes": "ano",
+   "depois": "longo prazo",
+   "palavras_antes": 1,
+   "palavras_depois": 2,
+   "bloco_antes": 11,
+   "bloco_depois": 22,
+   "sinais": [
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": "rascunho",
+   "contexto": "conta, que só aparece no [[…]] : o que você está acumulando",
+   "pos_antes": [
+    382,
+    383
+   ],
+   "id": 5
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "estilo",
+   "antes": "numa casa",
+   "depois": "num lugar",
+   "palavras_antes": 2,
+   "palavras_depois": 2,
+   "bloco_antes": 16,
+   "bloco_depois": 30,
+   "sinais": [
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": "rascunho",
+   "contexto": "mais do que um time simpático [[…]] que parou de te ensinar.",
+   "pos_antes": [
+    601,
+    603
+   ],
+   "id": 6
+  },
+  {
+   "classe": "pontuacao",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": ":",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": null,
+   "bloco_depois": 33,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "ele, desqualificam um emprego são [[…]] poucas chances de desenvolver habilidades raras",
+   "pos_antes": [
+    641,
+    641
+   ],
+   "id": 7
+  },
+  {
+   "classe": "pontuacao",
+   "natureza": "estilo",
+   "antes": ",",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 17,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "poucas chances de desenvolver habilidades raras [[…]] um trabalho que você considera inútil",
+   "pos_antes": [
+    647,
+    648
+   ],
+   "id": 8
+  },
+  {
+   "classe": "remocao",
+   "natureza": "estilo",
+   "antes": "e a",
+   "depois": "",
+   "palavras_antes": 2,
+   "palavras_depois": 0,
+   "bloco_antes": 17,
+   "bloco_depois": null,
+   "sinais": [
+    "reversao"
+   ],
+   "restaurou_rascunho": null,
+   "origem_antes": "pipeline",
+   "contexto": "que você considera inútil ou nocivo [[…]] obrigação de conviver com gente de",
+   "pos_antes": [
+    656,
+    658
+   ],
+   "id": 9
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "estilo",
+   "antes": "é",
+   "depois": "pode ser",
+   "palavras_antes": 1,
+   "palavras_depois": 2,
+   "bloco_antes": 29,
+   "bloco_depois": 50,
+   "sinais": [
+    "reversao",
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": "pipeline",
+   "contexto": "poucas pessoas, e a estimativa [[…]] imprecisa. A conclusão de Levitt",
+   "pos_antes": [
+    1071,
+    1072
+   ],
+   "id": 10
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "estilo",
+   "antes": "resolvem um pelo outro",
+   "depois": "anulam",
+   "palavras_antes": 4,
+   "palavras_depois": 1,
+   "bloco_antes": 34,
+   "bloco_depois": 56,
+   "sinais": [
+    "reversao",
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": "pipeline",
+   "contexto": ". Os dois conselhos não se [[…]] . Como matemático, eu resolvo",
+   "pos_antes": [
+    1333,
+    1337
+   ],
+   "id": 11
+  },
+  {
+   "classe": "cta",
+   "natureza": "marketing",
+   "antes": "",
+   "depois": "⟦CTA⟧",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": null,
+   "bloco_depois": 59,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "sua tendência vai ser ignorá-lo. [[…]] No fundo, a regra é",
+   "pos_antes": [
+    1430,
+    1430
+   ],
+   "tipo": "insercao",
+   "id": 12
+  },
+  {
+   "classe": "remocao",
+   "natureza": "conteúdo/fato",
+   "antes": ", mas os números complicam essa fama. Um levantamento sobre os dez principais corredores de cada temporada da NFL, a liga profissional de futebol americano dos Estados Unidos, entre 1991 e 2017 examinou a jogada em que o tamanho deveria pesar mais: a corrida curta, perto da linha do gol. Encontrou de tudo, de Maurice Jones-Drew, com 1, 70 m, a jogadores de mais de 1, 85 m. A conclusão do autor do levantamento é que, ali, o tamanho não decide. O melhor corredor de linha de gol é simplesmente o melhor corredor. O que decide, então, é a modalidade",
+   "depois": "",
+   "palavras_antes": 99,
+   "palavras_depois": 0,
+   "bloco_antes": 46,
+   "bloco_depois": null,
+   "sinais": [
+    "reversao"
+   ],
+   "restaurou_rascunho": null,
+   "origem_antes": "pipeline",
+   "contexto": "é de jogador baixo e compacto [[…]] . O corpo que rende como",
+   "pos_antes": [
+    1800,
+    1918
+   ],
+   "id": 13
+  },
+  {
+   "classe": "cta",
+   "natureza": "marketing",
+   "antes": "",
+   "depois": "⟦CTA⟧",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": null,
+   "bloco_depois": 75,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "seus coqueiros ficam sem uso. [[…]] Procure emprego enquanto tem um Decidir",
+   "pos_antes": [
+    2077,
+    2077
+   ],
+   "tipo": "insercao",
+   "id": 14
+  },
+  {
+   "classe": "subtitulo_h2",
+   "natureza": "estilo",
+   "antes": "o que decide por você",
+   "depois": "…",
+   "palavras_antes": 5,
+   "palavras_depois": 0,
+   "bloco_antes": 52,
+   "bloco_depois": 79,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": "rascunho",
+   "contexto": "de dizer não. Escreva hoje [[…]] É possível, e até provável",
+   "pos_antes": [
+    2115,
+    2120
+   ],
+   "id": 15
+  },
+  {
+   "classe": "cta",
+   "natureza": "marketing",
+   "antes": "",
+   "depois": "⟦CTA⟧",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": null,
+   "bloco_depois": 88,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": ", me conte qual foi. [[…]] Referências Steven D. Levitt,",
+   "pos_antes": [
+    2472,
+    2472
+   ],
+   "tipo": "insercao",
+   "id": 16
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "A gravação aconteceu no meio de uma crise.",
+   "depois": "A banda tinha acabado de trocar de empresário",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 1,
+   "bloco_depois": 3,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "A gravação aconteceu no meio de uma crise. A banda tinha acabado de trocar de empresário",
+   "pos_antes": [
+    39,
+    41
+   ],
+   "id": 17
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "Mick Jones, justamente quem canta a faixa.",
+   "depois": "No ano seguinte, Jones estava fora da",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 1,
+   "bloco_depois": 4,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "Mick Jones, justamente quem canta a faixa. No ano seguinte, Jones estava fora da",
+   "pos_antes": [
+    88,
+    90
+   ],
+   "id": 18
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "dessa história porque ela não tem moral fácil.",
+   "depois": "Ficar custou caro. Sair também. E",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 3,
+   "bloco_depois": 7,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "dessa história porque ela não tem moral fácil. Ficar custou caro. Sair também. E",
+   "pos_antes": [
+    146,
+    148
+   ],
+   "id": 19
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "fácil. Ficar custou caro. Sair também.",
+   "depois": "E a pergunta do título continua sendo feita",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 3,
+   "bloco_depois": 8,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "fácil. Ficar custou caro. Sair também. E a pergunta do título continua sendo feita",
+   "pos_antes": [
+    153,
+    155
+   ],
+   "id": 20
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "layout-substack",
+   "antes": "a seguir vale para quem tem margem para escolher",
+   "depois": ". Boleto vence todo mês, e eu",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 6,
+   "bloco_depois": 13,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "a seguir vale para quem tem margem para escolher. Boleto vence todo mês, e eu",
+   "pos_antes": [
+    236,
+    238
+   ],
+   "obs": "parágrafo só com pontuação no site (provável deslize)",
+   "id": 21,
+   "natureza_fonte": "GATE A, 2026-11-15: parágrafo só com '.', deslize no editor"
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": ", e eu não vou fingir que não.",
+   "depois": "Salvo situações extremas, ninguém deveria sair sem",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 7,
+   "bloco_depois": 15,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": ", e eu não vou fingir que não. Salvo situações extremas, ninguém deveria sair sem",
+   "pos_antes": [
+    250,
+    252
+   ],
+   "id": 22
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "emprego, quase sempre o motivo é clima.",
+   "depois": "O chefe é difícil. O time é",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 10,
+   "bloco_depois": 19,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "emprego, quase sempre o motivo é clima. O chefe é difícil. O time é",
+   "pos_antes": [
+    344,
+    346
+   ],
+   "id": 23
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "motivo é clima. O chefe é difícil.",
+   "depois": "O time é frio. A segunda-feira pesa",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 10,
+   "bloco_depois": 20,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "motivo é clima. O chefe é difícil. O time é frio. A segunda-feira pesa",
+   "pos_antes": [
+    349,
+    351
+   ],
+   "id": 24
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "chefe é difícil. O time é frio.",
+   "depois": "A segunda-feira pesa. Tudo isso é real",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 10,
+   "bloco_depois": 21,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "chefe é difícil. O time é frio. A segunda-feira pesa. Tudo isso é real",
+   "pos_antes": [
+    354,
+    356
+   ],
+   "id": 25
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "e controle sobre o que você faz).",
+   "depois": "Eu coloco na mesma conta a marca da",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 12,
+   "bloco_depois": 24,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "e controle sobre o que você faz). Eu coloco na mesma conta a marca da",
+   "pos_antes": [
+    453,
+    455
+   ],
+   "id": 26
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "Nem todo capital sai pela porta com você.",
+   "depois": "Saber operar o sistema interno que só existe",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 13,
+   "bloco_depois": 26,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "Nem todo capital sai pela porta com você. Saber operar o sistema interno que só existe",
+   "pos_antes": [
+    490,
+    492
+   ],
+   "id": 27
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "título de dívida) vale em qualquer lugar.",
+   "depois": "O primeiro é capital específico. O segundo",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 13,
+   "bloco_depois": 27,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "título de dívida) vale em qualquer lugar. O primeiro é capital específico. O segundo",
+   "pos_antes": [
+    534,
+    536
+   ],
+   "id": 28
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "simpático numa casa que parou de te ensinar.",
+   "depois": "O trabalho ruim pode ser um bom emprego",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 16,
+   "bloco_depois": 31,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "simpático numa casa que parou de te ensinar. O trabalho ruim pode ser um bom emprego",
+   "pos_antes": [
+    608,
+    610
+   ],
+   "id": 29
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "limite, e o próprio Newport o reconhece.",
+   "depois": "As três coisas que, para ele,",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 17,
+   "bloco_depois": 33,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "limite, e o próprio Newport o reconhece. As três coisas que, para ele,",
+   "pos_antes": [
+    628,
+    630
+   ],
+   "id": 30
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "com gente de quem você realmente não gosta.",
+   "depois": "Clima entra na conta. Só não fecha",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 17,
+   "bloco_depois": 37,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "com gente de quem você realmente não gosta. Clima entra na conta. Só não fecha",
+   "pos_antes": [
+    669,
+    671
+   ],
+   "id": 31
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": ", jogavam uma moeda para ajudar a decidir.",
+   "depois": "Cara, muda. Coroa, fica como",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 28,
+   "bloco_depois": 49,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": ", jogavam uma moeda para ajudar a decidir. Cara, muda. Coroa, fica como",
+   "pos_antes": [
+    1005,
+    1007
+   ],
+   "id": 32
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "de escolhas grandes, talvez sejamos cautelosos demais.",
+   "depois": "Duas ressalvas: eram voluntários, e a",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 30,
+   "bloco_depois": 52,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "de escolhas grandes, talvez sejamos cautelosos demais. Duas ressalvas: eram voluntários, e a",
+   "pos_antes": [
+    1090,
+    1092
+   ],
+   "id": 33
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "dois conselhos não se resolvem um pelo outro.",
+   "depois": "Como matemático, eu resolvo pelo meu critério",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 34,
+   "bloco_depois": 57,
+   "sinais": [
+    "reversao"
+   ],
+   "restaurou_rascunho": true,
+   "origem_antes": null,
+   "contexto": "dois conselhos não se resolvem um pelo outro. Como matemático, eu resolvo pelo meu critério",
+   "pos_antes": [
+    1337,
+    1339
+   ],
+   "id": 34
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "que decide, então, é a modalidade.",
+   "depois": "O corpo que rende como running back não",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 47,
+   "bloco_depois": 71,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "que decide, então, é a modalidade. O corpo que rende como running back não",
+   "pos_antes": [
+    1918,
+    1920
+   ],
+   "id": 35
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "começo; esse é o preço de aprender.",
+   "depois": "O problema é a que nunca fica barata",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 48,
+   "bloco_depois": 73,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "começo; esse é o preço de aprender. O problema é a que nunca fica barata",
+   "pos_antes": [
+    2033,
+    2035
+   ],
+   "id": 36
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "O problema é a que nunca fica barata.",
+   "depois": "A mesma hora de estudo rende mais onde",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 48,
+   "bloco_depois": 74,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "O problema é a que nunca fica barata. A mesma hora de estudo rende mais onde",
+   "pos_antes": [
+    2042,
+    2044
+   ],
+   "id": 37
+  },
+  {
+   "classe": "negrito_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "Cal Newport",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 12,
+   "bloco_depois": 23,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "que você está acumulando ali. Cal Newport, professor de ciência da computação",
+   "pos_antes": [
+    391,
+    393
+   ],
+   "id": 38
+  },
+  {
+   "classe": "negrito_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "career capital",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 12,
+   "bloco_depois": 23,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "e carreira, chama isso de career capital, capital de carreira: as",
+   "pos_antes": [
+    411,
+    413
+   ],
+   "id": 39
+  },
+  {
+   "classe": "negrito_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "O segundo é transferível, e é ele que interessa.",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 13,
+   "bloco_depois": 27,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "O primeiro é capital específico. O segundo é transferível, e é ele que interessa. Por isso a pergunta que eu",
+   "pos_antes": [
+    541,
+    552
+   ],
+   "id": 40
+  },
+  {
+   "classe": "negrito_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "O seu trabalho ainda trabalha por você?",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 15,
+   "bloco_depois": 29,
+   "sinais": [
+    "reversao"
+   ],
+   "restaurou_rascunho": true,
+   "origem_antes": null,
+   "contexto": "? \". É esta: O seu trabalho ainda trabalha por você? Um time desagradável numa casa que",
+   "pos_antes": [
+    571,
+    579
+   ],
+   "id": 41
+  },
+  {
+   "classe": "negrito_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "inútil ou nocivo",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 17,
+   "bloco_depois": 35,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": ", um trabalho que você considera inútil ou nocivo e a obrigação de conviver com",
+   "pos_antes": [
+    653,
+    656
+   ],
+   "id": 42
+  },
+  {
+   "classe": "negrito_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "Steven Levitt",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 28,
+   "bloco_depois": 48,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "aponta para o outro lado. Steven Levitt, economista e coautor do livro",
+   "pos_antes": [
+    963,
+    965
+   ],
+   "id": 43
+  },
+  {
+   "classe": "negrito_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "Freakonomics",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 28,
+   "bloco_depois": 48,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": ", economista e coautor do livro Freakonomics, publicou em 2021 um experimento",
+   "pos_antes": [
+    971,
+    972
+   ],
+   "id": 44
+  },
+  {
+   "classe": "negrito_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "diante de escolhas grandes, talvez sejamos cautelosos demais.",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 30,
+   "bloco_depois": 51,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "conclusão de Levitt é que, diante de escolhas grandes, talvez sejamos cautelosos demais. Duas ressalvas: eram voluntários,",
+   "pos_antes": [
+    1081,
+    1091
+   ],
+   "id": 45
+  },
+  {
+   "classe": "negrito_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "Em 2000, Griffeth, Hom e Gaertner",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 31,
+   "bloco_depois": 53,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": ". Há um segundo dado. Em 2000, Griffeth, Hom e Gaertner fizeram uma meta-análise clássica sobre rotatividade",
+   "pos_antes": [
+    1147,
+    1155
+   ],
+   "id": 46
+  },
+  {
+   "classe": "negrito_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "O que melhor previa a saída não foi salário nem satisfação. Foi a intenção declarada de sair.",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 31,
+   "bloco_depois": 53,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "antecipa um pedido de demissão. O que melhor previa a saída não foi salário nem satisfação. Foi a intenção declarada de sair. A correlação entre intenção e saída",
+   "pos_antes": [
+    1187,
+    1206
+   ],
+   "id": 47
+  },
+  {
+   "classe": "negrito_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "olhe a derivada, não o nível",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 34,
+   "bloco_depois": 57,
+   "sinais": [
+    "reversao"
+   ],
+   "restaurou_rascunho": true,
+   "origem_antes": null,
+   "contexto": "eu resolvo pelo meu critério: olhe a derivada, não o nível. O que importa não é",
+   "pos_antes": [
+    1347,
+    1354
+   ],
+   "id": 48
+  },
+  {
+   "classe": "negrito_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "É a taxa de crescimento.",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 35,
+   "bloco_depois": 58,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "ruim está o clima hoje. É a taxa de crescimento. Enquanto o seu capital de carreira",
+   "pos_antes": [
+    1373,
+    1379
+   ],
+   "id": 49
+  },
+  {
+   "classe": "negrito_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "Às vezes a casa é ótima e paga por um talento que, para você, nunca vai ficar barato de manter.",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 48,
+   "bloco_depois": 72,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "vezes a casa é ruim. Às vezes a casa é ótima e paga por um talento que, para você, nunca vai ficar barato de manter. Você não está errado, e",
+   "pos_antes": [
+    1986,
+    2009
+   ],
+   "id": 50
+  },
+  {
+   "classe": "negrito_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "O problema é a que nunca fica barata.",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 48,
+   "bloco_depois": 73,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "é o preço de aprender. O problema é a que nunca fica barata. A mesma hora de estudo rende",
+   "pos_antes": [
+    2034,
+    2043
+   ],
+   "id": 51
+  },
+  {
+   "classe": "legenda",
+   "natureza": "layout-substack",
+   "antes": "uma curva de capital de carreira transferível ao longo do tempo, sem números nos eixos. No trecho em que ela sobe, o clima ruim é custo. No trecho em que ela fica plana, a dúvida semanal vira sinal de saída.",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 37,
+   "bloco_depois": 61,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "comece um pouco mais baixo. [[…]] Três sinais para ir 1.",
+   "pos_antes": [
+    1512,
+    1513
+   ],
+   "id": 52
+  },
+  {
+   "classe": "tipografia_aspas",
+   "natureza": "layout-substack",
+   "antes": "",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": null,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "",
+   "ocorrencias": 21,
+   "id": 53
+  },
+  {
+   "id": 54,
+   "classe": "titulo_post",
+   "natureza": "estilo",
+   "antes": "Should I stay or should I go: seu trabalho ainda trabalha por você?",
+   "depois": "Should I stay or should I go ...",
+   "palavras_antes": 13,
+   "palavras_depois": 8,
+   "bloco_antes": null,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": ""
+  },
+  {
+   "id": 55,
+   "classe": "subtitulo_post",
+   "natureza": "estilo",
+   "antes": "Clima ruim não é motivo suficiente para sair. Clima bom não é motivo suficiente para ficar. Três sinais para cada lado e uma regra para escrever antes do próximo mês ruim.",
+   "depois": "Clima ruim não é motivo suficiente para sair. Clima bom não é motivo suficiente para ficar.",
+   "palavras_antes": 31,
+   "palavras_depois": 16,
+   "bloco_antes": null,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": ""
+  }
+ ]
+}

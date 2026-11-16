@@ -1,0 +1,529 @@
+{
+  "arquivo": "estilo/corpus/publicados/o-papel-do-cdb-na-transformacao-de.md",
+  "genero": "substack",
+  "palavras": 1697,
+  "eixos": {
+    "lexico": [
+      {
+        "traco": "Campo semântico dominante de banco e regulação (captação, passivo, ativo, funding, liquidez, compulsório, alavancagem, balanço, spread), em registro formal-explicativo.",
+        "frequencia": "sempre",
+        "ocorrencias": 40,
+        "evidencias": [
+          "Para o investidor, o CDB é ativo: instrumento de acumulação de capital e gestão de liquidez.",
+          "precisa repor caixa e respeitar limites de alavancagem e uma das formas de repor é emitir CDB."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Sigla sempre expandida na primeira menção, entre parênteses, com a expansão em negrito (siglas centrais) ou em itálico (expansão em inglês) seguida de tradução.",
+        "frequencia": "frequente",
+        "ocorrencias": 10,
+        "evidencias": [
+          "É aí que entra o CDB (**Certificado de Depósito Bancário**).",
+          "chama-se ALM (*Asset and Liability Management*, ou Gestão de Ativos e Passivos)",
+          "um índice de inflação como o IPCA (Índice de Preços ao Consumidor Amplo)"
+        ],
+        "contraexemplo": "Selic, CPF, CNPJ e B3 aparecem no corpo sem expansão; CDI é expandido duas vezes (seções 2 e 4)."
+      },
+      {
+        "traco": "Termo-tese repetido como fio condutor, sem troca por sinônimo: 'transformação' (de prazo/de maturidade) aparece ~17 vezes e amarra todas as seções.",
+        "frequencia": "sempre",
+        "ocorrencias": 17,
+        "evidencias": [
+          "o preço que o banco está disposto a pagar pela transformação de prazo que o CDB permite",
+          "a mesma transformação de prazo que permite ao banco financiar crédito de longo prazo"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Anglicismo técnico aceito e marcado em itálico (spread, funding, nomes de índices de Basileia), sem tentativa de aportuguesar.",
+        "frequencia": "frequente",
+        "ocorrencias": 10,
+        "evidencias": [
+          "O dinheiro de pessoas físicas captado via CDB é tratado como *funding* mais estável",
+          "é o *spread* bancário e é justamente esse *spread* que determina"
+        ],
+        "contraexemplo": "IPCA mais um ‘spread’ prefixado (aspas simples em vez de itálico, uma vez)."
+      },
+      {
+        "traco": "Advérbios e determinantes de ênfase/precisão recorrentes: 'justamente', 'exatamente', 'próprio/própria' para reforçar a autoridade da fonte.",
+        "frequencia": "frequente",
+        "ocorrencias": 7,
+        "evidencias": [
+          "O próprio Banco Central usa um termo técnico direto",
+          "É esse processo, nomeado pelo próprio regulador, que dá ao CDB seu papel",
+          "o indicador cujo objetivo declarado é exatamente mitigar excessos"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Locuções de ancoragem conceitual: 'no fundo', 'de fato', 'em termos técnicos'.",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Todo investimento em renda fixa bancária é, no fundo, uma negociação sobre o tempo.",
+          "## O que é, de fato, um CDB",
+          "Em termos técnicos, a definição dada pela Comissão de Valores Mobiliários"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Adjetivação valorativa concentrada na seção de referências (fundamentais, definitivo, essencial, robustos, ideal); o corpo é sóbrio.",
+        "frequencia": "ocasional",
+        "ocorrencias": 6,
+        "evidencias": [
+          "Considerado o manual definitivo do mercado financeiro brasileiro.",
+          "Uma obra técnica essencial para quem deseja entender a matemática",
+          "oferece materiais técnicos robustos"
+        ],
+        "contraexemplo": "No corpo, a qualificação é contida: 'O risco de crédito do CDB é baixo, mas não inexistente'."
+      }
+    ],
+    "sintaxe": [
+      {
+        "traco": "Frase longa, frequentemente um parágrafo inteiro, carregada de parênteses, apostos e orações encadeadas por vírgula (50-80 palavras nos trechos regulatórios).",
+        "frequencia": "frequente",
+        "ocorrencias": 8,
+        "evidencias": [
+          "o processo pelo qual um banco pega dinheiro captado a prazos curtos (como um CDB de liquidez diária) e o transforma em crédito",
+          "o LCR (*Liquidity Coverage Ratio*, instituído pela Resolução CMN nº 4.401/2015), que mede a capacidade do banco"
+        ],
+        "contraexemplo": "Abertura em frases curtas de parágrafo único: 'Todo investimento em renda fixa bancária é, no fundo, uma negociação sobre o tempo.'"
+      },
+      {
+        "traco": "Frase clivada 'É esse/essa/aí ... que' para apontar o elemento que explica, geralmente no fecho de parágrafo ou de seção.",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "É esse processo, nomeado pelo próprio regulador, que dá ao CDB seu papel",
+          "E é também essa ligação que fecha a lógica de remuneração descrita na seção anterior",
+          "É essa função e não a rentabilidade que o CDB paga, que é apenas o preço dessa função, que explica"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Correção por contraste 'não é X, é Y' / 'mais do que X: Y' para fixar a definição.",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "o rendimento que o investidor recebe não é um número arbitrário, é o preço que o banco está disposto a pagar",
+          "O CDI (**Certificado de Depósito Interbancário**) não é um produto de investimento, é um título",
+          "Emitir CDB para o público, portanto, faz mais do que captar dinheiro: melhora a saúde regulatória do banco."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Ressalva concessiva curta dentro da frase ('mas não', 'embora não'), que delimita a afirmação sem abrir parágrafo.",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "O risco de crédito do CDB é baixo, mas não inexistente",
+          "A cobertura reduz o risco para o valor garantido, mas não elimina fricção prática",
+          "é comum, embora não universal, que o CDB pós-fixado seja atrelado a um percentual do CDI"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Enumeração ordinal em prosa e anáfora paralela de abertura de parágrafo, em vez de lista com marcadores.",
+        "frequencia": "frequente",
+        "ocorrencias": 7,
+        "evidencias": [
+          "A primeira é o compulsório: o Bacen exige que os bancos recolham uma parcela de tudo o que captam.",
+          "Para reserva de emergência, o CDB pós-fixado com liquidez diária",
+          "Para um objetivo com prazo definido, como a compra de um imóvel em dois anos"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Aposto intercalado entre vírgulas que retoma o conceito no meio da frase, às vezes deixando a sintaxe ambígua.",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "É essa ligação, CDB remunerado com base na taxa DI, que por sua vez reflete o custo do dinheiro entre bancos, que costuma",
+          "A mesma característica que explica a existência do CDB do lado do banco, a transformação de um compromisso de prazo em outro, é"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Frase curta de síntese como fecho de seção, com conector conclusivo.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Emitir CDB para o público, portanto, faz mais do que captar dinheiro: melhora a saúde regulatória do banco.",
+          "É comum confundir os dois termos, mas eles cumprem funções diferentes."
+        ],
+        "contraexemplo": ""
+      }
+    ],
+    "pontuacao": [
+      {
+        "traco": "Dois-pontos como articulador principal: anuncia definição, consequência, desdobramento ou a tese; ~19 ocorrências no corpo (~1 a cada 90 palavras).",
+        "frequencia": "sempre",
+        "ocorrencias": 19,
+        "evidencias": [
+          "ele é a formalização de um acordo: você cede o seu tempo e o banco transforma esse fôlego em rentabilidade.",
+          "um CDB prefixado (...) trava a rentabilidade: o investidor sabe exatamente o valor nominal que vai resgatar",
+          "o que o investidor está negociando com o banco é o mesmo: abrir mão de disponibilidade imediata"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Parênteses frequentes para glosa, expansão de sigla, exemplo e fonte normativa (~19 no corpo).",
+        "frequencia": "frequente",
+        "ocorrencias": 19,
+        "evidencias": [
+          "(ou a qualquer momento, nas modalidades com liquidez diária)",
+          "(um financiamento imobiliário, por exemplo)",
+          "(Circular BC nº 3.869/2017, arts. 4º e 5º)"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Travessão quase ausente: uma única ocorrência, para virada enfática.",
+        "frequencia": "evita",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Para o banco que o emite, é o oposto — é passivo, é dívida."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Aspas tipográficas duplas (“ ”) para citação literal de documento oficial, com o trecho citado também em itálico; aspas simples tipográficas (‘ ’) uma vez para termo estrangeiro.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "existe justamente para “*mitigar excessos no processo de transformação de maturidade realizado pelas instituições*”",
+          "(IPCA mais um ‘spread’ prefixado)"
+        ],
+        "contraexemplo": "Definições oficiais mais longas vão em citação em bloco, sem aspas."
+      },
+      {
+        "traco": "Vírgula encadeando orações independentes (comma splice) e vírgula entre sujeito e verbo em frases longas.",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": [
+          "garante resgate imediato sem risco de perda de capital por oscilação de mercado, é o uso mais próximo de um depósito à vista remunerado",
+          "Um CDB pós-fixado pode usar essa taxa como indexador do seu rendimento, é comum, embora não universal",
+          "a uma taxa combinada no momento da aplicação (11% ao ano, como exemplo hipotético), trava a rentabilidade"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Prosa corrida no corpo; listas com marcadores só na seção final de referências. Parágrafos curtos (1-3 frases), com a quebra caindo após cada passo do argumento.",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": [
+          "A segunda é a exigência de colchões de liquidez sob as normas de Basileia III",
+          "- **Cálculo Financeiro das Tesourarias (José Roberto Securato):** Uma obra técnica essencial"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Nenhum ponto de exclamação no texto; uma única interrogação, no subtítulo.",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": [
+          "## Por que o banco precisa emitir CDB?"
+        ],
+        "contraexemplo": ""
+      }
+    ],
+    "arquitetura": [
+      {
+        "traco": "Abre com tese aforística em parágrafo de uma frase, desdobrada em parágrafos curtos que levam ao objeto ('É aí que entra o CDB').",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Todo investimento em renda fixa bancária é, no fundo, uma negociação sobre o tempo.",
+          "Para destravar esse capital e girar a sua carteira de crédito, a instituição precisa que você faça uma concessão."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Definição em camadas: primeiro a explicação em linguagem própria, depois a definição oficial literal em citação em bloco.",
+        "frequencia": "frequente",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Em termos técnicos, a definição dada pela Comissão de Valores Mobiliários, com base na Lei nº 4.728/1965 é:",
+          "O próprio Banco Central usa um termo técnico direto para descrever o que acontece com esse passivo dentro do banco:"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Progressão em seções que mudam de ponto de vista (investidor, banco, regulador, investidor de novo); moldura de dois lados repetida.",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "Para o investidor, o CDB é ativo (...). Para o banco que o emite, é o oposto",
+          "o que define seu uso do lado do investidor",
+          "preservando o *spread* que sustenta a operação de crédito do outro lado do seu balanço"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Remissão explícita a seções anteriores para costurar o argumento.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "E é também essa ligação que fecha a lógica de remuneração descrita na seção anterior",
+          "mitigar excessos no processo de transformação de maturidade descrito na seção anterior"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Exemplo entra depois do conceito, em geral entre parênteses ou como cenário de uso, e sinalizado como hipotético quando for.",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "e o transforma em crédito concedido a prazos longos (um financiamento imobiliário, por exemplo)",
+          "a uma taxa combinada no momento da aplicação (11% ao ano, como exemplo hipotético)"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Fecho que retoma a tese e a abertura (preço/função) num período único com tríade de 'por que'; depois, seção separada por régua com referências comentadas.",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": [
+          "que explica por que o produto existe, por que sua remuneração é ancorada ao custo do dinheiro entre bancos, e por que o Bacen regula",
+          "## Para continuar aprendendo"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Subtítulos H2 densos (um a cada ~230 palavras), funcionais: definição, contraste, pergunta, aplicação. O primeiro é metafórico.",
+        "frequencia": "sempre",
+        "ocorrencias": 7,
+        "evidencias": [
+          "## O Preço do Tempo",
+          "## CDB não é CDI",
+          "## Onde o CDB entra na sua carteira"
+        ],
+        "contraexemplo": ""
+      }
+    ],
+    "figuras": [
+      {
+        "traco": "Metáfora de negociação/preço (domínio comercial) para o tempo: abre no título da seção e volta no fecho como 'preço dessa função'.",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "## O Preço do Tempo",
+          "você cede o seu tempo e o banco transforma esse fôlego em rentabilidade",
+          "a rentabilidade que o CDB paga, que é apenas o preço dessa função"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Metáforas cotidianas curtas e não estendidas para mecânica financeira (destravar, girar, prateleira, ancorar, meio do caminho).",
+        "frequencia": "ocasional",
+        "ocorrencias": 5,
+        "evidencias": [
+          "Mais do que um produto na prateleira da corretora ou banco",
+          "o banco ancora o que paga no CDB ao custo real do dinheiro no mercado interbancário",
+          "independentemente do que aconteça com a Selic no meio do caminho"
+        ],
+        "contraexemplo": ""
+      }
+    ],
+    "postura": [
+      {
+        "traco": "Segunda pessoa ('você', 'sua') só na abertura e num subtítulo; o resto passa a 'o investidor' em terceira pessoa. Nenhuma primeira pessoa.",
+        "frequencia": "ocasional",
+        "ocorrencias": 6,
+        "evidencias": [
+          "O dinheiro parado na sua conta corrente oferece liquidez total para você",
+          "## Onde o CDB entra na sua carteira"
+        ],
+        "contraexemplo": "Para um objetivo com prazo definido (...) o investidor sabe exatamente o valor nominal que vai resgatar"
+      },
+      {
+        "traco": "Autoridade implícita, emprestada do regulador: a voz se apoia em norma, relatório e definição oficial em vez de declarar experiência própria.",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "É esse processo, nomeado pelo próprio regulador, que dá ao CDB seu papel",
+          "No **Relatório de Estabilidade Financeira** de abril de 2018, o Bacen explica que"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Incerteza tratada por qualificadores de frequência e limite ('pelo menos', 'mais comumente', 'costuma'), nunca por hesitação pessoal.",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "uma necessidade imposta pela regulação do Banco Central, em pelo menos três frentes",
+          "pós-fixada (mais comumente atrelada ao CDI",
+          "que costuma gerar a confusão entre os dois termos"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Discordância dirigida a um equívoco comum, que é nomeado e desfeito; sem humor nem ironia.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "É comum confundir os dois termos, mas eles cumprem funções diferentes.",
+          "o rendimento que o investidor recebe não é um número arbitrário"
+        ],
+        "contraexemplo": ""
+      }
+    ],
+    "leitor": [
+      {
+        "traco": "Pressupõe leitor com noção básica de investimento (conta corrente, corretora, Selic sem explicação), mas expande sigla e explica mecanismo institucional.",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": [
+          "independentemente do que aconteça com a Selic no meio do caminho",
+          "A taxa que baliza o mercado, chamada de taxa DI, é calculada e divulgada pela B3"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Introduz o desconhecido pelo nome do termo seguido de glosa e função ('chama-se X (...): sua missão é').",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": [
+          "A área responsável por administrar essa transformação dentro do banco chama-se ALM",
+          "sua missão é captar recursos, via CDB, entre outros instrumentos para financiar operações de crédito"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Sem imperativo, sem pergunta retórica no corpo e sem botão de CTA; o convite final é indireto, em terceira pessoa.",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": [
+          "Para quem deseja aprofundar o entendimento sobre o funcionamento estrutural da renda fixa e a engenharia bancária"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Aplicação prática ao leitor por perfil de objetivo (reserva, prazo definido, proteção de longo prazo).",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Para reserva de emergência, o CDB pós-fixado com liquidez diária, rendendo próximo de 100% do CDI",
+          "Para proteção patrimonial de médio e longo prazo, entre três e sete anos"
+        ],
+        "contraexemplo": ""
+      }
+    ],
+    "tecnico": [
+      {
+        "traco": "Cita norma no formato completo (tipo, órgão, nº, ano; artigos quando há), inline entre parênteses ou após 'com base na'.",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "com base na Lei nº 4.728/1965",
+          "(*Net Stable Funding Ratio*, instituído pela Resolução CMN nº 4.616/2017)",
+          "(Circular BC nº 3.869/2017, arts. 4º e 5º)"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Dado numérico em prosa, com R$ e % e limites precisos; nenhuma fórmula, nenhuma tabela.",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "até R$ 250 mil por CPF ou CNPJ, por instituição ou conglomerado financeiro, com um teto global de R$ 1 milhão",
+          "recebendo um fator de financiamento entre 90% e 100% no cálculo do índice"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Fonte datada citada pela data do documento, sem ressalva de atualização.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "No **Relatório de Estabilidade Financeira** de abril de 2018, o Bacen explica que"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Imagens inseridas no fim de seção, sem legenda.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "![](img-01)",
+          "![](img-02)"
+        ],
+        "contraexemplo": ""
+      }
+    ],
+    "formatacao": [
+      {
+        "traco": "Negrito no corpo para expansão de sigla central, conceito-chave e, uma vez, a frase-tese inteira (~11 no corpo).",
+        "frequencia": "frequente",
+        "ocorrencias": 11,
+        "evidencias": [
+          "**o rendimento que o investidor recebe não é um número arbitrário, é o preço que o banco está disposto a pagar pela transformação de prazo",
+          "o capital aplicado conta com a cobertura do **Fundo Garantidor de Créditos (FGC)**",
+          "é um título **emitido e negociado exclusivamente entre bancos**"
+        ],
+        "contraexemplo": "Na mesma enumeração, **prefixada** e **híbrida** vão em negrito e pós-fixada não."
+      },
+      {
+        "traco": "Itálico para termo estrangeiro e expansão de sigla em inglês, para título de publicação (nas referências) e dentro de citação literal entre aspas.",
+        "frequencia": "frequente",
+        "ocorrencias": 12,
+        "evidencias": [
+          "com um *spread* prefixado",
+          "O *Relatório de Estabilidade Financeira* (publicado semestralmente) é a melhor fonte pública",
+          "“*mitigar excessos no processo de transformação de maturidade realizado pelas instituições*”"
+        ],
+        "contraexemplo": "O mesmo relatório vai em negrito no corpo: 'No **Relatório de Estabilidade Financeira** de abril de 2018'."
+      },
+      {
+        "traco": "Citação em bloco reservada a definição oficial literal, inclusive de uma única expressão.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "> um título de crédito nominativo, transferível e de livre negociação",
+          "> transformação de maturidade."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Seção final de referências após régua '* * *': rótulos de categoria em negrito com dois-pontos e itens de lista que abrem com '**Título (Autor):**' seguido de descrição avaliativa.",
+        "frequencia": "sempre",
+        "ocorrencias": 7,
+        "evidencias": [
+          "**Livros de Referência:**",
+          "- **Mercado Financeiro: Produtos e Serviços (Eduardo Fortuna):** Considerado o manual definitivo"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Título do post e primeiro subtítulo em Title Case; demais subtítulos em caixa de frase.",
+        "frequencia": "frequente",
+        "ocorrencias": 2,
+        "evidencias": [
+          "O Papel do CDB na Transformação de Prazos",
+          "## O Preço do Tempo",
+          "## O CDB como passivo do banco"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Sem código, sem fórmula, sem pullquote e sem botão de CTA.",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": [],
+        "contraexemplo": ""
+      }
+    ]
+  },
+  "antipadroes_observados": [
+    "(a) Nunca usa primeira pessoa (eu/nós), relato pessoal, humor, ponto de exclamação, imperativo ou pergunta retórica no corpo.",
+    "(a) Nunca usa lista com marcadores no corpo argumentativo; enumera em prosa ('A primeira... A segunda... A terceira...').",
+    "(a) Quase nunca usa travessão (1 ocorrência).",
+    "(b) Contraste corretivo 'não é X, é Y' / 'mais do que X: Y', tique comum em texto gerado por IA em pt-BR: 'não é um número arbitrário, é o preço'; 'não é um produto de investimento, é um título'; 'Mais do que um produto na prateleira'.",
+    "(b) Fórmula de entrada 'É aí que entra o CDB' e muleta 'no fundo'.",
+    "(b) Fecho em tríade paralela: 'por que o produto existe, por que sua remuneração é ancorada (...), e por que o Bacen regula'.",
+    "(b) Gerúndio de consequência: 'garantindo que o banco capte a um custo menor do que empresta'.",
+    "(b) Adjetivação promocional e formato '**Rótulo:** descrição' nas referências: 'manual definitivo', 'obra técnica essencial', 'materiais técnicos robustos', 'o local ideal'."
+  ],
+  "incerteza": "Época 'pipeline': não dá para separar o que é do autor e o que veio do sistema editorial; os tiques de IA listados podem ser resíduo do pipeline, e os deslizes (comma splice, vírgula entre sujeito e verbo) podem ser da edição manual. Há marcas de revisão não concluída: 'não não possa' (palavra duplicada), espaço antes de vírgula em '3.869/2017, arts. 4º e 5º) , porque' e um período confuso no fecho ('É essa função e não a rentabilidade que o CDB paga, que é apenas o preço dessa função, que explica'). Um texto só, de ~1.700 palavras e sem section_name (linha editorial não informada): não permite concluir se a alternância negrito/itálico para o mesmo título e o par ‘spread’/*spread* são escolha ou descuido. As imagens são só marcadores (img-01, img-02) sem legenda, então não há como avaliar o texto visual."
+}

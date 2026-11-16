@@ -1,0 +1,540 @@
+{
+  "arquivo": "estilo/corpus/publicados/comece-com-o-simples.md",
+  "genero": "substack",
+  "palavras": 620,
+  "eixos": {
+    "lexico": [
+      {
+        "traco": "Campo semântico de produtos financeiros de varejo (renda fixa, renda variável, derivativos), nomeados pelo nome comercial ou pela sigla de mercado",
+        "frequencia": "frequente",
+        "ocorrencias": 20,
+        "evidencias": [
+          "produtos como Tesouro Direto, ETFs, ações, fundos de investimento, CRIs, CRAs e debêntures",
+          "por meio de opções e contratos futuros, como os contratos de mini-índice e mini-dólar",
+          "o ativo que, teoricamente, é considerado o de menor risco: o Tesouro Selic"
+        ]
+      },
+      {
+        "traco": "Par risco/retorno como eixo semântico do argumento; 'risco' e derivados aparecem em quase todos os parágrafos de conteúdo",
+        "frequencia": "frequente",
+        "ocorrencias": 9,
+        "evidencias": [
+          "com grandes retornos esperados, vêm grandes exposições ao risco",
+          "A essência do investimento, segundo ele, está na relação entre risco e retorno",
+          "e sempre envolvem um certo grau de risco"
+        ]
+      },
+      {
+        "traco": "Vocabulário de planejamento e metas de vida (objetivos, metas, planos, viagem, casa própria, aposentadoria) amarra o produto financeiro ao propósito pessoal",
+        "frequencia": "frequente",
+        "ocorrencias": 12,
+        "evidencias": [
+          "realizar a viagem dos sonhos, comprar a casa própria e poupar o suficiente para uma aposentadoria tranquila",
+          "analisar como podemos criar planos concretos para alcançá-los",
+          "à medida que forem necessários para a realização das suas metas"
+        ]
+      },
+      {
+        "traco": "Repetição lexical sem busca de sinônimo: 'alcançar' (6x) e 'objetivos' (6x) se repetem ao longo do texto, às vezes na mesma frase",
+        "frequencia": "frequente",
+        "ocorrencias": 12,
+        "evidencias": [
+          "Uma vez que esses objetivos são alcançados, é hora de traçar planos para alcançar metas mais significativas",
+          "desenvolver seus investimentos de forma a alcançar seus objetivos de vida",
+          "podem ser utilizados para alcançar objetivos financeiros específicos"
+        ]
+      },
+      {
+        "traco": "'Instrumentos (financeiros)' como termo guarda-chuva para produtos, repetido no subtítulo do post, num subtítulo interno e no corpo",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "exploraremos alguns instrumentos financeiros que podem nos ajudar nesse caminho",
+          "Os instrumentos que abordaremos nesta série são formas de investimento",
+          "**Por que Falar Sobre Instrumentos Financeiros?**"
+        ]
+      },
+      {
+        "traco": "Termo técnico só ganha explicação quando o argumento o usa (sigla expandida entre parênteses ou classificação por família); quando só enumerado, fica sem explicação e o texto adia a definição para posts futuros",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "títulos do Tesouro e CDBs (Certificados de Depósito Bancário)",
+          "Esses instrumentos, que pertencem à família dos derivativos, são complexos"
+        ],
+        "contraexemplo": "Tesouro Direto, ETFs, ações, fundos de investimento, CRIs, CRAs e debêntures"
+      },
+      {
+        "traco": "Registro formal-didático de norma culta: ênclise, nominalizações, verbos latinizados e conectores de texto expositivo",
+        "frequencia": "frequente",
+        "ocorrencias": 10,
+        "evidencias": [
+          "Para ele, investimento refere-se à aplicação de recursos com a expectativa de obtenção de retornos futuros.",
+          "Esses produtos, embora ofereçam retornos mais modestos, proporcionam uma base sólida",
+          "Vale ressaltar que, com essa definição, até mesmo produtos como a poupança podem ser considerados investimentos."
+        ]
+      },
+      {
+        "traco": "Anglicismos de mercado e de plataforma aceitos sem marcação (ETFs, posts, Substack no feminino), e um decalque idiomático do inglês",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": [
+          "Uma das propostas desta Substack é abordar esses objetivos comuns",
+          "A ideia desta série de posts é apresentar alguns desses títulos",
+          "todos possamos estar na mesma página, pelo menos em um nível básico"
+        ]
+      }
+    ],
+    "sintaxe": [
+      {
+        "traco": "Frases longas e de comprimento pouco variado: cerca de 25 frases, média de ~24 palavras, quase todas entre 17 e 33; nenhuma frase curta usada como ênfase",
+        "frequencia": "sempre",
+        "ocorrencias": 25,
+        "evidencias": [
+          "Ao longo dos últimos anos, trabalhando em algumas das principais instituições financeiras do país e estudando intensivamente o tema, percebi que",
+          "Esses produtos, embora ofereçam retornos mais modestos, proporcionam uma base sólida e menos arriscada para o crescimento do patrimônio."
+        ],
+        "contraexemplo": "Mantenha essa perspectiva em mente para as próximas leituras."
+      },
+      {
+        "traco": "Adjunto adverbial ou oração subordinada anteposta à oração principal, separada por vírgula, abrindo a frase",
+        "frequencia": "frequente",
+        "ocorrencias": 10,
+        "evidencias": [
+          "Uma vez que esses objetivos são alcançados, é hora de traçar planos",
+          "Na prática, muitos investidores poderiam traçar planos mais seguros para alcançar seus objetivos",
+          "Na próxima semana, iniciaremos nossa discussão sobre os Títulos do Tesouro Nacional"
+        ]
+      },
+      {
+        "traco": "Intercala entre sujeito e verbo (ou entre pronome relativo e verbo) uma oração relativa, concessiva, aposto ou advérbio entre vírgulas",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "Esses instrumentos, que pertencem à família dos derivativos, são complexos",
+          "Esses produtos, embora ofereçam retornos mais modestos, proporcionam uma base sólida",
+          "segundo Alexandre Assaf Neto, um dos principais autores na área de finanças no Brasil, é apresentada de forma abrangente em suas obras"
+        ]
+      },
+      {
+        "traco": "Coesão por demonstrativo anafórico abrindo a frase ou o parágrafo (Esse/Esses/Este + substantivo que retoma o anterior)",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "Esse desvio é necessário para que, ao discutirmos produtos",
+          "Esses retornos podem vir na forma de rendimentos financeiros, ganhos de capital ou outros benefícios econômicos",
+          "Este título é uma excelente porta de entrada para investidores iniciantes"
+        ]
+      },
+      {
+        "traco": "Enumeração em três termos (tríade) dentro da frase, com o último introduzido por 'e', 'ou' ou 'além de'",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "realizar a viagem dos sonhos, comprar a casa própria e poupar o suficiente para uma aposentadoria tranquila",
+          "rendimentos financeiros, ganhos de capital ou outros benefícios econômicos",
+          "oferece segurança e liquidez, além de ser uma opção acessível"
+        ]
+      },
+      {
+        "traco": "Gerúndio ou particípio encadeado para acrescentar circunstância à oração principal",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "trabalhando em algumas das principais instituições financeiras do país e estudando intensivamente o tema",
+          "impulsionadas por promessas estratosféricas",
+          "começando pelo ativo que, teoricamente, é considerado o de menor risco"
+        ]
+      },
+      {
+        "traco": "Inversão verbo-sujeito com paralelismo para formular a máxima de risco e retorno",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "com grandes retornos esperados, vêm grandes exposições ao risco"
+        ]
+      }
+    ],
+    "pontuacao": [
+      {
+        "traco": "Dois-pontos no fim da frase introduzindo a concretização ou a lista do termo genérico anterior",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": [
+          "alcançar metas mais significativas: realizar a viagem dos sonhos, comprar a casa própria",
+          "a outra extremidade do espectro de risco: títulos do Tesouro e CDBs",
+          "considerado o de menor risco: o Tesouro Selic."
+        ]
+      },
+      {
+        "traco": "Inventário restrito a ponto, vírgula e dois-pontos no corpo; ponto de interrogação só aparece nos subtítulos",
+        "frequencia": "sempre",
+        "ocorrencias": 3,
+        "evidencias": [
+          "**Por que Falar Sobre Instrumentos Financeiros?**",
+          "**O Que São Investimentos?**",
+          "**Por Onde Começar?**"
+        ]
+      },
+      {
+        "traco": "Travessão ausente na prosa; aparece só na atribuição da epígrafe em pullquote",
+        "frequencia": "evita",
+        "ocorrencias": 1,
+        "evidencias": [
+          "\"Risco vem de não saber o que você está fazendo.\" — Warren Buffett"
+        ]
+      },
+      {
+        "traco": "Parêntese usado uma única vez, para expandir sigla",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "CDBs (Certificados de Depósito Bancário)"
+        ]
+      },
+      {
+        "traco": "Aspas retas (\") e não tipográficas, tanto na citação da epígrafe quanto no título de obra; não há aspas curvas no texto",
+        "frequencia": "sempre",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Em sua obra \"Finanças Corporativas e Valor\", Assaf Neto descreve",
+          "[[PULLQUOTE: \"Risco vem de não saber o que você está fazendo.\" — Warren Buffett]]"
+        ]
+      },
+      {
+        "traco": "Prosa corrida: enumerações sempre dentro da frase, separadas por vírgula, nunca em lista com marcadores",
+        "frequencia": "sempre",
+        "ocorrencias": 4,
+        "evidencias": [
+          "produtos como Tesouro Direto, ETFs, ações, fundos de investimento, CRIs, CRAs e debêntures",
+          "comprar a casa própria e poupar o suficiente para uma aposentadoria tranquila"
+        ]
+      },
+      {
+        "traco": "Quebra de parágrafo a cada mudança de movimento argumentativo (problema → alternativa → plano da série); o novo parágrafo abre com marcador de transição",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "Na prática, muitos investidores poderiam traçar planos mais seguros",
+          "A ideia desta série de posts é apresentar alguns desses títulos",
+          "Vale ressaltar que, com essa definição, até mesmo produtos como a poupança"
+        ]
+      }
+    ],
+    "arquitetura": [
+      {
+        "traco": "Abre com imagem sem legenda seguida de epígrafe de autoridade em pullquote, antes do primeiro parágrafo",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "[[PULLQUOTE: \"Risco vem de não saber o que você está fazendo.\" — Warren Buffett]]"
+        ]
+      },
+      {
+        "traco": "Primeiro parágrafo recapitula os posts anteriores da série (abre por retrospecto, não por cena, dado ou tese)",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Nos últimos artigos, discutimos a importância de desenvolver seus investimentos de forma a alcançar seus objetivos de vida.",
+          "Falamos sobre como quitar dívidas e formar uma reserva de emergência são passos fundamentais."
+        ]
+      },
+      {
+        "traco": "Metatexto de plano: anuncia e justifica o rumo da Substack e da série (pausa, desvio, ordem do simples ao complexo)",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "Para isso, faremos uma breve pausa nos textos focados exclusivamente em objetivos de investimentos",
+          "Esse desvio é necessário para que, ao discutirmos produtos",
+          "Começaremos com os produtos mais simples e avançaremos para opções mais complexas"
+        ]
+      },
+      {
+        "traco": "Sustenta em sequência: observação da própria experiência profissional → contraste entre extremos de risco → definição por autoridade bibliográfica → consequência aplicada a um caso-limite",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": [
+          "percebi que uma parte considerável dos investidores começa pela ponta errada da régua de investimentos",
+          "segundo Alexandre Assaf Neto, um dos principais autores na área de finanças no Brasil",
+          "até mesmo produtos como a poupança podem ser considerados investimentos"
+        ]
+      },
+      {
+        "traco": "O exemplo vem depois do conceito, sinalizado por 'Por exemplo', como cenário hipotético de investidor",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Por exemplo, enquanto um investidor pode sonhar em multiplicar rapidamente seu capital com opções"
+        ]
+      },
+      {
+        "traco": "Fecha anunciando o próximo post da série, com justificativa breve do primeiro produto; sem síntese do texto e sem retomar a epígrafe",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Na próxima semana, iniciaremos nossa discussão sobre os Títulos do Tesouro Nacional",
+          "Este título é uma excelente porta de entrada para investidores iniciantes"
+        ]
+      },
+      {
+        "traco": "Subtítulos densos (4 em ~620 palavras, seções de 1 a 3 parágrafos), 3 deles em forma de pergunta que a seção responde",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "**Por que Falar Sobre Instrumentos Financeiros?**",
+          "**Começando pelo Simples**",
+          "**O Que São Investimentos?**"
+        ]
+      }
+    ],
+    "figuras": [
+      {
+        "traco": "Metáfora espacial de escala (régua/espectro) para o risco, retomada no parágrafo seguinte como 'outra extremidade'; extensão curta, ao longo de dois parágrafos",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "começa pela ponta errada da régua de investimentos",
+          "utilizando a outra extremidade do espectro de risco"
+        ]
+      },
+      {
+        "traco": "Metáfora de percurso (caminho, pausa, desvio, porta de entrada) espalhada pelo texto para a progressão da série; lexicalizada, sem desenvolvimento",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "alguns instrumentos financeiros que podem nos ajudar nesse caminho",
+          "Esse desvio é necessário",
+          "Este título é uma excelente porta de entrada para investidores iniciantes"
+        ]
+      },
+      {
+        "traco": "Expressões feitas do cotidiano e hipérboles convencionais no lugar de imagem própria",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": [
+          "todos possamos estar na mesma página",
+          "impulsionadas por promessas estratosféricas",
+          "proporcionam uma base sólida e menos arriscada"
+        ]
+      }
+    ],
+    "postura": [
+      {
+        "traco": "'Nós' inclusivo dominante: autor e leitor como grupo que percorre a série junto",
+        "frequencia": "sempre",
+        "ocorrencias": 13,
+        "evidencias": [
+          "analisar como podemos criar planos concretos para alcançá-los",
+          "Os instrumentos que abordaremos nesta série são formas de investimento",
+          "Na próxima semana, iniciaremos nossa discussão"
+        ]
+      },
+      {
+        "traco": "Primeira pessoa do singular usada uma única vez, para declarar autoridade pela trajetória profissional",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "trabalhando em algumas das principais instituições financeiras do país e estudando intensivamente o tema, percebi que"
+        ]
+      },
+      {
+        "traco": "Autoridade externa trazida por nome e credencial: epígrafe de investidor célebre e definição de autor acadêmico brasileiro",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "\"Risco vem de não saber o que você está fazendo.\" — Warren Buffett",
+          "Alexandre Assaf Neto, um dos principais autores na área de finanças no Brasil"
+        ]
+      },
+      {
+        "traco": "Atenuação moderada (advérbios e quantificadores vagos) em vez de afirmação categórica",
+        "frequencia": "frequente",
+        "ocorrencias": 7,
+        "evidencias": [
+          "é considerado o de menor risco",
+          "pelo menos em um nível básico",
+          "As pessoas muitas vezes se sentem atraídas por ganhos potencialmente altos"
+        ]
+      },
+      {
+        "traco": "Critica um comportamento comum em terceira pessoa generalizante, sem polêmica, ironia ou alvo nomeado",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "As pessoas muitas vezes se sentem atraídas por ganhos potencialmente altos, impulsionadas por promessas estratosféricas",
+          "uma parte considerável dos investidores começa pela ponta errada da régua"
+        ]
+      },
+      {
+        "traco": "Tom prudente, de alerta sobre risco, sem humor",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": [
+          "são complexos e podem criar exposições enormes a riscos",
+          "ele também pode perder uma parte significativa de seu investimento em questão de minutos"
+        ]
+      }
+    ],
+    "leitor": [
+      {
+        "traco": "Pressupõe leitor iniciante e declara o nível básico e a progressão do simples ao complexo",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": [
+          "pelo menos em um nível básico",
+          "Começaremos com os produtos mais simples e avançaremos para opções mais complexas",
+          "uma excelente porta de entrada para investidores iniciantes"
+        ]
+      },
+      {
+        "traco": "Fala com o leitor por possessivos (seus/suas), sem 'você' explícito no corpo; 'você' só aparece na epígrafe",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "desenvolver seus investimentos de forma a alcançar seus objetivos de vida",
+          "à medida que forem necessários para a realização das suas metas"
+        ],
+        "contraexemplo": "\"Risco vem de não saber o que você está fazendo.\""
+      },
+      {
+        "traco": "Imperativo raro: um no corpo, para orientar a leitura da série, e um no título",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Mantenha essa perspectiva em mente para as próximas leituras.",
+          "Comece com o Simples"
+        ]
+      },
+      {
+        "traco": "Perguntas do leitor ficam só nos subtítulos; nenhuma pergunta retórica no corpo",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "**O Que São Investimentos?**",
+          "**Por Onde Começar?**"
+        ]
+      },
+      {
+        "traco": "Sem botão ou chamada para ação explícita; o fim aponta para o próximo post como gancho de retorno",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Na próxima semana, iniciaremos nossa discussão sobre os Títulos do Tesouro Nacional"
+        ]
+      }
+    ],
+    "tecnico": [
+      {
+        "traco": "Comparação de risco e retorno só em termos qualitativos: nenhum número, taxa, percentual, fórmula, tabela ou gráfico",
+        "frequencia": "sempre",
+        "ocorrencias": 4,
+        "evidencias": [
+          "Esses produtos, embora ofereçam retornos mais modestos, proporcionam uma base sólida e menos arriscada",
+          "com grandes retornos esperados, vêm grandes exposições ao risco"
+        ]
+      },
+      {
+        "traco": "Cita referência bibliográfica por autor com credencial e título da obra entre aspas, sem ano, edição ou página, e parafraseia em vez de citar literalmente",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Em sua obra \"Finanças Corporativas e Valor\", Assaf Neto descreve que investimento é o ato de sacrificar recursos no presente",
+          "é apresentada de forma abrangente em suas obras"
+        ]
+      },
+      {
+        "traco": "Define o conceito técnico por paráfrase de autoridade e depois testa a definição num caso-limite familiar ao leitor",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Vale ressaltar que, com essa definição, até mesmo produtos como a poupança podem ser considerados investimentos."
+        ]
+      },
+      {
+        "traco": "Sigla expandida entre parênteses no primeiro uso, mas só quando o produto é parte do argumento",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "CDBs (Certificados de Depósito Bancário)"
+        ],
+        "contraexemplo": "CRIs, CRAs e debêntures"
+      }
+    ],
+    "formatacao": [
+      {
+        "traco": "Negrito usado só para subtítulos (parágrafo inteiro em negrito); nunca para destacar palavra ou frase no corpo",
+        "frequencia": "sempre",
+        "ocorrencias": 4,
+        "evidencias": [
+          "**Por que Falar Sobre Instrumentos Financeiros?**",
+          "**Começando pelo Simples**"
+        ]
+      },
+      {
+        "traco": "Subtítulos e título com iniciais maiúsculas nas palavras plenas (Title Case), com oscilação no 'que'",
+        "frequencia": "sempre",
+        "ocorrencias": 5,
+        "evidencias": [
+          "**O Que São Investimentos?**",
+          "**Por Onde Começar?**",
+          "Comece com o Simples"
+        ],
+        "contraexemplo": "**Por que Falar Sobre Instrumentos Financeiros?**"
+      },
+      {
+        "traco": "Sem itálico: título de obra vai entre aspas e anglicismos ficam sem destaque",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": [
+          "Em sua obra \"Finanças Corporativas e Valor\"",
+          "A ideia desta série de posts é apresentar"
+        ]
+      },
+      {
+        "traco": "Pullquote usado como epígrafe no topo, com aspas e atribuição por travessão",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "[[PULLQUOTE: \"Risco vem de não saber o que você está fazendo.\" — Warren Buffett]]"
+        ]
+      },
+      {
+        "traco": "Uma única imagem, de abertura, sem legenda",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "![](img-01)"
+        ]
+      },
+      {
+        "traco": "Parágrafos de 1 a 3 frases (~35 a 80 palavras); o mais curto é uma frase única de transição",
+        "frequencia": "sempre",
+        "ocorrencias": 11,
+        "evidencias": [
+          "Esse desvio é necessário para que, ao discutirmos produtos como Tesouro Direto, ETFs, ações, fundos de investimento, CRIs, CRAs e debêntures"
+        ]
+      },
+      {
+        "traco": "Título no imperativo, curto; subtítulo do post é sintagma nominal com vírgula antes de 'para' e ponto final",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Comece com o Simples",
+          "Os intrumentos certos, para seus objetivos."
+        ]
+      }
+    ]
+  },
+  "antipadroes_observados": [
+    "(a) Nunca neste arquivo: ponto e vírgula, ponto de exclamação, reticências.",
+    "(a) Nunca neste arquivo: travessão na prosa (só na atribuição da epígrafe) nem itálico.",
+    "(a) Nunca neste arquivo: negrito no corpo, lista com marcadores, riscado, código, fórmula, tabela ou gráfico.",
+    "(a) Nunca neste arquivo: número, percentual, taxa ou dado quantitativo; nenhuma norma ou regulação citada.",
+    "(a) Nunca neste arquivo: 'você' explícito no corpo, pergunta retórica no corpo, humor ou ironia, frase curta de ênfase, cena ou anedota de abertura, botão de CTA.",
+    "(b) Tiques que coincidem com marcadores de texto gerado por IA em pt-BR, aqui num texto humano pré-pipeline (portanto hábito do autor, não contaminação): o conector 'Vale ressaltar que'.",
+    "(b) Clichês avaliativos genéricos: 'uma base sólida', 'uma excelente porta de entrada', 'promessas estratosféricas', 'a viagem dos sonhos'.",
+    "(b) Metatexto de anúncio ('A ideia desta série de posts é apresentar', 'Uma das propostas desta Substack é abordar') e tríades enumerativas regulares.",
+    "(b) Decalques do inglês: 'estar na mesma página', 'Mantenha essa perspectiva em mente'."
+  ],
+  "incerteza": "Texto curto (~620 palavras), muito abaixo do piso de ~5.000 por amostra; variação sintática e frequências têm baixa confiança. Post pré-pipeline (2024-10), sem seção (section_name null) e claramente de abertura de série: recapitulação inicial, metatexto de plano e fecho com anúncio do próximo post podem ser traço de post de série e não da voz geral. O eixo técnico fica pouco informativo, porque não há fórmula, dado ou tabela. Não se sabe o conteúdo de img-01, que não tem legenda. O subtítulo publicado traz 'intrumentos', erro de digitação único que não permite concluir padrão. Os subtítulos oscilam na capitalização ('Por que' e 'O Que'). Aspas retas foram registradas como observadas porque o formato do arquivo reproduz o site; com uma amostra só, não dá para dizer se são escolha do autor ou do editor do Substack."
+}

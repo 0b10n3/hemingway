@@ -1,0 +1,1448 @@
+{
+ "slug_repo": "2026-10-27-samurais-e-duelos",
+ "slug_site": "samurais-e-duelos-no-mercado-financeiro",
+ "linha_editorial": "Spoiler",
+ "rascunho": "_arquivo/drafts/2026-10-27_Samurais_e_Duelos_no_Mercado_Financeiro.md",
+ "rascunho_tipo": "rascunho",
+ "post_md_base": {
+  "commit": "atual",
+  "similaridade_base": 0.956,
+  "similaridade_versao_atual": 0.956
+ },
+ "palavras": {
+  "rascunho": 2915,
+  "post_md": 2578,
+  "publicado": 2475
+ },
+ "similaridade": {
+  "rascunho_post_md": 0.826,
+  "post_md_publicado": 0.956,
+  "rascunho_publicado": 0.811
+ },
+ "resumo_classe": {
+  "divisao_paragrafo": 22,
+  "negrito_adicionado": 20,
+  "substituicao": 12,
+  "remocao": 5,
+  "imagem": 3,
+  "italico_adicionado": 3,
+  "pontuacao": 2,
+  "legenda": 2,
+  "separador": 1,
+  "insercao": 1,
+  "tipografia_aspas": 1
+ },
+ "resumo_natureza": {
+  "estilo": 61,
+  "layout-substack": 7,
+  "aviso-legal": 3,
+  "conteúdo/fato": 1
+ },
+ "sinais": {
+  "acrescimo_autoral": 12,
+  "reversao": 4
+ },
+ "operacoes": [
+  {
+   "classe": "imagem",
+   "natureza": "layout-substack",
+   "antes": "",
+   "depois": "⟦IMG⟧",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": null,
+   "bloco_depois": 0,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": " [[…]] Em 1612, numa ilhota entre",
+   "pos_antes": [
+    0,
+    0
+   ],
+   "tipo": "insercao",
+   "id": 1
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "estilo",
+   "antes": "ilhota",
+   "depois": "pequena ilha",
+   "palavras_antes": 1,
+   "palavras_depois": 2,
+   "bloco_antes": 0,
+   "bloco_depois": 1,
+   "sinais": [
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": "rascunho",
+   "contexto": "Em 1612, numa [[…]] entre Kyushu e Honshu, um",
+   "pos_antes": [
+    4,
+    5
+   ],
+   "obs": "possível erro de digitação no site: 'ilha'",
+   "id": 2
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "estilo",
+   "antes": "conhece",
+   "depois": "talvez já conheça",
+   "palavras_antes": 1,
+   "palavras_depois": 3,
+   "bloco_antes": 1,
+   "bloco_depois": 3,
+   "sinais": [
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": "rascunho",
+   "contexto": "disciplina samurai \"no YouTube, [[…]] a continuação: depois do duelo",
+   "pos_antes": [
+    75,
+    76
+   ],
+   "id": 3
+  },
+  {
+   "classe": "remocao",
+   "natureza": "estilo",
+   "antes": "(na contagem japonesa, a que ele mesmo usa no livro)",
+   "depois": "",
+   "palavras_antes": 10,
+   "palavras_depois": 0,
+   "bloco_antes": 3,
+   "bloco_depois": null,
+   "sinais": [
+    "reversao"
+   ],
+   "restaurou_rascunho": null,
+   "origem_antes": "pipeline",
+   "contexto": "em 1643, aos 60 anos [[…]] , dois anos antes de morrer",
+   "pos_antes": [
+    136,
+    149
+   ],
+   "id": 4
+  },
+  {
+   "classe": "remocao",
+   "natureza": "estilo",
+   "antes": "(Passada a eleição, a série Spoiler volta com um texto que eu estava devendo. O que prometi como série sobre o livro de Musashi virou um texto só.)",
+   "depois": "",
+   "palavras_antes": 28,
+   "palavras_depois": 0,
+   "bloco_antes": 5,
+   "bloco_depois": null,
+   "sinais": [
+    "reversao"
+   ],
+   "restaurou_rascunho": null,
+   "origem_antes": "pipeline",
+   "contexto": "livro, passaram-se três décadas. [[…]] No prefácio, o próprio Musashi",
+   "pos_antes": [
+    184,
+    217
+   ],
+   "id": 5
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "estilo",
+   "antes": "o ciclo",
+   "depois": "sorte",
+   "palavras_antes": 2,
+   "palavras_depois": 1,
+   "bloco_antes": 9,
+   "bloco_depois": 11,
+   "sinais": [
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": "rascunho",
+   "contexto": "e conclui que talvez tenha sido [[…]] . Quantos gestores você conhece que",
+   "pos_antes": [
+    309,
+    311
+   ],
+   "id": 6
+  },
+  {
+   "classe": "remocao",
+   "natureza": "estilo",
+   "antes": "O próprio Hurst derruba essa ideia.",
+   "depois": "",
+   "palavras_antes": 6,
+   "palavras_depois": 0,
+   "bloco_antes": 19,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": "rascunho",
+   "contexto": "como se fosse uma katana. [[…]] As grandes empresas japonesas não punham",
+   "pos_antes": [
+    575,
+    582
+   ],
+   "id": 7
+  },
+  {
+   "classe": "remocao",
+   "natureza": "estilo",
+   "antes": "(até os últimos anos, quando aceitou o estipêndio dos Hosokawa e escreveu o livro)",
+   "depois": "",
+   "palavras_antes": 14,
+   "palavras_depois": 0,
+   "bloco_antes": 19,
+   "bloco_depois": null,
+   "sinais": [
+    "reversao"
+   ],
+   "restaurou_rascunho": null,
+   "origem_antes": "pipeline",
+   "contexto": "um rōnin, samurai sem senhor [[…]] , leal só a si mesmo",
+   "pos_antes": [
+    632,
+    649
+   ],
+   "id": 8
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "estilo",
+   "antes": "que vale levar a sério",
+   "depois": "interessante",
+   "palavras_antes": 5,
+   "palavras_depois": 1,
+   "bloco_antes": 21,
+   "bloco_depois": 23,
+   "sinais": [
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": "rascunho",
+   "contexto": "tudo. Hurst faz uma provocação [[…]] : quase todas as nove regras",
+   "pos_antes": [
+    712,
+    717
+   ],
+   "id": 9
+  },
+  {
+   "classe": "pontuacao",
+   "natureza": "estilo",
+   "antes": "—",
+   "depois": ",",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 21,
+   "bloco_depois": 25,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "manual de escoteiro. É verdade [[…]] o conteúdo nunca foi segredo.",
+   "pos_antes": [
+    742,
+    743
+   ],
+   "id": 10
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "estilo",
+   "antes": "lixado",
+   "depois": "deixado de",
+   "palavras_antes": 1,
+   "palavras_depois": 2,
+   "bloco_antes": 21,
+   "bloco_depois": 26,
+   "sinais": [
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": "rascunho",
+   "contexto": "A diferença está no que foi [[…]] fora. Os best-sellers de hoje",
+   "pos_antes": [
+    755,
+    756
+   ],
+   "id": 11
+  },
+  {
+   "classe": "remocao",
+   "natureza": "estilo",
+   "antes": "tira",
+   "depois": "",
+   "palavras_antes": 1,
+   "palavras_depois": 0,
+   "bloco_antes": 21,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": "rascunho",
+   "contexto": "tiraram o desconforto. Musashi não [[…]] . Um manual de esgrima,",
+   "pos_antes": [
+    779,
+    780
+   ],
+   "id": 12
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "estilo",
+   "antes": "Nos",
+   "depois": "Nas",
+   "palavras_antes": 1,
+   "palavras_depois": 1,
+   "bloco_antes": 24,
+   "bloco_depois": 36,
+   "sinais": [
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": "rascunho",
+   "contexto": ", um aviso de leitura. [[…]] cinco anéis a seguir, separo",
+   "pos_antes": [
+    880,
+    881
+   ],
+   "id": 13
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "estilo",
+   "antes": "anéis",
+   "depois": "etapas",
+   "palavras_antes": 1,
+   "palavras_depois": 1,
+   "bloco_antes": 24,
+   "bloco_depois": 36,
+   "sinais": [
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": "rascunho",
+   "contexto": "aviso de leitura. Nos cinco [[…]] a seguir, separo o que",
+   "pos_antes": [
+    882,
+    883
+   ],
+   "id": 14
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "estilo",
+   "antes": "separo",
+   "depois": "busco separar",
+   "palavras_antes": 1,
+   "palavras_depois": 2,
+   "bloco_antes": 24,
+   "bloco_depois": 36,
+   "sinais": [
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": "rascunho",
+   "contexto": "Nos cinco anéis a seguir, [[…]] o que Musashi escreveu do que",
+   "pos_antes": [
+    886,
+    887
+   ],
+   "id": 15
+  },
+  {
+   "classe": "pontuacao",
+   "natureza": "estilo",
+   "antes": "—",
+   "depois": ":",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 35,
+   "bloco_depois": 55,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "a menos de liberdade para arriscar [[…]] trocar de área, aceitar um",
+   "pos_antes": [
+    1309,
+    1310
+   ],
+   "id": 16
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "estilo",
+   "antes": "também —",
+   "depois": "e",
+   "palavras_antes": 1,
+   "palavras_depois": 1,
+   "bloco_antes": 41,
+   "bloco_depois": 62,
+   "sinais": [
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": "rascunho",
+   "contexto": ". A tentação é virar pedra [[…]] ficar parado esperando o obstáculo sair",
+   "pos_antes": [
+    1475,
+    1477
+   ],
+   "id": 17
+  },
+  {
+   "classe": "imagem",
+   "natureza": "layout-substack",
+   "antes": "",
+   "depois": "⟦IMG⟧",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": null,
+   "bloco_depois": 98,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "faça nada que seja inútil. [[…]] Não fica fácil Musashi começou o",
+   "pos_antes": [
+    2772,
+    2772
+   ],
+   "tipo": "insercao",
+   "id": 18
+  },
+  {
+   "classe": "separador",
+   "natureza": "layout-substack",
+   "antes": "",
+   "depois": "⟦HR⟧",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": null,
+   "bloco_depois": 105,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "que isso você já sabia. [[…]] Os cinco anéis numa segunda-feira ⟦IMG⟧",
+   "pos_antes": [
+    2914,
+    2914
+   ],
+   "tipo": "insercao",
+   "id": 19
+  },
+  {
+   "classe": "imagem",
+   "natureza": "layout-substack",
+   "antes": "⟦IMG⟧",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 83,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": "rascunho",
+   "contexto": "isso você já sabia. Os [[…]] , O Livro dos Cinco Anéis",
+   "pos_antes": [
+    2915,
+    2923
+   ],
+   "tipo": "remocao",
+   "id": 20
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "aviso-legal",
+   "antes": "cinco anéis numa segunda-feira Referências Miyamoto Musashi",
+   "depois": "textos publicados na Syntaxis expressam exclusivamente minhas opiniões pessoais",
+   "palavras_antes": 7,
+   "palavras_depois": 9,
+   "bloco_antes": 82,
+   "bloco_depois": 106,
+   "sinais": [
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": "rascunho",
+   "contexto": "isso você já sabia. Os [[…]] , O Livro dos Cinco Anéis",
+   "pos_antes": [
+    2915,
+    2923
+   ],
+   "id": 21
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "conteúdo/fato",
+   "antes": "O Livro dos Cinco Anéis (Gorin no Sho, 1645). Tradução direta do japonês de Wataru Kikuchi (Jardim dos Livros, 2020). Miyamoto Musashi, Dokkōdō (1645). G. Cameron Hurst III, \"Samurai on Wall Street: Miyamoto Musashi and the Search for Success\" (UFSI Reports, nº 44, 1982; republicado em InYo, 2001). Tofugu (Adam Ledford, 9 jul. 2015), \"Miyamoto Musashi's Reigando Cave\". James Clear, Hábitos Atômicos (Alta Books, 2019). Robert Greene, Maestria (Sextante, 2013). As passagens de Musashi citadas no texto são traduções livres",
+   "depois": "formadas",
+   "palavras_antes": 80,
+   "palavras_depois": 1,
+   "bloco_antes": 85,
+   "bloco_depois": 106,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": "misto",
+   "contexto": "segunda-feira ⟦IMG⟧ Referências Miyamoto Musashi, [[…]] a partir do original japonês.",
+   "pos_antes": [
+    2924,
+    3046
+   ],
+   "id": 22
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "aviso-legal",
+   "antes": "do original japonês",
+   "depois": "da minha experiência profissional, e não representam a posição de meu empregador atual ou de empregadores anteriores",
+   "palavras_antes": 3,
+   "palavras_depois": 17,
+   "bloco_antes": 91,
+   "bloco_depois": 106,
+   "sinais": [
+    "reversao",
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": "pipeline",
+   "contexto": "texto são traduções livres a partir [[…]] .",
+   "pos_antes": [
+    3048,
+    3051
+   ],
+   "id": 23
+  },
+  {
+   "classe": "insercao",
+   "natureza": "aviso-legal",
+   "antes": "",
+   "depois": "O conteúdo tem finalidade educacional e informativa: não constitui recomendação de investimento, análise de valores mobiliários ou consultoria financeira.",
+   "palavras_antes": 0,
+   "palavras_depois": 19,
+   "bloco_antes": null,
+   "bloco_depois": 106,
+   "sinais": [
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "a partir do original japonês. [[…]] ",
+   "pos_antes": [
+    3052,
+    3052
+   ],
+   "id": 24
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "para alguns, o melhor espadachim dos dois.",
+   "depois": "Kojirō morreu ali, na areia. Se",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 0,
+   "bloco_depois": 2,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "para alguns, o melhor espadachim dos dois. Kojirō morreu ali, na areia. Se",
+   "pos_antes": [
+    53,
+    55
+   ],
+   "id": 25
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "livro), dois anos antes de morrer.",
+   "depois": "Foi ali que começou a escrever o Livro",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 3,
+   "bloco_depois": 6,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "livro), dois anos antes de morrer. Foi ali que começou a escrever o Livro",
+   "pos_antes": [
+    155,
+    157
+   ],
+   "id": 26
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "que Musashi fecha o primeiro rolo soam familiares.",
+   "depois": "Benjamin Franklin, manual de escoteiro. É",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 21,
+   "bloco_depois": 24,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "que Musashi fecha o primeiro rolo soam familiares. Benjamin Franklin, manual de escoteiro. É",
+   "pos_antes": [
+    732,
+    734
+   ],
+   "id": 27
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "familiares. Benjamin Franklin, manual de escoteiro.",
+   "depois": "É verdade — o conteúdo nunca foi segredo",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 21,
+   "bloco_depois": 25,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "familiares. Benjamin Franklin, manual de escoteiro. É verdade — o conteúdo nunca foi segredo",
+   "pos_antes": [
+    739,
+    741
+   ],
+   "id": 28
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "É verdade — o conteúdo nunca foi segredo.",
+   "depois": "A diferença está no que foi lixado fora",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 21,
+   "bloco_depois": 26,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "É verdade — o conteúdo nunca foi segredo. A diferença está no que foi lixado fora",
+   "pos_antes": [
+    748,
+    750
+   ],
+   "id": 29
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": ", aprendizado contínuo) e tiraram o desconforto.",
+   "depois": "Musashi não tira. Um manual de esgrima",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 21,
+   "bloco_depois": 27,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": ", aprendizado contínuo) e tiraram o desconforto. Musashi não tira. Um manual de esgrima",
+   "pos_antes": [
+    776,
+    778
+   ],
+   "id": 30
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "tem cinco rolos, um para cada elemento:",
+   "depois": "Terra (Chi), Água (Sui",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 23,
+   "bloco_depois": 30,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "tem cinco rolos, um para cada elemento: Terra (Chi), Água (Sui",
+   "pos_antes": [
+    810,
+    812
+   ],
+   "id": 31
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "para cada elemento: Terra (Chi),",
+   "depois": "Água (Sui), Fogo (Ka",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 23,
+   "bloco_depois": 31,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "para cada elemento: Terra (Chi), Água (Sui), Fogo (Ka",
+   "pos_antes": [
+    815,
+    817
+   ],
+   "id": 32
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "(Chi), Água (Sui),",
+   "depois": "Fogo (Ka), Vento (Fū",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 23,
+   "bloco_depois": 32,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "(Chi), Água (Sui), Fogo (Ka), Vento (Fū",
+   "pos_antes": [
+    820,
+    822
+   ],
+   "id": 33
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "(Sui), Fogo (Ka),",
+   "depois": "Vento (Fū) e Vazio (Kū",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 23,
+   "bloco_depois": 33,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "(Sui), Fogo (Ka), Vento (Fū) e Vazio (Kū",
+   "pos_antes": [
+    825,
+    827
+   ],
+   "id": 34
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "(Ka), Vento (Fū) e",
+   "depois": "Vazio (Kū). Foi escrito para",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 23,
+   "bloco_depois": 34,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "(Ka), Vento (Fū) e Vazio (Kū). Foi escrito para",
+   "pos_antes": [
+    830,
+    832
+   ],
+   "id": 35
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "(Fū) e Vazio (Kū).",
+   "depois": "Foi escrito para ser entregue a um discípulo",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 23,
+   "bloco_depois": 35,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "(Fū) e Vazio (Kū). Foi escrito para ser entregue a um discípulo",
+   "pos_antes": [
+    835,
+    837
+   ],
+   "id": 36
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "escreveu do que eu aplico para a carreira.",
+   "depois": "Lidos juntos, eles são o sistema de",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 24,
+   "bloco_depois": 37,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "escreveu do que eu aplico para a carreira. Lidos juntos, eles são o sistema de",
+   "pos_antes": [
+    898,
+    900
+   ],
+   "id": 37
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "a escritura de uma debênture até o fim?",
+   "depois": "Quantas foram de formatação de planilha, reunião",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 32,
+   "bloco_depois": 46,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "a escritura de uma debênture até o fim? Quantas foram de formatação de planilha, reunião",
+   "pos_antes": [
+    1064,
+    1066
+   ],
+   "id": 38
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": ", o mesmo debate relido pela décima vez?",
+   "depois": "Desconfio que o dia \"cheio\" vai",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 32,
+   "bloco_depois": 47,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": ", o mesmo debate relido pela décima vez? Desconfio que o dia \"cheio\" vai",
+   "pos_antes": [
+    1106,
+    1108
+   ],
+   "id": 39
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "desde que saiba refazer cada um na mão.",
+   "depois": "Usar IA é competência. Não saber o",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 33,
+   "bloco_depois": 49,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "desde que saiba refazer cada um na mão. Usar IA é competência. Não saber o",
+   "pos_antes": [
+    1173,
+    1175
+   ],
+   "id": 40
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "um na mão. Usar IA é competência.",
+   "depois": "Não saber o que ela fez é débito",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 33,
+   "bloco_depois": 50,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "um na mão. Usar IA é competência. Não saber o que ela fez é débito",
+   "pos_antes": [
+    1178,
+    1180
+   ],
+   "id": 41
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "minimalismo escrito quase quatro séculos antes da moda:",
+   "depois": "não guarde objetos antigos à espera de que",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 34,
+   "bloco_depois": 52,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "minimalismo escrito quase quatro séculos antes da moda: não guarde objetos antigos à espera de que",
+   "pos_antes": [
+    1258,
+    1260
+   ],
+   "id": 42
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "espera de que um dia valham alguma coisa;",
+   "depois": "não busque bens para garantir a velhice;",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 34,
+   "bloco_depois": 53,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "espera de que um dia valham alguma coisa; não busque bens para garantir a velhice;",
+   "pos_antes": [
+    1272,
+    1274
+   ],
+   "id": 43
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "; não busque bens para garantir a velhice;",
+   "depois": "seja indiferente ao lugar onde mora. Na",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 34,
+   "bloco_depois": 54,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "; não busque bens para garantir a velhice; seja indiferente ao lugar onde mora. Na",
+   "pos_antes": [
+    1280,
+    1282
+   ],
+   "id": 44
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "é a da pedra no meio do rio.",
+   "depois": "A pedra resiste. A água contorna,",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 39,
+   "bloco_depois": 60,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "é a da pedra no meio do rio. A pedra resiste. A água contorna,",
+   "pos_antes": [
+    1396,
+    1398
+   ],
+   "id": 45
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "também — ficar parado esperando o obstáculo sair.",
+   "depois": "Ser água é perguntar: dado que isso",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 41,
+   "bloco_depois": 63,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "também — ficar parado esperando o obstáculo sair. Ser água é perguntar: dado que isso",
+   "pos_antes": [
+    1483,
+    1485
+   ],
+   "id": 46
+  },
+  {
+   "classe": "negrito_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "Miyamoto Musashi",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 1,
+   "bloco_depois": 3,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "continuação: depois do duelo, Miyamoto Musashi teria se trancado numa caverna por",
+   "pos_antes": [
+    83,
+    85
+   ],
+   "id": 47
+  },
+  {
+   "classe": "negrito_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "Reigandō",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 3,
+   "bloco_depois": 5,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": ". A caverna existe. Chama-se Reigandō e fica nos arredores de Kumamoto",
+   "pos_antes": [
+    116,
+    117
+   ],
+   "id": 48
+  },
+  {
+   "classe": "negrito_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "Lutou mais de sessenta duelos sem perder",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 7,
+   "bloco_depois": 9,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "próprio Musashi faz o resumo. Lutou mais de sessenta duelos sem perder, o primeiro aos 13 anos",
+   "pos_antes": [
+    227,
+    234
+   ],
+   "id": 49
+  },
+  {
+   "classe": "negrito_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "alguém que opera sozinho, sob risco assimétrico, num jogo em que um único erro custa tudo",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 20,
+   "bloco_depois": 22,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "o Japão, mas porque descreve alguém que opera sozinho, sob risco assimétrico, num jogo em que um único erro custa tudo. Hurst faz uma provocação que",
+   "pos_antes": [
+    689,
+    707
+   ],
+   "id": 50
+  },
+  {
+   "classe": "negrito_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "o que funciona quando o mercado não ajuda",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 24,
+   "bloco_depois": 37,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "de que falei no começo: o que funciona quando o mercado não ajuda. Anel da Terra: saiba",
+   "pos_antes": [
+    912,
+    920
+   ],
+   "id": 51
+  },
+  {
+   "classe": "negrito_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "não faça nada que seja inútil",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 30,
+   "bloco_depois": 43,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "até no que parece trivial; não faça nada que seja inútil. Nenhuma delas diz \"acredite",
+   "pos_antes": [
+    1000,
+    1006
+   ],
+   "id": 52
+  },
+  {
+   "classe": "negrito_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "enxergue o que de fato faz",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 31,
+   "bloco_depois": 44,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "\". Todas pedem que você enxergue o que de fato faz. Faça uma revisão honesta de",
+   "pos_antes": [
+    1020,
+    1026
+   ],
+   "id": 53
+  },
+  {
+   "classe": "negrito_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "E, nas semanas de eleição, quantas foram de discussão política em rede social, o mesmo debate relido pela décima vez?",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 32,
+   "bloco_depois": 46,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "aberta e celular na mão? E, nas semanas de eleição, quantas foram de discussão política em rede social, o mesmo debate relido pela décima vez? Desconfio que o dia \"cheio",
+   "pos_antes": [
+    1083,
+    1107
+   ],
+   "id": 54
+  },
+  {
+   "classe": "negrito_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "Não saber o que ela fez é débito técnico",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 33,
+   "bloco_depois": 50,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": ". Usar IA é competência. Não saber o que ela fez é débito técnico: um atalho que cobra juros",
+   "pos_antes": [
+    1179,
+    1188
+   ],
+   "id": 55
+  },
+  {
+   "classe": "negrito_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "Dokkōdō",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 34,
+   "bloco_depois": 51,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "livro ao discípulo, escreveu o Dokkōdō, 21 preceitos curtos. Vários",
+   "pos_antes": [
+    1238,
+    1239
+   ],
+   "id": 56
+  },
+  {
+   "classe": "negrito_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "pedra resiste",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 39,
+   "bloco_depois": 60,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "no meio do rio. A pedra resiste. A água contorna, acha",
+   "pos_antes": [
+    1398,
+    1400
+   ],
+   "id": 57
+  },
+  {
+   "classe": "negrito_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "água contorna",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 39,
+   "bloco_depois": 60,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": ". A pedra resiste. A água contorna, acha passagem e segue.",
+   "pos_antes": [
+    1402,
+    1404
+   ],
+   "id": 58
+  },
+  {
+   "classe": "negrito_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "acha passagem e segue",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 39,
+   "bloco_depois": 60,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "resiste. A água contorna, acha passagem e segue. Aceitar a realidade, aqui",
+   "pos_antes": [
+    1405,
+    1409
+   ],
+   "id": 59
+  },
+  {
+   "classe": "negrito_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "por onde eu passo",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 41,
+   "bloco_depois": 63,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "que isso não muda agora, por onde eu passo? É também no fecho do",
+   "pos_antes": [
+    1496,
+    1500
+   ],
+   "id": 60
+  },
+  {
+   "classe": "negrito_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "hoje, vença o você de ontem",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 42,
+   "bloco_depois": 64,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "livro. Em tradução livre: hoje, vença o você de ontem; amanhã, vença os menos",
+   "pos_antes": [
+    1525,
+    1532
+   ],
+   "id": 61
+  },
+  {
+   "classe": "negrito_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "amanhã, vença os menos hábeis",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 42,
+   "bloco_depois": 64,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "vença o você de ontem; amanhã, vença os menos hábeis; depois, os mais hábeis",
+   "pos_antes": [
+    1533,
+    1539
+   ],
+   "id": 62
+  },
+  {
+   "classe": "negrito_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "depois, os mais hábeis",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 42,
+   "bloco_depois": 64,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": ", vença os menos hábeis; depois, os mais hábeis. E Musashi define o ritmo",
+   "pos_antes": [
+    1540,
+    1545
+   ],
+   "id": 63
+  },
+  {
+   "classe": "negrito_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "que se treine sem pressa, porque uma estrada de mil léguas se percorre um passo de cada vez",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 42,
+   "bloco_depois": 64,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "que as citações costumam cortar: que se treine sem pressa, porque uma estrada de mil léguas se percorre um passo de cada vez. Quem leu Hábitos Atômicos reconhece",
+   "pos_antes": [
+    1578,
+    1597
+   ],
+   "id": 64
+  },
+  {
+   "classe": "negrito_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "Hábitos Atômicos",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 43,
+   "bloco_depois": 65,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "de cada vez. Quem leu Hábitos Atômicos reconhece uma ideia parecida com a",
+   "pos_antes": [
+    1600,
+    1602
+   ],
+   "id": 65
+  },
+  {
+   "classe": "negrito_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "Raiva de você mesmo vira paralisia. Raiva do estado em que você está vira plano",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 57,
+   "bloco_depois": 79,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "O ponto é a mira. Raiva de você mesmo vira paralisia. Raiva do estado em que você está vira plano: \"estudei 30 minutos esta",
+   "pos_antes": [
+    2064,
+    2080
+   ],
+   "id": 66
+  },
+  {
+   "classe": "italico_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": ",",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 85,
+   "bloco_depois": 106,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "numa segunda-feira ⟦IMG⟧ Referências Miyamoto Musashi, O Livro dos Cinco Anéis (",
+   "pos_antes": [
+    2923,
+    2924
+   ],
+   "id": 67
+  },
+  {
+   "classe": "italico_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "a partir",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 91,
+   "bloco_depois": 106,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "citadas no texto são traduções livres a partir do original japonês.",
+   "pos_antes": [
+    3046,
+    3048
+   ],
+   "id": 68
+  },
+  {
+   "classe": "italico_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": ".",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 91,
+   "bloco_depois": 106,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "livres a partir do original japonês.",
+   "pos_antes": [
+    3051,
+    3052
+   ],
+   "id": 69
+  },
+  {
+   "classe": "legenda",
+   "natureza": "layout-substack",
+   "antes": "Linha do tempo da vida de Miyamoto Musashi, de 1584 a 1645, com as idades na contagem japonesa, a que ele usa no livro. 1584: nasce. 1596, aos 13 anos: primeiro duelo. 1612, aos 29: Ganryūjima, o duelo com Kojirō. Por volta de 1633, perto dos 50: sente que entendeu o Caminho. 1643, aos 60: sobe ao Reigandō e começa o livro. 1645, aos 62: entrega o livro, escreve o Dokkōdō e morre, em 13 de junho. O trecho de 1612 a 1643 está em destaque: 31 anos, três décadas, entre o duelo e o livro. A data de 1612 vem de fontes do século XVIII e é a da tradição.",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 8,
+   "bloco_depois": 10,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "que tinha entendido o Caminho. [[…]] No mercado financeiro, o equivalente",
+   "pos_antes": [
+    284,
+    285
+   ],
+   "id": 70
+  },
+  {
+   "classe": "legenda",
+   "natureza": "layout-substack",
+   "antes": "Gráfico de linhas, em escala logarítmica, do multiplicador acumulado ao longo de 365 dias corridos. A linha tracejada é a conta de 1% ao dia, composto: sobe em reta, de 1× até cerca de 37,8× no dia 365. A linha cheia é um cenário ilustrativo: a mesma curva, mas com o segundo semestre inteiro de marcação a mercado contra. As duas coincidem até o dia 183. Depois a linha cheia descola para baixo. No dia 274, a curva está em 15,3×, e a linha cheia em 6,1×, menos do que os 6,2× que valia no dia 183. Ela então sobe mais rápido e encontra a curva no dia 365, nos mesmos 37,8×. Mesma chegada, caminho diferente: queda de preço no caminho, não perda realizada.",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 47,
+   "bloco_depois": 69,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "de mercado, em queda. [[…]] Musashi não precisa dessa premissa.",
+   "pos_antes": [
+    1727,
+    1728
+   ],
+   "id": 71
+  },
+  {
+   "classe": "tipografia_aspas",
+   "natureza": "layout-substack",
+   "antes": "",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": null,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "",
+   "ocorrencias": 24,
+   "id": 72
+  }
+ ]
+}

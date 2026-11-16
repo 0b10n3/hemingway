@@ -1,0 +1,1127 @@
+{
+ "slug_repo": "2026-10-15-renda-fixa-condicoes-variaveis",
+ "slug_site": "renda-fixa-condicoes-variaveis",
+ "linha_editorial": "Notas de um Professor",
+ "rascunho": "_arquivo/drafts/2026-10-15_Renda_Fixa_Condições_Variáveis.md",
+ "rascunho_tipo": "rascunho",
+ "post_md_base": {
+  "commit": "atual",
+  "similaridade_base": 0.978,
+  "similaridade_versao_atual": 0.978
+ },
+ "palavras": {
+  "rascunho": 5003,
+  "post_md": 4515,
+  "publicado": 4469
+ },
+ "similaridade": {
+  "rascunho_post_md": 0.782,
+  "post_md_publicado": 0.978,
+  "rascunho_publicado": 0.769
+ },
+ "resumo_classe": {
+  "negrito_adicionado": 16,
+  "divisao_paragrafo": 14,
+  "remocao": 10,
+  "substituicao": 4,
+  "legenda": 4,
+  "pontuacao": 2,
+  "separador": 2,
+  "imagem": 1,
+  "subtitulo_h2": 1,
+  "insercao": 1,
+  "tipografia_aspas": 1
+ },
+ "resumo_natureza": {
+  "estilo": 40,
+  "layout-substack": 8,
+  "conteúdo/fato": 7,
+  "aviso-legal": 1
+ },
+ "sinais": {
+  "reversao": 4,
+  "acrescimo_autoral": 4
+ },
+ "operacoes": [
+  {
+   "classe": "imagem",
+   "natureza": "layout-substack",
+   "antes": "",
+   "depois": "⟦IMG⟧",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": null,
+   "bloco_depois": 0,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": " [[…]] Em 7 de outubro, um",
+   "pos_antes": [
+    0,
+    0
+   ],
+   "tipo": "insercao",
+   "id": 1
+  },
+  {
+   "classe": "remocao",
+   "natureza": "estilo",
+   "antes": "Escrevi como se todo mundo soubesse o que é uma debênture. O GPA mostra por que vale parar e explicar.",
+   "depois": "",
+   "palavras_antes": 20,
+   "palavras_depois": 0,
+   "bloco_antes": 7,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": "rascunho",
+   "contexto": "a debênture viria em seguida. [[…]] Como no texto passado, boa",
+   "pos_antes": [
+    333,
+    355
+   ],
+   "id": 2
+  },
+  {
+   "classe": "pontuacao",
+   "natureza": "estilo",
+   "antes": ";",
+   "depois": "?",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 9,
+   "bloco_depois": 11,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "perguntas: quem deve para você [[…]] o que o contrato garante,",
+   "pos_antes": [
+    376,
+    377
+   ],
+   "id": 3
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "estilo",
+   "antes": ", e quem pode mudá-lo;",
+   "depois": "?",
+   "palavras_antes": 4,
+   "palavras_depois": 0,
+   "bloco_antes": 10,
+   "bloco_depois": 12,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": "rascunho",
+   "contexto": "; o que o contrato garante [[…]] quanto isso vale hoje. A",
+   "pos_antes": [
+    382,
+    388
+   ],
+   "id": 4
+  },
+  {
+   "classe": "pontuacao",
+   "natureza": "estilo",
+   "antes": ".",
+   "depois": "?",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 11,
+   "bloco_depois": 13,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "mudá-lo; quanto isso vale hoje [[…]] A versão que se conta sobre",
+   "pos_antes": [
+    392,
+    393
+   ],
+   "id": 5
+  },
+  {
+   "classe": "remocao",
+   "natureza": "estilo",
+   "antes": "como regra supletiva (a que vale onde o contrato social é omisso).",
+   "depois": "",
+   "palavras_antes": 12,
+   "palavras_depois": 0,
+   "bloco_antes": 20,
+   "bloco_depois": null,
+   "sinais": [
+    "reversao"
+   ],
+   "restaurou_rascunho": null,
+   "origem_antes": "pipeline",
+   "contexto": "Lei das S. A. [[…]] A escritura (art. 61",
+   "pos_antes": [
+    713,
+    728
+   ],
+   "id": 6
+  },
+  {
+   "classe": "remocao",
+   "natureza": "conteúdo/fato",
+   "antes": "(art. 61)",
+   "depois": "",
+   "palavras_antes": 2,
+   "palavras_depois": 0,
+   "bloco_antes": 21,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": "rascunho",
+   "contexto": "é omisso). A escritura [[…]] define tudo o que importa:",
+   "pos_antes": [
+    730,
+    735
+   ],
+   "id": 7
+  },
+  {
+   "classe": "remocao",
+   "natureza": "conteúdo/fato",
+   "antes": "(art. 57)",
+   "depois": "",
+   "palavras_antes": 2,
+   "palavras_depois": 0,
+   "bloco_antes": 24,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": "rascunho",
+   "contexto": "ser simples ou conversível em ações [[…]] . A lei deixa a remuneração",
+   "pos_antes": [
+    944,
+    949
+   ],
+   "id": 8
+  },
+  {
+   "classe": "remocao",
+   "natureza": "conteúdo/fato",
+   "antes": "(art. 56)",
+   "depois": "",
+   "palavras_antes": 2,
+   "palavras_depois": 0,
+   "bloco_antes": 25,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": "rascunho",
+   "contexto": "no lucro, prêmio de reembolso [[…]] . Na prática, o mercado",
+   "pos_antes": [
+    970,
+    975
+   ],
+   "id": 9
+  },
+  {
+   "classe": "remocao",
+   "natureza": "conteúdo/fato",
+   "antes": "(Lei nº 11. 053/2004, art. 5º)",
+   "depois": "",
+   "palavras_antes": 7,
+   "palavras_depois": 0,
+   "bloco_antes": 43,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": "rascunho",
+   "contexto": "rendimentos das suas aplicações desde 2005 [[…]] . Para ele, uma incentivada",
+   "pos_antes": [
+    1592,
+    1605
+   ],
+   "id": 10
+  },
+  {
+   "classe": "remocao",
+   "natureza": "conteúdo/fato",
+   "antes": "(art. 68, § 3º)",
+   "depois": "",
+   "palavras_antes": 3,
+   "palavras_depois": 0,
+   "bloco_antes": 60,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": "rascunho",
+   "contexto": "fiduciário, nas condições da escritura [[…]] . Nos casos não automáticos,",
+   "pos_antes": [
+    2539,
+    2547
+   ],
+   "id": 11
+  },
+  {
+   "classe": "remocao",
+   "natureza": "conteúdo/fato",
+   "antes": "(art. 163, § 8º)",
+   "depois": "",
+   "palavras_antes": 3,
+   "palavras_depois": 0,
+   "bloco_antes": 63,
+   "bloco_depois": null,
+   "sinais": [
+    "reversao"
+   ],
+   "restaurou_rascunho": null,
+   "origem_antes": "pipeline",
+   "contexto": "aos créditos que o plano abrange [[…]] . Em 2023, os agentes",
+   "pos_antes": [
+    2824,
+    2832
+   ],
+   "id": 12
+  },
+  {
+   "classe": "subtitulo_h2",
+   "natureza": "estilo",
+   "antes": "Fechamento:",
+   "depois": "",
+   "palavras_antes": 1,
+   "palavras_depois": 0,
+   "bloco_antes": 109,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": "rascunho",
+   "contexto": ", a maioria podia reescrevê-la. [[…]] sem rede Na LCI e na",
+   "pos_antes": [
+    4935,
+    4937
+   ],
+   "id": 13
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "estilo",
+   "antes": "Faltava",
+   "depois": "Na próxima semana, voltamos para falar sobre um calculo importante no estudo e modelagem de Renda Fixa.",
+   "palavras_antes": 1,
+   "palavras_depois": 17,
+   "bloco_antes": 114,
+   "bloco_depois": 129,
+   "sinais": [
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": "rascunho",
+   "contexto": "decide quando o contrato muda. [[…]] a peça do meio, o",
+   "pos_antes": [
+    5139,
+    5140
+   ],
+   "id": 14
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "estilo",
+   "antes": "peça do meio, o devedor sem intermediário. Com ela no lugar, dá para ver o FIDC (Fundo",
+   "depois": "contagem",
+   "palavras_antes": 17,
+   "palavras_depois": 1,
+   "bloco_antes": 114,
+   "bloco_depois": 129,
+   "sinais": [
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": "misto",
+   "contexto": "o contrato muda. Faltava a [[…]] de Investimento em Direitos Creditórios)",
+   "pos_antes": [
+    5141,
+    5162
+   ],
+   "id": 15
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "estilo",
+   "antes": "Investimento em Direitos Creditórios) pelo que ele é: uma carteira de devedores com uma fila desenhada em cotas, em que a ordem de quem recebe primeiro não está na Lei de Falências, e sim no regulamento",
+   "depois": "dias úteis",
+   "palavras_antes": 36,
+   "palavras_depois": 2,
+   "bloco_antes": 114,
+   "bloco_depois": 129,
+   "sinais": [
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": "misto",
+   "contexto": "ver o FIDC (Fundo de [[…]] . Para continuar aprendendo José Monteiro",
+   "pos_antes": [
+    5163,
+    5203
+   ],
+   "id": 16
+  },
+  {
+   "classe": "remocao",
+   "natureza": "conteúdo/fato",
+   "antes": "[VERIFICAR: números dos capítulos 8 e 19 no sumário].",
+   "depois": "",
+   "palavras_antes": 9,
+   "palavras_depois": 0,
+   "bloco_antes": 116,
+   "bloco_depois": null,
+   "sinais": [
+    "reversao"
+   ],
+   "restaurou_rascunho": null,
+   "origem_antes": "pipeline",
+   "contexto": "(Saint Paul, 2019) [[…]] O capítulo 8 precifica debêntures em",
+   "pos_antes": [
+    5241,
+    5254
+   ],
+   "id": 17
+  },
+  {
+   "classe": "remocao",
+   "natureza": "estilo",
+   "antes": "[VERIFICAR: edição vigente e paginação]",
+   "depois": "",
+   "palavras_antes": 5,
+   "palavras_depois": 0,
+   "bloco_antes": 117,
+   "bloco_depois": null,
+   "sinais": [
+    "reversao"
+   ],
+   "restaurou_rascunho": null,
+   "origem_antes": "pipeline",
+   "contexto": "2ª ed., 2015) [[…]] . Comenta o capítulo das debêntures",
+   "pos_antes": [
+    5325,
+    5333
+   ],
+   "id": 18
+  },
+  {
+   "classe": "separador",
+   "natureza": "layout-substack",
+   "antes": "",
+   "depois": "⟦HR⟧",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": null,
+   "bloco_depois": 135,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "parece com o que é. [[…]] ",
+   "pos_antes": [
+    5482,
+    5482
+   ],
+   "tipo": "insercao",
+   "id": 19
+  },
+  {
+   "classe": "separador",
+   "natureza": "layout-substack",
+   "antes": "",
+   "depois": "⟦HR⟧",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": null,
+   "bloco_depois": 137,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "parece com o que é. [[…]] ",
+   "pos_antes": [
+    5482,
+    5482
+   ],
+   "tipo": "insercao",
+   "id": 20
+  },
+  {
+   "classe": "insercao",
+   "natureza": "aviso-legal",
+   "antes": "",
+   "depois": "Os textos publicados na Syntaxis expressam exclusivamente minhas opiniões pessoais, formadas a partir da minha experiência profissional, e não representam a posição de meu empregador atual ou de empregadores anteriores. O conteúdo tem finalidade educacional e informativa: não constitui recomendação de investimento, análise de valores mobiliários ou consultoria financeira. Decisões de investimento são de responsabilidade exclusiva do leitor.",
+   "palavras_antes": 0,
+   "palavras_depois": 58,
+   "bloco_antes": null,
+   "bloco_depois": 136,
+   "sinais": [
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "parece com o que é. [[…]] ",
+   "pos_antes": [
+    5482,
+    5482
+   ],
+   "id": 21
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "do GPA, dono do Pão de Açúcar.",
+   "depois": "Recuperação extrajudicial é o acordo de reestruturação que",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 2,
+   "bloco_depois": 4,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "do GPA, dono do Pão de Açúcar. Recuperação extrajudicial é o acordo de reestruturação que",
+   "pos_antes": [
+    62,
+    64
+   ],
+   "id": 22
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "uma empresa prefere a debênture ao empréstimo bancário?",
+   "depois": "Porque consegue prazos que o banco raramente dá",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 37,
+   "bloco_depois": 40,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "uma empresa prefere a debênture ao empréstimo bancário? Porque consegue prazos que o banco raramente dá",
+   "pos_antes": [
+    1312,
+    1314
+   ],
+   "id": 23
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "e apertou as regras de LCI e LCA.",
+   "depois": "Empresas que perderam o atalho voltaram para a",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 39,
+   "bloco_depois": 43,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "e apertou as regras de LCI e LCA. Empresas que perderam o atalho voltaram para a",
+   "pos_antes": [
+    1483,
+    1485
+   ],
+   "id": 24
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "053/2004, art. 5º).",
+   "depois": "Para ele, uma incentivada a IPCA +",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 43,
+   "bloco_depois": 48,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "053/2004, art. 5º). Para ele, uma incentivada a IPCA +",
+   "pos_antes": [
+    1605,
+    1607
+   ],
+   "id": 25
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "uma segunda porta e deixou a divisão explícita.",
+   "depois": "Na debênture de infraestrutura da Lei nº 14",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 44,
+   "bloco_depois": 50,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "uma segunda porta e deixou a divisão explícita. Na debênture de infraestrutura da Lei nº 14",
+   "pos_antes": [
+    1638,
+    1640
+   ],
+   "id": 26
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "há rede, o que protege o debenturista?",
+   "depois": "Três coisas: o lugar na fila,",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 49,
+   "bloco_depois": 56,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "há rede, o que protege o debenturista? Três coisas: o lugar na fila,",
+   "pos_antes": [
+    1918,
+    1920
+   ],
+   "id": 27
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "que avisam antes do calote e o voto.",
+   "depois": "Nenhuma delas funciona como a versão simples da",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 49,
+   "bloco_depois": 57,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "que avisam antes do calote e o voto. Nenhuma delas funciona como a versão simples da",
+   "pos_antes": [
+    1937,
+    1939
+   ],
+   "id": 28
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "créditos tributários; quirografários; multas; subordinados.",
+   "depois": "A debênture quirografária recebe depois do Fisco.",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 52,
+   "bloco_depois": 61,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "créditos tributários; quirografários; multas; subordinados. A debênture quirografária recebe depois do Fisco.",
+   "pos_antes": [
+    2053,
+    2055
+   ],
+   "id": 29
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "(art. 83, § 6º).",
+   "depois": "A espécie continua na Lei das S.",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 53,
+   "bloco_depois": 63,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "(art. 83, § 6º). A espécie continua na Lei das S.",
+   "pos_antes": [
+    2128,
+    2130
+   ],
+   "id": 30
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "gatilhos A escritura não protege só no fim.",
+   "depois": "Ela traz obrigações que a empresa assume enquanto",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 58,
+   "bloco_depois": 69,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "gatilhos A escritura não protege só no fim. Ela traz obrigações que a empresa assume enquanto",
+   "pos_antes": [
+    2305,
+    2307
+   ],
+   "id": 31
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "inteira passa a poder ser cobrada de imediato.",
+   "depois": "Ele pode ser automático ou depender de deliberação",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 60,
+   "bloco_depois": 72,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "inteira passa a poder ser cobrada de imediato. Ele pode ser automático ou depender de deliberação",
+   "pos_antes": [
+    2509,
+    2511
+   ],
+   "id": 32
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "(art. 68, § 3º).",
+   "depois": "Nos casos não automáticos, quem decide é",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 60,
+   "bloco_depois": 73,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "(art. 68, § 3º). Nos casos não automáticos, quem decide é",
+   "pos_antes": [
+    2547,
+    2549
+   ],
+   "id": 33
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "securitizadora, com lastro na dívida da holding.",
+   "depois": "Nem toda debênture é da empresa que deve",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 62,
+   "bloco_depois": 76,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "securitizadora, com lastro na dívida da holding. Nem toda debênture é da empresa que deve",
+   "pos_antes": [
+    2757,
+    2759
+   ],
+   "id": 34
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "(art. 163, § 8º).",
+   "depois": "Em 2023, os agentes fiduciários das debêntures",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 63,
+   "bloco_depois": 78,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "(art. 163, § 8º). Em 2023, os agentes fiduciários das debêntures",
+   "pos_antes": [
+    2832,
+    2834
+   ],
+   "id": 35
+  },
+  {
+   "classe": "negrito_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "GPA",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 2,
+   "bloco_depois": 3,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "o plano de recuperação extrajudicial do GPA, dono do Pão de Açúcar",
+   "pos_antes": [
+    55,
+    56
+   ],
+   "id": 36
+  },
+  {
+   "classe": "negrito_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "Pão de Açúcar",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 2,
+   "bloco_depois": 3,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "extrajudicial do GPA, dono do Pão de Açúcar. Recuperação extrajudicial é o acordo",
+   "pos_antes": [
+    59,
+    62
+   ],
+   "id": 37
+  },
+  {
+   "classe": "negrito_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "emissões",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 3,
+   "bloco_depois": 5,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "debenturistas da 18ª e da 19ª emissões e detentores de CRIs (Certificados",
+   "pos_antes": [
+    147,
+    148
+   ],
+   "id": 38
+  },
+  {
+   "classe": "negrito_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "taxa, um prazo e um cronograma",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 5,
+   "bloco_depois": 7,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "comprou debênture do GPA comprou uma taxa, um prazo e um cronograma de pagamentos. Vai receber outra",
+   "pos_antes": [
+    212,
+    219
+   ],
+   "id": 39
+  },
+  {
+   "classe": "negrito_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "escritura",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 6,
+   "bloco_depois": 8,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": ", em letra miúda, na escritura de qualquer debênture, o contrato",
+   "pos_antes": [
+    266,
+    267
+   ],
+   "id": 40
+  },
+  {
+   "classe": "negrito_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "A escritura",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 21,
+   "bloco_depois": 23,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "contrato social é omisso). A escritura (art. 61) define",
+   "pos_antes": [
+    728,
+    730
+   ],
+   "id": 41
+  },
+  {
+   "classe": "negrito_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "define tudo o que importa:",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 21,
+   "bloco_depois": 23,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "escritura (art. 61) define tudo o que importa: valor, séries, remuneração,",
+   "pos_antes": [
+    735,
+    741
+   ],
+   "id": 42
+  },
+  {
+   "classe": "negrito_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "com garantia real",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 23,
+   "bloco_depois": 25,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "(art. 58): com garantia real (um bem específico reservado ao",
+   "pos_antes": [
+    841,
+    844
+   ],
+   "id": 43
+  },
+  {
+   "classe": "negrito_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "garantia flutuante",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 23,
+   "bloco_depois": 25,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "reservado ao credor), com garantia flutuante (que dá privilégio geral sobre",
+   "pos_antes": [
+    854,
+    856
+   ],
+   "id": 44
+  },
+  {
+   "classe": "negrito_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "quirografária",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 23,
+   "bloco_depois": 25,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "S. A.), quirografária (sem preferência sobre os demais",
+   "pos_antes": [
+    876,
+    877
+   ],
+   "id": 45
+  },
+  {
+   "classe": "negrito_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "subordinada",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 23,
+   "bloco_depois": 25,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "sobre os demais credores) e subordinada (que só recebe depois dos",
+   "pos_antes": [
+    886,
+    887
+   ],
+   "id": 46
+  },
+  {
+   "classe": "negrito_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "incentivada",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 31,
+   "bloco_depois": 33,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "% conforme o prazo. A incentivada da Lei nº 12. 431",
+   "pos_antes": [
+    1180,
+    1181
+   ],
+   "id": 47
+  },
+  {
+   "classe": "negrito_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "coordenador da oferta",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 36,
+   "bloco_depois": 38,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "banco aparece em outro papel: coordenador da oferta e, às vezes, comprador",
+   "pos_antes": [
+    1289,
+    1292
+   ],
+   "id": 48
+  },
+  {
+   "classe": "negrito_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "o prazo médio das debêntures emitidas chegou a 9, 9 anos",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 37,
+   "bloco_depois": 40,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "janeiro e abril de 2025, o prazo médio das debêntures emitidas chegou a 9, 9 anos, segundo a Anbima. Em",
+   "pos_antes": [
+    1355,
+    1367
+   ],
+   "id": 49
+  },
+  {
+   "classe": "negrito_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "a diferença é repartida entre emissor, coordenadores e investidor",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 42,
+   "bloco_depois": 46,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "empresa capta mais barato, e a diferença é repartida entre emissor, coordenadores e investidor. O problema é que a",
+   "pos_antes": [
+    1545,
+    1555
+   ],
+   "id": 50
+  },
+  {
+   "classe": "negrito_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "o lugar na fila, os gatilhos que avisam antes do calote e o voto",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 49,
+   "bloco_depois": 56,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "o debenturista? Três coisas: o lugar na fila, os gatilhos que avisam antes do calote e o voto. Nenhuma delas funciona como a",
+   "pos_antes": [
+    1922,
+    1937
+   ],
+   "id": 51
+  },
+  {
+   "classe": "legenda",
+   "natureza": "layout-substack",
+   "antes": "Tabela comparando LCA, CRA de devedor único e debênture em cinco atributos. Quem emite: banco, securitizadora, a própria empresa. Contra quem é o seu crédito: o banco; um patrimônio separado, que é credor da empresa; a empresa, diretamente. O que fica no meio: FGC, até o limite; patrimônio separado e agente fiduciário; escritura e agente fiduciário. IR para pessoa física: isento, isento, e tabela regressiva na debênture, isenta se incentivada pela Lei nº 12.431. Quem decide uma renegociação: ninguém na LCA, porque o banco paga ou o FGC cobre; assembleia de titulares no CRA; assembleia de debenturistas na debênture e, numa recuperação, os credores que o plano reúne. Na debênture, o crédito é contra a empresa, sem FGC no meio.",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 33,
+   "bloco_depois": 35,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "os produtos dos textos anteriores: [[…]] Até aqui, é o que",
+   "pos_antes": [
+    1215,
+    1216
+   ],
+   "id": 52
+  },
+  {
+   "classe": "legenda",
+   "natureza": "layout-substack",
+   "antes": "Tabela com cinco espécies ou garantias de debênture, o que o nome sugere e onde cada uma fica na recuperação judicial e na falência. Garantia real, como hipoteca ou penhor: o nome sugere preferência sobre um bem; na recuperação, vota na classe II até o valor do bem, e o excedente na classe III; na falência, é a segunda na fila, até o valor do bem, antes do Fisco. Garantia flutuante: sugere privilégio sobre o ativo da empresa; na recuperação, classe III; na falência, quirografária desde 2020. Quirografária: sem preferência; classe III, ao lado de bancos sem garantia e fornecedores; na falência, recebe depois de trabalhistas, garantia real e Fisco. Subordinada: recebe depois dos quirografários; classe III; na falência, é a última classe de credores, e depois dela só os acionistas. Alienação ou cessão fiduciária: o bem é do credor até a quitação; em regra fica fora da recuperação; na falência, o bem não entra na fila comum.",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 55,
+   "bloco_depois": 65,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "49, § 3º). [[…]] Por isso, ao ler \"",
+   "pos_antes": [
+    2262,
+    2263
+   ],
+   "id": 53
+  },
+  {
+   "classe": "legenda",
+   "natureza": "layout-substack",
+   "antes": "Tabela com o spread sobre o CDI equivalente a três percentuais do CDI, em quatro níveis de juros, com o CDI constante ao longo do prazo. Com o CDI a 15% ao ano: 105% do CDI equivale a CDI + 0,70%; 110%, a CDI + 1,41%; 120%, a CDI + 2,83%. Com o CDI a 13,65%: CDI + 0,64%, CDI + 1,29% e CDI + 2,59%. A 10%: CDI + 0,48%, CDI + 0,96% e CDI + 1,92%. A 8%: CDI + 0,39%, CDI + 0,77% e CDI + 1,55%. Os mesmos 110% do CDI que hoje valem CDI + 1,29% viram CDI + 0,96% se o CDI cair para 10%: o percentual do CDI é um spread que encolhe quando os juros caem.",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 78,
+   "bloco_depois": 93,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "em diferentes níveis de juros. [[…]] Leia a tabela de cima para",
+   "pos_antes": [
+    3593,
+    3594
+   ],
+   "id": 54
+  },
+  {
+   "classe": "legenda",
+   "natureza": "layout-substack",
+   "antes": "Tabela com o preço de uma debênture a CDI + 1,5%, com cinco anos até o vencimento e sem pagamentos intermediários, em porcentagem do valor na curva, conforme o spread que o mercado passa a exigir. Se o mercado exige CDI + 2,0%, o papel vale 97,6% do valor na curva; CDI + 3,0%, 92,9%; CDI + 4,5%, 86,4%; CDI + 6,0%, 80,5%. Cada ponto percentual a mais de spread tira cerca de 5% do preço: pós-fixado não oscila com o CDI, mas oscila com o devedor.",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 87,
+   "bloco_depois": 102,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "a exigir mais do devedor: [[…]] A sensibilidade desse papel a juros",
+   "pos_antes": [
+    3950,
+    3951
+   ],
+   "id": 55
+  },
+  {
+   "classe": "tipografia_aspas",
+   "natureza": "layout-substack",
+   "antes": "",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": null,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "",
+   "ocorrencias": 12,
+   "id": 56
+  }
+ ]
+}
