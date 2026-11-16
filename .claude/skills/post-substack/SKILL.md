@@ -53,7 +53,7 @@ cortar (ver `pesquisa/frente-c-editoracao.md`).
 | 6 | Linha e norma | agente `revisor-gramatical` | `06-revisao.md` — diff comentado, não toca estrutura |
 | 7 | Verificação técnica | agente `verificador-tecnico` | `07-verificacao.md` — veredito por item, fórmulas recalculadas |
 | 8 | Visuais | agente `prompts-visuais` | rascunho consolidado em `graficos.md`, `diagramas.md` e, condicional, `infograficos.md` |
-| 9 | Consolidação | agente `revisao-editorial` | aplica 5+6+7, emite os entregáveis finais (ver "Os entregáveis" abaixo) |
+| 9 | Consolidação | agente `revisao-editorial` + `scripts/checar_post.py` | aplica 5+6+7 sem escrever prosa nova, roda a checagem mecânica, emite os entregáveis finais (ver "Etapa 9" e "Os entregáveis" abaixo) |
 | 9a | Estratégia de marketing | agente `estrategista-marketing` + `scripts/parecer.py` | `marketing.json` e `marketing.md` na raiz de `posts/<slug>/` — parecer com IDs, só sugere, não toca em `post.md` (ver "Etapa 9a" abaixo) |
 | 10 | **Gate humano** | principal | apresenta o post, o que mudou, pendências `[VERIFICAR]` e o parecer de marketing; **para e espera** |
 
@@ -184,6 +184,23 @@ nesta ordem — e registre em `02-estrutura.md` por que os outros três perderam
    `prompts-visuais`) — o ponto fica em prosa, sem peça visual, até existir o projeto
    dedicado a isso.
 
+## Etapa 9 — consolidação: aplica, não escreve
+
+O agente `revisao-editorial` aplica sobre o draft todas as `norma` de `06-revisao.md`, as
+correções aceitas de `07-verificacao.md` e **só as `linha` que o autor aceitou**. A estrela (★)
+do revisor não é aceite: sem decisão do autor, a `linha` fica de fora. Não existe mais "aplicado
+pelo orquestrador; o gate pode reverter". O texto escrito nas etapas 9 e 10 é o que o autor mais
+edita no site (sobrevive 89% e 80%, contra 92–96% do resto; ver
+`pesquisa/epico-revisao-editorial/01-diagnostico.md`, D2).
+
+A consolidação não escreve prosa nova. Se uma correção pede redação (uma glosa, uma transição),
+ela volta à etapa 4 (principal + `voz-syntaxis`), só no trecho.
+
+Depois da passada do agente, rode `python3 scripts/checar_post.py <slug>`. Bloqueante de
+aplicação (placeholder sem bloco, frontmatter) se corrige aqui. Marcador de pendência
+(`[VERIFICAR]`, `[FAIXA]`, `[PREENCHER]`, `[LINK`) nunca se resolve por suposição: fica visível e
+vira pergunta na etapa 10. Os avisos vão para o resumo do gate.
+
 ## Etapa 9a — estratégia de marketing
 
 Roda depois da 9 porque só ali o `post.md` fica estável: as âncoras dos CTAs e dos links são
@@ -210,19 +227,24 @@ Use `AskUserQuestion` com três saídas: **aprovar**, **ajustar**, **abortar**.
   aceitos exatamente na âncora e não mexe em mais nada. Mostre `git diff posts/<slug>/post.md`.
 - O script imprime a **lista de inserção manual** (botões nativos com o número do parágrafo) e
   os backlinks aceitos, que viram tarefas do autor no Substack. Itens `A`/`X` aceitos pedem
-  redação: aplique na etapa 4 (principal + `voz-syntaxis`), só no trecho citado.
+  redação: aplique na etapa 4 (principal + `voz-syntaxis`), só no trecho citado, e rode
+  `scripts/checar_post.py` antes de mostrar o resultado. Vale para toda redação nova feita no gate.
 - Cada rodada que aplica itens do parecer consome **um loop** (conta para
   `MAX_LOOPS_REVISAO`), mesmo sendo reentrada depois da etapa 4. Registre em `estado.json` os
   IDs aceitos e recusados.
 - Se `../uther-pendragon/` existir, não o edite: só diga no resumo final que as tarefas de
   backlink podem ir para o ClickUp.
 
+- **Antes da pergunta de aprovação,** rode `python3 scripts/checar_post.py <slug>`. Cada
+  bloqueante vira pergunta nomeada, uma por item: resolver, cortar o trecho ou reescrever sem o
+  dado. "Aprovar" só aparece com **zero bloqueante**: nenhum `[VERIFICAR]`, `[FAIXA]`,
+  `[PREENCHER]` ou `[LINK` chega a um post aprovado (três marcadores e um trecho de jargão do
+  pipeline estavam no site em novembro de 2026).
+  Os avisos aparecem no resumo, para o autor decidir.
 - Aprovar → apresente `post.md` (e `graficos.md`/`diagramas.md`/`infograficos.md` quando
   existirem) prontos para o autor copiar manualmente para a Substack — não há automação de
-  publicação neste sistema. Se algum `[VERIFICAR]` ou `[FAIXA]` ficou pendente, liste cada um
-  e pergunte se o autor publica assim mesmo. Publicar (colar na Substack) e decidir o que
-  fazer com a branch (mergear em `main`, deixar como está) são ações manuais do autor, fora
-  deste pipeline.
+  publicação neste sistema. Publicar (colar na Substack) e decidir o que fazer com a branch
+  (mergear em `main`, deixar como está) são ações manuais do autor, fora deste pipeline.
 - Ajustar → pergunte o que mudar, reentre no **ponto mais raso que resolve o pedido**:
   - reentrada na etapa 4 ou anterior → **consome um loop** (o texto está sendo refeito);
   - reentrada nas etapas 5-9 → **não consome** (é acabamento, é para isso que o gate serve),

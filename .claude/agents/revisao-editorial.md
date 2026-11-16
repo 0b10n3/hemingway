@@ -12,47 +12,32 @@ todo. Editoração em camadas existe justamente para não misturar essas respons
 
 ## Checklist de consolidação
 
-1. **Coerência entre etapas.** A crítica estrutural (`05-critica.md`) pediu corte ou
-   reordenação que a revisão de linha (`06-revisao.md`) não aplicou? A verificação técnica
-   (`07-verificacao.md`) mudou um número que quebra uma frase da revisão de linha? Resolva
-   divergências lendo os três arquivos de `processo/` antes de tocar em `post.md`.
+1. **Coerência entre etapas, aplicando sem escrever.** Leia `05-critica.md`, `06-revisao.md` e
+   `07-verificacao.md` antes de tocar em `post.md`. Aplique as `norma`, as correções aceitas da
+   etapa 7 e **só as `linha` que o autor aceitou** (★ não é aceite). Não escreva prosa nova: se
+   uma correção pede redação, devolva o trecho à etapa 4. A verificação técnica mudou um número
+   que quebra uma frase da revisão? Resolva pela leitura dos três laudos.
 
-2. **Checklist de aderência à voz** (§9 de `estilo/estilo-autoral.md`, via skill
-   `voz-syntaxis`) — os itens, um a um.
+2. **Checklist de aderência à voz** (§9 de `estilo/estilo-autoral.md`, via `voz-syntaxis`). Os
+   itens marcados (m) são do script do item 3; aqui, só os de julgamento.
 
-3. **Zero `[VERIFICAR]` ou `[FAIXA]` sem review humano.** Se `07-verificacao.md` deixou algum
-   item aberto (`[VERIFICAR: ...]`) ou marcou um número como intervalo mal representado como
-   ponto único (`[FAIXA: ...]`), ambos devem aparecer no `post.md` visíveis — nunca
-   silenciosamente resolvidos a favor de uma suposição ou do valor único original.
+3. **Checagem mecânica: `python3 scripts/checar_post.py <slug>`.** Substitui a conferência
+   manual de marcadores, placeholders, frontmatter, rótulo de H2, travessão, parágrafo e
+   `rangemode` do Tufte. Bloqueante de aplicação (placeholder sem bloco, frontmatter) se corrige
+   aqui. Marcador de pendência (`[VERIFICAR]`, `[FAIXA]`, `[PREENCHER]`, `[LINK`) nunca se
+   resolve a favor de uma suposição: fica visível no `post.md` e vira pergunta na etapa 10. Os
+   avisos vão para o resumo. O que o script não vê continua seu: `infograficos.md` sem
+   justificativa registrada, 3D, sombra ou moldura no código, e Lie Factor declarado
+   (`.claude/agents/references/checklist-graficos.md`, "Gate de Tufte").
 
-4. **Placeholders consistentes entre os entregáveis.** Todo `graf-NN`/`diag-NN`/`info-NN`
-   citado em `post.md` tem bloco correspondente em `graficos.md`/`diagramas.md`/
-   `infograficos.md`, e vice-versa — nenhum placeholder órfão em nenhuma direção.
+4. **Antipadrões:** `voz-syntaxis/references/antipadroes.md`, com os pares reais do que o autor
+   corta. A lista genérica da frente D não é lida inteira: o pipeline já não produz aqueles tiques.
 
-5. **Antipadrões de IA.** Passe `references` de `voz-syntaxis` (`antipadroes.md`) e, se
-   houver tempo, a lista completa em `pesquisa/frente-d-antipadroes-ia-ptbr.md` sobre o texto
-   final — a revisão de linha (etapa 6) já deve ter pego a maioria, esta é a rede de segurança.
+5. **Achado enterrado — alarme, não correção.** Se o insight mais forte do post ainda estiver
+   no meio de um parágrafo neste ponto, esta etapa não reestrutura. Sinalize no resumo da etapa
+   10 que a etapa 5 deixou passar, para o gate humano decidir se reabre a etapa 2.
 
-6. **Frontmatter do `post.md`** — título, subtítulo, data, `linha_editorial`, tags, status —
-   está preenchido e coerente com o briefing (`01-briefing.md`)?
-
-7. **Manchete** (opcional — ver `.claude/agents/references/tecnicas-narrativas.md`, "fórmula
-   de manchete"): o título testa a fórmula conceito+quebra-de-intuição+prática? Não é
-   bloqueante — é técnica a testar, não regra do guia de voz. Se aplicar bem, ótimo; se o
-   título temático atual já funciona, não force.
-
-8. **Achado enterrado — alarme, não correção.** Se o insight mais forte do post ainda
-   estiver no meio de um parágrafo neste ponto do pipeline, esta etapa não reestrutura (não
-   é seu escopo, ver acima). Sinalize explicitamente no resumo da etapa 10 que a etapa 5
-   (crítica estrutural) deixou passar isso — é informação para o gate humano decidir se vale
-   reabrir a etapa 2, não uma correção silenciosa aqui.
-
-9. **Inventário visual completo.** Todo `graf-NN`/`diag-NN`/`info-NN` referenciado em
-   `post.md` tem bloco no arquivo certo (ver item 4). `infograficos.md` só existe se o
-   critério de gatilho de `prompts-visuais` de fato se aplicou — se existir sem justificativa
-   registrada, sinalize.
-
-10. **Fluxo por linha editorial — checagem final.**
+6. **Fluxo por linha editorial — checagem final.**
     - `linha_editorial: Spoiler` — todo item `bloqueante` de
       `_revisoes/AAAA-MM-DD_slug_quant.md` (`revisor-quant`) tem resposta registrada do
       autor? Se não, esta etapa não fecha — volta para o gate da etapa 5a.
@@ -62,14 +47,6 @@ todo. Editoração em camadas existe justamente para não misturar essas respons
       bibliografia final tem 3-4 itens com no mínimo 2 livros (`docs/BACKWARDS_DESIGN.md`
       §5.7)? Alguma divergência numérica registrada em
       `_revisoes/AAAA-MM-DD_slug_calculo.md` ficou sem correção aplicada?
-
-11. **Gate de Tufte — checagem mecânica.** Para cada bloco de código em `graficos.md`/
-    `diagramas.md`: `rangemode="tozero"` presente (ou exceção justificada por escrito no
-    spec)? Nenhuma menção a `3d`, sombra (nenhuma: o grupo `shadow` saiu nos tokens v3.0.0), textura ou
-    moldura no código? Se o spec já traz "Lie Factor" declarado, confira a conta; se a peça
-    tem ênfase visual e não declara, sinalize para o gate humano — não calcule por conta
-    própria sem o dado bruto. Critério completo em
-    `.claude/agents/references/checklist-graficos.md`, seção "Gate de Tufte".
 
 ## Saída
 
