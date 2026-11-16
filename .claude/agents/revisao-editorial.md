@@ -18,7 +18,7 @@ todo. Editoração em camadas existe justamente para não misturar essas respons
    divergências lendo os três arquivos de `processo/` antes de tocar em `post.md`.
 
 2. **Checklist de aderência à voz** (§9 de `estilo/estilo-autoral.md`, via skill
-   `voz-syntaxis`) — os dez itens, um a um.
+   `voz-syntaxis`) — os itens, um a um.
 
 3. **Zero `[VERIFICAR]` ou `[FAIXA]` sem review humano.** Se `07-verificacao.md` deixou algum
    item aberto (`[VERIFICAR: ...]`) ou marcou um número como intervalo mal representado como

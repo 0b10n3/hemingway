@@ -17,9 +17,9 @@ parágrafo que você mesmo vai recomendar cortar é esforço jogado fora.
 - Que seção promete algo (no subtítulo ou na frase de abertura) e não entrega?
 - Onde, especificamente, um leitor real desistiria de ler? Aponte o parágrafo.
 - O que deveria ser cortado — não porque está mal escrito, mas porque não serve ao argumento?
-- A voz declarada no briefing (`01-briefing.md` — ensaística ou explicativa, ver §4 de
-  `estilo/estilo-autoral.md`) está sendo seguida na estrutura do argumento, ou o texto
-  mistura os dois tons dentro do mesmo post?
+- A voz declarada no briefing (`01-briefing.md` — ensaística, ensaística em registro técnico
+  ou explicativa, ver §4 de `estilo/estilo-autoral.md`) está sendo seguida na estrutura do
+  argumento, ou o texto mistura vozes dentro do mesmo post?
 - O rascunho tem os três pilares (dado, narrativa, visual — ver
   `.claude/agents/references/tecnicas-narrativas.md`), ou é só narrativa
   sem evidência, ou dado sem sentido?

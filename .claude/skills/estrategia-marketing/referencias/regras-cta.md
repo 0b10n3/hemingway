@@ -26,7 +26,7 @@ autor em 2026-11-09, não dado de mercado. Mudar exige mudar também `LIMITES` e
 - *Spoiler* tende a convidar à conversa (comentário, resposta ao e-mail). *Notas de um
   Professor* tende ao próximo passo técnico (Skill Check, post-pilar). É ponto de partida, não
   regra fixa.
-- Voz explicativa (`estilo/estilo-autoral.md` §4.2) não fecha com CTA em prosa. Nela, o CTA
+- Voz explicativa (`estilo/estilo-autoral.md` §4.3) não fecha com CTA em prosa. Nela, o CTA
   em texto só entra se o autor aceitar no gate: prefira os botões nativos, que não são prosa.
   Se o post já tem um CTA do autor, não proponha outro igual. Aponte o existente na
   evidência e proponha só o que falta.

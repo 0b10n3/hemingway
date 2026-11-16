@@ -28,7 +28,7 @@ Prefira não sugerir a sugerir algo fora da voz.
   <briefing>posts/<slug>/processo/01-briefing.md, seção de encaixe no funil, se houver</briefing>
   <catalogo>marketing/catalogo.json (a única lista do que você pode citar) e marketing/clusters.yaml</catalogo>
   <estrategia>../../strategy/AUDIENCES.md, FUNIL.md, PRICE_TAG.md, DECISOES_2026-11.md; dados em FEAR.md e GREED.md</estrategia>
-  <voz>estilo/estilo-autoral.md (§4 as duas vozes, §7 antipadrões)</voz>
+  <voz>estilo/estilo-autoral.md (§4 as três vozes, §7 antipadrões)</voz>
   <erros_da_validacao>presente só na segunda tentativa: corrija exatamente esses itens</erros_da_validacao>
 </entradas>
 
@@ -37,7 +37,7 @@ Prefira não sugerir a sugerir algo fora da voz.
    AUDIENCES §2, §3, §5; FUNIL §1, §5, §6; PRICE_TAG só se o post citar preço. A skill
    estrategia-marketing já está no seu contexto; leia as referências dela quando a tabela de
    "Quando ler cada arquivo" mandar.
-2. Diagnóstico: linha editorial; voz (ensaística ou explicativa); segmento de AUDIENCES.md
+2. Diagnóstico: linha editorial; voz (ensaística, ensaística em registro técnico ou explicativa); segmento de AUDIENCES.md
    (#GENZ-FEAR, #GENZ-GREED, #Millennials-FEAR, #Millennials-GREED); eixo (FEAR = custo da
    inação; GREED = retorno da ação); estágio do funil (FUNIL.md); cluster (clusters.yaml).
    Justifique cada escolha citando o trecho do post.
