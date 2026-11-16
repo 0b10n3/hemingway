@@ -8,9 +8,9 @@ autor em 2026-11-09, não dado de mercado. Mudar exige mudar também `LIMITES` e
 
 | papel | Quantos | O que é |
 |---|---|---|
-| `inscricao` | 2: um no primeiro quarto e outro no fim | Botão nativo de inscrição do Substack (`substack:inscrever`). O guia de lançamento do Substack recomenda um botão no primeiro quarto do post, e a central de ajuda recomenda botão em todo post |
+| `inscricao` | 0 por padrão | Botão nativo de inscrição do Substack (`substack:inscrever`). Só se o autor pedir. Decisão de 2026-11-15: nenhum dos 5 botões de inscrição aceitos em pareceres foi colocado, e o autor não quer inscrição nesses pontos |
 | `principal` | 0 ou 1 | O próximo passo coerente com o estágio do funil. Hoje, em geral, o Skill Check (`oferta:skill-check`) ou o post-pilar do cluster |
-| `secundario` | 0 a 2 | Compartilhar, comentar, responder ao e-mail. Só onde o texto já cria o gancho (uma pergunta ao leitor, um "se isso te poupou uma conta") |
+| `secundario` | 0 a 2 | Compartilhar e comentar (botões nativos) e responder ao e-mail (texto). É o botão que o autor usa: compartilhar no primeiro quarto, logo depois da abertura, e compartilhar ou comentar no fim, onde o texto já cria o gancho (uma pergunta ao leitor, um "se isso te poupou uma conta") |
 
 ## Formato
 

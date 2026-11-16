@@ -37,7 +37,7 @@ entregar, confira:
 - `ancora` copiada literalmente do post e única nele (procure com Grep antes de usar);
 - todo `trecho` do diagnóstico, da rubrica e dos riscos copiado literalmente;
 - `destino_id` existente em `marketing/catalogo.json` com `citavel: true`, e nunca o próprio post;
-- no máximo 1 CTA `principal`, 2 `secundario` e 4 referências; inscrição no primeiro quarto e no fim;
+- no máximo 1 CTA `principal`, 2 `secundario` e 4 referências (botão de inscrição não é obrigatório);
 - texto de link descritivo, nunca "clique aqui", "aqui", "leia mais", "saiba mais", "este link";
 - nenhum emoji; nenhum número em texto sugerido que não esteja no post ou em
   `../../strategy/FEAR.md`, `GREED.md` ou `PRICE_TAG.md`.

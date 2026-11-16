@@ -41,7 +41,8 @@ Por que seria reprovado hoje:
 
 O que o parecer faz num caso assim: não propõe CTA para o curso. Registra em `riscos[]` que o
 texto anuncia uma oferta indisponível e propõe como `principal` o que está disponível no
-estágio (Skill Check), se houver gancho no texto. Se não houver, só os botões de inscrição.
+estágio (Skill Check), se houver gancho no texto. Se não houver, nenhum CTA além dos botões de
+compartilhar que o autor já usa.
 
 ## 3. Link interno bom: a menção que o autor já faz
 
@@ -90,5 +91,4 @@ existe seria ruído. No parecer:
 "backlinks_sugeridos": []
 ```
 
-O `marketing.md` mostra "Nenhuma sugestão." nas duas seções. Os CTAs de inscrição continuam
-obrigatórios.
+O `marketing.md` mostra "Nenhuma sugestão." nas duas seções. Nenhum CTA é obrigatório.

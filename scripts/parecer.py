@@ -99,7 +99,6 @@ def checar(parecer, corpo, catalogo, slug, fontes_numero=""):
         if x.get("trecho") and x["trecho"] not in corpo:
             erros.append(f"{x['id']}: trecho não aparece no post: {x['trecho'][:60]!r}")
 
-    inscricao_inicio = inscricao_fim = False
     papeis = {"principal": 0, "secundario": 0}
     for c in parecer["ctas"]:
         pos = unica(c["id"], c["ancora"])
@@ -114,17 +113,9 @@ def checar(parecer, corpo, catalogo, slug, fontes_numero=""):
                 erros.append(f"{c['id']}: destino com URL pede texto_link contido em texto_sugerido")
             elif _generico(tl):
                 erros.append(f"{c['id']}: texto de link genérico: {tl!r}")
-        if c["papel"] == "inscricao" and pos is not None:
-            fim_paragrafo = pos + len(c["ancora"])
-            inscricao_inicio |= fim_paragrafo <= n * 0.25
-            inscricao_fim |= pos >= n * 0.75
     for papel, k in papeis.items():
         if k > LIMITES[papel]:
             erros.append(f"CTAs: {k} com papel {papel}, máximo {LIMITES[papel]}")
-    if not inscricao_inicio:
-        erros.append("CTAs: falta botão de inscrição no primeiro quarto do post")
-    if not inscricao_fim:
-        erros.append("CTAs: falta botão de inscrição no fim do post (último quarto)")
 
     if len(parecer["referencias"]) > LIMITES["referencias"]:
         erros.append(f"referências: {len(parecer['referencias'])}, máximo {LIMITES['referencias']}")

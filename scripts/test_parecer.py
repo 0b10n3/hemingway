@@ -131,11 +131,11 @@ class Validar(unittest.TestCase):
                 p["ctas"].append(extra)
         self.assertReprova(m, "papel secundario")
 
-    def test_falta_inscricao_no_primeiro_quarto(self):
-        self.assertReprova(lambda p: p["ctas"][0].update(ancora="Quinto parágrafo"), "primeiro quarto")
-
-    def test_falta_inscricao_no_fim(self):
-        self.assertReprova(lambda p: p["ctas"][1].update(ancora="Quarto parágrafo"), "fim do post")
+    def test_inscricao_nao_e_obrigatoria(self):
+        # Decisão do autor (GATE B do épico de revisão editorial, 2026-11-15).
+        def m(p):
+            p["ctas"] = [c for c in p["ctas"] if c["papel"] != "inscricao"]
+        self.assertEqual([e for e in erros(m) if "inscrição" in e], [])
 
     def test_mais_de_quatro_referencias(self):
         def m(p):
