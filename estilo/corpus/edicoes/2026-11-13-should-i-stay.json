@@ -57,6 +57,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "devo ficar ou devo ir? [[…]] A gravação aconteceu no meio de",
+   "pos_antes": [
+    31,
+    31
+   ],
    "tipo": "insercao",
    "id": 1
   },
@@ -73,6 +77,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": ", e não com desabafo. [[…]] Antes, uma ressalva O que",
+   "pos_antes": [
+    221,
+    221
+   ],
    "tipo": "insercao",
    "id": 2
   },
@@ -91,6 +99,10 @@
    "restaurou_rascunho": false,
    "origem_antes": "rascunho",
    "contexto": "Para todo o resto, que [[…]] a maioria dos casos, a",
+   "pos_antes": [
+    301,
+    302
+   ],
    "id": 3
   },
   {
@@ -108,6 +120,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "Clima é uma coisa. Capital [[…]] é outra. Quando alguém me",
+   "pos_antes": [
+    325,
+    325
+   ],
    "id": 4
   },
   {
@@ -125,6 +141,10 @@
    "restaurou_rascunho": false,
    "origem_antes": "rascunho",
    "contexto": "conta, que só aparece no [[…]] : o que você está acumulando",
+   "pos_antes": [
+    382,
+    383
+   ],
    "id": 5
   },
   {
@@ -142,6 +162,10 @@
    "restaurou_rascunho": false,
    "origem_antes": "rascunho",
    "contexto": "mais do que um time simpático [[…]] que parou de te ensinar.",
+   "pos_antes": [
+    601,
+    603
+   ],
    "id": 6
   },
   {
@@ -157,6 +181,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "ele, desqualificam um emprego são [[…]] poucas chances de desenvolver habilidades raras",
+   "pos_antes": [
+    641,
+    641
+   ],
    "id": 7
   },
   {
@@ -172,6 +200,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "poucas chances de desenvolver habilidades raras [[…]] um trabalho que você considera inútil",
+   "pos_antes": [
+    647,
+    648
+   ],
    "id": 8
   },
   {
@@ -189,6 +221,10 @@
    "restaurou_rascunho": null,
    "origem_antes": "pipeline",
    "contexto": "que você considera inútil ou nocivo [[…]] obrigação de conviver com gente de",
+   "pos_antes": [
+    656,
+    658
+   ],
    "id": 9
   },
   {
@@ -207,6 +243,10 @@
    "restaurou_rascunho": false,
    "origem_antes": "pipeline",
    "contexto": "poucas pessoas, e a estimativa [[…]] imprecisa. A conclusão de Levitt",
+   "pos_antes": [
+    1071,
+    1072
+   ],
    "id": 10
   },
   {
@@ -225,6 +265,10 @@
    "restaurou_rascunho": false,
    "origem_antes": "pipeline",
    "contexto": ". Os dois conselhos não se [[…]] . Como matemático, eu resolvo",
+   "pos_antes": [
+    1333,
+    1337
+   ],
    "id": 11
   },
   {
@@ -240,6 +284,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "sua tendência vai ser ignorá-lo. [[…]] No fundo, a regra é",
+   "pos_antes": [
+    1430,
+    1430
+   ],
    "tipo": "insercao",
    "id": 12
   },
@@ -258,6 +306,10 @@
    "restaurou_rascunho": null,
    "origem_antes": "pipeline",
    "contexto": "é de jogador baixo e compacto [[…]] . O corpo que rende como",
+   "pos_antes": [
+    1800,
+    1918
+   ],
    "id": 13
   },
   {
@@ -273,6 +325,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "seus coqueiros ficam sem uso. [[…]] Procure emprego enquanto tem um Decidir",
+   "pos_antes": [
+    2077,
+    2077
+   ],
    "tipo": "insercao",
    "id": 14
   },
@@ -289,6 +345,10 @@
    "restaurou_rascunho": null,
    "origem_antes": "rascunho",
    "contexto": "de dizer não. Escreva hoje [[…]] É possível, e até provável",
+   "pos_antes": [
+    2115,
+    2120
+   ],
    "id": 15
   },
   {
@@ -304,6 +364,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": ", me conte qual foi. [[…]] Referências Steven D. Levitt,",
+   "pos_antes": [
+    2472,
+    2472
+   ],
    "tipo": "insercao",
    "id": 16
   },
@@ -320,6 +384,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "A gravação aconteceu no meio de uma crise. A banda tinha acabado de trocar de empresário",
+   "pos_antes": [
+    39,
+    41
+   ],
    "id": 17
   },
   {
@@ -335,6 +403,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "Mick Jones, justamente quem canta a faixa. No ano seguinte, Jones estava fora da",
+   "pos_antes": [
+    88,
+    90
+   ],
    "id": 18
   },
   {
@@ -350,6 +422,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "dessa história porque ela não tem moral fácil. Ficar custou caro. Sair também. E",
+   "pos_antes": [
+    146,
+    148
+   ],
    "id": 19
   },
   {
@@ -365,6 +441,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "fácil. Ficar custou caro. Sair também. E a pergunta do título continua sendo feita",
+   "pos_antes": [
+    153,
+    155
+   ],
    "id": 20
   },
   {
@@ -380,6 +460,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "a seguir vale para quem tem margem para escolher. Boleto vence todo mês, e eu",
+   "pos_antes": [
+    236,
+    238
+   ],
    "obs": "parágrafo só com pontuação no site (provável deslize)",
    "id": 21,
    "natureza_fonte": "GATE A, 2026-11-15: parágrafo só com '.', deslize no editor"
@@ -397,6 +481,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": ", e eu não vou fingir que não. Salvo situações extremas, ninguém deveria sair sem",
+   "pos_antes": [
+    250,
+    252
+   ],
    "id": 22
   },
   {
@@ -412,6 +500,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "emprego, quase sempre o motivo é clima. O chefe é difícil. O time é",
+   "pos_antes": [
+    344,
+    346
+   ],
    "id": 23
   },
   {
@@ -427,6 +519,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "motivo é clima. O chefe é difícil. O time é frio. A segunda-feira pesa",
+   "pos_antes": [
+    349,
+    351
+   ],
    "id": 24
   },
   {
@@ -442,6 +538,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "chefe é difícil. O time é frio. A segunda-feira pesa. Tudo isso é real",
+   "pos_antes": [
+    354,
+    356
+   ],
    "id": 25
   },
   {
@@ -457,6 +557,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "e controle sobre o que você faz). Eu coloco na mesma conta a marca da",
+   "pos_antes": [
+    453,
+    455
+   ],
    "id": 26
   },
   {
@@ -472,6 +576,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "Nem todo capital sai pela porta com você. Saber operar o sistema interno que só existe",
+   "pos_antes": [
+    490,
+    492
+   ],
    "id": 27
   },
   {
@@ -487,6 +595,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "título de dívida) vale em qualquer lugar. O primeiro é capital específico. O segundo",
+   "pos_antes": [
+    534,
+    536
+   ],
    "id": 28
   },
   {
@@ -502,6 +614,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "simpático numa casa que parou de te ensinar. O trabalho ruim pode ser um bom emprego",
+   "pos_antes": [
+    608,
+    610
+   ],
    "id": 29
   },
   {
@@ -517,6 +633,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "limite, e o próprio Newport o reconhece. As três coisas que, para ele,",
+   "pos_antes": [
+    628,
+    630
+   ],
    "id": 30
   },
   {
@@ -532,6 +652,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "com gente de quem você realmente não gosta. Clima entra na conta. Só não fecha",
+   "pos_antes": [
+    669,
+    671
+   ],
    "id": 31
   },
   {
@@ -547,6 +671,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": ", jogavam uma moeda para ajudar a decidir. Cara, muda. Coroa, fica como",
+   "pos_antes": [
+    1005,
+    1007
+   ],
    "id": 32
   },
   {
@@ -562,6 +690,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "de escolhas grandes, talvez sejamos cautelosos demais. Duas ressalvas: eram voluntários, e a",
+   "pos_antes": [
+    1090,
+    1092
+   ],
    "id": 33
   },
   {
@@ -579,6 +711,10 @@
    "restaurou_rascunho": true,
    "origem_antes": null,
    "contexto": "dois conselhos não se resolvem um pelo outro. Como matemático, eu resolvo pelo meu critério",
+   "pos_antes": [
+    1337,
+    1339
+   ],
    "id": 34
   },
   {
@@ -594,6 +730,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "que decide, então, é a modalidade. O corpo que rende como running back não",
+   "pos_antes": [
+    1918,
+    1920
+   ],
    "id": 35
   },
   {
@@ -609,6 +749,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "começo; esse é o preço de aprender. O problema é a que nunca fica barata",
+   "pos_antes": [
+    2033,
+    2035
+   ],
    "id": 36
   },
   {
@@ -624,6 +768,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "O problema é a que nunca fica barata. A mesma hora de estudo rende mais onde",
+   "pos_antes": [
+    2042,
+    2044
+   ],
    "id": 37
   },
   {
@@ -639,6 +787,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "que você está acumulando ali. Cal Newport, professor de ciência da computação",
+   "pos_antes": [
+    391,
+    393
+   ],
    "id": 38
   },
   {
@@ -654,6 +806,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "e carreira, chama isso de career capital, capital de carreira: as",
+   "pos_antes": [
+    411,
+    413
+   ],
    "id": 39
   },
   {
@@ -669,6 +825,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "O primeiro é capital específico. O segundo é transferível, e é ele que interessa. Por isso a pergunta que eu",
+   "pos_antes": [
+    541,
+    552
+   ],
    "id": 40
   },
   {
@@ -686,6 +846,10 @@
    "restaurou_rascunho": true,
    "origem_antes": null,
    "contexto": "? \". É esta: O seu trabalho ainda trabalha por você? Um time desagradável numa casa que",
+   "pos_antes": [
+    571,
+    579
+   ],
    "id": 41
   },
   {
@@ -701,6 +865,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": ", um trabalho que você considera inútil ou nocivo e a obrigação de conviver com",
+   "pos_antes": [
+    653,
+    656
+   ],
    "id": 42
   },
   {
@@ -716,6 +884,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "aponta para o outro lado. Steven Levitt, economista e coautor do livro",
+   "pos_antes": [
+    963,
+    965
+   ],
    "id": 43
   },
   {
@@ -731,6 +903,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": ", economista e coautor do livro Freakonomics, publicou em 2021 um experimento",
+   "pos_antes": [
+    971,
+    972
+   ],
    "id": 44
   },
   {
@@ -746,6 +922,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "conclusão de Levitt é que, diante de escolhas grandes, talvez sejamos cautelosos demais. Duas ressalvas: eram voluntários,",
+   "pos_antes": [
+    1081,
+    1091
+   ],
    "id": 45
   },
   {
@@ -761,6 +941,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": ". Há um segundo dado. Em 2000, Griffeth, Hom e Gaertner fizeram uma meta-análise clássica sobre rotatividade",
+   "pos_antes": [
+    1147,
+    1155
+   ],
    "id": 46
   },
   {
@@ -776,6 +960,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "antecipa um pedido de demissão. O que melhor previa a saída não foi salário nem satisfação. Foi a intenção declarada de sair. A correlação entre intenção e saída",
+   "pos_antes": [
+    1187,
+    1206
+   ],
    "id": 47
   },
   {
@@ -793,6 +981,10 @@
    "restaurou_rascunho": true,
    "origem_antes": null,
    "contexto": "eu resolvo pelo meu critério: olhe a derivada, não o nível. O que importa não é",
+   "pos_antes": [
+    1347,
+    1354
+   ],
    "id": 48
   },
   {
@@ -808,6 +1000,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "ruim está o clima hoje. É a taxa de crescimento. Enquanto o seu capital de carreira",
+   "pos_antes": [
+    1373,
+    1379
+   ],
    "id": 49
   },
   {
@@ -823,6 +1019,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "vezes a casa é ruim. Às vezes a casa é ótima e paga por um talento que, para você, nunca vai ficar barato de manter. Você não está errado, e",
+   "pos_antes": [
+    1986,
+    2009
+   ],
    "id": 50
   },
   {
@@ -838,6 +1038,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "é o preço de aprender. O problema é a que nunca fica barata. A mesma hora de estudo rende",
+   "pos_antes": [
+    2034,
+    2043
+   ],
    "id": 51
   },
   {
@@ -853,6 +1057,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "comece um pouco mais baixo. [[…]] Três sinais para ir 1.",
+   "pos_antes": [
+    1512,
+    1513
+   ],
    "id": 52
   },
   {

@@ -55,6 +55,10 @@
    "restaurou_rascunho": null,
    "origem_antes": "rascunho",
    "contexto": " [[…]] Novembro de 2025. O Banco",
+   "pos_antes": [
+    0,
+    6
+   ],
    "id": 1
   },
   {
@@ -70,6 +74,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "primeira coisa que pergunto não é [[…]] quanto rende '. É:",
+   "pos_antes": [
+    179,
+    180
+   ],
    "id": 2
   },
   {
@@ -85,6 +93,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "pergunto não é 'quanto rende [[…]] . É: você sabe por",
+   "pos_antes": [
+    182,
+    183
+   ],
    "id": 3
   },
   {
@@ -100,6 +112,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "fica com a diferença (o [[…]] spread ', o pedaço que",
+   "pos_antes": [
+    358,
+    359
+   ],
    "id": 4
   },
   {
@@ -115,6 +131,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "a diferença (o 'spread [[…]] , o pedaço que ele embolsa",
+   "pos_antes": [
+    360,
+    361
+   ],
    "id": 5
   },
   {
@@ -130,6 +150,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "comprou o título. Só que [[…]] parte do risco 'esconde a",
+   "pos_antes": [
+    387,
+    388
+   ],
    "id": 6
   },
   {
@@ -145,6 +169,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "Só que 'parte do risco [[…]] esconde a pergunta mais interessante do",
+   "pos_antes": [
+    391,
+    392
+   ],
    "id": 7
   },
   {
@@ -160,6 +188,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "o Master para mais adiante. [[…]] O que é a LCI,",
+   "pos_antes": [
+    427,
+    427
+   ],
    "tipo": "insercao",
    "id": 8
   },
@@ -178,6 +210,10 @@
    "restaurou_rascunho": null,
    "origem_antes": "pipeline",
    "contexto": "autorizadas pelo Banco Central. Desde [[…]] julho de 2025 (Resolução BCB",
+   "pos_antes": [
+    489,
+    491
+   ],
    "id": 9
   },
   {
@@ -193,6 +229,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": ", Financiamento e Investimento, as [[…]] financeiras ') também entraram nesse",
+   "pos_antes": [
+    515,
+    516
+   ],
    "id": 10
   },
   {
@@ -208,6 +248,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "e Investimento, as 'financeiras [[…]] ) também entraram nesse grupo.",
+   "pos_antes": [
+    517,
+    518
+   ],
    "id": 11
   },
   {
@@ -225,6 +269,10 @@
    "restaurou_rascunho": false,
    "origem_antes": "rascunho",
    "contexto": ": o banco não emite no [[…]] ; precisa ter no ativo crédito",
+   "pos_antes": [
+    563,
+    564
+   ],
    "id": 12
   },
   {
@@ -240,6 +288,10 @@
    "restaurou_rascunho": null,
    "origem_antes": "rascunho",
    "contexto": "nº 11. 033/2004 [[…]] ). Isso não mudou nem",
+   "pos_antes": [
+    598,
+    602
+   ],
    "id": 13
   },
   {
@@ -255,6 +307,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "assumindo? A resposta intuitiva ( [[…]] o risco do crédito imobiliário que",
+   "pos_antes": [
+    774,
+    775
+   ],
    "id": 14
   },
   {
@@ -270,6 +326,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "crédito imobiliário que lastreia o título [[…]] ) está errada, ou imprecisa",
+   "pos_antes": [
+    784,
+    785
+   ],
    "id": 15
   },
   {
@@ -287,6 +347,10 @@
    "restaurou_rascunho": false,
    "origem_antes": "rascunho",
    "contexto": "exatamente o que diferencia os três [[…]] que existem, no Brasil,",
+   "pos_antes": [
+    846,
+    847
+   ],
    "id": 16
   },
   {
@@ -302,6 +366,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "banco emissor). É o [[…]] duplo recurso 'que caracteriza um",
+   "pos_antes": [
+    991,
+    992
+   ],
    "id": 17
   },
   {
@@ -317,6 +385,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": ". É o 'duplo recurso [[…]] que caracteriza um 'covered bond",
+   "pos_antes": [
+    994,
+    995
+   ],
    "id": 18
   },
   {
@@ -332,6 +404,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "duplo recurso 'que caracteriza um [[…]] covered bond '(modelo de",
+   "pos_antes": [
+    998,
+    999
+   ],
    "id": 19
   },
   {
@@ -347,6 +423,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "que caracteriza um 'covered bond [[…]] (modelo de título bancário com",
+   "pos_antes": [
+    1001,
+    1002
+   ],
    "id": 20
   },
   {
@@ -362,6 +442,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "crédito. Também não é um [[…]] covered bond 'completo como a",
+   "pos_antes": [
+    1110,
+    1111
+   ],
    "id": 21
   },
   {
@@ -377,6 +461,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "não é um 'covered bond [[…]] completo como a LIG, porque",
+   "pos_antes": [
+    1113,
+    1114
+   ],
    "id": 22
   },
   {
@@ -392,6 +480,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "política pública por trás da isenção [[…]] o Estado quer baratear crédito imobiliário",
+   "pos_antes": [
+    1189,
+    1190
+   ],
    "id": 23
   },
   {
@@ -407,6 +499,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "e o produto cumpre esse papel [[…]] , mas responde a uma pergunta",
+   "pos_antes": [
+    1203,
+    1204
+   ],
    "id": 24
   },
   {
@@ -424,6 +520,10 @@
    "restaurou_rascunho": false,
    "origem_antes": "rascunho",
    "contexto": "of Financial and Quantitative Analysis que [[…]] explicar o spread bancário, descrevem",
+   "pos_antes": [
+    1264,
+    1268
+   ],
    "id": 25
   },
   {
@@ -439,6 +539,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": ", descrevem o banco como um [[…]] dealer 'avesso a risco:",
+   "pos_antes": [
+    1278,
+    1279
+   ],
    "id": 26
   },
   {
@@ -454,6 +558,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "o banco como um 'dealer [[…]] avesso a risco: um intermediário",
+   "pos_antes": [
+    1280,
+    1281
+   ],
    "id": 27
   },
   {
@@ -471,6 +579,10 @@
    "restaurou_rascunho": null,
    "origem_antes": "pipeline",
    "contexto": ", o CMN aprovou um pacote [[…]] : um teto calculado a partir",
+   "pos_antes": [
+    1490,
+    1526
+   ],
    "id": 28
   },
   {
@@ -489,6 +601,10 @@
    "restaurou_rascunho": false,
    "origem_antes": "pipeline",
    "contexto": ". Na prática, o mercado [[…]] a resolução como resposta direta a",
+   "pos_antes": [
+    1575,
+    1576
+   ],
    "id": 29
   },
   {
@@ -504,6 +620,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "usando a garantia do FGC como [[…]] trampolim 'para captar acima do",
+   "pos_antes": [
+    1594,
+    1595
+   ],
    "id": 30
   },
   {
@@ -519,6 +639,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "garantia do FGC como 'trampolim [[…]] para captar acima do preço de",
+   "pos_antes": [
+    1596,
+    1597
+   ],
    "id": 31
   },
   {
@@ -536,6 +660,10 @@
    "restaurou_rascunho": false,
    "origem_antes": "rascunho",
    "contexto": "números, e o crescimento é [[…]] demais para ser tratado como nicho",
+   "pos_antes": [
+    1686,
+    1687
+   ],
    "id": 32
   },
   {
@@ -551,6 +679,10 @@
    "restaurou_rascunho": null,
    "origem_antes": "misto",
    "contexto": "vezes em menos de seis anos [[…]] . A trajetória não foi uma",
+   "pos_antes": [
+    1795,
+    1812
+   ],
    "id": 33
   },
   {
@@ -566,6 +698,10 @@
    "restaurou_rascunho": null,
    "origem_antes": "rascunho",
    "contexto": ", LIG, CRI e CRA [[…]] , e o estoque de LCI",
+   "pos_antes": [
+    1843,
+    1860
+   ],
    "id": 34
   },
   {
@@ -581,6 +717,10 @@
    "restaurou_rascunho": null,
    "origem_antes": "rascunho",
    "contexto": "bilhões em abril do mesmo ano [[…]] . O estoque fechou 2024 em",
+   "pos_antes": [
+    1886,
+    1901
+   ],
    "id": 35
   },
   {
@@ -596,6 +736,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "disparou uma corrida de investidores para [[…]] entrar antes 'da mudança,",
+   "pos_antes": [
+    1961,
+    1962
+   ],
    "id": 36
   },
   {
@@ -611,6 +755,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "de investidores para 'entrar antes [[…]] da mudança, em parte pela",
+   "pos_antes": [
+    1964,
+    1965
+   ],
    "id": 37
   },
   {
@@ -626,6 +774,10 @@
    "restaurou_rascunho": null,
    "origem_antes": "rascunho",
    "contexto": "5. 215/2025. [[…]] Em participação, a LCI ainda",
+   "pos_antes": [
+    1986,
+    2034
+   ],
    "id": 38
   },
   {
@@ -643,6 +795,10 @@
    "restaurou_rascunho": false,
    "origem_antes": "rascunho",
    "contexto": "mas já não é marginal. [[…]] final de 2025, o estoque",
+   "pos_antes": [
+    2052,
+    2053
+   ],
    "id": 39
   },
   {
@@ -658,6 +814,10 @@
    "restaurou_rascunho": null,
    "origem_antes": "misto",
    "contexto": "próprio a partir dos números acima [[…]] . O dado mais relevante para",
+   "pos_antes": [
+    2142,
+    2155
+   ],
    "id": 40
   },
   {
@@ -673,6 +833,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "a um CDB pelo cálculo de [[…]] gross-up '(a conta que",
+   "pos_antes": [
+    2275,
+    2276
+   ],
    "id": 41
   },
   {
@@ -688,6 +852,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "CDB pelo cálculo de 'gross-up [[…]] (a conta que converte um",
+   "pos_antes": [
+    2277,
+    2278
+   ],
    "id": 42
   },
   {
@@ -703,6 +871,10 @@
    "restaurou_rascunho": null,
    "origem_antes": "rascunho",
    "contexto": "mesmo patamar conservador que o CDB [[…]] : banco (ou Tesouro)",
+   "pos_antes": [
+    2507,
+    2511
+   ],
    "id": 43
   },
   {
@@ -718,6 +890,10 @@
    "restaurou_rascunho": null,
    "origem_antes": "rascunho",
    "contexto": "e o Tesouro Direto: banco [[…]] como contraparte, FGC como rede",
+   "pos_antes": [
+    2513,
+    2517
+   ],
    "id": 44
   },
   {
@@ -733,6 +909,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "carteira: tratar a LCI como [[…]] renda fixa isenta e segura '",
+   "pos_antes": [
+    2592,
+    2593
+   ],
    "id": 45
   },
   {
@@ -748,6 +928,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "'renda fixa isenta e segura [[…]] está certo, desde que '",
+   "pos_antes": [
+    2598,
+    2599
+   ],
    "id": 46
   },
   {
@@ -763,6 +947,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "'está certo, desde que [[…]] segura 'seja lido como risco",
+   "pos_antes": [
+    2604,
+    2605
+   ],
    "id": 47
   },
   {
@@ -778,6 +966,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "certo, desde que 'segura [[…]] seja lido como risco do banco",
+   "pos_antes": [
+    2606,
+    2607
+   ],
    "id": 48
   },
   {
@@ -793,6 +985,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "banco (ou securitizadora) captura [[…]] spread ', risco migra para",
+   "pos_antes": [
+    2705,
+    2706
+   ],
    "id": 49
   },
   {
@@ -808,6 +1004,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "ou securitizadora) captura 'spread [[…]] , risco migra para quem financiou",
+   "pos_antes": [
+    2707,
+    2708
+   ],
    "id": 50
   },
   {
@@ -823,6 +1023,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": ". Não é favor. É [[…]] spread '. E o risco",
+   "pos_antes": [
+    2812,
+    2813
+   ],
    "id": 51
   },
   {
@@ -838,6 +1042,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "é favor. É 'spread [[…]] . E o risco que sobra",
+   "pos_antes": [
+    2814,
+    2815
+   ],
    "id": 52
   },
   {
@@ -853,6 +1061,10 @@
    "restaurou_rascunho": null,
    "origem_antes": "rascunho",
    "contexto": "o risco do outro lado. [[…]] Para continuar aprendendo Lei nº 10",
+   "pos_antes": [
+    2872,
+    2881
+   ],
    "id": 53
   },
   {
@@ -868,6 +1080,10 @@
    "restaurou_rascunho": null,
    "origem_antes": "misto",
    "contexto": "garantido por hipoteca ou alienação fiduciária [[…]] . Lei nº 9. 514",
+   "pos_antes": [
+    2913,
+    3053
+   ],
    "id": 54
   },
   {
@@ -883,6 +1099,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "errada, ou imprecisa demais para ser útil. A razão é estrutural, e vale abrir",
+   "pos_antes": [
+    795,
+    797
+   ],
    "id": 55
   },
   {
@@ -898,6 +1118,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "pelo FGC, em vez de usar livremente. Na prática, o mercado leu a resolução",
+   "pos_antes": [
+    1569,
+    1571
+   ],
    "id": 56
   },
   {
@@ -913,6 +1137,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "Bora Investir e Suno — ver referências). A trajetória não foi uma linha reta.",
+   "pos_antes": [
+    1812,
+    1814
+   ],
    "id": 57
   },
   {
@@ -928,6 +1156,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": ", o próprio motor que este texto descreve. O estoque fechou 2024 em R $ 392",
+   "pos_antes": [
+    1901,
+    1903
+   ],
    "id": 58
   },
   {
@@ -943,6 +1175,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "esse percentual diretamente, então é aproximação). O dado mais relevante para a tese deste",
+   "pos_antes": [
+    2155,
+    2157
+   ],
    "id": 59
   },
   {
@@ -958,6 +1194,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "incidiria em um CDB de prazo parecido). Uma LCI a 90% do CDI (",
+   "pos_antes": [
+    2323,
+    2325
+   ],
    "id": 60
   },
   {
@@ -973,6 +1213,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": ", essa vantagem tende a favorecer a LCI. A partir de dois anos (720 dias",
+   "pos_antes": [
+    2383,
+    2385
+   ],
    "id": 61
   },
   {
@@ -988,6 +1232,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "Não é favor. É 'spread'. E o risco que sobra nunca desaparece:",
+   "pos_antes": [
+    2815,
+    2817
+   ],
    "id": 62
   },
   {
@@ -1003,6 +1251,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "tinha crescido rápido, captando via CDB (Certificado de Depósito Bancário)",
+   "pos_antes": [
+    29,
+    30
+   ],
    "id": 63
   },
   {
@@ -1018,6 +1270,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "Certificado de Depósito Bancário), LCI (Letra de Crédito Imobiliário)",
+   "pos_antes": [
+    37,
+    38
+   ],
    "id": 64
   },
   {
@@ -1033,6 +1289,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "Letra de Crédito Imobiliário) e LCA (Letra de Crédito do Agronegócio",
+   "pos_antes": [
+    45,
+    46
+   ],
    "id": 65
   },
   {
@@ -1048,6 +1308,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "escrita em letra miúda: o FGC (Fundo Garantidor de Créditos)",
+   "pos_antes": [
+    86,
+    87
+   ],
    "id": 66
   },
   {
@@ -1063,6 +1327,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "Crédito Imobiliário) foi criada pela Lei nº 10. 931/2004. Podem emiti-la bancos comerciais,",
+   "pos_antes": [
+    445,
+    452
+   ],
    "id": 67
   },
   {
@@ -1078,6 +1346,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "entraram nesse grupo. A LCI precisa ser lastreada por créditos imobiliários garantidos por hipoteca ou por alienação",
+   "pos_antes": [
+    526,
+    532
+   ],
    "id": 68
   },
   {
@@ -1093,6 +1365,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "pessoa física, o rendimento é isento de Imposto de Renda (Lei nº 11. 033",
+   "pos_antes": [
+    585,
+    590
+   ],
    "id": 69
   },
   {
@@ -1108,6 +1384,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": ". E você conta com o FGC até R $ 250 mil por CPF, por instituição, com teto de R $ 1 milhão a cada 4 anos. A liquidez varia: o",
+   "pos_antes": [
+    641,
+    664
+   ],
    "id": 70
   },
   {
@@ -1123,6 +1403,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "existem, no Brasil, para títulos lastreados em crédito imobiliário: No CRI (Certificado de",
+   "pos_antes": [
+    854,
+    859
+   ],
    "id": 71
   },
   {
@@ -1138,6 +1422,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "lastreados em crédito imobiliário: No CRI (Certificado de Recebíveis Imobiliários)",
+   "pos_antes": [
+    861,
+    862
+   ],
    "id": 72
   },
   {
@@ -1153,6 +1441,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "e não tem FGC. Na LIG (Letra Imobiliária Garantida, Lei",
+   "pos_antes": [
+    942,
+    943
+   ],
    "id": 73
   },
   {
@@ -1168,6 +1460,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "quanto a carteira segregada. Na LCI, nada disso acontece. O",
+   "pos_antes": [
+    1031,
+    1032
+   ],
    "id": 74
   },
   {
@@ -1183,6 +1479,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "coisa que pergunto não é 'quanto rende'. É: você sabe",
+   "pos_antes": [
+    180,
+    182
+   ],
    "id": 75
   },
   {
@@ -1198,6 +1498,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "o investidor. É a versão hollywoodiana da renda fixa, com banco",
+   "pos_antes": [
+    287,
+    288
+   ],
    "id": 76
   },
   {
@@ -1213,6 +1517,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "com a diferença (o 'spread', o pedaço que ele",
+   "pos_antes": [
+    359,
+    360
+   ],
    "id": 77
   },
   {
@@ -1228,6 +1536,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "o título. Só que 'parte do risco' esconde a pergunta mais interessante",
+   "pos_antes": [
+    388,
+    391
+   ],
    "id": 78
   },
   {
@@ -1243,6 +1555,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "recurso 'que caracteriza um' covered bond '(modelo de título bancário",
+   "pos_antes": [
+    999,
+    1001
+   ],
    "id": 79
   },
   {
@@ -1258,6 +1574,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": ". Também não é um 'covered bond' completo como a LIG,",
+   "pos_antes": [
+    1111,
+    1113
+   ],
    "id": 80
   },
   {
@@ -1273,6 +1593,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "descrevem o banco como um 'dealer' avesso a risco: um",
+   "pos_antes": [
+    1279,
+    1280
+   ],
    "id": 81
   },
   {
@@ -1288,6 +1612,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "um CDB pelo cálculo de 'gross-up' (a conta que converte",
+   "pos_antes": [
+    2276,
+    2277
+   ],
    "id": 82
   },
   {
@@ -1303,6 +1631,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "está certo, desde que 'segura' seja lido como risco do",
+   "pos_antes": [
+    2605,
+    2606
+   ],
    "id": 83
   },
   {
@@ -1318,6 +1650,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "(ou securitizadora) captura 'spread', risco migra para quem",
+   "pos_antes": [
+    2706,
+    2707
+   ],
    "id": 84
   },
   {
@@ -1333,6 +1669,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "Não é favor. É 'spread'. E o risco que",
+   "pos_antes": [
+    2813,
+    2814
+   ],
    "id": 85
   },
   {
@@ -1348,6 +1688,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": ". Veja o gráfico abaixo: [[…]] Estoque de LCI no Brasil,",
+   "pos_antes": [
+    1699,
+    1700
+   ],
    "id": 86
   },
   {

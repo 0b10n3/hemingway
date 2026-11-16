@@ -53,6 +53,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": " [[…]] No fim de \"A Corda",
+   "pos_antes": [
+    0,
+    0
+   ],
    "tipo": "insercao",
    "id": 1
   },
@@ -71,6 +75,10 @@
    "restaurou_rascunho": null,
    "origem_antes": "pipeline",
    "contexto": "No fim [[…]] último texto, deixei uma conta",
+   "pos_antes": [
+    2,
+    12
+   ],
    "id": 2
   },
   {
@@ -88,6 +96,10 @@
    "restaurou_rascunho": false,
    "origem_antes": "rascunho",
    "contexto": "a forma de cotar. Agora [[…]] a pergunta. E se o",
+   "pos_antes": [
+    117,
+    118
+   ],
    "id": 3
   },
   {
@@ -105,6 +117,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": ". Nominal, frequência, efetiva [[…]] Três nomes resolvem a conta da",
+   "pos_antes": [
+    441,
+    441
+   ],
    "id": 4
   },
   {
@@ -122,6 +138,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": ", frequência, efetiva Três nomes [[…]] resolvem a conta da abertura.",
+   "pos_antes": [
+    443,
+    443
+   ],
    "id": 5
   },
   {
@@ -139,6 +159,10 @@
    "restaurou_rascunho": false,
    "origem_antes": "rascunho",
    "contexto": "milésimos. ⟦IMG⟧ Bernoulli mostrou, [[…]] o binômio de Newton, que",
+   "pos_antes": [
+    775,
+    776
+   ],
    "id": 6
   },
   {
@@ -154,6 +178,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "qualquer. De onde vem o [[…]] e Troque os 100% por",
+   "pos_antes": [
+    973,
+    973
+   ],
    "id": 7
   },
   {
@@ -169,6 +197,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": ". De onde vem o e [[…]] Troque os 100% por uma",
+   "pos_antes": [
+    974,
+    974
+   ],
    "id": 8
   },
   {
@@ -186,6 +218,10 @@
    "restaurou_rascunho": false,
    "origem_antes": "rascunho",
    "contexto": "justamente o ponto deste texto. [[…]] todo dia não é render mais",
+   "pos_antes": [
+    1707,
+    1708
+   ],
    "id": 9
   },
   {
@@ -203,6 +239,10 @@
    "restaurou_rascunho": false,
    "origem_antes": "rascunho",
    "contexto": "vale quase três pontos percentuais. [[…]] opções fala contínuo Se composto e",
+   "pos_antes": [
+    2153,
+    2158
+   ],
    "id": 10
   },
   {
@@ -220,6 +260,10 @@
    "restaurou_rascunho": false,
    "origem_antes": "rascunho",
    "contexto": "Por que a mesa de opções [[…]] contínuo Se composto e contínuo são",
+   "pos_antes": [
+    2159,
+    2160
+   ],
    "id": 11
   },
   {
@@ -237,6 +281,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "com esses retornos que trabalha. [[…]] John Hull escreveu um dos manuais",
+   "pos_antes": [
+    2643,
+    2643
+   ],
    "id": 12
   },
   {
@@ -254,6 +302,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "retornos que trabalha. John Hull [[…]] escreveu um dos manuais de derivativos",
+   "pos_antes": [
+    2645,
+    2645
+   ],
    "id": 13
   },
   {
@@ -272,6 +324,10 @@
    "restaurou_rascunho": false,
    "origem_antes": "pipeline",
    "contexto": ". John Hull escreveu um dos [[…]] de derivativos (contratos cujo valor",
+   "pos_antes": [
+    2648,
+    2649
+   ],
    "id": 14
   },
   {
@@ -289,6 +345,10 @@
    "restaurou_rascunho": null,
    "origem_antes": "pipeline",
    "contexto": "escreveu um dos manuais de derivativos [[…]] mais usados no mercado. No",
+   "pos_antes": [
+    2651,
+    2664
+   ],
    "id": 15
   },
   {
@@ -306,6 +366,10 @@
    "restaurou_rascunho": false,
    "origem_antes": "rascunho",
    "contexto": "opções) mais usados no mercado [[…]] capítulo de taxas de juros,",
+   "pos_antes": [
+    2668,
+    2670
+   ],
    "id": 16
   },
   {
@@ -323,6 +387,10 @@
    "restaurou_rascunho": null,
    "origem_antes": "pipeline",
    "contexto": "No capítulo de taxas de juros [[…]] trabalha em taxa contínua e mostra",
+   "pos_antes": [
+    2675,
+    2677
+   ],
    "id": 17
   },
   {
@@ -338,6 +406,10 @@
    "restaurou_rascunho": null,
    "origem_antes": "rascunho",
    "contexto": "o próximo degrau da carreira. [[…]] o topo da escada Capitalizar com",
+   "pos_antes": [
+    3446,
+    3448
+   ],
    "id": 18
   },
   {
@@ -353,6 +425,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "versão que circula é mais ou menos esta. O juro composto é o regime do mundo",
+   "pos_antes": [
+    310,
+    312
+   ],
    "id": 19
   },
   {
@@ -368,6 +444,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "j, é o número escrito no contrato. A frequência de capitalização, m, diz",
+   "pos_antes": [
+    461,
+    463
+   ],
    "id": 20
   },
   {
@@ -383,6 +463,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": ", que se compõe m vezes no ano. A taxa efetiva, i, é o",
+   "pos_antes": [
+    502,
+    504
+   ],
    "id": 21
   },
   {
@@ -398,6 +482,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "1, aplicado a 100% ao ano. Com uma capitalização no ano, o capital",
+   "pos_antes": [
+    666,
+    668
+   ],
    "id": 22
   },
   {
@@ -413,6 +501,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": ", que a escada nunca passa de 3. A conta cabe em uma linha. Expandido",
+   "pos_antes": [
+    788,
+    790
+   ],
    "id": 23
   },
   {
@@ -428,6 +520,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "fórmula, e ele mostra a hipótese escondida. Se o juro é incorporado a cada instante",
+   "pos_antes": [
+    1107,
+    1109
+   ],
    "id": 24
   },
   {
@@ -443,6 +539,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "alguma coisa cresce em proporção a si mesma. A hipótese embutida é que nenhum centavo fica",
+   "pos_antes": [
+    1175,
+    1177
+   ],
    "id": 25
   },
   {
@@ -458,6 +558,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "contínua e mostra a conversão entre as etiquetas. A escolha é de conveniência, não de",
+   "pos_antes": [
+    2688,
+    2690
+   ],
    "id": 26
   },
   {
@@ -473,6 +577,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "vezes o saldo. $$\n\\frac{dM}{dt} = j\\,M \\quad\\Longrightarrow\\quad M(t) = C\\,e^{\\,j\\,t}\n$$ O e é a base em que a",
+   "pos_antes": [
+    1139,
+    1140
+   ],
    "id": 27
   },
   {
@@ -488,6 +596,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "ganha menos de quatro milésimos. [[…]] Bernoulli mostrou, com o binômio",
+   "pos_antes": [
+    771,
+    772
+   ],
    "id": 28
   },
   {
@@ -503,6 +615,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "eles a escada de Bernoulli. [[…]] Em R $ 1 milhão aplicado",
+   "pos_antes": [
+    1728,
+    1729
+   ],
    "id": 29
   },
   {

@@ -57,6 +57,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "Fortalecer a Lombar é uma Droga [[…]] Este ano comecei a levar mais",
+   "pos_antes": [
+    6,
+    6
+   ],
    "tipo": "insercao",
    "id": 1
   },
@@ -73,6 +77,10 @@
    "restaurou_rascunho": null,
    "origem_antes": "rascunho",
    "contexto": "o fortalecimento do 'core' [[…]] ou de músculos exóticos do pé",
+   "pos_antes": [
+    88,
+    108
+   ],
    "id": 2
   },
   {
@@ -90,6 +98,10 @@
    "restaurou_rascunho": false,
    "origem_antes": "rascunho",
    "contexto": "A literatura de ciência do esporte [[…]] de que o 'core'",
+   "pos_antes": [
+    207,
+    219
+   ],
    "obs": "possível erro de digitação no site: 'evidências'",
    "id": 3
   },
@@ -106,6 +118,10 @@
    "restaurou_rascunho": null,
    "origem_antes": "rascunho",
    "contexto": "do atleta ao longo do tempo [[…]] . Ou seja: o treino",
+   "pos_antes": [
+    238,
+    254
+   ],
    "id": 4
   },
   {
@@ -121,6 +137,10 @@
    "restaurou_rascunho": null,
    "origem_antes": "rascunho",
    "contexto": "mais fraca e menos estudada. [[…]] não é o que o deixa",
+   "pos_antes": [
+    255,
+    261
+   ],
    "id": 5
   },
   {
@@ -138,6 +158,10 @@
    "restaurou_rascunho": false,
    "origem_antes": "rascunho",
    "contexto": "inútil e sofrimento com propósito. [[…]] , isolado, viciado em entretenimento",
+   "pos_antes": [
+    410,
+    412
+   ],
    "obs": "possível erro de digitação no site: 'Ficarprocrastinando'",
    "id": 6
   },
@@ -156,6 +180,10 @@
    "restaurou_rascunho": false,
    "origem_antes": "rascunho",
    "contexto": "disponível para você — por mais [[…]] que seja o esforço. Peterson",
+   "pos_antes": [
+    513,
+    514
+   ],
    "id": 7
   },
   {
@@ -173,6 +201,10 @@
    "restaurou_rascunho": null,
    "origem_antes": "pipeline",
    "contexto": "—, alguém decide por você [[…]] . Isso não é necessariamente ruim",
+   "pos_antes": [
+    584,
+    588
+   ],
    "id": 8
   },
   {
@@ -190,6 +222,10 @@
    "restaurou_rascunho": null,
    "origem_antes": "pipeline",
    "contexto": "a sua trajetória, ou que [[…]] o molda para habilidades desalinhadas com",
+   "pos_antes": [
+    626,
+    629
+   ],
    "id": 9
   },
   {
@@ -205,6 +241,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": ". Escolha o seu difícil. [[…]] E aceite, desde já:",
+   "pos_antes": [
+    674,
+    675
+   ],
    "id": 10
   },
   {
@@ -220,6 +260,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "que fica sob seu controle. [[…]] Desde que identifiquei meu objetivo —",
+   "pos_antes": [
+    713,
+    714
+   ],
    "id": 11
   },
   {
@@ -237,6 +281,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": ") Desde que identifiquei meu objetivo [[…]] construir uma carreira sólida em finanças",
+   "pos_antes": [
+    719,
+    720
+   ],
    "id": 12
   },
   {
@@ -252,6 +300,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "construir uma carreira sólida em finanças [[…]] , um dos difíceis que abracei",
+   "pos_antes": [
+    726,
+    727
+   ],
    "id": 13
   },
   {
@@ -267,6 +319,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "distinção fica concreta. Construir um [[…]] trade system '(um sistema",
+   "pos_antes": [
+    749,
+    750
+   ],
    "id": 14
   },
   {
@@ -282,6 +338,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": ". Construir um 'trade system [[…]] (um sistema automatizado de decisão",
+   "pos_antes": [
+    752,
+    753
+   ],
    "id": 15
   },
   {
@@ -297,6 +357,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "), montar um modelo de [[…]] Value at Risk '(a",
+   "pos_antes": [
+    769,
+    770
+   ],
    "id": 16
   },
   {
@@ -312,6 +376,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "modelo de 'Value at Risk [[…]] (a estimativa estatística do nível",
+   "pos_antes": [
+    773,
+    774
+   ],
    "id": 17
   },
   {
@@ -329,6 +397,10 @@
    "restaurou_rascunho": false,
    "origem_antes": "rascunho",
    "contexto": ". É pop. Aparece bem [[…]] , aparece bem numa conversa de",
+   "pos_antes": [
+    821,
+    823
+   ],
    "id": 18
   },
   {
@@ -344,6 +416,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "raramente reforça: um modelo de [[…]] Value at Risk 'implementado por",
+   "pos_antes": [
+    900,
+    901
+   ],
    "id": 19
   },
   {
@@ -359,6 +435,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "modelo de 'Value at Risk [[…]] implementado por alguém que não entende",
+   "pos_antes": [
+    904,
+    905
+   ],
    "id": 20
   },
   {
@@ -376,6 +456,10 @@
    "restaurou_rascunho": false,
    "origem_antes": "rascunho",
    "contexto": "implementado por alguém que não entende [[…]] por trás dele tende a subestimar",
+   "pos_antes": [
+    911,
+    915
+   ],
    "id": 21
   },
   {
@@ -393,6 +477,10 @@
    "restaurou_rascunho": false,
    "origem_antes": "rascunho",
    "contexto": "premissa de normalidade por trás dele [[…]] subestimar sistematicamente a chance de superar",
+   "pos_antes": [
+    918,
+    920
+   ],
    "id": 22
   },
   {
@@ -410,6 +498,10 @@
    "restaurou_rascunho": false,
    "origem_antes": "rascunho",
    "contexto": "exatamente esse nível de perda. [[…]] é uma crítica documentada desde a",
+   "pos_antes": [
+    932,
+    933
+   ],
    "id": 23
   },
   {
@@ -427,6 +519,10 @@
    "restaurou_rascunho": false,
    "origem_antes": "rascunho",
    "contexto": "nível de perda. Essa é [[…]] desde a crise de 2008:",
+   "pos_antes": [
+    934,
+    937
+   ],
    "id": 24
   },
   {
@@ -442,6 +538,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "desde a crise de 2008: [[…]] saber implementar 'sem entender o",
+   "pos_antes": [
+    943,
+    944
+   ],
    "id": 25
   },
   {
@@ -457,6 +557,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "de 2008: 'saber implementar [[…]] sem entender o que sustenta o",
+   "pos_antes": [
+    946,
+    947
+   ],
    "id": 26
   },
   {
@@ -472,6 +576,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "mais difícil O mesmo raciocínio do [[…]] Value at Risk 'mal implementado",
+   "pos_antes": [
+    1014,
+    1015
+   ],
    "id": 27
   },
   {
@@ -487,6 +595,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "raciocínio do 'Value at Risk [[…]] mal implementado vale para qualquer difícil",
+   "pos_antes": [
+    1018,
+    1019
+   ],
    "id": 28
   },
   {
@@ -502,6 +614,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "Então a pergunta não deveria ser [[…]] qual opção é mais confortável '",
+   "pos_antes": [
+    1158,
+    1159
+   ],
    "id": 29
   },
   {
@@ -517,6 +633,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "'qual opção é mais confortável [[…]] . Deveria ser: qual dificuldade",
+   "pos_antes": [
+    1164,
+    1165
+   ],
    "id": 30
   },
   {
@@ -532,6 +652,10 @@
    "restaurou_rascunho": null,
    "origem_antes": "rascunho",
    "contexto": "de Peterson de que mais gosto [[…]] é antes um padrão que ele",
+   "pos_antes": [
+    1189,
+    1207
+   ],
    "id": 31
   },
   {
@@ -547,6 +671,10 @@
    "restaurou_rascunho": null,
    "origem_antes": "rascunho",
    "contexto": "resume dessa forma exata — é [[…]] um padrão que ele repete,",
+   "pos_antes": [
+    1208,
+    1209
+   ],
    "id": 32
   },
   {
@@ -562,6 +690,10 @@
    "restaurou_rascunho": null,
    "origem_antes": "rascunho",
    "contexto": "obrigado a se tornar mais capaz [[…]] , como consequência mecânica. Ninguém",
+   "pos_antes": [
+    1263,
+    1269
+   ],
    "id": 33
   },
   {
@@ -579,6 +711,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "efeito, como consequência mecânica. [[…]] Ninguém acorda empolgado para estudar teoremas",
+   "pos_antes": [
+    1274,
+    1274
+   ],
    "id": 34
   },
   {
@@ -596,6 +732,10 @@
    "restaurou_rascunho": null,
    "origem_antes": "pipeline",
    "contexto": ", sustentam qualquer modelo probabilístico sério [[…]] se a disciplina depender só de",
+   "pos_antes": [
+    1311,
+    1313
+   ],
    "id": 35
   },
   {
@@ -611,6 +751,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "Transposto para o estudo, o [[…]] pequeno 'fica assim: entender",
+   "pos_antes": [
+    1388,
+    1389
+   ],
    "id": 36
   },
   {
@@ -626,6 +770,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "o estudo, o 'pequeno [[…]] fica assim: entender a demonstração",
+   "pos_antes": [
+    1390,
+    1391
+   ],
    "id": 37
   },
   {
@@ -641,6 +789,10 @@
    "restaurou_rascunho": null,
    "origem_antes": "rascunho",
    "contexto": "de pular para o próximo capítulo [[…]] , fingindo que entendeu. Ler",
+   "pos_antes": [
+    1421,
+    1423
+   ],
    "id": 38
   },
   {
@@ -658,6 +810,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "a premissa por trás do modelo [[…]] , não só a fórmula final",
+   "pos_antes": [
+    1442,
+    1442
+   ],
    "id": 39
   },
   {
@@ -675,6 +831,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "slide. Nenhum desses hábitos rende [[…]] post de LinkedIn. Todos eles",
+   "pos_antes": [
+    1458,
+    1458
+   ],
    "id": 40
   },
   {
@@ -690,6 +850,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "ser simplesmente estupidez vestida de disciplina [[…]] a mesma cultura que romantiza o",
+   "pos_antes": [
+    1598,
+    1599
+   ],
    "id": 41
   },
   {
@@ -705,6 +869,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "um modelo de linguagem montar um [[…]] trade system 'simples, esboçar",
+   "pos_antes": [
+    1668,
+    1669
+   ],
    "id": 42
   },
   {
@@ -720,6 +888,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "linguagem montar um 'trade system [[…]] simples, esboçar um código de",
+   "pos_antes": [
+    1671,
+    1672
+   ],
    "id": 43
   },
   {
@@ -735,6 +907,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "simples, esboçar um código de [[…]] Value at Risk 'ou repetir",
+   "pos_antes": [
+    1678,
+    1679
+   ],
    "id": 44
   },
   {
@@ -750,6 +926,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "código de 'Value at Risk [[…]] ou repetir a fórmula de Black-Scholes",
+   "pos_antes": [
+    1682,
+    1683
+   ],
    "id": 45
   },
   {
@@ -767,6 +947,10 @@
    "restaurou_rascunho": false,
    "origem_antes": "rascunho",
    "contexto": "Não é porque eu sofri com [[…]] que você precisa sofrer do mesmo",
+   "pos_antes": [
+    1773,
+    1784
+   ],
    "id": 46
   },
   {
@@ -782,6 +966,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "num objetivo específico de carreira. [[…]] ",
+   "pos_antes": [
+    1876,
+    1876
+   ],
    "tipo": "insercao",
    "id": 47
   },
@@ -798,6 +986,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "num objetivo específico de carreira. [[…]] ",
+   "pos_antes": [
+    1876,
+    1876
+   ],
    "tipo": "insercao",
    "id": 48
   },
@@ -814,6 +1006,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "num objetivo específico de carreira. [[…]] ",
+   "pos_antes": [
+    1876,
+    1876
+   ],
    "tipo": "insercao",
    "id": 49
   },
@@ -832,6 +1028,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "num objetivo específico de carreira. [[…]] ",
+   "pos_antes": [
+    1876,
+    1876
+   ],
    "id": 50
   },
   {
@@ -847,6 +1047,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "corpo) ou de músculos exóticos do pé. Na academia, são os treinos para as",
+   "pos_antes": [
+    114,
+    116
+   ],
    "id": 51
   },
   {
@@ -862,6 +1066,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": ", peitoral — não uma lombar mais forte. O problema é que boa parte do que",
+   "pos_antes": [
+    178,
+    180
+   ],
    "id": 52
   },
   {
@@ -877,6 +1085,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "— só que essa dificuldade não constrói nada. Ambos os caminhos têm dificuldade. A diferença",
+   "pos_antes": [
+    432,
+    434
+   ],
    "id": 53
   },
   {
@@ -892,6 +1104,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "precisa escolher o difícil alinhado com seu objetivo. Se você está construindo, em algum canto",
+   "pos_antes": [
+    467,
+    469
+   ],
    "id": 54
   },
   {
@@ -907,6 +1123,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "— por mais respeitável que seja o esforço. Peterson fala com frequência de responsabilidade voluntariamente assumida",
+   "pos_antes": [
+    518,
+    520
+   ],
    "id": 55
   },
   {
@@ -922,6 +1142,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "nome e sobrenome: é o seu chefe. Se você não escolhe conscientemente quais pesos vai",
+   "pos_antes": [
+    563,
+    565
+   ],
    "id": 56
   },
   {
@@ -937,6 +1161,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": ", o tempo todo. Defina seus objetivos. Escolha o seu difícil. (E aceite",
+   "pos_antes": [
+    668,
+    670
+   ],
    "id": 57
   },
   {
@@ -954,6 +1182,10 @@
    "restaurou_rascunho": true,
    "origem_antes": null,
    "contexto": "quantitativas. E aqui a distinção fica concreta. Construir um 'trade system' (um",
+   "pos_antes": [
+    746,
+    748
+   ],
    "id": 58
   },
   {
@@ -969,6 +1201,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "curso sério de derivativos —, não é. São dezenas de horas na cadeira, torturando",
+   "pos_antes": [
+    869,
+    871
+   ],
    "id": 59
   },
   {
@@ -984,6 +1220,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "cadeira, torturando e sendo torturado por números. E é aqui que mora um detalhe que",
+   "pos_antes": [
+    883,
+    885
+   ],
    "id": 60
   },
   {
@@ -999,6 +1239,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "ser 'qual opção é mais confortável'. Deveria ser: qual dificuldade vale a pena",
+   "pos_antes": [
+    1165,
+    1167
+   ],
    "id": 61
   },
   {
@@ -1014,6 +1258,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "só de motivação, ela não se sustenta. O que sustenta é o significado: enxergar",
+   "pos_antes": [
+    1325,
+    1327
+   ],
    "id": 62
   },
   {
@@ -1029,6 +1277,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "alguém, resolver problemas, construir alguma coisa. Transposto para o estudo, o 'pequeno",
+   "pos_antes": [
+    1381,
+    1383
+   ],
    "id": 63
   },
   {
@@ -1044,6 +1296,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "próximo capítulo do Hull, fingindo que entendeu. Ler a nota de rodapé chata que explica",
+   "pos_antes": [
+    1427,
+    1429
+   ],
    "id": 64
   },
   {
@@ -1059,6 +1315,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "a fórmula final que vai para o slide. Nenhum desses hábitos rende post de LinkedIn.",
+   "pos_antes": [
+    1453,
+    1455
+   ],
    "id": 65
   },
   {
@@ -1074,6 +1334,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": ". Nenhum desses hábitos rende post de LinkedIn. Todos eles são o motivo pelo qual,",
+   "pos_antes": [
+    1461,
+    1463
+   ],
    "id": 66
   },
   {
@@ -1089,6 +1353,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "o sustenta — e a maioria não percebe. Isso não conta ponto pra próxima entrevista.",
+   "pos_antes": [
+    1498,
+    1500
+   ],
    "id": 67
   },
   {
@@ -1104,6 +1372,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": ". Isso não conta ponto pra próxima entrevista. Conta pra você não ser a pessoa que",
+   "pos_antes": [
+    1506,
+    1508
+   ],
    "id": 68
   },
   {
@@ -1119,6 +1391,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "'sempre escolha a opção mais difícil'. Não é isso. O princípio está mais",
+   "pos_antes": [
+    1554,
+    1556
+   ],
    "id": 69
   },
   {
@@ -1134,6 +1410,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "isso. O princípio está mais próximo de: escolha aquilo que é significativo e que exige",
+   "pos_antes": [
+    1565,
+    1567
+   ],
    "id": 70
   },
   {
@@ -1149,6 +1429,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "se torne uma pessoa mais capaz para realizá-lo. Uma dificuldade que não produz nada pode ser",
+   "pos_antes": [
+    1584,
+    1586
+   ],
    "id": 71
   },
   {
@@ -1164,6 +1448,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "de maneira simples, resolva de maneira simples. A questão nunca foi sofrer mais. Foi",
+   "pos_antes": [
+    1627,
+    1629
+   ],
    "id": 72
   },
   {
@@ -1179,6 +1467,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "do ofício está a um prompt de distância. O que a IA generativa não faz sozinha",
+   "pos_antes": [
+    1704,
+    1706
+   ],
    "id": 73
   },
   {
@@ -1194,6 +1486,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "sendo usado fora do contexto em que funciona. Não é coincidência que o difícil com significado",
+   "pos_antes": [
+    1738,
+    1740
+   ],
    "id": 74
   },
   {
@@ -1209,6 +1505,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "entendido que você precisa sofrer do mesmo jeito. Talvez o seu difícil nem seja esse.",
+   "pos_antes": [
+    1791,
+    1793
+   ],
    "id": 75
   },
   {
@@ -1224,6 +1524,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": ". Talvez o seu difícil nem seja esse. Mas ele existe, e provavelmente você já",
+   "pos_antes": [
+    1799,
+    1801
+   ],
    "id": 76
   },
   {
@@ -1239,6 +1543,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "últimos tempos — escreve, em 12 Rules for Life, que erguer os ombros é",
+   "pos_antes": [
+    310,
+    314
+   ],
    "id": 77
   },
   {
@@ -1254,6 +1562,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "Ambos os caminhos têm dificuldade. A diferença é o que a dificuldade constrói. E aqui entra a parte",
+   "pos_antes": [
+    439,
+    447
+   ],
    "id": 78
   },
   {
@@ -1269,6 +1581,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "circunstância — escolhe por você. Na prática, esse alguém costuma ter nome e sobrenome: é o seu chefe. Se você não escolhe conscientemente quais",
+   "pos_antes": [
+    548,
+    564
+   ],
    "id": 79
   },
   {
@@ -1284,6 +1600,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "opção é mais confortável '. Deveria ser: qual dificuldade vale a pena? Dificuldades com significado Essa é uma",
+   "pos_antes": [
+    1166,
+    1175
+   ],
    "id": 80
   },
   {
@@ -1299,6 +1619,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "seu difícil nem seja esse. Mas ele existe, e provavelmente você já sabe qual é. Se você chegou até aqui e",
+   "pos_antes": [
+    1800,
+    1812
+   ],
    "id": 81
   },
   {
@@ -1314,6 +1638,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": ", é o fortalecimento do 'core' (a musculatura que estabiliza",
+   "pos_antes": [
+    86,
+    87
+   ],
    "id": 82
   },
   {
@@ -1329,6 +1657,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "evidência sólida de que o 'core' forte previne lesão e sustenta",
+   "pos_antes": [
+    223,
+    224
+   ],
    "id": 83
   },
   {
@@ -1344,6 +1676,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": ". Olympia não é necessariamente o 'melhor difícil' disponível para você — por mais",
+   "pos_antes": [
+    503,
+    507
+   ],
    "id": 84
   },
   {
@@ -1359,6 +1695,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "você quer construir. Achar que 'não estou escolhendo nenhuma dificuldade' é uma ilusão confortável: alguém",
+   "pos_antes": [
+    643,
+    650
+   ],
    "id": 85
   },
   {
@@ -1374,6 +1714,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "fica concreta. Construir um 'trade system' (um sistema automatizado de",
+   "pos_antes": [
+    750,
+    752
+   ],
    "id": 86
   },
   {
@@ -1389,6 +1733,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": ", montar um modelo de 'Value at Risk' (a estimativa estatística do",
+   "pos_antes": [
+    770,
+    773
+   ],
    "id": 87
   },
   {
@@ -1404,6 +1752,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "reforça: um modelo de 'Value at Risk' implementado por alguém que não",
+   "pos_antes": [
+    901,
+    904
+   ],
    "id": 88
   },
   {
@@ -1419,6 +1771,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "difícil O mesmo raciocínio do 'Value at Risk' mal implementado vale para qualquer",
+   "pos_antes": [
+    1015,
+    1018
+   ],
    "id": 89
   },
   {
@@ -1434,6 +1790,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "modelo de linguagem montar um 'trade system' simples, esboçar um código",
+   "pos_antes": [
+    1669,
+    1671
+   ],
    "id": 90
   },
   {
@@ -1449,6 +1809,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": ", esboçar um código de 'Value at Risk' ou repetir a fórmula de",
+   "pos_antes": [
+    1679,
+    1682
+   ],
    "id": 91
   },
   {
@@ -1464,6 +1828,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "e contribuição leva ao significado. [[…]] Quando você assume algo que realmente",
+   "pos_antes": [
+    1246,
+    1247
+   ],
    "id": 92
   },
   {

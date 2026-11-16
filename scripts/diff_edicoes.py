@@ -301,7 +301,7 @@ def operacoes(rasc, post, pub, vocab_unico):
               "bloco_antes": antes[0]["bl"] if antes else None,
               "bloco_depois": depois[0]["bl"] if depois else None,
               "sinais": s, "restaurou_rascunho": restaurou, "origem_antes": origem_antes,
-              "contexto": contexto(i1, i2)}
+              "contexto": contexto(i1, i2), "pos_antes": [i1, i2]}
         op.update(extra)
         ops.append(op)
 
@@ -367,7 +367,7 @@ def operacoes(rasc, post, pub, vocab_unico):
                     "bloco_antes": post[k]["bl"], "bloco_depois": pub[mapa_ab[k2]]["bl"],
                     "sinais": ["reversao"] if restaurou else [], "restaurou_rascunho": restaurou,
                     "origem_antes": None, "contexto": juntar(post[max(k - 8, 0):k2 + 8]),
-                    **({"obs": obs} if obs else {})})
+                    "pos_antes": [k, k2 + 1], **({"obs": obs} if obs else {})})
 
     def formatacao(attr, nome):
         corrida = []
@@ -387,7 +387,8 @@ def operacoes(rasc, post, pub, vocab_unico):
                         "palavras_antes": 0, "palavras_depois": 0,
                         "bloco_antes": post[corrida[0]]["bl"], "bloco_depois": pub[mapa_ab[corrida[0]]]["bl"],
                         "sinais": ["reversao"] if restaurou else [], "restaurou_rascunho": restaurou,
-                        "origem_antes": None, "contexto": juntar(post[max(corrida[0] - 6, 0):corrida[-1] + 7])})
+                        "origem_antes": None, "contexto": juntar(post[max(corrida[0] - 6, 0):corrida[-1] + 7]),
+                        "pos_antes": [corrida[0], corrida[-1] + 1]})
             corrida.clear()
 
         anterior = None

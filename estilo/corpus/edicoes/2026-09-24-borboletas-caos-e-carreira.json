@@ -51,6 +51,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": " [[…]] Num dia de inverno de 1961",
+   "pos_antes": [
+    0,
+    0
+   ],
    "tipo": "insercao",
    "id": 1
   },
@@ -67,6 +71,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "0010 contra 0, 7630. [[…]] Nenhuma relação. Nesse sistema,",
+   "pos_antes": [
+    705,
+    705
+   ],
    "tipo": "insercao",
    "id": 2
   },
@@ -83,6 +91,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "do tamanho do próprio sistema. [[…]] É por isso que a previsão",
+   "pos_antes": [
+    742,
+    743
+   ],
    "tipo": "remocao",
    "id": 3
   },
@@ -101,6 +113,10 @@
    "restaurou_rascunho": false,
    "origem_antes": "rascunho",
    "contexto": "muito pouco. Por uma diferença [[…]] , eu poderia ter sido eliminado",
+   "pos_antes": [
+    974,
+    984
+   ],
    "id": 4
   },
   {
@@ -118,6 +134,10 @@
    "restaurou_rascunho": true,
    "origem_antes": "pipeline",
    "contexto": "um estágio num banco e, [[…]] do primeiro dia, soube que",
+   "pos_antes": [
+    1191,
+    1194
+   ],
    "id": 5
   },
   {
@@ -133,6 +153,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "na primeira hora do primeiro dia [[…]] soube que aquilo não era para",
+   "pos_antes": [
+    1197,
+    1198
+   ],
    "id": 6
   },
   {
@@ -150,6 +174,10 @@
    "restaurou_rascunho": null,
    "origem_antes": "pipeline",
    "contexto": "Pesquisa Febraban de Tecnologia Bancária 2026 [[…]] , mostra que os bancos brasileiros",
+   "pos_antes": [
+    2358,
+    2371
+   ],
    "id": 7
   },
   {
@@ -165,6 +193,10 @@
    "restaurou_rascunho": null,
    "origem_antes": "misto",
    "contexto": "arquiteto corporativo e engenheiro de DevOps [[…]] . Lá fora, o sinal",
+   "pos_antes": [
+    2515,
+    2529
+   ],
    "id": 8
   },
   {
@@ -180,6 +212,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "IA como alavanca, e não como muleta. Escolha os difíceis que não se depreciam.",
+   "pos_antes": [
+    2710,
+    2712
+   ],
    "id": 9
   },
   {
@@ -195,6 +231,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": ", e não como muleta. Escolha os difíceis que não se depreciam. 5. O acaso não é",
+   "pos_antes": [
+    2711,
+    2719
+   ],
    "id": 10
   },
   {

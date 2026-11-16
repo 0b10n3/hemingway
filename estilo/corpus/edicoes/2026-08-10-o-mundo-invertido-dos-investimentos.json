@@ -59,6 +59,10 @@
    "restaurou_rascunho": null,
    "origem_antes": "pipeline",
    "contexto": " [[…]] Imagine a cena: você compra",
+   "pos_antes": [
+    0,
+    4
+   ],
    "id": 1
   },
   {
@@ -74,6 +78,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "funciona por aqui, link abaixo [[…]] LINK: post sobre Tesouro Selic",
+   "pos_antes": [
+    694,
+    695
+   ],
    "id": 2
   },
   {
@@ -89,6 +97,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": ", link abaixo [LINK: [[…]] post sobre Tesouro Selic])",
+   "pos_antes": [
+    697,
+    697
+   ],
    "id": 3
   },
   {
@@ -104,6 +116,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "LINK: post sobre Tesouro Selic [[…]] ). 10 quilômetros: ETFs",
+   "pos_antes": [
+    701,
+    702
+   ],
    "id": 4
   },
   {
@@ -121,6 +137,10 @@
    "restaurou_rascunho": null,
    "origem_antes": "pipeline",
    "contexto": "benchmark numa janela de dez anos [[…]] . ⟦IMG⟧ Quem são os corredores",
+   "pos_antes": [
+    965,
+    1017
+   ],
    "id": 5
   },
   {
@@ -139,6 +159,10 @@
    "restaurou_rascunho": false,
    "origem_antes": "pipeline",
    "contexto": "Nassim Taleb, por exemplo, [[…]] (2012), prefere concentrar",
+   "pos_antes": [
+    1257,
+    1259
+   ],
    "obs": "possível erro de digitação no site: 'Antifrágil'",
    "id": 6
   },
@@ -158,6 +182,10 @@
    "restaurou_rascunho": false,
    "origem_antes": "pipeline",
    "contexto": "nos produtos que você escolhe. [[…]] na ordem em que você escolhe",
+   "pos_antes": [
+    1435,
+    1436
+   ],
    "id": 7
   },
   {
@@ -173,6 +201,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "gente troca inimigo por treino. [[…]] ",
+   "pos_antes": [
+    1507,
+    1507
+   ],
    "tipo": "insercao",
    "id": 8
   },
@@ -189,6 +221,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "e títulos públicos federais. O primeiro contato de alguém com investimento deveria ser um CDB (",
+   "pos_antes": [
+    599,
+    601
+   ],
    "id": 9
   },
   {
@@ -204,6 +240,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "fundo negociado em bolsa que replica um índice) de renda fixa é um jeito de comprar",
+   "pos_antes": [
+    723,
+    725
+   ],
    "id": 10
   },
   {
@@ -219,6 +259,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": ". Aqui a régua fica mais larga: tem fundo mais arriscado e fundo menos arriscado.",
+   "pos_antes": [
+    777,
+    779
+   ],
    "id": 11
   },
   {
@@ -236,6 +280,10 @@
    "restaurou_rascunho": true,
    "origem_antes": null,
    "contexto": "variável de verdade, com exposição ao risco bem maior que qualquer coisa de renda fixa.",
+   "pos_antes": [
+    803,
+    805
+   ],
    "id": 12
   },
   {
@@ -251,6 +299,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "trade, operações de alta frequência. A ponta mais técnica e mais arriscada da régua inteira",
+   "pos_antes": [
+    850,
+    852
+   ],
    "id": 13
   },
   {
@@ -266,6 +318,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "salário inteiro achando que vai aprender operando.) Para subir de distância, você precisa se",
+   "pos_antes": [
+    1326,
+    1328
+   ],
    "id": 14
   },
   {
@@ -281,6 +337,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "a dimensão espelhada e hostil de Stranger Things) da própria carteira, onde",
+   "pos_antes": [
+    173,
+    175
+   ],
    "id": 15
   },
   {
@@ -296,6 +356,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "por aqui, link abaixo [LINK: post sobre Tesouro Selic]). 10 quilômetros:",
+   "pos_antes": [
+    695,
+    701
+   ],
    "id": 16
   },
   {
@@ -311,6 +375,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "vir por último vem primeiro. [[…]] O equívoco que a gente vê",
+   "pos_antes": [
+    191,
+    192
+   ],
    "id": 17
   },
   {
@@ -326,6 +394,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "evento ETF Day RJ]. [[…]] Quem são os corredores de elite",
+   "pos_antes": [
+    1018,
+    1019
+   ],
    "id": 18
   },
   {

@@ -54,6 +54,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": " [[…]] Voltei de viagem com duas ideias",
+   "pos_antes": [
+    0,
+    0
+   ],
    "tipo": "insercao",
    "id": 1
   },
@@ -70,6 +74,10 @@
    "restaurou_rascunho": null,
    "origem_antes": "rascunho",
    "contexto": "ideia parecia pronta. O coqueiro [[…]] o símbolo do que é nativo",
+   "pos_antes": [
+    95,
+    96
+   ],
    "id": 2
   },
   {
@@ -87,6 +95,10 @@
    "restaurou_rascunho": null,
    "origem_antes": "pipeline",
    "contexto": "em 2025, a ser mentor [[…]] de carreira da ANBIMA (Associação",
+   "pos_antes": [
+    1368,
+    1370
+   ],
    "id": 3
   },
   {
@@ -104,6 +116,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "ser mentor no programa de carreira [[…]] da ANBIMA (Associação Brasileira das",
+   "pos_antes": [
+    1372,
+    1372
+   ],
    "id": 4
   },
   {
@@ -121,6 +137,10 @@
    "restaurou_rascunho": null,
    "origem_antes": "pipeline",
    "contexto": "no programa de carreira da ANBIMA [[…]] . E a Notas de um",
+   "pos_antes": [
+    1374,
+    1394
+   ],
    "id": 5
   },
   {
@@ -138,6 +158,10 @@
    "restaurou_rascunho": false,
    "origem_antes": "rascunho",
    "contexto": ". Três cacaueiros para plantar agora [[…]] a IA está mudando o terreno",
+   "pos_antes": [
+    2273,
+    2274
+   ],
    "id": 6
   },
   {
@@ -153,6 +177,10 @@
    "restaurou_rascunho": null,
    "origem_antes": "rascunho",
    "contexto": "para plantar agora Se a IA [[…]] mudando o terreno, vale perguntar",
+   "pos_antes": [
+    2276,
+    2277
+   ],
    "id": 7
   },
   {
@@ -171,6 +199,10 @@
    "restaurou_rascunho": false,
    "origem_antes": "pipeline",
    "contexto": "também. A ferramenta continua pedindo [[…]] . O que vira coqueiro é",
+   "pos_antes": [
+    2640,
+    2641
+   ],
    "id": 8
   },
   {
@@ -186,6 +218,10 @@
    "restaurou_rascunho": null,
    "origem_antes": "rascunho",
    "contexto": "onde eu uso o meu coqueiro [[…]] para ajudar você a cultivar os",
+   "pos_antes": [
+    2819,
+    2822
+   ],
    "id": 9
   },
   {
@@ -201,6 +237,10 @@
    "restaurou_rascunho": null,
    "origem_antes": "misto",
    "contexto": "casos reais do mercado brasileiro. [[…]] E se alguém já te ajudou",
+   "pos_antes": [
+    2875,
+    2885
+   ],
    "id": 10
   },
   {
@@ -216,6 +256,10 @@
    "restaurou_rascunho": null,
    "origem_antes": "misto",
    "contexto": "a enxergar um coqueiro seu, [[…]] me conte. Quero muito saber",
+   "pos_antes": [
+    2897,
+    2902
+   ],
    "id": 11
   },
   {
@@ -231,6 +275,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "Voltei de viagem com duas ideias de texto. Pelo litoral sul da Bahia, é impossível",
+   "pos_antes": [
+    8,
+    10
+   ],
    "id": 12
   },
   {
@@ -246,6 +294,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "cara da Bahia a partir do século XIX. Na Bahia, é verdade, ele também",
+   "pos_antes": [
+    277,
+    279
+   ],
    "id": 13
   },
   {
@@ -261,6 +313,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "ambiente. Procure lugares onde feedback honesto circula. Ninguém descobre um coqueiro sozinho. Não fique",
+   "pos_antes": [
+    1805,
+    1807
+   ],
    "id": 14
   },
   {
@@ -276,6 +332,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": ". Um cacaueiro bem cultivado pode virar coqueiro. Você pode ter facilidade com raciocínio lógico e",
+   "pos_antes": [
+    2083,
+    2085
+   ],
    "id": 15
   },
   {
@@ -291,6 +351,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "visita. A afinidade não substitui a prática. Ela muda a taxa de câmbio: a",
+   "pos_antes": [
+    2138,
+    2140
+   ],
    "id": 16
   },
   {
@@ -306,6 +370,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "organizar isso é o famoso profissional em T. A barra horizontal é a amplitude: comunicar",
+   "pos_antes": [
+    2191,
+    2193
+   ],
    "id": 17
   },
   {
@@ -321,6 +389,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "sete em cada dez empresas a consideram essencial. O relatório também observa que a IA generativa",
+   "pos_antes": [
+    2352,
+    2354
+   ],
    "id": 18
   },
   {
@@ -336,6 +408,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "E leve duas perguntas para a sua carreira. Quais são os seus coqueiros, as coisas",
+   "pos_antes": [
+    2722,
+    2724
+   ],
    "id": 19
   },
   {
@@ -351,6 +427,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "você entrega bem sem perceber que está trabalhando? E quais cacaueiros você está cultivando agora,",
+   "pos_antes": [
+    2740,
+    2742
+   ],
    "id": 20
   },
   {
@@ -366,6 +446,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "os portugueses chegaram. Segundo a Embrapa (Empresa Brasileira de Pesquisa Agropecuária",
+   "pos_antes": [
+    185,
+    186
+   ],
    "id": 21
   },
   {
@@ -381,6 +465,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": ", provavelmente. Mas repare no método. É do mesmo jeito que",
+   "pos_antes": [
+    387,
+    388
+   ],
    "id": 22
   },
   {
@@ -396,6 +484,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "toma gelada depois do mergulho. Valor alto, manutenção baixíssima. O cacaueiro é outra conversa.",
+   "pos_antes": [
+    543,
+    549
+   ],
    "id": 23
   },
   {
@@ -411,6 +503,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "nacional caiu mais da metade. Valor alto, manutenção alta. Agora traga isso para a sua",
+   "pos_antes": [
+    661,
+    667
+   ],
    "id": 24
   },
   {
@@ -428,6 +524,10 @@
    "restaurou_rascunho": true,
    "origem_antes": null,
    "contexto": ", seriam estes quatro passos. Siga a demanda informal. Repare no que as pessoas vêm",
+   "pos_antes": [
+    1432,
+    1437
+   ],
    "id": 25
   },
   {
@@ -445,6 +545,10 @@
    "restaurou_rascunho": true,
    "origem_antes": null,
    "contexto": "naquilo que você faz mal. Pergunte por atrito removido, não por qualidades. \"Quais são meus pontos fortes",
+   "pos_antes": [
+    1507,
+    1516
+   ],
    "id": 26
   },
   {
@@ -462,6 +566,10 @@
    "restaurou_rascunho": true,
    "origem_antes": null,
    "contexto": "de três pessoas é sinal. Faça uma auditoria de energia. Durante duas semanas, anote no",
+   "pos_antes": [
+    1601,
+    1607
+   ],
    "id": 27
   },
   {
@@ -479,6 +587,10 @@
    "restaurou_rascunho": true,
    "origem_antes": null,
    "contexto": "precisa saber qual é qual. Desconfie da sua reação ao feedback. Em Obrigado pelo feedback, Douglas",
+   "pos_antes": [
+    1669,
+    1676
+   ],
    "id": 28
   },
   {
@@ -494,6 +606,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": ", do Fórum Econômico Mundial, estima que 39% das skills essenciais dos trabalhadores vão mudar até 2030. No mesmo relatório, IA",
+   "pos_antes": [
+    2301,
+    2314
+   ],
    "id": 29
   },
   {
@@ -509,6 +625,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "2030. No mesmo relatório, IA e big data aparecem como as skills de crescimento mais rápido, e o pensamento analítico segue",
+   "pos_antes": [
+    2319,
+    2331
+   ],
    "id": 30
   },
   {
@@ -526,6 +646,10 @@
    "restaurou_rascunho": true,
    "origem_antes": null,
    "contexto": ", eu plantaria estes três: Produto e risco, de verdade. Curva de juros, duration,",
+   "pos_antes": [
+    2391,
+    2398
+   ],
    "id": 31
   },
   {
@@ -541,6 +665,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "mas que ela não substitui. Dados em escala. Python, SQL e plataformas como o Databricks. A análise que cabia numa planilha",
+   "pos_antes": [
+    2470,
+    2483
+   ],
    "id": 32
   },
   {
@@ -558,6 +686,10 @@
    "restaurou_rascunho": true,
    "origem_antes": null,
    "contexto": "análise de quem a constrói. IA como ferramenta, com critério. Não é \"saber usar o",
+   "pos_antes": [
+    2521,
+    2528
+   ],
    "id": 33
   },
   {
@@ -573,6 +705,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "É para isso que serve um spoiler. Se o seu próximo cacaueiro",
+   "pos_antes": [
+    2792,
+    2793
+   ],
    "id": 34
   },
   {
@@ -588,6 +724,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "próximo cacaueiro for técnico, a Notas de um Professor foi feita para isso. É",
+   "pos_antes": [
+    2803,
+    2807
+   ],
    "id": 35
   },
   {
@@ -603,6 +743,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "manutenção e atenção às pragas. [[…]] Nenhuma é melhor que a outra",
+   "pos_antes": [
+    813,
+    814
+   ],
    "id": 36
   },
   {

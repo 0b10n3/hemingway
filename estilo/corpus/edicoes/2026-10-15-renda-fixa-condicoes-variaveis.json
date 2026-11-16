@@ -56,6 +56,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": " [[…]] Em 7 de outubro, um",
+   "pos_antes": [
+    0,
+    0
+   ],
    "tipo": "insercao",
    "id": 1
   },
@@ -72,6 +76,10 @@
    "restaurou_rascunho": null,
    "origem_antes": "rascunho",
    "contexto": "a debênture viria em seguida. [[…]] Como no texto passado, boa",
+   "pos_antes": [
+    333,
+    355
+   ],
    "id": 2
   },
   {
@@ -87,6 +95,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "perguntas: quem deve para você [[…]] o que o contrato garante,",
+   "pos_antes": [
+    376,
+    377
+   ],
    "id": 3
   },
   {
@@ -102,6 +114,10 @@
    "restaurou_rascunho": null,
    "origem_antes": "rascunho",
    "contexto": "; o que o contrato garante [[…]] quanto isso vale hoje. A",
+   "pos_antes": [
+    382,
+    388
+   ],
    "id": 4
   },
   {
@@ -117,6 +133,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "mudá-lo; quanto isso vale hoje [[…]] A versão que se conta sobre",
+   "pos_antes": [
+    392,
+    393
+   ],
    "id": 5
   },
   {
@@ -134,6 +154,10 @@
    "restaurou_rascunho": null,
    "origem_antes": "pipeline",
    "contexto": "Lei das S. A. [[…]] A escritura (art. 61",
+   "pos_antes": [
+    713,
+    728
+   ],
    "id": 6
   },
   {
@@ -149,6 +173,10 @@
    "restaurou_rascunho": null,
    "origem_antes": "rascunho",
    "contexto": "é omisso). A escritura [[…]] define tudo o que importa:",
+   "pos_antes": [
+    730,
+    735
+   ],
    "id": 7
   },
   {
@@ -164,6 +192,10 @@
    "restaurou_rascunho": null,
    "origem_antes": "rascunho",
    "contexto": "ser simples ou conversível em ações [[…]] . A lei deixa a remuneração",
+   "pos_antes": [
+    944,
+    949
+   ],
    "id": 8
   },
   {
@@ -179,6 +211,10 @@
    "restaurou_rascunho": null,
    "origem_antes": "rascunho",
    "contexto": "no lucro, prêmio de reembolso [[…]] . Na prática, o mercado",
+   "pos_antes": [
+    970,
+    975
+   ],
    "id": 9
   },
   {
@@ -194,6 +230,10 @@
    "restaurou_rascunho": null,
    "origem_antes": "rascunho",
    "contexto": "rendimentos das suas aplicações desde 2005 [[…]] . Para ele, uma incentivada",
+   "pos_antes": [
+    1592,
+    1605
+   ],
    "id": 10
   },
   {
@@ -209,6 +249,10 @@
    "restaurou_rascunho": null,
    "origem_antes": "rascunho",
    "contexto": "fiduciário, nas condições da escritura [[…]] . Nos casos não automáticos,",
+   "pos_antes": [
+    2539,
+    2547
+   ],
    "id": 11
   },
   {
@@ -226,6 +270,10 @@
    "restaurou_rascunho": null,
    "origem_antes": "pipeline",
    "contexto": "aos créditos que o plano abrange [[…]] . Em 2023, os agentes",
+   "pos_antes": [
+    2824,
+    2832
+   ],
    "id": 12
   },
   {
@@ -241,6 +289,10 @@
    "restaurou_rascunho": null,
    "origem_antes": "rascunho",
    "contexto": ", a maioria podia reescrevê-la. [[…]] sem rede Na LCI e na",
+   "pos_antes": [
+    4935,
+    4937
+   ],
    "id": 13
   },
   {
@@ -258,6 +310,10 @@
    "restaurou_rascunho": false,
    "origem_antes": "rascunho",
    "contexto": "decide quando o contrato muda. [[…]] a peça do meio, o",
+   "pos_antes": [
+    5139,
+    5140
+   ],
    "id": 14
   },
   {
@@ -275,6 +331,10 @@
    "restaurou_rascunho": false,
    "origem_antes": "misto",
    "contexto": "o contrato muda. Faltava a [[…]] de Investimento em Direitos Creditórios)",
+   "pos_antes": [
+    5141,
+    5162
+   ],
    "id": 15
   },
   {
@@ -292,6 +352,10 @@
    "restaurou_rascunho": false,
    "origem_antes": "misto",
    "contexto": "ver o FIDC (Fundo de [[…]] . Para continuar aprendendo José Monteiro",
+   "pos_antes": [
+    5163,
+    5203
+   ],
    "id": 16
   },
   {
@@ -309,6 +373,10 @@
    "restaurou_rascunho": null,
    "origem_antes": "pipeline",
    "contexto": "(Saint Paul, 2019) [[…]] O capítulo 8 precifica debêntures em",
+   "pos_antes": [
+    5241,
+    5254
+   ],
    "id": 17
   },
   {
@@ -326,6 +394,10 @@
    "restaurou_rascunho": null,
    "origem_antes": "pipeline",
    "contexto": "2ª ed., 2015) [[…]] . Comenta o capítulo das debêntures",
+   "pos_antes": [
+    5325,
+    5333
+   ],
    "id": 18
   },
   {
@@ -341,6 +413,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "parece com o que é. [[…]] ",
+   "pos_antes": [
+    5482,
+    5482
+   ],
    "tipo": "insercao",
    "id": 19
   },
@@ -357,6 +433,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "parece com o que é. [[…]] ",
+   "pos_antes": [
+    5482,
+    5482
+   ],
    "tipo": "insercao",
    "id": 20
   },
@@ -375,6 +455,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "parece com o que é. [[…]] ",
+   "pos_antes": [
+    5482,
+    5482
+   ],
    "id": 21
   },
   {
@@ -390,6 +474,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "do GPA, dono do Pão de Açúcar. Recuperação extrajudicial é o acordo de reestruturação que",
+   "pos_antes": [
+    62,
+    64
+   ],
    "id": 22
   },
   {
@@ -405,6 +493,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "uma empresa prefere a debênture ao empréstimo bancário? Porque consegue prazos que o banco raramente dá",
+   "pos_antes": [
+    1312,
+    1314
+   ],
    "id": 23
   },
   {
@@ -420,6 +512,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "e apertou as regras de LCI e LCA. Empresas que perderam o atalho voltaram para a",
+   "pos_antes": [
+    1483,
+    1485
+   ],
    "id": 24
   },
   {
@@ -435,6 +531,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "053/2004, art. 5º). Para ele, uma incentivada a IPCA +",
+   "pos_antes": [
+    1605,
+    1607
+   ],
    "id": 25
   },
   {
@@ -450,6 +550,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "uma segunda porta e deixou a divisão explícita. Na debênture de infraestrutura da Lei nº 14",
+   "pos_antes": [
+    1638,
+    1640
+   ],
    "id": 26
   },
   {
@@ -465,6 +569,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "há rede, o que protege o debenturista? Três coisas: o lugar na fila,",
+   "pos_antes": [
+    1918,
+    1920
+   ],
    "id": 27
   },
   {
@@ -480,6 +588,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "que avisam antes do calote e o voto. Nenhuma delas funciona como a versão simples da",
+   "pos_antes": [
+    1937,
+    1939
+   ],
    "id": 28
   },
   {
@@ -495,6 +607,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "créditos tributários; quirografários; multas; subordinados. A debênture quirografária recebe depois do Fisco.",
+   "pos_antes": [
+    2053,
+    2055
+   ],
    "id": 29
   },
   {
@@ -510,6 +626,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "(art. 83, § 6º). A espécie continua na Lei das S.",
+   "pos_antes": [
+    2128,
+    2130
+   ],
    "id": 30
   },
   {
@@ -525,6 +645,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "gatilhos A escritura não protege só no fim. Ela traz obrigações que a empresa assume enquanto",
+   "pos_antes": [
+    2305,
+    2307
+   ],
    "id": 31
   },
   {
@@ -540,6 +664,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "inteira passa a poder ser cobrada de imediato. Ele pode ser automático ou depender de deliberação",
+   "pos_antes": [
+    2509,
+    2511
+   ],
    "id": 32
   },
   {
@@ -555,6 +683,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "(art. 68, § 3º). Nos casos não automáticos, quem decide é",
+   "pos_antes": [
+    2547,
+    2549
+   ],
    "id": 33
   },
   {
@@ -570,6 +702,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "securitizadora, com lastro na dívida da holding. Nem toda debênture é da empresa que deve",
+   "pos_antes": [
+    2757,
+    2759
+   ],
    "id": 34
   },
   {
@@ -585,6 +721,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "(art. 163, § 8º). Em 2023, os agentes fiduciários das debêntures",
+   "pos_antes": [
+    2832,
+    2834
+   ],
    "id": 35
   },
   {
@@ -600,6 +740,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "o plano de recuperação extrajudicial do GPA, dono do Pão de Açúcar",
+   "pos_antes": [
+    55,
+    56
+   ],
    "id": 36
   },
   {
@@ -615,6 +759,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "extrajudicial do GPA, dono do Pão de Açúcar. Recuperação extrajudicial é o acordo",
+   "pos_antes": [
+    59,
+    62
+   ],
    "id": 37
   },
   {
@@ -630,6 +778,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "debenturistas da 18ª e da 19ª emissões e detentores de CRIs (Certificados",
+   "pos_antes": [
+    147,
+    148
+   ],
    "id": 38
   },
   {
@@ -645,6 +797,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "comprou debênture do GPA comprou uma taxa, um prazo e um cronograma de pagamentos. Vai receber outra",
+   "pos_antes": [
+    212,
+    219
+   ],
    "id": 39
   },
   {
@@ -660,6 +816,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": ", em letra miúda, na escritura de qualquer debênture, o contrato",
+   "pos_antes": [
+    266,
+    267
+   ],
    "id": 40
   },
   {
@@ -675,6 +835,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "contrato social é omisso). A escritura (art. 61) define",
+   "pos_antes": [
+    728,
+    730
+   ],
    "id": 41
   },
   {
@@ -690,6 +854,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "escritura (art. 61) define tudo o que importa: valor, séries, remuneração,",
+   "pos_antes": [
+    735,
+    741
+   ],
    "id": 42
   },
   {
@@ -705,6 +873,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "(art. 58): com garantia real (um bem específico reservado ao",
+   "pos_antes": [
+    841,
+    844
+   ],
    "id": 43
   },
   {
@@ -720,6 +892,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "reservado ao credor), com garantia flutuante (que dá privilégio geral sobre",
+   "pos_antes": [
+    854,
+    856
+   ],
    "id": 44
   },
   {
@@ -735,6 +911,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "S. A.), quirografária (sem preferência sobre os demais",
+   "pos_antes": [
+    876,
+    877
+   ],
    "id": 45
   },
   {
@@ -750,6 +930,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "sobre os demais credores) e subordinada (que só recebe depois dos",
+   "pos_antes": [
+    886,
+    887
+   ],
    "id": 46
   },
   {
@@ -765,6 +949,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "% conforme o prazo. A incentivada da Lei nº 12. 431",
+   "pos_antes": [
+    1180,
+    1181
+   ],
    "id": 47
   },
   {
@@ -780,6 +968,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "banco aparece em outro papel: coordenador da oferta e, às vezes, comprador",
+   "pos_antes": [
+    1289,
+    1292
+   ],
    "id": 48
   },
   {
@@ -795,6 +987,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "janeiro e abril de 2025, o prazo médio das debêntures emitidas chegou a 9, 9 anos, segundo a Anbima. Em",
+   "pos_antes": [
+    1355,
+    1367
+   ],
    "id": 49
   },
   {
@@ -810,6 +1006,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "empresa capta mais barato, e a diferença é repartida entre emissor, coordenadores e investidor. O problema é que a",
+   "pos_antes": [
+    1545,
+    1555
+   ],
    "id": 50
   },
   {
@@ -825,6 +1025,10 @@
    "restaurou_rascunho": false,
    "origem_antes": null,
    "contexto": "o debenturista? Três coisas: o lugar na fila, os gatilhos que avisam antes do calote e o voto. Nenhuma delas funciona como a",
+   "pos_antes": [
+    1922,
+    1937
+   ],
    "id": 51
   },
   {
@@ -840,6 +1044,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "os produtos dos textos anteriores: [[…]] Até aqui, é o que",
+   "pos_antes": [
+    1215,
+    1216
+   ],
    "id": 52
   },
   {
@@ -855,6 +1063,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "49, § 3º). [[…]] Por isso, ao ler \"",
+   "pos_antes": [
+    2262,
+    2263
+   ],
    "id": 53
   },
   {
@@ -870,6 +1082,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "em diferentes níveis de juros. [[…]] Leia a tabela de cima para",
+   "pos_antes": [
+    3593,
+    3594
+   ],
    "id": 54
   },
   {
@@ -885,6 +1101,10 @@
    "restaurou_rascunho": null,
    "origem_antes": null,
    "contexto": "a exigir mais do devedor: [[…]] A sensibilidade desse papel a juros",
+   "pos_antes": [
+    3950,
+    3951
+   ],
    "id": 55
   },
   {
