@@ -325,3 +325,11 @@ Ajuste feito durante a onda: saiu o aviso de "aspas retas" do checador. O Substa
 aspas ao colar (291 trocas tipográficas na Fase A), então o aviso só fazia ruído.
 Contra o site, o checador acha os quatro resíduos publicados: dois `[VERIFICAR]`, um `[LINK` e o
 jargão de 08-25.
+
+### Onda 3 — conteúdo, crítica e preferências (concluída em 2026-11-16)
+
+| Item | Entrega | Decisão |
+|---|---|---|
+| P7 | `diff_edicoes.py preferencias` → `estilo/preferencias-de-edicao.md` (15 tipos de edição); teste; `voz-syntaxis` manda as etapas 4, 6 e 9 lerem | aprovado no fim da onda |
+| P8 | `pesquisador-editorial.md` (etiqueta de pertinência), `critico-editorial.md` (pergunta + 3 cortes reais), etapa 4 do `post-substack` | aprovado no fim da onda |
+| P9 | sem mudança no pipeline; desenhado para a Fase E (crítica e juiz também com modelo de outra família, via `agy`) | aprovado no GATE C |
