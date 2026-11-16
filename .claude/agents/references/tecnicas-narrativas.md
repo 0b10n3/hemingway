@@ -45,14 +45,3 @@ O insight mais forte do post deveria estar identificável nas primeiras linhas (
 título — não desenterrado no meio de um parágrafo qualquer. Ver uso deste critério em
 `critico-editorial.md` (diagnóstico, com poder de mandar de volta à etapa 2) e em
 `revisao-editorial/SKILL.md` (alarme final, sem poder de reestruturar).
-
-## Fórmula de manchete — técnica a testar, não regra fixa
-
-`[conceito ou número técnico] + [por que isso quebra uma intuição comum] + [o que fazer com
-isso na prática]`.
-
-**Tensão conhecida com o corpus:** nenhum dos 6 títulos analisados na Fase 2 do guia de voz
-usa número (`syntaxis_o_simples_funciona`, `syntaxis_tesouro_selic`, etc. — todos temáticos).
-Use esta fórmula como *teste opcional* em títulos novos, nunca como checklist obrigatório.
-Se o autor testar e gostar em posts reais, isso vira candidato a regra via
-`/forja-de-voz atualizar`, com evidência própria — não aqui.
