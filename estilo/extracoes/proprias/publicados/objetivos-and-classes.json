@@ -1,0 +1,609 @@
+{
+  "arquivo": "estilo/corpus/publicados/objetivos-and-classes.md",
+  "genero": "substack",
+  "palavras": 1360,
+  "eixos": {
+    "lexico": [
+      {
+        "traco": "Campo semântico dominante de finanças/produtos brasileiros (renda fixa, CDB, Tesouro IPCA, NTN-B, ETF, IPCA, volatilidade, subportfólio), cruzado com matemática e economia acadêmica (classes de equivalência, preferências walrasianas, Equilíbrio Geral).",
+        "frequencia": "sempre",
+        "ocorrencias": 40,
+        "evidencias": [
+          "Títulos como o Tesouro IPCA (NTN-B) oferecem exatamente um rendimento que é composto pelo valor do IPCA no período mais um prêmio",
+          "basta pesquisar por exemplo sobre “classes de equivalência”",
+          "possivelmente se deparou com as “preferências walrasianas”"
+        ]
+      },
+      {
+        "traco": "Explica o conceito central (GBI) com definição formal e tradução em aposto, mas pressupõe o jargão periférico sem glosa (fronteira eficiente, desvio padrão anualizado, subprime, ETF, opções e contratos futuros).",
+        "frequencia": "frequente",
+        "ocorrencias": 8,
+        "evidencias": [
+          "O Goal Based Investing, ou investimento baseado em objetivos, é uma abordagem que organiza a alocação de recursos financeiros",
+          "em vez de partir de um perfil de risco “médio” ou de uma fronteira eficiente única",
+          "Ou seria melhor uma exposição passiva em um ETF que possua carteira composta com instrumentos com essas características?"
+        ],
+        "contraexemplo": "Sua principal preocupação é garantir que sua poupança não perca valor de compra (poder aquisitivo)."
+      },
+      {
+        "traco": "Aceita anglicismos sem itálico e sem tradução quando o termo é da literatura (Goal Based Investing, buckets, ETF) e até onde há equivalente corrente em português (real time); mantém citação em inglês sem traduzir.",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "uma mistura única de conteúdo de primeira qualidade com comentários em real time sobre o desdobramento da crise",
+          "o GBI divide o patrimônio em “buckets” ou “contas mentais” independentes",
+          "o cerne do argumento de Brunel sobre “Risk as probability of failing to reach the threshold”"
+        ]
+      },
+      {
+        "traco": "Adjetivação avaliativa entusiasmada para recomendar fontes e autores (renomado, imperdíveis, excelente, primeira qualidade, base sólida, única).",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "Andrew Lo, renomado professor do MIT",
+          "As aulas sobre instrumentos de renda fixa são imperdíveis!",
+          "é uma excelente referência se você desejar entender os aspectos teóricos dessa discussão"
+        ]
+      },
+      {
+        "traco": "Expressão-assinatura repetida quase literalmente: portfólio 'menos agnóstico aos seus objetivos e desejos' (uso de 'agnóstico' como 'indiferente').",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "um portfólio global mais coerente com a persona do investidor e menos agnóstico aos seus objetivos e desejos",
+          "construir portfólios aderentes e menos agnósticos aos seus objetivos e desejos"
+        ]
+      },
+      {
+        "traco": "Registro médio, de conversa: admite coloquialismos do português brasileiro falado (próclise no início de frase, regência coloquial de 'assistir', 'mesmo... do que').",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": [
+          "Me lembro de passar alguns dias quentes no laboratório de informática",
+          "Nos permite compreender, comparar e entender resultados e descobertas sobre instrumentos semelhantes.",
+          "que você pode assistir de graça no MIT"
+        ],
+        "contraexemplo": "Essas são algumas das formas de se classificar instrumentos financeiros."
+      },
+      {
+        "traco": "'Fluxo(s)' como palavra-chave do texto, herdada da definição de Lo (instrumento = sequência de fluxos de dinheiro) e reaplicada na lista de critérios e no caso Pedro.",
+        "frequencia": "frequente",
+        "ocorrencias": 8,
+        "evidencias": [
+          "Um instrumento financeiro, segundo ele, pode ser visto como uma sequência de fluxos de dinheiro.",
+          "Previsibilidade dos fluxos (renda fixa, renda variável…);",
+          "a probabilidade de o título não entregar o fluxo necessário para a reforma do Pedro"
+        ]
+      }
+    ],
+    "sintaxe": [
+      {
+        "traco": "Grande variação de comprimento: média ~18 palavras por frase, com frases de até ~44 palavras ao lado de frases de 3 a 6 palavras (11 frases com ≤6 palavras; 7 com ≥35).",
+        "frequencia": "sempre",
+        "ocorrencias": 72,
+        "evidencias": [
+          "Por um bom motivo.",
+          "A ideia central é simples.",
+          "Algumas ideias são bem exóticas. Mas classificar tem o seu valor e importância."
+        ]
+      },
+      {
+        "traco": "Frase curta como pivô ou ênfase, antes de desenvolver ou para virar o argumento (às vezes iniciada por 'Mas').",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "A ideia central é simples. Você provavelmente não está disposto a correr o mesmo risco",
+          "Por um bom motivo.",
+          "Em finanças, acontece algo semelhante."
+        ]
+      },
+      {
+        "traco": "Abre parágrafos com adjunto adverbial ou oração de enquadramento seguida de vírgula, deixando a oração principal para depois (Afinal, / No texto de hoje, / Aqui, / Nesse processo, / Antes,).",
+        "frequencia": "frequente",
+        "ocorrencias": 12,
+        "evidencias": [
+          "No texto de hoje, não vamos realizar uma análise profunda dessas características.",
+          "Aqui, a visão do GBI é diferente de muitas outras abordagens.",
+          "Antes, vou tomar um exemplo para elucidar a conexão, muitas vezes oculta."
+        ]
+      },
+      {
+        "traco": "Estrutura de contraste corretivo para definir conceito por oposição: 'em vez de X', 'não é X, mas sim Y', 'troca X por Y'.",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "No GBI, o risco não é a variação diária do preço do título (volatilidade), mas sim a probabilidade",
+          "o investidor não tem uma única tolerância ao risco, mas diversas",
+          "O GBI troca a busca por um portfólio globalmente ótimo por subportfólios alinhados"
+        ]
+      },
+      {
+        "traco": "Inserções intercaladas entre travessões no meio da frase, para aside pessoal, ironia ou precisão técnica, retomando a oração principal depois.",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "— um dos poucos lugares com ar-condicionado onde eu podia me refugiar naqueles tempos —,",
+          "— comumente estimada como um desvio padrão anualizado sobre janelas de curto prazo —,",
+          "como no caso da renda fixa — como um CDB do Banco Master? — ou menos"
+        ]
+      },
+      {
+        "traco": "Enumerações em tríade, inclusive com quase-sinônimos ('compreender... e entender').",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": [
+          "Classificar nos ajuda a compreender, comparar e entender resultados e descobertas",
+          "medir o valor estético de objetos como polígonos, vasos, música e poesia",
+          "como é comum para produtos como ações, opções e contratos futuros"
+        ]
+      },
+      {
+        "traco": "Anáfora com 'É comum' para encadear duas premissas antes da conclusão.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "É comum utilizar índices como o IPCA para nos ajudar a compreender",
+          "É comum, também, que tanto o Tesouro Nacional quanto companhias privadas emitam instrumentos de renda fixa"
+        ]
+      }
+    ],
+    "pontuacao": [
+      {
+        "traco": "Travessão (—) é o sinal de intercalação preferido; ~11 travessões, em geral aos pares; quando a frase continua, fecha o par com travessão seguido de vírgula ('—,').",
+        "frequencia": "frequente",
+        "ocorrencias": 11,
+        "evidencias": [
+          "que você pode assistir de graça no MIT [OpenCourseWare](...)—, apresentou um curso de Teoria Financeira",
+          "sobre janelas de curto prazo —, o GBI divide o patrimônio",
+          "naqueles tempos —, lendo na internet sobre os trabalhos de George David Birkhoff"
+        ]
+      },
+      {
+        "traco": "Parênteses curtos como glosa de termo, sigla ou tradução (cerca de 14), mais que como digressão.",
+        "frequencia": "frequente",
+        "ocorrencias": 14,
+        "evidencias": [
+          "precisa ser “internamente homogêneo” (semelhantes entre si) e “externamente heterogêneo” (diferentes dos outros)",
+          "uma meta de curto prazo com alta probabilidade de sucesso (baixa volatilidade);",
+          "Centro de Ciências Exatas (CCE)"
+        ]
+      },
+      {
+        "traco": "Perguntas em sequência (cascata de 3 a 5 perguntas) na abertura de seção e no fecho; ~11 pontos de interrogação no corpo.",
+        "frequencia": "frequente",
+        "ocorrencias": 11,
+        "evidencias": [
+          "Afinal, o que é renda fixa? Qual a diferença para renda variável? E os fundos de investimento?",
+          "Mas quais seriam os pressupostos a serem observados ao criarmos classes de ativos? Existe alguma classificação definitiva?"
+        ]
+      },
+      {
+        "traco": "Exclamação para entusiasmo ou para fechar um passo do argumento (4 ocorrências, uma delas em subtítulo).",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": [
+          "O conteúdo pediu para ser dividido em duas partes!",
+          "Os títulos de renda fixa com rendimentos atrelados ao IPCA resolvem o problema de Pedro!",
+          "## Objetivos, primeiro!"
+        ]
+      },
+      {
+        "traco": "Reticências tipográficas (…) para indicar lista aberta ou pergunta em suspenso, inclusive dentro de parênteses.",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "E os fundos de investimento? Ativos alternativos… Por que elas são relevantes?",
+          "Previsibilidade dos fluxos (renda fixa, renda variável…);",
+          "Características da origem do fluxo (derivativos, ativos reais…);"
+        ]
+      },
+      {
+        "traco": "Dois-pontos como articulador: introduz lista, revela a afirmação depois de um suspense curto ou anuncia as perguntas.",
+        "frequencia": "ocasional",
+        "ocorrencias": 5,
+        "evidencias": [
+          "algo ficou muito claro: matemáticos amam classificar e quantificar.",
+          "Nesse processo, responderíamos a perguntas como: vale adquirir títulos específicos",
+          "muitas das classificações de instrumentos financeiros vão ser baseadas em:"
+        ]
+      },
+      {
+        "traco": "Aspas tipográficas curvas (“ ”) para marcar termo técnico, termo emprestado/irônico e definição citada (~9 trechos); uma ocorrência com a aspa de abertura trocada (”...”).",
+        "frequencia": "frequente",
+        "ocorrencias": 9,
+        "evidencias": [
+          "em vez de partir de um perfil de risco “médio”",
+          "o GBI divide o patrimônio em “buckets” ou “contas mentais” independentes",
+          "Em seu livro Aesthetic Measure (”Medida Estética”), publicado em 1933"
+        ]
+      },
+      {
+        "traco": "Quebra de parágrafo muito frequente: metade dos ~44 parágrafos tem uma única frase; o parágrafo mais longo tem 3 frases (~70 palavras).",
+        "frequencia": "sempre",
+        "ocorrencias": 22,
+        "evidencias": [
+          "As aulas sobre instrumentos de renda fixa são imperdíveis!",
+          "Qual classe de instrumentos seria interessante para este objetivo de Pedro?",
+          "Essas são algumas das formas de se classificar instrumentos financeiros."
+        ]
+      },
+      {
+        "traco": "Prosa corrida predomina; listas só para enumerar critérios ou exemplos paralelos (2 listas), com itens terminados em ponto e vírgula e o último em ponto.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "- Características do originador dos fluxos (títulos públicos, títulos privados);",
+          "- uma meta de médio prazo com probabilidade moderada;"
+        ],
+        "contraexemplo": "A primeira lista abre itens com maiúscula; a segunda, com minúscula."
+      }
+    ],
+    "arquitetura": [
+      {
+        "traco": "Abre com nota editorial ao leitor (atraso, divisão em duas partes), isolada entre separadores e em frases-parágrafo curtas, seguida de um roteiro explícito das duas partes.",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": [
+          "O texto desta semana sai com um pouco de atraso.",
+          "Nesta primeira parte, vamos conversar sobre o que faz com que a classificação de ativos seja importante."
+        ]
+      },
+      {
+        "traco": "Seção começa com cascata de perguntas do leitor e responde ancorando a definição numa autoridade nomeada (professor do MIT), com recomendação pessoal da fonte.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Afinal, o que é renda fixa? Qual a diferença para renda variável?",
+          "Um dos meus pontos favoritos do curso é a forma como Lo constrói a definição de instrumentos financeiros."
+        ]
+      },
+      {
+        "traco": "Conceito primeiro, exemplo depois: define em abstrato, depois dá exemplo cotidiano e, por fim, um caso-persona com nome, idade, profissão e patrimônio.",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Antes, vou tomar um exemplo para elucidar a conexão, muitas vezes oculta.",
+          "Pedro é um engenheiro, casado e com 3 filhos. Com seus 42 anos, ele possui cerca de R$ 1,5 milhão",
+          "A ideia central é simples. Você provavelmente não está disposto a correr o mesmo risco"
+        ]
+      },
+      {
+        "traco": "Digressão autobiográfica (curso de matemática, laboratório do CCE, Birkhoff) como ponte para o tema da seção, depois uma cadeia interdisciplinar matemática → economia → finanças.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Desde meus primeiros dias no curso de matemática, algo ficou muito claro: matemáticos amam classificar e quantificar.",
+          "Em finanças, acontece algo semelhante."
+        ]
+      },
+      {
+        "traco": "Adia o aprofundamento de forma explícita e frequente (série em partes), delimitando o escopo do texto.",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "No texto de hoje, não vamos realizar uma análise profunda dessas características.",
+          "Vamos nos aprofundar em breve na abordagem realizada por ele.",
+          "vamos continuar no próximo texto nossa conversa sobre a relevância das classes de instrumentos financeiros"
+        ]
+      },
+      {
+        "traco": "Fecha com subtítulo 'Conclusão' que repete quase literalmente frases do corpo; depois do botão de compartilhar, um gancho com perguntas abertas para o próximo texto.",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": [
+          "A classificação de instrumentos financeiros é útil e relevante. Nos permite compreender, comparar e entender resultados",
+          "Continuaremos na busca por essas respostas em nossos próximos textos."
+        ]
+      },
+      {
+        "traco": "Quatro subtítulos H2 (~1 a cada 300 palavras), como rótulos temáticos; um com exclamação, um idiomático, e o último genérico ('Conclusão').",
+        "frequencia": "sempre",
+        "ocorrencias": 4,
+        "evidencias": [
+          "## Instrumentos Financeiros",
+          "## Objetivos, primeiro!",
+          "## Cada um no Seu Quadrado"
+        ]
+      }
+    ],
+    "figuras": [
+      {
+        "traco": "Expressão idiomática da cultura popular brasileira como título de seção ('Cada um no Seu Quadrado') para nomear o tema (classificação); não é retomada ao fim.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "## Cada um no Seu Quadrado"
+        ]
+      },
+      {
+        "traco": "Metáforas curtas e lexicalizadas, sem extensão: construção/engenharia (pavimentar, engenharia da exposição) e corpo (cerne, coração no subtítulo).",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": [
+          "uma série de estudos que tentaram pavimentar uma teoria que quantificasse a beleza",
+          "passa, então, a se preocupar com a engenharia da exposição a essas classes de ativos",
+          "Esta distinção é o cerne do argumento de Brunel"
+        ]
+      },
+      {
+        "traco": "Modelo conceitual atribuído a terceiro, em vez de analogia própria: instrumento financeiro visto como sequência de fluxos.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Um instrumento financeiro, segundo ele, pode ser visto como uma sequência de fluxos de dinheiro."
+        ]
+      },
+      {
+        "traco": "Personificação leve do próprio texto.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "O conteúdo pediu para ser dividido em duas partes!"
+        ]
+      }
+    ],
+    "postura": [
+      {
+        "traco": "Primeira pessoa do singular nos momentos de gosto, intenção e memória pessoal.",
+        "frequencia": "frequente",
+        "ocorrencias": 7,
+        "evidencias": [
+          "Um dos meus pontos favoritos do curso",
+          "Quero apresentar uma visão, alinhada com a metodologia do Goal Based Investing",
+          "Me lembro de passar alguns dias quentes no laboratório de informática"
+        ]
+      },
+      {
+        "traco": "Primeira pessoa do plural inclusiva, que trata o texto como conversa contínua com o leitor ('vamos conversar', 'nossa conversa').",
+        "frequencia": "frequente",
+        "ocorrencias": 8,
+        "evidencias": [
+          "Nesta primeira parte, vamos conversar sobre o que faz com que a classificação de ativos seja importante.",
+          "Como veremos, muitas das classificações",
+          "vamos continuar no próximo texto nossa conversa"
+        ]
+      },
+      {
+        "traco": "Autoridade mais implícita que declarada: apoia-se em autores e obras citados nominalmente e na formação em matemática, sem afirmar credencial profissional.",
+        "frequencia": "frequente",
+        "ocorrencias": 7,
+        "evidencias": [
+          "O trabalho de Das, Markowitz, Scheid e Statman (2010) — Portfolio Optimization with Mental Accounts — é uma excelente referência",
+          "Kinlaw, Kritzman e Turkington (2021) definem uma classe de ativos como um agrupamento"
+        ]
+      },
+      {
+        "traco": "Humor leve, irônico e de atualidade, em aside ou exemplo concreto de consumo.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "como no caso da renda fixa — como um CDB do Banco Master? —",
+          "do que com o dinheiro guardado para comprar uma lancha Focker 300 no futuro"
+        ]
+      },
+      {
+        "traco": "Juízo franco seguido de concessão ('exóticas. Mas...'); discordância com a abordagem convencional sem nomear adversário.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Algumas ideias são bem exóticas. Mas classificar tem o seu valor e importância.",
+          "Aqui, a visão do GBI é diferente de muitas outras abordagens."
+        ]
+      },
+      {
+        "traco": "Modaliza suposições sobre o leitor ('provavelmente', 'possivelmente'), mas não atenua as afirmações de conteúdo.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Você provavelmente não está disposto a correr o mesmo risco",
+          "possivelmente se deparou com as “preferências walrasianas”"
+        ]
+      }
+    ],
+    "leitor": [
+      {
+        "traco": "Trata o leitor por 'você' diretamente, em frases condicionais ou de suposição.",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "preciso apresentar o mínimo que você precisa saber sobre o Goal Based Investing (GBI)",
+          "se você desejar entender os aspectos teóricos dessa discussão",
+          "Se você é economista, ou já se interessou em estudar o assunto"
+        ]
+      },
+      {
+        "traco": "Fala com subgrupos de leitores ('Para os mais curiosos', 'Se você é economista') e oferece aprofundamento opcional em vez de impor.",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Para os mais curiosos, basta pesquisar por exemplo sobre “classes de equivalência”",
+          "Se você é economista, ou já se interessou em estudar o assunto, possivelmente se deparou"
+        ]
+      },
+      {
+        "traco": "Evita imperativo direto no corpo; prefere 'basta', condicional ou convite no plural. O imperativo aparece só no botão de compartilhar.",
+        "frequencia": "evita",
+        "ocorrencias": 0,
+        "evidencias": [
+          "basta pesquisar por exemplo sobre “classes de equivalência” e você encontrará conceitos"
+        ],
+        "contraexemplo": "[[CTA: Compartilhar → ...]]"
+      },
+      {
+        "traco": "Pergunta retórica para pôr o problema do caso antes de resolvê-lo e para deixar o leitor à espera do próximo texto.",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "Qual classe de instrumentos seria interessante para este objetivo de Pedro?",
+          "Como as classificações se relacionam com a construção de portfólios?"
+        ]
+      },
+      {
+        "traco": "Pressupõe leitor familiarizado com produtos do varejo brasileiro e com o noticiário financeiro; explica a metodologia (GBI) e a lógica do título indexado.",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "como um CDB do Banco Master?",
+          "Títulos como o Tesouro IPCA (NTN-B) oferecem exatamente um rendimento que é composto pelo valor do IPCA"
+        ]
+      },
+      {
+        "traco": "Recomenda fontes externas acessíveis (curso gratuito com link, artigo, livro) como extensão do texto.",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "que você pode assistir de graça no MIT [OpenCourseWare]",
+          "Esse estudo dá uma base sólida a ideias já apresentadas por autores como Brunel, em seu livro Goals-Based Wealth Management."
+        ]
+      },
+      {
+        "traco": "Chamada para ação só ao fim: botão de compartilhar com agradecimento e pergunta-convite, entre separadores.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Obrigado por ler o Syntaxis! Compartilhar este post ajuda a ampliar o alcance de ideias que merecem circular."
+        ]
+      }
+    ],
+    "tecnico": [
+      {
+        "traco": "Cita no padrão acadêmico autor-data no corpo do texto, sem lista de referências nem nota de rodapé.",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": [
+          "O trabalho de Das, Markowitz, Scheid e Statman (2010)",
+          "Kinlaw, Kritzman e Turkington (2021) definem uma classe de ativos"
+        ]
+      },
+      {
+        "traco": "Títulos de obras mantidos no original em inglês, só às vezes com tradução entre parênteses.",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Em seu livro Aesthetic Measure (”Medida Estética”), publicado em 1933",
+          "em seu livro Goals-Based Wealth Management"
+        ],
+        "contraexemplo": "Portfolio Optimization with Mental Accounts — sem tradução."
+      },
+      {
+        "traco": "Não usa notação nem fórmula; números como texto simples na linha (percentual, valor em reais com espaço depois de R$ e vírgula decimal). Menciona a fórmula de Birkhoff sem mostrá-la.",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": [
+          "IPCA + 6% ao ano, por exemplo.",
+          "ele possui cerca de R$ 1,5 milhão guardados para sua aposentadoria",
+          "ele propôs uma fórmula matemática para medir o valor estético"
+        ]
+      },
+      {
+        "traco": "Nomeia o produto pelo nome comercial com o código técnico entre parênteses.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Títulos como o Tesouro IPCA (NTN-B)"
+        ]
+      },
+      {
+        "traco": "Precisão técnica em aside, para qualificar o conceito convencional que critica.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "— comumente estimada como um desvio padrão anualizado sobre janelas de curto prazo —"
+        ]
+      },
+      {
+        "traco": "Referência a fato de atualidade (Banco Master) sem data nem explicação, um dado que envelhece com o tempo.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "como no caso da renda fixa — como um CDB do Banco Master? —"
+        ]
+      },
+      {
+        "traco": "Imagens sem legenda para ilustrar a definição de instrumento como fluxo e o exemplo da lancha; não há tabela.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "![](img-01)",
+          "![](img-02)"
+        ]
+      }
+    ],
+    "formatacao": [
+      {
+        "traco": "Não usa negrito nem itálico: nem para ênfase, nem para estrangeirismo, nem para título de obra.",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": [
+          "comentários em real time sobre o desdobramento da crise",
+          "Em seu livro Aesthetic Measure (”Medida Estética”), publicado em 1933"
+        ]
+      },
+      {
+        "traco": "Aspas tipográficas fazem o papel de destaque de termo que, em outro estilo, iria em itálico.",
+        "frequencia": "frequente",
+        "ocorrencias": 9,
+        "evidencias": [
+          "“contas mentais”",
+          "“classes de equivalência”",
+          "“internamente homogêneo” (semelhantes entre si)"
+        ]
+      },
+      {
+        "traco": "Separador horizontal (* * *) enquadra blocos fora do corpo: a nota de abertura e o botão de compartilhar.",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "* * *\n\nO texto desta semana sai com um pouco de atraso.",
+          "* * *\n\n[[CTA: Compartilhar → ..."
+        ]
+      },
+      {
+        "traco": "Só subtítulos H2, em title case irregular; título do post com '&'.",
+        "frequencia": "sempre",
+        "ocorrencias": 4,
+        "evidencias": [
+          "## Cada um no Seu Quadrado",
+          "## Instrumentos Financeiros",
+          "titulo: \"Objetivos & Classes\""
+        ]
+      },
+      {
+        "traco": "Blocos curtos: parágrafos de 1 a 3 frases; muitas linhas isoladas de uma frase.",
+        "frequencia": "sempre",
+        "ocorrencias": 44,
+        "evidencias": [
+          "Por um bom motivo.",
+          "Antes, vou tomar um exemplo para elucidar a conexão, muitas vezes oculta."
+        ]
+      },
+      {
+        "traco": "Um link inline em palavra do texto (não URL solta); botão do Substack só no fim.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "no MIT [OpenCourseWare](https://www.youtube.com/playlist?list=PLUl4u3cNGP63B2lDhyKOsImI7FjCf6eDW)"
+        ]
+      },
+      {
+        "traco": "Sem citação em bloco, pullquote ou código; o trecho citado de Brunel fica entre aspas, dentro da frase.",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": [
+          "o cerne do argumento de Brunel sobre “Risk as probability of failing to reach the threshold”"
+        ]
+      }
+    ]
+  },
+  "antipadroes_observados": [
+    "(a) Nunca usa negrito nem itálico, nem para título de obra ou estrangeirismo.",
+    "(a) Nunca mostra fórmula ou notação, mesmo ao mencionar a 'fórmula matemática' de Birkhoff.",
+    "(a) Nunca usa pullquote, citação em bloco, tabela, nota de rodapé ou lista de referências, apesar das citações autor-data.",
+    "(a) Nunca dá ordem ao leitor com imperativo no corpo do texto.",
+    "(b) Possível tique de IA, sem afirmar origem (texto pre-pipeline): na definição do GBI o registro fica genérico e enciclopédico, com paralelismo 'seu próprio... sua própria... seu próprio' e gerúndio de consequência ('melhorando tanto a aderência emocional quanto a probabilidade real').",
+    "(b) Contraste corretivo 'não é X, mas sim Y' (2x) coincide com tique conhecido de IA em pt-BR, mas aqui serve a uma distinção conceitual real (risco = volatilidade vs. probabilidade de falha).",
+    "(b) Conclusão recicla quase literalmente frases do corpo ('compreender, comparar e entender resultados e descobertas'; 'menos agnóstico(s) aos seus objetivos e desejos'), com tríade de quase-sinônimos, um padrão de resumo redundante.",
+    "(b) Texto do botão com fórmula de engajamento genérica: 'ideias que merecem circular. Vamos levar esse conhecimento mais longe?'"
+  ],
+  "incerteza": "Amostra única de ~1.360 palavras, abaixo do piso de ~5.000 para confiança alta; contagens são aproximadas. Não dá para saber o conteúdo das imagens (img-01, img-02, sem legenda), nem se o texto do botão de compartilhar é do autor ou um modelo reaproveitado. As frequências 'sempre' de arquitetura (nota de abertura, 'Conclusão', gancho para o próximo texto) valem para este arquivo e podem ser específicas de um texto em duas partes. O title case irregular dos subtítulos e a aspa de abertura trocada em (”Medida Estética”) podem ser descuido, não escolha. A mudança de registro no trecho de definição do GBI não basta para atribuir origem. Seção editorial nula no frontmatter, então não dá para condicionar traços à linha editorial."
+}

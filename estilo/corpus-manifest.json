@@ -1,7 +1,7 @@
 {
-  "gerado_em": "2026-08-10",
-  "commit_base": "3db8d17",
-  "metodologia": "hash SHA-256 do arquivo original em _arquivo/; palavras conta regex [A-Za-z + acentuados] via estilo/scripts/metricas.py (pdftotext para PDF); dissertacao tem contagem dupla porque leitura visual (subagente) e extração de texto puro (pdftotext) divergem — ver nota.",
+  "gerado_em": "2026-11-16",
+  "commit_base": "a399245",
+  "metodologia": "hash SHA-256 do arquivo original em _arquivo/; palavras conta regex [A-Za-z + acentuados] via estilo/scripts/metricas.py (pdftotext para PDF); dissertacao tem contagem dupla porque leitura visual (subagente) e extração de texto puro (pdftotext) divergem — ver nota. Desde a v2.0.0: o corpus próprio de Substack é o texto publicado, capturado do site (scripts/corpus_publicado.py); sha256 é o do JSON bruto em _arquivo/publicados/; palavras = texto visível do .md (confere com o wordcount do Substack, desvio máximo de 2%).",
   "proprias": [
     {
       "arquivo": "_arquivo/amostras/proprias/substack/syntaxis_a_ciência_da_separação.md",
@@ -9,7 +9,9 @@
       "genero": "substack",
       "subgenero": "ensaístico",
       "palavras": 1557,
-      "extracao": "estilo/extracoes/proprias/syntaxis_a_ciencia_da_separacao.json"
+      "extracao": "estilo/extracoes/proprias/syntaxis_a_ciencia_da_separacao.json",
+      "substituida_por": "estilo/corpus/publicados/a-ciencia-da-separacao.md",
+      "nota_v2": "conversão perdeu negrito e trocou aspas duplas curvas por simples retas; fora do agregado desde a v2.0.0 (ver pesquisa/epico-revisao-editorial/00-corpus.md §5)"
     },
     {
       "arquivo": "_arquivo/amostras/proprias/substack/syntaxis_eu_preciso_de_um_assessor_de_investimentos.md",
@@ -17,7 +19,9 @@
       "genero": "substack",
       "subgenero": "ensaístico",
       "palavras": 1136,
-      "extracao": "estilo/extracoes/proprias/syntaxis_eu_preciso_de_um_assessor_de_investimentos.json"
+      "extracao": "estilo/extracoes/proprias/syntaxis_eu_preciso_de_um_assessor_de_investimentos.json",
+      "substituida_por": "estilo/corpus/publicados/eu-preciso-de-um-assessor-de-investimentos.md",
+      "nota_v2": "conversão perdeu negrito e trocou aspas duplas curvas por simples retas; fora do agregado desde a v2.0.0 (ver pesquisa/epico-revisao-editorial/00-corpus.md §5)"
     },
     {
       "arquivo": "_arquivo/amostras/proprias/substack/syntaxis_objetivos_classes.md",
@@ -25,7 +29,9 @@
       "genero": "substack",
       "subgenero": "ensaístico",
       "palavras": 1367,
-      "extracao": "estilo/extracoes/proprias/syntaxis_objetivos_classes.json"
+      "extracao": "estilo/extracoes/proprias/syntaxis_objetivos_classes.json",
+      "substituida_por": "estilo/corpus/publicados/objetivos-and-classes.md",
+      "nota_v2": "conversão perdeu negrito e trocou aspas duplas curvas por simples retas; fora do agregado desde a v2.0.0 (ver pesquisa/epico-revisao-editorial/00-corpus.md §5)"
     },
     {
       "arquivo": "_arquivo/amostras/proprias/substack/syntaxis_o_simples_funciona.md",
@@ -33,7 +39,9 @@
       "genero": "substack",
       "subgenero": "ensaístico",
       "palavras": 744,
-      "extracao": "estilo/extracoes/proprias/syntaxis_o_simples_funciona.json"
+      "extracao": "estilo/extracoes/proprias/syntaxis_o_simples_funciona.json",
+      "substituida_por": "estilo/corpus/publicados/o-simples-funciona.md",
+      "nota_v2": "conversão perdeu negrito e trocou aspas duplas curvas por simples retas; fora do agregado desde a v2.0.0 (ver pesquisa/epico-revisao-editorial/00-corpus.md §5)"
     },
     {
       "arquivo": "_arquivo/amostras/proprias/substack/syntaxis_tesouro_selic.md",
@@ -41,7 +49,9 @@
       "genero": "substack",
       "subgenero": "explicativo",
       "palavras": 1007,
-      "extracao": "estilo/extracoes/proprias/syntaxis_tesouro_selic.json"
+      "extracao": "estilo/extracoes/proprias/syntaxis_tesouro_selic.json",
+      "substituida_por": "estilo/corpus/publicados/tesouro-selic.md",
+      "nota_v2": "conversão perdeu negrito e trocou aspas duplas curvas por simples retas; fora do agregado desde a v2.0.0 (ver pesquisa/epico-revisao-editorial/00-corpus.md §5)"
     },
     {
       "arquivo": "_arquivo/amostras/proprias/substack/syntaxis_títulos_do_tesouro_nacional.md",
@@ -49,7 +59,9 @@
       "genero": "substack",
       "subgenero": "explicativo",
       "palavras": 931,
-      "extracao": "estilo/extracoes/proprias/syntaxis_titulos_do_tesouro_nacional.json"
+      "extracao": "estilo/extracoes/proprias/syntaxis_titulos_do_tesouro_nacional.json",
+      "substituida_por": "estilo/corpus/publicados/titulos-do-tesouro-nacional.md",
+      "nota_v2": "conversão perdeu negrito e trocou aspas duplas curvas por simples retas; fora do agregado desde a v2.0.0 (ver pesquisa/epico-revisao-editorial/00-corpus.md §5)"
     },
     {
       "arquivo": "_arquivo/amostras/proprias/dissertacao/disser3.0.pdf",
@@ -60,6 +72,347 @@
       "palavras_pdftotext": 10735,
       "nota_palavras": "extração via pdftotext (usada em metricas.json) perde parte das fórmulas/símbolos LaTeX; leitura visual do subagente capturou mais texto. Usar 18943 como referência de escopo lido, 10735 como o que a camada quantitativa efetivamente mediu.",
       "extracao": "estilo/extracoes/proprias/disser3.0.json"
+    },
+    {
+      "arquivo": "estilo/corpus/publicados/conectando-dinheiro-e-sonhos.md",
+      "captura": "_arquivo/publicados/2024-09-06_conectando-dinheiro-e-sonhos.json",
+      "sha256": "4f78d37419744f0344312c086e12f6733a8ccdb8d41a42622b6df23675e2b069",
+      "genero": "substack",
+      "epoca": "pre-pipeline",
+      "post_date": "2024-09-06",
+      "linha_editorial": null,
+      "palavras": 847,
+      "extracao": "estilo/extracoes/proprias/publicados/conectando-dinheiro-e-sonhos.json"
+    },
+    {
+      "arquivo": "estilo/corpus/publicados/escolhendo-as-batalhas.md",
+      "captura": "_arquivo/publicados/2024-09-12_escolhendo-as-batalhas.json",
+      "sha256": "aa829c53d21f7164e9830d0151f709cb7f3d729abe59ca56beb0e534351c7186",
+      "genero": "substack",
+      "epoca": "pre-pipeline",
+      "post_date": "2024-09-12",
+      "linha_editorial": null,
+      "palavras": 591,
+      "extracao": "estilo/extracoes/proprias/publicados/escolhendo-as-batalhas.json"
+    },
+    {
+      "arquivo": "estilo/corpus/publicados/um-objetivo-para-comecar.md",
+      "captura": "_arquivo/publicados/2024-09-20_um-objetivo-para-comecar.json",
+      "sha256": "d47d2eca610904c41f856c2cd4474aba9c02526d4b5101254eb04e19233cf660",
+      "genero": "substack",
+      "epoca": "pre-pipeline",
+      "post_date": "2024-09-20",
+      "linha_editorial": null,
+      "palavras": 732,
+      "extracao": "estilo/extracoes/proprias/publicados/um-objetivo-para-comecar.json"
+    },
+    {
+      "arquivo": "estilo/corpus/publicados/reservas-de-emergencia.md",
+      "captura": "_arquivo/publicados/2024-09-30_reservas-de-emergencia.json",
+      "sha256": "917a19267a622baf748f4fab68df88badbed62e9524d0ce9818a2662e9faae07",
+      "genero": "substack",
+      "epoca": "pre-pipeline",
+      "post_date": "2024-09-30",
+      "linha_editorial": null,
+      "palavras": 973,
+      "extracao": "estilo/extracoes/proprias/publicados/reservas-de-emergencia.json"
+    },
+    {
+      "arquivo": "estilo/corpus/publicados/comece-com-o-simples.md",
+      "captura": "_arquivo/publicados/2024-10-10_comece-com-o-simples.json",
+      "sha256": "3e99213dc2c39db5529ae8f4c11b995f3259ac74132d22f5e69a234419d658f8",
+      "genero": "substack",
+      "epoca": "pre-pipeline",
+      "post_date": "2024-10-10",
+      "linha_editorial": null,
+      "palavras": 620,
+      "extracao": "estilo/extracoes/proprias/publicados/comece-com-o-simples.json"
+    },
+    {
+      "arquivo": "estilo/corpus/publicados/titulos-do-tesouro-nacional.md",
+      "captura": "_arquivo/publicados/2024-10-16_titulos-do-tesouro-nacional.json",
+      "sha256": "b66ad947ec966d19cc078ac1e2a5c92ef9f446db75a860e6675dc985045ee587",
+      "genero": "substack",
+      "epoca": "pre-pipeline",
+      "post_date": "2024-10-16",
+      "linha_editorial": null,
+      "palavras": 917,
+      "extracao": "estilo/extracoes/proprias/publicados/titulos-do-tesouro-nacional.json"
+    },
+    {
+      "arquivo": "estilo/corpus/publicados/eu-preciso-de-um-assessor-de-investimentos.md",
+      "captura": "_arquivo/publicados/2024-10-20_eu-preciso-de-um-assessor-de-investimentos.json",
+      "sha256": "6da4d3d5eeba2ee4dbdbf79508ace8c8a849921b6d4c16e0cd79706df3b0727a",
+      "genero": "substack",
+      "epoca": "pre-pipeline",
+      "post_date": "2024-10-20",
+      "linha_editorial": null,
+      "palavras": 1124,
+      "extracao": "estilo/extracoes/proprias/publicados/eu-preciso-de-um-assessor-de-investimentos.json"
+    },
+    {
+      "arquivo": "estilo/corpus/publicados/tesouro-prefixado-o-guia-completo.md",
+      "captura": "_arquivo/publicados/2024-10-24_tesouro-prefixado-o-guia-completo.json",
+      "sha256": "2b33b81b4588b1e6ec19695910533e50f03bf958c9cb06ee510b8c2981484a77",
+      "genero": "substack",
+      "epoca": "pre-pipeline",
+      "post_date": "2024-10-24",
+      "linha_editorial": null,
+      "palavras": 1252,
+      "extracao": "estilo/extracoes/proprias/publicados/tesouro-prefixado-o-guia-completo.json"
+    },
+    {
+      "arquivo": "estilo/corpus/publicados/tesouro-selic.md",
+      "captura": "_arquivo/publicados/2024-11-01_tesouro-selic.json",
+      "sha256": "8b787b3f7a11200da6f5830eb11173e6a406cf4c329428334a224763d54e7931",
+      "genero": "substack",
+      "epoca": "pre-pipeline",
+      "post_date": "2024-11-01",
+      "linha_editorial": null,
+      "palavras": 1030,
+      "extracao": "estilo/extracoes/proprias/publicados/tesouro-selic.json"
+    },
+    {
+      "arquivo": "estilo/corpus/publicados/etf-o-que-e.md",
+      "captura": "_arquivo/publicados/2025-07-08_etf-o-que-e.json",
+      "sha256": "c8737289d7e9659ab1420653c083497f7f151a3c5c093f324ee24c33cece8224",
+      "genero": "substack",
+      "epoca": "pre-pipeline",
+      "post_date": "2025-07-08",
+      "linha_editorial": null,
+      "palavras": 1116,
+      "extracao": "estilo/extracoes/proprias/publicados/etf-o-que-e.json"
+    },
+    {
+      "arquivo": "estilo/corpus/publicados/o-simples-funciona.md",
+      "captura": "_arquivo/publicados/2026-01-06_o-simples-funciona.json",
+      "sha256": "6915f99015feba201beb9b642048b22d92bdc336b50581042a5c6394371b1273",
+      "genero": "substack",
+      "epoca": "pre-pipeline",
+      "post_date": "2026-01-06",
+      "linha_editorial": null,
+      "palavras": 744,
+      "extracao": "estilo/extracoes/proprias/publicados/o-simples-funciona.json"
+    },
+    {
+      "arquivo": "estilo/corpus/publicados/o-portfolio-da-ivy-league.md",
+      "captura": "_arquivo/publicados/2026-01-14_o-portfolio-da-ivy-league.json",
+      "sha256": "b9b4d79122866a1be86acfd0be8f0c13644066bfee33bf521981358fac99bf54",
+      "genero": "substack",
+      "epoca": "pre-pipeline",
+      "post_date": "2026-01-14",
+      "linha_editorial": null,
+      "palavras": 937,
+      "extracao": "estilo/extracoes/proprias/publicados/o-portfolio-da-ivy-league.json"
+    },
+    {
+      "arquivo": "estilo/corpus/publicados/objetivos-and-classes.md",
+      "captura": "_arquivo/publicados/2026-01-26_objetivos-and-classes.json",
+      "sha256": "546bff86ed82f5d95b1bc24d0279a633a55f4f22b8ef657d8f00d146e557bba2",
+      "genero": "substack",
+      "epoca": "pre-pipeline",
+      "post_date": "2026-01-26",
+      "linha_editorial": null,
+      "palavras": 1360,
+      "extracao": "estilo/extracoes/proprias/publicados/objetivos-and-classes.json"
+    },
+    {
+      "arquivo": "estilo/corpus/publicados/a-ciencia-da-separacao.md",
+      "captura": "_arquivo/publicados/2026-02-08_a-ciencia-da-separacao.json",
+      "sha256": "8e9cbaf77bc1159e305b0bd4a655dfe45832b2b54598f482dd7444deae140b23",
+      "genero": "substack",
+      "epoca": "pre-pipeline",
+      "post_date": "2026-02-08",
+      "linha_editorial": null,
+      "palavras": 1583,
+      "extracao": "estilo/extracoes/proprias/publicados/a-ciencia-da-separacao.json"
+    },
+    {
+      "arquivo": "estilo/corpus/publicados/goal-based-investing.md",
+      "captura": "_arquivo/publicados/2026-03-02_goal-based-investing.json",
+      "sha256": "70fdba95f3e65eaaca06ca109c90b1658e8b24d0574aad83959fdf294e6f7440",
+      "genero": "substack",
+      "epoca": "pre-pipeline",
+      "post_date": "2026-03-02",
+      "linha_editorial": null,
+      "palavras": 1623,
+      "extracao": "estilo/extracoes/proprias/publicados/goal-based-investing.json"
+    },
+    {
+      "arquivo": "estilo/corpus/publicados/o-mundo-invertido-dos-investimentos.md",
+      "captura": "_arquivo/publicados/2026-08-10_o-mundo-invertido-dos-investimentos.json",
+      "sha256": "ce6d53a717bb1694ee66cf799488df5d8af332d9f3ba798646278eebbd3a5e64",
+      "genero": "substack",
+      "epoca": "pipeline",
+      "post_date": "2026-08-10",
+      "linha_editorial": null,
+      "palavras": 1252,
+      "extracao": "estilo/extracoes/proprias/publicados/o-mundo-invertido-dos-investimentos.json"
+    },
+    {
+      "arquivo": "estilo/corpus/publicados/o-papel-do-cdb-na-transformacao-de.md",
+      "captura": "_arquivo/publicados/2026-08-17_o-papel-do-cdb-na-transformacao-de.json",
+      "sha256": "962b9c4db1d0b4f3423de95d85a74bf6c5e476f1d2c6e2a62ee928b2f2dcb344",
+      "genero": "substack",
+      "epoca": "pipeline",
+      "post_date": "2026-08-17",
+      "linha_editorial": null,
+      "palavras": 1697,
+      "extracao": "estilo/extracoes/proprias/publicados/o-papel-do-cdb-na-transformacao-de.json"
+    },
+    {
+      "arquivo": "estilo/corpus/publicados/o-mundo-invertido-das-carreiras-em.md",
+      "captura": "_arquivo/publicados/2026-08-21_o-mundo-invertido-das-carreiras-em.json",
+      "sha256": "faaf5fb0c0689da71729a8c59686265e129fa3eee92732bdef534465df4d0454",
+      "genero": "substack",
+      "epoca": "pipeline",
+      "post_date": "2026-08-21",
+      "linha_editorial": null,
+      "palavras": 1174,
+      "extracao": "estilo/extracoes/proprias/publicados/o-mundo-invertido-das-carreiras-em.json"
+    },
+    {
+      "arquivo": "estilo/corpus/publicados/dividir-para-nao-correr-risco.md",
+      "captura": "_arquivo/publicados/2026-08-25_dividir-para-nao-correr-risco.json",
+      "sha256": "ea15684dc12b7a9160f2a4075de293c263c0023f8904a1548624d6833617bb59",
+      "genero": "substack",
+      "epoca": "pipeline",
+      "post_date": "2026-08-25",
+      "linha_editorial": null,
+      "palavras": 2503,
+      "extracao": "estilo/extracoes/proprias/publicados/dividir-para-nao-correr-risco.json"
+    },
+    {
+      "arquivo": "estilo/corpus/publicados/quando-os-modelos-se-rebelam.md",
+      "captura": "_arquivo/publicados/2026-09-01_quando-os-modelos-se-rebelam.json",
+      "sha256": "0396107693973d123fe209c195740f35ff2ae32d43a9f7846f19f8959cf47422",
+      "genero": "substack",
+      "epoca": "pipeline",
+      "post_date": "2026-09-01",
+      "linha_editorial": null,
+      "palavras": 3514,
+      "extracao": "estilo/extracoes/proprias/publicados/quando-os-modelos-se-rebelam.json"
+    },
+    {
+      "arquivo": "estilo/corpus/publicados/o-dificil-sobre-as-dificuldades-em.md",
+      "captura": "_arquivo/publicados/2026-09-11_o-dificil-sobre-as-dificuldades-em.json",
+      "sha256": "562a6e8edc0ca5ebb030634ae9819ed80796077d109112369501ffdbbbf5d4a9",
+      "genero": "substack",
+      "epoca": "pipeline",
+      "post_date": "2026-09-11",
+      "linha_editorial": null,
+      "palavras": 1590,
+      "extracao": "estilo/extracoes/proprias/publicados/o-dificil-sobre-as-dificuldades-em.json"
+    },
+    {
+      "arquivo": "estilo/corpus/publicados/o-agro-e-pop-o-agro-e-produto-financeiro.md",
+      "captura": "_arquivo/publicados/2026-09-20_o-agro-e-pop-o-agro-e-produto-financeiro.json",
+      "sha256": "d6383a80bf56bda520bbf738ff94c0ccf20e0b9ab16f8abac0d536c8ee166477",
+      "genero": "substack",
+      "epoca": "pipeline",
+      "post_date": "2026-09-20",
+      "linha_editorial": null,
+      "palavras": 1885,
+      "extracao": "estilo/extracoes/proprias/publicados/o-agro-e-pop-o-agro-e-produto-financeiro.json"
+    },
+    {
+      "arquivo": "estilo/corpus/publicados/borboletas-caos-e-carreira.md",
+      "captura": "_arquivo/publicados/2026-09-25_borboletas-caos-e-carreira.json",
+      "sha256": "ef62d4e3dd934abc57c6fd1ebc37d309780a2fe02672b291f407cd905988e221",
+      "genero": "substack",
+      "epoca": "pipeline",
+      "post_date": "2026-09-25",
+      "linha_editorial": null,
+      "palavras": 2719,
+      "extracao": "estilo/extracoes/proprias/publicados/borboletas-caos-e-carreira.json"
+    },
+    {
+      "arquivo": "estilo/corpus/publicados/a-anatomia-e-o-verdadeiro-risco-do.md",
+      "captura": "_arquivo/publicados/2026-10-02_a-anatomia-e-o-verdadeiro-risco-do.json",
+      "sha256": "7a059360e19092df1a5a667c6a041b209d0d50c643dc6f33113267b6f97f4967",
+      "genero": "substack",
+      "epoca": "pipeline",
+      "post_date": "2026-10-02",
+      "linha_editorial": null,
+      "palavras": 3241,
+      "extracao": "estilo/extracoes/proprias/publicados/a-anatomia-e-o-verdadeiro-risco-do.json"
+    },
+    {
+      "arquivo": "estilo/corpus/publicados/coqueiros-e-cacaueiros.md",
+      "captura": "_arquivo/publicados/2026-10-13_coqueiros-e-cacaueiros.json",
+      "sha256": "fece8d8d4bc808e2537259a3ee069c0c8c31a258f1924728329c5de91c38aec5",
+      "genero": "substack",
+      "epoca": "pipeline",
+      "post_date": "2026-10-13",
+      "linha_editorial": null,
+      "palavras": 2441,
+      "extracao": "estilo/extracoes/proprias/publicados/coqueiros-e-cacaueiros.json"
+    },
+    {
+      "arquivo": "estilo/corpus/publicados/renda-fixa-condicoes-variaveis.md",
+      "captura": "_arquivo/publicados/2026-10-16_renda-fixa-condicoes-variaveis.json",
+      "sha256": "993a9d7ff6fe30600f1a67f92ebf2793d044575693f548553a568be5e35162f5",
+      "genero": "substack",
+      "epoca": "pipeline",
+      "post_date": "2026-10-16",
+      "linha_editorial": null,
+      "palavras": 4479,
+      "extracao": "estilo/extracoes/proprias/publicados/renda-fixa-condicoes-variaveis.json"
+    },
+    {
+      "arquivo": "estilo/corpus/publicados/samurais-e-duelos-no-mercado-financeiro.md",
+      "captura": "_arquivo/publicados/2026-10-29_samurais-e-duelos-no-mercado-financeiro.json",
+      "sha256": "02edcbee31433a793a5290eb03f98054fd30bd73eaff99eaec7e6a60cf339f47",
+      "genero": "substack",
+      "epoca": "pipeline",
+      "post_date": "2026-10-29",
+      "linha_editorial": null,
+      "palavras": 2483,
+      "extracao": "estilo/extracoes/proprias/publicados/samurais-e-duelos-no-mercado-financeiro.json"
+    },
+    {
+      "arquivo": "estilo/corpus/publicados/voce-esta-contando-os-dias-errado.md",
+      "captura": "_arquivo/publicados/2026-10-31_voce-esta-contando-os-dias-errado.json",
+      "sha256": "8d6614a3d35cf3e08065598c47ef9ffa57c65dc94a7a6ca337e6a9994154b23e",
+      "genero": "substack",
+      "epoca": "pipeline",
+      "post_date": "2026-10-31",
+      "linha_editorial": null,
+      "palavras": 2829,
+      "extracao": "estilo/extracoes/proprias/publicados/voce-esta-contando-os-dias-errado.json"
+    },
+    {
+      "arquivo": "estilo/corpus/publicados/a-corda-e-o-arco.md",
+      "captura": "_arquivo/publicados/2026-11-05_a-corda-e-o-arco.json",
+      "sha256": "ffb3d0a537301008c54064151e65534bcada01f757b14c7658dd33c495bc32b8",
+      "genero": "substack",
+      "epoca": "pipeline",
+      "post_date": "2026-11-05",
+      "linha_editorial": null,
+      "palavras": 2782,
+      "extracao": "estilo/extracoes/proprias/publicados/a-corda-e-o-arco.json"
+    },
+    {
+      "arquivo": "estilo/corpus/publicados/frequencia-de-capitalizacao.md",
+      "captura": "_arquivo/publicados/2026-11-10_frequencia-de-capitalizacao.json",
+      "sha256": "d50ad25e57fec24dcd47bc71b4cd64c69cfbc756ea53ed375c8573edcbd6728f",
+      "genero": "substack",
+      "epoca": "pipeline",
+      "post_date": "2026-11-10",
+      "linha_editorial": null,
+      "palavras": 3190,
+      "extracao": "estilo/extracoes/proprias/publicados/frequencia-de-capitalizacao.json"
+    },
+    {
+      "arquivo": "estilo/corpus/publicados/should-i-stay-or-should-i-go.md",
+      "captura": "_arquivo/publicados/2026-11-15_should-i-stay-or-should-i-go.json",
+      "sha256": "da52b13c7278746b9c3fd9ab8712c6a76e6bb0f9a66b87a9573e98302cf65f59",
+      "genero": "substack",
+      "epoca": "pipeline",
+      "post_date": "2026-11-15",
+      "linha_editorial": null,
+      "palavras": 2172,
+      "extracao": "estilo/extracoes/proprias/publicados/should-i-stay-or-should-i-go.json"
     }
   ],
   "admiradas": [
@@ -134,6 +487,10 @@
     "proprias_palavras_substack": 6742,
     "proprias_palavras_dissertacao": 18943,
     "admiradas_textos": 8,
-    "admiradas_autores": 3
+    "admiradas_autores": 3,
+    "proprias_textos_v2": 32,
+    "publicados_pipeline": 16,
+    "publicados_pre_pipeline": 15,
+    "proprias_palavras_publicadas": 55400
   }
 }

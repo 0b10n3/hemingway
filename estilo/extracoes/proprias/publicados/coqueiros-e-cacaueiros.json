@@ -1,0 +1,742 @@
+{
+  "arquivo": "estilo/corpus/publicados/coqueiros-e-cacaueiros.md",
+  "genero": "substack",
+  "palavras": 2441,
+  "eixos": {
+    "lexico": [
+      {
+        "traco": "O vocabulário agrícola e botânico (cultivo, fruto, pragas, pomar, plantar, pegar) serve de vocabulário de trabalho para falar de carreira, não só de enfeite.",
+        "frequencia": "frequente",
+        "ocorrencias": 76,
+        "evidencias": [
+          "mas pedem cultivo deliberado: estudo, prática, manutenção e atenção às pragas.",
+          "Não é regra, mas é comum que os coqueiros morem na barra e que a haste seja um pomar de cacaueiros.",
+          "nada disso dá fruto sem cultivo."
+        ]
+      },
+      {
+        "traco": "O verbo 'pedir' dá vida a plantas e skills e funciona como medida do custo de manutenção.",
+        "frequencia": "frequente",
+        "ocorrencias": 7,
+        "evidencias": [
+          "O coqueiro, depois que pega, pede quase nada.",
+          "Depois que pegou, o coqueiro parou de pedir.",
+          "A ferramenta continua pedindo cuidado."
+        ]
+      },
+      {
+        "traco": "O anglicismo 'skill' é o termo central do texto. Nunca é traduzido por 'habilidade' (0 ocorrências) e sempre sai em itálico no corpo. O subtítulo do frontmatter é a exceção: lá não há itálico.",
+        "frequencia": "sempre",
+        "ocorrencias": 11,
+        "evidencias": [
+          "Toda *skill* que você usa no trabalho tem uma origem.",
+          "*skills* raras e valiosas, acumuladas com prática deliberada."
+        ],
+        "contraexemplo": "Skills nativas, skills importadas e por que a sua melhor nota pode estar mentindo para você"
+      },
+      {
+        "traco": "O jargão de mercado financeiro e de dados chega em cachos enumerados (duration, CRA, CRI, marcação a mercado, Spark, Databricks, Python, SQL). Só parte dos termos recebe glosa.",
+        "frequencia": "frequente",
+        "ocorrencias": 15,
+        "evidencias": [
+          "*Duration* (o prazo médio ponderado dos pagamentos de um título), a estrutura de um CRA (Certificado de Recebíveis do Agronegócio)",
+          "Curva de juros, *duration*, marcação a mercado, a estrutura de garantias por trás de um CRA"
+        ],
+        "contraexemplo": "Dados em escala. Python, SQL e plataformas como o Databricks."
+      },
+      {
+        "traco": "O registro é culto com marcas fortes de oralidade ('Aí', 'é outra conversa', 'de novo e de novo') e usa o pronome 'te' junto do tratamento 'você'.",
+        "frequencia": "frequente",
+        "ocorrencias": 12,
+        "evidencias": [
+          "Aí fui checar. Errei nas duas pontas.",
+          "O cacaueiro é outra conversa.",
+          "A empresa vê o resultado e, com toda a boa intenção, te dá mais daquilo."
+        ],
+        "contraexemplo": "Segundo a **Embrapa** (Empresa Brasileira de Pesquisa Agropecuária), a primeira introdução aconteceu em 1553"
+      },
+      {
+        "traco": "'quase' volta como atenuador e se prende ao motivo do coqueiro ('quase sozinho', 'quase nada').",
+        "frequencia": "frequente",
+        "ocorrencias": 7,
+        "evidencias": [
+          "Mais de quatro séculos depois, o estrangeiro continua se plantando quase sozinho.",
+          "Hoje ele se planta quase sozinho, e ninguém olha para o litoral baiano e pensa em planta importada."
+        ]
+      },
+      {
+        "traco": "A locução 'de verdade' reforça autenticidade e concretude.",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Depois cruze com o que gerou resultado de verdade.",
+          "**Produto e risco, de verdade.**",
+          "ferramentas usadas de verdade nas instituições financeiras"
+        ]
+      },
+      {
+        "traco": "Aparecem referências culturais e regionais brasileiras (Jorge Amado, coronéis, cabruca, vassoura-de-bruxa). O termo regional vem glosado por aposto.",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": [
+          "É o mundo dos coronéis dos romances de Jorge Amado.",
+          "ele cresce na cabruca, à sombra da mata"
+        ]
+      }
+    ],
+    "sintaxe": [
+      {
+        "traco": "Uma frase curta isolada em parágrafo próprio marca virada, ênfase ou veredito.",
+        "frequencia": "frequente",
+        "ocorrencias": 22,
+        "evidencias": [
+          "Aí fui checar. Errei nas duas pontas.",
+          "Não é.",
+          "Era só explicar."
+        ]
+      },
+      {
+        "traco": "O comprimento das frases varia muito. Frases de 2 a 6 palavras alternam com períodos de 20 a 30 palavras, que costumam pôr o adjunto adverbial ou a oração subordinada antes da principal.",
+        "frequencia": "frequente",
+        "ocorrencias": 12,
+        "evidencias": [
+          "Depois de passagens pela Península de Maraú, por Itacaré e por Ilhéus, terra de Jorge Amado, a primeira ideia parecia pronta.",
+          "Com pavor de ficar de prova final ou cair em recuperação numa disciplina de álgebra, eu estudava álgebra muito mais do que qualquer outra coisa.",
+          "Quando o cuidado falha, o tombo é do mesmo tamanho."
+        ]
+      },
+      {
+        "traco": "Usa paralelismo binário e antítese em frases gêmeas, muitas vezes nominais.",
+        "frequencia": "frequente",
+        "ocorrencias": 9,
+        "evidencias": [
+          "Nativo contra importado. Talento contra esforço.",
+          "O símbolo de nativo é estrangeiro. O símbolo de importado é brasileiro.",
+          "Coqueiro é resultado alto com cansaço baixo. Cacaueiro é resultado alto com cansaço alto."
+        ]
+      },
+      {
+        "traco": "Faz correção em duas frases no molde 'não é X. É Y.'. Às vezes a segunda frase fica em parágrafo próprio.",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "a pergunta que importa não é de onde uma *skill* veio.",
+          "Por isso a pergunta não é coqueiro ou cacaueiro. É onde cada hora de esforço vai render mais.",
+          "Não é “saber usar o ChatGPT”. É saber dar contexto, quebrar o problema em partes"
+        ]
+      },
+      {
+        "traco": "Começa frases com conjunção coordenativa (Mas, E, Porque) depois de ponto, inclusive na abertura de parágrafo.",
+        "frequencia": "frequente",
+        "ocorrencias": 18,
+        "evidencias": [
+          "Mas a origem importa menos do que parece.",
+          "E aqui o coqueiro volta, agora como argumento.",
+          "Mas o erro virou o melhor argumento do texto. Porque, para a sua carreira,"
+        ]
+      },
+      {
+        "traco": "Usa parênteses para enumerar exemplos concretos ou glosar siglas, no lugar onde caberia um travessão.",
+        "frequencia": "frequente",
+        "ocorrencias": 10,
+        "evidencias": [
+          "Ou ela veio com você (uma facilidade, um temperamento, um jeito de pensar), ou você a trouxe de fora",
+          "(destravar um código, explicar uma planilha, escrever o e-mail difícil, organizar uma apresentação)"
+        ]
+      },
+      {
+        "traco": "Usa aposto explicativo entre vírgulas para identificar lugar, pessoa ou conceito.",
+        "frequencia": "ocasional",
+        "ocorrencias": 5,
+        "evidencias": [
+          "por Ilhéus, terra de Jorge Amado",
+          "chegou um fungo, a vassoura-de-bruxa.",
+          "ele cresce na cabruca, à sombra da mata"
+        ]
+      },
+      {
+        "traco": "Usa fragmentos nominais sem verbo como comentário ou síntese.",
+        "frequencia": "ocasional",
+        "ocorrencias": 5,
+        "evidencias": [
+          "Exagero de cronista, provavelmente.",
+          "**Valor alto, manutenção alta.**",
+          "Resultado: em vários semestres, minhas notas de álgebra saíram melhores"
+        ]
+      },
+      {
+        "traco": "Faz enumerações de 3 a 4 itens dentro da frase, em série assindética ou com 'e' só no fim.",
+        "frequencia": "frequente",
+        "ocorrencias": 8,
+        "evidencias": [
+          "Vira avaliação de desempenho, meta batida, mérito.",
+          "A barra horizontal é a amplitude: comunicar, sintetizar, ensinar, conectar áreas.",
+          "renda fixa, crédito estruturado, programação e ferramentas usadas de verdade"
+        ]
+      }
+    ],
+    "pontuacao": [
+      {
+        "traco": "Os dois-pontos são o principal articulador. Anunciam explicação, exemplo, lista, citação ou o desfecho de uma frase-moldura.",
+        "frequencia": "frequente",
+        "ocorrencias": 27,
+        "evidencias": [
+          "Ela muda a taxa de câmbio: a mesma hora de estudo rende mais onde você tem facilidade.",
+          "Aqui vai o spoiler mais contraintuitivo deste texto: a métrica que você usa para descobrir no que é bom pode estar medindo outra coisa.",
+          "Bastava enterrar um coco: “metido um coco debaixo da terra”, escreveu ele"
+        ]
+      },
+      {
+        "traco": "Não usa travessão nenhuma vez (0 de — ou –). As intercalações ficam entre vírgulas ou parênteses, ou vêm depois de dois-pontos.",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": [
+          "Na Bahia, é verdade, ele também chegou de fora: as sementes vieram do Pará, em 1746."
+        ]
+      },
+      {
+        "traco": "O ponto e vírgula é raro e aparece em contraste com elipse ou em ressalva de escopo.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "O esforço deixa marca na memória; a facilidade, não.",
+          "Não vou polemizar sobre as fronteiras; para este texto, essa divisão basta."
+        ]
+      },
+      {
+        "traco": "Usa as aspas em dois níveis. Aspas simples tipográficas (‘ ’) marcam termo cunhado ou rótulo conceitual. Aspas duplas curvas (“ ”) marcam fala, citação literal ou dito popular.",
+        "frequencia": "frequente",
+        "ocorrencias": 11,
+        "evidencias": [
+          "Daqui em diante, vou chamar de ‘coqueiros’ as *skills* que entregam valor relevante",
+          "O ‘coco-da-baía’ é imigrante.",
+          "Para ele, “siga a sua paixão” é um conselho ruim"
+        ],
+        "contraexemplo": "o de verdade (”isso está errado”), o de relacionamento (”quem é você para me dizer isso?”)"
+      },
+      {
+        "traco": "A quebra de parágrafo é frequente e isola a conclusão, a virada ou o comentário seco em parágrafo de uma frase.",
+        "frequencia": "sempre",
+        "ocorrencias": 22,
+        "evidencias": [
+          "O que é fácil para você parece óbvio.",
+          "Exagero de cronista, provavelmente.",
+          "O problema é não saber qual é qual."
+        ]
+      },
+      {
+        "traco": "Não usa ponto de exclamação na prosa (0). Até o momento mais efusivo fecha com ponto final.",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": [
+          "Quero muito saber qual foi."
+        ]
+      },
+      {
+        "traco": "As reticências são raras e servem a uma enumeração em suspensão.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "cacau, suco de cacau, mel de cacau... sendo oferecidos em cada esquina."
+        ]
+      },
+      {
+        "traco": "A prosa corrida domina. Há três listas numeradas, sempre anunciadas por uma frase que diz quantos itens vêm. Nenhuma lista com marcadores.",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Se eu tivesse que transformar o que funcionou para mim em método, seriam estes quatro passos.",
+          "Traduzindo para o mercado financeiro, eu plantaria estes três:",
+          "E leve duas perguntas para a sua carreira."
+        ]
+      }
+    ],
+    "arquitetura": [
+      {
+        "traco": "Abre com uma cena pessoal em primeira pessoa (volta de viagem) e uma imagem sensorial do lugar, antes de qualquer tese.",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Voltei de viagem com duas ideias de texto.",
+          "Pelo litoral sul da Bahia, é impossível caminhar pelas praias e vilas sem ver coqueiros à beira-mar"
+        ]
+      },
+      {
+        "traco": "O motor do texto é uma hipótese refutada. Apresenta a ideia inicial, checa os fatos, admite o erro e faz do erro o argumento.",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Nativo contra importado. Talento contra esforço. Dava um bom Spoiler.",
+          "Aí fui checar. Errei nas duas pontas.",
+          "Eu poderia ter jogado a ideia fora. Mas o erro virou o melhor argumento do texto."
+        ]
+      },
+      {
+        "traco": "A introdução não tem subtítulo (cerca de 450 palavras) e fecha com a tese partida em dois parágrafos.",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": [
+          "a pergunta que importa não é de onde uma *skill* veio.",
+          "É quanto ela custa para continuar dando fruto."
+        ]
+      },
+      {
+        "traco": "O exemplo concreto vem antes do conceito. Depois uma frase-ponte transpõe a ideia, de forma explícita, para o domínio do leitor (carreira, mercado).",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "Agora traga isso para a sua carreira.",
+          "No mercado, o boletim muda de nome.",
+          "Com *skill* acontece algo parecido."
+        ]
+      },
+      {
+        "traco": "A prova é uma anedota autobiográfica (a graduação em Matemática, a experiência de ensinar), depois generalizada em regra numa frase declarativa.",
+        "frequencia": "frequente",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Eu aprendi isso na graduação em Matemática.",
+          "A nota mistura afinidade e esforço, e não diz quanto veio de cada um.",
+          "Comigo foi exatamente assim."
+        ]
+      },
+      {
+        "traco": "Uma seção inteira antecipa a leitura errada do próprio argumento e a desmonta.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Este texto tem um risco, e prefiro nomeá-lo: alguém pode ler até aqui e concluir que o segredo é descobrir o seu dom",
+          "Não é."
+        ]
+      },
+      {
+        "traco": "Os subtítulos são curtos (2 a 5 palavras), declarativos ou imperativos, e reaproveitam a metáfora central. Marcam as etapas: definição, diagnóstico, método, objeção, aplicação, fecho.",
+        "frequencia": "sempre",
+        "ocorrencias": 6,
+        "evidencias": [
+          "## A nota mede outra coisa",
+          "## Não fique esperando um coqueiro",
+          "## Três cacaueiros para plantar agora"
+        ]
+      },
+      {
+        "traco": "As seções costumam terminar com uma frase curta e aforística.",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": [
+          "O problema é não saber qual é qual.",
+          "Ninguém descobre um coqueiro sozinho."
+        ],
+        "contraexemplo": "Eles nunca aparecem no boletim como esforço heroico, justamente porque nunca precisaram de esforço heroico."
+      },
+      {
+        "traco": "O fecho é circular. Retoma a cena da praia da abertura, entrega perguntas ao leitor, retoma a palavra 'spoiler' (nome da linha), faz o CTA para a outra linha editorial e pede uma resposta pessoal.",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Da próxima vez que você estiver numa praia do Nordeste, debaixo de um coqueiro, lembre que ele também já foi novidade por aqui",
+          "É para isso que serve um *spoiler*.",
+          "E se alguém já te ajudou a enxergar um coqueiro seu, me conte."
+        ]
+      }
+    ],
+    "figuras": [
+      {
+        "traco": "Uma metáfora central estendida, do domínio agrícola e botânico, sustenta o texto do título ao fecho: o coqueiro é a skill de manutenção baixa, o cacaueiro é a skill que exige cultivo. O próprio texto a define como rótulo.",
+        "frequencia": "sempre",
+        "ocorrencias": 40,
+        "evidencias": [
+          "Daqui em diante, vou chamar de ‘coqueiros’ as *skills* que entregam valor relevante com pouco ou nenhum gasto de energia.",
+          "Um cacaueiro bem cultivado pode virar coqueiro.",
+          "## O seu coqueiral"
+        ]
+      },
+      {
+        "traco": "A figura se apoia em fato histórico com fonte. A história real das plantas refina e até inverte a metáfora inicial.",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "Segundo a **Embrapa** (Empresa Brasileira de Pesquisa Agropecuária), a primeira introdução aconteceu em 1553, na Bahia",
+          "No fim dos anos 1980, chegou um fungo, a vassoura-de-bruxa."
+        ]
+      },
+      {
+        "traco": "A figura volta mais adiante como argumento, e o retorno é anunciado.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "E aqui o coqueiro volta, agora como argumento.",
+          "O próprio coqueiro está aí de prova: teve um custo de entrada e depois quase não pediu mais nada."
+        ]
+      },
+      {
+        "traco": "Metáforas secundárias do domínio econômico e financeiro (câmbio, custo de entrada, alavanca) descrevem esforço e aprendizado.",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": [
+          "Ela muda a taxa de câmbio: a mesma hora de estudo rende mais onde você tem facilidade.",
+          "e esse foi o custo de entrada.",
+          "É a *skill* que transforma a IA de ameaça em alavanca."
+        ]
+      },
+      {
+        "traco": "A metáfora escolar (nota, boletim) é transposta para o mundo corporativo.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "No mercado, o boletim muda de nome. Vira avaliação de desempenho, meta batida, mérito.",
+          "A armadilha é a mesma, só que mais cara."
+        ]
+      },
+      {
+        "traco": "Pega uma moldura conhecida (o profissional em T) e a encaixa na metáfora central.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Uma moldura que ajuda a organizar isso é o famoso profissional em T.",
+          "Não é regra, mas é comum que os coqueiros morem na barra e que a haste seja um pomar de cacaueiros."
+        ]
+      }
+    ],
+    "postura": [
+      {
+        "traco": "A primeira pessoa do singular é frequente e confessional. A experiência própria serve de fonte.",
+        "frequencia": "frequente",
+        "ocorrencias": 27,
+        "evidencias": [
+          "Eu sempre gostei mais de análise.",
+          "Por muito tempo, não dei valor nenhum a isso.",
+          "Eu levei anos, e um histórico escolar enganoso, para enxergar o meu coqueiro."
+        ]
+      },
+      {
+        "traco": "Admite o próprio erro abertamente e o transforma em material do texto.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Aí fui checar. Errei nas duas pontas.",
+          "Eu poderia ter jogado a ideia fora."
+        ]
+      },
+      {
+        "traco": "Calibra a incerteza com modalizadores ('provavelmente', 'provável', 'pode estar', 'Não é regra, mas').",
+        "frequencia": "frequente",
+        "ocorrencias": 7,
+        "evidencias": [
+          "O cultivo no Brasil provavelmente começou no Pará, no fim do século XVII",
+          "a métrica que você usa para descobrir no que é bom pode estar medindo outra coisa.",
+          "Não é regra, mas é comum que os coqueiros morem na barra"
+        ]
+      },
+      {
+        "traco": "A autoridade é implícita. Cita as credenciais de passagem, como fato biográfico, sem autoelogio enfático, e se apoia em fontes externas nomeadas.",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Em todas as equipes por onde passei, fui bem avaliado pela capacidade de ensinar",
+          "a ser mentor de carreira em um programa da ANBIMA"
+        ]
+      },
+      {
+        "traco": "O humor é seco e a ironia é leve, sem piada explícita.",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": [
+          "Exagero de cronista, provavelmente.",
+          "Ninguém faz fila para pedir ajuda naquilo que você faz mal.",
+          "perceber quando o modelo está errado com toda a confiança do mundo."
+        ]
+      },
+      {
+        "traco": "Diante da discordância, delimita o escopo para desarmar a polêmica, contesta a ideia popular por meio de uma autoridade citada e nomeia o risco do próprio argumento.",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Não vou polemizar sobre as fronteiras; para este texto, essa divisão basta.",
+          "Para ele, “siga a sua paixão” é um conselho ruim",
+          "Este texto tem um risco, e prefiro nomeá-lo"
+        ]
+      },
+      {
+        "traco": "Comenta o próprio texto e o processo de escrita (o texto, as ideias, os rótulos que vai usar).",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "Voltei de viagem com duas ideias de texto.",
+          "Aqui vai o spoiler mais contraintuitivo deste texto",
+          "Daqui em diante, vou chamar de ‘coqueiros’"
+        ]
+      },
+      {
+        "traco": "Mantém uma relação serial com o leitor: lembra uma promessa da edição anterior e a reafirma.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Sei que prometi na semana passada começar uma série sobre *O livro dos cinco anéis*, de Miyamoto Musashi. Ela vai acontecer."
+        ]
+      },
+      {
+        "traco": "Marca a recomendação própria no condicional, em primeira pessoa, e não no imperativo universal.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Traduzindo para o mercado financeiro, eu plantaria estes três:",
+          "Se eu tivesse que transformar o que funcionou para mim em método, seriam estes quatro passos."
+        ]
+      }
+    ],
+    "leitor": [
+      {
+        "traco": "Fala direto com o leitor por 'você' (e 'te') e o trata como profissional em construção de carreira.",
+        "frequencia": "sempre",
+        "ocorrencias": 35,
+        "evidencias": [
+          "Toda *skill* que você usa no trabalho tem uma origem.",
+          "Você entrega muito bem a tarefa que mais teme errar."
+        ]
+      },
+      {
+        "traco": "Usa o imperativo com frequência, tanto para conduzir o raciocínio ('pense', 'repare', 'traga') quanto para instruir.",
+        "frequencia": "frequente",
+        "ocorrencias": 17,
+        "evidencias": [
+          "Pense nas duas plantas pelo que elas pedem, não pelo país de origem.",
+          "Mas repare no **método**.",
+          "Só não confunda o fundamento com a ferramenta."
+        ]
+      },
+      {
+        "traco": "Supõe um leitor do mercado financeiro ou de dados, mas glosa siglas de produto na primeira menção. Não glosa ferramentas de dados nem a ANBIMA.",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "um CRA ou de um CRI (Certificado de Recebíveis Imobiliários)",
+          "*Duration* (o prazo médio ponderado dos pagamentos de um título)"
+        ],
+        "contraexemplo": "como particionar uma tabela no Spark"
+      },
+      {
+        "traco": "Situa os exemplos no dia a dia de trabalho do leitor, em enumerações concretas.",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "(destravar um código, explicar uma planilha, escrever o e-mail difícil, organizar uma apresentação)",
+          "Você se lembra da madrugada estudando álgebra.",
+          "o código que custava uma tarde de sofrimento passa a sair no automático."
+        ]
+      },
+      {
+        "traco": "Evita pergunta retórica na prosa autoral. As 7 interrogações aparecem como perguntas-modelo citadas ou na lista final de reflexão.",
+        "frequencia": "evita",
+        "ocorrencias": 0,
+        "evidencias": [
+          "Troque por perguntas concretas: “Em que momento recente a minha participação destravou algo que estava parado?”",
+          "E quais cacaueiros você está cultivando agora, de propósito, sabendo que vão dar trabalho antes de dar fruto?"
+        ]
+      },
+      {
+        "traco": "Põe o leitor numa cena sensorial ligada à metáfora (praia, água de coco).",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "a polpa e a água que você toma gelada depois do mergulho.",
+          "Da próxima vez que você estiver numa praia do Nordeste, debaixo de um coqueiro"
+        ]
+      },
+      {
+        "traco": "Dá instruções operacionais com prazo e procedimento concretos.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Durante duas semanas, anote no fim do dia o que te drenou e o que fez o tempo passar sem você perceber.",
+          "Faça a mesma pergunta a pessoas de níveis e áreas diferentes, inclusive a quem costuma discordar de você."
+        ]
+      },
+      {
+        "traco": "O CTA final aponta para a outra linha editorial, com link inline e a promessa dela, e é seguido de um pedido de resposta pessoal.",
+        "frequencia": "sempre",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Se o seu próximo cacaueiro for técnico, a *[Notas de um Professor](https://syntaxis.substack.com/s/notas-de-um-professor)* foi feita para isso.",
+          "me conte. Quero muito saber qual foi."
+        ]
+      }
+    ],
+    "tecnico": [
+      {
+        "traco": "Nomeia a fonte no corpo do texto (instituição, autor, obra, ano), sem link, nota de rodapé ou referência formal.",
+        "frequencia": "sempre",
+        "ocorrencias": 5,
+        "evidencias": [
+          "Segundo a **Embrapa** (Empresa Brasileira de Pesquisa Agropecuária)",
+          "Cal Newport passa um livro inteiro, *So Good They Can’t Ignore You* (2012), desmontando essa ideia.",
+          "Em *Obrigado pelo feedback*, Douglas Stone e Sheila Heen mostram que três gatilhos sabotam"
+        ]
+      },
+      {
+        "traco": "Os números são precisos, datados e sempre atribuídos (anos, intervalos, percentual, proporção).",
+        "frequencia": "frequente",
+        "ocorrencias": 10,
+        "evidencias": [
+          "Em 1587, apenas 34 anos depois dos primeiros cocos, o cronista Gabriel Soares de Sousa anotou",
+          "**estima que 39% das** ***skills*** **essenciais dos trabalhadores vão mudar até 2030**",
+          "sete em cada dez empresas a consideram essencial."
+        ]
+      },
+      {
+        "traco": "Glosa termo técnico ou sigla entre parênteses logo depois da primeira menção.",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "*Duration* (o prazo médio ponderado dos pagamentos de um título)",
+          "a estrutura de um CRA (Certificado de Recebíveis do Agronegócio)"
+        ],
+        "contraexemplo": "a ser mentor de carreira em um programa da ANBIMA"
+      },
+      {
+        "traco": "Mostra ceticismo explícito sobre a fonte histórica e marca a imprecisão do dado.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "A origem remota provável seria a Índia ou o Sri Lanka.",
+          "Exagero de cronista, provavelmente."
+        ]
+      },
+      {
+        "traco": "Encaixa na frase uma citação literal curta de fonte primária, com verbo dicendi intercalado.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Bastava enterrar um coco: “metido um coco debaixo da terra”, escreveu ele"
+        ]
+      },
+      {
+        "traco": "Parafraseia o achado de um relatório e o traduz, de forma explícita, para o domínio do leitor.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "O relatório também observa que a IA generativa vai bem em resumir, redigir e calcular, mas ainda tropeça quando é preciso julgamento com nuance.",
+          "Traduzindo para o mercado financeiro, eu plantaria estes três:"
+        ]
+      },
+      {
+        "traco": "Lida com a obsolescência separando ferramenta datada de fundamento duradouro.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "O Databricks de hoje vai mudar, a versão do modelo de linguagem também.",
+          "O que vira coqueiro é o que fica por baixo"
+        ]
+      }
+    ],
+    "formatacao": [
+      {
+        "traco": "O negrito marca o refrão-síntese em parágrafo isolado e a palavra-conceito dentro da frase.",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "**Valor alto, manutenção baixíssima.**",
+          "**Valor alto, manutenção alta.**",
+          "Mas repare no **método**."
+        ]
+      },
+      {
+        "traco": "O negrito também destaca o dado de fonte (a frase do relatório). Ele se interrompe e reabre em volta dos termos em itálico, gerando ***x***.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "**estima que 39% das** ***skills*** **essenciais dos trabalhadores vão mudar até 2030**",
+          "**IA e** ***big data*** **aparecem como as** ***skills*** **de crescimento mais rápido**"
+        ]
+      },
+      {
+        "traco": "Põe em negrito o nome de uma fonte institucional.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Segundo a **Embrapa** (Empresa Brasileira de Pesquisa Agropecuária)"
+        ],
+        "contraexemplo": "Cal Newport passa um livro inteiro"
+      },
+      {
+        "traco": "Os itens de lista numerada abrem com lead em negrito (imperativo ou rótulo terminado em ponto), seguido de prosa explicativa no mesmo item.",
+        "frequencia": "frequente",
+        "ocorrencias": 7,
+        "evidencias": [
+          "1. **Siga a demanda informal.** Repare no que as pessoas vêm te pedir fora do processo formal.",
+          "3. **IA como ferramenta, com critério.**"
+        ],
+        "contraexemplo": "1. Quais são os seus coqueiros, as coisas que você entrega bem sem perceber que está trabalhando?"
+      },
+      {
+        "traco": "Estrangeirismos vão em itálico (skill, duration, pipelines, big data, spoiler). 'feedback' e o nome 'Spoiler' com maiúscula escapam da regra.",
+        "frequencia": "frequente",
+        "ocorrencias": 16,
+        "evidencias": [
+          "migrou para *pipelines* que processam séries históricas inteiras",
+          "É para isso que serve um *spoiler*."
+        ],
+        "contraexemplo": "Quem me mostrou que aquilo era um coqueiro foram os colegas, com feedback sincero, repetido, vindo de gente diferente."
+      },
+      {
+        "traco": "Títulos de obras, de relatórios e da outra linha editorial vão em itálico.",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "uma série sobre *O livro dos cinco anéis*, de Miyamoto Musashi.",
+          "O *Future of Jobs Report 2025*, do Fórum Econômico Mundial",
+          "E a *Notas de um Professor*, a outra linha editorial desta newsletter"
+        ],
+        "contraexemplo": "Nativo contra importado. Talento contra esforço. Dava um bom Spoiler."
+      },
+      {
+        "traco": "Só há subtítulos H2 (6), nenhum H3. O primeiro H2 repete o título do post.",
+        "frequencia": "sempre",
+        "ocorrencias": 6,
+        "evidencias": [
+          "## Coqueiros e cacaueiros",
+          "## Como encontrar seus coqueiros"
+        ]
+      },
+      {
+        "traco": "Os parágrafos são curtos, quase todos de 1 a 3 frases. Blocos longos (até ~95 palavras) aparecem só em itens de lista.",
+        "frequencia": "sempre",
+        "ocorrencias": 60,
+        "evidencias": [
+          "Eu sempre gostei mais de análise.",
+          "Nenhuma é melhor que a outra. Uma carreira sólida tem as duas."
+        ],
+        "contraexemplo": "4. **Desconfie da sua reação ao feedback.** Em *Obrigado pelo feedback*, Douglas Stone e Sheila Heen mostram que três gatilhos sabotam"
+      },
+      {
+        "traco": "As imagens vêm sem legenda: uma antes do primeiro parágrafo, outra logo depois da definição dos rótulos coqueiro/cacaueiro.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "![](img-01)",
+          "![](img-02)"
+        ]
+      },
+      {
+        "traco": "O único link é inline, em itálico, dentro do parágrafo de CTA. Não há botão de CTA, pullquote, citação em bloco, riscado nem fórmula.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "a *[Notas de um Professor](https://syntaxis.substack.com/s/notas-de-um-professor)* foi feita para isso."
+        ]
+      }
+    ]
+  },
+  "antipadroes_observados": [
+    "(a) Nunca usa travessão: 0 ocorrências de — ou – no corpo. As intercalações vão entre vírgulas ou parênteses.",
+    "(a) Nunca usa ponto de exclamação na prosa: os 2 '!' do arquivo são marcadores de imagem.",
+    "(a) Nunca faz pergunta retórica na prosa autoral. Interrogação só em pergunta citada ou na lista final dirigida ao leitor.",
+    "(a) Nunca traduz 'skill' por 'habilidade' (0 ocorrências de 'habilidade').",
+    "(a) Não usa lista com marcadores, H3, citação em bloco, riscado, [[PULLQUOTE]], [[CTA]] em botão, fórmula, emoji nem nota de rodapé. Fontes nunca recebem link.",
+    "(b) Possível tique de IA: a correção 'não é X. É Y.' aparece 4 vezes (ex.: 'Por isso a pergunta não é coqueiro ou cacaueiro. É onde cada hora de esforço vai render mais.'). Aqui funciona como virada argumentativa, mas a densidade é alta.",
+    "(b) Possível tique de IA: a fórmula de efeito 'É a *skill* que transforma a IA de ameaça em alavanca.' soa clichê.",
+    "(b) Possível tique de IA: pares aforísticos em espelho no fim de item ou parágrafo ('Um elogio isolado é ruído. O mesmo padrão vindo de três pessoas é sinal.').",
+    "(b) Fraco: anúncio metatextual de surpresa em 'Aqui vai o spoiler mais contraintuitivo deste texto'."
+  ],
+  "incerteza": "Este é um texto único de ~2.440 palavras, abaixo do piso de ~5.000 para confiança alta. O frontmatter traz section_name null. O próprio texto sugere a linha Spoiler (carreira), por 'Dava um bom Spoiler' e por '*Notas de um Professor*, a outra linha editorial', mas a seção não está registrada. A época é pipeline: o texto passou pelo sistema editorial antes de o autor editá-lo. Por isso, os itens (b) e a regularidade da pontuação podem refletir o pipeline e não só a voz do autor, e este arquivo não permite separar as duas camadas. Nos traços de arquitetura com ocorrencias 1 e frequencia 'sempre' (abertura, hipótese refutada, introdução, fecho), 'sempre' quer dizer 1 de 1 oportunidade. Não há fórmula, tabela nem gráfico de dados, então o eixo tecnico não permite concluir nada sobre notação ou apresentação de fórmula. As duas imagens são só marcadores sem legenda, e o conteúdo delas é desconhecido. O texto publicado tem lapsos de revisão: falta o verbo em 'O coqueiro o símbolo do que é nativo', há espaço antes do ponto em 'ANBIMA .' e, em três citações do item 4 da primeira lista, a aspa de abertura foi trocada pela de fechamento (”). Provavelmente são erros, não escolhas. As contagens são aproximadas: as de pontuação e de palavras foram feitas por busca literal, as demais por leitura."
+}

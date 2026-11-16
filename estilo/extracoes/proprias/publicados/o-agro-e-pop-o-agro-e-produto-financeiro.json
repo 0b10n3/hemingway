@@ -1,0 +1,680 @@
+{
+  "arquivo": "estilo/corpus/publicados/o-agro-e-pop-o-agro-e-produto-financeiro.md",
+  "genero": "substack",
+  "palavras": 1885,
+  "eixos": {
+    "lexico": [
+      {
+        "traco": "Vocabulário técnico de mercado bancário e renda fixa em densidade alta (lastro, direcionamento, funding, tesouraria, marcação a mercado, curva DI, senioridade), quase sempre sem pausa para definir.",
+        "frequencia": "sempre",
+        "ocorrencias": 40,
+        "evidencias": [
+          "Mudam o lastro, a regra de direcionamento, a trajetória de preço e, principalmente, a forma de fazer a conta.",
+          "projeta-se o CDI futuro pela curva DI, estima-se o valor no vencimento e desconta-se esse valor pela curva de mercado do emissor",
+          "Mas LF e LCA diferem em prazo mínimo, senioridade, tributação, cobertura do FGC e público investidor."
+        ],
+        "contraexemplo": "Termos de nicho às vezes ganham glosa no fluxo: \"o chamado *funding*\"."
+      },
+      {
+        "traco": "Sigla expandida entre parênteses na primeira ocorrência, muitas vezes com uma glosa funcional depois da vírgula (o que a coisa é ou faz).",
+        "frequencia": "frequente",
+        "ocorrencias": 11,
+        "evidencias": [
+          "CDI (Certificado de Depósito Interbancário, a taxa de referência da renda fixa)",
+          "FGC (Fundo Garantidor de Créditos, o seguro que cobre depósitos e alguns títulos bancários até um limite por CPF/CNPJ)",
+          "o NSFR (no jargão do Bacen, Índice de Liquidez de Longo Prazo)"
+        ],
+        "contraexemplo": "\"No texto sobre LCI, terminei sugerindo\": LCI não é expandida; CMN, Bacen, DI, PU e VF também aparecem sem expansão."
+      },
+      {
+        "traco": "Anglicismo de mercado aceito sem tradução e marcado em itálico, às vezes apresentado com \"o chamado\".",
+        "frequencia": "frequente",
+        "ocorrencias": 8,
+        "evidencias": [
+          "Ele compara fontes de captação, o chamado *funding*, e escolhe",
+          "O *break-even* correto é o percentual x do CDI que iguala os ganhos líquidos:",
+          "Numa LCA prefixada *bullet* — principal e juros pagos de uma vez no vencimento —,"
+        ],
+        "contraexemplo": "Dentro da fórmula, \"\\text{Spread}_{\\text{crédito}}\" aparece sem itálico."
+      },
+      {
+        "traco": "Perífrase \"quem + verbo\" para nomear os papéis (quem emite, quem compra, quem capta) em vez do substantivo (emissor, investidor).",
+        "frequencia": "frequente",
+        "ocorrencias": 12,
+        "evidencias": [
+          "quanto ela custa para quem emite;",
+          "quem compra LCA não assume o risco do produtor rural.",
+          "repartido entre quem empresta e quem capta."
+        ],
+        "contraexemplo": "Os substantivos também aparecem: \"A contraparte é o banco emissor.\" / \"o investidor empresta dinheiro ao banco\"."
+      },
+      {
+        "traco": "\"Conta\" como palavra recorrente para cálculo e análise, inclusive em subtítulo.",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "principalmente, a forma de fazer a conta.",
+          "Dois detalhes que mudam a conta:",
+          "### A conta que todo mundo faz"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Coloquialismo pontual inserido no registro técnico.",
+        "frequencia": "ocasional",
+        "ocorrencias": 5,
+        "evidencias": [
+          "A comparação de bolso entre uma LCA isenta e um CDB tributado é:",
+          "O IR do CDB é uma mordida única sobre o ganho acumulado no resgate.",
+          "Dito direto: a LCA é dívida do banco, não do agro"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "\"Na prática\" como marcador de ressalva empírica contra a regra formal.",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "é, na prática, pouco transparente",
+          "Na prática, valem as convenções do contrato: truncamento, arredondamento, defasagem.",
+          "(na prática, só 60% do captado por LCA precisa ir para crédito rural;"
+        ],
+        "contraexemplo": null
+      }
+    ],
+    "sintaxe": [
+      {
+        "traco": "Antítese corretiva: \"X, não Y\" / \"não é X, é Y\" / \"não só X, mas Y\", usada para fixar a distinção central.",
+        "frequencia": "frequente",
+        "ocorrencias": 10,
+        "evidencias": [
+          "A LCA é dívida do banco, não do agro.",
+          "a ideia aqui não é montar uma conta, é mapear o que entra no preço.",
+          "A LF serve de referência relativa, não de curva final."
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Frase curta, sozinha num parágrafo, para fechar um passo do argumento ou marcar uma virada.",
+        "frequencia": "frequente",
+        "ocorrencias": 7,
+        "evidencias": [
+          "Taxa sobe, preço cai. É a base de toda marcação a mercado.",
+          "Até aqui, é a definição que qualquer prospecto do banco traz.",
+          "O interessante começa agora."
+        ],
+        "contraexemplo": "O caso hipotético do fechamento é uma frase longa com parêntese de ressalva: \"Um banco tem uma carteira de crédito rural remunerada a CDI + 4% ao ano e emite uma LCA de dois anos\"."
+      },
+      {
+        "traco": "Paralelismo binário: duas orações espelhadas, muitas vezes separadas por ponto e vírgula ou em correlação \"ou... ou\" / \"se... então\".",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "quem precisa captar rápido paga mais; quem tem fila de investidor paga menos.",
+          "Se o lastro encolhe, a capacidade de emitir encolhe junto.",
+          "ou o emissor compensa na taxa, ou a vantagem quase some."
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Enumeração em série (três a seis itens) dentro da frase.",
+        "frequencia": "frequente",
+        "ocorrencias": 7,
+        "evidencias": [
+          "Cabe ao emissor casar volume, prazo e indexador das LCAs com os créditos que as lastreiam.",
+          "operações ligadas à produção, comercialização, beneficiamento ou industrialização agropecuária",
+          "inadimplência esperada, custo de capital alocado ao crédito, descasamento de prazo entre ativo e passivo, pré-pagamento dos créditos"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Ordem direta com a oração principal no início e subordinação moderada; frases médias alternam com curtas, e a frase longa fica para o cenário hipotético.",
+        "frequencia": "frequente",
+        "ocorrencias": 30,
+        "evidencias": [
+          "O banco não emite LCA porque ‘precisa de dinheiro’.",
+          "Duas LCAs a 90% do CDI, com o mesmo prazo e a mesma liquidez, não são equivalentes se os emissores forem diferentes.",
+          "Um banco tem uma carteira de crédito rural remunerada a CDI + 4% ao ano e emite uma LCA de dois anos"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Procedimento descrito em série de verbos com -se (passiva sintética), sem agente.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "acumula-se o que já foi apropriado, projeta-se o CDI futuro pela curva DI"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Fragmento nominal (sem verbo principal) isolado como parágrafo, prolongando a frase anterior.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Nas perspectivas de quem emite e no lado de quem faz a conta errada na hora de comprar."
+        ],
+        "contraexemplo": null
+      }
+    ],
+    "pontuacao": [
+      {
+        "traco": "Dois-pontos como articulador principal: introduz explicação, conclusão, lista, fórmula ou imagem.",
+        "frequencia": "sempre",
+        "ocorrencias": 25,
+        "evidencias": [
+          "Esse é o ponto que sustenta todo o resto: quem compra LCA não assume o risco do produtor rural.",
+          "Em termos simples: o investidor empresta dinheiro ao banco",
+          "Antes dos números: a ideia aqui não é montar uma conta"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Travessão (simples ou em par) para inciso definitório ou acréscimo enfático no fim da frase.",
+        "frequencia": "frequente",
+        "ocorrencias": 10,
+        "evidencias": [
+          "Diferente do CRA, a LCA não tem patrimônio separado — o regime que, numa *securitização*, isola os créditos do resto da empresa emissora.",
+          "Uma LCA presa a contrato até o vencimento — com carência mínima de seis meses — pesa melhor nesses índices",
+          "Quem define a divisão é oferta e demanda — e quanto disso chega a cada lado é, na prática, pouco transparente"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Listas sempre introduzidas por dois-pontos, com itens em minúscula terminados em ponto e vírgula e o último em ponto final.",
+        "frequencia": "sempre",
+        "ocorrencias": 5,
+        "evidencias": [
+          "- quanto ela custa para quem emite;",
+          "1. o crédito do banco para o agronegócio, que forma o lastro;",
+          "- a taxa de mercado determina quanto esse pagamento vale hoje."
+        ],
+        "contraexemplo": "A lista de referências de \"Para continuar aprendendo\" usa maiúscula e não usa ponto e vírgula."
+      },
+      {
+        "traco": "Aspas simples tipográficas (‘ ’) marcam a expressão de senso comum ou o termo do qual o autor se distancia; aspas duplas curvas (“ ”) só aparecem em títulos citados nas referências.",
+        "frequencia": "ocasional",
+        "ocorrencias": 5,
+        "evidencias": [
+          "O banco não emite LCA porque ‘precisa de dinheiro’.",
+          "o limite vale para ‘principal mais rendimentos’, não para o valor aplicado;",
+          "base da lógica de desconto por curva usada na seção “Quanto a LCA vale hoje”."
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Ponto e vírgula na prosa corrida para separar orações paralelas ou contrastivas.",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": [
+          "A isenção vale mais no curto e médio prazo; no papel longo, ou o emissor compensa na taxa, ou a vantagem quase some.",
+          "mas dentro do balanço do próprio banco; o lastro não transforma o investidor em credor de cada produtor."
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "O parágrafo quebra depois de cada passo do argumento: cerca de 30 parágrafos de uma frase só, muitos servindo de ponte para lista, fórmula ou imagem.",
+        "frequencia": "frequente",
+        "ocorrencias": 30,
+        "evidencias": [
+          "A LCA é dívida do banco, não do agro.",
+          "É uma forma de enxergar o que entra no preço, bloco por bloco.",
+          "Sem negócios no secundário, a taxa de desconto precisa ser construída."
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Exclamação só no título; no corpo, uma única pergunta direta.",
+        "frequencia": "evita",
+        "ocorrencias": 2,
+        "evidencias": [
+          "O Agro é POP, o Agro é Produto Financeiro!",
+          "o que exatamente você compra quando compra uma LCA?"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Vírgula unindo orações independentes onde caberia ponto ou dois-pontos (vírgula de emenda).",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Não é uma fórmula operacional, muito menos uma equação para resolver, esses componentes não se somam de forma literal."
+        ],
+        "contraexemplo": null
+      }
+    ],
+    "arquitetura": [
+      {
+        "traco": "Abre retomando o texto anterior da série e qualificando a conclusão dele, sem cena nem dado.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "No texto sobre LCI, terminei sugerindo que, para entender a LCA, poderíamos trocar *imobiliário* por *agronegócio*. É um bom começo, mas não suficiente."
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Enquadra o texto num erro diagnosticado (misturar três perguntas), anuncia o roteiro em lista, e as seções seguem essas perguntas (custo para quem emite, rendimento para quem compra, valor hoje).",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": [
+          "E muitos erros de análise sobre LCA nascem de misturar três perguntas diferentes:",
+          "Este texto responde uma de cada vez, começando pela mais básica",
+          "## Quanto a LCA vale hoje"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Ordem conceito → fórmula → exemplo numérico imediato, com números concretos.",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "Com uma LCA a 90% do CDI e alíquota de 15%: 90% / 0,85 ≈ 105,88% do CDI.",
+          "Com VF de R$ 1.100, 252 dias úteis até o vencimento e taxa de mercado de 12% a.a.: PU = 1.100 / 1,12"
+        ],
+        "contraexemplo": "A fórmula de decomposição da taxa de emissão não tem exemplo numérico, por decisão declarada: \"a ideia aqui não é montar uma conta\"."
+      },
+      {
+        "traco": "Movimento \"regra ingênua → regra correta\": mostra o atalho comum e depois o desmonta.",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "O *break-even* correto é o percentual x do CDI que iguala os ganhos líquidos:",
+          "A leitura ingênua é olhar a diferença entre as duas taxas e chamar de margem. A leitura correta pergunta pelo que essa diferença precisa pagar",
+          "Este é o erro mais comum na precificação:"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Transição metatextual que marca a passagem do básico ao interessante ou a volta a uma pergunta já aberta.",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": [
+          "Até aqui, é a definição que qualquer prospecto do banco traz.",
+          "O interessante começa agora.",
+          "Voltamos à pergunta de quanto a LCA custa, agora do ponto de vista da política de preços da tesouraria"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Fecha numa seção chamada \"Fechamento:\" que aplica o assunto a um caso hipotético, retoma a tese central quase palavra por palavra e deixa um gancho para o próximo texto da série.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "## Fechamento: do produto ao balanço",
+          "Dito direto: a LCA é dívida do banco, não do agro",
+          "tema do próximo texto desta série."
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Depois do fecho, uma seção de leitura recomendada com referências anotadas.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "## Para continuar aprendendo"
+        ],
+        "contraexemplo": null
+      }
+    ],
+    "figuras": [
+      {
+        "traco": "Metáforas curtas e lexicalizadas do cotidiano, nunca estendidas nem retomadas.",
+        "frequencia": "ocasional",
+        "ocorrencias": 5,
+        "evidencias": [
+          "O IR do CDB é uma mordida única sobre o ganho acumulado no resgate.",
+          "o mercado secundário é raso.",
+          "quem tem fila de investidor paga menos."
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Imagem de par/casamento para descrever o casamento entre ativo e passivo.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Cabe ao emissor casar volume, prazo e indexador das LCAs com os créditos que as lastreiam.",
+          "captação e crédito precisam ficar emparelhados, não só em volume, mas em prazo."
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Título como trocadilho, provável alusão a slogan publicitário conhecido sobre o agro.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "O Agro é POP, o Agro é Produto Financeiro!"
+        ],
+        "contraexemplo": "O subtítulo é literal e descritivo: \"Transformando produção agrícola em produto financeiro.\""
+      }
+    ],
+    "postura": [
+      {
+        "traco": "Primeira pessoa quase ausente: o \"eu\" só remete ao texto anterior, e o \"nós\" inclusivo aparece pontualmente.",
+        "frequencia": "evita",
+        "ocorrencias": 3,
+        "evidencias": [
+          "terminei sugerindo",
+          "poderíamos trocar *imobiliário* por *agronegócio*",
+          "Voltamos à pergunta de quanto a LCA custa"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Autoridade implícita: afirmações categóricas, sem hedge e sem credencial declarada.",
+        "frequencia": "frequente",
+        "ocorrencias": 8,
+        "evidencias": [
+          "Esse é o ponto que sustenta todo o resto",
+          "Este é o erro mais comum na precificação:",
+          "A curva de LF é tentadora porque é a melhor leitura do risco da tesouraria do banco."
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Admite o limite do que se sabe, ou da ferramenta, de forma específica e factual.",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "nem o regulador nem o investidor têm hoje uma forma simples de medir a proporção exata.",
+          "Não é uma fórmula operacional, muito menos uma equação para resolver",
+          "Uma ordem razoável de referências:"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Avisa quando simplifica o exemplo e logo dá, entre parênteses ou na frase seguinte, a ressalva do mundo real.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "para simplificar, suponha que todo o volume dessa emissão esteja alocado nessa carteira",
+          "Na prática, valem as convenções do contrato: truncamento, arredondamento, defasagem."
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "A discordância mira o senso comum e a leitura ingênua, nunca uma pessoa ou fonte nomeada.",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "O banco não emite LCA porque ‘precisa de dinheiro’.",
+          "quem faz a conta errada na hora de comprar.",
+          "A leitura ingênua é olhar a diferença entre as duas taxas e chamar de margem."
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Humor seco e raro, por ironia ou trocadilho.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "**Se o banco quebrar, a carteira rural não é ‘*****sua*****’.**",
+          "O Agro é POP, o Agro é Produto Financeiro!"
+        ],
+        "contraexemplo": null
+      }
+    ],
+    "leitor": [
+      {
+        "traco": "Pressupõe familiaridade com renda fixa de varejo (CDB, % do CDI, IR) e conforto com notação matemática, mas expande as siglas e define os termos de nicho.",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": [
+          "pode entregar ao investidor um retorno líquido maior que um CDB a 100% do CDI",
+          "onde p é o percentual da LCA, d = (1 + CDI)^{1/252} - 1 é o CDI diário e n o número de dias úteis."
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Uma única pergunta direta ao leitor, tratado por \"você\", para lançar o texto.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "o que exatamente você compra quando compra uma LCA?"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Imperativo raro, usado só para conduzir o raciocínio ou montar uma hipótese.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Some a isso a urgência do banco",
+          "suponha que todo o volume dessa emissão esteja alocado nessa carteira"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Antecipa a confusão provável do leitor e responde em frase negritada isolada.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "**Sim, o título é do agronegócio, mas emitido por uma instituição financeira.**",
+          "**O risco principal é a capacidade de pagamento do banco.**"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Nenhum CTA de assinatura ou produto no corpo; a chamada final é para leitura (referências) e para o próximo texto da série.",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": [
+          "tema do próximo texto desta série.",
+          "## Para continuar aprendendo"
+        ],
+        "contraexemplo": null
+      }
+    ],
+    "tecnico": [
+      {
+        "traco": "Fórmulas em bloco ($$...$$, LaTeX), cada uma apresentada por uma frase que termina em dois-pontos.",
+        "frequencia": "sempre",
+        "ocorrencias": 6,
+        "evidencias": [
+          "O *break-even* correto é o percentual x do CDI que iguala os ganhos líquidos:",
+          "$$ PU = \\frac{VF}{(1 + y)^{du/252}} $$"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Variáveis com nome em português dentro de \\text{} na fórmula.",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "\\text{Taxa}_{\\text{CDB equivalente}} = \\frac{\\text{Taxa}_{\\text{LCA}}}{1 - IR}",
+          "\\text{Saldo}_t = \\text{Principal} \\times"
+        ],
+        "contraexemplo": "$$ PU = \\sum_{i=1}^{n} \\frac{FC_i}{(1 + y_i)^{du_i/252}} $$ (siglas e letras, sem nome em português)"
+      },
+      {
+        "traco": "Glosa das variáveis em português logo depois da fórmula (\"onde...\"), mas não em todas.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "onde p é o percentual da LCA"
+        ],
+        "contraexemplo": "Na fórmula do PU, VF, y e du não são definidos letra a letra; só há a paráfrase \"o valor de vencimento descontado pela taxa de mercado\"."
+      },
+      {
+        "traco": "Declara o estatuto da fórmula (mapa conceitual, não conta operacional) antes e depois de apresentá-la.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Antes dos números: a ideia aqui não é montar uma conta, é mapear o que entra no preço.",
+          "É uma forma de enxergar o que entra no preço, bloco por bloco."
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Contas numéricas inline em texto plano (fora do LaTeX), com vírgula decimal, \"≈\" e \"R$\".",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "90% / 0,85 ≈ 105,88% do CDI",
+          "PU = 1.100 / 1,14 = R$ 964,91"
+        ],
+        "contraexemplo": "Notação mista inline: \"d = (1 + CDI)^{1/252} - 1\" usa ^ e {} de LaTeX fora do bloco $$."
+      },
+      {
+        "traco": "Norma citada com tipo, número e data completa, mais publicação e vigência quando a regra mudou.",
+        "frequencia": "sempre",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Foi criada pela Lei nº 11.076, de 30 de dezembro de 2004",
+          "Resolução do CMN nº 5.215, de 22 de maio de 2025, publicada no Diário Oficial em 26 de maio, com vigência a partir da publicação"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Dado regulatório ancorado no tempo, com marco de vigência e valor anterior.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Desde maio de 2025, o prazo mínimo de vencimento de LCAs sem atualização por índice de preços é de seis meses (antes, nove)"
+        ],
+        "contraexemplo": "Os limites do FGC vêm sem data nem fonte: \"até R$ 250 mil por CPF ou CNPJ, por instituição ou conglomerado\"."
+      },
+      {
+        "traco": "Tabela de resultados e esquema entregues como imagem sem legenda, logo depois de uma frase com dois-pontos.",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Com CDI de 14% ao ano e LCA a 90% do CDI:",
+          "O que move cada parcela cabe em três blocos:"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Referências bibliográficas anotadas: autor, título em itálico, editora e ano, e depois do travessão a função da obra no texto.",
+        "frequencia": "sempre",
+        "ocorrencias": 3,
+        "evidencias": [
+          "— referência para a mecânica de precificação e marcação a mercado de renda fixa usada neste texto.",
+          "— leitura direcionada especificamente à LCA como instrumento de crédito bancário, não de securitização."
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "A unidade de taxa anual alterna entre \"ao ano\" e \"a.a.\" no mesmo texto.",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Com CDI de 14% ao ano",
+          "taxa de mercado de 12% a.a."
+        ],
+        "contraexemplo": null
+      }
+    ],
+    "formatacao": [
+      {
+        "traco": "Negrito numa frase inteira, sozinha no parágrafo, para fixar a tese do trecho.",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "**Sim, o título é do agronegócio, mas emitido por uma instituição financeira.**",
+          "**O risco principal é a capacidade de pagamento do banco.**",
+          "**A isenção é um benefício fiscal, e ele é repartido. Parte vira retorno líquido maior para o investidor, parte vira**"
+        ],
+        "contraexemplo": "A tese central \"A LCA é dívida do banco, não do agro.\" fica isolada mas sem negrito."
+      },
+      {
+        "traco": "Negrito num sintagma dentro da frase corrida, marcando a qualificação decisiva; pode incluir a pontuação final.",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "é um título de renda fixa **emitido por uma instituição financeira**",
+          "e escolhe **a mais barata que consegue sustentar:**",
+          "mantém **uma carteira de créditos ao agro vinculada à emissão**"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Itálico para estrangeirismo técnico, para o termo-chave em contraste e para títulos de obras; aparece também em subtítulo.",
+        "frequencia": "frequente",
+        "ocorrencias": 14,
+        "evidencias": [
+          "poderíamos trocar *imobiliário* por *agronegócio*",
+          "Existem, portanto, *duas relações de crédito* distintas:",
+          "### LCA prefixada *bullet*"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Negrito-itálico numa palavra dentro de frase negritada (o negrito fecha e reabre em volta dela), padrão do editor do Substack.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "não é ‘*****sua*****’.**",
+          "parte vira** ***funding*** **mais barato para o banco.**"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Subtítulos densos (7 H2 e 7 H3 em cerca de 1.900 palavras): H2 para cada pergunta ou etapa, H2 com dois-pontos (rótulo: especificação), H3 muitas vezes em forma de tese.",
+        "frequencia": "frequente",
+        "ocorrencias": 14,
+        "evidencias": [
+          "## O lado de quem emite: por que o banco capta com LCA",
+          "### O risco é o banco",
+          "### Taxa contratual não é taxa de mercado"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Blocos curtos: parágrafos de uma a três frases; o mais longo tem três frases.",
+        "frequencia": "sempre",
+        "ocorrencias": 55,
+        "evidencias": [
+          "Cabe ao emissor casar volume, prazo e indexador das LCAs com os créditos que as lastreiam.",
+          "A curva de LF é tentadora porque é a melhor leitura do risco da tesouraria do banco."
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Lista numerada para ordem ou contagem anunciada; lista com marcadores para itens paralelos.",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "Uma ordem razoável de referências:",
+          "1. negócios recentes da própria LCA;",
+          "- LCAs de marcas diferentes do mesmo conglomerado dividem o mesmo limite."
+        ],
+        "contraexemplo": "A contagem \"três perguntas diferentes\" vem em lista com marcadores, não numerada."
+      },
+      {
+        "traco": "Imagens sem legenda (alt vazio) intercaladas no texto; nenhuma citação em bloco, PULLQUOTE, CTA, código ou riscado.",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "![](img-01)",
+          "![](img-05)"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Título com maiúsculas enfáticas e exclamação; subtítulo descritivo terminado em ponto final.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "O Agro é POP, o Agro é Produto Financeiro!",
+          "Transformando produção agrícola em produto financeiro."
+        ],
+        "contraexemplo": null
+      }
+    ]
+  },
+  "antipadroes_observados": [
+    "(a) Nenhuma anedota pessoal, cena ou caso real com personagem; o único caso é hipotético: \"Um banco tem uma carteira de crédito rural remunerada a CDI + 4% ao ano\".",
+    "(a) Nenhuma citação em bloco, PULLQUOTE, CTA de assinatura, código, riscado ou emoji.",
+    "(a) Nenhuma analogia explicativa estendida; nenhuma figura retomada no fecho. O peso explicativo fica com fórmula, exemplo numérico e imagem.",
+    "(a) Nenhuma exclamação no corpo; uma única pergunta direta.",
+    "(a) Nenhum hedge epistêmico de opinião (\"talvez\", \"me parece\"); a incerteza só aparece como limite factual (\"pouco transparente\", \"ordem razoável\").",
+    "(a) Nenhuma fonte inline para os números de mercado (CDI de 14%, limites do FGC); só as normas recebem citação no corpo, e o restante fica para as referências finais.",
+    "(b) Possível tique de IA: \"não é X, é Y\" em série, como em \"a ideia aqui não é montar uma conta, é mapear o que entra no preço.\" e \"não é só o benefício fiscal repassado, é também o valor regulatório da estabilidade.\"",
+    "(b) Possível tique de IA: teaser de transição \"O interessante começa agora.\" e frase de importância \"Esse é o ponto que sustenta todo o resto\".",
+    "(b) Possível tique de IA: recapitulação de fecho com fórmula de resumo, \"Dito direto: a LCA é dívida do banco, não do agro\", somada a \"Esse é o salto entre entender a LCA como produto de investimento e entendê-la como instrumento\".",
+    "(b) Possível costura de edição: parágrafos consecutivos repetem a mesma ideia, \"dos índices de liquidez que os bancos reportam ao regulador\" (l.71) e \"nos índices de liquidez que todo banco reporta ao regulador\" (l.73)."
+  ],
+  "incerteza": "Amostra única de cerca de 1.900 palavras, abaixo do piso de 5.000 por amostra; frequências e contagens valem só para este arquivo. A época é 'pipeline' (escrito com o sistema editorial e editado pelo autor), então parte dos traços, em especial os marcados em (b), pode refletir o sistema e não a mão do autor. section_name é null no frontmatter, então a linha editorial não foi informada e não a infiro. O conteúdo das cinco imagens (img-01 a img-05) não é visível: não dá para dizer se img-03/img-04 são tabela ou gráfico, nem o que img-05 mostra em 'três blocos'. A versão publicada tem erros de digitação que não são traço de estilo ('constuma', l.61; 'crédito rura', l.67) e oscila no gênero de CRA ('instituiu a CRA', 'Diferente do CRA', 'da CRA'). A contagem de parágrafos de uma frase e de ocorrências de vocabulário técnico é aproximada."
+}

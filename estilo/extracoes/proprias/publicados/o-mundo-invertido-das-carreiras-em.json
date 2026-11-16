@@ -1,0 +1,683 @@
+{
+  "arquivo": "estilo/corpus/publicados/o-mundo-invertido-das-carreiras-em.md",
+  "genero": "substack",
+  "palavras": 1174,
+  "eixos": {
+    "lexico": [
+      {
+        "traco": "Glosa entre parênteses o termo técnico ou a sigla na primeira menção, com definição funcional curta em linguagem comum",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "processos estocásticos (a matemática que descreve fenômenos que evoluem no tempo com uma boa dose de aleatoriedade, como o preço de uma ação)",
+          "opções (contratos cujo valor deriva do preço de outro ativo)",
+          "VaR (Value at Risk, a métrica que estima quanto uma carteira pode perder num cenário ruim)"
+        ],
+        "contraexemplo": "Boa parte daqueles modelos de precificação lidava com valor futuro, valor presente, modelagem de taxa de juros, curva de juros."
+      },
+      {
+        "traco": "Campo semântico de construção e fundação como vocabulário-assinatura do argumento: alicerce, fundamentos, porta, base",
+        "frequencia": "frequente",
+        "ocorrências_nota": "alicerce aparece 4 vezes; fundamentos 1",
+        "ocorrencias": 5,
+        "evidencias": [
+          "é onde a fronteira de pesquisa está, não onde o alicerce está.",
+          "o gargalo muitas vezes não vai estar na matemática dos modelos. Mas no alicerce.",
+          "Dá para voltar e preencher o alicerce depois, do jeito que eu preenchi o meu."
+        ]
+      },
+      {
+        "traco": "Campo semântico de ordem e sequência (ordem, inversão, primeiro, antes, depois) estrutura o vocabulário do texto inteiro",
+        "frequencia": "frequente",
+        "ocorrencias": 8,
+        "evidencias": [
+          "Foi eu ter aprendido as coisas fora de ordem.",
+          "A ordem em que você aprendeu as coisas não é seu currículo. É só a ordem.",
+          "onde tudo o que deveria vir por último vem primeiro."
+        ]
+      },
+      {
+        "traco": "Registro coloquial de conversa: 'dá para', 'lá pelo', 'pensando bem', 'te' combinado com 'você'",
+        "frequencia": "frequente",
+        "ocorrencias": 7,
+        "evidencias": [
+          "Faz sentido, pensando bem: não dá para precificar um preço futuro sem antes entender a taxa que desconta esse futuro.",
+          "a mecânica de opções só chega bem mais adiante, lá pelo capítulo 10",
+          "Eu não tenho como te dizer se isso é raro ou comum."
+        ]
+      },
+      {
+        "traco": "Intensificadores e marcadores de realidade recorrentes: 'de fato', 'de verdade', 'bem mais', 'em si'",
+        "frequencia": "frequente",
+        "ocorrencias": 9,
+        "evidencias": [
+          "o que aquele contrato fazia de fato no mercado",
+          "Essa pergunta não está na dedução matemática. Está na mesa de operações",
+          "não a matemática, que eu dominava, mas o instrumento em si."
+        ]
+      },
+      {
+        "traco": "Substantivo genérico 'coisa(s)' usado sem constrangimento, inclusive na tese",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "Foi eu ter aprendido as coisas fora de ordem.",
+          "muita coisa sobre aquele instrumento eu só fui entender de verdade anos depois",
+          "Coisas sem as quais os conceitos mais avançados não fazem sentido nenhum, só conta."
+        ]
+      },
+      {
+        "traco": "Aceita anglicismo de cultura pop e de mercado; 'spoiler' é naturalizado como palavra comum e nome da linha; nomes próprios em inglês ficam no original",
+        "frequencia": "ocasional",
+        "ocorrencias": 5,
+        "evidencias": [
+          "dar spoiler de coisas que você provavelmente vai viver na carreira, antes de você viver.",
+          "o *Upside Down* de *Stranger Things*",
+          "GFMI (Global Financial Markets Institute), provedora de treinamento profissional em risco"
+        ]
+      },
+      {
+        "traco": "Campo semântico de mercado financeiro concreto (mesa, posição, emissão, dívida pública) usado para opor prática a teoria",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "Que necessidade ele resolve para quem está do outro lado da mesa, protegendo uma posição, especulando",
+          "como funciona a dívida pública, a emissão de títulos, o mercado de crédito."
+        ]
+      }
+    ],
+    "sintaxe": [
+      {
+        "traco": "Par negação-correção em duas frases: nega a explicação esperada e afirma a verdadeira em frase curta paralela ('não foi X. Foi Y.')",
+        "frequencia": "frequente",
+        "ocorrencias": 8,
+        "evidencias": [
+          "O problema nunca foi a complexidade do modelo. Foi eu ter aprendido as coisas fora de ordem.",
+          "A matemática descreve o produto. Ela não é o produto.",
+          "A pergunta que interessa não é se isso é raro. É se já aconteceu com você."
+        ]
+      },
+      {
+        "traco": "Pseudoclivada 'O que eu (não) X era Y' para isolar a falta ou o ponto central",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "O que eu não sabia era explicar, em termos simples, o que aquele contrato fazia de fato no mercado.",
+          "O que eu não conseguia era responder a uma pergunta bem mais simples",
+          "O que faltava era entender a dinâmica real por trás dos números"
+        ]
+      },
+      {
+        "traco": "Sequência de frases curtas declarativas em primeira pessoa, em gradação, antes da virada",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Eu sabia derivar o modelo inteiro. Reproduzia cada passagem lógica sem dificuldades. Se você me pedisse para provar o resultado no quadro, eu provava.",
+          "A matemática em si era simples. Eu tinha domínio dela."
+        ]
+      },
+      {
+        "traco": "Frase curtíssima isolada como ênfase ou concessão",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "Talvez seja.",
+          "É só a ordem.",
+          "Mas no alicerce."
+        ]
+      },
+      {
+        "traco": "Abre frase com 'E' coordenativo para encadear parágrafos e escalar o argumento",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "E digo isso sem sombra de orgulho nem de falsa humildade",
+          "E tem uma prova ainda mais direta, que eu queria muito ter visto antes de começar minha dissertação",
+          "E é justamente o valor do dinheiro no tempo a ferramenta mais usada em todo o mercado financeiro."
+        ]
+      },
+      {
+        "traco": "Enumeração em série de três itens apositivos, sem conjunção final, para concretizar uma categoria",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "modelagem de opções, contratos mais sofisticados, precificação de instrumentos exóticos.",
+          "a equação, as hipóteses por trás de cada termo, a lógica que leva de um pressuposto ao outro.",
+          "protegendo uma posição, especulando, tentando limitar um risco que já existia antes de qualquer fórmula aparecer?"
+        ]
+      },
+      {
+        "traco": "Fragmento separado por ponto final: complemento ou aposto vira frase própria (sem verbo ou com oração subordinada solta)",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Uma variante do consagrado modelo de Black-Scholes.",
+          "o gargalo muitas vezes não vai estar na matemática dos modelos. Mas no alicerce.",
+          "se você já esteve numa sitação dessas. Sabendo executar o seu papel, mas sem saber muito bem por que ele existe"
+        ]
+      },
+      {
+        "traco": "Anacoluto: oração condicional que abre período sem oração principal correspondente",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Se você pegar, por exemplo, o livro-texto que qualquer profissional de derivativos conhece: *Options, Futures, and Other Derivatives*, de John Hull."
+        ]
+      },
+      {
+        "traco": "Aposto explicativo intercalado por vírgulas no lugar de travessão",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "A parte de renda fixa mais básica, os juros, a dívida pública, o crédito, já é um assunto bem mais resolvido",
+          "A segunda, que demorei mais para perceber, era mais básica ainda.",
+          "Foi pensando nessa inversão, a que eu vivi e a que talvez você tenha vivido também, que decidi iniciar"
+        ]
+      },
+      {
+        "traco": "Anáfora de abertura em frases consecutivas",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Talvez seja. / Talvez sua entrada tenha sido bem diferente",
+          "O problema nunca foi a complexidade do modelo. [...] O problema nunca foi ter começado pela ponta difícil."
+        ]
+      }
+    ],
+    "pontuacao": [
+      {
+        "traco": "Dois-pontos como articulador principal: anuncia explicação, lista, reformulação ou citação",
+        "frequencia": "sempre",
+        "ocorrencias": 16,
+        "evidencias": [
+          "Então é fácil entrar pela porta errada: pela ponta complexa, sem o alicerce que deveria vir antes dela.",
+          "Não é por acaso que quem está estudando acaba puxado para lá: é onde a fronteira de pesquisa está",
+          "um dos mais negligenciados: o valor do dinheiro no tempo."
+        ]
+      },
+      {
+        "traco": "Nunca usa travessão (nem em dash nem en dash); aposto e incisa vão por vírgula, parêntese ou dois-pontos",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": [
+          "A segunda, que demorei mais para perceber, era mais básica ainda.",
+          "O currículo do CFA (*Chartered Financial Analyst*, a certificação mais reconhecida do mercado de investimentos) segue a mesma lógica"
+        ]
+      },
+      {
+        "traco": "Parênteses reservados à glosa de termo técnico ou sigla, nunca a comentário lateral",
+        "frequencia": "sempre",
+        "ocorrencias": 5,
+        "evidencias": [
+          "opções (contratos cujo valor deriva do preço de outro ativo)",
+          "GFMI (Global Financial Markets Institute)"
+        ]
+      },
+      {
+        "traco": "Parágrafos curtos, muitos de uma frase só; quebra de parágrafo depois de cada virada ou aforismo",
+        "frequencia": "sempre",
+        "ocorrencias": 14,
+        "evidencias": [
+          "Dessa vez é sobre qual conhecimento você constrói primeiro.",
+          "A primeira lacuna era a compreensão prática do produto.",
+          "Eu não tenho como te dizer se isso é raro ou comum."
+        ]
+      },
+      {
+        "traco": "Prosa corrida sem listas: enumerações ficam em linha, separadas por vírgula",
+        "frequencia": "sempre",
+        "ocorrencias": 6,
+        "evidencias": [
+          "como funciona a dívida pública, a emissão de títulos, o mercado de crédito."
+        ]
+      },
+      {
+        "traco": "Aspas tipográficas curvas (“ ”) para título de post citado e para citação literal de fonte",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "em “[O Mundo Invertido dos Investimentos](https://syntaxis.substack.com/p/o-mundo-invertido-dos-investimentos)”",
+          "> **“entender conceitos financeiros simples, como valor presente”.**"
+        ]
+      },
+      {
+        "traco": "Ponto de exclamação só no fecho comercial (CTA), ausente do corpo argumentativo",
+        "frequencia": "evita",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Basta se inscrever em nosso canal do Youtube!",
+          "[[CTA: Ir para o YouTube! → https://www.youtube.com/@SyntaxisEduFin]]"
+        ]
+      },
+      {
+        "traco": "Ponto de interrogação só em pergunta encaixada na narração, não para abrir seção",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "responder a uma pergunta bem mais simples: por que alguém compra aquele contrato?"
+        ]
+      },
+      {
+        "traco": "Vírgula irregular entre sujeito oracional e verbo, e ponto final cortando oração subordinada",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Compreender de fato o que ela significa e como utiliza-la, é outra história.",
+          "se você já esteve numa sitação dessas. Sabendo executar o seu papel"
+        ]
+      },
+      {
+        "traco": "Separador de cena '* * *' isolando a abertura pessoal e o bloco de apresentação da linha",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Foi eu ter aprendido as coisas fora de ordem.\n\n* * *"
+        ]
+      }
+    ],
+    "arquitetura": [
+      {
+        "traco": "Abre com memória pessoal datada pela fase de vida (cena autobiográfica) antes de qualquer conceito ou tese",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": [
+          "No fim da graduação, começo do mestrado, eu tinha bastante curiosidade por processos estocásticos"
+        ]
+      },
+      {
+        "traco": "A tese chega no fim do bloco de abertura, como aforismo de duas frases, e é retomada com variação perto do fecho (estrutura em anel); o subtítulo antecipa a mesma fórmula",
+        "frequencia": "sempre",
+        "ocorrencias": 3,
+        "evidencias": [
+          "O problema nunca foi a complexidade do modelo. Foi eu ter aprendido as coisas fora de ordem.",
+          "O problema nunca foi ter começado pela ponta difícil. Foi ter demorado a fortalecer os fundamentos.",
+          "Não foi a complexidade do modelo que me atrasou. Foi ter aprendido as coisas fora de ordem"
+        ]
+      },
+      {
+        "traco": "Seção meta de apresentação da linha editorial logo após a abertura, ligando a metáfora a um post anterior da casa",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Esse é o primeiro texto de uma linha nova aqui na Syntaxis, que vamos chamar de Spoiler",
+          "Da última vez foi sobre qual produto você compra primeiro."
+        ]
+      },
+      {
+        "traco": "Sustenta com sequência: explicação estrutural do fenômeno, depois lacunas pessoais numeradas por ordinal, depois escada de três fontes externas em força crescente",
+        "frequencia": "sempre",
+        "ocorrencias": 3,
+        "evidencias": [
+          "A primeira lacuna era a compreensão prática do produto.",
+          "A segunda, que demorei mais para perceber, era mais básica ainda.",
+          "E tem uma prova ainda mais direta"
+        ]
+      },
+      {
+        "traco": "Afirmação vem antes da evidência: declara a tese, antecipa a suspeita de conveniência e só então apresenta as fontes",
+        "frequencia": "frequente",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Isso não é impressão minha, e não estou inventando uma régua conveniente para a história ficar melhor."
+        ]
+      },
+      {
+        "traco": "Do caso pessoal desloca para o leitor (seção de identificação), depois para acolhimento, e fecha com chamada comercial ligada à tese",
+        "frequencia": "sempre",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Você pode estar pensando que isso é problema de quem fez mestrado ou doutorado, não seu.",
+          "Não é vergonha, e também não é para minimizar.",
+          "Foi pensando nessa inversão, a que eu vivi e a que talvez você tenha vivido também, que decidi iniciar"
+        ]
+      },
+      {
+        "traco": "Subtítulos H2 frequentes e curtos (6 em ~1.170 palavras), nominais ou frases declarativas; seções de 2 a 12 parágrafos",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "## A Fronteira",
+          "## Lacunas",
+          "## Não é só quem veio da academia"
+        ]
+      },
+      {
+        "traco": "Fecho de cada seção com frase curta conclusiva em parágrafo próprio",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "Dessa vez é sobre qual conhecimento você constrói primeiro.",
+          "Então é fácil entrar pela porta errada: pela ponta complexa, sem o alicerce que deveria vir antes dela.",
+          "A pergunta que interessa não é se isso é raro. É se já aconteceu com você."
+        ]
+      }
+    ],
+    "figuras": [
+      {
+        "traco": "Metáfora central de cultura pop (o Mundo Invertido de Stranger Things), definida explicitamente no texto, reciclada de post anterior e retomada no fecho como 'inversão'",
+        "frequencia": "sempre",
+        "ocorrencias": 3,
+        "evidencias": [
+          "o mundo invertido, o *Upside Down* de *Stranger Things*, a versão espelhada e hostil de um mundo normal",
+          "Foi pensando nessa inversão, a que eu vivi e a que talvez você tenha vivido também"
+        ]
+      },
+      {
+        "traco": "Metáfora de construção (alicerce, porta, fundamentos) estendida ao longo do texto e retomada no fecho",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "Então é fácil entrar pela porta errada: pela ponta complexa, sem o alicerce que deveria vir antes dela.",
+          "Foi ter demorado a fortalecer os fundamentos."
+        ]
+      },
+      {
+        "traco": "Imagem de medida/escala (régua, ponta da régua) para ordenar produtos por complexidade",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": [
+          "estão quase sempre na ponta mais complexa da régua de produtos",
+          "não estou inventando uma régua conveniente para a história ficar melhor."
+        ]
+      },
+      {
+        "traco": "Metáfora de mídia (spoiler) como conceito da linha editorial: saber o fim antes de viver",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "dar spoiler de coisas que você provavelmente vai viver na carreira, antes de você viver."
+        ]
+      },
+      {
+        "traco": "Imagens do ambiente de trabalho do mercado (mesa, outro lado da mesa) e de engenharia (gargalo), curtas e não estendidas",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "para quem está do outro lado da mesa",
+          "o gargalo muitas vezes não vai estar na matemática dos modelos."
+        ]
+      },
+      {
+        "traco": "Distinção tipo mapa/território entre modelo e objeto, dita em frase mínima",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "A matemática descreve o produto. Ela não é o produto."
+        ]
+      }
+    ],
+    "postura": [
+      {
+        "traco": "Primeira pessoa do singular confessional: expõe a própria falha de formação como ponto de partida",
+        "frequencia": "sempre",
+        "ocorrencias": 20,
+        "evidencias": [
+          "O que eu não sabia era explicar, em termos simples, o que aquele contrato fazia de fato no mercado.",
+          "muita coisa sobre aquele instrumento eu só fui entender de verdade anos depois"
+        ]
+      },
+      {
+        "traco": "Comenta o próprio tom para neutralizar leitura de vaidade ou falsa modéstia",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "E digo isso sem sombra de orgulho nem de falsa humildade"
+        ]
+      },
+      {
+        "traco": "Primeira pessoa do plural institucional para a publicação e seus canais",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": [
+          "que vamos chamar de Spoiler",
+          "uma ideia que já usamos por aqui",
+          "pelo nosso canal no YouTube"
+        ]
+      },
+      {
+        "traco": "Autoridade implícita pela trajetória (mestrado, mercado) e declarada por fontes externas, não por credencial anunciada",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": [
+          "já trabalhando com ele no mercado financeiro.",
+          "Quem monta esses currículos já sabe, antes de qualquer aluno sentar na cadeira, uma coisa que eu só aprendi com o tempo"
+        ]
+      },
+      {
+        "traco": "Admite incerteza de forma explícita e curta, sem rodeio",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "Eu não tenho como te dizer se isso é raro ou comum.",
+          "lá pelo capítulo 10, dependendo da edição.",
+          "já é um assunto bem mais resolvido academicamente, ainda que longe de morto."
+        ]
+      },
+      {
+        "traco": "Diante da objeção do leitor, concede primeiro ('Talvez seja.') e depois reposiciona a pergunta",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Você pode estar pensando que isso é problema de quem fez mestrado ou doutorado, não seu.",
+          "Talvez seja."
+        ]
+      },
+      {
+        "traco": "Tom acolhedor sem paternalismo: equilibra 'não é vergonha' com 'não é para minimizar'",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Não é vergonha, e também não é para minimizar.",
+          "É reconhecer o que faltou e voltar para buscar."
+        ]
+      },
+      {
+        "traco": "Humor quase ausente; no máximo leveza no conceito de spoiler",
+        "frequencia": "evita",
+        "ocorrencias": 1,
+        "evidencias": [
+          "dar spoiler de coisas que você provavelmente vai viver na carreira, antes de você viver."
+        ]
+      }
+    ],
+    "leitor": [
+      {
+        "traco": "Trata o leitor por 'você' de forma direta e recorrente, inclusive em hipóteses sobre a vida dele",
+        "frequencia": "sempre",
+        "ocorrencias": 15,
+        "evidencias": [
+          "Se você me pedisse para provar o resultado no quadro, eu provava.",
+          "você reconheceu a cena antes de eu terminar de descrever."
+        ]
+      },
+      {
+        "traco": "Pressupõe familiaridade geral com finanças (renda fixa, curva de juros, valor presente sem glosa), mas glosa o especializado (opções, VaR, CFA, processos estocásticos)",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "lidava com valor futuro, valor presente, modelagem de taxa de juros, curva de juros.",
+          "opções (contratos cujo valor deriva do preço de outro ativo)"
+        ]
+      },
+      {
+        "traco": "Constrói cenário hipotético concreto para o leitor se reconhecer, em vez de afirmar o que ele sente",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Talvez sua entrada tenha sido bem diferente, em um estágio, direto numa mesa que cuida do VaR de um banco",
+          "preso na rotina sem entender de fato a rotina que está executando"
+        ]
+      },
+      {
+        "traco": "Antecipa em voz alta o pensamento do leitor ('Você pode estar pensando')",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Você pode estar pensando que isso é problema de quem fez mestrado ou doutorado, não seu."
+        ]
+      },
+      {
+        "traco": "Reformula a pergunta relevante como afirmação em vez de fazer pergunta retórica direta",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "A pergunta que interessa não é se isso é raro. É se já aconteceu com você."
+        ]
+      },
+      {
+        "traco": "Evita imperativo no corpo; a única exortação é impessoal e está no CTA final",
+        "frequencia": "evita",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Se você quer assistir, o curso é gratuito. Basta se inscrever em nosso canal do Youtube!"
+        ]
+      },
+      {
+        "traco": "Chamada para ação explícita em seção própria no fim, amarrada à tese, com data e gratuidade, mais botão do Substack",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": [
+          "decidi iniciar, a **partir de setembro**, um curso gratuito, com trasmisão ao vivo pelo nosso canal no YouTube",
+          "[[CTA: Ir para o YouTube! → https://www.youtube.com/@SyntaxisEduFin]]"
+        ]
+      },
+      {
+        "traco": "Link interno para post anterior da casa, embutido no título entre aspas",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "uma ideia que já usamos por aqui em “[O Mundo Invertido dos Investimentos](https://syntaxis.substack.com/p/o-mundo-invertido-dos-investimentos)”"
+        ]
+      }
+    ],
+    "tecnico": [
+      {
+        "traco": "Não mostra fórmula: menciona equação e fórmula só como referência, sem notação nem display",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": [
+          "Eu sabia explicar o modelo inteiro: a equação, as hipóteses por trás de cada termo",
+          "a maioria das pessoas que já viu a fórmula consegue fazer a conta."
+        ]
+      },
+      {
+        "traco": "Cita livro-texto por título em itálico, autor e capítulos, com ressalva de edição",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "*Options, Futures, and Other Derivatives*, de John Hull. Taxa de juros e formação de preço a termo vêm nos capítulos 4 a 6"
+        ]
+      },
+      {
+        "traco": "Sigla primeiro, depois expansão e glosa funcional no mesmo parêntese",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": [
+          "O currículo do CFA (*Chartered Financial Analyst*, a certificação mais reconhecida do mercado de investimentos)",
+          "VaR (Value at Risk, a métrica que estima quanto uma carteira pode perder num cenário ruim)"
+        ]
+      },
+      {
+        "traco": "Citação literal de fonte institucional em bloco de citação, sem link nem data",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "> **“entender conceitos financeiros simples, como valor presente”.**"
+        ]
+      },
+      {
+        "traco": "Explica a lógica de dependência entre conceitos técnicos em uma frase causal simples",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "não dá para precificar um preço futuro sem antes entender a taxa que desconta esse futuro.",
+          "porque cada ferramenta dali vai ser reaproveitada depois."
+        ]
+      }
+    ],
+    "formatacao": [
+      {
+        "traco": "Negrito raro: na citação em bloco e no prazo do convite (com fronteira irregular, partindo a locução 'a partir de')",
+        "frequencia": "evita",
+        "ocorrencias": 2,
+        "evidencias": [
+          "> **“entender conceitos financeiros simples, como valor presente”.**",
+          "decidi iniciar, a **partir de setembro**, um curso gratuito"
+        ]
+      },
+      {
+        "traco": "Itálico para títulos de obras e termos estrangeiros pontuais, e para o nome da linha no subtítulo",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "o *Upside Down* de *Stranger Things*",
+          "*Options, Futures, and Other Derivatives*, de John Hull",
+          "## Bem-vindo à *Spoiler*"
+        ],
+        "contraexemplo": "VaR (Value at Risk, a métrica que estima quanto uma carteira pode perder num cenário ruim)"
+      },
+      {
+        "traco": "Citação em bloco usada uma vez, para a frase-prova externa, combinada com negrito e aspas curvas",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "> **“entender conceitos financeiros simples, como valor presente”.**"
+        ]
+      },
+      {
+        "traco": "Subtítulos H2 sem H3; capitalização inconsistente entre Title Case e caixa de frase",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "## Um Convite para Você",
+          "## Não precisa ter vergonha"
+        ]
+      },
+      {
+        "traco": "Imagens sem legenda, intercaladas entre seções (3 no texto)",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": [
+          "![](img-01)",
+          "![](img-03)"
+        ]
+      },
+      {
+        "traco": "Blocos curtos: parágrafo típico de 1 a 3 frases; os mais longos (~70-80 palavras) ficam na seção de desenvolvimento",
+        "frequencia": "sempre",
+        "ocorrencias": 40,
+        "evidencias": [
+          "Talvez seja.",
+          "Dá para voltar e preencher o alicerce depois, do jeito que eu preenchi o meu."
+        ]
+      },
+      {
+        "traco": "Botão de CTA do Substack como último elemento do post",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": [
+          "[[CTA: Ir para o YouTube! → https://www.youtube.com/@SyntaxisEduFin]]"
+        ]
+      },
+      {
+        "traco": "Sem código, sem tabela, sem lista, sem pullquote, sem fórmula",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": [
+          "Eu sabia derivar o modelo inteiro. Reproduzia cada passagem lógica sem dificuldades."
+        ]
+      }
+    ]
+  },
+  "antipadroes_observados": [
+    "(a) Nunca usa travessão: zero ocorrências de — ou – no corpo.",
+    "(a) Nunca usa lista com marcadores, tabela, bloco de código, pullquote ou fórmula.",
+    "(a) Nunca usa exclamação fora do fecho comercial.",
+    "(a) Nunca abre seção com pergunta retórica nem usa imperativo no corpo argumentativo.",
+    "(a) Nunca usa emoji.",
+    "(b) Possível tique de IA em pt-BR: o par contrastivo 'não é X. É Y.' aparece ~8 vezes num texto de ~1.170 palavras, inclusive no subtítulo e duas vezes como tese ('O problema nunca foi... Foi...'); densidade alta para um único texto.",
+    "(b) Possível tique de IA: enumerações em tríade apositiva recorrentes ('protegendo uma posição, especulando, tentando limitar um risco'; 'a equação, as hipóteses..., a lógica...').",
+    "(b) Possível tique de IA: frase de fecho com 'E é justamente...' e aforismos simétricos de fim de seção ('É só a ordem.'). Em contrapartida, há marcas claras de edição humana: erros de digitação e concordância ('sitação', 'trasmisão', 'utiliza-la', 'Foi a parte um desafio da dissertação', 'Youtube' vs 'YouTube') e o anacoluto 'Se você pegar, por exemplo, o livro-texto...'."
+  ],
+  "incerteza": "Amostra única de ~1.170 palavras, bem abaixo do piso de ~5.000 palavras por amostra; contagens são aproximadas e frequências valem só para este arquivo. Época 'pipeline': o texto foi redigido com o sistema editorial e editado pelo autor, então não dá para separar o que é voz do autor do que veio do pipeline (sobretudo os pares contrastivos 'não é X. É Y.' e as tríades). Os erros de digitação sugerem edição humana tardia, mas não se pode afirmar se são traço ou descuido; não devem virar regra. O frontmatter traz section_name null, embora o texto se declare o primeiro da linha Spoiler. As três imagens não têm legenda e o conteúdo delas não é visível, então nada se conclui sobre visuais. Sem fórmula, tabela ou dado numérico, o eixo técnico é magro. A fronteira do negrito em 'a **partir de setembro**' pode ser artefato do editor do Substack, não escolha do autor."
+}

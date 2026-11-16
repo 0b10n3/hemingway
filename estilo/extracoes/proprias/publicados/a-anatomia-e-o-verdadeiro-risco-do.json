@@ -1,0 +1,667 @@
+{
+  "arquivo": "estilo/corpus/publicados/a-anatomia-e-o-verdadeiro-risco-do.md",
+  "genero": "substack",
+  "palavras": 3241,
+  "eixos": {
+    "lexico": [
+      {
+        "traco": "Termo técnico e sigla são glosados na primeira ocorrência, em geral entre parênteses logo após o termo, com definição funcional curta (o que a coisa faz), não de dicionário.",
+        "frequencia": "frequente",
+        "ocorrencias": 35,
+        "evidencias": [
+          "CVM (Comissão de Valores Mobiliários)",
+          "recuperação extrajudicial (acordo de reestruturação negociado diretamente com os credores e levado depois à homologação da Justiça)",
+          "*rating* (a nota de crédito dada por uma agência)"
+        ],
+        "contraexemplo": "No pacote estavam debêntures, *bonds* emitidos no exterior e CRAs."
+      },
+      {
+        "traco": "Glosa invertida: a paráfrase leiga vai no corpo da frase e o termo técnico vem entre parênteses depois.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "a securitizadora as comprou na emissão (**subscreveu**) com o dinheiro dos investidores"
+        ],
+        "contraexemplo": "lastreados em direitos creditórios** (créditos a receber)"
+      },
+      {
+        "traco": "Anglicismos do jargão de mercado (bonds, trading, funding, gross-up, rating, spread, bullet, duration) ficam sem tradução forçada, sempre em itálico e quase sempre com glosa em português na primeira vez.",
+        "frequencia": "frequente",
+        "ocorrencias": 20,
+        "evidencias": [
+          "qual fonte de captação — o *funding* — saía mais barata",
+          "aplicar o *gross-up* (a conversão da taxa isenta na taxa tributada equivalente)",
+          "Um CRI *bullet* de três anos (756 dias úteis)"
+        ],
+        "contraexemplo": "a sênior recebe primeiro; a subordinada absorve as primeiras perdas"
+      },
+      {
+        "traco": "Campo semântico central de crédito e estrutura: 'devedor' é a palavra-pivô (~30 ocorrências), ao lado de lastro, credor, garantia e patrimônio separado. Provavelmente é mais assunto do que voz.",
+        "frequencia": "frequente",
+        "ocorrencias": 30,
+        "evidencias": [
+          "Não diz se o devedor paga.",
+          "O que nenhuma estrutura tinha como preservar era o devedor.",
+          "Nenhum dos dois muda quem deve."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Registro formal e explicativo, pontuado por expressões coloquiais e ditados populares que servem de gancho ou de rótulo ('de bolso', 'vai a chão', 'Promessa é dívida').",
+        "frequencia": "ocasional",
+        "ocorrencias": 7,
+        "evidencias": [
+          "Promessa é dívida.",
+          "A comparação de bolso com uma debênture tributada costuma aplicar o *gross-up*",
+          "Quando o preço vai a chão"
+        ],
+        "contraexemplo": "Por lei os créditos submetidos ao regime fiduciário não se confundem com o patrimônio comum da securitizadora"
+      }
+    ],
+    "sintaxe": [
+      {
+        "traco": "Par de frases curtas em que a segunda abre com 'Não' e repete o verbo ou a estrutura da primeira para delimitá-la (afirmação seguida de negação anafórica). Costuma fechar bloco ou seção.",
+        "frequencia": "frequente",
+        "ocorrencias": 7,
+        "evidencias": [
+          "Securitizar muda o endereço do risco. Não muda o tamanho dele.",
+          "O patrimônio separado protege você da securitizadora. Não protege você do devedor.",
+          "Ela diz se a isenção compensa. Não diz se o devedor paga."
+        ],
+        "contraexemplo": "Não havia crédito preexistente a ceder."
+      },
+      {
+        "traco": "Frase curta isolada como ênfase ou viragem depois de um período explicativo longo.",
+        "frequencia": "frequente",
+        "ocorrencias": 15,
+        "evidencias": [
+          "Parece uma blindagem completa. Não é.",
+          "A securitizadora é o veículo.",
+          "Muita gente descobriu ali o que tinha na carteira."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Paralelismo contrastivo 'Na LCA, ... / No CRA, ...', com a mesma estrutura sintática nas duas metades, às vezes estendido a um terceiro membro.",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "Na LCA, você é credor do banco. No CRA, você é credor de um patrimônio. E o patrimônio é credor de alguém.",
+          "Na LCA, você nunca vota. O banco paga ou não paga.",
+          "Na LCI e na LCA, você compra o banco, com o FGC como rede até o limite."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Séries ternárias, muitas vezes com núcleo repetido (anáfora de 'não', 'quanto/quando').",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "não capta depósito, não empresta dinheiro próprio e não tem FGC por trás",
+          "quanto volta, quando volta e em que forma — dinheiro, dívida nova ou ação",
+          "Mudam o imposto, o número de intermediários e a forma como você vota quando o devedor pede para renegociar."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Travessão duplo para inciso explicativo ou enumeração no meio da frase (o de fechamento pode vir seguido de vírgula). Travessão simples para ressalva final. São 22 travessões no texto.",
+        "frequencia": "frequente",
+        "ocorrencias": 22,
+        "evidencias": [
+          "O mercado secundário de CRI e CRA — onde os títulos são revendidos antes do vencimento — é raso.",
+          "Para um papel *bullet* — principal e juros pagos de uma vez, no vencimento —,",
+          "Só por volta do nono ano os dois erros se anulam e a regra acerta — por coincidência."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Ordem direta, com a oração principal à frente. Subordinação moderada: condicional ('Se ..., ...') ou temporal ('Quando ..., ...') na abertura da frase para montar o cenário.",
+        "frequencia": "frequente",
+        "ocorrencias": 10,
+        "evidencias": [
+          "Quando o devedor pede para renegociar, quem decide é a assembleia de titulares",
+          "Se a resposta à primeira pergunta é “uma empresa”, o que você está analisando é o crédito dessa empresa."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Fragmento nominal sem verbo usado como frase completa, para cortar ou anunciar.",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": [
+          "Não mais uma proteção.",
+          "Um exemplo.",
+          "Antes de olhar a taxa, quatro perguntas:"
+        ],
+        "contraexemplo": ""
+      }
+    ],
+    "pontuacao": [
+      {
+        "traco": "Dois-pontos como articulador principal (~43): desdobra a frase anterior, introduz lista ou imagem e entrega a resposta depois de uma premissa.",
+        "frequencia": "frequente",
+        "ocorrencias": 43,
+        "evidencias": [
+          "O lastro era outro: debêntures emitidas pelas próprias empresas do grupo.",
+          "Securitizadora não é banco: não capta depósito, não empresta dinheiro próprio e não tem FGC por trás.",
+          "Está precificando recuperação: quanto volta, quando volta e em que forma"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Parênteses abundantes (~57), quase sempre com função de glosa (expansão de sigla ou definição). Quase nunca servem de aparte ou comentário do autor.",
+        "frequencia": "frequente",
+        "ocorrencias": 57,
+        "evidencias": [
+          "(Fundo Garantidor de Créditos, o seguro que cobre depósitos e alguns títulos bancários até um limite por CPF ou CNPJ)",
+          "garantia real (um bem específico reservado para pagar a dívida)"
+        ],
+        "contraexemplo": "O primeiro é o CRA (ou CRI) de carteira"
+      },
+      {
+        "traco": "Ponto e vírgula (~28) no fim de itens de lista e entre orações paralelas na prosa.",
+        "frequencia": "frequente",
+        "ocorrencias": 28,
+        "evidencias": [
+          "a sênior recebe primeiro; a subordinada absorve as primeiras perdas.",
+          "Nas três relações: a Raízen Energia deve ao patrimônio separado; o patrimônio separado é titular das debêntures"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Só aspas tipográficas curvas. Duplas “ ” (5 pares) para autocitação, resposta hipotética e pergunta citada; simples ‘ ’ (1 par) para jargão atribuído ao mercado. Nenhuma aspa reta.",
+        "frequencia": "sempre",
+        "ocorrencias": 6,
+        "evidencias": [
+          "“outro título do agro, mas de risco completamente diferente”",
+          "que o mercado chama de ‘pulverizado’",
+          "deixou de ser “qual taxa” e passou a ser “quantos dos fluxos *c*ₖ vão de fato existir”"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Quebra de parágrafo agressiva: cerca de 40 dos ~95 parágrafos de prosa têm uma frase só. Na abertura há uma sequência de parágrafos de uma frase.",
+        "frequencia": "frequente",
+        "ocorrencias": 40,
+        "evidencias": [
+          "Muita gente descobriu ali o que tinha na carteira.",
+          "O nome sugere lavoura, safra, centenas de produtores pagando em dia.",
+          "O lastro era outro: debêntures emitidas pelas próprias empresas do grupo."
+        ],
+        "contraexemplo": "A Raízen estava no segundo grupo. Os CRAs tinham como lastro debêntures da Raízen Energia, com fiança de outra empresa do grupo"
+      },
+      {
+        "traco": "Interrogação rara (5 no corpo: 3 em lista, 1 em subtítulo, 1 retórica). Nenhum ponto de exclamação.",
+        "frequencia": "evita",
+        "ocorrencias": 5,
+        "evidencias": [
+          "Se o patrimônio separado não resolve o risco de crédito, o que resolve?",
+          "O que são os Certificados de Recebíveis?"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Lista curta quando há sequência ou roteiro (5 listas com marcador, 24 itens). Os itens começam em minúscula e terminam em ponto e vírgula ou interrogação; o resto é prosa corrida.",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "- quem deve para você?",
+          "1. quem é o devedor, e quantos são;",
+          "2. esse crédito é cedido à securitizadora;"
+        ],
+        "contraexemplo": ""
+      }
+    ],
+    "arquitetura": [
+      {
+        "traco": "Abre retomando o texto anterior da série e cumprindo uma promessa feita nele, seguida de um trocadilho de uma linha.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "prometi que o próximo seria sobre o CRA (Certificado de Recebíveis do Agronegócio)",
+          "Promessa é dívida. E, neste texto, a palavra *dívida* vai aparecer bastante."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Um caso real datado (Raízen) entra como gancho antes de qualquer definição. O caso é retomado ao longo do texto e ganha seção própria no fim para ser relido com os conceitos.",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": [
+          "Em 11 de março de 2026, a Raízen pediu recuperação extrajudicial",
+          "Com o que vimos até aqui, é possível reler o caso."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Tese condensada num refrão de duas frases que aparece na abertura e se repete literalmente no fecho.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Securitizar muda o endereço do risco. Não muda o tamanho dele."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Roteiro de três perguntas anunciado cedo. Ele organiza as seções e volta no fecho.",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "boa parte dos erros de análise nasce de misturar três perguntas:",
+          "As perguntas continuam as mesmas: quem deve, o que fica no meio, quanto vale hoje."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "No corpo, a ordem é conceito, depois caso real ou exemplo numérico, depois generalização (fórmula) e por fim ressalva do modelo.",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "Olhar para uma emissão real ajuda a ver cada peça no lugar.",
+          "Um exemplo. Um CRI *bullet* de três anos (756 dias úteis) é emitido a IPCA + 8% ao ano"
+        ],
+        "contraexemplo": "Em 11 de março de 2026, a Raízen pediu recuperação extrajudicial"
+      },
+      {
+        "traco": "Compara sistematicamente com o texto anterior da série (LCA, ~19 menções), que serve de âncora para cada conceito novo.",
+        "frequencia": "frequente",
+        "ocorrencias": 19,
+        "evidencias": [
+          "Assim como na LCA, boa parte dos erros de análise nasce de misturar três perguntas",
+          "O primeiro é o mesmo do texto da LCA",
+          "É o espelho da frase do texto anterior."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Fecha a seção com uma frase-gancho que desmonta o que acabou de ser dito e motiva a seção seguinte.",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "Parece uma blindagem completa. Não é.",
+          "Isso muda o que o patrimônio separado significa.",
+          "Mas repare no que essa conta compara: um CRA com uma debênture do mesmo devedor."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Seções espelhadas por ponto de vista (quem emite vs. quem compra).",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "O lado de quem emite: por que captar via CRI e CRA",
+          "O lado de quem compra: quanto rende de verdade"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Fecho em quatro tempos: síntese contrastiva, refrão, exercício autônomo para o leitor e anúncio do próximo texto da série. Depois vêm um separador e as leituras comentadas.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Se o texto funcionou, você consegue dar o próximo passo sozinho.",
+          "A debênture é o tema do próximo texto desta série."
+        ],
+        "contraexemplo": ""
+      }
+    ],
+    "figuras": [
+      {
+        "traco": "Metáfora espacial do risco (endereço, entre, meio do caminho, camada), com domínio de origem em espaço e trajeto. É recorrente e volta no fecho.",
+        "frequencia": "frequente",
+        "ocorrencias": 8,
+        "evidencias": [
+          "Securitizar muda o endereço do risco.",
+          "Aquilo que a estrutura põe no meio do caminho.",
+          "com uma camada a mais entre o investidor e o devedor"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Metáfora de projeto e engenharia: o produto financeiro aparece como desenho, peças e anatomia. Volta no fim para dizer que a estrutura funcionou como projetada.",
+        "frequencia": "ocasional",
+        "ocorrencias": 5,
+        "evidencias": [
+          "É o CRA funcionando exatamente como foi desenhado.",
+          "Olhar para uma emissão real ajuda a ver cada peça no lugar.",
+          "A estrutura funcionou como foi desenhada."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Metáfora de proteção física (blindagem, colchão, rede, amortecer) para os reforços de crédito.",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": [
+          "Parece uma blindagem completa. Não é.",
+          "a sênior só perde quando a perda da carteira passa do colchão",
+          "com o FGC como rede até o limite"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Evoca a imagem que o nome do produto sugere para desmenti-la na frase seguinte.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "O nome sugere lavoura, safra, centenas de produtores pagando em dia."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Evita analogia estendida: as figuras ocupam uma expressão ou uma frase, nunca um parágrafo. Não importa domínios de fora do mercado e da engenharia (esporte, cozinha etc.).",
+        "frequencia": "evita",
+        "ocorrencias": 0,
+        "evidencias": [
+          "É a desintermediação como motor da securitização"
+        ],
+        "contraexemplo": ""
+      }
+    ],
+    "postura": [
+      {
+        "traco": "Primeira pessoa quase ausente: o singular aparece só para a promessa do texto anterior e o plural inclusivo é raro.",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "prometi que o próximo seria sobre o CRA",
+          "Com o que vimos até aqui, é possível reler o caso.",
+          "Daí em diante, prevalece o efeito que já conhecíamos da LCA."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Autoridade implícita: afirmações categóricas ancoradas em lei, caso e conta, sem credenciais declaradas e sem 'eu acho'. O hedge aparece só onde a regra jurídica tem exceção.",
+        "frequencia": "frequente",
+        "ocorrencias": 10,
+        "evidencias": [
+          "Isso não é defeito do CRA. É o CRA funcionando exatamente como foi desenhado.",
+          "Securitizadora não é banco"
+        ],
+        "contraexemplo": "Créditos garantidos por ela ficam, em regra, fora dos efeitos da recuperação judicial e da extrajudicial."
+      },
+      {
+        "traco": "Admite de forma explícita a simplificação e o limite do modelo, sem se desculpar.",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": [
+          "e o momento em que as perdas acontecem, mas mostra a lógica",
+          "O caminho, simplificado:",
+          "Uma ordem razoável de referências:"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Neutralidade sobre os agentes do caso: descreve o default sem adjetivar nem culpar emissor, distribuidor ou investidor.",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "A estrutura funcionou como foi desenhada. O patrimônio separado ficou onde a lei manda.",
+          "Muita gente descobriu ali o que tinha na carteira."
+        ],
+        "contraexemplo": "Há um detalhe que quase ninguém conta a quem compra CRA pela primeira vez."
+      },
+      {
+        "traco": "Humor seco por trocadilho ou ironia mínima, no máximo uma vez por bloco.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Promessa é dívida. E, neste texto, a palavra *dívida* vai aparecer bastante.",
+          "e a regra acerta — por coincidência."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Para discordar do senso comum, corrige a conta e não o leitor: mostra os erros da regra prática e em que direção cada um puxa.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "A conta tem dois problemas, e eles puxam para lados opostos.",
+          "A regra de bolso esquece que a debênture tributada também paga imposto sobre a inflação"
+        ],
+        "contraexemplo": ""
+      }
+    ],
+    "leitor": [
+      {
+        "traco": "Trata o leitor por 'você' (17 ocorrências) e o põe dentro da estrutura de crédito como credor ou votante.",
+        "frequencia": "frequente",
+        "ocorrencias": 17,
+        "evidencias": [
+          "quem deve para você?",
+          "Na LCA, você é credor do banco.",
+          "Entre você e a mesa de negociação há mais um intermediário. Não mais uma proteção."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Pressupõe um investidor pessoa física que leu o texto anterior da série, mas reexplica as siglas mesmo assim. Tolera fórmula, desde que glosada.",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "No texto da LCA, duas LCAs a 90% do CDI (a taxa de referência dos empréstimos entre bancos)",
+          "Para a pessoa física, os dois são isentos de IR."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Imperativo brando e raro, só para olhar, supor ou comparar.",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Mas repare no que essa conta compara",
+          "Ponha lado a lado uma debênture da Raízen Energia e um CRA lastreado nela.",
+          "Suponha que, logo depois da emissão, com a taxa da NTN-B estável"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Pergunta retórica rara e respondida na linha seguinte, em parágrafo próprio.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Se o patrimônio separado não resolve o risco de crédito, o que resolve?",
+          "Aquilo que a estrutura põe no meio do caminho."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Em vez de recomendação, entrega ferramentas de checagem: lista de perguntas e roteiro de leitura do documento da emissão.",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Antes de olhar a taxa, quatro perguntas:",
+          "e é por isso que a lista serve como roteiro de leitura do termo de securitização"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Não há CTA comercial, de assinatura ou botão. A chamada final é um exercício autônomo, a continuidade da série e uma lista de leituras.",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": [
+          "Se o texto funcionou, você consegue dar o próximo passo sozinho.",
+          "Para continuar aprendendo"
+        ],
+        "contraexemplo": ""
+      }
+    ],
+    "tecnico": [
+      {
+        "traco": "Fórmula em display ($$...$$, LaTeX), com rótulo em português dentro da fórmula quando possível. Vem anunciada por frase com dois-pontos e seguida de 'onde ...', que define as variáveis em prosa.",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "a perda da sênior é:",
+          "onde *r*ᵢ é a taxa real do papel isento e *t* a alíquota de IR.",
+          "onde *du*ₖ é o número de dias úteis até cada pagamento."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Conta inline em texto simples com caracteres Unicode (³, ᵢ, ×, ≈), vírgula decimal e ponto de milhar, sempre resolvida até o número final.",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "PU = 1.000 × 1,08³ / 1,095³ ≈ R$ 959,46.",
+          "IPCA + 7%/0,85 ≈ IPCA + 8,24%."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Explicita as hipóteses antes do cálculo e logo depois dá valores concretos aos parâmetros.",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": [
+          "com IPCA constante *π*, taxa real isenta *r*ᵢ, alíquota *t* e prazo *T* em anos",
+          "Com IPCA de 4% ao ano, CRA a IPCA + 7% e a alíquota da tabela regressiva correspondente a cada prazo"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Explicita convenções brasileiras de mercado (dias úteis/252, tabela regressiva de IR).",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Um CRI *bullet* de três anos (756 dias úteis)",
+          "(o IR cai de 22,5% para 15% conforme o prazo da aplicação):"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Cita norma no corpo pelo número e pela data completa.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "O CRI nasceu com a Lei nº 9.514, de 20 de novembro de 1997."
+        ],
+        "contraexemplo": "Em 2022 o marco legal da securitização, consolidou as regras dos dois."
+      },
+      {
+        "traco": "Dado de mercado vem com data exata, valor em R$ e fonte nomeada, com link quando há.",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "cerca de R$ 65,1 bilhões em dívida financeira sem garantia real",
+          "Segundo levantamento da plataforma [Vitrify](https://www.vitrify.tech/), a fatia dos CRAs"
+        ],
+        "contraexemplo": "Em julho de 2026, os títulos de dívida da Raízen eram negociados perto de 50% do valor de face"
+      },
+      {
+        "traco": "Tabela e gráfico entram como imagem (img-NN), anunciados por uma frase que termina em dois-pontos. Não há tabela em markdown.",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "Com uma carteira de R$ 100 milhões, sênior de R$ 80 milhões e subordinada de R$ 20 milhões:"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Referências comentadas no fim, com autor, título em itálico, edição, editora e ano, seguidos de travessão e de uma nota sobre o que a obra cobre e onde foi usada no texto.",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": [
+          "Uinie Caminha, *Securitização*, 2ª ed. (Saraiva, 2007) — a referência jurídica clássica no Brasil",
+          "base da seção “Dois CRAs com o mesmo nome”"
+        ],
+        "contraexemplo": ""
+      }
+    ],
+    "formatacao": [
+      {
+        "traco": "Negrito (14 trechos) para termo-chave em definição e para os passos do mecanismo, às vezes uma oração inteira. Fica todo na primeira metade do texto e some depois de 'Economicamente'.",
+        "frequencia": "frequente",
+        "ocorrencias": 14,
+        "evidencias": [
+          "**Com isenção de Imposto de Renda** (IR), **sem FGC**",
+          "5. um **agente fiduciário representa os investidores e fiscaliza a securitizadora**.",
+          "**Economicamente**, o CRA corporativo é uma debênture daquela empresa"
+        ],
+        "contraexemplo": "*Duration* é o prazo médio dos pagamentos, ponderado pelo valor de cada um"
+      },
+      {
+        "traco": "Itálico (~42) para estrangeirismo, variável matemática e título de obra, e como ênfase pontual em uma palavra só.",
+        "frequencia": "frequente",
+        "ocorrencias": 42,
+        "evidencias": [
+          "a palavra *dívida* vai aparecer bastante",
+          "A subordinação é a mais *matemática* das proteções.",
+          "Com subordinação *S* e perda na carteira *L*"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Subtítulos densos: 8 H2 e 9 H3 em ~3.200 palavras (um a cada ~190), sem numeração e em caixa de frase. H2 vem como pergunta, rótulo com dois-pontos ou frase nominal; H3 é curto e muitas vezes assertivo.",
+        "frequencia": "frequente",
+        "ocorrencias": 17,
+        "evidencias": [
+          "O que são os Certificados de Recebíveis?",
+          "O lado de quem compra: quanto rende de verdade",
+          "Taxa contratual não é taxa de mercado"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Blocos curtos: a maioria dos parágrafos tem de 1 a 3 frases. Os mais longos (~80 palavras) ficam para narrar o caso ou uma emissão real.",
+        "frequencia": "frequente",
+        "ocorrencias": 90,
+        "evidencias": [
+          "Em outubro de 2023, a True Securitizadora, hoje Opea, fez sua **73ª emissão de CRA**: três séries, R$ 1 bilhão no total."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Imagens sem legenda (5 ocorrências de ![](img-NN)). Nenhum PULLQUOTE, CTA, riscado, citação em bloco ou código.",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": [
+          "![](img-02)"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Itens de lista sem marcador, como parágrafos soltos terminados em ponto e vírgula, em duas passagens (pode ser artefato de captura).",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "a taxa contratual determina o que o título paga;",
+          "negócios recentes do próprio papel;"
+        ],
+        "contraexemplo": "- quem deve para você?"
+      },
+      {
+        "traco": "Separador '* * *' antes da seção final de leituras ('Para continuar aprendendo').",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "* * *"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Um único link inline, ancorado no nome da fonte.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "[Vitrify](https://www.vitrify.tech/)"
+        ],
+        "contraexemplo": ""
+      }
+    ]
+  },
+  "antipadroes_observados": [
+    "(a) Nunca usa ponto de exclamação.",
+    "(a) Nunca usa aspas retas; todas as aspas são curvas.",
+    "(a) Nunca usa a primeira pessoa para opinião ou experiência pessoal (sem 'eu acho', sem anedota).",
+    "(a) Nunca recomenda comprar ou vender nem cita corretora ou produto de prateleira.",
+    "(a) Nunca usa botão [[CTA]], [[PULLQUOTE]], riscado, citação em bloco, código ou emoji.",
+    "(a) Nunca usa adjetivo de hype. O único intensificador forte ('completamente') está dentro de uma autocitação.",
+    "(a) Nunca deixa variável de fórmula sem definição em prosa.",
+    "(b) Possível tique de IA: a moldura 'não é X, é Y' em 'Isso não é defeito do CRA. É o CRA funcionando exatamente como foi desenhado.'",
+    "(b) Possível tique de IA: densidade alta do par afirmação + 'Não ...' (7 no texto). Cada um isolado é traço de voz; juntos podem soar como fórmula staccato.",
+    "(b) Possível tique de IA: gancho no molde 'o que ninguém te conta' em 'Há um detalhe que quase ninguém conta a quem compra CRA pela primeira vez.'",
+    "(b) Possível tique de IA: frase sentenciosa genérica em 'Por isso mesmo sempre é essencial entender o desenho dos produtos financeiros.'",
+    "(b) Séries ternárias frequentes. São compatíveis com a voz, mas são um marcador conhecido de texto gerado quando aparecem de forma automática."
+  ],
+  "incerteza": "1) Época 'pipeline': o texto passou pelo sistema editorial e depois pela edição do autor, então não dá para separar o que é escolha do autor do que veio do pipeline (sobretudo pares de negação, tríades e glosas sistemáticas). 2) A versão publicada tem erros de revisão que não devem virar traço: 'extendida' (a grafia é 'estendida'); o subtítulo 'Dsigla ao devedor' (provavelmente 'Da sigla ao devedor'); vírgula entre sujeito e verbo em 'Em 2022 o marco legal da securitização, consolidou'; espaço sobrando no fim do subtítulo do frontmatter. 3) As duas listas sem marcador (linhas soltas terminadas em ponto e vírgula) podem ser bullets perdidos na captura do HTML, não escolha do autor. 4) Tabelas e gráficos estão em imagem (img-NN, sem legenda), então não dá para avaliar formatação de tabela nem saber se o site mostra legenda ou texto alternativo. 5) O vocabulário de crédito (devedor, lastro, securitizadora) é assunto do texto, não necessariamente voz. 6) section_name é null: a linha editorial não está informada; pelo conteúdo parece 'Notas de um Professor', mas isso não está confirmado. 7) É uma amostra única de ~3.200 palavras, abaixo do piso de ~5.000 para confiança alta por amostra. As contagens de parágrafos de uma frase e de parênteses são aproximadas, feitas por contagem automática no arquivo."
+}

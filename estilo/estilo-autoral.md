@@ -1,22 +1,23 @@
 ---
-versao: 1.0.0
-atualizado_em: 2026-08-10
-commit_base: 3db8d17
-corpus: { textos: 7, palavras: 25685, periodo: "não datado — ver _arquivo/MANIFESTO.md" }
-confianca_global: media
+versao: 2.0.0
+atualizado_em: 2026-11-16
+commit_base: a399245
+corpus: { textos: 32, palavras_publicadas: 55400, posts: 31, periodo: "2024-09-06 a 2026-11-15 — ver estilo/corpus-manifest.json" }
+confianca_global: alta
+confianca_nota: "alta para forma (parágrafo, pontuação, ênfase, arquitetura), medida no texto publicado e nas edições do autor; média para léxico e postura, porque a era pipeline mistura autor e sistema e 14 dos 15 posts anteriores têm tiques de IA marcados (ver §10)"
 ---
 
 # Guia de voz — Syntaxis
 
 ## 1. Retrato em cinco linhas
 
-Você explica finanças como quem já foi aluno de matemática antes de ser assessor: nunca
-deixa um termo técnico sem gloss, mas também nunca resiste a uma ironia sobre a própria
-indústria que descreve. Sua marca registrada é abrir com uma cena pessoal ou uma pergunta
-provocativa, sustentar o argumento citando um estudo acadêmico nomeado (autor, ano, revista),
-e fechar pedindo para o leitor compartilhar. Mas você tem **duas vozes distintas**, não uma —
-ver §4 — e a maior parte da instabilidade do seu texto vem de não escolher qual delas está
-falando.
+Você explica finanças como quem já foi aluno de matemática antes de ser do mercado: glosa o
+termo que importa no instante em que ele aparece, ancora tudo em fonte, lei ou conta, e não
+resiste a uma ironia seca sobre a indústria que descreve. O texto abre numa cena ou num caso
+concreto, planta uma tese curta, discorda de crenças (nunca de pessoas) e fecha voltando à
+imagem do começo. A forma é a assinatura mais estável: parágrafo curto, frase curta como
+virada, dois-pontos como articulador, glosa entre parênteses, negrito só no que importa. Você
+tem três vozes (§4), e a escolha da voz vem antes da primeira frase.
 
 ## 2. Objetivos do meu texto
 
@@ -26,226 +27,315 @@ falando.
 | Conteúdo de curso | Ensinar com rigor, sustentar credibilidade técnica | inferido, a confirmar |
 | Marketing/aquisição | Falar às personas `#GENZ-FEAR`, `#GENZ-GREED`, `#Millennials-FEAR`, `#Millennials-GREED` | `../../strategy/AUDIENCES.md` §3 |
 
-Detalhamento de público e personas: ver `../../strategy/AUDIENCES.md` e
-`../../strategy/MARKETING.md` §3.3. Este guia não repete esse conteúdo — aponta para ele.
+Detalhamento de público e personas: `../../strategy/AUDIENCES.md` e `../../strategy/MARKETING.md`.
 
 ## 3. Regras (voz atual — descritivo)
 
-Numeradas por confiança de evidência. `[cross-gênero]` = confirmado tanto em posts de
-Substack quanto na dissertação (o par de gêneros mais distante do corpus — se um traço
-sobrevive aos dois, é forte candidato a traço de autor, não de formato).
+Valem para as três vozes, salvo indicação. Cada regra traz evidência de pelo menos dois posts
+publicados (`estilo/corpus/publicados/<slug>.md`) e, quando há, a medida no texto publicado da
+era pipeline (16 posts, `pesquisa/epico-revisao-editorial/dados/b3-estratos.json`). "Edição do
+autor" quer dizer o que ele mudou entre o `post.md` final e o site (`estilo/corpus/edicoes/`).
 
-1. **Nunca deixa jargão sem gloss na primeira ocorrência.** No Substack, aposto entre
-   parênteses logo após o termo. Na dissertação, `Definição` numerada antes de qualquer uso.
+### Forma
+
+1. **Parágrafo curto; frase curta isolada como virada.** Média de cerca de 35 palavras por
+   parágrafo e perto de 45% de parágrafos de uma frase (site: 34,3 e 43,9%). A frase curta fecha um
+   período longo e muitas vezes ocupa o parágrafo sozinha. Edição do autor: divide parágrafos em
+   16 de 16 posts (174 divisões; 115 em parágrafos do próprio rascunho).
+   Evidência: «Parece uma blindagem completa. Não é.» (a-anatomia-e-o-verdadeiro-risco-do); «Ficar
+   custou caro. Sair também.» (should-i-stay-or-should-i-go); «Kojirō morreu ali, na areia.»
+   (samurais-e-duelos-no-mercado-financeiro).
+
+2. **Dois-pontos é o articulador principal** — anuncia definição, resposta, revelação ou lista
+   (16 de 16 posts; site: 14,3 por mil palavras). `[cross-gênero]`
+   Evidência: «O lastro era outro: debêntures emitidas pelas próprias empresas do grupo.»
+   (a-anatomia-e-o-verdadeiro-risco-do); «O que define o caos é outra coisa: a sensibilidade às
+   condições iniciais.» (borboletas-caos-e-carreira).
+
+3. **Glosa e inciso vão entre parênteses; aposto, entre vírgulas; travessão é raro.** O parêntese é
+   o veículo da glosa em 16 de 16 posts. O travessão some da prosa em 8 de 16, inclusive nos quatro
+   últimos; no site fica em 3,9 por mil palavras. Teto prático: cerca de 3 por mil, nunca em título
+   ou subtítulo. Edição do autor: corta 46% dos travessões do `post.md` (236 → 127).
+   Evidência: «convexa (no sentido do cálculo: arqueada para cima, como o fundo de uma tigela)»
+   (a-corda-e-o-arco); «Os atalhos (decorar fórmulas, dominar uma ferramenta específica, apertar
+   botão) são exatamente o que a IA vai comoditizar.» (borboletas-caos-e-carreira).
+
+4. **Ênfase com função, e só com função.**
+   - **Negrito** na frase-tese (9 posts), no termo-chave na primeira definição (7) e em nome
+     próprio ou obra na primeira menção. Sem cota: a média no site é 4 por mil palavras, mas varia
+     de zero (frequencia-de-capitalizacao) a ~8 por mil (coqueiros-e-cacaueiros). Nunca negrito
+     espalhado em todo substantivo. Presente em 27 dos 31 posts do site.
+   - **Itálico** em estrangeirismo, variável e título de obra (16 de 16). Ênfase de palavra única
+     em itálico, rara.
+   - **Aspas curvas.** Simples para termo mencionado ou tomado com distância; duplas para citação,
+     fala e expressão de mercado entre aspas. Nunca aspas retas no texto final.
+   Edição do autor: acrescenta 128 negritos e 60 itálicos e corta 93 aspas simples de ênfase.
+   Evidência: «**Raiva de você mesmo vira paralisia.**» (samurais-e-duelos-no-mercado-financeiro);
+   «Essa é a **convenção de capitalização**: linear ou composta.»
+   (voce-esta-contando-os-dias-errado); «qual fonte de captação — o *funding* — saía mais barata»
+   (a-anatomia-e-o-verdadeiro-risco-do); «era uma taxa ‘efetiva-dia’, acumulada de forma composta»
+   (a-corda-e-o-arco); «A B3 chama a convenção de 252 dias úteis de “conversão exponencial 252”»
+   (frequencia-de-capitalizacao).
+
+5. **Subtítulo H2 por movimento do argumento, como frase-tese ou figura, nunca rótulo.** Um a cada
+   ~190–440 palavras (16 de 16). O nome de um movimento da estrutura ("Fechamento", "Movimento 7")
+   não vira título. Edição do autor: tira "Fechamento:" de H2 em 3 posts e encurta subtítulos.
    `[cross-gênero]`
-   Evidência: "O Goal Based Investing, ou investimento baseado em objetivos..." (objetivos);
-   "Definição 1.1.1 (Espaço de Probabilidade)..." (dissertação); "LFT Letra Financeira do
-   Tesouro), título pós-fixado..." (tesouro_selic).
-   ✅ "O COE (Certificado de Operação Estruturada) costuma pagar bem ao assessor."
-   ❌ "O COE costuma pagar bem ao assessor." *(sem gloss, pressupõe conhecimento)*
+   Evidência: «## Render todo dia não é render mais» (frequencia-de-capitalizacao); «## Se tudo é
+   caos, para que escolher?» (borboletas-caos-e-carreira).
 
-2. **Exemplo sempre depois do conceito, nunca antes.** `[cross-gênero]`
-   Evidência: "Exemplo 1.5.1. Consideremos..." sempre após a Definição (dissertação);
-   "Pedro é um engenheiro, casado..." aparece depois de definir GBI (objetivos); exemplo
-   numérico do Tesouro Selic aparece após a definição do título (tesouro_selic).
+6. **Nenhuma exclamação no corpo do texto** (16 de 16 posts da era pipeline; site: 0,05 por mil).
+   A intensidade vem da frase curta, não do ponto.
+   Evidência: «Quero muito saber qual foi.» (coqueiros-e-cacaueiros); «Promessa é dívida.»
+   (a-anatomia-e-o-verdadeiro-risco-do).
 
-3. **Dois-pontos como articulador de definição, nunca travessão triplo nem dois-pontos
-   soltos sem função.** `[cross-gênero]`
-   Evidência: "Agregação Estável: A composição..." (separação); "Chegamos assim a:"
-   (dissertação); "A pergunta óbvia é: isso funciona?" (simples).
+### Arquitetura
 
-4. **Nunca usa negrito ou itálico de ênfase — aspas simples fazem esse trabalho.**
-   Confirmado em 5 dos 6 posts de Substack como antipadrão explícito (o sexto, tesouro_selic,
-   tem indícios de perda de formatação na conversão, não confirma nem contradiz).
-   ✅ 'internamente homogêneo' (semelhantes entre si)
-   ❌ **internamente homogêneo** (semelhantes entre si)
-   Nota: itálico aparece pontualmente só para título de obra ou estrangeirismo isolado
-   (ex. *Naive Set Theory*), nunca como ênfase de frase.
+7. **Abre numa cena ou num caso concreto antes de qualquer conceito** — caso real datado, cena
+   pessoal, ou enigma numérico (14 de 16; ausente só na voz explicativa). Datado quando houver data.
+   Evidência: «Em 1612, numa pequena ilha entre Kyushu e Honshu, um espadachim de 29 anos desceu de
+   um barco» (samurais-e-duelos-no-mercado-financeiro); «Novembro de 2025. O Banco Central decreta
+   a liquidação extrajudicial do Banco Master.» (dividir-para-nao-correr-risco).
 
-5. **Subtítulos H2 densos, um por movimento do argumento, sempre.**
-   Confirmado em 6/6 posts de Substack e, com convenção diferente (numeração
-   Capítulo.Seção), na dissertação. `[cross-gênero]`
+8. **No corpo, o conceito vem antes do exemplo** (10 de 16). Exceção: na voz ensaística o caso pode
+   vir antes da ideia (3 posts). `[cross-gênero]`
+   Evidência: «A taxa efetiva, i, é o que de fato rendeu no fim do ano:» (frequencia-de-capitalizacao);
+   contraexemplo ensaístico: «Agora traga isso para a sua carreira.» (coqueiros-e-cacaueiros).
 
-6. **Autoridade construída citando estudo acadêmico nomeado — autor(es) e ano — nunca por
-   afirmação de credencial própria.**
-   Evidência: "Kinlaw, Kritzman e Turkington 2021" (separação, objetivos); "Victor DeMiguel,
-   Lorenzo Garlappi e Raman Uppal. Em 2007" (simples); "Andrew Lo, renomado professor do MIT"
-   (objetivos, separação).
-   Confiança: forte nos posts ensaísticos (3/6); não observada nos explicativos.
+9. **Expõe a versão corrente, concede a parte válida e a corrige** — discorda de crenças e leituras,
+   nunca de pessoas (16 de 16).
+   Evidência: «A versão que se conta sobre debênture é simples.» (renda-fixa-condicoes-variaveis);
+   «É uma ótima história. Só que não aconteceu assim.» (samurais-e-duelos-no-mercado-financeiro);
+   «Para ele, se você consegue aumentar, não é sorte, é trabalho. No rigor, ele tem razão.»
+   (borboletas-caos-e-carreira).
 
-7. **Aposto/parêntese explicativo logo após o termo técnico, frequentemente com travessão
-   duplo.** Confirmado em 5/6 posts de Substack.
-   Evidência: "que você pode assistir de graça no MIT OpenCourseWare -, apresentou..."
-   (objetivos); "possuir um ETF é - na prática e na dor - o mesmo..." (separação).
+10. **Fecha em anel: volta à cena, ao caso ou à conta da abertura** (15 de 16; também em 8 dos 15
+    posts anteriores).
+    Evidência: «Com o que vimos até aqui, dá para reler o caso.» (renda-fixa-condicoes-variaveis);
+    «Mick Jones não escolheu a data da própria saída.» (should-i-stay-or-should-i-go).
 
-8. **Cita instituição/regulador pelo nome quando o produto é regulado (CVM, Banco Central,
-   B3, Copom), sem necessariamente citar o número da norma.**
-   Evidência: "regulamentado pela Comissão de Valores Mobiliários CVM" (assessor);
-   "Comitê de Política Monetária Copom) do Banco Central" (tesouro_selic); "A Resolução CVM
-   175" (separação, este caso cita o número).
+11. **Costura de série: retoma o texto anterior ou a promessa feita, e anuncia o próximo** (14 de 16).
+    Evidência: «No fim do último texto, deixei uma conta para você.» (frequencia-de-capitalizacao);
+    «No último Spoiler, falei sobre os difíceis.» (borboletas-caos-e-carreira).
 
-9. **Placeholder de imagem/gráfico é tratado como parte do argumento, não decoração** — os
-   textos fazem referência verbal ao conteúdo visual ("A fórmula é:", "veja o gráfico
-   abaixo") mesmo quando a imagem em si não está no arquivo. Ao escrever `posts/`, o
-   placeholder `graf-NN`/`ilu-NN` deve ter legenda que realmente carregue informação (ver
-   `CLAUDE.md` sobre os três entregáveis), porque este autor já demonstrou depender do visual
-   para completar o raciocínio, não só ilustrá-lo.
+### Figura, postura e leitor
 
-## 4. Regras condicionadas ao gênero — **as duas vozes**
+12. **Uma metáfora central, muitas vezes nomeada, estendida do título ao fecho** (14 de 16); o
+    rótulo declarado vira vocabulário da série (motor, régua, etiqueta, coqueiros, os difíceis).
+    Evidência: «Chamamos essa contagem de régua.» (a-corda-e-o-arco); «Daqui em diante, vou chamar de
+    ‘coqueiros’ as *skills* que entregam valor relevante com pouco ou nenhum gasto de energia.»
+    (coqueiros-e-cacaueiros); «A B3 não trocou de motor. Trocou de etiqueta.»
+    (frequencia-de-capitalizacao).
 
-O achado mais importante desta extração: os 6 posts de Substack não formam um bloco
-estilístico único. Eles se dividem nitidamente em dois subgêneros, e confundir um com o
-outro é a causa mais provável de um texto "não soar seu".
+13. **Autoridade por fonte nomeada — estudo (autor, ano), lei pelo número, regulador pelo nome —,
+    nunca por credencial própria** (15 de 16). A norma vai pelo número quando o dispositivo é o
+    ponto (9 posts). `[cross-gênero]`
+    Evidência: «Thomas Ho e Anthony Saunders, num artigo de 1981 no Journal of Financial and
+    Quantitative Analysis» (dividir-para-nao-correr-risco); «Pelo art. 52 da Lei nº 6.404/1976, a
+    Lei das S.A., ela dá ao titular um direito de crédito» (renda-fixa-condicoes-variaveis).
 
-### 4.1 Voz ensaística (`separação`, `objetivos`, `simples`, `assessor`)
+14. **Termo técnico glosado na primeira ocorrência, em parêntese, com definição funcional curta**
+    (16 de 16; siglas glosadas no site: 52%). O jargão que o leitor daquele texto já domina pode
+    ficar sem glosa (6 posts de carreira). `[cross-gênero]`
+    Evidência: «CVM (Comissão de Valores Mobiliários)» (a-anatomia-e-o-verdadeiro-risco-do); «numa
+    mesa de banco, de gestora ou de corretora (no mercado, ‘mesa’ é a equipe de uma área, como renda
+    fixa ou ações)» (should-i-stay-or-should-i-go).
 
-- Abre com anedota pessoal ou pergunta provocativa, não com definição.
-- Primeira pessoa presente (singular para memória/opinião, plural para conduzir o leitor).
-- Humor e ironia leve constantes, sobretudo contra a própria indústria financeira.
-- Metáfora e analogia frequentes (Ferrari/motor de uno, besta indomável, prateleira,
-  coreografia), embora raramente retomadas no fechamento.
-- Pergunta retórica como ferramenta de argumentação, não só de transição.
-- Fecha com CTA de compartilhamento e gancho para o próximo texto.
-- Admite exceção/incerteza pontualmente quando o argumento é genuinamente contestável.
+15. **Imperativo que conduz o raciocínio, não que vende** — "Repare", "Pense", "Volte", "Imagine"
+    (14 de 16).
+    Evidência: «Repare no detalhe: 252 é uma convenção, não uma contagem.»
+    (voce-esta-contando-os-dias-errado); «Agora quebre a premissa.» (quando-os-modelos-se-rebelam).
 
-### 4.2 Voz explicativa (`tesouro_selic`, `títulos_do_tesouro_nacional`)
+16. **Admite limite.** Na voz ensaística, com hedge pessoal; nas outras, com limite factual ("em
+    tese", "cerca de", "pelo menos") (15 de 16).
+    Evidência: «Por quê? Sinceramente, não sei até hoje.» (borboletas-caos-e-carreira); «A espécie
+    define, em tese, o seu lugar na fila se a empresa quebrar. Em tese, porque»
+    (renda-fixa-condicoes-variaveis).
 
-- Abre com epígrafe de terceiro ou direto na definição — nunca com anedota própria.
-- Terceira pessoa impessoal quase absoluta; primeira pessoa plural só para anunciar
-  continuidade editorial ("discutimos", "abordaremos").
-- Sem humor, sem ironia, sem tratamento de contra-argumento ou risco em tom alarmado.
-- Praticamente nenhuma metáfora — a única figura por texto (se houver) não é retomada.
-- Nunca admite incerteza; tom categórico do início ao fim.
-- Sem CTA ao final; termina descrevendo o produto.
+17. **Humor seco, ocasional, nas três vozes** — no máximo uma vez por bloco, sem piada marcada
+    (14 de 16).
+    Evidência: «Promessa é dívida. E, neste texto, a palavra *dívida* vai aparecer bastante.»
+    (a-anatomia-e-o-verdadeiro-risco-do); «Foi buscar um café.» (borboletas-caos-e-carreira).
 
-**Como decidir qual voz usar:** se o post tem tese defensável ou opinião (ex.: "você precisa
-de um assessor?", "o simples funciona"), é ensaístico. Se o post é referência de produto
-("o que é o Tesouro Selic"), é explicativo. Um post de referência escrito em voz ensaística
-vai soar como se estivesse "vendendo" o produto; um post de tese escrito em voz explicativa
-vai soar como se não tivesse opinião nenhuma — os dois são desvios perceptíveis.
+18. **Registro culto com coloquialismo e ditado encaixados; "te" convive com "você"** (15 de 16).
+    Evidência: «Juro simples é coisa de livro escolar e de agiota de bairro.» (a-corda-e-o-arco);
+    «Até aqui, é o que qualquer material de corretora te conta.» (dividir-para-nao-correr-risco).
 
-### 4.3 Voz acadêmica (dissertação — não usar em Substack, mas informa registro técnico)
+19. **Dado com data e fonte; números no padrão brasileiro** (14 de 16).
+    Evidência: «O estoque de LCI saiu de R$ 141 bilhões ao final de 2020 para R$ 544 bilhões em junho
+    de 2026» (dividir-para-nao-correr-risco); «Num CDB prefixado à mesma taxa, o rendimento é de
+    R$ 67.707,83.» (a-corda-e-o-arco).
 
-Terceira pessoa/primeira do plural de modéstia, nunca singular; zero metáfora; estrutura
-Definição→Teorema→Demonstração→Corolário rígida; nunca fecha com síntese reflexiva, termina
-no último resultado técnico. **Não é uma voz para Substack** — mas o rigor de sempre definir
-antes de usar (regra 1) vem daqui, e é o traço mais valioso a preservar ao adaptar conteúdo
-técnico para o público leigo.
+20. **Antítese corretiva em duas frases ("não é X. É Y.") carrega a tese e as viradas — com teto.**
+    Está nos 16 posts da era pipeline e nos rascunhos do autor na mesma taxa (0,83 por mil contra
+    0,81 do pipeline); o autor não a corta. Os extratores a marcam como possível tique de IA quando
+    vem em série. Teto: cerca de uma por seção, nunca duas seguidas, nunca como fecho automático de
+    todo bloco (decisão do autor, 2026-11-16).
+    Evidência: «Securitizar muda o endereço do risco. Não muda o tamanho dele.»
+    (a-anatomia-e-o-verdadeiro-risco-do); «Capitalização não é lei da natureza. É cláusula.»
+    (a-corda-e-o-arco).
+
+## 4. As três vozes
+
+A linha editorial (Spoiler, Notas de um Professor) e a voz são eixos separados. Na prática, desde
+outubro de 2026, Spoiler usa a ensaística e Notas usa a ensaística em registro técnico; a
+explicativa não aparece desde 20/09/2026.
+
+### 4.1 Ensaística (8 dos 16 posts da era pipeline; o-simples-funciona e eu-preciso-de-um-assessor antes)
+
+- Abre em cena pessoal ou histórica; primeira pessoa do singular confessional ou opinativa.
+- Tom de mentor para quem começa; antecipa o que o leitor já viveu («Você provavelmente já
+  desconfiava disso.», o-mundo-invertido-dos-investimentos).
+- Vocabulário de finanças como metáfora de carreira e vida («Ela muda a taxa de câmbio: a mesma hora
+  de estudo rende mais onde você tem facilidade.», coqueiros-e-cacaueiros).
+- Analogia autobiográfica da formação em matemática como ponte (borboletas, coqueiros, o mundo
+  invertido das carreiras, should; antes: a ciência da separação, ivy league, o simples funciona).
+- Seção de ressalva que antecipa a leitura errada da própria tese («Este texto tem um risco, e
+  prefiro nomeá-lo», coqueiros-e-cacaueiros).
+- Fonte citada pelo nome no corpo, sem referência formal; matemática verbalizada, sem notação.
+- Fecho: pedido de resposta pessoal ou CTA de compartilhamento condicionado ao efeito do texto,
+  nunca genérico («Se você reconheceu seu próprio primeiro ano de investidor em algum parágrafo aí
+  de cima, mande esse texto pra alguém», o-mundo-invertido-dos-investimentos).
+- Pergunta retórica como ferramenta em parte dos posts (frequente em borboletas, samurais, should);
+  nunca como abertura automática de seção.
+
+### 4.2 Ensaística em registro técnico (6 dos 16; a ciência da separação, goal-based-investing e ivy league já em jan–mar/2026)
+
+Estrutura de ensaio com corpo de aula. É a voz padrão da linha Notas de um Professor.
+- Gancho por caso real datado ou enigma numérico.
+- **Tese em refrão de duas frases**, plantada na abertura e repetida no fecho (literal em anatomia,
+  corda, frequência, renda fixa).
+- Glosa sistemática; fórmula display anunciada por dois-pontos e glosada depois ("onde", "em que")
+  («O montante cresce em progressão geométrica:», a-corda-e-o-arco); conta resolvida até o número
+  final.
+- Quadro de perguntas: roteiro no começo e/ou checklist no fim («Antes de olhar a taxa, quatro
+  perguntas:», a-anatomia-e-o-verdadeiro-risco-do).
+- Primeira pessoa só para costurar a série; "você" didático.
+- Fecho técnico: «Se o texto funcionou, você consegue … sozinho» + exercício + "Para continuar
+  aprendendo", com referências comentadas pela função da obra (a-corda-e-o-arco,
+  frequencia-de-capitalizacao).
+- Estrutura de aula detalhada em `docs/BACKWARDS_DESIGN.md` (Ficha de Saída, movimentos).
+
+### 4.3 Explicativa (em desuso desde set/2026: o-papel-do-cdb e o-agro-e-pop; 9 posts de 2024–2025)
+
+- Referência de produto ou conceito sem tese em disputa; abre com tese aforística ou definição,
+  nunca com anedota.
+- Terceira pessoa; primeira pessoa só para continuidade da série.
+- Categórica no conteúdo, mas admite limite factual («nem o regulador nem o investidor têm hoje uma
+  forma simples de medir a proporção exata.», o-agro-e-pop-o-agro-e-produto-financeiro).
+- Sem CTA em prosa.
+
+### 4.4 Acadêmica (dissertação — não usar em Substack)
+
+Terceira pessoa ou plural de modéstia; Definição → Teorema → Demonstração; zero metáfora. Daqui vem o
+rigor de definir antes de usar (regra 14).
+
+**Como decidir a voz.** Tese defendida com memória ou opinião pessoal → ensaística. Conceito ou
+produto ensinado com tese em refrão e conta → ensaística em registro técnico. Verbete de produto sem
+tese → explicativa (hoje rara). Escolha antes da primeira frase e registre no briefing.
 
 ## 5. Movimentos aspiracionais
 
-Extraídos de Michael Lewis (3 textos), Ernest Hemingway (3 contos) e Malcolm Gladwell
-(2 textos) — ver `_arquivo/MANIFESTO.md` para proveniência. São *procedimentos*, não
-vocabulário. Cada um marcado com gatilho de uso.
+Extraídos de Michael Lewis, Ernest Hemingway e Malcolm Gladwell (`_arquivo/MANIFESTO.md`).
+Procedimento, nunca vocabulário. Desde a v2.0.0, a cena datada antes da tese (Lewis, antigo
+movimento 1) e "validar a intuição, miná-la, fechar em aforismo" (Gladwell, antigo 8) são traços
+medidos da voz (regras 7 e 9) e saíram desta camada. O aside irônico com travessão (antigo 2) saiu:
+contraria a direção medida da regra 3; o aparte irônico do autor vai em parêntese.
 
-### Michael Lewis
-1. **Abre com cena datada e concreta antes da tese.** *Já parcialmente presente (voz
-   ensaística abre com anedota) — reforça, não contradiz.* Gatilho: usar quando o post tiver
-   um evento real e datável para ancorar (uma crise, uma mudança de norma), não só uma
-   memória vaga.
-2. **Travessão duplo para aside irônico do narrador.** *Já presente na voz atual.* Reforço
-   direto — regra 7 ganha confiança extra por aparecer também nos admirados.
-3. **Admite os limites do próprio entendimento técnico e transfere a validação para a
-   credencial da fonte, em vez de fingir domínio.** Gatilho: em conteúdo que toca
-   matemática financeira avançada (ex. derivativos, otimização), preferir "não vou entrar no
-   mecanismo — mas quem entende, [autor X], diz que..." a uma explicação simplificada demais.
-
-### Ernest Hemingway
-4. **Confiar no leitor: omitir a explicação do porquê e deixar a justaposição de fatos
-   carregar o sentido.** Gatilho: em vez de "isso é preocupante porque X", tentar "isso
-   aconteceu. Depois aconteceu Y." e deixar o leitor concluir — usar com moderação, só em
-   momentos de maior impacto (não substitui a regra 1, que é sobre jargão, não sobre
-   argumento).
-5. **Repetir a palavra-chave em vez de variar por sinônimo, para construir insistência.**
-   *Já presente em grau leve (repetição de "ingênuo" em `simples`).* Gatilho: quando o
-   argumento gira em torno de reabilitar um termo (como "ingênuo" ou "simples"), repetir a
-   palavra-alvo em vez de driblar com sinônimos.
-
-### Malcolm Gladwell
-6. **Definir termo técnico/estatístico no instante exato em que ele aparece, em linguagem
-   leiga, sem deixar pairando.** *Já é a regra 1 deste guia — coincidência forte entre voz
-   atual e autor admirado.* Regra forte, não aspiracional.
-7. **Estruturar o argumento como acúmulo de casos numerados (1, 2, 3...) que testam a tese,
-   em vez de dedução linear sob um único subtítulo.** Gatilho: para posts ensaísticos
-   longos com mais de um exemplo/fonte, considerar numerar os casos em vez de escondê-los
-   sob subtítulos temáticos — ainda não testado nesta voz.
-8. **Validar a intuição comum do leitor primeiro, minar caso a caso, só then declarar a tese
-   invertida como aforismo curto.** Gatilho: para posts que combatem uma crença popular
-   (ex. "diversificação simples supera modelo complexo"), abrir confirmando a crença ("todo
-   mundo acha que...") antes de desmontá-la — `simples_funciona` já faz uma versão disso
-   com Markowitz; vale generalizar.
+1. **Admitir o limite do próprio entendimento técnico e transferir a validação à fonte** (Lewis).
+   Sem evidência nos 31 posts. Gatilho: matemática financeira avançada que o texto não vai provar.
+2. **Confiar no leitor: omitir o porquê e deixar a justaposição falar** (Hemingway). Sem evidência
+   na era pipeline. Gatilho: um momento de maior impacto por post ensaístico; nunca no lugar da
+   regra 14.
+3. **Repetir a palavra-chave em vez de variar** (Hemingway). Presente em 3 posts. Gatilho: quando o
+   argumento reabilita um termo.
+4. **Casos numerados que testam a tese** (Gladwell). Hoje a numeração aparece como passos ou sinais
+   prescritivos (5 posts), não como casos que testam. Gatilho: post ensaístico longo com mais de uma
+   fonte.
 
 ## 6. Tensões conhecidas
 
-- **Regra 1 (nunca deixar jargão sem explicar) vs. movimento aspiracional 4 (Hemingway:
-  confiar no leitor, omitir).** A voz atual tende a fechar todo loop explicativo; Hemingway
-  abre mão disso deliberadamente. Não resolvido — decisão por post: em conteúdo didático
-  (voz explicativa), regra 1 vence sempre; em conteúdo ensaístico/opinativo, testar omitir
-  a explicação óbvia uma vez por texto e ver se o efeito funciona.
-- **Voz ensaística busca humor e ironia; voz acadêmica (dissertação) e explicativa evitam
-  qualquer humor.** Não é uma tensão a resolver — é a fronteira do §4. O risco é aplicar
-  humor num post explicativo "porque é a voz do autor" quando na verdade não é, para esse
-  subgênero.
-- **Metáfora raramente retomada no fechamento (traço atual) vs. Gladwell/Lewis que
-  constroem o texto inteiro em torno de uma imagem sustentada.** Aspiracional ainda não
-  testado — a hipótese é que retomar a metáfora de abertura no fechamento fortaleceria os
-  posts ensaísticos sem forçar a voz.
+- **Antítese corretiva: voz ou tique?** Ver regra 20. O autor a escreve no rascunho e a mantém no
+  site; em série, ela vira cadência mecânica. O teto resolve na prática; a medida (Fase E) decide se
+  ele está certo.
+- **Era pipeline mistura autor e sistema.** Os 16 posts recentes passaram por edição do pipeline;
+  as regras de forma se apoiam no que o autor fez na publicação (edições), que é sinal só dele.
+- **Regra 14 × movimento 2 (omitir).** Resolvida a favor da regra 14 nas três vozes; o movimento 2
+  fica para um momento por post ensaístico.
 
 ## 7. Antipadrões
 
-### 7.1 Meus (confirmados por evidência do corpus)
-- Nunca usar negrito/itálico de ênfase (regra 4).
-- Nunca apresentar tabela ou gráfico nativo — sempre placeholder de imagem (nota: parte
-  disso é artefato de conversão dos arquivos fornecidos, não necessariamente escolha
-  deliberada; sinalizado como incerteza em quase todas as extrações — reavaliar quando
-  houver amostra com imagem/gráfico preservado).
-- Na voz explicativa: nunca admitir incerteza, nunca contra-argumento, nunca humor — não são
-  "erros", são a assinatura desse subgênero; o erro é usar isso na voz ensaística.
+### 7.1 Confirmados pela edição do autor (ele corta ou troca no site)
 
-### 7.2 Tiques de texto gerado por IA em pt-BR (ver `pesquisa/frente-d-antipadroes-ia-ptbr.md`
-para a lista completa de 43 pares ❌/✅ em 12 categorias)
-Os mais relevantes para este autor, por já andar perto da linha:
-- ❌ "É importante ressaltar que..." → ✅ cortar a frase, ir direto ao ponto (o autor já faz
-  isso — só reforçando o limite).
-- ❌ Fechos genéricos ("em suma, é essencial...") → ✅ o autor já fecha com CTA específico de
-  newsletter ou gancho para o próximo texto — nunca com resumo genérico. Preservar.
-- ❌ Tríade de adjetivos/exemplos previsível → observar ao gerar; o corpus não mostra esse
-  tique, não introduzir.
-- Ver `pesquisa/frente-d-antipadroes-ia-ptbr.md` para a lista completa antes de qualquer
-  revisão final (etapa 6 do pipeline).
+- Travessão acima do teto, em subtítulo ou como continuação de subtítulo ("— e por que…").
+- Parágrafo longo (acima de ~60 palavras) sem quebra.
+- Aspas simples de ênfase onde cabe itálico (estrangeirismo) ou nada.
+- Rótulo de movimento em H2 ("Fechamento: …").
+- Dado trazido pela pesquisa que não serve ao argumento (o autor cortou 1.123 palavras assim).
+- Resíduo do processo no texto: `[VERIFICAR]`, `[FAIXA]`, `[PREENCHER]`, `[LINK: …]`, menção a
+  "etapa" do pipeline.
+- Seção final "Conclusão" que só recapitula (frequente nos posts de 2024, ausente desde 2026).
+- Exclamação no corpo.
+
+### 7.2 Tiques de IA calibrados (medidos contra o texto do autor)
+
+O pipeline já não produz os tiques genéricos da lista em `pesquisa/frente-d-antipadroes-ia-ptbr.md`
+(taxa ~0 em todos os grupos; ver `pesquisa/epico-revisao-editorial/01-diagnostico.md` D6). Vigiar:
+- **Cortados pelo autor:** travessão denso; construções "— não …", "— a …", "— o …" (sobrevivem 43–58%).
+- **Marcados pelos extratores, com teto:** antítese "não é X. É Y." em série; teaser ou metadiscurso
+  de anúncio ("O interessante começa agora", "Aqui mora…", "É aí que entra…"); fecho-síntese de
+  fórmula ("Dito direto:", "Se fosse para levar uma única ideia…"); tríade em série; frase-golpe em
+  série.
+- **Não é tique (não "corrigir"):** glosa entre parênteses (o autor mantém 85–100%); negrito em
+  nome, definição e frase-tese; pergunta retórica com função.
 
 ## 8. Em observação
 
-Evidência insuficiente (uma ocorrência só, ou só num arquivo) para virar regra — candidatos a
-promover quando `/forja-de-voz atualizar` rodar com mais amostras:
-- Uso de reticências para sugerir continuidade/exemplos abertos (1 ocorrência clara, em
-  `objetivos`).
-- Analogia autobiográfica ligada à formação em matemática como ponte para conceito abstrato
-  (aparece em `objetivos` e `simples` — na fronteira de virar regra; falta uma terceira
-  ocorrência independente para confirmar).
-- Tom irônico dirigido especificamente à "indústria financeira" como antagonista coletivo,
-  nunca a uma pessoa nomeada (padrão em 3 textos ensaísticos — pode já merecer promoção na
-  próxima atualização, mantido aqui por cautela nesta v1.0.0).
-- Nenhuma amostra de LinkedIn foi fornecida nesta rodada — `_arquivo/amostras/proprias/linkedin/`
-  está vazio. Todo traço "condicionado ao gênero Substack" pode, na verdade, ser condicionado
-  a "não-LinkedIn" — não há como saber ainda.
+Evidência insuficiente para regra; candidatos para a próxima colheita (`/forja-de-voz colher`):
+- Pergunta retórica: frequente em 6 posts, evitada ou convertida em afirmação em 7. A frequência
+  depende do post.
+- Ironia contra a indústria e o material de venda como antagonista coletivo, nunca pessoa nomeada:
+  6 posts da era pipeline e 7 anteriores. Candidata forte a regra na próxima versão.
+- Citação em bloco para destacar frase do próprio autor (5 posts).
+- Imagem antes do primeiro parágrafo (5 posts).
+- Figura anunciada por frase com dois-pontos ("Lado a lado com os produtos dos textos anteriores:"),
+  sem legenda (6 posts, só nas vozes técnica e explicativa). O placeholder com legenda e alt-text é
+  regra do pipeline (`.claude/agents/prompts-visuais.md`), não da voz.
+- LinkedIn: nenhuma amostra. Todo traço "de Substack" pode ser, na verdade, "de não-LinkedIn".
 
 ## 9. Checklist de aderência
 
-Dez itens verificáveis, usados no modo `auditar` de `/forja-de-voz`:
+Usado no modo `auditar` de `/forja-de-voz`. Os itens marcados (m) são mecânicos e conferidos por
+script (`scripts/checar_post.py`, onda 2 do épico).
 
-1. Todo termo técnico tem gloss ou definição na primeira ocorrência? (regra 1)
-2. O exemplo aparece depois do conceito, nunca antes? (regra 2)
-3. Zero negrito/itálico de ênfase no corpo do texto? (regra 4)
-4. Cada seção tem subtítulo H2? (regra 5)
-5. Alguma afirmação de peso é sustentada por autor+ano citado nominalmente, não por "estudos
-   mostram"? (regra 6)
-6. O texto está claramente numa das duas vozes (§4) e não mistura os dois tons no mesmo post?
-7. Se é voz ensaística: tem CTA de compartilhamento e gancho final? Tem ao menos uma
-   pergunta retórica genuína (não decorativa)?
-8. Se é voz explicativa: está livre de humor, primeira pessoa singular e admissão de
-   incerteza?
-9. Nenhum tique de IA da lista em `pesquisa/frente-d-antipadroes-ia-ptbr.md` sobreviveu à
-   revisão de linha?
-10. Instituição/norma citada (se houver) está com nome correto e, quando relevante, número
-    da resolução/lei?
+1. A voz foi escolhida (§4) e o texto não mistura as três?
+2. (m) Parágrafo médio perto de 35 palavras, sem parágrafo acima de ~90? (regra 1)
+3. (m) Travessão abaixo de ~3 por mil palavras e nenhum em título ou subtítulo? (regra 3)
+4. Negrito, quando houver, só em frase-tese, termo-chave e nome/obra (sem cota); itálico em
+   estrangeirismo; aspas curvas com função? (regra 4)
+5. (m) H2 como frase-tese, sem rótulo de movimento? (regra 5)
+6. (m) Nenhuma exclamação no corpo? (regra 6)
+7. Abre em cena ou caso, e fecha voltando a ele? (regras 7 e 10)
+8. Todo termo técnico central glosado na primeira ocorrência, em parêntese? (regra 14)
+9. Afirmação de peso sustentada por fonte nomeada, lei pelo número ou conta? (regra 13)
+10. Antítese "não é X. É Y." dentro do teto, e nenhum tique da §7.2 em série? (regra 20)
+11. (m) Nenhum resíduo do processo (`[VERIFICAR]`, `[FAIXA]`, `[PREENCHER]`, `[LINK:`, "etapa" do
+    pipeline)? (§7.1)
+
+## 10. Corpus e método (v2.0.0)
+
+- **Corpus.** 31 posts publicados, capturados do site (`_arquivo/publicados/`, normalizados em
+  `estilo/corpus/publicados/`), mais a dissertação. Os 16 da era pipeline (ago–nov/2026) descrevem a
+  voz atual; os 15 anteriores (2024–mar/2026) são linha de base. As 6 amostras de Substack da v1 saíram
+  do agregado: a conversão apagou o negrito e trocou aspas duplas por simples
+  (`pesquisa/epico-revisao-editorial/00-corpus.md` §5).
+- **Edições do autor** entre o `post.md` final e o site (`estilo/corpus/edicoes/`) contam como
+  evidência de primeira classe: reversão ou acréscimo que se repete em 3 ou mais posts é evolução
+  deliberada.
+- **Linha de base pré-pipeline.** 14 dos 15 posts anteriores têm tiques de IA marcados pelos
+  extratores, sobretudo na seção "Conclusão"; eu-preciso-de-um-assessor declara o uso do ChatGPT numa
+  lista. Sem recorte, só o-simples-funciona e o-portfolio-da-ivy-league; etf-o-que-e e tesouro-selic
+  ficam fora da base; os demais entram sem a Conclusão e sem os trechos marcados
+  (`pesquisa/epico-revisao-editorial/dados/d1-agregacao-pre-pipeline.md` §E).
+- **Medidas.** `estilo/scripts/metricas.py`, `estilo/scripts/estratos.py`; extrações qualitativas em
+  `estilo/extracoes/proprias/publicados/`, agregadas em `pesquisa/epico-revisao-editorial/dados/`.

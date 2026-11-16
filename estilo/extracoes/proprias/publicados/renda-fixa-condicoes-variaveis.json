@@ -1,0 +1,724 @@
+{
+  "arquivo": "estilo/corpus/publicados/renda-fixa-condicoes-variaveis.md",
+  "genero": "substack",
+  "palavras": 4479,
+  "eixos": {
+    "lexico": [
+      {
+        "traco": "Campo semântico jurídico-contratual domina o texto (escritura ~26x, fila ~14x, maioria ~12x, garantia ~16x, quirografária ~11x, além de comunhão, quórum, assembleia, homologação, vencimento antecipado).",
+        "frequencia": "frequente",
+        "ocorrencias": 80,
+        "evidencias": [
+          "Na debênture, entre você e a empresa não há banco, não há securitizadora, não há fundo garantidor. Há uma escritura.",
+          "A escritura fixa a maioria necessária para mudar as condições do título",
+          "Os debenturistas de uma mesma emissão ou série formam uma comunhão e decidem em assembleia (art. 71)."
+        ]
+      },
+      {
+        "traco": "Sigla é sempre expandida entre parênteses na primeira ocorrência, inclusive siglas comuns de mercado (CDI, IPCA, IR, CVM, STJ, CDB).",
+        "frequencia": "sempre",
+        "ocorrencias": 18,
+        "evidencias": [
+          "detentores de CRIs (Certificados de Recebíveis Imobiliários)",
+          "o CMN (Conselho Monetário Nacional) restringiu o lastro de CRI e CRA",
+          "a CVM (Comissão de Valores Mobiliários) pode autorizar quórum menor"
+        ],
+        "contraexemplo": "Entre eles estão Itaú, Rabobank, HSBC, BTG Pactual e a Itaú Asset."
+      },
+      {
+        "traco": "Termo técnico vem glosado logo depois do uso, por parêntese, aposto ou 'ou seja'; a glosa é curta e em palavras comuns.",
+        "frequencia": "sempre",
+        "ocorrencias": 35,
+        "evidencias": [
+          "R$ 4,57 bilhões em dívida quirografária, ou seja, sem garantia",
+          "Tem risco de crédito (o risco de a empresa não pagar), claro.",
+          "o prazo de cura (o tempo que a devedora tem para corrigir a falha antes do vencimento antecipado)"
+        ]
+      },
+      {
+        "traco": "Anglicismo de mercado é aceito, mas sempre em itálico e glosado na primeira ocorrência (spread 19/19 em itálico; covenants, duration, bullet, ticket). Às vezes descreve o conceito antes e só depois dá o rótulo em inglês.",
+        "frequencia": "frequente",
+        "ocorrencias": 28,
+        "evidencias": [
+          "CDI mais um *spread* (uma taxa fixa somada ao CDI), como CDI + 1,5% ao ano;",
+          "O mercado chama essas cláusulas de *covenants*.",
+          "um *ticket* mínimo (o valor mínimo exigido para participar)"
+        ],
+        "contraexemplo": "sobre o EBITDA (o lucro operacional antes de juros, impostos, depreciação e amortização"
+      },
+      {
+        "traco": "Registro formal e preciso, entremeado de palavras do cotidiano para nomear o risco (calote, quebrar, letra miúda, atalho, prateleira).",
+        "frequencia": "ocasional",
+        "ocorrencias": 8,
+        "evidencias": [
+          "os gatilhos que avisam antes do calote e o voto",
+          "e, em letra miúda, na **escritura** de qualquer debênture",
+          "A espécie define, em tese, o seu lugar na fila se a empresa quebrar."
+        ]
+      },
+      {
+        "traco": "Repete o substantivo-chave em vez de trocá-lo por sinônimo ou pronome (escritura, maioria, fila), inclusive na mesma frase.",
+        "frequencia": "frequente",
+        "ocorrencias": 10,
+        "evidencias": [
+          "Quem prometeu foi a escritura, e a escritura nunca prometeu sozinha",
+          "O que decide o seu resultado está na escritura, e quase ninguém lê a escritura.",
+          "Entre você e a empresa há a escritura, e a escritura obedece à maioria."
+        ]
+      }
+    ],
+    "sintaxe": [
+      {
+        "traco": "Frase média de ~16 palavras (mediana ~14, desvio ~11), com forte alternância: ~46 frases de até 6 palavras e ~22 acima de 35 palavras, as longas reservadas à exposição jurídica.",
+        "frequencia": "frequente",
+        "ocorrencias": 244,
+        "evidencias": [
+          "Eles não assinaram.",
+          "A homologação vale para eles também.",
+          "Desde a Lei nº 14.711/2023, a CVM (Comissão de Valores Mobiliários) pode autorizar quórum menor em companhia aberta cujas debêntures estejam dispersas no mercado"
+        ]
+      },
+      {
+        "traco": "Frase curta e declarativa isolada em parágrafo próprio, fechando um bloco expositivo como conclusão ou virada.",
+        "frequencia": "frequente",
+        "ocorrencias": 27,
+        "evidencias": [
+          "A debênture quirografária recebe depois do Fisco.",
+          "Empresas que perderam o atalho voltaram para a debênture.",
+          "Nem toda debênture é da empresa que deve."
+        ]
+      },
+      {
+        "traco": "Antítese elíptica em duas frases: afirma a primeira parte e nega (ou confirma) a segunda com verbo omitido ('X. Y, não.').",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "A primeira parte é verdade. A segunda, não.",
+          "A sigla mudou. A fila, não.",
+          "O risco de crédito da empresa não caiu junto com a Selic. A compensação por ele, sim."
+        ]
+      },
+      {
+        "traco": "Par negação–afirmação curto, com o mesmo verbo retomado ('não há X. Há Y.'; 'Não houve X. Houve Y.').",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "Na debênture, não há rede. Há contrato.",
+          "Não houve perdão. Houve mais prazo, decidido de novo em assembleia.",
+          "A isenção da incentivada não é um presente ao investidor. É subsídio à infraestrutura."
+        ]
+      },
+      {
+        "traco": "Enumeração ternária com paralelismo ou anáfora, muitas vezes fechada por um resumo após dois-pontos.",
+        "frequencia": "frequente",
+        "ocorrencias": 8,
+        "evidencias": [
+          "Vai receber outra taxa, outro prazo e outro cronograma, tenha assinado ou não.",
+          "não há banco, não há securitizadora, não há fundo garantidor.",
+          "Prazo mais longo, *spread* menor, principal menor: três jeitos de reduzir o valor de um crédito"
+        ]
+      },
+      {
+        "traco": "Séries de frases paralelas que comparam produtos com o mesmo molde sintático (adjunto locativo anteposto + oração principal: 'Na LCA... No CRA... Na debênture...').",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "Na LCA, quem captava era o banco. No CRA, a empresa captava por meio de uma securitizadora.",
+          "No CRI e no CRA, compra o devedor por meio de um patrimônio separado",
+          "Na debênture, compra o devedor diretamente. Sem rede e sem embalagem."
+        ]
+      },
+      {
+        "traco": "Frase nominal ou fragmento sem verbo após ponto, como sequência de constatações.",
+        "frequencia": "ocasional",
+        "ocorrencias": 5,
+        "evidencias": [
+          "Na fila da falência, atrás do Fisco. Na recuperação extrajudicial, no mesmo grupo dos bancos.",
+          "Sem rede e sem embalagem.",
+          "Três coisas: **o lugar na fila, os gatilhos que avisam antes do calote e o voto**."
+        ]
+      }
+    ],
+    "pontuacao": [
+      {
+        "traco": "Parêntese é o veículo principal de glosa e inciso (~63 no corpo); travessão não aparece nenhuma vez. O único traço longo é o meia-risca em intervalo de páginas.",
+        "frequencia": "frequente",
+        "ocorrencias": 63,
+        "evidencias": [
+          "o patrimônio separado protege você da securitizadora (a empresa que emite o certificado)",
+          "No mercado secundário, onde os títulos são revendidos antes do vencimento, giraram R$ 870,5 bilhões"
+        ],
+        "contraexemplo": "*Journal of Financial Economics*, 7(2), 1979, pp. 117–161."
+      },
+      {
+        "traco": "Dois-pontos como articulador entre anúncio e desdobramento (lista, explicação ou revelação de um termo).",
+        "frequencia": "frequente",
+        "ocorrencias": 42,
+        "evidencias": [
+          "Ou seja: prazo, garantia e cronograma podem mudar sem a sua assinatura",
+          "Agora a palavra que ficou guardada: comunhão.",
+          "Um detalhe do caso: o título que os investidores têm é uma debênture da Vert"
+        ]
+      },
+      {
+        "traco": "Aspas tipográficas curvas duplas para citar a expressão como rótulo ou crença de mercado e para título de artigo; aspas simples curvas uma vez, para termo metalinguístico. Nenhuma aspa reta.",
+        "frequencia": "ocasional",
+        "ocorrencias": 6,
+        "evidencias": [
+          "ao ler “com garantia real”, a pergunta seguinte é sempre a mesma",
+          "“Pós-fixado não oscila” vale para o CDI. Não vale para o devedor.",
+          "nela ‘espécie’ muda de sentido"
+        ],
+        "contraexemplo": "“[Financial contracting under extreme uncertainty: an analysis of Brazilian corporate debentures](https://ideas.repec.org/a/eee/jfinec/v51y1999i1p45-84.html)“"
+      },
+      {
+        "traco": "Ponto e vírgula só em enumeração (itens de lista com marcador e a ordem legal do art. 83).",
+        "frequencia": "ocasional",
+        "ocorrencias": 8,
+        "evidencias": [
+          "créditos trabalhistas até 150 salários mínimos; créditos com garantia real, até o valor do bem; créditos tributários; quirografários; multas; subordinados.",
+          "- IPCA (o índice oficial de inflação) mais uma taxa real (o ganho acima da inflação), como IPCA + 7% ao ano;"
+        ]
+      },
+      {
+        "traco": "Prosa corrida predomina; listas aparecem só para perguntas analíticas (numeradas), formatos de remuneração e referências (com marcador). A primeira lista de perguntas vem em minúsculas, a segunda com maiúscula inicial.",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": [
+          "1. quem deve para você?",
+          "3. quanto isso vale hoje?",
+          "1. Quem é o devedor, e quanto ele deve hoje em relação ao que gera de caixa?"
+        ]
+      },
+      {
+        "traco": "A quebra de parágrafo cai logo antes da frase de virada, que fica sozinha; parágrafo mediano de ~36 palavras.",
+        "frequencia": "frequente",
+        "ocorrencias": 27,
+        "evidencias": [
+          "A homologação vale para eles também.",
+          "A palavra comunhão vai voltar.",
+          "O percentual do CDI é um *spread* que encolhe quando os juros caem."
+        ]
+      }
+    ],
+    "arquitetura": [
+      {
+        "traco": "Abre com cena datada de um caso real recente, montada como paradoxo (perderam sem assinar, e ninguém quebrou regra), antes de qualquer conceito.",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Em 7 de outubro, um grupo de investidores viu as condições das debêntures que tinha comprado serem reescritas por outros credores.",
+          "Eles não assinaram. Segundo a juíza que autorizou a mudança, nenhuma regra foi quebrada."
+        ]
+      },
+      {
+        "traco": "Costura explícita com os textos anteriores da série: retoma a promessa feita, reusa o quadro de perguntas e compara com produtos já tratados.",
+        "frequencia": "frequente",
+        "ocorrencias": 7,
+        "evidencias": [
+          "e prometi que a debênture viria em seguida.",
+          "O salto começou numa história que já contamos.",
+          "No texto do CRA, deixei quatro perguntas. Para a debênture, são cinco"
+        ]
+      },
+      {
+        "traco": "Enuncia a 'versão que se conta' sobre o produto e a desmonta em parte (mito contra regra escrita).",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": [
+          "A versão que se conta sobre debênture é simples.",
+          "Mas as regras estão escritas e não mudam.",
+          "Nenhuma delas funciona como a versão simples da debênture sugere."
+        ]
+      },
+      {
+        "traco": "Tese condensada em refrão curto, plantado no fim da introdução e repetido literalmente no fecho.",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "Na debênture, não há rede. Há contrato.",
+          "E contrato de debênture é coletivo. Muda por maioria.",
+          "E a escritura de uma debênture é coletiva. Muda por maioria entre os debenturistas."
+        ]
+      },
+      {
+        "traco": "Planta um termo para retomar depois e avisa o leitor disso ('vai voltar', 'ficou guardada', 'guarde').",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "A palavra comunhão vai voltar.",
+          "Agora a palavra que ficou guardada: comunhão.",
+          "Guarde essa última parte. A escritura é o produto."
+        ]
+      },
+      {
+        "traco": "Anuncia uma tríade em prosa e a converte em subtítulos H3, na mesma ordem.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Três coisas: **o lugar na fila, os gatilhos que avisam antes do calote e o voto**.",
+          "### O lugar na fila",
+          "### Os gatilhos"
+        ]
+      },
+      {
+        "traco": "Regra primeiro, caso real logo depois para mostrar o mecanismo funcionando (Chilli Beans, Americanas, Raízen, GPA).",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "Um caso do fim de setembro mostra a sequência.",
+          "Em 2023, os agentes fiduciários das debêntures da Americanas comunicaram o vencimento antecipado automático",
+          "No texto do CRA, a Raízen mostrou o mesmo fenômeno pelo outro lado"
+        ]
+      },
+      {
+        "traco": "Quadro de perguntas numeradas: três perguntas-guia no início e checklist de cinco perguntas antes do fecho.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "boa parte dos erros de análise nasce de misturar três perguntas:",
+          "Para a debênture, são cinco, e quase todas se respondem na escritura"
+        ]
+      },
+      {
+        "traco": "Fecho circular: seção 'De volta ao GPA' relê o caso de abertura com os conceitos do texto, repete a frase da juíza e depois o refrão.",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Com o que vimos até aqui, dá para reler o caso.",
+          "Segundo a juíza, nenhuma regra foi quebrada. A lâmina da corretora nunca prometeu nada."
+        ]
+      },
+      {
+        "traco": "Depois da síntese, propõe exercício de transferência para outro produto e anuncia o tema do próximo texto.",
+        "frequencia": "sempre",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Se o texto funcionou, você consegue dar o próximo passo sozinho. Pegue uma nota comercial",
+          "Na próxima semana, voltamos para falar sobre um calculo importante no estudo e modelagem de Renda Fixa."
+        ]
+      },
+      {
+        "traco": "Encerra com leituras comentadas: cada referência ganha uma frase sobre o que ela resolve para o leitor.",
+        "frequencia": "sempre",
+        "ocorrencias": 4,
+        "evidencias": [
+          "O texto de referência sobre por que os *covenants* existem e o que eles tentam controlar.",
+          "Ajuda a entender por que a escritura brasileira se parece com o que é."
+        ]
+      }
+    ],
+    "figuras": [
+      {
+        "traco": "Metáfora da 'rede' de proteção (cotidiano/circo) estendida pelo texto inteiro: nomeia o refrão e a seção final.",
+        "frequencia": "frequente",
+        "ocorrencias": 7,
+        "evidencias": [
+          "há o FGC (Fundo Garantidor de Créditos) como rede até o limite",
+          "Na debênture, não há rede. Há contrato.",
+          "## Sem rede"
+        ]
+      },
+      {
+        "traco": "'Fila' (cotidiano) para a ordem de prioridade dos credores, estendida e transformada ao longo do texto.",
+        "frequencia": "frequente",
+        "ocorrencias": 14,
+        "evidencias": [
+          "a fila vira classe de votação (art. 41).",
+          "A sigla mudou. A fila, não.",
+          "Monte a fila inteira da empresa"
+        ]
+      },
+      {
+        "traco": "'Gatilhos' (mecânica) para covenants e vencimento antecipado, sustentado como subtítulo e retomado no fecho.",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": [
+          "### Os gatilhos",
+          "O gatilho vale mais antes da crise, enquanto a empresa ainda precisa do credor.",
+          "O que sobra é a escritura: o lugar na fila, os gatilhos e o voto."
+        ]
+      },
+      {
+        "traco": "Personificação de lei e contrato como agentes que leem, prometem e obedecem.",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": [
+          "a Lei de Falências não lê o nome da espécie do jeito que o investidor lê",
+          "Quem prometeu foi a escritura, e a escritura nunca prometeu sozinha",
+          "a escritura obedece à maioria."
+        ]
+      },
+      {
+        "traco": "Imagens breves de comércio e de espaço, não estendidas (prateleira, porta, atalho, embalagem).",
+        "frequencia": "ocasional",
+        "ocorrencias": 6,
+        "evidencias": [
+          "Compra na taxa da prateleira.",
+          "Em 2024, o legislador abriu uma segunda porta e deixou a divisão explícita.",
+          "o credor se protegia mais pela porta de saída do que pela proibição."
+        ]
+      },
+      {
+        "traco": "Título como paradoxo que joga com o nome da classe de ativo.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Renda Fixa, Condições Variáveis"
+        ]
+      }
+    ],
+    "postura": [
+      {
+        "traco": "Primeira pessoa do singular restrita à costura da série e ao roteiro do texto (escrevi, prometi, deixei, volto), nunca para opinar.",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": [
+          "escrevi que o CRA de devedor único é, economicamente, uma debênture com isenção de Imposto de Renda (IR)",
+          "A escolha entre os dois formatos pesa no preço, e volto a ela mais adiante.",
+          "No texto do CRA, deixei quatro perguntas."
+        ]
+      },
+      {
+        "traco": "Primeira pessoa do plural inclusiva para o percurso feito junto com o leitor.",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": [
+          "Com o que vimos até aqui, dá para reler o caso.",
+          "é a mesma que fizemos no texto do CRA.",
+          "O salto começou numa história que já contamos."
+        ]
+      },
+      {
+        "traco": "'Você' coloca o leitor na posição de investidor dentro do mecanismo descrito.",
+        "frequencia": "frequente",
+        "ocorrencias": 15,
+        "evidencias": [
+          "quem deve para você?",
+          "A diferença sai do seu retorno no primeiro dia.",
+          "Entre você e a empresa há a escritura"
+        ]
+      },
+      {
+        "traco": "Autoridade implícita, ancorada em lei com artigo, doutrina, academia e fonte de dado nomeada; nenhuma credencial declarada no corpo.",
+        "frequencia": "frequente",
+        "ocorrencias": 25,
+        "evidencias": [
+          "Pelo art. 52 da Lei nº 6.404/1976, a Lei das S.A., ela dá ao titular um direito de crédito",
+          "Clifford Smith e Jerold Warner, num artigo de 1979 que virou referência",
+          "**o prazo médio das debêntures emitidas chegou a 9,9 anos**, segundo a Anbima."
+        ]
+      },
+      {
+        "traco": "Incerteza marcada com precisão, não com hedge vago: 'em tese' com o porquê, 'cerca de'/'perto de', premissas da conta explicitadas, estimativa atribuída a quem a fez.",
+        "frequencia": "frequente",
+        "ocorrencias": 11,
+        "evidencias": [
+          "A espécie define, em tese, o seu lugar na fila se a empresa quebrar. Em tese, porque",
+          "*Cálculo próprio, com alíquota combinada de IRPJ e CSLL de 34% e empresa com lucro tributável suficiente para aproveitar a exclusão.*",
+          "Pelas estimativas que a XP apresentou aos clientes"
+        ]
+      },
+      {
+        "traco": "Diante do conflito do caso, não toma partido: dá voz aos dissidentes, ao MP e à juíza, e o juízo recai sobre o mecanismo, não sobre as pessoas.",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "Em petição de maio, disseram que foram deixados de fora da negociação",
+          "Um mês depois, o MP retificou o parecer e passou a defender a homologação, com ressalvas que a juíza adotou."
+        ]
+      },
+      {
+        "traco": "Sem humor declarado; ironia seca e pontual, em frase curta.",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "A garantia flutuante é o caso mais curioso.",
+          "Para quem tinha os títulos, isso não mudou nada.",
+          "A lâmina da corretora nunca prometeu nada."
+        ]
+      },
+      {
+        "traco": "Ceticismo com o material de venda e com o distribuidor, contra a leitura do documento-fonte.",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": [
+          "O resto é a lâmina da corretora (o resumo de uma página que acompanha a oferta).",
+          "O que decide o seu resultado está na escritura, e quase ninguém lê a escritura.",
+          "Quem compra debênture no secundário, pela corretora, em geral não compra na taxa do mercado."
+        ]
+      }
+    ],
+    "leitor": [
+      {
+        "traco": "Pressupõe só a noção geral de renda fixa; define toda sigla, índice e termo de mercado (leigo interessado). Nada técnico passa sem glosa.",
+        "frequencia": "sempre",
+        "ocorrencias": 35,
+        "evidencias": [
+          "IPCA (o índice oficial de inflação) mais uma taxa real (o ganho acima da inflação)",
+          "No mercado secundário, onde os títulos são revendidos antes do vencimento"
+        ]
+      },
+      {
+        "traco": "Pergunta retórica abre a seção ou a virada e é respondida logo no parágrafo seguinte.",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": [
+          "Por que uma empresa prefere a debênture ao empréstimo bancário?",
+          "Se não há rede, o que protege o debenturista?",
+          "Quanto vale isso?"
+        ]
+      },
+      {
+        "traco": "Imperativo de instrução de leitura e de ação prática verificável.",
+        "frequencia": "frequente",
+        "ocorrencias": 9,
+        "evidencias": [
+          "Leia a tabela de cima para baixo.",
+          "Compare com a taxa oferecida.",
+          "Monte a fila inteira da empresa"
+        ]
+      },
+      {
+        "traco": "Ensina o leitor a perguntar, em vez de recomendar produto: a pergunta certa diante do rótulo do título.",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": [
+          "ao ler “com garantia real”, a pergunta seguinte é sempre a mesma: que garantia, sobre qual bem e quanto ele vale",
+          "As perguntas continuam as mesmas: quem deve, onde você está na fila, quem decide quando o contrato muda."
+        ]
+      },
+      {
+        "traco": "O checklist é escrito na primeira pessoa do próprio leitor (estou, me, mim).",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "2. Onde estou na fila: qual a espécie, e que garantia exatamente, sobre qual bem?",
+          "4. Quem decide por mim: quais os quóruns para mudar cada condição"
+        ]
+      },
+      {
+        "traco": "Sinaliza uma camada extra para o leitor profissional, sem mudar o tom.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Para quem analisa crédito por profissão, a quarta pergunta pede uma planilha."
+        ]
+      },
+      {
+        "traco": "Sem chamada comercial (nenhum botão [[CTA]], nenhum pedido de assinatura ou compartilhamento); o fecho chama para exercício autônomo e para o próximo texto.",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": [
+          "Se o texto funcionou, você consegue dar o próximo passo sozinho."
+        ]
+      }
+    ],
+    "tecnico": [
+      {
+        "traco": "Norma citada no corpo com número, ano e dispositivo (art., §), em geral entre parênteses ao fim da frase.",
+        "frequencia": "frequente",
+        "ocorrencias": 22,
+        "evidencias": [
+          "a escritura precisa ter um agente fiduciário (art. 61, § 1º)",
+          "passaram a integrar a classe dos quirografários (art. 83, § 6º).",
+          "A Resolução CVM nº 179/2023 obriga a informar essa remuneração"
+        ]
+      },
+      {
+        "traco": "Mudança regulatória datada com a redação anterior e a nova (o que a lei mudou, e de quanto para quanto).",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": [
+          "com a redação da Lei nº 14.112/2020, que baixou o quórum de três quintos para mais da metade",
+          "Desde a Lei nº 14.112/2020, créditos com privilégio geral ou especial previstos em outras leis passaram a integrar a classe dos quirografários"
+        ]
+      },
+      {
+        "traco": "Fórmula em três camadas: definição inline em texto puro com variáveis em itálico, fórmula display em LaTeX ($$) e glosa em português ('em que...') depois.",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Com o CDI constante em *c* ao ano, a taxa diária é d = (1 + c)^(1/252) − 1.",
+          "$$ 1 + s = \\frac{\\left(1 + p \\cdot d\\right)^{252}}{1 + c} $$",
+          "em que *PU* é o preço do papel, *PU par* é o valor do papel na curva"
+        ]
+      },
+      {
+        "traco": "Exemplo numérico trabalhado em prosa, com o antes e o depois do número.",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "Numa debênture a 14% ao ano, o custo líquido de imposto passa de 9,24% para 7,81%.",
+          "Os mesmos 110% do CDI que hoje equivalem a CDI + 1,29% viram CDI + 0,96% se o CDI cair para 10%.",
+          "cada 0,10 ponto percentual de diferença equivale a cerca de 0,5% do preço pago a mais."
+        ]
+      },
+      {
+        "traco": "Tabela e comparativo entram como imagem, anunciados por uma frase e seguidos de instrução de leitura ou interpretação.",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "Lado a lado com os produtos dos textos anteriores:",
+          "A tabela mostra quanto valem alguns percentuais em diferentes níveis de juros.",
+          "Leia a tabela de cima para baixo."
+        ]
+      },
+      {
+        "traco": "Dado sempre com período de referência e fonte nomeada; o cenário-premissa da conta é declarado.",
+        "frequencia": "sempre",
+        "ocorrencias": 14,
+        "evidencias": [
+          "Só entre janeiro e novembro, as empresas emitiram R$ 433 bilhões em debêntures.",
+          "Com a meta da Selic (a taxa básica de juros, definida pelo Banco Central) em 13,75%, o CDI fica perto de 13,65% ao ano.",
+          "Pela conta da própria companhia, o prazo médio da dívida vai de 2,1 para 6,4 anos"
+        ]
+      },
+      {
+        "traco": "Notação numérica brasileira: vírgula decimal, R$ antes do valor, '% ao ano', indexador mais spread escrito como 'CDI + 1,5%'.",
+        "frequencia": "sempre",
+        "ocorrencias": 60,
+        "evidencias": [
+          "como CDI + 1,5% ao ano;",
+          "R$ 4,57 bilhões em dívida quirografária",
+          "Foi assinado por credores que somam 57,49% desses créditos."
+        ]
+      },
+      {
+        "traco": "Literatura acadêmica e técnica integrada à prosa com autor, ano e achado resumido em uma frase.",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Vinte anos depois, Christopher Anderson analisou 50 escrituras brasileiras e encontrou o oposto do manual",
+          "Varanda Neto, Santos e Mello dedicam um capítulo inteiro a esse efeito."
+        ]
+      }
+    ],
+    "formatacao": [
+      {
+        "traco": "Negrito em termo-chave na primeira definição, em nome do protagonista do caso e em dado ou frase-tese; 15 ocorrências, todas na primeira metade (nenhum negrito depois da tríade 'o lugar na fila, os gatilhos... e o voto').",
+        "frequencia": "frequente",
+        "ocorrencias": 15,
+        "evidencias": [
+          "homologou o plano de recuperação extrajudicial do **GPA**, dono do **Pão de Açúcar**.",
+          "A lei prevê quatro espécies (art. 58): **com garantia real** (um bem específico reservado ao credor)",
+          "Entre janeiro e abril de 2025, **o prazo médio das debêntures emitidas chegou a 9,9 anos**, segundo a Anbima."
+        ],
+        "contraexemplo": "Os debenturistas de uma mesma emissão ou série formam uma comunhão e decidem em assembleia (art. 71)."
+      },
+      {
+        "traco": "Negrito como abertura de parágrafo, terminando em dois-pontos (lead-in).",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "**A escritura define tudo o que importa:** valor, séries, remuneração"
+        ]
+      },
+      {
+        "traco": "Itálico para estrangeirismo (spread em 19 de 19 ocorrências), variável matemática no texto, título de obra e periódico, nota de cálculo e aviso legal.",
+        "frequencia": "frequente",
+        "ocorrencias": 42,
+        "evidencias": [
+          "o que o mercado chama de *duration* de *spread*",
+          "Um papel que paga *p* do CDI rende p × d por dia.",
+          "*O Mercado de Renda Fixa no Brasil: conceitos, precificação e risco*"
+        ],
+        "contraexemplo": "a taxa diária é d = (1 + c)^(1/252) − 1."
+      },
+      {
+        "traco": "Subtítulos curtos: H2 para blocos de argumento (6 no corpo e 1 de referências), H3 para subtemas (8). Frase nominal ou afirmação-tese, nunca pergunta. A introdução (~600 palavras) fica sem subtítulo.",
+        "frequencia": "frequente",
+        "ocorrencias": 15,
+        "evidencias": [
+          "## O que fica entre você e a empresa",
+          "### Percentual do CDI não é CDI mais *spread*",
+          "### Pós-fixado também oscila"
+        ]
+      },
+      {
+        "traco": "Imagem de abertura antes do primeiro parágrafo; as demais imagens são tabelas ou gráficos inseridos sem legenda no markdown.",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "![](img-01)",
+          "![](img-04)"
+        ]
+      },
+      {
+        "traco": "Citação em bloco usada uma única vez, para nota metodológica em itálico logo após a conta.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "> *Cálculo próprio, com alíquota combinada de IRPJ e CSLL de 34% e empresa com lucro tributável suficiente para aproveitar a exclusão.*"
+        ]
+      },
+      {
+        "traco": "Sem botão [[CTA]], sem [[PULLQUOTE]], sem código e sem riscado; fórmulas em bloco $$ (2).",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": [
+          "$$ \\frac{PU}{PU_{\\text{par}}} = \\left(\\frac{1 + s_{\\text{contrato}}}{1 + s_{\\text{mercado}}}\\right)^{du/252} $$"
+        ]
+      },
+      {
+        "traco": "Parágrafo médio de ~41 palavras (mediana ~36); 27 de 96 parágrafos têm uma frase só; o bloco mais longo (~130 palavras) é a narrativa cronológica de um caso.",
+        "frequencia": "frequente",
+        "ocorrencias": 96,
+        "evidencias": [
+          "A homologação vale para eles também.",
+          "Um caso do fim de setembro mostra a sequência. A holding da Chilli Beans deixou de pagar as parcelas de julho e agosto"
+        ]
+      },
+      {
+        "traco": "Rodapé padronizado: seção 'Para continuar aprendendo' com referências comentadas em lista e aviso legal em itálico entre separadores '* * *'. Link inline só na lista de referências.",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": [
+          "## Para continuar aprendendo",
+          "*Os textos publicados na Syntaxis expressam exclusivamente minhas opiniões pessoais"
+        ]
+      }
+    ]
+  },
+  "antipadroes_observados": [
+    {
+      "tipo": "nunca_faz",
+      "descricao": "Não usa travessão em ~4.400 palavras; incisos vão entre parênteses ou vírgulas.",
+      "evidencia": "o patrimônio separado protege você da securitizadora (a empresa que emite o certificado)"
+    },
+    {
+      "tipo": "nunca_faz",
+      "descricao": "Nenhum ponto de exclamação, nenhuma reticência, nenhuma aspa reta."
+    },
+    {
+      "tipo": "nunca_faz",
+      "descricao": "Nenhum intensificador ou marcador de ênfase genérico (crucial, fundamental, vale ressaltar, é importante destacar, em resumo, no fim das contas, cenário, jornada). 'Importante' aparece 2 vezes, ambas com referente concreto.",
+      "evidencia": "a da quarta passa a ser a mais importante do texto."
+    },
+    {
+      "tipo": "nunca_faz",
+      "descricao": "Não recomenda compra ou venda e não opina sobre o mérito do plano do GPA; a primeira pessoa opinativa só aparece no aviso legal padronizado.",
+      "evidencia": "Segundo a juíza, nenhuma regra foi quebrada."
+    },
+    {
+      "tipo": "nunca_faz",
+      "descricao": "Não deixa sigla de mercado sem expansão (só nomes de empresa ficam sem glosa)."
+    },
+    {
+      "tipo": "tique_ia_possivel",
+      "descricao": "Construção contrastiva 'não é X. É Y' / 'não há X. Há Y', associada a texto gerado em pt-BR; ~5 ocorrências, uma delas é o refrão-tese. Como a época é pipeline, pode ter sido reforçada pelo sistema editorial.",
+      "evidencia": "A isenção da incentivada não é um presente ao investidor. É subsídio à infraestrutura."
+    },
+    {
+      "tipo": "tique_ia_possivel",
+      "descricao": "Alta densidade de frase-fecho curta isolada em parágrafo (27 de 96 parágrafos), cadência de 'punchline' em série que beira o martelado.",
+      "evidencia": "Nem toda debênture é da empresa que deve."
+    },
+    {
+      "tipo": "tique_ia_possivel",
+      "descricao": "Tríades frequentes (~8), algumas anafóricas.",
+      "evidencia": "não há banco, não há securitizadora, não há fundo garantidor."
+    }
+  ],
+  "incerteza": "Uma única amostra, de época pipeline: o texto foi escrito com o sistema editorial e editado pelo autor, então não dá para separar o que é traço do autor do que o pipeline reforçou (sobretudo antíteses curtas, refrão, tríades e glosa sistemática de siglas). O frontmatter traz section_name null; a atribuição à linha 'Notas de um Professor' é inferência pelo conteúdo, não dado. As cinco imagens (tabelas e gráficos) não são legíveis no markdown, então conteúdo, legenda e formatação delas não podem ser avaliados. O rodapé (leituras comentadas e aviso legal) pode ser modelo fixo, não voz. Marcas de edição humana de última hora no fecho e nas referências: 'calculo' sem acento, fragmento 'A contagem de dias úteis.', falta de ponto após '(Saint Paul, 2019)', aspa de fechamento com o glifo de abertura, primeira lista de perguntas em minúsculas e a segunda com maiúscula, *p* em itálico e logo depois sem. Estatísticas de frase e parágrafo são aproximadas (segmentação automática, excluindo listas, títulos, fórmulas e referências). Palavras = palavras_md do frontmatter."
+}

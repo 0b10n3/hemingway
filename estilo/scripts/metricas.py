@@ -25,6 +25,11 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 CORPUS_DIR = REPO_ROOT / "_arquivo" / "amostras" / "proprias"
+# Desde a v2.0.0 do guia: o texto publicado, capturado do site (scripts/corpus_publicado.py).
+PUBLICADOS_DIR = REPO_ROOT / "estilo" / "corpus" / "publicados"
+# Amostras v1 de Substack perderam negrito e aspas na conversão; o texto do site as substitui
+# no agregado geral (ver pesquisa/epico-revisao-editorial/00-corpus.md §5).
+FORA_DO_AGREGADO = {"substack"}
 OUT_PATH = REPO_ROOT / "estilo" / "metricas.json"
 
 WORD_RE = re.compile(r"[A-Za-zÀ-ÖØ-öø-ÿ]+(?:'[A-Za-zÀ-ÖØ-öø-ÿ]+)?")
@@ -235,6 +240,16 @@ def main() -> int:
         por_arquivo[rel] = m
         por_genero.setdefault(genero, []).append(m)
 
+    for caminho in sorted(PUBLICADOS_DIR.glob("*.md")):
+        texto = caminho.read_text(encoding="utf-8")
+        fm = re.match(r"---\n(.*?)\n---\n", texto, re.S)
+        epoca = re.search(r'^epoca: "?([\w-]+)', fm.group(1), re.M).group(1) if fm else "?"
+        corpo = re.sub(r"\[\[[A-Z]+[^\]]*\]\]", "", texto[fm.end():] if fm else texto)
+        m = metricas_de_texto(corpo, is_markdown=True)
+        m["genero"] = f"substack-publicado-{epoca}"
+        por_arquivo[str(caminho.relative_to(REPO_ROOT))] = m
+        por_genero.setdefault(m["genero"], []).append(m)
+
     saida = {
         "gerado_por": "estilo/scripts/metricas.py",
         "metodologia": (
@@ -244,7 +259,7 @@ def main() -> int:
         ),
         "arquivos_pulados": pulados,
         "por_arquivo": por_arquivo,
-        "agregado_geral": agregar(list(por_arquivo.values())),
+        "agregado_geral": agregar([m for m in por_arquivo.values() if m["genero"] not in FORA_DO_AGREGADO]),
         "agregado_por_genero": {g: agregar(ms) for g, ms in por_genero.items()},
     }
 

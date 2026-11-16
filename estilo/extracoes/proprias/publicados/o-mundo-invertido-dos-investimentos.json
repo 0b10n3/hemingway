@@ -1,0 +1,620 @@
+{
+  "arquivo": "estilo/corpus/publicados/o-mundo-invertido-dos-investimentos.md",
+  "genero": "substack",
+  "palavras": 1252,
+  "eixos": {
+    "lexico": [
+      {
+        "traco": "Glosa entre parênteses quase todo termo técnico ou sigla na primeira ocorrência, em português corrente, mesmo os mais básicos (CDB, Tesouro Selic, day trade, opções, ETF).",
+        "frequencia": "frequente",
+        "ocorrencias": 14,
+        "evidencias": [
+          "por opções (contratos que dão o direito, mas não a obrigação, de comprar ou vender um ativo por um preço combinado)",
+          "um CDB (Certificado de Depósito Bancário — você empresta dinheiro a um banco e recebe de volta com juros)",
+          "as mesas proprietárias dos grandes fundos (as equipes que operam com o capital do próprio banco ou fundo, não o do cliente)"
+        ],
+        "contraexemplo": "Ficam sem glosa: \"perdendo para o próprio *benchmark* numa janela de dez anos\", \"fechar tudo no mesmo pregão\", \"tesouraria dos grandes bancos\", \"players internacionais\", \"título público pós-fixado\"."
+      },
+      {
+        "traco": "Registro conversacional misturado ao técnico: \"a gente\" no lugar de \"nós\", \"pra\" no CTA, expressões idiomáticas do cotidiano.",
+        "frequencia": "frequente",
+        "ocorrencias": 8,
+        "evidencias": [
+          "e a gente vai chamar esse fenômeno pelo nome certo",
+          "é um jeito de comprar, numa tacada só, exposição a uma cesta desses mesmos títulos",
+          "mande esse texto pra alguém que está prestes a comprar o primeiro par de tênis"
+        ],
+        "contraexemplo": "No corpo prevalece \"para\": \"Para subir de distância, você precisa se preparar\"."
+      },
+      {
+        "traco": "\"de verdade\" como intensificador recorrente (candidato a palavra-assinatura), sempre para separar o autêntico do aparente.",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "Quando eu olho os relatos de investidores de verdade, não os que aparecem em anúncios",
+          "Renda variável de verdade, com exposição ao risco bem maior que qualquer coisa de renda fixa.",
+          "Aqui já se demanda treino de verdade"
+        ]
+      },
+      {
+        "traco": "Anglicismos de mercado e de corrida aceitos sem tradução e em redondo (day trade, swing trade, pace, players, ETF, Upside Down).",
+        "frequencia": "frequente",
+        "ocorrencias": 7,
+        "evidencias": [
+          "ao lado de um pelotão de quenianos correndo num pace sub-3",
+          "os players internacionais que também estão ali, na outra ponta da sua operação"
+        ],
+        "contraexemplo": "Único estrangeirismo em itálico: \"perdendo para o próprio *benchmark*\"."
+      },
+      {
+        "traco": "Dois campos semânticos em paralelo: corrida de rua (tênis, largada, pelotão, treinador, meia maratona, ultramaratona) e produtos financeiros, do mais conservador ao mais arriscado.",
+        "frequencia": "sempre",
+        "ocorrencias": 25,
+        "evidencias": [
+          "Você não fez uma corrida de 5 quilômetros antes. Não procurou um treinador, não ajustou a alimentação",
+          "Maratona e ultramaratona: derivativos, day trade, operações de alta frequência."
+        ]
+      },
+      {
+        "traco": "\"exatamente\" como reforço de precisão.",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Mas é exatamente isso que uma fração enorme de investidores iniciantes faz com o próprio dinheiro",
+          "entender exatamente o que você conhece, o que você não conhece"
+        ]
+      }
+    ],
+    "sintaxe": [
+      {
+        "traco": "Alterna períodos longos, carregados de aposto e parêntese, com frase curta que fecha o parágrafo como golpe.",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "Só comprou o tênis e foi.",
+          "Sem sinal de melhora com a experiência.",
+          "Ela ainda está nos primeiros passos, e já escolheu correr com o pelotão de elite."
+        ]
+      },
+      {
+        "traco": "Construção de correção \"não é X. É Y.\" (negação seguida de reafirmação) para virar o argumento.",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "Repare: não é o mercado que é injusto com o iniciante. É a ordem em que ele decide entrar nele.",
+          "não é coragem. É não ter percebido, ainda, quem está correndo do seu lado.",
+          "não deveria soar como surpresa — deveria soar como confirmação"
+        ]
+      },
+      {
+        "traco": "Enumeração paralela em série de três membros (às vezes anafórica com \"não\").",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "Não procurou um treinador, não ajustou a alimentação, não fortaleceu músculo nenhum.",
+          "montar uma equipe de apoio, treinar de verdade, ter o equipamento certo.",
+          "eles têm tecnologia, dado privilegiado e uma equipe inteira dedicada a uma única posição."
+        ]
+      },
+      {
+        "traco": "Período único muito longo (~100 palavras) empilhando itens, cada um com sua glosa parentética.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "a pessoa começa a participar do mercado financeiro pelo day trade (comprar e vender o mesmo ativo no mesmo dia"
+        ]
+      },
+      {
+        "traco": "Frase nominal, sem verbo, como comentário ou fecho.",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Sem sinal de melhora com a experiência.",
+          "Ainda conservador, já um pouco mais sofisticado."
+        ]
+      },
+      {
+        "traco": "Advérbio temporal intercalado entre vírgulas ou travessões para dar ênfase.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "É não ter percebido, ainda, quem está correndo do seu lado.",
+          "o que está — hoje — dentro do seu alcance."
+        ]
+      },
+      {
+        "traco": "\"Mas\" no início de frase para marcar a virada.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Ninguém faria isso com o próprio corpo. Mas é exatamente isso que",
+          "Mas pode estar na ordem em que você escolhe usá-los."
+        ]
+      }
+    ],
+    "pontuacao": [
+      {
+        "traco": "Parênteses são o principal veículo de glosa e digressão (~19 na prosa); podem conter travessão e chegam a ocupar uma objeção inteira.",
+        "frequencia": "frequente",
+        "ocorrencias": 19,
+        "evidencias": [
+          "(contratos cujo valor deriva do preço de outro ativo — uma ação, um índice, uma moeda)",
+          "(Existe até quem argumente o oposto do que estou defendendo aqui — o autor Nassim Taleb, por exemplo"
+        ]
+      },
+      {
+        "traco": "Travessão (—) para desdobramento explicativo, numérico ou de comentário.",
+        "frequencia": "frequente",
+        "ocorrencias": 16,
+        "evidencias": [
+          "juntas, perderam R$ 9,9 bilhões — uma perda média de R$ 10.200 por pessoa",
+          "faz com o próprio dinheiro — e a gente vai chamar esse fenômeno pelo nome certo"
+        ]
+      },
+      {
+        "traco": "Dois-pontos como articulador principal: anuncia a cena, revela o dado, desdobra a tese; também rotula os itens da lista.",
+        "frequencia": "frequente",
+        "ocorrencias": 12,
+        "evidencias": [
+          "Imagine a cena: você compra o primeiro par de tênis de corrida na sexta-feira.",
+          "Isso não é intuição minha: é o que dois estudos da FGV e da USP",
+          "5 a 10 quilômetros: crédito bancário e títulos públicos federais."
+        ]
+      },
+      {
+        "traco": "Aspas simples tipográficas (‘ ’) para palavra em sentido figurado ou tradução; nenhuma aspa dupla no texto.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "o Upside Down (o ‘avesso’, a dimensão espelhada e hostil de Stranger Things)",
+          "gente que não desistiu na primeira semana, que ‘treinou’ —,"
+        ]
+      },
+      {
+        "traco": "Sem ponto de interrogação ou de exclamação no corpo; a pergunta é anunciada em prosa declarativa.",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": [
+          "Essa é a pergunta que quase sempre fica sem resposta quando alguém faz esse tipo de comparação"
+        ]
+      },
+      {
+        "traco": "Ponto e vírgula raro.",
+        "frequencia": "evita",
+        "ocorrencias": 1,
+        "evidencias": [
+          "consegue sustentar; as elites profissionais de verdade correm ainda mais rápido que isso"
+        ]
+      },
+      {
+        "traco": "Predomina a prosa corrida; uma única lista com marcadores (5 itens) para a progressão escalonada, cada item com rótulo + dois-pontos + explicação em prosa.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "- 21 quilômetros, a meia maratona: fundos, de forma geral."
+        ]
+      },
+      {
+        "traco": "Parágrafos de 45 a 130 palavras; uma virada de 1 a 2 frases isolada como parágrafo próprio.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Repare: não é o mercado que é injusto com o iniciante. É a ordem em que ele decide entrar nele."
+        ]
+      },
+      {
+        "traco": "Números no padrão pt-BR: vírgula decimal, ponto de milhar, \"R$\" com espaço, \"%\" colado.",
+        "frequencia": "sempre",
+        "ocorrencias": 5,
+        "evidencias": [
+          "perderam R$ 9,9 bilhões — uma perda média de R$ 10.200 por pessoa",
+          "90,8% dos fundos de ações ativos perdendo para o próprio *benchmark*"
+        ]
+      }
+    ],
+    "arquitetura": [
+      {
+        "traco": "Abre com cena hipotética em segunda pessoa, introduzida por imperativo, antes de qualquer conceito.",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Imagine a cena: você compra o primeiro par de tênis de corrida na sexta-feira."
+        ]
+      },
+      {
+        "traco": "O segundo parágrafo transforma a cena em tese e batiza o fenômeno com um rótulo de cultura pop.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Ninguém faria isso com o próprio corpo. Mas é exatamente isso que uma fração enorme de investidores iniciantes faz",
+          "o mundo invertido dos investimentos, o Upside Down"
+        ]
+      },
+      {
+        "traco": "Sustenta em sequência: observação pessoal, depois dado empírico com fonte, depois frase curta que fecha a seção com a tese.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Quando eu olho os relatos de investidores de verdade",
+          "Isso não é intuição minha: é o que dois estudos da FGV e da USP"
+        ]
+      },
+      {
+        "traco": "A tese (\"a ordem\") volta no fecho da primeira seção e no fecho do texto.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "É a ordem em que ele decide entrar nele.",
+          "Mas pode estar na ordem em que você escolhe usá-los."
+        ]
+      },
+      {
+        "traco": "Concede ao contra-argumento antes do fecho (Taleb), reconhece a seriedade dele e delimita o escopo.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "É um argumento sério, mas ele fala de quem já sabe exatamente o tamanho da própria aposta"
+        ]
+      },
+      {
+        "traco": "Fecha com antítese aforística em frases curtas; depois vêm o separador e o CTA, com promessa de continuação na semana seguinte.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "O mercado pode ser seu amigo. Ele também pode ser um inimigo cruel.",
+          "E semana que vem eu quero puxar esse fio de novo: menos Upside Down, mais corrida"
+        ]
+      },
+      {
+        "traco": "Quatro subtítulos H2 em ~1.250 palavras (um a cada ~300), temáticos e quase todos dentro da metáfora da corrida.",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "## A régua da corrida",
+          "## Quem são os corredores de elite no mercado financeiro",
+          "## Sinceridade antes do treino pesado"
+        ],
+        "contraexemplo": "## O equívoco que a gente vê todo dia (fora da metáfora)"
+      },
+      {
+        "traco": "Analogia antes do conceito: os produtos entram já pendurados no degrau correspondente da analogia.",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "- 10 quilômetros: ETFs de renda fixa.",
+          "Entre 21 e 42 quilômetros: ações."
+        ]
+      }
+    ],
+    "figuras": [
+      {
+        "traco": "Analogia estendida da corrida e da maratona como espinha do texto inteiro (abertura, subtítulos, lista, adversários, CTA), mapeada item a item: distância corresponde a produto, de risco crescente.",
+        "frequencia": "sempre",
+        "ocorrencias": 25,
+        "evidencias": [
+          "5 a 10 quilômetros: crédito bancário e títulos públicos federais.",
+          "os corredores que vão te ultrapassar na primeira curva, com pace de dar inveja, são a tesouraria dos grandes bancos"
+        ]
+      },
+      {
+        "traco": "Retoma a imagem de abertura (o primeiro par de tênis) no meio e no fecho.",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Comprar seu primeiro par de tênis e sair correndo atrás de um maratonista profissional com pace sub-3 não é coragem.",
+          "mande esse texto pra alguém que está prestes a comprar o primeiro par de tênis"
+        ]
+      },
+      {
+        "traco": "Referência de cultura pop (Stranger Things) como rótulo do fenômeno, glosada, retomada no título e no fecho.",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "o Upside Down (o ‘avesso’, a dimensão espelhada e hostil de Stranger Things) da própria carteira",
+          "menos Upside Down, mais corrida"
+        ]
+      },
+      {
+        "traco": "\"Régua\" como imagem recorrente da escala de risco.",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "Aqui a régua fica mais larga: tem fundo mais arriscado e fundo menos arriscado.",
+          "A ponta mais técnica e mais arriscada da régua inteira."
+        ]
+      },
+      {
+        "traco": "Metáforas cotidianas curtas e pontuais, de corpo e de dia a dia.",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "o prejuízo caiu desproporcionalmente sobre quem ganha menos e tem menos gordura para queimar",
+          "eu quero puxar esse fio de novo"
+        ]
+      },
+      {
+        "traco": "Personificação do mercado em antítese amigo/inimigo.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "O mercado pode ser seu amigo. Ele também pode ser um inimigo cruel."
+        ]
+      }
+    ],
+    "postura": [
+      {
+        "traco": "Primeira pessoa do singular pontual: observação própria, opinião rotulada como pessoal, continuidade editorial com posts anteriores e seguintes.",
+        "frequencia": "frequente",
+        "ocorrencias": 7,
+        "evidencias": [
+          "Quando eu olho os relatos de investidores de verdade",
+          "Uma ressalva pessoal, que volto a fazer sempre que o assunto de fundos aparece: desconfio de fundo ativo",
+          "já expliquei como ele funciona por aqui"
+        ]
+      },
+      {
+        "traco": "Proximidade alta: trata o leitor por \"você\" (~13) e usa o \"a gente\" inclusivo (3).",
+        "frequencia": "frequente",
+        "ocorrencias": 16,
+        "evidencias": [
+          "Você tem uma corretora no celular e a esperança de que dessa vez vai ser diferente.",
+          "## O equívoco que a gente vê todo dia"
+        ]
+      },
+      {
+        "traco": "A autoridade vem de fonte nomeada (instituição, pesquisadores, base oficial, relatório), não de credencial própria declarada.",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Fernando Chague e Bruno Giovannetti mapearam quase um milhão de pessoas físicas (968.512)",
+          "com dados oficiais da CVM (Comissão de Valores Mobiliários)"
+        ]
+      },
+      {
+        "traco": "Ceticismo explícito em relação à indústria financeira, à publicidade e à gestão ativa.",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": [
+          "não os que aparecem em anúncios",
+          "autoconhecimento que a indústria financeira não tem nenhum interesse comercial em te vender",
+          "desconfio de fundo ativo vendido pela promessa de bater o mercado"
+        ]
+      },
+      {
+        "traco": "Trata a discordância com steelman em parêntese seguido de delimitação de escopo, sem desqualificar o oponente.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "É um argumento sério, mas ele fala de quem já sabe exatamente o tamanho da própria aposta"
+        ]
+      },
+      {
+        "traco": "Firme sem culpar o leitor: desloca a culpa para a ordem de entrada e deixa a porta aberta.",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": [
+          "não é o mercado que é injusto com o iniciante. É a ordem em que ele decide entrar nele.",
+          "Nada disso quer dizer que você nunca deva chegar lá."
+        ]
+      },
+      {
+        "traco": "Calibra a afirmação com advérbios de frequência ou probabilidade, em vez de absolutos.",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "A diferença raramente está nos produtos que você escolhe.",
+          "Você provavelmente já desconfiava disso."
+        ]
+      },
+      {
+        "traco": "Humor de ironia seca, curto, sem piada declarada.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Você tem uma corretora no celular e a esperança de que dessa vez vai ser diferente."
+        ]
+      }
+    ],
+    "leitor": [
+      {
+        "traco": "Pressupõe leitor iniciante, sem conhecimento prévio de produtos: explica até CDB e Tesouro Selic.",
+        "frequencia": "sempre",
+        "ocorrencias": 14,
+        "evidencias": [
+          "O primeiro contato de alguém com investimento deveria ser um CDB",
+          "Tesouro Selic (título público pós-fixado, o mais líquido e conservador da família"
+        ]
+      },
+      {
+        "traco": "Imperativos curtos que conduzem a leitura (imagine, repare, pense, mande).",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "Imagine a cena:",
+          "Repare: não é o mercado que é injusto com o iniciante.",
+          "Pense assim:"
+        ]
+      },
+      {
+        "traco": "Antecipa o que o leitor já sabe ou pensa.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Você provavelmente já desconfiava disso.",
+          "deveria soar como confirmação de algo que você sempre soube"
+        ]
+      },
+      {
+        "traco": "Sem pergunta retórica com ponto de interrogação; a pergunta vira afirmação.",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": [
+          "Essa é a pergunta que quase sempre fica sem resposta quando alguém faz esse tipo de comparação"
+        ]
+      },
+      {
+        "traco": "CTA de compartilhamento condicionado a o leitor se reconhecer no texto, com promessa do próximo post e botão do Substack.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Se você reconheceu seu próprio primeiro ano de investidor em algum parágrafo aí de cima, mande esse texto pra alguém",
+          "[[CTA: Compartilhar Syntaxis →"
+        ]
+      },
+      {
+        "traco": "Link interno para post anterior da própria Syntaxis, anunciado em meio à glosa.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "já expliquei como ele funciona por aqui, link abaixo"
+        ]
+      }
+    ],
+    "tecnico": [
+      {
+        "traco": "Sem fórmula e sem tabela; a progressão de risco vira uma lista e uma imagem com legenda.",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": [
+          "![Risco Crescente, produto por produto.](img-02)"
+        ]
+      },
+      {
+        "traco": "Dado empírico com fonte nomeada (instituições, autores, base oficial), tamanho de amostra e período, mas sem link e sem ano ou título do estudo.",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": [
+          "dois estudos da FGV e da USP, com dados oficiais da CVM",
+          "que fizeram day trade em contratos futuros entre o início da pandemia e o fim de 2023"
+        ],
+        "contraexemplo": "\"Num estudo anterior dos mesmos pesquisadores\" (sem ano nem título)."
+      },
+      {
+        "traco": "Número arredondado no texto e valor exato entre parênteses.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "quase um milhão de pessoas físicas (968.512)"
+        ]
+      },
+      {
+        "traco": "Sigla seguida do nome por extenso entre parênteses na primeira ocorrência, às vezes com glosa funcional.",
+        "frequencia": "sempre",
+        "ocorrencias": 6,
+        "evidencias": [
+          "SPIVA (S&P Indices Versus Active, que a S&P Dow Jones Indices publica todo semestre",
+          "uma LCA (Letra de Crédito do Agronegócio)"
+        ]
+      },
+      {
+        "traco": "Data o dado pelo nome da edição do relatório e o marca como o mais recente.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "na apuração mais recente para o Brasil (SPIVA Latin America Year-End 2025)"
+        ]
+      },
+      {
+        "traco": "Menciona tributação de passagem, sem citar norma.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "o mesmo princípio, com isenção de Imposto de Renda para pessoa física"
+        ]
+      },
+      {
+        "traco": "Qualifica a precisão de uma afirmação lateral para não exagerar (o pace sub-3 não é o de elite).",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "as elites profissionais de verdade correm ainda mais rápido que isso"
+        ]
+      },
+      {
+        "traco": "Cita livro com autor, título e ano entre parênteses, sem itálico no título.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "o autor Nassim Taleb, por exemplo, Antifrágil: Coisas que se beneficiam com o caos(2012)"
+        ]
+      }
+    ],
+    "formatacao": [
+      {
+        "traco": "Nenhum negrito no corpo, nem na tese central.",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": [
+          "Repare: não é o mercado que é injusto com o iniciante. É a ordem em que ele decide entrar nele."
+        ]
+      },
+      {
+        "traco": "Itálico só uma vez, num estrangeirismo; os demais estrangeirismos e títulos de obra (série, livro) ficam em redondo.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "90,8% dos fundos de ações ativos perdendo para o próprio *benchmark* numa janela de dez anos"
+        ],
+        "contraexemplo": "\"a dimensão espelhada e hostil de Stranger Things\"; \"Antifrágil: Coisas que se beneficiam com o caos(2012)\"; \"num pace sub-3\"."
+      },
+      {
+        "traco": "Só H2, sem H3; subtítulos em caixa de frase, título do post em Title Case, subtítulo do post vazio.",
+        "frequencia": "sempre",
+        "ocorrencias": 4,
+        "evidencias": [
+          "## O equívoco que a gente vê todo dia",
+          "titulo: \"O Mundo Invertido dos Investimentos\""
+        ]
+      },
+      {
+        "traco": "Duas imagens: a primeira logo após a abertura, sem legenda; a segunda depois da lista, com legenda curta.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "![](img-01)",
+          "![Risco Crescente, produto por produto.](img-02)"
+        ]
+      },
+      {
+        "traco": "Separador \"* * *\" isola o bloco final de CTA, que termina com botão de compartilhamento.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "* * *",
+          "[[CTA: Compartilhar Syntaxis →"
+        ]
+      },
+      {
+        "traco": "Bloco típico de 45 a 130 palavras; o maior (~127) é o período das quatro glosas.",
+        "frequencia": "frequente",
+        "ocorrencias": 20,
+        "evidencias": [
+          "Ela ainda está nos primeiros passos, e já escolheu correr com o pelotão de elite."
+        ]
+      },
+      {
+        "traco": "Marcador de link do pipeline vazou para o texto publicado, com colchete desbalanceado.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "link abaixo [LINK: [post sobre Tesouro Selic](https://syntaxis.substack.com/p/tesouro-selic))"
+        ]
+      }
+    ]
+  },
+  "antipadroes_observados": [
+    "(a) Nunca usa negrito no corpo.",
+    "(a) Nunca usa ponto de interrogação nem de exclamação; não há pergunta retórica formal.",
+    "(a) Nunca usa aspas duplas; só aspas simples tipográficas (‘avesso’, ‘treinou’).",
+    "(a) Não usa H3, pullquote, citação em bloco, fórmula, tabela, riscado ou código.",
+    "(a) Não cita fala literal de fonte; dados sempre parafraseados.",
+    "(a) Não linka os estudos citados (FGV/USP, SPIVA); o único link é interno, para outro post da Syntaxis.",
+    "(a) Não usa sinalização escolar do tipo 'neste artigo', 'em resumo', 'concluindo'.",
+    "(b) Contraste por negação \"não é X. É Y.\" repetido 4 vezes, tique conhecido de texto gerado: \"não é coragem. É não ter percebido, ainda, quem está correndo do seu lado.\"",
+    "(b) Tríades enumerativas em série (≥4): \"montar uma equipe de apoio, treinar de verdade, ter o equipamento certo.\"",
+    "(b) Metacomentário sobre a própria franqueza: \"mas que raramente alguém coloca em palavras tão diretas\".",
+    "(b) Sintaxe quebrada, possível resíduo de edição: \"fica sem resposta quando alguém faz esse tipo de comparação: que os corredores que vão te ultrapassar\".",
+    "(b) Resíduos de pipeline no texto publicado: marcador \"[LINK: [post sobre Tesouro Selic](...)\" e espaço faltando em \"caos(2012)\"."
+  ],
+  "incerteza": "Amostra única de época 'pipeline' (escrita com o sistema editorial e editada pelo autor), então não dá para separar o que é escolha do autor do que é resíduo do pipeline. Isso vale sobretudo para os tiques marcados como (b), para as glosas muito sistemáticas e para a correção do pace sub-3, que parece emenda de verificação. section_name é null, então a linha editorial (Spoiler ou Notas de um Professor) não pode ser confirmada pelo frontmatter. São ~1.250 palavras, abaixo do piso de ~5.000 por amostra: a variação sintática e a frequência de pontuação têm baixa confiança estatística. O conteúdo das imagens (img-01, img-02) não é visível. A contagem de palavras usa palavras_md do frontmatter (1252); o wc do corpo com marcação dá 1277. Contagens de travessão, parêntese e dois-pontos excluem URLs e marcação de imagem, e são aproximadas."
+}

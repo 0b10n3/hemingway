@@ -1,0 +1,497 @@
+{
+  "arquivo": "estilo/corpus/publicados/conectando-dinheiro-e-sonhos.md",
+  "genero": "substack",
+  "palavras": 847,
+  "eixos": {
+    "lexico": [
+      {
+        "traco": "Campo semântico dominante de objetivos, sonhos, metas e planejamento pessoal; 'objetivo(s)' aparece 23 vezes, 'sonho(s)' 7 e 'meta(s)' 5 em 847 palavras.",
+        "frequencia": "frequente",
+        "ocorrencias": 35,
+        "evidencias": [
+          "Uma maneira eficaz de transformar sonhos em objetivos é torná-los mais específicos.",
+          "Todo Objetivo Precisa de um Plano"
+        ]
+      },
+      {
+        "traco": "Alterna sinônimos para o verbo de chegada ao objetivo: alcançar (11), atingir (8), concretizar, realizar.",
+        "frequencia": "frequente",
+        "ocorrencias": 21,
+        "evidencias": [
+          "ajudar você a alcançar seus objetivos mais rápido!",
+          "Como vou saber que atingi meu objetivo?",
+          "Agora, é hora de planejar como concretizá-lo."
+        ]
+      },
+      {
+        "traco": "Ferramentas de gestão citadas só pelo nome, sem explicar o que são.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "utilizar metodologias como a **SMART** ou ferramentas como a **matriz de Eisenhower**"
+        ]
+      },
+      {
+        "traco": "Anglicismos e marcas do consumo cotidiano aceitos sem itálico nem glosa ('notebook' 5x, 'iPhone').",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "Comprar um novo notebook",
+          "Comprar um iPhone"
+        ]
+      },
+      {
+        "traco": "Registro didático e motivacional, com lugares-comuns de educação financeira e autoajuda.",
+        "frequencia": "ocasional",
+        "ocorrencias": 5,
+        "evidencias": [
+          "O dinheiro, quando gerido de forma inteligente, é uma ferramenta poderosa para transformar sonhos em realidade.",
+          "A forma como você cuida e investe o seu dinheiro pode ser a chave para realizá-los.",
+          "permitir que você viva a vida que deseja"
+        ]
+      },
+      {
+        "traco": "Marcadores discursivos de manual didático abrindo frase: 'Na verdade', 'Por exemplo', 'Agora', 'Nesse processo', 'Como reflexão'.",
+        "frequencia": "frequente",
+        "ocorrencias": 7,
+        "evidencias": [
+          "Na verdade, ele é apenas um meio para alcançar algo maior.",
+          "Como reflexão, perceba que se economizasse R$ 300,00 por mês",
+          "Nesse processo, pode ser útil (e até recomendável)"
+        ]
+      }
+    ],
+    "sintaxe": [
+      {
+        "traco": "Frases de comprimento médio (cerca de 12 a 25 palavras), em geral uma oração principal com uma subordinada; pouca variação nos extremos.",
+        "frequencia": "frequente",
+        "ocorrencias": 40,
+        "evidencias": [
+          "Dependendo do seu momento de vida, alguns desses objetivos podem estar mais próximos que outros.",
+          "Entender se um objetivo é alcançável pode parecer simples, mas nem sempre é fácil."
+        ]
+      },
+      {
+        "traco": "Condicional 'Se ..., ...' anteposta como motor das hipóteses e dos cenários numéricos.",
+        "frequencia": "frequente",
+        "ocorrencias": 7,
+        "evidencias": [
+          "Se você quer comprar um carro, por exemplo, precisa saber quanto custa",
+          "Se o investimento render 1% ao mês, você precisaria de 28 meses para alcançar o valor.",
+          "Agora, se o objetivo for viajar para Paris em cinco anos, a história muda."
+        ]
+      },
+      {
+        "traco": "Enumeração de interrogativas indiretas na mesma frase, repetida em paralelo em dois parágrafos seguidos.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "precisa saber quanto custa, quanto tem para dar de entrada, qual parcela pode pagar por mês, e quanto tempo levará para quitar o financiamento.",
+          "deve saber o custo total da viagem, quanto tem disponível, quanto pode economizar por mês e quanto tempo levará para juntar o valor."
+        ]
+      },
+      {
+        "traco": "Frase isolada como parágrafo de uma linha para fixar a tese ou anunciar continuação.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Os investimentos devem ser vistos como um meio para alcançar seus objetivos de vida!",
+          "No futuro, pretendo explorar essas comparações mais a fundo."
+        ]
+      }
+    ],
+    "pontuacao": [
+      {
+        "traco": "Dois-pontos como articulador principal (11 na prosa): 5 introduzem lista e 6 anunciam dentro da frase a resposta, o exemplo ou a definição.",
+        "frequencia": "frequente",
+        "ocorrencias": 11,
+        "evidencias": [
+          "O papel dos investimentos é simples: ajudar você a alcançar seus objetivos mais rápido!",
+          "Vamos usar um exemplo simples: comprar um novo notebook.",
+          "Alcançar seus objetivos financeiros depende de dois fatores principais: planejamento e execução."
+        ]
+      },
+      {
+        "traco": "Exclamação para marcar a tese ou a resposta (3), uma vez seguida de ponto ('!.').",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "A resposta mais comum é: para ter mais dinheiro!.",
+          "Os investimentos devem ser vistos como um meio para alcançar seus objetivos de vida!"
+        ],
+        "contraexemplo": "Definir metas claras e específicas, assim como elaborar um plano detalhado, são os primeiros passos essenciais."
+      },
+      {
+        "traco": "Aspas retas (\") no site, usadas para a pergunta atribuída ao leitor, para uma expressão tratada como conceito e na epígrafe; a pontuação da frase fica fora das aspas.",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Provavelmente você já se perguntou: \"Por que devo investir?\".",
+          "O objetivo amplo de \"ter mais dinheiro\" pode trazer mais perguntas do que respostas:"
+        ]
+      },
+      {
+        "traco": "Vírgula depois de conector ou advérbio no início da frase, inclusive depois de 'Talvez'.",
+        "frequencia": "frequente",
+        "ocorrencias": 8,
+        "evidencias": [
+          "Talvez, comprar uma casa pareça distante",
+          "Mas, ao refletir um pouco mais, percebe-se que o dinheiro em si não é o objetivo final."
+        ]
+      },
+      {
+        "traco": "Parênteses para aparte curto ou dado lateral; nenhum travessão no texto.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "como através de uma loteria (a chance de ganhar é 1 em 50 milhões)",
+          "Nesse processo, pode ser útil (e até recomendável)"
+        ]
+      },
+      {
+        "traco": "Listas com marcador são frequentes (5 listas, 20 itens), sempre introduzidas por dois-pontos; os itens começam com maiúscula e não levam ponto final, e as perguntas mantêm o '?'.",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "- Quanto dinheiro é suficiente?",
+          "- Comprar um novo notebook"
+        ],
+        "contraexemplo": "Se deseja viajar para o exterior, deve saber o custo total da viagem, quanto tem disponível, quanto pode economizar por mês"
+      },
+      {
+        "traco": "Vírgula antes do 'e' final de enumeração usada uma vez, sem regularidade.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "qual parcela pode pagar por mês, e quanto tempo levará para quitar o financiamento."
+        ],
+        "contraexemplo": "quanto pode economizar por mês e quanto tempo levará para juntar o valor."
+      }
+    ],
+    "arquitetura": [
+      {
+        "traco": "Abre com imagem sem legenda e uma epígrafe de autoridade em pullquote; depois vem um subtítulo em forma de pergunta e a pergunta atribuída ao leitor.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "[[PULLQUOTE: \"O que pode ser medido pode ser gerenciado.\" **Peter Drucker**]]",
+          "Por que Investir?",
+          "Provavelmente você já se perguntou: \"Por que devo investir?\"."
+        ],
+        "contraexemplo": "A epígrafe sobre medir e gerenciar não é retomada explicitamente no corpo."
+      },
+      {
+        "traco": "Progride do abstrato ao concreto (dinheiro, depois objetivo, plano e conta); o conceito vem antes do exemplo em cada seção.",
+        "frequencia": "sempre",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Vamos usar o exemplo de uma viagem internacional.",
+          "Imagine que o notebook custa R$ 4.000,00, você tem R$ 1.000,00 disponíveis e pode economizar R$ 100,00 por mês."
+        ]
+      },
+      {
+        "traco": "Casos-guia hipotéticos de consumo pessoal (viagem a Paris, carro, notebook); o caso de Paris é retomado para contrastar prazo curto e prazo longo.",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "pode ser inviável planejar uma viagem para Paris na próxima semana se você precisar de R$ 20 mil.",
+          "Agora, se o objetivo for viajar para Paris em cinco anos, a história muda."
+        ]
+      },
+      {
+        "traco": "Reafirma a tese central (dinheiro e investimento como meio) em pontos-chave: abertura, fim da primeira seção, meio e conclusão.",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "Na verdade, ele é apenas um meio para alcançar algo maior.",
+          "O dinheiro, por si só, deve ser visto como um recurso para atingir objetivos específicos.",
+          "O dinheiro, quando gerido de forma inteligente, é uma ferramenta poderosa"
+        ]
+      },
+      {
+        "traco": "Subtítulos H2 temáticos e descritivos, um a cada cerca de 200 palavras (4 no total); o último se chama literalmente 'Conclusão'. As seções remetem umas às outras.",
+        "frequencia": "sempre",
+        "ocorrencias": 4,
+        "evidencias": [
+          "Transformando Sonhos em Objetivos",
+          "Após responder às perguntas da seção anterior, você definiu que é um objetivo importante e alcançável."
+        ]
+      },
+      {
+        "traco": "Fecha com uma seção 'Conclusão' que recapitula e exorta no imperativo; depois vêm separadores, enquete, chamada comercial para consultoria e botão de comentário.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Alcançar seus objetivos financeiros depende de dois fatores principais: planejamento e execução.",
+          "Lembre-se de que o propósito do investimento não é apenas acumular riqueza, mas permitir que você viva a vida que deseja."
+        ]
+      },
+      {
+        "traco": "Promete continuação em post futuro em vez de aprofundar no próprio texto.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "No futuro, pretendo explorar essas comparações mais a fundo."
+        ]
+      }
+    ],
+    "figuras": [
+      {
+        "traco": "Metáforas convencionais de caminho e trajeto, sem extensão.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Como posso saber se estou no caminho certo?",
+          "cada real investido é um passo em direção às suas conquistas."
+        ]
+      },
+      {
+        "traco": "Clichês do cotidiano e do teatro, usados uma vez cada, sem desenvolver.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "pode ser a chave para realizá-los.",
+          "É aqui que os investimentos entram em cena."
+        ]
+      },
+      {
+        "traco": "A oposição sonho/objetivo/realidade serve de moldura: vem do título e é retomada no fecho.",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Uma maneira eficaz de transformar sonhos em objetivos é torná-los mais específicos.",
+          "é uma ferramenta poderosa para transformar sonhos em realidade."
+        ]
+      },
+      {
+        "traco": "Loteria e milagre como figura do improvável, em contraste com o planejamento.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "como através de uma loteria (a chance de ganhar é 1 em 50 milhões)",
+          "sem depender de milagres ou mudanças drásticas."
+        ]
+      }
+    ],
+    "postura": [
+      {
+        "traco": "Fala direto ao leitor em segunda pessoa ('você' 19 vezes, mais 'seu/seus'), num tom de conselheiro próximo.",
+        "frequencia": "sempre",
+        "ocorrencias": 19,
+        "evidencias": [
+          "Dependendo do seu momento de vida, alguns desses objetivos podem estar mais próximos que outros.",
+          "Ao final desse exercício, você terá uma perspectiva mais clara sobre:"
+        ]
+      },
+      {
+        "traco": "Primeira pessoa quase ausente: um 'eu' implícito ('pretendo'), dois 'vamos' inclusivos e um impessoal 'percebe-se'.",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": [
+          "Vamos usar um exemplo simples: comprar um novo notebook.",
+          "No futuro, pretendo explorar essas comparações mais a fundo.",
+          "ao refletir um pouco mais, percebe-se que o dinheiro em si não é o objetivo final."
+        ]
+      },
+      {
+        "traco": "A autoridade fica implícita: prescreve como ver o dinheiro ('deve(m) ser visto(s)') sem citar fonte nem contar experiência pessoal.",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": [
+          "O dinheiro, por si só, deve ser visto como um recurso para atingir objetivos específicos.",
+          "Os investimentos devem ser vistos como um meio para alcançar seus objetivos de vida!"
+        ]
+      },
+      {
+        "traco": "Atenua com o modal 'pode/podem' (18 vezes) e com advérbios ('Provavelmente', 'normalmente', 'Talvez').",
+        "frequencia": "frequente",
+        "ocorrencias": 21,
+        "evidencias": [
+          "Nesse processo, pode ser útil (e até recomendável)",
+          "Por trás desse objetivo geral, normalmente há outros mais concretos, como:"
+        ]
+      },
+      {
+        "traco": "Encoraja o leitor de forma explícita, em tom motivacional.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Alguns desses objetivos podem até parecer sonhos, mas acredite: todos são possíveis.",
+          "Mantenha o foco nos objetivos que realmente importam e verá que cada real investido é um passo"
+        ]
+      },
+      {
+        "traco": "Menciona a própria marca em terceira pessoa, como oferta de serviço.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Se precisar de ajuda para estruturar seu planejamento financeiro, considere procurar a Syntaxis para uma consultoria personalizada."
+        ]
+      }
+    ],
+    "leitor": [
+      {
+        "traco": "Pressupõe leitor leigo e iniciante: parte da pergunta mais básica e usa exemplos de consumo pessoal.",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Provavelmente você já se perguntou: \"Por que devo investir?\".",
+          "Imagine que o notebook custa R$ 4.000,00"
+        ]
+      },
+      {
+        "traco": "Listas de perguntas para o próprio leitor responder, como exercício (3 listas, 12 perguntas).",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Para transformar esse sonho em uma meta, você pode começar respondendo a algumas perguntas:",
+          "- Quanto tempo você quer passar lá?",
+          "Responda a perguntas como:"
+        ]
+      },
+      {
+        "traco": "Imperativo em segunda pessoa: acredite, evite, responda, imagine, perceba, lembre-se, mantenha, considere.",
+        "frequencia": "frequente",
+        "ocorrencias": 8,
+        "evidencias": [
+          "Evite metas que exigem um esforço sobre-humano ou que são inatingíveis para a maioria.",
+          "Mantenha o foco nos objetivos que realmente importam"
+        ]
+      },
+      {
+        "traco": "Termos fora do repertório leigo entram só pelo nome, sem introdução, o que contraria o nível pressuposto do restante.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "utilizar metodologias como a **SMART** ou ferramentas como a **matriz de Eisenhower**"
+        ]
+      },
+      {
+        "traco": "Três chamadas para ação no fim: enquete, consultoria e botão de comentário.",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "[[ENQUETE]]",
+          "considere procurar a Syntaxis para uma consultoria personalizada.",
+          "[[CTA: Deixe um comentário → https://syntaxis.substack.com/p/conectando-dinheiro-e-sonhos/comments]]"
+        ]
+      }
+    ],
+    "tecnico": [
+      {
+        "traco": "Sem fórmula nem notação: os cálculos aparecem só pelo resultado, sem conta, sem tabela e sem dizer se os juros são compostos.",
+        "frequencia": "sempre",
+        "ocorrencias": 5,
+        "evidencias": [
+          "Levaria 30 meses para alcançar o valor total.",
+          "Se o investimento render 1% ao mês, você precisaria de 28 meses para alcançar o valor.",
+          "Com um rendimento de 2% ao mês, seriam 26 meses."
+        ]
+      },
+      {
+        "traco": "Valores monetários no formato 'R$ ' com espaço, ponto de milhar e centavos ',00'; taxas no formato '1% ao mês'.",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "Imagine que o notebook custa R$ 4.000,00, você tem R$ 1.000,00 disponíveis e pode economizar R$ 100,00 por mês."
+        ],
+        "contraexemplo": "se você precisar de R$ 20 mil."
+      },
+      {
+        "traco": "Algarismos para valores e prazos em meses; número por extenso para prazo em anos.",
+        "frequencia": "ocasional",
+        "ocorrencias": 6,
+        "evidencias": [
+          "levaria apenas 14 meses para juntar o valor necessário.",
+          "se o objetivo for viajar para Paris em cinco anos"
+        ]
+      },
+      {
+        "traco": "Dado probabilístico apresentado entre parênteses, sem fonte.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "(a chance de ganhar é 1 em 50 milhões)"
+        ]
+      },
+      {
+        "traco": "Sem gráfico de dados, tabela ou citação de norma; a única imagem é a de abertura, sem legenda.",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": [
+          "![](img-01)"
+        ]
+      }
+    ],
+    "formatacao": [
+      {
+        "traco": "Negrito raro (3), reservado a nomes próprios: o autor da epígrafe e os nomes de métodos. A tese não recebe negrito.",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "**Peter Drucker**",
+          "a **SMART** ou ferramentas como a **matriz de Eisenhower**"
+        ],
+        "contraexemplo": "Os investimentos devem ser vistos como um meio para alcançar seus objetivos de vida!"
+      },
+      {
+        "traco": "Nenhum itálico, riscado ou código; anglicismos e títulos ficam em redondo.",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": [
+          "Comprar um novo notebook"
+        ]
+      },
+      {
+        "traco": "Pullquote usado como epígrafe de terceiro no topo, não como destaque de frase do próprio texto.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "[[PULLQUOTE: \"O que pode ser medido pode ser gerenciado.\" **Peter Drucker**]]"
+        ]
+      },
+      {
+        "traco": "Subtítulos H2 em Title Case (maiúscula nas palavras lexicais), incluindo gerúndio e pergunta; o título do post, ao contrário, vem em caixa de frase e sem subtítulo.",
+        "frequencia": "sempre",
+        "ocorrencias": 4,
+        "evidencias": [
+          "Transformando Sonhos em Objetivos",
+          "Por que Investir?",
+          "Todo Objetivo Precisa de um Plano"
+        ],
+        "contraexemplo": "titulo: \"Conectando dinheiro e sonhos\""
+      },
+      {
+        "traco": "Blocos curtos: parágrafos de 1 a 4 frases, intercalados com listas de marcador (5 listas em 847 palavras).",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "- Viajar para o exterior",
+          "- Quanto pode economizar por mês?"
+        ]
+      },
+      {
+        "traco": "Separadores horizontais isolam o bloco final de enquete e CTA; o post termina num botão de comentário.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "* * *",
+          "[[CTA: Deixe um comentário → https://syntaxis.substack.com/p/conectando-dinheiro-e-sonhos/comments]]"
+        ]
+      }
+    ]
+  },
+  "antipadroes_observados": [
+    "(a) Nunca usa travessão (zero ocorrências de — ou –).",
+    "(a) Nunca usa itálico, riscado ou código.",
+    "(a) Nunca apresenta fórmula, tabela, memória de cálculo ou gráfico de dados.",
+    "(a) Nunca cita fonte ou link para dado; a probabilidade da loteria aparece sem referência.",
+    "(a) Nunca conta anedota nem experiência pessoal do autor; nunca recorre a humor.",
+    "(a) Nunca discute objeção ou ponto de vista contrário.",
+    "(b) Seção final chamada 'Conclusão' que só recapitula o já dito: 'Alcançar seus objetivos financeiros depende de dois fatores principais: planejamento e execução.'",
+    "(b) Lugares-comuns grandiloquentes típicos de texto genérico: 'é uma ferramenta poderosa para transformar sonhos em realidade.'; 'são os primeiros passos essenciais.'",
+    "(b) Construção 'não é apenas X, mas Y' no fecho: 'o propósito do investimento não é apenas acumular riqueza, mas permitir que você viva a vida que deseja.'",
+    "(b) Fecho exortativo padronizado ('Lembre-se de que...', 'Mantenha o foco...') e abertura com 'Na verdade,'. Observação: o post é pre-pipeline (escrito só pelo autor), então esses tiques são do autor e não vieram do sistema editorial."
+  ],
+  "incerteza": "Texto curto (847 palavras, abaixo do piso de ~5.000 por amostra), então variação sintática e frequências têm pouca robustez. section_name é null, e por isso não dá para associar o texto a uma linha editorial (Spoiler ou Notas de um Professor). Época pre-pipeline: o texto reflete a escrita do autor sem o sistema editorial. As aspas retas foram registradas como estão no arquivo, que segue a formatação do site. Não se sabe o conteúdo da enquete nem da imagem de abertura (sem legenda). Observação técnica fora do escopo de estilo: alguns resultados numéricos não fecham numa checagem simples a partir das premissas declaradas (com R$ 300,00/mês e R$ 1.000,00 iniciais, (4.000 − 1.000)/300 = 10 meses, não 14; com 1% a.m. e aportes de R$ 100,00 o prazo dá cerca de 25 meses, não 28). Isso reforça o traço 'resultado sem demonstração', mas cabe à verificação técnica conferir, não a esta extração."
+}
