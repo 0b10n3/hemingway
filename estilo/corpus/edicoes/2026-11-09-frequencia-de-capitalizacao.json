@@ -1,0 +1,525 @@
+{
+ "slug_repo": "2026-11-09-frequencia-de-capitalizacao",
+ "slug_site": "frequencia-de-capitalizacao",
+ "linha_editorial": "Notas de um Professor",
+ "rascunho": "_arquivo/drafts/2026-11-09Frequência de Capitalização.md",
+ "rascunho_tipo": "rascunho",
+ "post_md_base": {
+  "commit": "atual",
+  "similaridade_base": 0.992,
+  "similaridade_versao_atual": 0.992
+ },
+ "palavras": {
+  "rascunho": 3161,
+  "post_md": 3136,
+  "publicado": 3126
+ },
+ "similaridade": {
+  "rascunho_post_md": 0.751,
+  "post_md_publicado": 0.992,
+  "rascunho_publicado": 0.75
+ },
+ "resumo_classe": {
+  "divisao_paragrafo": 8,
+  "substituicao": 5,
+  "insercao": 4,
+  "subtitulo_h2": 4,
+  "pontuacao": 2,
+  "remocao": 2,
+  "legenda": 2,
+  "imagem": 1,
+  "italico_adicionado": 1,
+  "tipografia_aspas": 1
+ },
+ "resumo_natureza": {
+  "estilo": 26,
+  "layout-substack": 4
+ },
+ "sinais": {
+  "reversao": 4,
+  "acrescimo_autoral": 11
+ },
+ "operacoes": [
+  {
+   "classe": "imagem",
+   "natureza": "layout-substack",
+   "antes": "",
+   "depois": "⟦IMG⟧",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": null,
+   "bloco_depois": 0,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": " [[…]] No fim de \"A Corda",
+   "tipo": "insercao",
+   "id": 1
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "estilo",
+   "antes": "de \"A Corda e o Arco\", o",
+   "depois": "do",
+   "palavras_antes": 7,
+   "palavras_depois": 1,
+   "bloco_antes": 0,
+   "bloco_depois": 1,
+   "sinais": [
+    "reversao"
+   ],
+   "restaurou_rascunho": null,
+   "origem_antes": "pipeline",
+   "contexto": "No fim [[…]] último texto, deixei uma conta",
+   "id": 2
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "estilo",
+   "antes": "empurre",
+   "depois": "altere",
+   "palavras_antes": 1,
+   "palavras_depois": 1,
+   "bloco_antes": 3,
+   "bloco_depois": 4,
+   "sinais": [
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": "rascunho",
+   "contexto": "a forma de cotar. Agora [[…]] a pergunta. E se o",
+   "id": 3
+  },
+  {
+   "classe": "insercao",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "Esses são os",
+   "palavras_antes": 0,
+   "palavras_depois": 3,
+   "bloco_antes": null,
+   "bloco_depois": 15,
+   "sinais": [
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": ". Nominal, frequência, efetiva [[…]] Três nomes resolvem a conta da",
+   "id": 4
+  },
+  {
+   "classe": "insercao",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "que",
+   "palavras_antes": 0,
+   "palavras_depois": 1,
+   "bloco_antes": null,
+   "bloco_depois": 15,
+   "sinais": [
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": ", frequência, efetiva Três nomes [[…]] resolvem a conta da abertura.",
+   "id": 5
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "estilo",
+   "antes": "com",
+   "depois": "utilizando",
+   "palavras_antes": 1,
+   "palavras_depois": 1,
+   "bloco_antes": 23,
+   "bloco_depois": 28,
+   "sinais": [
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": "rascunho",
+   "contexto": "milésimos. ⟦IMG⟧ Bernoulli mostrou, [[…]] o binômio de Newton, que",
+   "id": 6
+  },
+  {
+   "classe": "pontuacao",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "“",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": null,
+   "bloco_depois": 34,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "qualquer. De onde vem o [[…]] e Troque os 100% por",
+   "id": 7
+  },
+  {
+   "classe": "pontuacao",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "”",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": null,
+   "bloco_depois": 34,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": ". De onde vem o e [[…]] Troque os 100% por uma",
+   "id": 8
+  },
+  {
+   "classe": "subtitulo_h2",
+   "natureza": "estilo",
+   "antes": "Rende",
+   "depois": "Render",
+   "palavras_antes": 1,
+   "palavras_depois": 1,
+   "bloco_antes": 54,
+   "bloco_depois": 62,
+   "sinais": [
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": "rascunho",
+   "contexto": "justamente o ponto deste texto. [[…]] todo dia não é render mais",
+   "id": 9
+  },
+  {
+   "classe": "subtitulo_h2",
+   "natureza": "estilo",
+   "antes": "Por que a mesa de",
+   "depois": "No munda das",
+   "palavras_antes": 5,
+   "palavras_depois": 3,
+   "bloco_antes": 64,
+   "bloco_depois": 72,
+   "sinais": [
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": "rascunho",
+   "contexto": "vale quase três pontos percentuais. [[…]] opções fala contínuo Se composto e",
+   "id": 10
+  },
+  {
+   "classe": "subtitulo_h2",
+   "natureza": "estilo",
+   "antes": "fala",
+   "depois": ", falamos",
+   "palavras_antes": 1,
+   "palavras_depois": 1,
+   "bloco_antes": 64,
+   "bloco_depois": 72,
+   "sinais": [
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": "rascunho",
+   "contexto": "Por que a mesa de opções [[…]] contínuo Se composto e contínuo são",
+   "id": 11
+  },
+  {
+   "classe": "insercao",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "No livro de opções do",
+   "palavras_antes": 0,
+   "palavras_depois": 5,
+   "bloco_antes": null,
+   "bloco_depois": 82,
+   "sinais": [
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "com esses retornos que trabalha. [[…]] John Hull escreveu um dos manuais",
+   "id": 12
+  },
+  {
+   "classe": "insercao",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": ", que",
+   "palavras_antes": 0,
+   "palavras_depois": 1,
+   "bloco_antes": null,
+   "bloco_depois": 82,
+   "sinais": [
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "retornos que trabalha. John Hull [[…]] escreveu um dos manuais de derivativos",
+   "id": 13
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "estilo",
+   "antes": "manuais",
+   "depois": "textos",
+   "palavras_antes": 1,
+   "palavras_depois": 1,
+   "bloco_antes": 74,
+   "bloco_depois": 82,
+   "sinais": [
+    "reversao",
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": "pipeline",
+   "contexto": ". John Hull escreveu um dos [[…]] de derivativos (contratos cujo valor",
+   "id": 14
+  },
+  {
+   "classe": "remocao",
+   "natureza": "estilo",
+   "antes": "(contratos cujo valor depende de outro ativo, como as opções)",
+   "depois": "",
+   "palavras_antes": 10,
+   "palavras_depois": 0,
+   "bloco_antes": 74,
+   "bloco_depois": null,
+   "sinais": [
+    "reversao"
+   ],
+   "restaurou_rascunho": null,
+   "origem_antes": "pipeline",
+   "contexto": "escreveu um dos manuais de derivativos [[…]] mais usados no mercado. No",
+   "id": 15
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "estilo",
+   "antes": ". No",
+   "depois": ", o",
+   "palavras_antes": 1,
+   "palavras_depois": 1,
+   "bloco_antes": 74,
+   "bloco_depois": 82,
+   "sinais": [
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": "rascunho",
+   "contexto": "opções) mais usados no mercado [[…]] capítulo de taxas de juros,",
+   "id": 16
+  },
+  {
+   "classe": "remocao",
+   "natureza": "estilo",
+   "antes": ", ele",
+   "depois": "",
+   "palavras_antes": 1,
+   "palavras_depois": 0,
+   "bloco_antes": 74,
+   "bloco_depois": null,
+   "sinais": [
+    "reversao"
+   ],
+   "restaurou_rascunho": null,
+   "origem_antes": "pipeline",
+   "contexto": "No capítulo de taxas de juros [[…]] trabalha em taxa contínua e mostra",
+   "id": 17
+  },
+  {
+   "classe": "subtitulo_h2",
+   "natureza": "estilo",
+   "antes": "Fechamento:",
+   "depois": "",
+   "palavras_antes": 1,
+   "palavras_depois": 0,
+   "bloco_antes": 96,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": "rascunho",
+   "contexto": "o próximo degrau da carreira. [[…]] o topo da escada Capitalizar com",
+   "id": 18
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "versão que circula é mais ou menos esta.",
+   "depois": "O juro composto é o regime do mundo",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 8,
+   "bloco_depois": 10,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "versão que circula é mais ou menos esta. O juro composto é o regime do mundo",
+   "id": 19
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "j, é o número escrito no contrato.",
+   "depois": "A frequência de capitalização, m, diz",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 14,
+   "bloco_depois": 17,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "j, é o número escrito no contrato. A frequência de capitalização, m, diz",
+   "id": 20
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": ", que se compõe m vezes no ano.",
+   "depois": "A taxa efetiva, i, é o",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 14,
+   "bloco_depois": 18,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": ", que se compõe m vezes no ano. A taxa efetiva, i, é o",
+   "id": 21
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "1, aplicado a 100% ao ano.",
+   "depois": "Com uma capitalização no ano, o capital",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 20,
+   "bloco_depois": 25,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "1, aplicado a 100% ao ano. Com uma capitalização no ano, o capital",
+   "id": 22
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": ", que a escada nunca passa de 3.",
+   "depois": "A conta cabe em uma linha. Expandido",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 23,
+   "bloco_depois": 29,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": ", que a escada nunca passa de 3. A conta cabe em uma linha. Expandido",
+   "id": 23
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "fórmula, e ele mostra a hipótese escondida.",
+   "depois": "Se o juro é incorporado a cada instante",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 32,
+   "bloco_depois": 39,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "fórmula, e ele mostra a hipótese escondida. Se o juro é incorporado a cada instante",
+   "id": 24
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "alguma coisa cresce em proporção a si mesma.",
+   "depois": "A hipótese embutida é que nenhum centavo fica",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 34,
+   "bloco_depois": 42,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "alguma coisa cresce em proporção a si mesma. A hipótese embutida é que nenhum centavo fica",
+   "id": 25
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "contínua e mostra a conversão entre as etiquetas.",
+   "depois": "A escolha é de conveniência, não de",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 74,
+   "bloco_depois": 83,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "contínua e mostra a conversão entre as etiquetas. A escolha é de conveniência, não de",
+   "id": 26
+  },
+  {
+   "classe": "italico_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "e",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 34,
+   "bloco_depois": 41,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "vezes o saldo. $$\n\\frac{dM}{dt} = j\\,M \\quad\\Longrightarrow\\quad M(t) = C\\,e^{\\,j\\,t}\n$$ O e é a base em que a",
+   "id": 27
+  },
+  {
+   "classe": "legenda",
+   "natureza": "layout-substack",
+   "antes": "a linha quebrada de Bernoulli. Capital de 1 aplicado a 100% ao ano, ao longo de um ano. Linhas quebradas com 1, 2, 4 e 12 cordas terminam em 2; 2,25; 2,44 e 2,61. Por cima delas, a curva contínua termina em 2,718. Cada linha quebrada fica abaixo da seguinte, e todas abaixo da curva.",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 22,
+   "bloco_depois": 27,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "ganha menos de quatro milésimos. [[…]] Bernoulli mostrou, com o binômio",
+   "id": 28
+  },
+  {
+   "classe": "legenda",
+   "natureza": "layout-substack",
+   "antes": "taxa efetiva de 14% nominais ao ano conforme a frequência de capitalização. Anual, 14,00%; semestral, 14,49%; mensal, 14,93%; diária, 15,02%. Todas ficam abaixo do teto contínuo de 15,03%, marcado por uma linha tracejada. Cada degrau sobe menos que o anterior. Cálculo próprio.",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 56,
+   "bloco_depois": 64,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "eles a escada de Bernoulli. [[…]] Em R $ 1 milhão aplicado",
+   "id": 29
+  },
+  {
+   "classe": "tipografia_aspas",
+   "natureza": "layout-substack",
+   "antes": "",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": null,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "",
+   "ocorrencias": 16,
+   "id": 30
+  }
+ ]
+}

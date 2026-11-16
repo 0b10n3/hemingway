@@ -1,0 +1,393 @@
+{
+ "slug_repo": "2026-11-02-a-barriga-da-curva",
+ "slug_site": "a-corda-e-o-arco",
+ "linha_editorial": "Notas de um Professor",
+ "rascunho": "_arquivo/drafts/2026-11-02_A_Barriga_da_Curva.md",
+ "rascunho_tipo": "rascunho",
+ "post_md_base": {
+  "commit": "00dcfe0",
+  "similaridade_base": 0.988,
+  "similaridade_versao_atual": 0.979
+ },
+ "palavras": {
+  "rascunho": 2722,
+  "post_md": 2763,
+  "publicado": 2748
+ },
+ "similaridade": {
+  "rascunho_post_md": 0.47,
+  "post_md_publicado": 0.988,
+  "rascunho_publicado": 0.471
+ },
+ "resumo_classe": {
+  "substituicao": 10,
+  "remocao": 2,
+  "legenda": 2,
+  "imagem": 1,
+  "subtitulo_h2": 1,
+  "insercao": 1,
+  "divisao_paragrafo": 1,
+  "negrito_adicionado": 1,
+  "italico_adicionado": 1,
+  "tipografia_aspas": 1
+ },
+ "resumo_natureza": {
+  "estilo": 17,
+  "layout-substack": 4
+ },
+ "sinais": {
+  "reversao": 10,
+  "acrescimo_autoral": 8
+ },
+ "operacoes": [
+  {
+   "classe": "imagem",
+   "natureza": "layout-substack",
+   "antes": "",
+   "depois": "⟦IMG⟧",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": null,
+   "bloco_depois": 0,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": " [[…]] No último texto conversamos sobre como",
+   "tipo": "insercao",
+   "id": 1
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "estilo",
+   "antes": "está a ideia",
+   "depois": "podemos destacar algumas ideias",
+   "palavras_antes": 3,
+   "palavras_depois": 4,
+   "bloco_antes": 35,
+   "bloco_depois": 36,
+   "sinais": [
+    "reversao",
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": "pipeline",
+   "contexto": "A corda e o arco Aqui [[…]] que separa quem decorou as fórmulas",
+   "id": 2
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "estilo",
+   "antes": "separa",
+   "depois": "separam",
+   "palavras_antes": 1,
+   "palavras_depois": 1,
+   "bloco_antes": 35,
+   "bloco_depois": 36,
+   "sinais": [
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": "rascunho",
+   "contexto": "arco Aqui está a ideia que [[…]] quem decorou as fórmulas de quem",
+   "obs": "possível erro de digitação no site: 'separam'",
+   "id": 3
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "estilo",
+   "antes": "e a",
+   "depois": "de uma",
+   "palavras_antes": 2,
+   "palavras_depois": 2,
+   "bloco_antes": 37,
+   "bloco_depois": 38,
+   "sinais": [
+    "reversao"
+   ],
+   "restaurou_rascunho": true,
+   "origem_antes": "pipeline",
+   "contexto": "do juro simples é a corda [[…]] curva do composto é o arco",
+   "id": 4
+  },
+  {
+   "classe": "remocao",
+   "natureza": "estilo",
+   "antes": "do composto é o arco. A curva é",
+   "depois": "",
+   "palavras_antes": 8,
+   "palavras_depois": 0,
+   "bloco_antes": 37,
+   "bloco_depois": null,
+   "sinais": [
+    "reversao"
+   ],
+   "restaurou_rascunho": null,
+   "origem_antes": "pipeline",
+   "contexto": "é a corda e a curva [[…]] convexa (no sentido do cálculo",
+   "id": 5
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "estilo",
+   "antes": "do arco",
+   "depois": "dela",
+   "palavras_antes": 2,
+   "palavras_depois": 1,
+   "bloco_antes": 38,
+   "bloco_depois": 39,
+   "sinais": [
+    "reversao"
+   ],
+   "restaurou_rascunho": true,
+   "origem_antes": "pipeline",
+   "contexto": "uma curva convexa passa por cima [[…]] . Com o mesmo número cotado",
+   "id": 6
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "estilo",
+   "antes": "A norma",
+   "depois": "O texto",
+   "palavras_antes": 2,
+   "palavras_depois": 2,
+   "bloco_antes": 41,
+   "bloco_depois": 42,
+   "sinais": [
+    "reversao",
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": "pipeline",
+   "contexto": "contrato não fixa a taxa. [[…]] manda acumulá-la em juros simples,",
+   "id": 7
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "estilo",
+   "antes": "ora acima",
+   "depois": "dos dois lados",
+   "palavras_antes": 2,
+   "palavras_depois": 3,
+   "bloco_antes": 41,
+   "bloco_depois": 42,
+   "sinais": [
+    "reversao",
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": "pipeline",
+   "contexto": "curva. A mesma norma, [[…]] da curva, ora abaixo dela",
+   "id": 8
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "estilo",
+   "antes": "curva, ora abaixo dela",
+   "depois": "barriga",
+   "palavras_antes": 4,
+   "palavras_depois": 1,
+   "bloco_antes": 41,
+   "bloco_depois": 42,
+   "sinais": [
+    "reversao",
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": "pipeline",
+   "contexto": "mesma norma, ora acima da [[…]] . Por isso a frase \"",
+   "id": 9
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "estilo",
+   "antes": "neste texto",
+   "depois": "na barriga",
+   "palavras_antes": 2,
+   "palavras_depois": 2,
+   "bloco_antes": 67,
+   "bloco_depois": 68,
+   "sinais": [
+    "reversao",
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": "pipeline",
+   "contexto": "legal brasileira, que já apareceu [[…]] . O contínuo ficou com os",
+   "id": 10
+  },
+  {
+   "classe": "subtitulo_h2",
+   "natureza": "estilo",
+   "antes": "Fechamento:",
+   "depois": "",
+   "palavras_antes": 1,
+   "palavras_depois": 0,
+   "bloco_antes": 84,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": "rascunho",
+   "contexto": "o du está no expoente. [[…]] o expoente que faltava Com o",
+   "id": 11
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "estilo",
+   "antes": "composto",
+   "depois": "compost o",
+   "palavras_antes": 1,
+   "palavras_depois": 2,
+   "bloco_antes": 85,
+   "bloco_depois": 86,
+   "sinais": [
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": "rascunho",
+   "contexto": ", o juro simples ganha do [[…]] em qualquer fração de período.",
+   "obs": "possível erro de digitação no site: 'compost'",
+   "id": 12
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "estilo",
+   "antes": "fazer a mesma troca",
+   "depois": "separar",
+   "palavras_antes": 4,
+   "palavras_depois": 1,
+   "bloco_antes": 87,
+   "bloco_depois": 89,
+   "sinais": [
+    "reversao",
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": "pipeline",
+   "contexto": "o texto funcionou, você consegue [[…]] sozinho. Pegue um contrato de",
+   "id": 13
+  },
+  {
+   "classe": "insercao",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "uma taxa nominal de uma efetiva",
+   "palavras_antes": 0,
+   "palavras_depois": 6,
+   "bloco_antes": null,
+   "bloco_depois": 89,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "consegue fazer a mesma troca sozinho [[…]] . Pegue um contrato de financiamento",
+   "id": 14
+  },
+  {
+   "classe": "remocao",
+   "natureza": "estilo",
+   "antes": ". O FIDC que prometi vem depois desse texto",
+   "depois": "",
+   "palavras_antes": 8,
+   "palavras_depois": 0,
+   "bloco_antes": 88,
+   "bloco_depois": null,
+   "sinais": [
+    "reversao"
+   ],
+   "restaurou_rascunho": null,
+   "origem_antes": "pipeline",
+   "contexto": "e como essa aproximação é usada [[…]] . Se este texto ajudou você",
+   "id": 15
+  },
+  {
+   "classe": "divisao_paragrafo",
+   "natureza": "estilo",
+   "antes": "15, 03% que já apareceram aqui.",
+   "depois": "Vamos ver o que essa frequência muda na",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 88,
+   "bloco_depois": 91,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "15, 03% que já apareceram aqui. Vamos ver o que essa frequência muda na",
+   "id": 16
+  },
+  {
+   "classe": "negrito_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "no fim do primeiro período ainda não há juro anterior para render juro",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 36,
+   "bloco_depois": 37,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "(1 + i): no fim do primeiro período ainda não há juro anterior para render juro. Entre esses dois pontos,",
+   "id": 17
+  },
+  {
+   "classe": "italico_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "'bola de neve',",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 15,
+   "bloco_depois": 16,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "o regime dos profissionais, a 'bola de neve', a força que uma frase atribuída",
+   "id": 18
+  },
+  {
+   "classe": "legenda",
+   "natureza": "layout-substack",
+   "antes": "R$ 1.000 a 14% ao ano, de zero a dois anos, nos dois motores. Entre zero e um ano, a reta do juro simples fica acima da curva do composto, com a maior distância perto de seis meses (R$ 1.070,00 contra R$ 1.067,71, uma diferença de R$ 2,29). As duas se encontram em um ano, em R$ 1.140,00, e a curva passa por cima da reta dali em diante: em dois anos, o composto paga R$ 19,60 a mais.",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 39,
+   "bloco_depois": 40,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "fez pode confiar no desenho. [[…]] Na prática, isso quer dizer",
+   "id": 19
+  },
+  {
+   "classe": "legenda",
+   "natureza": "layout-substack",
+   "antes": "parcela do juro sobre juro no juro total de R$ 1.000 aplicados a juros compostos de 6%, 10% e 14% ao ano, em prazos de 1 a 30 anos. Em dois anos a 14%, é 6,5% do juro (R$ 19,60 de R$ 299,60). O juro sobre juro só passa a valer mais que o juro linear depois de 10,42 anos a 14%, 14,02 anos a 10% e 22,39 anos a 6%.",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 49,
+   "bloco_depois": 50,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "R $ 19, 60. [[…]] A virada, o prazo em",
+   "id": 20
+  },
+  {
+   "classe": "tipografia_aspas",
+   "natureza": "layout-substack",
+   "antes": "",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": null,
+   "bloco_depois": null,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "",
+   "ocorrencias": 18,
+   "id": 21
+  }
+ ]
+}
