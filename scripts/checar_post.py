@@ -9,12 +9,15 @@ BLOQUEANTE (o gate da etapa 10 não aprova; a colheita aponta no site):
   - placeholder órfão entre post.md e graficos.md/diagramas.md/infograficos.md (só post.md);
   - frontmatter mínimo ausente (só post.md).
 AVISO (vai para a revisão e para o gate, não bloqueia):
-  - parágrafo médio ou parágrafo isolado acima do limite;
+  - parágrafo médio ou parágrafo isolado acima do limite; parágrafo sem palavra (deslize de edição);
   - travessão acima do limite por mil palavras, ou em título/subtítulo;
   - H2 com rótulo de movimento ("Fechamento:", "Conclusão");
   - exclamação no corpo (aspas retas não: o Substack converte ao colar);
   - mais de uma antítese "não é X. É Y." na mesma seção;
-  - bloco graf-NN sem rangemode="tozero" e sem exceção escrita.
+  - bloco graf-NN sem rangemode="tozero" e sem exceção escrita;
+  - aviso legal ausente (texto em docs/AVISO_LEGAL.md; só post.md);
+  - alt-text de figura acima de 125 caracteres.
+No post.md, imprime também a lista de alt-text de cada figura, para colar no Substack.
 
 Os limites vêm de estilo/voz.fingerprint.json (metas_publicado): uma fonte só para o número.
 Sai com código 1 se houver bloqueante. Só stdlib; usa os blocos de diff_edicoes.py.
@@ -35,6 +38,8 @@ JARGAO = re.compile(r"\bna etapa (?:de |da |\d)|\betapa de (?:pesquisa|verifica\
                     r"\bpost-substack\b|\bprocesso/0\d|\bgate humano\b", re.I)
 ROTULO_H2 = re.compile(r"^(fechamento|abertura|gancho|movimento \d+|conclus[ãa]o)\b\s*[:—–-]?", re.I)
 ANTITESE = re.compile(r"\bn[ãa]o (?:é|são|há|foi|era|está)\b[^.!?\n]{1,90}[.;]\s+(?:É|São|Há|Foi|Era|Está)\b")
+FIGURA = re.compile(r"!\[(?:Gráfico|Diagrama|Infográfico)?:?\s*([^\]]*)\]\(((?:graf|diag|info)-\d+)\)", re.S)
+ALT_MAX = 125
 CAMPOS = (("titulo", "título"), ("subtitulo", "subtítulo"), ("data",), ("linha_editorial",), ("status",))
 
 
@@ -80,6 +85,13 @@ def checar(caminho):
             bloq.append(f"placeholder sem bloco de spec: {p}")
         for p in sorted(definidos - usados):
             bloq.append(f"bloco de spec sem placeholder no post: {p}")
+        aviso_legal = re.search(r"^\*(.+?)\.", (RAIZ / "docs" / "AVISO_LEGAL.md").read_text(), re.M).group(1)
+        if re.sub(r"\s+", " ", aviso_legal) not in re.sub(r"\s+", " ", corpo):
+            aviso.append("aviso legal ausente (docs/AVISO_LEGAL.md; vai em todo post)")
+
+    for alt, fig in figuras(corpo):
+        if len(alt) > ALT_MAX:
+            aviso.append(f"{fig}: alt-text com {len(alt)} caracteres (máximo {ALT_MAX}; prompts-visuais)")
 
     bls, _ = D.blocos(corpo)
     pars = [t for tipo, t in bls if tipo == "paragrafo"]
@@ -91,6 +103,8 @@ def checar(caminho):
         aviso.append(f"parágrafo médio de {sum(tamanhos) / len(tamanhos):.0f} palavras "
                      f"(alvo ~{lim_par['alvo']}; regra 1)")
     for p, n in zip(pars, tamanhos):
+        if n == 0:
+            aviso.append(f"parágrafo sem palavra: «{p[:20]}» (deslize de edição?)")
         if n > lim_par["maximo_paragrafo"]:
             aviso.append(f"parágrafo de {n} palavras: «{p[:60]}…» (regra 1)")
 
@@ -118,6 +132,11 @@ def checar(caminho):
     return bloq, aviso
 
 
+def figuras(corpo):
+    """[(alt-text, id)] dos placeholders de figura, na ordem do texto."""
+    return [(re.sub(r"\s+", " ", alt).strip(), fig) for alt, fig in FIGURA.findall(corpo)]
+
+
 def main():
     if len(sys.argv) != 2:
         raise SystemExit(__doc__)
@@ -130,6 +149,9 @@ def main():
         print(f"  aviso       {a}")
     if not bloq and not aviso:
         print("  ok")
+    if caminho.name == "post.md":
+        for alt, fig in figuras(D.ler_texto(caminho.read_text())[1]):
+            print(f"  colar       {fig} — alt-text: {alt}")
     sys.exit(1 if bloq else 0)
 
 

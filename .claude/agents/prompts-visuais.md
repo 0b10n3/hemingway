@@ -43,7 +43,10 @@ Um bloco por `graf-NN`:
   `.png`. Cada bloco roda sozinho, sem preâmbulo — teste com `python3` antes de considerar a
   etapa concluída.
 - **Escolha de tipo de gráfico justificada** em uma linha, e o que foi descartado.
-- **Alt-text e legenda.**
+- **Alt-text** (até 125 caracteres: o que a figura mostra, para quem não a vê) e **legenda**
+  (opcional, uma linha: o ponto que a figura prova). O alt-text vai no placeholder do `post.md`;
+  o gate entrega os dois para colar no editor do Substack. Em novembro de 2026, nenhuma das 48
+  imagens publicadas tinha alt-text.
 - **Anotação**: todo ponto de interesse tem `add_annotation` apontando para ele (ver
   `.claude/agents/references/checklist-graficos.md`).
 
@@ -88,5 +91,11 @@ Cada gráfico/diagrama/infográfico vira, no texto:
 ![Infográfico: <legenda descritiva curta>](info-01)
 ```
 
-A legenda no alt-text não é opcional — é o que sustenta o post se a imagem falhar ao
-carregar, então tem que carregar a ideia sozinha.
+O alt-text do placeholder não é opcional e tem no máximo 125 caracteres: é o que o leitor de
+tela lê e o que sustenta o post se a imagem falhar. `scripts/checar_post.py` avisa quando passa
+do limite e imprime a lista de alt-text para colar.
+
+O Substack não tem tabela nativa: tabela vira figura (`graf-NN`/`diag-NN`) ou lista, nunca tabela
+markdown no `post.md`. Quando o texto anuncia a figura, o autor usa uma frase com dois-pontos que
+diz o que olhar ("Lado a lado com os produtos dos textos anteriores:"), nunca "veja o gráfico
+abaixo".

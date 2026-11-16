@@ -11,7 +11,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import checar_post as C  # noqa: E402
 
 FM = "---\ntitulo: Um título\nsubtitulo: Um subtítulo\ndata: 2026-11-20\nlinha_editorial: Spoiler\nstatus: aprovado\n---\n\n"
-CURTO = "Uma frase curta e limpa aqui.\n\nOutra frase, também curta."
+AVISO_LEGAL = (C.RAIZ / "docs" / "AVISO_LEGAL.md").read_text().strip().splitlines()[-1]
+CURTO = "Uma frase curta e limpa aqui.\n\nOutra frase, também curta.\n\n* * *\n\n" + AVISO_LEGAL
 
 
 def checar(corpo, frontmatter=FM, extras=None, nome="post.md"):
@@ -26,6 +27,10 @@ def checar(corpo, frontmatter=FM, extras=None, nome="post.md"):
 class Bloqueantes(unittest.TestCase):
     def test_post_limpo_passa(self):
         self.assertEqual(checar(CURTO), ([], []))
+
+    def test_aviso_legal_ausente(self):
+        _, aviso = checar("Uma frase curta e limpa aqui.")
+        self.assertTrue(any("aviso legal" in a for a in aviso))
 
     def test_marcadores_do_processo(self):
         bloq, _ = checar(CURTO + "\n\nUm dado [VERIFICAR: fonte]. Um link [LINK: post] e [PREENCHER: memória].")
@@ -55,6 +60,10 @@ class Bloqueantes(unittest.TestCase):
 
 
 class Avisos(unittest.TestCase):
+    def test_paragrafo_so_com_pontuacao(self):
+        _, aviso = checar(CURTO + "\n\nmargem para escolher\n\n.\n\nBoleto vence todo mês.")
+        self.assertTrue(any("sem palavra" in a for a in aviso))
+
     def test_paragrafo_longo(self):
         _, aviso = checar(CURTO + "\n\n" + "palavra " * 95)
         self.assertTrue(any("parágrafo de 95 palavras" in a for a in aviso))
@@ -71,10 +80,17 @@ class Avisos(unittest.TestCase):
         self.assertTrue(any("exclamação" in a for a in aviso))
 
     def test_antitese_acima_do_teto_na_secao(self):
-        um = "## Seção\n\nIsso não é sorte. É método."
+        um = AVISO_LEGAL + "\n\n## Seção\n\nIsso não é sorte. É método."
         self.assertEqual(checar(um)[1], [])
         _, aviso = checar(um + " Também não é talento. É repetição.")
         self.assertTrue(any("antíteses" in a for a in aviso))
+
+    def test_alt_text_longo_e_lista_para_colar(self):
+        longo = "x" * 130
+        corpo = CURTO + f"\n\n![Gráfico: {longo}](graf-01)"
+        _, aviso = checar(corpo, extras={"graficos.md": "## graf-01\nrangemode\n"})
+        self.assertTrue(any("alt-text com 130" in a for a in aviso))
+        self.assertEqual(C.figuras("![Diagrama: uma curva\nsem números](diag-01)"), [("uma curva sem números", "diag-01")])
 
     def test_tufte_sem_rangemode(self):
         _, aviso = checar(CURTO + "\n\n![G](graf-01)", extras={"graficos.md": "## graf-01\nfig.show()\n"})
