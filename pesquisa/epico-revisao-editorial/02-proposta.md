@@ -312,3 +312,16 @@ Desvios registrados:
   trecho literal.
 - A branch `voz/2.0.0` saiu da branch do épico (precisa do corpus) e voltou para ela; o merge em
   `main` fica para a Fase F, com a sua autorização.
+
+### Onda 2 — gate e checagens (concluída em 2026-11-16)
+
+| Item | Entrega | Decisão |
+|---|---|---|
+| P4 | `scripts/checar_post.py` + `scripts/test_checar_post.py` (12 testes) | aprovado no fim da onda |
+| P5 + P6 | `post-substack/SKILL.md` (etapas 9 e 10), `revisao-editorial.md` (checklist de 11 para 6) | aprovado no fim da onda |
+| P14 | `tecnicas-narrativas.md` sem a fórmula de manchete; `docs/BACKWARDS_DESIGN.md` §3 | aprovado no fim da onda |
+
+Ajuste feito durante a onda: saiu o aviso de "aspas retas" do checador. O Substack converte as
+aspas ao colar (291 trocas tipográficas na Fase A), então o aviso só fazia ruído.
+Contra o site, o checador acha os quatro resíduos publicados: dois `[VERIFICAR]`, um `[LINK` e o
+jargão de 08-25.
