@@ -1,0 +1,582 @@
+{
+  "arquivo": "estilo/corpus/publicados/etf-o-que-e.md",
+  "genero": "substack",
+  "palavras": 1116,
+  "eixos": {
+    "lexico": [
+      {
+        "traco": "Campo semântico dominante de eficiência, otimização, custo e rigor analítico (eficiência/eficiente ~7, otimizar/otimização/Otimizador 3, rigor/rigorosa 3, analisar/análise/Analíticas ~6).",
+        "frequencia": "frequente",
+        "ocorrencias": 19,
+        "evidencias": [
+          "Para o investidor que busca eficiência, entender ETFs é fundamental.",
+          "como analisá-lo com o rigor que seu capital merece",
+          "A verdadeira otimização surge quando você consegue responder a perguntas complexas"
+        ]
+      },
+      {
+        "traco": "Intensificadores e adjetivos avaliativos de ênfase em série (fundamental, crucial, gigantesco, radicalmente, significativamente, verdadeiramente, realmente, críticos, poderosas, de verdade).",
+        "frequencia": "frequente",
+        "ocorrencias": 11,
+        "evidencias": [
+          "Isso tem um impacto composto gigantesco no seu retorno a longo prazo.",
+          "A tributação é um fator crucial na rentabilidade líquida.",
+          "tomar decisões de investimento verdadeiramente alinhadas com seus objetivos de longo prazo"
+        ]
+      },
+      {
+        "traco": "Anglicismos de mercado aceitos, quase sempre acompanhados do equivalente em português: sigla expandida em inglês entre parênteses ou termo em português seguido do inglês entre parênteses.",
+        "frequencia": "frequente",
+        "ocorrencias": 7,
+        "evidencias": [
+          "os ETFs (Exchange Traded Funds), ou Fundos de Índice, consolidaram-se",
+          "**Erro de Rastreamento (Tracking Error):**",
+          "**Fatores (Smart Beta):**"
+        ],
+        "contraexemplo": "pelo home broker de sua corretora"
+      },
+      {
+        "traco": "Define os termos centrais do tema (ETF, gestão passiva, tracking error, spread), mas pressupõe sem explicar o jargão periférico (DARF, emolumentos, B3, IR, risco não sistêmico, juros sobre capital próprio).",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "O recolhimento é de responsabilidade do investidor via DARF.",
+          "diluindo o risco não sistêmico da sua carteira de forma instantânea e barata",
+          "dos emolumentos da B3, que incidem sobre cada operação de compra e venda"
+        ],
+        "contraexemplo": "existe o *spread* entre o preço de compra e o de venda no mercado"
+      },
+      {
+        "traco": "Registro formal-neutro, com verbos cultos e ênclise (consolidaram-se, utiliza, utilizar, compõem, se capacita, forneça).",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "consolidaram-se como uma das ferramentas mais eficientes",
+          "O fundo utiliza o dinheiro dos investidores para comprar os ativos",
+          "Entender e utilizar ETFs é um sinal de maturidade como investidor."
+        ]
+      },
+      {
+        "traco": "Tickers e índices do mercado brasileiro como exemplo concreto (BOVA11, IVVB11, DIVO11, Ibovespa, IMA-B, B3).",
+        "frequencia": "ocasional",
+        "ocorrencias": 6,
+        "evidencias": [
+          "(ex: BOVA11 para o Ibovespa, IVVB11 para o S&P 500)",
+          "como pagamento de dividendos (DIVO11)"
+        ]
+      }
+    ],
+    "sintaxe": [
+      {
+        "traco": "Frases de comprimento médio (cerca de 18 palavras na prosa, mediana ~17, de 4 a ~36), com variação moderada; a mais longa é a frase de abertura do corpo.",
+        "frequencia": "frequente",
+        "ocorrencias": 57,
+        "evidencias": [
+          "Em um cenário de mercado cada vez mais sofisticado, os ETFs (Exchange Traded Funds), ou Fundos de Índice, consolidaram-se"
+        ]
+      },
+      {
+        "traco": "Frase curta (4 a 8 palavras) como ênfase: abre seção, fecha item de lista ou abre a conclusão.",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "Nenhum investimento é perfeito.",
+          "Qualquer lucro na venda é tributado.",
+          "Pense nele como uma cesta de ativos."
+        ]
+      },
+      {
+        "traco": "Antítese \"não X, mas (sim) Y\" / \"X, não Y\" como fecho sentencioso de parágrafo ou de item.",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "O gestor do fundo não tenta \"vencer\" o mercado, mas sim acompanhar fielmente o desempenho do índice escolhido",
+          "Ele diversifica o risco, não o elimina.",
+          "O poder não está no produto, mas no conhecimento que você aplica a ele."
+        ]
+      },
+      {
+        "traco": "Enumeração ternária, muitas vezes com o terceiro termo destacado por inciso entre vírgulas (\"e, principalmente,\" / \"e, mais importante,\").",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "diversificação, transparência e, principalmente, custos baixos",
+          "como ele funciona na prática e, mais importante, como analisá-lo",
+          "Ao entender suas vantagens, desvantagens e, principalmente, como analisá-los com rigor"
+        ],
+        "contraexemplo": "custos, eficiência tributária e aderência ao índice"
+      },
+      {
+        "traco": "Parêntese como principal recurso de inserção (sigla, exemplo, ticker, exceção, ressalva), em lugar de travessão.",
+        "frequencia": "frequente",
+        "ocorrencias": 10,
+        "evidencias": [
+          "(ações, títulos de renda fixa, moedas, etc.)",
+          "(exceto *day trade*, que é 20%)",
+          "(se houver em sua corretora)"
+        ]
+      },
+      {
+        "traco": "Gerúndio de consequência no fim da frase (resultando, gerando, diluindo, eliminando, permitindo).",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "resultando em taxas de administração significativamente menores",
+          "eliminando as \"caixas-pretas\" comuns em outros fundos",
+          "mas eles são incorporados ao valor da cota, gerando valorização"
+        ]
+      },
+      {
+        "traco": "Frases definitórias de cópula com oração principal no início (\"X é Y\").",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "Um ETF é um fundo de investimento negociado na Bolsa de Valores como se fosse uma ação.",
+          "Um ETF é uma cesta de ativos.",
+          "A tributação é um fator crucial na rentabilidade líquida."
+        ]
+      },
+      {
+        "traco": "Conectores adversativos ou concessivos no início da frase (Mas, Porém, No entanto, Apesar de, Diferentemente de).",
+        "frequencia": "ocasional",
+        "ocorrencias": 5,
+        "evidencias": [
+          "Porém, um portfólio eficiente é mais do que uma coleção de bons ativos.",
+          "No entanto, no Brasil, a regulamentação exige",
+          "Apesar da sigla em inglês, o mecanismo é simples"
+        ]
+      }
+    ],
+    "pontuacao": [
+      {
+        "traco": "Dois-pontos como articulador principal (30 no arquivo): fecha o rótulo em negrito de cada item de lista, introduz lista ao fim de frase-ponte, introduz enumeração no lead e separa as duas partes de subtítulos.",
+        "frequencia": "frequente",
+        "ocorrencias": 30,
+        "evidencias": [
+          "o mecanismo é simples e se baseia em três pilares:",
+          "Uma análise rigorosa exige atenção aos detalhes:",
+          "analisar os detalhes que realmente impactam seu patrimônio: custos, eficiência tributária e aderência ao índice."
+        ],
+        "contraexemplo": "A tributação é um fator crucial na rentabilidade líquida."
+      },
+      {
+        "traco": "Aspas retas (ASCII \") para distanciamento irônico ou metáfora e para nomear a persona do público; nenhuma aspa curva tipográfica no texto publicado.",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "não tenta \"vencer\" o mercado",
+          "Para o \"Otimizador Cético\", os benefícios vão além da simplicidade.",
+          "eliminando as \"caixas-pretas\" comuns em outros fundos"
+        ]
+      },
+      {
+        "traco": "Não usa travessão, ponto e vírgula, exclamação nem reticências; inserções vão entre parênteses ou vírgulas.",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": [
+          "os ETFs (Exchange Traded Funds), ou Fundos de Índice, consolidaram-se"
+        ]
+      },
+      {
+        "traco": "Listas predominam sobre a prosa corrida: 6 listas (1 numerada, 5 com marcadores), cerca de 21 itens; Tipos, Vantagens, Desvantagens e Tributação ficam inteiras em lista depois de uma frase-ponte.",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "1. **Cesta de Ativos:** O fundo utiliza o dinheiro dos investidores",
+          "- **Liquidez:** A maioria dos ETFs, especialmente os que seguem os grandes índices, possui alta liquidez"
+        ],
+        "contraexemplo": "Pense nele como uma cesta de ativos. O gestor do fundo não tenta \"vencer\" o mercado"
+      },
+      {
+        "traco": "Parágrafos de prosa curtos (1 a 4 frases); quebra de parágrafo logo depois de uma frase-ponte de uma linha, antes da lista.",
+        "frequencia": "frequente",
+        "ocorrencias": 14,
+        "evidencias": [
+          "A tributação é um fator crucial na rentabilidade líquida.",
+          "Para o \"Otimizador Cético\", os benefícios vão além da simplicidade."
+        ]
+      },
+      {
+        "traco": "Ponto de interrogação concentrado nos subtítulos (4) e numa lista final de perguntas (4); ausente da prosa corrida.",
+        "frequencia": "ocasional",
+        "ocorrencias": 8,
+        "evidencias": [
+          "## Como um ETF Funciona na Prática?",
+          "Minha alocação de ativos está sendo **fiscalmente eficiente**?"
+        ]
+      },
+      {
+        "traco": "Abreviações \"ex:\" (com dois-pontos) e \"etc.\" dentro de parênteses de exemplo.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "(ex: BOVA11 para o Ibovespa, IVVB11 para o S&P 500)",
+          "(ações, títulos de renda fixa, moedas, etc.)"
+        ]
+      }
+    ],
+    "arquitetura": [
+      {
+        "traco": "Abre com um lead (standfirst) em negrito, antes da primeira imagem, que enuncia a promessa e enumera os três critérios de análise.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "**Para o investidor que busca eficiência, entender ETFs é fundamental. Mas para otimizar de verdade, é preciso ir além da superfície"
+        ]
+      },
+      {
+        "traco": "Primeiro parágrafo de contexto genérico, seguido da declaração do público-alvo e de um roteiro do que o texto vai cobrir.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Se você já superou os investimentos básicos e busca construir uma carteira de renda variável",
+          "Vamos dissecar o que é um ETF, como ele funciona na prática e, mais importante, como analisá-lo"
+        ]
+      },
+      {
+        "traco": "Estrutura de guia/FAQ com subtítulos densos (8 H2 + 1 H3 em ~1.100 palavras, cerca de um a cada 120 palavras) na sequência definição → funcionamento → tipos → vantagens → desvantagens → comparação → tributação → próximo passo → conclusão.",
+        "frequencia": "sempre",
+        "ocorrencias": 9,
+        "evidencias": [
+          "## O que é um ETF (Exchange Traded Fund)? A Definição Direta",
+          "## Vantagens Analíticas dos ETFs para o Investidor",
+          "## Desvantagens e Pontos de Atenção Críticos"
+        ]
+      },
+      {
+        "traco": "Conceito antes do exemplo: definição abstrata primeiro, exemplo concreto (Ibovespa, índice, ticker) logo depois.",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Em vez de comprar dezenas de ações individualmente para espelhar o Ibovespa, por exemplo, você pode comprar uma única cota de um ETF",
+          "Replicam índices de títulos públicos ou privados, como o IMA-B, que acompanha a inflação."
+        ]
+      },
+      {
+        "traco": "Cada seção de conteúdo abre com uma frase-ponte curta e genérica antes da lista.",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "Nenhum investimento é perfeito. Uma análise rigorosa exige atenção aos detalhes:",
+          "O universo de ETFs vai muito além do Ibovespa.",
+          "A tributação é um fator crucial na rentabilidade líquida."
+        ]
+      },
+      {
+        "traco": "A penúltima seção faz a ponte para um produto: elogia o leitor, levanta perguntas que o texto não responde e apresenta uma \"ferramenta\" de diagnóstico, sem link e sem botão.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Ter uma carteira com ETFs é o primeiro passo. O segundo é ter uma ferramenta que forneça um **diagnóstico independente e preciso**",
+          "O retorno que vejo está sendo corroído por **custos de oportunidade** que as plataformas tradicionais não mostram?"
+        ]
+      },
+      {
+        "traco": "Fecha com seção \"Conclusão\" explícita que recapitula e termina numa máxima antitética.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "### Conclusão",
+          "Os ETFs são ferramentas poderosas, não soluções mágicas.",
+          "O poder não está no produto, mas no conhecimento que você aplica a ele."
+        ]
+      }
+    ],
+    "figuras": [
+      {
+        "traco": "Analogia doméstica curta e não estendida para definir o produto (cesta de ativos, domínio cotidiano/compras), retomada mais duas vezes ao longo do texto.",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Pense nele como uma cesta de ativos.",
+          "1. **Cesta de Ativos:** O fundo utiliza o dinheiro dos investidores",
+          "Um ETF é uma cesta de ativos."
+        ]
+      },
+      {
+        "traco": "Metáforas do domínio médico/anatômico (dissecar, diagnóstico, saúde do portfólio), concentradas na abertura e na seção comercial do fim.",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "Vamos dissecar o que é um ETF",
+          "## O Próximo Passo: Do Acompanhamento ao Diagnóstico",
+          "um **diagnóstico independente e preciso** da saúde do seu portfólio"
+        ]
+      },
+      {
+        "traco": "Metáforas lexicalizadas de construção e caminho (pilares, construção de patrimônio, passo, caminho, superfície), sem extensão.",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "o mecanismo é simples e se baseia em três pilares:",
+          "a diversificação são pilares para a construção de patrimônio",
+          "Ter uma carteira com ETFs é o primeiro passo."
+        ]
+      },
+      {
+        "traco": "Metáforas pontuais isoladas, às vezes marcadas com aspas (caixa-preta, corrosão, magia).",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "eliminando as \"caixas-pretas\" comuns em outros fundos",
+          "está sendo corroído por **custos de oportunidade**",
+          "ferramentas poderosas, não soluções mágicas"
+        ]
+      }
+    ],
+    "postura": [
+      {
+        "traco": "Não há primeira pessoa do singular do autor; autoridade implícita e impessoal, com asserções prescritivas sem sujeito autoral.",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": [
+          "Uma análise rigorosa exige atenção aos detalhes:",
+          "Um bom ETF possui um baixo *tracking error*."
+        ]
+      },
+      {
+        "traco": "Primeira pessoa do plural inclusiva usada uma única vez, para anunciar o roteiro.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Vamos dissecar o que é um ETF"
+        ]
+      },
+      {
+        "traco": "Trata o leitor diretamente por \"você\" (~12) e por possessivos seu/sua (~15): distância próxima, porém instrucional.",
+        "frequencia": "frequente",
+        "ocorrencias": 27,
+        "evidencias": [
+          "Você sabe exatamente em quais ativos está investindo",
+          "como analisá-lo com o rigor que seu capital merece",
+          "Você não os recebe na sua conta"
+        ]
+      },
+      {
+        "traco": "Afirmações categóricas; a incerteza aparece só como modalização de mercado (costumam, pode ser, existe a possibilidade), nunca como dúvida do autor.",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "taxas de administração que costumam variar de 0,20% a 0,50% ao ano, contra 2% ou mais",
+          "Em ETFs com baixa liquidez, esse custo implícito pode ser relevante.",
+          "Existe a possibilidade de o ETF não replicar perfeitamente seu índice de referência"
+        ]
+      },
+      {
+        "traco": "Lisonja ao leitor como recurso de adesão (maturidade, rigor que o capital merece, investidor informado).",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Entender e utilizar ETFs é um sinal de maturidade como investidor.",
+          "como analisá-lo com o rigor que seu capital merece",
+          "Eles oferecem ao investidor informado um caminho de baixo custo"
+        ]
+      },
+      {
+        "traco": "Equilíbrio declarado: vantagens e desvantagens em seções simétricas; contraste só com adversários genéricos (fundos ativos, plataformas tradicionais), sem discordância nomeada e sem humor.",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Nenhum investimento é perfeito.",
+          "eliminando as \"caixas-pretas\" comuns em outros fundos",
+          "**custos de oportunidade** que as plataformas tradicionais não mostram"
+        ]
+      }
+    ],
+    "leitor": [
+      {
+        "traco": "Pressupõe e declara um leitor intermediário, que já passou do básico e conhece Bolsa, ação e home broker.",
+        "frequencia": "frequente",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Se você já superou os investimentos básicos e busca construir uma carteira de renda variável",
+          "Você pode comprar e vender cotas a qualquer momento pelo home broker de sua corretora."
+        ]
+      },
+      {
+        "traco": "Nomeia no próprio texto, entre aspas, a persona de público a que se dirige.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Para o \"Otimizador Cético\", os benefícios vão além da simplicidade."
+        ]
+      },
+      {
+        "traco": "Introduz o desconhecido por definição direta mais comparação com algo familiar (ação, cesta).",
+        "frequencia": "frequente",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Um ETF é um fundo de investimento negociado na Bolsa de Valores como se fosse uma ação.",
+          "Pense nele como uma cesta de ativos."
+        ]
+      },
+      {
+        "traco": "Imperativo direto ocasional.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Pense nele como uma cesta de ativos.",
+          "Lembre-se das taxas de corretagem (se houver em sua corretora)"
+        ]
+      },
+      {
+        "traco": "Perguntas retóricas em lista, na voz do próprio leitor (minha carteira, estou, vejo), para criar a necessidade antes do produto.",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": [
+          "- Qual o **custo real e consolidado** da minha carteira, incluindo taxas explícitas e implícitas?",
+          "Estou aproveitando as oportunidades de compensação de prejuízos?",
+          "O retorno que vejo está sendo corroído por **custos de oportunidade**"
+        ]
+      },
+      {
+        "traco": "Subtítulos em forma de pergunta que antecipam a dúvida de busca do leitor.",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "## Como um ETF Funciona na Prática?",
+          "## A Questão Tributária: Como ETFs São Tributados?",
+          "## ETF vs. Fundo Ativo vs. Ações: Onde Alocar seu Capital?"
+        ]
+      },
+      {
+        "traco": "Chamada para ação implícita (uma ferramenta de diagnóstico não nomeada), sem botão [[CTA]] e sem link.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "O segundo é ter uma ferramenta que forneça um **diagnóstico independente e preciso** da saúde do seu portfólio."
+        ]
+      }
+    ],
+    "tecnico": [
+      {
+        "traco": "Sem fórmula nem notação; números inline em porcentagem com vírgula decimal pt-BR e valores em \"R$ 20 mil\".",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "A alíquota é de **15% sobre o ganho de capital** na venda",
+          "para vendas de até R$ 20 mil no mês",
+          "costumam variar de 0,20% a 0,50% ao ano, contra 2% ou mais"
+        ]
+      },
+      {
+        "traco": "Números, alíquotas e regras sem fonte nem data; a regulação é citada genericamente, sem nomear norma nem órgão.",
+        "frequencia": "sempre",
+        "ocorrencias": 4,
+        "evidencias": [
+          "no Brasil, a regulamentação exige que esses proventos sejam **reinvestidos** no próprio fundo",
+          "**ETFs de renda variável não possuem a isenção de IR** para vendas de até R$ 20 mil no mês"
+        ]
+      },
+      {
+        "traco": "Comparação entre produtos entregue como imagem (provável tabela) sob um subtítulo, sem texto de apoio; as imagens não têm legenda.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "## ETF vs. Fundo Ativo vs. Ações: Onde Alocar seu Capital?",
+          "![](img-02)"
+        ]
+      },
+      {
+        "traco": "Exceção técnica ou ressalva operacional inserida em parêntese, dentro do item.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "(exceto *day trade*, que é 20%)",
+          "(se houver em sua corretora)"
+        ]
+      }
+    ],
+    "formatacao": [
+      {
+        "traco": "Negrito no rótulo de cada item de lista descritiva, com os dois-pontos dentro do negrito (\"**Rótulo:**\"), seguido de 1 a 3 frases.",
+        "frequencia": "sempre",
+        "ocorrencias": 21,
+        "evidencias": [
+          "**Gestão Passiva:** O papel do gestor é garantir",
+          "**Custos Radicalmente Menores:** A gestão passiva resulta em taxas",
+          "**Sem Isenção:** Diferentemente das ações"
+        ],
+        "contraexemplo": "- Qual o **custo real e consolidado** da minha carteira"
+      },
+      {
+        "traco": "Negrito no meio da frase para o termo-chave ou a conclusão crítica (gestão passiva, reinvestidos, 15% sobre o ganho de capital, fiscalmente eficiente, diagnóstico...).",
+        "frequencia": "frequente",
+        "ocorrencias": 8,
+        "evidencias": [
+          "uma estratégia conhecida como **gestão passiva**",
+          "a regulamentação exige que esses proventos sejam **reinvestidos** no próprio fundo",
+          "Minha alocação de ativos está sendo **fiscalmente eficiente**?"
+        ]
+      },
+      {
+        "traco": "Parágrafo inteiro em negrito como lead no topo, logo depois do separador \"* * *\".",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "* * *",
+          "**Para o investidor que busca eficiência, entender ETFs é fundamental."
+        ]
+      },
+      {
+        "traco": "Itálico reservado a anglicismos técnicos no corpo da frase (tracking error, spread, day trade).",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Um bom ETF possui um baixo *tracking error*.",
+          "existe o *spread* entre o preço de compra e o de venda",
+          "(exceto *day trade*, que é 20%)"
+        ],
+        "contraexemplo": "pelo home broker de sua corretora"
+      },
+      {
+        "traco": "Título, subtítulo e intertítulos em Title Case à inglesa (maiúscula nas palavras lexicais).",
+        "frequencia": "sempre",
+        "ocorrencias": 11,
+        "evidencias": [
+          "Como Funciona e Como Analisar Além do Básico",
+          "## Tipos de ETFs Disponíveis no Brasil",
+          "## Desvantagens e Pontos de Atenção Críticos"
+        ],
+        "contraexemplo": "## O que é um ETF (Exchange Traded Fund)? A Definição Direta"
+      },
+      {
+        "traco": "Intertítulo em duas partes separadas por dois-pontos (tópico: pergunta ou gancho), também no título do post.",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "## A Questão Tributária: Como ETFs São Tributados?",
+          "## O Próximo Passo: Do Acompanhamento ao Diagnóstico",
+          "## ETF vs. Fundo Ativo vs. Ações: Onde Alocar seu Capital?"
+        ]
+      },
+      {
+        "traco": "H3 isolado (\"Conclusão\") abaixo da última seção H2, em vez de outro H2.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "### Conclusão"
+        ]
+      },
+      {
+        "traco": "Lista com subitens rotulados (ETFs de Renda Variável → Índices Amplos, Setoriais, Fatores); no arquivo os subitens aparecem achatados numa linha só.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "- **ETFs de Renda Variável:** - **Índices Amplos:** Replicam os principais índices do Brasil e do mundo"
+        ]
+      }
+    ]
+  },
+  "antipadroes_observados": [
+    "(a) Nunca neste arquivo: primeira pessoa do singular do autor; travessão, ponto e vírgula, exclamação e reticências; aspas curvas; fonte, link, nota ou data para números e regras; fórmula ($$); citação em bloco, [[PULLQUOTE]] ou botão [[CTA]]; legenda de imagem; riscado; código; cena, anedota, caso pessoal ou exemplo narrativo; humor; ano ou data no corpo.",
+    "(b) Tique IA pt-BR: abertura genérica de contexto — \"Em um cenário de mercado cada vez mais sofisticado\".",
+    "(b) Tique IA pt-BR: antítese \"não X, mas (sim) Y\" em série e fecho aforístico — \"O poder não está no produto, mas no conhecimento que você aplica a ele.\" / \"ferramentas poderosas, não soluções mágicas\".",
+    "(b) Tique IA pt-BR: tríades com o terceiro termo realçado — \"e, principalmente, custos baixos\" / \"e, mais importante, como analisá-lo\".",
+    "(b) Tique IA pt-BR: verbo de roteiro e promessa — \"Vamos dissecar o que é um ETF\" / \"este guia é para você\".",
+    "(b) Tique IA pt-BR: intensificadores em cascata — \"fundamental\", \"crucial\", \"gigantesco\", \"Radicalmente\", \"verdadeiramente\", \"realmente\".",
+    "(b) Tique IA pt-BR: toda seção em lista com rótulo em negrito e dois-pontos, mais intertítulos em Title Case (decalque do inglês) — \"**Diversificação Eficiente:**\".",
+    "(b) Tique IA pt-BR: \"mais do que\" de reenquadramento e seção \"Conclusão\" recapitulativa — \"um portfólio eficiente é mais do que uma coleção de bons ativos\"."
+  ],
+  "incerteza": "O frontmatter marca época pre-pipeline (escrito só pelo autor), mas a densidade de marcas de template SEO e de tiques típicos de texto gerado (abertura genérica, antíteses em série, tríades, intensificadores, listas com rótulo em negrito, Title Case, Conclusão recapitulativa) não permite saber, só pelo arquivo, se esses traços são voz do autor ou de um modelo/ferramenta usado na redação; convém pesá-los com cautela contra os outros textos do corpus. O texto é curto (~1.116 palavras, abaixo do piso de ~5.000 por amostra), então as frequências são frágeis. section_name é null: sem linha editorial atribuída. O conteúdo das duas imagens é desconhecido (img-02 provavelmente é uma tabela comparativa ETF × fundo ativo × ações; não deu para verificar). A lista aninhada de 'ETFs de Renda Variável' aparece achatada numa linha, provável artefato de captura, então a estrutura real publicada (sublista) é inferida. O texto não permite avaliar tratamento de discordância nomeada, humor, apresentação de fórmula, tratamento de dado desatualizado nem retomada de figura em texto longo. O comprimento das frases foi estimado por script; os limites de frase nas listas são aproximados."
+}

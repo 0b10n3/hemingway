@@ -1,0 +1,711 @@
+{
+  "arquivo": "estilo/corpus/publicados/quando-os-modelos-se-rebelam.md",
+  "genero": "substack",
+  "palavras": 3514,
+  "eixos": {
+    "lexico": [
+      {
+        "traco": "Campo semântico dominante de finanças quantitativas (opções, volatilidade, VaR, alavancagem, spreads, pontos-base) atravessado por vocabulário de filosofia da ciência (Duhem–Quine, Lakatos, Knight, reflexividade, ontologia).",
+        "frequencia": "sempre",
+        "ocorrencias": 40,
+        "evidencias": [
+          "É o resultado de Duhem–Quine: como o teste atinge o conjunto todo, sempre existe um ajuste auxiliar capaz de salvar o núcleo.",
+          "todos imitam o estilo da física e usam a sintaxe da matemática, mas não têm a mesma ancoragem ontológica",
+          "MacKenzie chama isso de contraperformatividade"
+        ]
+      },
+      {
+        "traco": "Glosa siglas e jargão de mercado entre parênteses na primeira ocorrência, muitas vezes com a expansão em inglês seguida da tradução em português.",
+        "frequencia": "frequente",
+        "ocorrencias": 10,
+        "evidencias": [
+          "o então CFO (Chief Financial Officer, diretor financeiro) do Goldman Sachs",
+          "rebalancear o delta (a sensibilidade do preço da opção ao preço do ativo)",
+          "Fed (Federal Reserve, o banco central americano)"
+        ],
+        "contraexemplo": "É daí que sai o argumento de não-arbitragem, e é daí que sai o preço."
+      },
+      {
+        "traco": "Aceita anglicismos de mercado sem tradução forçada, marcando-os tipograficamente com aspas simples curvas (ou itálico na primeira aparição).",
+        "frequencia": "frequente",
+        "ocorrencias": 16,
+        "evidencias": [
+          "acionar o primeiro ‘circuit breaker’ desde 2008",
+          "Passa a operar por “leitura de mercado”, ‘feeling’ e gráfico.",
+          "A estratégia central era ‘convergence trade’."
+        ],
+        "contraexemplo": "viu o backtest lindo virar pó no primeiro trimestre real"
+      },
+      {
+        "traco": "Registro formal-culto interrompido por expressões coloquiais curtas e avaliativas, usadas como golpe de efeito.",
+        "frequencia": "ocasional",
+        "ocorrencias": 7,
+        "evidencias": [
+          "concluiu que finanças quantitativas é charlatanismo com LaTeX",
+          "viu a projeção de PIB (Produto Interno Bruto) furar feio",
+          "Ela multiplica competência tanto quanto multiplica burrice, e com a mesma indiferença."
+        ]
+      },
+      {
+        "traco": "Palavras recorrentes que funcionam como vocabulário do argumento: 'premissa' (~11x), 'a conta' para o cálculo, 'regime', 'fronteira', 'domínio de validade', 'bula'.",
+        "frequencia": "frequente",
+        "ocorrencias": 25,
+        "evidencias": [
+          "Quase nunca a conta está errada.",
+          "um modelo calibrado em um regime, mas operado — com alavancagem de cerca de 26 para 1 — dentro de outro",
+          "Elas definem o domínio de validade do instrumento."
+        ]
+      },
+      {
+        "traco": "Cunha ou adota termo próprio informal e o marca com aspas simples.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "a diferença entre ser um ‘modeleiro’ bem-sucedido ou se tornar um frustrado extremista diante de modelos"
+        ]
+      },
+      {
+        "traco": "Trata distinção lexical entre inglês e português como objeto do argumento (uma palavra portuguesa cobrindo dois conceitos ingleses).",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Aqui mora uma armadilha específica da nossa língua.",
+          "Em português, as duas viram ‘hipótese’."
+        ]
+      }
+    ],
+    "sintaxe": [
+      {
+        "traco": "Antítese de correção como movimento sintático básico: 'não X, é Y', 'não X: Y' ou 'Não X. Y.' em frases separadas.",
+        "frequencia": "frequente",
+        "ocorrencias": 18,
+        "evidencias": [
+          "Ignorá-las não é imprecisão acadêmica, é usar o aparelho fora da faixa de operação.",
+          "O erro não estava na conta. Estava na fronteira entre a conta e o mundo",
+          "O LTCM não quebrou por usar modelos; quebrou por alavancar seu capital em mais de 26 vezes"
+        ]
+      },
+      {
+        "traco": "Frase curtíssima ou fragmento nominal como ênfase logo depois de período longo, frequentemente isolado em parágrafo próprio.",
+        "frequencia": "frequente",
+        "ocorrencias": 12,
+        "evidencias": [
+          "Muita alavancagem.",
+          "O mercado muda.",
+          "Mesmo risco de crédito, preços diferentes."
+        ]
+      },
+      {
+        "traco": "Grande variação de comprimento: de 2 a ~55 palavras; períodos longos encadeiam aposto, parêntese, dois-pontos e travessão numa só frase.",
+        "frequencia": "frequente",
+        "ocorrencias": 10,
+        "evidencias": [
+          "transformava um punhado de variáveis observáveis (preço do ativo, prazo, taxa de juros, volatilidade) numa equação fechada",
+          "A resposta é zero."
+        ]
+      },
+      {
+        "traco": "Pseudoclivada 'O que X é Y' para focalizar o ponto central.",
+        "frequencia": "frequente",
+        "ocorrencias": 7,
+        "evidencias": [
+          "O que está errado é o contexto em que a conta foi aplicada.",
+          "O que separa um programa saudável de um degenerado é se os ajustes geram previsões novas",
+          "O que eu proponho ao analista que está começando é uma relação desapegada, não uma relação cética."
+        ]
+      },
+      {
+        "traco": "Paralelismo e anáfora: repete o mesmo molde sintático em frases ou orações seguidas.",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "As duas são compreensíveis. As duas custam caro.",
+          "As equações estavam corretas. Os testes estatísticos estavam corretos.",
+          "viu Black–Scholes errar nas caudas, viu a projeção de PIB (Produto Interno Bruto) furar feio, viu o backtest lindo virar pó"
+        ]
+      },
+      {
+        "traco": "Definições em série com o mesmo molde ('X é a tentativa de descrever...'), variando só o termo-chave.",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Teoria é a tentativa de descrever o que uma coisa é.",
+          "Modelo é a tentativa de descrever com o que uma coisa se parece."
+        ]
+      },
+      {
+        "traco": "Abre período ou parágrafo com conjunção coordenativa ou causal (E, Mas, Porque).",
+        "frequencia": "frequente",
+        "ocorrencias": 8,
+        "evidencias": [
+          "Porque a matriz de correlação foi estimada em uma amostra, e amostras descrevem os regimes que estavam nelas.",
+          "Mas modelos são alavancas extremamente eficientes.",
+          "E há um detalhe que o sociólogo Donald MacKenzie explora bem"
+        ]
+      },
+      {
+        "traco": "Tríade assindética curta para dar ritmo.",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Vende o caro, compra o barato, espera.",
+          "O efeito foi mecânico: menos capital, mesmo risco, alavancagem maior."
+        ]
+      },
+      {
+        "traco": "Presente histórico em cena datada curta; pretérito na narrativa longa de caso.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "18 de maio de 2017. Na noite anterior vaza a gravação entre Joesley Batista e o então presidente Michel Temer."
+        ],
+        "contraexemplo": "Em 17 de agosto de 1998, a Rússia deu calote na dívida em rublos e desvalorizou a moeda."
+      }
+    ],
+    "pontuacao": [
+      {
+        "traco": "Dois-pontos como articulador principal entre afirmação e explicação, exemplo ou consequência.",
+        "frequencia": "sempre",
+        "ocorrencias": 35,
+        "evidencias": [
+          "O Fed não pôs dinheiro próprio: organizou a sala.",
+          "A resposta honesta é: bate em parte.",
+          "Matematicamente, isso é uma troca: velocidade média por velocidade instantânea."
+        ]
+      },
+      {
+        "traco": "Travessão (—) espaçado, em par para inciso e simples para apêndice enfático ou correção.",
+        "frequencia": "frequente",
+        "ocorrencias": 22,
+        "evidencias": [
+          "Esse tipo de pensamento equivocado — bastante presente quando o problema envolve probabilidades — é sintoma de uma compreensão parcial",
+          "o problema não é o mercado — é a distribuição que você escolheu"
+        ]
+      },
+      {
+        "traco": "Ponto e vírgula para equilibrar antítese em uma só frase.",
+        "frequencia": "frequente",
+        "ocorrencias": 9,
+        "evidencias": [
+          "A matemática seguiria perfeita; o cenário é que teria mudado.",
+          "A equação está imaculada; a realidade é que se comportou mal.",
+          "O modelo pressupõe um filme; o que aconteceu foi um corte do editor."
+        ]
+      },
+      {
+        "traco": "Aspas tipográficas com divisão de função: duplas curvas (“ ”) para fala, citação e expressão atribuída a outrem; simples curvas (‘ ’) para anglicismo e palavra em sentido especial.",
+        "frequencia": "frequente",
+        "ocorrencias": 30,
+        "evidencias": [
+          "dizer “esse número está errado” antes de conseguir explicar por quê",
+          "muitas pessoas começam a esperar o ‘retorno à média’",
+          "Imre Lakatos descreveu isso como o “cinturão protetor” de um programa de pesquisa"
+        ],
+        "contraexemplo": "passou a exibir o famoso *smile*"
+      },
+      {
+        "traco": "Aspa simples de abertura trocada por apóstrofo (’) em termos logo após parêntese de abertura ou espaço (provável substituição automática).",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": [
+          "(’on-the-run’) são mais líquidos",
+          "(’Value at Risk’, a perda máxima esperada dentro de um intervalo de confiança)"
+        ]
+      },
+      {
+        "traco": "Parênteses para glosa, tradução de termo e referência bibliográfica inline.",
+        "frequencia": "frequente",
+        "ocorrencias": 18,
+        "evidencias": [
+          "rebalancear o ‘hedge’ (a posição de proteção) em tempo contínuo",
+          "de US$ 1,3 trilhão (President’s Working Group on Financial Markets, 1999)"
+        ]
+      },
+      {
+        "traco": "Quebra de parágrafo isola a frase-tese ou a frase de efeito; a introdução é feita quase só de parágrafos de uma frase.",
+        "frequencia": "frequente",
+        "ocorrencias": 20,
+        "evidencias": [
+          "Um dos meus momentos favoritos do curso é a aula de probabilidade (*Probability Theory*) do professor Peter Kempthorne.",
+          "Guarde essa frase, porque ela descreve praticamente todo desastre de modelo que você vai ver na sua carreira."
+        ]
+      },
+      {
+        "traco": "Prosa corrida domina; lista só para inventário fechado (premissas de um modelo, compromissos de um manifesto), com itens terminados em ponto e vírgula e ponto final no último.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Taxa livre de risco constante e conhecida;",
+          "Reconhecer que o trabalho tem efeitos sobre a sociedade e a economia que excedem a própria compreensão."
+        ]
+      },
+      {
+        "traco": "Meia-risca (–) em nomes compostos de modelos e autores.",
+        "frequencia": "sempre",
+        "ocorrencias": 20,
+        "evidencias": [
+          "coautor do modelo de volatilidade local Derman–Kani",
+          "É o resultado de Duhem–Quine"
+        ]
+      }
+    ],
+    "arquitetura": [
+      {
+        "traco": "Abre com referência concreta e pessoal (curso do MIT, aula favorita) e citação em bloco de uma autoridade, antes de enunciar o conceito.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Entre as aulas gratuitas que o **MIT** disponibiliza no OpenCourseWare está a disciplina",
+          "Se você lança uma moeda 100 vezes, obtendo cara em todos os lançamentos"
+        ]
+      },
+      {
+        "traco": "Fecha a introdução com frase de roteiro que anuncia o que o texto vai fazer.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "No texto de hoje vamos tratar dessas ideias e mostrar como o desacoplamento entre modelo e realidade pode levar"
+        ]
+      },
+      {
+        "traco": "Progressão em escada: distinção conceitual → armadilha de língua → analogia fora de finanças → caso clássico → caso-catástrofe narrado → tipologia de erros → prescrição → aforismo.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Um exemplo fora de finanças ajuda, porque nele ninguém tem viés comportamental.",
+          "Se existe um caso que precisa ser contado a todo analista júnior, é esse."
+        ]
+      },
+      {
+        "traco": "Conceito antes do exemplo, e o texto declara explicitamente por que aquele exemplo foi escolhido.",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Um exemplo fora de finanças ajuda, porque nele ninguém tem viés comportamental.",
+          "Black–Scholes é o caso clássico, porque a bula é longa e quase ninguém lê até o fim."
+        ]
+      },
+      {
+        "traco": "Fecha seção com uma ou duas frases curtas e aforísticas, em parágrafos isolados.",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "O cometa não muda de órbita porque o astrônomo publicou.",
+          "Quase nunca a conta está errada.",
+          "Um modelo é uma ferramenta que não sabe que é uma ferramenta."
+        ]
+      },
+      {
+        "traco": "Subtítulo H2 a cada ~440 palavras (8 no texto), em geral como frase-tese ou provocação, não como rótulo.",
+        "frequencia": "frequente",
+        "ocorrencias": 8,
+        "evidencias": [
+          "Três palavras que você usa como sinônimo e não são",
+          "LTCM: quando dois Nobéis descobrem que o mundo não satisfaz as equações",
+          "Nenhum modelo é uma bala de prata"
+        ],
+        "contraexemplo": "## As duas patologias"
+      },
+      {
+        "traco": "Casos narrados em ordem cronológica, com data exata e números como âncora; caso brasileiro inserido no meio da narrativa internacional.",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "Em 17 de agosto de 1998, a Rússia deu calote na dívida em rublos e desvalorizou a moeda.",
+          "E é exatamente essa a premissa que o mercado brasileiro adora quebrar."
+        ]
+      },
+      {
+        "traco": "Tipologia binária simétrica (dois erros opostos) resolvida pela identificação de uma raiz comum.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Quando o modelo se comporta mal, o jovem analista tende a adoecer de uma entre duas formas.",
+          "Repare que as duas patologias têm a mesma raiz: as duas confundem modelo com teoria."
+        ]
+      },
+      {
+        "traco": "Metadiscurso de sinalização que aponta o próximo movimento ou o ponto principal ('Aqui mora', 'Vale...', 'E aqui está o ponto').",
+        "frequencia": "frequente",
+        "ocorrencias": 8,
+        "evidencias": [
+          "Aqui vale nomear com precisão o tipo de erro.",
+          "Vale um parêntese:",
+          "E aqui está o ponto que eu quero que fique."
+        ]
+      },
+      {
+        "traco": "Fecho em sequência: prescrição ao leitor → CTA de compartilhamento → aforismo final em duas linhas → fontes → aviso legal.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "manda para quem também vive citando “o histórico mostra” sem perguntar em que regime esse histórico foi calibrado",
+          "Cabe a você saber."
+        ]
+      }
+    ],
+    "figuras": [
+      {
+        "traco": "Medicina/farmácia como domínio de metáfora estendido e retomado (bula, patologia, adoecer, tratamento), inclusive em subtítulo.",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "As hipóteses de Black–Scholes não são conjecturas a testar: são a bula do remédio.",
+          "o jovem analista tende a adoecer de uma entre duas formas",
+          "é abandonar a medicina porque nenhum tratamento é infalível"
+        ]
+      },
+      {
+        "traco": "Instrumento e engenharia como domínio: aparelho fora da faixa, margem de erro, radar como analogia estendida por uma seção inteira.",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "é usar o aparelho fora da faixa de operação",
+          "Pense num radar de solo.",
+          "O niilista troca um instrumento com margem de erro conhecida por um instrumento com margem de erro desconhecida"
+        ]
+      },
+      {
+        "traco": "Imagens curtas de uma frase, de domínios culturais e cotidianos (cinema, astronomia, sala de reunião), usadas como fecho de raciocínio.",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": [
+          "O modelo pressupõe um filme; o que aconteceu foi um corte do editor.",
+          "O cometa não muda de órbita porque o astrônomo publicou.",
+          "O Fed não pôs dinheiro próprio: organizou a sala."
+        ]
+      },
+      {
+        "traco": "Metáfora mecânica (alavanca) com jogo sobre a alavancagem financeira, retomando o caso LTCM no fecho.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Mas modelos são alavancas extremamente eficientes.",
+          "Uma alavanca não decide nada por você e não sabe nada sobre o mundo, ela apenas multiplica a força que você aplica."
+        ]
+      },
+      {
+        "traco": "Apropria metáforas de autores citados (câmera/motor, cinturão protetor, fumaça) e as estende com imagem própria.",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": [
+          "o modelo não era uma câmera apontada para o mercado, era um motor que o empurrava",
+          "o cinturão pode ser esticado até virar fraude regulatória",
+          "embutindo o ‘smile’ como cicatriz permanente da hipótese 1"
+        ]
+      },
+      {
+        "traco": "Fecho retoma termos-imagem do corpo ('fronteira', 'ferramenta', 'domínio de validade') e termina em aforismo autorreferente.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "e uma fronteira além da qual o número que aparece na tela não significa mais nada",
+          "Um modelo é uma ferramenta que não sabe que é uma ferramenta."
+        ]
+      },
+      {
+        "traco": "Clichê de expressão feita em subtítulo.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Nenhum modelo é uma bala de prata"
+        ]
+      }
+    ],
+    "postura": [
+      {
+        "traco": "Fala como mentor ao analista em início de carreira; autoridade implícita, sustentada por fontes e casos, sem credencial pessoal declarada.",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "Se existe um caso que precisa ser contado a todo analista júnior, é esse.",
+          "O que eu proponho ao analista que está começando é uma relação desapegada",
+          "Estude estocástico a sério. Aprenda a derivar Black–Scholes, não a decorá-la."
+        ]
+      },
+      {
+        "traco": "Primeira pessoa do singular rara e localizada (gosto pessoal, ponto principal, proposta); plural inclusivo para roteiro e língua.",
+        "frequencia": "ocasional",
+        "ocorrencias": 5,
+        "evidencias": [
+          "Um dos meus momentos favoritos do curso",
+          "E aqui está o ponto que eu quero que fique.",
+          "Aqui mora uma armadilha específica da nossa língua."
+        ]
+      },
+      {
+        "traco": "Admite limite com ressalva curta e franca, e qualifica afirmações superlativas.",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": [
+          "A resposta honesta é: bate em parte.",
+          "O conselho reunia provavelmente a maior concentração de capital intelectual quantitativo já montada num único fundo.",
+          "Não teorias, ou pelo menos não no sentido forte de teoria física"
+        ]
+      },
+      {
+        "traco": "Antecipa a objeção do leitor rigoroso e a formula como pergunta antes de responder.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "O leitor mais rigoroso pode se perguntar: essa taxonomia é rigorosa ou é a licença poética de um físico que virou banqueiro?"
+        ]
+      },
+      {
+        "traco": "Diante de discordância, recusa os dois extremos e concede ao lado criticado antes de apontar o erro.",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Fazer isso não é irracional; é assim que a ciência normal funciona.",
+          "As duas são compreensíveis. As duas custam caro."
+        ]
+      },
+      {
+        "traco": "Humor seco e irônico embutido na descrição, sem piada explícita.",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": [
+          "dizia, com serenidade, que a ruína era estatisticamente irrelevante",
+          "concluiu que finanças quantitativas é charlatanismo com LaTeX",
+          "na cara de quem olha a superfície de volatilidade"
+        ]
+      }
+    ],
+    "leitor": [
+      {
+        "traco": "Trata o leitor por 'você' do começo ao fim, inclusive em subtítulo e em projeções sobre a carreira dele.",
+        "frequencia": "sempre",
+        "ocorrencias": 25,
+        "evidencias": [
+          "Três palavras que você usa como sinônimo e não são",
+          "Guarde essa frase, porque ela descreve praticamente todo desastre de modelo que você vai ver na sua carreira.",
+          "Traduzindo para o seu dia a dia como analista"
+        ]
+      },
+      {
+        "traco": "Imperativos que conduzem o raciocínio do leitor (Pense, Imagine, Agora quebre, Repare, Guarde, Pergunte).",
+        "frequencia": "frequente",
+        "ocorrencias": 12,
+        "evidencias": [
+          "Agora quebre a premissa.",
+          "Repare que as hipóteses 1, 5 e 6 são, na prática, uma coisa só",
+          "Pergunte a quem estava vendido em opções naquela manhã quantas vezes conseguiu rebalancear o delta"
+        ]
+      },
+      {
+        "traco": "Pressupõe leitor com base quant e de mercado (opções, volatilidade implícita, estocástico) e glosa só siglas e jargão de mesa; o alvo nomeado é o aluno ou analista júnior.",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "o aluno aprende “as hipóteses do modelo de Black–Scholes” e as coloca mentalmente na mesma caixa de “hipótese nula”",
+          "a superfície de volatilidade implícita deixou de ser plana e passou a exibir o famoso *smile*"
+        ],
+        "contraexemplo": "viu a projeção de PIB (Produto Interno Bruto) furar feio"
+      },
+      {
+        "traco": "Introduz o desconhecido pareando o termo em inglês com glosa em português entre parênteses.",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "*hypothesis* (conjectura testável, que a metodologia científica manda você tentar falsear)",
+          "*assumption* (premissa, condição de contorno assumida como verdadeira para a construção seguir de pé)"
+        ]
+      },
+      {
+        "traco": "Pergunta retórica rara.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "E onde entram as “hipóteses”?",
+          "essa taxonomia é rigorosa ou é a licença poética de um físico que virou banqueiro?"
+        ]
+      },
+      {
+        "traco": "CTA único, de compartilhamento, condicionado ao efeito do texto e em registro coloquial ('manda'), seguido do botão do Substack; vem antes do aforismo final.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Se este texto mudou a forma como você vai olhar para o próximo número que sair de um modelo",
+          "[[CTA: Compartilhar → https://syntaxis.substack.com/p/quando-os-modelos-se-rebelam?utm_source=substack&utm_medium=email&utm_content=share&action=share]]"
+        ]
+      }
+    ],
+    "tecnico": [
+      {
+        "traco": "Verbaliza o raciocínio matemático em prosa, sem fórmula nem notação (nenhum $$ no texto, mesmo tratando de Black–Scholes, VaR e correlação).",
+        "frequencia": "sempre",
+        "ocorrencias": 4,
+        "evidencias": [
+          "Matematicamente, isso é uma troca: velocidade média por velocidade instantânea.",
+          "O preço do ativo segue um Movimento Browniano Geométrico — trajetórias contínuas, sem saltos;"
+        ]
+      },
+      {
+        "traco": "Dado histórico com data exata, percentuais com duas casas e, quando é número de caso, fonte entre parênteses.",
+        "frequencia": "frequente",
+        "ocorrencias": 15,
+        "evidencias": [
+          "a queda chega a 10,47% no intradiário e o índice fecha a −8,80%, a maior baixa diária desde outubro de 2008",
+          "de US$ 1,3 trilhão (President’s Working Group on Financial Markets, 1999)"
+        ]
+      },
+      {
+        "traco": "Formato numérico pt-BR: vírgula decimal, R$ e US$ com espaço, 'bilhões'/'trilhão' por extenso, sinal de menos tipográfico.",
+        "frequencia": "sempre",
+        "ocorrencias": 15,
+        "evidencias": [
+          "de R$ 3,1283 para R$ 3,3805",
+          "o fundo devolveu US$ 2,7 bilhões aos investidores"
+        ]
+      },
+      {
+        "traco": "Marca aproximação explícita ('cerca de', 'pelo menos') nos números de caso.",
+        "frequencia": "frequente",
+        "ocorrencias": 7,
+        "evidencias": [
+          "O fundo perdeu cerca de US$ 4,6 bilhões em menos de quatro meses.",
+          "reduziu a estimativa de perda potencial em cerca de 44%",
+          "uma perda de pelo menos US$ 6,2 bilhões"
+        ]
+      },
+      {
+        "traco": "Repete um número-âncora ao longo do texto para amarrar o argumento (alavancagem de 26 vezes).",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "mais de 26 vezes aquele patrimônio inicial",
+          "com alavancagem de cerca de 26 para 1",
+          "quebrou por alavancar seu capital em mais de 26 vezes"
+        ]
+      },
+      {
+        "traco": "Cita norma regulatória pelo código, com órgão emissor, glosa do que regula e relação temporal com o caso.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "a SR 11-7, orientação conjunta do Federal Reserve e do OCC",
+          "já estava em vigor havia mais de um ano quando isso aconteceu"
+        ]
+      },
+      {
+        "traco": "Ao introduzir conceito, nomeia autor e ano inline (obra em itálico); fecha com lista 'Fontes e leituras' em autor, título em itálico, ano.",
+        "frequencia": "frequente",
+        "ocorrencias": 15,
+        "evidencias": [
+          "Em *Models Behaving Badly.* (2011), ele propõe uma separação que vale a pena levar a sério",
+          "O economista Frank Knight, em 1921, separou risco (algo mensurável, com distribuição de probabilidade conhecida, que você pode precificar)",
+          "Emanuel Derman & Paul Wilmott, *The Financial Modelers’ Manifesto* (2009)"
+        ]
+      },
+      {
+        "traco": "Visuais: duas imagens sem legenda e um diagrama de processo com texto alternativo longo e descritivo; nenhuma tabela nem gráfico de dados.",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "![](img-01)",
+          "![Diagrama: o ciclo de liquidez que derrubou o LTCM — calote russo desvaloriza o rublo, dispara fuga para qualidade"
+        ]
+      }
+    ],
+    "formatacao": [
+      {
+        "traco": "Evita negrito: frases-tese e conclusões ficam sem destaque; o único negrito do texto está numa sigla de instituição na primeira frase.",
+        "frequencia": "evita",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Quase nunca a conta está errada.",
+          "O que está errado é o contexto em que a conta foi aplicada."
+        ],
+        "contraexemplo": "Entre as aulas gratuitas que o **MIT** disponibiliza no OpenCourseWare"
+      },
+      {
+        "traco": "Itálico para títulos de obras e disciplinas e para termo em inglês apresentado como objeto de explicação; alterna *x* e _x_ como marcador.",
+        "frequencia": "frequente",
+        "ocorrencias": 8,
+        "evidencias": [
+          "a disciplina *Topics in Mathematics with Applications in Finance*",
+          "Em inglês existem duas palavras: *hypothesis*",
+          "Donald MacKenzie explora bem em _An Engine, Not a Camera_ (2006)"
+        ],
+        "contraexemplo": "embutindo o ‘smile’ como cicatriz permanente da hipótese 1"
+      },
+      {
+        "traco": "Citação em bloco usada uma vez, para a fala de autoridade que abre o texto.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "> Se você lança uma moeda 100 vezes, obtendo cara em todos os lançamentos"
+        ]
+      },
+      {
+        "traco": "Hierarquia de títulos: H2 para seções (8), H3 para subtipos dentro de uma seção (2), H4 para 'Fontes e leituras'; H2 em caixa de frase, dois com dois-pontos (tema: tese) e um em pergunta; título do post em caixa de título.",
+        "frequencia": "frequente",
+        "ocorrencias": 11,
+        "evidencias": [
+          "## Black–Scholes: o que está na bula",
+          "### O fundamentalista",
+          "titulo: \"Quando os Modelos se Rebelam\""
+        ]
+      },
+      {
+        "traco": "Blocos curtos: a maioria dos parágrafos tem de 1 a 4 frases; picos de ~150 palavras nos trechos densos de teoria ou caso.",
+        "frequencia": "frequente",
+        "ocorrencias": 60,
+        "evidencias": [
+          "Em português, as duas viram ‘hipótese’."
+        ],
+        "contraexemplo": "E há um detalhe que o sociólogo Donald MacKenzie explora bem em _An Engine, Not a Camera_ (2006), e que vale separar em duas fases."
+      },
+      {
+        "traco": "Elementos do Substack usados com parcimônia: um botão de CTA, nenhum PULLQUOTE, nenhum riscado, nenhuma fórmula; separadores '* * *' antes das fontes e do aviso legal.",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "[[CTA: Compartilhar → https://syntaxis.substack.com/p/quando-os-modelos-se-rebelam?utm_source=substack&utm_medium=email&utm_content=share&action=share]]",
+          "* * *"
+        ]
+      },
+      {
+        "traco": "Aviso legal padrão, inteiro em itálico, no rodapé.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "*Os textos publicados na Syntaxis expressam exclusivamente minhas opiniões pessoais, formadas a partir da minha experiência profissional"
+        ]
+      },
+      {
+        "traco": "Lista numerada publicada com numeração deslocada: a frase introdutória virou o item 1, e a remissão posterior às 'hipóteses 1, 5 e 6' pressupõe outra numeração.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "1. O modelo assume, entre outras coisas:",
+          "Repare que as hipóteses 1, 5 e 6 são, na prática, uma coisa só"
+        ]
+      },
+      {
+        "traco": "Itálico mal delimitado em itens da lista de fontes (abarca dois itens ou deixa marcador solto).",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "*How the Laws of Physics Lie (1983); Imre Lakatos, Falsification and the Methodology of Scientific Research Programmes* (1970)",
+          "Lessons of Long-Term Capital Management_*(1999)"
+        ]
+      }
+    ]
+  },
+  "antipadroes_observados": [
+    "(a) Nunca usa ponto de exclamação (0 ocorrências).",
+    "(a) Nunca usa fórmula ou notação matemática, mesmo descrevendo Black–Scholes, VaR e matriz de correlação.",
+    "(a) Nunca usa negrito para destacar tese ou conclusão (único negrito: '**MIT**').",
+    "(a) Nunca usa riscado, PULLQUOTE, tabela, emoji ou hashtag.",
+    "(a) Nunca usa lista com marcadores no corpo; marcadores só em 'Fontes e leituras', e as listas do corpo são numeradas e fechadas.",
+    "(a) Nunca narra experiência profissional própria em primeira pessoa; a única memória pessoal é de um curso ('Um dos meus momentos favoritos do curso').",
+    "(a) Nunca faz CTA de assinatura, curso ou produto; o único CTA é de compartilhamento.",
+    "(b) Possível tique de texto gerado (o post é da época pipeline): antítese de correção 'não é X, é Y' / 'Não X. Y.' em densidade alta (~18 em ~3.500 palavras), ex.: “Ignorá-las não é imprecisão acadêmica, é usar o aparelho fora da faixa de operação.”",
+    "(b) Possível tique: densidade alta de travessão (~22, cerca de 6 por mil palavras).",
+    "(b) Possível tique: fecho de seção sistemático em frase curta isolada de efeito (“O mercado muda.”, “Muita alavancagem.”, “Cabe a você saber.”).",
+    "(b) Possível tique: metadiscurso de sinalização com 'vale' e 'aqui' (~8x): “Vale registrar como isso soa de dentro:”, “Aqui mora uma armadilha específica da nossa língua.”",
+    "(b) Possível tique: tríades assindéticas de ritmo (“menos capital, mesmo risco, alavancagem maior”; “Vende o caro, compra o barato, espera.”) e clichê em subtítulo (“bala de prata”)."
+  ],
+  "incerteza": "Um único texto, então todas as frequências são internas a este arquivo. Como a época é 'pipeline' (escrito com o sistema editorial e editado pelo autor), este arquivo não permite separar o que é traço do autor do que veio do sistema; os itens de antipadroes_observados (b) devem ser conferidos contra textos da época pré-pipeline. Há resíduos que parecem de edição ou de publicação e não de estilo: a frase truncada “Não porque a matemática.” abrindo a última seção; a promessa “responda a seis perguntas” sem que as perguntas apareçam; a pergunta do leitor rigoroso respondida com “bate em parte” e não desenvolvida; a numeração deslocada da lista de premissas; o itálico mal delimitado em itens das fontes; o título do livro de Derman grafado de dois jeitos (“*Models Behaving Badly.*” no corpo e “*Models. Behaving. Badly.*” nas fontes); e aspas simples de abertura trocadas por apóstrofo. O conteúdo de img-01 e img-02 não é visível (sem legenda nem alt), então não dá para avaliar o uso de imagem além da posição. Não dá para saber se a citação em bloco de Kempthorne foi traduzida pelo autor. A contagem de palavras (3514) vem do campo palavras_md do frontmatter e inclui fontes e aviso legal."
+}

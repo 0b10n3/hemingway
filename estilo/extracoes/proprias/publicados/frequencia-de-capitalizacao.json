@@ -1,0 +1,759 @@
+{
+  "arquivo": "estilo/corpus/publicados/frequencia-de-capitalizacao.md",
+  "genero": "substack",
+  "palavras": 3230,
+  "eixos": {
+    "lexico": [
+      {
+        "traco": "Vocabulário-chave da série usado como termo técnico próprio: 'motor' (regime de juro), 'etiqueta' (forma de cotar a taxa), 'régua' (contagem de prazo), 'escada' (sequência de frequências). 'etiqueta' aparece 21 vezes, 'escada' 12, 'motor' 10.",
+        "frequencia": "frequente",
+        "ocorrencias": 44,
+        "evidencias": [
+          "Ficam dois motores, o linear e o composto. O composto tem três etiquetas",
+          "Com a régua, o motor e agora a etiqueta, o expoente du/252 desta série está explicado de ponta a ponta."
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Sigla e jargão de mercado glosados entre parênteses na primeira menção, com definição curta em linguagem comum.",
+        "frequencia": "frequente",
+        "ocorrencias": 20,
+        "evidencias": [
+          "nenhum CDB (Certificado de Depósito Bancário) jamais cotou",
+          "A volatilidade (a medida de quanto o preço oscila) já fala essa língua.",
+          "vale menos de meio ponto-base (um centésimo de ponto percentual)"
+        ],
+        "contraexemplo": "Bernoulli mostrou, utilizando o binômio de Newton, que a escada nunca passa de 3."
+      },
+      {
+        "traco": "Prefere o termo em português ao anglicismo de mercado (preço de exercício, opção de compra/venda, taxa a termo, preço a termo); anglicismos aceitos são poucos e marcados (over em itálico, ETFs glosado).",
+        "frequencia": "evita",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Opção com preço de exercício (o preço fixado no contrato) de R$ 100,00",
+          "A opção de compra (o direito de comprar a ação pelo preço de exercício)",
+          "ETFs (fundos negociados em bolsa)"
+        ],
+        "contraexemplo": "É a mesma embalagem da *over* ao mês do texto anterior"
+      },
+      {
+        "traco": "Verbos simples e concretos para operações matemáticas e resultados: 'vira', 'sai', 'dá', 'cabe'.",
+        "frequencia": "frequente",
+        "ocorrencias": 20,
+        "evidencias": [
+          "Cada real vira 1,01 elevado a 12, ou 1,1268.",
+          "Com j = 12% e m = 12, sai a conta da abertura",
+          "A conta cabe em uma linha."
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Vocabulário institucional e operacional do mercado brasileiro (B3, DI, CDI, Tesouro, tesouraria, mesa de opções, balcão, LTN, PU, Selic, poupança, rotativo).",
+        "frequencia": "frequente",
+        "ocorrencias": 40,
+        "evidencias": [
+          "a tesouraria cota o DI em taxa efetiva, base 252, e a mesa de opções precisa de uma taxa contínua."
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Coloquialismos pontuais no meio do registro técnico.",
+        "frequencia": "ocasional",
+        "ocorrencias": 5,
+        "evidencias": [
+          "A capitalização contínua é outro bicho, coisa de modelo e de quem precifica opções.",
+          "E uma regra de bolso:",
+          "É o erro da etiqueta, em versão de varejo."
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "'de fato' como intensificador de realidade contra aparência.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "E qual dos dois números você de fato paga?",
+          "A taxa efetiva, i, é o que de fato rendeu no fim do ano:"
+        ],
+        "contraexemplo": null
+      }
+    ],
+    "sintaxe": [
+      {
+        "traco": "Frase média curta (~15 palavras, mediana ~13) com variação alta (desvio ~9): cerca de 36 frases de até 6 palavras e 13 de 30 ou mais, numa prosa de ~180 frases.",
+        "frequencia": "frequente",
+        "ocorrencias": 180,
+        "evidencias": [
+          "Você paga os 12,68%. Os 12% são só a forma de cotar.",
+          "Se a mesma taxa nominal, 12 × 15,29%, ou 183,5% ao ano, fosse capitalizada todo dia, nos 365 dias do ano,"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Antítese corretiva em duas frases ('não X. É Y.') ou numa só ('X, não Y'), usada para firmar a tese e as conclusões parciais.",
+        "frequencia": "frequente",
+        "ocorrencias": 10,
+        "evidencias": [
+          "O contínuo não compete com o composto. É o limite dele.",
+          "Não é uma aproximação. É uma identidade",
+          "A B3 não trocou de motor. Trocou de etiqueta."
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Frase curta como fecho de parágrafo ou parágrafo isolado, com função de conclusão.",
+        "frequencia": "frequente",
+        "ocorrencias": 15,
+        "evidencias": [
+          "A taxa estava certa. A etiqueta, errada.",
+          "Numa taxa efetiva, a frequência já foi paga.",
+          "O ganho existe, mas some rápido."
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Elipse verbal e paralelismo nominal em pares.",
+        "frequencia": "ocasional",
+        "ocorrencias": 5,
+        "evidencias": [
+          "Mesma hipótese, mesmo motor.",
+          "Linear por fora, composta por dentro: uma taxa nominal com capitalização diária."
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Aposto explicativo entre vírgulas, às vezes encadeado, como principal mecanismo de expansão da frase.",
+        "frequencia": "frequente",
+        "ocorrencias": 25,
+        "evidencias": [
+          "o manual de opções da B3, a bolsa brasileira, faz as contas em outra taxa",
+          "O preço a termo da ação, o preço justo, combinado hoje, para entregá-la daqui a um ano, é R$ 114,00"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Parataxe: frases justapostas com poucos conectivos explícitos ('Mas' 2x, 'portanto' 1x); a ligação vem por retomada com 'É...' anafórico no início da frase (~13 vezes).",
+        "frequencia": "frequente",
+        "ocorrencias": 13,
+        "evidencias": [
+          "É a hipótese que o texto anterior já atribuía ao composto: o juro reinvestido à mesma taxa.",
+          "É isso que faz do du/252 desta série um caso particular."
+        ],
+        "contraexemplo": "O total, portanto, nunca passa de 1 + 1 + 1 = 3."
+      },
+      {
+        "traco": "Frase iniciada por 'E' coordenativo, inclusive em perguntas encadeadas.",
+        "frequencia": "ocasional",
+        "ocorrencias": 7,
+        "evidencias": [
+          "E se o contrato capitalizasse todo dia? E a cada segundo?",
+          "E, quanto maior o n, mais perto de 1 chega cada parêntese"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Série numérica em fragmentos paralelos, sem verbo repetido.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Com quatro, 2,44. Com 12, 2,61. Com 52, uma por semana, 2,69.",
+          "Da mensal para a diária (252 dias úteis), mais R$ 887,05. Da diária para a contínua, mais R$ 44,72."
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Regras de decisão em condicional anteposta ('Se..., ...') com imperativo na principal.",
+        "frequencia": "ocasional",
+        "ocorrencias": 5,
+        "evidencias": [
+          "Se uma das taxas é nominal e a outra, efetiva, converta antes de comparar.",
+          "Pode ignorar. Se a taxa é de cartão, não pode."
+        ],
+        "contraexemplo": null
+      }
+    ],
+    "pontuacao": [
+      {
+        "traco": "Parênteses como principal veículo de glosa e de definição em linha (cerca de 25 na prosa, fora das fórmulas).",
+        "frequencia": "frequente",
+        "ocorrencias": 25,
+        "evidencias": [
+          "a taxa a termo (a taxa combinada hoje para um período que começa no futuro)",
+          "o du/252 (dias úteis sobre 252) desta série"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Travessão ausente da prosa corrida; os 4 travessões do arquivo estão só na lista de referências, como separador entre obra e comentário. Aposto e inciso vão entre vírgulas ou parênteses.",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": [
+          "a B3, a bolsa brasileira,"
+        ],
+        "contraexemplo": "Alexandre Assaf Neto, *Matemática Financeira e suas Aplicações*, 15ª ed. (GEN Atlas, 2022) — taxas nominais, efetivas e equivalentes"
+      },
+      {
+        "traco": "Dois-pontos como articulador entre afirmação e explicação, resultado ou número (cerca de 30 na prosa).",
+        "frequencia": "frequente",
+        "ocorrencias": 30,
+        "evidencias": [
+          "porque diz mais do que parece: dois dos três motores são o mesmo.",
+          "A régua continua brasileira: o prazo é du/252.",
+          "e a R$ 17,24 com r = 14%: 3,1% mais cara."
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Aspas simples tipográficas (‘ ’) para expressão mencionada, dito corrente ou rótulo que o texto vai examinar ou desmontar.",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": [
+          "Isso desmonta uma frase comum de propaganda: o dinheiro que ‘rende todo dia’.",
+          "A fama de ‘mais agressivo’ vem de comparar o mesmo número nas duas etiquetas",
+          "‘Capitalizados mensalmente’ quer dizer que o contrato divide os 12% por doze"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Aspas duplas tipográficas (“ ”) reservadas para citação literal de documento e para títulos de capítulo ou artigo.",
+        "frequencia": "ocasional",
+        "ocorrencias": 5,
+        "evidencias": [
+          "A B3 chama a convenção de 252 dias úteis de “conversão exponencial 252”",
+          "cap. 4, “Interest Rates”"
+        ],
+        "contraexemplo": "## De onde vem o “*e*”"
+      },
+      {
+        "traco": "Quebra de parágrafo frequente: a conclusão de um raciocínio costuma ganhar parágrafo próprio, de uma ou duas frases.",
+        "frequencia": "frequente",
+        "ocorrencias": 27,
+        "evidencias": [
+          "As duas taxas são exponenciais. É justamente o ponto deste texto.",
+          "A escolha é de conveniência, não de precisão."
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Listas só para material enumerável (série de taxas, três razões, referências); argumento sempre em prosa. Lista com marcador em minúscula, itens terminados em ponto e vírgula e ponto final no último; lista numerada com frase-tese curta abrindo cada item.",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "- capitalização anual: 14,000%;",
+          "- contínua: 13,103%.",
+          "1. O retorno vira soma."
+        ],
+        "contraexemplo": null
+      }
+    ],
+    "arquitetura": [
+      {
+        "traco": "Abre retomando a pergunta deixada no fim do texto anterior, responde em poucas linhas e então reformula para a pergunta nova do texto.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "No fim do último texto, deixei uma conta para você.",
+          "A resposta cabe em poucas linhas.",
+          "Agora altere a pergunta. E se o contrato capitalizasse todo dia?"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Cena histórica datada (personagem, ano) para lançar o problema, logo depois das perguntas de abertura; retoma a datação ao nomear o resultado.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Em 1683, o matemático suíço Jacob Bernoulli fez essa mesma pergunta, com a taxa mais simples que existe: 100% ao ano.",
+          "o número que Leonhard Euler, numa carta de 1731, chamaria de e."
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Fim da abertura anuncia o que o texto vai explicar, como promessa de duas coisas aparentemente desligadas.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "A resposta dele explica duas coisas que parecem não ter relação."
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Primeira seção expõe a crença corrente de forma impessoal e a refuta em uma frase curta que vira a tese; o mesmo movimento reaparece com 'fama' e 'frase de propaganda'.",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "A versão que circula é mais ou menos esta.",
+          "Isso desmonta uma frase comum de propaganda",
+          "A fama de ‘mais agressivo’ vem de comparar o mesmo número nas duas etiquetas"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Tese emoldura o texto: a mesma frase aparece literalmente no início e na conclusão; o subtítulo do post antecipa a tese que fecha a recapitulação.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "O contínuo não compete com o composto. É o limite dele.",
+          "A frequência muda a etiqueta, não o motor",
+          "A frequência só muda a etiqueta."
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Conceito → definição com variável → conta numérica imediata; o exemplo vem logo depois do conceito, nunca antes.",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "A taxa efetiva, i, é o que de fato rendeu no fim do ano:",
+          "Com j = 12% e m = 12, sai a conta da abertura: 1,01 elevado a 12, ou 12,68%."
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Subtítulos densos (8 H2 + 4 H3, um a cada ~270 palavras), em geral frase-tese ou imagem, não rótulo.",
+        "frequencia": "frequente",
+        "ocorrencias": 12,
+        "evidencias": [
+          "## Render todo dia não é render mais",
+          "### Onde mora o erro",
+          "## O topo da escada"
+        ],
+        "contraexemplo": "## Nominal, frequência, efetiva"
+      },
+      {
+        "traco": "Escalada para caso de alto risco que mostra quando o efeito pequeno deixa de ser desprezível (juro de cartão; erro de etiqueta numa mesa de opções, com exemplo numérico próprio).",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "o rotativo do cartão de crédito custou 451,7% ao ano em setembro de 2026",
+          "Um exemplo simples, em cálculo próprio."
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Seção prática perto do fim: pergunta-checklist, regras de decisão condicionais e fórmulas prontas de planilha.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Qual é a etiqueta da taxa? Efetiva, nominal ou contínua?",
+          "Com a resposta, a decisão fica simples."
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Fecho em camadas: recapitulação em quatro frases, tese repetida, objetivo de aprendizagem, exercício para o leitor que espelha a conta deixada na abertura, pedido de encaminhamento, referências comentadas, disclaimer.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Bernoulli provou que a escada tem topo, e Euler deu a esse topo um nome.",
+          "Por que os 6% ao ano que se costuma atribuir à poupança são uma taxa nominal?"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Remissão constante ao texto anterior e à série como fio de continuidade ('texto anterior' 11x, 'desta série' 3x).",
+        "frequencia": "frequente",
+        "ocorrencias": 14,
+        "evidencias": [
+          "É o erro dos 15,03% que o texto anterior apontou, agora com endereço",
+          "As três perguntas do texto anterior (motor, base, dias que contam) ganham uma que vem antes delas:"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Marca o ponto em que o conteúdo deixa de ser o de manual e passa a ser a contribuição do texto.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Até aqui, é o capítulo de taxas equivalentes",
+          "O interessante começa quando se trocam os 100% de Bernoulli por uma taxa qualquer."
+        ],
+        "contraexemplo": null
+      }
+    ],
+    "figuras": [
+      {
+        "traco": "Metáfora estendida motor x etiqueta (domínio: mecânica x comércio/embalagem): o regime de juro é o motor, a forma de cotar é a etiqueta. Atravessa o texto inteiro, dá nome a subtítulo e fecha a conclusão.",
+        "frequencia": "frequente",
+        "ocorrencias": 30,
+        "evidencias": [
+          "A B3 não trocou de motor. Trocou de etiqueta.",
+          "O perigo nunca foi a frequência. É a etiqueta.",
+          "É a mesma embalagem da *over* ao mês do texto anterior"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Escada (domínio: espaço/arquitetura) para a sequência de frequências de capitalização: degraus que encolhem, topo; retomada no título da seção final.",
+        "frequencia": "frequente",
+        "ocorrencias": 12,
+        "evidencias": [
+          "Cada degrau sobe menos que o anterior.",
+          "Uma escada assim tem um topo.",
+          "## O topo da escada"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Retoma explicitamente uma imagem geométrica de texto anterior da série (corda, linha quebrada).",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Volte à imagem do último texto. Dentro de cada subperíodo, o juro corre em linha reta: é uma corda."
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Erro e risco localizados no espaço (morar, endereço, outro lado do balcão), com balcão vindo do domínio do comércio/mercado.",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": [
+          "O risco mora na passagem de uma para a outra. Quem paga fica do outro lado do balcão.",
+          "agora com endereço"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Convenção de taxa como língua falada por um campo.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "A volatilidade (a medida de quanto o preço oscila) já fala essa língua.",
+          "## No munda das opções, falamos contínuo"
+        ],
+        "contraexemplo": null
+      }
+    ],
+    "postura": [
+      {
+        "traco": "Primeira pessoa do singular rara, usada só para a autoria da série e do cálculo.",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "No fim do último texto, deixei uma conta para você.",
+          "No texto anterior, apresentei três motores lado a lado",
+          "Um exemplo simples, em cálculo próprio."
+        ],
+        "contraexemplo": "## No munda das opções, falamos contínuo"
+      },
+      {
+        "traco": "Trata o leitor por 'você', direto e próximo, sem 'caro leitor' nem plural inclusivo.",
+        "frequencia": "ocasional",
+        "ocorrencias": 6,
+        "evidencias": [
+          "Você paga os 12,68%.",
+          "Para saber se a frequência importa no seu caso, compare essa distância com a precisão que o seu caso exige."
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Autoridade implícita, emprestada de fonte primária (BC, B3, Tesouro, Hull) e da própria conta; nunca declara credencial ou experiência.",
+        "frequencia": "frequente",
+        "ocorrencias": 8,
+        "evidencias": [
+          "Segundo o Banco Central, o rotativo do cartão de crédito custou 451,7% ao ano em setembro de 2026",
+          "a própria B3 registra que a capitalização acontece só em dias úteis."
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Discordância dirigida a crenças impessoais, nunca a pessoas; concede a parte verdadeira antes de corrigir.",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": [
+          "o dinheiro que ‘rende todo dia’. Rende mesmo.",
+          "Mas a taxa DI é divulgada como taxa efetiva ao ano, base 252"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Afirmação categórica com pouca modalização; a incerteza aparece só como aproximação quantitativa ('quase exatamente', 'cerca de').",
+        "frequencia": "frequente",
+        "ocorrencias": 10,
+        "evidencias": [
+          "Não é uma aproximação. É uma identidade",
+          "a distância até o teto cai quase exatamente pela metade."
+        ],
+        "contraexemplo": "A versão que circula é mais ou menos esta."
+      },
+      {
+        "traco": "Humor seco, de uma linha, tirado do próprio mercado.",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "No mercado, até a precisão é cláusula.",
+          "É o erro da etiqueta, em versão de varejo.",
+          "Quem paga fica do outro lado do balcão."
+        ],
+        "contraexemplo": null
+      }
+    ],
+    "leitor": [
+      {
+        "traco": "Pressupõe leitor que acompanhou o texto anterior e conhece juro composto, CDB e taxa efetiva; pressupõe também álgebra e cálculo (binômio, fatorial, derivada) sem ensinar, mas traduz cada fórmula em palavras.",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "Os parênteses são todos menores que 1, e cada fatorial cresce mais rápido que as potências de 2.",
+          "O texto anterior adiantou que, a 14%, o rendimento nunca passa de 15,03%."
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Perguntas em cascata (duas ou três seguidas) para abrir o texto, uma seção ou o exercício final; 13 interrogações em ~5 blocos.",
+        "frequencia": "frequente",
+        "ocorrencias": 13,
+        "evidencias": [
+          "Mas por que existe um teto, se dá para cortar o ano em pedaços cada vez menores? E de onde vem esse número?",
+          "Se composto e contínuo são a mesma curva, por que alguém se daria ao trabalho de trocar a etiqueta?"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Imperativo de segunda pessoa que conduz o leitor pela operação ('altere', 'volte', 'troque', 'pegue', 'converta', 'traduza', 'deixe').",
+        "frequencia": "frequente",
+        "ocorrencias": 10,
+        "evidencias": [
+          "Troque os 100% por uma taxa nominal qualquer, j, e chame de n o quociente m/j.",
+          "Volte aos 14% nominais e suba com eles a escada de Bernoulli.",
+          "Se a taxa vai entrar num modelo, traduza sempre."
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Objetivo de aprendizagem declarado no fecho, seguido de exercício para o leitor resolver sozinho.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Se o texto funcionou, você consegue ler sozinho uma taxa de que todo brasileiro já ouviu falar.",
+          "Deixe a TR de lado."
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Chamada para ação dupla: produto (link inline, apresentado em tom informativo, sem botão) antes da conclusão e encaminhamento condicional no fim.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "É um diagnóstico gratuito, que compara o seu perfil com o que o mercado espera para o próximo degrau da carreira.",
+          "Se este texto ajudou você a ler uma taxa pela etiqueta, encaminhe para quem ainda acha que o contínuo é o juro mais agressivo."
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Entrega saída prática reutilizável: regra de bolso e fórmulas de planilha prontas.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Na planilha, as contas são estas:",
+          "E uma regra de bolso: dobrar a frequência corta quase exatamente pela metade a distância até o teto contínuo"
+        ],
+        "contraexemplo": null
+      }
+    ],
+    "tecnico": [
+      {
+        "traco": "Fórmula em display (LaTeX entre $$), introduzida por frase em português terminada em dois-pontos e seguida de glosa ou aplicação numérica; 7 fórmulas em display.",
+        "frequencia": "sempre",
+        "ocorrencias": 7,
+        "evidencias": [
+          "A taxa efetiva, i, é o que de fato rendeu no fim do ano:",
+          "$$ 1 + i = \\left(1 + \\frac{j}{m}\\right)^{m} $$",
+          "Expandido, o fator do ano fica assim:"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Na prosa, aritmética por extenso ('elevado a', 'vezes', 'ou', 'menos 1') em vez de notação inline.",
+        "frequencia": "frequente",
+        "ocorrencias": 12,
+        "evidencias": [
+          "Para um capital C e um prazo t quaisquer, o montante no limite é C vezes e elevado a (j × t).",
+          "a taxa de cada dia útil é 1,14 elevado a 1/252, menos 1: 0,05201% ao dia."
+        ],
+        "contraexemplo": "Então j/m = 1/n e m = n × j."
+      },
+      {
+        "traco": "Variável apresentada em aposto entre vírgulas, uma letra por conceito.",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "A taxa nominal, j, é o número escrito no contrato.",
+          "o saldo, M, cresce a uma velocidade proporcional a ele mesmo"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Números precisos e normatizados em pt-BR: vírgula decimal, ponto de milhar, R$ ao centavo, percentuais com 2 a 3 casas, diferenças em pontos-base.",
+        "frequencia": "frequente",
+        "ocorrencias": 60,
+        "evidencias": [
+          "Em R$ 1 milhão aplicado por um ano, passar da capitalização anual para a mensal vale R$ 9.342,03.",
+          "Errar a etiqueta vale 103."
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Norma e metodologia citadas pelo nome do documento e do órgão; dado de conjuntura vem datado.",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "O Manual de Apreçamento de Contratos de Opções da B3, o documento com a metodologia dos prêmios de referência",
+          "Na metodologia do Tesouro Nacional para a LTN, o expoente du/252 é truncado na 14ª casa decimal"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Esboço de prova em prosa, passo a passo, em vez de só remeter à referência.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "A partir do terceiro termo, a soma fica abaixo de 1/2 + 1/4 + 1/8 + …, que dá 1."
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Fórmulas de planilha em bloco de código, com funções do Excel em português e separador ponto e vírgula.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "=EFETIVA(j;m)",
+          "PU da LTN:   =TRUNCAR(1000/(1+i)^TRUNCAR(du/252;14);6)"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Comparação numérica em lista com marcador, não em tabela.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "As cinco taxas abaixo entregam o mesmo rendimento, 14% em um ano:",
+          "- semestral: 13,542% nominais;"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Gráfico inserido logo depois da frase que convida a visualizar a ideia, sem legenda.",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Volte aos 14% nominais e suba com eles a escada de Bernoulli.",
+          "![](img-03)"
+        ],
+        "contraexemplo": null
+      }
+    ],
+    "formatacao": [
+      {
+        "traco": "Nenhum negrito em ~3.200 palavras; nem a tese repetida nem as regras de decisão recebem destaque tipográfico.",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": [
+          "O contínuo não compete com o composto. É o limite dele.",
+          "Se a taxa vai entrar num modelo, traduza sempre."
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Itálico restrito a termo estrangeiro, símbolo matemático em menção, títulos de livro e o disclaimer inteiro.",
+        "frequencia": "ocasional",
+        "ocorrencias": 7,
+        "evidencias": [
+          "É a mesma embalagem da *over* ao mês do texto anterior",
+          "O *e* é a base em que a curva sobe",
+          "Eli Maor, *e: A História de um Número* (Record)"
+        ],
+        "contraexemplo": "Para 14% nominais, o teto é e elevado a 0,14"
+      },
+      {
+        "traco": "Uma única citação em bloco (>), usada para isolar a hipótese central do próprio texto, não para citar terceiro. Nenhum [[PULLQUOTE]], nenhum botão [[CTA]], nenhum riscado.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "> A hipótese embutida é que nenhum centavo fica parado, nem por um instante, e que tudo é reinvestido à mesma taxa."
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Hierarquia H2/H3: 8 H2 e 4 H3, com H3 subdividindo seções longas.",
+        "frequencia": "frequente",
+        "ocorrencias": 12,
+        "evidencias": [
+          "### A escada de Bernoulli",
+          "### Mesma curva, outra etiqueta"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Blocos curtos: parágrafo mediano de ~29 palavras (máximo ~106); cerca de um terço dos parágrafos tem uma frase só.",
+        "frequencia": "frequente",
+        "ocorrencias": 81,
+        "evidencias": [
+          "Você paga os 12,68%. Os 12% são só a forma de cotar.",
+          "O contínuo não compete com o composto. É o limite dele."
+        ],
+        "contraexemplo": "Segundo o Banco Central, o rotativo do cartão de crédito custou 451,7% ao ano em setembro de 2026"
+      },
+      {
+        "traco": "Título nominal técnico e subtítulo que enuncia a tese em antítese.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "titulo: \"Frequência de Capitalização\"",
+          "subtitulo: \"A frequência muda a etiqueta, não o motor\""
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Links inline em markdown no corpo e nas referências; CTA de produto como link no texto, não botão.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Matemática financeira é uma das dimensões do [Syntaxis Skill Check](https://skill.syntaxis.com.br/)."
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Imagem de abertura antes do primeiro parágrafo; todas as imagens sem legenda.",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "![](img-01)"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Seção final 'Para continuar aprendendo' com referências comentadas: autor, título em itálico, edição, editora, ano, capítulo, travessão e o que a obra acrescenta.",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": [
+          "John C. Hull, *Options, Futures, and Other Derivatives*, 11ª ed. (Pearson, 2021), cap. 4, “Interest Rates”"
+        ],
+        "contraexemplo": null
+      },
+      {
+        "traco": "Separador '* * *' seguido de disclaimer em itálico, em primeira pessoa.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "*Os textos publicados na Syntaxis expressam exclusivamente minhas opiniões pessoais"
+        ],
+        "contraexemplo": null
+      }
+    ]
+  },
+  "antipadroes_observados": [
+    "(a) Nunca usa negrito (0 ocorrências).",
+    "(a) Nunca usa ponto de exclamação.",
+    "(a) Nunca usa travessão na prosa corrida; os 4 travessões estão só na lista de referências.",
+    "(a) Nunca usa tabela; a comparação de taxas vai em lista com marcador.",
+    "(a) Nunca usa emoji, riscado, [[PULLQUOTE]] nem botão [[CTA]].",
+    "(a) Nenhum marcador metadiscursivo do tipo 'vale ressaltar', 'é importante notar', 'em suma', 'além disso', 'no entanto' (0 ocorrências).",
+    "(a) Não usa anglicismo de mercado quando há termo em português (preço de exercício, opção de compra/venda, taxa a termo).",
+    "(a) Primeira pessoa do plural praticamente ausente: única ocorrência no H2 'No munda das opções, falamos contínuo'.",
+    "(b) Antítese corretiva 'não X. É Y.' em alta densidade (~10), p.ex. 'O perigo nunca foi a frequência. É a etiqueta.'. É um molde reconhecido de texto gerado por IA em pt-BR; aqui carrega a tese, mas a densidade merece vigilância.",
+    "(b) Fecho de parágrafo com frase curta aforística em série ('A taxa estava certa. A etiqueta, errada.'; 'Trocou de etiqueta.'; 'É a etiqueta.'): cadência de punchline que, repetida, lê como ritmo de IA.",
+    "(b) Recapitulação final em sequência com a tese repetida literalmente: recurso legítimo de moldura, mas próximo do fecho-resumo típico de IA."
+  ],
+  "incerteza": "Um único texto, de época pipeline: não dá para separar o que é escolha do autor do que foi sugerido pelo sistema editorial e mantido na edição (relevante para os itens (b) de antipadrões). section_name é null no frontmatter, então a linha editorial não está declarada; o conteúdo é de conceito técnico, mas isso não está confirmado. Contagem de palavras: 3.230 por wc no corpo (inclui LaTeX, blocos de código, referências e disclaimer); o frontmatter registra 3.190 (md) e 3.128 (API). Estatísticas de frase e parágrafo são aproximadas, calculadas só na prosa (sem fórmulas, código, listas e títulos). As imagens são placeholders sem legenda: não dá para saber o conteúdo dos gráficos nem se havia legenda no site. O texto publicado tem ruído de revisão que não é traço de estilo: erro de digitação no H2 'No munda das opções' e o marcador '[VERIFICAR: ano da edição]' que sobrou nas referências. O tema matemático favorece fórmulas e glosas; este arquivo sozinho não diz se a densidade de parênteses e de imperativos se mantém em textos de carreira."
+}

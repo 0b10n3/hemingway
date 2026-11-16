@@ -1,0 +1,679 @@
+{
+  "arquivo": "estilo/corpus/publicados/a-ciencia-da-separacao.md",
+  "genero": "substack",
+  "palavras": 1583,
+  "eixos": {
+    "lexico": [
+      {
+        "traco": "Campo semântico dominante de finanças/investimentos (classes de ativos, ETF, renda fixa, gestor, índice, portfólio), amarrado ao tema dos objetivos de vida do investidor como finalidade dos instrumentos",
+        "frequencia": "sempre",
+        "ocorrencias": 5,
+        "evidencias": [
+          "como relacionar um ativo aos objetivos reais de uma pessoa",
+          "instrumentos financeiros são veículos para nos levar a alcançar objetivos que realmente importam em nossas vidas",
+          "E como associá-las aos objetivos de vida ?"
+        ]
+      },
+      {
+        "traco": "Termo técnico glosado logo em seguida, entre parênteses (tradução, definição curta ou expansão)",
+        "frequencia": "frequente",
+        "ocorrencias": 9,
+        "evidencias": [
+          "“internamente homogêneo” (semelhantes entre si) e “externamente heterogêneo” (diferentes dos outros)",
+          "o tracking error (a diferença de retorno entre o fundo e o índice)",
+          "como o Ibovespa ou IMA (um índice de títulos públicos)"
+        ],
+        "contraexemplo": "bem como de combinações lineares dessas outras classes"
+      },
+      {
+        "traco": "Anglicismo técnico aceito, mas em par com o termo em português: rótulo em português e inglês entre parênteses, ou sigla inglesa com tradução",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "**Aderência ao Índice (Tracking Error)**",
+          "a contratação de um “Formador de Mercado” (Market Maker)",
+          "A sigla vem de *Exchange Traded Funds* (Fundos Negociados em Bolsa)"
+        ],
+        "contraexemplo": "vamos retomar o tema do Goal Based Investing e seus diferentes frameworks"
+      },
+      {
+        "traco": "Fonte acadêmica citada no corpo em formato autor-data, sem lista de referências no fim",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "introduzimos alguns conceitos apresentados por Kinlaw, Kritzman e Turkington (2021)",
+          "É nessa discussão que o trabalho de Kinlaw, Kritzman e Turkington (2021) nos auxilia"
+        ],
+        "contraexemplo": "o conceito de instrumentos financeiros apresentado por Andrew Lo"
+      },
+      {
+        "traco": "Referências de cultura pop e de memória pessoal (anime, seriado, universidade) misturadas ao vocabulário técnico",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "enquanto discutíamos o capítulo semanal de Bleach",
+          "Como na lógica do episódio de Chaves (*Chavo del Ocho*)"
+        ]
+      },
+      {
+        "traco": "Casos brasileiros conhecidos de fraude/colapso citados pelo nome como exemplos irônicos de recomendação da moda",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "o CDB do Banco Master, Fazendas Reunidas Boi Gordo ou açoes da Mundial"
+        ]
+      },
+      {
+        "traco": "'na prática' como marcador que opõe a realidade à aparência ou ao rótulo",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": [
+          "fazem com que possuir um ETF é — na prática e na dor — o mesmo que deter os títulos diretamente",
+          "Mas na prática, é renda fixa."
+        ]
+      },
+      {
+        "traco": "Formalidade mista: registro coloquial nas partes narrativas e opinativas; registro formal, com cara de tradução, nos critérios parafraseados",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "quando só tinha verba para um café de qualidade muito duvidosa",
+          "os ETFs de renda fixa são jogados na mesma prateleira de risco",
+          "o que poderia ser proibitivamente caro"
+        ]
+      }
+    ],
+    "sintaxe": [
+      {
+        "traco": "Grande variação de comprimento: frases de 5-8 palavras isoladas como parágrafo, ao lado de períodos de 40-55 palavras",
+        "frequencia": "frequente",
+        "ocorrencias": 10,
+        "evidencias": [
+          "Hoje vamos nos aprofundar nessas ideias.",
+          "Sempre gostei de tomar café.",
+          "O mercado financeiro adora nomes complicados para esconder verdades simples."
+        ],
+        "contraexemplo": "Nos fins de tarde, eu e meu amigo Oscar Londono - que depois se tornou meu padrinho de casamento e hoje é doutor em matemática"
+      },
+      {
+        "traco": "Frase iniciada por 'Mas' depois de ponto, para virada, ressalva ou gancho",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "Mas não antes de perguntar se cursávamos GEOGRAFIA!",
+          "Mas na prática, é renda fixa.",
+          "Mas afinal, quais seriam as classes que deveríamos considerar?"
+        ]
+      },
+      {
+        "traco": "Oração dependente destacada como frase própria (fragmento após ponto)",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Sendo classificados como produtos de renda variável.",
+          "Mesmo na época da graduação, quando só tinha verba para um café de qualidade muito duvidosa."
+        ]
+      },
+      {
+        "traco": "Inciso entre travessões interrompendo a oração principal, com aposto explicativo ou comentário avaliativo",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "Na maioria das corretoras — por uma conveniência técnica que ignora a lógica financeira — os ETFs",
+          "Oscar Londono - que depois se tornou meu padrinho de casamento e hoje é doutor em matemática",
+          "é — na prática e na dor — o mesmo que deter"
+        ]
+      },
+      {
+        "traco": "Parênteses muito frequentes, às vezes aninhados ou com uma lista inteira dentro",
+        "frequencia": "frequente",
+        "ocorrencias": 16,
+        "evidencias": [
+          "(como o Ibovespa ou IMA (um índice de títulos públicos))",
+          "( o fundo campeão, o CDB do Banco Master, Fazendas Reunidas Boi Gordo ou açoes da Mundial)"
+        ]
+      },
+      {
+        "traco": "Contraste curto 'X, não Y' / 'não X; Y' para fechar uma ideia",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "trata-se de gestão ativa, não de uma classe de ativos",
+          "O gestor não opera no vazio; ele segue uma coreografia matemática rígida imposta pelo índice.",
+          "Podia até parecer, mas não."
+        ]
+      },
+      {
+        "traco": "Nos blocos de critérios, padrão regra + condicional 'Se..., [consequência]' repetido item a item",
+        "frequencia": "frequente",
+        "ocorrencias": 7,
+        "evidencias": [
+          "Se não forem, o investidor precisaria identificar títulos replicantes",
+          "Se as classes forem muito semelhantes (redundantes), o investidor desperdiça recursos",
+          "Se o benefício depende da habilidade de seleção e não da exposição sistemática"
+        ]
+      },
+      {
+        "traco": "Gerúndio de adição/consequência encadeado no fim do período, concentrado nas passagens expositivas sobre ETF e CVM",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "permitindo que você invista em uma carteira diversificada através de uma única cota",
+          "oferecendo uma forma prática e transparente de expor seu patrimônio",
+          "garantindo liquidez e evitando que o preço da cota descole"
+        ]
+      },
+      {
+        "traco": "Deslizes de concordância/regência e frase truncada que passaram para a versão publicada (época pre-pipeline, sem revisão)",
+        "frequencia": "ocasional",
+        "ocorrencias": 6,
+        "evidencias": [
+          "fazem com que possuir um ETF é",
+          "não se deve esperar que uma seleção aleatória de fundos de investimento.",
+          "do ponto de vista prática um ETF de renda fixa replica um cesta"
+        ]
+      }
+    ],
+    "pontuacao": [
+      {
+        "traco": "Quebra de parágrafo muito frequente: a maioria dos parágrafos tem 1-2 frases, uns 20 têm uma frase só",
+        "frequencia": "frequente",
+        "ocorrencias": 20,
+        "evidencias": [
+          "Hoje vamos nos aprofundar nessas ideias.",
+          "O problema com a semelhança é que, muitas vezes, nem tudo é o que parece."
+        ],
+        "contraexemplo": "**Habilidade de Seleção:** A classe de ativos não deve exigir que o investidor tenha habilidade"
+      },
+      {
+        "traco": "Aspas tipográficas curvas (“ ”) para termo conceitual da fonte, metáfora, nome de estratégia/rótulo, ironia e fala citada",
+        "frequencia": "frequente",
+        "ocorrencias": 11,
+        "evidencias": [
+          "Pense neles como uma “cesta” que agrupa diversos ativos",
+          "o investidor precisa possuir habilidade para identificar gestores “superiores”",
+          "“Parece de limão, é de groselha e tem gosto de tamarindo”"
+        ]
+      },
+      {
+        "traco": "Dois-pontos como articulador: depois do rótulo em negrito de cada item e para introduzir lista ou citação",
+        "frequencia": "frequente",
+        "ocorrencias": 13,
+        "evidencias": [
+          "traz alguns pontos de atenção para os ETFs:",
+          "monta uma barraquinha de sucos: “Parece de limão"
+        ]
+      },
+      {
+        "traco": "Sem lista com marcadores: enumeração vira parágrafos com rótulo em negrito ou série inline depois de hífen",
+        "frequencia": "sempre",
+        "ocorrencias": 12,
+        "evidencias": [
+          "**Investível:** Os componentes subjacentes da classe de ativos devem ser diretamente investíveis.",
+          "subdividi-los em subclasses - Ações, Cambiais, Multimercados."
+        ]
+      },
+      {
+        "traco": "Vírgula entre sujeito e verbo, destacando o tópico",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "O texto desta semana, continua a discussão sobre classes de ativos.",
+          "ETF de renda fixa, parece renda váriavel."
+        ]
+      },
+      {
+        "traco": "Travessão longo (—) e hífen com espaços ( - ) coexistem para incisos: travessão nas passagens expositivas sobre ETF, hífen na anedota pessoal e na passagem sobre fundos",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "— sejam ações, títulos de renda fixa ou commodities —",
+          "Oscar Londono - que depois se tornou meu padrinho"
+        ]
+      },
+      {
+        "traco": "Interrogação em título de seção, subtítulo e fecho; duas vezes com espaço antes do sinal",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": [
+          "## Geógrafos ou Matemáticos?",
+          "E como associá-las aos objetivos de vida ?"
+        ]
+      },
+      {
+        "traco": "Exclamação rara, junto com caixa alta, para efeito cômico",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Mas não antes de perguntar se cursávamos GEOGRAFIA!"
+        ]
+      },
+      {
+        "traco": "Ponto e vírgula ocasional para justapor afirmação e explicação",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "O gestor não opera no vazio; ele segue",
+          "seleção aleatória de gestores; se apenas alguns poucos gestores geram valor"
+        ]
+      },
+      {
+        "traco": "Deslizes de pontuação na versão publicada: espaço antes de vírgula/interrogação, pontuação dupla, três parágrafos seguidos sem ponto final",
+        "frequencia": "ocasional",
+        "ocorrencias": 7,
+        "evidencias": [
+          "atributos voláteis , determinar",
+          "para que a utilidade do portfólio aumente,.",
+          "pois não há um comportamento uniforme de risco e retorno dentro do grupo"
+        ]
+      }
+    ],
+    "arquitetura": [
+      {
+        "traco": "Abre com ponte de série: retoma o post anterior, resume o conceito já apresentado e anuncia o aprofundamento",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "O texto desta semana, continua a discussão sobre classes de ativos.",
+          "Naquela oportunidade falamos sobre o conceito de instrumentos financeiros",
+          "Hoje vamos nos aprofundar nessas ideias."
+        ]
+      },
+      {
+        "traco": "A primeira seção é uma anedota pessoal (memória da graduação) que termina numa máxima-ponte para o tema técnico",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Sempre gostei de tomar café.",
+          "O problema com a semelhança é que, muitas vezes, nem tudo é o que parece."
+        ]
+      },
+      {
+        "traco": "Progressão anedota → caso concreto de mercado (ETF de renda fixa) → framework acadêmico (sete critérios) → aplicação a um contraexemplo (fundos) → fecho moral; no nível do texto, o exemplo vem antes do conceito",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "É nessa discussão que o trabalho de Kinlaw, Kritzman e Turkington (2021) nos auxilia a ampliar a visão",
+          "Um exemplo de classe de ativos que encontramos em muitas plataformas de investimento e que não obedecem os critérios"
+        ]
+      },
+      {
+        "traco": "Seções fecham com frase-síntese curta, muitas vezes antitética",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": [
+          "O problema com a semelhança é que, muitas vezes, nem tudo é o que parece.",
+          "ETF de renda fixa, parece renda váriavel. Mas na prática, é renda fixa.",
+          "trata-se de gestão ativa, não de uma classe de ativos"
+        ]
+      },
+      {
+        "traco": "Aplica o framework ao contraexemplo critério por critério, um parágrafo por critério, cada um fechando com o critério violado",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Isso viola o critério de homogeneidade interna",
+          "não oferecendo uma fonte de retorno fundamentalmente distinta ou “externamente heterogênea”"
+        ]
+      },
+      {
+        "traco": "Dentro de cada critério, primeiro a regra, depois o exemplo ('por exemplo')",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "Um instrumento não muda, por exemplo, da classe ações para a classe renda fixa.",
+          "Por exemplo, ativos como arte ou vinhos podem não ter capacidade"
+        ]
+      },
+      {
+        "traco": "Fecha com conselho moral no imperativo e, depois do CTA, gancho de série com perguntas abertas e promessa dos próximos posts",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "nunca se esqueça que instrumentos financeiros são veículos",
+          "Mas afinal, quais seriam as classes que deveríamos considerar?",
+          "Nas próximas semanas vamos retomar o tema do Goal Based Investing"
+        ]
+      },
+      {
+        "traco": "4 subtítulos H2 em ~1.580 palavras (~1 a cada 400), misturando títulos figurativos/provocativos e descritivos; subtítulo do post é uma pergunta com 'afinal', que volta no fecho",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "## A Identidade Trocada na Prateleira: ETFs de Renda Fixa",
+          "## Veículos, não Destinos",
+          "O que define, afinal, uma Classe de Ativos ?"
+        ],
+        "contraexemplo": "## Critérios de Kritzman"
+      },
+      {
+        "traco": "Sustenta o argumento com autoridade externa (artigo acadêmico, norma da CVM) apresentada em lista, mais do que com dado ou argumento próprio",
+        "frequencia": "frequente",
+        "ocorrencias": 2,
+        "evidencias": [
+          "A Resolução CVM 175, que modernizou a regulação sobre fundos de investimento, traz alguns pontos de atenção",
+          "A visão por eles apresentada traz uma lista de características que deveriam ser observadas"
+        ]
+      }
+    ],
+    "figuras": [
+      {
+        "traco": "Fio aparência × essência retomado do começo ao fim (anedota da geografia, máxima, bordão do Chaves, síntese do ETF)",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "Podia até parecer, mas não.",
+          "“Parece de limão, é de groselha e tem gosto de tamarindo”",
+          "ETF de renda fixa, parece renda váriavel. Mas na prática, é renda fixa."
+        ]
+      },
+      {
+        "traco": "Metáforas do cotidiano/varejo para classificação (prateleira, cesta, guarda-chuva); 'prateleira' volta do título da seção para o corpo",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "A Identidade Trocada na Prateleira",
+          "Pense neles como uma “cesta” que agrupa diversos ativos",
+          "colocar de um mesmo guarda-chuva todos os fundos"
+        ]
+      },
+      {
+        "traco": "Metáfora de transporte para a finalidade dos instrumentos (veículos × destinos), no subtítulo e na frase final da seção",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "## Veículos, não Destinos",
+          "instrumentos financeiros são veículos para nos levar a alcançar objetivos"
+        ]
+      },
+      {
+        "traco": "Metáfora pontual de dança para a disciplina do gestor passivo",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "ele segue uma coreografia matemática rígida imposta pelo índice."
+        ]
+      },
+      {
+        "traco": "Brincadeira com expressão feita e aforismo antitético",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "na prática e na dor",
+          "nomes complicados para esconder verdades simples"
+        ]
+      }
+    ],
+    "postura": [
+      {
+        "traco": "Primeira pessoa do singular só na anedota; na exposição, 'nós' inclusivo (autor + leitor)",
+        "frequencia": "frequente",
+        "ocorrencias": 12,
+        "evidencias": [
+          "eu e meu amigo Oscar Londono",
+          "Naquela oportunidade falamos sobre",
+          "Ao agrupá-los todos sob o mesmo rótulo “Fundos de Investimento”, estamos combinando estratégias díspares"
+        ]
+      },
+      {
+        "traco": "Humor leve e autodepreciativo na anedota, com resposta dialógica ('Sim,') a uma pergunta implícita",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "só tinha verba para um café de qualidade muito duvidosa",
+          "Sim, estávamos com a barba por fazer e cabelo sem corte. Podia até parecer, mas não."
+        ]
+      },
+      {
+        "traco": "Crítica direta à prática do mercado (corretoras, plataformas, ferramentas), sem nomear empresa",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "O mercado financeiro adora nomes complicados para esconder verdades simples.",
+          "por uma conveniência técnica que ignora a lógica financeira",
+          "Boa parte das ferramentas costumam colocar de um mesmo guarda-chuva todos os fundos"
+        ]
+      },
+      {
+        "traco": "Ironia contra modismos de investimento: lista de casos notórios chamados de 'recomendação do momento'",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "aquela recomendação do momento ( o fundo campeão, o CDB do Banco Master"
+        ]
+      },
+      {
+        "traco": "Autoridade implícita: apoia-se em artigo acadêmico e na norma, sem declarar credencial própria",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "É nessa discussão que o trabalho de Kinlaw, Kritzman e Turkington (2021) nos auxilia",
+          "A CVM exige que o gestor monitore e divulgue constantemente o tracking error"
+        ]
+      },
+      {
+        "traco": "Modalizadores ('pode', 'relativamente') concentrados nos critérios parafraseados; nas partes autorais, afirma sem ressalva e só reconhece que o debate está aberto",
+        "frequencia": "ocasional",
+        "ocorrencias": 5,
+        "evidencias": [
+          "o grupo pode não qualificar como uma classe de ativos",
+          "existe uma discussão atualmente sobre a forma como as corretoras classificam esses ativos"
+        ]
+      }
+    ],
+    "leitor": [
+      {
+        "traco": "Supõe leitor iniciante no produto: define ETF do zero (definição → sigla → analogia → função)",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "ETFs são fundos de investimento negociados na bolsa de valores, exatamente como se fossem ações.",
+          "Pense neles como uma “cesta” que agrupa diversos ativos"
+        ]
+      },
+      {
+        "traco": "Nível de explicação desigual: conceitos de teoria de carteira usados sem explicar",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": [
+          "A adição da classe de ativos deve elevar a **utilidade esperada** do portfólio.",
+          "bem como de combinações lineares dessas outras classes",
+          "esperar capturar o prêmio de risco das ações"
+        ]
+      },
+      {
+        "traco": "Supõe que o leitor leu o post anterior da série, sem linkar",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "continua a discussão sobre classes de ativos",
+          "Naquela oportunidade falamos sobre o conceito"
+        ]
+      },
+      {
+        "traco": "Imperativo raro e pontual: na analogia e no conselho final",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Pense neles como uma “cesta”",
+          "nunca se esqueça que instrumentos financeiros são veículos"
+        ]
+      },
+      {
+        "traco": "'você' quase ausente (1x); prefere 'o investidor' em 3ª pessoa e o 'nós' inclusivo",
+        "frequencia": "evita",
+        "ocorrencias": 1,
+        "evidencias": [
+          "permitindo que você invista em uma carteira diversificada",
+          "o investidor pode impor restrições ineficientes"
+        ]
+      },
+      {
+        "traco": "Perguntas retóricas em título de seção e no fecho, abrindo a próxima etapa da série",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "## Geógrafos ou Matemáticos?",
+          "Mas afinal, quais seriam as classes que deveríamos considerar?"
+        ]
+      },
+      {
+        "traco": "CTA único: botão de compartilhar do Substack entre separadores, antes do gancho final, com texto pronto e pergunta de engajamento",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "[[CTA: Compartilhar →",
+          "Obrigado por ler o Syntaxis! Compartilhar este post ajuda a ampliar o alcance de ideias que merecem circular.",
+          "Vamos levar esse conhecimento mais longe?"
+        ]
+      }
+    ],
+    "tecnico": [
+      {
+        "traco": "Explicação técnica toda em prosa: sem fórmula, tabela, gráfico ou número; o único dado quantitativo é o ano da referência",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Kinlaw, Kritzman e Turkington (2021)",
+          "Ele deve ser reconhecido pela CVM, ter uma metodologia clara, transparente e verificável"
+        ]
+      },
+      {
+        "traco": "Norma citada por nome e número, com aposto explicativo, sem artigo nem data; as obrigações viram itens rotulados",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "A Resolução CVM 175, que modernizou a regulação sobre fundos de investimento, traz alguns pontos de atenção para os ETFs:",
+          "a CVM exige a contratação de um “Formador de Mercado” (Market Maker)"
+        ]
+      },
+      {
+        "traco": "Siglas expandidas ou glosadas de forma irregular: algumas na primeira menção, outras nunca",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "Universidade Federal do Espírito Santo (UFES)",
+          "do valor patrimonial real dos ativos (o NAV)"
+        ],
+        "contraexemplo": "A Resolução CVM 175"
+      },
+      {
+        "traco": "Framework acadêmico apresentado como lista rotulada de critérios parafraseados (sete itens), aplicada depois a um caso",
+        "frequencia": "ocasional",
+        "ocorrencias": 7,
+        "evidencias": [
+          "**Agregação Estável:** A composição da classe de ativos deve ser relativamente estável ao longo do tempo."
+        ]
+      },
+      {
+        "traco": "Índices e produtos brasileiros como exemplo concreto",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "como o Ibovespa ou IMA",
+          "o CDB do Banco Master"
+        ]
+      }
+    ],
+    "formatacao": [
+      {
+        "traco": "Negrito como rótulo de item em parágrafo-lista, seguido de dois-pontos (11 rótulos); o dois-pontos às vezes fica dentro, às vezes fora do negrito; um rótulo mistura negrito e negrito+itálico",
+        "frequencia": "frequente",
+        "ocorrencias": 11,
+        "evidencias": [
+          "**Aderência ao Índice (Tracking Error)**: O objetivo primordial",
+          "**Transparência Diária da Carteira:** Ao contrário de fundos abertos",
+          "**Acesso** ***Custo-Efetivo*****:** Deve ser possível"
+        ]
+      },
+      {
+        "traco": "Negrito no corpo do texto para conceito-chave: raro",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "deve elevar a **utilidade esperada** do portfólio"
+        ]
+      },
+      {
+        "traco": "Itálico para termo ou título estrangeiro, aplicado de forma inconsistente",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": [
+          "*Exchange Traded Funds*",
+          "Chaves (*Chavo del Ocho*)",
+          "Um fundo “*Long/Short Equity*”"
+        ],
+        "contraexemplo": "de um fundo “Global Macro”"
+      },
+      {
+        "traco": "Caixa alta como ênfase pontual",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "se cursávamos GEOGRAFIA!"
+        ]
+      },
+      {
+        "traco": "Inicial maiúscula em nomes de conceito/categoria e Title Case nos subtítulos",
+        "frequencia": "frequente",
+        "ocorrencias": 8,
+        "evidencias": [
+          "O que define, afinal, uma Classe de Ativos ?",
+          "é a classe de Fundos de Investimento",
+          "## A Identidade Trocada na Prateleira: ETFs de Renda Fixa"
+        ],
+        "contraexemplo": "continua a discussão sobre classes de ativos"
+      },
+      {
+        "traco": "Só H2 como subtítulo (4), sem H3",
+        "frequencia": "sempre",
+        "ocorrencias": 4,
+        "evidencias": [
+          "## Critérios de Kritzman",
+          "## Veículos, não Destinos"
+        ]
+      },
+      {
+        "traco": "Separador '* * *' antes e depois do botão de CTA",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "* * *"
+        ]
+      },
+      {
+        "traco": "Imagens sem legenda (alt vazio): uma depois da anedota, outra depois da lista regulatória",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "![](img-01)",
+          "![](img-02)"
+        ]
+      },
+      {
+        "traco": "Blocos curtos na narrativa (5-35 palavras) e mais longos nos parágrafos-lista (40-80 palavras)",
+        "frequencia": "frequente",
+        "ocorrencias": 45,
+        "evidencias": [
+          "Sim, estávamos com a barba por fazer e cabelo sem corte. Podia até parecer, mas não.",
+          "**Externamente Heterogênea:** A classe deve ser suficientemente diferente das outras classes de ativos no portfólio"
+        ]
+      }
+    ]
+  },
+  "antipadroes_observados": [
+    "(a) Nenhuma fórmula, número, estatística, tabela ou gráfico.",
+    "(a) Nenhuma lista com marcadores ou numerada: enumeração sempre em parágrafo rotulado em negrito ou série inline.",
+    "(a) Nenhuma citação em bloco, pullquote, riscado ou código.",
+    "(a) Nenhum link no corpo, nem para o post anterior da série que ele retoma; o único link é o do botão de compartilhar.",
+    "(a) Nenhuma referência bibliográfica completa no fim; Andrew Lo citado sem ano.",
+    "(a) Nunca nomeia a corretora ou plataforma criticada.",
+    "(a) Nenhum emoji; nenhuma credencial própria declarada.",
+    "(b) Gerúndio de adição encadeado no fim do período ('permitindo que você invista...', 'oferecendo uma forma prática e transparente...', 'garantindo liquidez e evitando...'), nas passagens expositivas sobre ETF/CVM.",
+    "(b) Contraste negativo 'não X; Y' / 'X, não Y' ('O gestor não opera no vazio; ele segue uma coreografia...', 'Veículos, não Destinos').",
+    "(b) Aforismo de efeito genérico ('O mercado financeiro adora nomes complicados para esconder verdades simples.').",
+    "(b) Texto do CTA com fórmula pronta e pergunta de engajamento ('Vamos levar esse conhecimento mais longe?'); pode ser template do Substack/autor.",
+    "(b) Observação: o texto é pre-pipeline (escrito só pelo autor). Esses traços se concentram nas passagens com travessão longo e registro de paráfrase; a anedota usa hífen e tem deslizes. O arquivo não permite atribuir autoria; isto registra só a coincidência com tiques conhecidos."
+  ],
+  "incerteza": "Amostra única de ~1.580 palavras, bem abaixo do piso de ~5.000 por amostra; época pre-pipeline; section_name null, então não dá para saber a linha editorial. Os blocos dos sete critérios e da Resolução CVM 175 parecem paráfrase/tradução próxima das fontes (Kinlaw, Kritzman e Turkington 2021; norma da CVM): a sintaxe e o registro deles (condicionais, gerúndios, 'proibitivamente caro') podem refletir a fonte e não a voz. Os deslizes de ortografia ('fiunanceiro', 'váriavel', 'tentarmo', 'açoes'), concordância e pontuação indicam falta de revisão, não necessariamente estilo. A mistura de travessão (—) e hífen ( - ) pode vir de colagem de trechos de origens diferentes. Não há fórmula, então a apresentação de fórmula (eixo tecnico) não pode ser avaliada. O conteúdo das duas imagens não é visível. O texto do CTA pode ser modelo padrão, não redação do post."
+}

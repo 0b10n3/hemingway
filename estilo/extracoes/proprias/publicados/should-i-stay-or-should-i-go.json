@@ -1,0 +1,677 @@
+{
+  "arquivo": "estilo/corpus/publicados/should-i-stay-or-should-i-go.md",
+  "genero": "substack",
+  "palavras": 2172,
+  "eixos": {
+    "lexico": [
+      {
+        "traco": "Vocabulário contábil e de mercado transposto para a carreira (capital, custo, conta, moeda, câmbio, custo afundado, nível, taxa) como campo semântico dominante.",
+        "frequencia": "frequente",
+        "ocorrencias": 20,
+        "evidencias": [
+          "Com dois desses três sinais acesos, o clima ruim é um custo. Custo se administra.",
+          "ficar ali é pagar o câmbio ruim todo dia para ser mediano",
+          "É o custo afundado (o que já foi gasto e não volta) com crachá."
+        ]
+      },
+      {
+        "traco": "Jargão de mercado é glosado em parêntese na primeira ocorrência, mesmo quando o leitor provável é do próprio mercado.",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "numa mesa de banco, de gestora ou de corretora (no mercado, ‘mesa’ é a equipe de uma área, como renda fixa ou ações)",
+          "ler uma escritura (o contrato que fixa as regras de um título de dívida)"
+        ],
+        "contraexemplo": "Saber precificar um título, montar um modelo — 'casa', 'gestora', 'corretora', 'renda fixa' e 'bônus' ficam sem glosa."
+      },
+      {
+        "traco": "'Casa' como palavra de mercado para empresa/instituição, usada sem explicar e repetida ao longo do texto.",
+        "frequencia": "frequente",
+        "ocorrencias": 12,
+        "evidencias": [
+          "A casa ainda soma no seu currículo",
+          "Se você pediu, com clareza, mais de uma vez, e nada se moveu, a casa já respondeu.",
+          "Às vezes a casa é ruim."
+        ]
+      },
+      {
+        "traco": "Repete o termo-chave do argumento (clima, capital, casa, voz, curva) em vez de buscar sinônimo; a repetição vira âncora.",
+        "frequencia": "frequente",
+        "ocorrencias": 8,
+        "evidencias": [
+          "Clima entra na conta. Só não fecha a conta sozinho.",
+          "Clima é uma coisa. Capital de Carreira é outra.",
+          "Use a voz primeiro."
+        ]
+      },
+      {
+        "traco": "Anglicismos aceitos quando são o termo cunhado pela fonte: em itálico e quase sempre traduzidos ou glosados logo em seguida.",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "chama isso de ***career capital***, capital de carreira",
+          "A psicologia do trabalho chama isso de *fit* (encaixe) entre pessoa e ambiente",
+          "Ela chama isso de *kill criteria*: critérios de saída definidos antes, com a cabeça fria."
+        ],
+        "contraexemplo": "As suas *skills* naturais são a moeda da casa — 'skills' fica sem tradução."
+      },
+      {
+        "traco": "Registro conversacional médio: expressões do cotidiano e pronome oblíquo 'te' com 'você'.",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": [
+          "Boleto vence todo mês, e eu não vou fingir que não.",
+          "num lugar que parou de te ensinar",
+          "Procurar emprego estando empregado te dá a única coisa que importa numa negociação"
+        ],
+        "contraexemplo": "Protege você de sair por causa de uma semana ruim."
+      }
+    ],
+    "sintaxe": [
+      {
+        "traco": "Frase curta, muitas vezes parágrafo sozinho, como ênfase ou fecho de bloco.",
+        "frequencia": "frequente",
+        "ocorrencias": 12,
+        "evidencias": [
+          "Ficar custou caro. Sair também.",
+          "O trabalho ruim pode ser um bom emprego.",
+          "Os dois conselhos não se anulam."
+        ]
+      },
+      {
+        "traco": "Pares antitéticos ou paralelos em frases curtas lado a lado (incluindo quiasmo no subtítulo).",
+        "frequencia": "frequente",
+        "ocorrencias": 8,
+        "evidencias": [
+          "Clima ruim não é motivo suficiente para sair. Clima bom não é motivo suficiente para ficar.",
+          "Dois anos completos numa mesa exigente contam uma história. Oito meses contam outra.",
+          "O pior momento para decidir se você fica ou sai é o mês ruim. O segundo pior é o mês do bônus."
+        ]
+      },
+      {
+        "traco": "Negação seguida de correção ('não é X. É Y.' / 'Não porque... Porque...') para trocar a premissa do leitor pela do autor.",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "Não porque seja um corpo ruim. Porque aquele jogo paga por outra coisa.",
+          "O que melhor previa a saída não foi salário nem satisfação. Foi a intenção declarada de sair.",
+          "Por isso a pergunta que eu faria não é “eu gosto daqui?”. É esta:"
+        ]
+      },
+      {
+        "traco": "Vírgula + 'e' juntando duas orações, a segunda com sujeito ou ênfase próprios; aparece também nos subtítulos.",
+        "frequencia": "frequente",
+        "ocorrencias": 8,
+        "evidencias": [
+          "O segundo é transferível, e é ele que interessa.",
+          "Você não está errado, e ela também não.",
+          "### 1. Ainda há o que aprender, e há quem ensine"
+        ]
+      },
+      {
+        "traco": "Período longo aberto por condicional 'Se...', que formula a regra de decisão.",
+        "frequencia": "frequente",
+        "ocorrencias": 8,
+        "evidencias": [
+          "Se o que a casa valoriza, promove e paga é exatamente isso, você joga com vento a favor, mesmo com clima ruim.",
+          "Se a resposta honesta é sim, esqueça o humor de sexta-feira"
+        ]
+      },
+      {
+        "traco": "Fragmento nominal ou adverbial depois do ponto, como complemento ou ressalva.",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": [
+          "Cinco anos depois de a banda deixar de existir.",
+          "Ou seja, para quem está lendo este texto.",
+          "Com uma condição: trocar de casa custa nível."
+        ]
+      },
+      {
+        "traco": "Frase que começa com 'E', muitas vezes seguida de adjunto entre vírgulas.",
+        "frequencia": "ocasional",
+        "ocorrencias": 5,
+        "evidencias": [
+          "E, seis meses depois, estava mais feliz do que quem tirou coroa.",
+          "E protege você do contrário, que é mais comum"
+        ]
+      },
+      {
+        "traco": "Anáfora e enumeração em série curta (verbos ou frases-espelho).",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Pedir um projeto, pedir a mudança de mesa, pedir um mentor, dizer ao chefe o que você quer aprender.",
+          "O chefe é difícil."
+        ]
+      },
+      {
+        "traco": "Frases de 2 a ~35 palavras; parênteses como aposto explicativo; nenhum travessão.",
+        "frequencia": "sempre",
+        "ocorrencias": 6,
+        "evidencias": [
+          "nas situações extremas (assédio, saúde indo embora, pedido para fazer algo errado), não existe lista de sinais"
+        ]
+      }
+    ],
+    "pontuacao": [
+      {
+        "traco": "Dois-pontos como principal articulador: anuncia definição, exemplo, conclusão ou regra.",
+        "frequencia": "frequente",
+        "ocorrencias": 28,
+        "evidencias": [
+          "Existe outra conta, que só aparece no longo prazo: o que você está acumulando ali.",
+          "Tudo o que escrevi até aqui é o conselho prudente: fique e acumule.",
+          "chamei isso de escolher a regra: o acaso você não controla, a regra sim."
+        ]
+      },
+      {
+        "traco": "Aspas simples tipográficas para o termo-conceito em uso metalinguístico; aspas duplas curvas para fala, pensamento ou frase-modelo.",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "### 1. Você pensa em sair toda semana, e já usou a ‘voz’",
+          "“Se eu não estiver no estado X até a data Y, eu saio.”",
+          "a pergunta que eu faria não é “eu gosto daqui?”."
+        ]
+      },
+      {
+        "traco": "Parêntese para glosa curta de termo ou para exemplificar uma categoria.",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "compram as coisas boas de uma vida profissional (trabalho criativo, impacto e controle sobre o que você faz)",
+          "*fit* (encaixe)"
+        ]
+      },
+      {
+        "traco": "Quebra de parágrafo a cada movimento; bloco médio de ~25 palavras e muitos parágrafos de uma frase.",
+        "frequencia": "sempre",
+        "ocorrencias": 70,
+        "evidencias": [
+          "A gravação aconteceu no meio de uma crise.",
+          "Gosto dessa história porque ela não tem moral fácil."
+        ]
+      },
+      {
+        "traco": "Reticências com espaço antes, só em título e subtítulo, como suspensão.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Should I stay or should I go ...",
+          "## Escreva hoje …"
+        ]
+      },
+      {
+        "traco": "Ponto e vírgula raro.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Toda *skill* nova custa caro no começo; esse é o preço de aprender."
+        ]
+      },
+      {
+        "traco": "Prosa corrida predomina; uma única lista numerada no corpo (itens em minúscula, sem ponto exceto o último).",
+        "frequencia": "evita",
+        "ocorrencias": 1,
+        "evidencias": [
+          "1. poucas chances de desenvolver habilidades raras",
+          "3. obrigação de conviver com gente de quem você realmente não gosta."
+        ]
+      },
+      {
+        "traco": "Sem ponto de exclamação e sem travessão (zero ocorrências no corpo).",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": [
+          "Saber operar o sistema interno que só existe naquela empresa vale ali dentro."
+        ]
+      }
+    ],
+    "arquitetura": [
+      {
+        "traco": "Abre com cena histórica datada e concreta (música, banda, ano) antes de qualquer tese; depois explica por que a cena interessa.",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Em maio de 1982, o Clash lançou o álbum *Combat Rock*.",
+          "Gosto dessa história porque ela não tem moral fácil."
+        ]
+      },
+      {
+        "traco": "Fecha retomando a cena de abertura e convertendo-a numa ação concreta para o leitor (composição em anel).",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Mick Jones não escolheu a data da própria saída.",
+          "Você pode escolher a sua data. Abra uma nota hoje, antes do próximo mês ruim, e escreva o seu estado e a sua data."
+        ]
+      },
+      {
+        "traco": "Diz o propósito do texto logo depois da cena e delimita o alcance numa seção de ressalva antes do argumento.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Este texto é a minha tentativa de responder a ela com critério, e não com desabafo.",
+          "## Antes, uma ressalva"
+        ]
+      },
+      {
+        "traco": "Sustentação dialética: conselho prudente, depois evidência contrária ('o dado que me incomoda'), depois síntese pelo critério do autor.",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": [
+          "## Agora, o dado que me incomoda",
+          "Então temos dois conselhos bons puxando para lados opostos.",
+          "Como matemático, eu resolvo pelo meu critério: **olhe a derivada, não o nível**."
+        ]
+      },
+      {
+        "traco": "Blocos simétricos ('Três sinais para ficar' / 'Três sinais para ir'), cada um com três H3 numerados cujo título já é uma afirmação.",
+        "frequencia": "frequente",
+        "ocorrencias": 2,
+        "evidencias": [
+          "## Três sinais para ficar",
+          "## Três sinais para ir",
+          "### 2. A curva achatou, e ninguém acima de você sabe o que você quer aprender"
+        ]
+      },
+      {
+        "traco": "Cada conceito entra pela voz de um autor nomeado, apresentado num aposto de credencial ('Nome, credencial, chama isso de...').",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "**Cal Newport**, professor de ciência da computação e autor de livros sobre trabalho e carreira, chama isso de",
+          "Annie Duke, ex-jogadora profissional de pôquer que hoje estuda tomada de decisão, tem uma ferramenta para isso.",
+          "Reid Hoffman, cofundador do LinkedIn, usa a ideia de *tour of duty*"
+        ]
+      },
+      {
+        "traco": "Costura com posts anteriores da Syntaxis por link interno e autocitação.",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Já escrevi sobre isso quando [falei de Musashi]",
+          "No [texto sobre caos e carreira], chamei isso de escolher a regra"
+        ]
+      },
+      {
+        "traco": "Conceito antes do exemplo, com o exemplo introduzido por 'Por exemplo:'; na analogia esportiva, a imagem vem antes e o conceito depois.",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": [
+          "O formato é um estado e uma data.",
+          "Por exemplo: “Se até 30 de junho eu não estiver tocando sozinho um modelo de ponta a ponta, começo a procurar.”"
+        ],
+        "contraexemplo": "Com carreira é igual. A psicologia do trabalho chama isso de *fit* (o conceito vem depois da imagem do running back)."
+      },
+      {
+        "traco": "Fecha uma seção condensando o argumento numa regra curta ou num limite.",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "Clima entra na conta. Só não fecha a conta sozinho.",
+          "Para o empate, a lista não basta. Precisa de uma regra."
+        ]
+      },
+      {
+        "traco": "Muitos subtítulos (7 H2 + 6 H3) para ~2.000 palavras, inclusive uma seção-ponte de dois parágrafos; termina com seção formal de Referências.",
+        "frequencia": "sempre",
+        "ocorrencias": 14,
+        "evidencias": [
+          "## Procure emprego enquanto tem um",
+          "## Referências"
+        ]
+      }
+    ],
+    "figuras": [
+      {
+        "traco": "Metáfora matemática do cálculo (derivada vs. nível, curva que achata, taxa) estendida por várias seções e retomada nos sinais para ir.",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "olhe a derivada, não o nível",
+          "Quando a curva achata, a dúvida que volta toda semana deixa de ser ruído e vira sinal de saída.",
+          "mais vale trocar uma curva plana por uma que ainda sobe, mesmo que ela comece um pouco mais baixo"
+        ]
+      },
+      {
+        "traco": "Metáfora de finanças/contabilidade (capital, custo, moeda, câmbio) que trata a carreira como balanço.",
+        "frequencia": "frequente",
+        "ocorrencias": 8,
+        "evidencias": [
+          "As suas *skills* naturais são a moeda da casa",
+          "Nem todo capital sai pela porta com você."
+        ]
+      },
+      {
+        "traco": "Analogia esportiva extensa (running back na piscina, garrafão do basquete), explicada ao leigo e depois mapeada para a carreira.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "### 3. Você é um *running back* na piscina",
+          "O corpo que rende como *running back* não rende na piscina nem no garrafão do basquete."
+        ]
+      },
+      {
+        "traco": "História musical (Clash) como moldura que abre e fecha o texto.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Em 1991, a pergunta que ele cantava chegou ao primeiro lugar."
+        ]
+      },
+      {
+        "traco": "Jogo com a mesma palavra (poliptoto, anadiplose) e imagem irônica curta.",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": [
+          "O seu trabalho ainda trabalha por você?",
+          "o clima ruim é um custo. Custo se administra.",
+          "É o custo afundado (o que já foi gasto e não volta) com crachá."
+        ]
+      },
+      {
+        "traco": "Reusa figura criada em post anterior (coqueiros) como vocabulário já combinado com o leitor.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "São os seus [coqueiros]",
+          "enquanto os seus coqueiros ficam sem uso"
+        ]
+      },
+      {
+        "traco": "Imagem de painel de sinais (sinais acesos) para organizar critérios.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Com dois desses três sinais acesos, o clima ruim é um custo.",
+          "terminar a lista com sinais acesos dos dois lados"
+        ]
+      }
+    ],
+    "postura": [
+      {
+        "traco": "Primeira pessoa do singular explícita, com gosto e opinião declarados.",
+        "frequencia": "frequente",
+        "ocorrencias": 10,
+        "evidencias": [
+          "Gosto dessa história porque ela não tem moral fácil.",
+          "Eu coloco na mesma conta a marca da casa no seu currículo",
+          "Por isso a pergunta que eu faria não é “eu gosto daqui?”."
+        ]
+      },
+      {
+        "traco": "Autoridade dita pela formação e pelo papel de conselheiro, sem se apresentar como especialista no tema.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Como matemático, eu resolvo pelo meu critério",
+          "Quando alguém me diz que quer sair do emprego, quase sempre o motivo é clima."
+        ]
+      },
+      {
+        "traco": "Mostra os limites da evidência com ressalvas metodológicas explícitas, sem largar a conclusão.",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "Duas ressalvas: eram voluntários, e a felicidade foi declarada por eles mesmos.",
+          "a moeda mudou a decisão de poucas pessoas, e a estimativa pode ser imprecisa",
+          "Não é destino, e não diz se sair é o certo."
+        ]
+      },
+      {
+        "traco": "Põe à prova o próprio conselho, trazendo para dentro do texto a evidência que o contraria.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "O problema é que há boa evidência que aponta para o outro lado.",
+          "E, se Levitt está certo, a sua tendência vai ser ignorá-lo."
+        ]
+      },
+      {
+        "traco": "Pragmatismo empático: reconhece a restrição material e o sentimento do leitor antes de relativizá-los.",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Boleto vence todo mês, e eu não vou fingir que não.",
+          "Tudo isso é real. Mas clima é o que você sente na semana.",
+          "Existe sair e buscar ajuda."
+        ]
+      },
+      {
+        "traco": "Humor seco e curto no fim de frase, sem piada desenvolvida.",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "a missão acabou e ninguém avisou.",
+          "Ou seja, para quem está lendo este texto."
+        ]
+      },
+      {
+        "traco": "Não culpa nenhum dos lados num desajuste.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Você não está errado, e ela também não."
+        ]
+      }
+    ],
+    "leitor": [
+      {
+        "traco": "Fala direto com 'você' do começo ao fim.",
+        "frequencia": "sempre",
+        "ocorrencias": 35,
+        "evidencias": [
+          "Você pode escolher a sua data.",
+          "Nem todo capital sai pela porta com você."
+        ]
+      },
+      {
+        "traco": "Pressupõe leitor em começo de carreira no mercado financeiro, mas explica estatística e termos de outros campos como para leigo.",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "numa escala em que zero é nenhuma relação e 1 é relação perfeita, é moderada: perto de 0,38",
+          "juntaram os resultados de dezenas de estudos, com dezenas de milhares de pessoas",
+          "O *running back*, ou corredor, é o jogador de futebol americano que carrega a bola por dentro da defesa."
+        ]
+      },
+      {
+        "traco": "Perguntas de autodiagnóstico entregues ao leitor, muitas vezes depois de um imperativo e dois-pontos.",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "Pergunte-se com frieza: se eu sair daqui a doze meses, a linha do currículo vai valer mais do que vale hoje?",
+          "Faça a pergunta a si mesmo: qual é a minha missão aqui? Ela já terminou?",
+          "você já decidiu que vai sair?"
+        ]
+      },
+      {
+        "traco": "Imperativo direto, no corpo e nos subtítulos.",
+        "frequencia": "frequente",
+        "ocorrencias": 8,
+        "evidencias": [
+          "Use a voz primeiro.",
+          "## Procure emprego enquanto tem um",
+          "Abra uma nota hoje, antes do próximo mês ruim, e escreva o seu estado e a sua data."
+        ]
+      },
+      {
+        "traco": "Fecha com convite pessoal para responder, reforçado por botão de comentário.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Se quiser, me conte qual foi."
+        ]
+      },
+      {
+        "traco": "Avisa o leitor do roteiro ('vamos chegar lá').",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Se a casa paga por outra coisa, vamos chegar lá."
+        ]
+      }
+    ],
+    "tecnico": [
+      {
+        "traco": "Conceito matemático só em palavras, sem notação nem fórmula; o gráfico fica para imagem.",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": [
+          "O que importa não é quanto capital você já acumulou nem quão ruim está o clima hoje. **É a taxa de crescimento.**"
+        ]
+      },
+      {
+        "traco": "Número estatístico com glosa da escala e qualificação verbal ('moderada'), decimal com vírgula.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "é moderada: perto de 0,38"
+        ]
+      },
+      {
+        "traco": "No corpo, estudo citado por autor + ano, sem nota de rodapé nem numeração; datação explícita (incluindo 'clássica' para estudo antigo).",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": [
+          "**Steven Levitt**, economista e coautor do livro ***Freakonomics***, publicou em 2021 um experimento curioso.",
+          "**Em 2000, Griffeth, Hom e Gaertner** fizeram uma meta-análise clássica sobre rotatividade"
+        ]
+      },
+      {
+        "traco": "Lista de Referências no fim, em formato bibliográfico completo (título entre aspas com link, periódico em itálico, volume(número), ano, versão working paper).",
+        "frequencia": "sempre",
+        "ocorrencias": 8,
+        "evidencias": [
+          "*Review of Economic Studies* 88(1), 2021 (NBER Working Paper 22487, 2016).",
+          "Cal Newport, *So Good They Can’t Ignore You* (Business Plus, 2012)."
+        ]
+      },
+      {
+        "traco": "Explica o desenho do estudo antes do resultado e separa o achado geral do subgrupo com evidência mais fraca.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Cara, muda. Coroa, fica como está.",
+          "Na pergunta sobre o emprego, o resultado aponta para o mesmo lado, mas se apoia em menos"
+        ]
+      },
+      {
+        "traco": "Sem tabela, sem fórmula ($$), sem código.",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": [
+          "Como matemático, eu resolvo pelo meu critério"
+        ]
+      }
+    ],
+    "formatacao": [
+      {
+        "traco": "Negrito na frase-tese ou na conclusão de um bloco (às vezes duas frases inteiras).",
+        "frequencia": "frequente",
+        "ocorrencias": 8,
+        "evidencias": [
+          "**O segundo é transferível, e é ele que interessa.**",
+          "**O que melhor previa a saída não foi salário nem satisfação. Foi a intenção declarada de sair.**",
+          "**olhe a derivada, não o nível**"
+        ]
+      },
+      {
+        "traco": "Negrito no nome do autor-fonte na primeira menção (não em todos).",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "**Cal Newport**, professor de ciência da computação",
+          "**Steven Levitt**, economista e coautor do livro"
+        ],
+        "contraexemplo": "O economista Albert Hirschman descreveu duas alavancas — Hirschman, Hoffman e Annie Duke sem negrito."
+      },
+      {
+        "traco": "Negrito+itálico (***x***) no termo estrangeiro ou título de obra que vem logo depois do nome em negrito.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "chama isso de ***career capital***, capital de carreira",
+          "coautor do livro ***Freakonomics***"
+        ]
+      },
+      {
+        "traco": "Itálico para estrangeirismos e títulos de obra (álbum, livro, periódico).",
+        "frequencia": "frequente",
+        "ocorrencias": 12,
+        "evidencias": [
+          "o Clash lançou o álbum *Combat Rock*",
+          "usa a ideia de *tour of duty*, expressão militar para uma missão com prazo definido"
+        ]
+      },
+      {
+        "traco": "Citação em bloco (>) usada como destaque da tese do próprio autor, nunca para citar terceiros; geralmente toda em negrito.",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": [
+          "> **O seu trabalho ainda trabalha por você?**",
+          "> **O problema é a que nunca fica barata.**"
+        ],
+        "contraexemplo": "> O que importa não é quanto capital você já acumulou nem quão ruim está o clima hoje. **É a taxa de crescimento.** (só parte em negrito)"
+      },
+      {
+        "traco": "Subtítulos em caixa de frase, como afirmação, imperativo ou fala ('Agora, o dado que me incomoda'); H3 numerados nos blocos de sinais.",
+        "frequencia": "sempre",
+        "ocorrencias": 13,
+        "evidencias": [
+          "## Clima é uma coisa. Capital de Carreira é outra.",
+          "## Agora, o dado que me incomoda",
+          "### 3. As suas *skills* naturais são a moeda da casa"
+        ]
+      },
+      {
+        "traco": "Quatro botões CTA do Substack espalhados: compartilhar depois da introdução, compartilhar a publicação depois da tese, comentar depois de uma seção e no fim.",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "[[CTA: Compartilhar → https://syntaxis.substack.com/p/should-i-stay-or-should-i-go?utm_source=substack&utm_medium=email&utm_content=share&action=share]]",
+          "[[CTA: Deixe um comentário → https://syntaxis.substack.com/p/should-i-stay-or-should-i-go/comments]]"
+        ]
+      },
+      {
+        "traco": "No corpo só há links para posts da própria Syntaxis, com âncora descritiva; links externos ficam só nas Referências.",
+        "frequencia": "sempre",
+        "ocorrencias": 3,
+        "evidencias": [
+          "[falei de Musashi](https://syntaxis.substack.com/p/samurais-e-duelos-no-mercado-financeiro)",
+          "[texto sobre caos e carreira](https://syntaxis.substack.com/p/borboletas-caos-e-carreira)"
+        ]
+      },
+      {
+        "traco": "Duas imagens sem legenda: uma logo depois do parágrafo de abertura, outra depois da tese da derivada.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "![](img-01)",
+          "![](img-02)"
+        ]
+      },
+      {
+        "traco": "Não usa [[PULLQUOTE]], riscado, código nem fórmula.",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": [
+          "> **O problema é a que nunca fica barata.**"
+        ]
+      }
+    ]
+  },
+  "antipadroes_observados": [
+    "(a) Nenhum travessão (— ou –) no corpo; o papel fica com parênteses, dois-pontos e vírgula.",
+    "(a) Nenhum ponto de exclamação, emoji, nota de rodapé, tabela, fórmula ou bloco de código.",
+    "(a) Nenhuma citação em bloco de texto de terceiros; os blockquotes são frases do próprio autor.",
+    "(a) Nenhum link externo no corpo; fontes externas só na lista de Referências.",
+    "(b) A estrutura 'não é X. É Y.' / 'Não porque... Porque...' aparece ~6 vezes (ex.: 'O que melhor previa a saída não foi salário nem satisfação. Foi a intenção declarada de sair.'); é um padrão listado como tique de IA em pt-BR, e o texto é de época 'pipeline'.",
+    "(b) Antíteses curtas em sequência são densas (subtítulo em quiasmo, 'Ficar custou caro. Sair também.', 'Cara, muda. Coroa, fica como está.'); o ritmo pode soar fórmula se repetido em outros textos.",
+    "(b) Hipérbole de fórmula pronta: 'te dá a única coisa que importa numa negociação'.",
+    "(b) Sentença-pivô de síntese do tipo 'Os dois conselhos não se anulam.' depois de expor dois lados; movimento comum em texto gerado."
+  ],
+  "incerteza": "Amostra única de ~2.170 palavras (~2.060 sem Referências), abaixo do piso de ~5.000 para confiança alta. Época 'pipeline': o texto passou pelo sistema editorial antes da edição do autor, então não dá para separar o que é escolha do autor do que veio do pipeline (sobretudo os possíveis tiques em antipadroes (b)). Há um ponto final isolado em parágrafo próprio depois de 'O que vem a seguir vale para quem tem margem para escolher', provável lapso de edição no site, não traço. Inconsistências de formatação talvez sem intenção: 'Capital de Carreira' em maiúsculas no H2 e minúsculas no corpo; lista numerada só com o último item terminando em ponto. As imagens não têm legenda nem descrição no arquivo, então o conteúdo delas (provavelmente o gráfico das curvas) não pode ser avaliado. Não há fórmula, tabela nem dado desatualizado para avaliar esses subeixos técnicos. Contagens de ocorrência são aproximadas."
+}

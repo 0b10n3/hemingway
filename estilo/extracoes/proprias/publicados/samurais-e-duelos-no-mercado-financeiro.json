@@ -1,0 +1,780 @@
+{
+  "arquivo": "estilo/corpus/publicados/samurais-e-duelos-no-mercado-financeiro.md",
+  "genero": "substack",
+  "palavras": 2483,
+  "eixos": {
+    "lexico": [
+      {
+        "traco": "Campo semântico de mercado financeiro (renda fixa, juros, risco, mesa, gestora) aplicado à carreira e à vida, não só ao assunto técnico",
+        "frequencia": "frequente",
+        "ocorrencias": 10,
+        "evidencias": [
+          "Ela supõe uma taxa constante e positiva, todo santo dia. Carreira não é título pós-fixado.",
+          "**alguém que opera sozinho, sob risco assimétrico, num jogo em que um único erro custa tudo**",
+          "Musashi levou essa contabilidade para além do ofício."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Termo estrangeiro ou japonês é sempre glosado logo depois, em aposto, parêntese ou travessão",
+        "frequencia": "sempre",
+        "ocorrencias": 6,
+        "evidencias": [
+          "Musashi era o oposto: um *rōnin*, samurai sem senhor, leal só a si mesmo",
+          "O *Gorin no Sho* (o título japonês do livro) tem cinco rolos, um para cada elemento:",
+          "*Fū*, vento, também quer dizer estilo, maneira, tradição — como em “o jeito da casa”."
+        ],
+        "contraexemplo": "*katana* aparece sem glosa: “como se fosse uma *katana*”"
+      },
+      {
+        "traco": "Jargão de finanças do dia a dia do público fica sem explicação; só o termo menos óbvio recebe glosa curta",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "entender uma estrutura de crédito, montar um modelo do zero, ler a escritura de uma debênture até o fim",
+          "vejo muito o caso de quem aprende processos estocásticos e acha que fechou a matemática",
+          "**Não saber o que ela fez é débito técnico**: um atalho que cobra juros depois."
+        ],
+        "contraexemplo": "marcação a mercado é glosada: “o preço do título, atualizado todo dia pelo valor de mercado, em queda.”"
+      },
+      {
+        "traco": "Registro culto-coloquial: expressões de fala ('o sujeito', 'todo santo dia', 'a coisa pegou', 'uns bons anos') dentro de frase gramaticalmente cuidada",
+        "frequencia": "frequente",
+        "ocorrencias": 8,
+        "evidencias": [
+          "O historiador G. Cameron Hurst III conta como a coisa pegou.",
+          "No mercado financeiro, o equivalente é o sujeito invicto que olha para a própria sequência de vitórias",
+          "E o “modo automático” que aparece depois de uns bons anos de carreira"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Verbo 'vender' usado com ironia para autoajuda e mercado editorial que embalam a ideia",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "## Wall Street já tentou te vender este livro",
+          "Aqui está a parte que a autoajuda moderna não vende.",
+          "James Clear a vende como o “1% melhor por dia”"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Expressões recorrentes que funcionam como fio condutor: 'modo automático', 'desconforto/desconfortável', 'desconfio'",
+        "frequencia": "frequente",
+        "ocorrencias": 8,
+        "evidencias": [
+          "É o modo automático: a mesma planilha, o mesmo relatório, o mesmo tipo de entrega, ano após ano.",
+          "O spoiler que eu tiro do Vazio é desconfortável",
+          "Desconfio que o dia “cheio” vai ter menos horas de trabalho real do que você gostaria."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Anglicismos aceitos, ora em itálico, ora sem marca; nomes de plataforma e linguagem sem itálico",
+        "frequencia": "ocasional",
+        "ocorrencias": 7,
+        "evidencias": [
+          "Toda carreira tem pedras: a *skill* que você não tem, o chefe que trava",
+          "E aqui eu discordo da versão *hardcore* que circula por aí",
+          "As grandes empresas japonesas não punham seus trainees em massa para estudar Musashi"
+        ],
+        "contraexemplo": "“O spoiler que eu tiro do Vazio” e “Os best-sellers de hoje” sem itálico"
+      },
+      {
+        "traco": "Mistura pronominal informal: 'te' oblíquo com tratamento por 'você'",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "## Wall Street já tentou te vender este livro"
+        ],
+        "contraexemplo": "No resto do texto só 'você': “ensinam você a vencer duelos”"
+      }
+    ],
+    "sintaxe": [
+      {
+        "traco": "Frase média curta (cerca de 15 palavras, mediana 15), com variação ampla: de 2 a cerca de 35 palavras",
+        "frequencia": "sempre",
+        "ocorrencias": 147,
+        "evidencias": [
+          "Kojirō morreu ali, na areia.",
+          "Se você já caiu num vídeo de “disciplina samurai” no YouTube, talvez já conheça a continuação"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Frase muito curta (até 6 palavras) isolada como ênfase ou virada, muitas vezes formando o parágrafo inteiro",
+        "frequencia": "frequente",
+        "ocorrencias": 16,
+        "evidencias": [
+          "Isso é tática.",
+          "Musashi não.",
+          "Usar IA é competência."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Negação corretiva em duas frases: 'não é X. É Y.' / 'não foi X. Foi Y.'",
+        "frequencia": "frequente",
+        "ocorrencias": 7,
+        "evidencias": [
+          "O que mudou não foi o livro. Foi o Japão",
+          "o adversário que importa não é o colega da mesa ao lado. É o modo automático",
+          "Aceitar a realidade, aqui, não é se render a ela. É parar de brigar com o fato"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Pares antitéticos em frases paralelas seguidas, cada uma num parágrafo",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "Você não chega num ponto em que a disciplina fica fácil.",
+          "Você vira alguém para quem fazer coisas difíceis é o normal.",
+          "**Raiva de você mesmo vira paralisia.**"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Paralelismo anafórico e séries de três (repetição de 'Que', 'Uma… outra', 'da casa', 'o mesmo')",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "Uma usa espada longa demais; outra, curta demais. Uma confia na força bruta; outra coleciona posturas.",
+          "O modelo da casa, a planilha da casa, o jeito da casa de olhar risco.",
+          "Que o estagiário que entrou ano passado escreve Python melhor que você."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Frase ou parágrafo começando com 'E' coordenativo (e, menos, 'Mas'), dando ritmo de fala",
+        "frequencia": "frequente",
+        "ocorrencias": 14,
+        "evidencias": [
+          "E Musashi define o ritmo: mil dias de treino para forjar, dez mil para polir.",
+          "E se você está há dois anos empurrando a mesma porta, lembre-se do impasse de Musashi.",
+          "Mas Musashi só se recolheu lá em 1643, aos 60 anos, dois anos antes de morrer."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Fragmentos nominais sem verbo como réplica seca ou enumeração",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Benjamin Franklin, manual de escoteiro.",
+          "Para de estudar. Perde a fome. O título de mestre chega antes da maestria."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Objeto ou tópico deslocado para o início (topicalização) para dar ênfase",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "O sofrimento inútil, Musashi já tinha cortado lá na Terra, na minha leitura",
+          "Mas, se você leu até aqui, desconfio que isso você já sabia."
+        ],
+        "contraexemplo": ""
+      }
+    ],
+    "pontuacao": [
+      {
+        "traco": "Dois-pontos como articulador principal: introduz explicação, consequência, lista ou exemplo",
+        "frequencia": "frequente",
+        "ocorrencias": 35,
+        "evidencias": [
+          "concluiu que não tinha vencido por dominar a estratégia: tinha sido talento natural, a ordem do céu ou escolas adversárias fracas",
+          "Toda carreira tem pedras: a *skill* que você não tem, o chefe que trava, a área que encolheu",
+          "Ser água é perguntar: dado que isso não muda agora, **por onde eu passo**?"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Quebra de parágrafo muito frequente: cerca de 35 dos 78 parágrafos de prosa têm uma só frase; parágrafo médio de cerca de 28 palavras (máx. cerca de 87)",
+        "frequencia": "sempre",
+        "ocorrencias": 35,
+        "evidencias": [
+          "Kojirō morreu ali, na areia.",
+          "No prefácio, o próprio Musashi faz o resumo.",
+          "O ponto é a mira."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Travessão com espaços para inciso ou acréscimo final que vira o sentido, em dose moderada",
+        "frequencia": "frequente",
+        "ocorrencias": 11,
+        "evidencias": [
+          "O sistema que funciona quando o mercado não ajuda vem depois — se vier.",
+          "Quem trabalha com renda fixa sabe o que é aquilo — juros compostos.",
+          "É para não deixar o adversário — o seu padrão de sempre — recuperar o fôlego."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Parênteses para comentário lateral, inclusive frase inteira entre parênteses como aparte irônico",
+        "frequencia": "ocasional",
+        "ocorrencias": 10,
+        "evidencias": [
+          "(A ironia: o sujeito que desconfiava de escolas de segredos foi vendido nos Estados Unidos como o segredo do Japão.)",
+          "(O próprio *Dokkōdō* manda nunca invejar ninguém.)",
+          "ficaram com a mecânica (hábitos, aprendizado contínuo) e tiraram o desconforto."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Aspas tipográficas curvas (“ ”) para slogan alheio, expressão popular e fala hipotética; apóstrofo também curvo",
+        "frequencia": "frequente",
+        "ocorrencias": 12,
+        "evidencias": [
+          "Nenhuma delas diz “acredite em você”.",
+          "“estudei 30 minutos esta semana” vira “na próxima, o celular fica em outro cômodo nessas duas horas”",
+          "*“Japan’s Answer to the Harvard MBA”*"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Ponto e vírgula em itens de lista e em séries paralelas curtas",
+        "frequencia": "ocasional",
+        "ocorrencias": 10,
+        "evidencias": [
+          "- o Caminho está no treino;",
+          "Uma usa espada longa demais; outra, curta demais.",
+          "**hoje, vença o você de ontem**; **amanhã, vença os menos hábeis**; **depois, os mais hábeis**"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Prosa corrida domina; listas são curtas (3 a 5 itens) e gramaticalmente presas à frase: minúscula inicial, vírgula ou ponto e vírgula, 'e' antes do último item",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "4. Vento (*Fū*) e",
+          "- não guarde objetos antigos à espera de que um dia valham alguma coisa;",
+          "- seja indiferente ao lugar onde mora."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Ponto de exclamação nunca aparece",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": [
+          "É uma ótima história. Só que não aconteceu assim."
+        ],
+        "contraexemplo": ""
+      }
+    ],
+    "arquitetura": [
+      {
+        "traco": "Abre com cena datada e localizada (ano, lugar, idade, objeto concreto) antes de qualquer tese",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Em 1612, numa pequena ilha entre Kyushu e Honshu, um espadachim de 29 anos desceu de um barco"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Logo após a cena, desmonta a versão popular do mito com data e fonte; repete o movimento contra a leitura fácil no corpo",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "É uma ótima história. Só que não aconteceu assim.",
+          "Mas Musashi só se recolheu lá em 1643, aos 60 anos, dois anos antes de morrer.",
+          "É fácil ler o Vazio como iluminação: o estágio em que o esforço acaba e tudo flui."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Ponte explícita do caso histórico para o mercado ou a carreira, muitas vezes abrindo o parágrafo com 'No mercado financeiro', 'Na carreira', 'Para quem tem…'",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "No mercado financeiro, o equivalente é o sujeito invicto",
+          "Na carreira, cada degrau de padrão de vida que você trava é um degrau a menos de liberdade para arriscar",
+          "Os primeiros anos numa mesa, num banco ou numa gestora ensinam você a vencer duelos"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Corpo segue a estrutura da fonte (os cinco Anéis); cada seção vai de 'o que Musashi diz' para 'a minha leitura' e depois para a aplicação, separando texto-fonte de interpretação",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "Nas cinco etapas a seguir, busco separar o que Musashi escreveu do que eu aplico para a carreira.",
+          "Literalmente, o Anel do Fogo é sobre a luta em si, o calor do combate.",
+          "O conselho padrão de desenvolvimento pessoal é ser gentil consigo mesmo. A leitura que faço do Fogo é outra"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Exemplo ou cena concreta vem antes do conceito, que fecha numa frase curta",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "terminar um relatório, entregar o modelo, sobreviver ao fechamento do mês.",
+          "Isso é tática.",
+          "A água assume a forma do recipiente e continua clara."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Remissões internas ao que já foi dito ('lá do começo', 'de que falei', 'lá na Terra') amarram as seções",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "Lidos juntos, eles são o sistema de que falei no começo",
+          "a dos vídeos de “disciplina samurai” lá do começo.",
+          "Musashi já tinha cortado lá na Terra, na minha leitura"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Fecho circular: retoma personagem, caverna e idades da abertura, depois boa notícia / má notícia e uma linha final de cumplicidade com o leitor",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Musashi começou o livro aos 60 anos, numa caverna, e o terminou doente, para um único discípulo.",
+          "A má notícia é que não fica mais fácil.",
+          "Mas, se você leu até aqui, desconfio que isso você já sabia."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Subtítulos H2 densos (8 em cerca de 2.500 palavras, um a cada 300 palavras), com função de tese ou de instrução, não de rótulo neutro",
+        "frequencia": "frequente",
+        "ocorrencias": 8,
+        "evidencias": [
+          "## Anel da Terra: saiba para onde vai sua energia",
+          "## Anel do Vazio: não existe linha de chegada",
+          "## Não fica fácil"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Aviso metatextual que delimita fonte e interpretação antes do corpo",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Então, um aviso de leitura."
+        ],
+        "contraexemplo": ""
+      }
+    ],
+    "figuras": [
+      {
+        "traco": "Analogia-mestra estendida por todo o texto, do duelo samurai para a carreira em finanças (duelo/tática contra sistema/estratégia), retomada no fecho",
+        "frequencia": "sempre",
+        "ocorrencias": 6,
+        "evidencias": [
+          "Os primeiros anos numa mesa, num banco ou numa gestora ensinam você a vencer duelos",
+          "O sistema que funciona quando o mercado não ajuda vem depois — se vier.",
+          "É o ponto exato em que Musashi parou de contar vitórias e começou a perguntar por que tinha vencido."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Imagem da natureza (pedra e água) declarada como do autor, desenvolvida num mini-bloco e aplicada à carreira",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": [
+          "A imagem que eu uso é a da pedra no meio do rio.",
+          "> A **pedra resiste**.",
+          "Ser água é perguntar: dado que isso não muda agora, **por onde eu passo**?"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Figura do mercado (juros compostos, título pós-fixado, marcação a mercado) usada para corrigir a premissa de uma figura alheia",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Quem trabalha com renda fixa sabe o que é aquilo — juros compostos.",
+          "Carreira não é título pós-fixado.",
+          "tem semestre inteiro de marcação a mercado contra você"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Mistura de domínios numa mesma figura: software (débito técnico), finanças (juros) e construção (fundação da casa, ligada ao carpinteiro de Musashi)",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "**Não saber o que ela fez é débito técnico**: um atalho que cobra juros depois.",
+          "Aí você não está ganhando produtividade, está terceirizando a fundação da casa."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Exploração da polissemia de uma palavra ('casa' = empresa/estilo/moradia; 'escola' = escola de esgrima/empregador) como jogo de palavras",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "O segundo risco é mais silencioso: conhecer só a escola do próprio banco.",
+          "Funciona até o dia em que você muda de casa — ou a casa muda de mercado.",
+          "O nome guarda um trocadilho que se perde na tradução."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Metáfora de energia ou combustível (fogo) para emoção, com consequência prática",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "essa raiva é energia, e energia não se desperdiça.",
+          "O desperdício é queimá-la em autodepreciação ou em inveja de quem está na frente."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Imagem cômica concreta para ridicularizar a apropriação corporativa",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "um executivo de sobretudo erguendo o *Wall Street Journal* como se fosse uma *katana*"
+        ],
+        "contraexemplo": ""
+      }
+    ],
+    "postura": [
+      {
+        "traco": "Primeira pessoa do singular explícita, marcando a interpretação como pessoal ('acho', 'leio', 'a leitura que faço', 'na minha leitura')",
+        "frequencia": "frequente",
+        "ocorrencias": 17,
+        "evidencias": [
+          "Acho que é exatamente por isso que ele ainda conversa com quem trabalha em finanças.",
+          "Leio aqui a ideia do aprendiz permanente.",
+          "É também no fecho do Anel da Água que está a frase de que eu mais gosto no livro."
+        ],
+        "contraexemplo": "Plural raro: “talvez pudéssemos perguntar ainda”"
+      },
+      {
+        "traco": "Admite incerteza com 'desconfio', 'talvez', 'eu diria', sem cerimônia",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "Desconfio que o dia “cheio” vai ter menos horas de trabalho real do que você gostaria.",
+          "eu diria que essa fase nunca termina de verdade.",
+          "Mas, se você leu até aqui, desconfio que isso você já sabia."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Discordância explícita e nomeada com o consenso de autoajuda ou com a versão popular, atacando a ideia, nunca a pessoa",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "E aqui eu discordo da versão *hardcore* que circula por aí",
+          "Aqui está a parte que a autoajuda moderna não vende.",
+          "Ela supõe uma taxa constante e positiva, todo santo dia."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Rigor de fonte: atribui fato e paráfrase a pessoa nomeada (historiador, tradutor, o próprio Musashi), declara tradução livre e corrige mito com data",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "O historiador G. Cameron Hurst III conta como a coisa pegou.",
+          "A tradução inglesa de Victor Harris saiu em 1974",
+          "Em tradução livre: **hoje, vença o você de ontem**"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Autoridade de praticante implícita (observação de mercado, sem credencial declarada)",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "No contexto de finanças quantitativas, vejo muito o caso de quem aprende processos estocásticos",
+          "Quantos gestores você conhece que chegaram a essa conclusão sozinhos depois de três anos bons de bolsa?"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Humor seco e irônico, em aparte ou réplica curta",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "(A ironia: o sujeito que desconfiava de escolas de segredos foi vendido nos Estados Unidos como o segredo do Japão.)",
+          "Benjamin Franklin, manual de escoteiro."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Franqueza sem consolo fácil, equilibrada por empatia de mentor ('não é defeito seu', 'você não precisa sofrer')",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "O spoiler que eu tiro do Vazio é desconfortável: uma vida de melhoria contínua é difícil para sempre.",
+          "a boa notícia é que isso não é defeito seu.",
+          "Esta série existe por uma ideia: não é porque eu sofri que você também precisa sofrer."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Autorreferência à série e ao propósito do projeto editorial",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Esta série existe por uma ideia",
+          "O spoiler que eu tiro do Vazio"
+        ],
+        "contraexemplo": ""
+      }
+    ],
+    "leitor": [
+      {
+        "traco": "Tratamento direto e constante por 'você' (cerca de 30 ocorrências)",
+        "frequencia": "sempre",
+        "ocorrencias": 30,
+        "evidencias": [
+          "Faça uma revisão honesta de uma semana normal.",
+          "Você descobre que passa mais tempo no Instagram do que estudando."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Leitor-alvo explicitado por fase de carreira",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Para quem tem de dois a oito anos de mercado",
+          "Se você está no terceiro, quinto ou oitavo ano de carreira e sente que entrou no modo automático"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Perguntas retóricas de autoexame, em sequência e quantificadas ('Quantas…?')",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "Quantas foram de formatação de planilha, reunião sem pauta, aba aberta e celular na mão?",
+          "quanto do que você entrega foi você que fez?",
+          "Quantos gestores você conhece que chegaram a essa conclusão sozinhos depois de três anos bons de bolsa?"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Imperativo usado para exercício prático, raro no corpo; mais presente nos subtítulos",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": [
+          "Faça uma revisão honesta de uma semana normal.",
+          "lembre-se do impasse de Musashi.",
+          "## Anel do Vento: estude as outras escolas"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Fórmula 'Quem + verbo' para interpelar um subgrupo de leitores pelo que já sabe",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Quem leu ***Hábitos Atômicos*** reconhece uma ideia parecida com a de vencer o eu de ontem.",
+          "Quem trabalha com renda fixa sabe o que é aquilo — juros compostos.",
+          "Quem trabalha com finanças já viu alguma conta semelhante."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Ganha o leitor por referência cultural compartilhada (YouTube, best-seller, Instagram) antes de corrigi-la",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Se você já caiu num vídeo de “disciplina samurai” no YouTube, talvez já conheça a continuação",
+          "James Clear a vende como o “1% melhor por dia”"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Pressupõe leitor do mercado financeiro (dispensa explicar debênture, estrutura de crédito, processos estocásticos); explica história e cultura japonesa do zero",
+        "frequencia": "sempre",
+        "ocorrencias": 5,
+        "evidencias": [
+          "ler a escritura de uma debênture até o fim",
+          "Do outro lado estava Sasaki Kojirō, instrutor de esgrima de um senhor feudal"
+        ],
+        "contraexemplo": "marcação a mercado recebe glosa: “o preço do título, atualizado todo dia pelo valor de mercado, em queda.”"
+      },
+      {
+        "traco": "Nenhuma chamada para ação no corpo; fecho é cumplicidade, não pedido",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": [
+          "Mas, se você leu até aqui, desconfio que isso você já sabia."
+        ],
+        "contraexemplo": ""
+      }
+    ],
+    "tecnico": [
+      {
+        "traco": "Fórmula curta em linha própria, sem LaTeX nem $$, com sobrescrito Unicode e vírgula decimal; glosada em português antes e depois",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "1,01³⁶⁵ ≈ 37,8",
+          "melhore 1% ao dia durante um ano e você termina cerca de 37 vezes melhor",
+          "Quem trabalha com finanças já viu alguma conta semelhante."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Lê a premissa do modelo (taxa constante e positiva) e a contesta com a realidade de mercado",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Ela supõe uma taxa constante e positiva, todo santo dia.",
+          "Tem dia de taxa negativa, tem semestre inteiro de marcação a mercado contra você"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Números e datas precisos para fatos históricos; conversão de grandeza feita para o leitor",
+        "frequencia": "frequente",
+        "ocorrencias": 10,
+        "evidencias": [
+          "Dez mil dias são uns 27 anos, e ele não promete retorno em nenhum deles.",
+          "**Lutou mais de sessenta duelos sem perder**, o primeiro aos 13 anos.",
+          "A biografia, aliás, fica na mesma ordem de grandeza"
+        ],
+        "contraexemplo": "Algarismos e extenso convivem sem regra visível: “aos 13 anos” e “mais de sessenta duelos”"
+      },
+      {
+        "traco": "Fonte citada por nome no corpo do texto, sem link, nota de rodapé ou referência formal",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "Robert Greene, em *Maestria*, chama de aprendizado a fase em que você absorve um ofício com humildade.",
+          "Hurst faz uma provocação interessante",
+          "No prefácio, o próprio Musashi faz o resumo."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Sem tabela e sem gráfico de dados; quatro imagens ilustrativas sem legenda",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": [
+          "![](img-03)"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Disclaimer regulatório e de empregador padronizado no rodapé",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": [
+          "não constitui recomendação de investimento, análise de valores mobiliários ou consultoria financeira.",
+          "não representam a posição de meu empregador atual ou de empregadores anteriores"
+        ],
+        "contraexemplo": ""
+      }
+    ],
+    "formatacao": [
+      {
+        "traco": "Negrito frequente (cerca de 21 trechos) em frase-tese ou ideia-chave inteira, às vezes no parágrafo todo, não em palavra solta",
+        "frequencia": "frequente",
+        "ocorrencias": 21,
+        "evidencias": [
+          "**Raiva de você mesmo vira paralisia.**",
+          "**E, nas semanas de eleição, quantas foram de discussão política em rede social, o mesmo debate relido pela décima vez?**",
+          "Todas pedem que você **enxergue o que de fato faz**."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Negrito fatiado em segmentos paralelos dentro da mesma frase",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "**hoje, vença o você de ontem**; **amanhã, vença os menos hábeis**; **depois, os mais hábeis**",
+          "> A **água contorna**, **acha passagem e segue**."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Negrito em nome próprio na primeira menção relevante",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "depois do duelo, **Miyamoto Musashi** teria se trancado numa caverna",
+          "Chama-se **Reigandō** e fica nos arredores de Kumamoto."
+        ],
+        "contraexemplo": "Sasaki Kojirō, Victor Harris e Hurst entram sem negrito"
+      },
+      {
+        "traco": "Itálico para título de obra, termo japonês e estrangeirismo (cerca de 19); negrito com itálico em dois títulos de obra",
+        "frequencia": "frequente",
+        "ocorrencias": 19,
+        "evidencias": [
+          "Foi ali que começou a escrever o *Livro dos Cinco Anéis*.",
+          "escreveu o ***Dokkōdō***, 21 preceitos curtos.",
+          "Quem leu ***Hábitos Atômicos*** reconhece uma ideia parecida"
+        ],
+        "contraexemplo": "*Maestria* e *Gorin no Sho* só em itálico; “spoiler”, “trainees”, “best-sellers” sem itálico"
+      },
+      {
+        "traco": "Citação em bloco usada de dois modos: paráfrase longa de fonte (sem aspas) e destaque da imagem-assinatura em duas linhas curtas com negrito",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "> Um ex-jogador de beisebol que vivia no Japão comentou o livro com um publicitário nova-iorquino",
+          "> A **pedra resiste**."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Só H2, sem H3; nas cinco seções centrais o padrão é 'Anel da X: frase'",
+        "frequencia": "sempre",
+        "ocorrencias": 8,
+        "evidencias": [
+          "## Anel da Água: vencer o eu de ontem (por dez mil dias)",
+          "## Um manual de esgrima, lido como manual de carreira"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Imagens sem legenda espalhadas pelo texto (abertura, após o prefácio, após o cálculo, fim da última seção)",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "![](img-01)",
+          "![](img-04)"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Separador '* * *' antes do disclaimer, todo em itálico",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": [
+          "* * *",
+          "*Os textos publicados na Syntaxis expressam exclusivamente minhas opiniões pessoais"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Blocos curtos: muitos parágrafos de uma linha alternando com parágrafos de 3 a 5 frases",
+        "frequencia": "sempre",
+        "ocorrencias": 78,
+        "evidencias": [
+          "Usar IA é competência.",
+          "Musashi não deixa."
+        ],
+        "contraexemplo": "Parágrafo longo (cerca de 87 palavras) no fecho do Anel da Água: “É também no fecho do Anel da Água que está a frase de que eu mais gosto no livro.”"
+      }
+    ]
+  },
+  "antipadroes_observados": [
+    "(a) Nunca neste arquivo: ponto de exclamação; emoji; botão de CTA ([[CTA]]); destaque [[PULLQUOTE]]; fórmula em $$; tabela; link no corpo; nota de rodapé; subtítulo H3; código.",
+    "(a) Quase nunca: primeira pessoa do plural (1 ocorrência, “talvez pudéssemos perguntar ainda”).",
+    "(b) Possível tique de IA em pt-BR: negação corretiva 'não é X. É Y.' em densidade alta (cerca de 7 vezes em 2.483 palavras), por ex. “O que mudou não foi o livro. Foi o Japão” e “O Fogo não é para se punir. / É para não deixar o adversário”.",
+    "(b) Possível tique de IA: abertura de gancho 'Aqui está a parte que…' (“Aqui está a parte que a autoajuda moderna não vende.”) e 'O ponto é…' (“O ponto é a mira.”).",
+    "(b) Possível clichê de fecho: a dupla “a boa notícia é que…” / “A má notícia é que não fica mais fácil.”",
+    "(b) Séries de três e paralelismo em sequência são frequentes (ver sintaxe); isoladamente é traço humano, mas a densidade pode vir do pipeline."
+  ],
+  "incerteza": "Amostra única de cerca de 2.500 palavras, abaixo do piso de cerca de 5.000 para confiança alta por amostra. Época 'pipeline': o texto foi produzido com o sistema editorial e editado pelo autor, então não dá para separar traço autoral de traço induzido pelo pipeline, sobretudo a negação corretiva 'não é X. É Y.', as séries de três e os ganchos 'Aqui está…'. O section_name do frontmatter é null: a linha editorial não está declarada, embora 'Esta série' e 'spoiler' sugiram a linha Spoiler (carreira). Sem CTA, PULLQUOTE ou fórmula display, nada se conclui sobre como o autor usa esses recursos. A fórmula é uma só, o que não permite generalizar o tratamento de notação. Não se sabe se a citação em bloco de Hurst é tradução literal ou paráfrase do autor. A oscilação no itálico de anglicismos e no negrito+itálico de títulos de obra pode ser descuido ou escolha; um arquivo só não decide. As imagens não têm legenda e não foram vistas, então nada se conclui sobre legenda ou relação texto-imagem. As contagens são aproximadas: frases e parágrafos foram contados por script sobre a prosa, sem listas, citações e títulos."
+}

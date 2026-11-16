@@ -1,0 +1,525 @@
+{
+  "arquivo": "estilo/corpus/publicados/escolhendo-as-batalhas.md",
+  "genero": "substack",
+  "palavras": 591,
+  "eixos": {
+    "lexico": [
+      {
+        "traco": "Campo semântico dominante de objetivos/metas e de gestão de recursos escassos (tempo, energia, dinheiro); 'objetivo(s)' aparece 27 vezes e 'alcançar' 6 vezes",
+        "frequencia": "sempre",
+        "ocorrencias": 27,
+        "evidencias": [
+          "todo objetivo que escolhemos exigirá uma quantidade de nosso tempo e energia",
+          "tempo e energia são recursos limitados",
+          "talvez faça sentido investir recursos em um novo computador"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Binômios coordenados com 'e' (substantivos ou adjetivos em par), no corpo e, com mais densidade, na conclusão",
+        "frequencia": "frequente",
+        "ocorrencias": 10,
+        "evidencias": [
+          "todos eles demandam esforço e dedicação",
+          "definir objetivos claros e alcançáveis",
+          "de maneira eficaz e significativa"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Repete o mesmo termo em frases vizinhas em vez de variar por sinônimo",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "falamos sobre a importância de definir objetivos claros e alcançáveis. Também discutimos a importância de planejar",
+          "Escolher \"bons objetivos\" é parte decisiva no processo de alcançar seus objetivos de vida."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Usa a locução 'fazer sentido' como critério de julgamento de adequação",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Não faria muito sentido, por exemplo, colocar tempo e dinheiro",
+          "faz sentido colocar esforço e dinheiro em objetivos que te ajudem"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Registro semiformal que mistura escolhas formais ('possuem', 'Entretanto', 'de extrema importância') com marcas coloquiais do pt-BR ('te' com 'você', 'entendeu o ponto')",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "acredito que bons objetivos possuem algumas características essenciais",
+          "objetivos que te ajudem a alcançar essa meta",
+          "acredito que você entendeu o ponto"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Desvios pontuais da norma culta: 'ao invés de' por 'em vez de' e 'onde' com antecedente não locativo",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Surgirão casos onde será necessário escolher entre objetivos.",
+          "ao invés de comprar um Macbook Pro de última geração"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Aceita sigla e marca estrangeiras sem glosa nem destaque",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "entre começar a investir para aposentadoria e fazer um MBA?",
+          "comprar um Macbook Pro de última geração"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Vocabulário de economia usado como moldura geral (escassez), sem jargão técnico de finanças",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "O pensamento econômico sempre nos ensina que a gestão de recursos escassos é uma tarefa de extrema importância."
+        ],
+        "contraexemplo": ""
+      }
+    ],
+    "sintaxe": [
+      {
+        "traco": "Frases de comprimento médio e pouca variação: 35 frases, média ~15,5 palavras, faixa 8 a 27; nenhuma frase muito longa nem fragmentação acentuada",
+        "frequencia": "sempre",
+        "ocorrencias": 35,
+        "evidencias": [
+          "Entretanto, acredito que bons objetivos possuem algumas características essenciais.",
+          "Se você tem pouco, ou nenhum, dinheiro guardado, pode ser mais razoável comprar um equipamento mais simples"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Oração condicional 'Se você (deseja)...' anteposta à principal para montar exemplos dirigidos ao leitor",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "Se você deseja se aposentar cedo, por exemplo, faz sentido colocar esforço e dinheiro",
+          "Se você deseja se tornar um programador, talvez faça sentido investir recursos em um novo computador."
+        ],
+        "contraexemplo": "colocar tempo e dinheiro no objetivo de comprar uma fazenda para criar gado se você é contra o consumo de carne"
+      },
+      {
+        "traco": "Marcador discursivo ou adjunto seguido de vírgula abrindo frase/parágrafo, articulando a sequência",
+        "frequencia": "frequente",
+        "ocorrencias": 9,
+        "evidencias": [
+          "Hoje, quero continuar nossa conversa",
+          "Para começar, bons objetivos são aqueles que estão alinhados com seus valores.",
+          "Por fim, bons objetivos estão alinhados com seu presente."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Inserção intercalada entre vírgulas no meio da frase, sobretudo 'por exemplo'",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "Não faria muito sentido, por exemplo, colocar tempo e dinheiro",
+          "Como decidir, por exemplo, entre começar a investir",
+          "Se você tem pouco, ou nenhum, dinheiro guardado"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Frase começando com 'E' para encadear conclusão ou extensão da frase anterior",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "E, como sabemos, tempo e energia são recursos limitados.",
+          "E isso não é diferente quando falamos de objetivos de vida."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Frase curta sem verbo próprio como acréscimo enfático ao exemplo anterior",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Mais ainda, se você deseja ser um atleta."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Abertura concessiva com 'Embora' antes da afirmação principal",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Embora alguns objetivos sejam mais fáceis de alcançar do que outros, todos eles demandam esforço e dedicação."
+        ],
+        "contraexemplo": ""
+      }
+    ],
+    "pontuacao": [
+      {
+        "traco": "Vírgula e ponto como inventário quase exclusivo; nenhum travessão, ponto e vírgula ou dois-pontos na prosa",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": [
+          "E, como sabemos, tempo e energia são recursos limitados."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Aspas (retas, \") para marcar termo relativizado ou expressão coloquial, com metacomentário explícito explicando o uso",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Escolher \"bons objetivos\" é parte decisiva",
+          "Escrevi bons objetivos entre aspas porque definir tal termo pode ser um tanto subjetivo.",
+          "passar a pagar \"tudo no débito\""
+        ],
+        "contraexemplo": "Entretanto, acredito que bons objetivos possuem algumas características essenciais."
+      },
+      {
+        "traco": "Parágrafos curtos com quebra frequente: 19 parágrafos de prosa, quase todos de 1 a 2 frases; parágrafo de uma frase usado como transição",
+        "frequencia": "sempre",
+        "ocorrencias": 19,
+        "evidencias": [
+          "Hoje, quero continuar nossa conversa sobre objetivos de vida e sua relação com o dinheiro.",
+          "Entretanto, acredito que bons objetivos possuem algumas características essenciais."
+        ],
+        "contraexemplo": "Escolher os objetivos certos é essencial para o sucesso financeiro e pessoal. Lembre-se de alinhar seus objetivos"
+      },
+      {
+        "traco": "Prosa corrida sem listas com marcadores; a enumeração dos critérios fica nos subtítulos e nos marcadores 'Para começar'/'Por fim'",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": [
+          "Eu poderia escrever uma longa lista de objetivos que estejam desalinhados com valores pessoais"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Exclamação única no corpo, para reforçar uma recomendação",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "sua condição financeira atual deveria ser determinante na escolha do equipamento!"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Parêntese único, usado para repetir uma restrição já dita",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "O objetivo de quitar as dívidas (não controladas) deveria ter prioridade"
+        ],
+        "contraexemplo": ""
+      }
+    ],
+    "arquitetura": [
+      {
+        "traco": "Abre com imagem e epígrafe de autoridade em destaque e, na prosa, retoma o post anterior da série antes de anunciar o tema do dia",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": [
+          "No post anterior, falamos sobre a importância de definir objetivos claros e alcançáveis.",
+          "Hoje, quero continuar nossa conversa sobre objetivos de vida e sua relação com o dinheiro."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Sustenta por enumeração anunciada: tese de que bons objetivos têm características, seguida de três seções paralelas (valores, futuro, presente)",
+        "frequencia": "sempre",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Entretanto, acredito que bons objetivos possuem algumas características essenciais.",
+          "Para começar, bons objetivos são aqueles que estão alinhados com seus valores."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Conceito primeiro, exemplo cotidiano depois (consumo, carreira, saúde, dívida), em todas as seções de critério",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "Para começar, bons objetivos são aqueles que estão alinhados com seus valores. Não faria muito sentido, por exemplo",
+          "Um exemplo interessante é o daqueles que estão com dívidas não controladas."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Subtítulos densos: 5 H2 em ~590 palavras (um a cada ~100-120), três deles em fórmula paralela 'Objetivos Alinhados com Seu X', funcionando como rótulo de critério",
+        "frequencia": "sempre",
+        "ocorrencias": 5,
+        "evidencias": [
+          "## Objetivos Alinhados com Seus Valores",
+          "## Objetivos Alinhados com Seu Futuro",
+          "## Objetivos Alinhados com Seu Presente"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Fecha com seção rotulada 'Conclusão' que recapitula a tríade e retoma a metáfora do título; é o parágrafo mais longo do texto (63 palavras, 4 frases)",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Lembre-se de alinhar seus objetivos com seus valores, sua visão de futuro e sua realidade atual.",
+          "você estará melhor preparado para enfrentar as batalhas e alcançar suas metas."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Costura de série: além de retomar o post anterior, promete voltar a um subtema num post futuro",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "No futuro, quero voltar a este ponto para entendermos o papel das dívidas."
+        ],
+        "contraexemplo": ""
+      }
+    ],
+    "figuras": [
+      {
+        "traco": "Metáfora militar (objetivo = batalha) posta no título, no primeiro subtítulo e na última frase, sem extensão no corpo; retomada ao fim",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "## Cada Objetivo é uma Batalha",
+          "você estará melhor preparado para enfrentar as batalhas e alcançar suas metas."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Moldura analógica da economia (escassez de recursos) aplicada a escolhas de vida, curta e não desenvolvida",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "a gestão de recursos escassos é uma tarefa de extrema importância. E isso não é diferente quando falamos de objetivos de vida."
+        ],
+        "contraexemplo": ""
+      }
+    ],
+    "postura": [
+      {
+        "traco": "Primeira pessoa do singular explícita para intenção e opinião ('quero', 'escrevi', 'acredito', 'eu poderia')",
+        "frequencia": "frequente",
+        "ocorrencias": 9,
+        "evidencias": [
+          "Hoje, quero continuar nossa conversa",
+          "Eu poderia escrever uma longa lista de objetivos que estejam desalinhados com valores pessoais"
+        ],
+        "contraexemplo": "Escolher os objetivos certos é essencial para o sucesso financeiro e pessoal."
+      },
+      {
+        "traco": "Alterna com 'nós' inclusivo (autor e leitor, ou pessoas em geral)",
+        "frequencia": "frequente",
+        "ocorrencias": 7,
+        "evidencias": [
+          "No post anterior, falamos sobre a importância",
+          "E, como sabemos, tempo e energia são recursos limitados.",
+          "quero voltar a este ponto para entendermos o papel das dívidas"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Modéstia declarada: recusa definir pelo leitor o que é bom e reconhece a subjetividade do critério",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Seria pretensioso da minha parte dizer o que é um bom objetivo para você.",
+          "definir tal termo pode ser um tanto subjetivo"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Atenua a prescrição com 'acredito' e modais ('talvez', 'pode ser')",
+        "frequencia": "frequente",
+        "ocorrencias": 7,
+        "evidencias": [
+          "talvez faça sentido investir recursos em um novo computador",
+          "pode ser mais razoável comprar um equipamento mais simples"
+        ],
+        "contraexemplo": "O objetivo de quitar as dívidas (não controladas) deveria ter prioridade sobre muitos outros objetivos."
+      },
+      {
+        "traco": "Admite que o dilema não tem resposta simples, sem resolvê-lo",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "A resposta para essa pergunta não é simples, e além da matemática envolvida, é necessário considerar seus valores"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Discorda de uma regra do senso comum financeiro em primeira pessoa e adia a argumentação para outro post",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Não acredito que eliminar todo e qualquer tipo de dívida e passar a pagar \"tudo no débito\" seja a única forma"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Autoridade implícita por apelo a um saber genérico e a uma epígrafe, sem credencial declarada",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "O pensamento econômico sempre nos ensina",
+          "\"O principal é manter o principal como o principal.\" **Stephen Covey**"
+        ],
+        "contraexemplo": ""
+      }
+    ],
+    "leitor": [
+      {
+        "traco": "Trata o leitor por 'você' (13 ocorrências) e situa os exemplos na vida dele",
+        "frequencia": "sempre",
+        "ocorrencias": 13,
+        "evidencias": [
+          "Seria pretensioso da minha parte dizer o que é um bom objetivo para você.",
+          "Isso significa que você deve considerar o momento de vida em que você se encontra."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Pressupõe leitor leigo em finanças: nenhum termo técnico, exemplos de consumo, carreira e saúde",
+        "frequencia": "sempre",
+        "ocorrencias": 6,
+        "evidencias": [
+          "Investir tempo e dinheiro em acompanhamento nutricional e academia pode ser um bom objetivo"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Pergunta retórica de dilema, respondida no parágrafo seguinte",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Como decidir, por exemplo, entre começar a investir para aposentadoria e fazer um MBA?"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Prescrição por 'deve/deveria' no corpo; imperativo direto aparece só na conclusão",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "você deve considerar o momento de vida em que você se encontra",
+          "Lembre-se de alinhar seus objetivos com seus valores"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Encurta a enumeração confiando que o leitor já entendeu",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "mas acredito que você entendeu o ponto"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Nenhuma chamada para ação autoral no corpo; só o botão de compartilhar do Substack ao fim, com texto padrão da plataforma",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Obrigado por ler o Syntaxis! Esta publicação é pública, então fique à vontade para compartilhá-la."
+        ],
+        "contraexemplo": ""
+      }
+    ],
+    "tecnico": [
+      {
+        "traco": "Sem notação, fórmula, tabela, gráfico, número, fonte ou norma; a dimensão quantitativa só é mencionada",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": [
+          "além da matemática envolvida, é necessário considerar seus valores e visão de futuro"
+        ],
+        "contraexemplo": ""
+      }
+    ],
+    "formatacao": [
+      {
+        "traco": "Negrito só na atribuição da epígrafe; nenhum negrito no corpo",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "[[PULLQUOTE: \"O principal é manter o principal como o principal.\" **Stephen Covey**]]"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Nenhum itálico, nem para sigla ou marca estrangeira",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": [
+          "comprar um Macbook Pro de última geração",
+          "fazer um MBA?"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Aspas retas ASCII (\") em todas as ocorrências, inclusive na epígrafe; nenhuma aspa tipográfica",
+        "frequencia": "sempre",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Escolher \"bons objetivos\" é parte decisiva",
+          "passar a pagar \"tudo no débito\""
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Imagem sem legenda no topo, seguida de pullquote usado como epígrafe; nenhum outro destaque ou citação em bloco no corpo",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "![](img-01)",
+          "[[PULLQUOTE: \"O principal é manter o principal como o principal.\" **Stephen Covey**]]"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Subtítulos só em H2 e em Title Case (palavras plenas com maiúscula, artigos/preposições/verbo de ligação em minúscula), mesmo padrão do subtítulo do post; nenhum H3",
+        "frequencia": "sempre",
+        "ocorrencias": 5,
+        "evidencias": [
+          "## Cada Objetivo é uma Batalha",
+          "## Objetivos Alinhados com Seus Valores",
+          "Objetivos Financeiros que Importam"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Blocos curtos: parágrafos de 9 a 46 palavras (média ~30), exceto a conclusão (63)",
+        "frequencia": "frequente",
+        "ocorrencias": 18,
+        "evidencias": [
+          "Se você deseja se tornar um programador, talvez faça sentido investir recursos em um novo computador."
+        ],
+        "contraexemplo": "Ao fazer escolhas conscientes e bem-informadas, você estará melhor preparado para enfrentar as batalhas e alcançar suas metas."
+      },
+      {
+        "traco": "Separador '* * *' entre o fim da prosa e o botão CTA",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "* * *"
+        ],
+        "contraexemplo": ""
+      }
+    ]
+  },
+  "antipadroes_observados": [
+    "(a) Não usa travessão, ponto e vírgula nem dois-pontos na prosa.",
+    "(a) Não usa listas com marcadores; enumera por subtítulos e marcadores discursivos.",
+    "(a) Não usa itálico nem negrito no corpo.",
+    "(a) Não traz número, dado, fonte, fórmula ou referência normativa.",
+    "(a) Não abre com cena, história pessoal ou anedota; não há humor nem ironia.",
+    "(b) A seção 'Conclusão' muda de registro e concentra tiques reconhecíveis de texto gerado por IA em pt-BR: binômios de adjetivos abstratos ('eficaz e significativa', 'conscientes e bem-informadas', 'sucesso financeiro e pessoal'), a fórmula 'Isso ajudará a garantir que' e recapitulação genérica sob o rótulo 'Conclusão', sem a primeira pessoa e sem os exemplos concretos do corpo. Evidência: \"Isso ajudará a garantir que você esteja investindo seu tempo e recursos de maneira eficaz e significativa.\"",
+    "(b) Repetição de 'a importância de' em duas frases seguidas na abertura: \"falamos sobre a importância de definir objetivos claros e alcançáveis. Também discutimos a importância de planejar\"."
+  ],
+  "incerteza": "Texto curto (591 palavras), muito abaixo do piso de ~5.000 por amostra: as contagens e frequências são instáveis e vários traços têm uma só ocorrência. section_name é null, então o arquivo não permite atribuir linha editorial. O texto do botão CTA parece ser o padrão da plataforma Substack, não escolha autoral. A epígrafe é citação alheia (Covey) e não entrou como traço léxico do autor. As aspas retas são as do site segundo a instrução, mas o arquivo não permite saber se foram escolha do autor ou do editor da plataforma. A conclusão destoa do registro do corpo; o frontmatter marca época pre-pipeline (escrito só pelo autor), mas o arquivo não permite concluir se houve ferramenta externa. A imagem não tem legenda e seu conteúdo não está acessível. Não há PDF nem problema de extração."
+}

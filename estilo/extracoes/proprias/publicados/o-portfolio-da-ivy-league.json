@@ -1,0 +1,720 @@
+{
+  "arquivo": "estilo/corpus/publicados/o-portfolio-da-ivy-league.md",
+  "genero": "substack",
+  "palavras": 937,
+  "eixos": {
+    "lexico": [
+      {
+        "traco": "Mistura registro formal e coloquial na mesma peça: verbos e conectores formais ('possuem', 'singular', 'se dá através do') ao lado de expressões de conversa ('o bom e velho', 'feijão-com-arroz', 'e não, não').",
+        "frequencia": "frequente",
+        "ocorrencias": 7,
+        "evidencias": [
+          "Esses fundos patrimoniais — os *Endowments* — possuem um objetivo singular",
+          "nós usamos o **IMA-B** (títulos atrelados à inflação) ou o bom e velho **CDI**",
+          "é um excelente ponto de partida para sair do feijão-com-arroz da renda fixa"
+        ]
+      },
+      {
+        "traco": "Aclimata o conceito importado com expressões idiomáticas e marcadores de brasilidade ('jabuti', 'jabuticaba', 'feijão-com-arroz', 'tropical', o brasileiro e a adaptação).",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "seria ignorar nosso “jabuti” mais famoso: o juro real mais alto do planeta",
+          "aproveitando a isenção fiscal nos dividendos — uma **jabuticaba** que o investidor americano não possui",
+          "Mas lembre-se: no Brasil, até as estratégias mais sólidas precisam de um ajuste fino tropical."
+        ]
+      },
+      {
+        "traco": "Aceita anglicismos de mercado sem tradução nem glosa (hedge funds, REITs, ETFs, benchmark, Treasuries, Bonds, commodities, nomes de índices americanos).",
+        "frequencia": "frequente",
+        "ocorrencias": 16,
+        "evidencias": [
+          "elas são, essencialmente, *hedge funds* gigantescos com uma escola acoplada",
+          "cujo benchmark principal é o IFIX",
+          "como o Dólar ou ETFs que repliquem índices globais"
+        ],
+        "contraexemplo": "Diferente da passividade do “compre e esqueça” (Buy and Hold)"
+      },
+      {
+        "traco": "Quando há equivalente em português, dá primeiro o termo em português e depois o original inglês em aposto ou parênteses; às vezes só a tradução, entre aspas.",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": [
+          "Esses fundos patrimoniais — os *Endowments* —",
+          "Diferente da passividade do “compre e esqueça” (Buy and Hold)",
+          "entender como o “dinheiro inteligente” se protege"
+        ]
+      },
+      {
+        "traco": "Expande siglas locais ou menos conhecidas entre parênteses na primeira menção.",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "participei de um projeto chamado PUPT (Projeto Universidade para Todos)",
+          "através do IMA-B (índice de títulos públicos atrelados à inflação)",
+          "cujo benchmark principal é o IFIX (Índice de Fundos de Investimentos Imobiliários)"
+        ],
+        "contraexemplo": "2. **Ações Internacionais (MSCI EAFE):** Porque o mundo não acaba nas fronteiras dos EUA."
+      },
+      {
+        "traco": "Usa termos técnicos de investimento sem explicar (prêmio de risco, descorrelação, risco-Brasil, proteção cambial, contratos futuros, 1/N, CDI, IBrX).",
+        "frequencia": "frequente",
+        "ocorrencias": 8,
+        "evidencias": [
+          "para proteção cambial e descorrelação com o risco-Brasil",
+          "capturando nosso prêmio de risco",
+          "ou da simplicidade do 1/N"
+        ],
+        "contraexemplo": "Esqueça o tradicional 60/40 (60% ações, 40% renda fixa)."
+      },
+      {
+        "traco": "Campo semântico recorrente de proteção, defesa e sobrevivência para descrever a função das classes de ativos (proteção, defesa, âncora, amortecedores, sobrevivência, se protege, durar).",
+        "frequencia": "frequente",
+        "ocorrencias": 12,
+        "evidencias": [
+          "3. **Títulos do Governo (Bonds de 10 anos):** A âncora de segurança.",
+          "Aqui, a renda fixa não é apenas defesa; é um impulsionador dos retornos.",
+          "Apenas matemática aplicada à sobrevivência."
+        ]
+      },
+      {
+        "traco": "Palavras e moldes repetidos em pontos distantes do texto: 'agnóstica' (alocação/estratégia) e o molde 'A grande + substantivo' (pergunta/ideia).",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": [
+          "uma estrutura de **alocação agnóstica** e altamente eficiente",
+          "O Ivy 5 é uma estratégia agnóstica.",
+          "A grande ideia dos *Endowments* não era apenas comprar ações"
+        ]
+      },
+      {
+        "traco": "Escreve nomes comuns de conceito e de classe com inicial maiúscula, como nome próprio (Média Móvel Simples, Dólar, Bonds, Endowments, rótulos de classe em prosa).",
+        "frequencia": "ocasional",
+        "ocorrencias": 6,
+        "evidencias": [
+          "Faber sugere o uso de uma Média Móvel Simples de 10 meses.",
+          "como o Dólar ou ETFs que repliquem índices globais"
+        ],
+        "contraexemplo": "ativos reais e alternativos (imóveis e commodities)"
+      },
+      {
+        "traco": "Grafia e nome do mesmo item variam dentro do texto (IBOVESPA/Ibovespa; Ações Internacionais/Ações Globais).",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "onde a principal referência é o IBOVESPA",
+          "A fatia de **Ações Domésticas** continua (via Ibovespa ou IBrX)",
+          "As fatias de **Ações Globais** e **Commodities** precisam ser dolarizadas"
+        ]
+      }
+    ],
+    "sintaxe": [
+      {
+        "traco": "Grande variação de comprimento: cerca de 51 frases, média aproximada de 17-18 palavras, de 5 a 39 palavras; nove frases com 8 palavras ou menos ao lado de períodos longos com subordinadas encaixadas.",
+        "frequencia": "frequente",
+        "ocorrencias": 51,
+        "evidencias": [
+          "enquanto tentava explicar equações para alunos que, assim como eu, precisavam de ajuda na jornada para entrar em uma boa universidade",
+          "Ela foi desenhada para perpetuar legados.",
+          "Sem emoção, sem tentar adivinhar o fundo."
+        ]
+      },
+      {
+        "traco": "Frase curta isolada como ênfase ou virada logo depois de um período longo.",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "O ensino e a pesquisa, não podem parar.",
+          "Os fundos da elite acadêmica jogam outro jogo.",
+          "Mas é na renda fixa que o jogo muda."
+        ]
+      },
+      {
+        "traco": "Construção de correção ou contraste 'não (é/foi) (apenas) X, mas/; Y' para reenquadrar uma ideia; mais a negação da expectativa na abertura.",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "não são apenas centros de excelência acadêmica; elas são, essencialmente, *hedge funds* gigantescos",
+          "O que encontraram não foi um algoritmo complexo de alta frequência, mas uma estrutura de **alocação agnóstica**",
+          "Aqui, a renda fixa não é apenas defesa; é um impulsionador dos retornos."
+        ]
+      },
+      {
+        "traco": "Põe subordinada ou adjunto antes da oração principal (tempo, lugar, contraste, comparação).",
+        "frequencia": "frequente",
+        "ocorrencias": 9,
+        "evidencias": [
+          "Quando eu ainda era um estudante bolsista no início da graduação em matemática na UFES, participei de um projeto",
+          "Onde os americanos utilizam *Treasuries* para proteção, nós usamos o **IMA-B**",
+          "Diferente da passividade do “compre e esqueça” (Buy and Hold) ou da simplicidade do 1/N, o método Ivy traz"
+        ]
+      },
+      {
+        "traco": "Clivagem para dar foco ('Foi X quem', 'é em X que').",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Foi Mebane Faber quem decidiu abrir as cortinas.",
+          "Mas é na renda fixa que o jogo muda."
+        ]
+      },
+      {
+        "traco": "Paralelismo e enumeração ternária com anáfora ('com seus..., com seu..., com seu...'; 'Se..., você... Se..., você...').",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "Ela não se importa com seus sentimentos, com seu desejo de comprar um iate ou com seu medo de perder a aposentadoria.",
+          "Se o ativo está acima da média dos últimos 10 meses, você mantém. Se caiu abaixo, você vende e vai para o caixa.",
+          "independentemente das crises, guerras ou bolhas de mercado"
+        ]
+      },
+      {
+        "traco": "Fragmentos nominais, sem verbo, como fecho de parágrafo e como texto de item de lista.",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "Sem emoção, sem tentar adivinhar o fundo. Apenas matemática aplicada à sobrevivência.",
+          "4. **Imobiliário (REITs):** Geração de renda recorrente.",
+          "A proteção real contra a inflação — a “coisa” tangível."
+        ]
+      },
+      {
+        "traco": "Abre frase com conjunção coordenativa ('Mas', 'E').",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "Mas a sete mil quilômetros dali, a ideia de “fundação” operava em outra **magnitude**.",
+          "Mas lembre-se: no Brasil, até as estratégias mais sólidas precisam de um ajuste fino tropical.",
+          "E quanto à proteção internacional?"
+        ]
+      }
+    ],
+    "pontuacao": [
+      {
+        "traco": "Travessão (—) com espaço dos dois lados para aposto, virada ou explicação no fim da frase.",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "Tudo começa com a fundação — e não, não estamos falando dos impérios galácticos de Isaac Asimov.",
+          "Esses fundos patrimoniais — os *Endowments* — possuem um objetivo singular",
+          "aproveitando a isenção fiscal nos dividendos — uma **jabuticaba** que o investidor americano não possui."
+        ]
+      },
+      {
+        "traco": "Dois-pontos como articulador: depois de um anúncio vem a definição, a revelação ou o desdobramento.",
+        "frequencia": "frequente",
+        "ocorrencias": 9,
+        "evidencias": [
+          "entendi o conceito básico de uma fundação: uma estrutura feita para durar.",
+          "Funciona como um disjuntor: todo fim de mês, você olha o preço.",
+          "Na próxima conversa, vamos descer ao nível microscópico: como classificar esses ativos"
+        ]
+      },
+      {
+        "traco": "Dois-pontos no fim da frase que abre cada lista numerada.",
+        "frequencia": "sempre",
+        "ocorrencias": 2,
+        "evidencias": [
+          "A lógica é elegante em sua simplicidade:",
+          "Uma versão tropical do Ivy 5 mantém a filosofia, mas troca as peças do tabuleiro:"
+        ]
+      },
+      {
+        "traco": "Parênteses frequentes para expandir sigla, traduzir, dar exemplos ou nomear o índice de referência.",
+        "frequencia": "frequente",
+        "ocorrencias": 15,
+        "evidencias": [
+          "Esqueça o tradicional 60/40 (60% ações, 40% renda fixa).",
+          "A exposição a matérias-primas (café, boi, milho, metais) continua essencial",
+          "Para o setor **Imobiliário**, trocamos os REITs pelos nossos FIIs (via IFIX)"
+        ]
+      },
+      {
+        "traco": "Aspas tipográficas curvas (“ ”) para palavra em menção, distanciamento irônico, expressão idiomática e jargão traduzido.",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "a ideia de “fundação” operava em outra **magnitude**",
+          "A proteção real contra a inflação — a “coisa” tangível.",
+          "entender como o “dinheiro inteligente” se protege"
+        ],
+        "contraexemplo": "uma **jabuticaba** que o investidor americano não possui"
+      },
+      {
+        "traco": "Ponto e vírgula só aparece na construção 'não é apenas X; é Y'.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "não são apenas centros de excelência acadêmica; elas são",
+          "a renda fixa não é apenas defesa; é um impulsionador dos retornos."
+        ]
+      },
+      {
+        "traco": "Vírgula entre sujeito e verbo numa frase curta de ênfase.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "O ensino e a pesquisa, não podem parar."
+        ]
+      },
+      {
+        "traco": "A quebra de parágrafo cai a cada movimento do argumento; cerca de seis parágrafos de uma frase só, usados como ponte ou gancho.",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "Mas a sete mil quilômetros dali, a ideia de “fundação” operava em outra **magnitude**.",
+          "A grande pergunta, aquela que incomoda quem tenta bater o mercado no varejo, sempre foi: **como eles fazem isso?**"
+        ]
+      },
+      {
+        "traco": "Lista numerada só para enumerar componentes paralelos (as cinco classes, duas vezes); todo o resto é prosa corrida.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "1. **Ações Domésticas (S&P 500):** Para capturar o crescimento da maior economia do mundo.",
+          "1. **Ações Domésticas (20%):** Em vez do S&P 500 (mercado americano), uma exposição ao mercado acionário brasileiro"
+        ]
+      }
+    ],
+    "arquitetura": [
+      {
+        "traco": "Abre com jogo de palavras e referência cultural que nega a expectativa do leitor, seguidos de anedota autobiográfica.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Tudo começa com a fundação — e não, não estamos falando dos impérios galácticos de Isaac Asimov.",
+          "Quando eu ainda era um estudante bolsista no início da graduação em matemática na UFES"
+        ]
+      },
+      {
+        "traco": "O conceito nasce de um exemplo pessoal concreto (fundação como estrutura feita para durar) e depois muda de escala para o objeto do texto (endowments americanos).",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "entendi o conceito básico de uma fundação: uma estrutura feita para durar.",
+          "Mas a sete mil quilômetros dali, a ideia de “fundação” operava em outra **magnitude**."
+        ]
+      },
+      {
+        "traco": "Tese provocativa logo depois da abertura e pergunta-gancho em negrito antes do primeiro subtítulo.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "elas são, essencialmente, *hedge funds* gigantescos com uma escola acoplada",
+          "sempre foi: **como eles fazem isso?**"
+        ]
+      },
+      {
+        "traco": "Sustenta em dois blocos: primeiro o método original, atribuído a uma fonte nomeada; depois a versão local, que mapeia item a item.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Em seu livro *The Ivy Portfolio*, Faber e Eric Richardson fizeram o trabalho de detetive na carteira de Yale.",
+          "Uma versão tropical do Ivy 5 mantém a filosofia, mas troca as peças do tabuleiro:"
+        ]
+      },
+      {
+        "traco": "Depois de cada lista vêm uma imagem e prosa que interpreta ou sintetiza a lista.",
+        "frequencia": "sempre",
+        "ocorrencias": 2,
+        "evidencias": [
+          "A grande ideia dos *Endowments* não era apenas comprar ações, mas entender que ativos reais e alternativos (imóveis e commodities) funcionam como amortecedores",
+          "A fatia de **Ações Domésticas** continua (via Ibovespa ou IBrX), capturando nosso prêmio de risco."
+        ]
+      },
+      {
+        "traco": "Na seção brasileira, a prosa depois da lista volta às mesmas classes que a lista já detalhou (renda fixa, imobiliário, internacional/commodities).",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "3. **Imobiliário (20%):** No lugar dos REITs americanos, temos o mercado de Fundos de Investimento Imobiliário (FIIs)",
+          "Para o setor **Imobiliário**, trocamos os REITs pelos nossos FIIs (via IFIX)"
+        ]
+      },
+      {
+        "traco": "O mecanismo de defesa do método original (média móvel de 10 meses) entra no fim da seção 'A Versão Tropical', sem subtítulo próprio.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "o método Ivy traz um mecanismo de defesa ativo. Faber sugere o uso de uma Média Móvel Simples de 10 meses."
+        ]
+      },
+      {
+        "traco": "Quatro subtítulos em cerca de 937 palavras (um a cada ~230): dois temáticos, com título-imagem, e dois rótulos funcionais genéricos (Conclusão, Continua).",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "### O Código Ivy",
+          "### A Versão Tropical",
+          "### Conclusão"
+        ]
+      },
+      {
+        "traco": "Fecha com seção rotulada 'Conclusão' (personificação da estratégia, recomendação ao iniciante, ressalva local) e depois um teaser que anuncia o próximo texto da série.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Ela foi desenhada para perpetuar legados.",
+          "Mas lembre-se: no Brasil, até as estratégias mais sólidas precisam de um ajuste fino tropical.",
+          "Na próxima conversa, vamos descer ao nível microscópico: como classificar esses ativos"
+        ]
+      }
+    ],
+    "figuras": [
+      {
+        "traco": "Metáforas de jogo e tabuleiro, recorrentes, para estratégia de alocação.",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Os fundos da elite acadêmica jogam outro jogo.",
+          "mantém a filosofia, mas troca as peças do tabuleiro:",
+          "Mas é na renda fixa que o jogo muda."
+        ]
+      },
+      {
+        "traco": "Metáforas de mecânica, eletricidade e náutica para a função protetora dos ativos (amortecedores, disjuntor, âncora, ajuste fino, impulsionador).",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "funcionam como amortecedores quando o mercado financeiro tradicional entra em colapso",
+          "Funciona como um disjuntor: todo fim de mês, você olha o preço.",
+          "A âncora de segurança."
+        ]
+      },
+      {
+        "traco": "Quase todas as figuras cabem numa frase; a única estendida é o disjuntor, desdobrado num parágrafo como regra operacional.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Se caiu abaixo, você vende e vai para o caixa. Sem emoção, sem tentar adivinhar o fundo."
+        ]
+      },
+      {
+        "traco": "Imagens alimentares e de cozinha (fatias, feijão-com-arroz, jabuticaba).",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "dividindo o capital em cinco fatias iguais de 20%",
+          "sair do feijão-com-arroz da renda fixa"
+        ]
+      },
+      {
+        "traco": "Referências de literatura, cultura pop e cotidiano como gancho ou analogia (Asimov, versões de música, cortinas de teatro, detetive, iate).",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "não estamos falando dos impérios galácticos de Isaac Asimov",
+          "Se fazemos versões locais de músicas internacionais, por que não faríamos o mesmo com a alocação de ativos?",
+          "Faber e Eric Richardson fizeram o trabalho de detetive na carteira de Yale."
+        ]
+      },
+      {
+        "traco": "Imagem de inversão hiperbólica para formular a tese.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "*hedge funds* gigantescos com uma escola acoplada"
+        ]
+      },
+      {
+        "traco": "Personifica a estratégia no fecho.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "O Ivy 5 é uma estratégia agnóstica. Ela não se importa com seus sentimentos"
+        ]
+      },
+      {
+        "traco": "Retoma figuras no fim: 'tropical' (do subtítulo para a última frase da conclusão) e a fundação feita para durar (abertura), que volta como 'perpetuar legados'.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "precisam de um ajuste fino tropical",
+          "uma estrutura feita para durar",
+          "Ela foi desenhada para perpetuar legados."
+        ]
+      }
+    ],
+    "postura": [
+      {
+        "traco": "Primeira pessoa do singular só na anedota de abertura, como credencial biográfica discreta (bolsista, matemática, deu aulas); depois some.",
+        "frequencia": "ocasional",
+        "ocorrencias": 5,
+        "evidencias": [
+          "Quando eu ainda era um estudante bolsista no início da graduação em matemática na UFES",
+          "Eu dava aulas pelo Projeto Galois"
+        ]
+      },
+      {
+        "traco": "'Nós' coletivo brasileiro em contraste com 'os americanos'.",
+        "frequencia": "frequente",
+        "ocorrencias": 8,
+        "evidencias": [
+          "Onde os americanos utilizam *Treasuries* para proteção, nós usamos o **IMA-B**",
+          "Para o setor **Imobiliário**, trocamos os REITs pelos nossos FIIs (via IFIX)",
+          "seria ignorar nosso “jabuti” mais famoso"
+        ]
+      },
+      {
+        "traco": "Para o método, a autoridade fica com a fonte nomeada ('Faber propôs', 'Faber sugere'); no resto, afirma direto, sem marcador de opinião.",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "Faber propôs que o investidor comum poderia replicar os retornos dos *Endowments*",
+          "Faber sugere o uso de uma Média Móvel Simples de 10 meses."
+        ]
+      },
+      {
+        "traco": "Admite incerteza atribuindo o achado a 'estudos', sem dizer quais.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "No Brasil, estudos indicam que a alocação eficiente se dá através do IMA-B",
+          "embora estudos locais apontem resultados mistos na eficiência dessa classe dependendo do ciclo econômico."
+        ]
+      },
+      {
+        "traco": "Humor leve e ironia, sem piada explícita.",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": [
+          "com seu desejo de comprar um iate",
+          "e não, não estamos falando dos impérios galácticos de Isaac Asimov",
+          "o bom e velho **CDI**"
+        ]
+      },
+      {
+        "traco": "A discordância mira práticas convencionais (60/40, buy and hold, 1/N), nunca pessoas.",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Esqueça o tradicional 60/40 (60% ações, 40% renda fixa).",
+          "Diferente da passividade do “compre e esqueça” (Buy and Hold) ou da simplicidade do 1/N"
+        ]
+      },
+      {
+        "traco": "Tom prescritivo pontual ('deve', 'precisam', 'continua essencial').",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "o investidor brasileiro deve buscar exposição a ativos em moeda forte",
+          "precisam ser dolarizadas ou acessadas via contratos futuros"
+        ]
+      },
+      {
+        "traco": "Valoriza a regra mecânica sobre a emoção do investidor.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Sem emoção, sem tentar adivinhar o fundo. Apenas matemática aplicada à sobrevivência.",
+          "Ela não se importa com seus sentimentos"
+        ]
+      }
+    ],
+    "leitor": [
+      {
+        "traco": "Declara como público o investidor iniciante, mas pressupõe vocabulário de mercado (índices americanos, REITs e ETFs sem glosa).",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "Para o investidor iniciante, é um excelente ponto de partida",
+          "2. **Ações Internacionais (MSCI EAFE):** Porque o mundo não acaba nas fronteiras dos EUA."
+        ]
+      },
+      {
+        "traco": "Pergunta retórica: duas respondidas logo na frase seguinte; a do gancho é respondida pelas seções seguintes.",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": [
+          "sempre foi: **como eles fazem isso?**",
+          "por que não faríamos o mesmo com a alocação de ativos?",
+          "E quanto à proteção internacional? As fatias de **Ações Globais** e **Commodities** precisam ser dolarizadas"
+        ]
+      },
+      {
+        "traco": "Imperativo dirigido ao leitor.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Esqueça o tradicional 60/40",
+          "Mas lembre-se: no Brasil"
+        ]
+      },
+      {
+        "traco": "'Você' e os possessivos 'seu/seus' só aparecem na regra operacional e no fecho, não na abertura (onde a pessoa é 'eu', depois 'nós').",
+        "frequencia": "frequente",
+        "ocorrencias": 7,
+        "evidencias": [
+          "todo fim de mês, você olha o preço",
+          "como conectar essas classes abstratas aos seus objetivos reais de vida"
+        ]
+      },
+      {
+        "traco": "'Nós' inclusivo de autor e leitor e o texto tratado como 'conversa'.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "e não, não estamos falando dos impérios galácticos",
+          "Na próxima conversa, vamos descer ao nível microscópico"
+        ]
+      },
+      {
+        "traco": "Chamada para ação: botão de compartilhar com agradecimento, logo depois da introdução e antes do primeiro subtítulo; no fim, só o teaser da série, sem CTA de assinatura.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Obrigado por ler o Syntaxis! Compartilhar este post ajuda a ampliar o alcance de ideias que merecem circular."
+        ]
+      }
+    ],
+    "tecnico": [
+      {
+        "traco": "Sem fórmula nem notação: a regra quantitativa (média móvel de 10 meses) é explicada em prosa condicional, passo a passo.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Se o ativo está acima da média dos últimos 10 meses, você mantém. Se caiu abaixo, você vende e vai para o caixa."
+        ]
+      },
+      {
+        "traco": "Pesos de alocação em percentual, no texto e nos rótulos de lista; notação compacta '60/40' com glosa entre parênteses, '1/N' sem glosa.",
+        "frequencia": "frequente",
+        "ocorrencias": 8,
+        "evidencias": [
+          "Esqueça o tradicional 60/40 (60% ações, 40% renda fixa).",
+          "dividindo o capital em cinco fatias iguais de 20%",
+          "ou da simplicidade do 1/N"
+        ]
+      },
+      {
+        "traco": "Mapeia cada componente americano para um equivalente brasileiro e nomeia o índice de referência.",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "Em vez do S&P 500 (mercado americano), uma exposição ao mercado acionário brasileiro, onde a principal referência é o IBOVESPA.",
+          "No lugar dos REITs americanos, temos o mercado de Fundos de Investimento Imobiliário (FIIs), cujo benchmark principal é o IFIX"
+        ]
+      },
+      {
+        "traco": "Cita a fonte bibliográfica por título (em itálico) e autores, sem ano, editora ou link; afirmações empíricas locais vêm atribuídas a 'estudos' sem referência.",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Em seu livro *The Ivy Portfolio*, Faber e Eric Richardson",
+          "estudos indicam que a alocação eficiente se dá através do IMA-B"
+        ]
+      },
+      {
+        "traco": "Afirmação factual sem data nem fonte; não há tratamento de dado desatualizado.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "o juro real mais alto do planeta",
+          "Mas a sete mil quilômetros dali"
+        ]
+      },
+      {
+        "traco": "Menciona regra tributária sem citar a norma.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "aproveitando a isenção fiscal nos dividendos"
+        ]
+      },
+      {
+        "traco": "Comparação de classes feita em lista numerada e imagens, nunca em tabela.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "5. **Commodities:** A proteção real contra a inflação — a “coisa” tangível.",
+          "5. **Commodities (20%):** A exposição a matérias-primas (café, boi, milho, metais) continua essencial para proteção contra inflação."
+        ]
+      }
+    ],
+    "formatacao": [
+      {
+        "traco": "Negrito no meio da prosa em nome institucional, palavra de virada isolada, pergunta-gancho, conceito central, nome de classe ou índice e expressão idiomática (cerca de 11 fora das listas). O uso não é sistemático: o mesmo termo sai em negrito num trecho e sem negrito noutro.",
+        "frequencia": "frequente",
+        "ocorrencias": 11,
+        "evidencias": [
+          "uma iniciativa mantida pela **Fundação Ceciliano Abel de Almeida**",
+          "a ideia de “fundação” operava em outra **magnitude**",
+          "nós usamos o **IMA-B** (títulos atrelados à inflação) ou o bom e velho **CDI**"
+        ],
+        "contraexemplo": "através do IMA-B (índice de títulos públicos atrelados à inflação) ou do CDI"
+      },
+      {
+        "traco": "Rótulo de cada item de lista em negrito, com o parêntese e os dois-pontos dentro do negrito.",
+        "frequencia": "sempre",
+        "ocorrencias": 10,
+        "evidencias": [
+          "1. **Ações Domésticas (S&P 500):** Para capturar o crescimento da maior economia do mundo.",
+          "2. **Renda Fixa / Títulos Públicos (20%):** A versão original usa títulos do Tesouro dos EUA de 10 anos."
+        ]
+      },
+      {
+        "traco": "Itálico para estrangeirismo e título de livro, mas nem todo anglicismo vai em itálico.",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "*hedge funds* gigantescos com uma escola acoplada",
+          "Em seu livro *The Ivy Portfolio*",
+          "Onde os americanos utilizam *Treasuries* para proteção"
+        ],
+        "contraexemplo": "do “compre e esqueça” (Buy and Hold)"
+      },
+      {
+        "traco": "Subtítulos em H3 (###), com inicial maiúscula em cada palavra lexical; o último leva reticências em caractere único, precedidas de espaço.",
+        "frequencia": "sempre",
+        "ocorrencias": 4,
+        "evidencias": [
+          "### O Código Ivy",
+          "### A Versão Tropical",
+          "### Continua …"
+        ]
+      },
+      {
+        "traco": "Separadores '* * *' acima e abaixo do botão de CTA, isolando-o do corpo do texto.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "* * *"
+        ]
+      },
+      {
+        "traco": "Três imagens, todas sem legenda: depois da introdução e depois de cada lista.",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": [
+          "![](img-01)",
+          "![](img-02)",
+          "![](img-03)"
+        ]
+      },
+      {
+        "traco": "Blocos curtos: em geral parágrafos de 1 a 3 frases; o mais longo é a anedota de abertura (3 frases, cerca de 80 palavras).",
+        "frequencia": "frequente",
+        "ocorrencias": 20,
+        "evidencias": [
+          "E quanto à proteção internacional? As fatias de **Ações Globais** e **Commodities** precisam ser dolarizadas ou acessadas via contratos futuros."
+        ]
+      }
+    ]
+  },
+  "antipadroes_observados": [
+    "(a) Nenhum ponto de exclamação na prosa autoral; o único '!' está no texto do botão de CTA ('Obrigado por ler o Syntaxis!').",
+    "(a) Nenhuma fórmula ($$), notação matemática ou tabela; a regra de média móvel vai em prosa.",
+    "(a) Nenhuma citação em bloco, PULLQUOTE, riscado, código, nota de rodapé, emoji ou hashtag.",
+    "(a) Nenhum link no corpo do texto (só a URL do botão de compartilhar) e nenhuma referência com ano ou link; 'estudos' ficam sem fonte.",
+    "(a) Nenhuma lista com marcadores não numerados; as duas listas são numeradas.",
+    "(a) Nenhuma primeira pessoa do singular fora da anedota de abertura.",
+    "(a) Nenhuma pergunta retórica deixada sem resposta.",
+    "(a) Nenhum aviso do tipo 'não é recomendação de investimento', apesar das prescrições ('o investidor brasileiro deve buscar exposição').",
+    "(b) Coincide com tiques de IA em pt-BR, embora o texto seja pre-pipeline (escrito só pelo autor), então não é indício de geração: o molde 'não é apenas X; é Y' / 'não foi X, mas Y' aparece 4 vezes ('não é apenas defesa; é um impulsionador dos retornos').",
+    "(b) Coincidência: fórmula de elogio genérica, 'A lógica é elegante em sua simplicidade:'.",
+    "(b) Coincidência: fragmento de efeito no fim do parágrafo, 'Sem emoção, sem tentar adivinhar o fundo. Apenas matemática aplicada à sobrevivência.'",
+    "(b) Coincidência: pergunta retórica respondida logo em seguida ('E quanto à proteção internacional? As fatias...') e tríades ('crises, guerras ou bolhas de mercado').",
+    "(b) Coincidência: vocabulário típico ('na jornada para entrar em uma boa universidade', 'essencialmente', 'Afinal,'); o texto do CTA ('ideias que merecem circular. Vamos levar esse conhecimento mais longe?') também segue esse padrão."
+  ],
+  "incerteza": "Texto curto (937 palavras, pelo palavras_md do frontmatter, contando subtítulos e o texto do CTA), bem abaixo do piso de ~5.000 palavras por amostra; as frequências são contagens de um único texto. As estatísticas de frase (51 frases, média ~17,6 palavras, faixa 5-39) são estimativa por segmentação automática nos sinais . ? !, sem contar CTA, subtítulos e marcadores de imagem. section_name é null: não se sabe a linha editorial (Spoiler ou Notas de um Professor), então não dá para condicionar traços a ela. O conteúdo das três imagens é desconhecido (só marcadores, sem legenda), o que impede avaliar gráfico vs. ilustração. O texto do botão de CTA pode ser um modelo reaproveitado entre posts e não prosa deste post. 'jabuti' aparece entre aspas no sentido de peculiaridade brasileira, que é o sentido usual de 'jabuticaba' (no jargão político, 'jabuti' é emenda estranha ao projeto), e o próprio texto usa 'jabuticaba' depois; não dá para saber se foi escolha deliberada ou troca. As inconsistências de grafia (IBOVESPA/Ibovespa, Ações Internacionais/Globais) e de negrito/itálico podem ser descuido de revisão, não traço de voz. A falta de fórmula pode vir do tema introdutório, não da voz."
+}

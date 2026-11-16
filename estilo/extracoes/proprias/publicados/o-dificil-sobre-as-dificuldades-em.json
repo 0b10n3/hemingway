@@ -1,0 +1,663 @@
+{
+  "arquivo": "estilo/corpus/publicados/o-dificil-sobre-as-dificuldades-em.md",
+  "genero": "substack",
+  "palavras": 1590,
+  "eixos": {
+    "lexico": [
+      {
+        "traco": "Adjetivo 'difícil' substantivado como palavra-chave do texto ('o difícil', 'os difíceis', 'o seu difícil'), inclusive numa expressão cunhada entre aspas",
+        "frequencia": "frequente",
+        "ocorrencias": 12,
+        "evidencias": [
+          "Escolha o seu difícil.",
+          "um dos difíceis que abracei foi a base em finanças quantitativas.",
+          "não é necessariamente o *‘melhor difícil’* disponível para você"
+        ],
+        "contraexemplo": "## Nem toda dificuldade vale a pena"
+      },
+      {
+        "traco": "Campo semântico de esporte/academia (lombar, core, pace, treino, pesos, músculos, atleta) transplantado para a carreira",
+        "frequencia": "frequente",
+        "ocorrencias": 25,
+        "evidencias": [
+          "Quem corre quer baixar o pace. Quem levanta peso quer braço, ombro, peitoral — não uma lombar mais forte.",
+          "quais pesos vai levantar — quais músculos quer desenvolver —"
+        ]
+      },
+      {
+        "traco": "Campo semântico de finanças quantitativas nomeado com termos de ofício (Value at Risk, Black-Scholes, trade system, teoria da medida, Fubini, Radon-Nikodym)",
+        "frequencia": "frequente",
+        "ocorrencias": 16,
+        "evidencias": [
+          "teoremas de teoria da medida — o de Fubini, digamos, ou o de Radon-Nikodym",
+          "É o treino de lombar da carreira quant."
+        ]
+      },
+      {
+        "traco": "Família de 'sustentar' e 'construir' como verbos-eixo do argumento (o que sustenta, base, alicerce, construir uma carreira)",
+        "frequencia": "frequente",
+        "ocorrencias": 15,
+        "evidencias": [
+          "O problema é que boa parte do que sustenta o resultado que você quer não é o que você queria treinar.",
+          "O que sustenta é o significado:",
+          "só que essa dificuldade não constrói nada."
+        ]
+      },
+      {
+        "traco": "'premissa' como termo recorrente para aquilo que o praticante superficial ignora",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "implementado por alguém que não entende as premissas por trás dele",
+          "fora da premissa que o sustenta",
+          "perceber quando a premissa de normalidade quebra"
+        ]
+      },
+      {
+        "traco": "Termo técnico de finanças glosado entre parênteses ou em aposto na primeira menção",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "Construir um *trade system* (um sistema automatizado de decisão de compra e venda)",
+          "implementar o Black-Scholes (o modelo clássico de precificação de opções)",
+          "de John Hull — a referência padrão de qualquer curso sério de derivativos—"
+        ],
+        "contraexemplo": "perceber quando a premissa de normalidade quebra"
+      },
+      {
+        "traco": "Anglicismos aceitos sem tradução; parte em itálico (core, trade system, happy hour, grind), parte sem marca (pace, timeline, prompt)",
+        "frequencia": "frequente",
+        "ocorrencias": 11,
+        "evidencias": [
+          "aparece bem numa conversa de *happy hour*.",
+          "a parte pop do ofício está a um prompt de distância."
+        ],
+        "contraexemplo": "Quem corre quer baixar o pace."
+      },
+      {
+        "traco": "Registro misto: coloquialismo e gíria leve ('é uma droga', 'É pop', 'cuspiu', 'pra') convivendo com norma culta",
+        "frequencia": "frequente",
+        "ocorrencias": 8,
+        "evidencias": [
+          "Mas nada do que você lerá abaixo muda o fato de que treino de lombar é uma droga.",
+          "Isso não conta ponto pra próxima entrevista.",
+          "o modelo que ela cuspiu"
+        ]
+      },
+      {
+        "traco": "Pronome oblíquo 'o' (norma culta) retomando 'você', em vez de 'te' ou 'lhe'",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Não é o que o deixa mais rápido amanhã.",
+          "pode ser um chefe que o leva exatamente para onde você quer chegar.",
+          "ou que o molda para habilidades desalinhadas"
+        ]
+      },
+      {
+        "traco": "Vocabulário moral do autor citado incorporado ao texto (fardo, responsabilidade, propósito, significado)",
+        "frequencia": "frequente",
+        "ocorrencias": 15,
+        "evidencias": [
+          "escolha um fardo com propósito, antes que a vida escolha um por você.",
+          "qual fardo vale a pena carregar num objetivo específico de carreira."
+        ]
+      },
+      {
+        "traco": "Redes sociais (Instagram, LinkedIn, timeline) como emblema do que é vistoso e não forma ninguém",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": [
+          "Aparece bem na timeline do LinkedIn",
+          "Nenhum desses hábitos rende um bom post de LinkedIn."
+        ]
+      }
+    ],
+    "sintaxe": [
+      {
+        "traco": "Antítese em par de frases curtas: nega uma leitura e afirma a outra na frase seguinte ('Não é X. É Y.'; 'nunca foi X. Foi Y.'), às vezes em parágrafos separados",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "Não é o que o deixa mais rápido amanhã. É o que garante que você ainda esteja correndo daqui a cinco anos.",
+          "A questão nunca foi sofrer mais. Foi não fugir da dificuldade necessária.",
+          "Isso não conta ponto pra próxima entrevista."
+        ]
+      },
+      {
+        "traco": "Frase curta ou fragmento nominal como ênfase e ritmo, alternando com períodos longos carregados de glosas",
+        "frequencia": "frequente",
+        "ocorrencias": 12,
+        "evidencias": [
+          "Dieta, corrida, academia. Corrida um pouco menos.",
+          "É pop.",
+          "Não é isso."
+        ],
+        "contraexemplo": "Construir um *trade system* (um sistema automatizado de decisão de compra e venda), montar um modelo de *Value at Risk*"
+      },
+      {
+        "traco": "Travessão para inciso: aposto explicativo, adendo no fim da frase ou virada de contraste",
+        "frequencia": "frequente",
+        "ocorrencias": 16,
+        "evidencias": [
+          "Jordan Peterson — autor que tenho acompanhado com atenção nos últimos tempos — escreve",
+          "— a lombar é a rainha dessa categoria.",
+          "fora da premissa que o sustenta — e a maioria não percebe."
+        ]
+      },
+      {
+        "traco": "Paralelismo anafórico em sequência ('Quem... quer...'; 'É o...'; 'X é difícil. Y também é.')",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "Quem corre quer baixar o pace. Quem levanta peso quer braço",
+          "É o treino de lombar da carreira quant. É o que treina e dá coordenação ao cérebro",
+          "Treinar é difícil. Viver cada vez mais debilitado também é."
+        ]
+      },
+      {
+        "traco": "Encadeamento por anadiplose (o fim de um membro abre o seguinte)",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "responsabilidade leva à dificuldade, dificuldade leva à competência, competência leva à contribuição, e contribuição leva ao significado."
+        ]
+      },
+      {
+        "traco": "Oração condicional anteposta à principal, quase sempre 'Se você...'",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "Se você já se aventurou em alguma modalidade esportiva, provavelmente já passou pela parte",
+          "Se você pode resolver algo de maneira simples, resolva de maneira simples."
+        ]
+      },
+      {
+        "traco": "Frase aberta por 'E' ou 'Mas' como articulador de virada, inclusive em início de parágrafo",
+        "frequencia": "frequente",
+        "ocorrencias": 12,
+        "evidencias": [
+          "E, na hora, não parece produzir nada.",
+          "E aqui a distinção fica concreta.",
+          "Mas é a única parte da conta que fica sob seu controle."
+        ]
+      },
+      {
+        "traco": "Parêntese reservado a glosa técnica e a um aparte enfático isolado",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": [
+          "alguns aspectos (muito) importantes da vida",
+          "implementar o Black-Scholes (o modelo clássico de precificação de opções)"
+        ]
+      }
+    ],
+    "pontuacao": [
+      {
+        "traco": "Dois-pontos como principal articulador: anuncia revelação, definição, exemplo ou reformulação",
+        "frequencia": "frequente",
+        "ocorrencias": 22,
+        "evidencias": [
+          "a parte que ninguém posta no Instagram: o fortalecimento.",
+          "esse alguém costuma ter nome e sobrenome: é o seu chefe.",
+          "Tirando a solenidade da frase: escolha um fardo com propósito"
+        ]
+      },
+      {
+        "traco": "Quebra de parágrafo depois de quase toda frase de efeito: cerca de 2/3 dos parágrafos têm uma frase só",
+        "frequencia": "frequente",
+        "ocorrencias": 37,
+        "evidencias": [
+          "Defina seus objetivos.",
+          "Escolha o seu difícil.",
+          "Nenhum desses hábitos rende um bom post de LinkedIn."
+        ],
+        "contraexemplo": "Se você não escolhe conscientemente quais pesos vai levantar"
+      },
+      {
+        "traco": "Aspas simples tipográficas (‘ ’) para termo destacado, fala interior hipotética ou máxima atribuída; aspas duplas não aparecem",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "Achar que *‘não estou escolhendo nenhuma dificuldade’* é uma ilusão confortável",
+          "do que Peterson diz: ‘sempre escolha a opção mais difícil’.",
+          "o fortalecimento do ‘*core*’ ou de músculos exóticos do pé."
+        ]
+      },
+      {
+        "traco": "Travessão duplo de inciso seguido de vírgula ('—,') quando a frase continua",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "quais músculos quer desenvolver —, alguém decide por você.",
+          "aquele difícil chato que você vem adiando —, responda a essa newsletter"
+        ]
+      },
+      {
+        "traco": "Pergunta direta quase ausente; prefere pergunta indireta seguida da resposta",
+        "frequencia": "evita",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Então a pergunta não deveria ser qual opção é mais confortável.",
+          "**Deveria ser: qual dificuldade vale a pena?**"
+        ]
+      },
+      {
+        "traco": "Enumeração em prosa corrida com vírgulas, sem lista com marcadores; pseudolista por rótulos ('Dor A:'/'Dor B:')",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "Você começa pequeno: arrumar seu quarto, cuidar do próprio corpo, cumprir sua palavra, organizar suas finanças",
+          "Dor A: fazer algo difícil agora."
+        ]
+      },
+      {
+        "traco": "Vírgula fora da norma em pontos isolados: entre sujeito longo e verbo, e emendando duas orações independentes",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "implementado por alguém que não entende as premissas por trás dele, pode subestimar sistematicamente",
+          "estupidez vestida de disciplina, a mesma cultura que romantiza o *grind* sem direção já mostrou o preço disso."
+        ]
+      }
+    ],
+    "arquitetura": [
+      {
+        "traco": "Abre com cena pessoal e cotidiana (dieta, corrida, academia) e só depois faz a ponte explícita para a carreira em finanças",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Este ano comecei a levar mais a sério alguns aspectos (muito) importantes da vida. Dieta, corrida, academia.",
+          "Não é muito diferente numa carreira em finanças."
+        ]
+      },
+      {
+        "traco": "Título com jogo de palavras (poliptoto difícil/dificuldades) e subtítulo cuja imagem é retomada no segundo parágrafo",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "O Difícil sobre as Dificuldades em uma Carreira em Finanças",
+          "As partes difíceis que ninguém posta no Instagram",
+          "provavelmente já passou pela parte que ninguém posta no Instagram: o fortalecimento."
+        ]
+      },
+      {
+        "traco": "Um autor citado (Peterson) como espinha do argumento: reaparece, parafraseado, em quase todas as seções",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "Para Peterson, existe uma diferença entre sofrimento inútil e sofrimento com propósito.",
+          "Essa é uma das ideias de Peterson de que mais gosto."
+        ]
+      },
+      {
+        "traco": "Princípio abstrato primeiro, depois transposição explícita para o caso do autor ou do estudo, com marcador de virada",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "E aqui a distinção fica concreta.",
+          "Transposto para o estudo, o pequeno fica assim:",
+          "Por exemplo:"
+        ]
+      },
+      {
+        "traco": "Seção fecha com frase-sentença isolada, muitas vezes em negrito ou retomando a figura central",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "Mas nada do que você lerá abaixo muda o fato de que treino de lombar é uma droga.",
+          "**Deveria ser: qual dificuldade vale a pena?**",
+          "Conta pra você não ser a pessoa que assina embaixo do número errado, cinco anos depois."
+        ]
+      },
+      {
+        "traco": "Subtítulos H2 densos (5 em ~1.600 palavras), quase todos formulados como tese, não como rótulo",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "## O Objetivo Escolhe o Fardo",
+          "## Evitar o difícil frequentemente torna tudo mais difícil",
+          "## Nem toda dificuldade vale a pena"
+        ],
+        "contraexemplo": "## Dificuldades com significado"
+      },
+      {
+        "traco": "Seção de ressalva antes do fecho: corrige a leitura errada da própria tese e acrescenta uma camada atual (IA generativa)",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Essa é uma interpretação bastante comum, e errada, do que Peterson diz",
+          "vale acrescentar uma camada, cada vez mais urgente: pedir para um modelo de linguagem montar um *trade system* simples"
+        ]
+      },
+      {
+        "traco": "Fecho retoma a figura central e passa a palavra ao leitor; depois do botão, separador e aviso legal padrão",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Se você chegou até aqui e já sabe qual é o seu treino de lombar",
+          "*Os textos publicados na Syntaxis expressam exclusivamente minhas opiniões pessoais"
+        ]
+      }
+    ],
+    "figuras": [
+      {
+        "traco": "Analogia central estendida do esporte/academia: treino de lombar e core = fundamentos chatos da carreira; aberta no primeiro subtítulo e retomada no fecho",
+        "frequencia": "frequente",
+        "ocorrencias": 7,
+        "evidencias": [
+          "## Fortalecer a Lombar é uma Droga",
+          "É o treino de lombar da carreira quant.",
+          "qual é o seu treino de lombar — aquele difícil chato que você vem adiando —"
+        ]
+      },
+      {
+        "traco": "Metáfora contábil aplicada à vida: dificuldade adiada como conta que muda de mão e cresce",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "a conta não desaparece, ela só muda de mão e cresce de tamanho.",
+          "Mas é a única parte da conta que fica sob seu controle."
+        ]
+      },
+      {
+        "traco": "Metáfora de construção e fundação (areia, alicerce)",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "é construir em cima de areia, mesmo que o código rode sem erro.",
+          "os alicerces técnicos que, por trás da superfície, sustentam qualquer modelo probabilístico sério"
+        ]
+      },
+      {
+        "traco": "Personificação e hipérbole curtas, de tom humorado",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": [
+          "a lombar é a rainha dessa categoria.",
+          "torturando e sendo torturado por números.",
+          "estupidez vestida de disciplina"
+        ]
+      },
+      {
+        "traco": "Caricatura como contraexemplo para delimitar a tese",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "treinar como um atleta profissional para o Mr. Olympia não é necessariamente o *‘melhor difícil’*"
+        ]
+      }
+    ],
+    "postura": [
+      {
+        "traco": "Primeira pessoa confessional, com autoexposição física e de trajetória",
+        "frequencia": "frequente",
+        "ocorrencias": 9,
+        "evidencias": [
+          "estou tentando perder parte do peso em excesso acumulado ao longo das últimas décadas.",
+          "Não é porque eu sofri com alguns desses difíceis que você precisa sofrer do mesmo jeito."
+        ]
+      },
+      {
+        "traco": "Tratamento direto por 'você' do começo ao fim, em tom de conselho de mentor",
+        "frequencia": "sempre",
+        "ocorrencias": 30,
+        "evidencias": [
+          "você precisa escolher o difícil alinhado com seu objetivo.",
+          "Quando você assume algo que realmente importa, você é obrigado a se tornar mais capaz"
+        ]
+      },
+      {
+        "traco": "Marca como preferência pessoal a ideia alheia que adota",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "autor que tenho acompanhado com atenção nos últimos tempos",
+          "uma das ideias que mais me parecem úteis sobre o assunto",
+          "Essa é uma das ideias de Peterson de que mais gosto."
+        ]
+      },
+      {
+        "traco": "Admite o limite da própria tese com concessão explícita e depois a reafirma com 'Mas'",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "isso não garante o resultado sozinho — talento, oportunidade e circunstância continuam pesando.",
+          "Talvez o seu difícil nem seja esse.",
+          "Isso não é necessariamente ruim:"
+        ]
+      },
+      {
+        "traco": "Humor seco e autodepreciativo, inclusive tipográfico",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": [
+          "treino de lombar é uma droga.",
+          "~~Quase~~ Ninguém acorda empolgado para estudar teoremas de teoria da medida",
+          "Tirando a solenidade da frase:"
+        ]
+      },
+      {
+        "traco": "Discordância dirigida a leituras simplistas e à cultura do mercado e das redes, sem nomear oponente",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": [
+          "um detalhe que o mercado raramente reforça",
+          "a mesma cultura que romantiza o *grind* sem direção já mostrou o preço disso.",
+          "Essa é uma interpretação bastante comum, e errada, do que Peterson diz"
+        ]
+      },
+      {
+        "traco": "Autoridade implícita pela própria prática em finanças quantitativas, nunca por cargo ou credencial",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Desde que identifiquei meu objetivo como sendo construir uma carreira sólida em finanças",
+          "um dos difíceis que abracei foi a base em finanças quantitativas."
+        ]
+      }
+    ],
+    "leitor": [
+      {
+        "traco": "Pressupõe leitor em carreira (ou rumo a ela) no mercado financeiro, com repertório técnico médio: glosa VaR e Black-Scholes, mas não 'premissa de normalidade' nem 'teoria da medida'",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "Se você está construindo, em algum canto do mercado financeiro, uma carreira da qual venha a se orgulhar",
+          "perceber quando a premissa de normalidade quebra"
+        ]
+      },
+      {
+        "traco": "Imperativo direto ao leitor, inclusive em frases-parágrafo",
+        "frequencia": "frequente",
+        "ocorrencias": 7,
+        "evidencias": [
+          "Defina seus objetivos.",
+          "Escolha o seu difícil.",
+          "Se você pode resolver algo de maneira simples, resolva de maneira simples."
+        ]
+      },
+      {
+        "traco": "Apela à experiência presumida do leitor com 'Se você já...' ou 'provavelmente você já...'",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Se você já se aventurou em alguma modalidade esportiva, provavelmente já passou pela parte que ninguém posta no Instagram",
+          "**Mas ele existe, e provavelmente você já sabe qual é.**"
+        ]
+      },
+      {
+        "traco": "Referência ao próprio texto e ao percurso de leitura",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Mas nada do que você lerá abaixo muda o fato",
+          "Se você chegou até aqui"
+        ]
+      },
+      {
+        "traco": "Chamada para ação no fim: pedido de resposta por e-mail, promessa do próximo texto e botão Compartilhar",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "responda a essa newsletter, me contando qual é.",
+          "no próximo texto eu conto como decido, na prática, qual fardo vale a pena carregar",
+          "[[CTA: Compartilhar → https://syntaxis.substack.com/p/o-dificil-sobre-as-dificuldades-em?utm_source=substack&utm_medium=email&utm_content=share&action=share]]"
+        ]
+      }
+    ],
+    "tecnico": [
+      {
+        "traco": "Conceitos quantitativos nomeados e definidos em prosa, sem fórmula, notação ou número",
+        "frequencia": "sempre",
+        "ocorrencias": 6,
+        "evidencias": [
+          "a estimativa estatística do nível de perda que uma carteira não deveria superar, dado um horizonte de tempo e um nível de confiança"
+        ]
+      },
+      {
+        "traco": "Precisão técnica ao descrever risco de modelo (VaR mal especificado subestima a chance de excedência; premissa de normalidade)",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "pode subestimar sistematicamente a chance de superar exatamente esse nível de perda.",
+          "perceber quando a premissa de normalidade quebra, ou quando o modelo que ela cuspiu está sendo usado fora do contexto"
+        ]
+      },
+      {
+        "traco": "Livro citado pelo título original em inglês, em itálico, com autor no texto e paráfrase (sem página, link ou citação literal)",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "escreve, em ***12 Rules for Life***, que erguer os ombros é aceitar a terrível responsabilidade da vida",
+          "*Options, Futures, and Other Derivatives*, de John Hull"
+        ]
+      },
+      {
+        "traco": "Apelo genérico a literatura ou consenso sem fonte específica",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "A literatura de ciência do esporte reune muitas evidências de que o ‘*core*’ forte previne lesão",
+          "Esse é um ponto bem conhecido desde a crise de 2008"
+        ]
+      },
+      {
+        "traco": "Regulação aparece só no aviso legal padrão ao fim",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "não constitui recomendação de investimento, análise de valores mobiliários ou consultoria financeira."
+        ]
+      }
+    ],
+    "formatacao": [
+      {
+        "traco": "Negrito reservado à frase-tese ou punchline, em geral a frase inteira de um parágrafo curto, nos pontos de virada de seção",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "**Na prática, esse alguém costuma ter nome e sobrenome: é o seu chefe.**",
+          "**Deveria ser: qual dificuldade vale a pena?**",
+          "**Mas ele existe, e provavelmente você já sabe qual é.**"
+        ],
+        "contraexemplo": "Ambos os caminhos têm dificuldade. **A diferença é o que a dificuldade constrói**."
+      },
+      {
+        "traco": "Itálico para estrangeirismo e jargão de ofício, título de obra e expressão entre aspas; aplicação inconsistente",
+        "frequencia": "frequente",
+        "ocorrencias": 14,
+        "evidencias": [
+          "Construir um *trade system*",
+          "numa conversa de *happy hour*.",
+          "*Options, Futures, and Other Derivatives*, de John Hull"
+        ],
+        "contraexemplo": "Quem corre quer baixar o pace."
+      },
+      {
+        "traco": "Itálico combinado com aspas simples, ora por dentro, ora por fora das aspas",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": [
+          "do ‘*core*’",
+          "o *‘melhor difícil’* disponível",
+          "*‘não estou escolhendo nenhuma dificuldade’*"
+        ],
+        "contraexemplo": "‘sempre escolha a opção mais difícil’"
+      },
+      {
+        "traco": "Negrito+itálico para título de livro num caso, só itálico no outro",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "em ***12 Rules for Life***,"
+        ],
+        "contraexemplo": "*Options, Futures, and Other Derivatives*"
+      },
+      {
+        "traco": "Citação em bloco usada para destacar série de exemplos paralelos e para reformular um princípio, não para citação literal de fonte",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "> Construir uma empresa é difícil. Permanecer anos frustrado também é.",
+          "> escolha aquilo que é significativo e que exige que você se torne uma pessoa mais capaz para realizá-lo."
+        ]
+      },
+      {
+        "traco": "Riscado como piada de autocorreção",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "~~Quase~~ Ninguém acorda empolgado"
+        ]
+      },
+      {
+        "traco": "Subtítulos só em H2, com capitalização inconsistente: Title Case nos dois primeiros, caixa de frase nos três últimos",
+        "frequencia": "ocasional",
+        "ocorrencias": 5,
+        "evidencias": [
+          "## Fortalecer a Lombar é uma Droga",
+          "## O Objetivo Escolhe o Fardo",
+          "## Dificuldades com significado"
+        ]
+      },
+      {
+        "traco": "Blocos curtos: parágrafos de 1 a 3 frases; o mais longo tem cerca de 80 palavras",
+        "frequencia": "frequente",
+        "ocorrencias": 55,
+        "evidencias": [
+          "São dezenas de horas na cadeira, torturando e sendo torturado por números.",
+          "Talvez o seu difícil nem seja esse."
+        ],
+        "contraexemplo": "Se você não escolhe conscientemente quais pesos vai levantar — quais músculos quer desenvolver —, alguém decide por você."
+      },
+      {
+        "traco": "Duas imagens sem legenda (uma logo após o primeiro subtítulo, outra após a cadeia de Peterson); nenhuma tabela, gráfico, código ou pullquote",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "![](img-01)",
+          "![](img-02)"
+        ]
+      },
+      {
+        "traco": "Encerramento padrão: botão Compartilhar, separadores '* * *' e aviso legal inteiro em itálico",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "* * *",
+          "*Os textos publicados na Syntaxis expressam exclusivamente minhas opiniões pessoais, formadas a partir da minha experiência profissional"
+        ]
+      }
+    ]
+  },
+  "antipadroes_observados": [
+    "(a) Nunca neste arquivo: ponto de exclamação, ponto-e-vírgula, reticências, aspas duplas, lista com marcadores ou numerada, tabela, fórmula, bloco de código, emoji, link no corpo (só o botão de CTA), dado numérico com fonte.",
+    "(a) Nunca cita literalmente: toda menção a Peterson é paráfrase; a única citação em bloco atribuída é reformulação declarada ('O princípio está mais próximo de:').",
+    "(b) Antítese de correção 'Não é X. É Y.' / 'nunca foi X. Foi Y.' em ~6 ocorrências, padrão comum em texto gerado por IA em pt-BR; aqui em frases curtas e concretas: 'A questão nunca foi sofrer mais. Foi não fugir da dificuldade necessária.'",
+    "(b) Fórmula de transição repetida 'E é aqui que mora' (2x), com variantes de 'aqui' somando 4: 'E é aqui que mora um detalhe que o mercado raramente reforça'.",
+    "(b) Densidade alta de travessão (21 em ~1.570 palavras de corpo), marca frequentemente associada a texto gerado por IA.",
+    "(b) Fecho conclusivo do tipo 'não é coincidência... é consequência de X, não o motivo': 'é consequência de escolher certo, não o motivo para escolher.'"
+  ],
+  "incerteza": "Texto único de ~1.590 palavras, abaixo do piso de ~5.000 por amostra. Época pipeline: o texto passou pelo sistema editorial antes da edição final do autor, então não dá para separar traço do autor de traço introduzido pelo pipeline, sobretudo travessões, antíteses 'Não é X. É Y.' e frases-sentença em negrito. section_name é null no frontmatter, então a linha editorial não está declarada (o tema é carreira). Erros de digitação publicados ('Ficarprocrastinando', 'reune', 'conteto', ponto final ausente após 'modelo probabilístico sério', 'derivativos—,' sem espaço) indicam revisão final leve, mas não dizem se vêm do autor ou do pipeline. Duas quebras de linha no meio de frase ('antes de / decorar', 'difícil de / automatizar') parecem artefato de captura. Sem fórmula, tabela ou gráfico: o eixo técnico só mostra como o autor nomeia e glosa conceitos, não como apresenta notação. As imagens não têm legenda e seu conteúdo é desconhecido."
+}

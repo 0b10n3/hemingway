@@ -1,0 +1,666 @@
+{
+  "arquivo": "estilo/corpus/publicados/voce-esta-contando-os-dias-errado.md",
+  "genero": "substack",
+  "palavras": 2825,
+  "eixos": {
+    "lexico": [
+      {
+        "traco": "Campo semântico dominante de renda fixa brasileira e operação de mesa (taxa, dias úteis, liquidação, vencimento, PU, marcação, ajuste, pregão); na seção prática entra o vocabulário de programação Python.",
+        "frequencia": "sempre",
+        "ocorrencias": 60,
+        "evidencias": [
+          "Aqui, *du* é o número de dias úteis entre a data de liquidação (inclusive) e a data de vencimento (exclusive).",
+          "Numa carteira de R$ 100 milhões, a mesma confusão gera uma divergência entre R$ 96,9 mil e R$ 218,2 mil na marcação"
+        ]
+      },
+      {
+        "traco": "Termo técnico, sigla ou jargão de mercado vem glosado na primeira ocorrência, por aposto entre parênteses (muitas vezes com artigo definido: 'o título...', 'a taxa...'). As exceções são instituições tratadas como conhecidas.",
+        "frequencia": "frequente",
+        "ocorrencias": 15,
+        "evidencias": [
+          "Uma LTN (Letra do Tesouro Nacional, o título público prefixado)",
+          "na marcação (o valor atribuído todo dia a cada título da carteira)",
+          "São os dias de pregão (a sessão de negociação da B3)."
+        ],
+        "contraexemplo": "B3 e ANBIMA nunca são expandidas; \"nos contratos DDI e FRC\" fica sem glosa."
+      },
+      {
+        "traco": "Anglicismos: nome de convenção internacional fica em inglês e sem itálico (Actual/360, Actual/Actual); termo genérico estrangeiro vai em itálico, às vezes com tradução ou glosa ao lado.",
+        "frequencia": "ocasional",
+        "ocorrencias": 6,
+        "evidencias": [
+          "Essa é a **convenção de contagem** de dias (*day count*).",
+          "Se o ambiente não deixa instalar pacotes além da *stack* de dados",
+          "Os *Treasuries* (os títulos públicos americanos) usam **Actual/Actual**"
+        ]
+      },
+      {
+        "traco": "Registro culto com coloquialismos brasileiros intercalados a termos normativos ('tanto faz', 'na mão', 'gente boa', 'pegadinha', 'mesa', 'o júnior').",
+        "frequencia": "frequente",
+        "ocorrencias": 8,
+        "evidencias": [
+          "Para a conta, tanto faz",
+          "dá para fazer na mão",
+          "Quatro armadilhas que já vi em código de gente boa."
+        ]
+      },
+      {
+        "traco": "Prefere o verbo 'usar' a 'utilizar' (9 contra 1); a única forma com 'utilizar' aparece num subtítulo.",
+        "frequencia": "frequente",
+        "ocorrencias": 9,
+        "evidencias": [
+          "Quanto custa usar a régua errada",
+          "Ou seja: até a bolsa usa o calendário bancário para contar juros."
+        ],
+        "contraexemplo": "## Na prática: Utilizando Python sem cair em armadilhas"
+      },
+      {
+        "traco": "Palavras de trabalho recorrentes que funcionam como vocabulário próprio do texto: 'conta' (cálculo), 'pontas' (extremos do intervalo), 'armadilha'/'pegadinha' (erro comum).",
+        "frequencia": "frequente",
+        "ocorrencias": 12,
+        "evidencias": [
+          "Ninguém errou a conta.",
+          "E as pontas? A data inicial entra? A final sai?",
+          "a pior pegadinha de calendário que você já encontrou"
+        ]
+      },
+      {
+        "traco": "Mistura coloquial dos pronomes 'te' e 'você' para se dirigir ao mesmo leitor.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Se este texto te poupou uma conta errada, encaminhe para quem está começando na mesa."
+        ]
+      },
+      {
+        "traco": "Marca o valor hipotético com 'digamos' intercalado entre vírgulas.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "comprada a, digamos, 12% ao ano"
+        ]
+      }
+    ],
+    "sintaxe": [
+      {
+        "traco": "Frases curtas em média (cerca de 14 palavras, mediana 13, em 146 frases de prosa), com alternância forte: umas 20 frases de até 5 palavras e umas 8 acima de 30.",
+        "frequencia": "sempre",
+        "ocorrencias": 146,
+        "evidencias": [
+          "Faltaram três.",
+          "Quase.",
+          "Dentro da própria B3, o cupom cambial (o juro em dólar, negociado nos contratos DDI e FRC) é cotado em taxa linear"
+        ]
+      },
+      {
+        "traco": "Frase curta isolada num parágrafo próprio como golpe ou conclusão logo depois de uma explicação; às vezes duas ou três em sequência.",
+        "frequencia": "frequente",
+        "ocorrencias": 12,
+        "evidencias": [
+          "A taxa é a mesma.",
+          "Mesmo dinheiro, quatro números.",
+          "Errado é ler um número com a régua do outro."
+        ]
+      },
+      {
+        "traco": "Moldura de negação seguida de afirmação corretiva ('não é X. É Y.' / 'X é A, não B').",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "Uma taxa de juros, sozinha, não é informação completa. É um número esperando uma régua.",
+          "Repare no detalhe: 252 é uma convenção, não uma contagem.",
+          "O fim de semana não é de graça. Ele está embutido no período da sexta."
+        ]
+      },
+      {
+        "traco": "Paralelismo e anáfora em pares de frases de estrutura idêntica, sobretudo para contrastar cenários numéricos.",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "Ninguém errou a conta. Ninguém ficou com a diferença.",
+          "Num ano com 249, você recebe 1,12^(249/252) − 1 = 11,85%. Num ano com 253, como foi 2024, receberia 12,05%."
+        ]
+      },
+      {
+        "traco": "Adjunto de âmbito, lugar ou tempo anteposto à oração principal, que fica no fim da frase.",
+        "frequencia": "frequente",
+        "ocorrencias": 15,
+        "evidencias": [
+          "Na renda fixa brasileira em reais, a combinação padrão é régua **DU/252** com **motor composto**.",
+          "Lá fora, o juro não descansa",
+          "Na maior parte do ano, os dois coincidem."
+        ]
+      },
+      {
+        "traco": "Frase iniciada pela conjunção 'E' para acrescentar uma etapa, uma pergunta ou uma ressalva.",
+        "frequencia": "frequente",
+        "ocorrencias": 11,
+        "evidencias": [
+          "E de onde vem o 252? De uma decisão do Banco Central.",
+          "Quase. E o *quase* importa, porque eles respondem a perguntas diferentes.",
+          "E, na média, ele é menor do que a convenção."
+        ]
+      },
+      {
+        "traco": "As frases longas crescem por parênteses explicativos encaixados (cerca de 37 na prosa), não por cadeias de subordinação.",
+        "frequencia": "frequente",
+        "ocorrencias": 37,
+        "evidencias": [
+          "A exceção foram os CDBs prefixados registrados por valor final (em que o emissor registra o valor de emissão e o de resgate",
+          "o ajuste (o acerto diário de ganhos e perdas do contrato) acumula mais de uma Taxa DI"
+        ]
+      },
+      {
+        "traco": "Oração condicional com 'Se' abrindo a frase para endereçar a situação concreta do leitor.",
+        "frequencia": "ocasional",
+        "ocorrencias": 6,
+        "evidencias": [
+          "Se o seu código usa o calendário da B3, ele tem dois meses de vida.",
+          "Se essa frase soou estranha, este texto é para você."
+        ]
+      }
+    ],
+    "pontuacao": [
+      {
+        "traco": "Dois-pontos são o articulador principal (cerca de 45 na prosa, 11 fechando a linha antes de lista, fórmula ou imagem). Padrão recorrente: um rótulo curto seguido de dois-pontos ('Em outras palavras:', 'Ou seja:', 'Em números:', 'Repare no detalhe:', 'Uma nota histórica:', 'A regra prática:').",
+        "frequencia": "sempre",
+        "ocorrencias": 45,
+        "evidencias": [
+          "Em outras palavras: no mercado brasileiro, o ‘dia’ financeiro não tem 24 horas.",
+          "Ou seja: até a bolsa usa o calendário bancário para contar juros.",
+          "O remédio é simples: leve a data de vencimento para o dia útil seguinte (`following`) antes de contar."
+        ]
+      },
+      {
+        "traco": "Travessão ausente da prosa (zero ocorrências): as interpolações vão para parênteses e os desdobramentos para dois-pontos. O travessão só aparece na bibliografia e num comentário de código.",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": [
+          "Dentro da própria B3, o cupom cambial (o juro em dólar, negociado nos contratos DDI e FRC) é cotado em taxa linear"
+        ],
+        "contraexemplo": "capítulo 6 — as réguas do mercado americano"
+      },
+      {
+        "traco": "Aspas tipográficas do site em dois níveis. As duplas curvas (“ ”, 8 pares) marcam a expressão de mercado citada ou o termo de documento; as simples curvas (‘ ’, 7 pares) marcam palavra em sentido especial ou distanciado e a pergunta interna.",
+        "frequencia": "frequente",
+        "ocorrencias": 15,
+        "evidencias": [
+          "“No Brasil é 252 composto, lá fora é 360 linear” soa como uma coisa só.",
+          "existe uma única ‘diária’ cobrindo sexta, sábado e domingo.",
+          "vai ‘perder’ dois dias úteis, cerca de R$ 90 no mês."
+        ],
+        "contraexemplo": "existem dois calendários *oficiais* circulando (o distanciamento vai em itálico, não em aspas)"
+      },
+      {
+        "traco": "Ponto e vírgula é raro (2 na prosa) e aparece em contraste com elipse do verbo.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Entra na contagem o dia em que o dinheiro sai; o dia em que ele volta, não."
+        ]
+      },
+      {
+        "traco": "A quebra de parágrafo cai logo depois da frase-golpe ou da conclusão, que fica sozinha; a explicação seguinte abre parágrafo novo.",
+        "frequencia": "sempre",
+        "ocorrencias": 26,
+        "evidencias": [
+          "Régua e motor são peças independentes.",
+          "Trocar uma não troca a outra."
+        ]
+      },
+      {
+        "traco": "Listas para itens paralelos (7 com marcador, 2 numeradas), sempre introduzidas por frase terminada em dois-pontos; os itens seguem o padrão 'rótulo: conteúdo'. O argumento fica em prosa corrida.",
+        "frequencia": "frequente",
+        "ocorrencias": 9,
+        "evidencias": [
+          "- Valor aplicado: R$ 100.000,00",
+          "Quatro perguntas para fazer a qualquer taxa que chegar à sua mesa:",
+          "- Para acumular juros e precificar renda fixa: calendário ANBIMA."
+        ]
+      }
+    ],
+    "arquitetura": [
+      {
+        "traco": "Abre com um caso numérico concreto que forma um enigma (taxa de 12% que entrega 11,85%), descarta culpados e só depois revela a causa: o caso vem antes do conceito. É a única abertura do arquivo.",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Levada até lá, entrega 11,85% no período.",
+          "Ninguém errou a conta. Ninguém ficou com a diferença.",
+          "Acontece que 2026 tem 249 dias úteis."
+        ]
+      },
+      {
+        "traco": "Logo depois do gancho, declara o público em dois níveis: quem não sabe e quem sabe e pode repassar.",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Se essa frase soou estranha, este texto é para você.",
+          "e soou óbvia, talvez ele seja para o júnior que senta do seu lado."
+        ]
+      },
+      {
+        "traco": "Exemplos-âncora atravessam o texto e são retomados de forma explícita, com possessivo 'nossa/nosso': a LTN da abertura e um CDB numérico. O código Python reproduz o número dado na prosa.",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "É daí que vem a LTN do começo do texto.",
+          "No nosso CDB, isso viraria 43 dias úteis em vez de 40, e um resgate R$ 137 acima do contratado.",
+          "A nossa LTN vence em 1º de janeiro de 2027, que é feriado"
+        ]
+      },
+      {
+        "traco": "Progressão das seções: problema (pergunta) → modelo (metáfora) → mecanismo e história → custo em reais → distinção prática → código → extensões → checklist de fecho → bibliografia. São 9 H2 (cerca de um a cada 300 palavras) e 6 H3, todos na seção prática.",
+        "frequencia": "sempre",
+        "ocorrencias": 9,
+        "evidencias": [
+          "## “12% ao ano” de quê?",
+          "## Quanto custa usar a régua errada",
+          "## Antes de perguntar quanto rende"
+        ]
+      },
+      {
+        "traco": "Sustenta cada distinção conceitual com o custo em reais e escala o valor do investidor individual (R$ 100 mil) para a carteira institucional (R$ 100 milhões).",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Num CDB de R$ 100 mil, a régua errada promete entre R$ 97 e R$ 218 que o contrato não vai pagar.",
+          "Numa carteira de R$ 100 milhões, R$ 90 mil."
+        ]
+      },
+      {
+        "traco": "Depois do cálculo direto, aprofunda invertendo a pergunta.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Inverta a pergunta: qual taxa, em cada régua, produz exatamente os R$ 1.815,15 de juros que esse CDB paga?"
+        ]
+      },
+      {
+        "traco": "No miolo, o conceito ou a fórmula vem antes, e o exemplo numérico entra anunciado por frase de transição curta.",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "Vamos a um exemplo concreto. Um **CDB prefixado**:",
+          "Agora a parte que eu acho mais curiosa.",
+          "Com isso em mente, os dois caminhos limpos para o dia a dia:"
+        ],
+        "contraexemplo": "Na abertura, o caso da LTN vem antes de qualquer conceito."
+      },
+      {
+        "traco": "Fecho em cinco passos: tese destilada numa máxima que retoma a metáfora, checklist numerado de perguntas, frase de reconhecimento a quem domina o assunto, ponte para o próximo texto da série e CTA.",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Se fosse para levar uma única ideia deste texto: antes de perguntar quanto rende, pergunte em que régua.",
+          "Este texto foi um parêntese de ferramenta. O próximo volta à série de crédito com o FIDC"
+        ]
+      },
+      {
+        "traco": "Depois de um separador vem uma seção de referências comentadas (autor, título em itálico, edição, editora, ano, travessão e a função da obra), seguida de aviso legal.",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": [
+          "## Para continuar aprendendo",
+          "capítulo 6 — as réguas do mercado americano"
+        ]
+      },
+      {
+        "traco": "Remete ao próprio corpo de textos: série em andamento, promessa feita num post anterior e referência interna a outra seção.",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "como ficou prometido no texto das debêntures.",
+          "O `bizdays` (biblioteca Python que já traz os calendários ANBIMA e B3, apresentada no Caminho A)"
+        ]
+      }
+    ],
+    "figuras": [
+      {
+        "traco": "Metáfora-mestra estendida, de domínio instrumental e mecânico: contagem de dias = régua, capitalização = motor. Vem definida de forma explícita, em itálico na introdução; vira vocabulário técnico em listas e subtítulo e é retomada na máxima de fecho (régua 16 vezes, motor 7).",
+        "frequencia": "sempre",
+        "ocorrencias": 23,
+        "evidencias": [
+          "Pense na contagem de dias como uma *régua*. Ela recebe duas datas e devolve uma fração de ano",
+          "A capitalização é o *motor*.",
+          "antes de perguntar quanto rende, pergunte em que régua."
+        ]
+      },
+      {
+        "traco": "Segunda família de figuras, do domínio do tempo: o juro como algo que corre, para ou descansa; o 'relógio' aparece em subtítulos.",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "Por que o relógio para no sábado",
+          "Lá fora, o juro não descansa",
+          "O terceiro relógio é a rolagem"
+        ]
+      },
+      {
+        "traco": "Personificação breve de objetos técnicos (número, calendário, código), com humor seco.",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": [
+          "É um número esperando uma régua.",
+          "o calendário continua não colaborando",
+          "Se o seu código usa o calendário da B3, ele tem dois meses de vida."
+        ]
+      },
+      {
+        "traco": "Figuras curtas do cotidiano, sem extensão: data de validade, remédio, armadilha, de graça.",
+        "frequencia": "ocasional",
+        "ocorrencias": 5,
+        "evidencias": [
+          "### Armadilha 4: o calendário tem data de validade",
+          "O remédio é simples",
+          "O fim de semana não é de graça."
+        ]
+      }
+    ],
+    "postura": [
+      {
+        "traco": "Primeira pessoa do singular pontual, de praticante (escolha de notação, o que o ajudou a entender, o que já viu, o momento da escrita), sem autobiografia.",
+        "frequencia": "ocasional",
+        "ocorrencias": 6,
+        "evidencias": [
+          "que vou chamar de τ (tau)",
+          "A explicação que mais me ajudou não está em nenhuma fórmula.",
+          "Quatro armadilhas que já vi em código de gente boa."
+        ]
+      },
+      {
+        "traco": "Primeira pessoa do plural inclusiva para conduzir o leitor e retomar o que já foi mostrado.",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "Vamos a um exemplo concreto.",
+          "Já vimos o custo acima.",
+          "Na renda fixa, já vimos, a data vai para o dia útil seguinte"
+        ]
+      },
+      {
+        "traco": "A autoridade se apoia em fonte nomeada (norma com número, órgão, economista, documento da B3) e em cálculo verificável, nunca em credencial declarada.",
+        "frequencia": "frequente",
+        "ocorrencias": 8,
+        "evidencias": [
+          "A Circular BCB nº 2.761, de junho de 1997, mudou a forma de expressar a taxa para anual",
+          "o economista Márcio Garcia (PUC-Rio) já apontava que 1998 teria 249 dias úteis",
+          "A própria B3 faz essa separação no contrato futuro de DI."
+        ]
+      },
+      {
+        "traco": "Não culpa quem erra: trata a confusão como algo estrutural do mercado e do ensino, não como falha individual.",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "Ninguém errou a conta.",
+          "O mercado mistura as duas o tempo todo, inclusive em sala de aula.",
+          "Nenhum está errado."
+        ]
+      },
+      {
+        "traco": "Admite nuance com quantificador preciso ('quase', 'cerca de', 'praticamente', 'na maioria'), não com hedge de opinião ('acredito', 'parece').",
+        "frequencia": "ocasional",
+        "ocorrencias": 5,
+        "evidencias": [
+          "Quase. E o *quase* importa, porque eles respondem a perguntas diferentes.",
+          "cerca de R$ 90 no mês",
+          "Como praticamente toda a renda fixa em reais é precificada a partir do DI e da Selic"
+        ]
+      },
+      {
+        "traco": "Humor seco e esparso, embutido na constatação, sem piada armada.",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": [
+          "Ninguém ficou com a diferença.",
+          "Quem planejou rolar a posição na sexta vai encontrar a série já vencida.",
+          "talvez ele seja para o júnior que senta do seu lado."
+        ]
+      }
+    ],
+    "leitor": [
+      {
+        "traco": "Trata o leitor por 'você' e o imagina lidando com taxa e código no trabalho ('sua mesa', 'seu código').",
+        "frequencia": "sempre",
+        "ocorrencias": 10,
+        "evidencias": [
+          "Se você acumular os juros de um CDB de R$ 100 mil a 12% usando o calendário da B3",
+          "Quatro perguntas para fazer a qualquer taxa que chegar à sua mesa:",
+          "Se o seu código usa o calendário da B3, ele tem dois meses de vida."
+        ]
+      },
+      {
+        "traco": "Conhecimento prévio pressuposto de forma assimétrica: em finanças explica desde a sigla, mas pressupõe fluência em Python. numpy e pandas entram sem apresentação; só a biblioteca nova é apresentada.",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "Sem a lista de feriados, `numpy.busday_count` e `pandas.bdate_range` só tiram sábado e domingo."
+        ],
+        "contraexemplo": "O `bizdays` (biblioteca Python que já traz os calendários ANBIMA e B3, apresentada no Caminho A)"
+      },
+      {
+        "traco": "Imperativos que conduzem o raciocínio (Pense, Repare, Inverta, veja, Confira) e imperativos de ação no fecho (pergunte, encaminhe, conte).",
+        "frequencia": "frequente",
+        "ocorrencias": 9,
+        "evidencias": [
+          "Repare no detalhe: 252 é uma convenção, não uma contagem.",
+          "Agora veja o que acontece quando o mesmo número, 12%, é lido com réguas e motores diferentes:",
+          "Confira:"
+        ]
+      },
+      {
+        "traco": "Pergunta retórica respondida logo em seguida, muitas vezes com fragmento ou palavra única; aparece também em subtítulo.",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "E de onde vem o 252? De uma decisão do Banco Central.",
+          "São o mesmo?",
+          "## “12% ao ano” de quê?"
+        ]
+      },
+      {
+        "traco": "Nomeia subgrupos de leitores com 'quem + verbo' (quem programa, quem vai automatizar, quem está começando).",
+        "frequencia": "frequente",
+        "ocorrencias": 7,
+        "evidencias": [
+          "Quem vai automatizar processos que envolvem a contagem de dias úteis esbarra cedo numa dúvida",
+          "Três notas rápidas para quem quer **enxergar além do DU/252**."
+        ]
+      },
+      {
+        "traco": "Chamada para ação só no fim, dupla e condicionada ao benefício: encaminhar e comentar com uma experiência própria. Sem pedido de assinatura e sem botão [[CTA]] neste arquivo.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Se este texto te poupou uma conta errada, encaminhe para quem está começando na mesa.",
+          "E me conte, nos comentários, a pior pegadinha de calendário que você já encontrou."
+        ]
+      }
+    ],
+    "tecnico": [
+      {
+        "traco": "Fórmula em destaque ($$…$$, LaTeX) introduzida por frase terminada em dois-pontos e seguida de glosa em português: primeiro a definição técnica da variável, depois a tradução em linguagem comum.",
+        "frequencia": "frequente",
+        "ocorrencias": 2,
+        "evidencias": [
+          "A fórmula é:",
+          "Aqui, *du* é o número de dias úteis entre a data de liquidação (inclusive) e a data de vencimento (exclusive).",
+          "Entra na contagem o dia em que o dinheiro sai; o dia em que ele volta, não."
+        ]
+      },
+      {
+        "traco": "Fórmulas curtas também aparecem dentro de item de lista e no texto corrido sem marcação, com operadores tipográficos (÷, ×, −) e letra grega nomeada por extenso. A notação não é uniforme ('Fator' sem \\text na lista, com \\text no destaque).",
+        "frequencia": "ocasional",
+        "ocorrencias": 5,
+        "evidencias": [
+          "- Régua brasileira, DU/252: τ = dias úteis ÷ 252.",
+          "Num ano com 249, você recebe 1,12^(249/252) − 1 = 11,85%.",
+          "$$ Fator = (1 + i)^τ $$"
+        ],
+        "contraexemplo": "$$ \\text{Fator} = (1 + i)^{du/252} $$"
+      },
+      {
+        "traco": "Norma citada com espécie, número, ano e órgão na primeira menção (com link para o texto oficial ou entre parênteses); nas menções seguintes, forma curta.",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "A Circular BCB nº 2.761, de junho de 1997, mudou a forma de expressar a taxa para anual",
+          "E, desde 2024, o 20 de novembro virou feriado nacional (Lei nº 14.759/2023), então hoje ele fecha os dois calendários.",
+          "define “Dia Útil” pela Resolução CMN 4.880"
+        ]
+      },
+      {
+        "traco": "Dado datado com marca temporal explícita: versão de biblioteca, 'enquanto escrevo', 'hoje' e marcos históricos ('até 2021', 'a partir de 2022', 'desde 2024').",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "Na versão 1.0.19 do `bizdays`, a mais recente no PyPI (o repositório de pacotes do Python) enquanto escrevo",
+          "A diferença que vale hoje está no fim de ano.",
+          "Uma nota histórica: até 2021, a B3 não tinha pregão nos feriados de São Paulo"
+        ]
+      },
+      {
+        "traco": "Tabela e gráfico entram como imagem (4 imagens), nunca como tabela markdown. A imagem é anunciada por frase terminada em dois-pontos e seguida de uma frase que extrai a conclusão (em negrito num dos casos).",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "Quase três décadas depois, o calendário continua não colaborando:",
+          "**Entre 2001 e 2030, só três anos têm exatamente 252 dias úteis**: 2004, 2025 e 2030.",
+          "Agora veja o que acontece quando o mesmo número, 12%, é lido com réguas e motores diferentes:"
+        ]
+      },
+      {
+        "traco": "Exemplo numérico completo: dados em lista (valor, taxa, datas com dia da semana), contagem justificada com os feriados nomeados, resultado com centavos e conferência no código.",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": [
+          "- Aplicação: 01/10/2026 (quinta-feira)",
+          "Tirando sábados, domingos e esses três feriados, com a aplicação incluída e o vencimento excluído, sobram 40 dias úteis.",
+          "# 40 101815.15"
+        ]
+      },
+      {
+        "traco": "Código Python em blocos curtos (5), com comentários e nomes de variável em português e a saída esperada como comentário. Cerca de linguagem inconsistente: 2 blocos com ```python, 3 só com ```.",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "vencimento = cal.following(\"2026-12-01\")  # garante que a ponta final é dia útil",
+          "# 43 — contou 12/10, 02/11 e 20/11 como dias úteis",
+          "# Feriados bancários nacionais de 2026 (Resolução CMN 4.880/2020 + Lei 14.759/2023)"
+        ]
+      },
+      {
+        "traco": "Números no padrão pt-BR: vírgula decimal, 'R$' com espaço, 'mil/milhões' por extenso em valor redondo e centavos em valor exato. Datas por extenso na prosa e dd/mm/aaaa em dado de lista.",
+        "frequencia": "frequente",
+        "ocorrencias": 30,
+        "evidencias": [
+          "Num CDB de R$ 100 mil, a régua errada promete entre R$ 97 e R$ 218 que o contrato não vai pagar.",
+          "vence em 1º de janeiro de 2027",
+          "- Aplicação: 01/10/2026 (quinta-feira)"
+        ],
+        "contraexemplo": "o feriado de 20/11 (formato dd/mm também na prosa)"
+      }
+    ],
+    "formatacao": [
+      {
+        "traco": "Negrito em 10 trechos: termo-chave no momento da definição, nome de convenção e uma frase-conclusão de dado ou de regra. Nunca um parágrafo inteiro.",
+        "frequencia": "frequente",
+        "ocorrencias": 10,
+        "evidencias": [
+          "Essa é a **convenção de capitalização**: linear ou composta.",
+          "**Entre 2001 e 2030, só três anos têm exatamente 252 dias úteis**: 2004, 2025 e 2030.",
+          "**Nas opções sobre ações da B3, ela é antecipada**."
+        ],
+        "contraexemplo": "os títulos corporativos usam **30/360** e o mercado monetário usa Actual/360 (mesma enumeração, sem negrito no terceiro item)"
+      },
+      {
+        "traco": "Itálico (cerca de 12 no corpo, mais títulos de obra e o aviso legal) para palavra estrangeira, termo da metáfora na introdução, ênfase em palavra única retomada como menção, variável matemática e pergunta interna combinada com aspas simples.",
+        "frequencia": "frequente",
+        "ocorrencias": 12,
+        "evidencias": [
+          "Quase. E o *quase* importa, porque eles respondem a perguntas diferentes.",
+          "existem dois calendários *oficiais* circulando",
+          "O calendário ANBIMA responde: *‘o juro correu hoje?’*"
+        ]
+      },
+      {
+        "traco": "Código inline (`…`) para nome de função, biblioteca, parâmetro e exceção, também no meio da prosa e em subtítulo.",
+        "frequencia": "frequente",
+        "ocorrencias": 14,
+        "evidencias": [
+          "O `inclusive=\"left\"` é o ‘aplicação inclusive, vencimento exclusive’ escrito em pandas.",
+          "### Caminho A: `bizdays`"
+        ]
+      },
+      {
+        "traco": "Subtítulos H2 curtos, com só a inicial maiúscula, metade figurativos ou em forma de pergunta. H3 só na seção prática, no formato 'Rótulo N: descrição em minúscula'.",
+        "frequencia": "sempre",
+        "ocorrencias": 15,
+        "evidencias": [
+          "## A régua e o motor",
+          "### Armadilha 3: as pontas",
+          "## ANBIMA ou B3? Duas perguntas diferentes"
+        ],
+        "contraexemplo": "## Na prática: Utilizando Python sem cair em armadilhas (maiúscula após dois-pontos)"
+      },
+      {
+        "traco": "Título provocativo em segunda pessoa; o subtítulo começa em minúscula e continua a mesma frase.",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Você está contando os dias errado ",
+          "e isso pode estar custando dinheiro"
+        ]
+      },
+      {
+        "traco": "Blocos curtos: em média 2 frases por parágrafo, 26 de 71 parágrafos de prosa com uma frase só; os maiores têm 5 ou 6 frases (nota histórica, outros relógios).",
+        "frequencia": "sempre",
+        "ocorrencias": 71,
+        "evidencias": [
+          "A taxa é a mesma.",
+          "O ano é que muda de tamanho."
+        ]
+      },
+      {
+        "traco": "Imagens sem legenda (alt vazio), quatro ao longo do texto, a primeira logo antes da abertura.",
+        "frequencia": "sempre",
+        "ocorrencias": 4,
+        "evidencias": [
+          "![](img-02)"
+        ]
+      },
+      {
+        "traco": "Links inline ancorados numa expressão descritiva da frase, inclusive para post anterior da própria Substack. Nunca 'clique aqui'.",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "e nas [debêntures](https://syntaxis.substack.com/p/renda-fixa-condicoes-variaveis)",
+          "A [biblioteca de Wilson Freitas](https://pypi.org/project/bizdays) foi feita para essa realidade."
+        ]
+      },
+      {
+        "traco": "Separador '* * *' duas vezes (antes da bibliografia e antes do aviso legal); aviso legal inteiro em itálico. Sem [[PULLQUOTE]], sem [[CTA]] e sem citação em bloco.",
+        "frequencia": "sempre",
+        "ocorrencias": 2,
+        "evidencias": [
+          "* * *",
+          "*Os textos publicados na Syntaxis expressam exclusivamente minhas opiniões pessoais"
+        ]
+      }
+    ]
+  },
+  "antipadroes_observados": [
+    "(a) Nenhum ponto de exclamação na prosa (0 ocorrências).",
+    "(a) Nenhum travessão na prosa (0); o sinal só aparece na bibliografia e num comentário de código.",
+    "(a) Nenhuma tabela markdown: toda comparação tabular vira imagem ou lista.",
+    "(a) Nenhuma citação em bloco, [[PULLQUOTE]] ou botão [[CTA]] neste arquivo.",
+    "(a) Nenhum hedge de opinião ('acredito', 'na minha opinião', 'parece que'); a incerteza vem sempre quantificada.",
+    "(a) Nenhum roteiro anunciado na abertura ('neste texto vamos ver...'): abre direto no caso numérico.",
+    "(a) Nunca atribui o erro a uma pessoa ou instituição nomeada; a confusão é tratada como estrutural.",
+    "(b) Possível tique de texto gerado por IA, frequente: a moldura de contraste 'não é X. É Y.' aparece 6 vezes, por exemplo em 'Uma taxa de juros, sozinha, não é informação completa. É um número esperando uma régua.'",
+    "(b) Possível tique: empilhamento de frases-golpe em parágrafos de uma linha, como em 'Mesmo dinheiro, quatro números.' / 'Nenhum está errado.' / 'Errado é ler um número com a régua do outro.'",
+    "(b) Possível tique de fecho: a fórmula de síntese 'Se fosse para levar uma única ideia deste texto:' e o reconhecimento ao leitor em 'Quem responde às quatro sem hesitar já entendeu algo que muita gente experiente só sabe aplicar no automático.'"
+  ],
+  "incerteza": "Amostra única, com cerca de 2.460 palavras de prosa sem código e sem bibliografia (2.825 no corpo; o frontmatter registra 2.829), abaixo do piso de 5.000 recomendado para confiança alta. A época é 'pipeline': o texto passou pelo sistema editorial antes da edição do autor, e não dá para separar o que ele escreveu do que aceitou do pipeline. Isso pesa sobretudo nos tiques do item (b). Traços de abertura, fecho e título têm, por definição, uma ocorrência por arquivo. A sequência 'este texto é para você. S' / 'e soou óbvia' (quebra de parágrafo dentro da palavra 'Se') e o espaço no fim do título parecem erros de edição no site e não foram tratados como traço. O conteúdo das quatro imagens (tabelas e gráficos) não é visível no arquivo. section_name vem null, então a linha editorial não está confirmada no frontmatter. A seção 'Na prática' é escrita para programadores, o que pode inflar os traços de código e de notação em relação a outros posts. Contagens de frases e parágrafos são aproximadas, feitas por segmentação automática."
+}

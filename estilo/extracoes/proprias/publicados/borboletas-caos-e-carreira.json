@@ -1,0 +1,726 @@
+{
+  "arquivo": "estilo/corpus/publicados/borboletas-caos-e-carreira.md",
+  "genero": "substack",
+  "palavras": 2719,
+  "eixos": {
+    "lexico": [
+      {
+        "traco": "Campo semântico de matemática e sistemas dinâmicos (caos, condições iniciais, determinístico, trajetória, perturbação, regra do sistema, atrator) transposto como vocabulário para falar de carreira.",
+        "frequencia": "sempre",
+        "ocorrencias": 40,
+        "evidencias": [
+          "Você não escolhe os acasos. Mas escolhe a regra: os princípios que usa para reagir a cada perturbação.",
+          "São eles que definem o seu atrator.",
+          "Desanimar diante do acaso é trocar a regra do sistema por causa de uma perturbação."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Campo semântico do mercado financeiro usado como ambiente pressuposto do leitor (mesa, ação, modelo de crédito, cálculo estocástico, fundos quantitativos).",
+        "frequencia": "frequente",
+        "ocorrencias": 8,
+        "evidencias": [
+          "Quem trabalha em mesa conhece isso na pele.",
+          "entre estudar cálculo estocástico ou ficar no confortável.",
+          "A IA escreve o código do modelo de crédito em segundos."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Palavra-assinatura da série: 'os difíceis' (adjetivo substantivado no plural) como conceito próprio retomado do post anterior.",
+        "frequencia": "frequente",
+        "ocorrencias": 9,
+        "evidencias": [
+          "No último Spoiler, falei sobre os difíceis.",
+          "Escolha os difíceis que não se depreciam.",
+          "No tipo de difícil que você escolhe carregar todos os dias."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Termo técnico ou estrangeiro é definido ou glosado logo depois de introduzido, em frase própria iniciada por 'É'.",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "*resulting*. É a tendência de medir a qualidade de uma decisão pela qualidade do resultado.",
+          "É a famosa função logística, uma equação de segundo grau que qualquer aluno do ensino médio consegue compreender.",
+          "*planned happenstance*, algo como ‘acaso planejado’."
+        ],
+        "contraexemplo": "As funções mais procuradas no último ano foram desenvolvedor de software, engenheiro de IA, engenheiro de dados, arquiteto corporativo e engenheiro de DevOps."
+      },
+      {
+        "traco": "Registro culto com coloquialismos e expressões idiomáticas do português falado intercalados (na pele, passar raspando, ideia maluca, implicar com, pegando fogo).",
+        "frequencia": "frequente",
+        "ocorrencias": 10,
+        "evidencias": [
+          "Duas disciplinas em que passei raspando.",
+          "O Housel, aliás, implica com essa conversa de ‘aumentar a superfície da sorte’.",
+          "Formou-se em 2008, com o mundo pegando fogo e ninguém contratando"
+        ],
+        "contraexemplo": "Caos é uma propriedade de sistemas determinísticos."
+      },
+      {
+        "traco": "Anglicismos técnicos aceitos sem tradução nem itálico quando já correntes no mercado (analytics, big data, DevOps, MBA, framework); termo conceitual estrangeiro novo recebe itálico e glosa.",
+        "frequencia": "ocasional",
+        "ocorrencias": 7,
+        "evidencias": [
+          "investir cerca de R$ 3 bilhões em IA, analytics e big data neste ano.",
+          "entre um MBA e um mestrado",
+          "criou o que chamou de ‘framework de minimização de arrependimentos’"
+        ],
+        "contraexemplo": "*planned happenstance*, algo como ‘acaso planejado’."
+      },
+      {
+        "traco": "Sigla expandida entre parênteses na primeira menção em forma de sigla, mesmo quando o nome por extenso já apareceu antes.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "A Matemática da UFES (Universidade Federal do Espírito Santo) recebia 150 alunos por vestibular"
+        ],
+        "contraexemplo": "Num dia de inverno de 1961, um meteorologista do MIT resolveu economizar tempo."
+      }
+    ],
+    "sintaxe": [
+      {
+        "traco": "Frases curtas: média de cerca de 10,7 palavras por frase (mediana 9); cerca de 59 de 247 frases têm até 5 palavras; só 3 passam de 30.",
+        "frequencia": "sempre",
+        "ocorrencias": 247,
+        "evidencias": [
+          "Foi buscar um café.",
+          "Ficou. Fez o mestrado.",
+          "Fiquei como suplente. Não entrei."
+        ],
+        "contraexemplo": "Ficou famosa num artigo de 1976 na Nature, em que o biólogo Robert May mostrou que equações desse tipo aparecem em biologia"
+      },
+      {
+        "traco": "Frase curta isolada como parágrafo para ênfase, virada narrativa ou piada seca.",
+        "frequencia": "frequente",
+        "ocorrencias": 19,
+        "evidencias": [
+          "No Brasil.",
+          "E aí veio o pico do imponderável.",
+          "Mas o atrator, esse você escolhe."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Fragmentos nominais sem verbo em sequência, usados para listar ou resumir.",
+        "frequencia": "frequente",
+        "ocorrencias": 8,
+        "evidencias": [
+          "Tarefa rotineira. Relatório. Documento.",
+          "Previsível, controlável, corrigível com um ajuste no meio do caminho.",
+          "Um vestibular em que fiquei de suplente. Um curso escolhido sem saber por quê."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Paralelismo antitético em duas frases curtas de estrutura espelhada (X é A. Y é B).",
+        "frequencia": "frequente",
+        "ocorrencias": 9,
+        "evidencias": [
+          "Aleatoriedade é não saber a regra. Caos é saber a regra e, mesmo assim, não conseguir prever.",
+          "No caos, o erro não cresce somando. Cresce multiplicando.",
+          "Olhando para frente, a trajetória é imprevisível. Olhando para trás, ela parece inevitável."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Negação seguida de correção em frase separada ('Não é X. É Y').",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "Mas esse exemplo, tecnicamente, não é caos. É um erro linear.",
+          "Não é falta de computador. É a natureza do sistema.",
+          "O que você aumenta não é a sorte. É a sua exposição a ela."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Topicalização: complemento anteposto e separado por vírgula, às vezes retomado por pronome, em frase de fecho.",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": [
+          "A perturbação, você não controla. A regra, sim.",
+          "A trajetória exata, ninguém prevê.",
+          "Mas o atrator, esse você escolhe."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Anáfora em série de três (repete o início de frase três vezes seguidas).",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Não sabia, quando fiz uma iniciação científica sobre sistemas dinâmicos, que um dia usaria isso",
+          "Mas quem sabe se aquele modelo faz sentido? Quem percebe que a premissa de correlação está errada?",
+          "Vá aos seminários. Converse com gente de outras áreas. Aceite o café com o colega estrangeiro."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Pergunta curta respondida logo em seguida pelo próprio autor.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Por quê? Sinceramente, não sei até hoje.",
+          "Escolheu alinhado com quem quer ser? Se sim, a decisão foi boa."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Predomínio de coordenação e subordinadas curtas; frases começando por 'Mas' ou 'E' para quebrar o raciocínio.",
+        "frequencia": "frequente",
+        "ocorrencias": 14,
+        "evidencias": [
+          "E a primeira coisa que se aprende ali é que caos não é bagunça.",
+          "Mas ele nunca sai daquele formato.",
+          "Mas vão habitar o mesmo atrator."
+        ],
+        "contraexemplo": ""
+      }
+    ],
+    "pontuacao": [
+      {
+        "traco": "Nenhum travessão (— ou –) em cerca de 2.700 palavras; o inciso explicativo vai entre parênteses ou em frase separada.",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": [
+          "Os atalhos (decorar fórmulas, dominar uma ferramenta específica, apertar botão) são exatamente o que a IA vai comoditizar.",
+          "Os fundamentos (matemática, estatística, raciocínio sobre risco, entendimento de como os mercados funcionam)"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Dois-pontos como articulador principal: anuncia definição, resposta, lista ou exemplo (cerca de 20 ocorrências).",
+        "frequencia": "frequente",
+        "ocorrencias": 20,
+        "evidencias": [
+          "O que define o caos é outra coisa: a sensibilidade às condições iniciais.",
+          "A primeira: a sensibilidade às condições iniciais corta para os dois lados.",
+          "Jobs dizia que você precisa confiar em alguma coisa: intuição, destino, karma."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Aspas simples tipográficas (‘ ’) para fala citada, expressão mencionada e nome de conceito; nenhuma aspa dupla no texto. Se a citação termina em interrogação, a frase fecha sem ponto.",
+        "frequencia": "sempre",
+        "ocorrencias": 8,
+        "evidencias": [
+          "Virou sinônimo de ‘tudo está conectado’ ou de ‘qualquer coisa pode acontecer’.",
+          "Em vez de perguntar ‘foi sorte?’, pergunte ‘isso é repetível?’ Se você começasse amanhã do zero",
+          "‘Será que o bater de asas de uma borboleta no Brasil provoca um tornado no Texas?’"
+        ],
+        "contraexemplo": "A frase que ficou foi esta: você não consegue ligar os pontos olhando para frente; só olhando para trás."
+      },
+      {
+        "traco": "Ponto final até em interjeição coloquial; nenhum ponto de exclamação.",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": [
+          "Olha só. Pegue a regra mais simples possível:",
+          "Depois de 10 passos: 0,1478 contra 0,2492. Hmm."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Ponto e vírgula quase ausente (uma ocorrência, dentro de citação parafraseada).",
+        "frequencia": "evita",
+        "ocorrencias": 1,
+        "evidencias": [
+          "você não consegue ligar os pontos olhando para frente; só olhando para trás."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Quebra de parágrafo frequente: média de 2,8 frases por parágrafo, 19 de 88 parágrafos com uma frase só, máximo de 8 frases.",
+        "frequencia": "sempre",
+        "ocorrencias": 88,
+        "evidencias": [
+          "Guarde essa borboleta. Ela vai voltar.",
+          "Para falar de escolha, eu preciso antes falar de acaso."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Prosa corrida em vez de lista com marcadores, mesmo para enumerações (tipos de sorte, sequência de dados em parágrafos paralelos).",
+        "frequencia": "sempre",
+        "ocorrencias": 3,
+        "evidencias": [
+          "A sorte cega, que simplesmente acontece. A sorte de quem se movimenta muito e gera colisões.",
+          "Depois de 5 passos: 0,5854 contra 0,5815. Quase iguais."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Deslizes de vírgula pontuais: vírgula entre sujeito e verbo, e falta da vírgula que fecha um adjunto intercalado.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "A Pesquisa Febraban de Tecnologia Bancária 2026, mostra que os bancos brasileiros pretendem investir",
+          "Conseguiu um estágio num banco e, em dez minutos do primeiro dia soube que aquilo não era para ele."
+        ],
+        "contraexemplo": ""
+      }
+    ],
+    "arquitetura": [
+      {
+        "traco": "Abre com cena narrativa datada, com personagem real e detalhe banal, antes de nomear o conceito ou a tese.",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Num dia de inverno de 1961, um meteorologista do MIT resolveu economizar tempo.",
+          "Lorenz digitou o número arredondado. Uma diferença de uma parte em mil não teria importância."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Anuncia explicitamente que um elemento da abertura vai voltar e depois o retoma (plantio e retorno).",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Guarde essa borboleta. Ela vai voltar.",
+          "Foi aí que me lembrei da borboleta no Brasil."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Depois da cena, faz a ponte com o post anterior da série e só então declara a tese.",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Terminei prometendo que o próximo texto seria sobre como escolher.",
+          "Porque a verdade incômoda é que boa parte da sua carreira vai ser decidida por coisas que você não controla."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Sustenta nesta ordem: conceito correto, correção de exemplo popular, demonstração numérica, relato pessoal, objeção, princípios numerados.",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Você já deve ter ouvido o exemplo do avião",
+          "Agora rode a equação duas vezes.",
+          "Eu me sinto à vontade para olhar o início da minha trajetória assim: como um sistema caótico."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Objeção do leitor tratada numa seção própria com subtítulo em forma de pergunta, respondida em duas partes numeradas por extenso.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Aqui mora a tentação. Se o acaso manda tanto, por que se esforçar?",
+          "A matemática do caos tem duas respostas para isso.",
+          "A segunda resposta é mais elegante."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Ressalva metodológica antes da parte prescritiva, delimitando o alcance dos conselhos.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Só um cuidado antes de seguir. Princípio não é previsão. Nenhum dos cinco abaixo promete um resultado."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Cada princípio segue o mesmo molde: autoridade externa com nome e credencial, transposição ao mercado, aplicação à carreira do leitor.",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "Annie Duke, ex-campeã mundial de pôquer, deu nome a um dos erros mais comuns de quem trabalha com mercado",
+          "John Krumboltz, professor de Stanford, passou anos estudando o papel do acaso nas carreiras",
+          "Com a carreira é a mesma coisa."
+        ],
+        "contraexemplo": "Desanimar diante do acaso é trocar a regra do sistema por causa de uma perturbação."
+      },
+      {
+        "traco": "Fecha com história de terceiro (Jobs) ligada de volta ao conceito central, depois relato pessoal em anáfora, depois frases curtas que retomam o início e a metáfora.",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Repare que isso é, quase palavra por palavra, a descrição de um sistema caótico.",
+          "A trajetória exata, ninguém prevê. Nem Lorenz com seu computador, nem eu, nem você.",
+          "Mas o atrator, esse você escolhe."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Último parágrafo anuncia o tema do próximo post da série e se despede com fórmula curta.",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": [
+          "No próximo Spoiler, quero puxar outro fio dessa conversa:",
+          "Até lá."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Na abertura, o exemplo (cena) vem antes do conceito; nos princípios, o conceito é nomeado primeiro e o exemplo vem depois.",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "Em 1994, Jeff Bezos trabalhava na D. E. Shaw",
+          "Vender uma ação pouco antes de ela subir não torna a decisão ruim"
+        ],
+        "contraexemplo": "Num dia de inverno de 1961, um meteorologista do MIT resolveu economizar tempo."
+      }
+    ],
+    "figuras": [
+      {
+        "traco": "Uma metáfora estendida de domínio matemático (carreira como sistema caótico com atrator) sustentada do início ao fim e retomada na última frase.",
+        "frequencia": "sempre",
+        "ocorrencias": 10,
+        "evidencias": [
+          "Minha carreira, um sistema caótico",
+          "Na carreira, é igual. Você não escolhe os acasos. Mas escolhe a regra",
+          "Mas o atrator, esse você escolhe."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Imagem da borboleta retomada em vários pontos e reaproveitada como conselho prático.",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "Guarde essa borboleta. Ela vai voltar.",
+          "Você não controla quando a borboleta bate as asas, mas controla quantas borboletas passam perto de você."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Metáforas curtas do cotidiano, sem desenvolvimento, para fechar uma ideia.",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": [
+          "A sorte bateu, mas eu precisava estar em casa.",
+          "usar a IA como alavanca, e não como muleta.",
+          "A teoria do caos é uma daquelas ideias que a cultura pop sequestrou."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Apresenta uma analogia popular e a desqualifica tecnicamente para precisar o conceito.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Mas esse exemplo, tecnicamente, não é caos. É um erro linear. Dobre a distância, dobre o erro."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Analogia com operação de mercado (trading) para ilustrar um princípio de decisão.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Vender uma ação pouco antes de ela subir não torna a decisão ruim, dependendo da informação que você tinha na hora."
+        ],
+        "contraexemplo": ""
+      }
+    ],
+    "postura": [
+      {
+        "traco": "Primeira pessoa do singular com relato autobiográfico concreto, incluindo fracassos e passagens por pouco.",
+        "frequencia": "frequente",
+        "ocorrencias": 24,
+        "evidencias": [
+          "Fiquei como suplente. Não entrei.",
+          "Eu não fui bem. Fiquei dentro do número, fui aprovado, mas por muito pouco.",
+          "Hoje ele é um dos meus melhores amigos e foi meu padrinho de casamento."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Autoridade declarada pela formação matemática, dita de passagem e sem alarde.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Na graduação, fiz uma iniciação científica sobre caos em sistemas dinâmicos unidimensionais.",
+          "Eu, como matemático, prefiro outra formulação."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Admite ignorância e limite de previsão de forma direta.",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "Por quê? Sinceramente, não sei até hoje.",
+          "Ninguém sabe como vai estar o mercado de trabalho em finanças em 2030.",
+          "Foi uma escolha quase aleatória."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Desmistifica uma crença popular em tom firme e curto.",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Não é nada disso.",
+          "E a primeira coisa que se aprende ali é que caos não é bagunça."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Diante de discordância entre fontes, concede razão à objeção e reformula a ideia em vez de rebater.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Para ele, se você consegue aumentar, não é sorte, é trabalho. No rigor, ele tem razão."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Humor seco por subentendido ou detalhe banal, sem marcar a piada.",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": [
+          "Foi buscar um café.",
+          "muito mais interessado em assistir à Copa do Mundo do que na formação em si.",
+          "No Brasil."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Distância curta, de mentor para quem está começando: aconselha sem se colocar acima.",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "Se você está no começo da carreira, releia essa lista com calma.",
+          "Este é talvez o princípio mais importante, e o mais difícil de praticar."
+        ],
+        "contraexemplo": ""
+      }
+    ],
+    "leitor": [
+      {
+        "traco": "Trata o leitor por 'você' o tempo todo (cerca de 45 marcadores de segunda pessoa); 'nós' quase ausente.",
+        "frequencia": "sempre",
+        "ocorrencias": 45,
+        "evidencias": [
+          "Mude qualquer uma dessas condições iniciais e eu não estaria aqui escrevendo este texto.",
+          "O caos não anula a sua agência. Ele a multiplica."
+        ],
+        "contraexemplo": "como o acaso engana nossa percepção de talento e sucesso."
+      },
+      {
+        "traco": "Pressupõe leitor em início de carreira em finanças, com matemática de ensino médio; o desconhecido é ancorado nesse nível.",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "uma equação de segundo grau que qualquer aluno do ensino médio consegue compreender.",
+          "É uma boa descrição do que se pede de um estagiário ou analista no primeiro ano."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Imperativos que conduzem a leitura (olhar, refazer a conta, reparar), alternando 'Olha' coloquial e 'Olhe' formal.",
+        "frequencia": "frequente",
+        "ocorrencias": 9,
+        "evidencias": [
+          "Olha só. Pegue a regra mais simples possível:",
+          "Pense nisso.",
+          "Olhe de novo a minha lista."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Imperativos de conselho prático em série curta.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Vá aos seminários. Converse com gente de outras áreas. Aceite o café com o colega estrangeiro.",
+          "Avalie o processo: você tinha as informações certas? Pesou as alternativas?"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Perguntas retóricas em série, para dar voz à objeção ou provocar o leitor.",
+        "frequencia": "frequente",
+        "ocorrencias": 12,
+        "evidencias": [
+          "Se o acaso manda tanto, por que se esforçar? Por que planejar, se uma Copa do Mundo pode redefinir sua carreira?",
+          "Quem desconfia quando o resultado parece bom demais?"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Entrega ao leitor uma pergunta-ferramenta para ele aplicar à própria decisão.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "A pergunta é sempre a mesma: o eu de daqui a vinte anos vai agradecer ou lamentar essa escolha?",
+          "Em vez de perguntar ‘foi sorte?’, pergunte ‘isso é repetível?’"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Parte de um clichê que supõe conhecido pelo leitor para depois corrigi-lo.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Você já deve ter ouvido o exemplo do avião"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Nenhuma chamada comercial ou botão; a única ação pedida no fecho é voltar na próxima edição.",
+        "frequencia": "evita",
+        "ocorrencias": 1,
+        "evidencias": [
+          "No próximo Spoiler, quero puxar outro fio dessa conversa",
+          "Até lá."
+        ],
+        "contraexemplo": ""
+      }
+    ],
+    "tecnico": [
+      {
+        "traco": "Fórmula única em citação em bloco (não em $$), com variável meio verbal ('x seguinte'), ponto médio para multiplicação e sinal de menos tipográfico, seguida de glosa em português.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "> x seguinte = 4 · x · (1 − x)",
+          "É a famosa função logística, uma equação de segundo grau"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Demonstra a propriedade com conta numérica passo a passo em parágrafos curtos paralelos, com comentário de uma ou duas palavras e gráfico logo depois.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Uma começando em 0,2. Outra em 0,2001. A diferença inicial é de um décimo de milésimo.",
+          "Depois de 14 passos: 0,0010 contra 0,7630."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Dado com fonte nomeada, ano e percentual no corpo da frase, sem link nem nota de rodapé.",
+        "frequencia": "frequente",
+        "ocorrencias": 7,
+        "evidencias": [
+          "Para 92% deles, o principal ganho da IA é a velocidade em tarefas rotineiras.",
+          "O relatório Future of Jobs 2025 do Fórum Econômico Mundial indica que os empregadores esperam que 39% das habilidades",
+          "Ficou famosa num artigo de 1976 na Nature"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Depois de apresentar o dado, traduz o que ele significa para o leitor, em fragmentos curtos.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Tarefa rotineira. Relatório. Documento. Se você está no começo da carreira, releia essa lista com calma."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Quantifica o exemplo ilustrativo e usa convenções numéricas pt-BR (vírgula decimal, R$, km).",
+        "frequencia": "frequente",
+        "ocorrencias": 12,
+        "evidencias": [
+          "A memória do computador guardava seis casas decimais: 0,506127. A impressão mostrava só três: 0,506.",
+          "Num voo de São Paulo a Lisboa, esse grau significa chegar a uns 140 km do destino."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Qualificadores de rigor para não exagerar a afirmação técnica (tecnicamente, em média, no rigor).",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Nesse sistema, a distância entre as duas trajetórias dobra, em média, a cada passo.",
+          "Mas esse exemplo, tecnicamente, não é caos."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Dado de conjuntura preso ao ano da fonte ('neste ano', 'até 2030') em vez de tratado como atemporal.",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "pretendem investir cerca de R$ 3 bilhões em IA, analytics e big data neste ano.",
+          "39% das habilidades essenciais dos trabalhadores mudem até 2030."
+        ],
+        "contraexemplo": ""
+      }
+    ],
+    "formatacao": [
+      {
+        "traco": "Negrito usado uma única vez, numa frase isolada como parágrafo, que sintetiza a seção em forma de imperativo.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "**Escolha os difíceis que não se depreciam.**"
+        ],
+        "contraexemplo": "O caos não anula a sua agência. Ele a multiplica. Para o bem e para o mal."
+      },
+      {
+        "traco": "Itálico para termo estrangeiro novo que é glosado em seguida e para título de livro; nunca para ênfase.",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "deu nome a um dos erros mais comuns de quem trabalha com mercado: *resulting*.",
+          "chegou a uma ideia que chamou de *planned happenstance*",
+          "o que Leonard Mlodinow, em *O Andar do Bêbado*, tem a dizer"
+        ],
+        "contraexemplo": "investir cerca de R$ 3 bilhões em IA, analytics e big data neste ano."
+      },
+      {
+        "traco": "Subtítulos em dois níveis: 6 H2 (frase nominal ou pergunta) e 5 H3 numerados no imperativo dentro da seção prescritiva; cerca de 250 palavras por seção.",
+        "frequencia": "sempre",
+        "ocorrencias": 11,
+        "evidencias": [
+          "## Se tudo é caos, para que escolher?",
+          "### 1. Julgue a decisão, não o resultado",
+          "### 4. Na era da IA, invista no que não se deprecia"
+        ],
+        "contraexemplo": "### 5. O acaso não é um veredito"
+      },
+      {
+        "traco": "Duas imagens sem legenda: uma de abertura antes do primeiro parágrafo e um gráfico logo após a sequência numérica.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "![](img-01)",
+          "![](img-02)"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Citação em bloco reservada à fórmula; sem destaque (PULLQUOTE), sem botão (CTA), sem riscado, sem código, sem lista com marcadores.",
+        "frequencia": "evita",
+        "ocorrencias": 1,
+        "evidencias": [
+          "> x seguinte = 4 · x · (1 − x)"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Título com três substantivos em série e subtítulo longo e explicativo, que nomeia tema e promessa.",
+        "frequencia": "sempre",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Borboletas, Caos e Carreira",
+          "Caos, acaso e como escolher os difíceis quando ninguém consegue prever o futuro"
+        ],
+        "contraexemplo": ""
+      }
+    ]
+  },
+  "antipadroes_observados": [
+    "(a) Nunca usa travessão (— ou –): zero ocorrências em cerca de 2.700 palavras.",
+    "(a) Nunca usa ponto de exclamação nem aspas duplas; toda citação ou menção usa aspas simples tipográficas ‘ ’.",
+    "(a) Nunca usa lista com marcadores, nem para enumerações (os quatro tipos de sorte vêm em prosa) ou para os cinco princípios (viram subtítulos H3).",
+    "(a) Nenhum hiperlink no corpo do texto; fontes (Febraban, Fórum Econômico Mundial, Nature) são citadas só pelo nome e pelo ano.",
+    "(a) Nenhum PULLQUOTE, CTA, riscado ou código; negrito uma única vez.",
+    "(b) Possível tique de IA em pt-BR: a correção 'Não é X. É Y' aparece cerca de 6 vezes (ex.: 'Não é falta de computador. É a natureza do sistema.').",
+    "(b) Possível tique de IA: tríades anafóricas em sequência ('Não sabia, quando...' x3; 'Quem sabe... Quem percebe... Quem desconfia...').",
+    "(b) Possíveis fórmulas de transição prontas: 'Porque a verdade incômoda é que', 'Aqui mora a tentação.', 'Perceba o paradoxo.'.",
+    "(b) Possível tique de IA: frase de efeito em trinca curta no fim de seção ('O caos não anula a sua agência. Ele a multiplica. Para o bem e para o mal.')."
+  ],
+  "incerteza": "Época 'pipeline': o texto passou pelo sistema editorial antes da edição final do autor, então não dá para separar o que é traço do autor do que veio do pipeline. Isso pesa sobretudo nos itens (b) e na construção 'Não é X. É Y'. O frontmatter traz section_name: null, mas o texto se apresenta como da série Spoiler (carreira); os traços de ponte entre edições e de mentor de início de carreira podem valer só para essa linha. Há uma amostra só de fórmula e de sequência numérica, o que não basta para generalizar como o autor apresenta matemática. Os dois deslizes de vírgula podem ser do autor ou da edição. As contagens de frase e parágrafo são aproximadas: frases foram separadas por pontuação final, sem contar subtítulos, imagens e a fórmula."
+}

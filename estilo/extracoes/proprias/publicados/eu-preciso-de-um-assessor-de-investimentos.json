@@ -1,0 +1,653 @@
+{
+  "arquivo": "estilo/corpus/publicados/eu-preciso-de-um-assessor-de-investimentos.md",
+  "genero": "substack",
+  "palavras": 1124,
+  "eixos": {
+    "lexico": [
+      {
+        "traco": "Usa jargão de mercado e anglicismos sem glosa e sem itálico (calls, outlier, Top-Down, swaps, suitability, portfólio).",
+        "frequencia": "frequente",
+        "ocorrencias": 7,
+        "evidencias": [
+          "sem simplesmente enviar calls de operações com ações ou derivativos pela mesa da corretora?",
+          "A maioria das alocações é feita de forma Top-Down.",
+          "trazer aquela oportunidade outlier de um COE?"
+        ],
+        "contraexemplo": "Se você já preencheu a famosa “suitability” (você foi honesto?)"
+      },
+      {
+        "traco": "Desdobra siglas institucionais entre parênteses: nome por extenso + (sigla) para o regulador; sigla + (extenso) para o produto, mas só na segunda menção.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "O serviço de assessoria financeira é regulamentado pela Comissão de Valores Mobiliários (CVM)",
+          "qual seria a utilidade de um COE (Certificado de Operação Estruturada)?"
+        ],
+        "contraexemplo": "a troca de um título do Tesouro por um COE"
+      },
+      {
+        "traco": "Determinantes e qualificadores irônicos antes do termo que vai pôr em dúvida (a tal, a famosa, tão sonhada, aquela).",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "O que seria a tal gestão de riscos?",
+          "Se você já preencheu a famosa “suitability”",
+          "para comprar sua tão sonhada BMW?"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Locução 'de forma + adjetivo' no lugar do advérbio em -mente.",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "serão apresentados de forma genérica, sem referência a nenhum assessor específico",
+          "endereçar cada um de seus objetivos de forma adequada?",
+          "Para colocar a ideia de forma mais clara,"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Intensificadores e marcadores de ênfase recorrentes: 'realmente' (4x), 'extremamente' (2x), 'bem' + adjetivo (2x).",
+        "frequencia": "frequente",
+        "ocorrencias": 8,
+        "evidencias": [
+          "me pergunto se essas pessoas realmente precisam seguir as orientações do assessor",
+          "A maioria dos questionários de suitability é extremamente genérica",
+          "De fato, o mercado financeiro pode ser bem complexo."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Campo semântico de investimento orientado a objetivos: 'objetivo(s)'/'objetivos de vida' e perfil de risco (conservador, moderado, arrojado) atravessam o texto.",
+        "frequencia": "frequente",
+        "ocorrencias": 10,
+        "evidencias": [
+          "Lembre-se de que seus investimentos devem estar alinhados aos seus objetivos de vida.",
+          "nosso perfil/tolerância ao risco varia de acordo com o objetivo em questão"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Trata como sinônimos 'assessor de investimentos', 'assessor financeiro', 'consultor financeiro' e 'assessoria financeira'.",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": [
+          "Um assessor financeiro é um profissional que orienta investidores na escolha de produtos financeiros",
+          "este é um aspecto onde um assessor ou consultor financeiro pode ser extremamente útil"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Registro culto-formal (futuro sintético, 'despendido', 'munido', o decalque 'endereçar').",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "Considerarei como investidor iniciante aquele que está dando os primeiros passos no mercado financeiro",
+          "o tempo despendido para monitorar, entender, avaliar e escolher investimentos realmente gera um retorno proporcional?",
+          "como poderia um assessor, munido apenas do questionário e das recomendações da corretora para aquele perfil, endereçar"
+        ],
+        "contraexemplo": "Não leve essas opiniões para o lado pessoal."
+      },
+      {
+        "traco": "Fórmulas idiomáticas coloquiais encaixadas na prosa formal, quase sempre no ponto de virada ou de fecho.",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Genérico por genérico, você poderia estar alocado em títulos do Tesouro",
+          "são qualquer coisa menos personalizadas",
+          "Não leve essas opiniões para o lado pessoal."
+        ],
+        "contraexemplo": ""
+      }
+    ],
+    "sintaxe": [
+      {
+        "traco": "Grande variação no comprimento das frases: perguntas de 5 palavras ao lado de períodos de 40+; média estimada em torno de 19 palavras por frase no corpo (fora a lista).",
+        "frequencia": "frequente",
+        "ocorrencias": 52,
+        "evidencias": [
+          "Elas precisam de um assessor?",
+          "Este é, talvez, o ponto mais crítico.",
+          "Em muitos casos, especialmente para autônomos e empresários, pode ser muito mais eficiente, em termos de retorno por hora dedicada, concentrar-se na carreira"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Intercala, entre vírgulas, adjunto ou oração que separa sujeito e verbo, ou verbo e complemento.",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "Este é, talvez, o ponto mais crítico.",
+          "Essas unidades, em seu melhor esforço, constroem recomendações para cada um dos perfis",
+          "como poderia um assessor, munido apenas do questionário e das recomendações da corretora para aquele perfil, endereçar"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Abre frases com conector ou adjunto adverbial + vírgula (Agora, Primeiro, Geralmente, Além disso, Por isso, De fato, Neste cenário, Obviamente, No entanto, Em resumo).",
+        "frequencia": "frequente",
+        "ocorrencias": 13,
+        "evidencias": [
+          "Neste cenário, qual seria a utilidade de um COE",
+          "Obviamente, se você se enquadra em um segmento de alta renda, a situação pode ser bem diferente.",
+          "Num primeiro momento, ele pode gerar uma ótima remuneração ao assessor e à corretora."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Concede e depois vira (De fato… Mas; No entanto… por mais… que; Com a ressalva de…).",
+        "frequencia": "frequente",
+        "ocorrencias": 4,
+        "evidencias": [
+          "De fato, o mercado financeiro pode ser bem complexo. Mas uma pergunta essencial para o investidor, seja iniciante ou experiente, é:",
+          "No entanto, essas recomendações, por mais bem-intencionadas que sejam, são qualquer coisa menos personalizadas.",
+          "Com a ressalva de todos os pontos anteriores, este é um aspecto onde um assessor"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Fecha o parágrafo com frase irônica que puxa a conclusão sem dizê-la (conflito de interesse, genérico contra genérico, gurus).",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Num primeiro momento, ele pode gerar uma ótima remuneração ao assessor e à corretora.",
+          "Genérico por genérico, você poderia estar alocado em títulos do Tesouro",
+          "em vez de assistir a cursos de gurus em busca do próximo Santo Graal."
+        ],
+        "contraexemplo": "Obviamente, se você se enquadra em um segmento de alta renda, a situação pode ser bem diferente."
+      },
+      {
+        "traco": "Gerúndio de consequência no fim do período, concentrado nos parágrafos definicionais (fora da lista atribuída ao ChatGPT).",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "mas não toma decisões por conta própria, garantindo que o investidor tenha sempre a palavra final.",
+          "levando em consideração o perfil de risco, os objetivos e a situação financeira do cliente."
+        ],
+        "contraexemplo": "A maioria das alocações é feita de forma Top-Down."
+      },
+      {
+        "traco": "Inversão verbo-sujeito em interrogativas.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "### O Que Pode Fazer um Assessor de Investimentos?",
+          "como poderia um assessor, munido apenas do questionário"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Enumerações de três ou quatro termos em série (verbos ou nomes).",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "o tempo despendido para monitorar, entender, avaliar e escolher investimentos",
+          "levando em consideração o perfil de risco, os objetivos e a situação financeira do cliente."
+        ],
+        "contraexemplo": ""
+      }
+    ],
+    "pontuacao": [
+      {
+        "traco": "Ponto de interrogação muito frequente: cerca de 14 perguntas no corpo, mais o título e um subtítulo.",
+        "frequencia": "frequente",
+        "ocorrencias": 14,
+        "evidencias": [
+          "Elas precisam de um assessor? O que o ChatGPT tem a dizer sobre isso?",
+          "Quantas vezes seu assessor entra em contato com você",
+          "Será que você realmente precisa de opções complexas, como operações com swaps?"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Dois-pontos para introduzir pergunta, no molde 'uma pergunta … é: <pergunta>?' ou 'Pergunto: …'.",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Uma pergunta que todo investidor deve se fazer é: o tempo despendido",
+          "Pergunto: você é mais arrojado ou conservador quando o objetivo é construir o patrimônio"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Dois-pontos antes de enumeração na própria linha e antes da lista numerada.",
+        "frequencia": "frequente",
+        "ocorrencias": 3,
+        "evidencias": [
+          "deve estar familiarizado com os termos: conservador, moderado, arrojado e suas variantes.",
+          "constroem recomendações para cada um dos perfis: conservador, moderado, arrojado, etc.",
+          "Ele me apresentou os seguintes pontos:"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Parênteses para desdobrar sigla e, uma vez, para um aparte irônico em forma de pergunta.",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Se você já preencheu a famosa “suitability” (você foi honesto?)",
+          "um COE (Certificado de Operação Estruturada)?"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Nenhum travessão no corpo; o único aparece na atribuição do epígrafe.",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": [
+          "— **Daniel Kahneman**"
+        ],
+        "contraexemplo": "— **Daniel Kahneman**"
+      },
+      {
+        "traco": "Ponto e vírgula raro, usado para emendar constatação e pergunta.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "A maioria dos questionários de suitability é extremamente genérica; como poderia um assessor"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Barra para pôr dois termos como equivalentes; 'etc.' para fechar enumeração.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "nosso perfil/tolerância ao risco",
+          "conservador, moderado, arrojado, etc."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Aspas tipográficas no corpo para marcar termo estrangeiro na primeira menção; aspas retas dentro do pullquote do epígrafe.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "a famosa “suitability”",
+          "[[PULLQUOTE: **\"O segredo do sucesso financeiro é o controle de suas emoções.\"**"
+        ],
+        "contraexemplo": "A maioria dos questionários de suitability é extremamente genérica"
+      },
+      {
+        "traco": "Prosa corrida em parágrafos curtos, quebrados depois de uma pergunta ou de uma frase de fecho; usa parágrafo de uma frase só como transição; a única lista é a do ChatGPT.",
+        "frequencia": "frequente",
+        "ocorrencias": 18,
+        "evidencias": [
+          "Agora, vamos analisar cada um desses pontos, partindo da definição do que seria o serviço de assessoria financeira para um investidor iniciante."
+        ],
+        "contraexemplo": "1. **Complexidade do Mercado**: O mercado financeiro é vasto e confuso para iniciantes."
+      }
+    ],
+    "arquitetura": [
+      {
+        "traco": "Abre com imagem e um epígrafe de autoridade em pullquote, antes de qualquer frase do autor.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "[[PULLQUOTE: **\"O segredo do sucesso financeiro é o controle de suas emoções.\"**"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Primeiro parágrafo é uma cena cotidiana de terceiros (conhecidos relatando sugestões do assessor), com exemplos concretos, antes da pergunta central.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "É comum ouvir conhecidos comentando sobre recomendações de portfólio ou ajustes na alocação sugeridos por seus assessores de investimentos.",
+          "Não é raro ver sugestões como a troca de um título do Tesouro por um COE ou a substituição de um fundo por outro"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Recurso metanarrativo: pergunta ao ChatGPT, transcreve a lista e usa os cinco itens como roteiro a examinar um a um; os subtítulos espelham os itens.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Decidi iniciar este post de uma maneira menos convencional. Perguntei ao ChatGPT, na versão 4,",
+          "Agora, vamos analisar cada um desses pontos"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Antes de argumentar, insere uma ressalva preventiva e uma seção de definição estipulativa (quem é o investidor iniciante, o que faz o assessor).",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Primeiro, gostaria de esclarecer que os pontos aqui abordados serão apresentados de forma genérica",
+          "Considerarei como investidor iniciante aquele que está dando os primeiros passos no mercado financeiro"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Cada seção abre com pergunta, concessão ou juízo de relevância, nunca com dado.",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "O que seria a tal gestão de riscos?",
+          "Este é, talvez, o ponto mais crítico.",
+          "De fato, o mercado financeiro pode ser bem complexo."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "O veredito muda de ponto para ponto: contesta quatro itens da lista e concede o quinto.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Com a ressalva de todos os pontos anteriores, este é um aspecto onde um assessor ou consultor financeiro pode ser extremamente útil."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "O exemplo concreto vem antes da generalização (filhos/BMW antes da tese de que o perfil de risco depende do objetivo).",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "você é mais arrojado ou conservador quando o objetivo é construir o patrimônio que garantirá os estudos de seus filhos?",
+          "Se você entendeu o ponto, deve ter percebido que nosso perfil/tolerância ao risco varia de acordo com o objetivo em questão."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Fecha com seção 'Conclusão' que resume em termos genéricos e equilibrados; retoma 'objetivos de vida', mas não a cena de abertura nem o epígrafe; não há chamada para ação.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Em resumo, a decisão de contar ou não com um assessor de investimentos deve ser cuidadosamente considerada.",
+          "O importante é que cada investidor busque um caminho que realmente faça sentido para sua situação financeira e seus objetivos de vida."
+        ],
+        "contraexemplo": ""
+      }
+    ],
+    "figuras": [
+      {
+        "traco": "Figuras raras e curtas, tiradas de expressões feitas (religião/mito, guru), usadas como ironia de fecho, sem extensão nem retomada.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "em vez de assistir a cursos de gurus em busca do próximo Santo Graal."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Objeto de consumo aspiracional como emblema irônico de objetivo financeiro (cotidiano/consumo).",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "E quando falamos dos ativos que serão utilizados no futuro para comprar sua tão sonhada BMW?"
+        ],
+        "contraexemplo": ""
+      }
+    ],
+    "postura": [
+      {
+        "traco": "Primeira pessoa do singular no enquadramento e nos apartes metadiscursivos.",
+        "frequencia": "frequente",
+        "ocorrencias": 8,
+        "evidencias": [
+          "Sempre que escuto esses relatos, me pergunto se essas pessoas realmente precisam seguir as orientações do assessor.",
+          "Decidi iniciar este post de uma maneira menos convencional.",
+          "Pergunto: você é mais arrojado ou conservador"
+        ],
+        "contraexemplo": "como já defendemos em outros textos"
+      },
+      {
+        "traco": "Alterna com a primeira pessoa do plural, editorial ou inclusiva.",
+        "frequencia": "ocasional",
+        "ocorrencias": 4,
+        "evidencias": [
+          "como já defendemos em outros textos",
+          "nosso perfil/tolerância ao risco varia de acordo com o objetivo em questão",
+          "Agora, vamos analisar cada um desses pontos"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Trata o leitor por 'você' de forma direta e insistente, às vezes repetindo o pronome na mesma frase.",
+        "frequencia": "frequente",
+        "ocorrencias": 12,
+        "evidencias": [
+          "Você precisa começar a se questionar sobre o nível de exposição que você precisa em seu portfólio.",
+          "Quantas vezes seu assessor entra em contato com você"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Ironia seca como humor: apartes e insinuações em vez de acusação direta.",
+        "frequencia": "frequente",
+        "ocorrencias": 5,
+        "evidencias": [
+          "(você foi honesto?)",
+          "Num primeiro momento, ele pode gerar uma ótima remuneração ao assessor e à corretora.",
+          "são qualquer coisa menos personalizadas"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Desconfia da indústria (corretoras, assessores) e aponta conflito de interesse, mas amortece antes com ressalva preventiva.",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "sem referência a nenhum assessor específico. Não leve essas opiniões para o lado pessoal.",
+          "Essas unidades, em seu melhor esforço, constroem recomendações para cada um dos perfis"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Autoridade implícita, sem credencial declarada, apoiada em textos anteriores do próprio autor (citados sem link).",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Em muitos casos, como já defendemos em outros textos, instrumentos como os do Tesouro Direto podem ser suficientes"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Modaliza muito: 'pode(m) ser', 'poderia', 'talvez', 'em muitos casos', 'muitas vezes'.",
+        "frequencia": "frequente",
+        "ocorrencias": 15,
+        "evidencias": [
+          "Este é, talvez, o ponto mais crítico.",
+          "pode ser muito mais eficiente, em termos de retorno por hora dedicada"
+        ],
+        "contraexemplo": "são qualquer coisa menos personalizadas"
+      },
+      {
+        "traco": "Ressalva uma exceção ao próprio argumento (público de alta renda).",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Obviamente, se você se enquadra em um segmento de alta renda, a situação pode ser bem diferente."
+        ],
+        "contraexemplo": ""
+      }
+    ],
+    "leitor": [
+      {
+        "traco": "Diz escrever para o iniciante e o define, mas usa jargão sem glosa (swaps, calls, outlier, Top-Down), o que cria uma tensão entre o leitor declarado e o pressuposto.",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "Considerarei como investidor iniciante aquele que está dando os primeiros passos no mercado financeiro",
+          "Será que você realmente precisa de opções complexas, como operações com swaps?"
+        ],
+        "contraexemplo": "qual seria a utilidade de um COE (Certificado de Operação Estruturada)?"
+      },
+      {
+        "traco": "Supõe que o leitor já passou pelo questionário de suitability e conhece os perfis.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "deve estar familiarizado com os termos: conservador, moderado, arrojado e suas variantes."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Pergunta retórica dirigida à situação pessoal do leitor (filhos, BMW, contato do assessor), para provocar autoexame em vez de responder por ele.",
+        "frequencia": "frequente",
+        "ocorrencias": 8,
+        "evidencias": [
+          "você é mais arrojado ou conservador quando o objetivo é construir o patrimônio que garantirá os estudos de seus filhos?",
+          "Quantas vezes seu assessor entra em contato com você"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Imperativo raro e de tom admonitório.",
+        "frequencia": "ocasional",
+        "ocorrencias": 2,
+        "evidencias": [
+          "Lembre-se de que seus investimentos devem estar alinhados aos seus objetivos de vida.",
+          "Não leve essas opiniões para o lado pessoal."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Prescrição genérica com 'todo investidor deve' e 'deve ser'.",
+        "frequencia": "ocasional",
+        "ocorrencias": 3,
+        "evidencias": [
+          "Uma pergunta que todo investidor deve se fazer é:",
+          "deve ser cuidadosamente considerada"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Confere se o leitor acompanhou o raciocínio antes de generalizar.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Se você entendeu o ponto, deve ter percebido que"
+        ],
+        "contraexemplo": ""
+      }
+    ],
+    "tecnico": [
+      {
+        "traco": "Cita produtos e instrumentos pelo nome como exemplo (Tesouro Direto, COE, swaps, derivativos, fundos correlacionados), sem número, taxa ou dado.",
+        "frequencia": "frequente",
+        "ocorrencias": 6,
+        "evidencias": [
+          "instrumentos como os do Tesouro Direto podem ser suficientes para maximizar a probabilidade de que um investidor alcance seus objetivos.",
+          "a substituição de um fundo por outro que é altamente correlacionado ao anterior"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Cita a regulação pelo nome do regulador, sem número de resolução ou norma.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "O serviço de assessoria financeira é regulamentado pela Comissão de Valores Mobiliários (CVM)"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Data a ferramenta citada (versão do ChatGPT) e marca explicitamente como dela o texto transcrito.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Perguntei ao ChatGPT, na versão 4,",
+          "Ele me apresentou os seguintes pontos:"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Epígrafe atribuído a uma autoridade só pelo nome, sem obra nem referência.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "O segredo do sucesso financeiro é o controle de suas emoções."
+        ],
+        "contraexemplo": ""
+      }
+    ],
+    "formatacao": [
+      {
+        "traco": "Negrito só no pullquote (citação e autor) e nos rótulos da lista; nunca na prosa corrida.",
+        "frequencia": "ocasional",
+        "ocorrencias": 7,
+        "evidencias": [
+          "1. **Complexidade do Mercado**: O mercado financeiro é vasto e confuso para iniciantes.",
+          "— **Daniel Kahneman**"
+        ],
+        "contraexemplo": "Este é, talvez, o ponto mais crítico."
+      },
+      {
+        "traco": "Sem itálico em todo o texto, inclusive nos anglicismos.",
+        "frequencia": "nunca",
+        "ocorrencias": 0,
+        "evidencias": [
+          "trazer aquela oportunidade outlier de um COE?",
+          "A maioria das alocações é feita de forma Top-Down."
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Pullquote usado como epígrafe no topo, logo depois de uma imagem sem legenda.",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "![](img-01)",
+          "[[PULLQUOTE: **\"O segredo do sucesso financeiro é o controle de suas emoções.\"**"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Subtítulos H3 (###) em Title Case à inglesa, rótulos nominais curtos que espelham os itens da lista; um em forma de pergunta; densidade alta (7 em cerca de 1.100 palavras, um a cada ~160).",
+        "frequencia": "frequente",
+        "ocorrencias": 7,
+        "evidencias": [
+          "### O Que Pode Fazer um Assessor de Investimentos?",
+          "### Economia de Tempo",
+          "### Conclusão"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Título em Title Case e em forma de pergunta; subtítulo anuncia a contagem dos itens (e sai com uma palavra faltando: 'devem considerados').",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "Eu Preciso de um Assessor de Investimentos?",
+          "Cinco aspectos que devem considerados"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Uma única lista numerada, no formato rótulo em negrito + dois-pontos + explicação de uma ou duas frases (conteúdo atribuído ao ChatGPT).",
+        "frequencia": "ocasional",
+        "ocorrencias": 1,
+        "evidencias": [
+          "2. **Gestão de Risco**: Investir envolve riscos, e um assessor constrói uma carteira adequada ao perfil do cliente"
+        ],
+        "contraexemplo": ""
+      },
+      {
+        "traco": "Blocos curtos: a maioria dos parágrafos tem de 2 a 4 frases e várias seções têm um parágrafo só; as exceções são os dois parágrafos definicionais, de cerca de 100 palavras cada.",
+        "frequencia": "frequente",
+        "ocorrencias": 18,
+        "evidencias": [
+          "### Acompanhamento",
+          "Considerarei como investidor iniciante aquele que está dando os primeiros passos no mercado financeiro"
+        ],
+        "contraexemplo": "Considerarei como investidor iniciante aquele que está dando os primeiros passos no mercado financeiro"
+      }
+    ]
+  },
+  "antipadroes_observados": [
+    "(a) Nenhum ponto de exclamação e nenhuma reticência no texto.",
+    "(a) Nenhum travessão no corpo; o único fica na atribuição do epígrafe.",
+    "(a) Nenhum itálico, nenhum riscado; negrito nunca aparece na prosa corrida.",
+    "(a) Nenhum número, dado, taxa, fórmula, tabela ou gráfico; nenhuma fonte com referência bibliográfica ou link.",
+    "(a) Nenhum link, nenhum botão [[CTA]], nenhum convite a assinar ou comentar.",
+    "(a) Nenhuma analogia estendida; o epígrafe sobre emoções não é retomado nem no corpo nem no fecho.",
+    "(a) Não declara credencial própria.",
+    "(b) O fecho acumula tiques de texto gerado em pt-BR: 'Em resumo,', 'é fundamental que', 'é crucial', 'em constante mudança', 'suporte valioso', 'O importante é que'. Ex.: 'Enquanto a assessoria pode oferecer suporte valioso em um mercado complexo e em constante mudança, também é fundamental que os investidores se questionem'.",
+    "(b) Seção final com o rótulo genérico 'Conclusão', resumo equilibrado e nenhuma ideia nova.",
+    "(b) Os parágrafos definicionais têm cadência de texto gerado: 'Além disso,', 'tomar decisões mais informadas e evitar erros comuns', gerúndio 'garantindo que o investidor tenha sempre a palavra final'.",
+    "(b) A lista numerada (rótulo em negrito + dois-pontos + gerúndios 'ajudando', 'garantindo', 'permitindo') é saída do ChatGPT declarada como tal pelo autor: 'um assessor ajusta a estratégia conforme necessário, garantindo que o investidor permaneça no caminho certo.'"
+  ],
+  "incerteza": "Texto único e curto (~1.124 palavras pelo frontmatter, abaixo do piso de ~5.000 para confiança alta). Cerca de 130 palavras são a lista transcrita do ChatGPT, não prosa do autor; os traços dessa lista (rótulo em negrito + dois-pontos, gerúndios) podem não ser estilo próprio. A época é pre-pipeline, mas a conclusão e os parágrafos de definição têm tiques de texto gerado; o arquivo não permite dizer se houve assistência de IA além da lista declarada. section_name é null, então não há linha editorial para condicionar os traços. O eixo técnico quase não se aplica (não há fórmula, tabela, gráfico nem número), e nada se conclui sobre notação. A diferença de aspas (retas no pullquote, tipográficas no corpo) e o Title Case dos títulos podem vir da ferramenta do Substack ou da captura, não necessariamente de escolha do autor. A atribuição do epígrafe não foi verificada (fora do escopo). As contagens de frases e a média de comprimento são estimativas manuais."
+}
