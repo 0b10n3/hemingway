@@ -6,6 +6,7 @@ data: 2026-11-13
 linha_editorial: Spoiler
 tags: [Spoiler, Carreira, Mercado Financeiro, Tomada de Decisão]
 status: aprovado
+url_publicada: https://syntaxis.substack.com/p/should-i-stay-or-should-i-go
 assunto_email: "Should I stay or should I go: seu trabalho ainda trabalha por você?"
 nota_substack: "Clima ruim não é motivo para pedir demissão. Trabalho que parou de trabalhar por você, é."
 busca_organica: "Quando sair do emprego no mercado financeiro: 3 sinais para ficar e 3 para ir"
