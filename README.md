@@ -108,7 +108,7 @@ conforme eles aparecem.
 | # | Etapa | O que acontece |
 |---|---|---|
 | 0 | Leitura do rascunho | Lê o front-matter e o corpo, monta cópia de trabalho e inventário de marcadores, sem tocar no original |
-| 1 | Briefing | Lê `linha_editorial` do front-matter (não decide); define tese, gancho, analogias a preservar, encaixe no funil, e qual das duas vozes (ensaística ou explicativa) o post vai usar |
+| 1 | Briefing | Lê `linha_editorial` do front-matter (não decide); define tese, gancho, analogias a preservar, encaixe no funil, e qual das três vozes (ensaística, ensaística em registro técnico ou explicativa) o post vai usar |
 | 2 | Estrutura | Decide subtítulos, o que cada seção prova, e para cada ponto que precisa de visual escolhe por critério — gráfico (série numérica), diagrama (relação estrutural sem métrica) ou infográfico (só se nenhuma peça isolada carregar a síntese). **Linha Notas de um Professor:** preenche a Ficha de Saída de backward design antes de fechar a estrutura (`docs/BACKWARDS_DESIGN.md`) |
 | 3 | Pesquisa | Um subagente busca dados, contrapontos e como o tema é tratado — sem escrever prosa |
 | 4 | Revisão/integração | Revisa e completa o rascunho na sua voz — não reescreve do zero; qualquer mudança de estrutura vira pergunta a você |
@@ -117,9 +117,9 @@ conforme eles aparecem.
 | 6 | Linha e norma | Um subagente revisa frase e norma culta, sem mexer em estrutura |
 | 7 | Verificação técnica | Um subagente recalcula fórmulas e confere fontes; o que não fecha vira `[VERIFICAR: ...]`. **Linha Spoiler:** confere nome/data/caso citado. **Linha Notas:** confere os dois lados do balcão, aderência dos exemplos ao Brasil, e a regra de referências (3-4, ≥2 livros) |
 | 8 | Visuais | Gera `graficos.md`/`diagramas.md` (specs + código Plotly); `infograficos.md` só no caso condicional |
-| 9 | Consolidação | Junta tudo, confere coerência entre as etapas (inclusive o gate da sua linha editorial), emite os entregáveis finais |
+| 9 | Consolidação | Junta tudo sem escrever texto novo, confere coerência entre as etapas (inclusive o gate da sua linha editorial), roda a checagem mecânica (`scripts/checar_post.py`) e emite os entregáveis finais |
 | 9a | Estratégia de marketing | Um subagente (`estrategista-marketing`) dá um parecer em `marketing.md`: alinhamento ao funil, onde entram CTAs e quais posts linkar (só do catálogo). Não mexe no texto; um script valida o parecer antes de você ver |
-| 10 | **Você decide** | O pipeline para e mostra o post pronto e o parecer de marketing |
+| 10 | **Você decide** | O pipeline para e mostra o post pronto e o parecer de marketing. Não oferece "aprovar" com `[VERIFICAR]` ou outro bloqueante aberto |
 
 ### Duas linhas editoriais
 
@@ -153,16 +153,20 @@ exatamente no ponto indicado, e mostra o diff. Botões nativos do Substack (insc
 compartilhar, comentar) e backlinks em posts antigos saem como lista para você fazer à mão
 no editor. Aplicar itens do parecer conta como uma das 3 rodadas de ajuste.
 
-**Depois de publicar**, preencha `url_publicada` (a URL do Substack) e `resumo` no
-frontmatter de `post.md` e rode `python3 scripts/gerar_catalogo.py`. Sem URL, o post não
-entra no catálogo de links. Ofertas novas ou mudança de situação (FVDT pronto, por exemplo)
+**Depois de publicar**, rode `/forja-de-voz colher <slug>`. Ele captura o texto do site, propõe
+a linha `url_publicada`, mede o que você editou no Substack (é assim que suas edições voltam
+para o guia e para o registro de preferências) e aponta marcador ou jargão que tenha ido ao ar.
+Preencha também o `resumo` no frontmatter de `post.md`; o catálogo de links
+(`python3 scripts/gerar_catalogo.py`) é regerado na etapa 9a do post seguinte. Sem URL, o post
+não entra no catálogo de links. Ofertas novas ou mudança de situação (FVDT pronto, por exemplo)
 vão em `marketing/ofertas.yaml`; o cluster de cada post, em `marketing/clusters.yaml`.
 
 ### 4. Copie para a Substack
 
 Abra `posts/<slug>/post.md` e `graficos.md`/`diagramas.md`/`infograficos.md` quando existirem.
 Rode os blocos Python para gerar os SVGs/PNGs, substitua os placeholders
-`graf-NN`/`diag-NN`/`info-NN` pelas imagens reais, e cole na Substack. Capa e ilustração não
+`graf-NN`/`diag-NN`/`info-NN` pelas imagens reais, e cole na Substack. Em cada imagem, cole o
+alt-text que o gate mostrou (o `checar_post.py` imprime a lista) no campo de texto alternativo. Capa e ilustração não
 são geradas por este pipeline — suba manualmente o que a Substack exigir.
 
 A branch `post/<slug>` **não precisa ser apagada nem mergeada** para você publicar — o
@@ -183,15 +187,24 @@ O sistema lê `estado.json`, mostra o que já foi feito, e continua da última e
 
 ## Mantendo o guia de voz vivo
 
-O guia (`estilo/estilo-autoral.md`) foi construído a partir de 7 amostras suas + 8 de autores
-admirados (ver `estilo/CHANGELOG.md` para a v1.0.0). Ele **fossiliza se nunca for atualizado**.
+O guia (`estilo/estilo-autoral.md`, v2.0.0) foi refeito a partir dos 31 posts publicados,
+capturados do site, e das edições que você fez no Substack depois do pipeline (ver
+`estilo/CHANGELOG.md` e `pesquisa/epico-revisao-editorial/`). Ele **fossiliza se nunca for
+atualizado**.
 
-- **A cada ~5 posts publicados**, rode:
+- **Depois de cada post publicado**, rode:
+  ```
+  /forja-de-voz colher <slug>
+  ```
+  Isso captura o texto do site, mede suas edições e atualiza `estilo/preferencias-de-edicao.md`.
+  Padrão que se repete vira candidato a "Em observação"; regra nova, nunca sem sua aprovação.
+
+- **Para revisar as regras do guia** (a cada ~5 posts, ou com um gênero novo), rode:
   ```
   /forja-de-voz atualizar <caminho-da-nova-amostra>
   ```
-  Isso compara a amostra nova contra o guia atual, classifica cada diferença (evolução real,
-  ruído, ou desvio a corrigir), e propõe mudanças — nunca aplica regra nova sem sua aprovação.
+  Isso classifica cada diferença (evolução real, ruído, ou desvio a corrigir) e propõe mudanças
+  — nunca aplica regra nova sem sua aprovação.
 
 - **Para conferir um texto qualquer contra o guia**, sem publicar nada:
   ```
@@ -200,7 +213,7 @@ admirados (ver `estilo/CHANGELOG.md` para a v1.0.0). Ele **fossiliza se nunca fo
 
 - **Para comparar duas versões do guia** (por tag git):
   ```
-  /forja-de-voz diff voz-v1.0.0 voz-v1.1.0
+  /forja-de-voz diff voz-v1.0.0 voz-v2.0.0
   ```
 
 - **Assim que você tiver o primeiro post de LinkedIn** (ou qualquer gênero novo), rode
@@ -213,17 +226,22 @@ admirados (ver `estilo/CHANGELOG.md` para a v1.0.0). Ele **fossiliza se nunca fo
 _arquivo/          originais imutáveis — nunca editados depois de commitados
   ├─ audios/           gravações cruas (Git LFS), se houver
   ├─ drafts/           rascunhos crus do autor, com front-matter (linha_editorial etc.)
-  ├─ amostras/         textos usados para construir o guia de voz
+  ├─ amostras/         textos usados para construir o guia de voz (v1)
+  ├─ publicados/       capturas do site, uma por post (arquivo novo a cada mudança)
   └─ MANIFESTO.md      origem e proveniência de cada item acima
 
 estilo/             o guia de voz e seus derivados
   ├─ estilo-autoral.md     ← leia este primeiro para entender "como eu escrevo"
   ├─ voz.fingerprint.json  versão verificável por máquina do guia
   ├─ corpus-manifest.json  hash de cada amostra usada
-  └─ scripts/metricas.py   camada quantitativa (roda com `python3`)
+  ├─ preferencias-de-edicao.md  o que você edita no site, medido (gerado — não edite à mão)
+  ├─ corpus/               texto publicado normalizado, edições do autor, mapa site ↔ repo
+  ├─ extracoes/            extrações qualitativas por amostra
+  └─ scripts/              metricas.py e estratos.py, camada quantitativa (stdlib)
 
 docs/               documentação permanente absorvida de material de apoio
-  └─ BACKWARDS_DESIGN.md   backward design da linha "Notas de um Professor"
+  ├─ BACKWARDS_DESIGN.md   backward design da linha "Notas de um Professor"
+  └─ AVISO_LEGAL.md        texto padrão do aviso legal, no fim de todo post
 
 pesquisa/           auditoria e histórico do próprio sistema hemingway
 _pesquisa/          Deep Research pontual (via agy) sobre metodologia editorial
@@ -241,8 +259,11 @@ posts/<slug>/       um post publicado ou em andamento
 
 marketing/          o que um post pode citar: ofertas.yaml, legado.yaml, clusters.yaml
   └─ catalogo.json         gerado por scripts/gerar_catalogo.py — não edite à mão
-scripts/            gerar_catalogo.py, parecer.py (validar/aplicar parecer), test_parecer.py
+scripts/            gerar_catalogo.py, parecer.py (parecer de marketing); checar_post.py
+                    (checagem mecânica); corpus_publicado.py, diff_edicoes.py (colheita);
+                    diagnostico_edicoes.py, avaliar.py (épico de revisão); test_*.py
 evals/marketing/    avaliação do estrategista de marketing
+evals/editorial/    avaliação antes × depois do pipeline (Fase E do épico)
 
 .claude/
   ├─ skills/            o que você invoca com /nome

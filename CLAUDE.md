@@ -21,6 +21,8 @@ que juntos formam um pipeline editorial.
   só complete lacunas ou adicione linhas novas. Todo outro arquivo de `_arquivo/` é
   intocável sem exceção. (Esta exceção foi adicionada em 2026-08-10 depois que o teste de
   imutabilidade da Fase 4 pegou uma violação real — ver `RELATORIO.md`.)
+  `_arquivo/publicados/` recebe capturas novas do site pelo `scripts/corpus_publicado.py`: um
+  arquivo novo a cada mudança no site, nunca sobrescrita.
 - **Evidência ou silêncio.** Nenhuma afirmação sobre a voz do autor entra no guia sem pelo
   menos duas ocorrências reais, em dois textos distintos, citadas com arquivo e trecho curto.
 - **Amostras alheias são fonte de procedimento, não de frase.** Dos autores admirados
@@ -43,8 +45,9 @@ que juntos formam um pipeline editorial.
 ## Estrutura
 
 ```
-_arquivo/          originais imutáveis: áudios, drafts, amostras, MANIFESTO.md
-estilo/            guia de voz e seus derivados (estilo-autoral.md é a fonte única)
+_arquivo/          originais imutáveis: áudios, drafts, amostras, capturas do site (publicados/), MANIFESTO.md
+estilo/            guia de voz e seus derivados (estilo-autoral.md é a fonte única); corpus/ com o
+                   texto publicado, as edições do autor e o mapa site ↔ repo ↔ rascunho
 docs/              documentação permanente absorvida de material de apoio (ex.: backward design)
 pesquisa/          resumos das frentes de pesquisa (Claude Code, estilometria, editoração, antipadrões IA)
 _pesquisa/         Deep Research pontual (via agy) para esclarecer dúvida de metodologia/verificação
@@ -54,8 +57,11 @@ posts/<slug>/      post.md, graficos.md, diagramas.md, infograficos.md (entregá
                    + processo/ (rascunho de etapas)
 marketing/         catálogo de conteúdo citável: ofertas, posts legados, clusters (YAML à mão)
                    e catalogo.json (gerado)
-scripts/           gerar_catalogo.py, parecer.py (validar/aplicar o parecer) e testes
+scripts/           gerar_catalogo.py, parecer.py (parecer de marketing), checar_post.py (checagem
+                   mecânica), corpus_publicado.py e diff_edicoes.py (colheita), diagnostico_edicoes.py
+                   e avaliar.py (épico de revisão), e testes
 evals/marketing/   avaliação do estrategista de marketing (casos, rodadas, notas do autor)
+evals/editorial/   avaliação antes × depois do pipeline (Fase E do épico de revisão)
 .claude/skills/    skills de referência e de tarefa
 .claude/agents/    subagentes de trabalho isolado (leitura pesada, pesquisa, crítica, verificação)
 ```
@@ -82,6 +88,13 @@ gráfico ou ilustração já publicado foi regenerado — a correção vale só 
   voz de marca/produto da Syntaxis — ver `../../brand/DESIGN.md` §3, que trata de tom em
   copy/curso/produto, não da prosa ensaística de um autor específico. Os dois documentos
   coexistem porque descrevem coisas diferentes; nenhum substitui o outro.
+  `estilo/preferencias-de-edicao.md` registra o que o autor edita no site depois do pipeline:
+  é dado medido e gerado, não regra.
+- **Texto publicado e o par site ↔ repo ↔ rascunho:** `estilo/corpus/mapa-publicados.json`
+  (gerado por `scripts/corpus_publicado.py`).
+- **Limites mecânicos (parágrafo, travessão):** `estilo/voz.fingerprint.json` → `metas_publicado`,
+  lidos por `scripts/checar_post.py`.
+- **Aviso legal:** `docs/AVISO_LEGAL.md` (vai no fim de todo post).
 - **Marca/design tokens:** `../../brand/DESIGN.md` (regras) +
   `../../brand/tokens/syntaxis.tokens.json` (valores exatos, formato DTCG) — referenciados
   por caminho relativo, nunca copiados para dentro deste repo. Todo código Plotly em
@@ -93,7 +106,8 @@ gráfico ou ilustração já publicado foi regenerado — a correção vale só 
 - **O que um post pode citar ou linkar:** `marketing/catalogo.json`, gerado por
   `scripts/gerar_catalogo.py` a partir do frontmatter dos posts (`url_publicada`, `resumo`) e
   de `marketing/{ofertas,legado,clusters}.yaml`. Nunca editado à mão.
-- **Antipadrões de texto gerado por IA em pt-BR:** `pesquisa/frente-d-antipadroes-ia-ptbr.md`.
+- **Antipadrões:** `.claude/skills/voz-syntaxis/references/antipadroes.md`, calibrado pelas
+  edições do autor. `pesquisa/frente-d-antipadroes-ia-ptbr.md` fica como pesquisa de referência.
 - **Backward design da linha "Notas de um Professor":** `docs/BACKWARDS_DESIGN.md`
   (Ficha de Saída, os oito movimentos, regras transversais, regra de referências).
 
@@ -110,8 +124,10 @@ Spoiler, somente leitura, gate bloqueante) → revisão de linha/norma → verif
 visuais → consolidação → estratégia de marketing (etapa 9a, parecer que só sugere, nunca
 edita o post) → **gate humano**. O pipeline não reescreve o rascunho do zero nem
 reordena a argumentação por conta própria — revisa, verifica, questiona e sugere; mudança
-estrutural vira pergunta ao autor, nunca edição silenciosa. Detalhes completos em
-`.claude/skills/post-substack/SKILL.md` e `docs/BACKWARDS_DESIGN.md`.
+estrutural vira pergunta ao autor, nunca edição silenciosa. A etapa 9 aplica sem escrever prosa
+nova e roda `scripts/checar_post.py`; a etapa 10 não aprova com bloqueante aberto (`[VERIFICAR]`,
+`[LINK`, jargão do pipeline). Depois de publicar: `/forja-de-voz colher <slug>`. Detalhes completos
+em `.claude/skills/post-substack/SKILL.md` e `docs/BACKWARDS_DESIGN.md`.
 
 Os entregáveis (`post.md`, `graficos.md`/`diagramas.md` quando a peça existir,
 `infograficos.md` só no caso condicional — ver `.claude/agents/prompts-visuais.md`)
@@ -137,4 +153,5 @@ qualquer commit, verifique que nada de `.env`/chave/token entrou no diff.
 
 Verifique `estilo/voz.fingerprint.json` e `.claude/skills/post-substack/SKILL.md` antes de
 propor recriar qualquer coisa — se já existem, o modo é auditoria/atualização, não bootstrap.
+Depois de cada post publicado, o modo é colheita (`/forja-de-voz colher <slug>`).
 Ver protocolo completo em `.claude/skills/forja-de-voz/references/protocolo-de-atualizacao.md`.
