@@ -5,7 +5,7 @@ slug: 2026-11-18-cara-eu-ganho-coroa-eu-nao-perco
 data: 2026-11-18
 linha_editorial: Notas de um Professor
 tags: [Notas de um Professor, Renda Fixa, Arbitragem, Precificação]
-status: em-revisao
+status: aprovado
 resumo: "Arbitragem, Lei do Preço Único e carteira replicante: por que o preço de um título é o custo de montar o mesmo fluxo, como replicar uma NTN-F com LTNs e como separar arbitragem de aposta de correlação."
 ---
 
@@ -172,7 +172,7 @@ A mesa compra 100.000 NTN-F do *dealer* e vende a réplica: 4.881 LTNs de 126 di
 | Venda das LTNs da réplica | +94.388.697,41 |
 | **Líquido na montagem** | **+20.609,88** |
 
-O arredondamento dos lotes deixa a mesa devendo R$ 115,18 a mais do que recebe em cada data, o que vale R$ 302,60 hoje. Descontado esse custo do arredondamento, o lucro travado é de R$ 20.307,28: exatamente 100.000 vezes a diferença de preço, que, sem arredondar, é de R$ 0,2031 por título.
+O arredondamento dos lotes deixa a mesa devendo R$ 115,18 a mais do que recebe em cada data, o que vale R$ 302,60 hoje. Descontado esse custo do arredondamento, o lucro travado é de R$ 20.307,28: exatamente 100.000 vezes a diferença de preço, que é de cerca de R$ 0,2031 por título.
 
 ![Diagrama: a mesa trava R$ 20.307,28 hoje; em cada data, a NTN-F paga as LTNs e a reserva cobre os R$ 115,18 que faltam.](diag-02)
 
@@ -241,7 +241,7 @@ Desvio por título:          =PU_mercado - PU_réplica
 O segundo é a hora de classificar uma operação. Antes de chamar qualquer coisa de arbitragem, três perguntas:
 
 1. **Os fluxos são idênticos, nas mesmas datas?** PETR3 e PETR4 falham aqui.
-2. **O devedor é o mesmo?** Um CDB (Certificado de Depósito Bancário) e uma LTN com o mesmo vencimento podem pagar o mesmo valor, mas não carregam o mesmo risco de crédito. A Lei do Preço Único não diz nada sobre eles.
+2. **O devedor é o mesmo?** Um [CDB (Certificado de Depósito Bancário)](https://syntaxis.substack.com/p/o-papel-do-cdb-na-transformacao-de) e uma LTN com o mesmo vencimento podem pagar o mesmo valor, mas não carregam o mesmo risco de crédito. A Lei do Preço Único não diz nada sobre eles.
 3. **Dá para vender a ponta cara, e quanto custa sustentar a posição até o vencimento?** O empréstimo do papel, o *spread*, a margem e o capital para atravessar a marcação a mercado entram aqui.
 
 Três respostas sim, e um custo menor que o desvio: é arbitragem, desde que haja capital para levar a posição até o vencimento. Qualquer não: é outra coisa. Pode até ser uma boa operação, mas tem risco, e precisa ser tratada como tal.
