@@ -1,9 +1,14 @@
 {
-  "etapa_atual": 0,
+  "etapa_atual": 1,
   "loops_consumidos": 0,
-  "aprovacoes": [],
+  "aprovacoes": [
+    "Linha editorial: Notas de um Professor (lida do campo linha_editorial no rascunho, etapa 0; sem front-matter YAML)",
+    "Título e subtítulo atuais; ponte para o bootstrapping; exemplo estilizado; Black-Scholes só como menção (autor, respostas no rascunho)"
+  ],
   "pendencias": [],
   "commit_inicial": "89c373d",
   "slug": "2026-11-18-cara-eu-ganho-coroa-eu-nao-perco",
-  "linha_editorial": "Notas de um Professor"
+  "linha_editorial": "Notas de um Professor",
+  "titulo": "Cara, eu ganho. Coroa, eu não perco.",
+  "subtitulo": "Preço não é opinião: é o custo de montar o mesmo fluxo."
 }
