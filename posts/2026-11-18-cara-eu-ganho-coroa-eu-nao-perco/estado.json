@@ -1,5 +1,5 @@
 {
-  "etapa_atual": 8,
+  "etapa_atual": 9,
   "loops_consumidos": 0,
   "aprovacoes": [
     "Linha editorial: Notas de um Professor (lida do campo linha_editorial no rascunho, etapa 0; sem front-matter YAML)",
@@ -12,8 +12,7 @@
     "Etapa 6: aplicar as 8 norma e as 21 linha com ★; as 8 sem ★ ficam fora (autor)"
   ],
   "pendencias": [
-    "Críticas baixas 8b, 9–14 vão ao gate como sugestão",
-    "Regenerar marketing/catalogo.json antes da 9a (frequencia-de-capitalizacao aparece como não publicado)"
+    "Críticas baixas 8b, 9–14 vão ao gate como sugestão"
   ],
   "commit_inicial": "89c373d",
   "slug": "2026-11-18-cara-eu-ganho-coroa-eu-nao-perco",

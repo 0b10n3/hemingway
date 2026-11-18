@@ -189,9 +189,9 @@
       "data": "2026-11-09",
       "linha_editorial": "Notas de um Professor",
       "resumo": "Taxa nominal, efetiva e contínua: por que a capitalização contínua é o limite do composto, e não um regime rival, e por que errar a etiqueta da taxa pesa mais que a frequência.",
-      "url": null,
-      "situacao": "não publicado",
-      "citavel": false
+      "url": "https://syntaxis.substack.com/p/frequencia-de-capitalizacao",
+      "situacao": "disponível",
+      "citavel": true
     },
     {
       "id": "post:2026-11-13-should-i-stay",
@@ -200,6 +200,17 @@
       "data": "2026-11-13",
       "linha_editorial": "Spoiler",
       "resumo": "Clima ruim não decide sozinho se você fica ou sai do emprego: o critério é se o seu capital de carreira ainda cresce. Três sinais para ficar, três para ir e uma regra de estado e data para escrever antes do próximo mês ruim.",
+      "url": "https://syntaxis.substack.com/p/should-i-stay-or-should-i-go",
+      "situacao": "disponível",
+      "citavel": true
+    },
+    {
+      "id": "post:2026-11-18-cara-eu-ganho-coroa-eu-nao-perco",
+      "tipo": "post",
+      "titulo": "Cara, eu ganho. Coroa, eu não perco.",
+      "data": "2026-11-18",
+      "linha_editorial": "Notas de um Professor",
+      "resumo": "Arbitragem, Lei do Preço Único e carteira replicante: por que o preço de um título é o custo de montar o mesmo fluxo, como replicar uma NTN-F com LTNs e como separar arbitragem de aposta de correlação.",
       "url": null,
       "situacao": "não publicado",
       "citavel": false
