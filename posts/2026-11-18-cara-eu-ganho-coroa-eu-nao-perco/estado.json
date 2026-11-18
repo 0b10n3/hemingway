@@ -7,11 +7,13 @@
     "Crítica 1+2: manter o desmembramento no parágrafo curto do rascunho, sem a norma no corpo; o autor traz a fonte até o gate (autor, pós-etapa 5)",
     "Crítica 3, 7, 8: aplicados (refrão sai de 'A moeda aparece'; real × estilizado; sai o Nobel póstumo) (autor, pós-etapa 5)",
     "Crítica 4: costurar a segunda metade do Mito com uma frase; crítica 5: ligar capital e marcação a mercado (autor, pós-etapa 5)",
-    "Crítica 6: recusada, a oração da Selic fica (autor, pós-etapa 5)"
+    "Crítica 6: recusada, a oração da Selic fica (autor, pós-etapa 5)",
+    "Etapa 7: aplicar C1–C12, exemplo em cálculo próprio (sem C1-alt) (autor)",
+    "Etapa 6: aplicar as 8 norma e as 21 linha com ★; as 8 sem ★ ficam fora (autor)"
   ],
   "pendencias": [
-    "[VERIFICAR] desmembramento da NTN-F: o autor traz a fonte oficial até o gate",
-    "Críticas baixas 8b, 9–14 vão ao gate como sugestão"
+    "Críticas baixas 8b, 9–14 vão ao gate como sugestão",
+    "Regenerar marketing/catalogo.json antes da 9a (frequencia-de-capitalizacao aparece como não publicado)"
   ],
   "commit_inicial": "89c373d",
   "slug": "2026-11-18-cara-eu-ganho-coroa-eu-nao-perco",
