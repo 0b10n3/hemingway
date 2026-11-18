@@ -3,9 +3,16 @@
   "loops_consumidos": 0,
   "aprovacoes": [
     "Linha editorial: Notas de um Professor (lida do campo linha_editorial no rascunho, etapa 0; sem front-matter YAML)",
-    "Título e subtítulo atuais; ponte para o bootstrapping; exemplo estilizado; Black-Scholes só como menção (autor, respostas no rascunho)"
+    "Título e subtítulo atuais; ponte para o bootstrapping; exemplo estilizado; Black-Scholes só como menção (autor, respostas no rascunho)",
+    "Crítica 1+2: manter o desmembramento no parágrafo curto do rascunho, sem a norma no corpo; o autor traz a fonte até o gate (autor, pós-etapa 5)",
+    "Crítica 3, 7, 8: aplicados (refrão sai de 'A moeda aparece'; real × estilizado; sai o Nobel póstumo) (autor, pós-etapa 5)",
+    "Crítica 4: costurar a segunda metade do Mito com uma frase; crítica 5: ligar capital e marcação a mercado (autor, pós-etapa 5)",
+    "Crítica 6: recusada, a oração da Selic fica (autor, pós-etapa 5)"
   ],
-  "pendencias": [],
+  "pendencias": [
+    "[VERIFICAR] desmembramento da NTN-F: o autor traz a fonte oficial até o gate",
+    "Críticas baixas 8b, 9–14 vão ao gate como sugestão"
+  ],
   "commit_inicial": "89c373d",
   "slug": "2026-11-18-cara-eu-ganho-coroa-eu-nao-perco",
   "linha_editorial": "Notas de um Professor",
