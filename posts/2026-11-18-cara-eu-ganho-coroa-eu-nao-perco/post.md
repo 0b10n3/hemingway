@@ -11,7 +11,7 @@ resumo: "Arbitragem, Lei do Preço Único e carteira replicante: por que o preç
 
 No fim do [último texto](https://syntaxis.substack.com/p/frequencia-de-capitalizacao), deixei uma fórmula de planilha para replicar o preço de uma LTN (Letra do Tesouro Nacional, o título público prefixado sem cupom). Com ela, a série de convenções fechou: a régua, o motor e a etiqueta.
 
-A palavra que importa hoje já estava naquela linha: *replicar*.
+A palavra que importa hoje já estava ali: *replicar*.
 
 Comece por uma aposta. Uma moeda é lançada. Se der cara, você ganha. Se der coroa, você não perde nada. E não paga para entrar.
 
@@ -19,7 +19,9 @@ Ninguém recusaria. É o ganha-ganha mais puro que existe, e tem um detalhe: é 
 
 No mercado, essa aposta tem nome. É a **arbitragem**. E boa parte da teoria de preços foi construída sobre a ideia de que ela não dura.
 
-Agora, um caso concreto. No vencimento de 1º de janeiro de 2029, o Tesouro Nacional vai pagar R$ 1.000 a quem tiver uma LTN 2029. No mesmo dia, vai pagar R$ 1.048,80 a quem tiver uma NTN-F 2029 (Nota do Tesouro Nacional, série F: o prefixado que paga cupom a cada seis meses). São o último cupom e o principal.
+Agora, um caso concreto. 
+
+No vencimento de 1º de janeiro de 2029, o Tesouro Nacional vai pagar R$ 1.000 a quem tiver uma LTN 2029. No mesmo dia, vai pagar R$ 1.048,80 a quem tiver uma NTN-F 2029 (Nota do Tesouro Nacional, série F: o prefixado que paga cupom a cada seis meses). São o último cupom e o principal.
 
 Na custódia dos títulos públicos, a NTN-F pode ser desmembrada: o principal e cada cupom passam a circular como títulos separados.
 
@@ -31,7 +33,6 @@ O que obriga duas promessas idênticas a custarem o mesmo? E o que mais se tira 
 
 ## A taxa não manda no preço
 
-A versão que circula é mais ou menos esta.
 
 Cada título tem a sua taxa. A NTN-F é cotada pela TIR (taxa interna de retorno: a taxa única que, aplicada a todos os fluxos, reproduz o preço), a LTN, pela dela, e o preço sai de cada taxa. O valor presente, a soma dos fluxos descontados, seria uma convenção de cálculo: a fórmula que o manual manda usar.
 
@@ -43,7 +44,7 @@ As duas metades erram pelo mesmo motivo: tratam o preço como opinião. A opini�
 
 Essa frase basta para tirar a fórmula de valor presente, o preço justo de uma NTN-F e, com mais matemática, a fórmula de Black-Scholes.
 
-## A aposta que não sobrevive
+## A aposta ideal
 
 Arbitragem é uma carteira que custa zero (ou menos que zero) hoje, nunca dá prejuízo no futuro e deixa lucro em algum ponto: no dinheiro recebido hoje ou em pelo menos um cenário futuro. Ela aparece de duas formas:
 
@@ -77,7 +78,9 @@ A mesa compra o principal e vende a LTN a descoberto (vende o título que não t
 
 R$ 4,89 no bolso hoje, sem nenhuma obrigação líquida depois. É a primeira forma de arbitragem.
 
-Se o princípio vale, o preço de R$ 870,00 não sobrevive. Invertendo as pontas (comprar a LTN, vender o principal), o caso contrário também cai. Sobra a igualdade.
+Se o princípio vale, o preço de R$ 870,00 não sobrevive. Invertendo as pontas (comprar a LTN, vender o principal), o caso contrário também cai. 
+
+Sobra a igualdade.
 
 ### Quem paga o ganha-ganha
 
