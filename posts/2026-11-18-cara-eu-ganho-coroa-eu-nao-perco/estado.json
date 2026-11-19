@@ -1,0 +1,45 @@
+{
+  "etapa_atual": 10,
+  "loops_consumidos": 1,
+  "aprovacoes": [
+    "Linha editorial: Notas de um Professor (lida do campo linha_editorial no rascunho, etapa 0; sem front-matter YAML)",
+    "Título e subtítulo atuais; ponte para o bootstrapping; exemplo estilizado; Black-Scholes só como menção (autor, respostas no rascunho)",
+    "Crítica 1+2: manter o desmembramento no parágrafo curto do rascunho, sem a norma no corpo; o autor traz a fonte até o gate (autor, pós-etapa 5)",
+    "Crítica 3, 7, 8: aplicados (refrão sai de 'A moeda aparece'; real × estilizado; sai o Nobel póstumo) (autor, pós-etapa 5)",
+    "Crítica 4: costurar a segunda metade do Mito com uma frase; crítica 5: ligar capital e marcação a mercado (autor, pós-etapa 5)",
+    "Crítica 6: recusada, a oração da Selic fica (autor, pós-etapa 5)",
+    "Etapa 7: aplicar C1–C12, exemplo em cálculo próprio (sem C1-alt) (autor)",
+    "Etapa 6: aplicar as 8 norma e as 21 linha com ★; as 8 sem ★ ficam fora (autor)",
+    "Gate — C2: 'que é de cerca de R$ 0,2031 por título' (autor)",
+    "Gate — marketing: aceitos C1, R2, B1, B2; recusados C2, R1, X1, X2 (autor). R2 aplicado por parecer.py; C1/B1/B2 são inserção manual no Substack. X2 recusado: a promessa do texto sobre trading de correlação fica",
+    "Gate humano (etapa 10): APROVADO pelo autor em 2026-11-18. Publicação e merge são ações do autor."
+  ],
+  "pendencias": [
+    "Rascunho _arquivo/drafts/2026-11-18_Notas de um Professor — Cara, eu ganho. Coroa, eu não perco.md não versionado: autor commita em main (escopo arquivo)",
+    "Substack, à mão: botão C1 (fim da abertura, depois de 'E o que mais se tira daí, além dessa igualdade?'); backlinks B1 em frequencia-de-capitalizacao ('replicar o preço') e B2 em du252-contagem-de-dias ('o preço unitário (PU)')",
+    "Subir figuras/diag-01.png e diag-02.png nos placeholders (PNG com fonte reserva; reexportar com Montserrat/Source Sans 3 instaladas, se quiser)",
+    "Depois de publicar: preencher url_publicada no frontmatter de post.md e rodar /forja-de-voz colher 2026-11-18-cara-eu-ganho-coroa-eu-nao-perco",
+    "Pauta: promessa de um texto sobre trading de correlação (X2 recusado); próximo texto da série: bootstrapping",
+    "Críticas baixas 8b, 9–14 e observações 2–5 da consolidação vistas no gate, não aplicadas"
+  ],
+  "commit_inicial": "89c373d",
+  "slug": "2026-11-18-cara-eu-ganho-coroa-eu-nao-perco",
+  "linha_editorial": "Notas de um Professor",
+  "titulo": "Cara, eu ganho. Coroa, eu não perco.",
+  "subtitulo": "Preço não é opinião: é o custo de montar o mesmo fluxo.",
+  "marketing": {
+    "aceitos": [
+      "C1",
+      "R2",
+      "B1",
+      "B2"
+    ],
+    "recusados": [
+      "C2",
+      "R1",
+      "X1",
+      "X2"
+    ]
+  },
+  "status": "aprovado"
+}
