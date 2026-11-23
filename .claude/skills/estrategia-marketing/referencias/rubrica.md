@@ -20,6 +20,7 @@ precisa *declarar* o segmento no texto, quem declara é o seu diagnóstico.
 | `promessa-guia` | O post é coerente com a promessa-guia (skills técnicas e fluxo de trabalho que separam quem estagia de quem é efetivado) sem prometer salário, promoção ou resultado financeiro? | FUNIL §1 | nunca |
 | `conformidade` | Alguma passagem pode ser lida como recomendação de compra, venda ou escolha de ativo ou emissor específico? Um aviso de "não é recomendação" não descaracteriza a recomendação (manual da ANBIMA para finfluencers). Citar emissor como caso didático é permitido; dizer que vale a pena comprá-lo, não | ANBIMA; `PROJECT_DESCRIPTION.md` (aviso legal) | nunca |
 | `preco` | Se o post cita preço da Syntaxis, ele é igual ao de `PRICE_TAG.md` e o produto está à venda? | PRICE_TAG; FUNIL §6 | o post não cita preço |
+| `pergunta-no-fecho` | O último parágrafo do corpo termina com uma pergunta que convida o leitor a responder ao e-mail? "Não passa" pede o CTA de `regras-cta.md`, seção "Pergunta final" | esteira v2 (decisão do autor, 2026-11-23) | nunca |
 
 ## Como raciocinar antes do veredito
 

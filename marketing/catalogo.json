@@ -422,6 +422,7 @@
         "#GENZ-FEAR",
         "#GENZ-GREED"
       ],
+      "termos": [],
       "citavel": true
     },
     {
@@ -436,6 +437,7 @@
         "#GENZ-FEAR",
         "#GENZ-GREED"
       ],
+      "termos": [],
       "citavel": true
     },
     {
@@ -450,6 +452,7 @@
         "#GENZ-FEAR",
         "#GENZ-GREED"
       ],
+      "termos": [],
       "citavel": true
     },
     {
@@ -464,6 +467,7 @@
         "#GENZ-FEAR",
         "#GENZ-GREED"
       ],
+      "termos": [],
       "citavel": true
     },
     {
@@ -478,6 +482,7 @@
         "#GENZ-FEAR",
         "#GENZ-GREED"
       ],
+      "termos": [],
       "citavel": true
     },
     {
@@ -492,6 +497,7 @@
         "#GENZ-FEAR",
         "#GENZ-GREED"
       ],
+      "termos": [],
       "citavel": false
     },
     {
@@ -506,6 +512,27 @@
         "#GENZ-FEAR",
         "#GENZ-GREED"
       ],
+      "termos": [
+        "FVDT",
+        "Fundamentos do Valor do Dinheiro no Tempo"
+      ],
+      "citavel": false
+    },
+    {
+      "id": "oferta:brinde-assinatura",
+      "tipo": "brinde",
+      "titulo": "Brinde de assinatura",
+      "url": null,
+      "situacao": "em produção",
+      "estagio": "topo gratuito",
+      "resumo": null,
+      "segmento": [
+        "#GENZ-FEAR",
+        "#GENZ-GREED"
+      ],
+      "termos": [
+        "brinde"
+      ],
       "citavel": false
     },
     {
@@ -517,6 +544,7 @@
       "estagio": "2º curso",
       "resumo": null,
       "segmento": [],
+      "termos": [],
       "citavel": false
     },
     {
@@ -528,6 +556,7 @@
       "estagio": "combo",
       "resumo": null,
       "segmento": [],
+      "termos": [],
       "citavel": false
     },
     {
@@ -542,6 +571,7 @@
         "#Millennials-FEAR",
         "#Millennials-GREED"
       ],
+      "termos": [],
       "citavel": false
     },
     {
@@ -553,6 +583,7 @@
       "estagio": null,
       "resumo": null,
       "segmento": [],
+      "termos": [],
       "citavel": false
     },
     {
@@ -567,6 +598,7 @@
         "#Millennials-FEAR",
         "#Millennials-GREED"
       ],
+      "termos": [],
       "citavel": false
     }
   ],

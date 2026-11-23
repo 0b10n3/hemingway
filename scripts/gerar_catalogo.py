@@ -53,7 +53,7 @@ def gerar():
     for o in _yaml("ofertas.yaml"):
         itens.append({"id": o["id"], "tipo": o["tipo"], "titulo": o["nome"], "url": o.get("url"),
                       "situacao": o["situacao"], "estagio": o.get("estagio"), "resumo": o.get("resumo"),
-                      "segmento": o.get("segmento") or []})
+                      "segmento": o.get("segmento") or [], "termos": o.get("termos") or []})
 
     por_id = {}
     for i in itens:
