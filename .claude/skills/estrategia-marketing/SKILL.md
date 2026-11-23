@@ -38,6 +38,8 @@ entregar, confira:
 - todo `trecho` do diagnóstico, da rubrica e dos riscos copiado literalmente;
 - `destino_id` existente em `marketing/catalogo.json` com `citavel: true`, e nunca o próprio post;
 - no máximo 1 CTA `principal`, 2 `secundario` e 4 referências (botão de inscrição não é obrigatório);
+- post cujo último parágrafo não termina em pergunta pede o CTA da pergunta final (`responder_email`
+  em texto, âncora no último parágrafo, terminando em "?"), que não conta no teto de secundários;
 - texto de link descritivo, nunca "clique aqui", "aqui", "leia mais", "saiba mais", "este link";
 - nenhum emoji; nenhum número em texto sugerido que não esteja no post ou em
   `../../strategy/FEAR.md`, `GREED.md` ou `PRICE_TAG.md`.

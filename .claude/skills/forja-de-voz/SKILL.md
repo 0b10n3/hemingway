@@ -43,7 +43,10 @@ site. **Nunca altera regra do guia.**
 1. `python3 scripts/corpus_publicado.py` — captura o que é novo ou mudou no site (arquivo novo em
    `_arquivo/publicados/`, nunca sobrescrita) e regera `estilo/corpus/`.
 2. Se o `post.md` do post publicado não tem `url_publicada`, proponha a linha (o par está em
-   `estilo/corpus/mapa-publicados.json`). Só aplique com o ok do autor.
+   `estilo/corpus/mapa-publicados.json`). Só aplique com o ok do autor. Se o post tem kit de
+   distribuição (`posts/<slug>/distribuicao/kit.json`), rode em seguida
+   `python3 scripts/kit.py url <slug>`: ele troca `{{URL_POST}}` pela URL em todos os arquivos do
+   kit e marca as peças como prontas.
 3. `python3 scripts/diff_edicoes.py <slug>` (ou sem argumento, para `todos`), depois
    `python3 scripts/diff_edicoes.py preferencias`.
 4. `python3 scripts/checar_post.py estilo/corpus/publicados/<slug-do-site>.md`. Marcador ou jargão

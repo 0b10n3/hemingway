@@ -1,0 +1,90 @@
+# Esteira de distribuição v2: fonte única da etapa Distribuição (/distribuir).
+# Aprovada pelo autor em 2026-11-23. Meta dos próximos 3 meses: novos assinantes no Substack,
+# falando com profissionais do mercado financeiro.
+#
+# Quem lê: scripts/kit.py (peças, datas, limites, checagens) e ../uther-pendragon (planejamento da
+# semana). Mudou a esteira? Mude aqui: nenhum outro arquivo repete estes valores.
+# Origem de cada limite: "plataforma (fonte, data da consulta)", "marca (documento §)" ou
+# "regra do projeto" (escolha do autor, ajustável).
+
+versao: 1
+
+# Chave = campo "linha" do kit.json; rotulo = linha_editorial do post.md.
+linhas:
+  notas-de-um-professor:
+    rotulo: Notas de um Professor
+    dia_publicacao: terca          # era segunda até 2026-11-23
+  spoiler:
+    rotulo: Spoiler
+    dia_publicacao: sexta
+
+dias_sem_publicacao: [sabado]
+
+# D+n a partir da publicação no Substack. As duas linhas são independentes: uma não aponta para a outra.
+# link: true = a peça leva {{URL_POST}}; false = não pode ter URL. apetite_min = estimativa inicial,
+# a calibrar com o tempo real (o uther-pendragon a substitui pelo registrado no ClickUp).
+pecas:
+  notas-de-um-professor:
+    - {id: note-d0,      tipo: note,      offset_dias: 0, canais: [substack-notes], apetite_min: 5, link: true}
+    - {id: video-d1,     tipo: video,     offset_dias: 1, canais: [linkedin, instagram-reels, youtube-shorts], apetite_min: 30}
+    - {id: note-d2,      tipo: note,      offset_dias: 2, canais: [substack-notes], apetite_min: 5, link: false}
+    - {id: carrossel-d6, tipo: carrossel, offset_dias: 6, canais: [linkedin, instagram], apetite_min: 20}
+  spoiler:
+    - {id: note-d0,          tipo: note,          offset_dias: 0, canais: [substack-notes], apetite_min: 5, link: true}
+    - {id: post-linkedin-d2, tipo: post-linkedin, offset_dias: 2, canais: [linkedin], apetite_min: 10}
+    - {id: note-d2,          tipo: note,          offset_dias: 2, canais: [substack-notes], apetite_min: 5, link: false}
+    - {id: carrossel-d6,     tipo: carrossel,     offset_dias: 6, canais: [linkedin, instagram], apetite_min: 20}
+
+# Por tipo de peça: os textos que o redator escreve (canal → chave de limites_caracteres), os
+# arquivos que entram no kit.json e o que o autor faz à mão.
+tipos:
+  note:
+    textos: {substack-notes: note}
+    arquivos: [distribuicao/textos.md]
+    producao_manual: [publicar a Note no Substack]
+  post-linkedin:
+    textos: {linkedin: post-linkedin}
+    arquivos: [distribuicao/textos.md]
+    producao_manual: [publicar no perfil pessoal do LinkedIn]
+  video:
+    textos: {linkedin: legenda-linkedin, instagram-reels: legenda-instagram, youtube-shorts-titulo: titulo-shorts, youtube-shorts-descricao: descricao-shorts}
+    arquivos: [distribuicao/textos.md]        # roteiro e prompts entram na Fatia C
+    producao_manual: [gravar em câmera, montar no CapCut, "publicar no LinkedIn, no Reels e no Shorts"]
+  carrossel:
+    textos: {linkedin: legenda-linkedin, instagram: legenda-instagram}
+    arquivos: [distribuicao/textos.md]        # slides e prompt entram na Fatia B
+    producao_manual: [gerar o carrossel, publicar o PDF no LinkedIn e as imagens no Instagram]
+
+retorno:
+  janela_min: 8                    # regra do projeto: por dia com peça publicada
+  texto: responder comentários no dia
+
+orcamento_semanal_min: 120         # regra do projeto: o autor tem de 1 a 2 h por semana para divulgação e interação
+# Conta de 2026-11-23: 100 min de peças + 6 dias com peça × 8 min de resposta = 148 min por semana.
+# Decisão (padrão recomendado no plano): calibrar com o tempo real na Fase 3 antes de cortar.
+corte:                             # ordem, se a semana estourar. Notes, carrosséis e respostas nunca saem.
+  - {linha: spoiler, peca: post-linkedin-d2, acao: cortar}
+  - {linha: notas-de-um-professor, peca: video-d1, acao: quinzenal}
+
+limites_caracteres:                # contados por script; {{URL_POST}} conta como 80
+  note:              {max: 600,  origem: "regra do projeto"}
+  post-linkedin:     {max: 3000, origem: "plataforma (LinkedIn Help, answer/97459, consultado em 2026-11-23)"}
+  legenda-linkedin:  {max: 3000, origem: "plataforma (LinkedIn Help, answer/97459, consultado em 2026-11-23)"}
+  legenda-instagram: {max: 2200, origem: "secundária (a Central de Ajuda da Meta não publica o número; Sendible e outros, consultado em 2026-11-23) [VERIFICAR na 1ª publicação]"}
+  titulo-shorts:     {max: 100,  origem: "plataforma (YouTube Help, answer/10059070, consultado em 2026-11-23)"}
+  descricao-shorts:  {max: 5000, origem: "secundária (documentação de terceiros, consultado em 2026-11-23) [VERIFICAR]"}
+
+regras:
+  pergunta_final_exceto: [youtube-shorts-titulo]   # todo texto termina com uma pergunta, menos o título do Shorts
+  hashtags_max: {}                 # regra do projeto (2026-11-23): zero hashtags em todos os canais; canal: n libera
+  fontes_numero: [../../strategy/FEAR.md, ../../strategy/GREED.md]   # além do próprio post
+
+linkedin:
+  link_no_post: true               # decisão do autor (2026-11-23): o link vai no próprio texto do post
+
+instagram:
+  link: link na bio                # link na legenda não é clicável: legendas de instagram e instagram-reels não levam URL
+  bio: https://syntaxis.substack.com/subscribe   # o que fica na bio enquanto a esteira roda [confirmar com o autor]
+
+assinatura:
+  url_inscricao: https://syntaxis.substack.com/subscribe   # página de inscrição padrão do Substack [confirmar com o autor]

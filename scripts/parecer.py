@@ -24,6 +24,27 @@ FIM_DO_CORPO = re.compile(r"^## (Para continuar aprendendo|Para ir além|Referê
 LINK_GENERICO = ["clique aqui", "leia mais", "saiba mais", "este link", "neste link"]
 EMOJI = re.compile("[\U0001F000-\U0001FAFF☀-➿⬀-⯿️‍]")
 NUMERO = re.compile(r"\d+(?:[.,]\d+)*")
+LINHA_SO_LINK = re.compile(r"(https?://\S+|\{\{[A-Z_]+\}\})")
+
+
+def termina_em_pergunta(texto):
+    """Última frase termina em '?'. Uma linha final só com o link (URL ou {{URL_POST}}) é ignorada."""
+    linhas = [l.strip() for l in texto.strip().splitlines() if l.strip()]
+    while linhas and LINHA_SO_LINK.fullmatch(linhas[-1]):
+        linhas.pop()
+    return bool(linhas) and linhas[-1].rstrip(" *_”\"’')").endswith("?")
+
+
+def _ultimo_paragrafo(principal):
+    """Último parágrafo de prosa do corpo, antes do aviso legal; pula figura, título, lista e tabela."""
+    blocos = [b.strip() for b in re.split(r"\n\s*\n", principal.split("\n* * *")[0]) if b.strip()]
+    prosa = [b for b in blocos if not b.startswith(("![", "#", "|", "- ", "* ", "$$"))]
+    return prosa[-1] if prosa else ""
+
+
+def _pergunta_final(c):
+    """CTA da pergunta final (regra da esteira v2, 2026-11-23): resposta ao e-mail, em texto."""
+    return c["tipo"] == "responder_email" and c["formato"] == "texto"
 
 
 def _pasta(slug):
@@ -103,7 +124,7 @@ def checar(parecer, corpo, catalogo, slug, fontes_numero=""):
     for c in parecer["ctas"]:
         pos = unica(c["id"], c["ancora"])
         item = citavel(c["id"], c["destino_id"])
-        if c["papel"] in papeis:
+        if c["papel"] in papeis and not _pergunta_final(c):  # a pergunta final não conta no teto
             papeis[c["papel"]] += 1
         if c["formato"] == "botao_nativo" and item and item["tipo"] != "nativo":
             erros.append(f"{c['id']}: botão nativo só aponta para destino substack:*")
@@ -116,6 +137,13 @@ def checar(parecer, corpo, catalogo, slug, fontes_numero=""):
     for papel, k in papeis.items():
         if k > LIMITES[papel]:
             erros.append(f"CTAs: {k} com papel {papel}, máximo {LIMITES[papel]}")
+
+    fecho = _ultimo_paragrafo(principal)
+    if not termina_em_pergunta(fecho) and not any(
+            _pergunta_final(c) and c["ancora"] in fecho and termina_em_pergunta(c.get("texto_sugerido", ""))
+            for c in parecer["ctas"]):
+        erros.append("pergunta final: o post não termina com pergunta; proponha um CTA responder_email em texto, "
+                     "ancorado no último parágrafo do corpo, com texto_sugerido terminando em '?' (regras-cta.md)")
 
     if len(parecer["referencias"]) > LIMITES["referencias"]:
         erros.append(f"referências: {len(parecer['referencias'])}, máximo {LIMITES['referencias']}")

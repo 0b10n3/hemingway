@@ -33,6 +33,28 @@ autor em 2026-11-09, não dado de mercado. Mudar exige mudar também `LIMITES` e
 - Antes de propor "comentar", lembre que nem todo post aceita comentário de leitor gratuito.
   Registre isso em `riscos[]` quando o CTA principal depender de comentário.
 
+## Pergunta final (regra da esteira v2, decisão do autor de 2026-11-23)
+
+**O post termina com uma pergunta que convida o leitor a responder ao e-mail.** Por quê: a meta
+dos próximos três meses é ganhar assinantes, e a resposta ao e-mail é a conversa direta com quem
+já lê. Quando o autor pede uma resposta específica, ela vem da experiência do leitor
+(`coqueiros-e-cacaueiros`: «E se alguém já te ajudou a enxergar um coqueiro seu, responda a este
+e-mail e me conte. Quero muito saber qual foi.»). Esse fecho, na forma de pergunta, é o padrão.
+
+- Se o último parágrafo do corpo (antes de "Para continuar aprendendo" e do aviso legal) já
+  termina com uma pergunta ao leitor, não proponha nada; registre `passa` na rubrica.
+- Se não termina, proponha **um** CTA: `papel: secundario`, `tipo: responder_email`,
+  `formato: texto`, `destino_id: substack:responder-email`, com a âncora no último parágrafo do
+  corpo. O `texto_sugerido` tem uma ou duas frases na voz do autor, pede a resposta ao e-mail e
+  **termina em "?"**. Use uma pergunta que o leitor responde com a própria experiência ("qual
+  calendário já te enganou?"), nunca uma de sim ou não ("Faz sentido?").
+- Esse CTA não conta no teto de 2 secundários: os botões de compartilhar e de comentar continuam
+  com as duas vagas.
+- A regra vale também na voz explicativa (hoje em desuso), apesar da regra acima de não fechar
+  com CTA em prosa.
+- O autor aceita ou recusa no gate, como qualquer item do parecer. O validador reprova o parecer
+  de um post sem pergunta no fecho que não traga esse CTA.
+
 ## Proibido
 
 - CTA para oferta que não seja `citavel: true` no catálogo (isca, FVDT e cursos futuros estão

@@ -29,6 +29,8 @@ CORPO = "\n\n".join(PARAGRAFOS) + "\n\n## Para continuar aprendendo\n\n- Um livr
 CATALOGO = {
     "substack:inscrever": {"tipo": "nativo", "url": None, "situacao": "disponível", "citavel": True, "titulo": "Inscrever"},
     "substack:comentar": {"tipo": "nativo", "url": None, "situacao": "disponível", "citavel": True, "titulo": "Comentar"},
+    "substack:compartilhar": {"tipo": "nativo", "url": None, "situacao": "disponível", "citavel": True, "titulo": "Compartilhar"},
+    "substack:responder-email": {"tipo": "nativo", "url": None, "situacao": "disponível", "citavel": True, "titulo": "Responder"},
     "oferta:skill-check": {"tipo": "captura", "url": "https://exemplo/skill", "situacao": "disponível", "citavel": True, "titulo": "Skill Check"},
     "oferta:fvdt": {"tipo": "curso", "url": None, "situacao": "em produção", "citavel": False, "titulo": "FVDT"},
     "post:du252": {"tipo": "post", "url": "https://exemplo/du252", "situacao": "disponível", "citavel": True, "titulo": "DU252"},
@@ -57,6 +59,9 @@ VALIDO = {
          "texto_link": "Syntaxis Skill Check", "destino_id": "oferta:skill-check", "motivo": "próximo passo"},
         {"id": "C4", "papel": "secundario", "tipo": "comentar", "formato": "botao_nativo",
          "ancora": "qual foi a sua pior conta?", "destino_id": "substack:comentar", "motivo": "pergunta ao leitor"},
+        {"id": "C5", "papel": "secundario", "tipo": "responder_email", "formato": "texto",
+         "ancora": "Fecho do post", "texto_sugerido": "Responda a este e-mail: qual calendário já te enganou?",
+         "destino_id": "substack:responder-email", "motivo": "pergunta final da esteira v2"},
     ],
     "referencias": [
         {"id": "R1", "ancora": "o texto sobre dias úteis", "texto_link": "texto sobre dias úteis",
@@ -178,6 +183,36 @@ class Validar(unittest.TestCase):
     def test_id_repetido(self):
         self.assertReprova(lambda p: p["ctas"][3].update(id="C1"), "id repetido")
 
+    # Pergunta final (esteira v2, decisão do autor de 2026-11-23).
+    def test_pergunta_final_obrigatoria(self):
+        self.assertReprova(lambda p: p["ctas"].pop(4), "pergunta final")
+
+    def test_pergunta_final_fora_do_fecho(self):
+        self.assertReprova(lambda p: p["ctas"][4].update(ancora="Quarto parágrafo"), "pergunta final")
+
+    def test_pergunta_final_sem_interrogacao(self):
+        self.assertReprova(lambda p: p["ctas"][4].update(texto_sugerido="Responda a este e-mail."), "pergunta final")
+
+    def test_post_que_ja_termina_em_pergunta(self):
+        p = copy.deepcopy(VALIDO)
+        p["ctas"].pop(4)
+        corpo = CORPO.replace("Fecho do post, com 249 dias úteis em 2026.", "Fecho: qual é o seu calendário?")
+        self.assertEqual([e for e in P.checar(p, corpo, CATALOGO, "teste", "") if "pergunta final" in e], [])
+
+    def test_pergunta_final_nao_conta_no_teto(self):
+        def m(p):
+            extra = copy.deepcopy(p["ctas"][3])
+            extra.update(id="C6", tipo="compartilhar", destino_id="substack:compartilhar")
+            p["ctas"].append(extra)
+        self.assertEqual(erros(m), [])
+
+    def test_termina_em_pergunta(self):
+        self.assertTrue(P.termina_em_pergunta("Qual foi?\n{{URL_POST}}"))
+        self.assertTrue(P.termina_em_pergunta("E você, já viu isso?”"))
+        self.assertTrue(P.termina_em_pergunta("Qual foi?\nhttps://syntaxis.substack.com/p/x"))
+        self.assertFalse(P.termina_em_pergunta("Qual foi? Leia o texto.\n{{URL_POST}}"))
+        self.assertFalse(P.termina_em_pergunta("Texto completo: {{URL_POST}}"))
+
 
 class Aplicar(unittest.TestCase):
     """Usa o catálogo real (marketing/catalogo.json)."""
@@ -219,6 +254,11 @@ class Aplicar(unittest.TestCase):
     def test_texto_do_autor_substitui_o_sugerido(self):
         novo, _ = self.rodar("C3=Quer saber onde está? Syntaxis Skill Check.")
         self.assertIn("Quer saber onde está? [Syntaxis Skill Check](", novo)
+
+    def test_pergunta_final_entra_depois_do_ultimo_paragrafo(self):
+        novo, _ = self.rodar("C5")
+        self.assertIn("Fecho do post, com 249 dias úteis em 2026.\n\n"
+                      "Responda a este e-mail: qual calendário já te enganou?\n\n## Para continuar", novo)
 
     def test_itens_de_redacao_nao_mexem_no_texto(self):
         novo, saida = self.rodar("A2", "B1")

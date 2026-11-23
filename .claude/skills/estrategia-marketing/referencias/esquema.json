@@ -37,7 +37,7 @@
         "required": ["id", "criterio", "veredito", "evidencia"],
         "properties": {
           "id": {"type": "string", "pattern": "^A[0-9]+$"},
-          "criterio": {"enum": ["segmento-e-estagio", "eixo-puro", "dado-com-fonte", "objecao-mestra", "anti-padroes", "gancho-na-abertura", "promessa-guia", "conformidade", "preco"]},
+          "criterio": {"enum": ["segmento-e-estagio", "eixo-puro", "dado-com-fonte", "objecao-mestra", "anti-padroes", "gancho-na-abertura", "promessa-guia", "conformidade", "preco", "pergunta-no-fecho"]},
           "veredito": {"enum": ["passa", "não passa", "não se aplica"]},
           "evidencia": {"$ref": "#/$defs/texto"},
           "trecho": {"$ref": "#/$defs/trecho"},

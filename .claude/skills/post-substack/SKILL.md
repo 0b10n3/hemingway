@@ -246,6 +246,8 @@ Use `AskUserQuestion` com três saídas: **aprovar**, **ajustar**, **abortar**.
   existirem) prontos para o autor copiar manualmente para a Substack — não há automação de
   publicação neste sistema. Publicar (colar na Substack) e decidir o que fazer com a branch
   (mergear em `main`, deixar como está) são ações manuais do autor, fora deste pipeline.
+  Ofereça em seguida **`/distribuir <slug>`**: o kit da esteira v2 (Notes, post do LinkedIn,
+  legendas e as datas de cada peça) cita o texto final, então só roda depois da aprovação.
   Termine lembrando: **depois de publicar, rode `/forja-de-voz colher <slug>`** — é assim que as
   edições que o autor fizer no Substack voltam para o guia e para o registro de preferências.
 - Ajustar → pergunte o que mudar, reentre no **ponto mais raso que resolve o pedido**:
