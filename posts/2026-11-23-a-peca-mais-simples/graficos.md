@@ -3,9 +3,11 @@
 Duas peças decididas em `processo/02-estrutura.md` ("Visuais — decisão pelo critério"),
 renumeradas pela ordem de aparição no texto na etapa 4: **`graf-01` = Copom × taxa prefixada, a
 história longa** (o `graf-02` de `02-estrutura.md`) e **`graf-02` = o Prefixado 2029 em outubro** (o
-`graf-01` de lá). **Esta versão traz só o `graf-01`**, feito antes da etapa 8 a pedido do autor
-(2026-11-23), junto com o prompt do infográfico alternativo (`infograficos.md`, tensão T2). O
-`graf-02` entra na etapa 8, que também revisa este bloco contra o checklist; não refaz.
+`graf-01` de lá). **As duas peças existem.** O `graf-01` foi feito antes da etapa 8 a pedido do
+autor (2026-11-23), junto com o prompt do infográfico alternativo (`infograficos.md`, tensão T2); a
+etapa 8 o revisou contra o checklist sem refazê-lo (nota no fim do bloco dele) e produziu o
+`graf-02`, cujo bloco de dados fica dentro da seção dele. A seção "Dados" logo abaixo é a do
+`graf-01`.
 
 Os tokens de marca são lidos em runtime de `../../brand/tokens/syntaxis.tokens.json`. Todo bloco
 roda a partir da raiz do repositório (`pipelines/hemingway/`) e foi testado com `python3` (plotly +
@@ -205,6 +207,7 @@ ink = c["neutral"]["ink"]["$value"]
 slate = c["neutral"]["slate"]["$value"]
 mist = c["neutral"]["mist"]["$value"]
 grove = c["grove"]["500"]["$value"]       # a série que é o ponto (DESIGN.md §10)
+grove_txt = c["grove"]["700"]["$value"]   # texto em verde: 4,95:1 sobre Chalk (grove.500 dá 3,16:1)
 fam = tokens["typography"]["fontFamily"]
 
 
@@ -238,7 +241,7 @@ EPISODIOS = [
     ("2016-10-19", "<b>out/2016, 1º corte do Copom</b><br>a taxa já estava em {pre}%, Selic em {selic}%",
      -50, 95, "right"),
     ("2021-03-17", "<b>mar/2021, 1ª alta do Copom</b><br>a taxa já estava em {pre}%, Selic em {selic}%",
-     -40, -150, "right"),
+     -60, -180, "right"),
     ("2024-12-19", "<b>dez/2024, pacote fiscal</b><br>{pre}%, Selic em {selic}%", -20, -75, "right"),
     ("2026-10-26", "<b>out/2026, eleição</b><br>{pre}%, Selic parada em {selic}%", -10, -150, "right"),
 ]
@@ -274,7 +277,7 @@ fig.update_layout(
     title=dict(text="A taxa prefixada anda antes do Copom e salta sem ele<br>"
                     f"<span style='font-size:15px;color:{slate};font-family:{font_body}'>"
                     f"<b style='color:{slate}'>meta Selic</b> (o degrau das decisões do Copom) e "
-                    f"<b style='color:{grove}'>taxa prefixada de 1 ano</b>, em % ao ano, 2002 a 2026</span>",
+                    f"<b style='color:{grove_txt}'>taxa prefixada de 1 ano</b>, em % ao ano, 2002 a 2026</span>",
                font=dict(color=ink, size=22, family=font_display), x=0.01, xanchor="left",
                y=0.965, yanchor="top"),
     font=dict(family=font_body, color=ink),
@@ -324,7 +327,307 @@ série no subtítulo), `color.neutral.slate` (meta Selic, eixos, subtítulo, rod
 
 **Legenda:**
 
-> Meta Selic (degrau) e taxa prefixada de 1 ano, de 2002 a 2026. Nos ciclos longos, as duas andam
-> juntas; nas viradas, a taxa vira antes do Copom; nos sustos (2002, 2008, 2024, 2026), salta com a
-> Selic parada ou na contramão. Fonte: Banco Central (SGS 432 e 7806) e Tesouro Transparente; cálculo
-> próprio.
+> Nos ciclos longos, a taxa prefixada acompanha a Selic; nas viradas, vira antes do Copom; nos sustos, salta com a Selic parada.
+
+**Revisão da etapa 8 (2026-11-23), contra `checklist-graficos.md` e a marca.** Conferido e dentro do
+padrão: pergunta em uma frase, fonte com link e data de acesso, dados versionados, tokens lidos em
+runtime, forma de ênfase (`grove.500` × `slate`), eixo y em zero, sem 3D, sombra ou moldura, sem
+`lime`, alt-text de 115 caracteres. Fora do padrão (dados e figura não foram mexidos: esta etapa não
+regrava `figuras/graf-01.*`). **Itens 1 a 3 aplicados pela conversa principal em 2026-11-24, figura reexportada:**
+
+1. **A anotação de mar/2021 cobre o pico de 2015 (erro de leitura).** O fundo Chalk da caixa corta a
+   linha em cerca de 15,6%; a série chega a 16,23% em 23/09/2015 (`graf-01.csv`), e o episódio do
+   rebaixamento some. Correção testada: na tupla de `2021-03-17`, trocar `-40, -150` por `-60, -180`
+   (a caixa sobe acima do pico e não encosta na de dez/2024). Reexportar a figura depois.
+2. **Contraste do nome da série no subtítulo.** "taxa prefixada de 1 ano" em `grove.500` sobre Chalk
+   dá 3,16:1; texto de 15 px pede 4,5:1 (`DESIGN.md` §8, SC 1.4.3). A linha fica em `grove.500` (traço
+   pede 3:1); o texto vai para `grove.700` (4,95:1), como no rótulo do `graf-02`.
+3. **Legenda de quatro linhas.** A instrução pede uma linha, com o ponto que a figura prova; a fonte
+   já está no rodapé da figura. Proposta: "Nos ciclos longos, a taxa prefixada acompanha a Selic; nas
+   viradas, vira antes do Copom; nos sustos, salta com a Selic parada."
+4. **Para o gate, não é erro:** em 26/10, o `graf-01` mostra 14,6% (taxa de 1 ano, interpolada) e o
+   `graf-02`, 15,40% (o Prefixado 2029, prazo mais longo). As séries estão rotuladas, mas o leitor
+   atento pode estranhar os dois números para o mesmo dia.
+
+## graf-02
+
+**Onde entra:** no Mito, depois de "Dia a dia, a taxa do Prefixado 2029 e a Selic:" (frase de anúncio
+da etapa 4, com dois-pontos) e antes de "E tem o outro lado." O placeholder já está em
+`processo/04-draft-v2.md`.
+
+**Por que é graf (`02-estrutura.md`, onde se chama `graf-01`):** série numérica real (a taxa de
+compra diária do Tesouro Direto) contra uma referência (a meta Selic), critério 1. Taxa, não preço,
+no eixo: a comparação é com a Selic, na mesma unidade. Começa em 1/10, e não em 9/10, por decisão do
+autor (`04-draft-v2.md`, item 4 da crítica): mostra o 1º turno, que o texto usa duas vezes (o rali de
+5/10 no Mito e "o dia mais otimista do ano" em "De volta a outubro").
+
+**Pergunta que o gráfico responde:** com a Selic parada em 13,75%, quanto e quando andou a taxa do
+Prefixado 2029 entre o 1º turno e 17/11/2026?
+
+**Fonte dos dados:** Tesouro Nacional, Tesouro Transparente, "Preço e taxa dos títulos do Tesouro
+Direto",
+https://www.tesourotransparente.gov.br/ckan/dataset/df56aa42-484a-4a59-8184-7676580c81e3/resource/796d2059-14e9-44e3-80c9-2d9e30b405c1/download/PrecoTaxaTesouroDireto.csv
+(taxa e PU de compra da manhã; arquivo atualizado em 20/11/2026, data-base até 19/11/2026); Banco
+Central, SGS 432 (meta Selic),
+https://api.bcb.gov.br/dados/serie/bcdata.sgs.432/dados?formato=json&dataInicial=01/10/2026&dataFinal=17/11/2026.
+Acesso em 2026-11-23. A série bate, linha a linha, com a tabela de `processo/03-pesquisa.md`, item 8.
+
+**Dados:** `posts/2026-11-23-a-peca-mais-simples/graficos/dados/graf-02.csv`, 32 pregões de
+01/10 a 17/11/2026 (sem pregão em 12/10 e 2/11, feriados). Colunas: `data`, `taxa_compra` (% ao
+ano), `pu_compra` (R$, liquidação em D+1), `meta_selic` (% ao ano, 13,75 em todas as linhas). O
+período para em 17/11, a última data do texto: o CSV do Tesouro vai até 19/11, mas os dois pregões a
+mais seriam uma cauda sem anotação, e o rótulo do fim da linha passaria a mostrar uma taxa (15,04%) que
+o texto não cita. O bloco abaixo gera o CSV das fontes primárias, só com biblioteca padrão; os
+`assert` conferem os números que o texto e as anotações usam. Para não baixar de novo os 14,7 MB do
+Tesouro, aponte `TD_CSV` para uma cópia local.
+
+```python
+import csv
+import io
+import json
+import os
+import time
+import urllib.error
+import urllib.request
+from datetime import date, datetime
+
+POST_DIR = "posts/2026-11-23-a-peca-mais-simples"
+OUT = os.path.join(POST_DIR, "graficos/dados")
+INI, FIM = date(2026, 10, 1), date(2026, 11, 17)   # 1/10 mostra o 1º turno; 17/11 é a última data do texto
+VENC = "01/01/2029"                                 # Tesouro Prefixado 2029
+TD_URL = ("https://www.tesourotransparente.gov.br/ckan/dataset/df56aa42-484a-4a59-8184-7676580c81e3/"
+          "resource/796d2059-14e9-44e3-80c9-2d9e30b405c1/download/PrecoTaxaTesouroDireto.csv")
+TD_CSV = os.environ.get("TD_CSV")                   # opcional: o CSV já baixado (14,7 MB)
+
+
+def baixar(url, tentativas=4):
+    # a API do BCB devolve 502 de vez em quando; tenta de novo antes de desistir
+    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+    for n in range(tentativas):
+        try:
+            return urllib.request.urlopen(req, timeout=180).read()
+        except urllib.error.HTTPError as e:
+            if e.code < 500 or n == tentativas - 1:
+                raise
+            time.sleep(5 * (n + 1))
+
+
+def dia(s):
+    return datetime.strptime(s, "%d/%m/%Y").date()
+
+
+url = ("https://api.bcb.gov.br/dados/serie/bcdata.sgs.432/dados?formato=json"
+       f"&dataInicial={INI:%d/%m/%Y}&dataFinal={FIM:%d/%m/%Y}")
+meta = {dia(r["data"]): float(r["valor"]) for r in json.loads(baixar(url))}
+
+raw = open(TD_CSV, "rb").read() if TD_CSV else baixar(TD_URL)
+linhas = []
+for r in csv.DictReader(io.StringIO(raw.decode("utf-8-sig")), delimiter=";"):
+    if r["Tipo Titulo"] != "Tesouro Prefixado" or r["Data Vencimento"] != VENC:
+        continue
+    base = dia(r["Data Base"])
+    if INI <= base <= FIM:
+        linhas.append({"data": base.isoformat(),
+                       "taxa_compra": r["Taxa Compra Manha"].replace(",", "."),
+                       "pu_compra": r["PU Compra Manha"].replace(",", "."),
+                       "meta_selic": f"{meta[base]:.2f}"})
+linhas.sort(key=lambda r: r["data"])
+
+os.makedirs(OUT, exist_ok=True)
+with open(os.path.join(OUT, "graf-02.csv"), "w", newline="", encoding="utf-8") as f:
+    w = csv.DictWriter(f, fieldnames=list(linhas[0]))
+    w.writeheader()
+    w.writerows(linhas)
+
+v = {r["data"]: r for r in linhas}
+# confere com o texto (04-draft-v2.md) e com 03-pesquisa.md, itens 2 e 8
+assert (v["2026-10-13"]["taxa_compra"], v["2026-10-13"]["pu_compra"]) == ("12.40", "773.74")
+assert (v["2026-11-17"]["taxa_compra"], v["2026-11-17"]["pu_compra"]) == ("14.98", "746.00")
+assert v["2026-10-02"]["taxa_compra"] == "13.83" and v["2026-10-05"]["taxa_compra"] == "12.74"
+assert v["2026-10-26"]["taxa_compra"] == "15.40"     # pregão seguinte ao 2º turno (anotação)
+assert v["2026-11-04"]["taxa_compra"] == "15.13"     # dia do Copom (anotação)
+assert {r["meta_selic"] for r in linhas} == {"13.75"}
+assert len(linhas) == 32 and linhas[0]["data"] == "2026-10-01" and linhas[-1]["data"] == "2026-11-17"
+print("linhas", len(linhas), linhas[0]["data"], linhas[-1]["data"])
+```
+
+**Código Plotly executável** (gera `figuras/graf-02.svg` e `figuras/graf-02.png`):
+
+```python
+import json
+import os
+
+import pandas as pd
+import plotly.graph_objects as go
+
+POST_DIR = "posts/2026-11-23-a-peca-mais-simples"
+TOKENS_PATH = "../../brand/tokens/syntaxis.tokens.json"
+
+with open(TOKENS_PATH, encoding="utf-8") as f:
+    tokens = json.load(f)
+c = tokens["color"]
+bg = c["neutral"]["chalk"]["$value"]
+ink = c["neutral"]["ink"]["$value"]
+slate = c["neutral"]["slate"]["$value"]
+mist = c["neutral"]["mist"]["$value"]
+grove = c["grove"]["500"]["$value"]       # a série que é o ponto (DESIGN.md §10)
+grove_txt = c["grove"]["700"]["$value"]   # nome da série em texto: 4,95:1 sobre Chalk (grove.500 dá 3,16:1)
+fam = tokens["typography"]["fontFamily"]
+
+
+def stack(key):
+    # pilha inteira de fallback, com aspas: "Source Sans 3" sem aspas invalida a declaração CSS
+    return ", ".join(f'"{n}"' if " " in n else n for n in fam[key]["$value"])
+
+
+font_display, font_body, font_data = stack("display"), stack("body"), stack("data")
+
+
+def num(v):
+    return f"{v:.2f}".replace(".", ",")
+
+
+df = pd.read_csv(os.path.join(POST_DIR, "graficos/dados/graf-02.csv"), parse_dates=["data"])
+ix = df.set_index("data")
+taxa = lambda d: ix.loc[d, "taxa_compra"]
+pu = lambda d: num(ix.loc[d, "pu_compra"])
+selic = df["meta_selic"].iloc[-1]
+
+fig = go.Figure()
+# Meta Selic: contexto, em slate. Parada em 13,75% o período inteiro.
+fig.add_trace(go.Scatter(x=df["data"], y=df["meta_selic"], mode="lines", line_shape="hv",
+                         line=dict(color=slate, width=2), showlegend=False, hoverinfo="skip"))
+# Taxa de compra do Prefixado 2029, um ponto por pregão: o ponto do gráfico, em grove.500.
+fig.add_trace(go.Scatter(x=df["data"], y=df["taxa_compra"], mode="lines",
+                         line=dict(color=grove, width=2.5), showlegend=False, hoverinfo="skip"))
+# Marcadores nos pregões anotados (taxa) e no dia do Copom (meta Selic).
+marcados = ["2026-10-02", "2026-10-05", "2026-10-13", "2026-10-26", "2026-11-17"]
+fig.add_trace(go.Scatter(x=marcados, y=[taxa(d) for d in marcados], mode="markers", showlegend=False,
+                         hoverinfo="skip", marker=dict(color=grove, size=8, line=dict(color=bg, width=1.5))))
+fig.add_trace(go.Scatter(x=["2026-11-04"], y=[ix.loc["2026-11-04", "meta_selic"]], mode="markers",
+                         showlegend=False, hoverinfo="skip",
+                         marker=dict(color=slate, size=8, line=dict(color=bg, width=1.5))))
+
+nota = dict(showarrow=True, arrowhead=0, arrowwidth=1, arrowcolor=ink, axref="x", ayref="y",
+            font=dict(color=ink, size=13, family=font_body), bgcolor=bg)
+# (ponto, posição do texto em dados, âncoras, texto). Números do CSV; posições testadas para não
+# cobrir linha nem outra anotação.
+ANOTACOES = [
+    ("2026-10-05", taxa("2026-10-05"), "2026-10-06", 14.05, "left", "bottom",
+     f"<b>5/10, pregão após o 1º turno</b><br>de {num(taxa('2026-10-02'))}% para "
+     f"{num(taxa('2026-10-05'))}% num dia"),
+    ("2026-10-13", taxa("2026-10-13"), "2026-10-13", 11.95, "center", "top",
+     f"<b>13/10: {num(taxa('2026-10-13'))}%</b><br>R$ {pu('2026-10-13')} por título"),
+    ("2026-10-26", taxa("2026-10-26"), "2026-10-25", 15.9, "right", "middle",
+     f"<b>26/10, pregão após o 2º turno: {num(taxa('2026-10-26'))}%</b><br>"
+     "leilões da semana cancelados,<br>Tesouro Direto suspenso"),
+    ("2026-11-04", selic, "2026-11-04", 13.3, "center", "top",
+     f"<b>4/11, Copom</b><br>mantém a Selic em {num(selic)}%"),
+]
+for x, y, ax, ay, xa, ya, txt in ANOTACOES:
+    fig.add_annotation(x=x, y=y, ax=ax, ay=ay, xanchor=xa, yanchor=ya, align=xa if xa != "center"
+                       else "center", text=txt, **nota)
+
+# Rótulo direto no fim de cada linha (17/11), no lugar de legenda.
+fig.add_annotation(x="2026-11-17", y=taxa("2026-11-17"), xanchor="left", xshift=10, showarrow=False,
+                   align="left", font=dict(color=ink, size=13, family=font_body),
+                   text=f"<b style='color:{grove_txt}'>Prefixado 2029</b><br>"
+                        f"<b>17/11: {num(taxa('2026-11-17'))}%</b><br>R$ {pu('2026-11-17')} por título")
+fig.add_annotation(x="2026-11-17", y=selic, xanchor="left", xshift=10, showarrow=False, align="left",
+                   font=dict(color=slate, size=13, family=font_body),
+                   text=f"<b>meta Selic</b><br>{num(selic)}%")
+
+fig.add_annotation(xref="paper", yref="paper", x=0, y=0, yshift=-44, xanchor="left", yanchor="top",
+                   showarrow=False, align="left",
+                   text="Fonte: Tesouro Nacional, Tesouro Transparente (taxa de compra da manhã do Tesouro "
+                        "Prefixado 2029, vencimento em 1º/1/2029);<br>Banco Central, SGS 432 (meta Selic). "
+                        "Um ponto por pregão; sem pregão em 12/10 e 2/11. O eixo começa em 11%.",
+                   font=dict(color=slate, size=12, family=font_body))
+
+SEG = ["2026-10-05", "2026-10-12", "2026-10-19", "2026-10-26", "2026-11-02", "2026-11-09", "2026-11-16"]
+fig.update_xaxes(range=["2026-09-29", "2026-11-18"], tickvals=SEG,
+                 ticktext=["5 out", "12 out", "19 out", "26 out", "2 nov", "9 nov", "16 nov"],
+                 tickfont=dict(color=slate, size=13, family=font_data),
+                 showgrid=False, zeroline=False, showline=False, ticks="")
+fig.update_yaxes(range=[11, 16.4], tickvals=[11, 12, 13, 14, 15, 16],
+                 ticktext=[f"{v}%" for v in (11, 12, 13, 14, 15, 16)],
+                 tickfont=dict(color=slate, size=13, family=font_data),
+                 gridcolor=mist, gridwidth=1, zeroline=False, showline=False)
+fig.update_layout(
+    paper_bgcolor=bg, plot_bgcolor=bg, width=1000, height=620,
+    margin=dict(l=60, r=150, t=100, b=100),
+    title=dict(text="Com a Selic parada, a taxa do Prefixado 2029 caiu no 1º turno e saltou no 2º<br>"
+                    f"<span style='font-size:15px;color:{slate};font-family:{font_body}'>"
+                    "taxa de compra no Tesouro Direto e meta Selic, em % ao ano, de 1º/10 a 17/11/2026"
+                    "</span>",
+               font=dict(color=ink, size=22, family=font_display), x=0.01, xanchor="left",
+               y=0.965, yanchor="top"),
+    font=dict(family=font_body, color=ink),
+)
+
+out_dir = os.path.join(POST_DIR, "figuras")
+os.makedirs(out_dir, exist_ok=True)
+fig.write_image(os.path.join(out_dir, "graf-02.svg"))
+fig.write_image(os.path.join(out_dir, "graf-02.png"), scale=2)
+print("ok")
+```
+
+**Escolha de tipo:** a taxa diária em linha contra a meta Selic, no mesmo eixo e na mesma unidade: o
+ponto é ver a taxa andar mais de um ponto, duas vezes e em sentidos opostos, com a referência parada.
+Descartados: (1) o preço (PU) no eixo, que não se compara com a Selic e inverte o sentido (a taxa
+sobe, o preço cai); o PU fica nas anotações de 13/10 e 17/11, que o texto cita; (2) barras de
+variação diária, que perdem o nível e a distância até a Selic; (3) taxa e preço em dois eixos y, que
+criam uma relação visual entre escalas arbitrárias; (4) a anotação do leilão de 8/10 (12,53%), que a
+linha já mostra no patamar de 5 a 9/10 e que lotaria o canto esquerdo; (5) ir até 19/11 (ver Dados).
+
+**Anotação:** cinco pontos, com os números lidos do CSV:
+- **5/10, pregão após o 1º turno:** de 13,83% (2/10) para 12,74%, com marcador nos dois pregões;
+- **13/10:** 12,40%, R$ 773,74 por título;
+- **26/10, pregão após o 2º turno:** 15,40%, o pico da série; leilões da semana cancelados e Tesouro
+  Direto suspenso (`03-pesquisa.md`, itens 3 e 20). É a taxa da manhã: o CSV não traz o intradia;
+- **4/11, Copom mantém a Selic em 13,75%:** a seta aponta para a linha da Selic, porque o evento é
+  dela;
+- **17/11:** 14,98%, R$ 746,00 por título, no rótulo direto do fim da linha.
+
+As duas séries são identificadas por rótulo direto no fim de cada linha, sem legenda. Posições
+conferidas no PNG: nenhum texto cobre linha ou outra anotação; a seta do 1º turno cruza a linha da
+Selic, sem cobri-la.
+
+**Gate de Tufte:**
+- **Eixo y começa em 11%, não em zero (exceção justificada).** O gráfico compara movimentos em pontos
+  percentuais contra uma referência parada, a meta Selic, que está no gráfico e faz o papel de base:
+  as distâncias até ela (−1,01 ponto em 5/10, +1,65 em 26/10, +1,23 em 17/11) e os saltos de um pregão
+  (−1,09 em 5/10, +2,63 em 26/10) são o assunto. Em renda fixa, um ponto não é pouco: no Prefixado
+  2029, vale cerca de 1,8% do preço (*duration* modificada de 1,83, no texto). Com o eixo em zero, a
+  faixa de 12,3% a 15,4% ocuparia um quinto da altura, o salto do 1º turno teria cerca de 28 px na
+  figura de 1000 × 620 e as anotações se espremeriam numa tira. O nível contra o zero já está no
+  `graf-01`, três parágrafos antes, com eixo em zero. Aqui, o tick de 11% fica visível na base e o
+  rodapé declara "O eixo começa em 11%".
+- **Lie Factor:** sobre a diferença em pontos percentuais, que é o que o gráfico compara, 1,0 (escala
+  linear: um ponto tem a mesma altura em todo o eixo). Lido como nível a partir da base do eixo, não
+  seria: a alta de 12,40% para 14,98% é +21% na taxa e +184% na altura acima de 11% (fator 8,9). É o
+  custo declarado do recorte, e o motivo do aviso no rodapé.
+- Duas séries, só uma com cor. A Selic se distingue também por ser reta e por ter rótulo próprio.
+- Sem 3D, sombra, textura nem moldura. Grid horizontal em `mist`.
+- Eixo x em tempo de calendário: fins de semana e feriados ocupam espaço, e a linha liga um pregão ao
+  seguinte (o salto de 23/10 para 26/10 atravessa o fim de semana do 2º turno). O rodapé diz "Um ponto
+  por pregão".
+
+**Tokens usados** (de `../../brand/tokens/syntaxis.tokens.json`): `color.neutral.chalk` (fundo,
+contorno dos marcadores, fundo das anotações), `color.grove.500` (taxa do Prefixado 2029 e seus
+marcadores), `color.grove.700` (o nome "Prefixado 2029" no rótulo direto: 4,95:1 sobre Chalk, contra
+3,16:1 do `grove.500`, abaixo dos 4,5:1 que texto de 13 px pede), `color.neutral.slate` (meta Selic e
+seu marcador, rótulo da Selic, eixos, subtítulo, rodapé), `color.neutral.ink` (título, anotações,
+setas), `color.neutral.mist` (grid); `typography.fontFamily.display` (título), `.body` (subtítulo,
+anotações, rótulos, rodapé), `.data` (eixos). Sem `lime`.
+
+**Título no gráfico:** "Com a Selic parada, a taxa do Prefixado 2029 caiu no 1º turno e saltou no 2º"
+
+**Alt-text (o do placeholder `graf-02` em `processo/04-draft-v2.md` serve: bate com a figura; 115
+caracteres):**
+
+> Taxa do Prefixado 2029 e meta Selic em out e nov/2026: a taxa cai no 1º turno e salta no 2º, com a Selic em 13,75%.
+
+**Legenda** (a fonte está no rodapé da figura):
+
+> Com a Selic parada em 13,75%, a taxa do Prefixado 2029 caiu mais de um ponto no pregão após o 1º turno e subiu mais de dois no pregão após o 2º.

@@ -39,8 +39,9 @@ acompanha um texto cuja tese é: "Quem compra LTN não aposta na queda dos juros
 Manchete: A taxa prefixada anda antes do Copom e salta sem ele
 
 Linha de apoio: Meta Selic e taxa prefixada de 1 ano, em % ao ano, de 2002 a 2026
-(As palavras "Meta Selic" em negrito na cor slate e "taxa prefixada de 1 ano" em negrito na cor grove:
-é a legenda das duas linhas.)
+(As palavras "Meta Selic" em negrito na cor slate e "taxa prefixada de 1 ano" em negrito na cor
+grove.700 #1E7A4F: é a legenda das duas linhas. Texto em verde sempre em grove.700, porque o grove.500
+não dá contraste AA para texto; a linha do gráfico fica em grove.500.)
 
 Cartões (número, data, título, tipo, texto):
 
@@ -105,7 +106,8 @@ Tesouro Direto. Syntaxis.
 
 - Fundo da peça: chalk #F7F7F5. Texto principal: ink #141414. Texto secundário, eixos, rodapé e a
   linha da meta Selic: slate #4A5568. Grade e bordas finas: mist #E2E8F0.
-- A série que é o ponto (taxa prefixada) e os marcadores dos episódios: grove.500 #2D9E67. Um fundo
+- A série que é o ponto (taxa prefixada) e os marcadores dos episódios: grove.500 #2D9E67. Texto em verde:
+  grove.700 #1E7A4F. Um fundo
   suave, se precisar (por exemplo, na faixa "Como ler"): mint #E6F4EE.
 - Títulos e números de destaque dos cartões podem usar forest.500 #1B6A45. Não use nenhuma outra cor.
   Não use o verde-limão da marca.
