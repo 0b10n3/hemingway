@@ -56,5 +56,11 @@
     ]
   },
   "ponto_retorno": "etapa 8 (tabelas como figura); edições do autor revisadas",
-  "status": "aprovado"
+  "status": "aprovado",
+  "distribuicao": {
+    "data_publicacao": "2026-11-24",
+    "iteracoes": 0,
+    "ids_ajustados": [],
+    "aprovado": true
+  }
 }
