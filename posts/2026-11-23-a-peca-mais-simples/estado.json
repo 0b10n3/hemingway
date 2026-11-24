@@ -1,11 +1,12 @@
 {
-  "etapa_atual": 0,
+  "etapa_atual": 1,
   "loops_consumidos": 0,
   "aprovacoes": [
     "Linha editorial: Notas de um Professor (confirmada pelo autor, etapa 0; rascunho sem front-matter)"
   ],
   "pendencias": [
-    "Rascunho _arquivo/drafts/2026-11-23_A Peça Mais Simples_draft.md não versionado: autor commita em main (escopo arquivo)"
+    "Rascunho _arquivo/drafts/2026-11-23_A Peça Mais Simples_draft.md não versionado: autor commita em main (escopo arquivo)",
+    "Teste de transferência (CDB a 16%): a resposta pode virar Note de D+2 em /distribuir (sugestão do rascunho, decisão 6)"
   ],
   "commit_inicial": "604d3ee",
   "slug": "2026-11-23-a-peca-mais-simples",
