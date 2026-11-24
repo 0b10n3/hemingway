@@ -1,0 +1,314 @@
+{
+ "slug_repo": "2026-11-23-a-peca-mais-simples",
+ "slug_site": "a-peca-mais-simples",
+ "linha_editorial": "Notas de um Professor",
+ "rascunho": "_arquivo/drafts/2026-11-23_A Peça Mais Simples_draft.md",
+ "rascunho_tipo": "rascunho",
+ "post_md_base": {
+  "commit": "atual",
+  "similaridade_base": 1.0,
+  "similaridade_versao_atual": 1.0
+ },
+ "palavras": {
+  "rascunho": 4330,
+  "post_md": 4027,
+  "publicado": 4028
+ },
+ "similaridade": {
+  "rascunho_post_md": 0.821,
+  "post_md_publicado": 1.0,
+  "rascunho_publicado": 0.82
+ },
+ "resumo_classe": {
+  "link_adicionado": 4,
+  "legenda": 4,
+  "cta": 2,
+  "imagem": 1,
+  "substituicao": 1,
+  "insercao": 1,
+  "negrito_adicionado": 1
+ },
+ "resumo_natureza": {
+  "marketing": 6,
+  "layout-substack": 5,
+  "estilo": 3
+ },
+ "sinais": {
+  "acrescimo_autoral": 2
+ },
+ "operacoes": [
+  {
+   "classe": "imagem",
+   "natureza": "layout-substack",
+   "antes": "",
+   "depois": "⟦IMG⟧",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": null,
+   "bloco_depois": 0,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": " [[…]] No fim do último texto,",
+   "pos_antes": [
+    0,
+    0
+   ],
+   "tipo": "insercao",
+   "id": 1
+  },
+  {
+   "classe": "substituicao",
+   "natureza": "estilo",
+   "antes": "A",
+   "depois": "aA",
+   "palavras_antes": 1,
+   "palavras_depois": 1,
+   "bloco_antes": 64,
+   "bloco_depois": 65,
+   "sinais": [
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": "rascunho",
+   "contexto": ". E o preço: $$\nPU = \\frac{1000}{1{,}1498^{\\,2{,}09920634920634}} = 746{,}004202\n$$ [[…]] tela do Tesouro Direto mostrava R",
+   "pos_antes": [
+    1737,
+    1738
+   ],
+   "id": 2
+  },
+  {
+   "classe": "cta",
+   "natureza": "marketing",
+   "antes": "",
+   "depois": "⟦CTA⟧",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": null,
+   "bloco_depois": 143,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "o próximo degrau da carreira. [[…]] No próximo texto, a irmã",
+   "pos_antes": [
+    4501,
+    4501
+   ],
+   "tipo": "insercao",
+   "id": 3
+  },
+  {
+   "classe": "insercao",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "só",
+   "palavras_antes": 0,
+   "palavras_depois": 1,
+   "bloco_antes": null,
+   "bloco_depois": 146,
+   "sinais": [
+    "acrescimo_autoral"
+   ],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "para quem ainda compra prefixado “ [[…]] porque a Selic vai cair”",
+   "pos_antes": [
+    4595,
+    4595
+   ],
+   "id": 4
+  },
+  {
+   "classe": "cta",
+   "natureza": "marketing",
+   "antes": "",
+   "depois": "⟦CTA⟧",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": null,
+   "bloco_depois": 147,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "a Selic vai cair”. [[…]] Para continuar aprendendo Bruce Tuckman e",
+   "pos_antes": [
+    4602,
+    4602
+   ],
+   "tipo": "insercao",
+   "id": 5
+  },
+  {
+   "classe": "negrito_adicionado",
+   "natureza": "estilo",
+   "antes": "",
+   "depois": "casar",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 117,
+   "bloco_depois": 118,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "data O uso mais limpo é casar o título com um compromisso de",
+   "pos_antes": [
+    3520,
+    3521
+   ],
+   "id": 6
+  },
+  {
+   "classe": "link_adicionado",
+   "natureza": "marketing",
+   "antes": "",
+   "depois": "Você está contando os dias errado",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 55,
+   "bloco_depois": 56,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "252 é a régua (“Você está contando os dias errado”). Dias úteis entre",
+   "pos_antes": [
+    1435,
+    1441
+   ],
+   "id": 7
+  },
+  {
+   "classe": "link_adicionado",
+   "natureza": "marketing",
+   "antes": "",
+   "depois": "A Corda e o Arco",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 56,
+   "bloco_depois": 57,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "potência é o motor (“A Corda e o Arco”). Juro composto:",
+   "pos_antes": [
+    1468,
+    1473
+   ],
+   "id": 8
+  },
+  {
+   "classe": "link_adicionado",
+   "natureza": "marketing",
+   "antes": "",
+   "depois": "Frequência de Capitalização",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 57,
+   "bloco_depois": 58,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "i é a etiqueta (“Frequência de Capitalização”). Taxa efetiva ao",
+   "pos_antes": [
+    1497,
+    1500
+   ],
+   "id": 9
+  },
+  {
+   "classe": "link_adicionado",
+   "natureza": "marketing",
+   "antes": "",
+   "depois": "Cara, eu ganho. Coroa, eu não perco",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 58,
+   "bloco_depois": 59,
+   "sinais": [],
+   "restaurou_rascunho": false,
+   "origem_antes": null,
+   "contexto": "inteira é a réplica (“Cara, eu ganho. Coroa, eu não perco.”). O termo",
+   "pos_antes": [
+    1532,
+    1542
+   ],
+   "id": 10
+  },
+  {
+   "classe": "legenda",
+   "natureza": "layout-substack",
+   "antes": "Meta Selic e taxa prefixada de 1 ano, 2002 a 2026: a taxa vira antes do Copom e salta em crises com a Selic parada.",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 24,
+   "bloco_depois": 25,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "nas viradas e nos sustos: [[…]] Mas os fatos de outubro não",
+   "pos_antes": [
+    650,
+    651
+   ],
+   "id": 11
+  },
+  {
+   "classe": "legenda",
+   "natureza": "layout-substack",
+   "antes": "Taxa do Prefixado 2029 e meta Selic em out e nov/2026: a taxa cai no 1º turno e salta no 2º, com a Selic em 13,75%.",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 28,
+   "bloco_depois": 29,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "Prefixado 2029 e a Selic: [[…]] E tem o outro lado.",
+   "pos_antes": [
+    753,
+    754
+   ],
+   "id": 12
+  },
+  {
+   "classe": "legenda",
+   "natureza": "layout-substack",
+   "antes": "Tabela dos cinco títulos do Tesouro Direto (LFT, LTN, NTN-F, NTN-B Principal e NTN-B): o que cada um remunera e o cupom.",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 39,
+   "bloco_depois": 40,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "respostas formam cinco papéis principais: [[…]] O devedor é o mesmo nos",
+   "pos_antes": [
+    991,
+    992
+   ],
+   "id": 13
+  },
+  {
+   "classe": "legenda",
+   "natureza": "layout-substack",
+   "antes": "Tabela: R$ 10 mil no Tesouro Selic viram R$ 12.812, 13.081 ou 13.631, conforme a Selic; no Prefixado 2029, sempre 13.405.",
+   "depois": "",
+   "palavras_antes": 0,
+   "palavras_depois": 0,
+   "bloco_antes": 103,
+   "bloco_depois": 104,
+   "sinais": [],
+   "restaurou_rascunho": null,
+   "origem_antes": null,
+   "contexto": "10 ponto abaixo da meta: [[…]] A última coluna não muda.",
+   "pos_antes": [
+    3050,
+    3051
+   ],
+   "id": 14
+  }
+ ]
+}

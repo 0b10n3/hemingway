@@ -1,0 +1,298 @@
+---
+titulo: "Cara, eu ganho. Coroa, eu não perco."
+subtitulo: "Preço não é opinião: é o custo de montar o mesmo fluxo."
+slug_site: "cara-eu-ganho-coroa-eu-nao-perco"
+url: "https://syntaxis.substack.com/p/cara-eu-ganho-coroa-eu-nao-perco"
+post_date: "2026-11-19"
+section_name: null
+wordcount_api: 3356
+palavras_md: 3357
+slug_repo: "2026-11-18-cara-eu-ganho-coroa-eu-nao-perco"
+rascunho: "_arquivo/drafts/2026-11-18_Notas de um Professor — Cara, eu ganho. Coroa, eu não perco.md"
+epoca: "pipeline"
+captura: "_arquivo/publicados/2026-11-19_cara-eu-ganho-coroa-eu-nao-perco.json"
+---
+
+![](img-01)
+
+No fim do [último texto](https://syntaxis.substack.com/p/frequencia-de-capitalizacao), deixei uma fórmula de planilha para replicar o preço de uma LTN (Letra do Tesouro Nacional, o título público prefixado sem cupom). Com ela, a série de convenções fechou: a régua, o motor e a etiqueta.
+
+A palavra que importa hoje já estava ali: ***replicar***.
+
+Comece por uma aposta. Uma moeda é lançada. **Se der cara, você ganha. Se der coroa, você não perde nada. E não paga para entrar.**
+
+Ninguém recusaria. É o ganha-ganha mais puro que existe, e tem um detalhe: é ganha-ganha de uma pessoa só.
+
+No mercado, essa aposta tem nome. É a **arbitragem**. E boa parte da teoria de preços foi construída sobre a ideia de que ela não dura.
+
+Agora, um caso concreto.
+
+No vencimento de 1º de janeiro de 2029, o Tesouro Nacional vai pagar R$ 1.000 a quem tiver uma LTN 2029. No mesmo dia, vai pagar R$ 1.048,80 a quem tiver uma NTN-F 2029 (Nota do Tesouro Nacional, série F: o prefixado que paga cupom a cada seis meses). São o último cupom e o principal.
+
+Na custódia dos títulos públicos, a NTN-F pode ser desmembrada: o principal e cada cupom passam a circular como títulos separados.
+
+Separado dos cupons, o principal da NTN-F 2029 e a LTN 2029 são a mesma promessa. Mesmo devedor, mesmo valor, mesma data.
+
+Se uma das duas estiver mais barata que a outra, a moeda da aposta acabou de aparecer.
+
+O que obriga duas promessas idênticas a custarem o mesmo?
+
+E o que mais se tira daí, além dessa igualdade?
+
+## A taxa não manda no preço
+
+Cada título tem a sua **taxa**.
+
+A NTN-F é cotada pela TIR (taxa interna de retorno: a taxa única que, aplicada a todos os fluxos, reproduz o preço), a LTN, pela dela, e o preço sai de cada taxa.
+
+> O valor presente, a soma dos fluxos descontados, é **uma convenção de cálculo**: a fórmula que o manual manda usar.
+
+E arbitragem, nessa versão, é qualquer operação esperta entre dois ativos parecidos, que aposta que a diferença de preço entre eles vai fechar.
+
+As duas costuman errar pelo mesmo motivo: tratam o preço como opinião. A opinião do mercado sobre os juros, sobre o título, sobre o futuro.
+
+**Preço não é opinião. É o custo da réplica.**
+
+Essa frase basta para tirar a fórmula de valor presente, o preço justo de uma NTN-F e, com mais matemática, a fórmula de Black-Scholes.
+
+## A aposta ideal
+
+**Arbitragem é uma carteira que custa zero (ou menos que zero) hoje, nunca dá prejuízo no futuro e deixa lucro em algum ponto: no dinheiro recebido hoje ou em pelo menos um cenário futuro.**
+
+Ela aparece de duas formas:
+
+1. Você recebe dinheiro hoje e não deve nada depois.
+2. Você não paga nada hoje, nunca perde e, em algum cenário, ganha.
+
+Cara, eu ganho. Coroa, eu não perco.
+
+O **princípio da não arbitragem** diz que, num mercado em equilíbrio, nenhuma das duas formas sobrevive. Elas até aparecem, mas não duram: quem as vê opera, e a operação as apaga.
+
+Princípio, aqui, no sentido do matemático: axioma. Não se prova, se assume. O que se prova são as consequências.
+
+A primeira é a **Lei do Preço Único**: dois ativos, ou duas carteiras, com exatamente os mesmos fluxos, nas mesmas datas e do mesmo devedor, têm o mesmo preço hoje.
+
+$$ CF_A(t) = CF_B(t)\ \text{para toda data}\ t \quad\Longrightarrow\quad P_A = P_B $$
+
+### A ideia da prova cabe numa LTN
+
+A demonstração é por absurdo, e a promessa da abertura serve de exemplo. Para simplificar a conta, troque 2029 por um ano (252 dias úteis) e use 14,30% ao ano, perto da curva prefixada de novembro de 2026. A LTN de um ano vale 1.000 ÷ 1,143, ou R$ 874,89.
+
+Agora suponha que alguém cote a R$ 870,00 o principal desmembrado de uma NTN-F, que paga os mesmos R$ 1.000 na mesma data.
+
+A mesa compra o principal e vende a LTN a descoberto (vende o título que não tem, tomado emprestado, e o devolve no fim):
+
+$$ \begin{array}{l|r|r|r}
+\textbf{Data} & \textbf{Compra Principal (R\$)} & \textbf{Venda da LTN (R\$)} & \textbf{Líquido (R\$)} \\
+\hline
+\text{Hoje} & -870{,}00 & +874{,}89 & +4{,}89 \\
+\text{Em 252 dias úteis} & +1.000{,}00 & -1.000{,}00 & 0
+\end{array} $$
+
+R$ 4,89 no bolso hoje, sem nenhuma obrigação líquida depois. É a primeira forma de arbitragem.
+
+Se o princípio vale, o preço de R$ 870,00 não sobrevive. Invertendo as pontas (comprar a LTN, vender o principal), o caso contrário também cai.
+
+Sobra a igualdade.
+
+### Quem paga o ganha-ganha
+
+O ganha-ganha da moeda era de uma pessoa só, e alguém pagou por ele. Quem vendeu o principal a R$ 870,00 entregou R$ 4,89 de valor ao arbitrador. O almoço do arbitrador saiu do prato de quem cotou errado.
+
+Mas a operação tem um efeito colateral. Quem compra o barato empurra o preço dele para cima. Quem vende o caro empurra o preço dele para baixo. Repetida por todo mundo que enxerga a mesma moeda, a operação fecha a diferença, e a aposta desaparece.
+
+Nesse ponto, o ganha-ganha muda de dono.
+
+Depois que as mesas fecham a diferença, quem compra uma NTN-F, quem marca uma carteira a mercado (atualiza o valor dela pelo preço do dia) e o próprio Tesouro, que leiloa LTN e NTN-F toda semana, passam a trabalhar com preços coerentes entre si. Ninguém precisa saber quem foi o arbitrador para se beneficiar dele.
+
+O ganho individual some. **Fica um mercado em que ninguém consegue explorar ninguém sem correr risco.** Esse é o ganha-ganha coletivo, e o nome técnico dele é equilíbrio.
+
+Até aqui, temos as primeiras páginaa de qualquer livro de renda fixa. O que sai dela é bem maior que a igualdade entre dois preços.
+
+## Preço sem opinião
+
+Que problema esse princípio resolve, e para quem?
+
+O problema clássico de precificar é que o preço depende do que as pessoas querem: quanto risco toleram, quanto aceitam esperar, o que acham que vai acontecer.
+
+Um modelo que parte daí exige saber o que ninguém sabe.
+
+A não arbitragem pula essa etapa. Em vez de perguntar o que você acha dos juros, ela pergunta quanto custa montar o mesmo fluxo com o que já tem preço no mercado. Se a réplica existe, o preço está decidido, concorde você ou não.
+
+Da Lei do Preço Único sai, primeiro, a soma. Se a carteira C paga exatamente o que A e B pagam juntos, então P(C) = P(A) + P(B). O preço de um pacote é a soma do preço das peças.
+
+Basta, então, conhecer o preço das peças mais simples. Em renda fixa prefixada, a peça mais simples é um título que paga R$ 1 numa única data. O preço hoje desse R$ 1 é o **fator de desconto** daquela data, DF(t). A LTN é exatamente isso, em lotes de R$ 1.000.
+
+Qualquer fluxo prefixado do mesmo devedor é uma pilha dessas peças. Logo:
+
+$$ P = \sum_{t} CF_t \cdot DF(t), \qquad DF(t) = \frac{1}{(1 + r_t)^{du_t/252}} $$
+
+em que CFₜ é o fluxo pago na data *t*, duₜ é o número de dias úteis até ela e rₜ é a taxa zero-cupom do vértice *t* (cada prazo da curva). A taxa zero-cupom, também chamada de taxa *spot*, é a de um título que só paga no fim.
+
+Repare de onde a fórmula veio. Ela não começou como matemática de valor presente. Começou com uma aposta que não sobrevive.
+
+### A mesma ideia, com mais matemática
+
+O caso mais famoso de réplica não é de renda fixa.
+
+**Em 1973, Fischer Black e Myron Scholes, e no mesmo ano Robert Merton**, mostraram que uma opção sobre ação pode ser replicada por uma carteira de ação e título sem risco, ajustada continuamente conforme o preço da ação se mexe.
+
+Se a réplica existe, a opção tem de custar o mesmo que ela. Senão, alguém compra uma, vende a outra e embolsa a diferença.
+
+O resultado é a fórmula que o manual de opções da B3 usa, a do texto anterior. E ela tem uma ausência famosa: o retorno esperado da ação não aparece nela. A fórmula não pede a opinião de ninguém sobre se a ação vai subir.
+
+> Merton e Scholes receberam o Nobel de Economia de 1997.
+
+Daqui em diante, o texto fica na renda fixa, onde a réplica é estática: monta-se uma vez e espera-se o vencimento.
+
+## Uma NTN-F feita de LTNs
+
+Uma carteira que paga exatamente o mesmo que um título é um **portfólio equivalente** (ou carteira replicante) desse título. Pela Lei do Preço Único, os dois têm de custar o mesmo.
+
+Pegue uma NTN-F hipotética, a um ano e meio do vencimento, com três pagamentos: em 126, 252 e 378 dias úteis. O cupom é de 10% ao ano, pago por semestre sobre R$ 1.000:
+
+$$ C = 1.000 \times \left[(1{,}10)^{1/2} - 1\right] = 48{,}808848 $$
+
+Os fluxos são R$ 48,81, R$ 48,81 e R$ 1.048,81 (o último cupom mais o principal). As contas daqui em diante são cálculo próprio, sem os arredondamentos e truncamentos da metodologia do Tesouro, que paga R$ 48,80 a quem tem um título.
+
+Agora suponha três LTNs vencendo exatamente nessas datas, negociadas a 14,00%, 14,30% e 14,55% ao ano. As taxas são ilustrativas, na ordem de grandeza da curva prefixada de novembro de 2026, com a Selic (a taxa básica de juros) em 13,75%, mantida pelo Copom na reunião de 4 de novembro.
+
+Para replicar a NTN-F, compre hoje, para cada data, LTNs na quantidade fluxo ÷ 1.000:
+
+$$ \begin{array}{r|r|r|r|r}
+\textbf{Vértice (du)} & \textbf{Taxa spot (\% a.a.)} & \textbf{PU da LTN (R\$)} & \textbf{Qtd. de LTN} & \textbf{Custo na réplica (R\$)} \\
+\hline
+126 & 14{,}00 & 936{,}585812 & 0{,}0488088482 & 45{,}713675 \\
+252 & 14{,}30 & 874{,}890639 & 0{,}0488088482 & 42{,}702404 \\
+378 & 14{,}55 & 815{,}656609 & 1{,}0488088482 & 855{,}467869 \\
+\hline
+\textbf{Total} & & & & \mathbf{943{,}883948}
+\end{array} $$
+
+![](img-02)
+
+Pela Lei do Preço Único, o PU (preço unitário) justo da NTN-F é R$ 943,88.
+
+A TIR que reproduz esse preço é 14,53% ao ano. Fica abaixo dos 14,55% da LTN do vencimento porque a curva é positivamente inclinada (as taxas longas acima das curtas): dois dos três fluxos são descontados a taxas menores.
+
+A TIR sai do preço, e não o contrário.
+
+### A moeda aparece
+
+Suponha um *dealer* (a instituição que faz preço de compra e de venda) que cota a NTN-F usando, como TIR, a taxa da LTN do vencimento: 14,55% para os três fluxos. O PU dele sai a R$ 943,68, ou R$ 0,20 abaixo da réplica.
+
+A mesa compra 100.000 NTN-F do *dealer* e vende a réplica: 4.881 LTNs de 126 dias úteis, 4.881 de 252 e 104.881 de 378.
+
+$$ \begin{array}{l|r}
+\textbf{Ponta} & \textbf{Hoje (R\$)} \\
+\hline
+\text{Compra de 100.000 NTN-F a R\$ 943,680875} & -94.368.087{,}53 \\
+\text{Venda das LTNs da réplica} & +94.388.697{,}41 \\
+\hline
+\textbf{Líquido na montagem} & \mathbf{+20.609{,}88}
+\end{array} $$
+
+O arredondamento dos lotes deixa a mesa devendo R$ 115,18 a mais do que recebe em cada data, o que vale R$ 302,60 hoje. Descontado esse custo do arredondamento, o lucro travado é de R$ 20.307,28: exatamente 100.000 vezes a diferença de preço, que é de cerca de R$ 0,2031 por título.
+
+![](img-03)
+
+Nas três datas, os cupons e o principal da NTN-F pagam as LTNs vendidas, e os R$ 302,60 separados na montagem cobrem os R$ 115,18 que faltam em cada uma.
+
+Repare na escala. São R$ 20 mil numa operação de R$ 94 milhões, cerca de 2 pontos-base (um ponto-base é um centésimo de ponto percentual). Arbitragem de verdade costuma ser assim: pequena, rápida e disputada.
+
+### A mesma conta, todo dia
+
+A decomposição existe até fisicamente: é o desmembramento da abertura, que transforma uma NTN-F em zeros negociáveis (títulos que só pagam no fim).
+
+Em muitos lugares a conta é feita ao contrário. A estrutura a termo prefixada que ela divulga (a curva de juros, prazo a prazo) é estimada a partir dos preços de LTN e NTN-F, pelo modelo de Svensson: os fatores de desconto que melhor explicam todos esses preços ao mesmo tempo. É a Lei do Preço Único aplicada a uma prateleira inteira.
+
+## Nem toda convergência é arbitragem
+
+Volte à segunda metade da versão que circula: arbitragem como qualquer aposta de que a diferença entre dois ativos parecidos vai fechar.
+
+Pense numa operação clássica da bolsa brasileira. Quando a diferença de preço entre a ação preferencial da Petrobras (PETR4) e a ordinária (PETR3) foge da média histórica, compra-se uma e vende-se a outra, esperando a volta.
+
+As duas ações são da mesma empresa e andam juntas quase sempre. Mas não prometem o mesmo fluxo em todo cenário: a ordinária dá direito a voto, a preferencial dá prioridade no dividendo mínimo. A diferença entre elas pode abrir e continuar aberta, por um motivo que o histórico não previu.
+
+Isso é ***trading*** **de correlação** (também chamado de **operação de valor relativo**): uma aposta numa relação estatística, que vale em média, até deixar de valer.
+
+PETR4 não é réplica de PETR3. Apostar que a diferença volta é ter uma opinião sobre o preço, justamente o que a réplica dispensa.
+
+O critério cabe numa pergunta: se a diferença de preço dobrar amanhã, você perde dinheiro no vencimento?
+
+Na NTN-F do exemplo, não. A marcação a mercado pode doer no meio do caminho, mas no vencimento as LTNs vendidas são pagas pelos fluxos da NTN-F comprada e pela reserva separada na montagem.
+
+No *trading* de correlação, pode perder de vez. Não existe data em que as duas pontas sejam obrigadas a se encontrar.
+
+O caso mais caro dessa confusão já passou por aqui. O LTCM (Long-Term Capital Management, o fundo americano que precisou ser socorrido em 1998) chamava de arbitragem muitas operações de convergência entre títulos parecidos, mas não idênticos. Elas divergiram ao mesmo tempo, e o fundo não teve capital para esperar. Contei essa história em [“Quando os Modelos se Rebelam”](https://syntaxis.substack.com/p/quando-os-modelos-se-rebelam).
+
+*Trading* de correlação merece um texto próprio, e vai ganhar um. Por ora, basta a fronteira: a arbitragem vive de identidade, a correlação vive de estatística.
+
+### Os limites da arbitragem de verdade
+
+Até a arbitragem de verdade tem custo. Andrei Shleifer e Robert Vishny, num artigo de 1997 no *Journal of Finance*, resumiram o problema: a arbitragem de livro não exige capital nem corre risco; a de verdade quase sempre exige capital e corre risco.
+
+Numa réplica como a do exemplo, montada com títulos de verdade, três atritos aparecem:
+
+1. **Vender o que não tem custa.** Para vender a LTN a descoberto, a mesa precisa tomá-la emprestada, em geral por uma operação compromissada (a compra com compromisso de revenda, em que o título muda de mão por um prazo combinado). Se aquele vencimento estiver escasso, tomar o papel fica caro, e o custo come o ganho.
+2. **Cada ponta cruza um** ***spread*****.** O *spread* de compra e venda é a diferença entre o preço de quem compra e o de quem vende. A réplica tem quatro pontas, e 2 pontos-base somem rápido.
+3. **Nem toda data tem LTN.** O Tesouro não emite LTN para todo semestre. Sem o título, a mesa recorre ao DI futuro (o contrato da B3 sobre a taxa DI, a dos empréstimos de um dia entre bancos), que não paga o mesmo fluxo: tem ajuste diário (ganhos e perdas liquidados todo dia) e referência na taxa DI, não no Tesouro. A réplica vira quase arbitragem, com um resíduo de risco que precisa ser medido.
+
+Há ainda o capital. Até o vencimento, a posição é marcada a mercado todo dia. Se a diferença abrir antes de fechar, a mesa precisa de dinheiro para atravessar a perda no papel sem desmontar a operação.
+
+Shleifer e Vishny mostram por que esse dinheiro falta na pior hora: quem arbitra costuma usar capital de terceiros, que sai depois da perda. A arbitragem pode falhar justo quando os preços mais se afastam do valor.
+
+Por isso os desvios que aparecem nas telas não são, em geral, dinheiro esquecido. São o preço desses atritos.
+
+## Antes de chamar de arbitragem
+
+Sabendo de onde vem o preço, você decide diferente em dois momentos.
+
+O primeiro é a hora de dizer se um título está barato. Comparar a TIR da NTN-F com a taxa da LTN do mesmo vencimento é o erro do *dealer* do exemplo. O certo é comparar preço com preço: o PU de mercado contra o PU da réplica na curva.
+
+Na planilha, com os fluxos em B2:B4, as taxas *spot* em C2:C4 e os dias úteis em D2:D4:
+
+```
+PU da réplica:              =SOMARPRODUTO(B2:B4/(1+C2:C4)^(D2:D4/252))
+Quantidade de LTN por data: =B2/1000
+Desvio por título:          =PU_mercado - PU_réplica
+```
+
+O segundo é a hora de classificar uma operação. Antes de chamar qualquer coisa de arbitragem, três perguntas:
+
+1. **Os fluxos são idênticos, nas mesmas datas?** PETR3 e PETR4 falham aqui.
+2. **O devedor é o mesmo?** Um [CDB (Certificado de Depósito Bancário)](https://syntaxis.substack.com/p/o-papel-do-cdb-na-transformacao-de) e uma LTN com o mesmo vencimento podem pagar o mesmo valor, mas não carregam o mesmo risco de crédito. A Lei do Preço Único não diz nada sobre eles.
+3. **Dá para vender a ponta cara, e quanto custa sustentar a posição até o vencimento?** O empréstimo do papel, o *spread*, a margem e o capital para atravessar a marcação a mercado entram aqui.
+
+Três respostas sim, e um custo menor que o desvio: é arbitragem, desde que haja capital para levar a posição até o vencimento. Qualquer não: é outra coisa. Pode até ser uma boa operação, mas tem risco, e precisa ser tratada como tal.
+
+Precificar por fluxo de caixa é parte de duas dimensões do [Syntaxis Skill Check](https://skill.syntaxis.com.br/), a de mercados e produtos e a de matemática financeira. É um diagnóstico gratuito, que compara o seu perfil com o que o mercado espera para o próximo degrau da carreira.
+
+## A moeda que ninguém lança duas vezes
+
+A aposta da abertura existe. Cara, eu ganho. Coroa, eu não perco. Mas dura só o tempo de alguém notar.
+
+Quem nota ganha sozinho e, ao ganhar, apaga a aposta. O que fica é um mercado em que duas promessas iguais custam o mesmo, um título com cupom custa o que custam as suas peças, e uma opção custa o que custa a carteira que a imita. O ganha-ganha de um vira o de todos.
+
+Preço não é opinião. É o custo da réplica.
+
+Se o texto funcionou, você consegue montar sozinho a réplica de outro título do Tesouro. A NTN-B (Tesouro IPCA+ com Juros Semestrais) paga cupom de 6% ao ano sobre o VNA (valor nominal atualizado pelo IPCA, o índice oficial de inflação), em duas parcelas por ano. A NTN-B Principal paga só o VNA, no vencimento.
+
+Se houvesse uma NTN-B Principal em cada data de cupom, quantas de cada data replicariam uma NTN-B? E, se a NTN-B estivesse mais barata que essa réplica, por que comprá-la e vender a réplica seria arbitragem, mas comprar a NTN-B e vender LTNs não é?
+
+No próximo texto, a conta vai ao contrário. Em vez de usar a curva para precificar a NTN-F, usamos LTNs e NTN-Fs para construir a curva, vértice por vértice.
+
+É o *bootstrapping* (a construção da curva zero-cupom a partir dos títulos com cupom), e é nele que fica claro por que a TIR de uma NTN-F e a taxa *spot* do mesmo prazo são objetos diferentes.
+
+Se este texto ajudou você a separar arbitragem de aposta, encaminhe para quem chama de arbitragem qualquer *long-short*.
+
+## Para continuar aprendendo
+
+- Bruce Tuckman e Angel Serrat, *Fixed Income Securities: Tools for Today’s Markets*, 4ª ed. (Wiley, 2022), cap. 1, “Prices, Discount Factors, and Arbitrage”. A versão de mesa deste texto: fatores de desconto, carteira replicante e Lei do Preço Único, com os títulos e os *STRIPS* (cupons e principal desmembrados) do Tesouro americano.
+- John H. Cochrane, *Asset Pricing*, ed. revisada (Princeton University Press, 2005), cap. 4, “The Discount Factor”. A versão teórica: por que a Lei do Preço Único garante que existe um fator de desconto, e a não arbitragem, que ele é positivo.
+- Andrei Shleifer e Robert Vishny, “The Limits of Arbitrage”, *Journal of Finance*, v. 52, n. 1, p. 35–55 (1997). Por que a arbitragem de verdade exige capital, corre risco e pode falhar justo quando os preços mais se afastam do valor.
+- ANBIMA, *[Estrutura a Termo das Taxas de Juros Estimada e Inflação Implícita: Metodologia](https://www.anbima.com.br/data/files/9A/F4/E3/1F/4805B710B0F024B7882BA2A8/est-termo_metodologia_v2021.pdf)* (versão de agosto de 2021). Como a curva prefixada divulgada todo dia é extraída dos preços de LTN e NTN-F pelo modelo de Svensson: a Lei do Preço Único em escala de mercado.
+
+* * *
+
+*Os textos publicados na Syntaxis expressam exclusivamente minhas opiniões pessoais, formadas a partir da minha experiência profissional, e não representam a posição de meu empregador atual ou de empregadores anteriores. O conteúdo tem finalidade educacional e informativa: não constitui recomendação de investimento, análise de valores mobiliários ou consultoria financeira.*
