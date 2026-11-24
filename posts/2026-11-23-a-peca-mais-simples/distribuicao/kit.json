@@ -5,7 +5,7 @@
     "linha": "notas-de-um-professor",
     "titulo": "A Peça Mais Simples",
     "data_publicacao": "2026-11-24",
-    "url": null
+    "url": "https://syntaxis.substack.com/p/a-peca-mais-simples"
   },
   "pecas": [
     {
@@ -23,7 +23,7 @@
         "publicar a Note no Substack"
       ],
       "apetite_min": 5,
-      "situacao": "aguarda-url",
+      "situacao": "pronto",
       "retorno": "responder comentários no dia"
     },
     {

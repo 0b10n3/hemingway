@@ -9,7 +9,7 @@ A Selic, nesse meio-tempo, não se mexeu.
 Quem se mexeu foi a curva: um pouco pela Selic esperada, muito pelo prêmio de prazo, o que o mercado cobra para travar dinheiro numa taxa fixa.
 
 Qual explicação você mais ouviu, nessas semanas, para um prefixado cair com a Selic parada?
-{{URL_POST}}
+https://syntaxis.substack.com/p/a-peca-mais-simples
 
 ## L1 · video-d1 · linkedin
 
@@ -24,7 +24,7 @@ Quem compra LTN não aposta na queda dos juros. Aposta contra a curva, a fila de
 A LTN ganha quando a Selic de verdade, dia após dia até o vencimento, fica abaixo do que a curva cobrava no dia da compra. Perde quando fica acima.
 
 O vídeo trata dessa diferença. O texto completo, com o preço da LTN na planilha e o que a taxa aposta, está na Syntaxis, a newsletter. Que argumento você mais ouve, na mesa ou fora dela, para comprar prefixado?
-{{URL_POST}}
+https://syntaxis.substack.com/p/a-peca-mais-simples
 
 ## L2 · video-d1 · instagram-reels
 
@@ -61,7 +61,7 @@ Como só há um fluxo, a duration (o prazo médio dos fluxos) é o próprio praz
 No documento: o que é a LTN, como chegar ao preço da tela com uma linha de planilha e quanto esse preço anda a cada ponto de taxa. O texto completo, com o que a taxa aposta, está no link abaixo.
 
 Qual detalhe mais demorou para a sua planilha de títulos bater com a tela?
-{{URL_POST}}
+https://syntaxis.substack.com/p/a-peca-mais-simples
 
 ## L6 · carrossel-d6 · instagram
 

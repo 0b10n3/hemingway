@@ -1,6 +1,6 @@
 # Kit de distribuição: A Peça Mais Simples
 
-Notas de um Professor · publicação no Substack: ter 24/11/2026 · URL: ainda sem URL ({{URL_POST}} nos textos)
+Notas de um Professor · publicação no Substack: ter 24/11/2026 · URL: https://syntaxis.substack.com/p/a-peca-mais-simples
 
 Kit válido (`scripts/kit.py validar`). Responda no mini-gate: `aceito`, ou os IDs a ajustar (`N1: gancho mais curto; L2: …`).
 
@@ -8,7 +8,7 @@ Kit válido (`scripts/kit.py validar`). Responda no mini-gate: `aceito`, ou os I
 
 | Data | Peça | IDs | Canais | Situação | Apetite | À mão |
 |---|---|---|---|---|---|---|
-| ter 24/11 | note-d0 | N1 | substack-notes | aguarda-url | 5 min | publicar a Note no Substack |
+| ter 24/11 | note-d0 | N1 | substack-notes | pronto | 5 min | publicar a Note no Substack |
 | qua 25/11 | video-d1 | L1, L2, L3, L4 | linkedin, instagram-reels, youtube-shorts | aguarda-producao | 30 min | gravar em câmera; montar no CapCut; publicar no LinkedIn, no Reels e no Shorts |
 | qui 26/11 | note-d2 | N2 | substack-notes | pronto | 5 min | publicar a Note no Substack |
 | seg 30/11 | carrossel-d6 | L5, L6 | linkedin, instagram | aguarda-producao | 20 min | gerar o carrossel; publicar o PDF no LinkedIn e as imagens no Instagram |
@@ -17,7 +17,7 @@ Apetite do kit: 60 min de peças + 4 dias × 8 min de resposta = 92 min.
 
 ## Textos
 
-### N1 · note-d0 · substack-notes · ter 24/11 (512/600 caracteres)
+### N1 · note-d0 · substack-notes · ter 24/11 (483/600 caracteres)
 
 ```text
 No Tesouro Direto, o Prefixado 2029 custava R$ 773,74 em 13 de outubro, a 12,40% ao ano. Em 17 de novembro, R$ 746,00, a 14,98%. Na tela, 3,6% a menos.
@@ -27,10 +27,10 @@ A Selic, nesse meio-tempo, não se mexeu.
 Quem se mexeu foi a curva: um pouco pela Selic esperada, muito pelo prêmio de prazo, o que o mercado cobra para travar dinheiro numa taxa fixa.
 
 Qual explicação você mais ouviu, nessas semanas, para um prefixado cair com a Selic parada?
-{{URL_POST}}
+https://syntaxis.substack.com/p/a-peca-mais-simples
 ```
 
-### L1 · video-d1 · linkedin · qua 25/11 (1025/3000 caracteres)
+### L1 · video-d1 · linkedin · qua 25/11 (996/3000 caracteres)
 
 ```text
 Em 8 de outubro, o Tesouro Nacional vendeu R$ 27,86 bilhões em LTN num único leilão, a taxas perto de 12,5% ao ano. A Selic estava em 13,75%.
@@ -44,7 +44,7 @@ Quem compra LTN não aposta na queda dos juros. Aposta contra a curva, a fila de
 A LTN ganha quando a Selic de verdade, dia após dia até o vencimento, fica abaixo do que a curva cobrava no dia da compra. Perde quando fica acima.
 
 O vídeo trata dessa diferença. O texto completo, com o preço da LTN na planilha e o que a taxa aposta, está na Syntaxis, a newsletter. Que argumento você mais ouve, na mesa ou fora dela, para comprar prefixado?
-{{URL_POST}}
+https://syntaxis.substack.com/p/a-peca-mais-simples
 ```
 
 ### L2 · video-d1 · instagram-reels · qua 25/11 (296/2200 caracteres)
@@ -77,7 +77,7 @@ Paga outra coisa: o risco de crédito do banco, que não é o Tesouro, e a saíd
 Na última vez que você comparou um CDB prefixado com o Tesouro do mesmo prazo, o que entrou na conta além da taxa?
 ```
 
-### L5 · carrossel-d6 · linkedin · seg 30/11 (1130/3000 caracteres)
+### L5 · carrossel-d6 · linkedin · seg 30/11 (1101/3000 caracteres)
 
 ```text
 A LTN é o fator de desconto vendido em lotes de R$ 1.000.
@@ -91,7 +91,7 @@ Como só há um fluxo, a duration (o prazo médio dos fluxos) é o próprio praz
 No documento: o que é a LTN, como chegar ao preço da tela com uma linha de planilha e quanto esse preço anda a cada ponto de taxa. O texto completo, com o que a taxa aposta, está no link abaixo.
 
 Qual detalhe mais demorou para a sua planilha de títulos bater com a tela?
-{{URL_POST}}
+https://syntaxis.substack.com/p/a-peca-mais-simples
 ```
 
 ### L6 · carrossel-d6 · instagram · seg 30/11 (323/2200 caracteres)
