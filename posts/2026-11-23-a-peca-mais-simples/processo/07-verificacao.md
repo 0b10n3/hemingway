@@ -663,3 +663,157 @@ Recompras 26/10: [('950199', '2031-01-01', 'Compra', 5000000, 15.79, 4351.2), ('
 Na API do BCB, a segunda rodada vem no mesmo registro do leilão (`quantidadeAceitaSegundaRodada`). O
 "financeiro" soma as duas rodadas. A primeira rodada é quantidade aceita × PU médio, e bate com a
 Tabela 2 da Resenha (R$ 17.317,9 + 9.463,1 + 1.075,1 mi de LTN).
+
+---
+
+## Adendo: draft v2
+
+Texto conferido: corpo de `processo/04-draft-v2.md`, de "# A Peça Mais Simples" ao fim, com foco no
+"Adendo para a etapa 7" das notas. Acesso às fontes em 2026-11-23 e 2026-11-24. O cálculo novo está
+no Apêndice B, que reaproveita as funções do Apêndice A.1.
+
+**Placar do adendo:** 24 itens conferidos. Há 1 imprecisão leve no corpo (C7) e 1 correção fora do
+corpo, no gabarito do CDB (C8). Não há `[VERIFICAR]` novo. O V1 (Securato) segue aberto, com o
+trecho igual ao da v1. C1 a C6 continuam valendo, com os trechos idênticos na v2 (tabela no fim).
+
+### Correções novas
+
+**C7. Impreciso (leve).** "De volta a outubro" diz: "O segundo turno devolveu o ponto e cobrou mais um
+pouco." O "pouco" tem o mesmo tamanho do ponto devolvido, e a frase seguinte dá o número.
+- O rali do 1º turno foi de −1,09 (2/10 → 5/10).
+- Em 26/10, a taxa estava 1,57 acima da de 2/10; em 17/11, 1,15 acima.
+
+Troca de uma palavra, aplicável na etapa 9:
+- `O segundo turno devolveu o ponto e cobrou mais um pouco.` → `O segundo turno devolveu o ponto e cobrou mais um.`
+
+**C8. Fora do corpo (gabarito do teste do CDB, Ficha de Saída e Note de D+2, M9).** A nota da etapa 4
+diz "A 16%, com os 529 dias úteis do texto, R$ 1.000 de face custam cerca de R$ 732,32." O valor certo
+é **R$ 732,30**:
+- 1000 / 1,16^(529/252) = 732,300583;
+- com a convenção do Tesouro (expoente T-14, PU T-6), 732,300582.
+
+R$ 732,32 corresponderia a 15,9985% ou a 528,95 du. A observação "R$ 732,56 é o preço a 15,98%"
+confere: 732,5657 (732,56 truncado, 732,57 arredondado). O corpo do post não traz o número: "cerca de
+R$ 732" (M9) continua certo.
+- `cerca de R$ 732,32` → `cerca de R$ 732,30` (nas notas da etapa 4 e onde a Ficha ou a Note de D+2 o usarem)
+
+### Itens conferidos
+
+| # | Afirmação na v2 | Fonte e recálculo | Veredito |
+|---|---|---|---|
+| A1 | "os bancos e as demais instituições financeiras tinham 43,62% do estoque" (LTN, set/2026) | RMD set/2026, Anexo 2.8 (XLSX lido nesta etapa), bloco LTN: Instituições Financeiras 554,66 de 1.271,58 bi = 0,43620 | ✅ |
+| A2 | "os investidores estrangeiros, 26,38%" | Anexo 2.8: "Não-residente" 335,49 bi = 0,26383 | ✅ ("estrangeiros" traduz "não residentes") |
+| A3 | "A pessoa física do Tesouro Direto tinha 2,56%" | Anexo 2.8: "Tesouro Direto" 32,50 bi = 0,02556. O Tesouro Direto só aceita CPF | ✅ |
+| A4 | "Quem forma o preço da LTN é a mesa do banco e o estrangeiro; quem compra pelo Tesouro Direto recebe esse preço pronto." | Quatro apoios: (a) 70% do estoque com bancos e não residentes (A1, A2); (b) leilões só para instituições com acesso ao Selic e segunda rodada só para *dealers* (F20, F21); (c) secundário institucional (R$ 42,9 bi em 5/10, F15); (d) em 17/11 a ANBIMA indicava 14,9213% para a LTN 01/01/2029 (`ms261117.txt`), e o Tesouro Direto vendia a 14,98% e recomprava a 15,10%: a taxa institucional mais o *spread* do Tesouro | ✅ como leitura, com apoio nos dados. Participação no estoque não é participação no giro, mas (b) a (d) fecham a frase |
+| A5 | "Antes do primeiro turno, o mesmo título pagava perto de 13,9%." | CSV oficial, taxa de compra: de 25/9 a 2/10, 13,91 / 13,93 / 13,87 / 13,76 / 13,86 / 13,83 (média de 13,86). De 15/9 a 2/10, faixa de 13,76 a 13,93. Véspera (2/10): 13,83 | ✅ "perto de" cobre a faixa. Precisão opcional: a véspera foi 13,83 |
+| A6 | "O rali de 5 de outubro tirou mais de um ponto da taxa" | 13,83 (2/10) → 12,74 (5/10): −1,09 | ✅ |
+| A7 | "o leilão de 8 de outubro foi vendido nesse embalo" | três pregões depois do rali; Prefixado 2029 a 12,53% em 8/10 e LTN do leilão a 12,51–12,70% (BCB) | ✅ |
+| A8 | "E comprou perto do dia mais otimista do ano." (13/10) | CSV: 221 pregões em 2026 (2/1 a 19/11). Mínima do ano: **12,30% em 9/10**. A de 13/10 (12,40%) é a **2ª menor do ano**, no pregão seguinte (12/10 foi feriado) | ✅ |
+| A9 | "O segundo turno devolveu o ponto e cobrou mais um pouco." | 23/10 → 26/10: +2,63; 26/10 contra 2/10: +1,57; 17/11 contra 2/10: +1,15 | ⚠️ **C7** (leve) |
+| A10 | "Em 17 de novembro, a taxa estava cerca de 1,1 ponto acima do nível de antes do primeiro turno." | 14,98 − 13,83 (2/10) = 1,15; − 13,86 (1/10 e média de 25/9 a 2/10) = 1,12; − 13,9 = 1,08 | ✅ |
+| A11 | "Em pouco mais de seis semanas" | 2/10 → 17/11: 46 dias (6,6 semanas); 4/10 → 17/11: 44 (6,3); 5/10 → 17/11: 43 (6,1) | ✅ |
+| A12 | "o prêmio andou nos dois sentidos, e a Selic não saiu de 13,75%" | Resíduo taxa − Selic média do Focus, pelo método do texto: +1,76 (2/10) → +0,67 (5/10) → +0,41 (13/10) → +3,67 (26/10) → +2,45 (17/11). SGS 432: 13,75 em todo o período | ✅ (bate com a pesquisa, item 30) |
+| A13 | "Com a curva daquele dia, a aposta tinha pouco prêmio." | +0,41 em 13/10 (N32) | ✅ |
+| A14 | "a LTN ainda ganha, R$ 13.405 contra R$ 13.081" (2ª linha da tabela) | R$ 13.404,75 contra R$ 13.081,32 (over de 13,65%) | ✅. **C2 vale também para esta frase:** com 13,75% ao pé da letra, o Tesouro Selic daria R$ 13.105,50. A LTN ganha nos dois casos |
+| A15 | "com a Selic parada em 13,75% até 2029, sem queda nenhuma dos juros, a LTN ainda ganha" | idem | ✅ |
+| A16 | Link do boxe do BCB na bibliografia | `https://www.bcb.gov.br/content/ri/relatorioinflacao/202212/ri202212b6p.pdf`: HTTP 200, `application/pdf` | ✅ |
+| A17 | Título "Prêmio de risco nas taxas de juros nominais brasileiras", boxe do *Relatório de Inflação* de dezembro de 2022 | 1ª linha do PDF: "Prêmio de risco nas taxas de juros nominais brasileiras"; arquivo `ri202212b6p` (RI de dez/2022, boxe 6) | ✅ |
+| A18 | "Como o Banco Central separa, na curva de LTN e NTN-F, a expectativa de juros do prêmio, e por que o prêmio sobe nas turbulências" | Nota 4 do boxe: a curva Svensson usa "Letras do Tesouro Nacional – LTNs" e "Notas do Tesouro Nacional série F – NTN-Fs". O modelo ACM separa expectativa e prêmio. O prêmio "aumenta ao redor de turbulências, como a crise financeira global de 2008, as manifestações de rua de 2013, …" | ✅. "A medida oficial" é estimativa da equipe do BCB por modelo, publicada em relatório oficial. Aceitável |
+| A19 | Regra de referências | 4 itens: 2 livros (Tuckman e Serrat; Securato), a Metodologia e o boxe do BCB. O PAF sai da lista e fica no corpo; nenhuma lei | ✅ |
+| A20 | Gabarito do CDB: "cerca de R$ 732,32" (notas da etapa 4) | 732,300583 | ⚠️ **C8** (fora do corpo) |
+| A21 | "Nos ciclos longos, a taxa prefixada acompanha a Selic. Repare nas viradas e nos sustos:" (nota 2) | Pesquisa, itens 5 (última linha) e 36: acompanha no nível em 2003–04, 2017 e 2021–22, vira de 3 a 13 meses antes e salta nos sustos | ✅ |
+| A22 | "É esse prêmio que paga a aposta contra a curva. Quem compra a LTN recebe para carregar o risco de a Selic de verdade passar do que a curva cobrava no dia da compra." | Boxe do BCB: o prêmio é "excesso de retorno esperado" que compensa o risco; RI dez/2022: "diferença de rentabilidade esperada" contra quem rola no *overnight* | ✅ conceito |
+| A23 | "Pela mesma conta dos cenários, que usa o Focus como medida da expectativa" | declara o método (fecha o Contexto 3 do laudo da v1) | ✅ |
+| A24 | Fecho: "Quem a compra recebe essa cobrança para carregar a aposta." | idem A22 | ✅ conceito |
+
+### C1 a C6 na v2: trechos exatos
+
+Nenhuma correção mudou de trecho: o texto de cada uma é idêntico na v2. As linhas são de
+`04-draft-v2.md`.
+
+| ID | Linha na v2 | Trecho exato na v2 | Correção |
+|---|---|---|---|
+| C1 | 256 | `\| Segue o Focus (trajetória interpolada entre os fins de ano) \| R$ 12.818 \| R$ 13.405 \|` | `R$ 12.818` → `R$ 12.812` |
+| C2 | 252 | `Para medir a distância, três cenários para R$ 10 mil aplicados em 17 de novembro, até 1º de janeiro de 2029, em valores brutos e cálculo próprio:` | inserção da v1 (`…, com o Tesouro Selic rendendo a Selic de cada dia, 0,10 ponto abaixo da meta:`) |
+| C2 | 254 | `\| Cenário para a Selic \| No Tesouro Selic \| No Prefixado 2029 \|` | `Cenário para a Selic` → `Cenário para a meta da Selic`. A frase nova da linha 264 ("com a Selic parada em 13,75%") fica coberta pela mesma declaração e não precisa de troca |
+| C3 | 86 | `Quem comprou em 13 de outubro via 3,6% a menos na tela.` | `Na tela, 3,6% a menos que em 13 de outubro.` |
+| C3 | 288 | `Os −3,6% de novembro só viram prejuízo para quem vende.` | `A queda de novembro só vira prejuízo para quem vende.` |
+| C3 | 316 | `Os −3,6% não são o resultado da aposta. São o preço de sair dela hoje.` | `A queda não é o resultado da aposta. É o preço de sair dela hoje.` (a linha anterior, 314, termina em "Esse é o trabalho do preço." e não muda) |
+| C4 | 128 | `Na prateleira do Tesouro Direto, as respostas formam cinco papeis:` | `… cinco papeis principais:` |
+| C5 | 272 | `LTNs de 2028 e 2029 a 12,5%, menos de um ponto acima` | `LTNs de 2029 a 12,5%, menos de um ponto acima` |
+| C6 | 218 | `Em troca, só eles entram na segunda rodada, logo depois do leilão, ao mesmo preço.` | `Em troca, só eles entram na segunda rodada, depois do leilão, ao mesmo preço.` |
+| V1 | 335 | `O manual brasileiro de mesa: LTN, LFT e NTN com as convenções locais, du/252 e taxa over incluídas.` | segue `[VERIFICAR]` (ver a lista consolidada da v1) |
+
+Na v2, a saída da gaveta "Garantia" (nota 6) elimina o item F35 da v1, que deixa de se aplicar.
+
+### `[VERIFICAR]` e `[FAIXA]` depois da v2
+
+- `[VERIFICAR]`: só o **V1** (Securato), na linha 335 da v2.
+- `[FAIXA]`: nenhum.
+
+### Fontes novas do adendo
+
+- BCB, boxe "Prêmio de risco nas taxas de juros nominais brasileiras" (RI de dez/2022): https://www.bcb.gov.br/content/ri/relatorioinflacao/202212/ri202212b6p.pdf
+- ANBIMA, mercado secundário de títulos públicos, 17/11/2026: https://www.anbima.com.br/informacoes/merc-sec/arqs/ms261117.txt
+- Tesouro Transparente, CSV do Tesouro Direto (série de 2026 do Prefixado 2029) e RMD de set/2026, Anexo 2.8: links do laudo da v1.
+
+### Apêndice B: cálculo do adendo
+
+`adendo.py`, rodado com `python3 -I adendo.py <CSV do Tesouro Direto> <a1.py>`, em que `a1.py` é o
+script do Apêndice A.1. O `runpy` executa o A.1 inteiro antes, e a saída dele, idêntica à do Apêndice
+A, foi omitida abaixo. O bloco de saída foi conferido por `diff` contra uma nova execução.
+
+```python
+import sys, csv, runpy
+from datetime import date, timedelta
+from decimal import Decimal, ROUND_DOWN
+g = runpy.run_path(sys.argv[2], run_name="lib")   # Apêndice A.1: FER, du, pu_ltn, fator_focus, V
+du, pu_ltn, util, ff = g['du'], g['pu_ltn'], g['util'], g['fator_focus']
+def trunc(x,n): return float(Decimal(repr(x)).quantize(Decimal(1).scaleb(-n),rounding=ROUND_DOWN))
+serie={}
+for r in csv.reader(open(sys.argv[1],encoding='latin1'),delimiter=';'):
+    if r[0]=='Tesouro Prefixado' and r[1]=='01/01/2029':
+        dd,mm,yy=map(int,r[2].split('/')); serie[date(yy,mm,dd)]=float(r[3].replace(',','.'))
+a26={d:v for d,v in serie.items() if d.year==2026}
+mn=min(a26.values())
+print("pregões 2026:",len(a26),"| mínima:",mn,[d.isoformat() for d,v in a26.items() if v==mn],"| 5 menores:",sorted((v,d.isoformat()) for d,v in a26.items())[:5])
+print("15/9–2/10:",[(d.strftime('%d/%m'),v) for d,v in sorted(a26.items()) if date(2026,9,15)<=d<=date(2026,10,2)])
+for base,lab in ((a26[date(2026,10,2)],"2/10"),(a26[date(2026,10,1)],"1/10"),(13.9,"13,9")): print(f"17/11 − {lab}: {14.98-base:.2f}")
+print("rali:",round(a26[date(2026,10,5)]-a26[date(2026,10,2)],2),"| 23→26/10:",round(a26[date(2026,10,26)]-a26[date(2026,10,23)],2),"| 26/10 − 2/10:",round(a26[date(2026,10,26)]-a26[date(2026,10,2)],2))
+for a in (date(2026,10,2),date(2026,10,4),date(2026,10,5)): n=(date(2026,11,17)-a).days; print(f"{a:%d/%m}→17/11: {n} dias, {n/7:.2f} semanas")
+def resid(dbase, fo):
+    liq=dbase+timedelta(1)
+    while not util(liq): liq+=timedelta(1)
+    f,n,a=ff(liq,[(liq,13.75),(date(2026,12,31),fo[0]),(date(2027,12,31),fo[1]),(date(2028,12,31),fo[2])]); return serie[dbase]-a*100, a*100
+for d,fo in ((date(2026,10,2),(13.5,12,10.5)),(date(2026,10,5),(13.5,12,10.5)),(date(2026,10,13),(13.25,12,10.5)),(date(2026,10,26),(13.25,11.75,10)),(date(2026,11,17),(13.75,12.75,11))):
+    r,a=resid(d,fo); print(f"{d:%d/%m} taxa {serie[d]:.2f} | Selic média esperada {a:.2f} | resíduo {r:+.2f}")
+e=trunc(529/252,14); import math
+print(f"CDB 16%: {1000/1.16**(529/252):.6f} | T-14/T-6: {trunc(1000/1.16**e,6):.6f} | a 15,98%: {1000/1.1598**(529/252):.4f} | taxa p/ 732,32: {(1000/732.32)**(252/529)-1:.4%}")
+print(f"Selic parada: LTN {1e4*1000/pu_ltn(0.1498,529):,.2f} × LFT {1e4*1.1365**(529/252):,.2f} (13,75% sem −0,10: {1e4*1.1375**(529/252):,.2f})")
+```
+
+Saída:
+
+```
+pregões 2026: 221 | mínima: 12.3 ['2026-10-09'] | 5 menores: [(12.3, '2026-10-09'), (12.4, '2026-10-13'), (12.53, '2026-10-08'), (12.54, '2026-10-14'), (12.55, '2026-10-06')]
+15/9–2/10: [('15/09', 13.85), ('16/09', 13.89), ('17/09', 13.81), ('18/09', 13.85), ('21/09', 13.79), ('22/09', 13.78), ('23/09', 13.77), ('24/09', 13.83), ('25/09', 13.91), ('28/09', 13.93), ('29/09', 13.87), ('30/09', 13.76), ('01/10', 13.86), ('02/10', 13.83)]
+17/11 − 2/10: 1.15
+17/11 − 1/10: 1.12
+17/11 − 13,9: 1.08
+rali: -1.09 | 23→26/10: 2.63 | 26/10 − 2/10: 1.57
+02/10→17/11: 46 dias, 6.57 semanas
+04/10→17/11: 44 dias, 6.29 semanas
+05/10→17/11: 43 dias, 6.14 semanas
+02/10 taxa 13.83 | Selic média esperada 12.07 | resíduo +1.76
+05/10 taxa 12.74 | Selic média esperada 12.07 | resíduo +0.67
+13/10 taxa 12.40 | Selic média esperada 11.99 | resíduo +0.41
+26/10 taxa 15.40 | Selic média esperada 11.73 | resíduo +3.67
+17/11 taxa 14.98 | Selic média esperada 12.53 | resíduo +2.45
+CDB 16%: 732.300583 | T-14/T-6: 732.300582 | a 15,98%: 732.5657 | taxa p/ 732,32: 15.9985%
+Selic parada: LTN 13,404.75 × LFT 13,081.32 (13,75% sem −0,10: 13,105.50)
+```
+
+Anexo 2.8 do RMD de set/2026 (bloco LTN, 30/09/2026, R$ bi; lido do XLSX com `zipfile` e `re`):
+- Instituições Financeiras 554,66 (0,4362); Fundos 127,88 (0,1006); Não-residente 335,49 (0,2638).
+- Previdência 96,78 (0,0761); Tesouro Direto 32,50 (0,0256); Governo 66,48 (0,0523).
+- Seguradoras 22,00 (0,0173); Outros 35,79 (0,0281); Total 1.271,58.
