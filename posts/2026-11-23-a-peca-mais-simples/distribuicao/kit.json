@@ -1,0 +1,90 @@
+{
+  "versao_esquema": "1.0",
+  "post": {
+    "slug": "2026-11-23-a-peca-mais-simples",
+    "linha": "notas-de-um-professor",
+    "titulo": "A Peça Mais Simples",
+    "data_publicacao": "2026-11-24",
+    "url": null
+  },
+  "pecas": [
+    {
+      "id": "note-d0",
+      "tipo": "note",
+      "canais": [
+        "substack-notes"
+      ],
+      "offset_dias": 0,
+      "data": "2026-11-24",
+      "arquivos": [
+        "distribuicao/textos.md"
+      ],
+      "producao_manual": [
+        "publicar a Note no Substack"
+      ],
+      "apetite_min": 5,
+      "situacao": "aguarda-url",
+      "retorno": "responder comentários no dia"
+    },
+    {
+      "id": "video-d1",
+      "tipo": "video",
+      "canais": [
+        "linkedin",
+        "instagram-reels",
+        "youtube-shorts"
+      ],
+      "offset_dias": 1,
+      "data": "2026-11-25",
+      "arquivos": [
+        "distribuicao/textos.md"
+      ],
+      "producao_manual": [
+        "gravar em câmera",
+        "montar no CapCut",
+        "publicar no LinkedIn, no Reels e no Shorts"
+      ],
+      "apetite_min": 30,
+      "situacao": "aguarda-producao",
+      "retorno": "responder comentários no dia"
+    },
+    {
+      "id": "note-d2",
+      "tipo": "note",
+      "canais": [
+        "substack-notes"
+      ],
+      "offset_dias": 2,
+      "data": "2026-11-26",
+      "arquivos": [
+        "distribuicao/textos.md"
+      ],
+      "producao_manual": [
+        "publicar a Note no Substack"
+      ],
+      "apetite_min": 5,
+      "situacao": "pronto",
+      "retorno": "responder comentários no dia"
+    },
+    {
+      "id": "carrossel-d6",
+      "tipo": "carrossel",
+      "canais": [
+        "linkedin",
+        "instagram"
+      ],
+      "offset_dias": 6,
+      "data": "2026-11-30",
+      "arquivos": [
+        "distribuicao/textos.md"
+      ],
+      "producao_manual": [
+        "gerar o carrossel",
+        "publicar o PDF no LinkedIn e as imagens no Instagram"
+      ],
+      "apetite_min": 20,
+      "situacao": "aguarda-producao",
+      "retorno": "responder comentários no dia"
+    }
+  ]
+}
