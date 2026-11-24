@@ -3,7 +3,14 @@
   "loops_consumidos": 0,
   "aprovacoes": [
     "Linha editorial: Notas de um Professor (confirmada pelo autor, etapa 0; rascunho sem front-matter)",
-    "T2 (gráfico ou infográfico, M2): autor pediu as duas versões em 2026-11-23 — graf-02 em graficos.md e prompt do info-01 para o Claude web (canvas); a escolha de qual entra fica para o gate"
+    "T2 (gráfico ou infográfico, M2): autor pediu as duas versões em 2026-11-23 — graf-02 em graficos.md e prompt do info-01 para o Claude web (canvas); a escolha de qual entra fica para o gate",
+    "Crítica 2+8 (ordem da série): os cinco títulos primeiro, o bootstrapping depois (autor; plano do ClickUp: LTN 24/11, NTN-F 01/12, LFT 08/12, NTN-B Principal 15/12, NTN-B 22/12, curva em janeiro)",
+    "Crítica 3: ligar o refrão ao prêmio (autor, pós-etapa 5)",
+    "Crítica 4: graf-01 no Mito, depois da concessão; graf-02 começa em 1/10 (autor, pós-etapa 5)",
+    "Crítica 5+6 (M8): sai a gaveta Garantia; detentores da LTN com a conclusão; a cláusula do não residente fica (autor, pós-etapa 5)",
+    "Crítica 7: reescrever o fechamento do loop com o 1º turno (autor, pós-etapa 5)",
+    "Crítica 1: enxugar o tempo 1 da abertura (autor, pós-etapa 5)",
+    "Crítica 11: o boxe do BCB de dez/2022 entra no lugar do PAF na bibliografia (autor, pós-etapa 5)"
   ],
   "pendencias": [
     "Rascunho _arquivo/drafts/2026-11-23_A Peça Mais Simples_draft.md não versionado: autor commita em main (escopo arquivo)",
@@ -13,5 +20,6 @@
   "commit_inicial": "604d3ee",
   "slug": "2026-11-23-a-peca-mais-simples",
   "linha_editorial": "Notas de um Professor",
-  "titulo": "A Peça Mais Simples"
+  "titulo": "A Peça Mais Simples",
+  "data_publicacao_clickup": "2026-11-24"
 }
