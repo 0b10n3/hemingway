@@ -10,12 +10,16 @@
     "Crítica 5+6 (M8): sai a gaveta Garantia; detentores da LTN com a conclusão; a cláusula do não residente fica (autor, pós-etapa 5)",
     "Crítica 7: reescrever o fechamento do loop com o 1º turno (autor, pós-etapa 5)",
     "Crítica 1: enxugar o tempo 1 da abertura (autor, pós-etapa 5)",
-    "Crítica 11: o boxe do BCB de dez/2022 entra no lugar do PAF na bibliografia (autor, pós-etapa 5)"
+    "Crítica 11: o boxe do BCB de dez/2022 entra no lugar do PAF na bibliografia (autor, pós-etapa 5)",
+    "Etapa 6: aplicar as 7 norma e as 30 linha com ★; as 6 sem ★ ficam fora (autor)",
+    "Etapa 7: aplicar C1, C2 (texto exato), C4, C5, C6 e C7; C3 na opção A (queda do preço); C8 só nas notas (gabarito do CDB, R$ 732,30) (autor)",
+    "Etapa 7, V1: o autor confirma no exemplar a descrição do Securato (5ª ed., Saint Paul, 2015)"
   ],
   "pendencias": [
     "Rascunho _arquivo/drafts/2026-11-23_A Peça Mais Simples_draft.md não versionado: autor commita em main (escopo arquivo)",
     "Teste de transferência (CDB a 16%): gabarito R$ 732,30 por R$ 1.000 de face (529 du; etapa 7, C8); a resposta pode virar Note de D+2 em /distribuir",
-    "info-01: gerar no Claude web com graficos/info-01-prompt-claude-web.md e salvar o PNG em figuras/info-01.png, se o autor quiser a versão em infográfico"
+    "info-01: gerar no Claude web com graficos/info-01-prompt-claude-web.md e salvar o PNG em figuras/info-01.png, se o autor quiser a versão em infográfico",
+    "Gate: problemas de coerência A–E do fim de 06-revisao.md vistos, não aplicados (A crédito × preço dito duas vezes; B 'todo dia útil' × 'quase todo dia'; C síntese repete a definição da curva; D densidade de antítese, registro para a Fase E; E eco de H2)"
   ],
   "commit_inicial": "604d3ee",
   "slug": "2026-11-23-a-peca-mais-simples",
