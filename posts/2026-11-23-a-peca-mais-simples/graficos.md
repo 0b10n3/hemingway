@@ -167,9 +167,10 @@ print("semanal", len(semana), "mudancas da meta", len(mudancas))
 
 ## graf-01
 
-**Onde entra:** no Mito ("Prefixado para quem acha que o juro vai cair"), onde o autor deixou a NOTA
-PARA CLAUDE: depois de "…sobe quando ele corta, cai quando ele aperta." e antes de "Tem um pedaço
-de verdade aí." A etapa 4 escreve a frase de anúncio, com dois-pontos.
+**Onde entra:** no Mito ("Prefixado para quem acha que o juro vai cair"), depois da concessão
+(decisão do autor sobre a crítica, item 4): depois de "Nos ciclos longos, a taxa prefixada acompanha a
+Selic. Repare nas viradas e nos sustos:" e antes de "Mas os fatos de outubro não se alinham muito bem
+com essa versão."
 
 **Por que é graf (`02-estrutura.md`):** série numérica real contra uma referência, critério 1. A
 alternativa em infográfico (T2) está em `infograficos.md`; o autor escolhe no gate.
@@ -267,7 +268,7 @@ fig.add_annotation(xref="paper", yref="paper", x=0, y=0, yshift=-46, xanchor="le
 fig.update_xaxes(range=["2001-07-01", "2027-03-01"], dtick="M24", tickformat="%Y",
                  tickfont=dict(color=slate, size=13, family=font_data),
                  showgrid=False, zeroline=False, showline=False, ticks="")
-fig.update_yaxes(range=[0, 36], tickvals=[0, 5, 10, 15, 20, 25, 30, 35],
+fig.update_yaxes(range=[0, 36], rangemode="tozero", tickvals=[0, 5, 10, 15, 20, 25, 30, 35],
                  ticktext=[f"{v}%" for v in (0, 5, 10, 15, 20, 25, 30, 35)],
                  tickfont=dict(color=slate, size=13, family=font_data),
                  gridcolor=mist, gridwidth=1, zeroline=False, showline=False)
@@ -327,7 +328,7 @@ série no subtítulo), `color.neutral.slate` (meta Selic, eixos, subtítulo, rod
 
 **Legenda:**
 
-> Nos ciclos longos, a taxa prefixada acompanha a Selic; nas viradas, vira antes do Copom; nos sustos, salta com a Selic parada.
+> Nas viradas, a taxa vira antes do Copom; nos sustos de 2002, 2008, 2024 e 2026, salta com a Selic parada.
 
 **Revisão da etapa 8 (2026-11-23), contra `checklist-graficos.md` e a marca.** Conferido e dentro do
 padrão: pergunta em uma frase, fonte com link e data de acesso, dados versionados, tokens lidos em

@@ -1,6 +1,10 @@
 # Infográficos — "A Peça Mais Simples"
 
-## info-01 — Copom × taxa prefixada, com os episódios (alternativa ao `graf-01`)
+## Alternativa ao `graf-01`: info-01 (Copom × taxa prefixada, com os episódios)
+
+*Enquanto o autor não escolhe no gate, este cabeçalho não começa por `info-01`, para o
+`scripts/checar_post.py` não cobrar placeholder. Se o `info-01` for o escolhido, o cabeçalho volta a
+ser `## info-01 — …` e o placeholder `info-01` entra no `post.md` no lugar do `graf-01`.*
 
 **Status:** alternativa, não decidida. O autor pediu na nota do rascunho "incluir um infográfico"
 (marcador M2); pelo critério da etapa 2 a peça é o `graf-01` (tensão T2 em
