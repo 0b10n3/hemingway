@@ -1,6 +1,6 @@
 {
-  "etapa_atual": "9a",
-  "loops_consumidos": 0,
+  "etapa_atual": 10,
+  "loops_consumidos": 1,
   "aprovacoes": [
     "Linha editorial: Notas de um Professor (confirmada pelo autor, etapa 0; rascunho sem front-matter)",
     "T2 (gráfico ou infográfico, M2): autor pediu as duas versões em 2026-11-23 — graf-02 em graficos.md e prompt do info-01 para o Claude web (canvas); a escolha de qual entra fica para o gate",
@@ -13,17 +13,42 @@
     "Crítica 11: o boxe do BCB de dez/2022 entra no lugar do PAF na bibliografia (autor, pós-etapa 5)",
     "Etapa 6: aplicar as 7 norma e as 30 linha com ★; as 6 sem ★ ficam fora (autor)",
     "Etapa 7: aplicar C1, C2 (texto exato), C4, C5, C6 e C7; C3 na opção A (queda do preço); C8 só nas notas (gabarito do CDB, R$ 732,30) (autor)",
-    "Etapa 7, V1: o autor confirma no exemplar a descrição do Securato (5ª ed., Saint Paul, 2015)"
+    "Etapa 7, V1: o autor confirma no exemplar a descrição do Securato (5ª ed., Saint Paul, 2015)",
+    "Gate — T1: mantém o subtítulo atual (autor)",
+    "Gate — T2: graf-01 no post; o info-01 fica como alternativa não usada (autor)",
+    "Gate — 'A queda do preço não é o resultado da aposta.' (autor; redação de uma palavra no trecho, checar_post ok)",
+    "Gate — marketing: aceitos C1, C2 (botões, inserção manual no Substack); recusados C3, R1–R3, B1–B4 e o link de 18/11 (autor). Uma rodada de aplicação: 1 loop"
   ],
   "pendencias": [
     "Rascunho _arquivo/drafts/2026-11-23_A Peça Mais Simples_draft.md não versionado: autor commita em main (escopo arquivo)",
     "Teste de transferência (CDB a 16%): gabarito R$ 732,30 por R$ 1.000 de face (529 du; etapa 7, C8); a resposta pode virar Note de D+2 em /distribuir",
     "info-01: gerar no Claude web com graficos/info-01-prompt-claude-web.md e salvar o PNG em figuras/info-01.png, se o autor quiser a versão em infográfico",
-    "Gate: problemas de coerência A–E do fim de 06-revisao.md vistos, não aplicados (A crédito × preço dito duas vezes; B 'todo dia útil' × 'quase todo dia'; C síntese repete a definição da curva; D densidade de antítese, registro para a Fase E; E eco de H2)"
+    "Gate: problemas de coerência A–E do fim de 06-revisao.md vistos, não aplicados (A crédito × preço dito duas vezes; B 'todo dia útil' × 'quase todo dia'; C síntese repete a definição da curva; D densidade de antítese, registro para a Fase E; E eco de H2)",
+    "Substack, à mão: botão C1 (depois de 'A curva é a fila de taxas prefixadas, uma por prazo…', fim do Mito) e botão C2 (depois de 'encaminhe para quem ainda compra prefixado…'); subir figuras/graf-01.png e graf-02.png nos placeholders, com os alt-texts; as duas tabelas viram imagem ou lista",
+    "Risco X2 do parecer: na distribuição, a tabela de cenários só vai junto com a frase do prêmio de prazo, ou não vai",
+    "Post de 18/11 publicado em 19/11 (https://syntaxis.substack.com/p/cara-eu-ganho-coroa-eu-nao-perco): url_publicada ainda falta no post.md dele, e a colheita (/forja-de-voz colher 2026-11-18-cara-eu-ganho-coroa-eu-nao-perco) não rodou"
   ],
   "commit_inicial": "604d3ee",
   "slug": "2026-11-23-a-peca-mais-simples",
   "linha_editorial": "Notas de um Professor",
   "titulo": "A Peça Mais Simples",
-  "data_publicacao_clickup": "2026-11-24"
+  "data_publicacao_clickup": "2026-11-24",
+  "subtitulo": "Quem compra LTN não aposta na queda dos juros. Aposta contra a curva.",
+  "marketing": {
+    "aceitos": [
+      "C1",
+      "C2"
+    ],
+    "recusados": [
+      "C3",
+      "R1",
+      "R2",
+      "R3",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "link 18/11 (fora do parecer)"
+    ]
+  }
 }

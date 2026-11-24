@@ -283,7 +283,7 @@ Antes do primeiro turno, o mesmo título pagava perto de 13,9%. O rali de 5 de o
 
 O segundo turno devolveu o ponto e cobrou mais um. Em 17 de novembro, a taxa estava cerca de 1,1 ponto acima do nível de antes do primeiro turno. Em pouco mais de seis semanas, o prêmio andou nos dois sentidos, e a Selic não saiu de 13,75%.
 
-A queda não é o resultado da aposta. É o preço de sair dela hoje. O resultado só sai em 2029, quando der para comparar os 12,40% com a Selic que de fato aconteceu.
+A queda do preço não é o resultado da aposta. É o preço de sair dela hoje. O resultado só sai em 2029, quando der para comparar os 12,40% com a Selic que de fato aconteceu.
 
 ## A peça mais simples
 
