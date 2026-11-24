@@ -23,7 +23,7 @@ Nem ela, nem as irmãs.
 
 A série muda de rumo: a partir de hoje, um título público por vez, do mais simples ao que tem mais engrenagens.
 
-**O *bootstrapping* volta quando a família estiver na mesa.** Até lá, o barão espera no pântano.
+**O *bootstrapping* volta quando a família estiver na mesa.** Até lá, o barão pode esperar no pântano.
 
 E começo com uma boa notícia: para precificar a LTN, você já tem a caixa de ferramentas inteira. Falta compreender melhor o que se está comprando.
 
@@ -73,29 +73,27 @@ Em 8 de outubro, quem comprou LTN a 12,5% com a Selic em 13,75% já pagava pela 
 
 **Quem compra LTN não aposta na queda dos juros. Aposta contra a curva.**
 
-A curva é a fila de taxas prefixadas, uma por prazo, que o mercado negocia todo dia. A LTN ganha quando a Selic de verdade, dia após dia até o vencimento, fica abaixo do que a curva cobrava no dia da compra. Perde quando fica acima.
+A curva é a fila de taxas prefixadas, uma por prazo, que o mercado negocia todo dia. 
+
+A LTN ganha quando a Selic de verdade, dia após dia até o vencimento, fica abaixo do que a curva cobrava no dia da compra. Perde quando fica acima.
 
 ## Cinco títulos, um devedor
 
-Título público federal é a dívida que o Tesouro Nacional vende para financiar o governo. A emissão é autorizada pela Lei nº 10.179/2001, e as características de cada papel estão no Decreto nº 12.814, de janeiro de 2026.
+Título público federal é a dívida que o Tesouro Nacional vende para financiar o governo. 
 
-Todos ficam registrados no Selic (Sistema Especial de Liquidação e de Custódia, operado pelo Banco Central), onde a propriedade e os pagamentos são controlados.
+A emissão é autorizada pela Lei nº 10.179/2001, e as características de cada papel estão no Decreto nº 12.814, de janeiro de 2026.
+
+Todos ficam registrados no Selic (Sistema Especial de Liquidação e de Custódia), onde a propriedade e os pagamentos são controlados.
 
 Cada título responde a quatro perguntas: o que corrige o valor (o indexador), quando o dinheiro volta (só no fim ou em cupons pelo caminho), quanto vale na face e quando vence. Na prateleira do Tesouro Direto, as respostas formam cinco papéis principais:
 
-| Título | Nome no Tesouro Direto | O que remunera | Cupom |
-| --- | --- | --- | --- |
-| LFT | Tesouro Selic | Selic acumulada | não tem |
-| LTN | Tesouro Prefixado | taxa fixa, pelo deságio | não tem |
-| NTN-F | Tesouro Prefixado com Juros Semestrais | taxa fixa | 10% ao ano, em duas parcelas |
-| NTN-B Principal | Tesouro IPCA+ | IPCA + taxa fixa | não tem |
-| NTN-B | Tesouro IPCA+ com Juros Semestrais | IPCA + taxa fixa | 6% ao ano, em duas parcelas |
+![Diagrama: Tabela dos cinco títulos do Tesouro Direto (LFT, LTN, NTN-F, NTN-B Principal e NTN-B): o que cada um remunera e o cupom.](diag-01)
 
 O devedor é o mesmo nos cinco: o Tesouro, que deve em reais, a moeda que o próprio Estado emite. Não há FGC (o Fundo Garantidor de Créditos, o seguro dos depósitos bancários) porque não há banco no meio.
 
 O que muda de um papel para outro não é o risco de crédito. É o risco de juros que você leva para casa.
 
-A LTN é o mais seco dos cinco. Pelo art. 2º do decreto, o valor nominal é múltiplo de R$ 1.000, o rendimento é definido pelo deságio (o desconto sobre o valor de face) e o resgate é pelo valor nominal, no vencimento. Nenhum pagamento no caminho. Você paga menos de R$ 1.000 hoje e recebe R$ 1.000 numa data marcada.
+A LTN é o mais simples dos cinco. Pelo art. 2º do decreto, o valor nominal é múltiplo de R$ 1.000, o rendimento é definido pelo deságio (o desconto sobre o valor de face) e o resgate é pelo valor nominal, no vencimento. Nenhum pagamento no caminho. Você paga menos de R$ 1.000 hoje e recebe R$ 1.000 numa data marcada.
 
 As datas são sempre o primeiro dia de janeiro, abril, julho ou outubro. Os prazos em oferta vão de alguns meses a pouco mais de cinco anos: o leilão de 8 de outubro vendeu vencimentos de 2028, 2029 e 2032.
 
@@ -217,11 +215,7 @@ E a mediana do Boletim Focus (a pesquisa semanal do Banco Central com as projeç
 
 Para medir a distância, três cenários para R$ 10 mil aplicados em 17 de novembro, até 1º de janeiro de 2029, em valores brutos e cálculo próprio, com o Tesouro Selic rendendo a Selic de cada dia, 0,10 ponto abaixo da meta:
 
-| Cenário para a meta da Selic | No Tesouro Selic | No Prefixado 2029 |
-| --- | --- | --- |
-| Segue o Focus (trajetória interpolada entre os fins de ano) | R$ 12.812 | R$ 13.405 |
-| Fica parada em 13,75% | R$ 13.081 | R$ 13.405 |
-| Média de 16% ao ano | R$ 13.631 | R$ 13.405 |
+![Gráfico: Tabela: R$ 10 mil no Tesouro Selic viram R$ 12.812, 13.081 ou 13.631, conforme a Selic; no Prefixado 2029, sempre 13.405.](graf-03)
 
 A última coluna não muda. É isso que *prefixado* quer dizer: o número foi escrito no dia da compra.
 

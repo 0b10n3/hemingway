@@ -632,3 +632,146 @@ caracteres):**
 **Legenda** (a fonte está no rodapé da figura):
 
 > Com a Selic parada em 13,75%, a taxa do Prefixado 2029 caiu mais de um ponto no pregão após o 1º turno e subiu mais de dois no pregão após o 2º.
+
+## graf-03
+
+**Onde entra:** "A aposta escondida na taxa", no lugar da tabela de cenários, depois de "…com o
+Tesouro Selic rendendo a Selic de cada dia, 0,10 ponto abaixo da meta:". Feito no gate (2026-11-24),
+a pedido do autor: a Substack não renderiza tabela markdown.
+
+**Pergunta que o gráfico responde:** quanto viram R$ 10 mil no Tesouro Selic e no Prefixado 2029 em
+três caminhos para a Selic?
+
+**Por que é graf:** tabela numérica do texto, transformada em imagem (`go.Table`), como o `graf-01` e
+o `graf-02` de `posts/2026-10-15-renda-fixa-condicoes-variaveis/graficos.md`. Um gráfico de barras foi
+descartado: o texto lê linha a linha ("Agora repare na primeira linha", "E repare na segunda", "a
+terceira linha") e cita os valores exatos.
+
+**Fonte dos dados:** cálculo próprio, com as premissas do texto (C1 e C2 de
+`processo/07-verificacao.md`). O Prefixado e as duas linhas de meta constante são recalculados no
+bloco, com `assert`; a linha do Focus (R$ 12.812) é a do registro de cálculo da etapa 7 (Apêndice A),
+que usa o calendário de feriados da ANBIMA e o Focus de 16/11/2026. Dados em
+`posts/2026-11-23-a-peca-mais-simples/graficos/dados/graf-03.csv`.
+
+**Código Plotly executável** (gera `graficos/dados/graf-03.csv`, `figuras/graf-03.svg` e `.png`):
+
+```python
+import csv
+import json
+import os
+
+import plotly.graph_objects as go
+
+POST_DIR = "posts/2026-11-23-a-peca-mais-simples"
+TOKENS_PATH = "../../brand/tokens/syntaxis.tokens.json"
+
+# Dados: R$ 10 mil de 18/11/2026 (liquidação) a 01/01/2029, 529 du, valores brutos.
+# Prefixado 2029: PU de 17/11 (14,98%) com os truncamentos do Tesouro. Tesouro Selic: Selic de cada
+# dia = meta − 0,10. As linhas de meta constante saem da conta abaixo; a do Focus (meta interpolada
+# entre os fins de ano, 13,75% → 12,75% → 11%) é a do registro de cálculo da etapa 7
+# (processo/07-verificacao.md, C1 e Apêndice A), que precisa do calendário de feriados da ANBIMA.
+DU = 529
+pu = int(1000 / 1.1498 ** (int(DU / 252 * 1e14) / 1e14) * 1e6) / 1e6
+prefixado = 10_000 / pu * 1000
+selic = {"Fica parada em 13,75%": 10_000 * 1.1365 ** (DU / 252),
+         "Média de 16% ao ano": 10_000 * 1.1590 ** (DU / 252)}
+assert f"{pu:.6f}" == "746.004202"
+assert round(prefixado) == 13_405
+assert [round(v) for v in selic.values()] == [13_081, 13_631]
+linhas = [("Segue o Focus (trajetória interpolada<br>entre os fins de ano)", 12_812, round(prefixado)),
+          ("Fica parada em 13,75%", round(selic["Fica parada em 13,75%"]), round(prefixado)),
+          ("Média de 16% ao ano", round(selic["Média de 16% ao ano"]), round(prefixado))]
+os.makedirs(os.path.join(POST_DIR, "graficos/dados"), exist_ok=True)
+with open(os.path.join(POST_DIR, "graficos/dados/graf-03.csv"), "w", newline="", encoding="utf-8") as f:
+    w = csv.writer(f, lineterminator="\n")
+    w.writerow(["cenario_meta_selic", "tesouro_selic_rs", "prefixado_2029_rs"])
+    w.writerows((c.replace("<br>", " "), s, p) for c, s, p in linhas)
+
+with open(TOKENS_PATH, encoding="utf-8") as f:
+    tokens = json.load(f)
+c = tokens["color"]
+bg = c["neutral"]["chalk"]["$value"]
+ink = c["neutral"]["ink"]["$value"]
+slate = c["neutral"]["slate"]["$value"]
+mist = c["neutral"]["mist"]["$value"]
+white = c["neutral"]["white"]["$value"]
+mint = c["neutral"]["mint"]["$value"]
+forest = c["forest"]["500"]["$value"]
+fam = tokens["typography"]["fontFamily"]
+
+
+def stack(key):
+    # pilha inteira de fallback, com aspas: "Source Sans 3" sem aspas invalida a declaração CSS
+    return ", ".join(f'"{n}"' if " " in n else n for n in fam[key]["$value"])
+
+
+font_display, font_body, font_data = stack("display"), stack("body"), stack("data")
+
+
+def brl(v):
+    return "R$ " + f"{v:,}".replace(",", ".")
+
+
+def pad(row):
+    # Plotly desloca verticalmente célula com menos linhas que as vizinhas; igualar alinha tudo
+    k = max(t.count("<br>") for t in row)
+    return [t + "<br> " * (k - t.count("<br>")) for t in row]
+
+
+rows = [pad([cen, brl(s), brl(p)]) for cen, s, p in linhas]
+values = [[r[j] for r in rows] for j in range(3)]
+# Destaque: a coluna do Prefixado, que não muda ("A última coluna não muda.").
+fills = [[white] * 3, [white] * 3, [mint] * 3]
+
+fig = go.Figure(go.Table(
+    columnwidth=[1.6, 0.9, 0.9],
+    header=dict(
+        values=["<b>Cenário para a meta da Selic</b>", "<b>No Tesouro Selic</b>", "<b>No Prefixado 2029</b>"],
+        fill_color=forest, line_color=forest, align=["left", "right", "right"], height=48,
+        font=dict(color=bg, size=19, family=font_display),
+    ),
+    cells=dict(
+        values=values, fill_color=fills, line_color=mist, align=["left", "right", "right"], height=44,
+        font=dict(color=[ink, ink, ink], size=[17, 18, 18], family=[font_body, font_data, font_data]),
+    ),
+    domain=dict(x=[0, 1], y=[0, 1]),
+))
+
+fig.add_annotation(
+    xref="paper", yref="paper", x=0, y=0, yshift=-18, xanchor="left", yanchor="top",
+    showarrow=False, align="left",
+    text="R$ 10 mil aplicados em 17/11/2026, até 1º/1/2029 (529 dias úteis), em valores brutos. Tesouro Selic rendendo a Selic de cada dia,<br>"
+         "0,10 ponto abaixo da meta. Em destaque, a coluna que não muda. Cálculo próprio; Selic do Focus de 16/11 (Banco Central).",
+    font=dict(color=slate, size=13, family=font_body),
+)
+
+fig.update_layout(
+    paper_bgcolor=bg, width=1000, height=360,
+    margin=dict(l=40, r=40, t=80, b=80),
+    title=dict(text="Três caminhos para a Selic, um número para o prefixado",
+               font=dict(color=ink, size=22, family=font_display), x=0.04, xanchor="left"),
+)
+
+out_dir = os.path.join(POST_DIR, "figuras")
+os.makedirs(out_dir, exist_ok=True)
+fig.write_image(os.path.join(out_dir, "graf-03.svg"))
+fig.write_image(os.path.join(out_dir, "graf-03.png"), scale=2)
+```
+
+**Gate de Tufte:** exceção ao `rangemode="tozero"`: é tabela, sem eixo, sem área nem barra; nada de escala a conferir. Sem 3D, sombra ou
+moldura. Ênfase só na coluna que não muda (`mint`), que é a frase que vem depois da figura ("A última
+coluna não muda.").
+
+**Tokens usados:** `color.neutral.chalk`, `color.forest.500` (cabeçalho), `color.neutral.mint`
+(coluna do Prefixado), `color.neutral.white`, `color.neutral.mist`, `color.neutral.ink`,
+`color.neutral.slate`; `typography.fontFamily.display` (manchete, cabeçalho), `.body` (cenários,
+rodapé), `.data` (valores). Sem `lime`.
+
+**Alt-text (placeholder `graf-03`, 121 caracteres):**
+
+> Tabela: R$ 10 mil no Tesouro Selic viram R$ 12.812, 13.081 ou 13.631, conforme a Selic; no Prefixado 2029, sempre 13.405.
+
+**Legenda:**
+
+> Com a Selic seguindo o Focus ou parada, o prefixado ganha; com média de 16%, perde. A última coluna não muda.
+
