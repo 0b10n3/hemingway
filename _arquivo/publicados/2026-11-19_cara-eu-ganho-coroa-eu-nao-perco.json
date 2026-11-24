@@ -1,0 +1,305 @@
+{
+ "audience": "everyone",
+ "audience_before_archived": null,
+ "canonical_url": "https://syntaxis.substack.com/p/cara-eu-ganho-coroa-eu-nao-perco",
+ "default_comment_sort": null,
+ "editor_v2": false,
+ "exempt_from_archive_paywall": false,
+ "free_unlock_required": false,
+ "id": 225584768,
+ "podcast_art_url": null,
+ "podcast_duration": null,
+ "podcast_preview_upload_id": null,
+ "podcast_upload_id": null,
+ "podcast_url": null,
+ "post_date": "2026-11-19T01:33:08.498Z",
+ "updated_at": "2026-11-19T01:33:08.759Z",
+ "publication_id": 2968718,
+ "search_engine_description": null,
+ "search_engine_title": null,
+ "section_id": 442561,
+ "should_send_free_preview": false,
+ "show_guest_bios": true,
+ "slug": "cara-eu-ganho-coroa-eu-nao-perco",
+ "social_title": null,
+ "subtitle": "Preço não é opinião: é o custo de montar o mesmo fluxo.",
+ "teaser_post_eligible": true,
+ "title": "Cara, eu ganho. Coroa, eu não perco.",
+ "type": "newsletter",
+ "video_upload_id": null,
+ "write_comment_permissions": "everyone",
+ "meter_type": "none",
+ "live_stream_id": null,
+ "is_published": true,
+ "restacks": 1,
+ "reactions": {
+  "❤": 4
+ },
+ "top_exclusions": [],
+ "pins": [],
+ "section_pins": [],
+ "has_shareable_clips": false,
+ "previous_post_slug": "frequencia-de-capitalizacao",
+ "next_post_slug": "a-peca-mais-simples",
+ "cover_image": "https://substackcdn.com/image/fetch/$s_!hnIJ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1074b367-af25-49e7-b814-164485dd6321_2752x1536.jpeg",
+ "cover_image_is_square": false,
+ "cover_image_is_explicit": false,
+ "videoUpload": null,
+ "podcastFields": {
+  "post_id": 225584768,
+  "podcast_episode_number": null,
+  "podcast_season_number": null,
+  "podcast_episode_type": null,
+  "should_syndicate_to_other_feed": null,
+  "syndicate_to_section_id": null,
+  "hide_from_feed": false,
+  "free_podcast_url": null,
+  "free_podcast_duration": null,
+  "preview_contains_ad": false,
+  "was_imported_self_serve_sync": false,
+  "draft_free_podcast_url": null,
+  "draft_free_podcast_duration": null
+ },
+ "podcastUpload": null,
+ "podcastPreviewUpload": null,
+ "voiceover_upload_id": null,
+ "voiceoverUpload": null,
+ "has_voiceover": false,
+ "description": "Preço não é opinião: é o custo de montar o mesmo fluxo.",
+ "body_html": "<div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!hnIJ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1074b367-af25-49e7-b814-164485dd6321_2752x1536.jpeg\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!hnIJ!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1074b367-af25-49e7-b814-164485dd6321_2752x1536.jpeg 424w, https://substackcdn.com/image/fetch/$s_!hnIJ!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1074b367-af25-49e7-b814-164485dd6321_2752x1536.jpeg 848w, https://substackcdn.com/image/fetch/$s_!hnIJ!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1074b367-af25-49e7-b814-164485dd6321_2752x1536.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!hnIJ!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1074b367-af25-49e7-b814-164485dd6321_2752x1536.jpeg 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!hnIJ!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1074b367-af25-49e7-b814-164485dd6321_2752x1536.jpeg\" width=\"1456\" height=\"813\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/1074b367-af25-49e7-b814-164485dd6321_2752x1536.jpeg&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:813,&quot;width&quot;:1456,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:2465607,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/jpeg&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:false,&quot;topImage&quot;:true,&quot;internalRedirect&quot;:&quot;https://syntaxis.substack.com/i/225584768?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1074b367-af25-49e7-b814-164485dd6321_2752x1536.jpeg&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!hnIJ!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1074b367-af25-49e7-b814-164485dd6321_2752x1536.jpeg 424w, https://substackcdn.com/image/fetch/$s_!hnIJ!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1074b367-af25-49e7-b814-164485dd6321_2752x1536.jpeg 848w, https://substackcdn.com/image/fetch/$s_!hnIJ!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1074b367-af25-49e7-b814-164485dd6321_2752x1536.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!hnIJ!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1074b367-af25-49e7-b814-164485dd6321_2752x1536.jpeg 1456w\" sizes=\"100vw\" fetchpriority=\"high\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-tqxFUX\" tabindex=\"0\" type=\"button\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-tqxFUX\" tabindex=\"0\" type=\"button\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p></p><p>No fim do <a href=\"https://syntaxis.substack.com/p/frequencia-de-capitalizacao\">último texto</a>, deixei uma fórmula de planilha para replicar o preço de uma LTN (Letra do Tesouro Nacional, o título público prefixado sem cupom). Com ela, a série de convenções fechou: a régua, o motor e a etiqueta.</p><p>A palavra que importa hoje já estava ali: <em><strong>replicar</strong></em>.</p><p>Comece por uma aposta. Uma moeda é lançada. <strong>Se der cara, você ganha. Se der coroa, você não perde nada. E não paga para entrar.</strong></p><p>Ninguém recusaria. É o ganha-ganha mais puro que existe, e tem um detalhe: é ganha-ganha de uma pessoa só.</p><p>No mercado, essa aposta tem nome. É a <strong>arbitragem</strong>. E boa parte da teoria de preços foi construída sobre a ideia de que ela não dura.</p><p>Agora, um caso concreto.</p><p>No vencimento de 1º de janeiro de 2029, o Tesouro Nacional vai pagar R$ 1.000 a quem tiver uma LTN 2029. No mesmo dia, vai pagar R$ 1.048,80 a quem tiver uma NTN-F 2029 (Nota do Tesouro Nacional, série F: o prefixado que paga cupom a cada seis meses). São o último cupom e o principal.</p><p>Na custódia dos títulos públicos, a NTN-F pode ser desmembrada: o principal e cada cupom passam a circular como títulos separados.</p><p>Separado dos cupons, o principal da NTN-F 2029 e a LTN 2029 são a mesma promessa. Mesmo devedor, mesmo valor, mesma data.</p><p>Se uma das duas estiver mais barata que a outra, a moeda da aposta acabou de aparecer.</p><p>O que obriga duas promessas idênticas a custarem o mesmo? </p><p>E o que mais se tira daí, além dessa igualdade?</p><h2>A taxa não manda no preço</h2><p>Cada título tem a sua <strong>taxa</strong>. </p><p>A NTN-F é cotada pela TIR (taxa interna de retorno: a taxa única que, aplicada a todos os fluxos, reproduz o preço), a LTN, pela dela, e o preço sai de cada taxa. </p><blockquote><p>O valor presente, a soma dos fluxos descontados, é <strong>uma convenção de cálculo</strong>: a fórmula que o manual manda usar.</p></blockquote><p>E arbitragem, nessa versão, é qualquer operação esperta entre dois ativos parecidos, que aposta que a diferença de preço entre eles vai fechar.</p><p>As duas costuman errar pelo mesmo motivo: tratam o preço como opinião. A opinião do mercado sobre os juros, sobre o título, sobre o futuro.</p><p><strong>Preço não é opinião. É o custo da réplica.</strong></p><p>Essa frase basta para tirar a fórmula de valor presente, o preço justo de uma NTN-F e, com mais matemática, a fórmula de Black-Scholes.</p><h2>A aposta ideal</h2><p><strong>Arbitragem é uma carteira que custa zero (ou menos que zero) hoje, nunca dá prejuízo no futuro e deixa lucro em algum ponto: no dinheiro recebido hoje ou em pelo menos um cenário futuro. </strong></p><p>Ela aparece de duas formas:</p><ol><li><p>Você recebe dinheiro hoje e não deve nada depois.</p></li><li><p>Você não paga nada hoje, nunca perde e, em algum cenário, ganha.</p></li></ol><p>Cara, eu ganho. Coroa, eu não perco.</p><p>O <strong>princípio da não arbitragem</strong> diz que, num mercado em equilíbrio, nenhuma das duas formas sobrevive. Elas até aparecem, mas não duram: quem as vê opera, e a operação as apaga.</p><p>Princípio, aqui, no sentido do matemático: axioma. Não se prova, se assume. O que se prova são as consequências.</p><p>A primeira é a <strong>Lei do Preço Único</strong>: dois ativos, ou duas carteiras, com exatamente os mesmos fluxos, nas mesmas datas e do mesmo devedor, têm o mesmo preço hoje.</p><div class=\"latex-rendered\" data-attrs=\"{&quot;persistentExpression&quot;:&quot;CF_A(t) = CF_B(t)\\\\ \\\\text{para toda data}\\\\ t \\\\quad\\\\Longrightarrow\\\\quad P_A = P_B&quot;,&quot;id&quot;:&quot;MHMFYPUHCF&quot;}\" data-component-name=\"LatexBlockToDOM\"></div><p></p><h3>A ideia da prova cabe numa LTN</h3><p>A demonstração é por absurdo, e a promessa da abertura serve de exemplo. Para simplificar a conta, troque 2029 por um ano (252 dias úteis) e use 14,30% ao ano, perto da curva prefixada de novembro de 2026. A LTN de um ano vale 1.000 ÷ 1,143, ou R$ 874,89.</p><p>Agora suponha que alguém cote a R$ 870,00 o principal desmembrado de uma NTN-F, que paga os mesmos R$ 1.000 na mesma data.</p><p>A mesa compra o principal e vende a LTN a descoberto (vende o título que não tem, tomado emprestado, e o devolve no fim):</p><div class=\"latex-rendered\" data-attrs=\"{&quot;persistentExpression&quot;:&quot;\\\\begin{array}{l|r|r|r}\\n\\\\textbf{Data} &amp; \\\\textbf{Compra Principal (R\\\\$)} &amp; \\\\textbf{Venda da LTN (R\\\\$)} &amp; \\\\textbf{Líquido (R\\\\$)} \\\\\\\\\\n\\\\hline\\n\\\\text{Hoje} &amp; -870{,}00 &amp; +874{,}89 &amp; +4{,}89 \\\\\\\\\\n\\\\text{Em 252 dias úteis} &amp; +1.000{,}00 &amp; -1.000{,}00 &amp; 0\\n\\\\end{array}&quot;,&quot;id&quot;:&quot;YDMXAGUPLZ&quot;}\" data-component-name=\"LatexBlockToDOM\"></div><p></p><p>R$ 4,89 no bolso hoje, sem nenhuma obrigação líquida depois. É a primeira forma de arbitragem.</p><p>Se o princípio vale, o preço de R$ 870,00 não sobrevive. Invertendo as pontas (comprar a LTN, vender o principal), o caso contrário também cai.</p><p>Sobra a igualdade.</p><h3>Quem paga o ganha-ganha</h3><p>O ganha-ganha da moeda era de uma pessoa só, e alguém pagou por ele. Quem vendeu o principal a R$ 870,00 entregou R$ 4,89 de valor ao arbitrador. O almoço do arbitrador saiu do prato de quem cotou errado.</p><p>Mas a operação tem um efeito colateral. Quem compra o barato empurra o preço dele para cima. Quem vende o caro empurra o preço dele para baixo. Repetida por todo mundo que enxerga a mesma moeda, a operação fecha a diferença, e a aposta desaparece.</p><p>Nesse ponto, o ganha-ganha muda de dono.</p><p>Depois que as mesas fecham a diferença, quem compra uma NTN-F, quem marca uma carteira a mercado (atualiza o valor dela pelo preço do dia) e o próprio Tesouro, que leiloa LTN e NTN-F toda semana, passam a trabalhar com preços coerentes entre si. Ninguém precisa saber quem foi o arbitrador para se beneficiar dele.</p><p>O ganho individual some. <strong>Fica um mercado em que ninguém consegue explorar ninguém sem correr risco. </strong>Esse é o ganha-ganha coletivo, e o nome técnico dele é equilíbrio.</p><p>Até aqui, temos as primeiras páginaa de qualquer livro de renda fixa. O que sai dela é bem maior que a igualdade entre dois preços.</p><h2>Preço sem opinião</h2><p>Que problema esse princípio resolve, e para quem?</p><p>O problema clássico de precificar é que o preço depende do que as pessoas querem: quanto risco toleram, quanto aceitam esperar, o que acham que vai acontecer. </p><p>Um modelo que parte daí exige saber o que ninguém sabe.</p><p>A não arbitragem pula essa etapa. Em vez de perguntar o que você acha dos juros, ela pergunta quanto custa montar o mesmo fluxo com o que já tem preço no mercado. Se a réplica existe, o preço está decidido, concorde você ou não.</p><p>Da Lei do Preço Único sai, primeiro, a soma. Se a carteira C paga exatamente o que A e B pagam juntos, então P(C) = P(A) + P(B). O preço de um pacote é a soma do preço das peças.</p><p>Basta, então, conhecer o preço das peças mais simples. Em renda fixa prefixada, a peça mais simples é um título que paga R$ 1 numa única data. O preço hoje desse R$ 1 é o <strong>fator de desconto</strong> daquela data, DF(t). A LTN é exatamente isso, em lotes de R$ 1.000.</p><p>Qualquer fluxo prefixado do mesmo devedor é uma pilha dessas peças. Logo:</p><div class=\"latex-rendered\" data-attrs=\"{&quot;persistentExpression&quot;:&quot;P = \\\\sum_{t} CF_t \\\\cdot DF(t), \\\\qquad DF(t) = \\\\frac{1}{(1 + r_t)^{du_t/252}}&quot;,&quot;id&quot;:&quot;JCIQYTTKIN&quot;}\" data-component-name=\"LatexBlockToDOM\"></div><p>em que CFₜ é o fluxo pago na data <em>t</em>, duₜ é o número de dias úteis até ela e rₜ é a taxa zero-cupom do vértice <em>t</em> (cada prazo da curva). A taxa zero-cupom, também chamada de taxa <em>spot</em>, é a de um título que só paga no fim.</p><p>Repare de onde a fórmula veio. Ela não começou como matemática de valor presente. Começou com uma aposta que não sobrevive.</p><h3>A mesma ideia, com mais matemática</h3><p>O caso mais famoso de réplica não é de renda fixa.</p><p><strong>Em 1973, Fischer Black e Myron Scholes, e no mesmo ano Robert Merton</strong>, mostraram que uma opção sobre ação pode ser replicada por uma carteira de ação e título sem risco, ajustada continuamente conforme o preço da ação se mexe.</p><p>Se a réplica existe, a opção tem de custar o mesmo que ela. Senão, alguém compra uma, vende a outra e embolsa a diferença.</p><p>O resultado é a fórmula que o manual de opções da B3 usa, a do texto anterior. E ela tem uma ausência famosa: o retorno esperado da ação não aparece nela. A fórmula não pede a opinião de ninguém sobre se a ação vai subir.</p><blockquote><p>Merton e Scholes receberam o Nobel de Economia de 1997.</p></blockquote><p>Daqui em diante, o texto fica na renda fixa, onde a réplica é estática: monta-se uma vez e espera-se o vencimento.</p><h2>Uma NTN-F feita de LTNs</h2><p>Uma carteira que paga exatamente o mesmo que um título é um <strong>portfólio equivalente</strong> (ou carteira replicante) desse título. Pela Lei do Preço Único, os dois têm de custar o mesmo.</p><p>Pegue uma NTN-F hipotética, a um ano e meio do vencimento, com três pagamentos: em 126, 252 e 378 dias úteis. O cupom é de 10% ao ano, pago por semestre sobre R$ 1.000:</p><div class=\"latex-rendered\" data-attrs=\"{&quot;persistentExpression&quot;:&quot;C = 1.000 \\\\times \\\\left[(1{,}10)^{1/2} - 1\\\\right] = 48{,}808848&quot;,&quot;id&quot;:&quot;LZNNIIRAFK&quot;}\" data-component-name=\"LatexBlockToDOM\"></div><p>Os fluxos são R$ 48,81, R$ 48,81 e R$ 1.048,81 (o último cupom mais o principal). As contas daqui em diante são cálculo próprio, sem os arredondamentos e truncamentos da metodologia do Tesouro, que paga R$ 48,80 a quem tem um título.</p><p>Agora suponha três LTNs vencendo exatamente nessas datas, negociadas a 14,00%, 14,30% e 14,55% ao ano. As taxas são ilustrativas, na ordem de grandeza da curva prefixada de novembro de 2026, com a Selic (a taxa básica de juros) em 13,75%, mantida pelo Copom na reunião de 4 de novembro.</p><p>Para replicar a NTN-F, compre hoje, para cada data, LTNs na quantidade fluxo ÷ 1.000:</p><div class=\"latex-rendered\" data-attrs=\"{&quot;persistentExpression&quot;:&quot;\\\\begin{array}{r|r|r|r|r}\\n\\\\textbf{Vértice (du)} &amp; \\\\textbf{Taxa spot (\\\\% a.a.)} &amp; \\\\textbf{PU da LTN (R\\\\$)} &amp; \\\\textbf{Qtd. de LTN} &amp; \\\\textbf{Custo na réplica (R\\\\$)} \\\\\\\\\\n\\\\hline\\n126 &amp; 14{,}00 &amp; 936{,}585812 &amp; 0{,}0488088482 &amp; 45{,}713675 \\\\\\\\\\n252 &amp; 14{,}30 &amp; 874{,}890639 &amp; 0{,}0488088482 &amp; 42{,}702404 \\\\\\\\\\n378 &amp; 14{,}55 &amp; 815{,}656609 &amp; 1{,}0488088482 &amp; 855{,}467869 \\\\\\\\\\n\\\\hline\\n\\\\textbf{Total} &amp; &amp; &amp; &amp; \\\\mathbf{943{,}883948}\\n\\\\end{array}&quot;,&quot;id&quot;:&quot;ZVXVIEUQDF&quot;}\" data-component-name=\"LatexBlockToDOM\"></div><p></p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!PItz!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F36bc6910-8cbf-49b3-b1cf-eca46de20eea_1520x1850.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!PItz!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F36bc6910-8cbf-49b3-b1cf-eca46de20eea_1520x1850.png 424w, https://substackcdn.com/image/fetch/$s_!PItz!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F36bc6910-8cbf-49b3-b1cf-eca46de20eea_1520x1850.png 848w, https://substackcdn.com/image/fetch/$s_!PItz!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F36bc6910-8cbf-49b3-b1cf-eca46de20eea_1520x1850.png 1272w, https://substackcdn.com/image/fetch/$s_!PItz!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F36bc6910-8cbf-49b3-b1cf-eca46de20eea_1520x1850.png 1456w\" sizes=\"auto, 100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!PItz!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F36bc6910-8cbf-49b3-b1cf-eca46de20eea_1520x1850.png\" width=\"1456\" height=\"1772\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/36bc6910-8cbf-49b3-b1cf-eca46de20eea_1520x1850.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:1772,&quot;width&quot;:1456,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:324389,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://syntaxis.substack.com/i/225584768?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F36bc6910-8cbf-49b3-b1cf-eca46de20eea_1520x1850.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!PItz!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F36bc6910-8cbf-49b3-b1cf-eca46de20eea_1520x1850.png 424w, https://substackcdn.com/image/fetch/$s_!PItz!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F36bc6910-8cbf-49b3-b1cf-eca46de20eea_1520x1850.png 848w, https://substackcdn.com/image/fetch/$s_!PItz!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F36bc6910-8cbf-49b3-b1cf-eca46de20eea_1520x1850.png 1272w, https://substackcdn.com/image/fetch/$s_!PItz!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F36bc6910-8cbf-49b3-b1cf-eca46de20eea_1520x1850.png 1456w\" sizes=\"auto, 100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-tqxFUX\" tabindex=\"0\" type=\"button\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-tqxFUX\" tabindex=\"0\" type=\"button\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p>Pela Lei do Preço Único, o PU (preço unitário) justo da NTN-F é R$ 943,88.</p><p>A TIR que reproduz esse preço é 14,53% ao ano. Fica abaixo dos 14,55% da LTN do vencimento porque a curva é positivamente inclinada (as taxas longas acima das curtas): dois dos três fluxos são descontados a taxas menores.</p><p>A TIR sai do preço, e não o contrário.</p><h3>A moeda aparece</h3><p>Suponha um <em>dealer</em> (a instituição que faz preço de compra e de venda) que cota a NTN-F usando, como TIR, a taxa da LTN do vencimento: 14,55% para os três fluxos. O PU dele sai a R$ 943,68, ou R$ 0,20 abaixo da réplica.</p><p>A mesa compra 100.000 NTN-F do <em>dealer</em> e vende a réplica: 4.881 LTNs de 126 dias úteis, 4.881 de 252 e 104.881 de 378.</p><div class=\"latex-rendered\" data-attrs=\"{&quot;persistentExpression&quot;:&quot;\\n\\\\begin{array}{l|r}\\n\\\\textbf{Ponta} &amp; \\\\textbf{Hoje (R\\\\$)} \\\\\\\\\\n\\\\hline\\n\\\\text{Compra de 100.000 NTN-F a R\\\\$ 943,680875} &amp; -94.368.087{,}53 \\\\\\\\\\n\\\\text{Venda das LTNs da réplica} &amp; +94.388.697{,}41 \\\\\\\\\\n\\\\hline\\n\\\\textbf{Líquido na montagem} &amp; \\\\mathbf{+20.609{,}88}\\n\\\\end{array}\\n&quot;,&quot;id&quot;:&quot;QWJECUONAQ&quot;}\" data-component-name=\"LatexBlockToDOM\"></div><p>O arredondamento dos lotes deixa a mesa devendo R$ 115,18 a mais do que recebe em cada data, o que vale R$ 302,60 hoje. Descontado esse custo do arredondamento, o lucro travado é de R$ 20.307,28: exatamente 100.000 vezes a diferença de preço, que é de cerca de R$ 0,2031 por título.</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!678g!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1f9dafd3-00c3-4945-9175-1c3f407caca9_1520x2244.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!678g!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1f9dafd3-00c3-4945-9175-1c3f407caca9_1520x2244.png 424w, https://substackcdn.com/image/fetch/$s_!678g!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1f9dafd3-00c3-4945-9175-1c3f407caca9_1520x2244.png 848w, https://substackcdn.com/image/fetch/$s_!678g!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1f9dafd3-00c3-4945-9175-1c3f407caca9_1520x2244.png 1272w, https://substackcdn.com/image/fetch/$s_!678g!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1f9dafd3-00c3-4945-9175-1c3f407caca9_1520x2244.png 1456w\" sizes=\"auto, 100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!678g!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1f9dafd3-00c3-4945-9175-1c3f407caca9_1520x2244.png\" width=\"1456\" height=\"2150\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/1f9dafd3-00c3-4945-9175-1c3f407caca9_1520x2244.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:2150,&quot;width&quot;:1456,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:439479,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://syntaxis.substack.com/i/225584768?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1f9dafd3-00c3-4945-9175-1c3f407caca9_1520x2244.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!678g!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1f9dafd3-00c3-4945-9175-1c3f407caca9_1520x2244.png 424w, https://substackcdn.com/image/fetch/$s_!678g!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1f9dafd3-00c3-4945-9175-1c3f407caca9_1520x2244.png 848w, https://substackcdn.com/image/fetch/$s_!678g!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1f9dafd3-00c3-4945-9175-1c3f407caca9_1520x2244.png 1272w, https://substackcdn.com/image/fetch/$s_!678g!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1f9dafd3-00c3-4945-9175-1c3f407caca9_1520x2244.png 1456w\" sizes=\"auto, 100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-tqxFUX\" tabindex=\"0\" type=\"button\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-tqxFUX\" tabindex=\"0\" type=\"button\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p>Nas três datas, os cupons e o principal da NTN-F pagam as LTNs vendidas, e os R$ 302,60 separados na montagem cobrem os R$ 115,18 que faltam em cada uma.</p><p>Repare na escala. São R$ 20 mil numa operação de R$ 94 milhões, cerca de 2 pontos-base (um ponto-base é um centésimo de ponto percentual). Arbitragem de verdade costuma ser assim: pequena, rápida e disputada.</p><h3>A mesma conta, todo dia</h3><p>A decomposição existe até fisicamente: é o desmembramento da abertura, que transforma uma NTN-F em zeros negociáveis (títulos que só pagam no fim).</p><p>Em muitos lugares a conta é feita ao contrário. A estrutura a termo prefixada que ela divulga (a curva de juros, prazo a prazo) é estimada a partir dos preços de LTN e NTN-F, pelo modelo de Svensson: os fatores de desconto que melhor explicam todos esses preços ao mesmo tempo. É a Lei do Preço Único aplicada a uma prateleira inteira.</p><h2>Nem toda convergência é arbitragem</h2><p>Volte à segunda metade da versão que circula: arbitragem como qualquer aposta de que a diferença entre dois ativos parecidos vai fechar.</p><p>Pense numa operação clássica da bolsa brasileira. Quando a diferença de preço entre a ação preferencial da Petrobras (PETR4) e a ordinária (PETR3) foge da média histórica, compra-se uma e vende-se a outra, esperando a volta.</p><p>As duas ações são da mesma empresa e andam juntas quase sempre. Mas não prometem o mesmo fluxo em todo cenário: a ordinária dá direito a voto, a preferencial dá prioridade no dividendo mínimo. A diferença entre elas pode abrir e continuar aberta, por um motivo que o histórico não previu.</p><p>Isso é <em><strong>trading</strong></em><strong> de correlação</strong> (também chamado de <strong>operação de valor relativo</strong>): uma aposta numa relação estatística, que vale em média, até deixar de valer.</p><p>PETR4 não é réplica de PETR3. Apostar que a diferença volta é ter uma opinião sobre o preço, justamente o que a réplica dispensa.</p><p>O critério cabe numa pergunta: se a diferença de preço dobrar amanhã, você perde dinheiro no vencimento?</p><p>Na NTN-F do exemplo, não. A marcação a mercado pode doer no meio do caminho, mas no vencimento as LTNs vendidas são pagas pelos fluxos da NTN-F comprada e pela reserva separada na montagem.</p><p>No <em>trading</em> de correlação, pode perder de vez. Não existe data em que as duas pontas sejam obrigadas a se encontrar.</p><p>O caso mais caro dessa confusão já passou por aqui. O LTCM (Long-Term Capital Management, o fundo americano que precisou ser socorrido em 1998) chamava de arbitragem muitas operações de convergência entre títulos parecidos, mas não idênticos. Elas divergiram ao mesmo tempo, e o fundo não teve capital para esperar. Contei essa história em <a href=\"https://syntaxis.substack.com/p/quando-os-modelos-se-rebelam\">“Quando os Modelos se Rebelam”</a>.</p><p><em>Trading</em> de correlação merece um texto próprio, e vai ganhar um. Por ora, basta a fronteira: a arbitragem vive de identidade, a correlação vive de estatística.</p><h3>Os limites da arbitragem de verdade</h3><p>Até a arbitragem de verdade tem custo. Andrei Shleifer e Robert Vishny, num artigo de 1997 no <em>Journal of Finance</em>, resumiram o problema: a arbitragem de livro não exige capital nem corre risco; a de verdade quase sempre exige capital e corre risco.</p><p>Numa réplica como a do exemplo, montada com títulos de verdade, três atritos aparecem:</p><ol><li><p><strong>Vender o que não tem custa.</strong> Para vender a LTN a descoberto, a mesa precisa tomá-la emprestada, em geral por uma operação compromissada (a compra com compromisso de revenda, em que o título muda de mão por um prazo combinado). Se aquele vencimento estiver escasso, tomar o papel fica caro, e o custo come o ganho.</p></li><li><p><strong>Cada ponta cruza um </strong><em><strong>spread</strong></em><strong>.</strong> O <em>spread</em> de compra e venda é a diferença entre o preço de quem compra e o de quem vende. A réplica tem quatro pontas, e 2 pontos-base somem rápido.</p></li><li><p><strong>Nem toda data tem LTN.</strong> O Tesouro não emite LTN para todo semestre. Sem o título, a mesa recorre ao DI futuro (o contrato da B3 sobre a taxa DI, a dos empréstimos de um dia entre bancos), que não paga o mesmo fluxo: tem ajuste diário (ganhos e perdas liquidados todo dia) e referência na taxa DI, não no Tesouro. A réplica vira quase arbitragem, com um resíduo de risco que precisa ser medido.</p></li></ol><p>Há ainda o capital. Até o vencimento, a posição é marcada a mercado todo dia. Se a diferença abrir antes de fechar, a mesa precisa de dinheiro para atravessar a perda no papel sem desmontar a operação.</p><p>Shleifer e Vishny mostram por que esse dinheiro falta na pior hora: quem arbitra costuma usar capital de terceiros, que sai depois da perda. A arbitragem pode falhar justo quando os preços mais se afastam do valor.</p><p>Por isso os desvios que aparecem nas telas não são, em geral, dinheiro esquecido. São o preço desses atritos.</p><h2>Antes de chamar de arbitragem</h2><p>Sabendo de onde vem o preço, você decide diferente em dois momentos.</p><p>O primeiro é a hora de dizer se um título está barato. Comparar a TIR da NTN-F com a taxa da LTN do mesmo vencimento é o erro do <em>dealer</em> do exemplo. O certo é comparar preço com preço: o PU de mercado contra o PU da réplica na curva.</p><p>Na planilha, com os fluxos em B2:B4, as taxas <em>spot</em> em C2:C4 e os dias úteis em D2:D4:</p><pre><code><code>PU da réplica:              =SOMARPRODUTO(B2:B4/(1+C2:C4)^(D2:D4/252))\nQuantidade de LTN por data: =B2/1000\nDesvio por título:          =PU_mercado - PU_réplica\n</code></code></pre><p>O segundo é a hora de classificar uma operação. Antes de chamar qualquer coisa de arbitragem, três perguntas:</p><ol><li><p><strong>Os fluxos são idênticos, nas mesmas datas?</strong> PETR3 e PETR4 falham aqui.</p></li><li><p><strong>O devedor é o mesmo?</strong> Um <a href=\"https://syntaxis.substack.com/p/o-papel-do-cdb-na-transformacao-de\">CDB (Certificado de Depósito Bancário)</a> e uma LTN com o mesmo vencimento podem pagar o mesmo valor, mas não carregam o mesmo risco de crédito. A Lei do Preço Único não diz nada sobre eles.</p></li><li><p><strong>Dá para vender a ponta cara, e quanto custa sustentar a posição até o vencimento?</strong> O empréstimo do papel, o <em>spread</em>, a margem e o capital para atravessar a marcação a mercado entram aqui.</p></li></ol><p>Três respostas sim, e um custo menor que o desvio: é arbitragem, desde que haja capital para levar a posição até o vencimento. Qualquer não: é outra coisa. Pode até ser uma boa operação, mas tem risco, e precisa ser tratada como tal.</p><p>Precificar por fluxo de caixa é parte de duas dimensões do <a href=\"https://skill.syntaxis.com.br/\">Syntaxis Skill Check</a>, a de mercados e produtos e a de matemática financeira. É um diagnóstico gratuito, que compara o seu perfil com o que o mercado espera para o próximo degrau da carreira.</p><h2>A moeda que ninguém lança duas vezes</h2><p>A aposta da abertura existe. Cara, eu ganho. Coroa, eu não perco. Mas dura só o tempo de alguém notar.</p><p>Quem nota ganha sozinho e, ao ganhar, apaga a aposta. O que fica é um mercado em que duas promessas iguais custam o mesmo, um título com cupom custa o que custam as suas peças, e uma opção custa o que custa a carteira que a imita. O ganha-ganha de um vira o de todos.</p><p>Preço não é opinião. É o custo da réplica.</p><p>Se o texto funcionou, você consegue montar sozinho a réplica de outro título do Tesouro. A NTN-B (Tesouro IPCA+ com Juros Semestrais) paga cupom de 6% ao ano sobre o VNA (valor nominal atualizado pelo IPCA, o índice oficial de inflação), em duas parcelas por ano. A NTN-B Principal paga só o VNA, no vencimento.</p><p>Se houvesse uma NTN-B Principal em cada data de cupom, quantas de cada data replicariam uma NTN-B? E, se a NTN-B estivesse mais barata que essa réplica, por que comprá-la e vender a réplica seria arbitragem, mas comprar a NTN-B e vender LTNs não é?</p><p>No próximo texto, a conta vai ao contrário. Em vez de usar a curva para precificar a NTN-F, usamos LTNs e NTN-Fs para construir a curva, vértice por vértice.</p><p>É o <em>bootstrapping</em> (a construção da curva zero-cupom a partir dos títulos com cupom), e é nele que fica claro por que a TIR de uma NTN-F e a taxa <em>spot</em> do mesmo prazo são objetos diferentes.</p><p>Se este texto ajudou você a separar arbitragem de aposta, encaminhe para quem chama de arbitragem qualquer <em>long-short</em>.</p><h2>Para continuar aprendendo</h2><ul><li><p>Bruce Tuckman e Angel Serrat, <em>Fixed Income Securities: Tools for Today’s Markets</em>, 4ª ed. (Wiley, 2022), cap. 1, “Prices, Discount Factors, and Arbitrage”. A versão de mesa deste texto: fatores de desconto, carteira replicante e Lei do Preço Único, com os títulos e os <em>STRIPS</em> (cupons e principal desmembrados) do Tesouro americano.</p></li><li><p>John H. Cochrane, <em>Asset Pricing</em>, ed. revisada (Princeton University Press, 2005), cap. 4, “The Discount Factor”. A versão teórica: por que a Lei do Preço Único garante que existe um fator de desconto, e a não arbitragem, que ele é positivo.</p></li><li><p>Andrei Shleifer e Robert Vishny, “The Limits of Arbitrage”, <em>Journal of Finance</em>, v. 52, n. 1, p. 35–55 (1997). Por que a arbitragem de verdade exige capital, corre risco e pode falhar justo quando os preços mais se afastam do valor.</p></li><li><p>ANBIMA, <em><a href=\"https://www.anbima.com.br/data/files/9A/F4/E3/1F/4805B710B0F024B7882BA2A8/est-termo_metodologia_v2021.pdf\">Estrutura a Termo das Taxas de Juros Estimada e Inflação Implícita: Metodologia</a></em> (versão de agosto de 2021). Como a curva prefixada divulgada todo dia é extraída dos preços de LTN e NTN-F pelo modelo de Svensson: a Lei do Preço Único em escala de mercado.</p></li></ul><div><hr></div><p><em>Os textos publicados na Syntaxis expressam exclusivamente minhas opiniões pessoais, formadas a partir da minha experiência profissional, e não representam a posição de meu empregador atual ou de empregadores anteriores. O conteúdo tem finalidade educacional e informativa: não constitui recomendação de investimento, análise de valores mobiliários ou consultoria financeira.</em></p>",
+ "has_dynamic_content": false,
+ "truncated_body_text": "No fim do último texto, deixei uma fórmula de planilha para replicar o preço de uma LTN (Letra do Tesouro Nacional, o título público prefixado sem cupom). Com ela, a série de convenções fechou: a régua, o motor e a etiqueta.",
+ "wordcount": 3356,
+ "post_preview_limit": null,
+ "language": "pt",
+ "postTags": [
+  {
+   "id": "0de69e62-f8ee-42b2-b9ba-a0e5abdc8d66",
+   "publication_id": 2968718,
+   "name": "Correlação",
+   "slug": "correlacao",
+   "hidden": false
+  },
+  {
+   "id": "11d02f5c-3ea3-4bec-939a-b8cb9a6c936a",
+   "publication_id": 2968718,
+   "name": "Assessoria",
+   "slug": "assessoria",
+   "hidden": false
+  },
+  {
+   "id": "26c77523-5478-4cf4-ba45-af3b0d7fa99e",
+   "publication_id": 2968718,
+   "name": "Python",
+   "slug": "python",
+   "hidden": false
+  },
+  {
+   "id": "320719fe-45be-4f43-a47d-130bedd2b860",
+   "publication_id": 2968718,
+   "name": "Quant",
+   "slug": "quant",
+   "hidden": false
+  },
+  {
+   "id": "4cfe37a6-d47d-4ceb-9400-f7ccf3d1d0ee",
+   "publication_id": 2968718,
+   "name": "Renda Fixa",
+   "slug": "renda-fixa",
+   "hidden": false
+  },
+  {
+   "id": "5d3acdc8-31a3-4380-8ff0-c213ed95a7fd",
+   "publication_id": 2968718,
+   "name": "Consultoria Financeira",
+   "slug": "consultoria-financeira",
+   "hidden": false
+  },
+  {
+   "id": "6e6e1e65-202f-4a9d-a84b-7a88d29411bd",
+   "publication_id": 2968718,
+   "name": "Arbitragem",
+   "slug": "arbitragem",
+   "hidden": false
+  },
+  {
+   "id": "80540162-738e-4f31-b39b-7277a25def66",
+   "publication_id": 2968718,
+   "name": "Carreira",
+   "slug": "carreira",
+   "hidden": false
+  }
+ ],
+ "postCountryBlocks": [],
+ "disable_drop_cap": false,
+ "cover_image_crop": null,
+ "headlineTest": null,
+ "coverImagePalette": {
+  "Vibrant": {
+   "rgb": [
+    199,
+    222,
+    85
+   ],
+   "population": 47
+  },
+  "DarkVibrant": {
+   "rgb": [
+    43,
+    99,
+    68
+   ],
+   "population": 1279
+  },
+  "LightVibrant": {
+   "rgb": [
+    180,
+    212,
+    100
+   ],
+   "population": 1
+  },
+  "Muted": {
+   "rgb": [
+    100,
+    169,
+    92
+   ],
+   "population": 3
+  },
+  "DarkMuted": {
+   "rgb": [
+    44,
+    92,
+    60
+   ],
+   "population": 1
+  },
+  "LightMuted": {
+   "rgb": [
+    155,
+    196,
+    171
+   ],
+   "population": 259
+  }
+ },
+ "publishedBylines": [
+  {
+   "id": 136725718,
+   "name": "Silvano Junior",
+   "handle": "saapjr",
+   "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/4d24c48d-d4f2-406d-ab80-902631955776_640x640.jpeg",
+   "bio": "Capixaba Matemático (MsC) Cientista de Dados e Analista Quantitativo",
+   "profile_set_up_at": "2023-03-28T04:01:23.570Z",
+   "reader_installed_at": "2023-03-28T04:05:16.777Z",
+   "publicationUsers": [
+    {
+     "id": 3019355,
+     "user_id": 136725718,
+     "publication_id": 2968718,
+     "role": "admin",
+     "public": true,
+     "is_primary": true,
+     "publication": {
+      "id": 2968718,
+      "name": "Syntaxis",
+      "subdomain": "syntaxis",
+      "custom_domain": null,
+      "custom_domain_optional": false,
+      "hero_text": "A Syntaxis te ajuda a desenvolver as skills que hoje separam quem estagia de quem é efetivado, e quem é efetivado de quem vira referência.",
+      "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/f1431d70-c6a3-4eb3-9219-23ab9997436b_320x320.png",
+      "author_id": 136725718,
+      "primary_user_id": 136725718,
+      "theme_var_background_pop": "#FF6719",
+      "created_at": "2024-09-03T01:29:04.169Z",
+      "email_from_name": "SYNTAXIS",
+      "copyright": "Silvano Junior",
+      "founding_plan_name": "Membro Fundador",
+      "community_enabled": true,
+      "invite_only": false,
+      "payments_state": "enabled",
+      "language": "pt-br",
+      "explicit": false,
+      "homepage_type": "newspaper",
+      "is_personal_mode": false,
+      "logo_url_wide": null
+     }
+    }
+   ],
+   "is_guest": false,
+   "bestseller_tier": null,
+   "status": {
+    "bestsellerTier": null,
+    "subscriberTier": null,
+    "leaderboard": null,
+    "vip": false,
+    "badge": null,
+    "subscriber": null
+   }
+  }
+ ],
+ "reaction": null,
+ "reaction_count": 4,
+ "comment_count": 0,
+ "child_comment_count": 0,
+ "tts_on_demand": false,
+ "vg_wort_pixel_url": null,
+ "is_geoblocked": false,
+ "sponsorshipEditionBanner": null,
+ "is_editor_preview": false,
+ "hasCashtag": false,
+ "unlockedWithIP": false,
+ "unlockedWithCampaign": false,
+ "themeVariables": {
+  "color_theme_bg_pop": "#1B6A45",
+  "background_pop": "#1B6A45",
+  "color_theme_bg_web": "#F7F7F5",
+  "cover_bg_color": "#F7F7F5",
+  "cover_bg_color_secondary": "#e8e8e6",
+  "background_pop_darken": "#165638",
+  "print_on_pop": "#ffffff",
+  "color_theme_bg_pop_darken": "#165638",
+  "color_theme_print_on_pop": "#ffffff",
+  "color_theme_bg_pop_20": "rgba(27, 106, 69, 0.2)",
+  "color_theme_bg_pop_30": "rgba(27, 106, 69, 0.3)",
+  "print_pop": "#1b6a45",
+  "color_theme_accent": "#1b6a45",
+  "cover_print_primary": "#363737",
+  "cover_print_secondary": "#757575",
+  "cover_print_tertiary": "#b6b6b6",
+  "cover_border_color": "#1b6a45",
+  "font_family_body_preset": "'SF Pro Display', -apple-system, system-ui, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+  "font_weight_body_preset": 400,
+  "font_preset_body": "sans",
+  "home_hero": "feature-media",
+  "home_posts": "grid",
+  "home_show_top_posts": true,
+  "web_bg_color": "#F7F7F5",
+  "background_contrast_1": "#e8e8e6",
+  "background_contrast_2": "#d6d6d4",
+  "background_contrast_3": "#b1b1b0",
+  "background_contrast_4": "#8e8e8d",
+  "background_contrast_5": "#4e4e4d",
+  "color_theme_bg_contrast_1": "#e8e8e6",
+  "color_theme_bg_contrast_2": "#d6d6d4",
+  "color_theme_bg_contrast_3": "#b1b1b0",
+  "color_theme_bg_contrast_4": "#8e8e8d",
+  "color_theme_bg_contrast_5": "#4e4e4d",
+  "color_theme_bg_elevated": "#f7f7f5",
+  "color_theme_bg_elevated_secondary": "#e8e8e6",
+  "color_theme_bg_elevated_tertiary": "#d6d6d4",
+  "color_theme_detail": "#dededd",
+  "background_contrast_pop": "rgba(27, 106, 69, 0.4)",
+  "color_theme_bg_contrast_pop": "rgba(27, 106, 69, 0.4)",
+  "theme_bg_is_dark": "0",
+  "print_on_web_bg_color": "#363737",
+  "print_secondary_on_web_bg_color": "#838483",
+  "background_pop_rgb": "27, 106, 69",
+  "color_theme_bg_pop_rgb": "27, 106, 69",
+  "color_theme_accent_rgb": "27, 106, 69"
+ },
+ "oneOffUnlockOffer": {
+  "eligible": false
+ }
+}

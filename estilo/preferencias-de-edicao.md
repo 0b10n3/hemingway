@@ -1,6 +1,6 @@
 # Preferências de edição do autor
 
-Gerado por `python3 scripts/diff_edicoes.py preferencias` em 2026-11-16, a partir de 16 posts (`estilo/corpus/edicoes/`). Não editar à mão: a colheita (`/forja-de-voz colher`) regera este arquivo a cada post publicado.
+Gerado por `python3 scripts/diff_edicoes.py preferencias` em 2026-11-24, a partir de 17 posts (`estilo/corpus/edicoes/`). Não editar à mão: a colheita (`/forja-de-voz colher`) regera este arquivo a cada post publicado.
 
 É **dado medido, não regra**: o que o autor mudou entre o `post.md` aprovado e o texto que
 publicou. Regra só nasce daqui pela forja (`estilo/estilo-autoral.md`). Use para escrever
@@ -12,8 +12,8 @@ origem por etapa em `pesquisa/epico-revisao-editorial/dados/b1-atribuicao.json`.
 | O que o autor faz no site | Vezes | Posts | Spoiler | Notas | Desfaz texto do pipeline |
 |---|---|---|---|---|---|
 | Divide parágrafo | 173 | 16 | 103 | 70 | 4 |
-| Acrescenta negrito | 128 | 14 | 56 | 72 | 13 |
-| Troca palavra ou trecho | 106 | 16 | 52 | 54 | 53 |
+| Acrescenta negrito | 129 | 15 | 56 | 73 | 13 |
+| Troca palavra ou trecho | 107 | 17 | 52 | 55 | 53 |
 | Tira aspas simples | 93 | 7 | 19 | 74 | 0 |
 | Corta trecho | 63 | 15 | 28 | 35 | 34 |
 | Acrescenta itálico | 60 | 12 | 22 | 38 | 1 |
@@ -21,7 +21,7 @@ origem por etapa em `pesquisa/epico-revisao-editorial/dados/b1-atribuicao.json`.
 | Muda outra pontuação | 28 | 10 | 11 | 17 | 0 |
 | Reescreve subtítulo (H2) | 26 | 12 | 10 | 16 | 7 |
 | Corta dado ou trecho de conteúdo que o pipeline trouxe | 23 | 10 | 7 | 16 | 10 |
-| Acrescenta trecho | 22 | 7 | 12 | 10 | 0 |
+| Acrescenta trecho | 23 | 8 | 12 | 11 | 0 |
 | Reescreve subtítulo do post | 8 | 8 | 2 | 6 | 0 |
 | Junta parágrafos | 5 | 1 | 0 | 5 | 1 |
 | Reescreve título | 4 | 4 | 2 | 2 | 0 |

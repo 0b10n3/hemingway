@@ -432,5 +432,33 @@
   "rascunho_tipo": "rascunho",
   "amostra_v1": null,
   "captura": "_arquivo/publicados/2026-11-15_should-i-stay-or-should-i-go.json"
+ },
+ {
+  "slug_site": "cara-eu-ganho-coroa-eu-nao-perco",
+  "url": "https://syntaxis.substack.com/p/cara-eu-ganho-coroa-eu-nao-perco",
+  "post_date": "2026-11-19",
+  "titulo": "Cara, eu ganho. Coroa, eu não perco.",
+  "section_name": null,
+  "epoca": "pipeline",
+  "slug_repo": "2026-11-18-cara-eu-ganho-coroa-eu-nao-perco",
+  "fonte_mapa": "inferido (data + slug)",
+  "rascunho": "_arquivo/drafts/2026-11-18_Notas de um Professor — Cara, eu ganho. Coroa, eu não perco.md",
+  "rascunho_tipo": "rascunho",
+  "amostra_v1": null,
+  "captura": "_arquivo/publicados/2026-11-19_cara-eu-ganho-coroa-eu-nao-perco.json"
+ },
+ {
+  "slug_site": "a-peca-mais-simples",
+  "url": "https://syntaxis.substack.com/p/a-peca-mais-simples",
+  "post_date": "2026-11-24",
+  "titulo": "A Peça Mais Simples",
+  "section_name": null,
+  "epoca": "pipeline",
+  "slug_repo": "2026-11-23-a-peca-mais-simples",
+  "fonte_mapa": "inferido (data + slug)",
+  "rascunho": "_arquivo/drafts/2026-11-23_A Peça Mais Simples_draft.md",
+  "rascunho_tipo": "rascunho",
+  "amostra_v1": null,
+  "captura": "_arquivo/publicados/2026-11-24_a-peca-mais-simples.json"
  }
 ]

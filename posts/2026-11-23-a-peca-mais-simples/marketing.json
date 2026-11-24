@@ -1,0 +1,207 @@
+{
+  "post": "2026-11-23-a-peca-mais-simples",
+  "diagnostico": {
+    "linha_editorial": "Notas de um Professor",
+    "voz": "ensaística",
+    "segmento": "#GENZ-GREED",
+    "eixo": "GREED",
+    "estagio": "topo gratuito",
+    "cluster": "renda-fixa-publica",
+    "justificativas": [
+      {
+        "escolha": "Linha Notas de um Professor: texto de produto técnico, primeiro de uma série título a título.",
+        "trecho": "A série muda de rumo: a partir de hoje, um título público por vez, do mais simples ao que tem mais engrenagens."
+      },
+      {
+        "escolha": "Voz ensaística em registro técnico: abertura de ensaio (a promessa rolada, o barão) que desemboca em fórmula, planilha e DV01. O esquema só aceita 'ensaística' ou 'explicativa'.",
+        "trecho": "Promessa é dívida. Esta, eu vou rolar"
+      },
+      {
+        "escolha": "#GENZ-GREED: o leitor-alvo é o júnior de mesa que quer prova de competência; o texto entrega o vocabulário e a conta que a mesa cobra. O briefing cita também #GENZ-FEAR, mas o argumento dominante é de ganho de competência.",
+        "trecho": "(o DV01, na sigla da mesa)"
+      },
+      {
+        "escolha": "Eixo GREED: o argumento parte do retorno da ação (você já tem as ferramentas e, ao fim, consegue analisar sozinho um produto vizinho), não do custo da inação.",
+        "trecho": "E começo com uma boa notícia: para precificar a LTN, você já tem a caixa de ferramentas inteira."
+      },
+      {
+        "escolha": "Topo gratuito: post de newsletter aberta, com o único CTA de oferta apontando para o Skill Check gratuito.",
+        "trecho": "É um diagnóstico gratuito, que compara o seu perfil com o que o mercado espera para o próximo degrau da carreira."
+      },
+      {
+        "escolha": "Cluster renda-fixa-publica: o assunto é título público federal, a LTN e a família do Tesouro Direto.",
+        "trecho": "Título público federal é a dívida que o Tesouro Nacional vende para financiar o governo."
+      }
+    ]
+  },
+  "alinhamento": [
+    {
+      "id": "A1",
+      "criterio": "segmento-e-estagio",
+      "veredito": "passa",
+      "evidencia": "Topo gratuito com #GENZ-GREED, o segmento prioritário do estágio (FUNIL §5). O texto entrega competência verificável de mesa: PU na planilha, duration, DV01 e a leitura do que a taxa aposta.",
+      "trecho": "Se o texto funcionou, você consegue analisar sozinho um produto vizinho."
+    },
+    {
+      "id": "A2",
+      "criterio": "eixo-puro",
+      "veredito": "passa",
+      "evidencia": "O único bloco de custo (o erro de guardar a reserva em LTN) fica em parágrafo próprio, separado dos três usos e do teste de transferência, que são retorno da ação. Nenhum bloco mistura os dois vetores.",
+      "trecho": "O erro mais caro mistura os dois primeiros usos com o terceiro"
+    },
+    {
+      "id": "A3",
+      "criterio": "dado-com-fonte",
+      "veredito": "passa",
+      "evidencia": "Não há número de carreira ou de mercado de trabalho. Os números de mercado citam a origem no texto (Tesouro, Banco Central, Boletim Focus, PAF) ou se declaram cálculo próprio, e passaram pela etapa 7."
+    },
+    {
+      "id": "A4",
+      "criterio": "objecao-mestra",
+      "veredito": "passa",
+      "evidencia": "A objeção de #GENZ-GREED (aprender de graça no YouTube) é respondida de forma implícita: o texto marca o ponto em que termina o material público e começa a conta de mesa.",
+      "trecho": "Até aqui, é o que a página do Tesouro Direto conta."
+    },
+    {
+      "id": "A5",
+      "criterio": "anti-padroes",
+      "veredito": "passa",
+      "evidencia": "Não infantiliza, não promete enriquecimento (o próprio texto avisa que travar taxa não é almoço grátis), o medo do erro vem com saída (o critério de decisão logo depois) e os números têm origem.",
+      "trecho": "Não é um almoço grátis."
+    },
+    {
+      "id": "A6",
+      "criterio": "gancho-na-abertura",
+      "veredito": "passa",
+      "evidencia": "O gancho de dado (o Prefixado 2029 perdendo 3,6% com a Selic parada) e as duas perguntas-âncora estão na abertura, e o subtítulo já carrega a tese no e-mail. A abertura em dois tempos foi aprovada pelo autor (M4); quem chega por encaminhamento lê antes a parte da série, sem prejuízo do gancho.",
+      "trecho": "E, se a Selic ficou parada, o que derrubou o preço?"
+    },
+    {
+      "id": "A7",
+      "criterio": "promessa-guia",
+      "veredito": "passa",
+      "evidencia": "Coerente com skills técnicas que separam degraus de carreira, sem prometer salário nem promoção. O CTA do Skill Check já existe no corpo, antes da ponte final, e descreve a oferta dentro do resumo do catálogo; o parecer não duplica.",
+      "trecho": "Precificar títulos de renda fixa e medir o risco de juros fazem parte de duas dimensões do"
+    },
+    {
+      "id": "A8",
+      "criterio": "conformidade",
+      "veredito": "passa",
+      "evidencia": "O Prefixado 2029 e o CDB de banco médio (sem nome) são casos didáticos. O texto não diz que vale a pena comprar: devolve a decisão ao leitor como critério (aceitar ou não o preço da curva até uma data que caiba nos planos). Ver X2 sobre a tabela de cenários fora de contexto.",
+      "trecho": "a decisão não é se os juros vão cair. É se você aceita o preço que a curva cobra"
+    },
+    {
+      "id": "A9",
+      "criterio": "preco",
+      "veredito": "não se aplica",
+      "evidencia": "O post não cita preço da Syntaxis. A única menção de oferta diz que o Skill Check é gratuito, igual ao catálogo."
+    },
+    {
+      "id": "A10",
+      "criterio": "pergunta-no-fecho",
+      "veredito": "não passa",
+      "evidencia": "O último parágrafo do corpo é o pedido de encaminhamento e termina em ponto, não em pergunta ao leitor.",
+      "trecho": "Se este texto ajudou você a ler uma LTN pelo que ela aposta",
+      "o_que_mudaria": "Acrescentar, depois desse parágrafo, a pergunta de resposta ao e-mail proposta em C3, que pede ao leitor a experiência dele com o prefixado caindo sem o Copom. O pedido de encaminhamento fica como está."
+    }
+  ],
+  "ctas": [
+    {
+      "id": "C1",
+      "papel": "secundario",
+      "tipo": "compartilhar",
+      "formato": "botao_nativo",
+      "ancora": "A curva é a fila de taxas prefixadas, uma por prazo",
+      "destino_id": "substack:compartilhar",
+      "motivo": "Primeiro quarto do texto, no fim da seção do mito: a tese contraintuitiva acabou de ser enunciada e definida, e é ela que o leitor encaminha para quem ainda acredita na versão que circula."
+    },
+    {
+      "id": "C2",
+      "papel": "secundario",
+      "tipo": "compartilhar",
+      "formato": "botao_nativo",
+      "ancora": "encaminhe para quem ainda compra prefixado",
+      "destino_id": "substack:compartilhar",
+      "motivo": "O autor já pede o encaminhamento e nomeia quem recebe; o botão logo depois transforma o pedido em clique, sem palavra nova."
+    },
+    {
+      "id": "C3",
+      "papel": "secundario",
+      "tipo": "responder_email",
+      "formato": "texto",
+      "ancora": "Se este texto ajudou você a ler uma LTN pelo que ela aposta",
+      "texto_sugerido": "E, se você já viu um prefixado perder preço com a Selic parada, responda a este e-mail e me conte: que explicação você ouviu na época?",
+      "destino_id": "substack:responder-email",
+      "motivo": "Pergunta final da esteira v2: o post não termina em pergunta. Ela retoma o caso de outubro e pede a experiência do leitor com a versão que circula, não um sim ou não. Entra depois do botão de C2."
+    }
+  ],
+  "referencias": [
+    {
+      "id": "R1",
+      "ancora": "Você está contando os dias errado",
+      "texto_link": "Você está contando os dias errado",
+      "destino_id": "post:2026-10-30-du252-contagem-de-dias",
+      "pergunta_do_leitor": "De onde vem a régua du/252 e por que a liquidação entra e o vencimento sai da contagem?"
+    },
+    {
+      "id": "R2",
+      "ancora": "A Corda e o Arco",
+      "texto_link": "A Corda e o Arco",
+      "destino_id": "post:2026-11-02-a-barriga-da-curva",
+      "pergunta_do_leitor": "Por que a potência é juro composto, e de onde vem a curvatura do arco que reaparece na convexidade?"
+    },
+    {
+      "id": "R3",
+      "ancora": "Frequência de Capitalização",
+      "texto_link": "Frequência de Capitalização",
+      "destino_id": "post:2026-11-09-frequencia-de-capitalizacao",
+      "pergunta_do_leitor": "O que é taxa efetiva ao ano, base 252, e por que dividir a taxa por 252 erra o preço?"
+    }
+  ],
+  "backlinks_sugeridos": [
+    {
+      "id": "B1",
+      "origem_id": "legado:titulos-do-tesouro-nacional",
+      "ancora_na_origem": null,
+      "texto_link": "Tesouro Prefixado",
+      "motivo": "Pilar do cluster renda-fixa-publica. Na seção Tesouro Prefixado, a frase 'ideal para quem acredita que as taxas de juros futuras serão menores que a atual taxa prefixada' é a semente da aposta contra a curva, e a conclusão promete tratar cada título em detalhe nos próximos textos. Este post cumpre essa promessa para o prefixado."
+    },
+    {
+      "id": "B2",
+      "origem_id": "post:2026-10-30-du252-contagem-de-dias",
+      "ancora_na_origem": "Uma LTN (Letra do Tesouro Nacional, o título público prefixado)",
+      "texto_link": "LTN",
+      "motivo": "Volta de R1. A LTN é a cobaia da régua desde a primeira frase do texto de dias úteis; o leitor de lá pergunta o que é, afinal, esse título, e este post é a apresentação dele."
+    },
+    {
+      "id": "B3",
+      "origem_id": "post:2026-11-02-a-barriga-da-curva",
+      "ancora_na_origem": "o 1º de janeiro das LTN",
+      "texto_link": "LTN",
+      "motivo": "Volta de R2, a partir do pilar de matemática financeira. A LTN aparece ali só pela data de vencimento; o link leva a quem quer ver o título inteiro."
+    },
+    {
+      "id": "B4",
+      "origem_id": "post:2026-11-09-frequencia-de-capitalizacao",
+      "ancora_na_origem": "o preço de uma LTN",
+      "texto_link": "preço de uma LTN",
+      "motivo": "Volta de R3. O texto de capitalização já mostra a fórmula de PU com truncamento; este post aplica a mesma linha a um preço real do Tesouro Direto e a abre em duration e DV01."
+    }
+  ],
+  "riscos": [
+    {
+      "id": "X1",
+      "descricao": "O texto de 18/11 é citado três vezes (no título da lista, na abertura e na NTN-F montada com LTNs), mas não está citável no catálogo: falta url_publicada no frontmatter. Se ele já estiver no ar, preencha a URL e regere o catálogo; aí essas menções viram a melhor âncora de link do post.",
+      "trecho": "Cara, eu ganho. Coroa, eu não perco."
+    },
+    {
+      "id": "X2",
+      "descricao": "No post, a tabela de cenários está equilibrada pelo prêmio de prazo e pelo critério de decisão. Recortada numa Note ou peça de distribuição, com um título nomeado, preços de 17/11 e o prefixado ganhando em dois de três cenários, pode ser lida como indicação de compra. Na distribuição, levar a tabela junto com a frase do prêmio, ou não levá-la.",
+      "trecho": "Se o Focus estiver certo, a LTN paga cerca de 2,5 pontos percentuais por ano acima da Selic média esperada."
+    },
+    {
+      "id": "X3",
+      "descricao": "O cluster renda-fixa-publica só tem legados de 2024, da fase de investidor pessoa física, com linguagem de indicação ('ideal para', 'mais indicado'). Por isso nenhuma referência deste post aponta para eles. O guia do Tesouro Prefixado ficou fora de todos os itens, por pedido do autor, e o legado do Tesouro Selic também, porque abre remetendo a ele ('No post anterior, discutimos o Tesouro Prefixado'). Quando a série de títulos estiver publicada, vale rever o pilar do cluster em clusters.yaml."
+    }
+  ]
+}
