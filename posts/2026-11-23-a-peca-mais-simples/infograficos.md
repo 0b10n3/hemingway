@@ -1,9 +1,9 @@
 # Infográficos — "A Peça Mais Simples"
 
-## info-01 — Copom × taxa prefixada, com os episódios (alternativa ao `graf-02`)
+## info-01 — Copom × taxa prefixada, com os episódios (alternativa ao `graf-01`)
 
 **Status:** alternativa, não decidida. O autor pediu na nota do rascunho "incluir um infográfico"
-(marcador M2); pelo critério da etapa 2 a peça é o `graf-02` (tensão T2 em
+(marcador M2); pelo critério da etapa 2 a peça é o `graf-01` (tensão T2 em
 `processo/02-estrutura.md`). Em 2026-11-23 o autor pediu as duas versões: o gráfico, em
 `graficos.md`, e o prompt para gerar este infográfico no Claude web. No gate, entra uma das duas no
 lugar do placeholder; não as duas.
@@ -29,10 +29,10 @@ textos, os tokens e as regras. O autor exporta o PNG e o salva em `figuras/info-
 4. A faixa "Como ler a taxa prefixada".
 5. O rodapé com a fonte.
 
-**Dados e fonte:** os mesmos do `graf-02` (`graficos.md`, bloco "Dados"): Banco Central, SGS 432 e
+**Dados e fonte:** os mesmos do `graf-01` (`graficos.md`, bloco "Dados"): Banco Central, SGS 432 e
 SGS 7806; Tesouro Nacional, Tesouro Transparente; cálculo próprio para a interpolação de 1 ano. O
-prompt usa as versões enxutas `graficos/dados/graf-02-semanal.csv` (1.299 semanas, com o dia exato de
-cada episódio) e `graficos/dados/graf-02-meta-selic.csv` (140 mudanças da meta). Os números dos
+prompt usa as versões enxutas `graficos/dados/graf-01-semanal.csv` (1.299 semanas, com o dia exato de
+cada episódio) e `graficos/dados/graf-01-meta-selic.csv` (140 mudanças da meta). Os números dos
 cartões saem da série diária e de `processo/03-pesquisa.md`, item 5 (datas do Copom; S&P em
 9/9/2015, Agência Brasil; pacote fiscal em 27/11/2024). A faixa "Como ler" se apoia no boxe do
 Banco Central (Relatório de Inflação, dez/2022), item 6 do mesmo laudo. A etapa 7 confere os
@@ -49,6 +49,6 @@ Cantos retos, nenhuma sombra (`brand/DESIGN.md` §10 e §11).
 
 > Linha da taxa prefixada de 1 ano e cartões de sete episódios, de 2002 a 2026: a taxa anda antes do Copom e salta sem ele.
 
-**Conferência depois de gerar:** comparar o PNG com `figuras/graf-02.png` (a forma da linha tem de
+**Conferência depois de gerar:** comparar o PNG com `figuras/graf-01.png` (a forma da linha tem de
 ser a mesma, com a lacuna de 2023 e o pico de 2002 perto de 33%); conferir que os sete números dos
 cartões e os textos são os do prompt; nenhum travessão, nenhuma cor fora da lista.

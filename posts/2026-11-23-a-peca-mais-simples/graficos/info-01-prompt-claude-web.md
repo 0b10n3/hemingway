@@ -1,11 +1,11 @@
 # Prompt do `info-01` para o Claude web (canvas)
 
-Versão em infográfico do `graf-02` (Copom × taxa prefixada), pedida pelo autor em 2026-11-23 (tensão
+Versão em infográfico do `graf-01` (Copom × taxa prefixada), pedida pelo autor em 2026-11-23 (tensão
 T2 em `processo/02-estrutura.md`). Ficha da peça: `../infograficos.md`.
 
 **Como usar:** abra uma conversa nova no claude.ai e cole tudo o que está entre as linhas
 `INÍCIO DO PROMPT` e `FIM DO PROMPT`. Os dados já vão dentro do prompt; não precisa anexar arquivo.
-O prompt foi montado a partir de `dados/graf-02-meta-selic.csv` e `dados/graf-02-semanal.csv`, gerados
+O prompt foi montado a partir de `dados/graf-01-meta-selic.csv` e `dados/graf-01-semanal.csv`, gerados
 pelo bloco "Dados" de `../graficos.md`. Se a série mudar, regere esses dois CSVs e troque o bloco de
 dados no fim do prompt.
 

@@ -1,9 +1,11 @@
 # Gráficos — "A Peça Mais Simples"
 
-Duas peças decididas em `processo/02-estrutura.md` ("Visuais — decisão pelo critério"). **Esta
-versão traz só o `graf-02`**, feito antes da etapa 8 a pedido do autor (2026-11-23), junto com o
-prompt do infográfico alternativo (`infograficos.md`, tensão T2). O `graf-01` (o Prefixado 2029 em
-outubro) entra na etapa 8, que também revisa este bloco contra o checklist; não refaz.
+Duas peças decididas em `processo/02-estrutura.md` ("Visuais — decisão pelo critério"),
+renumeradas pela ordem de aparição no texto na etapa 4: **`graf-01` = Copom × taxa prefixada, a
+história longa** (o `graf-02` de `02-estrutura.md`) e **`graf-02` = o Prefixado 2029 em outubro** (o
+`graf-01` de lá). **Esta versão traz só o `graf-01`**, feito antes da etapa 8 a pedido do autor
+(2026-11-23), junto com o prompt do infográfico alternativo (`infograficos.md`, tensão T2). O
+`graf-02` entra na etapa 8, que também revisa este bloco contra o checklist; não refaz.
 
 Os tokens de marca são lidos em runtime de `../../brand/tokens/syntaxis.tokens.json`. Todo bloco
 roda a partir da raiz do repositório (`pipelines/hemingway/`) e foi testado com `python3` (plotly +
@@ -12,8 +14,8 @@ reserva da pilha. Reexportar com Montserrat, Source Sans 3 e IBM Plex Mono insta
 
 ## Dados
 
-O bloco baixa as séries das fontes primárias e grava `graficos/dados/graf-02.csv` (diária) e as duas
-versões enxutas usadas no prompt do infográfico (`graf-02-semanal.csv`, `graf-02-meta-selic.csv`).
+O bloco baixa as séries das fontes primárias e grava `graficos/dados/graf-01.csv` (diária) e as duas
+versões enxutas usadas no prompt do infográfico (`graf-01-semanal.csv`, `graf-01-meta-selic.csv`).
 Os `assert` conferem a série contra `processo/03-pesquisa.md` (itens 5 e 8). Só biblioteca padrão.
 O CSV do Tesouro tem 14,7 MB; para não baixar de novo, aponte `TD_CSV` para uma cópia local.
 
@@ -114,7 +116,7 @@ for d in sorted(set(swap) | set(td)):
                    "pre_1a": "" if pre is None else f"{pre:.4f}", "fonte_pre": fonte})
 
 os.makedirs(OUT, exist_ok=True)
-with open(os.path.join(OUT, "graf-02.csv"), "w", newline="", encoding="utf-8") as f:
+with open(os.path.join(OUT, "graf-01.csv"), "w", newline="", encoding="utf-8") as f:
     w = csv.DictWriter(f, fieldnames=list(linhas[0]))
     w.writeheader()
     w.writerows(linhas)
@@ -142,7 +144,7 @@ for r in linhas:
     k = date.fromisoformat(r["data"]).isocalendar()[:2]
     if semana.get(k, {}).get("data") not in EPISODIOS:
         semana[k] = r
-with open(os.path.join(OUT, "graf-02-semanal.csv"), "w", newline="", encoding="utf-8") as f:
+with open(os.path.join(OUT, "graf-01-semanal.csv"), "w", newline="", encoding="utf-8") as f:
     w = csv.writer(f)
     w.writerow(["data", "pre_1a"])
     for k in sorted(semana):
@@ -153,7 +155,7 @@ for r in linhas:
     if r["meta_selic"] != anterior:
         mudancas.append([r["data"], r["meta_selic"]])
         anterior = r["meta_selic"]
-with open(os.path.join(OUT, "graf-02-meta-selic.csv"), "w", newline="", encoding="utf-8") as f:
+with open(os.path.join(OUT, "graf-01-meta-selic.csv"), "w", newline="", encoding="utf-8") as f:
     w = csv.writer(f)
     w.writerow(["vigente_desde", "meta_selic"])
     w.writerows(mudancas)
@@ -161,7 +163,7 @@ assert all(semana[date.fromisoformat(d).isocalendar()[:2]]["data"] == d for d in
 print("semanal", len(semana), "mudancas da meta", len(mudancas))
 ```
 
-## graf-02
+## graf-01
 
 **Onde entra:** no Mito ("Prefixado para quem acha que o juro vai cair"), onde o autor deixou a NOTA
 PARA CLAUDE: depois de "…sobe quando ele corta, cai quando ele aperta." e antes de "Tem um pedaço
@@ -179,11 +181,11 @@ Tesouro Transparente, "Preço e taxa dos títulos do Tesouro Direto",
 https://www.tesourotransparente.gov.br/ckan/dataset/df56aa42-484a-4a59-8184-7676580c81e3/resource/796d2059-14e9-44e3-80c9-2d9e30b405c1/download/PrecoTaxaTesouroDireto.csv
 (data-base até 19/11/2026). Acesso em 2026-11-23. Interpolação de 1 ano: cálculo próprio.
 
-**Dados:** `posts/2026-11-23-a-peca-mais-simples/graficos/dados/graf-02.csv`, 6.184 dias úteis de
+**Dados:** `posts/2026-11-23-a-peca-mais-simples/graficos/dados/graf-01.csv`, 6.184 dias úteis de
 02/01/2002 a 19/11/2026. Colunas: `data`, `meta_selic`, `pre_1a` (vazio nos 124 dias do 1º semestre
 de 2023), `fonte_pre` (`swap_di_pre_360_b3` ou `ltn_td_interp_1a`).
 
-**Código Plotly executável** (gera `figuras/graf-02.svg` e `figuras/graf-02.png`):
+**Código Plotly executável** (gera `figuras/graf-01.svg` e `figuras/graf-01.png`):
 
 ```python
 import json
@@ -218,7 +220,7 @@ def num(v, casas=1):
     return f"{v:.{casas}f}".replace(".", ",")
 
 
-df = pd.read_csv(os.path.join(POST_DIR, "graficos/dados/graf-02.csv"), parse_dates=["data"])
+df = pd.read_csv(os.path.join(POST_DIR, "graficos/dados/graf-01.csv"), parse_dates=["data"])
 ix = df.set_index("data")
 
 fig = go.Figure()
@@ -280,8 +282,8 @@ fig.update_layout(
 
 out_dir = os.path.join(POST_DIR, "figuras")
 os.makedirs(out_dir, exist_ok=True)
-fig.write_image(os.path.join(out_dir, "graf-02.svg"))
-fig.write_image(os.path.join(out_dir, "graf-02.png"), scale=2)
+fig.write_image(os.path.join(out_dir, "graf-01.svg"))
+fig.write_image(os.path.join(out_dir, "graf-01.png"), scale=2)
 print("ok")
 ```
 
@@ -316,7 +318,7 @@ série no subtítulo), `color.neutral.slate` (meta Selic, eixos, subtítulo, rod
 
 **Título no gráfico:** "A taxa prefixada anda antes do Copom e salta sem ele"
 
-**Alt-text (para o placeholder `graf-02` em `post.md`, 115 caracteres):**
+**Alt-text (para o placeholder `graf-01` em `post.md`, 115 caracteres):**
 
 > Meta Selic e taxa prefixada de 1 ano, 2002 a 2026: a taxa vira antes do Copom e salta em crises com a Selic parada.
 
