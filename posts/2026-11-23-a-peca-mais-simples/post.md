@@ -5,7 +5,7 @@ slug: 2026-11-23-a-peca-mais-simples
 data: 2026-11-24
 linha_editorial: Notas de um Professor
 tags: [Notas de um Professor, Renda Fixa, Títulos Públicos, LTN]
-status: em-revisao
+status: aprovado
 resumo: "A LTN é o fator de desconto vendido em lotes de R$ 1.000: como precificá-la na planilha, medir o risco de preço e ler o que a taxa aposta. Quem compra LTN aposta contra a curva, e o prêmio de prazo explica por que o Prefixado 2029 perdeu 3,6% entre outubro e novembro de 2026 com a Selic parada."
 ---
 
