@@ -1,0 +1,272 @@
+{
+ "versao_esquema": "1.0",
+ "post": {
+  "slug": "2026-11-23-a-peca-mais-simples",
+  "linha": "notas-de-um-professor",
+  "titulo": "A Peça Mais Simples",
+  "data_video": "2026-11-25"
+ },
+ "estrategia": {
+  "segmento": "#GENZ-GREED",
+  "estagio_funil": "topo gratuito",
+  "cta": "o texto completo está na Syntaxis",
+  "eixo": "GREED"
+ },
+ "formato": {
+  "largura": 1080,
+  "altura": 1920,
+  "fps": 30,
+  "duracao_alvo_s": [
+   45,
+   90
+  ]
+ },
+ "tomadas": [
+  {
+   "id": "T1",
+   "bloco": "gancho",
+   "fala": "Em cinco semanas, o Tesouro Prefixado 2029 perdeu 3,6%.\nE a Selic nem se mexeu.\nComo assim?\nDizem que prefixado é para quem acha que os juros vão cair.\nTem um fundo de verdade: taxa e preço são uma gangorra.\nA taxa desse título subiu de 12,40% para 14,98%, e o preço desceu.",
+   "enquadramento": "plano médio, olhos no terço superior",
+   "nota": "gancho e gangorra"
+  },
+  {
+   "id": "T2",
+   "bloco": "virada",
+   "fala": "Só que, em 13 de outubro, ele pagava 12,40%, menos que a Selic, de 13,75%.\nO preço já contava com a queda dos juros.\nQuem compra prefixado não aposta na queda dos juros.\nAposta que a Selic vai ficar abaixo da taxa que travou.\nO mercado chama isso de apostar contra a curva.",
+   "enquadramento": "plano médio, olhos no terço superior",
+   "nota": "virada e tese; meio segundo de pausa antes de 'Aposta que'"
+  },
+  {
+   "id": "T3",
+   "bloco": "explicacao",
+   "fala": "Então por que a taxa subiu?\nEla tem duas partes: a Selic que o mercado espera e um extra pela dúvida, como a margem para imprevisto numa obra de preço fechado.\nCom a eleição, a dúvida cresceu, e a maior parte da alta veio desse extra.\nDo outro lado da gangorra, quem comprou em 17 de novembro travou 14,98%.\nMesmo com a Selic parada até 2029, 10 mil reais viram 13.405 no prefixado e 13.081 no Tesouro Selic.\nO prefixado só perde se a Selic média passar de uns 15%.",
+   "enquadramento": "plano médio, olhos no terço superior",
+   "nota": "~30 s: exceção à regra de 20 s (gravado antes da regra)"
+  },
+  {
+   "id": "T4",
+   "bloco": "fechamento",
+   "fala": "E quem comprou em outubro perdeu?\nSó se vender antes.\nQuem segura até 2029 recebe os 12,40% que travou.\nSe foi bom negócio, só 2029 vai dizer.\nO texto completo está na Syntaxis, a newsletter.\nQual foi o motivo do seu primeiro prefixado?",
+   "enquadramento": "plano médio, olhos no terço superior",
+   "nota": "ritmo mais lento; 2 s de silêncio no fim para o cartão final"
+  }
+ ],
+ "cenas": [
+  {
+   "id": "S1",
+   "tomada": "T1",
+   "ancora_inicio": "Em cinco semanas",
+   "ancora_fim": "Como assim?",
+   "visual": "camera",
+   "cartao": {
+    "id": "C1",
+    "modo": "sobreposto",
+    "chassi": "B",
+    "eyebrow": "TESOURO PREFIXADO 2029",
+    "texto": "Selic: 13,75% → 13,75%",
+    "destaque": "−3,6%"
+   },
+   "numeros": [
+    {
+     "valor": "3,6%",
+     "fonte": "Na tela, 3,6% a menos que em 13 de outubro."
+    },
+    {
+     "valor": "13,75%",
+     "fonte": "abaixo da Selic (a taxa básica de juros), que estava em 13,75%"
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "tomada": "T1",
+   "ancora_inicio": "Dizem que prefixado",
+   "ancora_fim": "um fundo de verdade",
+   "visual": "camera",
+   "zoom": {
+    "de": 1.0,
+    "para": 1.1,
+    "alvo": "rosto"
+   },
+   "numeros": []
+  },
+  {
+   "id": "S3",
+   "tomada": "T1",
+   "ancora_inicio": "taxa e preço são uma gangorra",
+   "ancora_fim": "o preço desceu",
+   "visual": "camera",
+   "cartao": {
+    "id": "C2",
+    "modo": "cheio",
+    "chassi": "C",
+    "eyebrow": "TAXA E PREÇO: UMA GANGORRA",
+    "texto": "Taxa sobe: 12,40% → 14,98%",
+    "destaque": "Preço desce"
+   },
+   "numeros": [
+    {
+     "valor": "12,40%",
+     "fonte": "custava R$ 773,74, a 12,40% ao ano"
+    },
+    {
+     "valor": "14,98%",
+     "fonte": "custava R$ 746,00, a 14,98% ao ano"
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "tomada": "T2",
+   "ancora_inicio": "Só que, em 13 de outubro",
+   "ancora_fim": "a queda dos juros",
+   "visual": "camera",
+   "cartao": {
+    "id": "C3",
+    "modo": "cheio",
+    "chassi": "C",
+    "eyebrow": "13/10/2026",
+    "texto": "Prefixado 2029: 12,40%\nSelic: 13,75%",
+    "destaque": "O preço já contava com a queda"
+   },
+   "numeros": [
+    {
+     "valor": "12,40%",
+     "fonte": "custava R$ 773,74, a 12,40% ao ano"
+    },
+    {
+     "valor": "13,75%",
+     "fonte": "abaixo da Selic (a taxa básica de juros), que estava em 13,75%"
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "tomada": "T2",
+   "ancora_inicio": "Quem compra prefixado",
+   "ancora_fim": "contra a curva",
+   "visual": "camera",
+   "zoom": {
+    "de": 1.0,
+    "para": 1.2,
+    "alvo": "rosto"
+   },
+   "cartao": {
+    "id": "C4",
+    "modo": "sobreposto",
+    "chassi": "B",
+    "eyebrow": "APOSTAR CONTRA A CURVA",
+    "texto": "Não aposta na queda dos juros.",
+    "destaque": "Aposta que a Selic fica abaixo da taxa travada."
+   },
+   "numeros": []
+  },
+  {
+   "id": "S6",
+   "tomada": "T3",
+   "ancora_inicio": "Então por que a taxa subiu?",
+   "ancora_fim": "veio desse extra",
+   "visual": "camera",
+   "cartao": {
+    "id": "C5",
+    "modo": "cheio",
+    "chassi": "C",
+    "eyebrow": "POR QUE A TAXA SUBIU",
+    "texto": "Selic esperada + extra pela dúvida\no mercado chama de prêmio de prazo",
+    "destaque": "A maior parte veio do extra",
+    "rodape": "Fonte: Focus (BCB), cálculo próprio"
+   },
+   "numeros": []
+  },
+  {
+   "id": "S7",
+   "tomada": "T3",
+   "ancora_inicio": "Do outro lado da gangorra",
+   "ancora_fim": "uns 15%",
+   "visual": "camera",
+   "cartao": {
+    "id": "C6",
+    "modo": "cheio",
+    "chassi": "C",
+    "eyebrow": "R$ 10 MIL · SELIC PARADA EM 13,75% ATÉ 2029",
+    "texto": "Tesouro Selic: R$ 13.081\nPrefixado: R$ 13.405",
+    "destaque": "Perde se a Selic média passar de ~15%",
+    "rodape": "valores brutos, cálculo próprio"
+   },
+   "numeros": [
+    {
+     "valor": "R$ 10 mil",
+     "fonte": "três cenários para R$ 10 mil aplicados em 17 de novembro"
+    },
+    {
+     "valor": "13,75%",
+     "fonte": "abaixo da Selic (a taxa básica de juros), que estava em 13,75%"
+    },
+    {
+     "valor": "R$ 13.081",
+     "fonte": "a LTN ainda ganha, R$ 13.405 contra R$ 13.081"
+    },
+    {
+     "valor": "R$ 13.405",
+     "fonte": "a LTN ainda ganha, R$ 13.405 contra R$ 13.081"
+    },
+    {
+     "valor": "15%",
+     "fonte": "o empate pede uma Selic média perto de 15% ao ano até 2029"
+    }
+   ]
+  },
+  {
+   "id": "S8",
+   "tomada": "T4",
+   "ancora_inicio": "E quem comprou em outubro",
+   "ancora_fim": "só 2029 vai dizer",
+   "visual": "camera",
+   "cartao": {
+    "id": "C7",
+    "modo": "sobreposto",
+    "chassi": "C",
+    "eyebrow": "SEGUROU ATÉ 2029",
+    "texto": "os 12,40% travados (brutos)",
+    "destaque": ""
+   },
+   "numeros": [
+    {
+     "valor": "12,40%",
+     "fonte": "custava R$ 773,74, a 12,40% ao ano"
+    }
+   ]
+  },
+  {
+   "id": "S9",
+   "tomada": "T4",
+   "ancora_inicio": "O texto completo",
+   "ancora_fim": "primeiro prefixado?",
+   "visual": "camera",
+   "cartao": {
+    "id": "C8",
+    "modo": "cheio",
+    "chassi": "B",
+    "eyebrow": "SYNTAXIS",
+    "texto": "syntaxis.substack.com\nConteúdo educacional. Não é recomendação de investimento.",
+    "destaque": "A peça mais simples",
+    "segurar_s": 2.5
+   },
+   "numeros": []
+  }
+ ],
+ "capa": {
+  "chassi": "B",
+  "eyebrow": "TESOURO PREFIXADO 2029",
+  "texto": "com a Selic parada",
+  "destaque": "−3,6%"
+ },
+ "legenda": {
+  "palavras_por_bloco_max": 4,
+  "destaque_palavra_falada": false
+ },
+ "fechamento": {
+  "pergunta": "Qual foi o motivo do seu primeiro prefixado?",
+  "convite": "o texto completo está na Syntaxis"
+ }
+}
