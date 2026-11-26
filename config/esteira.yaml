@@ -57,7 +57,7 @@ tipos:
 
 # Fatia C: roteiro e storyboard do vídeo (scripts/storyboard.py). A montagem é do ../spielberg.
 video:
-  duracao_alvo_s: [45, 90]         # regra do projeto (o 1º vídeo, de 2026-11-25, tem ~80 s)
+  duracao_alvo_s: [45, 90]         # regra do projeto (o 1º vídeo, de 2026-11-26, tem ~80 s)
   palavras_por_s: 2.9              # regra do projeto: taxa de fala estimada; calibrar com a transcrição real
   tomada_max_s: 20                 # regra do projeto: tomada curta é mais fácil de gravar sem erro
   cartao_palavras_max: {sobreposto: 15, cheio: 20, eyebrow: 6}   # regra do projeto: texto + destaque (o eyebrow conta à parte); o 1º vídeo chega a 15 e 18; calibrar

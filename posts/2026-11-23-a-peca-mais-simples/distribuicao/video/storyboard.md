@@ -2,7 +2,7 @@
 
 Gerado por `scripts/storyboard.py md` a partir de `storyboard.json`. Não edite à mão.
 
-Vídeo de 2026-11-25 · #GENZ-GREED · topo gratuito · ~82 s estimados (faixa 45–90 s)
+Vídeo de 2026-11-26 · #GENZ-GREED · topo gratuito · ~82 s estimados (faixa 45–90 s)
 
 ## Tomadas
 
@@ -10,7 +10,7 @@ Vídeo de 2026-11-25 · #GENZ-GREED · topo gratuito · ~82 s estimados (faixa 4
 |---|---|---|---|---|
 | T1 | gancho | Em cinco semanas, o Tesouro Prefixado 2029 perdeu 3,6%. / E a Selic nem se mexeu. / Como assim? / Dizem que prefixado é para quem acha que os juros vão cair. / Tem um fundo de verdade: taxa e preço são uma gangorra. / A taxa desse título subiu de 12,40% para 14,98%, e o preço desceu. | 18 | gancho e gangorra |
 | T2 | virada | Só que, em 13 de outubro, ele pagava 12,40%, menos que a Selic, de 13,75%. / O preço já contava com a queda dos juros. / Quem compra prefixado não aposta na queda dos juros. / Aposta que a Selic vai ficar abaixo da taxa que travou. / O mercado chama isso de apostar contra a curva. | 18 | virada e tese; meio segundo de pausa antes de 'Aposta que' |
-| T3 | explicacao | Então por que a taxa subiu? / Ela tem duas partes: a Selic que o mercado espera e um extra pela dúvida, como a margem para imprevisto numa obra de preço fechado. / Com a eleição, a dúvida cresceu, e a maior parte da alta veio desse extra. / Do outro lado da gangorra, quem comprou em 17 de novembro travou 14,98%. / Mesmo com a Selic parada até 2029, 10 mil reais viram 13.405 no prefixado e 13.081 no Tesouro Selic. / O prefixado só perde se a Selic média passar de uns 15%. | 31 | gravada em 2026-11-25, antes da regra de 20 s por tomada |
+| T3 | explicacao | Então por que a taxa subiu? / Ela tem duas partes: a Selic que o mercado espera e um extra pela dúvida, como a margem para imprevisto numa obra de preço fechado. / Com a eleição, a dúvida cresceu, e a maior parte da alta veio desse extra. / Do outro lado da gangorra, quem comprou em 17 de novembro travou 14,98%. / Mesmo com a Selic parada até 2029, 10 mil reais viram 13.405 no prefixado e 13.081 no Tesouro Selic. / O prefixado só perde se a Selic média passar de uns 15%. | 31 | roteiro aprovado em 2026-11-25, antes da regra de 20 s por tomada |
 | T4 | fechamento | E quem comprou em outubro perdeu? / Só se vender antes. / Quem segura até 2029 recebe os 12,40% que travou. / Se foi bom negócio, só 2029 vai dizer. / O texto completo está na Syntaxis, a newsletter. / Qual foi o motivo do seu primeiro prefixado? | 15 | ritmo mais lento; 2 s de silêncio no fim para o cartão final |
 
 ## Cenas

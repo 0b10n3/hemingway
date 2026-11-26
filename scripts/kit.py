@@ -133,8 +133,8 @@ def checar(kit, md, cfg, fontes, catalogo, url_post=None):
         esperada = pub + dt.timedelta(p["offset_dias"])
         if p["id"] in previstas and p["offset_dias"] != previstas[p["id"]]["offset_dias"]:
             erros.append(f"{p['id']}: offset {p['offset_dias']}, o config diz {previstas[p['id']]['offset_dias']}")
-        if d != esperada:
-            erros.append(f"{p['id']}: data {d} não bate com data_publicacao + {p['offset_dias']} ({esperada})")
+        if d < esperada:  # adiar pode (peça remarcada pelo autor); antecipar, não
+            erros.append(f"{p['id']}: data {d} antes de data_publicacao + {p['offset_dias']} ({esperada})")
         if DIAS[d.weekday()] in cfg["dias_sem_publicacao"]:
             erros.append(f"{p['id']}: cai num {DIAS[d.weekday()]}, dia sem publicação")
 
