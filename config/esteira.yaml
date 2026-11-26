@@ -48,12 +48,20 @@ tipos:
     producao_manual: [publicar no perfil pessoal do LinkedIn]
   video:
     textos: {linkedin: legenda-linkedin, instagram-reels: legenda-instagram, youtube-shorts-titulo: titulo-shorts, youtube-shorts-descricao: descricao-shorts}
-    arquivos: [distribuicao/textos.md]        # roteiro e prompts entram na Fatia C
-    producao_manual: [gravar em câmera, montar no CapCut, "publicar no LinkedIn, no Reels e no Shorts"]
+    arquivos: [distribuicao/textos.md, distribuicao/video/roteiro.md, distribuicao/video/storyboard.json, distribuicao/video/storyboard.md]
+    producao_manual: ["gravar as tomadas (roteiro.md)", conferir a transcrição no spielberg, aprovar o corte, publicar nos 3 canais]
   carrossel:
     textos: {linkedin: legenda-linkedin, instagram: legenda-instagram}
     arquivos: [distribuicao/textos.md]        # slides e prompt entram na Fatia B
     producao_manual: [gerar o carrossel, publicar o PDF no LinkedIn e as imagens no Instagram]
+
+# Fatia C: roteiro e storyboard do vídeo (scripts/storyboard.py). A montagem é do ../spielberg.
+video:
+  duracao_alvo_s: [45, 90]         # regra do projeto (o 1º vídeo, de 2026-11-26, tem ~80 s)
+  palavras_por_s: 2.9              # regra do projeto: taxa de fala estimada; calibrar com a transcrição real
+  tomada_max_s: 20                 # regra do projeto: tomada curta é mais fácil de gravar sem erro
+  cartao_palavras_max: {sobreposto: 15, cheio: 20, eyebrow: 6}   # regra do projeto: texto + destaque (o eyebrow conta à parte); o 1º vídeo chega a 15 e 18; calibrar
+  palavras_por_bloco_legenda: 4    # regra do projeto
 
 retorno:
   janela_min: 8                    # regra do projeto: por dia com peça publicada

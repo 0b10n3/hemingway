@@ -9,8 +9,8 @@ Kit válido (`scripts/kit.py validar`). Responda no mini-gate: `aceito`, ou os I
 | Data | Peça | IDs | Canais | Situação | Apetite | À mão |
 |---|---|---|---|---|---|---|
 | ter 24/11 | note-d0 | N1 | substack-notes | pronto | 5 min | publicar a Note no Substack |
-| qua 25/11 | video-d1 | L1, L2, L3, L4 | linkedin, instagram-reels, youtube-shorts | aguarda-producao | 30 min | gravar em câmera; montar no CapCut; publicar no LinkedIn, no Reels e no Shorts |
-| qui 26/11 | note-d2 | N2 | substack-notes | pronto | 5 min | publicar a Note no Substack |
+| qui 26/11 | video-d1 | L1, L2, L3, L4 | linkedin, instagram-reels, youtube-shorts | aguarda-producao | 30 min | gravar as tomadas (roteiro.md); conferir a transcrição no spielberg; aprovar o corte; publicar nos 3 canais |
+| sex 27/11 | note-d2 | N2 | substack-notes | pronto | 5 min | publicar a Note no Substack |
 | seg 30/11 | carrossel-d6 | L5, L6 | linkedin, instagram | aguarda-producao | 20 min | gerar o carrossel; publicar o PDF no LinkedIn e as imagens no Instagram |
 
 Apetite do kit: 60 min de peças + 4 dias × 8 min de resposta = 92 min.
@@ -30,7 +30,7 @@ Qual explicação você mais ouviu, nessas semanas, para um prefixado cair com a
 https://syntaxis.substack.com/p/a-peca-mais-simples
 ```
 
-### L1 · video-d1 · linkedin · qua 25/11 (996/3000 caracteres)
+### L1 · video-d1 · linkedin · qui 26/11 (996/3000 caracteres)
 
 ```text
 Em 8 de outubro, o Tesouro Nacional vendeu R$ 27,86 bilhões em LTN num único leilão, a taxas perto de 12,5% ao ano. A Selic estava em 13,75%.
@@ -47,25 +47,25 @@ O vídeo trata dessa diferença. O texto completo, com o preço da LTN na planil
 https://syntaxis.substack.com/p/a-peca-mais-simples
 ```
 
-### L2 · video-d1 · instagram-reels · qua 25/11 (296/2200 caracteres)
+### L2 · video-d1 · instagram-reels · qui 26/11 (296/2200 caracteres)
 
 ```text
 “O prefixado é para quem acha que os juros vão cair.” Tem um pedaço de verdade aí, mas quem compra já paga pela queda esperada no dia da compra. O vídeo mostra contra o que a LTN aposta de fato: a curva. O texto completo está na Syntaxis, link na bio. Qual foi o motivo do seu primeiro prefixado?
 ```
 
-### L3 · video-d1 · youtube-shorts-titulo · qua 25/11 (69/100 caracteres)
+### L3 · video-d1 · youtube-shorts-titulo · qui 26/11 (69/100 caracteres)
 
 ```text
 Quem compra LTN não aposta na queda dos juros. Aposta contra a curva.
 ```
 
-### L4 · video-d1 · youtube-shorts-descricao · qua 25/11 (224/5000 caracteres)
+### L4 · video-d1 · youtube-shorts-descricao · qui 26/11 (224/5000 caracteres)
 
 ```text
 O vídeo mostra contra o que a LTN aposta de fato e por que o preço dela pode cair com a Selic parada. O texto completo, com a conta, está na Syntaxis, a newsletter. Qual foi a primeira explicação de prefixado que você ouviu?
 ```
 
-### N2 · note-d2 · substack-notes · qui 26/11 (558/600 caracteres)
+### N2 · note-d2 · substack-notes · sex 27/11 (558/600 caracteres)
 
 ```text
 Pense num CDB prefixado de um banco médio, com vencimento em 1º de janeiro de 2029, a 16% ao ano, no mesmo 17 de novembro em que o Tesouro Prefixado 2029 pagava 14,98%.

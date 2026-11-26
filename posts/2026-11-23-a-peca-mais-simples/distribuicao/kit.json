@@ -35,14 +35,18 @@
         "youtube-shorts"
       ],
       "offset_dias": 1,
-      "data": "2026-11-25",
+      "data": "2026-11-26",
       "arquivos": [
-        "distribuicao/textos.md"
+        "distribuicao/textos.md",
+        "distribuicao/video/roteiro.md",
+        "distribuicao/video/storyboard.json",
+        "distribuicao/video/storyboard.md"
       ],
       "producao_manual": [
-        "gravar em câmera",
-        "montar no CapCut",
-        "publicar no LinkedIn, no Reels e no Shorts"
+        "gravar as tomadas (roteiro.md)",
+        "conferir a transcrição no spielberg",
+        "aprovar o corte",
+        "publicar nos 3 canais"
       ],
       "apetite_min": 30,
       "situacao": "aguarda-producao",
@@ -55,7 +59,7 @@
         "substack-notes"
       ],
       "offset_dias": 2,
-      "data": "2026-11-26",
+      "data": "2026-11-27",
       "arquivos": [
         "distribuicao/textos.md"
       ],

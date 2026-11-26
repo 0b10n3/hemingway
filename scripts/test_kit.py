@@ -113,10 +113,15 @@ class Checar(unittest.TestCase):
     def test_dia_de_publicacao_errado(self):
         self.assertReprova("cai numa segunda", k=kit(data=dt.date(2026, 11, 30)))
 
-    def test_data_que_nao_bate(self):
+    def test_data_antecipada(self):
         k = kit()
-        k["pecas"][1]["data"] = "2026-12-05"
-        self.assertReprova("não bate", k=k)
+        k["pecas"][1]["data"] = k["post"]["data_publicacao"]
+        self.assertReprova("antes de data_publicacao", k=k)
+
+    def test_data_adiada_passa(self):
+        k = kit()
+        k["pecas"][1]["data"] = (dt.date.fromisoformat(k["pecas"][1]["data"]) + dt.timedelta(1)).isoformat()
+        self.assertEqual(erros(k=k), [])
 
     def test_sabado(self):
         # Spoiler numa quinta: a peça D+2 cai no sábado.
@@ -254,6 +259,11 @@ class Guarda(unittest.TestCase):
         self.assertEqual(self.rodar("/x/hemingway/posts/2026-12-01-a/distribuicao/textos.md"), 0)
         self.assertEqual(self.rodar("/x/hemingway/posts/2026-12-01-a/distribuicao/kit.json"), 2)
         self.assertEqual(self.rodar("/x/hemingway/posts/2026-12-01-a/post.md"), 2)
+
+    def test_roteiro_e_storyboard_do_video(self):
+        self.assertEqual(self.rodar("/x/hemingway/posts/2026-12-01-a/distribuicao/video/roteiro.md"), 0)
+        self.assertEqual(self.rodar("/x/hemingway/posts/2026-12-01-a/distribuicao/video/storyboard.json"), 0)
+        self.assertEqual(self.rodar("/x/hemingway/posts/2026-12-01-a/distribuicao/video/storyboard.md"), 2)
 
 
 if __name__ == "__main__":
