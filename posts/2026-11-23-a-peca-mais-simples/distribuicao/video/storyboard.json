@@ -248,9 +248,14 @@
     "modo": "cheio",
     "chassi": "B",
     "eyebrow": "SYNTAXIS",
-    "texto": "syntaxis.substack.com\nConteúdo educacional. Não é recomendação de investimento.",
+    "texto": "syntaxis.substack.com",
     "destaque": "A peça mais simples",
-    "segurar_s": 2.5
+    "segurar_s": 2.5,
+    "rodape": "Conteúdo educacional. Não é recomendação de investimento.",
+    "ordem": [
+     "destaque",
+     "texto"
+    ]
    },
    "numeros": []
   }
