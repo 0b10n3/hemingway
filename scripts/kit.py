@@ -5,7 +5,7 @@
         Sem data: o próximo dia de publicação da linha, a partir de hoje.
   python3 scripts/kit.py validar <slug>    confere kit.json e textos.md; escreve kit.md (mini-gate)
   python3 scripts/kit.py url <slug>        troca {{URL_POST}} pela url_publicada do post.md e revalida
-  python3 scripts/kit.py guarda            hook PreToolUse: o subagent só escreve distribuicao/textos.md
+  python3 scripts/kit.py guarda            hook PreToolUse: o subagent só escreve textos.md, video/roteiro.md e video/storyboard.json
 """
 import datetime as dt
 import json
@@ -285,10 +285,10 @@ def url(slug):
 
 def guarda():
     caminho = json.load(sys.stdin).get("tool_input", {}).get("file_path", "")
-    if re.search(r"(^|/)posts/[^/]+/distribuicao/textos\.md$", caminho):
+    if re.search(r"(^|/)posts/[^/]+/distribuicao/(textos\.md|video/roteiro\.md|video/storyboard\.json)$", caminho):
         return 0
-    print(f"os subagents da distribuição só escrevem posts/<slug>/distribuicao/textos.md, não {caminho} "
-          "(kit.json e kit.md são do scripts/kit.py)", file=sys.stderr)
+    print(f"os subagents da distribuição só escrevem distribuicao/textos.md, video/roteiro.md e "
+          f"video/storyboard.json, não {caminho} (kit.json, kit.md e storyboard.md são dos scripts)", file=sys.stderr)
     return 2
 
 

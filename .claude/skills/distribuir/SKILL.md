@@ -8,7 +8,7 @@ allowed-tools: Read Edit Glob Grep Bash(python3 *) Bash(git add *) Bash(git comm
 
 Orquestrador da etapa Distribuição. Roda na sessão principal porque termina num gate humano.
 É uma cadeia fixa, com código entre os passos: `kit.py montar` → `redator-distribuicao` →
-`kit.py validar` → mini-gate. A conversa principal não lê o post nem o guia de voz: recebe só os
+`kit.py validar` → (vídeo) `diretor-visual` → `storyboard.py md` + `validar` → mini-gate. A conversa principal não lê o post nem o guia de voz: recebe só os
 arquivos gerados e o relatório do validador.
 
 Regras e números: `config/esteira.yaml`. Referência dos subagentes: skill `distribuicao`.
@@ -34,13 +34,21 @@ Regras e números: `config/esteira.yaml`. Referência dos subagentes: skill `dis
 3. `python3 scripts/kit.py validar <slug>`. Se reprovar, mande os erros ao mesmo subagente e peça
    uma nova versão **uma vez**. Se reprovar de novo, siga: o `kit.md` sai marcado "KIT INVÁLIDO",
    com os erros visíveis. A etapa nunca trava a publicação do post.
-4. Se o post já tem `url_publicada` (um caso antigo, por exemplo), rode
+4. **Vídeo (só quando o kit tem peça `video`).** O `redator-distribuicao` do passo 2 também escreve
+   `distribuicao/video/roteiro.md` (a fala). Depois:
+   1. Dispare o `diretor-visual` com o slug e o `post.data_video` de
+      `python3 scripts/storyboard.py data <slug>`. Ele escreve `distribuicao/video/storyboard.json`.
+   2. `python3 scripts/storyboard.py md <slug>` e `python3 scripts/storyboard.py validar <slug>`. Se
+      reprovar, mande os erros ao mesmo subagente **uma vez** (erro de fala vai ao redator, de cartão ao
+      diretor-visual). Se reprovar de novo, leve os erros ao mini-gate.
+   A montagem é do `../spielberg` (`/spielberg <slug>`), que lê o storyboard. Não o edite.
+5. Se o post já tem `url_publicada` (um caso antigo, por exemplo), rode
    `python3 scripts/kit.py url <slug>`.
-5. Commit `feat(<slug>): distribuição — textos do kit`.
+6. Commit `feat(<slug>): distribuição — textos do kit` (e roteiro e storyboard, se houver vídeo).
 
 ## Mini-gate
 
-Mostre o `kit.md` inteiro. Use `AskUserQuestion` com três saídas: **aceitar**, **ajustar por ID**,
+Mostre o `kit.md` inteiro e, se houver vídeo, o `video/storyboard.md`. Use `AskUserQuestion` com três saídas: **aceitar**, **ajustar por ID**,
 **deixar para depois**.
 
 - **Ajustar:** o autor diz os IDs e o que mudar ("N1: gancho mais curto; L2 sem a segunda frase").
@@ -60,12 +68,14 @@ Mostre o `kit.md` inteiro. Use `AskUserQuestion` com três saídas: **aceitar**,
   `kit.py url`, que troca `{{URL_POST}}` em todos os arquivos do kit e marca as peças como prontas.
   Nenhum modelo mexe nessa troca.
 - O `../uther-pendragon` lê `kit.json` e `config/esteira.yaml` para planejar a semana. Não o edite.
-- Vídeo e carrossel ficam `aguarda-producao`: por ora o kit traz só as legendas deles (o roteiro e
-  o carrossel entram nas fatias B e C).
+- Vídeo e carrossel ficam `aguarda-producao`. O vídeo já sai com roteiro e storyboard (Fatia C); o
+  autor grava as tomadas (`roteiro.md`) e roda `/spielberg <slug>` no `../spielberg`. O carrossel
+  entra na Fatia B.
 
 ## Regras
 
 - A etapa não altera `post.md` nem `marketing.json`. Escreve só em `posts/<slug>/distribuicao/` e
   na chave `distribuicao` de `estado.json`.
+- `storyboard.md` e `post.data_video` são do script. Nenhum modelo os escreve.
 - Datas, IDs, `kit.json` e `kit.md` são do script. Nenhum modelo os escreve.
 - Push só com o ok do autor.

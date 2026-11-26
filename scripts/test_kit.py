@@ -255,6 +255,11 @@ class Guarda(unittest.TestCase):
         self.assertEqual(self.rodar("/x/hemingway/posts/2026-12-01-a/distribuicao/kit.json"), 2)
         self.assertEqual(self.rodar("/x/hemingway/posts/2026-12-01-a/post.md"), 2)
 
+    def test_roteiro_e_storyboard_do_video(self):
+        self.assertEqual(self.rodar("/x/hemingway/posts/2026-12-01-a/distribuicao/video/roteiro.md"), 0)
+        self.assertEqual(self.rodar("/x/hemingway/posts/2026-12-01-a/distribuicao/video/storyboard.json"), 0)
+        self.assertEqual(self.rodar("/x/hemingway/posts/2026-12-01-a/distribuicao/video/storyboard.md"), 2)
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -69,6 +69,49 @@ carrossel não repete os slides.
 O convite para assinar é um pedido simples ("O texto completo está na Syntaxis, a newsletter."), sem
 oferta de brinde enquanto ele não estiver disponível.
 
+## Roteiro do vídeo D+1 (Fatia C)
+
+Quem escreve a **fala** é o `redator-distribuicao`, em `distribuicao/video/roteiro.md`. Quem escreve a
+**direção visual** (cartões, zoom, capa) é o `diretor-visual`, em `distribuicao/video/storyboard.json`.
+A montagem é do `../spielberg`, que só lê. Limites: `config/esteira.yaml` → `video`. Validador:
+`scripts/storyboard.py`.
+
+### Linguagem popular e cativante (definição operacional)
+
+| | É | Não é |
+|---|---|---|
+| **Popular** | palavra do dia a dia; sigla traduzida na primeira vez ("a LTN, o título prefixado do Tesouro") ou trocada pelo nome que o público vê no app ("Tesouro Prefixado"); número traduzido para o bolso ("10 mil reais viram 13.405"); frase de até ~12 palavras, uma ideia por frase; voz ativa; "você" | gíria forçada; simplificação que fica errada; perder o rigor |
+| **Cativante** | gancho nos 3 primeiros segundos com uma tensão ou pergunta concreta, tirada da frase mais forte do post; uma virada no meio; troca visual a cada poucos segundos (cena, cartão ou zoom); fecho com uma pergunta que o público responde e o convite | urgência falsa; promessa de ganho; "ninguém te conta isso"; emoji; clickbait; os anti-padrões do `AUDIENCES.md` §5 |
+
+Teste: um estagiário entende na primeira escuta, e um gestor sênior não torce o nariz. A fala segue o
+`estilo-autoral.md`, adaptado à fala: frase curta, primeira pessoa quando for opinião ou método. Nunca
+invente história pessoal do autor. Antítese "não é X, é Y" no máximo uma vez (a tese).
+
+Uma imagem que o público já conhece (uma gangorra, uma obra de preço fechado) explica melhor que o termo
+técnico. O termo vem depois, uma vez, com a tradução ("o mercado chama isso de prêmio de prazo").
+
+**Regra do número na tela:** todo número que aparece num cartão precisa ser **falado** e estar no post.
+O spielberg confere contra a transcrição e reprova o render. Número que não é falado sai do cartão.
+
+### Formato do `roteiro.md` (teleprompter)
+
+- Uma frase por linha. `[pausa]` = meio segundo de silêncio.
+- Tomadas `## T1 · <bloco> (~N s)`, cada uma com até 20 s de fala (`video.tomada_max_s`), para o autor
+  repetir a tomada inteira se errar.
+- Duração total dentro de `video.duracao_alvo_s`, estimada a `video.palavras_por_s`.
+- Termina com o convite ("O texto completo está na Syntaxis, a newsletter.") e a pergunta.
+
+### O `storyboard.json`
+
+- `tomadas[].fala` copia literalmente as linhas do `roteiro.md` (sem `[pausa]`).
+- Cada cena ancora em dois trechos **literais** da fala da tomada (`ancora_inicio`, `ancora_fim`).
+  Nunca em segundos: os tempos saem da transcrição no spielberg.
+- Cartão: `sobreposto` (caixa sobre a câmera) ou `cheio` (tela inteira); chassi do `brand/SOCIAL.md` §6.
+  Texto + destaque até `video.cartao_palavras_max`. Um cartão por vez.
+- `numeros[]` lista cada número do cartão com a fonte: trecho literal do post.
+- `post.data_video`: `python3 scripts/storyboard.py data <slug>` (vem do kit.json). Nunca à mão.
+- `estrategia`: segmento, eixo e estágio do `marketing.json`.
+
 ## Formato de `textos.md`
 
 O `scripts/kit.py montar` cria o arquivo com um cabeçalho por texto, já com o ID e na ordem das

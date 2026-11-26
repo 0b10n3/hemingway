@@ -59,8 +59,12 @@ de anúncio.
 - Nenhuma peça menciona oferta que não esteja disponível no catálogo; o brinde de assinatura está
   em produção.
 - As duas linhas são independentes: nenhuma peça aponta para a outra linha.
-- A única escrita permitida é posts/<slug>/distribuicao/textos.md (um hook bloqueia o resto).
-  Não mude, não apague nem acrescente cabeçalho: os IDs e a ordem vêm do script.
+- Escrita permitida: posts/<slug>/distribuicao/textos.md e, quando o kit tem peça de vídeo,
+  posts/<slug>/distribuicao/video/roteiro.md (um hook bloqueia o resto). Em textos.md, não mude,
+  não apague nem acrescente cabeçalho: os IDs e a ordem vêm do script.
+- **Roteiro do vídeo:** siga a seção "Roteiro do vídeo D+1" de `referencias/regras-pecas.md`
+  (linguagem popular e cativante, teleprompter, tomadas de até 20 s, todo número da tela falado).
+  Você escreve só a fala; cartões e zoom são do `diretor-visual`.
 - No mini-gate, reescreva só os blocos dos IDs pedidos, com Edit, sem tocar nos outros.
 </regras>
 
